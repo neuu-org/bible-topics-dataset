@@ -56,9 +56,11 @@ bible-topics-dataset/
 │       └── A/ (334), C/ (1), D/ (1)
 │
 ├── scripts/
-│   ├── create_v3_unified.py         # 00_raw → 01_parsed (merge all sources)
-│   ├── extract_definition_refs.py   # Extract refs from definitions
-│   └── integrate_crossrefs.py       # Add cross-reference networks (external dep)
+│   ├── parse_nave.py                # 00_raw/xml → 02_sources/nave (standalone, bs4)
+│   ├── parse_torrey.py              # 00_raw/xml → 02_sources/torrey (standalone, bs4)
+│   ├── create_v3_unified.py         # 02_sources + dictionary → 01_parsed
+│   ├── extract_definition_refs.py   # 01_parsed → 01_parsed (+ definition_refs)
+│   └── integrate_crossrefs.py       # 01_parsed + crossrefs → 01_parsed (external dep)
 │
 ├── CHANGELOG.md
 └── LICENSE
@@ -94,18 +96,40 @@ Per-file topics from each source independently. Useful for provenance tracking a
 
 336 topics (primarily letter A) with 100% AI enrichment. Used as the official pilot for hybrid search research.
 
-## Build Chain
+## Pipeline
 
 ```
-XML (00_raw/xml/)
-    ↓ parse (Nave XML parser + Torrey XML parser)
-02_sources/ (per-source)
-    ↓ create_v3_unified.py (+ Easton + Smith from bible-dictionary-dataset)
-01_parsed/ (7,873 merged)
-    ↓ extract_definition_refs.py
-+ definition_refs (68.6%)
-    ↓ run_phase0.py (AI enrichment, external)
-03_pilot/ (336 fully enriched)
+00_raw/xml/nave_bible.xml   → parse_nave.py     → 02_sources/nave/    (5,320 topics)
+00_raw/xml/torrey_ttt.xml   → parse_torrey.py   → 02_sources/torrey/  (622 topics)
+                                    ↓
+02_sources/ + bible-dictionary-dataset → create_v3_unified.py → 01_parsed/ (7,873 merged)
+                                    ↓
+01_parsed/ → extract_definition_refs.py → 01_parsed/ (+ definition_refs, 68.6%)
+                                    ↓
+01_parsed/ → run_phase0.py (AI enrichment, external) → 03_pilot/ (336 fully enriched)
+```
+
+### Requirements
+
+```bash
+pip install beautifulsoup4  # For parse_nave.py and parse_torrey.py
+```
+
+### Reproducing from scratch
+
+```bash
+# Step 1: Parse XMLs into per-source topics
+python scripts/parse_nave.py --all --verbose
+python scripts/parse_torrey.py --all --verbose
+
+# Step 2: Merge into unified V3 (requires bible-dictionary-dataset as sibling dir)
+python scripts/create_v3_unified.py
+
+# Step 3: Extract definition references
+python scripts/extract_definition_refs.py
+
+# Step 4 (optional): Integrate cross-references (requires bible-crossrefs-dataset)
+python scripts/integrate_crossrefs.py
 ```
 
 ## License

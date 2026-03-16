@@ -17,8 +17,8 @@ from pathlib import Path
 from typing import Any
 
 # Paths
-PROJECT_ROOT = Path(__file__).parent.parent
-V3_DIR = PROJECT_ROOT / "data" / "dataset" / "topics_v3"
+REPO_ROOT = Path(__file__).parent.parent
+V3_DIR = REPO_ROOT / "data" / "01_unified"
 
 # Book abbreviation mappings (common patterns in dictionaries)
 BOOK_PATTERNS = {
@@ -359,21 +359,6 @@ def process_topic(topic_data: dict) -> dict:
             "books": sorted(list(books))
         }
 
-        # Rebuild cross_reference_network: align keys to extracted_refs perverse list
-        cr = topic_data.get('cross_reference_network', {}) or {}
-        # Build set of extracted verse keys
-        extracted_keys = set()
-        for r in unique_refs:
-            for v in r['verses']:
-                extracted_keys.add(f"{r['book']} {r['chapter']}:{v}")
-
-        new_cr = {}
-        for k in sorted(extracted_keys):
-            # keep existing mapping if present; else create empty list
-            new_cr[k] = cr.get(k, [])
-
-        topic_data['cross_reference_network'] = new_cr
-    
     return topic_data
 
 

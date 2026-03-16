@@ -17,9 +17,11 @@ from collections import defaultdict, Counter
 from typing import Any
 
 # Paths
-PROJECT_ROOT = Path(__file__).parent.parent
-V3_DIR = PROJECT_ROOT / "data" / "dataset" / "topics_v3"
-CROSSREF_DIR = PROJECT_ROOT / "data" / "dataset" / "cross_references" / "unified" / "verses"
+REPO_ROOT = Path(__file__).parent.parent
+V3_DIR = REPO_ROOT / "data" / "01_unified"
+# NOTE: CROSSREF_DIR is an external dependency from bible-crossrefs-dataset.
+#       Adjust this path to point to the local clone of that repo.
+CROSSREF_DIR = REPO_ROOT / ".." / "bible-crossrefs-dataset" / "data" / "01_unified" / "verses"
 
 # Book name to cross-ref abbreviation mapping
 BOOK_TO_ABBREV = {

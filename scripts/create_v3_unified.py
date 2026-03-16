@@ -44,10 +44,12 @@ from collections import defaultdict
 from typing import Any
 
 # Paths
-PROJECT_ROOT = Path(__file__).parent.parent
-V2_DIR = PROJECT_ROOT / "data" / "dataset" / "topics_v2"
-DICT_DIR = PROJECT_ROOT / "data" / "dataset" / "dictionary"
-V3_DIR = PROJECT_ROOT / "data" / "dataset" / "topics_v3"
+REPO_ROOT = Path(__file__).parent.parent
+V2_DIR = REPO_ROOT / "data" / "00_raw"
+# NOTE: Dictionary data lives in a separate repo (bible-dictionary-dataset).
+#       Set DICT_DIR to an external path or skip dictionary loading when unavailable.
+DICT_DIR = REPO_ROOT / ".." / "bible-dictionary-dataset" / "data" / "01_unified"
+V3_DIR = REPO_ROOT / "data" / "01_unified"
 
 
 def slugify(text: str) -> str:

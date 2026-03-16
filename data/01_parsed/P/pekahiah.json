@@ -1,63 +1,63 @@
 {
   "topic": "PEKAHIAH",
   "slug": "pekahiah",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Son of Menahem",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "King of Israel 2Ki 15:22-26",
-      "references": [
-        "2Kgs 15:22-26"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Plotted against and killed by Pekah 2Ki 15:25",
-      "references": [
-        "2Kgs 15:25"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.717442+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "King of Israel",
+      "references": [
+        "2 Kings 15:22-26"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Plotted against and killed by Pekah",
+      "references": [
+        "2 Kings 15:25"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "2 Kings",
       "chapter": 15,
       "verses": [
+        22,
         23,
         24,
         25,
         26
       ],
-      "verse_count": 4,
+      "verse_count": 5,
       "testament": "OT",
-      "raw": "2 Kings 15:23-26",
-      "source": "EAS"
+      "raw": "2 Kings 15:22-26"
+    },
+    {
+      "book": "2 Kings",
+      "chapter": 15,
+      "verses": [
+        25
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Kings 15:25"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "2 Kings"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 2,
+    "ot_refs": 2,
+    "nt_refs": 0,
+    "books_count": 1,
+    "top_books": [
+      "2 Kings"
+    ]
+  }
 }

@@ -1,69 +1,142 @@
 {
   "topic": "KENITES",
-  "topic_slug": "kenites",
+  "slug": "kenites",
   "canonical_id": "NAV:kenites",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–1. A Canaanite tribe whose country was given to AbrahamGe 15:19;Nu 24:21-23\n–2. The descendants of Jethro, a Midianite, the father-in-law \nof Moses\n  .Join the Israelites and live at JerichoJud 1:16;4:11;1Ch 2:55\n  .Later in the wilderness of JudahJud 1:16,17\n  .Jael, one of the, betrays and kills SiseraJud 4:17-21",
-  "content_preview": "–1. A Canaanite tribe whose country was given to AbrahamGe 15:19;Nu 24:21-23",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–1. A Canaanite tribe whose country was given to AbrahamGe 15:19;Nu 24:21-23",
-      "raw_segment": "–1. A Canaanite tribe whose country was given to AbrahamGe 15:19;Nu 24:21-23"
+      "label": "1. A",
+      "references": [
+        "Genesis 15:19",
+        "Numbers 24:21-23"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–2. The descendants of Jethro, a Midianite, the father-in-law \nof Moses",
-      "raw_segment": "–2. The descendants of Jethro, a Midianite, the father-in-law \nof Moses"
+      "label": "2. The",
+      "references": []
+    },
+    {
+      "label": "of Moses",
+      "references": []
+    },
+    {
+      "label": ".Join the Israelites and live at",
+      "references": [
+        "Judges 1:16",
+        "Judges 4:11",
+        "1 Chronicles 2:55"
+      ]
+    },
+    {
+      "label": ".Later in the wil",
+      "references": [
+        "Judges 1:16,17"
+      ]
+    },
+    {
+      "label": ".Jael, one of the, betrays and kills Sisera",
+      "references": [
+        "Judges 4:17-21"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Genesis",
+      "chapter": 15,
+      "verses": [
+        19
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 15:19"
+    },
+    {
+      "book": "Numbers",
+      "chapter": 24,
+      "verses": [
+        21,
+        22,
+        23
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Numbers 24:21-23"
+    },
+    {
+      "book": "Judges",
+      "chapter": 1,
+      "verses": [
+        16
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Judges 1:16"
+    },
+    {
+      "book": "Judges",
+      "chapter": 4,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Judges 4:11"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 2,
+      "verses": [
+        55
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 2:55"
+    },
+    {
+      "book": "Judges",
+      "chapter": 1,
+      "verses": [
+        16,
+        17
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Judges 1:16,17"
+    },
+    {
+      "book": "Judges",
+      "chapter": 4,
+      "verses": [
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "verse_count": 5,
+      "testament": "OT",
+      "raw": "Judges 4:17-21"
+    }
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Genesis",
+    "Judges",
+    "Numbers"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 6,
+    "total_refs": 7,
+    "ot_refs": 7,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:92846a5719bcbfd6da30657b5fb7bb7907d71ba15d5786f73d72975f6eb1d255",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 6
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 4,
+    "top_books": [
+      "Judges",
+      "Genesis",
+      "Numbers",
+      "1 Chronicles"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:28:20.566492Z",
-  "updated_at": "2025-09-20T17:28:20.566499Z"
+  }
 }

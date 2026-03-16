@@ -1,195 +1,83 @@
 {
   "topic": "CART",
   "slug": "cart",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "General scriptures concerning 1Sa 6:7-14; 2Sa 6:3; Isa 28:27,28",
-      "references": [
-        "1Sam 6:7-14",
-        "2Sam 6:3",
-        "Isa 28:27",
-        "Isa 28:28"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "See WAGON",
-      "references": [],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "2 Samuel",
-      "book_abbrev": "2sa",
-      "chapter": 6,
-      "testament": "OT",
-      "verses": [
-        3
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Isaiah",
-      "book_abbrev": "isa",
-      "chapter": 28,
-      "testament": "OT",
-      "verses": [
-        27,
-        28
-      ],
-      "verse_count": 2
-    }
+  "sources": [
+    "NAV"
   ],
   "see_also": [
     "WAGON"
   ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 2,
-    "nt_refs": 0,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.676572+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "aspects": [
     {
-      "book": "2 Samuel",
-      "chapter": 6,
-      "verses": [
-        3
+      "label": "General scriptures concerning",
+      "references": [
+        "1 Samuel 6:7-14",
+        "2 Samuel 6:3",
+        "Isaiah 28:27,28"
       ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "2 Samuel 6:3",
-      "source": "EAS"
+      "source": "NAV"
     },
+    {
+      "label": "SeeWAGON",
+      "references": [],
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
     {
       "book": "1 Samuel",
       "chapter": 6,
       "verses": [
         7,
-        8
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
       ],
-      "verse_count": 2,
+      "verse_count": 8,
       "testament": "OT",
-      "raw": "1 Samuel 6:7, 8",
-      "source": "EAS"
-    },
-    {
-      "book": "Genesis",
-      "chapter": 45,
-      "verses": [
-        19
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Genesis 45:19",
-      "source": "EAS"
-    },
-    {
-      "book": "Psalms",
-      "chapter": 46,
-      "verses": [
-        9
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Psalms 46:9",
-      "source": "EAS"
-    },
-    {
-      "book": "Numbers",
-      "chapter": 7,
-      "verses": [
-        3,
-        6
-      ],
-      "verse_count": 2,
-      "testament": "OT",
-      "raw": "Numbers 7:3, 6",
-      "source": "EAS"
-    },
-    {
-      "book": "Isaiah",
-      "chapter": 5,
-      "verses": [
-        18
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Isaiah 5:18",
-      "source": "EAS"
-    },
-    {
-      "book": "Genesis",
-      "chapter": 45,
-      "verses": [
-        19,
-        27
-      ],
-      "verse_count": 2,
-      "testament": "OT",
-      "raw": "Genesis 45:19,27",
-      "source": "SMI"
-    },
-    {
-      "book": "Numbers",
-      "chapter": 7,
-      "verses": [
-        3,
-        7,
-        8
-      ],
-      "verse_count": 3,
-      "testament": "OT",
-      "raw": "Numbers 7:3,7,8",
-      "source": "SMI"
+      "raw": "1 Samuel 6:7-14"
     },
     {
       "book": "2 Samuel",
       "chapter": 6,
       "verses": [
-        6
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "2 Samuel 6:6",
-      "source": "SMI"
-    },
-    {
-      "book": "Numbers",
-      "chapter": 7,
-      "verses": [
         3
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Numbers 7:3",
-      "source": "SMI"
+      "raw": "2 Samuel 6:3"
     },
     {
-      "book": "Amos",
-      "chapter": 2,
+      "book": "Isaiah",
+      "chapter": 28,
       "verses": [
-        13
+        27,
+        28
       ],
-      "verse_count": 1,
+      "verse_count": 2,
       "testament": "OT",
-      "raw": "Amos 2:13",
-      "source": "SMI"
+      "raw": "Isaiah 28:27,28"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Samuel",
+    "2 Samuel",
+    "Isaiah"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 3,
+    "ot_refs": 3,
+    "nt_refs": 0,
+    "books_count": 3,
+    "top_books": [
+      "1 Samuel",
+      "2 Samuel",
+      "Isaiah"
+    ]
+  }
 }

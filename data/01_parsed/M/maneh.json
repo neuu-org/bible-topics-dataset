@@ -1,90 +1,41 @@
 {
   "topic": "MANEH",
   "slug": "maneh",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "(A weight)",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "Rendered pound 1Ki 10:17; Ezr 2:69; Ne 7",
-      "references": [
-        "1Kgs 10:17",
-        "Ezra 2:69",
-        "Neh 7"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Equal to one-hundred shekels 1Ki 10:17; with 2Ch 9:16",
-      "references": [
-        "1Kgs 10:17",
-        "2Chr 9:16"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "See WEIGHTS",
-      "references": [],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Ezra",
-      "book_abbrev": "ezr",
-      "chapter": 2,
-      "testament": "OT",
-      "verses": [
-        69
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Nehemiah",
-      "book_abbrev": "neh",
-      "chapter": 7,
-      "testament": "OT",
-      "verses": [],
-      "verse_count": 1
-    }
+  "sources": [
+    "NAV"
   ],
   "see_also": [
     "WEIGHTS"
   ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 4,
-    "ot_refs": 2,
-    "nt_refs": 0,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.703699+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "aspects": [
     {
-      "book": "Ezekiel",
-      "chapter": 45,
-      "verses": [
-        12
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Ezekiel 45:12",
-      "source": "EAS"
+      "label": "(A weight)",
+      "references": [],
+      "source": "NAV"
     },
+    {
+      "label": "Ren",
+      "references": [
+        "1 Kings 10:17",
+        "Ezra 2:69"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Equal to one-hundred shekels",
+      "references": [
+        "1 Kings 10:17",
+        "2 Chronicles 9:16"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeWEIGHTS",
+      "references": [],
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
     {
       "book": "1 Kings",
       "chapter": 10,
@@ -93,8 +44,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Kings 10:17",
-      "source": "EAS"
+      "raw": "1 Kings 10:17"
     },
     {
       "book": "Ezra",
@@ -104,20 +54,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Ezra 2:69",
-      "source": "EAS"
-    },
-    {
-      "book": "Nehemiah",
-      "chapter": 7,
-      "verses": [
-        71,
-        72
-      ],
-      "verse_count": 2,
-      "testament": "OT",
-      "raw": "Nehemiah 7:71, 72",
-      "source": "EAS"
+      "raw": "Ezra 2:69"
     },
     {
       "book": "2 Chronicles",
@@ -127,8 +64,24 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Chronicles 9:16",
-      "source": "EAS"
+      "raw": "2 Chronicles 9:16"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Kings",
+    "2 Chronicles",
+    "Ezra"
+  ],
+  "stats": {
+    "total_aspects": 4,
+    "total_refs": 3,
+    "ot_refs": 3,
+    "nt_refs": 0,
+    "books_count": 3,
+    "top_books": [
+      "1 Kings",
+      "Ezra",
+      "2 Chronicles"
+    ]
+  }
 }

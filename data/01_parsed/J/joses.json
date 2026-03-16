@@ -1,58 +1,97 @@
 {
   "topic": "JOSES",
   "slug": "joses",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "1. One of the physical brothers of Jesus Mt 13:55; 27:56; Mr 6:3; 15:40,47",
+      "label": "1. One of the physi",
       "references": [
-        "Matt 13:55",
-        "Matt 27:56",
+        "Matthew 13:55",
+        "Matthew 27:56",
         "Mark 6:3",
-        "Mark 15:40",
-        "Mark 15:47"
+        "Mark 15:40,47"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "2. A Levite, surnamed Barnabas by the apostles Ac 4:36",
+      "label": "2. A Levite, surnamed Barnabas by the apostles",
       "references": [
         "Acts 4:36"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Mark",
-      "book_abbrev": "mrk",
-      "chapter": 6,
-      "testament": "NT",
+      "book": "Matthew",
+      "chapter": 13,
       "verses": [
-        3,
-        15
+        55
       ],
-      "verse_count": 2
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 13:55"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 27,
+      "verses": [
+        56
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 27:56"
+    },
+    {
+      "book": "Mark",
+      "chapter": 6,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Mark 6:3"
+    },
+    {
+      "book": "Mark",
+      "chapter": 15,
+      "verses": [
+        40,
+        47
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Mark 15:40,47"
+    },
+    {
+      "book": "Acts",
+      "chapter": 4,
+      "verses": [
+        36
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 4:36"
     }
   ],
-  "see_also": [],
-  "aliases": [],
+  "books_mentioned": [
+    "Acts",
+    "Mark",
+    "Matthew"
+  ],
   "stats": {
-    "entries_count": 2,
+    "total_aspects": 2,
+    "total_refs": 5,
     "ot_refs": 0,
-    "nt_refs": 1,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.697723+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0"
+    "nt_refs": 5,
+    "books_count": 3,
+    "top_books": [
+      "Matthew",
+      "Mark",
+      "Acts"
+    ]
+  }
 }

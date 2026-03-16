@@ -1,103 +1,157 @@
 {
   "topic": "CABINET",
-  "topic_slug": "cabinet",
+  "slug": "cabinet",
   "canonical_id": "NAV:cabinet",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "COUNSELLOR"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "COUNSELLOR",
-      "clean": "COUNSELLOR",
-      "slug": "counsellor",
-      "canonical_id": "NAV:counsellor"
+      "label": "Heads of",
+      "references": []
+    },
+    {
+      "label": "David’s",
+      "references": [
+        "2 Samuel 8:15-18",
+        "2 Samuel 15:12",
+        "2 Samuel 20:23-26",
+        "1 Chronicles 27:32-34"
+      ]
+    },
+    {
+      "label": "General references",
+      "references": [
+        "1 Kings 4:1-7"
+      ]
+    },
+    {
+      "label": "Hezekiah’s",
+      "references": [
+        "Isaiah 36:3"
+      ]
+    },
+    {
+      "label": "Artaxerxes",
+      "references": [
+        "Ezra 7:14"
+      ]
+    },
+    {
+      "label": "SeeCOUNSELLOR",
+      "references": []
+    },
+    {
+      "label": "SeeMINISTER, PRIME",
+      "references": []
     }
   ],
-  "raw_block": "–Heads of departments in government\n–David’s2Sa 8:15-18;15:12;20:23-26;1Ch 27:32-34\n–Solomon’s1Ki 4:1-7\n–Hezekiah’sIsa 36:3\n–ArtaxerxesEzr 7:14\n–SeeCOUNSELLOR\n–SeeMINISTER, PRIME",
-  "content_preview": "–Heads of departments in government",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–Heads of departments in government",
-      "raw_segment": "–Heads of departments in government"
+      "book": "2 Samuel",
+      "chapter": 8,
+      "verses": [
+        15,
+        16,
+        17,
+        18
+      ],
+      "verse_count": 4,
+      "testament": "OT",
+      "raw": "2 Samuel 8:15-18"
     },
     {
-      "idx": 1,
-      "entry_label": "–David’s2Sa 8:15-18;15:12;20:23-26;1Ch 27:32-34",
-      "raw_segment": "–David’s2Sa 8:15-18;15:12;20:23-26;1Ch 27:32-34"
+      "book": "2 Samuel",
+      "chapter": 15,
+      "verses": [
+        12
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Samuel 15:12"
     },
     {
-      "idx": 2,
-      "entry_label": "–Solomon’s1Ki 4:1-7",
-      "raw_segment": "–Solomon’s1Ki 4:1-7"
+      "book": "2 Samuel",
+      "chapter": 20,
+      "verses": [
+        23,
+        24,
+        25,
+        26
+      ],
+      "verse_count": 4,
+      "testament": "OT",
+      "raw": "2 Samuel 20:23-26"
     },
     {
-      "idx": 3,
-      "entry_label": "–Hezekiah’sIsa 36:3",
-      "raw_segment": "–Hezekiah’sIsa 36:3"
+      "book": "1 Chronicles",
+      "chapter": 27,
+      "verses": [
+        32,
+        33,
+        34
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "1 Chronicles 27:32-34"
     },
     {
-      "idx": 4,
-      "entry_label": "–ArtaxerxesEzr 7:14",
-      "raw_segment": "–ArtaxerxesEzr 7:14"
+      "book": "1 Kings",
+      "chapter": 4,
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "verse_count": 7,
+      "testament": "OT",
+      "raw": "1 Kings 4:1-7"
     },
     {
-      "idx": 5,
-      "entry_label": "–SeeCOUNSELLOR",
-      "raw_segment": "–SeeCOUNSELLOR"
+      "book": "Isaiah",
+      "chapter": 36,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 36:3"
     },
     {
-      "idx": 6,
-      "entry_label": "–SeeMINISTER, PRIME",
-      "raw_segment": "–SeeMINISTER, PRIME"
+      "book": "Ezra",
+      "chapter": 7,
+      "verses": [
+        14
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezra 7:14"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "1 Chronicles",
+    "1 Kings",
+    "2 Samuel",
+    "Ezra",
+    "Isaiah"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 7,
+    "total_refs": 7,
+    "ot_refs": 7,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:0bc178ef43436f19a13308c7ef2546310b634da258f449a5229e15b261166fa9",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 7
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 5,
+    "top_books": [
+      "2 Samuel",
+      "1 Chronicles",
+      "1 Kings",
+      "Isaiah",
+      "Ezra"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:24:44.114596Z",
-  "updated_at": "2025-09-20T17:24:44.114603Z"
+  }
 }

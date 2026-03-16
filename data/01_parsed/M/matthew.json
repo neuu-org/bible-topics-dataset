@@ -1,135 +1,89 @@
 {
   "topic": "MATTHEW",
   "slug": "matthew",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "Also called LEVI",
+      "label": "Al",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "(A receiver of customs (taxes for the Romans))",
+      "label": "(A receiver of customs (taxes for the Romans))",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Becomes a disciple of Jesus Mt 9:9,10; 10:3; Mr 2:14,15; 3:18; Lu 5:27-29; 6:15; Ac 1:13",
+      "label": "Becomes a disciple of Jesus",
       "references": [
-        "Matt 9:9",
-        "Matt 9:10",
-        "Matt 10:3",
-        "Mark 2:14",
-        "Mark 2:15",
+        "Matthew 9:9,10",
+        "Matthew 10:3",
+        "Mark 2:14,15",
         "Mark 3:18",
         "Luke 5:27-29",
         "Luke 6:15",
         "Acts 1:13"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Mark",
-      "book_abbrev": "mrk",
-      "chapter": 2,
-      "testament": "NT",
+      "book": "Matthew",
+      "chapter": 9,
       "verses": [
-        3,
+        9,
+        10
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Matthew 9:9,10"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 10,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 10:3"
+    },
+    {
+      "book": "Mark",
+      "chapter": 2,
+      "verses": [
         14,
         15
       ],
-      "verse_count": 3
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Mark 2:14,15"
+    },
+    {
+      "book": "Mark",
+      "chapter": 3,
+      "verses": [
+        18
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Mark 3:18"
     },
     {
       "book": "Luke",
-      "book_abbrev": "luk",
       "chapter": 5,
-      "testament": "NT",
       "verses": [
-        6,
         27,
         28,
         29
       ],
-      "verse_count": 4
-    },
-    {
-      "book": "Acts",
-      "book_abbrev": "act",
-      "chapter": 1,
+      "verse_count": 3,
       "testament": "NT",
-      "verses": [
-        13
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 0,
-    "nt_refs": 3,
-    "total_verses": 3
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.704460+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "Matthew",
-      "chapter": 9,
-      "verses": [
-        9
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Matthew 9:9",
-      "source": "EAS"
-    },
-    {
-      "book": "Mark",
-      "chapter": 2,
-      "verses": [
-        14
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Mark 2:14",
-      "source": "EAS"
-    },
-    {
-      "book": "Luke",
-      "chapter": 5,
-      "verses": [
-        27
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Luke 5:27",
-      "source": "EAS"
-    },
-    {
-      "book": "Luke",
-      "chapter": 5,
-      "verses": [
-        29
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Luke 5:29",
-      "source": "EAS"
+      "raw": "Luke 5:27-29"
     },
     {
       "book": "Luke",
@@ -139,8 +93,7 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Luke 6:15",
-      "source": "EAS"
+      "raw": "Luke 6:15"
     },
     {
       "book": "Acts",
@@ -150,19 +103,26 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Acts 1:13",
-      "source": "EAS"
-    },
-    {
-      "book": "Acts",
-      "chapter": 1,
-      "verses": [
-        15
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Acts 1:15",
-      "source": "SMI"
+      "raw": "Acts 1:13"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Acts",
+    "Luke",
+    "Mark",
+    "Matthew"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 7,
+    "ot_refs": 0,
+    "nt_refs": 7,
+    "books_count": 4,
+    "top_books": [
+      "Matthew",
+      "Mark",
+      "Luke",
+      "Acts"
+    ]
+  }
 }

@@ -1,63 +1,22 @@
 {
   "topic": "FURLONG",
   "slug": "furlong",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "One-eighth of a mile Lu 24:13; Joh 11:18; Re 21:16",
-      "references": [
-        "Luke 24:13",
-        "John 11:18",
-        "Rev 21:16"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "John",
-      "book_abbrev": "jhn",
-      "chapter": 11,
-      "testament": "NT",
-      "verses": [
-        18
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Revelation",
-      "book_abbrev": "rev",
-      "chapter": 21,
-      "testament": "NT",
-      "verses": [
-        16
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 2,
-    "total_verses": 2
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.687545+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    },
-    "enriched_at": "2025-12-02T22:02:10.293854+00:00",
-    "enrichment_source": "pipeline_merge"
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "One-eighth of a mile",
+      "references": [
+        "Luke 24:13",
+        "John 11:18",
+        "Revelation 21:16"
+      ],
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
     {
       "book": "Luke",
       "chapter": 24,
@@ -66,19 +25,7 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Luke 24:13",
-      "source": "EAS"
-    },
-    {
-      "book": "John",
-      "chapter": 6,
-      "verses": [
-        19
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "John 6:19",
-      "source": "EAS"
+      "raw": "Luke 24:13"
     },
     {
       "book": "John",
@@ -88,19 +35,7 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "John 11:18",
-      "source": "EAS"
-    },
-    {
-      "book": "Revelation",
-      "chapter": 14,
-      "verses": [
-        20
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Revelation 14:20",
-      "source": "EAS"
+      "raw": "John 11:18"
     },
     {
       "book": "Revelation",
@@ -110,8 +45,24 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Revelation 21:16",
-      "source": "EAS"
+      "raw": "Revelation 21:16"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "John",
+    "Luke",
+    "Revelation"
+  ],
+  "stats": {
+    "total_aspects": 1,
+    "total_refs": 3,
+    "ot_refs": 0,
+    "nt_refs": 3,
+    "books_count": 3,
+    "top_books": [
+      "Luke",
+      "John",
+      "Revelation"
+    ]
+  }
 }

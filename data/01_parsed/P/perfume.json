@@ -1,70 +1,137 @@
 {
   "topic": "PERFUME",
   "slug": "perfume",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "General scriptures concerning Pr 27:9; So 3:6; Isa 57:9",
+      "label": "General scriptures concerning",
       "references": [
-        "Prov 27:9",
-        "Song 3:6",
-        "Isa 57:9"
+        "Proverbs 27:9",
+        "Song of Solomon 3:6"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Used in the tabernacle Ex 30:7; 35:28",
-      "references": [
-        "Exod 30:7",
-        "Exod 35:28"
-      ],
-      "sub_groups": []
+      "label": "57:9",
+      "references": [],
+      "source": "NAV"
     },
     {
-      "name": "Beds perfumed with myrrh Pr 7:17",
+      "label": "Used in the tabernacle",
       "references": [
-        "Prov 7:17"
+        "Exodus 30:7",
+        "Exodus 35:28"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Smelling bottles, translated “tablets” in A. V Isa 3:20",
+      "label": "Beds perfumed with myrrh",
       "references": [
-        "Isa 3:20"
+        "Proverbs 7:17"
       ],
-      "sub_groups": []
+      "source": "NAV"
+    },
+    {
+      "label": "Smelling bottles, translated “tablets” in A. V",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "3:20",
+      "references": [],
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Isaiah",
-      "book_abbrev": "isa",
-      "chapter": 57,
-      "testament": "OT",
+      "book": "Proverbs",
+      "chapter": 27,
       "verses": [
         9
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 27:9"
+    },
+    {
+      "book": "Song of Solomon",
+      "chapter": 3,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Song of Solomon 3:6"
+    },
+    {
+      "book": "Song of Solomon",
+      "chapter": 57,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Song of Solomon 57:9"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 30,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 30:7"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 35,
+      "verses": [
+        28
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 35:28"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 7,
+      "verses": [
+        17
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 7:17"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 3,
+      "verses": [
+        20
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 3:20"
     }
   ],
-  "see_also": [],
-  "aliases": [],
+  "books_mentioned": [
+    "Exodus",
+    "Proverbs",
+    "Song of Solomon"
+  ],
   "stats": {
-    "entries_count": 4,
-    "ot_refs": 1,
+    "total_aspects": 6,
+    "total_refs": 7,
+    "ot_refs": 7,
     "nt_refs": 0,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.717735+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    }
-  },
-  "version": "3.0.0"
+    "books_count": 3,
+    "top_books": [
+      "Proverbs",
+      "Song of Solomon",
+      "Exodus"
+    ]
+  }
 }

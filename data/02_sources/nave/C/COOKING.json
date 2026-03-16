@@ -1,105 +1,108 @@
 {
   "topic": "COOKING",
-  "topic_slug": "cooking",
+  "slug": "cooking",
   "canonical_id": "NAV:cooking",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "BREAD",
     "OVEN"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "BREAD",
-      "clean": "BREAD",
-      "slug": "bread",
-      "canonical_id": "NAV:bread"
+      "label": "A kid (young goat) must not be boiled in its mother’s milk",
+      "references": [
+        "Deuteronomy 14:21"
+      ]
     },
     {
-      "original": "OVEN",
-      "clean": "OVEN",
-      "slug": "oven",
-      "canonical_id": "NAV:oven"
+      "label": "Spice used in",
+      "references": [
+        "Ezekiel 24:10"
+      ]
+    },
+    {
+      "label": "Ephraim, a",
+      "references": [
+        "Hosea 7:8"
+      ]
+    },
+    {
+      "label": "In the temple",
+      "references": [
+        "Ezekiel 46:19-24"
+      ]
+    },
+    {
+      "label": "SeeBREAD",
+      "references": []
+    },
+    {
+      "label": "SeeOVEN",
+      "references": []
     }
   ],
-  "raw_block": "–A kid (young goat) must not be boiled in its mother’s milkDe 14:21\n–Spice used inEze 24:10\n–Ephraim, a cake unturnedHo 7:8\n–In the templeEze 46:19-24\n–SeeBREAD\n–SeeOVEN",
-  "content_preview": "–A kid (young goat) must not be boiled in its mother’s milkDe 14:21",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–A kid (young goat) must not be boiled in its mother’s milkDe 14:21",
-      "raw_segment": "–A kid (young goat) must not be boiled in its mother’s milkDe 14:21"
+      "book": "Deuteronomy",
+      "chapter": 14,
+      "verses": [
+        21
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 14:21"
     },
     {
-      "idx": 1,
-      "entry_label": "–Spice used inEze 24:10",
-      "raw_segment": "–Spice used inEze 24:10"
+      "book": "Ezekiel",
+      "chapter": 24,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezekiel 24:10"
     },
     {
-      "idx": 2,
-      "entry_label": "–Ephraim, a cake unturnedHo 7:8",
-      "raw_segment": "–Ephraim, a cake unturnedHo 7:8"
+      "book": "Hosea",
+      "chapter": 7,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Hosea 7:8"
     },
     {
-      "idx": 3,
-      "entry_label": "–In the templeEze 46:19-24",
-      "raw_segment": "–In the templeEze 46:19-24"
-    },
-    {
-      "idx": 4,
-      "entry_label": "–SeeBREAD",
-      "raw_segment": "–SeeBREAD"
-    },
-    {
-      "idx": 5,
-      "entry_label": "–SeeOVEN",
-      "raw_segment": "–SeeOVEN"
+      "book": "Ezekiel",
+      "chapter": 46,
+      "verses": [
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "verse_count": 6,
+      "testament": "OT",
+      "raw": "Ezekiel 46:19-24"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "Deuteronomy",
+    "Ezekiel",
+    "Hosea"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 6,
+    "total_refs": 4,
+    "ot_refs": 4,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:46ce8aeb501c9a00c3f96529e6a1291df4a71b75cbfebf0b407ae1ab63068f3a",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 6
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 3,
+    "top_books": [
+      "Ezekiel",
+      "Deuteronomy",
+      "Hosea"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:25:15.444558Z",
-  "updated_at": "2025-09-20T17:25:15.444565Z"
+  }
 }

@@ -1,90 +1,173 @@
 {
   "topic": "MORTAR",
-  "topic_slug": "mortar",
+  "slug": "mortar",
   "canonical_id": "NAV:mortar",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "MILL",
     "GRINDING"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "MILL",
-      "clean": "MILL",
-      "slug": "mill",
-      "canonical_id": "NAV:mill"
+      "label": "1. An instrument for pulverizing grain",
+      "references": [
+        "Numbers 11:8",
+        "Proverbs 27:22"
+      ]
     },
     {
-      "original": "GRINDING",
-      "clean": "GRINDING",
-      "slug": "grinding",
-      "canonical_id": "NAV:grinding"
+      "label": ".SeeGRINDING",
+      "references": []
+    },
+    {
+      "label": ".SeeMILL",
+      "references": []
+    },
+    {
+      "label": "2. A cement",
+      "references": [
+        "Exodus 1:14"
+      ]
+    },
+    {
+      "label": ".Slime used as, in building tower of Babel",
+      "references": [
+        "Genesis 11:3"
+      ]
+    },
+    {
+      "label": ".Used to plaster house",
+      "references": [
+        "Leviticus 14:42,45"
+      ]
+    },
+    {
+      "label": ".Untempered, not enduring",
+      "references": [
+        "Ezekiel 22:28"
+      ]
+    },
+    {
+      "label": ".To be trod",
+      "references": [
+        "Nahum 3:14"
+      ]
+    },
+    {
+      "label": "FIGURATIVE",
+      "references": [
+        "Isaiah 41:25"
+      ]
     }
   ],
-  "raw_block": "–1. An instrument for pulverizing grainNu 11:8;Pr 27:22\n  .SeeGRINDING\n  .SeeMILL\n–2. A cementEx 1:14\n  .Slime used as, in building tower of BabelGe 11:3\n  .Used to plaster houseLe 14:42,45\n  .Untempered, not enduringEze 22:28\n  .To be trodden to make firmNa 3:14\n–FIGURATIVEIsa 41:25",
-  "content_preview": "–1. An instrument for pulverizing grainNu 11:8;Pr 27:22",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–1. An instrument for pulverizing grainNu 11:8;Pr 27:22",
-      "raw_segment": "–1. An instrument for pulverizing grainNu 11:8;Pr 27:22"
+      "book": "Numbers",
+      "chapter": 11,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Numbers 11:8"
     },
     {
-      "idx": 1,
-      "entry_label": "–2. A cementEx 1:14",
-      "raw_segment": "–2. A cementEx 1:14"
+      "book": "Proverbs",
+      "chapter": 27,
+      "verses": [
+        22
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 27:22"
     },
     {
-      "idx": 2,
-      "entry_label": "–FIGURATIVEIsa 41:25",
-      "raw_segment": "–FIGURATIVEIsa 41:25"
+      "book": "Exodus",
+      "chapter": 1,
+      "verses": [
+        14
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 1:14"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 11,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 11:3"
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 14,
+      "verses": [
+        42,
+        45
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Leviticus 14:42,45"
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 22,
+      "verses": [
+        28
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezekiel 22:28"
+    },
+    {
+      "book": "Nahum",
+      "chapter": 3,
+      "verses": [
+        14
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Nahum 3:14"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 41,
+      "verses": [
+        25
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 41:25"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "Exodus",
+    "Ezekiel",
+    "Genesis",
+    "Isaiah",
+    "Leviticus",
+    "Nahum",
+    "Numbers",
+    "Proverbs"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 9,
+    "total_refs": 8,
+    "ot_refs": 8,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:c2c30807b219295c360447223a603e9c01a2211c42fbeaf5ff4319479900f645",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 9
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 8,
+    "top_books": [
+      "Numbers",
+      "Proverbs",
+      "Exodus",
+      "Genesis",
+      "Leviticus",
+      "Ezekiel",
+      "Nahum",
+      "Isaiah"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:29:18.044297Z",
-  "updated_at": "2025-09-20T17:29:18.044305Z"
+  }
 }

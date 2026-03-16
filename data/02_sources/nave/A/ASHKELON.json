@@ -1,89 +1,158 @@
 {
   "topic": "ASHKELON",
-  "topic_slug": "ashkelon",
+  "slug": "ashkelon",
   "canonical_id": "NAV:ashkelon",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–Also called ASKELON\n–One of the five chief cities of the PhilistinesJos \n13:3\n–Captured by the people of JudahJud 1:18\n–Samson kills thirty men ofJud 14:19\n–Emerods (tumors, R. V.) of1Sa 6:17\n–Prophecies concerningJer 25:20;47:5,7;Am 1:8;Zep \n2:4,7;Zec 9:5",
-  "content_preview": "–Also called ASKELON",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–Also called ASKELON",
-      "raw_segment": "–Also called ASKELON"
+      "label": "Al",
+      "references": []
     },
     {
-      "idx": 1,
-      "entry_label": "–One of the five chief cities of the PhilistinesJos \n13:3",
-      "raw_segment": "–One of the five chief cities of the PhilistinesJos \n13:3"
+      "label": "One of the five chief cities of the PhilistinesJos",
+      "references": []
     },
     {
-      "idx": 2,
-      "entry_label": "–Captured by the people of JudahJud 1:18",
-      "raw_segment": "–Captured by the people of JudahJud 1:18"
+      "label": "13:3",
+      "references": []
     },
     {
-      "idx": 3,
-      "entry_label": "–Samson kills thirty men ofJud 14:19",
-      "raw_segment": "–Samson kills thirty men ofJud 14:19"
+      "label": "General references",
+      "references": [
+        "Judges 1:18"
+      ]
     },
     {
-      "idx": 4,
-      "entry_label": "–Emerods (tumors, R. V.) of1Sa 6:17",
-      "raw_segment": "–Emerods (tumors, R. V.) of1Sa 6:17"
+      "label": "Sam",
+      "references": [
+        "Judges 14:19"
+      ]
     },
     {
-      "idx": 5,
-      "entry_label": "–Prophecies concerningJer 25:20;47:5,7;Am 1:8;Zep \n2:4,7;Zec 9:5",
-      "raw_segment": "–Prophecies concerningJer 25:20;47:5,7;Am 1:8;Zep \n2:4,7;Zec 9:5"
+      "label": "Emerods (tumors, R. V.) of",
+      "references": [
+        "1 Samuel 6:17"
+      ]
+    },
+    {
+      "label": "Prophecies concerning",
+      "references": [
+        "Jeremiah 25:20",
+        "Jeremiah 47:5,7",
+        "Amos 1:8"
+      ]
+    },
+    {
+      "label": "2:4,7;",
+      "references": [
+        "Ecclesiastes 9:5"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Judges",
+      "chapter": 1,
+      "verses": [
+        18
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Judges 1:18"
+    },
+    {
+      "book": "Judges",
+      "chapter": 14,
+      "verses": [
+        19
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Judges 14:19"
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 6,
+      "verses": [
+        17
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Samuel 6:17"
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 25,
+      "verses": [
+        20
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Jeremiah 25:20"
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 47,
+      "verses": [
+        5,
+        7
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Jeremiah 47:5,7"
+    },
+    {
+      "book": "Amos",
+      "chapter": 1,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Amos 1:8"
+    },
+    {
+      "book": "Amos",
+      "chapter": 2,
+      "verses": [
+        4,
+        7
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Amos 2:4,7"
+    },
+    {
+      "book": "Ecclesiastes",
+      "chapter": 9,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ecclesiastes 9:5"
+    }
+  ],
+  "books_mentioned": [
+    "1 Samuel",
+    "Amos",
+    "Ecclesiastes",
+    "Jeremiah",
+    "Judges"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 8,
+    "total_refs": 8,
+    "ot_refs": 8,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:5155192ab579afc0130778cf8e9c9414923b81daa451ac7257b9f46e122345b3",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 8
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 5,
+    "top_books": [
+      "Judges",
+      "Jeremiah",
+      "Amos",
+      "1 Samuel",
+      "Ecclesiastes"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:23:52.525820Z",
-  "updated_at": "2025-09-20T17:23:52.525827Z"
+  }
 }

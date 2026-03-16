@@ -1,157 +1,242 @@
 {
   "topic": "IMAGE",
   "slug": "image",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "For idols",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "See IDOLATRY",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "FIGURATIVE",
-      "references": [],
-      "sub_groups": [
-        {
-          "name": "Man created in, of God Ge 1:26,27; 5:1; 9:6; Jas 3:9",
-          "references": [
-            "Gen 1:26",
-            "Gen 1:27",
-            "Gen 5:1",
-            "Gen 9:6",
-            "Jas 3:9"
-          ]
-        },
-        {
-          "name": "Regenerated into Ps 17:15; Ro 8:29; 2Co 3:18; Eph 4:24; Col 3:10; 1Jo 3:1-3",
-          "references": [
-            "Ps 17:15",
-            "Rom 8:29",
-            "2Cor 3:18",
-            "Eph 4:24",
-            "Col 3:10",
-            "1John 3:1-3"
-          ]
-        },
-        {
-          "name": "Christ, of God Col 1:15; Heb 1:3",
-          "references": [
-            "Col 1:15",
-            "Heb 1:3"
-          ]
-        },
-        {
-          "name": "Of jealousy Eze 8:3,5",
-          "references": [
-            "Ezek 8:3",
-            "Ezek 8:5"
-          ]
-        }
-      ]
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Romans",
-      "book_abbrev": "rom",
-      "chapter": 8,
-      "testament": "NT",
-      "verses": [
-        2,
-        29
-      ],
-      "verse_count": 2
-    },
-    {
-      "book": "2 Corinthians",
-      "book_abbrev": "2co",
-      "chapter": 3,
-      "testament": "NT",
-      "verses": [
-        18
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Ephesians",
-      "book_abbrev": "eph",
-      "chapter": 4,
-      "testament": "NT",
-      "verses": [
-        24
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Colossians",
-      "book_abbrev": "col",
-      "chapter": 3,
-      "testament": "NT",
-      "verses": [
-        1,
-        10
-      ],
-      "verse_count": 2
-    },
-    {
-      "book": "Hebrews",
-      "book_abbrev": "heb",
-      "chapter": 1,
-      "testament": "NT",
-      "verses": [
-        3
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "James",
-      "book_abbrev": "jas",
-      "chapter": 3,
-      "testament": "NT",
-      "verses": [
-        9
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "1 John",
-      "book_abbrev": "1jn",
-      "chapter": 3,
-      "testament": "NT",
-      "verses": [
-        1,
-        2,
-        3
-      ],
-      "verse_count": 3
-    }
+  "sources": [
+    "NAV"
   ],
   "see_also": [
     "IDOL",
     "IDOLATRY"
   ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 0,
-    "nt_refs": 7,
-    "total_verses": 7
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.693912+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "aspects": [
+    {
+      "label": "For idols",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeIDOLATRY",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "FIGURATIVE",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".Man created in, of God",
+      "references": [
+        "Genesis 1:26,27",
+        "Genesis 5:1",
+        "Genesis 9:6",
+        "James 3:9"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".Regenerated into",
+      "references": [
+        "Psalms 17:15",
+        "Romans 8:29",
+        "2 Corinthians 3:18",
+        "Ephesians 4:24",
+        "Colossians 3:10",
+        "Job 3:1-3"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".Christ, of God",
+      "references": [
+        "Colossians 1:15",
+        "Hebrews 1:3"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".Of jealousy",
+      "references": [
+        "Ezekiel 8:3,5"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".SeeIDOL",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".SeeIDOLATRY",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0"
+  ],
+  "biblical_references": [
+    {
+      "book": "Genesis",
+      "chapter": 1,
+      "verses": [
+        26,
+        27
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Genesis 1:26,27"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 5,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 5:1"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 9,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 9:6"
+    },
+    {
+      "book": "James",
+      "chapter": 3,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "James 3:9"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 17,
+      "verses": [
+        15
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 17:15"
+    },
+    {
+      "book": "Romans",
+      "chapter": 8,
+      "verses": [
+        29
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Romans 8:29"
+    },
+    {
+      "book": "2 Corinthians",
+      "chapter": 3,
+      "verses": [
+        18
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "2 Corinthians 3:18"
+    },
+    {
+      "book": "Ephesians",
+      "chapter": 4,
+      "verses": [
+        24
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Ephesians 4:24"
+    },
+    {
+      "book": "Colossians",
+      "chapter": 3,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Colossians 3:10"
+    },
+    {
+      "book": "Job",
+      "chapter": 3,
+      "verses": [
+        1,
+        2,
+        3
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Job 3:1-3"
+    },
+    {
+      "book": "Colossians",
+      "chapter": 1,
+      "verses": [
+        15
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Colossians 1:15"
+    },
+    {
+      "book": "Hebrews",
+      "chapter": 1,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Hebrews 1:3"
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 8,
+      "verses": [
+        3,
+        5
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Ezekiel 8:3,5"
+    }
+  ],
+  "books_mentioned": [
+    "2 Corinthians",
+    "Colossians",
+    "Ephesians",
+    "Ezekiel",
+    "Genesis",
+    "Hebrews",
+    "James",
+    "Job",
+    "Psalms",
+    "Romans"
+  ],
+  "stats": {
+    "total_aspects": 9,
+    "total_refs": 13,
+    "ot_refs": 6,
+    "nt_refs": 7,
+    "books_count": 10,
+    "top_books": [
+      "Genesis",
+      "Colossians",
+      "James",
+      "Psalms",
+      "Romans",
+      "2 Corinthians",
+      "Ephesians",
+      "Job",
+      "Hebrews",
+      "Ezekiel"
+    ]
+  }
 }

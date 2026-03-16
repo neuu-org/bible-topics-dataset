@@ -1,89 +1,145 @@
 {
   "topic": "LEAD",
-  "topic_slug": "lead",
+  "slug": "lead",
   "canonical_id": "NAV:lead",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–A mineralEx 15:10\n–Purified by fireNu 31:22;Jer 6:29;Eze 22:18,20\n–Used in making inscriptions on stoneJob 19:24\n–Lead foundryJer 6:29;Eze 22:18,20\n–Trade inEze 27:12\n–Used for weighingZec 5:7,8",
-  "content_preview": "–A mineralEx 15:10",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–A mineralEx 15:10",
-      "raw_segment": "–A mineralEx 15:10"
+      "label": "A mineral",
+      "references": [
+        "Exodus 15:10"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–Purified by fireNu 31:22;Jer 6:29;Eze 22:18,20",
-      "raw_segment": "–Purified by fireNu 31:22;Jer 6:29;Eze 22:18,20"
+      "label": "Purified by fire",
+      "references": [
+        "Numbers 31:22",
+        "Jeremiah 6:29",
+        "Ezekiel 22:18,20"
+      ]
     },
     {
-      "idx": 2,
-      "entry_label": "–Used in making inscriptions on stoneJob 19:24",
-      "raw_segment": "–Used in making inscriptions on stoneJob 19:24"
+      "label": "Used in making inscriptions on stone",
+      "references": [
+        "Job 19:24"
+      ]
     },
     {
-      "idx": 3,
-      "entry_label": "–Lead foundryJer 6:29;Eze 22:18,20",
-      "raw_segment": "–Lead foundryJer 6:29;Eze 22:18,20"
+      "label": "Lead foundry",
+      "references": [
+        "Jeremiah 6:29",
+        "Ezekiel 22:18,20"
+      ]
     },
     {
-      "idx": 4,
-      "entry_label": "–Trade inEze 27:12",
-      "raw_segment": "–Trade inEze 27:12"
+      "label": "Tra",
+      "references": [
+        "Ezekiel 27:12"
+      ]
     },
     {
-      "idx": 5,
-      "entry_label": "–Used for weighingZec 5:7,8",
-      "raw_segment": "–Used for weighingZec 5:7,8"
+      "label": "Used for weighing",
+      "references": [
+        "Ecclesiastes 5:7,8"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Exodus",
+      "chapter": 15,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 15:10"
+    },
+    {
+      "book": "Numbers",
+      "chapter": 31,
+      "verses": [
+        22
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Numbers 31:22"
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 6,
+      "verses": [
+        29
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Jeremiah 6:29"
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 22,
+      "verses": [
+        18,
+        20
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Ezekiel 22:18,20"
+    },
+    {
+      "book": "Job",
+      "chapter": 19,
+      "verses": [
+        24
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Job 19:24"
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 27,
+      "verses": [
+        12
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezekiel 27:12"
+    },
+    {
+      "book": "Ecclesiastes",
+      "chapter": 5,
+      "verses": [
+        7,
+        8
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Ecclesiastes 5:7,8"
+    }
+  ],
+  "books_mentioned": [
+    "Ecclesiastes",
+    "Exodus",
+    "Ezekiel",
+    "Jeremiah",
+    "Job",
+    "Numbers"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 6,
+    "total_refs": 7,
+    "ot_refs": 7,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:92023341d65151a1a2fadf442cf7ca2c451602c7cd6a7fae57647c6b863f17f5",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 6
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 6,
+    "top_books": [
+      "Ezekiel",
+      "Exodus",
+      "Numbers",
+      "Jeremiah",
+      "Job",
+      "Ecclesiastes"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:28:31.077633Z",
-  "updated_at": "2025-09-20T17:28:31.077641Z"
+  }
 }

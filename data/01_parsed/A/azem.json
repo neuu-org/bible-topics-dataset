@@ -1,72 +1,47 @@
 {
   "topic": "AZEM",
   "slug": "azem",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "A city in the south of Judah. Also called EZEM Jos 15:29; 19:3; 1Ch 4:29",
+      "label": "A city in the",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "15:29;19:3;",
       "references": [
-        "Josh 15:29",
-        "Josh 19:3",
-        "1Chr 4:29"
+        "1 Chronicles 4:29"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
       "book": "1 Chronicles",
-      "book_abbrev": "1ch",
       "chapter": 4,
-      "testament": "OT",
       "verses": [
         29
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 4:29"
     }
   ],
-  "see_also": [],
-  "aliases": [],
+  "books_mentioned": [
+    "1 Chronicles"
+  ],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 2,
+    "total_refs": 1,
     "ot_refs": 1,
     "nt_refs": 0,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.671091+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "Joshua",
-      "chapter": 15,
-      "verses": [
-        29
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Joshua 15:29",
-      "source": "SMI"
-    },
-    {
-      "book": "Joshua",
-      "chapter": 19,
-      "verses": [
-        3
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Joshua 19:3",
-      "source": "SMI"
-    }
-  ]
+    "books_count": 1,
+    "top_books": [
+      "1 Chronicles"
+    ]
+  }
 }

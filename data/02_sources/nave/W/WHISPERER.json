@@ -1,90 +1,64 @@
 {
   "topic": "WHISPERER",
-  "topic_slug": "whisperer",
+  "slug": "whisperer",
   "canonical_id": "NAV:whisperer",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "SPEAKING, EVIL",
     "SLANDER"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "SPEAKING, EVIL",
-      "clean": "SPEAKING, EVIL",
-      "slug": "speaking__evil",
-      "canonical_id": "NAV:speaking__evil"
+      "label": "A slan",
+      "references": [
+        "Romans 1:29",
+        "2 Corinthians 12:20"
+      ]
     },
     {
-      "original": "SLANDER",
-      "clean": "SLANDER",
-      "slug": "slander",
-      "canonical_id": "NAV:slander"
+      "label": "SeeSLAN",
+      "references": []
+    },
+    {
+      "label": "SeeSPEAKING, EVIL",
+      "references": []
     }
   ],
-  "raw_block": "–A slandererRo 1:29;2Co 12:20\n–SeeSLANDER\n–SeeSPEAKING, EVIL",
-  "content_preview": "–A slandererRo 1:29;2Co 12:20",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–A slandererRo 1:29;2Co 12:20",
-      "raw_segment": "–A slandererRo 1:29;2Co 12:20"
+      "book": "Romans",
+      "chapter": 1,
+      "verses": [
+        29
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Romans 1:29"
     },
     {
-      "idx": 1,
-      "entry_label": "–SeeSLANDER",
-      "raw_segment": "–SeeSLANDER"
-    },
-    {
-      "idx": 2,
-      "entry_label": "–SeeSPEAKING, EVIL",
-      "raw_segment": "–SeeSPEAKING, EVIL"
+      "book": "2 Corinthians",
+      "chapter": 12,
+      "verses": [
+        20
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "2 Corinthians 12:20"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "2 Corinthians",
+    "Romans"
+  ],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 3,
+    "total_refs": 2,
     "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:17fd860d328e6f17ef9f70117988968a70b20084d740976a0ee13074b73d68a8",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 3
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "nt_refs": 2,
+    "books_count": 2,
+    "top_books": [
+      "Romans",
+      "2 Corinthians"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:32:37.454822Z",
-  "updated_at": "2025-09-20T17:32:37.454829Z"
+  }
 }

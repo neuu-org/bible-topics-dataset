@@ -1,88 +1,52 @@
 {
   "topic": "MIRIAM",
   "slug": "miriam",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Sister of Moses",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "Watched over Moses when he was in the little basket Ex 2:4-8",
-      "references": [
-        "Exod 2:4-8"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Song of, after the destruction of Pharaoh and his army Ex 15:20,21; Mic 6:4",
-      "references": [
-        "Exod 15:20",
-        "Exod 15:21",
-        "Mic 6:4"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Jealous of Moses, stricken with leprosy, healed on account of the intercession of Moses Nu 12; De 24:9",
-      "references": [
-        "Num 12",
-        "Deut 24:9"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Died and is buried at Kadesh Nu 20:1",
-      "references": [
-        "Num 20:1"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Deuteronomy",
-      "book_abbrev": "deu",
-      "chapter": 24,
-      "testament": "OT",
-      "verses": [
-        9
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Micah",
-      "book_abbrev": "mic",
-      "chapter": 6,
-      "testament": "OT",
-      "verses": [
-        4
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 5,
-    "ot_refs": 2,
-    "nt_refs": 0,
-    "total_verses": 2
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.706891+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "Sister of Moses",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "Watched over Moses when he was in the little basket",
+      "references": [
+        "Exodus 2:4-8"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "General references",
+      "references": [
+        "Exodus 15:20,21",
+        "Micah 6:4"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Jealous of Moses, stricken with leprosy, healed on account of",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "the intercession of Moses",
+      "references": [
+        "Deuteronomy 24:9"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Died and is buried at Ka",
+      "references": [
+        "Numbers 20:1"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Exodus",
       "chapter": 2,
@@ -91,36 +55,42 @@
         5,
         6,
         7,
-        8,
-        9,
-        10
+        8
       ],
-      "verse_count": 7,
+      "verse_count": 5,
       "testament": "OT",
-      "raw": "Exodus 2:4-10",
-      "source": "EAS"
-    },
-    {
-      "book": "1 Chronicles",
-      "chapter": 6,
-      "verses": [
-        3
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "1 Chronicles 6:3",
-      "source": "EAS"
+      "raw": "Exodus 2:4-8"
     },
     {
       "book": "Exodus",
       "chapter": 15,
       "verses": [
-        20
+        20,
+        21
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Exodus 15:20,21"
+    },
+    {
+      "book": "Micah",
+      "chapter": 6,
+      "verses": [
+        4
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Exodus 15:20",
-      "source": "EAS"
+      "raw": "Micah 6:4"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 24,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 24:9"
     },
     {
       "book": "Numbers",
@@ -130,96 +100,26 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Numbers 20:1",
-      "source": "EAS"
-    },
-    {
-      "book": "1 Chronicles",
-      "chapter": 4,
-      "verses": [
-        17
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "1 Chronicles 4:17",
-      "source": "EAS"
-    },
-    {
-      "book": "Exodus",
-      "chapter": 2,
-      "verses": [
-        4
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Exodus 2:4",
-      "source": "SMI"
-    },
-    {
-      "book": "Exodus",
-      "chapter": 15,
-      "verses": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14,
-        15,
-        16,
-        17,
-        18,
-        19
-      ],
-      "verse_count": 19,
-      "testament": "OT",
-      "raw": "Exodus 15:1-19",
-      "source": "SMI"
-    },
-    {
-      "book": "Numbers",
-      "chapter": 12,
-      "verses": [
-        1,
-        2
-      ],
-      "verse_count": 2,
-      "testament": "OT",
-      "raw": "Numbers 12:1,2",
-      "source": "SMI"
-    },
-    {
-      "book": "Numbers",
-      "chapter": 12,
-      "verses": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14,
-        15
-      ],
-      "verse_count": 15,
-      "testament": "OT",
-      "raw": "Numbers 12:1-15",
-      "source": "SMI"
+      "raw": "Numbers 20:1"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Deuteronomy",
+    "Exodus",
+    "Micah",
+    "Numbers"
+  ],
+  "stats": {
+    "total_aspects": 6,
+    "total_refs": 5,
+    "ot_refs": 5,
+    "nt_refs": 0,
+    "books_count": 4,
+    "top_books": [
+      "Exodus",
+      "Micah",
+      "Deuteronomy",
+      "Numbers"
+    ]
+  }
 }

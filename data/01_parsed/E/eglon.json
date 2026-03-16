@@ -1,74 +1,82 @@
 {
   "topic": "EGLON",
   "slug": "eglon",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. King of Moab",
-      "references": [],
-      "sub_groups": [
-        {
-          "name": "Assassinated by Ehud Jud 3:12-30",
-          "references": [
-            "Judg 3:12-30"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "2. An ancient city of Canaan",
-      "references": [],
-      "sub_groups": [
-        {
-          "name": "Captured by Joshua Jos 10:23,35",
-          "references": [
-            "Josh 10:23",
-            "Josh 10:35"
-          ]
-        },
-        {
-          "name": "Allotted to the tribe of Judah Jos 15:39",
-          "references": [
-            "Josh 15:39"
-          ]
-        }
-      ]
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.683184+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "1. King of Moab",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".Assassinated by Ehud",
+      "references": [
+        "Judges 3:12-30"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2. An ancient city of",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".",
+      "references": [
+        "Joshua 10:23,35"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".Allotted to the tribe of",
+      "references": [
+        "Joshua 15:39"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Judges",
       "chapter": 3,
       "verses": [
         12,
         13,
-        14
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
       ],
-      "verse_count": 3,
+      "verse_count": 19,
       "testament": "OT",
-      "raw": "Judges 3:12-14",
-      "source": "EAS"
+      "raw": "Judges 3:12-30"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 10,
+      "verses": [
+        23,
+        35
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Joshua 10:23,35"
     },
     {
       "book": "Joshua",
@@ -78,20 +86,22 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Joshua 15:39",
-      "source": "EAS"
-    },
-    {
-      "book": "Joshua",
-      "chapter": 10,
-      "verses": [
-        5,
-        6
-      ],
-      "verse_count": 2,
-      "testament": "OT",
-      "raw": "Joshua 10:5, 6",
-      "source": "EAS"
+      "raw": "Joshua 15:39"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Joshua",
+    "Judges"
+  ],
+  "stats": {
+    "total_aspects": 5,
+    "total_refs": 3,
+    "ot_refs": 3,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "Joshua",
+      "Judges"
+    ]
+  }
 }

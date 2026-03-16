@@ -1,69 +1,222 @@
 {
   "topic": "TIRZAH",
-  "topic_slug": "tirzah",
+  "slug": "tirzah",
   "canonical_id": "NAV:tirzah",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–1. A daughter of ZelophehadNu 26:33;36:11;Jos 17:3\n  .Special legislation in regard to the inheritance ofNu 27:1-11;36;Jos 17:3,4\n–2. A city of Canaan\n  .Captured by JoshuaJos 12:24\n  .Becomes the residence of the kings of the northern kingdom (Israel)1Ki 14:17;15:21,33;16:6,8,9,15,17,23\n  .Royal residence moved from1Ki 16:23,24\n  .Base of military operations of Menahem2Ki 15:14,16\n  .Beauty ofSo 6:4",
-  "content_preview": "–1. A daughter of ZelophehadNu 26:33;36:11;Jos 17:3",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–1. A daughter of ZelophehadNu 26:33;36:11;Jos 17:3",
-      "raw_segment": "–1. A daughter of ZelophehadNu 26:33;36:11;Jos 17:3"
+      "label": "1. A daughter of Zelophehad",
+      "references": [
+        "Numbers 26:33",
+        "Numbers 36:11",
+        "Joshua 17:3"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–2. A city of Canaan",
-      "raw_segment": "–2. A city of Canaan"
+      "label": ".Special legislation in regard to the inheritance of",
+      "references": [
+        "Numbers 27:1-11",
+        "Joshua 17:3,4"
+      ]
+    },
+    {
+      "label": "2. A city of",
+      "references": []
+    },
+    {
+      "label": ".",
+      "references": [
+        "Joshua 12:24"
+      ]
+    },
+    {
+      "label": ".Becomes the resi",
+      "references": [
+        "1 Kings 14:17",
+        "1 Kings 15:21,33",
+        "1 Kings 16:6,8,9,15,17,23"
+      ]
+    },
+    {
+      "label": ".Royal resi",
+      "references": [
+        "1 Kings 16:23,24"
+      ]
+    },
+    {
+      "label": ".Base of military operations of Menahem",
+      "references": [
+        "2 Kings 15:14,16"
+      ]
+    },
+    {
+      "label": ".Beauty of",
+      "references": [
+        "Song of Solomon 6:4"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Numbers",
+      "chapter": 26,
+      "verses": [
+        33
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Numbers 26:33"
+    },
+    {
+      "book": "Numbers",
+      "chapter": 36,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Numbers 36:11"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 17,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 17:3"
+    },
+    {
+      "book": "Numbers",
+      "chapter": 27,
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "verse_count": 11,
+      "testament": "OT",
+      "raw": "Numbers 27:1-11"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 17,
+      "verses": [
+        3,
+        4
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Joshua 17:3,4"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 12,
+      "verses": [
+        24
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 12:24"
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 14,
+      "verses": [
+        17
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Kings 14:17"
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 15,
+      "verses": [
+        21,
+        33
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "1 Kings 15:21,33"
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 16,
+      "verses": [
+        6,
+        8,
+        9,
+        15,
+        17,
+        23
+      ],
+      "verse_count": 6,
+      "testament": "OT",
+      "raw": "1 Kings 16:6,8,9,15,17,23"
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 16,
+      "verses": [
+        23,
+        24
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "1 Kings 16:23,24"
+    },
+    {
+      "book": "2 Kings",
+      "chapter": 15,
+      "verses": [
+        14,
+        16
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "2 Kings 15:14,16"
+    },
+    {
+      "book": "Song of Solomon",
+      "chapter": 6,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Song of Solomon 6:4"
+    }
+  ],
+  "books_mentioned": [
+    "1 Kings",
+    "2 Kings",
+    "Joshua",
+    "Numbers",
+    "Song of Solomon"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 8,
+    "total_refs": 12,
+    "ot_refs": 12,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:93e4f53944aaed1134435ed420f20a4c2426bbcc2070113e56191de1c135e15d",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 8
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 5,
+    "top_books": [
+      "1 Kings",
+      "Numbers",
+      "Joshua",
+      "2 Kings",
+      "Song of Solomon"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:32:14.592335Z",
-  "updated_at": "2025-09-20T17:32:14.592343Z"
+  }
 }

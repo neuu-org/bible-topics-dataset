@@ -1,70 +1,40 @@
 {
   "topic": "CILICIA",
   "slug": "cilicia",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "(A maritime province of Asia Minor)",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "Jews live in Ac 6:9",
-      "references": [
-        "Acts 6:9"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "The congregations of Ac 15:23,41; Ga 1:21",
-      "references": [
-        "Acts 15:23",
-        "Acts 15:41",
-        "Gal 1:21"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Sea of Ac 27:5",
-      "references": [
-        "Acts 27:5"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Galatians",
-      "book_abbrev": "gal",
-      "chapter": 1,
-      "testament": "NT",
-      "verses": [
-        21
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 4,
-    "ot_refs": 0,
-    "nt_refs": 1,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.678157+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "(A maritime province of Asia Minor)",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "Jews live in",
+      "references": [
+        "Acts 6:9"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "The congregations of",
+      "references": [
+        "Acts 15:23,41",
+        "Galatians 1:21"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Sea of",
+      "references": [
+        "Acts 27:5"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Acts",
       "chapter": 6,
@@ -73,8 +43,18 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Acts 6:9",
-      "source": "EAS"
+      "raw": "Acts 6:9"
+    },
+    {
+      "book": "Acts",
+      "chapter": 15,
+      "verses": [
+        23,
+        41
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Acts 15:23,41"
     },
     {
       "book": "Galatians",
@@ -84,30 +64,32 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Galatians 1:21",
-      "source": "EAS"
+      "raw": "Galatians 1:21"
     },
     {
       "book": "Acts",
-      "chapter": 9,
+      "chapter": 27,
       "verses": [
-        30
+        5
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Acts 9:30",
-      "source": "EAS"
-    },
-    {
-      "book": "Acts",
-      "chapter": 15,
-      "verses": [
-        41
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Acts 15:41",
-      "source": "EAS"
+      "raw": "Acts 27:5"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Acts",
+    "Galatians"
+  ],
+  "stats": {
+    "total_aspects": 4,
+    "total_refs": 4,
+    "ot_refs": 0,
+    "nt_refs": 4,
+    "books_count": 2,
+    "top_books": [
+      "Acts",
+      "Galatians"
+    ]
+  }
 }

@@ -1,56 +1,60 @@
 {
   "topic": "ASARELAH",
   "slug": "asarelah",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "One of the temple choir 1Ch 25:2,14",
-      "references": [
-        "1Chr 25:2",
-        "1Chr 25:14"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Probably identical with AZAREEL 1Ch 25:18",
-      "references": [
-        "1Chr 25:18"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.670148+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "One of the temple choir",
+      "references": [
+        "1 Chronicles 25:2,14"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Probably i",
+      "references": [
+        "1 Chronicles 25:18"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "1 Chronicles",
       "chapter": 25,
       "verses": [
-        2
+        2,
+        14
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "1 Chronicles 25:2,14"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 25,
+      "verses": [
+        18
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 25:2",
-      "source": "SMI"
+      "raw": "1 Chronicles 25:18"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 2,
+    "ot_refs": 2,
+    "nt_refs": 0,
+    "books_count": 1,
+    "top_books": [
+      "1 Chronicles"
+    ]
+  }
 }

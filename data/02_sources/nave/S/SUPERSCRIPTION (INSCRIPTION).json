@@ -1,64 +1,83 @@
 {
   "topic": "SUPERSCRIPTION (INSCRIPTION)",
-  "topic_slug": "superscription__inscription_",
+  "slug": "superscription__inscription_",
   "canonical_id": "NAV:superscription__inscription_",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–(Inscription, sign)\n  .On the crossMt 27:37;Mr 15:26;Lu 23:38;Joh 19:19",
-  "content_preview": "–(Inscription, sign)",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–(Inscription, sign)",
-      "raw_segment": "–(Inscription, sign)"
+      "label": "(Inscription, sign)",
+      "references": []
+    },
+    {
+      "label": ".On the cross",
+      "references": [
+        "Matthew 27:37",
+        "Mark 15:26",
+        "Luke 23:38",
+        "John 19:19"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Matthew",
+      "chapter": 27,
+      "verses": [
+        37
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 27:37"
+    },
+    {
+      "book": "Mark",
+      "chapter": 15,
+      "verses": [
+        26
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Mark 15:26"
+    },
+    {
+      "book": "Luke",
+      "chapter": 23,
+      "verses": [
+        38
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 23:38"
+    },
+    {
+      "book": "John",
+      "chapter": 19,
+      "verses": [
+        19
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "John 19:19"
+    }
+  ],
+  "books_mentioned": [
+    "John",
+    "Luke",
+    "Mark",
+    "Matthew"
+  ],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 2,
+    "total_refs": 4,
     "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:3b2147f9d2d53a1ee4889c7884aa2a17152c49f50dbb3ee7f99be0377bb69a6a",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "nt_refs": 4,
+    "books_count": 4,
+    "top_books": [
+      "Matthew",
+      "Mark",
+      "Luke",
+      "John"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:31:52.691546Z",
-  "updated_at": "2025-09-20T17:31:52.691553Z"
+  }
 }

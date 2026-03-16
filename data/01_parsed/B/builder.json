@@ -1,100 +1,118 @@
 {
   "topic": "BUILDER",
   "slug": "builder",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [
+    "BE-ZALEEL",
+    "CARPENTER",
+    "MASTER WORKMAN"
+  ],
+  "aspects": [
     {
-      "name": "(Of the tabernacle)",
+      "label": "(Of the tabernacle)",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See BE-ZALEEL",
+      "label": "SeeBE-ZALEEL",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See MASTER WORKMAN",
+      "label": "SeeMASTER WORKMAN",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "FIGURATIVE Ps 118:22; Mt 21:42; Ac 4:11; 1Pe 2:7; Heb 11:10",
+      "label": "FIGURATIVE",
       "references": [
-        "Ps 118:22",
-        "Matt 21:42",
+        "Psalms 118:22",
+        "Matthew 21:42",
         "Acts 4:11",
-        "1Pet 2:7",
-        "Heb 11:10"
+        "1 Peter 2:7",
+        "Hebrews 11:10"
       ],
-      "sub_groups": []
+      "source": "NAV"
+    },
+    {
+      "label": ".See",
+      "references": [],
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
+      "book": "Psalms",
+      "chapter": 118,
+      "verses": [
+        22
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 118:22"
+    },
+    {
       "book": "Matthew",
-      "book_abbrev": "mat",
       "chapter": 21,
-      "testament": "NT",
       "verses": [
         42
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 21:42"
     },
     {
       "book": "Acts",
-      "book_abbrev": "act",
       "chapter": 4,
-      "testament": "NT",
       "verses": [
-        1,
         11
       ],
-      "verse_count": 2
-    },
-    {
-      "book": "Hebrews",
-      "book_abbrev": "heb",
-      "chapter": 11,
+      "verse_count": 1,
       "testament": "NT",
-      "verses": [
-        10
-      ],
-      "verse_count": 1
+      "raw": "Acts 4:11"
     },
     {
       "book": "1 Peter",
-      "book_abbrev": "1pe",
       "chapter": 2,
-      "testament": "NT",
       "verses": [
         7
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "1 Peter 2:7"
+    },
+    {
+      "book": "Hebrews",
+      "chapter": 11,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Hebrews 11:10"
     }
   ],
-  "see_also": [
-    "BE-ZALEEL",
-    "MASTER WORKMAN",
-    "CARPENTER"
+  "books_mentioned": [
+    "1 Peter",
+    "Acts",
+    "Hebrews",
+    "Matthew",
+    "Psalms"
   ],
-  "aliases": [],
   "stats": {
-    "entries_count": 4,
-    "ot_refs": 0,
+    "total_aspects": 5,
+    "total_refs": 5,
+    "ot_refs": 1,
     "nt_refs": 4,
-    "total_verses": 4
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.675626+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    }
-  },
-  "version": "3.0.0"
+    "books_count": 5,
+    "top_books": [
+      "Psalms",
+      "Matthew",
+      "Acts",
+      "1 Peter",
+      "Hebrews"
+    ]
+  }
 }

@@ -1,84 +1,132 @@
 {
   "topic": "TRIAL",
   "slug": "trial",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [
+    "COURT",
+    "FAITH",
+    "JUSTICE",
+    "PRISONERS",
+    "TEMPTATION"
+  ],
+  "aspects": [
     {
-      "name": "Before court Le 24:10-14",
+      "label": "Before court",
       "references": [
-        "Lev 24:10-14"
+        "Leviticus 24:10-14"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "The right of Joh 7:51; Ac 16:37-39; 22:25-30",
+      "label": "The right of",
       "references": [
         "John 7:51",
         "Acts 16:37-39",
         "Acts 22:25-30"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See COURT",
+      "label": "SeeCOURT",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See JUSTICE",
+      "label": "SeeJUSTICE",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See PRISONERS",
+      "label": "SeePRI",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "OF FAITH",
+      "label": "OF FAITH",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
+    },
+    {
+      "label": ".SeeFAITH",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".SeeTEMPTATION",
+      "references": [],
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Acts",
-      "book_abbrev": "act",
-      "chapter": 16,
-      "testament": "NT",
+      "book": "Leviticus",
+      "chapter": 24,
       "verses": [
-        22,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "verse_count": 5,
+      "testament": "OT",
+      "raw": "Leviticus 24:10-14"
+    },
+    {
+      "book": "John",
+      "chapter": 7,
+      "verses": [
+        51
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "John 7:51"
+    },
+    {
+      "book": "Acts",
+      "chapter": 16,
+      "verses": [
         37,
         38,
         39
       ],
-      "verse_count": 4
+      "verse_count": 3,
+      "testament": "NT",
+      "raw": "Acts 16:37-39"
+    },
+    {
+      "book": "Acts",
+      "chapter": 22,
+      "verses": [
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "verse_count": 6,
+      "testament": "NT",
+      "raw": "Acts 22:25-30"
     }
   ],
-  "see_also": [
-    "TEMPTATION",
-    "PRISONERS",
-    "FAITH",
-    "COURT",
-    "JUSTICE"
+  "books_mentioned": [
+    "Acts",
+    "John",
+    "Leviticus"
   ],
-  "aliases": [],
   "stats": {
-    "entries_count": 6,
-    "ot_refs": 0,
-    "nt_refs": 1,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.731181+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0"
+    "total_aspects": 8,
+    "total_refs": 4,
+    "ot_refs": 1,
+    "nt_refs": 3,
+    "books_count": 3,
+    "top_books": [
+      "Acts",
+      "Leviticus",
+      "John"
+    ]
+  }
 }

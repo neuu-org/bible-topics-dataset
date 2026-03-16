@@ -1,64 +1,40 @@
 {
   "topic": "LEBONAH",
-  "topic_slug": "lebonah",
+  "slug": "lebonah",
   "canonical_id": "NAV:lebonah",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–A city on the highway from Beth-el to ShechemJud 21:19",
-  "content_preview": "–A city on the highway from Beth-el to ShechemJud 21:19",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–A city on the highway from Beth-el to ShechemJud 21:19",
-      "raw_segment": "–A city on the highway from Beth-el to ShechemJud 21:19"
+      "label": "A city on the highway from Beth-el to Shechem",
+      "references": [
+        "Judges 21:19"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Judges",
+      "chapter": 21,
+      "verses": [
+        19
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Judges 21:19"
+    }
+  ],
+  "books_mentioned": [
+    "Judges"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 1,
+    "total_refs": 1,
+    "ot_refs": 1,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:3260623beb25d9523a445fbf472d6967bef23b445859106901cd26b5d6a221a5",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 1
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 1,
+    "top_books": [
+      "Judges"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:28:32.516177Z",
-  "updated_at": "2025-09-20T17:28:32.516184Z"
+  }
 }

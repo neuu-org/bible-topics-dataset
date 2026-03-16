@@ -1,101 +1,49 @@
 {
   "topic": "SERMON",
   "slug": "sermon",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [
+    "MINISTERS",
+    "PREACHING"
+  ],
+  "aspects": [
     {
-      "name": "Of Jesus, “on the mount,” Mt 5; 6; 7",
-      "references": [
-        "Matt 5",
-        "Matt 6",
-        "Matt 7"
-      ],
-      "sub_groups": []
+      "label": "Of Jesus, “on the mount,”",
+      "references": [],
+      "source": "NAV"
     },
     {
-      "name": "Of Jesus, “on the plain,” Lu 6:17-49",
+      "label": "Of Jesus, “on the plain,”",
       "references": [
         "Luke 6:17-49"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Beside Lake Galilee Mt 13:1-52; Mr 4:2-33",
+      "label": "Besi",
       "references": [
-        "Matt 13:1-52",
+        "Matthew 13:1-52",
         "Mark 4:2-33"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See PREACHING",
+      "label": "SeePREACHING",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See MINISTERS",
+      "label": "SeeMINISTERS",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Matthew",
-      "book_abbrev": "mat",
-      "chapter": 5,
-      "testament": "NT",
-      "verses": [
-        6,
-        7
-      ],
-      "verse_count": 2
-    },
-    {
-      "book": "Mark",
-      "book_abbrev": "mrk",
-      "chapter": 4,
-      "testament": "NT",
-      "verses": [
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14,
-        15,
-        16,
-        17,
-        18,
-        19,
-        20,
-        21,
-        22,
-        23,
-        24,
-        25,
-        26,
-        27,
-        28,
-        29,
-        30,
-        31,
-        32,
-        33
-      ],
-      "verse_count": 32
-    },
-    {
       "book": "Luke",
-      "book_abbrev": "luk",
       "chapter": 6,
-      "testament": "NT",
       "verses": [
         17,
         18,
@@ -131,30 +79,128 @@
         48,
         49
       ],
-      "verse_count": 33
+      "verse_count": 33,
+      "testament": "NT",
+      "raw": "Luke 6:17-49"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 13,
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52
+      ],
+      "verse_count": 52,
+      "testament": "NT",
+      "raw": "Matthew 13:1-52"
+    },
+    {
+      "book": "Mark",
+      "chapter": 4,
+      "verses": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33
+      ],
+      "verse_count": 32,
+      "testament": "NT",
+      "raw": "Mark 4:2-33"
     }
   ],
-  "see_also": [
-    "PREACHING",
-    "MINISTERS"
+  "books_mentioned": [
+    "Luke",
+    "Mark",
+    "Matthew"
   ],
-  "aliases": [],
   "stats": {
-    "entries_count": 5,
+    "total_aspects": 5,
+    "total_refs": 3,
     "ot_refs": 0,
     "nt_refs": 3,
-    "total_verses": 3
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.723981+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    }
-  },
-  "version": "3.0.0"
+    "books_count": 3,
+    "top_books": [
+      "Luke",
+      "Matthew",
+      "Mark"
+    ]
+  }
 }

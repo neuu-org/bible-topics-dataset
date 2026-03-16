@@ -1,88 +1,82 @@
 {
   "topic": "MANEH",
-  "topic_slug": "maneh",
+  "slug": "maneh",
   "canonical_id": "NAV:maneh",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "WEIGHTS"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "WEIGHTS",
-      "clean": "WEIGHTS",
-      "slug": "weights",
-      "canonical_id": "NAV:weights"
+      "label": "(A weight)",
+      "references": []
+    },
+    {
+      "label": "Ren",
+      "references": [
+        "1 Kings 10:17",
+        "Ezra 2:69"
+      ]
+    },
+    {
+      "label": "Equal to one-hundred shekels",
+      "references": [
+        "1 Kings 10:17",
+        "2 Chronicles 9:16"
+      ]
+    },
+    {
+      "label": "SeeWEIGHTS",
+      "references": []
     }
   ],
-  "raw_block": "–(A weight)\n–Rendered pound1Ki 10:17;Ezr 2:69;Ne 7\n–Equal to one-hundred shekels1Ki 10:17; with2Ch 9:16\n–SeeWEIGHTS",
-  "content_preview": "–(A weight)",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–(A weight)",
-      "raw_segment": "–(A weight)"
+      "book": "1 Kings",
+      "chapter": 10,
+      "verses": [
+        17
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Kings 10:17"
     },
     {
-      "idx": 1,
-      "entry_label": "–Rendered pound1Ki 10:17;Ezr 2:69;Ne 7",
-      "raw_segment": "–Rendered pound1Ki 10:17;Ezr 2:69;Ne 7"
+      "book": "Ezra",
+      "chapter": 2,
+      "verses": [
+        69
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezra 2:69"
     },
     {
-      "idx": 2,
-      "entry_label": "–Equal to one-hundred shekels1Ki 10:17; with2Ch 9:16",
-      "raw_segment": "–Equal to one-hundred shekels1Ki 10:17; with2Ch 9:16"
-    },
-    {
-      "idx": 3,
-      "entry_label": "–SeeWEIGHTS",
-      "raw_segment": "–SeeWEIGHTS"
+      "book": "2 Chronicles",
+      "chapter": 9,
+      "verses": [
+        16
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Chronicles 9:16"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "1 Kings",
+    "2 Chronicles",
+    "Ezra"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 4,
+    "total_refs": 3,
+    "ot_refs": 3,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:d9b9f16d33b7e05c747573bb072e216e5bc24ccccf19cc94217a21803719c4d8",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 4
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 3,
+    "top_books": [
+      "1 Kings",
+      "Ezra",
+      "2 Chronicles"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:28:50.826878Z",
-  "updated_at": "2025-09-20T17:28:50.826885Z"
+  }
 }

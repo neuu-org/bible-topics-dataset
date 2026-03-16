@@ -1,57 +1,37 @@
 {
   "topic": "HELKATH",
   "slug": "helkath",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "(Also HUKOK)",
+      "label": "(Al",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "A Levitical town 1Ch 6:75; Jos 19:25; 21:31",
+      "label": "A Leviti",
       "references": [
-        "1Chr 6:75",
-        "Josh 19:25",
-        "Josh 21:31"
+        "1 Chronicles 6:75",
+        "Joshua 19:25",
+        "Joshua 21:31"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Joshua",
-      "book_abbrev": "jos",
-      "chapter": 19,
-      "testament": "OT",
+      "book": "1 Chronicles",
+      "chapter": 6,
       "verses": [
-        21,
-        25
+        75
       ],
-      "verse_count": 2
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.691811+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 6:75"
+    },
     {
       "book": "Joshua",
       "chapter": 19,
@@ -60,8 +40,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Joshua 19:25",
-      "source": "EAS"
+      "raw": "Joshua 19:25"
     },
     {
       "book": "Joshua",
@@ -71,19 +50,22 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Joshua 21:31",
-      "source": "EAS"
-    },
-    {
-      "book": "1 Chronicles",
-      "chapter": 6,
-      "verses": [
-        75
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "1 Chronicles 6:75",
-      "source": "EAS"
+      "raw": "Joshua 21:31"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Joshua"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 3,
+    "ot_refs": 3,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "Joshua",
+      "1 Chronicles"
+    ]
+  }
 }

@@ -1,95 +1,63 @@
 {
   "topic": "HANANI",
   "slug": "hanani",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. Son of Heman 1Ch 25:4,25",
-      "references": [
-        "1Chr 25:4",
-        "1Chr 25:25"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "2. A prophet who rebuked Asa, king of Judah 2Ch 16:7",
-      "references": [
-        "2Chr 16:7"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "3. Father of Jehu the prophet 1Ki 16:1,7; 2Ch 19:2; 20:34",
-      "references": [
-        "1Kgs 16:1",
-        "1Kgs 16:7",
-        "2Chr 19:2",
-        "2Chr 20:34"
-      ],
-      "sub_groups": [
-        {
-          "name": "Possibly identical with number two above",
-          "references": []
-        }
-      ]
-    },
-    {
-      "name": "4. A priest Ezr 10:20",
-      "references": [
-        "Ezra 10:20"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "5. A brother of Nehemiah and keeper of the gates of Jerusalem Ne 1:2; 7:2",
-      "references": [
-        "Neh 1:2",
-        "Neh 7:2"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "6. A priest and musician Ne 12:36",
-      "references": [
-        "Neh 12:36"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "2 Chronicles",
-      "book_abbrev": "2ch",
-      "chapter": 19,
-      "testament": "OT",
-      "verses": [
-        2,
-        20
-      ],
-      "verse_count": 2
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 6,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.690571+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "1.",
+      "references": [
+        "1 Chronicles 25:4,25"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2. A prophet who rebuked Asa, king of",
+      "references": [
+        "2 Chronicles 16:7"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "3. Father of Jehu the prophet",
+      "references": [
+        "1 Kings 16:1,7",
+        "2 Chronicles 19:2",
+        "2 Chronicles 20:34"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".Possibly i",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "4. A priest",
+      "references": [
+        "Ezra 10:20"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "5. A brother of Nehemiah and keeper of the gates of",
+      "references": [
+        "Nehemiah 1:2",
+        "Nehemiah 7:2"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "6. A priest and musician",
+      "references": [
+        "Nehemiah 12:36"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "1 Chronicles",
       "chapter": 25,
@@ -99,39 +67,58 @@
       ],
       "verse_count": 2,
       "testament": "OT",
-      "raw": "1 Chronicles 25:4, 25",
-      "source": "EAS"
+      "raw": "1 Chronicles 25:4,25"
     },
     {
       "book": "2 Chronicles",
-      "chapter": 16,
-      "verses": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10
-      ],
-      "verse_count": 10,
-      "testament": "OT",
-      "raw": "2 Chronicles 16:1-10",
-      "source": "EAS"
-    },
-    {
-      "book": "1 Kings",
       "chapter": 16,
       "verses": [
         7
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Kings 16:7",
-      "source": "EAS"
+      "raw": "2 Chronicles 16:7"
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 16,
+      "verses": [
+        1,
+        7
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "1 Kings 16:1,7"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 19,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Chronicles 19:2"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 20,
+      "verses": [
+        34
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Chronicles 20:34"
+    },
+    {
+      "book": "Ezra",
+      "chapter": 10,
+      "verses": [
+        20
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezra 10:20"
     },
     {
       "book": "Nehemiah",
@@ -141,8 +128,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Nehemiah 1:2",
-      "source": "EAS"
+      "raw": "Nehemiah 1:2"
     },
     {
       "book": "Nehemiah",
@@ -152,8 +138,38 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Nehemiah 7:2",
-      "source": "EAS"
+      "raw": "Nehemiah 7:2"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 12,
+      "verses": [
+        36
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Nehemiah 12:36"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "1 Kings",
+    "2 Chronicles",
+    "Ezra",
+    "Nehemiah"
+  ],
+  "stats": {
+    "total_aspects": 7,
+    "total_refs": 9,
+    "ot_refs": 9,
+    "nt_refs": 0,
+    "books_count": 5,
+    "top_books": [
+      "2 Chronicles",
+      "Nehemiah",
+      "1 Chronicles",
+      "1 Kings",
+      "Ezra"
+    ]
+  }
 }

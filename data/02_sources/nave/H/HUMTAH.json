@@ -1,64 +1,40 @@
 {
   "topic": "HUMTAH",
-  "topic_slug": "humtah",
+  "slug": "humtah",
   "canonical_id": "NAV:humtah",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–A city of the territory of the tribe of JudahJos 15:54",
-  "content_preview": "–A city of the territory of the tribe of JudahJos 15:54",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–A city of the territory of the tribe of JudahJos 15:54",
-      "raw_segment": "–A city of the territory of the tribe of JudahJos 15:54"
+      "label": "A city of the territory of the tribe of",
+      "references": [
+        "Joshua 15:54"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Joshua",
+      "chapter": 15,
+      "verses": [
+        54
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 15:54"
+    }
+  ],
+  "books_mentioned": [
+    "Joshua"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 1,
+    "total_refs": 1,
+    "ot_refs": 1,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:d14ffaeef88a4fbe897f817a2a3caefc4dfa9500d6432b06dc23c0b76e0ed97a",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 1
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 1,
+    "top_books": [
+      "Joshua"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:27:24.649545Z",
-  "updated_at": "2025-09-20T17:27:24.649552Z"
+  }
 }

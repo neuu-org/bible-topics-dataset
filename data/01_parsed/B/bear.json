@@ -1,46 +1,38 @@
 {
-  "topic": "Bear",
+  "topic": "BEAR",
   "slug": "bear",
-  "type": "topic",
-  "reference_groups": [],
-  "biblical_references": [],
-  "stats": {},
-  "sources": [],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.672598+00:00",
-    "merged_from": {
-      "v2": false,
-      "dictionary": true
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "Ferocity of",
+      "references": [
+        "2 Samuel 17:8",
+        "Proverbs 17:12",
+        "Proverbs 28:15",
+        "Isaiah 11:7",
+        "Isaiah 59:11",
+        "Lamentations 3:10",
+        "Hosea 3:3"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Two",
+      "references": [
+        "2 Kings 2:24"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "FIGURATIVE",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "1 Samuel",
-      "chapter": 17,
-      "verses": [
-        34,
-        35,
-        36,
-        37
-      ],
-      "verse_count": 4,
-      "testament": "OT",
-      "raw": "1 Samuel 17:34-37",
-      "source": "EAS"
-    },
-    {
-      "book": "2 Kings",
-      "chapter": 2,
-      "verses": [
-        24
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "2 Kings 2:24",
-      "source": "EAS"
-    },
+  ],
+  "biblical_references": [
     {
       "book": "2 Samuel",
       "chapter": 17,
@@ -49,8 +41,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Samuel 17:8",
-      "source": "EAS"
+      "raw": "2 Samuel 17:8"
     },
     {
       "book": "Proverbs",
@@ -60,30 +51,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Proverbs 17:12",
-      "source": "EAS"
-    },
-    {
-      "book": "Hosea",
-      "chapter": 13,
-      "verses": [
-        8
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Hosea 13:8",
-      "source": "EAS"
-    },
-    {
-      "book": "Isaiah",
-      "chapter": 59,
-      "verses": [
-        11
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Isaiah 59:11",
-      "source": "EAS"
+      "raw": "Proverbs 17:12"
     },
     {
       "book": "Proverbs",
@@ -93,8 +61,27 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Proverbs 28:15",
-      "source": "EAS"
+      "raw": "Proverbs 28:15"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 11,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 11:7"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 59,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 59:11"
     },
     {
       "book": "Lamentations",
@@ -104,30 +91,50 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Lamentations 3:10",
-      "source": "EAS"
+      "raw": "Lamentations 3:10"
     },
     {
       "book": "Hosea",
-      "chapter": 7,
+      "chapter": 3,
       "verses": [
-        5
+        3
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Hosea 7:5",
-      "source": "EAS"
+      "raw": "Hosea 3:3"
     },
     {
-      "book": "1 Samuel",
-      "chapter": 17,
+      "book": "2 Kings",
+      "chapter": 2,
       "verses": [
-        34
+        24
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Samuel 17:34",
-      "source": "SMI"
+      "raw": "2 Kings 2:24"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "2 Kings",
+    "2 Samuel",
+    "Hosea",
+    "Isaiah",
+    "Lamentations",
+    "Proverbs"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 8,
+    "ot_refs": 8,
+    "nt_refs": 0,
+    "books_count": 6,
+    "top_books": [
+      "Proverbs",
+      "Isaiah",
+      "2 Samuel",
+      "Lamentations",
+      "Hosea",
+      "2 Kings"
+    ]
+  }
 }

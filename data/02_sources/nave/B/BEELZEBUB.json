@@ -1,83 +1,105 @@
 {
   "topic": "BEELZEBUB",
-  "topic_slug": "beelzebub",
+  "slug": "beelzebub",
   "canonical_id": "NAV:beelzebub",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "BAAL-ZEBUB"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "BAAL-ZEBUB",
-      "clean": "BAAL-ZEBUB",
-      "slug": "baal_zebub",
-      "canonical_id": "NAV:baal_zebub"
-    }
-  ],
-  "raw_block": "–The prince of devilsMt 10:25;12:24,27;Mr 3:22;Lu \n11:15,18,19\n–Messengers sent to inquire of, by Ahaziah2Ki 1:2\n–SeeBAAL-ZEBUB",
-  "content_preview": "–The prince of devilsMt 10:25;12:24,27;Mr 3:22;Lu ",
-  "reference_groups": [
-    {
-      "idx": 0,
-      "entry_label": "–The prince of devilsMt 10:25;12:24,27;Mr 3:22;Lu \n11:15,18,19",
-      "raw_segment": "–The prince of devilsMt 10:25;12:24,27;Mr 3:22;Lu \n11:15,18,19"
+      "label": "The prince of",
+      "references": [
+        "Matthew 10:25",
+        "Matthew 12:24,27",
+        "Mark 3:22"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–Messengers sent to inquire of, by Ahaziah2Ki 1:2",
-      "raw_segment": "–Messengers sent to inquire of, by Ahaziah2Ki 1:2"
+      "label": "11:15,18,19",
+      "references": []
     },
     {
-      "idx": 2,
-      "entry_label": "–SeeBAAL-ZEBUB",
-      "raw_segment": "–SeeBAAL-ZEBUB"
+      "label": "Messengers sent to inquire of, by Ahaziah",
+      "references": [
+        "2 Kings 1:2"
+      ]
+    },
+    {
+      "label": "SeeBAAL-ZEBUB",
+      "references": []
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Matthew",
+      "chapter": 10,
+      "verses": [
+        25
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 10:25"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 12,
+      "verses": [
+        24,
+        27
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Matthew 12:24,27"
+    },
+    {
+      "book": "Mark",
+      "chapter": 3,
+      "verses": [
+        22
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Mark 3:22"
+    },
+    {
+      "book": "Mark",
+      "chapter": 11,
+      "verses": [
+        15,
+        18,
+        19
+      ],
+      "verse_count": 3,
+      "testament": "NT",
+      "raw": "Mark 11:15,18,19"
+    },
+    {
+      "book": "2 Kings",
+      "chapter": 1,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Kings 1:2"
+    }
+  ],
+  "books_mentioned": [
+    "2 Kings",
+    "Mark",
+    "Matthew"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:4f5a93d56e8751beea94802f07e89314ca697dc09342c17761c47e3632e506df",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 4
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 4,
+    "total_refs": 5,
+    "ot_refs": 1,
+    "nt_refs": 4,
+    "books_count": 3,
+    "top_books": [
+      "Matthew",
+      "Mark",
+      "2 Kings"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:24:14.688460Z",
-  "updated_at": "2025-09-20T17:24:14.688467Z"
+  }
 }

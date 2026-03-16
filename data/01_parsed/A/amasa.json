@@ -1,100 +1,53 @@
 {
   "topic": "AMASA",
   "slug": "amasa",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. Nephew of David 2Sa 17:25; 1Ch 2:17",
-      "references": [
-        "2Sam 17:25",
-        "1Chr 2:17"
-      ],
-      "sub_groups": [
-        {
-          "name": "Joins Absalom 2Sa 17:25",
-          "references": [
-            "2Sam 17:25"
-          ]
-        },
-        {
-          "name": "Returns to David, and is made captain of the host 2Sa 19:13",
-          "references": [
-            "2Sam 19:13"
-          ]
-        },
-        {
-          "name": "Sam 2Sa 20:8-12; 1Ki 2:5,32",
-          "references": [
-            "2Sam 20:8-12",
-            "1Kgs 2:5",
-            "1Kgs 2:32"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "2. Son of Hadlai 2Ch 28:12",
-      "references": [
-        "2Chr 28:12"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "1 Kings",
-      "book_abbrev": "1ki",
-      "chapter": 2,
-      "testament": "OT",
-      "verses": [
-        5,
-        32
-      ],
-      "verse_count": 2
-    },
-    {
-      "book": "1 Chronicles",
-      "book_abbrev": "1ch",
-      "chapter": 2,
-      "testament": "OT",
-      "verses": [
-        17
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 2,
-    "nt_refs": 0,
-    "total_verses": 2
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.662867+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "see_also": [],
+  "aspects": [
     {
-      "book": "1 Chronicles",
-      "chapter": 2,
-      "verses": [
-        17
+      "label": "1. Nephew of David",
+      "references": [
+        "2 Samuel 17:25",
+        "1 Chronicles 2:17"
       ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "1 Chronicles 2:17",
-      "source": "EAS"
+      "source": "NAV"
     },
+    {
+      "label": ".Joins Absalom",
+      "references": [
+        "2 Samuel 17:25"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".Returns to David, and is ma",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "19:13",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".Sam",
+      "references": [
+        "2 Samuel 20:8-12",
+        "1 Kings 2:5,32"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2.",
+      "references": [
+        "2 Chronicles 28:12"
+      ],
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
     {
       "book": "2 Samuel",
       "chapter": 17,
@@ -103,8 +56,17 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Samuel 17:25",
-      "source": "EAS"
+      "raw": "2 Samuel 17:25"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 2,
+      "verses": [
+        17
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 2:17"
     },
     {
       "book": "2 Samuel",
@@ -114,27 +76,32 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Samuel 19:13",
-      "source": "EAS"
+      "raw": "2 Samuel 19:13"
     },
     {
       "book": "2 Samuel",
       "chapter": 20,
       "verses": [
-        4,
-        5,
-        6,
-        7,
         8,
         9,
         10,
         11,
         12
       ],
-      "verse_count": 9,
+      "verse_count": 5,
       "testament": "OT",
-      "raw": "2 Samuel 20:4-12",
-      "source": "EAS"
+      "raw": "2 Samuel 20:8-12"
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 2,
+      "verses": [
+        5,
+        32
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "1 Kings 2:5,32"
     },
     {
       "book": "2 Chronicles",
@@ -144,8 +111,26 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Chronicles 28:12",
-      "source": "EAS"
+      "raw": "2 Chronicles 28:12"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "1 Kings",
+    "2 Chronicles",
+    "2 Samuel"
+  ],
+  "stats": {
+    "total_aspects": 6,
+    "total_refs": 6,
+    "ot_refs": 6,
+    "nt_refs": 0,
+    "books_count": 4,
+    "top_books": [
+      "2 Samuel",
+      "1 Chronicles",
+      "1 Kings",
+      "2 Chronicles"
+    ]
+  }
 }

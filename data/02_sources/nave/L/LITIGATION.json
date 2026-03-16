@@ -1,114 +1,94 @@
 {
   "topic": "LITIGATION",
-  "topic_slug": "litigation",
+  "slug": "litigation",
   "canonical_id": "NAV:litigation",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "ADJUDICATION",
     "ACTIONS AT LAW",
     "ARBITRATION",
     "COMPROMISE"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "ADJUDICATION",
-      "clean": "ADJUDICATION",
-      "slug": "adjudication",
-      "canonical_id": "NAV:adjudication"
+      "label": "To be avoi",
+      "references": [
+        "Matthew 5:25",
+        "Luke 12:58",
+        "1 Corinthians 6:1-8"
+      ]
     },
     {
-      "original": "ACTIONS AT LAW",
-      "clean": "ACTIONS AT LAW",
-      "slug": "actions_at_law",
-      "canonical_id": "NAV:actions_at_law"
+      "label": "SeeACTIONS AT LAW",
+      "references": []
     },
     {
-      "original": "ARBITRATION",
-      "clean": "ARBITRATION",
-      "slug": "arbitration",
-      "canonical_id": "NAV:arbitration"
+      "label": "SeeAD",
+      "references": []
     },
     {
-      "original": "COMPROMISE",
-      "clean": "COMPROMISE",
-      "slug": "compromise",
-      "canonical_id": "NAV:compromise"
+      "label": "SeeARBITRATION",
+      "references": []
+    },
+    {
+      "label": "SeeCOMPROMISE",
+      "references": []
     }
   ],
-  "raw_block": "–To be avoidedMt 5:25;Lu 12:58;1Co 6:1-8\n–SeeACTIONS AT LAW\n–SeeADJUDICATION\n–SeeARBITRATION\n–SeeCOMPROMISE",
-  "content_preview": "–To be avoidedMt 5:25;Lu 12:58;1Co 6:1-8",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–To be avoidedMt 5:25;Lu 12:58;1Co 6:1-8",
-      "raw_segment": "–To be avoidedMt 5:25;Lu 12:58;1Co 6:1-8"
+      "book": "Matthew",
+      "chapter": 5,
+      "verses": [
+        25
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 5:25"
     },
     {
-      "idx": 1,
-      "entry_label": "–SeeACTIONS AT LAW",
-      "raw_segment": "–SeeACTIONS AT LAW"
+      "book": "Luke",
+      "chapter": 12,
+      "verses": [
+        58
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 12:58"
     },
     {
-      "idx": 2,
-      "entry_label": "–SeeADJUDICATION",
-      "raw_segment": "–SeeADJUDICATION"
-    },
-    {
-      "idx": 3,
-      "entry_label": "–SeeARBITRATION",
-      "raw_segment": "–SeeARBITRATION"
-    },
-    {
-      "idx": 4,
-      "entry_label": "–SeeCOMPROMISE",
-      "raw_segment": "–SeeCOMPROMISE"
+      "book": "1 Corinthians",
+      "chapter": 6,
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "verse_count": 8,
+      "testament": "NT",
+      "raw": "1 Corinthians 6:1-8"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "1 Corinthians",
+    "Luke",
+    "Matthew"
+  ],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 5,
+    "total_refs": 3,
     "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:a78340148f5a14365acbd4aca30c1639e5c89d0b61f7f5b271262e800e0dda8e",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 5
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "nt_refs": 3,
+    "books_count": 3,
+    "top_books": [
+      "Matthew",
+      "Luke",
+      "1 Corinthians"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:28:37.305118Z",
-  "updated_at": "2025-09-20T17:28:37.305126Z"
+  }
 }

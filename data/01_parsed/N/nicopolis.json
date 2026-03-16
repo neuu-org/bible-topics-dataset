@@ -1,43 +1,25 @@
 {
   "topic": "NICOPOLIS",
   "slug": "nicopolis",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "(A city of Thrace)",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "Paul lives in Tit 3:12",
-      "references": [
-        "Titus 3:12"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.714928+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "(A city of Thrace)",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "Paul lives in",
+      "references": [
+        "Titus 3:12"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Titus",
       "chapter": 3,
@@ -46,8 +28,20 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Titus 3:12",
-      "source": "EAS"
+      "raw": "Titus 3:12"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Titus"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 1,
+    "ot_refs": 0,
+    "nt_refs": 1,
+    "books_count": 1,
+    "top_books": [
+      "Titus"
+    ]
+  }
 }

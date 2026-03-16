@@ -1,93 +1,112 @@
 {
   "topic": "THUMB",
-  "topic_slug": "thumb",
+  "slug": "thumb",
   "canonical_id": "NAV:thumb",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "HAND"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "HAND",
-      "clean": "HAND",
-      "slug": "hand",
-      "canonical_id": "NAV:hand"
+      "label": "Blood put on, in consecration",
+      "references": [
+        "Exodus 29:20",
+        "Leviticus 8:23"
+      ]
+    },
+    {
+      "label": "In purifi",
+      "references": [
+        "Leviticus 14:14,25"
+      ]
+    },
+    {
+      "label": "Oil put on",
+      "references": [
+        "Leviticus 14:17,28"
+      ]
+    },
+    {
+      "label": "Of pri",
+      "references": [
+        "Judges 1:6,7"
+      ]
+    },
+    {
+      "label": "SeeHAND",
+      "references": []
     }
   ],
-  "raw_block": "–Blood put on, in consecrationEx 29:20;Le 8:23\n–In purificationLe 14:14,25\n–Oil put onLe 14:17,28\n–Of prisoners cut offJud 1:6,7\n–SeeHAND",
-  "content_preview": "–Blood put on, in consecrationEx 29:20;Le 8:23",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–Blood put on, in consecrationEx 29:20;Le 8:23",
-      "raw_segment": "–Blood put on, in consecrationEx 29:20;Le 8:23"
+      "book": "Exodus",
+      "chapter": 29,
+      "verses": [
+        20
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 29:20"
     },
     {
-      "idx": 1,
-      "entry_label": "–In purificationLe 14:14,25",
-      "raw_segment": "–In purificationLe 14:14,25"
+      "book": "Leviticus",
+      "chapter": 8,
+      "verses": [
+        23
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Leviticus 8:23"
     },
     {
-      "idx": 2,
-      "entry_label": "–Oil put onLe 14:17,28",
-      "raw_segment": "–Oil put onLe 14:17,28"
+      "book": "Leviticus",
+      "chapter": 14,
+      "verses": [
+        14,
+        25
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Leviticus 14:14,25"
     },
     {
-      "idx": 3,
-      "entry_label": "–Of prisoners cut offJud 1:6,7",
-      "raw_segment": "–Of prisoners cut offJud 1:6,7"
+      "book": "Leviticus",
+      "chapter": 14,
+      "verses": [
+        17,
+        28
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Leviticus 14:17,28"
     },
     {
-      "idx": 4,
-      "entry_label": "–SeeHAND",
-      "raw_segment": "–SeeHAND"
+      "book": "Judges",
+      "chapter": 1,
+      "verses": [
+        6,
+        7
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Judges 1:6,7"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "Exodus",
+    "Judges",
+    "Leviticus"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 5,
+    "total_refs": 5,
+    "ot_refs": 5,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:74bbe8726abb35a2b9cd5df06d90704c08bca5d30c2855df870eafc924d1154f",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 5
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 3,
+    "top_books": [
+      "Leviticus",
+      "Exodus",
+      "Judges"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:32:10.853824Z",
-  "updated_at": "2025-09-20T17:32:10.853831Z"
+  }
 }

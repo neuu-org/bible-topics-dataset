@@ -1,68 +1,36 @@
 {
   "topic": "SHAARAIM",
   "slug": "shaaraim",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. A city in the territory of the tribe of Judah, also called SHARAIM Jos 15:36; 1Sa 17:52",
-      "references": [
-        "Josh 15:36",
-        "1Sam 17:52"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "2. A city in the territory of the tribe of Simeon 1Ch 4:31",
-      "references": [
-        "1Chr 4:31"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "1 Samuel",
-      "book_abbrev": "1sa",
-      "chapter": 17,
-      "testament": "OT",
-      "verses": [
-        52
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.724119+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "see_also": [],
+  "aspects": [
     {
-      "book": "1 Samuel",
-      "chapter": 17,
-      "verses": [
-        52
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "1 Samuel 17:52",
-      "source": "EAS"
+      "label": "1. A city in the territory of the tribe of",
+      "references": [],
+      "source": "NAV"
     },
+    {
+      "label": "SHARAIM",
+      "references": [
+        "Joshua 15:36",
+        "1 Samuel 17:52"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2. A city in the territory of the tribe of Simeon1Ch",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "4:31",
+      "references": [],
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
     {
       "book": "Joshua",
       "chapter": 15,
@@ -71,19 +39,42 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Joshua 15:36",
-      "source": "EAS"
+      "raw": "Joshua 15:36"
     },
     {
-      "book": "1 Chronicles",
+      "book": "1 Samuel",
+      "chapter": 17,
+      "verses": [
+        52
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Samuel 17:52"
+    },
+    {
+      "book": "1 Samuel",
       "chapter": 4,
       "verses": [
         31
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 4:31",
-      "source": "EAS"
+      "raw": "1 Samuel 4:31"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Samuel",
+    "Joshua"
+  ],
+  "stats": {
+    "total_aspects": 4,
+    "total_refs": 3,
+    "ot_refs": 3,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "1 Samuel",
+      "Joshua"
+    ]
+  }
 }

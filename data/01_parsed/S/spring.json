@@ -1,94 +1,140 @@
 {
   "topic": "SPRING",
   "slug": "spring",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. Season of, promised annual return of Ge 8:22",
-      "references": [
-        "Gen 8:22"
-      ],
-      "sub_groups": [
-        {
-          "name": "Described Pr 27:25; So 2:11-13",
-          "references": [
-            "Prov 27:25",
-            "Song 2:11-13"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "2. Of water",
-      "references": [],
-      "sub_groups": [
-        {
-          "name": "Hot Ge 36:24",
-          "references": [
-            "Gen 36:24"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "FIGURATIVE",
-      "references": [],
-      "sub_groups": [
-        {
-          "name": "Corrupt Pr 25:26; Jas 3:11",
-          "references": [
-            "Prov 25:26",
-            "Jas 3:11"
-          ]
-        }
-      ]
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "James",
-      "book_abbrev": "jas",
-      "chapter": 3,
-      "testament": "NT",
-      "verses": [
-        11
-      ],
-      "verse_count": 1
-    }
+  "sources": [
+    "NAV"
   ],
   "see_also": [
     "WELLS"
   ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 0,
-    "nt_refs": 1,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.727445+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "aspects": [
     {
-      "book": "Joshua",
-      "chapter": 10,
+      "label": "1. Sea",
+      "references": [
+        "Genesis 8:22"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".",
+      "references": [
+        "Proverbs 27:25",
+        "Song of Solomon 2:11-13"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2. Of water",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".Hot",
+      "references": [
+        "Genesis 36:24"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "FIGURATIVE",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".Corrupt",
+      "references": [
+        "Proverbs 25:26",
+        "James 3:11"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".SeeWELLS",
+      "references": [],
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
+    {
+      "book": "Genesis",
+      "chapter": 8,
       "verses": [
-        40
+        22
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Joshua 10:40",
-      "source": "EAS"
+      "raw": "Genesis 8:22"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 27,
+      "verses": [
+        25
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 27:25"
+    },
+    {
+      "book": "Song of Solomon",
+      "chapter": 2,
+      "verses": [
+        11,
+        12,
+        13
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Song of Solomon 2:11-13"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 36,
+      "verses": [
+        24
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 36:24"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 25,
+      "verses": [
+        26
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 25:26"
+    },
+    {
+      "book": "James",
+      "chapter": 3,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "James 3:11"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Genesis",
+    "James",
+    "Proverbs",
+    "Song of Solomon"
+  ],
+  "stats": {
+    "total_aspects": 7,
+    "total_refs": 6,
+    "ot_refs": 5,
+    "nt_refs": 1,
+    "books_count": 4,
+    "top_books": [
+      "Genesis",
+      "Proverbs",
+      "Song of Solomon",
+      "James"
+    ]
+  }
 }

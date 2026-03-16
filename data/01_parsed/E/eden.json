@@ -1,134 +1,61 @@
 {
   "topic": "EDEN",
   "slug": "eden",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. The garden of Eden Ge 2:8-17; 3:23,24; 4:16; Isa 51:3; Eze 28:13; 31:9,16,18; 36:35; Joe 2:3",
-      "references": [
-        "Gen 2:8-17",
-        "Gen 3:23",
-        "Gen 3:24",
-        "Gen 4:16",
-        "Isa 51:3",
-        "Ezek 28:13",
-        "Ezek 31:9",
-        "Ezek 31:16",
-        "Ezek 31:18",
-        "Ezek 36:35",
-        "Joel 2:3"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "2. A marketplace of costly merchandise 2Ki 19:12; Isa 37:12; Eze 27:23; Am 1:5",
-      "references": [
-        "2Kgs 19:12",
-        "Isa 37:12",
-        "Ezek 27:23",
-        "Amos 1:5"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "3. A Gershonite 2Ch 29:12",
-      "references": [
-        "2Chr 29:12"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "4. A Levite 2Ch 31:15",
-      "references": [
-        "2Chr 31:15"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Isaiah",
-      "book_abbrev": "isa",
-      "chapter": 51,
-      "testament": "OT",
-      "verses": [
-        3
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Isaiah",
-      "book_abbrev": "isa",
-      "chapter": 37,
-      "testament": "OT",
-      "verses": [
-        12
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Ezekiel",
-      "book_abbrev": "ezk",
-      "chapter": 28,
-      "testament": "OT",
-      "verses": [
-        13,
-        31
-      ],
-      "verse_count": 2
-    },
-    {
-      "book": "Ezekiel",
-      "book_abbrev": "ezk",
-      "chapter": 27,
-      "testament": "OT",
-      "verses": [
-        23
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Joel",
-      "book_abbrev": "jol",
-      "chapter": 2,
-      "testament": "OT",
-      "verses": [
-        3
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Amos",
-      "book_abbrev": "amo",
-      "chapter": 1,
-      "testament": "OT",
-      "verses": [
-        5
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 4,
-    "ot_refs": 6,
-    "nt_refs": 0,
-    "total_verses": 6
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.683066+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "1. The gar",
+      "references": [
+        "Genesis 2:8-17",
+        "Genesis 3:23,24",
+        "Genesis 4:16"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "51:3;",
+      "references": [
+        "Ezekiel 28:13",
+        "Ezekiel 31:9,16,18",
+        "Ezekiel 36:35",
+        "Joel 2:3"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2. A marketplace of costly merchandise",
+      "references": [
+        "2 Kings 19:12"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "37:12;",
+      "references": [
+        "Ezekiel 27:23",
+        "Amos 1:5"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "3. A Gershonite",
+      "references": [
+        "2 Chronicles 29:12"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "4. A Levite",
+      "references": [
+        "2 Chronicles 31:15"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Genesis",
       "chapter": 2,
@@ -146,30 +73,80 @@
       ],
       "verse_count": 10,
       "testament": "OT",
-      "raw": "Genesis 2:8-17",
-      "source": "EAS"
+      "raw": "Genesis 2:8-17"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 3,
+      "verses": [
+        23,
+        24
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Genesis 3:23,24"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 4,
+      "verses": [
+        16
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 4:16"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 51,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 51:3"
     },
     {
       "book": "Ezekiel",
-      "chapter": 27,
+      "chapter": 28,
       "verses": [
-        23
+        13
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Ezekiel 27:23",
-      "source": "EAS"
+      "raw": "Ezekiel 28:13"
     },
     {
-      "book": "2 Chronicles",
-      "chapter": 29,
+      "book": "Ezekiel",
+      "chapter": 31,
       "verses": [
-        12
+        9,
+        16,
+        18
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Ezekiel 31:9,16,18"
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 36,
+      "verses": [
+        35
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Chronicles 29:12",
-      "source": "EAS"
+      "raw": "Ezekiel 36:35"
+    },
+    {
+      "book": "Joel",
+      "chapter": 2,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joel 2:3"
     },
     {
       "book": "2 Kings",
@@ -179,19 +156,80 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Kings 19:12",
-      "source": "EAS"
+      "raw": "2 Kings 19:12"
     },
     {
-      "book": "Isaiah",
+      "book": "2 Kings",
       "chapter": 37,
       "verses": [
         12
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Isaiah 37:12",
-      "source": "EAS"
+      "raw": "2 Kings 37:12"
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 27,
+      "verses": [
+        23
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezekiel 27:23"
+    },
+    {
+      "book": "Amos",
+      "chapter": 1,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Amos 1:5"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 29,
+      "verses": [
+        12
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Chronicles 29:12"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 31,
+      "verses": [
+        15
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Chronicles 31:15"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "2 Chronicles",
+    "2 Kings",
+    "Amos",
+    "Ezekiel",
+    "Genesis",
+    "Joel"
+  ],
+  "stats": {
+    "total_aspects": 6,
+    "total_refs": 14,
+    "ot_refs": 14,
+    "nt_refs": 0,
+    "books_count": 6,
+    "top_books": [
+      "Genesis",
+      "Ezekiel",
+      "2 Kings",
+      "2 Chronicles",
+      "Joel",
+      "Amos"
+    ]
+  }
 }

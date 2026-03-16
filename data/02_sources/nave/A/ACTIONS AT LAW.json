@@ -1,90 +1,51 @@
 {
   "topic": "ACTIONS AT LAW",
-  "topic_slug": "actions_at_law",
+  "slug": "actions_at_law",
   "canonical_id": "NAV:actions_at_law",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "ADJUDICATION",
     "ARBITRATION"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "ADJUDICATION",
-      "clean": "ADJUDICATION",
-      "slug": "adjudication",
-      "canonical_id": "NAV:adjudication"
+      "label": "Duty of",
+      "references": [
+        "Matthew 5:40"
+      ]
     },
     {
-      "original": "ARBITRATION",
-      "clean": "ARBITRATION",
-      "slug": "arbitration",
-      "canonical_id": "NAV:arbitration"
+      "label": "SeeAD",
+      "references": []
+    },
+    {
+      "label": "SeeARBITRATION",
+      "references": []
     }
   ],
-  "raw_block": "–Duty of defendantMt 5:40\n–SeeADJUDICATION\n–SeeARBITRATION",
-  "content_preview": "–Duty of defendantMt 5:40",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–Duty of defendantMt 5:40",
-      "raw_segment": "–Duty of defendantMt 5:40"
-    },
-    {
-      "idx": 1,
-      "entry_label": "–SeeADJUDICATION",
-      "raw_segment": "–SeeADJUDICATION"
-    },
-    {
-      "idx": 2,
-      "entry_label": "–SeeARBITRATION",
-      "raw_segment": "–SeeARBITRATION"
+      "book": "Matthew",
+      "chapter": 5,
+      "verses": [
+        40
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 5:40"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "Matthew"
+  ],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 3,
+    "total_refs": 1,
     "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:56346b05f13777b52009bc6a3a30700f4e7cb204fcd06bb07f90643a9a745404",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 3
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "nt_refs": 1,
+    "books_count": 1,
+    "top_books": [
+      "Matthew"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:23:14.926572Z",
-  "updated_at": "2025-09-20T17:23:14.926580Z"
+  }
 }

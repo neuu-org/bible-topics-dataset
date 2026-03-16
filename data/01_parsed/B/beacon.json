@@ -1,63 +1,34 @@
 {
   "topic": "BEACON",
   "slug": "beacon",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "General scriptures concerning Isa 30:17; Jer 6:1",
-      "references": [
-        "Isa 30:17",
-        "Jer 6:1"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "See ENSIGN",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "See STANDARD",
-      "references": [],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Jeremiah",
-      "book_abbrev": "jer",
-      "chapter": 6,
-      "testament": "OT",
-      "verses": [
-        1
-      ],
-      "verse_count": 1
-    }
+  "sources": [
+    "NAV"
   ],
   "see_also": [
     "ENSIGN",
     "STANDARD"
   ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.672557+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "aspects": [
+    {
+      "label": "General scriptures concerning",
+      "references": [
+        "Isaiah 30:17",
+        "Jeremiah 6:1"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeENSIGN",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeSTANDARD",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Isaiah",
       "chapter": 30,
@@ -66,30 +37,32 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Isaiah 30:17",
-      "source": "EAS"
+      "raw": "Isaiah 30:17"
     },
     {
-      "book": "Isaiah",
-      "chapter": 33,
+      "book": "Jeremiah",
+      "chapter": 6,
       "verses": [
-        23
+        1
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Isaiah 33:23",
-      "source": "EAS"
-    },
-    {
-      "book": "Ezekiel",
-      "chapter": 27,
-      "verses": [
-        5
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Ezekiel 27:5",
-      "source": "EAS"
+      "raw": "Jeremiah 6:1"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Isaiah",
+    "Jeremiah"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 2,
+    "ot_refs": 2,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "Isaiah",
+      "Jeremiah"
+    ]
+  }
 }

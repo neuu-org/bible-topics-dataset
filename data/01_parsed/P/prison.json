@@ -1,45 +1,110 @@
 {
-  "topic": "Prison",
+  "topic": "PRISON",
   "slug": "prison",
-  "type": "topic",
-  "reference_groups": [],
-  "biblical_references": [],
-  "stats": {},
-  "sources": [],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.719589+00:00",
-    "merged_from": {
-      "v2": false,
-      "dictionary": true
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [
+    "DUNGEON",
+    "IMPRISONMENT",
+    "PRISONERS"
+  ],
+  "aspects": [
+    {
+      "label": "General scriptures concerning",
+      "references": [
+        "Genesis 39:20",
+        "Genesis 42:16-19"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "24:12;",
+      "references": [
+        "Numbers 15:34",
+        "Ezra 7:26",
+        "Jeremiah 52:11",
+        "Luke 23:19",
+        "Acts 4:3",
+        "Acts 12:4,5"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Public ward of",
+      "references": [
+        "Acts 5:18"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Cells of",
+      "references": [
+        "Acts 16:24"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Court of",
+      "references": [
+        "Jeremiah 33:1"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Dungeon in",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".SeeDUNGEON",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeIMPRI",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "SeePRI",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Genesis",
       "chapter": 39,
       "verses": [
-        20,
-        21,
-        22,
-        23
+        20
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 39:20"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 42,
+      "verses": [
+        16,
+        17,
+        18,
+        19
       ],
       "verse_count": 4,
       "testament": "OT",
-      "raw": "Genesis 39:20-23",
-      "source": "EAS"
+      "raw": "Genesis 42:16-19"
     },
     {
-      "book": "Leviticus",
+      "book": "Genesis",
       "chapter": 24,
       "verses": [
         12
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Leviticus 24:12",
-      "source": "EAS"
+      "raw": "Genesis 24:12"
     },
     {
       "book": "Numbers",
@@ -49,177 +114,37 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Numbers 15:34",
-      "source": "EAS"
+      "raw": "Numbers 15:34"
     },
     {
-      "book": "Judges",
-      "chapter": 16,
+      "book": "Ezra",
+      "chapter": 7,
       "verses": [
-        21,
-        25
-      ],
-      "verse_count": 2,
-      "testament": "OT",
-      "raw": "Judges 16:21, 25",
-      "source": "EAS"
-    },
-    {
-      "book": "1 Kings",
-      "chapter": 22,
-      "verses": [
-        27
+        26
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Kings 22:27",
-      "source": "EAS"
-    },
-    {
-      "book": "2 Kings",
-      "chapter": 17,
-      "verses": [
-        4
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "2 Kings 17:4",
-      "source": "EAS"
-    },
-    {
-      "book": "2 Kings",
-      "chapter": 25,
-      "verses": [
-        27,
-        29
-      ],
-      "verse_count": 2,
-      "testament": "OT",
-      "raw": "2 Kings 25:27, 29",
-      "source": "EAS"
-    },
-    {
-      "book": "2 Chronicles",
-      "chapter": 16,
-      "verses": [
-        10
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "2 Chronicles 16:10",
-      "source": "EAS"
-    },
-    {
-      "book": "Isaiah",
-      "chapter": 42,
-      "verses": [
-        7
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Isaiah 42:7",
-      "source": "EAS"
+      "raw": "Ezra 7:26"
     },
     {
       "book": "Jeremiah",
-      "chapter": 32,
-      "verses": [
-        2
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Jeremiah 32:2",
-      "source": "EAS"
-    },
-    {
-      "book": "Matthew",
-      "chapter": 11,
-      "verses": [
-        2
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Matthew 11:2",
-      "source": "EAS"
-    },
-    {
-      "book": "Matthew",
-      "chapter": 25,
-      "verses": [
-        36,
-        43
-      ],
-      "verse_count": 2,
-      "testament": "NT",
-      "raw": "Matthew 25:36, 43",
-      "source": "EAS"
-    },
-    {
-      "book": "Acts",
-      "chapter": 5,
-      "verses": [
-        18,
-        23
-      ],
-      "verse_count": 2,
-      "testament": "NT",
-      "raw": "Acts 5:18, 23",
-      "source": "EAS"
-    },
-    {
-      "book": "Acts",
-      "chapter": 8,
-      "verses": [
-        3
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Acts 8:3",
-      "source": "EAS"
-    },
-    {
-      "book": "Numbers",
-      "chapter": 69,
-      "verses": [
-        33
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Numbers 69:33",
-      "source": "EAS"
-    },
-    {
-      "book": "Numbers",
-      "chapter": 79,
+      "chapter": 52,
       "verses": [
         11
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Numbers 79:11",
-      "source": "EAS"
+      "raw": "Jeremiah 52:11"
     },
     {
-      "book": "Numbers",
-      "chapter": 142,
+      "book": "Luke",
+      "chapter": 23,
       "verses": [
-        7
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Numbers 142:7",
-      "source": "EAS"
-    },
-    {
-      "book": "Acts",
-      "chapter": 16,
-      "verses": [
-        24
+        19
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Acts 16:24",
-      "source": "EAS"
+      "raw": "Luke 23:19"
     },
     {
       "book": "Acts",
@@ -229,8 +154,7 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Acts 4:3",
-      "source": "EAS"
+      "raw": "Acts 4:3"
     },
     {
       "book": "Acts",
@@ -241,57 +165,60 @@
       ],
       "verse_count": 2,
       "testament": "NT",
-      "raw": "Acts 12:4, 5",
-      "source": "EAS"
-    },
-    {
-      "book": "Genesis",
-      "chapter": 40,
-      "verses": [
-        3
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Genesis 40:3",
-      "source": "SMI"
-    },
-    {
-      "book": "Genesis",
-      "chapter": 42,
-      "verses": [
-        17
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Genesis 42:17",
-      "source": "SMI"
+      "raw": "Acts 12:4,5"
     },
     {
       "book": "Acts",
-      "chapter": 23,
+      "chapter": 5,
       "verses": [
-        10
+        18
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Acts 23:10",
-      "source": "SMI"
+      "raw": "Acts 5:18"
+    },
+    {
+      "book": "Acts",
+      "chapter": 16,
+      "verses": [
+        24
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 16:24"
     },
     {
       "book": "Jeremiah",
-      "chapter": 35,
+      "chapter": 33,
       "verses": [
-        6,
-        7,
-        8,
-        9,
-        10,
-        11
+        1
       ],
-      "verse_count": 6,
+      "verse_count": 1,
       "testament": "OT",
-      "raw": "Jeremiah 35:6-11",
-      "source": "SMI"
+      "raw": "Jeremiah 33:1"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Acts",
+    "Ezra",
+    "Genesis",
+    "Jeremiah",
+    "Luke",
+    "Numbers"
+  ],
+  "stats": {
+    "total_aspects": 9,
+    "total_refs": 12,
+    "ot_refs": 7,
+    "nt_refs": 5,
+    "books_count": 6,
+    "top_books": [
+      "Acts",
+      "Genesis",
+      "Jeremiah",
+      "Numbers",
+      "Ezra",
+      "Luke"
+    ]
+  }
 }

@@ -1,69 +1,45 @@
 {
   "topic": "SALAMIS",
-  "topic_slug": "salamis",
+  "slug": "salamis",
   "canonical_id": "NAV:salamis",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–(A city of the island of Cyprus)\n–Paul and Barnabas preach inAc 13:4,5",
-  "content_preview": "–(A city of the island of Cyprus)",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–(A city of the island of Cyprus)",
-      "raw_segment": "–(A city of the island of Cyprus)"
+      "label": "(A city of the island of Cyprus)",
+      "references": []
     },
     {
-      "idx": 1,
-      "entry_label": "–Paul and Barnabas preach inAc 13:4,5",
-      "raw_segment": "–Paul and Barnabas preach inAc 13:4,5"
+      "label": "Paul and Barnabas preach in",
+      "references": [
+        "Acts 13:4,5"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Acts",
+      "chapter": 13,
+      "verses": [
+        4,
+        5
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Acts 13:4,5"
+    }
+  ],
+  "books_mentioned": [
+    "Acts"
+  ],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 2,
+    "total_refs": 1,
     "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:7f5f24e159c549d3f0ed12e16fcb3e5018c44b908a49b6886b2e1de6ff741ab8",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "nt_refs": 1,
+    "books_count": 1,
+    "top_books": [
+      "Acts"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:30:48.981299Z",
-  "updated_at": "2025-09-20T17:30:48.981305Z"
+  }
 }

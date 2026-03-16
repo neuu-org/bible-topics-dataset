@@ -1,86 +1,37 @@
 {
   "topic": "JAHAZ",
   "slug": "jahaz",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Also called JAHAZA, JAHAZAH, and JAHZAH",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "A Levitical city in Reuben, taken from the Moabites Jos 13:18; 21:36; Isa 15:4; Jer 48:21",
-      "references": [
-        "Josh 13:18",
-        "Josh 21:36",
-        "Isa 15:4",
-        "Jer 48:21"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Sihon defeated at Nu 21:23; De 2:32; Jud 11:20",
-      "references": [
-        "Num 21:23",
-        "Deut 2:32",
-        "Judg 11:20"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Deuteronomy",
-      "book_abbrev": "deu",
-      "chapter": 2,
-      "testament": "OT",
-      "verses": [
-        32
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Isaiah",
-      "book_abbrev": "isa",
-      "chapter": 15,
-      "testament": "OT",
-      "verses": [
-        4
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Jeremiah",
-      "book_abbrev": "jer",
-      "chapter": 48,
-      "testament": "OT",
-      "verses": [
-        21
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 3,
-    "nt_refs": 0,
-    "total_verses": 3
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.695356+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "Al",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "A Leviti",
+      "references": [
+        "Joshua 13:18",
+        "Joshua 21:36",
+        "Isaiah 15:4",
+        "Jeremiah 48:21"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Sihon",
+      "references": [
+        "Numbers 21:23",
+        "Deuteronomy 2:32",
+        "Judges 11:20"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Joshua",
       "chapter": 13,
@@ -89,8 +40,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Joshua 13:18",
-      "source": "EAS"
+      "raw": "Joshua 13:18"
     },
     {
       "book": "Joshua",
@@ -100,41 +50,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Joshua 21:36",
-      "source": "EAS"
-    },
-    {
-      "book": "1 Chronicles",
-      "chapter": 6,
-      "verses": [
-        78
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "1 Chronicles 6:78",
-      "source": "EAS"
-    },
-    {
-      "book": "Numbers",
-      "chapter": 21,
-      "verses": [
-        23
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Numbers 21:23",
-      "source": "EAS"
-    },
-    {
-      "book": "Deuteronomy",
-      "chapter": 2,
-      "verses": [
-        32
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Deuteronomy 2:32",
-      "source": "EAS"
+      "raw": "Joshua 21:36"
     },
     {
       "book": "Isaiah",
@@ -144,19 +60,70 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Isaiah 15:4",
-      "source": "EAS"
+      "raw": "Isaiah 15:4"
     },
     {
       "book": "Jeremiah",
       "chapter": 48,
       "verses": [
-        34
+        21
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Jeremiah 48:34",
-      "source": "EAS"
+      "raw": "Jeremiah 48:21"
+    },
+    {
+      "book": "Numbers",
+      "chapter": 21,
+      "verses": [
+        23
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Numbers 21:23"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 2,
+      "verses": [
+        32
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 2:32"
+    },
+    {
+      "book": "Judges",
+      "chapter": 11,
+      "verses": [
+        20
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Judges 11:20"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Deuteronomy",
+    "Isaiah",
+    "Jeremiah",
+    "Joshua",
+    "Judges",
+    "Numbers"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 7,
+    "ot_refs": 7,
+    "nt_refs": 0,
+    "books_count": 6,
+    "top_books": [
+      "Joshua",
+      "Isaiah",
+      "Jeremiah",
+      "Numbers",
+      "Deuteronomy",
+      "Judges"
+    ]
+  }
 }

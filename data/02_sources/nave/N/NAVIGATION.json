@@ -1,102 +1,56 @@
 {
   "topic": "NAVIGATION",
-  "topic_slug": "navigation",
+  "slug": "navigation",
   "canonical_id": "NAV:navigation",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "MARINER",
     "NAVY",
     "COMMERCE"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "MARINER",
-      "clean": "MARINER",
-      "slug": "mariner",
-      "canonical_id": "NAV:mariner"
+      "label": "General references",
+      "references": [
+        "Acts 27:28"
+      ]
     },
     {
-      "original": "NAVY",
-      "clean": "NAVY",
-      "slug": "navy",
-      "canonical_id": "NAV:navy"
+      "label": "SeeCOMMERCE",
+      "references": []
     },
     {
-      "original": "COMMERCE",
-      "clean": "COMMERCE",
-      "slug": "commerce",
-      "canonical_id": "NAV:commerce"
+      "label": "SeeMARINER",
+      "references": []
+    },
+    {
+      "label": "SeeNAVY",
+      "references": []
     }
   ],
-  "raw_block": "–Sounding inAc 27:28\n–SeeCOMMERCE\n–SeeMARINER\n–SeeNAVY",
-  "content_preview": "–Sounding inAc 27:28",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–Sounding inAc 27:28",
-      "raw_segment": "–Sounding inAc 27:28"
-    },
-    {
-      "idx": 1,
-      "entry_label": "–SeeCOMMERCE",
-      "raw_segment": "–SeeCOMMERCE"
-    },
-    {
-      "idx": 2,
-      "entry_label": "–SeeMARINER",
-      "raw_segment": "–SeeMARINER"
-    },
-    {
-      "idx": 3,
-      "entry_label": "–SeeNAVY",
-      "raw_segment": "–SeeNAVY"
+      "book": "Acts",
+      "chapter": 27,
+      "verses": [
+        28
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 27:28"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "Acts"
+  ],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 4,
+    "total_refs": 1,
     "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:e78905b0adcc8f5fff1553dca3d4abb046d7e6161ce4bbf7eb9dec85d316c6c1",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 4
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "nt_refs": 1,
+    "books_count": 1,
+    "top_books": [
+      "Acts"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:29:27.179082Z",
-  "updated_at": "2025-09-20T17:29:27.179095Z"
+  }
 }

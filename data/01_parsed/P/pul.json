@@ -1,62 +1,33 @@
 {
   "topic": "PUL",
   "slug": "pul",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. King of Assyria",
-      "references": [],
-      "sub_groups": [
-        {
-          "name": "Forced taxes from Menahem, king of Israel 2Ki 15:19; 1Ch 5:26",
-          "references": [
-            "2Kgs 15:19",
-            "1Chr 5:26"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "2. A place or tribe in Africa Isa 66:19",
-      "references": [
-        "Isa 66:19"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "1 Chronicles",
-      "book_abbrev": "1ch",
-      "chapter": 5,
-      "testament": "OT",
-      "verses": [
-        26
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.720019+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "1. King of Assyria",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".Forced taxes from Menahem, king of Israel",
+      "references": [
+        "2 Kings 15:19",
+        "1 Chronicles 5:26"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2. A place or tribe in Afri",
+      "references": [
+        "Isaiah 66:19"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "2 Kings",
       "chapter": 15,
@@ -65,8 +36,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Kings 15:19",
-      "source": "EAS"
+      "raw": "2 Kings 15:19"
     },
     {
       "book": "1 Chronicles",
@@ -76,41 +46,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 5:26",
-      "source": "EAS"
-    },
-    {
-      "book": "Genesis",
-      "chapter": 10,
-      "verses": [
-        6
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Genesis 10:6",
-      "source": "EAS"
-    },
-    {
-      "book": "Jeremiah",
-      "chapter": 46,
-      "verses": [
-        9
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Jeremiah 46:9",
-      "source": "EAS"
-    },
-    {
-      "book": "Ezekiel",
-      "chapter": 27,
-      "verses": [
-        10
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Ezekiel 27:10",
-      "source": "EAS"
+      "raw": "1 Chronicles 5:26"
     },
     {
       "book": "Isaiah",
@@ -120,8 +56,24 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Isaiah 66:19",
-      "source": "EAS"
+      "raw": "Isaiah 66:19"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "2 Kings",
+    "Isaiah"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 3,
+    "ot_refs": 3,
+    "nt_refs": 0,
+    "books_count": 3,
+    "top_books": [
+      "2 Kings",
+      "1 Chronicles",
+      "Isaiah"
+    ]
+  }
 }

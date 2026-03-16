@@ -1,69 +1,107 @@
 {
   "topic": "OBSEQUIOUSNESS",
-  "topic_slug": "obsequiousness",
+  "slug": "obsequiousness",
   "canonical_id": "NAV:obsequiousness",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–(Servile compliance)\n–INSTANCES OF\n  .Abigail1Sa 25:23-31,41\n  .Mephibosheth2Sa 9:8\n  .The woman of Tekoah2Sa 14:4-20",
-  "content_preview": "–(Servile compliance)",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–(Servile compliance)",
-      "raw_segment": "–(Servile compliance)"
+      "label": "(Servile compliance)",
+      "references": []
     },
     {
-      "idx": 1,
-      "entry_label": "–INSTANCES OF",
-      "raw_segment": "–INSTANCES OF"
+      "label": "INSTANCES OF",
+      "references": []
+    },
+    {
+      "label": ".Abigail",
+      "references": [
+        "1 Samuel 25:23-31,41"
+      ]
+    },
+    {
+      "label": ".Mephibosheth",
+      "references": [
+        "2 Samuel 9:8"
+      ]
+    },
+    {
+      "label": ".The woman of Tekoah",
+      "references": [
+        "2 Samuel 14:4-20"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "1 Samuel",
+      "chapter": 25,
+      "verses": [
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        41
+      ],
+      "verse_count": 10,
+      "testament": "OT",
+      "raw": "1 Samuel 25:23-31,41"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 9,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Samuel 9:8"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 14,
+      "verses": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "verse_count": 17,
+      "testament": "OT",
+      "raw": "2 Samuel 14:4-20"
+    }
+  ],
+  "books_mentioned": [
+    "1 Samuel",
+    "2 Samuel"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 5,
+    "total_refs": 3,
+    "ot_refs": 3,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:c42b9ed330ccc4023cc402411deb2aceab94c3a19ba69ead5ac49818c9ed2537",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 5
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 2,
+    "top_books": [
+      "2 Samuel",
+      "1 Samuel"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:29:38.821874Z",
-  "updated_at": "2025-09-20T17:29:38.821887Z"
+  }
 }

@@ -1,90 +1,30 @@
 {
   "topic": "GIRGASHITES",
   "slug": "girgashites",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Land of, given to Abraham and his descendants Ge 15:21; De 7:1; Jos 3:10; Ne 9:8",
-      "references": [
-        "Gen 15:21",
-        "Deut 7:1",
-        "Josh 3:10",
-        "Neh 9:8"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Delivered to the people of Israel Jos 24:11",
-      "references": [
-        "Josh 24:11"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Deuteronomy",
-      "book_abbrev": "deu",
-      "chapter": 7,
-      "testament": "OT",
-      "verses": [
-        1
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Joshua",
-      "book_abbrev": "jos",
-      "chapter": 3,
-      "testament": "OT",
-      "verses": [
-        10
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Nehemiah",
-      "book_abbrev": "neh",
-      "chapter": 9,
-      "testament": "OT",
-      "verses": [
-        8
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 3,
-    "nt_refs": 0,
-    "total_verses": 3
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.688914+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "see_also": [],
+  "aspects": [
     {
-      "book": "Genesis",
-      "chapter": 10,
-      "verses": [
-        16
+      "label": "Land of, given to Abraham and his",
+      "references": [
+        "Genesis 15:21",
+        "Deuteronomy 7:1",
+        "Joshua 3:10",
+        "Nehemiah 9:8"
       ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Genesis 10:16",
-      "source": "SMI"
+      "source": "NAV"
     },
+    {
+      "label": "General references",
+      "references": [
+        "Joshua 24:11"
+      ],
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
     {
       "book": "Genesis",
       "chapter": 15,
@@ -93,19 +33,66 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 15:21",
-      "source": "SMI"
+      "raw": "Genesis 15:21"
     },
     {
-      "book": "Genesis",
+      "book": "Deuteronomy",
       "chapter": 7,
       "verses": [
         1
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 7:1",
-      "source": "SMI"
+      "raw": "Deuteronomy 7:1"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 3,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 3:10"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 9,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Nehemiah 9:8"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 24,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 24:11"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Deuteronomy",
+    "Genesis",
+    "Joshua",
+    "Nehemiah"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 5,
+    "ot_refs": 5,
+    "nt_refs": 0,
+    "books_count": 4,
+    "top_books": [
+      "Joshua",
+      "Genesis",
+      "Deuteronomy",
+      "Nehemiah"
+    ]
+  }
 }

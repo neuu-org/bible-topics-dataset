@@ -1,118 +1,77 @@
 {
   "topic": "BURDEN",
   "slug": "burden",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "FIGURATIVE",
+      "label": "FIGURATIVE",
       "references": [],
-      "sub_groups": [
-        {
-          "name": "Of oppressions Isa 58:6; Mt 23:4; Lu 11:46; Ga 6:2",
-          "references": [
-            "Isa 58:6",
-            "Matt 23:4",
-            "Luke 11:46",
-            "Gal 6:2"
-          ]
-        },
-        {
-          "name": "Of the prophetic message Isa 13:1; 15:1; 17:1; 19:1",
-          "references": [
-            "Isa 13:1",
-            "Isa 15:1",
-            "Isa 17:1",
-            "Isa 19:1"
-          ]
-        }
-      ]
+      "source": "NAV"
+    },
+    {
+      "label": ".Of oppressions",
+      "references": [
+        "Isaiah 58:6",
+        "Matthew 23:4",
+        "Luke 11:46",
+        "Galatians 6:2"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".Of the prophetic message",
+      "references": [
+        "Isaiah 13:1",
+        "Isaiah 15:1",
+        "Isaiah 17:1",
+        "Isaiah 19:1"
+      ],
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
+      "book": "Isaiah",
+      "chapter": 58,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 58:6"
+    },
+    {
       "book": "Matthew",
-      "book_abbrev": "mat",
       "chapter": 23,
-      "testament": "NT",
       "verses": [
         4
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 23:4"
     },
     {
       "book": "Luke",
-      "book_abbrev": "luk",
       "chapter": 11,
-      "testament": "NT",
       "verses": [
         46
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 11:46"
     },
     {
       "book": "Galatians",
-      "book_abbrev": "gal",
       "chapter": 6,
-      "testament": "NT",
       "verses": [
         2
       ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 3,
-    "total_verses": 3
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.675727+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "Exodus",
-      "chapter": 23,
-      "verses": [
-        5
-      ],
       "verse_count": 1,
-      "testament": "OT",
-      "raw": "Exodus 23:5",
-      "source": "EAS"
-    },
-    {
-      "book": "Exodus",
-      "chapter": 2,
-      "verses": [
-        11
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Exodus 2:11",
-      "source": "EAS"
-    },
-    {
-      "book": "Exodus",
-      "chapter": 18,
-      "verses": [
-        22
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Exodus 18:22",
-      "source": "EAS"
+      "testament": "NT",
+      "raw": "Galatians 6:2"
     },
     {
       "book": "Isaiah",
@@ -122,8 +81,17 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Isaiah 13:1",
-      "source": "EAS"
+      "raw": "Isaiah 13:1"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 15,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 15:1"
     },
     {
       "book": "Isaiah",
@@ -133,19 +101,36 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Isaiah 17:1",
-      "source": "EAS"
+      "raw": "Isaiah 17:1"
     },
     {
-      "book": "Habakkuk",
-      "chapter": 1,
+      "book": "Isaiah",
+      "chapter": 19,
       "verses": [
         1
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Habakkuk 1:1",
-      "source": "EAS"
+      "raw": "Isaiah 19:1"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Galatians",
+    "Isaiah",
+    "Luke",
+    "Matthew"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 8,
+    "ot_refs": 5,
+    "nt_refs": 3,
+    "books_count": 4,
+    "top_books": [
+      "Isaiah",
+      "Matthew",
+      "Luke",
+      "Galatians"
+    ]
+  }
 }

@@ -1,69 +1,80 @@
 {
   "topic": "LENDING",
   "slug": "lending",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [
+    "BORROWING",
+    "INTEREST",
+    "MONEY"
+  ],
+  "aspects": [
     {
-      "name": "General scriptures concerning Ex 22:25-27; Le 25:35-37; De 15:1-11; 23:19,20; 24:6,10-13,17; Ne 5:1-13; Ps 37:25,26; 112:5; Pr 19:17; 22:7; 28:8; Isa 24:1,2; Eze 18:13; Mt 5:42; Lu 6:34,35",
+      "label": "General scriptures concerning",
       "references": [
-        "Exod 22:25-27",
-        "Lev 25:35-37",
-        "Deut 15:1-11",
-        "Deut 23:19",
-        "Deut 23:20",
-        "Deut 24:6",
-        "Deut 24:10-13",
-        "Deut 24:17",
-        "Neh 5:1-13",
-        "Ps 37:25",
-        "Ps 37:26",
-        "Ps 112:5",
-        "Prov 19:17",
-        "Prov 22:7",
-        "Prov 28:8",
-        "Isa 24:1",
-        "Isa 24:2",
-        "Ezek 18:13",
-        "Matt 5:42",
-        "Luke 6:34",
-        "Luke 6:35"
+        "Exodus 22:25-27",
+        "Leviticus 25:35-37",
+        "Deuteronomy 15:1-11",
+        "Deuteronomy 23:19,20",
+        "Deuteronomy 24:6,10-13,17",
+        "Nehemiah 5:1-13",
+        "Psalms 37:25,26",
+        "Psalms 112:5",
+        "Proverbs 19:17",
+        "Proverbs 22:7",
+        "Proverbs 28:8",
+        "Isaiah 24:1,2",
+        "Ezekiel 18:13",
+        "Matthew 5:42",
+        "Luke 6:34,35"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See BORROWING",
+      "label": "SeeBORROWING",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See INTEREST",
+      "label": "SeeINTEREST",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See MONEY",
+      "label": "SeeMONEY",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Leviticus",
-      "book_abbrev": "lev",
-      "chapter": 25,
+      "book": "Exodus",
+      "chapter": 22,
+      "verses": [
+        25,
+        26,
+        27
+      ],
+      "verse_count": 3,
       "testament": "OT",
+      "raw": "Exodus 22:25-27"
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 25,
       "verses": [
         35,
         36,
         37
       ],
-      "verse_count": 3
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Leviticus 25:35-37"
     },
     {
       "book": "Deuteronomy",
-      "book_abbrev": "deu",
       "chapter": 15,
-      "testament": "OT",
       "verses": [
         1,
         2,
@@ -75,16 +86,41 @@
         8,
         9,
         10,
-        11,
-        23
+        11
       ],
-      "verse_count": 12
+      "verse_count": 11,
+      "testament": "OT",
+      "raw": "Deuteronomy 15:1-11"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 23,
+      "verses": [
+        19,
+        20
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Deuteronomy 23:19,20"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 24,
+      "verses": [
+        6,
+        10,
+        11,
+        12,
+        13,
+        17
+      ],
+      "verse_count": 6,
+      "testament": "OT",
+      "raw": "Deuteronomy 24:6,10-13,17"
     },
     {
       "book": "Nehemiah",
-      "book_abbrev": "neh",
       "chapter": 5,
-      "testament": "OT",
       "verses": [
         1,
         2,
@@ -100,96 +136,133 @@
         12,
         13
       ],
-      "verse_count": 13
+      "verse_count": 13,
+      "testament": "OT",
+      "raw": "Nehemiah 5:1-13"
     },
     {
       "book": "Psalms",
-      "book_abbrev": "psa",
       "chapter": 37,
-      "testament": "OT",
       "verses": [
         25,
-        26,
-        112
+        26
       ],
-      "verse_count": 3
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Psalms 37:25,26"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 112,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 112:5"
     },
     {
       "book": "Proverbs",
-      "book_abbrev": "pro",
       "chapter": 19,
-      "testament": "OT",
       "verses": [
-        17,
-        22
+        17
       ],
-      "verse_count": 2
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 19:17"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 22,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 22:7"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 28,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 28:8"
     },
     {
       "book": "Isaiah",
-      "book_abbrev": "isa",
       "chapter": 24,
-      "testament": "OT",
       "verses": [
         1,
         2
       ],
-      "verse_count": 2
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Isaiah 24:1,2"
     },
     {
       "book": "Ezekiel",
-      "book_abbrev": "ezk",
       "chapter": 18,
-      "testament": "OT",
       "verses": [
         13
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezekiel 18:13"
     },
     {
       "book": "Matthew",
-      "book_abbrev": "mat",
       "chapter": 5,
-      "testament": "NT",
       "verses": [
         42
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 5:42"
     },
     {
       "book": "Luke",
-      "book_abbrev": "luk",
       "chapter": 6,
-      "testament": "NT",
       "verses": [
         34,
         35
       ],
-      "verse_count": 2
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Luke 6:34,35"
     }
   ],
-  "see_also": [
-    "INTEREST",
-    "BORROWING",
-    "MONEY"
+  "books_mentioned": [
+    "Deuteronomy",
+    "Exodus",
+    "Ezekiel",
+    "Isaiah",
+    "Leviticus",
+    "Luke",
+    "Matthew",
+    "Nehemiah",
+    "Proverbs",
+    "Psalms"
   ],
-  "aliases": [],
   "stats": {
-    "entries_count": 4,
-    "ot_refs": 7,
+    "total_aspects": 4,
+    "total_refs": 15,
+    "ot_refs": 13,
     "nt_refs": 2,
-    "total_verses": 9
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.700627+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    }
-  },
-  "version": "3.0.0"
+    "books_count": 10,
+    "top_books": [
+      "Deuteronomy",
+      "Proverbs",
+      "Psalms",
+      "Exodus",
+      "Leviticus",
+      "Nehemiah",
+      "Isaiah",
+      "Ezekiel",
+      "Matthew",
+      "Luke"
+    ]
+  }
 }

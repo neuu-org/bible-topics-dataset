@@ -1,102 +1,124 @@
 {
   "topic": "CUBIT",
   "slug": "cubit",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "A measure of distance Ge 6:16; De 3:11; Eze 40:5; 43:13; Re 21:17",
+      "label": "A measure of distance",
       "references": [
-        "Gen 6:16",
-        "Deut 3:11",
-        "Ezek 40:5",
-        "Ezek 43:13",
-        "Rev 21:17"
+        "Genesis 6:16",
+        "Deuteronomy 3:11",
+        "Ezekiel 40:5",
+        "Ezekiel 43:13",
+        "Revelation 21:17"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Who can add to his height Mt 6:27; Lu 12:25",
+      "label": "Who",
       "references": [
-        "Matt 6:27",
+        "Matthew 6:27",
         "Luke 12:25"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Deuteronomy",
-      "book_abbrev": "deu",
-      "chapter": 3,
-      "testament": "OT",
-      "verses": [
-        11
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Ezekiel",
-      "book_abbrev": "ezk",
-      "chapter": 40,
-      "testament": "OT",
-      "verses": [
-        5,
-        43
-      ],
-      "verse_count": 2
-    },
-    {
-      "book": "Luke",
-      "book_abbrev": "luk",
-      "chapter": 12,
-      "testament": "NT",
-      "verses": [
-        25
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Revelation",
-      "book_abbrev": "rev",
-      "chapter": 21,
-      "testament": "NT",
-      "verses": [
-        17
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 2,
-    "nt_refs": 2,
-    "total_verses": 4
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.679913+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "Judges",
-      "chapter": 3,
+      "book": "Genesis",
+      "chapter": 6,
       "verses": [
         16
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Judges 3:16",
-      "source": "EAS"
+      "raw": "Genesis 6:16"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 3,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 3:11"
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 40,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezekiel 40:5"
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 43,
+      "verses": [
+        13
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezekiel 43:13"
+    },
+    {
+      "book": "Revelation",
+      "chapter": 21,
+      "verses": [
+        17
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Revelation 21:17"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 6,
+      "verses": [
+        27
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 6:27"
+    },
+    {
+      "book": "Luke",
+      "chapter": 12,
+      "verses": [
+        25
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 12:25"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Deuteronomy",
+    "Ezekiel",
+    "Genesis",
+    "Luke",
+    "Matthew",
+    "Revelation"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 7,
+    "ot_refs": 4,
+    "nt_refs": 3,
+    "books_count": 6,
+    "top_books": [
+      "Ezekiel",
+      "Genesis",
+      "Deuteronomy",
+      "Revelation",
+      "Matthew",
+      "Luke"
+    ]
+  }
 }

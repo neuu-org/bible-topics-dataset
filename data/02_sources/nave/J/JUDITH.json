@@ -1,69 +1,56 @@
 {
   "topic": "JUDITH",
-  "topic_slug": "judith",
+  "slug": "judith",
   "canonical_id": "NAV:judith",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–A wife of EsauGe 26:34\n–Called AHOLIBAMAHGe 36:2",
-  "content_preview": "–A wife of EsauGe 26:34",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–A wife of EsauGe 26:34",
-      "raw_segment": "–A wife of EsauGe 26:34"
+      "label": "A wife of Esau",
+      "references": [
+        "Genesis 26:34"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–Called AHOLIBAMAHGe 36:2",
-      "raw_segment": "–Called AHOLIBAMAHGe 36:2"
+      "label": "General references",
+      "references": [
+        "Genesis 36:2"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Genesis",
+      "chapter": 26,
+      "verses": [
+        34
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 26:34"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 36,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 36:2"
+    }
+  ],
+  "books_mentioned": [
+    "Genesis"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 2,
+    "total_refs": 2,
+    "ot_refs": 2,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:9468bf3ff0903ee08dd1c2dbbb729f44f5c41862f54cddbd28f45099fceed443",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 1,
+    "top_books": [
+      "Genesis"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:28:16.549278Z",
-  "updated_at": "2025-09-20T17:28:16.549285Z"
+  }
 }

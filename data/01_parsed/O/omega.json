@@ -1,51 +1,65 @@
 {
   "topic": "OMEGA",
   "slug": "omega",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Alpha and Omega, the all-comprehensiveness of Christ Re 1:8,11; 21:6; 22:13",
-      "references": [
-        "Rev 1:8",
-        "Rev 1:11",
-        "Rev 21:6",
-        "Rev 22:13"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.716062+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "Alpha and Omega, the all-comprehensiveness of Christ",
+      "references": [
+        "Revelation 1:8,11",
+        "Revelation 21:6",
+        "Revelation 22:13"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Revelation",
       "chapter": 1,
       "verses": [
-        8
+        8,
+        11
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Revelation 1:8,11"
+    },
+    {
+      "book": "Revelation",
+      "chapter": 21,
+      "verses": [
+        6
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Revelation 1:8",
-      "source": "EAS"
+      "raw": "Revelation 21:6"
+    },
+    {
+      "book": "Revelation",
+      "chapter": 22,
+      "verses": [
+        13
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Revelation 22:13"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Revelation"
+  ],
+  "stats": {
+    "total_aspects": 1,
+    "total_refs": 3,
+    "ot_refs": 0,
+    "nt_refs": 3,
+    "books_count": 1,
+    "top_books": [
+      "Revelation"
+    ]
+  }
 }

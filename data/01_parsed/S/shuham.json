@@ -1,45 +1,27 @@
 {
   "topic": "SHUHAM",
   "slug": "shuham",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Son of Dan Nu 26:42",
-      "references": [
-        "Num 26:42"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Called HUSHIM Ge 46:23",
-      "references": [
-        "Gen 46:23"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.726021+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "General references",
+      "references": [
+        "Numbers 26:42"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "General references",
+      "references": [
+        "Genesis 46:23"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Numbers",
       "chapter": 26,
@@ -48,8 +30,32 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Numbers 26:42",
-      "source": "SMI"
+      "raw": "Numbers 26:42"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 46,
+      "verses": [
+        23
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 46:23"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Genesis",
+    "Numbers"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 2,
+    "ot_refs": 2,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "Numbers",
+      "Genesis"
+    ]
+  }
 }

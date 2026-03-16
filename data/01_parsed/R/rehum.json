@@ -1,76 +1,60 @@
 {
   "topic": "REHUM",
   "slug": "rehum",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. A captive who returned to Jerusalem from Babylon Ezr 2:2",
-      "references": [
-        "Ezra 2:2"
-      ],
-      "sub_groups": [
-        {
-          "name": "Called NEHUM Ne 7:7",
-          "references": [
-            "Neh 7:7"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "2. A chancellor who wrote a letter to Artaxerxes, influencing him against the Jews Ezr 4:8,9,17,23",
-      "references": [
-        "Ezra 4:8",
-        "Ezra 4:9",
-        "Ezra 4:17",
-        "Ezra 4:23"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "3. A Levite who repaired part of the wall of Jerusalem Ne 3:17",
-      "references": [
-        "Neh 3:17"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "4. A Jew of the exile who signed the covenant with Nehemiah Ne 10:25",
-      "references": [
-        "Neh 10:25"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "5. A priest who returned to Jerusalem from the captivity in Babylon Ne 12:3",
-      "references": [
-        "Neh 12:3"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 5,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.721163+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "1. A",
+      "references": [
+        "Ezra 2:2"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".",
+      "references": [
+        "Nehemiah 7:7"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2. A chancellor who wrote a letter to Artaxerxes, inf",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "him against the Jews",
+      "references": [
+        "Ezra 4:8,9,17,23"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "3. A Levite who repaired part of the wall of",
+      "references": [
+        "Nehemiah 3:17"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "4. A Jew of the exile who signed the covenant with Nehemiah",
+      "references": [
+        "Nehemiah 10:25"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "5. A priest who returned to",
+      "references": [
+        "Nehemiah 12:3"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Ezra",
       "chapter": 2,
@@ -79,8 +63,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Ezra 2:2",
-      "source": "EAS"
+      "raw": "Ezra 2:2"
     },
     {
       "book": "Nehemiah",
@@ -90,8 +73,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Nehemiah 7:7",
-      "source": "EAS"
+      "raw": "Nehemiah 7:7"
     },
     {
       "book": "Ezra",
@@ -99,26 +81,12 @@
       "verses": [
         8,
         9,
-        10,
-        11,
-        12,
-        13,
-        14,
-        15,
-        16,
         17,
-        18,
-        19,
-        20,
-        21,
-        22,
-        23,
-        24
+        23
       ],
-      "verse_count": 17,
+      "verse_count": 4,
       "testament": "OT",
-      "raw": "Ezra 4:8-24",
-      "source": "EAS"
+      "raw": "Ezra 4:8,9,17,23"
     },
     {
       "book": "Nehemiah",
@@ -128,19 +96,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Nehemiah 3:17",
-      "source": "EAS"
-    },
-    {
-      "book": "Nehemiah",
-      "chapter": 12,
-      "verses": [
-        3
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Nehemiah 12:3",
-      "source": "EAS"
+      "raw": "Nehemiah 3:17"
     },
     {
       "book": "Nehemiah",
@@ -150,8 +106,32 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Nehemiah 10:25",
-      "source": "EAS"
+      "raw": "Nehemiah 10:25"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 12,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Nehemiah 12:3"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Ezra",
+    "Nehemiah"
+  ],
+  "stats": {
+    "total_aspects": 7,
+    "total_refs": 6,
+    "ot_refs": 6,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "Nehemiah",
+      "Ezra"
+    ]
+  }
 }

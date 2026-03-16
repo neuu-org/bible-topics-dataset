@@ -1,99 +1,21 @@
 {
   "topic": "CHIMHAM",
   "slug": "chimham",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "A Gileadite 2Sa 19:37,38,40; Jer 41:17",
-      "references": [
-        "2Sam 19:37",
-        "2Sam 19:38",
-        "2Sam 19:40",
-        "Jer 41:17"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Jeremiah",
-      "book_abbrev": "jer",
-      "chapter": 41,
-      "testament": "OT",
-      "verses": [
-        17
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.677737+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "A Gileadite",
+      "references": [
+        "2 Samuel 19:37,38,40",
+        "Jeremiah 41:17"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "2 Samuel",
-      "chapter": 19,
-      "verses": [
-        37,
-        38,
-        39,
-        40
-      ],
-      "verse_count": 4,
-      "testament": "OT",
-      "raw": "2 Samuel 19:37-40",
-      "source": "EAS"
-    },
-    {
-      "book": "Jeremiah",
-      "chapter": 41,
-      "verses": [
-        17
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Jeremiah 41:17",
-      "source": "EAS"
-    },
-    {
-      "book": "1 Kings",
-      "chapter": 2,
-      "verses": [
-        7
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "1 Kings 2:7",
-      "source": "EAS"
-    },
-    {
-      "book": "Luke",
-      "chapter": 2,
-      "verses": [
-        7
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Luke 2:7",
-      "source": "EAS"
-    },
+  ],
+  "biblical_references": [
     {
       "book": "2 Samuel",
       "chapter": 19,
@@ -104,8 +26,32 @@
       ],
       "verse_count": 3,
       "testament": "OT",
-      "raw": "2 Samuel 19:37,38,40",
-      "source": "SMI"
+      "raw": "2 Samuel 19:37,38,40"
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 41,
+      "verses": [
+        17
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Jeremiah 41:17"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "2 Samuel",
+    "Jeremiah"
+  ],
+  "stats": {
+    "total_aspects": 1,
+    "total_refs": 2,
+    "ot_refs": 2,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "2 Samuel",
+      "Jeremiah"
+    ]
+  }
 }

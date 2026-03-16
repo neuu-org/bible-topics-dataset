@@ -1,69 +1,85 @@
 {
   "topic": "DUMAH",
-  "topic_slug": "dumah",
+  "slug": "dumah",
   "canonical_id": "NAV:dumah",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–1. Son of IshmaelGe 25:14;1Ch 1:30;Isa 21:11,12\n–2. A city of Canaan assigned to JudahJos 15:52",
-  "content_preview": "–1. Son of IshmaelGe 25:14;1Ch 1:30;Isa 21:11,12",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–1. Son of IshmaelGe 25:14;1Ch 1:30;Isa 21:11,12",
-      "raw_segment": "–1. Son of IshmaelGe 25:14;1Ch 1:30;Isa 21:11,12"
+      "label": "1.",
+      "references": [
+        "Genesis 25:14",
+        "1 Chronicles 1:30",
+        "Isaiah 21:11,12"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–2. A city of Canaan assigned to JudahJos 15:52",
-      "raw_segment": "–2. A city of Canaan assigned to JudahJos 15:52"
+      "label": "2. A city of",
+      "references": [
+        "Joshua 15:52"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Genesis",
+      "chapter": 25,
+      "verses": [
+        14
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 25:14"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 1,
+      "verses": [
+        30
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 1:30"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 21,
+      "verses": [
+        11,
+        12
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Isaiah 21:11,12"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 15,
+      "verses": [
+        52
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 15:52"
+    }
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Genesis",
+    "Isaiah",
+    "Joshua"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 2,
+    "total_refs": 4,
+    "ot_refs": 4,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:c7ce079a07fc8a7e945a66a379223cbc5ca19713d0e3f0d8394aa047aad30064",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 4,
+    "top_books": [
+      "Genesis",
+      "1 Chronicles",
+      "Isaiah",
+      "Joshua"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:25:43.296195Z",
-  "updated_at": "2025-09-20T17:25:43.296203Z"
+  }
 }

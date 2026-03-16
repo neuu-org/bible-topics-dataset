@@ -1,69 +1,124 @@
 {
   "topic": "CAUL",
-  "topic_slug": "caul",
+  "slug": "caul",
   "canonical_id": "NAV:caul",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–1. Probably the upper lobe of the liver\n  .Burnt with sacrificeEx 29:13,22;Le 3:4,10,15;4:9;7:4;8:16,25;9:10,19\n–2. Netted capsIsa 3:18",
-  "content_preview": "–1. Probably the upper lobe of the liver",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–1. Probably the upper lobe of the liver",
-      "raw_segment": "–1. Probably the upper lobe of the liver"
+      "label": "1. Probably the upper lobe of the liver",
+      "references": []
     },
     {
-      "idx": 1,
-      "entry_label": "–2. Netted capsIsa 3:18",
-      "raw_segment": "–2. Netted capsIsa 3:18"
+      "label": ".Burnt with sacrifice",
+      "references": [
+        "Exodus 29:13,22",
+        "Leviticus 3:4,10,15",
+        "Leviticus 4:9",
+        "Leviticus 7:4",
+        "Leviticus 8:16,25",
+        "Leviticus 9:10,19"
+      ]
+    },
+    {
+      "label": "2. Netted",
+      "references": [
+        "Isaiah 3:18"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Exodus",
+      "chapter": 29,
+      "verses": [
+        13,
+        22
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Exodus 29:13,22"
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 3,
+      "verses": [
+        4,
+        10,
+        15
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Leviticus 3:4,10,15"
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 4,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Leviticus 4:9"
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 7,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Leviticus 7:4"
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 8,
+      "verses": [
+        16,
+        25
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Leviticus 8:16,25"
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 9,
+      "verses": [
+        10,
+        19
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Leviticus 9:10,19"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 3,
+      "verses": [
+        18
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 3:18"
+    }
+  ],
+  "books_mentioned": [
+    "Exodus",
+    "Isaiah",
+    "Leviticus"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 3,
+    "total_refs": 7,
+    "ot_refs": 7,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:9f83497653d2c0a2b6ca861e594f660b68abcdf90fcd428f2139420af11c14bb",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 3
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 3,
+    "top_books": [
+      "Leviticus",
+      "Exodus",
+      "Isaiah"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:24:51.314785Z",
-  "updated_at": "2025-09-20T17:24:51.314793Z"
+  }
 }

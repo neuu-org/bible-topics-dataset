@@ -1,78 +1,74 @@
 {
   "topic": "CONSCIENCE MONEY",
-  "topic_slug": "conscience_money",
+  "slug": "conscience_money",
   "canonical_id": "NAV:conscience_money",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "MONEY, SIN MONEY"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "MONEY, SIN MONEY",
-      "clean": "MONEY, SIN MONEY",
-      "slug": "money__sin_money",
-      "canonical_id": "NAV:money__sin_money"
-    }
-  ],
-  "raw_block": "–General scriptures concerningJud 17:2;2Ki 12:16;Mt 27:3-5\n–SeeMONEY, SIN MONEY",
-  "content_preview": "–General scriptures concerningJud 17:2;2Ki 12:16;Mt 27:3-5",
-  "reference_groups": [
-    {
-      "idx": 0,
-      "entry_label": "–General scriptures concerningJud 17:2;2Ki 12:16;Mt 27:3-5",
-      "raw_segment": "–General scriptures concerningJud 17:2;2Ki 12:16;Mt 27:3-5"
+      "label": "General scriptures concerning",
+      "references": [
+        "Judges 17:2",
+        "2 Kings 12:16",
+        "Matthew 27:3-5"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–SeeMONEY, SIN MONEY",
-      "raw_segment": "–SeeMONEY, SIN MONEY"
+      "label": "SeeMONEY, SIN MONEY",
+      "references": []
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Judges",
+      "chapter": 17,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Judges 17:2"
+    },
+    {
+      "book": "2 Kings",
+      "chapter": 12,
+      "verses": [
+        16
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Kings 12:16"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 27,
+      "verses": [
+        3,
+        4,
+        5
+      ],
+      "verse_count": 3,
+      "testament": "NT",
+      "raw": "Matthew 27:3-5"
+    }
+  ],
+  "books_mentioned": [
+    "2 Kings",
+    "Judges",
+    "Matthew"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:93d1880f987226eaef6b96eb8e16ecb98b8712a85b25ebd21d9c2546ddc4a992",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 2,
+    "total_refs": 3,
+    "ot_refs": 2,
+    "nt_refs": 1,
+    "books_count": 3,
+    "top_books": [
+      "Judges",
+      "2 Kings",
+      "Matthew"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:25:12.560631Z",
-  "updated_at": "2025-09-20T17:25:12.560639Z"
+  }
 }

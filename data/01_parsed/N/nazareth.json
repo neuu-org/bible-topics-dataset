@@ -1,214 +1,53 @@
 {
   "topic": "NAZARETH",
   "slug": "nazareth",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "A village in Galilee",
+      "label": "A village in Galilee",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Joseph and Mary live at Mt 2:23; Lu 1:26,27,56; 2:4,39,51",
+      "label": "Joseph and Mary live at",
       "references": [
-        "Matt 2:23",
-        "Luke 1:26",
-        "Luke 1:27",
-        "Luke 1:56",
-        "Luke 2:4",
-        "Luke 2:39",
-        "Luke 2:51"
+        "Matthew 2:23",
+        "Luke 1:26,27,56",
+        "Luke 2:4,39,51"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Jesus from Mt 21:11; Mr 1:24; 10:47; Lu 4:34; 18:37; 24:19",
+      "label": "Jesus from",
       "references": [
-        "Matt 21:11",
+        "Matthew 21:11",
         "Mark 1:24",
         "Mark 10:47",
         "Luke 4:34",
         "Luke 18:37",
         "Luke 24:19"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "People of, reject Jesus Lu 4:16-30",
+      "label": "People of, reject Jesus",
       "references": [
         "Luke 4:16-30"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Its reputation Joh 1:46",
+      "label": "Its reputation",
       "references": [
         "John 1:46"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
-    {
-      "book": "Mark",
-      "book_abbrev": "mrk",
-      "chapter": 1,
-      "testament": "NT",
-      "verses": [
-        10,
-        24
-      ],
-      "verse_count": 2
-    },
-    {
-      "book": "Luke",
-      "book_abbrev": "luk",
-      "chapter": 1,
-      "testament": "NT",
-      "verses": [
-        2,
-        26,
-        27,
-        56
-      ],
-      "verse_count": 4
-    },
-    {
-      "book": "Luke",
-      "book_abbrev": "luk",
-      "chapter": 4,
-      "testament": "NT",
-      "verses": [
-        18,
-        34
-      ],
-      "verse_count": 2
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 5,
-    "ot_refs": 0,
-    "nt_refs": 3,
-    "total_verses": 3
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.713863+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "Luke",
-      "chapter": 2,
-      "verses": [
-        39
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Luke 2:39",
-      "source": "EAS"
-    },
-    {
-      "book": "Matthew",
-      "chapter": 13,
-      "verses": [
-        54
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Matthew 13:54",
-      "source": "EAS"
-    },
-    {
-      "book": "Luke",
-      "chapter": 4,
-      "verses": [
-        29
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Luke 4:29",
-      "source": "EAS"
-    },
-    {
-      "book": "Matthew",
-      "chapter": 13,
-      "verses": [
-        54,
-        55,
-        56,
-        57,
-        58
-      ],
-      "verse_count": 5,
-      "testament": "NT",
-      "raw": "Matthew 13:54-58",
-      "source": "EAS"
-    },
-    {
-      "book": "Matthew",
-      "chapter": 13,
-      "verses": [
-        58
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Matthew 13:58",
-      "source": "EAS"
-    },
-    {
-      "book": "Isaiah",
-      "chapter": 4,
-      "verses": [
-        2
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Isaiah 4:2",
-      "source": "EAS"
-    },
-    {
-      "book": "Jeremiah",
-      "chapter": 23,
-      "verses": [
-        5
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Jeremiah 23:5",
-      "source": "EAS"
-    },
-    {
-      "book": "Zechariah",
-      "chapter": 3,
-      "verses": [
-        8
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Zechariah 3:8",
-      "source": "EAS"
-    },
-    {
-      "book": "Zechariah",
-      "chapter": 6,
-      "verses": [
-        12
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Zechariah 6:12",
-      "source": "EAS"
-    },
     {
       "book": "Matthew",
       "chapter": 2,
@@ -217,8 +56,7 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Matthew 2:23",
-      "source": "EAS"
+      "raw": "Matthew 2:23"
     },
     {
       "book": "Luke",
@@ -226,23 +64,83 @@
       "verses": [
         26,
         27,
-        28
+        56
       ],
       "verse_count": 3,
       "testament": "NT",
-      "raw": "Luke 1:26-28",
-      "source": "EAS"
+      "raw": "Luke 1:26,27,56"
+    },
+    {
+      "book": "Luke",
+      "chapter": 2,
+      "verses": [
+        4,
+        39,
+        51
+      ],
+      "verse_count": 3,
+      "testament": "NT",
+      "raw": "Luke 2:4,39,51"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 21,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 21:11"
+    },
+    {
+      "book": "Mark",
+      "chapter": 1,
+      "verses": [
+        24
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Mark 1:24"
+    },
+    {
+      "book": "Mark",
+      "chapter": 10,
+      "verses": [
+        47
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Mark 10:47"
     },
     {
       "book": "Luke",
       "chapter": 4,
       "verses": [
-        16
+        34
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Luke 4:16",
-      "source": "EAS"
+      "raw": "Luke 4:34"
+    },
+    {
+      "book": "Luke",
+      "chapter": 18,
+      "verses": [
+        37
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 18:37"
+    },
+    {
+      "book": "Luke",
+      "chapter": 24,
+      "verses": [
+        19
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 24:19"
     },
     {
       "book": "Luke",
@@ -261,12 +159,12 @@
         26,
         27,
         28,
-        29
+        29,
+        30
       ],
-      "verse_count": 14,
+      "verse_count": 15,
       "testament": "NT",
-      "raw": "Luke 4:16-29",
-      "source": "EAS"
+      "raw": "Luke 4:16-30"
     },
     {
       "book": "John",
@@ -276,54 +174,26 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "John 1:46",
-      "source": "EAS"
-    },
-    {
-      "book": "Micah",
-      "chapter": 5,
-      "verses": [
-        2
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Micah 5:2",
-      "source": "EAS"
-    },
-    {
-      "book": "Mark",
-      "chapter": 1,
-      "verses": [
-        9
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Mark 1:9",
-      "source": "SMI"
-    },
-    {
-      "book": "John",
-      "chapter": 2,
-      "verses": [
-        1,
-        2,
-        11
-      ],
-      "verse_count": 3,
-      "testament": "NT",
-      "raw": "John 2:1,2,11",
-      "source": "SMI"
-    },
-    {
-      "book": "John",
-      "chapter": 1,
-      "verses": [
-        47
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "John 1:47",
-      "source": "SMI"
+      "raw": "John 1:46"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "John",
+    "Luke",
+    "Mark",
+    "Matthew"
+  ],
+  "stats": {
+    "total_aspects": 5,
+    "total_refs": 11,
+    "ot_refs": 0,
+    "nt_refs": 11,
+    "books_count": 4,
+    "top_books": [
+      "Luke",
+      "Matthew",
+      "Mark",
+      "John"
+    ]
+  }
 }

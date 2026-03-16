@@ -1,64 +1,82 @@
 {
   "topic": "LOVERS",
-  "topic_slug": "lovers",
+  "slug": "lovers",
   "canonical_id": "NAV:lovers",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–INSTANCES OF\n  .Isaac for RebekahGe 24:67\n  .Jacob for RachelGe 29:20,30\n  .Shechem for DinahGe 34:3,12\n  .Boaz for RuthRu 2;3;4",
-  "content_preview": "–INSTANCES OF",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–INSTANCES OF",
-      "raw_segment": "–INSTANCES OF"
+      "label": "INSTANCES OF",
+      "references": []
+    },
+    {
+      "label": ".",
+      "references": [
+        "Genesis 24:67"
+      ]
+    },
+    {
+      "label": ".Jacob for Rachel",
+      "references": [
+        "Genesis 29:20,30"
+      ]
+    },
+    {
+      "label": ".Shechem for Dinah",
+      "references": [
+        "Genesis 34:3,12"
+      ]
+    },
+    {
+      "label": ".Boaz for RuthRu 2;3;4",
+      "references": []
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Genesis",
+      "chapter": 24,
+      "verses": [
+        67
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 24:67"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 29,
+      "verses": [
+        20,
+        30
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Genesis 29:20,30"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 34,
+      "verses": [
+        3,
+        12
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Genesis 34:3,12"
+    }
+  ],
+  "books_mentioned": [
+    "Genesis"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 5,
+    "total_refs": 3,
+    "ot_refs": 3,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:659d43f92fa2ed9f7952cef4842b5d0dd56cc5b6578ef4422b7a26bc8ed00c8e",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 5
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 1,
+    "top_books": [
+      "Genesis"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:28:40.391735Z",
-  "updated_at": "2025-09-20T17:28:40.391743Z"
+  }
 }

@@ -1,90 +1,84 @@
 {
   "topic": "SEVENTY",
   "slug": "seventy",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [
+    "ISRAEL"
+  ],
+  "aspects": [
     {
-      "name": "The senate of the Israilites composed of seventy elders Ex 24:1,9; Nu 11:16,24,25",
+      "label": "The senate of the Israilites composed of seventy el",
       "references": [
-        "Exod 24:1",
-        "Exod 24:9",
-        "Num 11:16",
-        "Num 11:24",
-        "Num 11:25"
+        "Exodus 24:1,9",
+        "Numbers 11:16,24,25"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "The seventy disciples sent forth by Jesus (though the best Greek mss. have “seventy-two”) Lu 10:1-17",
+      "label": "The seventy disciples sent forth by Jesus (though the best Greek",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "mss. have “seventy-two”)",
       "references": [
         "Luke 10:1-17"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "The Jews in captivity in Babylon for seventy years Jer 25:11,12; 29:10; Da 9:2; Zec 1:12; 7:5",
+      "label": "The Jews in",
       "references": [
-        "Jer 25:11",
-        "Jer 25:12",
-        "Jer 29:10",
-        "Dan 9:2",
-        "Zech 1:12",
-        "Zech 7:5"
+        "Jeremiah 25:11,12",
+        "Jeremiah 29:10",
+        "Daniel 9:2",
+        "Ecclesiastes 1:12",
+        "Ecclesiastes 7:5"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See ISRAEL",
+      "label": "SeeISRAEL",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "70 Weeks in the vision of Daniel Da 9:24",
+      "label": "70 Weeks in the vision of Daniel",
       "references": [
-        "Dan 9:24"
+        "Daniel 9:24"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Numbers",
-      "book_abbrev": "num",
-      "chapter": 11,
+      "book": "Exodus",
+      "chapter": 24,
+      "verses": [
+        1,
+        9
+      ],
+      "verse_count": 2,
       "testament": "OT",
+      "raw": "Exodus 24:1,9"
+    },
+    {
+      "book": "Numbers",
+      "chapter": 11,
       "verses": [
         16,
         24,
         25
       ],
-      "verse_count": 3
-    },
-    {
-      "book": "Daniel",
-      "book_abbrev": "dan",
-      "chapter": 9,
+      "verse_count": 3,
       "testament": "OT",
-      "verses": [
-        2
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Zechariah",
-      "book_abbrev": "zec",
-      "chapter": 1,
-      "testament": "OT",
-      "verses": [
-        7,
-        12
-      ],
-      "verse_count": 2
+      "raw": "Numbers 11:16,24,25"
     },
     {
       "book": "Luke",
-      "book_abbrev": "luk",
       "chapter": 10,
-      "testament": "NT",
       "verses": [
         1,
         2,
@@ -104,29 +98,93 @@
         16,
         17
       ],
-      "verse_count": 17
+      "verse_count": 17,
+      "testament": "NT",
+      "raw": "Luke 10:1-17"
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 25,
+      "verses": [
+        11,
+        12
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Jeremiah 25:11,12"
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 29,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Jeremiah 29:10"
+    },
+    {
+      "book": "Daniel",
+      "chapter": 9,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Daniel 9:2"
+    },
+    {
+      "book": "Ecclesiastes",
+      "chapter": 1,
+      "verses": [
+        12
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ecclesiastes 1:12"
+    },
+    {
+      "book": "Ecclesiastes",
+      "chapter": 7,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ecclesiastes 7:5"
+    },
+    {
+      "book": "Daniel",
+      "chapter": 9,
+      "verses": [
+        24
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Daniel 9:24"
     }
   ],
-  "see_also": [
-    "ISRAEL"
+  "books_mentioned": [
+    "Daniel",
+    "Ecclesiastes",
+    "Exodus",
+    "Jeremiah",
+    "Luke",
+    "Numbers"
   ],
-  "aliases": [],
   "stats": {
-    "entries_count": 5,
-    "ot_refs": 3,
+    "total_aspects": 6,
+    "total_refs": 9,
+    "ot_refs": 8,
     "nt_refs": 1,
-    "total_verses": 4
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.724068+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    }
-  },
-  "version": "3.0.0"
+    "books_count": 6,
+    "top_books": [
+      "Jeremiah",
+      "Daniel",
+      "Ecclesiastes",
+      "Exodus",
+      "Numbers",
+      "Luke"
+    ]
+  }
 }

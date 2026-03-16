@@ -1,84 +1,42 @@
 {
   "topic": "CALVARY",
   "slug": "calvary",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "Also called GOLGOTHA, place where Jesus was crucified Mt 27:33; Mr 15:22; Lu 23:33; Joh 19:17",
+      "label": "Al",
       "references": [
-        "Matt 27:33",
+        "Matthew 27:33",
         "Mark 15:22",
         "Luke 23:33",
         "John 19:17"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Mark",
-      "book_abbrev": "mrk",
-      "chapter": 15,
-      "testament": "NT",
-      "verses": [
-        22
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Luke",
-      "book_abbrev": "luk",
-      "chapter": 23,
-      "testament": "NT",
+      "book": "Matthew",
+      "chapter": 27,
       "verses": [
         33
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 27:33"
     },
     {
-      "book": "John",
-      "book_abbrev": "jhn",
-      "chapter": 19,
-      "testament": "NT",
+      "book": "Mark",
+      "chapter": 15,
       "verses": [
-        17
+        22
       ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 3,
-    "total_verses": 3
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.676117+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "Hebrews",
-      "chapter": 13,
-      "verses": [
-        11,
-        12,
-        13
-      ],
-      "verse_count": 3,
+      "verse_count": 1,
       "testament": "NT",
-      "raw": "Hebrews 13:11-13",
-      "source": "EAS"
+      "raw": "Mark 15:22"
     },
     {
       "book": "Luke",
@@ -88,8 +46,36 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Luke 23:33",
-      "source": "EAS"
+      "raw": "Luke 23:33"
+    },
+    {
+      "book": "John",
+      "chapter": 19,
+      "verses": [
+        17
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "John 19:17"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "John",
+    "Luke",
+    "Mark",
+    "Matthew"
+  ],
+  "stats": {
+    "total_aspects": 1,
+    "total_refs": 4,
+    "ot_refs": 0,
+    "nt_refs": 4,
+    "books_count": 4,
+    "top_books": [
+      "Matthew",
+      "Mark",
+      "Luke",
+      "John"
+    ]
+  }
 }

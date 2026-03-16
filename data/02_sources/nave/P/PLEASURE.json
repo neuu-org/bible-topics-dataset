@@ -1,87 +1,296 @@
 {
   "topic": "PLEASURE",
-  "topic_slug": "pleasure",
+  "slug": "pleasure",
   "canonical_id": "NAV:pleasure",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "JOY",
     "WORLDLINESS",
     "HAPPINESS"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "JOY",
-      "clean": "JOY",
-      "slug": "joy",
-      "canonical_id": "NAV:joy"
+      "label": "WORLDLY",
+      "references": [
+        "Job 20:12-16",
+        "Job 21:12,13",
+        "Proverbs 9:17",
+        "Proverbs 15:21",
+        "Proverbs 21:17",
+        "Ecclesiastes 1:17",
+        "Ecclesiastes 2:1-13",
+        "Isaiah 5:11,12",
+        "Isaiah 22:12,13",
+        "Isaiah 47:8,9",
+        "Amos 6:1",
+        "Luke 8:14",
+        "Romans 1:32",
+        "2 Thessalonians 2:12",
+        "1 Timothy 5:6",
+        "2 Timothy 3:4",
+        "Titus 3:3",
+        "Hebrews 11:25,26",
+        "2 Peter 2:13"
+      ]
     },
     {
-      "original": "WORLDLINESS",
-      "clean": "WORLDLINESS",
-      "slug": "worldliness",
-      "canonical_id": "NAV:worldliness"
+      "label": ".SeeHAPPINESS",
+      "references": []
     },
     {
-      "original": "HAPPINESS",
-      "clean": "HAPPINESS",
-      "slug": "happiness",
-      "canonical_id": "NAV:happiness"
-    }
-  ],
-  "raw_block": "–WORLDLYJob 20:12-16;21:12,13;Pr 9:17;15:21;21:17;Ec 1:17;2:1-13;Isa 5:11,12;22:12,13;47:8,9;Am 6:1;Lu 8:14;Ro 1:32;2Th 2:12;1Ti 5:6;2Ti 3:4;Tit 3:3;Heb 11:25,26;2Pe 2:13\n  .SeeHAPPINESS\n  .SeeJOY\n  .SeeWORLDLINESS",
-  "content_preview": "–WORLDLYJob 20:12-16;21:12,13;Pr 9:17;15:21;21:17;Ec 1:17;2:1-13;Isa 5:11,12;22:12,13;47:8,9;Am 6:1;...",
-  "reference_groups": [
+      "label": ".SeeJOY",
+      "references": []
+    },
     {
-      "idx": 0,
-      "entry_label": "–WORLDLYJob 20:12-16;21:12,13;Pr 9:17;15:21;21:17;Ec 1:17;2:1-13;Isa 5:11,12;22:12,13;47:8,9;Am 6:1;Lu 8:14;Ro 1:32;2Th 2:12;1Ti 5:6;2Ti 3:4;Tit 3:3;Heb 11:25,26;2Pe 2:13",
-      "raw_segment": "–WORLDLYJob 20:12-16;21:12,13;Pr 9:17;15:21;21:17;Ec 1:17;2:1-13;Isa 5:11,12;22:12,13;47:8,9;Am 6:1;Lu 8:14;Ro 1:32;2Th 2:12;1Ti 5:6;2Ti 3:4;Tit 3:3;Heb 11:25,26;2Pe 2:13"
+      "label": ".SeeWORLDLINESS",
+      "references": []
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Job",
+      "chapter": 20,
+      "verses": [
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "verse_count": 5,
+      "testament": "OT",
+      "raw": "Job 20:12-16"
+    },
+    {
+      "book": "Job",
+      "chapter": 21,
+      "verses": [
+        12,
+        13
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Job 21:12,13"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 9,
+      "verses": [
+        17
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 9:17"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 15,
+      "verses": [
+        21
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 15:21"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 21,
+      "verses": [
+        17
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 21:17"
+    },
+    {
+      "book": "Ecclesiastes",
+      "chapter": 1,
+      "verses": [
+        17
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ecclesiastes 1:17"
+    },
+    {
+      "book": "Ecclesiastes",
+      "chapter": 2,
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "verse_count": 13,
+      "testament": "OT",
+      "raw": "Ecclesiastes 2:1-13"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 5,
+      "verses": [
+        11,
+        12
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Isaiah 5:11,12"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 22,
+      "verses": [
+        12,
+        13
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Isaiah 22:12,13"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 47,
+      "verses": [
+        8,
+        9
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Isaiah 47:8,9"
+    },
+    {
+      "book": "Amos",
+      "chapter": 6,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Amos 6:1"
+    },
+    {
+      "book": "Luke",
+      "chapter": 8,
+      "verses": [
+        14
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 8:14"
+    },
+    {
+      "book": "Romans",
+      "chapter": 1,
+      "verses": [
+        32
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Romans 1:32"
+    },
+    {
+      "book": "2 Thessalonians",
+      "chapter": 2,
+      "verses": [
+        12
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "2 Thessalonians 2:12"
+    },
+    {
+      "book": "1 Timothy",
+      "chapter": 5,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "1 Timothy 5:6"
+    },
+    {
+      "book": "2 Timothy",
+      "chapter": 3,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "2 Timothy 3:4"
+    },
+    {
+      "book": "Titus",
+      "chapter": 3,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Titus 3:3"
+    },
+    {
+      "book": "Hebrews",
+      "chapter": 11,
+      "verses": [
+        25,
+        26
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Hebrews 11:25,26"
+    },
+    {
+      "book": "2 Peter",
+      "chapter": 2,
+      "verses": [
+        13
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "2 Peter 2:13"
+    }
+  ],
+  "books_mentioned": [
+    "1 Timothy",
+    "2 Peter",
+    "2 Thessalonians",
+    "2 Timothy",
+    "Amos",
+    "Ecclesiastes",
+    "Hebrews",
+    "Isaiah",
+    "Job",
+    "Luke",
+    "Proverbs",
+    "Romans",
+    "Titus"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:ea373787ed1e124d552bf98d6580af43e68e0f10531c14aaac113e0edb55f919",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 4
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 4,
+    "total_refs": 19,
+    "ot_refs": 11,
+    "nt_refs": 8,
+    "books_count": 13,
+    "top_books": [
+      "Proverbs",
+      "Isaiah",
+      "Job",
+      "Ecclesiastes",
+      "Amos",
+      "Luke",
+      "Romans",
+      "2 Thessalonians",
+      "1 Timothy",
+      "2 Timothy"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:30:10.939024Z",
-  "updated_at": "2025-09-20T17:30:10.939032Z"
+  }
 }

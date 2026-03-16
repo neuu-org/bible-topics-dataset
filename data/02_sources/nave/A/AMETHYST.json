@@ -1,64 +1,64 @@
 {
   "topic": "AMETHYST",
-  "topic_slug": "amethyst",
+  "slug": "amethyst",
   "canonical_id": "NAV:amethyst",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–A precious stoneEx 28:19;39:12;Re 21:20",
-  "content_preview": "–A precious stoneEx 28:19;39:12;Re 21:20",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–A precious stoneEx 28:19;39:12;Re 21:20",
-      "raw_segment": "–A precious stoneEx 28:19;39:12;Re 21:20"
+      "label": "A precious stone",
+      "references": [
+        "Exodus 28:19",
+        "Exodus 39:12",
+        "Revelation 21:20"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Exodus",
+      "chapter": 28,
+      "verses": [
+        19
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 28:19"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 39,
+      "verses": [
+        12
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 39:12"
+    },
+    {
+      "book": "Revelation",
+      "chapter": 21,
+      "verses": [
+        20
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Revelation 21:20"
+    }
+  ],
+  "books_mentioned": [
+    "Exodus",
+    "Revelation"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:4ed55e6e7a630f5238554e7bd5f6a136caf25bdb24509fa4c9ac0c54db96cc4e",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 1
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 1,
+    "total_refs": 3,
+    "ot_refs": 2,
+    "nt_refs": 1,
+    "books_count": 2,
+    "top_books": [
+      "Exodus",
+      "Revelation"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:23:32.419669Z",
-  "updated_at": "2025-09-20T17:23:32.419710Z"
+  }
 }

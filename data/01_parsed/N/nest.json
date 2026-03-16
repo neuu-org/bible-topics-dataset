@@ -1,42 +1,61 @@
 {
   "topic": "NEST",
   "slug": "nest",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Bird’s, in a rock Nu 24:21",
-      "references": [
-        "Num 24:21"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Birds stir De 32:11",
-      "references": [
-        "Deut 32:11"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.714547+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "Bird’s, in a rock",
+      "references": [
+        "Numbers 24:21"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Birds stir",
+      "references": [
+        "Deuteronomy 32:11"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0"
+  ],
+  "biblical_references": [
+    {
+      "book": "Numbers",
+      "chapter": 24,
+      "verses": [
+        21
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Numbers 24:21"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 32,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 32:11"
+    }
+  ],
+  "books_mentioned": [
+    "Deuteronomy",
+    "Numbers"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 2,
+    "ot_refs": 2,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "Numbers",
+      "Deuteronomy"
+    ]
+  }
 }

@@ -1,108 +1,165 @@
 {
   "topic": "AX",
   "slug": "ax",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "An implement De 19:5; 1Sa 13:20,21; 2Sa 12:31; Ps 74:5,6",
+      "label": "An implement",
       "references": [
-        "Deut 19:5",
-        "1Sam 13:20",
-        "1Sam 13:21",
-        "2Sam 12:31",
-        "Ps 74:5",
-        "Ps 74:6"
+        "Deuteronomy 19:5",
+        "1 Samuel 13:20,21",
+        "2 Samuel 12:31",
+        "Psalms 74:5,6"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Elisha causes to swim 2Ki 6:5,6",
+      "label": "Elisha",
       "references": [
-        "2Kgs 6:5",
-        "2Kgs 6:6"
+        "2 Kings 6:5,6"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Battle-ax Eze 26:9",
+      "label": "Battle-ax",
       "references": [
-        "Ezek 26:9"
+        "Ezekiel 26:9"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "FIGURATIVE Jer 46:22; 51:20; Mt 3:10",
+      "label": "FIGURATIVE",
       "references": [
-        "Jer 46:22",
-        "Jer 51:20",
-        "Matt 3:10"
+        "Jeremiah 46:22",
+        "Jeremiah 51:20",
+        "Matthew 3:10"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "1 Samuel",
-      "book_abbrev": "1sa",
-      "chapter": 13,
-      "testament": "OT",
+      "book": "Deuteronomy",
+      "chapter": 19,
       "verses": [
-        2,
+        5
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 19:5"
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 13,
+      "verses": [
         20,
         21
       ],
-      "verse_count": 3
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "1 Samuel 13:20,21"
     },
     {
       "book": "2 Samuel",
-      "book_abbrev": "2sa",
       "chapter": 12,
-      "testament": "OT",
       "verses": [
         31
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Samuel 12:31"
     },
     {
       "book": "Psalms",
-      "book_abbrev": "psa",
       "chapter": 74,
-      "testament": "OT",
       "verses": [
         5,
         6
       ],
-      "verse_count": 2
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Psalms 74:5,6"
+    },
+    {
+      "book": "2 Kings",
+      "chapter": 6,
+      "verses": [
+        5,
+        6
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "2 Kings 6:5,6"
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 26,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezekiel 26:9"
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 46,
+      "verses": [
+        22
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Jeremiah 46:22"
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 51,
+      "verses": [
+        20
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Jeremiah 51:20"
     },
     {
       "book": "Matthew",
-      "book_abbrev": "mat",
       "chapter": 3,
-      "testament": "NT",
       "verses": [
         10
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 3:10"
     }
   ],
-  "see_also": [],
-  "aliases": [],
+  "books_mentioned": [
+    "1 Samuel",
+    "2 Kings",
+    "2 Samuel",
+    "Deuteronomy",
+    "Ezekiel",
+    "Jeremiah",
+    "Matthew",
+    "Psalms"
+  ],
   "stats": {
-    "entries_count": 4,
-    "ot_refs": 3,
+    "total_aspects": 4,
+    "total_refs": 9,
+    "ot_refs": 8,
     "nt_refs": 1,
-    "total_verses": 4
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.670979+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    }
-  },
-  "version": "3.0.0"
+    "books_count": 8,
+    "top_books": [
+      "Jeremiah",
+      "Deuteronomy",
+      "1 Samuel",
+      "2 Samuel",
+      "Psalms",
+      "2 Kings",
+      "Ezekiel",
+      "Matthew"
+    ]
+  }
 }

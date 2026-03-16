@@ -1,99 +1,53 @@
 {
   "topic": "BOAZ",
   "slug": "boaz",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "1. An ancestor of Jesus Mt 1:5; Lu 3:32",
+      "label": "1. An ancestor of Jesus",
       "references": [
-        "Matt 1:5",
+        "Matthew 1:5",
         "Luke 3:32"
       ],
-      "sub_groups": [
-        {
-          "name": "History of Ru 2; 3; 4",
-          "references": [
-            "Ruth 2",
-            "Ruth 3",
-            "Ruth 4"
-          ]
-        }
-      ]
+      "source": "NAV"
     },
     {
-      "name": "2. One of the bronze pillars of the temple 1Ki 7:21; 2Ch 3:17",
+      "label": ".History ofRu 2;3;4",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "2. One of the bronze pillars of the temple",
       "references": [
-        "1Kgs 7:21",
-        "2Chr 3:17"
+        "1 Kings 7:21",
+        "2 Chronicles 3:17"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "2 Chronicles",
-      "book_abbrev": "2ch",
-      "chapter": 3,
-      "testament": "OT",
+      "book": "Matthew",
+      "chapter": 1,
       "verses": [
-        17
+        5
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 1:5"
     },
     {
       "book": "Luke",
-      "book_abbrev": "luk",
       "chapter": 3,
-      "testament": "NT",
       "verses": [
         32
       ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 1,
-    "nt_refs": 1,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.675003+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "Ruth",
-      "chapter": 4,
-      "verses": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13
-      ],
-      "verse_count": 13,
-      "testament": "OT",
-      "raw": "Ruth 4:1-13",
-      "source": "EAS"
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 3:32"
     },
     {
       "book": "1 Kings",
@@ -103,8 +57,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Kings 7:21",
-      "source": "EAS"
+      "raw": "1 Kings 7:21"
     },
     {
       "book": "2 Chronicles",
@@ -114,8 +67,26 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Chronicles 3:17",
-      "source": "EAS"
+      "raw": "2 Chronicles 3:17"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Kings",
+    "2 Chronicles",
+    "Luke",
+    "Matthew"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 4,
+    "ot_refs": 2,
+    "nt_refs": 2,
+    "books_count": 4,
+    "top_books": [
+      "Matthew",
+      "Luke",
+      "1 Kings",
+      "2 Chronicles"
+    ]
+  }
 }

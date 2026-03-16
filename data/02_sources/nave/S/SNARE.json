@@ -1,92 +1,111 @@
 {
   "topic": "SNARE",
-  "topic_slug": "snare",
+  "slug": "snare",
   "canonical_id": "NAV:snare",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "CONSPIRACY",
     "AMBUSH",
     "PIT"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "CONSPIRACY",
-      "clean": "CONSPIRACY",
-      "slug": "conspiracy",
-      "canonical_id": "NAV:conspiracy"
+      "label": "General scriptures concerning",
+      "references": [
+        "Amos 3:5"
+      ]
     },
     {
-      "original": "AMBUSH",
-      "clean": "AMBUSH",
-      "slug": "ambush",
-      "canonical_id": "NAV:ambush"
+      "label": "FIGURATIVE",
+      "references": []
     },
     {
-      "original": "PIT",
-      "clean": "PIT",
-      "slug": "pit",
-      "canonical_id": "NAV:pit"
+      "label": ".Of the evils in life of wicked people",
+      "references": [
+        "Job 18:8-10"
+      ]
+    },
+    {
+      "label": ".Of the",
+      "references": [
+        "Psalms 91:3",
+        "Jeremiah 5:26"
+      ]
+    },
+    {
+      "label": ".SeeAMBUSH",
+      "references": []
+    },
+    {
+      "label": ".SeeCONSPIRACY",
+      "references": []
+    },
+    {
+      "label": ".SeePIT",
+      "references": []
     }
   ],
-  "raw_block": "–General scriptures concerningAm 3:5\n–FIGURATIVE\n  .Of the evils in life of wicked peopleJob 18:8-10\n  .Of the devices of evil people to deceive the righteousPs 91:3;Jer 5:26\n  .SeeAMBUSH\n  .SeeCONSPIRACY\n  .SeePIT",
-  "content_preview": "–General scriptures concerningAm 3:5",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–General scriptures concerningAm 3:5",
-      "raw_segment": "–General scriptures concerningAm 3:5"
+      "book": "Amos",
+      "chapter": 3,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Amos 3:5"
     },
     {
-      "idx": 1,
-      "entry_label": "–FIGURATIVE",
-      "raw_segment": "–FIGURATIVE"
+      "book": "Job",
+      "chapter": 18,
+      "verses": [
+        8,
+        9,
+        10
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Job 18:8-10"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 91,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 91:3"
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 5,
+      "verses": [
+        26
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Jeremiah 5:26"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "Amos",
+    "Jeremiah",
+    "Job",
+    "Psalms"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 7,
+    "total_refs": 4,
+    "ot_refs": 4,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:61ff1569604ce02835bac820e5620ac6f4f573629881cbc0efcb43f2b44c6680",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 7
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 4,
+    "top_books": [
+      "Amos",
+      "Job",
+      "Psalms",
+      "Jeremiah"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:31:38.942635Z",
-  "updated_at": "2025-09-20T17:31:38.942642Z"
+  }
 }

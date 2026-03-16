@@ -1,86 +1,36 @@
 {
   "topic": "ZEBOIM",
   "slug": "zeboim",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. Also called ZEBOIIM",
-      "references": [],
-      "sub_groups": [
-        {
-          "name": "One of the cities in the Valley of Siddim Ge 10:19; 14:2,8; De 29:23; Ho 11:8",
-          "references": [
-            "Gen 10:19",
-            "Gen 14:2",
-            "Gen 14:8",
-            "Deut 29:23",
-            "Hos 11:8"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "2. A city and valley in Benjamin 1Sa 13:18; Ne 11:34",
-      "references": [
-        "1Sam 13:18",
-        "Neh 11:34"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Deuteronomy",
-      "book_abbrev": "deu",
-      "chapter": 29,
-      "testament": "OT",
-      "verses": [
-        23
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Nehemiah",
-      "book_abbrev": "neh",
-      "chapter": 11,
-      "testament": "OT",
-      "verses": [
-        34
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Hosea",
-      "book_abbrev": "hos",
-      "chapter": 11,
-      "testament": "OT",
-      "verses": [
-        8
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 3,
-    "nt_refs": 0,
-    "total_verses": 3
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.734518+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "1. Al",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".One of the cities in the Valley of Siddim",
+      "references": [
+        "Genesis 10:19",
+        "Genesis 14:2,8",
+        "Deuteronomy 29:23",
+        "Hosea 11:8"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2. A city and valley in Benjamin",
+      "references": [
+        "1 Samuel 13:18",
+        "Nehemiah 11:34"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Genesis",
       "chapter": 10,
@@ -89,19 +39,18 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 10:19",
-      "source": "EAS"
+      "raw": "Genesis 10:19"
     },
     {
       "book": "Genesis",
       "chapter": 14,
       "verses": [
-        2
+        2,
+        8
       ],
-      "verse_count": 1,
+      "verse_count": 2,
       "testament": "OT",
-      "raw": "Genesis 14:2",
-      "source": "EAS"
+      "raw": "Genesis 14:2,8"
     },
     {
       "book": "Deuteronomy",
@@ -111,8 +60,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Deuteronomy 29:23",
-      "source": "EAS"
+      "raw": "Deuteronomy 29:23"
     },
     {
       "book": "Hosea",
@@ -122,8 +70,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Hosea 11:8",
-      "source": "EAS"
+      "raw": "Hosea 11:8"
     },
     {
       "book": "1 Samuel",
@@ -133,8 +80,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Samuel 13:18",
-      "source": "EAS"
+      "raw": "1 Samuel 13:18"
     },
     {
       "book": "Nehemiah",
@@ -144,8 +90,28 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Nehemiah 11:34",
-      "source": "EAS"
+      "raw": "Nehemiah 11:34"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Samuel",
+    "Deuteronomy",
+    "Genesis",
+    "Hosea",
+    "Nehemiah"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 6,
+    "ot_refs": 6,
+    "nt_refs": 0,
+    "books_count": 5,
+    "top_books": [
+      "Genesis",
+      "Deuteronomy",
+      "Hosea",
+      "1 Samuel",
+      "Nehemiah"
+    ]
+  }
 }

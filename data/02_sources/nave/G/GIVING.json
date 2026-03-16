@@ -1,87 +1,99 @@
 {
   "topic": "GIVING",
-  "topic_slug": "giving",
+  "slug": "giving",
   "canonical_id": "NAV:giving",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "LIBERALITY",
     "ALMS",
     "BENEFICENCE"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "LIBERALITY",
-      "clean": "LIBERALITY",
-      "slug": "liberality",
-      "canonical_id": "NAV:liberality"
+      "label": "RULES FOR",
+      "references": [
+        "Matthew 6:1-4",
+        "1 Corinthians 16:2",
+        "2 Corinthians 8:11,12,14",
+        "2 Corinthians 9:6,7"
+      ]
     },
     {
-      "original": "ALMS",
-      "clean": "ALMS",
-      "slug": "alms",
-      "canonical_id": "NAV:alms"
+      "label": ".SeeALMS",
+      "references": []
     },
     {
-      "original": "BENEFICENCE",
-      "clean": "BENEFICENCE",
-      "slug": "beneficence",
-      "canonical_id": "NAV:beneficence"
-    }
-  ],
-  "raw_block": "–RULES FORMt 6:1-4;1Co 16:2;2Co 8:11,12,14;9:6,7\n  .SeeALMS\n  .SeeBENEFICENCE\n  .SeeLIBERALITY",
-  "content_preview": "–RULES FORMt 6:1-4;1Co 16:2;2Co 8:11,12,14;9:6,7",
-  "reference_groups": [
+      "label": ".SeeBENEFICENCE",
+      "references": []
+    },
     {
-      "idx": 0,
-      "entry_label": "–RULES FORMt 6:1-4;1Co 16:2;2Co 8:11,12,14;9:6,7",
-      "raw_segment": "–RULES FORMt 6:1-4;1Co 16:2;2Co 8:11,12,14;9:6,7"
+      "label": ".SeeLIBERALITY",
+      "references": []
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Matthew",
+      "chapter": 6,
+      "verses": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "verse_count": 4,
+      "testament": "NT",
+      "raw": "Matthew 6:1-4"
+    },
+    {
+      "book": "1 Corinthians",
+      "chapter": 16,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "1 Corinthians 16:2"
+    },
+    {
+      "book": "2 Corinthians",
+      "chapter": 8,
+      "verses": [
+        11,
+        12,
+        14
+      ],
+      "verse_count": 3,
+      "testament": "NT",
+      "raw": "2 Corinthians 8:11,12,14"
+    },
+    {
+      "book": "2 Corinthians",
+      "chapter": 9,
+      "verses": [
+        6,
+        7
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "2 Corinthians 9:6,7"
+    }
+  ],
+  "books_mentioned": [
+    "1 Corinthians",
+    "2 Corinthians",
+    "Matthew"
+  ],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 4,
+    "total_refs": 4,
     "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:37a5d423dabac00fd4388594433273bfd420531409a7c3e9d084bf631889ccc3",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 4
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "nt_refs": 4,
+    "books_count": 3,
+    "top_books": [
+      "2 Corinthians",
+      "Matthew",
+      "1 Corinthians"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:26:41.728606Z",
-  "updated_at": "2025-09-20T17:26:41.728613Z"
+  }
 }

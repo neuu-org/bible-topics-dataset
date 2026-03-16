@@ -1,56 +1,50 @@
 {
   "topic": "ITINERARY",
   "slug": "itinerary",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [
+    "ISRAEL"
+  ],
+  "aspects": [
     {
-      "name": "Of the Israelites Nu 33; De 10:6,7",
+      "label": "Of the Israelites",
       "references": [
-        "Num 33",
-        "Deut 10:6",
-        "Deut 10:7"
+        "Deuteronomy 10:6,7"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See ISRAEL",
+      "label": "SeeISRAEL",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
       "book": "Deuteronomy",
-      "book_abbrev": "deu",
       "chapter": 10,
-      "testament": "OT",
       "verses": [
         6,
         7
       ],
-      "verse_count": 2
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Deuteronomy 10:6,7"
     }
   ],
-  "see_also": [
-    "ISRAEL"
+  "books_mentioned": [
+    "Deuteronomy"
   ],
-  "aliases": [],
   "stats": {
-    "entries_count": 2,
+    "total_aspects": 2,
+    "total_refs": 1,
     "ot_refs": 1,
     "nt_refs": 0,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.694974+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    }
-  },
-  "version": "3.0.0"
+    "books_count": 1,
+    "top_books": [
+      "Deuteronomy"
+    ]
+  }
 }

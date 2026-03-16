@@ -1,76 +1,100 @@
 {
   "topic": "BULWARK",
   "slug": "bulwark",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "General scriptures concerning De 20:20; 2Ch 26:15; Ec 9:14",
+      "label": "General scriptures concerning",
       "references": [
-        "Deut 20:20",
-        "2Chr 26:15",
-        "Eccl 9:14"
+        "Deuteronomy 20:20",
+        "2 Chronicles 26:15",
+        "Ecclesiastes 9:14"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "FIGURATIVE Ps 48:13; Isa 26:1",
+      "label": "FIGURATIVE",
       "references": [
-        "Ps 48:13",
-        "Isa 26:1"
+        "Psalms 48:13",
+        "Isaiah 26:1"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "2 Chronicles",
-      "book_abbrev": "2ch",
-      "chapter": 26,
+      "book": "Deuteronomy",
+      "chapter": 20,
+      "verses": [
+        20
+      ],
+      "verse_count": 1,
       "testament": "OT",
+      "raw": "Deuteronomy 20:20"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 26,
       "verses": [
         15
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Chronicles 26:15"
     },
     {
       "book": "Ecclesiastes",
-      "book_abbrev": "ecc",
       "chapter": 9,
-      "testament": "OT",
       "verses": [
         14
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ecclesiastes 9:14"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 48,
+      "verses": [
+        13
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 48:13"
     },
     {
       "book": "Isaiah",
-      "book_abbrev": "isa",
       "chapter": 26,
-      "testament": "OT",
       "verses": [
         1
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 26:1"
     }
   ],
-  "see_also": [],
-  "aliases": [],
+  "books_mentioned": [
+    "2 Chronicles",
+    "Deuteronomy",
+    "Ecclesiastes",
+    "Isaiah",
+    "Psalms"
+  ],
   "stats": {
-    "entries_count": 2,
-    "ot_refs": 3,
+    "total_aspects": 2,
+    "total_refs": 5,
+    "ot_refs": 5,
     "nt_refs": 0,
-    "total_verses": 3
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.675692+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    }
-  },
-  "version": "3.0.0"
+    "books_count": 5,
+    "top_books": [
+      "Deuteronomy",
+      "2 Chronicles",
+      "Ecclesiastes",
+      "Psalms",
+      "Isaiah"
+    ]
+  }
 }

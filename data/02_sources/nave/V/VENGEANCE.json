@@ -1,92 +1,102 @@
 {
   "topic": "VENGEANCE",
-  "topic_slug": "vengeance",
+  "slug": "vengeance",
   "canonical_id": "NAV:vengeance",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "JUDGMENTS",
     "REVENGE",
     "RETALIATION"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "JUDGMENTS",
-      "clean": "JUDGMENTS",
-      "slug": "judgments",
-      "canonical_id": "NAV:judgments"
+      "label": "Belongs to God",
+      "references": [
+        "Psalms 94:1",
+        "Romans 12:19"
+      ]
     },
     {
-      "original": "REVENGE",
-      "clean": "REVENGE",
-      "slug": "revenge",
-      "canonical_id": "NAV:revenge"
+      "label": "INSTANCE OF",
+      "references": []
     },
     {
-      "original": "RETALIATION",
-      "clean": "RETALIATION",
-      "slug": "retaliation",
-      "canonical_id": "NAV:retaliation"
+      "label": ".",
+      "references": [
+        "Genesis 34:20-31"
+      ]
+    },
+    {
+      "label": ".See",
+      "references": []
+    },
+    {
+      "label": ".SeeREVENGE",
+      "references": []
+    },
+    {
+      "label": ".SeeRETALIATION",
+      "references": []
     }
   ],
-  "raw_block": "–Belongs to GodPs 94:1;Ro 12:19\n–INSTANCE OF\n  .Sons of Jacob on Hamor and ShechemGe 34:20-31\n  .SeeJUDGMENTS\n  .SeeREVENGE\n  .SeeRETALIATION",
-  "content_preview": "–Belongs to GodPs 94:1;Ro 12:19",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–Belongs to GodPs 94:1;Ro 12:19",
-      "raw_segment": "–Belongs to GodPs 94:1;Ro 12:19"
+      "book": "Psalms",
+      "chapter": 94,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 94:1"
     },
     {
-      "idx": 1,
-      "entry_label": "–INSTANCE OF",
-      "raw_segment": "–INSTANCE OF"
+      "book": "Romans",
+      "chapter": 12,
+      "verses": [
+        19
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Romans 12:19"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 34,
+      "verses": [
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "verse_count": 12,
+      "testament": "OT",
+      "raw": "Genesis 34:20-31"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "Genesis",
+    "Psalms",
+    "Romans"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:66c702f75cce051b6b87d69a00025305e0078e294b70ca0253d3f08067e6f9fb",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 6
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 6,
+    "total_refs": 3,
+    "ot_refs": 2,
+    "nt_refs": 1,
+    "books_count": 3,
+    "top_books": [
+      "Psalms",
+      "Romans",
+      "Genesis"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:32:30.711507Z",
-  "updated_at": "2025-09-20T17:32:30.711514Z"
+  }
 }

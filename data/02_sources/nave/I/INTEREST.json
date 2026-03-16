@@ -1,8 +1,8 @@
 {
   "topic": "INTEREST",
-  "topic_slug": "interest",
+  "slug": "interest",
   "canonical_id": "NAV:interest",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "LENDING",
     "BORROWING",
@@ -10,117 +10,180 @@
     "DEBT",
     "MONEY"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "LENDING",
-      "clean": "LENDING",
-      "slug": "lending",
-      "canonical_id": "NAV:lending"
+      "label": "(Income from loaning money, usually",
+      "references": []
     },
     {
-      "original": "BORROWING",
-      "clean": "BORROWING",
-      "slug": "borrowing",
-      "canonical_id": "NAV:borrowing"
+      "label": "but not generally signifying unlawful or unjust rates)",
+      "references": [
+        "Exodus 22:25",
+        "Leviticus 25:36,37",
+        "Deuteronomy 23:19,20",
+        "Nehemiah 5:1-13",
+        "Psalms 15:5",
+        "Proverbs 28:8",
+        "Isaiah 24:2",
+        "Ezekiel 18:8,9,13,17",
+        "Ezekiel 22:12"
+      ]
     },
     {
-      "original": "DEBTORS",
-      "clean": "DEBTORS",
-      "slug": "debtors",
-      "canonical_id": "NAV:debtors"
+      "label": "SeeBORROWING",
+      "references": []
     },
     {
-      "original": "DEBT",
-      "clean": "DEBT",
-      "slug": "debt",
-      "canonical_id": "NAV:debt"
+      "label": "See",
+      "references": []
     },
     {
-      "original": "MONEY",
-      "clean": "MONEY",
-      "slug": "money",
-      "canonical_id": "NAV:money"
+      "label": "See",
+      "references": []
+    },
+    {
+      "label": "SeeLENDING",
+      "references": []
+    },
+    {
+      "label": "SeeMONEY",
+      "references": []
     }
   ],
-  "raw_block": "–(Income from loaning money, usually called “usury” in the Scriptures, \nbut not generally signifying unlawful or unjust rates)Ex 22:25;Le 25:36,37;De 23:19,20;Ne 5:1-13;Ps 15:5;Pr 28:8;Isa 24:2;Eze 18:8,9,13,17;22:12\n–SeeBORROWING\n–SeeDEBT\n–SeeDEBTORS\n–SeeLENDING\n–SeeMONEY",
-  "content_preview": "–(Income from loaning money, usually called “usury” in the Scriptures, ",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–(Income from loaning money, usually called “usury” in the Scriptures, \nbut not generally signifying unlawful or unjust rates)Ex 22:25;Le 25:36,37;De 23:19,20;Ne 5:1-13;Ps 15:5;Pr 28:8;Isa 24:2;Eze 18:8,9,13,17;22:12",
-      "raw_segment": "–(Income from loaning money, usually called “usury” in the Scriptures, \nbut not generally signifying unlawful or unjust rates)Ex 22:25;Le 25:36,37;De 23:19,20;Ne 5:1-13;Ps 15:5;Pr 28:8;Isa 24:2;Eze 18:8,9,13,17;22:12"
+      "book": "Exodus",
+      "chapter": 22,
+      "verses": [
+        25
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 22:25"
     },
     {
-      "idx": 1,
-      "entry_label": "–SeeBORROWING",
-      "raw_segment": "–SeeBORROWING"
+      "book": "Leviticus",
+      "chapter": 25,
+      "verses": [
+        36,
+        37
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Leviticus 25:36,37"
     },
     {
-      "idx": 2,
-      "entry_label": "–SeeDEBT",
-      "raw_segment": "–SeeDEBT"
+      "book": "Deuteronomy",
+      "chapter": 23,
+      "verses": [
+        19,
+        20
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Deuteronomy 23:19,20"
     },
     {
-      "idx": 3,
-      "entry_label": "–SeeDEBTORS",
-      "raw_segment": "–SeeDEBTORS"
+      "book": "Nehemiah",
+      "chapter": 5,
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "verse_count": 13,
+      "testament": "OT",
+      "raw": "Nehemiah 5:1-13"
     },
     {
-      "idx": 4,
-      "entry_label": "–SeeLENDING",
-      "raw_segment": "–SeeLENDING"
+      "book": "Psalms",
+      "chapter": 15,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 15:5"
     },
     {
-      "idx": 5,
-      "entry_label": "–SeeMONEY",
-      "raw_segment": "–SeeMONEY"
+      "book": "Proverbs",
+      "chapter": 28,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 28:8"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 24,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 24:2"
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 18,
+      "verses": [
+        8,
+        9,
+        13,
+        17
+      ],
+      "verse_count": 4,
+      "testament": "OT",
+      "raw": "Ezekiel 18:8,9,13,17"
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 22,
+      "verses": [
+        12
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezekiel 22:12"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "Deuteronomy",
+    "Exodus",
+    "Ezekiel",
+    "Isaiah",
+    "Leviticus",
+    "Nehemiah",
+    "Proverbs",
+    "Psalms"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 7,
+    "total_refs": 9,
+    "ot_refs": 9,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:15a6d4d2a0bc1a2c045a52d702b7b0875dd351c424d066157ec468af8982f526",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 7
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 8,
+    "top_books": [
+      "Ezekiel",
+      "Exodus",
+      "Leviticus",
+      "Deuteronomy",
+      "Nehemiah",
+      "Psalms",
+      "Proverbs",
+      "Isaiah"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:27:37.382341Z",
-  "updated_at": "2025-09-20T17:27:37.382349Z"
+  }
 }

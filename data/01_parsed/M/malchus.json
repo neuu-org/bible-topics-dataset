@@ -1,90 +1,28 @@
 {
   "topic": "MALCHUS",
   "slug": "malchus",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Servant of the high priest",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "Peter assaults in Gethsemane -Healed by Jesus Mt 26:51; Mr 14:47; Lu 22:50,51; Joh 18:10",
-      "references": [
-        "Matt 26:51",
-        "Mark 14:47",
-        "Luke 22:50",
-        "Luke 22:51",
-        "John 18:10"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Mark",
-      "book_abbrev": "mrk",
-      "chapter": 14,
-      "testament": "NT",
-      "verses": [
-        47
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Luke",
-      "book_abbrev": "luk",
-      "chapter": 22,
-      "testament": "NT",
-      "verses": [
-        50,
-        51
-      ],
-      "verse_count": 2
-    },
-    {
-      "book": "John",
-      "book_abbrev": "jhn",
-      "chapter": 18,
-      "testament": "NT",
-      "verses": [
-        10
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 3,
-    "total_verses": 3
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.703445+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "see_also": [],
+  "aspects": [
     {
-      "book": "John",
-      "chapter": 18,
-      "verses": [
-        10
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "John 18:10",
-      "source": "EAS"
+      "label": "Servant of the high priest",
+      "references": [],
+      "source": "NAV"
     },
+    {
+      "label": "Peter assaults in Gethsemane -Healed by Jesus",
+      "references": [
+        "Matthew 26:51",
+        "Mark 14:47",
+        "Luke 22:50,51",
+        "John 18:10"
+      ],
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
     {
       "book": "Matthew",
       "chapter": 26,
@@ -93,8 +31,7 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Matthew 26:51",
-      "source": "EAS"
+      "raw": "Matthew 26:51"
     },
     {
       "book": "Mark",
@@ -104,42 +41,47 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Mark 14:47",
-      "source": "EAS"
+      "raw": "Mark 14:47"
     },
     {
       "book": "Luke",
       "chapter": 22,
       "verses": [
-        51
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Luke 22:51",
-      "source": "EAS"
-    },
-    {
-      "book": "Mark",
-      "chapter": 14,
-      "verses": [
-        17
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Mark 14:17",
-      "source": "SMI"
-    },
-    {
-      "book": "Luke",
-      "chapter": 22,
-      "verses": [
-        49,
+        50,
         51
       ],
       "verse_count": 2,
       "testament": "NT",
-      "raw": "Luke 22:49,51",
-      "source": "SMI"
+      "raw": "Luke 22:50,51"
+    },
+    {
+      "book": "John",
+      "chapter": 18,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "John 18:10"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "John",
+    "Luke",
+    "Mark",
+    "Matthew"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 4,
+    "ot_refs": 0,
+    "nt_refs": 4,
+    "books_count": 4,
+    "top_books": [
+      "Matthew",
+      "Mark",
+      "Luke",
+      "John"
+    ]
+  }
 }

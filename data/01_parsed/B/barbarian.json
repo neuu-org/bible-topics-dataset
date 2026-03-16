@@ -1,80 +1,42 @@
 {
   "topic": "BARBARIAN",
   "slug": "barbarian",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "A foreigner Ac 28:2-4; Ro 1:14; 1Co 14:11; Col 3:11",
-      "references": [
-        "Acts 28:2-4",
-        "Rom 1:14",
-        "1Cor 14:11",
-        "Col 3:11"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "See STRANGER",
-      "references": [],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Romans",
-      "book_abbrev": "rom",
-      "chapter": 1,
-      "testament": "NT",
-      "verses": [
-        1,
-        14
-      ],
-      "verse_count": 2
-    },
-    {
-      "book": "1 Corinthians",
-      "book_abbrev": "1co",
-      "chapter": 14,
-      "testament": "NT",
-      "verses": [
-        11
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Colossians",
-      "book_abbrev": "col",
-      "chapter": 3,
-      "testament": "NT",
-      "verses": [
-        11
-      ],
-      "verse_count": 1
-    }
+  "sources": [
+    "NAV"
   ],
   "see_also": [
     "STRANGER"
   ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 3,
-    "total_verses": 3
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.672100+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "aspects": [
+    {
+      "label": "A foreigner",
+      "references": [
+        "Acts 28:2-4",
+        "Romans 1:14",
+        "1 Corinthians 14:11",
+        "Colossians 3:11"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeSTRANGER",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
+    {
+      "book": "Acts",
+      "chapter": 28,
+      "verses": [
+        2,
+        3,
+        4
+      ],
+      "verse_count": 3,
+      "testament": "NT",
+      "raw": "Acts 28:2-4"
+    },
     {
       "book": "Romans",
       "chapter": 1,
@@ -83,32 +45,7 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Romans 1:14",
-      "source": "EAS"
-    },
-    {
-      "book": "Acts",
-      "chapter": 28,
-      "verses": [
-        1,
-        2,
-        4
-      ],
-      "verse_count": 3,
-      "testament": "NT",
-      "raw": "Acts 28:1, 2, 4",
-      "source": "EAS"
-    },
-    {
-      "book": "Colossians",
-      "chapter": 3,
-      "verses": [
-        11
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Colossians 3:11",
-      "source": "EAS"
+      "raw": "Romans 1:14"
     },
     {
       "book": "1 Corinthians",
@@ -118,19 +55,36 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "1 Corinthians 14:11",
-      "source": "EAS"
+      "raw": "1 Corinthians 14:11"
     },
     {
-      "book": "Acts",
-      "chapter": 28,
+      "book": "Colossians",
+      "chapter": 3,
       "verses": [
-        24
+        11
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Acts 28:24",
-      "source": "SMI"
+      "raw": "Colossians 3:11"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Corinthians",
+    "Acts",
+    "Colossians",
+    "Romans"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 4,
+    "ot_refs": 0,
+    "nt_refs": 4,
+    "books_count": 4,
+    "top_books": [
+      "Acts",
+      "Romans",
+      "1 Corinthians",
+      "Colossians"
+    ]
+  }
 }

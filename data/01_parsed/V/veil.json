@@ -1,85 +1,53 @@
 {
   "topic": "VEIL",
   "slug": "veil",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Worn",
-      "references": [],
-      "sub_groups": [
-        {
-          "name": "By Rebekah Ge 24:65",
-          "references": [
-            "Gen 24:65"
-          ]
-        },
-        {
-          "name": "By Tamar Ge 38:14,19",
-          "references": [
-            "Gen 38:14",
-            "Gen 38:19"
-          ]
-        },
-        {
-          "name": "By Moses, to screen his face when he descended from Mount Sinai Ex 34:33,35; 2Co 3:13-16",
-          "references": [
-            "Exod 34:33",
-            "Exod 34:35",
-            "2Cor 3:13-16"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "See DRESS",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "See WIMPLE",
-      "references": [],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "2 Corinthians",
-      "book_abbrev": "2co",
-      "chapter": 3,
-      "testament": "NT",
-      "verses": [
-        13,
-        14,
-        15,
-        16
-      ],
-      "verse_count": 4
-    }
-  ],
-  "see_also": [
-    "WIMPLE",
-    "DRESS"
-  ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 0,
-    "nt_refs": 1,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.732528+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [
+    "DRESS",
+    "WIMPLE"
+  ],
+  "aspects": [
+    {
+      "label": "Worn",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".By Rebekah",
+      "references": [
+        "Genesis 24:65"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".By Tamar",
+      "references": [
+        "Genesis 38:14,19"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".By Moses, to screen his face when he",
+      "references": [
+        "Exodus 34:33,35",
+        "2 Corinthians 3:13-16"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeDRESS",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeWIMPLE",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Genesis",
       "chapter": 24,
@@ -88,19 +56,59 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 24:65",
-      "source": "SMI"
+      "raw": "Genesis 24:65"
     },
     {
       "book": "Genesis",
       "chapter": 38,
       "verses": [
-        14
+        14,
+        19
       ],
-      "verse_count": 1,
+      "verse_count": 2,
       "testament": "OT",
-      "raw": "Genesis 38:14",
-      "source": "SMI"
+      "raw": "Genesis 38:14,19"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 34,
+      "verses": [
+        33,
+        35
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Exodus 34:33,35"
+    },
+    {
+      "book": "2 Corinthians",
+      "chapter": 3,
+      "verses": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "verse_count": 4,
+      "testament": "NT",
+      "raw": "2 Corinthians 3:13-16"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "2 Corinthians",
+    "Exodus",
+    "Genesis"
+  ],
+  "stats": {
+    "total_aspects": 6,
+    "total_refs": 4,
+    "ot_refs": 3,
+    "nt_refs": 1,
+    "books_count": 3,
+    "top_books": [
+      "Genesis",
+      "Exodus",
+      "2 Corinthians"
+    ]
+  }
 }

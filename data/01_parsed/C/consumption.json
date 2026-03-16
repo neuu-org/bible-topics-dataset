@@ -1,47 +1,55 @@
 {
   "topic": "CONSUMPTION",
   "slug": "consumption",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "General scriptures concerning Le 26:16; De 28:22",
+      "label": "General scriptures concerning",
       "references": [
-        "Lev 26:16",
-        "Deut 28:22"
+        "Leviticus 26:16",
+        "Deuteronomy 28:22"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Deuteronomy",
-      "book_abbrev": "deu",
-      "chapter": 28,
+      "book": "Leviticus",
+      "chapter": 26,
+      "verses": [
+        16
+      ],
+      "verse_count": 1,
       "testament": "OT",
+      "raw": "Leviticus 26:16"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 28,
       "verses": [
         22
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 28:22"
     }
   ],
-  "see_also": [],
-  "aliases": [],
+  "books_mentioned": [
+    "Deuteronomy",
+    "Leviticus"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 1,
+    "total_aspects": 1,
+    "total_refs": 2,
+    "ot_refs": 2,
     "nt_refs": 0,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.679169+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    }
-  },
-  "version": "3.0.0"
+    "books_count": 2,
+    "top_books": [
+      "Leviticus",
+      "Deuteronomy"
+    ]
+  }
 }

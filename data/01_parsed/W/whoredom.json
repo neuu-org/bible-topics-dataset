@@ -1,83 +1,93 @@
 {
   "topic": "WHOREDOM",
   "slug": "whoredom",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Licentious rites of, in idolatrous worship Le 19:29; De 31:16; Jud 2:17; 2Ki 9:22",
-      "references": [
-        "Lev 19:29",
-        "Deut 31:16",
-        "Judg 2:17",
-        "2Kgs 9:22"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "See IDOLATRY",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "FIGURATIVE Eze 16; 23; Re 17",
-      "references": [
-        "Ezek 16",
-        "Ezek 23",
-        "Rev 17"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Deuteronomy",
-      "book_abbrev": "deu",
-      "chapter": 31,
-      "testament": "OT",
-      "verses": [
-        16
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "2 Kings",
-      "book_abbrev": "2ki",
-      "chapter": 9,
-      "testament": "OT",
-      "verses": [
-        22
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Revelation",
-      "book_abbrev": "rev",
-      "chapter": 17,
-      "testament": "NT",
-      "verses": [],
-      "verse_count": 1
-    }
+  "sources": [
+    "NAV"
   ],
   "see_also": [
     "IDOLATRY"
   ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 2,
-    "nt_refs": 1,
-    "total_verses": 3
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.733478+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
+  "aspects": [
+    {
+      "label": "Licentious rites of, in idolatrous worship",
+      "references": [
+        "Leviticus 19:29",
+        "Deuteronomy 31:16",
+        "Judges 2:17",
+        "2 Kings 9:22"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeIDOLATRY",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "FIGURATIVEEze 16;23;Re 17",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0"
+  ],
+  "biblical_references": [
+    {
+      "book": "Leviticus",
+      "chapter": 19,
+      "verses": [
+        29
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Leviticus 19:29"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 31,
+      "verses": [
+        16
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 31:16"
+    },
+    {
+      "book": "Judges",
+      "chapter": 2,
+      "verses": [
+        17
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Judges 2:17"
+    },
+    {
+      "book": "2 Kings",
+      "chapter": 9,
+      "verses": [
+        22
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Kings 9:22"
+    }
+  ],
+  "books_mentioned": [
+    "2 Kings",
+    "Deuteronomy",
+    "Judges",
+    "Leviticus"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 4,
+    "ot_refs": 4,
+    "nt_refs": 0,
+    "books_count": 4,
+    "top_books": [
+      "Leviticus",
+      "Deuteronomy",
+      "Judges",
+      "2 Kings"
+    ]
+  }
 }

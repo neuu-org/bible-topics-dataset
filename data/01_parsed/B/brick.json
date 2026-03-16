@@ -1,101 +1,51 @@
 {
   "topic": "BRICK",
   "slug": "brick",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Used in building: Babel Ge 11:3",
-      "references": [
-        "Gen 11:3"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Cities in Egypt Ex 1:11,14",
-      "references": [
-        "Exod 1:11",
-        "Exod 1:14"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Houses Isa 9:10",
-      "references": [
-        "Isa 9:10"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Altars Isa 65:3",
-      "references": [
-        "Isa 65:3"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Made by Israelites Ex 5:7-19; 2Sa 12:31; Jer 43:9; Na 3:14",
-      "references": [
-        "Exod 5:7-19",
-        "2Sam 12:31",
-        "Jer 43:9",
-        "Nah 3:14"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "2 Samuel",
-      "book_abbrev": "2sa",
-      "chapter": 12,
-      "testament": "OT",
-      "verses": [
-        31
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Jeremiah",
-      "book_abbrev": "jer",
-      "chapter": 43,
-      "testament": "OT",
-      "verses": [
-        9
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Nahum",
-      "book_abbrev": "nah",
-      "chapter": 3,
-      "testament": "OT",
-      "verses": [
-        14
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 5,
-    "ot_refs": 3,
-    "nt_refs": 0,
-    "total_verses": 3
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.675491+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "Used in building: Babel",
+      "references": [
+        "Genesis 11:3"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Cities in Egypt",
+      "references": [
+        "Exodus 1:11,14"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Houses",
+      "references": [
+        "Isaiah 9:10"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Altars",
+      "references": [
+        "Isaiah 65:3"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Ma",
+      "references": [
+        "Exodus 5:7-19",
+        "2 Samuel 12:31",
+        "Jeremiah 43:9",
+        "Nahum 3:14"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Genesis",
       "chapter": 11,
@@ -104,41 +54,60 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 11:3",
-      "source": "SMI"
-    },
-    {
-      "book": "Ezekiel",
-      "chapter": 4,
-      "verses": [
-        1
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Ezekiel 4:1",
-      "source": "SMI"
+      "raw": "Genesis 11:3"
     },
     {
       "book": "Exodus",
       "chapter": 1,
       "verses": [
+        11,
         14
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Exodus 1:11,14"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 9,
+      "verses": [
+        10
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Exodus 1:14",
-      "source": "SMI"
+      "raw": "Isaiah 9:10"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 65,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 65:3"
     },
     {
       "book": "Exodus",
       "chapter": 5,
       "verses": [
-        7
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
       ],
-      "verse_count": 1,
+      "verse_count": 13,
       "testament": "OT",
-      "raw": "Exodus 5:7",
-      "source": "SMI"
+      "raw": "Exodus 5:7-19"
     },
     {
       "book": "2 Samuel",
@@ -148,8 +117,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Samuel 12:31",
-      "source": "SMI"
+      "raw": "2 Samuel 12:31"
     },
     {
       "book": "Jeremiah",
@@ -159,8 +127,40 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Jeremiah 43:9",
-      "source": "SMI"
+      "raw": "Jeremiah 43:9"
+    },
+    {
+      "book": "Nahum",
+      "chapter": 3,
+      "verses": [
+        14
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Nahum 3:14"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "2 Samuel",
+    "Exodus",
+    "Genesis",
+    "Isaiah",
+    "Jeremiah",
+    "Nahum"
+  ],
+  "stats": {
+    "total_aspects": 5,
+    "total_refs": 8,
+    "ot_refs": 8,
+    "nt_refs": 0,
+    "books_count": 6,
+    "top_books": [
+      "Exodus",
+      "Isaiah",
+      "Genesis",
+      "2 Samuel",
+      "Jeremiah",
+      "Nahum"
+    ]
+  }
 }

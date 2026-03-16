@@ -1,64 +1,53 @@
 {
   "topic": "SUN-DIAL",
-  "topic_slug": "sun_dial",
+  "slug": "sun_dial",
   "canonical_id": "NAV:sun_dial",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–General scriptures concerning2Ki 20:11;Isa 38:8",
-  "content_preview": "–General scriptures concerning2Ki 20:11;Isa 38:8",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–General scriptures concerning2Ki 20:11;Isa 38:8",
-      "raw_segment": "–General scriptures concerning2Ki 20:11;Isa 38:8"
+      "label": "General scriptures concerning",
+      "references": [
+        "2 Kings 20:11",
+        "Isaiah 38:8"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "2 Kings",
+      "chapter": 20,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Kings 20:11"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 38,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 38:8"
+    }
+  ],
+  "books_mentioned": [
+    "2 Kings",
+    "Isaiah"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 1,
+    "total_refs": 2,
+    "ot_refs": 2,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:34a25d63915fc81c3fb0d23766060bf75b1ae25468f91101b116a6e9e7dfa711",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 1
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 2,
+    "top_books": [
+      "2 Kings",
+      "Isaiah"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:31:52.335613Z",
-  "updated_at": "2025-09-20T17:31:52.335620Z"
+  }
 }

@@ -1,84 +1,144 @@
 {
   "topic": "BINNUI",
-  "topic_slug": "binnui",
+  "slug": "binnui",
   "canonical_id": "NAV:binnui",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–1. A Jew of the captivityNe 7:15\n  .Called BANIEzr 2:10\n–2. A Levite of the captivityNe 12:8;3:24;10:9\n–3. Father of NoadiahEzr 8:33\n–4. Son of Pahath-moabEzr 10:30\n–5. Son of BaniEzr 10:38",
-  "content_preview": "–1. A Jew of the captivityNe 7:15",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–1. A Jew of the captivityNe 7:15",
-      "raw_segment": "–1. A Jew of the captivityNe 7:15"
+      "label": "1. A Jew of the",
+      "references": [
+        "Nehemiah 7:15"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–2. A Levite of the captivityNe 12:8;3:24;10:9",
-      "raw_segment": "–2. A Levite of the captivityNe 12:8;3:24;10:9"
+      "label": ".",
+      "references": [
+        "Ezra 2:10"
+      ]
     },
     {
-      "idx": 2,
-      "entry_label": "–3. Father of NoadiahEzr 8:33",
-      "raw_segment": "–3. Father of NoadiahEzr 8:33"
+      "label": "2. A Levite of the",
+      "references": [
+        "Nehemiah 12:8",
+        "Nehemiah 3:24",
+        "Nehemiah 10:9"
+      ]
     },
     {
-      "idx": 3,
-      "entry_label": "–4. Son of Pahath-moabEzr 10:30",
-      "raw_segment": "–4. Son of Pahath-moabEzr 10:30"
+      "label": "3. Father of Noadiah",
+      "references": [
+        "Ezra 8:33"
+      ]
     },
     {
-      "idx": 4,
-      "entry_label": "–5. Son of BaniEzr 10:38",
-      "raw_segment": "–5. Son of BaniEzr 10:38"
+      "label": "4.",
+      "references": [
+        "Ezra 10:30"
+      ]
+    },
+    {
+      "label": "5.",
+      "references": [
+        "Ezra 10:38"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Nehemiah",
+      "chapter": 7,
+      "verses": [
+        15
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Nehemiah 7:15"
+    },
+    {
+      "book": "Ezra",
+      "chapter": 2,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezra 2:10"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 12,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Nehemiah 12:8"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 3,
+      "verses": [
+        24
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Nehemiah 3:24"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 10,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Nehemiah 10:9"
+    },
+    {
+      "book": "Ezra",
+      "chapter": 8,
+      "verses": [
+        33
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezra 8:33"
+    },
+    {
+      "book": "Ezra",
+      "chapter": 10,
+      "verses": [
+        30
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezra 10:30"
+    },
+    {
+      "book": "Ezra",
+      "chapter": 10,
+      "verses": [
+        38
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezra 10:38"
+    }
+  ],
+  "books_mentioned": [
+    "Ezra",
+    "Nehemiah"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 6,
+    "total_refs": 8,
+    "ot_refs": 8,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:fad432ff20774e1a64e00716bbdb664d8a8d3215823ced0730f9d6773488370e",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 6
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 2,
+    "top_books": [
+      "Nehemiah",
+      "Ezra"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:24:30.642591Z",
-  "updated_at": "2025-09-20T17:24:30.642598Z"
+  }
 }

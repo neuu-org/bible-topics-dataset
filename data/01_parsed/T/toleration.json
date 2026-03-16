@@ -1,79 +1,89 @@
 {
   "topic": "TOLERATION",
   "slug": "toleration",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [
+    "INTOLERANCE"
+  ],
+  "aspects": [
     {
-      "name": "Religions Mic 4:4,5; Mr 9:38-40; Lu 9:49,50; Ac 17:11; 28:31; Ro 14; 1Co 10:28-32",
+      "label": "Religions",
       "references": [
-        "Mic 4:4",
-        "Mic 4:5",
+        "Micah 4:4,5",
         "Mark 9:38-40",
-        "Luke 9:49",
-        "Luke 9:50",
+        "Luke 9:49,50",
         "Acts 17:11",
         "Acts 28:31",
-        "Rom 14",
-        "1Cor 10:28-32"
+        "1 Corinthians 10:28-32"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See INTOLERANCE",
+      "label": "SeeINTOLERANCE",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
+      "book": "Micah",
+      "chapter": 4,
+      "verses": [
+        4,
+        5
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Micah 4:4,5"
+    },
+    {
       "book": "Mark",
-      "book_abbrev": "mrk",
       "chapter": 9,
-      "testament": "NT",
       "verses": [
         38,
         39,
         40
       ],
-      "verse_count": 3
+      "verse_count": 3,
+      "testament": "NT",
+      "raw": "Mark 9:38-40"
     },
     {
       "book": "Luke",
-      "book_abbrev": "luk",
       "chapter": 9,
-      "testament": "NT",
       "verses": [
         49,
         50
       ],
-      "verse_count": 2
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Luke 9:49,50"
     },
     {
       "book": "Acts",
-      "book_abbrev": "act",
       "chapter": 17,
-      "testament": "NT",
       "verses": [
-        11,
-        28
+        11
       ],
-      "verse_count": 2
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 17:11"
     },
     {
-      "book": "Romans",
-      "book_abbrev": "rom",
-      "chapter": 14,
-      "testament": "NT",
+      "book": "Acts",
+      "chapter": 28,
       "verses": [
-        1
+        31
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 28:31"
     },
     {
       "book": "1 Corinthians",
-      "book_abbrev": "1co",
       "chapter": 10,
-      "testament": "NT",
       "verses": [
         28,
         29,
@@ -81,29 +91,30 @@
         31,
         32
       ],
-      "verse_count": 5
+      "verse_count": 5,
+      "testament": "NT",
+      "raw": "1 Corinthians 10:28-32"
     }
   ],
-  "see_also": [
-    "INTOLERANCE"
+  "books_mentioned": [
+    "1 Corinthians",
+    "Acts",
+    "Luke",
+    "Mark",
+    "Micah"
   ],
-  "aliases": [],
   "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
+    "total_aspects": 2,
+    "total_refs": 6,
+    "ot_refs": 1,
     "nt_refs": 5,
-    "total_verses": 5
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.730657+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    }
-  },
-  "version": "3.0.0"
+    "books_count": 5,
+    "top_books": [
+      "Acts",
+      "Micah",
+      "Mark",
+      "Luke",
+      "1 Corinthians"
+    ]
+  }
 }

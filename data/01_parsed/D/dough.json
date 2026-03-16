@@ -1,110 +1,121 @@
 {
   "topic": "DOUGH",
   "slug": "dough",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [
+    "BREAD",
+    "OVEN"
+  ],
+  "aspects": [
     {
-      "name": "First of, offered to God Nu 15:19-21; Ne 10:37",
+      "label": "First of, offered to God",
       "references": [
-        "Num 15:19-21",
-        "Neh 10:37"
+        "Numbers 15:19-21",
+        "Nehemiah 10:37"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Kneaded Jer 7:18; Ho 7:4",
+      "label": "Knea",
       "references": [
-        "Jer 7:18",
-        "Hos 7:4"
+        "Jeremiah 7:18",
+        "Hosea 7:4"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Part of, for priest Eze 44:30",
+      "label": "Part of, for priest",
       "references": [
-        "Ezek 44:30"
+        "Ezekiel 44:30"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See BREAD",
+      "label": "SeeBREAD",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See OVEN",
+      "label": "SeeOVEN",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Nehemiah",
-      "book_abbrev": "neh",
-      "chapter": 10,
+      "book": "Numbers",
+      "chapter": 15,
+      "verses": [
+        19,
+        20,
+        21
+      ],
+      "verse_count": 3,
       "testament": "OT",
+      "raw": "Numbers 15:19-21"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 10,
       "verses": [
         37
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Nehemiah 10:37"
     },
     {
-      "book": "Hosea",
-      "book_abbrev": "hos",
-      "chapter": 7,
-      "testament": "OT",
-      "verses": [
-        4
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [
-    "OVEN",
-    "BREAD"
-  ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 5,
-    "ot_refs": 2,
-    "nt_refs": 0,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.682321+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "Exodus",
-      "chapter": 12,
-      "verses": [
-        34,
-        39
-      ],
-      "verse_count": 2,
-      "testament": "OT",
-      "raw": "Exodus 12:34, 39",
-      "source": "EAS"
-    },
-    {
-      "book": "Hosea",
+      "book": "Jeremiah",
       "chapter": 7,
       "verses": [
-        8
+        18
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Hosea 7:8",
-      "source": "EAS"
+      "raw": "Jeremiah 7:18"
+    },
+    {
+      "book": "Hosea",
+      "chapter": 7,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Hosea 7:4"
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 44,
+      "verses": [
+        30
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezekiel 44:30"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Ezekiel",
+    "Hosea",
+    "Jeremiah",
+    "Nehemiah",
+    "Numbers"
+  ],
+  "stats": {
+    "total_aspects": 5,
+    "total_refs": 5,
+    "ot_refs": 5,
+    "nt_refs": 0,
+    "books_count": 5,
+    "top_books": [
+      "Numbers",
+      "Nehemiah",
+      "Jeremiah",
+      "Hosea",
+      "Ezekiel"
+    ]
+  }
 }

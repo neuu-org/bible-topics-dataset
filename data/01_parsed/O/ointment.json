@@ -1,168 +1,127 @@
 {
   "topic": "OINTMENT",
   "slug": "ointment",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "NOT SACRED 2Ki 20:13; Es 2:12; Ec 7:1; 10:1; So 1:3; 4:10; Am 6:6; Mr 14:3-5; Joh 12:3-5",
-      "references": [
-        "2Kgs 20:13",
-        "Esth 2:12",
-        "Eccl 7:1",
-        "Eccl 10:1",
-        "Song 1:3",
-        "Song 4:10",
-        "Amos 6:6",
-        "Mark 14:3-5",
-        "John 12:3-5"
-      ],
-      "sub_groups": [
-        {
-          "name": "The alabaster container of Mt 26:7",
-          "references": [
-            "Matt 26:7"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "SACRED",
-      "references": [],
-      "sub_groups": [
-        {
-          "name": "Formula for Ex 30:23-25",
-          "references": [
-            "Exod 30:23-25"
-          ]
-        },
-        {
-          "name": "Uses of Ex 30:26-33",
-          "references": [
-            "Exod 30:26-33"
-          ]
-        },
-        {
-          "name": "Compounded by Bezaleel Ex 37:1,29",
-          "references": [
-            "Exod 37:1",
-            "Exod 37:29"
-          ]
-        }
-      ]
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Esther",
-      "book_abbrev": "est",
-      "chapter": 2,
-      "testament": "OT",
-      "verses": [
-        12
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Ecclesiastes",
-      "book_abbrev": "ecc",
-      "chapter": 7,
-      "testament": "OT",
-      "verses": [
-        1,
-        10
-      ],
-      "verse_count": 2
-    },
-    {
-      "book": "Amos",
-      "book_abbrev": "amo",
-      "chapter": 6,
-      "testament": "OT",
-      "verses": [
-        6
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Mark",
-      "book_abbrev": "mrk",
-      "chapter": 14,
-      "testament": "NT",
-      "verses": [
-        3,
-        4,
-        5
-      ],
-      "verse_count": 3
-    },
-    {
-      "book": "John",
-      "book_abbrev": "jhn",
-      "chapter": 12,
-      "testament": "NT",
-      "verses": [
-        3,
-        4,
-        5
-      ],
-      "verse_count": 3
-    }
+  "sources": [
+    "NAV"
   ],
   "see_also": [
     "OIL, SACRED"
   ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 3,
-    "nt_refs": 2,
-    "total_verses": 5
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.715965+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "aspects": [
+    {
+      "label": "NOT SACRED",
+      "references": [
+        "2 Kings 20:13",
+        "Esther 2:12",
+        "Ecclesiastes 7:1",
+        "Ecclesiastes 10:1",
+        "Song of Solomon 1:3",
+        "Song of Solomon 4:10",
+        "Amos 6:6",
+        "Mark 14:3-5",
+        "John 12:3-5"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".The alabaster container of",
+      "references": [
+        "Matthew 26:7"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "SACRED",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".Formula for",
+      "references": [
+        "Exodus 30:23-25"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".Uses of",
+      "references": [
+        "Exodus 30:26-33"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".Compoun",
+      "references": [
+        "Exodus 37:1,29"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".SeeOIL, SACRED",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
-      "book": "Exodus",
-      "chapter": 30,
+      "book": "2 Kings",
+      "chapter": 20,
       "verses": [
-        25
+        13
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Exodus 30:25",
-      "source": "EAS"
+      "raw": "2 Kings 20:13"
     },
     {
-      "book": "Psalms",
-      "chapter": 133,
+      "book": "Esther",
+      "chapter": 2,
       "verses": [
-        2
+        12
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Psalms 133:2",
-      "source": "EAS"
+      "raw": "Esther 2:12"
     },
     {
-      "book": "Isaiah",
+      "book": "Ecclesiastes",
+      "chapter": 7,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ecclesiastes 7:1"
+    },
+    {
+      "book": "Ecclesiastes",
+      "chapter": 10,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ecclesiastes 10:1"
+    },
+    {
+      "book": "Song of Solomon",
       "chapter": 1,
       "verses": [
-        6
+        3
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Isaiah 1:6",
-      "source": "EAS"
+      "raw": "Song of Solomon 1:3"
+    },
+    {
+      "book": "Song of Solomon",
+      "chapter": 4,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Song of Solomon 4:10"
     },
     {
       "book": "Amos",
@@ -172,30 +131,110 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Amos 6:6",
-      "source": "EAS"
+      "raw": "Amos 6:6"
+    },
+    {
+      "book": "Mark",
+      "chapter": 14,
+      "verses": [
+        3,
+        4,
+        5
+      ],
+      "verse_count": 3,
+      "testament": "NT",
+      "raw": "Mark 14:3-5"
     },
     {
       "book": "John",
       "chapter": 12,
       "verses": [
-        3
+        3,
+        4,
+        5
       ],
-      "verse_count": 1,
+      "verse_count": 3,
       "testament": "NT",
-      "raw": "John 12:3",
-      "source": "EAS"
+      "raw": "John 12:3-5"
     },
     {
-      "book": "Revelation",
-      "chapter": 18,
+      "book": "Matthew",
+      "chapter": 26,
       "verses": [
-        13
+        7
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Revelation 18:13",
-      "source": "EAS"
+      "raw": "Matthew 26:7"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 30,
+      "verses": [
+        23,
+        24,
+        25
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Exodus 30:23-25"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 30,
+      "verses": [
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33
+      ],
+      "verse_count": 8,
+      "testament": "OT",
+      "raw": "Exodus 30:26-33"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 37,
+      "verses": [
+        1,
+        29
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Exodus 37:1,29"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "2 Kings",
+    "Amos",
+    "Ecclesiastes",
+    "Esther",
+    "Exodus",
+    "John",
+    "Mark",
+    "Matthew",
+    "Song of Solomon"
+  ],
+  "stats": {
+    "total_aspects": 7,
+    "total_refs": 13,
+    "ot_refs": 10,
+    "nt_refs": 3,
+    "books_count": 9,
+    "top_books": [
+      "Exodus",
+      "Ecclesiastes",
+      "Song of Solomon",
+      "2 Kings",
+      "Esther",
+      "Amos",
+      "Mark",
+      "John",
+      "Matthew"
+    ]
+  }
 }

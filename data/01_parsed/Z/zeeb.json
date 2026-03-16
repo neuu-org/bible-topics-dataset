@@ -1,51 +1,22 @@
 {
   "topic": "ZEEB",
   "slug": "zeeb",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "A prince of Midian Jud 7:25; 8:3; Ps 83:11",
-      "references": [
-        "Judg 7:25",
-        "Judg 8:3",
-        "Ps 83:11"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Psalms",
-      "book_abbrev": "psa",
-      "chapter": 83,
-      "testament": "OT",
-      "verses": [
-        11
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.734770+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "A prince of Midian",
+      "references": [
+        "Judges 7:25",
+        "Judges 8:3",
+        "Psalms 83:11"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Judges",
       "chapter": 7,
@@ -54,30 +25,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Judges 7:25",
-      "source": "EAS"
-    },
-    {
-      "book": "Psalms",
-      "chapter": 83,
-      "verses": [
-        11
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Psalms 83:11",
-      "source": "EAS"
-    },
-    {
-      "book": "Isaiah",
-      "chapter": 10,
-      "verses": [
-        26
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Isaiah 10:26",
-      "source": "EAS"
+      "raw": "Judges 7:25"
     },
     {
       "book": "Judges",
@@ -87,8 +35,32 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Judges 8:3",
-      "source": "SMI"
+      "raw": "Judges 8:3"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 83,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 83:11"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Judges",
+    "Psalms"
+  ],
+  "stats": {
+    "total_aspects": 1,
+    "total_refs": 3,
+    "ot_refs": 3,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "Judges",
+      "Psalms"
+    ]
+  }
 }

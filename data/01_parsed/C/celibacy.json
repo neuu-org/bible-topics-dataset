@@ -1,31 +1,39 @@
 {
   "topic": "CELIBACY",
   "slug": "celibacy",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "General scriptures concerning Mt 19:10-12; 1Co 7:1,2,7-9,25,26,32-40; 9:5; 1Ti 4:1-3; Re 14:1-5",
+      "label": "General scriptures concerning",
       "references": [
-        "Matt 19:10-12",
-        "1Cor 7:1",
-        "1Cor 7:2",
-        "1Cor 7:7-9",
-        "1Cor 7:25",
-        "1Cor 7:26",
-        "1Cor 7:32-40",
-        "1Cor 9:5",
-        "1Tim 4:1-3",
-        "Rev 14:1-5"
+        "Matthew 19:10-12",
+        "1 Corinthians 7:1,2,7-9,25,26,32-40",
+        "1 Corinthians 9:5",
+        "1 Timothy 4:1-3",
+        "Revelation 14:1-5"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "1 Corinthians",
-      "book_abbrev": "1co",
-      "chapter": 7,
+      "book": "Matthew",
+      "chapter": 19,
+      "verses": [
+        10,
+        11,
+        12
+      ],
+      "verse_count": 3,
       "testament": "NT",
+      "raw": "Matthew 19:10-12"
+    },
+    {
+      "book": "1 Corinthians",
+      "chapter": 7,
       "verses": [
         1,
         2,
@@ -44,25 +52,35 @@
         39,
         40
       ],
-      "verse_count": 16
+      "verse_count": 16,
+      "testament": "NT",
+      "raw": "1 Corinthians 7:1,2,7-9,25,26,32-40"
+    },
+    {
+      "book": "1 Corinthians",
+      "chapter": 9,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "1 Corinthians 9:5"
     },
     {
       "book": "1 Timothy",
-      "book_abbrev": "1ti",
       "chapter": 4,
-      "testament": "NT",
       "verses": [
         1,
         2,
         3
       ],
-      "verse_count": 3
+      "verse_count": 3,
+      "testament": "NT",
+      "raw": "1 Timothy 4:1-3"
     },
     {
       "book": "Revelation",
-      "book_abbrev": "rev",
       "chapter": 14,
-      "testament": "NT",
       "verses": [
         1,
         2,
@@ -70,27 +88,28 @@
         4,
         5
       ],
-      "verse_count": 5
+      "verse_count": 5,
+      "testament": "NT",
+      "raw": "Revelation 14:1-5"
     }
   ],
-  "see_also": [],
-  "aliases": [],
+  "books_mentioned": [
+    "1 Corinthians",
+    "1 Timothy",
+    "Matthew",
+    "Revelation"
+  ],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 1,
+    "total_refs": 5,
     "ot_refs": 0,
-    "nt_refs": 3,
-    "total_verses": 3
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.676761+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    }
-  },
-  "version": "3.0.0"
+    "nt_refs": 5,
+    "books_count": 4,
+    "top_books": [
+      "1 Corinthians",
+      "Matthew",
+      "1 Timothy",
+      "Revelation"
+    ]
+  }
 }

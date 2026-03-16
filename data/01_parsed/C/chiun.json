@@ -1,61 +1,21 @@
 {
   "topic": "CHIUN",
   "slug": "chiun",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "Also called Remphan, a god of the Phoenicians Am 5:26; Ac 7:43",
+      "label": "Al",
       "references": [
         "Amos 5:26",
         "Acts 7:43"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
-    {
-      "book": "Acts",
-      "book_abbrev": "act",
-      "chapter": 7,
-      "testament": "NT",
-      "verses": [
-        43
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 1,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.677852+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "Acts",
-      "chapter": 7,
-      "verses": [
-        43
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Acts 7:43",
-      "source": "EAS"
-    },
     {
       "book": "Amos",
       "chapter": 5,
@@ -64,8 +24,32 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Amos 5:26",
-      "source": "EAS"
+      "raw": "Amos 5:26"
+    },
+    {
+      "book": "Acts",
+      "chapter": 7,
+      "verses": [
+        43
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 7:43"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Acts",
+    "Amos"
+  ],
+  "stats": {
+    "total_aspects": 1,
+    "total_refs": 2,
+    "ot_refs": 1,
+    "nt_refs": 1,
+    "books_count": 2,
+    "top_books": [
+      "Amos",
+      "Acts"
+    ]
+  }
 }

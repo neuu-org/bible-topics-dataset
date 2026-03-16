@@ -1,74 +1,134 @@
 {
   "topic": "WORM",
-  "topic_slug": "worm",
+  "slug": "worm",
   "canonical_id": "NAV:worm",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–General scriptures concerningEx 16:20,24;Jon 4:7\n–Herod Agrippa I was eaten by, (Josephus confirmed this)Ac 12:23\n–FIGURATIVEJob 25:6;Isa 41:14;66:24\n  .Of remorseMr 9:44,46,48",
-  "content_preview": "–General scriptures concerningEx 16:20,24;Jon 4:7",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–General scriptures concerningEx 16:20,24;Jon 4:7",
-      "raw_segment": "–General scriptures concerningEx 16:20,24;Jon 4:7"
+      "label": "General scriptures concerning",
+      "references": [
+        "Exodus 16:20,24",
+        "Jonah 4:7"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–Herod Agrippa I was eaten by, (Josephus confirmed this)Ac 12:23",
-      "raw_segment": "–Herod Agrippa I was eaten by, (Josephus confirmed this)Ac 12:23"
+      "label": "Herod Agrippa I was eaten by, (Josephus confirmed this)",
+      "references": [
+        "Acts 12:23"
+      ]
     },
     {
-      "idx": 2,
-      "entry_label": "–FIGURATIVEJob 25:6;Isa 41:14;66:24",
-      "raw_segment": "–FIGURATIVEJob 25:6;Isa 41:14;66:24"
+      "label": "FIGURATIVE",
+      "references": [
+        "Job 25:6",
+        "Isaiah 41:14",
+        "Isaiah 66:24"
+      ]
+    },
+    {
+      "label": ".Of remorse",
+      "references": [
+        "Mark 9:44,46,48"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Exodus",
+      "chapter": 16,
+      "verses": [
+        20,
+        24
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Exodus 16:20,24"
+    },
+    {
+      "book": "Jonah",
+      "chapter": 4,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Jonah 4:7"
+    },
+    {
+      "book": "Acts",
+      "chapter": 12,
+      "verses": [
+        23
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 12:23"
+    },
+    {
+      "book": "Job",
+      "chapter": 25,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Job 25:6"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 41,
+      "verses": [
+        14
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 41:14"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 66,
+      "verses": [
+        24
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 66:24"
+    },
+    {
+      "book": "Mark",
+      "chapter": 9,
+      "verses": [
+        44,
+        46,
+        48
+      ],
+      "verse_count": 3,
+      "testament": "NT",
+      "raw": "Mark 9:44,46,48"
+    }
+  ],
+  "books_mentioned": [
+    "Acts",
+    "Exodus",
+    "Isaiah",
+    "Job",
+    "Jonah",
+    "Mark"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:f04c9ad8908510984d661bfcc679edf472647a6df5b529013aa3a313b78ae9bd",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 4
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 4,
+    "total_refs": 7,
+    "ot_refs": 5,
+    "nt_refs": 2,
+    "books_count": 6,
+    "top_books": [
+      "Isaiah",
+      "Exodus",
+      "Jonah",
+      "Acts",
+      "Job",
+      "Mark"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:32:41.567806Z",
-  "updated_at": "2025-09-20T17:32:41.567814Z"
+  }
 }

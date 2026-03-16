@@ -1,69 +1,75 @@
 {
   "topic": "FRINGES",
-  "topic_slug": "fringes",
+  "slug": "fringes",
   "canonical_id": "NAV:fringes",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–Prescribed for the vesture worn by the IsraelitesNu 15:37-41;De 22:12\n–Made broad by the PhariseesMt 23:5",
-  "content_preview": "–Prescribed for the vesture worn by the IsraelitesNu 15:37-41;De 22:12",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–Prescribed for the vesture worn by the IsraelitesNu 15:37-41;De 22:12",
-      "raw_segment": "–Prescribed for the vesture worn by the IsraelitesNu 15:37-41;De 22:12"
+      "label": "Prescribed for the vesture worn by the Israelites",
+      "references": [
+        "Numbers 15:37-41",
+        "Deuteronomy 22:12"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–Made broad by the PhariseesMt 23:5",
-      "raw_segment": "–Made broad by the PhariseesMt 23:5"
+      "label": "Ma",
+      "references": [
+        "Matthew 23:5"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Numbers",
+      "chapter": 15,
+      "verses": [
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "verse_count": 5,
+      "testament": "OT",
+      "raw": "Numbers 15:37-41"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 22,
+      "verses": [
+        12
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 22:12"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 23,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 23:5"
+    }
+  ],
+  "books_mentioned": [
+    "Deuteronomy",
+    "Matthew",
+    "Numbers"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:6d1f91a9b9817c65eb5563b39c1ca5c32b6f880340f1e7e36a2fb1f033f0e432",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 2,
+    "total_refs": 3,
+    "ot_refs": 2,
+    "nt_refs": 1,
+    "books_count": 3,
+    "top_books": [
+      "Numbers",
+      "Deuteronomy",
+      "Matthew"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:26:27.716679Z",
-  "updated_at": "2025-09-20T17:26:27.716686Z"
+  }
 }

@@ -1,61 +1,30 @@
 {
   "topic": "ACELDAMA",
   "slug": "aceldama",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "The field of blood Mt 27:8; Ac 1:19",
+      "label": "The field of blood",
       "references": [
-        "Matt 27:8",
+        "Matthew 27:8",
         "Acts 1:19"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Acts",
-      "book_abbrev": "act",
-      "chapter": 1,
-      "testament": "NT",
-      "verses": [
-        19
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 1,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.660899+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
       "book": "Matthew",
       "chapter": 27,
       "verses": [
-        7,
         8
       ],
-      "verse_count": 2,
+      "verse_count": 1,
       "testament": "NT",
-      "raw": "Matthew 27:7, 8",
-      "source": "EAS"
+      "raw": "Matthew 27:8"
     },
     {
       "book": "Acts",
@@ -65,8 +34,22 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Acts 1:19",
-      "source": "EAS"
+      "raw": "Acts 1:19"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Acts",
+    "Matthew"
+  ],
+  "stats": {
+    "total_aspects": 1,
+    "total_refs": 2,
+    "ot_refs": 0,
+    "nt_refs": 2,
+    "books_count": 2,
+    "top_books": [
+      "Matthew",
+      "Acts"
+    ]
+  }
 }

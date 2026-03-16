@@ -1,74 +1,81 @@
 {
   "topic": "AMOS",
-  "topic_slug": "amos",
+  "slug": "amos",
   "canonical_id": "NAV:amos",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–A prophetAm 1:1\n–Forbidden to prophesy in IsraelAm 7:10-17\n–Vision ofAm 8:2",
-  "content_preview": "–A prophetAm 1:1",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–A prophetAm 1:1",
-      "raw_segment": "–A prophetAm 1:1"
+      "label": "A prophet",
+      "references": [
+        "Amos 1:1"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–Forbidden to prophesy in IsraelAm 7:10-17",
-      "raw_segment": "–Forbidden to prophesy in IsraelAm 7:10-17"
+      "label": "Forbid",
+      "references": [
+        "Lamentations 7:10-17"
+      ]
     },
     {
-      "idx": 2,
-      "entry_label": "–Vision ofAm 8:2",
-      "raw_segment": "–Vision ofAm 8:2"
+      "label": "Vision of",
+      "references": [
+        "Amos 8:2"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Amos",
+      "chapter": 1,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Amos 1:1"
+    },
+    {
+      "book": "Lamentations",
+      "chapter": 7,
+      "verses": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "verse_count": 8,
+      "testament": "OT",
+      "raw": "Lamentations 7:10-17"
+    },
+    {
+      "book": "Amos",
+      "chapter": 8,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Amos 8:2"
+    }
+  ],
+  "books_mentioned": [
+    "Amos",
+    "Lamentations"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 3,
+    "total_refs": 3,
+    "ot_refs": 3,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:01f3a6a76f881886d1ec07cd544363c4f6df96d5372ab1bd6a5f41d8eafdd354",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 3
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 2,
+    "top_books": [
+      "Amos",
+      "Lamentations"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:23:34.510808Z",
-  "updated_at": "2025-09-20T17:23:34.510816Z"
+  }
 }

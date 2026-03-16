@@ -1,80 +1,472 @@
 {
   "topic": "SARCASM",
-  "topic_slug": "sarcasm",
+  "slug": "sarcasm",
   "canonical_id": "NAV:sarcasm",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "IRONY",
     "SATIRE"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "IRONY",
-      "clean": "IRONY",
-      "slug": "irony",
-      "canonical_id": "NAV:irony"
+      "label": "INSTANCES OF",
+      "references": []
     },
     {
-      "original": "SATIRE",
-      "clean": "SATIRE",
-      "slug": "satire",
-      "canonical_id": "NAV:satire"
-    }
-  ],
-  "raw_block": "–INSTANCES OF\n  .Cain’ s self-justifying argument when God asked him where Abel \nwasGe 4:9\n  .Israelites reproaching MosesEx 14:11\n  .God reproaching IsraelNu 11:20;Jud 10:14\n  .Balak reproaching BalaamNu 24:11\n  .Joshua to the descendants of JosephJos 17:15\n  .By JothamJud 9:7-19\n  .By SamsonJud 14:18\n  .The men of Jabesh to Nahash1Sa 11:10\n  .Eliab to David1Sa 17:28\n  .Elijah to the priests of Baal1Ki 18:27\n  .David’ s reply to Michal’ s irony2Sa 6:21\n  .Ahab’ s reply to Ben-hadad1Ki 20:11\n  .Jehoash to Amaziah2Ki 14:9,10;2Ch 25:18,19\n  .Rabshakeh to Hezekiah2Ki 18:23,24\n  .Sanballat’ s address to the army of SamariaNe 4:2,3\n  .Zophar to JobJob 11:12\n  .Job to ZopharJob 12:2,3\n  .Of SolomonPr 26:16\n  .The persecutors of JesusMt 27:28,29;Lu 23:11;Joh \n19:2,3,5,15\n  .Paul1Ti 4:7\n  .Herod Agrippa II to PaulAc 26:28\n  .SeeIRONY\n  .SeeSATIRE",
-  "content_preview": "–INSTANCES OF",
-  "reference_groups": [
+      "label": ".",
+      "references": []
+    },
     {
-      "idx": 0,
-      "entry_label": "–INSTANCES OF",
-      "raw_segment": "–INSTANCES OF"
+      "label": "was",
+      "references": [
+        "Genesis 4:9"
+      ]
+    },
+    {
+      "label": ".Israelites reproaching Moses",
+      "references": [
+        "Exodus 14:11"
+      ]
+    },
+    {
+      "label": ".God reproaching Israel",
+      "references": [
+        "Numbers 11:20",
+        "Judges 10:14"
+      ]
+    },
+    {
+      "label": ".Balak reproaching Balaam",
+      "references": [
+        "Numbers 24:11"
+      ]
+    },
+    {
+      "label": ".Joshua to the",
+      "references": [
+        "Joshua 17:15"
+      ]
+    },
+    {
+      "label": ".By Jotham",
+      "references": [
+        "Judges 9:7-19"
+      ]
+    },
+    {
+      "label": ".By Sam",
+      "references": [
+        "Judges 14:18"
+      ]
+    },
+    {
+      "label": ".The men of Jabesh to Nahash",
+      "references": [
+        "1 Samuel 11:10"
+      ]
+    },
+    {
+      "label": ".Eliab to David",
+      "references": [
+        "1 Samuel 17:28"
+      ]
+    },
+    {
+      "label": ".Elijah to the priests of Baal",
+      "references": [
+        "1 Kings 18:27"
+      ]
+    },
+    {
+      "label": ".David’ s reply to Michal’ s irony",
+      "references": [
+        "2 Samuel 6:21"
+      ]
+    },
+    {
+      "label": ".Ahab’ s reply to Ben-hadad",
+      "references": [
+        "1 Kings 20:11"
+      ]
+    },
+    {
+      "label": ".Jehoash to Amaziah",
+      "references": [
+        "2 Kings 14:9,10",
+        "2 Chronicles 25:18,19"
+      ]
+    },
+    {
+      "label": ".Rabshakeh to Hezekiah",
+      "references": [
+        "2 Kings 18:23,24"
+      ]
+    },
+    {
+      "label": ".Sanballat’ s address to the army of Samaria",
+      "references": [
+        "Nehemiah 4:2,3"
+      ]
+    },
+    {
+      "label": ".Zophar to Job",
+      "references": [
+        "Job 11:12"
+      ]
+    },
+    {
+      "label": ".Job to Zophar",
+      "references": [
+        "Job 12:2,3"
+      ]
+    },
+    {
+      "label": ".Of",
+      "references": [
+        "Proverbs 26:16"
+      ]
+    },
+    {
+      "label": ".The persecutors of Jesus",
+      "references": [
+        "Matthew 27:28,29",
+        "Luke 23:11"
+      ]
+    },
+    {
+      "label": "19:2,3,5,15",
+      "references": []
+    },
+    {
+      "label": ".Paul",
+      "references": [
+        "1 Timothy 4:7"
+      ]
+    },
+    {
+      "label": ".Herod Agrippa II to Paul",
+      "references": [
+        "Acts 26:28"
+      ]
+    },
+    {
+      "label": ".SeeIRONY",
+      "references": []
+    },
+    {
+      "label": ".SeeSATIRE",
+      "references": []
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Genesis",
+      "chapter": 4,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 4:9"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 14,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 14:11"
+    },
+    {
+      "book": "Numbers",
+      "chapter": 11,
+      "verses": [
+        20
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Numbers 11:20"
+    },
+    {
+      "book": "Judges",
+      "chapter": 10,
+      "verses": [
+        14
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Judges 10:14"
+    },
+    {
+      "book": "Numbers",
+      "chapter": 24,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Numbers 24:11"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 17,
+      "verses": [
+        15
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 17:15"
+    },
+    {
+      "book": "Judges",
+      "chapter": 9,
+      "verses": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "verse_count": 13,
+      "testament": "OT",
+      "raw": "Judges 9:7-19"
+    },
+    {
+      "book": "Judges",
+      "chapter": 14,
+      "verses": [
+        18
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Judges 14:18"
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 11,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Samuel 11:10"
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 17,
+      "verses": [
+        28
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Samuel 17:28"
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 18,
+      "verses": [
+        27
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Kings 18:27"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 6,
+      "verses": [
+        21
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Samuel 6:21"
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 20,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Kings 20:11"
+    },
+    {
+      "book": "2 Kings",
+      "chapter": 14,
+      "verses": [
+        9,
+        10
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "2 Kings 14:9,10"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 25,
+      "verses": [
+        18,
+        19
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "2 Chronicles 25:18,19"
+    },
+    {
+      "book": "2 Kings",
+      "chapter": 18,
+      "verses": [
+        23,
+        24
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "2 Kings 18:23,24"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 4,
+      "verses": [
+        2,
+        3
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Nehemiah 4:2,3"
+    },
+    {
+      "book": "Job",
+      "chapter": 11,
+      "verses": [
+        12
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Job 11:12"
+    },
+    {
+      "book": "Job",
+      "chapter": 12,
+      "verses": [
+        2,
+        3
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Job 12:2,3"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 26,
+      "verses": [
+        16
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 26:16"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 27,
+      "verses": [
+        28,
+        29
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Matthew 27:28,29"
+    },
+    {
+      "book": "Luke",
+      "chapter": 23,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 23:11"
+    },
+    {
+      "book": "Luke",
+      "chapter": 19,
+      "verses": [
+        2,
+        3,
+        5,
+        15
+      ],
+      "verse_count": 4,
+      "testament": "NT",
+      "raw": "Luke 19:2,3,5,15"
+    },
+    {
+      "book": "1 Timothy",
+      "chapter": 4,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "1 Timothy 4:7"
+    },
+    {
+      "book": "Acts",
+      "chapter": 26,
+      "verses": [
+        28
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 26:28"
+    }
+  ],
+  "books_mentioned": [
+    "1 Kings",
+    "1 Samuel",
+    "1 Timothy",
+    "2 Chronicles",
+    "2 Kings",
+    "2 Samuel",
+    "Acts",
+    "Exodus",
+    "Genesis",
+    "Job",
+    "Joshua",
+    "Judges",
+    "Luke",
+    "Matthew",
+    "Nehemiah",
+    "Numbers",
+    "Proverbs"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:dacaec17d2796e161ca1d36254f13e2b649594e55793cb91c8be2145fde9ae4b",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 26
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 26,
+    "total_refs": 25,
+    "ot_refs": 20,
+    "nt_refs": 5,
+    "books_count": 17,
+    "top_books": [
+      "Judges",
+      "Numbers",
+      "1 Samuel",
+      "1 Kings",
+      "2 Kings",
+      "Job",
+      "Luke",
+      "Genesis",
+      "Exodus",
+      "Joshua"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:30:53.195092Z",
-  "updated_at": "2025-09-20T17:30:53.195100Z"
+  }
 }

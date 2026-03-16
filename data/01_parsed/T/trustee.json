@@ -1,36 +1,55 @@
 {
   "topic": "TRUSTEE",
   "slug": "trustee",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [
+    "STEWARD"
+  ],
+  "aspects": [
     {
-      "name": "Mosaic law concerning Ex 22:7-13; Le 6:2-7",
+      "label": "Mosaic law concerning",
       "references": [
-        "Exod 22:7-13",
-        "Lev 6:2-7"
+        "Exodus 22:7-13",
+        "Leviticus 6:2-7"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "The parable of the pounds Mt 25:14-28; Lu 19:12-27",
+      "label": "The parable of the pounds",
       "references": [
-        "Matt 25:14-28",
+        "Matthew 25:14-28",
         "Luke 19:12-27"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See STEWARD",
+      "label": "SeeSTEWARD",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Leviticus",
-      "book_abbrev": "lev",
-      "chapter": 6,
+      "book": "Exodus",
+      "chapter": 22,
+      "verses": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "verse_count": 7,
       "testament": "OT",
+      "raw": "Exodus 22:7-13"
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 6,
       "verses": [
         2,
         3,
@@ -39,13 +58,37 @@
         6,
         7
       ],
-      "verse_count": 6
+      "verse_count": 6,
+      "testament": "OT",
+      "raw": "Leviticus 6:2-7"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 25,
+      "verses": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ],
+      "verse_count": 15,
+      "testament": "NT",
+      "raw": "Matthew 25:14-28"
     },
     {
       "book": "Luke",
-      "book_abbrev": "luk",
       "chapter": 19,
-      "testament": "NT",
       "verses": [
         12,
         13,
@@ -64,29 +107,28 @@
         26,
         27
       ],
-      "verse_count": 16
+      "verse_count": 16,
+      "testament": "NT",
+      "raw": "Luke 19:12-27"
     }
   ],
-  "see_also": [
-    "STEWARD"
+  "books_mentioned": [
+    "Exodus",
+    "Leviticus",
+    "Luke",
+    "Matthew"
   ],
-  "aliases": [],
   "stats": {
-    "entries_count": 3,
-    "ot_refs": 1,
-    "nt_refs": 1,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.731335+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    }
-  },
-  "version": "3.0.0"
+    "total_aspects": 3,
+    "total_refs": 4,
+    "ot_refs": 2,
+    "nt_refs": 2,
+    "books_count": 4,
+    "top_books": [
+      "Exodus",
+      "Leviticus",
+      "Matthew",
+      "Luke"
+    ]
+  }
 }

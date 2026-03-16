@@ -1,104 +1,42 @@
 {
   "topic": "CAESAR",
   "slug": "caesar",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "1. AUGUSTUS Lu 2:1",
+      "label": "1. AUGUSTUS",
       "references": [
         "Luke 2:1"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "2. TIBERIUS Lu 3:1; 20:22",
+      "label": "2. TIBERIUS",
       "references": [
         "Luke 3:1",
         "Luke 20:22"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "3. CLAUDIUS Ac 11:28",
+      "label": "3. CLAUDIUS",
       "references": [
         "Acts 11:28"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "4. NERO Php 4:22",
+      "label": "4. NERO",
       "references": [
-        "Phil 4:22"
+        "Philippians 4:22"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 4,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.675924+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "John",
-      "chapter": 19,
-      "verses": [
-        15
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "John 19:15",
-      "source": "EAS"
-    },
-    {
-      "book": "Acts",
-      "chapter": 17,
-      "verses": [
-        7
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Acts 17:7",
-      "source": "EAS"
-    },
-    {
-      "book": "Matthew",
-      "chapter": 22,
-      "verses": [
-        17
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Matthew 22:17",
-      "source": "EAS"
-    },
-    {
-      "book": "Acts",
-      "chapter": 25,
-      "verses": [
-        11
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Acts 25:11",
-      "source": "EAS"
-    },
+  "biblical_references": [
     {
       "book": "Luke",
       "chapter": 2,
@@ -107,41 +45,7 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Luke 2:1",
-      "source": "EAS"
-    },
-    {
-      "book": "Acts",
-      "chapter": 11,
-      "verses": [
-        28
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Acts 11:28",
-      "source": "EAS"
-    },
-    {
-      "book": "Acts",
-      "chapter": 25,
-      "verses": [
-        8
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Acts 25:8",
-      "source": "EAS"
-    },
-    {
-      "book": "Philippians",
-      "chapter": 4,
-      "verses": [
-        22
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Philippians 4:22",
-      "source": "EAS"
+      "raw": "Luke 2:1"
     },
     {
       "book": "Luke",
@@ -151,8 +55,7 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Luke 3:1",
-      "source": "EAS"
+      "raw": "Luke 3:1"
     },
     {
       "book": "Luke",
@@ -162,20 +65,44 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Luke 20:22",
-      "source": "EAS"
+      "raw": "Luke 20:22"
     },
     {
-      "book": "John",
-      "chapter": 19,
+      "book": "Acts",
+      "chapter": 11,
       "verses": [
-        12,
-        15
+        28
       ],
-      "verse_count": 2,
+      "verse_count": 1,
       "testament": "NT",
-      "raw": "John 19:12,15",
-      "source": "SMI"
+      "raw": "Acts 11:28"
+    },
+    {
+      "book": "Philippians",
+      "chapter": 4,
+      "verses": [
+        22
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Philippians 4:22"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Acts",
+    "Luke",
+    "Philippians"
+  ],
+  "stats": {
+    "total_aspects": 4,
+    "total_refs": 5,
+    "ot_refs": 0,
+    "nt_refs": 5,
+    "books_count": 3,
+    "top_books": [
+      "Luke",
+      "Acts",
+      "Philippians"
+    ]
+  }
 }

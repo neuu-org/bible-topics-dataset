@@ -1,45 +1,32 @@
 {
   "topic": "ASNAPPER",
   "slug": "asnapper",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "A noble Assyrian prince, who colonized the cities of Samaria after the Israelites were taken captive to Assyria Ezr 4:10",
-      "references": [
-        "Ezra 4:10"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "See SAMARIA",
-      "references": [],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [
-    "SAMARIA"
-  ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.670483+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [
+    "SAMARIA"
+  ],
+  "aspects": [
+    {
+      "label": "A noble Assyrian prince, who colonized the cities of Samaria",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "after the Israelites were taken",
+      "references": [
+        "Ezra 4:10"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeSAMARIA",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Ezra",
       "chapter": 4,
@@ -48,8 +35,20 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Ezra 4:10",
-      "source": "EAS"
+      "raw": "Ezra 4:10"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Ezra"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 1,
+    "ot_refs": 1,
+    "nt_refs": 0,
+    "books_count": 1,
+    "top_books": [
+      "Ezra"
+    ]
+  }
 }

@@ -1,64 +1,53 @@
 {
   "topic": "SIRION",
-  "topic_slug": "sirion",
+  "slug": "sirion",
   "canonical_id": "NAV:sirion",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–Sidonian name of Mount HermonDe 3:9;Ps 29:6",
-  "content_preview": "–Sidonian name of Mount HermonDe 3:9;Ps 29:6",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–Sidonian name of Mount HermonDe 3:9;Ps 29:6",
-      "raw_segment": "–Sidonian name of Mount HermonDe 3:9;Ps 29:6"
+      "label": "Sidonian name of Mount Hermon",
+      "references": [
+        "Deuteronomy 3:9",
+        "Psalms 29:6"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Deuteronomy",
+      "chapter": 3,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 3:9"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 29,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 29:6"
+    }
+  ],
+  "books_mentioned": [
+    "Deuteronomy",
+    "Psalms"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 1,
+    "total_refs": 2,
+    "ot_refs": 2,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:d6a9b9dc5e3c1e7e14eb8b504afd785b23e4171c563efff1ce22fb335fc03119",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 1
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 2,
+    "top_books": [
+      "Deuteronomy",
+      "Psalms"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:31:36.667276Z",
-  "updated_at": "2025-09-20T17:31:36.667283Z"
+  }
 }

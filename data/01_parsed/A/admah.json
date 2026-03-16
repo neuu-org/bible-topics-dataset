@@ -1,62 +1,23 @@
 {
   "topic": "ADMAH",
   "slug": "admah",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "A city in the vale of Siddim Ge 10:19; 14:2; De 29:23; Ho 11:8",
-      "references": [
-        "Gen 10:19",
-        "Gen 14:2",
-        "Deut 29:23",
-        "Hos 11:8"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Deuteronomy",
-      "book_abbrev": "deu",
-      "chapter": 29,
-      "testament": "OT",
-      "verses": [
-        23
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Hosea",
-      "book_abbrev": "hos",
-      "chapter": 11,
-      "testament": "OT",
-      "verses": [
-        8
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 2,
-    "nt_refs": 0,
-    "total_verses": 2
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.661306+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "A city in the vale of Siddim",
+      "references": [
+        "Genesis 10:19",
+        "Genesis 14:2",
+        "Deuteronomy 29:23",
+        "Hosea 11:8"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Genesis",
       "chapter": 10,
@@ -65,8 +26,17 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 10:19",
-      "source": "EAS"
+      "raw": "Genesis 10:19"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 14,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 14:2"
     },
     {
       "book": "Deuteronomy",
@@ -76,53 +46,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Deuteronomy 29:23",
-      "source": "EAS"
-    },
-    {
-      "book": "Genesis",
-      "chapter": 19,
-      "verses": [
-        24
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Genesis 19:24",
-      "source": "EAS"
-    },
-    {
-      "book": "Joshua",
-      "chapter": 3,
-      "verses": [
-        16
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Joshua 3:16",
-      "source": "EAS"
-    },
-    {
-      "book": "Genesis",
-      "chapter": 14,
-      "verses": [
-        2,
-        8
-      ],
-      "verse_count": 2,
-      "testament": "OT",
-      "raw": "Genesis 14:2,8",
-      "source": "SMI"
-    },
-    {
-      "book": "Genesis",
-      "chapter": 29,
-      "verses": [
-        23
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Genesis 29:23",
-      "source": "SMI"
+      "raw": "Deuteronomy 29:23"
     },
     {
       "book": "Hosea",
@@ -132,8 +56,24 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Hosea 11:8",
-      "source": "SMI"
+      "raw": "Hosea 11:8"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Deuteronomy",
+    "Genesis",
+    "Hosea"
+  ],
+  "stats": {
+    "total_aspects": 1,
+    "total_refs": 4,
+    "ot_refs": 4,
+    "nt_refs": 0,
+    "books_count": 3,
+    "top_books": [
+      "Genesis",
+      "Deuteronomy",
+      "Hosea"
+    ]
+  }
 }

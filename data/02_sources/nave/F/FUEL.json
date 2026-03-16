@@ -1,64 +1,52 @@
 {
   "topic": "FUEL",
-  "topic_slug": "fuel",
+  "slug": "fuel",
   "canonical_id": "NAV:fuel",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–For temple, how providedNe 10:34;13:30,31",
-  "content_preview": "–For temple, how providedNe 10:34;13:30,31",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–For temple, how providedNe 10:34;13:30,31",
-      "raw_segment": "–For temple, how providedNe 10:34;13:30,31"
+      "label": "For temple, how provi",
+      "references": [
+        "Nehemiah 10:34",
+        "Nehemiah 13:30,31"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Nehemiah",
+      "chapter": 10,
+      "verses": [
+        34
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Nehemiah 10:34"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 13,
+      "verses": [
+        30,
+        31
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Nehemiah 13:30,31"
+    }
+  ],
+  "books_mentioned": [
+    "Nehemiah"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 1,
+    "total_refs": 2,
+    "ot_refs": 2,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:f0b83929ec1993677d4961fe3016cbfb0cde9bb73f8be644b6d7f3dd09425f35",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 1
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 1,
+    "top_books": [
+      "Nehemiah"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:26:28.465474Z",
-  "updated_at": "2025-09-20T17:26:28.465482Z"
+  }
 }

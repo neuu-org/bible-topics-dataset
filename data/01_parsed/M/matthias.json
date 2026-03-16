@@ -1,64 +1,58 @@
 {
   "topic": "MATTHIAS",
   "slug": "matthias",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Surnamed JUSTUS",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "Chosen as an apostle in the place of Judas Ac 1:15-26",
-      "references": [
-        "Acts 1:15-26"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.704492+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "see_also": [],
+  "aspects": [
     {
-      "book": "Acts",
-      "chapter": 1,
-      "verses": [
-        23
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Acts 1:23",
-      "source": "EAS"
+      "label": "Surnamed JUSTUS",
+      "references": [],
+      "source": "NAV"
     },
     {
+      "label": "Chosen as an apostle in the place of",
+      "references": [
+        "Acts 1:15-26"
+      ],
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
+    {
       "book": "Acts",
       "chapter": 1,
       "verses": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
         26
       ],
-      "verse_count": 1,
+      "verse_count": 12,
       "testament": "NT",
-      "raw": "Acts 1:26",
-      "source": "SMI"
+      "raw": "Acts 1:15-26"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Acts"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 1,
+    "ot_refs": 0,
+    "nt_refs": 1,
+    "books_count": 1,
+    "top_books": [
+      "Acts"
+    ]
+  }
 }

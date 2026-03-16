@@ -1,47 +1,39 @@
 {
   "topic": "JOKNEAM",
   "slug": "jokneam",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "A Levitical city of Zebulun Jos 12:22; 19:11; 21:34",
-      "references": [
-        "Josh 12:22",
-        "Josh 19:11",
-        "Josh 21:34"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "See JOKMEAM",
-      "references": [],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [
-    "JOKMEAM"
-  ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.697500+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [
+    "JOKMEAM"
+  ],
+  "aspects": [
+    {
+      "label": "A Leviti",
+      "references": [
+        "Joshua 12:22",
+        "Joshua 19:11",
+        "Joshua 21:34"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeJOKMEAM",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
+    {
+      "book": "Joshua",
+      "chapter": 12,
+      "verses": [
+        22
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 12:22"
+    },
     {
       "book": "Joshua",
       "chapter": 19,
@@ -50,8 +42,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Joshua 19:11",
-      "source": "EAS"
+      "raw": "Joshua 19:11"
     },
     {
       "book": "Joshua",
@@ -61,19 +52,20 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Joshua 21:34",
-      "source": "EAS"
-    },
-    {
-      "book": "Joshua",
-      "chapter": 12,
-      "verses": [
-        22
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Joshua 12:22",
-      "source": "EAS"
+      "raw": "Joshua 21:34"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Joshua"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 3,
+    "ot_refs": 3,
+    "nt_refs": 0,
+    "books_count": 1,
+    "top_books": [
+      "Joshua"
+    ]
+  }
 }

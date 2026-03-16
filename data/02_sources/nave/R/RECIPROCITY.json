@@ -1,64 +1,66 @@
 {
   "topic": "RECIPROCITY",
-  "topic_slug": "reciprocity",
+  "slug": "reciprocity",
   "canonical_id": "NAV:reciprocity",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–General scriptures concerningRo 15:27;1Co 9:11;Ga 6:6",
-  "content_preview": "–General scriptures concerningRo 15:27;1Co 9:11;Ga 6:6",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–General scriptures concerningRo 15:27;1Co 9:11;Ga 6:6",
-      "raw_segment": "–General scriptures concerningRo 15:27;1Co 9:11;Ga 6:6"
+      "label": "General scriptures concerning",
+      "references": [
+        "Romans 15:27",
+        "1 Corinthians 9:11",
+        "Galatians 6:6"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Romans",
+      "chapter": 15,
+      "verses": [
+        27
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Romans 15:27"
+    },
+    {
+      "book": "1 Corinthians",
+      "chapter": 9,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "1 Corinthians 9:11"
+    },
+    {
+      "book": "Galatians",
+      "chapter": 6,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Galatians 6:6"
+    }
+  ],
+  "books_mentioned": [
+    "1 Corinthians",
+    "Galatians",
+    "Romans"
+  ],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 1,
+    "total_refs": 3,
     "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:097c3f5abd2fb673f89271957f566de233a9a632527432edc2777cf5378ca249",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 1
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "nt_refs": 3,
+    "books_count": 3,
+    "top_books": [
+      "Romans",
+      "1 Corinthians",
+      "Galatians"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:30:32.359850Z",
-  "updated_at": "2025-09-20T17:30:32.359858Z"
+  }
 }

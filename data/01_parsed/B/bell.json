@@ -1,71 +1,74 @@
 {
   "topic": "BELL",
   "slug": "bell",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Attached to the hem of the priest’s robe Ex 28:33,34; 39:25,26",
-      "references": [
-        "Exod 28:33",
-        "Exod 28:34",
-        "Exod 39:25",
-        "Exod 39:26"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "On horses Zec 14:20",
-      "references": [
-        "Zech 14:20"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.673028+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "Attached to the hem of the priest’s robe",
+      "references": [
+        "Exodus 28:33,34",
+        "Exodus 39:25,26"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "On horses",
+      "references": [
+        "Ecclesiastes 14:20"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Exodus",
       "chapter": 28,
       "verses": [
         33,
-        34,
-        35
+        34
       ],
-      "verse_count": 3,
+      "verse_count": 2,
       "testament": "OT",
-      "raw": "Exodus 28:33, 34, 35",
-      "source": "EAS"
+      "raw": "Exodus 28:33,34"
     },
     {
       "book": "Exodus",
+      "chapter": 39,
+      "verses": [
+        25,
+        26
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Exodus 39:25,26"
+    },
+    {
+      "book": "Ecclesiastes",
       "chapter": 14,
       "verses": [
         20
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Exodus 14:20",
-      "source": "EAS"
+      "raw": "Ecclesiastes 14:20"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Ecclesiastes",
+    "Exodus"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 3,
+    "ot_refs": 3,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "Exodus",
+      "Ecclesiastes"
+    ]
+  }
 }

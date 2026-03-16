@@ -1,100 +1,75 @@
 {
   "topic": "HANAN",
   "slug": "hanan",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. Son of Shashak 1Ch 8:23",
-      "references": [
-        "1Chr 8:23"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "2. Son of Azel 1Ch 8:38; 9:44",
-      "references": [
-        "1Chr 8:38",
-        "1Chr 9:44"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "3. One of David’s mighty men 1Ch 11:43",
-      "references": [
-        "1Chr 11:43"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "4. One of the Nethinim Ezr 2:46; Ne 7:49",
-      "references": [
-        "Ezra 2:46",
-        "Neh 7:49"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "5. A Levite Ne 8:7; 10:10",
-      "references": [
-        "Neh 8:7",
-        "Neh 10:10"
-      ],
-      "sub_groups": [
-        {
-          "name": "Probably identical with the one mentioned in Ne 13:13",
-          "references": [
-            "Neh 13:13"
-          ]
-        },
-        {
-          "name": "6. A chief who sealed the covenant with Nehemiah Ne 10:22,26",
-          "references": [
-            "Neh 10:22",
-            "Neh 10:26"
-          ]
-        },
-        {
-          "name": "7. An officer in the temple Jer 35:2-10",
-          "references": [
-            "Jer 35:2-10"
-          ]
-        }
-      ]
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Nehemiah",
-      "book_abbrev": "neh",
-      "chapter": 7,
-      "testament": "OT",
-      "verses": [
-        49
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 5,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.690556+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "1.",
+      "references": [
+        "1 Chronicles 8:23"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2.",
+      "references": [
+        "1 Chronicles 8:38",
+        "1 Chronicles 9:44"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "3. One of David’s mighty men",
+      "references": [
+        "1 Chronicles 11:43"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "4. One of the Nethinim",
+      "references": [
+        "Ezra 2:46",
+        "Nehemiah 7:49"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "5. A Levite",
+      "references": [
+        "Nehemiah 8:7",
+        "Nehemiah 10:10"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".Probably i",
+      "references": [
+        "Nehemiah 13:13"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".6. A chief who sealed the covenant with NehemiahNe",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "10:22,26",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".7. An officer in the temple",
+      "references": [
+        "Jeremiah 35:2-10"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "1 Chronicles",
       "chapter": 8,
@@ -103,19 +78,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 8:23",
-      "source": "EAS"
-    },
-    {
-      "book": "1 Chronicles",
-      "chapter": 11,
-      "verses": [
-        43
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "1 Chronicles 11:43",
-      "source": "EAS"
+      "raw": "1 Chronicles 8:23"
     },
     {
       "book": "1 Chronicles",
@@ -125,8 +88,27 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 8:38",
-      "source": "EAS"
+      "raw": "1 Chronicles 8:38"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 9,
+      "verses": [
+        44
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 9:44"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 11,
+      "verses": [
+        43
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 11:43"
     },
     {
       "book": "Ezra",
@@ -136,8 +118,17 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Ezra 2:46",
-      "source": "EAS"
+      "raw": "Ezra 2:46"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 7,
+      "verses": [
+        49
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Nehemiah 7:49"
     },
     {
       "book": "Nehemiah",
@@ -147,30 +138,75 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Nehemiah 8:7",
-      "source": "EAS"
+      "raw": "Nehemiah 8:7"
     },
     {
       "book": "Nehemiah",
       "chapter": 10,
       "verses": [
-        22
+        10
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Nehemiah 10:22",
-      "source": "EAS"
+      "raw": "Nehemiah 10:10"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 13,
+      "verses": [
+        13
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Nehemiah 13:13"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 10,
+      "verses": [
+        22,
+        26
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Nehemiah 10:22,26"
     },
     {
       "book": "Jeremiah",
       "chapter": 35,
       "verses": [
-        4
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
       ],
-      "verse_count": 1,
+      "verse_count": 9,
       "testament": "OT",
-      "raw": "Jeremiah 35:4",
-      "source": "EAS"
+      "raw": "Jeremiah 35:2-10"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Ezra",
+    "Jeremiah",
+    "Nehemiah"
+  ],
+  "stats": {
+    "total_aspects": 9,
+    "total_refs": 11,
+    "ot_refs": 11,
+    "nt_refs": 0,
+    "books_count": 4,
+    "top_books": [
+      "Nehemiah",
+      "1 Chronicles",
+      "Ezra",
+      "Jeremiah"
+    ]
+  }
 }

@@ -1,51 +1,32 @@
 {
   "topic": "ELUL",
   "slug": "elul",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "(The sixth month (September))",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "The Jews finish the wall of Jerusalem in the month of Ne 6:15",
-      "references": [
-        "Neh 6:15"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Zerubbabel builds the temple in the month of Hag 1:14,15",
-      "references": [
-        "Hag 1:14",
-        "Hag 1:15"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.684116+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "(The sixth month (September))",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "The Jews finish the wall of",
+      "references": [
+        "Nehemiah 6:15"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Zerubbabel builds the temple in the month of",
+      "references": [
+        "Haggai 1:14,15"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Nehemiah",
       "chapter": 6,
@@ -54,19 +35,33 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Nehemiah 6:15",
-      "source": "EAS"
+      "raw": "Nehemiah 6:15"
     },
     {
-      "book": "Nehemiah",
-      "chapter": 14,
+      "book": "Haggai",
+      "chapter": 1,
       "verses": [
-        27
+        14,
+        15
       ],
-      "verse_count": 1,
+      "verse_count": 2,
       "testament": "OT",
-      "raw": "Nehemiah 14:27",
-      "source": "SMI"
+      "raw": "Haggai 1:14,15"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Haggai",
+    "Nehemiah"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 2,
+    "ot_refs": 2,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "Nehemiah",
+      "Haggai"
+    ]
+  }
 }

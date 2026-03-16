@@ -1,64 +1,40 @@
 {
   "topic": "BEKAH",
-  "topic_slug": "bekah",
+  "slug": "bekah",
   "canonical_id": "NAV:bekah",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–A half shekel, about thirty-one centsEx 38:26",
-  "content_preview": "–A half shekel, about thirty-one centsEx 38:26",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–A half shekel, about thirty-one centsEx 38:26",
-      "raw_segment": "–A half shekel, about thirty-one centsEx 38:26"
+      "label": "A half shekel, about thirty-one cents",
+      "references": [
+        "Exodus 38:26"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Exodus",
+      "chapter": 38,
+      "verses": [
+        26
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 38:26"
+    }
+  ],
+  "books_mentioned": [
+    "Exodus"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 1,
+    "total_refs": 1,
+    "ot_refs": 1,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:0e9195a1de85c26b0c15627c32eb4a00e2497bc958cb2d17a80e54c2b8ddd804",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 1
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 1,
+    "top_books": [
+      "Exodus"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:24:16.142994Z",
-  "updated_at": "2025-09-20T17:24:16.143003Z"
+  }
 }

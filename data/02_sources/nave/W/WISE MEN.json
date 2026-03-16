@@ -1,93 +1,141 @@
 {
   "topic": "WISE MEN",
-  "topic_slug": "wise_men",
+  "slug": "wise_men",
   "canonical_id": "NAV:wise_men",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "WISDOM"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "WISDOM",
-      "clean": "WISDOM",
-      "slug": "wisdom",
-      "canonical_id": "NAV:wisdom"
+      "label": "Of Egypt",
+      "references": [
+        "Genesis 41:8,24",
+        "Exodus 7:11"
+      ]
+    },
+    {
+      "label": "General references",
+      "references": [
+        "1 Kings 4:29-34"
+      ]
+    },
+    {
+      "label": "Of Babylon",
+      "references": [
+        "Daniel 4:18",
+        "Daniel 5:8"
+      ]
+    },
+    {
+      "label": "Of the East (the Magi)",
+      "references": [
+        "Matthew 2:1-12"
+      ]
+    },
+    {
+      "label": "SeeWISDOM",
+      "references": []
     }
   ],
-  "raw_block": "–Of EgyptGe 41:8,24;Ex 7:11\n–Solomon1Ki 4:29-34\n–Of BabylonDa 4:18;5:8\n–Of the East (the Magi)Mt 2:1-12\n–SeeWISDOM",
-  "content_preview": "–Of EgyptGe 41:8,24;Ex 7:11",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–Of EgyptGe 41:8,24;Ex 7:11",
-      "raw_segment": "–Of EgyptGe 41:8,24;Ex 7:11"
+      "book": "Genesis",
+      "chapter": 41,
+      "verses": [
+        8,
+        24
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Genesis 41:8,24"
     },
     {
-      "idx": 1,
-      "entry_label": "–Solomon1Ki 4:29-34",
-      "raw_segment": "–Solomon1Ki 4:29-34"
+      "book": "Exodus",
+      "chapter": 7,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 7:11"
     },
     {
-      "idx": 2,
-      "entry_label": "–Of BabylonDa 4:18;5:8",
-      "raw_segment": "–Of BabylonDa 4:18;5:8"
+      "book": "1 Kings",
+      "chapter": 4,
+      "verses": [
+        29,
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "verse_count": 6,
+      "testament": "OT",
+      "raw": "1 Kings 4:29-34"
     },
     {
-      "idx": 3,
-      "entry_label": "–Of the East (the Magi)Mt 2:1-12",
-      "raw_segment": "–Of the East (the Magi)Mt 2:1-12"
+      "book": "Daniel",
+      "chapter": 4,
+      "verses": [
+        18
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Daniel 4:18"
     },
     {
-      "idx": 4,
-      "entry_label": "–SeeWISDOM",
-      "raw_segment": "–SeeWISDOM"
+      "book": "Daniel",
+      "chapter": 5,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Daniel 5:8"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 2,
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "verse_count": 12,
+      "testament": "NT",
+      "raw": "Matthew 2:1-12"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "1 Kings",
+    "Daniel",
+    "Exodus",
+    "Genesis",
+    "Matthew"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:37f878d2acc94e46388aafe7b5236df2d19c6b85bf3c2d4d52b14fbe0bbc0b70",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 5
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 5,
+    "total_refs": 6,
+    "ot_refs": 5,
+    "nt_refs": 1,
+    "books_count": 5,
+    "top_books": [
+      "Daniel",
+      "Genesis",
+      "Exodus",
+      "1 Kings",
+      "Matthew"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:32:39.845927Z",
-  "updated_at": "2025-09-20T17:32:39.845936Z"
+  }
 }

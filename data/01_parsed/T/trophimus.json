@@ -1,57 +1,39 @@
 {
   "topic": "TROPHIMUS",
   "slug": "trophimus",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "(From Ephesus, a companion of Paul)",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "Accompanies Paul from Greece to Asia Ac 20:4",
-      "references": [
-        "Acts 20:4"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "With Paul in Jerusalem; made the occasion of an attack on Paul Ac 21:27-30",
-      "references": [
-        "Acts 21:27-30"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Left ill at Miletus 2Ti 4:20",
-      "references": [
-        "2Tim 4:20"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 4,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.731270+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "(From Ephesus, a companion of Paul)",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "Accompanies Paul from Greece to Asia",
+      "references": [
+        "Acts 20:4"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "With Paul in",
+      "references": [
+        "Acts 21:27-30"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Left ill at Miletus",
+      "references": [
+        "2 Timothy 4:20"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Acts",
       "chapter": 20,
@@ -60,19 +42,20 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Acts 20:4",
-      "source": "EAS"
+      "raw": "Acts 20:4"
     },
     {
       "book": "Acts",
       "chapter": 21,
       "verses": [
-        29
+        27,
+        28,
+        29,
+        30
       ],
-      "verse_count": 1,
+      "verse_count": 4,
       "testament": "NT",
-      "raw": "Acts 21:29",
-      "source": "EAS"
+      "raw": "Acts 21:27-30"
     },
     {
       "book": "2 Timothy",
@@ -82,40 +65,22 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "2 Timothy 4:20",
-      "source": "EAS"
-    },
-    {
-      "book": "Acts",
-      "chapter": 21,
-      "verses": [
-        27,
-        28,
-        29
-      ],
-      "verse_count": 3,
-      "testament": "NT",
-      "raw": "Acts 21:27-29",
-      "source": "SMI"
-    },
-    {
-      "book": "2 Corinthians",
-      "chapter": 8,
-      "verses": [
-        16,
-        17,
-        18,
-        19,
-        20,
-        21,
-        22,
-        23,
-        24
-      ],
-      "verse_count": 9,
-      "testament": "NT",
-      "raw": "2 Corinthians 8:16-24",
-      "source": "SMI"
+      "raw": "2 Timothy 4:20"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "2 Timothy",
+    "Acts"
+  ],
+  "stats": {
+    "total_aspects": 4,
+    "total_refs": 3,
+    "ot_refs": 0,
+    "nt_refs": 3,
+    "books_count": 2,
+    "top_books": [
+      "Acts",
+      "2 Timothy"
+    ]
+  }
 }

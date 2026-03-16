@@ -1,71 +1,105 @@
 {
   "topic": "BEHEADING",
   "slug": "beheading",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Execution by",
-      "references": [],
-      "sub_groups": [
-        {
-          "name": "Of John Mt 14:10; Mr 6:27",
-          "references": [
-            "Matt 14:10",
-            "Mark 6:27"
-          ]
-        },
-        {
-          "name": "Of James Ac 12:2",
-          "references": [
-            "Acts 12:2"
-          ]
-        },
-        {
-          "name": "Of the martyrs Re 20:4",
-          "references": [
-            "Rev 20:4"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "See PUNISHMENT",
-      "references": [],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Mark",
-      "book_abbrev": "mrk",
-      "chapter": 6,
-      "testament": "NT",
-      "verses": [
-        27
-      ],
-      "verse_count": 1
-    }
+  "sources": [
+    "NAV"
   ],
   "see_also": [
     "PUNISHMENT"
   ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 1,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.672955+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
+  "aspects": [
+    {
+      "label": "Execution by",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".Of",
+      "references": [
+        "Matthew 14:10",
+        "Mark 6:27"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".Of James",
+      "references": [
+        "Acts 12:2"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".Of the martyrs",
+      "references": [
+        "Revelation 20:4"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "SeePUNISHMENT",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0"
+  ],
+  "biblical_references": [
+    {
+      "book": "Matthew",
+      "chapter": 14,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 14:10"
+    },
+    {
+      "book": "Mark",
+      "chapter": 6,
+      "verses": [
+        27
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Mark 6:27"
+    },
+    {
+      "book": "Acts",
+      "chapter": 12,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 12:2"
+    },
+    {
+      "book": "Revelation",
+      "chapter": 20,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Revelation 20:4"
+    }
+  ],
+  "books_mentioned": [
+    "Acts",
+    "Mark",
+    "Matthew",
+    "Revelation"
+  ],
+  "stats": {
+    "total_aspects": 5,
+    "total_refs": 4,
+    "ot_refs": 0,
+    "nt_refs": 4,
+    "books_count": 4,
+    "top_books": [
+      "Matthew",
+      "Mark",
+      "Acts",
+      "Revelation"
+    ]
+  }
 }

@@ -1,70 +1,39 @@
 {
   "topic": "AHIMAAZ",
   "slug": "ahimaaz",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. Father-in-law of king Saul 1Sa 14:50",
-      "references": [
-        "1Sam 14:50"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "2. Son of Zadok, the high priest. Loyal to David 2Sa 15:36; 17:17-20; 18:19-33; 1Ch 6:8,9,53",
-      "references": [
-        "2Sam 15:36",
-        "2Sam 17:17-20",
-        "2Sam 18:19-33",
-        "1Chr 6:8",
-        "1Chr 6:9",
-        "1Chr 6:53"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "3. Solomon’s son-in-law 1Ki 4:15",
-      "references": [
-        "1Kgs 4:15"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "1 Chronicles",
-      "book_abbrev": "1ch",
-      "chapter": 6,
-      "testament": "OT",
-      "verses": [
-        8,
-        9,
-        53
-      ],
-      "verse_count": 3
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.662030+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "1. Father-in-law of king Saul",
+      "references": [
+        "1 Samuel 14:50"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2.",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "15:36;17:17-20;18:19-33;",
+      "references": [
+        "1 Chronicles 6:8,9,53"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "3.",
+      "references": [
+        "1 Kings 4:15"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "1 Samuel",
       "chapter": 14,
@@ -73,64 +42,33 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Samuel 14:50",
-      "source": "EAS"
+      "raw": "1 Samuel 14:50"
     },
     {
-      "book": "1 Chronicles",
-      "chapter": 6,
-      "verses": [
-        8,
-        53
-      ],
-      "verse_count": 2,
-      "testament": "OT",
-      "raw": "1 Chronicles 6:8, 53",
-      "source": "EAS"
-    },
-    {
-      "book": "2 Samuel",
+      "book": "1 Samuel",
       "chapter": 15,
       "verses": [
-        24,
-        25,
-        26,
-        27,
-        28,
-        29,
-        30,
-        31,
-        32,
-        33,
-        34,
-        35,
-        36,
-        37
+        36
       ],
-      "verse_count": 14,
+      "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Samuel 15:24-37",
-      "source": "EAS"
+      "raw": "1 Samuel 15:36"
     },
     {
-      "book": "2 Samuel",
+      "book": "1 Samuel",
       "chapter": 17,
       "verses": [
-        15,
-        16,
         17,
         18,
         19,
-        20,
-        21
+        20
       ],
-      "verse_count": 7,
+      "verse_count": 4,
       "testament": "OT",
-      "raw": "2 Samuel 17:15-21",
-      "source": "EAS"
+      "raw": "1 Samuel 17:17-20"
     },
     {
-      "book": "2 Samuel",
+      "book": "1 Samuel",
       "chapter": 18,
       "verses": [
         19,
@@ -151,8 +89,46 @@
       ],
       "verse_count": 15,
       "testament": "OT",
-      "raw": "2 Samuel 18:19-33",
-      "source": "EAS"
+      "raw": "1 Samuel 18:19-33"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 6,
+      "verses": [
+        8,
+        9,
+        53
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "1 Chronicles 6:8,9,53"
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 4,
+      "verses": [
+        15
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Kings 4:15"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "1 Kings",
+    "1 Samuel"
+  ],
+  "stats": {
+    "total_aspects": 4,
+    "total_refs": 6,
+    "ot_refs": 6,
+    "nt_refs": 0,
+    "books_count": 3,
+    "top_books": [
+      "1 Samuel",
+      "1 Chronicles",
+      "1 Kings"
+    ]
+  }
 }

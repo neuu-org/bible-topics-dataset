@@ -1,64 +1,106 @@
 {
   "topic": "GOLDEN RULE",
-  "topic_slug": "golden_rule",
+  "slug": "golden_rule",
   "canonical_id": "NAV:golden_rule",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–General scriptures concerningLe 19:18;De 5:14,15;Mt 7:12;Lu 6:31;Ro 13:9;Ga 5:14",
-  "content_preview": "–General scriptures concerningLe 19:18;De 5:14,15;Mt 7:12;Lu 6:31;Ro 13:9;Ga 5:14",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–General scriptures concerningLe 19:18;De 5:14,15;Mt 7:12;Lu 6:31;Ro 13:9;Ga 5:14",
-      "raw_segment": "–General scriptures concerningLe 19:18;De 5:14,15;Mt 7:12;Lu 6:31;Ro 13:9;Ga 5:14"
+      "label": "General scriptures concerning",
+      "references": [
+        "Leviticus 19:18",
+        "Deuteronomy 5:14,15",
+        "Matthew 7:12",
+        "Luke 6:31",
+        "Romans 13:9",
+        "Galatians 5:14"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Leviticus",
+      "chapter": 19,
+      "verses": [
+        18
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Leviticus 19:18"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 5,
+      "verses": [
+        14,
+        15
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Deuteronomy 5:14,15"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 7,
+      "verses": [
+        12
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 7:12"
+    },
+    {
+      "book": "Luke",
+      "chapter": 6,
+      "verses": [
+        31
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 6:31"
+    },
+    {
+      "book": "Romans",
+      "chapter": 13,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Romans 13:9"
+    },
+    {
+      "book": "Galatians",
+      "chapter": 5,
+      "verses": [
+        14
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Galatians 5:14"
+    }
+  ],
+  "books_mentioned": [
+    "Deuteronomy",
+    "Galatians",
+    "Leviticus",
+    "Luke",
+    "Matthew",
+    "Romans"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:8c973d3ba534461648b2272f002492c7bf25aae28bfc41fe2f1e89a2dc27814f",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 1
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 1,
+    "total_refs": 6,
+    "ot_refs": 2,
+    "nt_refs": 4,
+    "books_count": 6,
+    "top_books": [
+      "Leviticus",
+      "Deuteronomy",
+      "Matthew",
+      "Luke",
+      "Romans",
+      "Galatians"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:26:44.648845Z",
-  "updated_at": "2025-09-20T17:26:44.648853Z"
+  }
 }

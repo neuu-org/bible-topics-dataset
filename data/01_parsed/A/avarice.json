@@ -1,97 +1,143 @@
 {
   "topic": "AVARICE",
   "slug": "avarice",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [
+    "COVETOUSNESS",
+    "RICH",
+    "RICHES"
+  ],
+  "aspects": [
     {
-      "name": "General scriptures concerning Ec 4:7,8; 5:10,11; 1Ti 3:2,3; 6:5,10; Tit 1:7",
+      "label": "General scriptures concerning",
       "references": [
-        "Eccl 4:7",
-        "Eccl 4:8",
-        "Eccl 5:10",
-        "Eccl 5:11",
-        "1Tim 3:2",
-        "1Tim 3:3",
-        "1Tim 6:5",
-        "1Tim 6:10",
+        "Ecclesiastes 4:7,8",
+        "Ecclesiastes 5:10,11"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "3:2,3;6:5,10;",
+      "references": [
         "Titus 1:7"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See COVETOUSNESS",
+      "label": "SeeCOVETOUSNESS",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See RICH",
+      "label": "SeeRICH",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See RICHES",
+      "label": "SeeRICHES",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "INSTANCES OF",
+      "label": "INSTANCES OF",
       "references": [],
-      "sub_groups": [
-        {
-          "name": "The descendants of Joseph Jos 17:14-18",
-          "references": [
-            "Josh 17:14-18"
-          ]
-        }
-      ]
+      "source": "NAV"
+    },
+    {
+      "label": ".The",
+      "references": [
+        "Joshua 17:14-18"
+      ],
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "1 Timothy",
-      "book_abbrev": "1ti",
+      "book": "Ecclesiastes",
+      "chapter": 4,
+      "verses": [
+        7,
+        8
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Ecclesiastes 4:7,8"
+    },
+    {
+      "book": "Ecclesiastes",
+      "chapter": 5,
+      "verses": [
+        10,
+        11
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Ecclesiastes 5:10,11"
+    },
+    {
+      "book": "Ecclesiastes",
       "chapter": 3,
-      "testament": "NT",
       "verses": [
         2,
-        3,
-        6
+        3
       ],
-      "verse_count": 3
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Ecclesiastes 3:2,3"
+    },
+    {
+      "book": "Ecclesiastes",
+      "chapter": 6,
+      "verses": [
+        5,
+        10
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Ecclesiastes 6:5,10"
     },
     {
       "book": "Titus",
-      "book_abbrev": "tit",
       "chapter": 1,
-      "testament": "NT",
       "verses": [
         7
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Titus 1:7"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 17,
+      "verses": [
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "verse_count": 5,
+      "testament": "OT",
+      "raw": "Joshua 17:14-18"
     }
   ],
-  "see_also": [
-    "COVETOUSNESS",
-    "RICHES",
-    "RICH"
+  "books_mentioned": [
+    "Ecclesiastes",
+    "Joshua",
+    "Titus"
   ],
-  "aliases": [],
   "stats": {
-    "entries_count": 5,
-    "ot_refs": 0,
-    "nt_refs": 2,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.670920+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    }
-  },
-  "version": "3.0.0"
+    "total_aspects": 7,
+    "total_refs": 6,
+    "ot_refs": 5,
+    "nt_refs": 1,
+    "books_count": 3,
+    "top_books": [
+      "Ecclesiastes",
+      "Titus",
+      "Joshua"
+    ]
+  }
 }

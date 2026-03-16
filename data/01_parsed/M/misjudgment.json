@@ -1,34 +1,91 @@
 {
   "topic": "MISJUDGMENT",
   "slug": "misjudgment",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [
+    "ACCUSATIONS, FALSE",
+    "UNCHARITABLENESS"
+  ],
+  "aspects": [
     {
-      "name": "INSTANCES OF",
+      "label": "INSTANCES OF",
       "references": [],
-      "sub_groups": [
-        {
-          "name": "Of the Reubenites and Gadites Nu 32:1-33; Jos 22:11-31",
-          "references": [
-            "Num 32:1-33",
-            "Josh 22:11-31"
-          ]
-        },
-        {
-          "name": "Of Hannah 1Sa 1:14-17",
-          "references": [
-            "1Sam 1:14-17"
-          ]
-        }
-      ]
+      "source": "NAV"
+    },
+    {
+      "label": ".Of the Reubenites and Gadites",
+      "references": [
+        "Numbers 32:1-33",
+        "Joshua 22:11-31"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".Of Hannah",
+      "references": [
+        "1 Samuel 1:14-17"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".SeeACCUSATIONS, FALSE",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".SeeUNCHARITABLENESS",
+      "references": [],
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Joshua",
-      "book_abbrev": "jos",
-      "chapter": 22,
+      "book": "Numbers",
+      "chapter": 32,
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33
+      ],
+      "verse_count": 33,
       "testament": "OT",
+      "raw": "Numbers 32:1-33"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 22,
       "verses": [
         11,
         12,
@@ -52,30 +109,39 @@
         30,
         31
       ],
-      "verse_count": 21
+      "verse_count": 21,
+      "testament": "OT",
+      "raw": "Joshua 22:11-31"
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 1,
+      "verses": [
+        14,
+        15,
+        16,
+        17
+      ],
+      "verse_count": 4,
+      "testament": "OT",
+      "raw": "1 Samuel 1:14-17"
     }
   ],
-  "see_also": [
-    "UNCHARITABLENESS",
-    "ACCUSATIONS, FALSE"
+  "books_mentioned": [
+    "1 Samuel",
+    "Joshua",
+    "Numbers"
   ],
-  "aliases": [],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 1,
+    "total_aspects": 5,
+    "total_refs": 3,
+    "ot_refs": 3,
     "nt_refs": 0,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.707052+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    }
-  },
-  "version": "3.0.0"
+    "books_count": 3,
+    "top_books": [
+      "Numbers",
+      "Joshua",
+      "1 Samuel"
+    ]
+  }
 }

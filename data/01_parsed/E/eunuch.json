@@ -1,115 +1,69 @@
 {
   "topic": "EUNUCH",
   "slug": "eunuch",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "General scriptures concerning Mt 19:12",
+      "label": "General scriptures concerning",
       "references": [
-        "Matt 19:12"
+        "Matthew 19:12"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Prohibited from certain privileges of the congregation De 23:1; Isa 56:3-5",
+      "label": "Prohibited from certain privileges of the congregation",
       "references": [
-        "Deut 23:1",
-        "Isa 56:3-5"
+        "Deuteronomy 23:1",
+        "Isaiah 56:3-5"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Influential court officials Jer 38:7-13; 52:25; Da 1:3",
+      "label": "Inf",
       "references": [
-        "Jer 38:7-13",
-        "Jer 52:25",
-        "Dan 1:3"
+        "Jeremiah 38:7-13",
+        "Jeremiah 52:25"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Those who voluntarily became (continent, probably) for the kingdom of heaven’s sake Mt 19:12",
-      "references": [
-        "Matt 19:12"
-      ],
-      "sub_groups": []
+      "label": "1:3",
+      "references": [],
+      "source": "NAV"
     },
     {
-      "name": "Baptism of the Ethiopian Ac 8:26-29",
+      "label": "Those who vo",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "of heaven’s sake",
+      "references": [
+        "Matthew 19:12"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Baptism of the Ethiopian",
       "references": [
         "Acts 8:26-29"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Isaiah",
-      "book_abbrev": "isa",
-      "chapter": 56,
-      "testament": "OT",
+      "book": "Matthew",
+      "chapter": 19,
       "verses": [
-        3,
-        4,
-        5
-      ],
-      "verse_count": 3
-    },
-    {
-      "book": "Daniel",
-      "book_abbrev": "dan",
-      "chapter": 1,
-      "testament": "OT",
-      "verses": [
-        3
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 5,
-    "ot_refs": 2,
-    "nt_refs": 0,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.685407+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    },
-    "enriched_at": "2025-12-02T22:02:09.986851+00:00",
-    "enrichment_source": "pipeline_merge"
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "2 Kings",
-      "chapter": 9,
-      "verses": [
-        32
+        12
       ],
       "verse_count": 1,
-      "testament": "OT",
-      "raw": "2 Kings 9:32",
-      "source": "EAS"
-    },
-    {
-      "book": "Esther",
-      "chapter": 2,
-      "verses": [
-        3
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Esther 2:3",
-      "source": "EAS"
+      "testament": "NT",
+      "raw": "Matthew 19:12"
     },
     {
       "book": "Deuteronomy",
@@ -119,19 +73,89 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Deuteronomy 23:1",
-      "source": "EAS"
+      "raw": "Deuteronomy 23:1"
     },
     {
-      "book": "Matthew",
-      "chapter": 19,
+      "book": "Isaiah",
+      "chapter": 56,
       "verses": [
-        12
+        3,
+        4,
+        5
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Isaiah 56:3-5"
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 38,
+      "verses": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "verse_count": 7,
+      "testament": "OT",
+      "raw": "Jeremiah 38:7-13"
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 52,
+      "verses": [
+        25
       ],
       "verse_count": 1,
+      "testament": "OT",
+      "raw": "Jeremiah 52:25"
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 1,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Jeremiah 1:3"
+    },
+    {
+      "book": "Acts",
+      "chapter": 8,
+      "verses": [
+        26,
+        27,
+        28,
+        29
+      ],
+      "verse_count": 4,
       "testament": "NT",
-      "raw": "Matthew 19:12",
-      "source": "EAS"
+      "raw": "Acts 8:26-29"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Acts",
+    "Deuteronomy",
+    "Isaiah",
+    "Jeremiah",
+    "Matthew"
+  ],
+  "stats": {
+    "total_aspects": 7,
+    "total_refs": 7,
+    "ot_refs": 5,
+    "nt_refs": 2,
+    "books_count": 5,
+    "top_books": [
+      "Jeremiah",
+      "Matthew",
+      "Deuteronomy",
+      "Isaiah",
+      "Acts"
+    ]
+  }
 }

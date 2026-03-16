@@ -1,69 +1,76 @@
 {
   "topic": "KERIOTH",
-  "topic_slug": "kerioth",
+  "slug": "kerioth",
   "canonical_id": "NAV:kerioth",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–1. A city of the tribe of JudahJos 15:25\n–2. Also called KIRIOTH\n  .A city of MoabJer 48:24,41;Am 2:2",
-  "content_preview": "–1. A city of the tribe of JudahJos 15:25",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–1. A city of the tribe of JudahJos 15:25",
-      "raw_segment": "–1. A city of the tribe of JudahJos 15:25"
+      "label": "1. A city of the tribe of",
+      "references": [
+        "Joshua 15:25"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–2. Also called KIRIOTH",
-      "raw_segment": "–2. Also called KIRIOTH"
+      "label": "2. Al",
+      "references": []
+    },
+    {
+      "label": ".A city of Moab",
+      "references": [
+        "Jeremiah 48:24,41",
+        "Amos 2:2"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Joshua",
+      "chapter": 15,
+      "verses": [
+        25
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 15:25"
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 48,
+      "verses": [
+        24,
+        41
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Jeremiah 48:24,41"
+    },
+    {
+      "book": "Amos",
+      "chapter": 2,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Amos 2:2"
+    }
+  ],
+  "books_mentioned": [
+    "Amos",
+    "Jeremiah",
+    "Joshua"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 3,
+    "total_refs": 3,
+    "ot_refs": 3,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:2145140c26ab9238ca201bd63c90213fd0fa136aec9e9721f285728a5ff50e28",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 3
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 3,
+    "top_books": [
+      "Joshua",
+      "Jeremiah",
+      "Amos"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:28:21.000609Z",
-  "updated_at": "2025-09-20T17:28:21.000617Z"
+  }
 }

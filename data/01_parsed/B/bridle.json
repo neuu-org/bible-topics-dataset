@@ -1,125 +1,38 @@
 {
   "topic": "BRIDLE",
   "slug": "bridle",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "General scriptures concerning Ps 32:9; Pr 26:3; Re 14:20",
-      "references": [
-        "Ps 32:9",
-        "Prov 26:3",
-        "Rev 14:20"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "FIGURATIVE 2Ki 19:28; Ps 39:1; Jas 1:26",
-      "references": [
-        "2Kgs 19:28",
-        "Ps 39:1",
-        "Jas 1:26"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Psalms",
-      "book_abbrev": "psa",
-      "chapter": 39,
-      "testament": "OT",
-      "verses": [
-        1
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Proverbs",
-      "book_abbrev": "pro",
-      "chapter": 26,
-      "testament": "OT",
-      "verses": [
-        3
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "James",
-      "book_abbrev": "jas",
-      "chapter": 1,
-      "testament": "NT",
-      "verses": [
-        26
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Revelation",
-      "book_abbrev": "rev",
-      "chapter": 14,
-      "testament": "NT",
-      "verses": [
-        20
-      ],
-      "verse_count": 1
-    }
+  "sources": [
+    "NAV"
   ],
   "see_also": [
     "BIT"
   ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 2,
-    "nt_refs": 2,
-    "total_verses": 4
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.675536+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "aspects": [
+    {
+      "label": "General scriptures concerning",
+      "references": [
+        "Psalms 32:9",
+        "Proverbs 26:3",
+        "Revelation 14:20"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "FIGURATIVE",
+      "references": [
+        "2 Kings 19:28",
+        "Psalms 39:1",
+        "James 1:26"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".SeeBIT",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "Psalms",
-      "chapter": 39,
-      "verses": [
-        1
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Psalms 39:1",
-      "source": "EAS"
-    },
-    {
-      "book": "Isaiah",
-      "chapter": 30,
-      "verses": [
-        28
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Isaiah 30:28",
-      "source": "EAS"
-    },
-    {
-      "book": "Isaiah",
-      "chapter": 37,
-      "verses": [
-        29
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Isaiah 37:29",
-      "source": "EAS"
-    },
+  ],
+  "biblical_references": [
     {
       "book": "Psalms",
       "chapter": 32,
@@ -128,8 +41,27 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Psalms 32:9",
-      "source": "EAS"
+      "raw": "Psalms 32:9"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 26,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 26:3"
+    },
+    {
+      "book": "Revelation",
+      "chapter": 14,
+      "verses": [
+        20
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Revelation 14:20"
     },
     {
       "book": "2 Kings",
@@ -139,19 +71,48 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Kings 19:28",
-      "source": "EAS"
+      "raw": "2 Kings 19:28"
     },
     {
-      "book": "Job",
-      "chapter": 30,
+      "book": "Psalms",
+      "chapter": 39,
       "verses": [
-        11
+        1
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Job 30:11",
-      "source": "EAS"
+      "raw": "Psalms 39:1"
+    },
+    {
+      "book": "James",
+      "chapter": 1,
+      "verses": [
+        26
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "James 1:26"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "2 Kings",
+    "James",
+    "Proverbs",
+    "Psalms",
+    "Revelation"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 6,
+    "ot_refs": 4,
+    "nt_refs": 2,
+    "books_count": 5,
+    "top_books": [
+      "Psalms",
+      "Proverbs",
+      "Revelation",
+      "2 Kings",
+      "James"
+    ]
+  }
 }

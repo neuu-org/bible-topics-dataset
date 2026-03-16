@@ -1,61 +1,21 @@
 {
   "topic": "ARCHIPPUS",
   "slug": "archippus",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "A disciple at Colossae Col 4:17; Phm 1:2",
-      "references": [
-        "Col 4:17",
-        "Phlm 1"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Philemon",
-      "book_abbrev": "phm",
-      "chapter": 1,
-      "testament": "NT",
-      "verses": [
-        2
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 1,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.669546+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "see_also": [],
+  "aspects": [
     {
-      "book": "Philippians",
-      "chapter": 1,
-      "verses": [
-        2
+      "label": "A disciple at Colossae",
+      "references": [
+        "Colossians 4:17",
+        "Philemon 1:2"
       ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Philippians 1:2",
-      "source": "EAS"
-    },
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
     {
       "book": "Colossians",
       "chapter": 4,
@@ -64,8 +24,32 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Colossians 4:17",
-      "source": "EAS"
+      "raw": "Colossians 4:17"
+    },
+    {
+      "book": "Philemon",
+      "chapter": 1,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Philemon 1:2"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Colossians",
+    "Philemon"
+  ],
+  "stats": {
+    "total_aspects": 1,
+    "total_refs": 2,
+    "ot_refs": 0,
+    "nt_refs": 2,
+    "books_count": 2,
+    "top_books": [
+      "Colossians",
+      "Philemon"
+    ]
+  }
 }

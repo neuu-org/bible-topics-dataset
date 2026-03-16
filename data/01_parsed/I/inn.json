@@ -1,64 +1,44 @@
 {
   "topic": "INN",
   "slug": "inn",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "General scriptures concerning Ge 42:27; 43:21; Ex 4:24; Lu 2:7; 10:34",
+      "label": "General scriptures concerning",
       "references": [
-        "Gen 42:27",
-        "Gen 43:21",
-        "Exod 4:24",
+        "Genesis 42:27",
+        "Genesis 43:21",
+        "Exodus 4:24",
         "Luke 2:7",
         "Luke 10:34"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Exodus",
-      "book_abbrev": "exo",
-      "chapter": 4,
-      "testament": "OT",
+      "book": "Genesis",
+      "chapter": 42,
       "verses": [
-        24
+        27
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 42:27"
     },
     {
-      "book": "Luke",
-      "book_abbrev": "luk",
-      "chapter": 2,
-      "testament": "NT",
+      "book": "Genesis",
+      "chapter": 43,
       "verses": [
-        7,
-        10
+        21
       ],
-      "verse_count": 2
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 1,
-    "nt_refs": 1,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.694213+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 43:21"
+    },
     {
       "book": "Exodus",
       "chapter": 4,
@@ -67,8 +47,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Exodus 4:24",
-      "source": "EAS"
+      "raw": "Exodus 4:24"
     },
     {
       "book": "Luke",
@@ -78,30 +57,7 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Luke 2:7",
-      "source": "EAS"
-    },
-    {
-      "book": "Mark",
-      "chapter": 14,
-      "verses": [
-        14
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Mark 14:14",
-      "source": "EAS"
-    },
-    {
-      "book": "Luke",
-      "chapter": 22,
-      "verses": [
-        11
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Luke 22:11",
-      "source": "EAS"
+      "raw": "Luke 2:7"
     },
     {
       "book": "Luke",
@@ -111,30 +67,24 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Luke 10:34",
-      "source": "EAS"
-    },
-    {
-      "book": "Jeremiah",
-      "chapter": 9,
-      "verses": [
-        2
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Jeremiah 9:2",
-      "source": "SMI"
-    },
-    {
-      "book": "Genesis",
-      "chapter": 42,
-      "verses": [
-        27
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Genesis 42:27",
-      "source": "SMI"
+      "raw": "Luke 10:34"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Exodus",
+    "Genesis",
+    "Luke"
+  ],
+  "stats": {
+    "total_aspects": 1,
+    "total_refs": 5,
+    "ot_refs": 3,
+    "nt_refs": 2,
+    "books_count": 3,
+    "top_books": [
+      "Genesis",
+      "Luke",
+      "Exodus"
+    ]
+  }
 }

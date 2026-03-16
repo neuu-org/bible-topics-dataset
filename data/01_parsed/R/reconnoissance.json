@@ -1,49 +1,109 @@
 {
   "topic": "RECONNOISSANCE",
   "slug": "reconnoissance",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Of Jericho Jos 2:1-24",
-      "references": [
-        "Josh 2:1-24"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Beth-el Jud 1:23",
-      "references": [
-        "Judg 1:23"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Laish Jud 18:2-10",
-      "references": [
-        "Judg 18:2-10"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.720957+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "Of",
+      "references": [
+        "Joshua 2:1-24"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Beth-el",
+      "references": [
+        "Judges 1:23"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Laish",
+      "references": [
+        "Judges 18:2-10"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0"
+  ],
+  "biblical_references": [
+    {
+      "book": "Joshua",
+      "chapter": 2,
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "verse_count": 24,
+      "testament": "OT",
+      "raw": "Joshua 2:1-24"
+    },
+    {
+      "book": "Judges",
+      "chapter": 1,
+      "verses": [
+        23
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Judges 1:23"
+    },
+    {
+      "book": "Judges",
+      "chapter": 18,
+      "verses": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "verse_count": 9,
+      "testament": "OT",
+      "raw": "Judges 18:2-10"
+    }
+  ],
+  "books_mentioned": [
+    "Joshua",
+    "Judges"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 3,
+    "ot_refs": 3,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "Judges",
+      "Joshua"
+    ]
+  }
 }

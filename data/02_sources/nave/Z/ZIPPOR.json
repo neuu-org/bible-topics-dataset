@@ -1,64 +1,67 @@
 {
   "topic": "ZIPPOR",
-  "topic_slug": "zippor",
+  "slug": "zippor",
   "canonical_id": "NAV:zippor",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–Father of BalakNu 22:2,4,10,16;23:18;Jos 24:9",
-  "content_preview": "–Father of BalakNu 22:2,4,10,16;23:18;Jos 24:9",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–Father of BalakNu 22:2,4,10,16;23:18;Jos 24:9",
-      "raw_segment": "–Father of BalakNu 22:2,4,10,16;23:18;Jos 24:9"
+      "label": "Father of Balak",
+      "references": [
+        "Numbers 22:2,4,10,16",
+        "Numbers 23:18",
+        "Joshua 24:9"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Numbers",
+      "chapter": 22,
+      "verses": [
+        2,
+        4,
+        10,
+        16
+      ],
+      "verse_count": 4,
+      "testament": "OT",
+      "raw": "Numbers 22:2,4,10,16"
+    },
+    {
+      "book": "Numbers",
+      "chapter": 23,
+      "verses": [
+        18
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Numbers 23:18"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 24,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 24:9"
+    }
+  ],
+  "books_mentioned": [
+    "Joshua",
+    "Numbers"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 1,
+    "total_refs": 3,
+    "ot_refs": 3,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:e83927f9fe83c0d110f2d08124111ff4c6c46a38e19dfc820e344205b37193a7",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 1
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 2,
+    "top_books": [
+      "Numbers",
+      "Joshua"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:32:55.640230Z",
-  "updated_at": "2025-09-20T17:32:55.640237Z"
+  }
 }

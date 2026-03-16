@@ -1,8 +1,8 @@
 {
   "topic": "INTEMPERANCE",
-  "topic_slug": "intemperance",
+  "slug": "intemperance",
   "canonical_id": "NAV:intemperance",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "DRUNKENNESS",
     "ABSTINENCE",
@@ -10,112 +10,36 @@
     "WINE",
     "TEMPERANCE"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "DRUNKENNESS",
-      "clean": "DRUNKENNESS",
-      "slug": "drunkenness",
-      "canonical_id": "NAV:drunkenness"
+      "label": "SeeDRUNKARDS",
+      "references": []
     },
     {
-      "original": "ABSTINENCE",
-      "clean": "ABSTINENCE",
-      "slug": "abstinence",
-      "canonical_id": "NAV:abstinence"
+      "label": "SeeDRUNKENNESS",
+      "references": []
     },
     {
-      "original": "DRUNKARDS",
-      "clean": "DRUNKARDS",
-      "slug": "drunkards",
-      "canonical_id": "NAV:drunkards"
+      "label": "SeeWINE",
+      "references": []
     },
     {
-      "original": "WINE",
-      "clean": "WINE",
-      "slug": "wine",
-      "canonical_id": "NAV:wine"
+      "label": "SeeABSTINENCE",
+      "references": []
     },
     {
-      "original": "TEMPERANCE",
-      "clean": "TEMPERANCE",
-      "slug": "temperance",
-      "canonical_id": "NAV:temperance"
-    }
-  ],
-  "raw_block": "–SeeDRUNKARDS\n–SeeDRUNKENNESS\n–SeeWINE\n–SeeABSTINENCE\n–SeeTEMPERANCE",
-  "content_preview": "–SeeDRUNKARDS",
-  "reference_groups": [
-    {
-      "idx": 0,
-      "entry_label": "–SeeDRUNKARDS",
-      "raw_segment": "–SeeDRUNKARDS"
-    },
-    {
-      "idx": 1,
-      "entry_label": "–SeeDRUNKENNESS",
-      "raw_segment": "–SeeDRUNKENNESS"
-    },
-    {
-      "idx": 2,
-      "entry_label": "–SeeWINE",
-      "raw_segment": "–SeeWINE"
-    },
-    {
-      "idx": 3,
-      "entry_label": "–SeeABSTINENCE",
-      "raw_segment": "–SeeABSTINENCE"
-    },
-    {
-      "idx": 4,
-      "entry_label": "–SeeTEMPERANCE",
-      "raw_segment": "–SeeTEMPERANCE"
+      "label": "SeeTEMPERANCE",
+      "references": []
     }
   ],
   "biblical_references": [],
   "books_mentioned": [],
-  "normalized_labels": [],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 5,
+    "total_refs": 0,
     "ot_refs": 0,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:48c3c670972e6d93d44c4c5c4e76ca0c49d6053656476fc33a11073e17b40dc0",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 5
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
-    ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:27:37.138607Z",
-  "updated_at": "2025-09-20T17:27:37.138614Z"
+    "books_count": 0,
+    "top_books": []
+  }
 }

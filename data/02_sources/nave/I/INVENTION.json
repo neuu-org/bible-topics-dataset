@@ -1,79 +1,149 @@
 {
   "topic": "INVENTION",
-  "topic_slug": "invention",
+  "slug": "invention",
   "canonical_id": "NAV:invention",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–General scriptures concerningPr 8:12\n–Of musical instruments\n  .By JubalGe 4:21\n  .By David1Ch 23:5;2Ch 7:6;29:26;Am 6:5\n–The use of metalsGe 4:22\n–The engines of war2Ch 26:15",
-  "content_preview": "–General scriptures concerningPr 8:12",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–General scriptures concerningPr 8:12",
-      "raw_segment": "–General scriptures concerningPr 8:12"
+      "label": "General scriptures concerning",
+      "references": [
+        "Proverbs 8:12"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–Of musical instruments",
-      "raw_segment": "–Of musical instruments"
+      "label": "Of musi",
+      "references": []
     },
     {
-      "idx": 2,
-      "entry_label": "–The use of metalsGe 4:22",
-      "raw_segment": "–The use of metalsGe 4:22"
+      "label": ".By Jubal",
+      "references": [
+        "Genesis 4:21"
+      ]
     },
     {
-      "idx": 3,
-      "entry_label": "–The engines of war2Ch 26:15",
-      "raw_segment": "–The engines of war2Ch 26:15"
+      "label": ".By David",
+      "references": [
+        "1 Chronicles 23:5",
+        "2 Chronicles 7:6",
+        "2 Chronicles 29:26",
+        "Amos 6:5"
+      ]
+    },
+    {
+      "label": "The use of metals",
+      "references": [
+        "Genesis 4:22"
+      ]
+    },
+    {
+      "label": "The engines of war",
+      "references": [
+        "2 Chronicles 26:15"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Proverbs",
+      "chapter": 8,
+      "verses": [
+        12
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 8:12"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 4,
+      "verses": [
+        21
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 4:21"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 23,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 23:5"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 7,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Chronicles 7:6"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 29,
+      "verses": [
+        26
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Chronicles 29:26"
+    },
+    {
+      "book": "Amos",
+      "chapter": 6,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Amos 6:5"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 4,
+      "verses": [
+        22
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 4:22"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 26,
+      "verses": [
+        15
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Chronicles 26:15"
+    }
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "2 Chronicles",
+    "Amos",
+    "Genesis",
+    "Proverbs"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 6,
+    "total_refs": 8,
+    "ot_refs": 8,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:7371c3fb8502602bd75d71beb3e3faeb3277aa01176fbcb7da6b5d45906811d5",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 6
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 5,
+    "top_books": [
+      "2 Chronicles",
+      "Genesis",
+      "Proverbs",
+      "1 Chronicles",
+      "Amos"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:27:38.271398Z",
-  "updated_at": "2025-09-20T17:27:38.271407Z"
+  }
 }

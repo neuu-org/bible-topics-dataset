@@ -1,105 +1,60 @@
 {
   "topic": "IJON",
   "slug": "ijon",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "A town of the territory of the tribe of Naphtali 1Ki 15:20; 2Ki 15:29; 2Ch 16:4",
+      "label": "A town of the territory of the tribe of Naphtali",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "15:20;",
       "references": [
-        "1Kgs 15:20",
-        "2Kgs 15:29",
-        "2Chr 16:4"
+        "2 Kings 15:29",
+        "2 Chronicles 16:4"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
       "book": "2 Kings",
-      "book_abbrev": "2ki",
       "chapter": 15,
-      "testament": "OT",
       "verses": [
-        2,
         29
       ],
-      "verse_count": 2
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Kings 15:29"
     },
     {
       "book": "2 Chronicles",
-      "book_abbrev": "2ch",
       "chapter": 16,
-      "testament": "OT",
       "verses": [
         4
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Chronicles 16:4"
     }
   ],
-  "see_also": [],
-  "aliases": [],
+  "books_mentioned": [
+    "2 Chronicles",
+    "2 Kings"
+  ],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 2,
+    "total_refs": 2,
     "ot_refs": 2,
     "nt_refs": 0,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.693882+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "1 Kings",
-      "chapter": 15,
-      "verses": [
-        20
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "1 Kings 15:20",
-      "source": "EAS"
-    },
-    {
-      "book": "2 Kings",
-      "chapter": 15,
-      "verses": [
-        29
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "2 Kings 15:29",
-      "source": "EAS"
-    },
-    {
-      "book": "2 Chronicles",
-      "chapter": 16,
-      "verses": [
-        4
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "2 Chronicles 16:4",
-      "source": "SMI"
-    },
-    {
-      "book": "2 Kings",
-      "chapter": 16,
-      "verses": [
-        29
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "2 Kings 16:29",
-      "source": "SMI"
-    }
-  ]
+    "books_count": 2,
+    "top_books": [
+      "2 Kings",
+      "2 Chronicles"
+    ]
+  }
 }

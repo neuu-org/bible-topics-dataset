@@ -1,69 +1,57 @@
 {
   "topic": "ITHRA",
-  "topic_slug": "ithra",
+  "slug": "ithra",
   "canonical_id": "NAV:ithra",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–Also called JETHER\n–Father of Amasa2Sa 17:25;1Ch 2:17",
-  "content_preview": "–Also called JETHER",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–Also called JETHER",
-      "raw_segment": "–Also called JETHER"
+      "label": "Al",
+      "references": []
     },
     {
-      "idx": 1,
-      "entry_label": "–Father of Amasa2Sa 17:25;1Ch 2:17",
-      "raw_segment": "–Father of Amasa2Sa 17:25;1Ch 2:17"
+      "label": "Father of Amasa",
+      "references": [
+        "2 Samuel 17:25",
+        "1 Chronicles 2:17"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "2 Samuel",
+      "chapter": 17,
+      "verses": [
+        25
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Samuel 17:25"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 2,
+      "verses": [
+        17
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 2:17"
+    }
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "2 Samuel"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 2,
+    "total_refs": 2,
+    "ot_refs": 2,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:cc73d5d330c3d94e8e564f0edf5ace1092ae5ea695164ca963826cd44b59d8f1",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 2,
+    "top_books": [
+      "2 Samuel",
+      "1 Chronicles"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:27:44.235002Z",
-  "updated_at": "2025-09-20T17:27:44.235010Z"
+  }
 }

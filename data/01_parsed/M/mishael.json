@@ -1,83 +1,64 @@
 {
   "topic": "MISHAEL",
   "slug": "mishael",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. A son of Uzziel, helps carry the bodies of Nadab and Abihu out of the camp Ex 6:22; Le 10:4",
-      "references": [
-        "Exod 6:22",
-        "Lev 10:4"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "2. A Jew who stood by Ezra when he read the law to the people Ne 8:4",
-      "references": [
-        "Neh 8:4"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "3. Also called MESHACH",
-      "references": [],
-      "sub_groups": [
-        {
-          "name": "One of three Hebrew young men trained with Daniel at the court of Babylon Da 1:6,7,11-20",
-          "references": [
-            "Dan 1:6",
-            "Dan 1:7",
-            "Dan 1:11-20"
-          ]
-        },
-        {
-          "name": "Assists Daniel in interpreting Nebuchadnezzars dream Da 2:17-23",
-          "references": [
-            "Dan 2:17-23"
-          ]
-        },
-        {
-          "name": "Thrown into the fiery furnace Da 3:13-30",
-          "references": [
-            "Dan 3:13-30"
-          ]
-        }
-      ]
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Leviticus",
-      "book_abbrev": "lev",
-      "chapter": 10,
-      "testament": "OT",
-      "verses": [
-        4
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.706964+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "1. A",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "out of the",
+      "references": [
+        "Exodus 6:22",
+        "Leviticus 10:4"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2. A Jew who stood by Ezra when he read the law to the people",
+      "references": [
+        "Nehemiah 8:4"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "3. Al",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".One of three Hebrew young men trained with Daniel at the court",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "of Babylon",
+      "references": [
+        "Daniel 1:6,7,11-20"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".Assists Daniel in interpreting Nebuchadnezzars dream",
+      "references": [
+        "Daniel 2:17-23"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".Thrown into the fiery furnace",
+      "references": [
+        "Daniel 3:13-30"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Exodus",
       "chapter": 6,
@@ -86,20 +67,64 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Exodus 6:22",
-      "source": "EAS"
+      "raw": "Exodus 6:22"
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 10,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Leviticus 10:4"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 8,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Nehemiah 8:4"
     },
     {
       "book": "Daniel",
       "chapter": 1,
       "verses": [
+        6,
+        7,
         11,
-        19
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
       ],
-      "verse_count": 2,
+      "verse_count": 12,
       "testament": "OT",
-      "raw": "Daniel 1:11, 19",
-      "source": "EAS"
+      "raw": "Daniel 1:6,7,11-20"
+    },
+    {
+      "book": "Daniel",
+      "chapter": 2,
+      "verses": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "verse_count": 7,
+      "testament": "OT",
+      "raw": "Daniel 2:17-23"
     },
     {
       "book": "Daniel",
@@ -126,8 +151,26 @@
       ],
       "verse_count": 18,
       "testament": "OT",
-      "raw": "Daniel 3:13-30",
-      "source": "EAS"
+      "raw": "Daniel 3:13-30"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Daniel",
+    "Exodus",
+    "Leviticus",
+    "Nehemiah"
+  ],
+  "stats": {
+    "total_aspects": 8,
+    "total_refs": 6,
+    "ot_refs": 6,
+    "nt_refs": 0,
+    "books_count": 4,
+    "top_books": [
+      "Daniel",
+      "Exodus",
+      "Leviticus",
+      "Nehemiah"
+    ]
+  }
 }

@@ -1,56 +1,40 @@
 {
   "topic": "EPHRON",
   "slug": "ephron",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. Son of Zohar, the Hittite",
-      "references": [],
-      "sub_groups": [
-        {
-          "name": "Sells to Abraham the field containing the cave Machpelah Ge 23:8-17; 25:9; 49:29,30; 50:13",
-          "references": [
-            "Gen 23:8-17",
-            "Gen 25:9",
-            "Gen 49:29",
-            "Gen 49:30",
-            "Gen 50:13"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "2. A mountain on the boundary line between the tribes of Judah and Benjamin Jos 15:9",
-      "references": [
-        "Josh 15:9"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.684904+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "1.",
+      "references": [],
+      "source": "NAV"
     },
-    "enriched_at": "2025-12-02T22:02:09.921698+00:00",
-    "enrichment_source": "pipeline_merge"
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+    {
+      "label": ".Sells to Abraham the field containing the",
+      "references": [
+        "Genesis 23:8-17",
+        "Genesis 25:9",
+        "Genesis 49:29,30",
+        "Genesis 50:13"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2. A mountain on the boundary line between the tribes of",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "and Benjamin",
+      "references": [
+        "Joshua 15:9"
+      ],
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
     {
       "book": "Genesis",
       "chapter": 23,
@@ -68,8 +52,7 @@
       ],
       "verse_count": 10,
       "testament": "OT",
-      "raw": "Genesis 23:8-17",
-      "source": "EAS"
+      "raw": "Genesis 23:8-17"
     },
     {
       "book": "Genesis",
@@ -79,8 +62,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 25:9",
-      "source": "EAS"
+      "raw": "Genesis 25:9"
     },
     {
       "book": "Genesis",
@@ -91,19 +73,7 @@
       ],
       "verse_count": 2,
       "testament": "OT",
-      "raw": "Genesis 49:29, 30",
-      "source": "EAS"
-    },
-    {
-      "book": "Joshua",
-      "chapter": 15,
-      "verses": [
-        9
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Joshua 15:9",
-      "source": "EAS"
+      "raw": "Genesis 49:29,30"
     },
     {
       "book": "Genesis",
@@ -113,8 +83,32 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 50:13",
-      "source": "SMI"
+      "raw": "Genesis 50:13"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 15,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 15:9"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Genesis",
+    "Joshua"
+  ],
+  "stats": {
+    "total_aspects": 4,
+    "total_refs": 5,
+    "ot_refs": 5,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "Genesis",
+      "Joshua"
+    ]
+  }
 }

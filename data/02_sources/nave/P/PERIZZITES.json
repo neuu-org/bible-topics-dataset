@@ -1,93 +1,138 @@
 {
   "topic": "PERIZZITES",
-  "topic_slug": "perizzites",
+  "slug": "perizzites",
   "canonical_id": "NAV:perizzites",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "CANAANITES"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "CANAANITES",
-      "clean": "CANAANITES",
-      "slug": "canaanites",
-      "canonical_id": "NAV:canaanites"
+      "label": "One of the seven nations in the land of",
+      "references": [
+        "Genesis 13:7"
+      ]
+    },
+    {
+      "label": "Territory of, given to Abraham",
+      "references": [
+        "Genesis 15:20",
+        "Exodus 3:8",
+        "Exodus 23:23"
+      ]
+    },
+    {
+      "label": "Doomed to",
+      "references": [
+        "Deuteronomy 20:17"
+      ]
+    },
+    {
+      "label": "Not all",
+      "references": [
+        "Judges 3:5-7",
+        "Ezra 9:1,2"
+      ]
+    },
+    {
+      "label": "See",
+      "references": []
     }
   ],
-  "raw_block": "–One of the seven nations in the land of CanaanGe 13:7\n–Territory of, given to AbrahamGe 15:20;Ex 3:8;23:23\n–Doomed to destructionDe 20:17\n–Not all destroyed; Israelites intermarry withJud 3:5-7;Ezr 9:1,2\n–SeeCANAANITES",
-  "content_preview": "–One of the seven nations in the land of CanaanGe 13:7",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–One of the seven nations in the land of CanaanGe 13:7",
-      "raw_segment": "–One of the seven nations in the land of CanaanGe 13:7"
+      "book": "Genesis",
+      "chapter": 13,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 13:7"
     },
     {
-      "idx": 1,
-      "entry_label": "–Territory of, given to AbrahamGe 15:20;Ex 3:8;23:23",
-      "raw_segment": "–Territory of, given to AbrahamGe 15:20;Ex 3:8;23:23"
+      "book": "Genesis",
+      "chapter": 15,
+      "verses": [
+        20
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 15:20"
     },
     {
-      "idx": 2,
-      "entry_label": "–Doomed to destructionDe 20:17",
-      "raw_segment": "–Doomed to destructionDe 20:17"
+      "book": "Exodus",
+      "chapter": 3,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 3:8"
     },
     {
-      "idx": 3,
-      "entry_label": "–Not all destroyed; Israelites intermarry withJud 3:5-7;Ezr 9:1,2",
-      "raw_segment": "–Not all destroyed; Israelites intermarry withJud 3:5-7;Ezr 9:1,2"
+      "book": "Exodus",
+      "chapter": 23,
+      "verses": [
+        23
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 23:23"
     },
     {
-      "idx": 4,
-      "entry_label": "–SeeCANAANITES",
-      "raw_segment": "–SeeCANAANITES"
+      "book": "Deuteronomy",
+      "chapter": 20,
+      "verses": [
+        17
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 20:17"
+    },
+    {
+      "book": "Judges",
+      "chapter": 3,
+      "verses": [
+        5,
+        6,
+        7
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Judges 3:5-7"
+    },
+    {
+      "book": "Ezra",
+      "chapter": 9,
+      "verses": [
+        1,
+        2
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Ezra 9:1,2"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "Deuteronomy",
+    "Exodus",
+    "Ezra",
+    "Genesis",
+    "Judges"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 5,
+    "total_refs": 7,
+    "ot_refs": 7,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:732448ccf665f2b896ecc792fcca7acb35de6c0da3b8b28174ad4cdbb45c9677",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 5
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 5,
+    "top_books": [
+      "Genesis",
+      "Exodus",
+      "Deuteronomy",
+      "Judges",
+      "Ezra"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:30:00.353345Z",
-  "updated_at": "2025-09-20T17:30:00.353352Z"
+  }
 }

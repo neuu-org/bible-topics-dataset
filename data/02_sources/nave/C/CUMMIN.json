@@ -1,64 +1,54 @@
 {
   "topic": "CUMMIN",
-  "topic_slug": "cummin",
+  "slug": "cummin",
   "canonical_id": "NAV:cummin",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–A plant bearing a small aromatic seedIsa 28:25,27;Mt 23:23",
-  "content_preview": "–A plant bearing a small aromatic seedIsa 28:25,27;Mt 23:23",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–A plant bearing a small aromatic seedIsa 28:25,27;Mt 23:23",
-      "raw_segment": "–A plant bearing a small aromatic seedIsa 28:25,27;Mt 23:23"
+      "label": "A plant bearing a small aromatic seed",
+      "references": [
+        "Isaiah 28:25,27",
+        "Matthew 23:23"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Isaiah",
+      "chapter": 28,
+      "verses": [
+        25,
+        27
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Isaiah 28:25,27"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 23,
+      "verses": [
+        23
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 23:23"
+    }
+  ],
+  "books_mentioned": [
+    "Isaiah",
+    "Matthew"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:c3babab889b915bf8778f390b9cc1a66dfb6dec344877e9db40fac131f7f7b2f",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 1
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 1,
+    "total_refs": 2,
+    "ot_refs": 1,
+    "nt_refs": 1,
+    "books_count": 2,
+    "top_books": [
+      "Isaiah",
+      "Matthew"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:25:22.699184Z",
-  "updated_at": "2025-09-20T17:25:22.699191Z"
+  }
 }

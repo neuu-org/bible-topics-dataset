@@ -1,126 +1,221 @@
 {
   "topic": "EVIDENCE",
   "slug": "evidence",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [
+    "ACCUSATION, FALSE",
+    "FALSE WITNESS",
+    "SELF-CRIMINATION",
+    "WITNESS"
+  ],
+  "aspects": [
     {
-      "name": "LAWS CONCERNING Ex 20:16; 23:1,7; Le 5:1; 24:14; Nu 35:30; De 17:6,7; 19:15-21; Pr 24:28; Mt 18:16; 19:18; Heb 10:28",
+      "label": "LAWS CONCERNING",
       "references": [
-        "Exod 20:16",
-        "Exod 23:1",
-        "Exod 23:7",
-        "Lev 5:1",
-        "Lev 24:14",
-        "Num 35:30",
-        "Deut 17:6",
-        "Deut 17:7",
-        "Deut 19:15-21",
-        "Prov 24:28",
-        "Matt 18:16",
-        "Matt 19:18",
-        "Heb 10:28"
+        "Exodus 20:16",
+        "Exodus 23:1,7",
+        "Leviticus 5:1",
+        "Leviticus 24:14"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "SELF-CRIMINATING Jos 7:19-21",
+      "label": "35:30;",
       "references": [
-        "Josh 7:19-21"
+        "Deuteronomy 17:6,7",
+        "Deuteronomy 19:15-21",
+        "Proverbs 24:28",
+        "Matthew 18:16",
+        "Matthew 19:18",
+        "Hebrews 10:28"
       ],
-      "sub_groups": []
+      "source": "NAV"
+    },
+    {
+      "label": "SELF-CRIMINATING",
+      "references": [
+        "Joshua 7:19-21"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".SeeWITNESS",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".SeeFALSE WITNESS",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".SeeACCUSATION, FALSE",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".SeeSELF-CRIMINATION",
+      "references": [],
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Leviticus",
-      "book_abbrev": "lev",
-      "chapter": 5,
-      "testament": "OT",
+      "book": "Exodus",
+      "chapter": 20,
       "verses": [
-        1,
-        24
+        16
       ],
-      "verse_count": 2
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 20:16"
     },
     {
-      "book": "Numbers",
-      "book_abbrev": "num",
-      "chapter": 35,
+      "book": "Exodus",
+      "chapter": 23,
+      "verses": [
+        1,
+        7
+      ],
+      "verse_count": 2,
       "testament": "OT",
+      "raw": "Exodus 23:1,7"
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 5,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Leviticus 5:1"
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 24,
+      "verses": [
+        14
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Leviticus 24:14"
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 35,
       "verses": [
         30
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Leviticus 35:30"
     },
     {
       "book": "Deuteronomy",
-      "book_abbrev": "deu",
       "chapter": 17,
-      "testament": "OT",
       "verses": [
         6,
-        7,
-        19
+        7
       ],
-      "verse_count": 3
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Deuteronomy 17:6,7"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 19,
+      "verses": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "verse_count": 7,
+      "testament": "OT",
+      "raw": "Deuteronomy 19:15-21"
     },
     {
       "book": "Proverbs",
-      "book_abbrev": "pro",
       "chapter": 24,
-      "testament": "OT",
       "verses": [
         28
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 24:28"
     },
     {
       "book": "Matthew",
-      "book_abbrev": "mat",
       "chapter": 18,
-      "testament": "NT",
       "verses": [
-        16,
-        19
+        16
       ],
-      "verse_count": 2
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 18:16"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 19,
+      "verses": [
+        18
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 19:18"
     },
     {
       "book": "Hebrews",
-      "book_abbrev": "heb",
       "chapter": 10,
-      "testament": "NT",
       "verses": [
         28
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Hebrews 10:28"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 7,
+      "verses": [
+        19,
+        20,
+        21
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Joshua 7:19-21"
     }
   ],
-  "see_also": [
-    "SELF-CRIMINATION",
-    "WITNESS",
-    "ACCUSATION, FALSE",
-    "FALSE WITNESS"
+  "books_mentioned": [
+    "Deuteronomy",
+    "Exodus",
+    "Hebrews",
+    "Joshua",
+    "Leviticus",
+    "Matthew",
+    "Proverbs"
   ],
-  "aliases": [],
   "stats": {
-    "entries_count": 2,
-    "ot_refs": 4,
-    "nt_refs": 2,
-    "total_verses": 6
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.685538+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    },
-    "enriched_at": "2025-12-02T22:02:10.004065+00:00",
-    "enrichment_source": "pipeline_merge"
-  },
-  "version": "3.0.0"
+    "total_aspects": 7,
+    "total_refs": 12,
+    "ot_refs": 9,
+    "nt_refs": 3,
+    "books_count": 7,
+    "top_books": [
+      "Leviticus",
+      "Exodus",
+      "Deuteronomy",
+      "Matthew",
+      "Proverbs",
+      "Hebrews",
+      "Joshua"
+    ]
+  }
 }

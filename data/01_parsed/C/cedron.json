@@ -1,108 +1,151 @@
 {
   "topic": "CEDRON",
   "slug": "cedron",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "(Also called KIDRON)",
+      "label": "(Al",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Brook of, running south under the eastern wall of Jerusalem 1Ki 2:37; Ne 2:15; Jer 31:40",
+      "label": "Brook of, running",
       "references": [
-        "1Kgs 2:37",
-        "Neh 2:15",
-        "Jer 31:40"
+        "1 Kings 2:37",
+        "Nehemiah 2:15",
+        "Jeremiah 31:40"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Idols destroyed on the banks of",
+      "label": "Idols",
       "references": [],
-      "sub_groups": [
-        {
-          "name": "By Asa 1Ki 15:13",
-          "references": [
-            "1Kgs 15:13"
-          ]
-        },
-        {
-          "name": "Josiah 2Ki 23:6,12",
-          "references": [
-            "2Kgs 23:6",
-            "2Kgs 23:12"
-          ]
-        },
-        {
-          "name": "Hezekiah 2Ch 29:16",
-          "references": [
-            "2Chr 29:16"
-          ]
-        }
-      ]
+      "source": "NAV"
     },
     {
-      "name": "Its channel changed by Hezekiah 2Ch 32:4",
+      "label": ".By Asa",
       "references": [
-        "2Chr 32:4"
+        "1 Kings 15:13"
       ],
-      "sub_groups": []
+      "source": "NAV"
+    },
+    {
+      "label": ".Josiah",
+      "references": [
+        "2 Kings 23:6,12"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".Hezekiah",
+      "references": [
+        "2 Chronicles 29:16"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Its channel changed by Hezekiah",
+      "references": [
+        "2 Chronicles 32:4"
+      ],
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Nehemiah",
-      "book_abbrev": "neh",
+      "book": "1 Kings",
       "chapter": 2,
+      "verses": [
+        37
+      ],
+      "verse_count": 1,
       "testament": "OT",
+      "raw": "1 Kings 2:37"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 2,
       "verses": [
         15
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Nehemiah 2:15"
     },
     {
       "book": "Jeremiah",
-      "book_abbrev": "jer",
       "chapter": 31,
-      "testament": "OT",
       "verses": [
         40
       ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 4,
-    "ot_refs": 2,
-    "nt_refs": 0,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.676748+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Jeremiah 31:40"
+    },
     {
-      "book": "John",
-      "chapter": 18,
+      "book": "1 Kings",
+      "chapter": 15,
       "verses": [
-        1
+        13
       ],
       "verse_count": 1,
-      "testament": "NT",
-      "raw": "John 18:1",
-      "source": "EAS"
+      "testament": "OT",
+      "raw": "1 Kings 15:13"
+    },
+    {
+      "book": "2 Kings",
+      "chapter": 23,
+      "verses": [
+        6,
+        12
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "2 Kings 23:6,12"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 29,
+      "verses": [
+        16
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Chronicles 29:16"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 32,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Chronicles 32:4"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Kings",
+    "2 Chronicles",
+    "2 Kings",
+    "Jeremiah",
+    "Nehemiah"
+  ],
+  "stats": {
+    "total_aspects": 7,
+    "total_refs": 7,
+    "ot_refs": 7,
+    "nt_refs": 0,
+    "books_count": 5,
+    "top_books": [
+      "1 Kings",
+      "2 Chronicles",
+      "Nehemiah",
+      "Jeremiah",
+      "2 Kings"
+    ]
+  }
 }

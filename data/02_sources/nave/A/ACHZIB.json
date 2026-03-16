@@ -1,69 +1,85 @@
 {
   "topic": "ACHZIB",
-  "topic_slug": "achzib",
+  "slug": "achzib",
   "canonical_id": "NAV:achzib",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–1. A city of AsherJos 19:29;Jud 1:31\n–2. Also called CHEZIB, a city of JudahGe 38:5;Jos \n15:44",
-  "content_preview": "–1. A city of AsherJos 19:29;Jud 1:31",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–1. A city of AsherJos 19:29;Jud 1:31",
-      "raw_segment": "–1. A city of AsherJos 19:29;Jud 1:31"
+      "label": "1. A city of Asher",
+      "references": [
+        "Joshua 19:29",
+        "Judges 1:31"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–2. Also called CHEZIB, a city of JudahGe 38:5;Jos \n15:44",
-      "raw_segment": "–2. Also called CHEZIB, a city of JudahGe 38:5;Jos \n15:44"
+      "label": "2. Al",
+      "references": [
+        "Genesis 38:5"
+      ]
+    },
+    {
+      "label": "15:44",
+      "references": []
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Joshua",
+      "chapter": 19,
+      "verses": [
+        29
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 19:29"
+    },
+    {
+      "book": "Judges",
+      "chapter": 1,
+      "verses": [
+        31
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Judges 1:31"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 38,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 38:5"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 15,
+      "verses": [
+        44
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 15:44"
+    }
+  ],
+  "books_mentioned": [
+    "Genesis",
+    "Joshua",
+    "Judges"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 3,
+    "total_refs": 4,
+    "ot_refs": 4,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:87d9b0671d7764b1118b7ccbfddecce49d616571162aa3e05682ab3928984b05",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 3
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 3,
+    "top_books": [
+      "Genesis",
+      "Joshua",
+      "Judges"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:23:14.617990Z",
-  "updated_at": "2025-09-20T17:23:14.618017Z"
+  }
 }

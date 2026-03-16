@@ -1,78 +1,80 @@
 {
   "topic": "CART",
-  "topic_slug": "cart",
+  "slug": "cart",
   "canonical_id": "NAV:cart",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "WAGON"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "WAGON",
-      "clean": "WAGON",
-      "slug": "wagon",
-      "canonical_id": "NAV:wagon"
-    }
-  ],
-  "raw_block": "–General scriptures concerning1Sa 6:7-14;2Sa 6:3;Isa 28:27,28\n–SeeWAGON",
-  "content_preview": "–General scriptures concerning1Sa 6:7-14;2Sa 6:3;Isa 28:27,28",
-  "reference_groups": [
-    {
-      "idx": 0,
-      "entry_label": "–General scriptures concerning1Sa 6:7-14;2Sa 6:3;Isa 28:27,28",
-      "raw_segment": "–General scriptures concerning1Sa 6:7-14;2Sa 6:3;Isa 28:27,28"
+      "label": "General scriptures concerning",
+      "references": [
+        "1 Samuel 6:7-14",
+        "2 Samuel 6:3",
+        "Isaiah 28:27,28"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–SeeWAGON",
-      "raw_segment": "–SeeWAGON"
+      "label": "SeeWAGON",
+      "references": []
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "1 Samuel",
+      "chapter": 6,
+      "verses": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "verse_count": 8,
+      "testament": "OT",
+      "raw": "1 Samuel 6:7-14"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 6,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Samuel 6:3"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 28,
+      "verses": [
+        27,
+        28
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Isaiah 28:27,28"
+    }
+  ],
+  "books_mentioned": [
+    "1 Samuel",
+    "2 Samuel",
+    "Isaiah"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 2,
+    "total_refs": 3,
+    "ot_refs": 3,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:dfa1b42b0ed184437efd3abd65af04c07cff3cdc73a4e811c4f50ac6a56bcb4d",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 3,
+    "top_books": [
+      "1 Samuel",
+      "2 Samuel",
+      "Isaiah"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:24:50.158378Z",
-  "updated_at": "2025-09-20T17:24:50.158389Z"
+  }
 }

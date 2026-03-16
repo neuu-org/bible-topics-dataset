@@ -1,74 +1,123 @@
 {
   "topic": "PENNY",
-  "topic_slug": "penny",
+  "slug": "penny",
   "canonical_id": "NAV:penny",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–A denariusMt 18;28;Mr 6:37;14:5;Lu 7:41;10:35\n–Roman, had Caesar’s image on itMt 22:19-21\n–Worth one day’s wagesMt 20:2-14",
-  "content_preview": "–A denariusMt 18;28;Mr 6:37;14:5;Lu 7:41;10:35",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–A denariusMt 18;28;Mr 6:37;14:5;Lu 7:41;10:35",
-      "raw_segment": "–A denariusMt 18;28;Mr 6:37;14:5;Lu 7:41;10:35"
+      "label": "A",
+      "references": [
+        "Mark 6:37",
+        "Mark 14:5",
+        "Luke 7:41",
+        "Luke 10:35"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–Roman, had Caesar’s image on itMt 22:19-21",
-      "raw_segment": "–Roman, had Caesar’s image on itMt 22:19-21"
+      "label": "Roman, had",
+      "references": [
+        "Matthew 22:19-21"
+      ]
     },
     {
-      "idx": 2,
-      "entry_label": "–Worth one day’s wagesMt 20:2-14",
-      "raw_segment": "–Worth one day’s wagesMt 20:2-14"
+      "label": "Worth one day’s wages",
+      "references": [
+        "Matthew 20:2-14"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Mark",
+      "chapter": 6,
+      "verses": [
+        37
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Mark 6:37"
+    },
+    {
+      "book": "Mark",
+      "chapter": 14,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Mark 14:5"
+    },
+    {
+      "book": "Luke",
+      "chapter": 7,
+      "verses": [
+        41
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 7:41"
+    },
+    {
+      "book": "Luke",
+      "chapter": 10,
+      "verses": [
+        35
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 10:35"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 22,
+      "verses": [
+        19,
+        20,
+        21
+      ],
+      "verse_count": 3,
+      "testament": "NT",
+      "raw": "Matthew 22:19-21"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 20,
+      "verses": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "verse_count": 13,
+      "testament": "NT",
+      "raw": "Matthew 20:2-14"
+    }
+  ],
+  "books_mentioned": [
+    "Luke",
+    "Mark",
+    "Matthew"
+  ],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 3,
+    "total_refs": 6,
     "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:1c8ab3ac6b55ff60bb079d585d0cc5bc3b84e6acfafb0607309daf2f0d6671b8",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 3
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "nt_refs": 6,
+    "books_count": 3,
+    "top_books": [
+      "Mark",
+      "Luke",
+      "Matthew"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:29:58.509301Z",
-  "updated_at": "2025-09-20T17:29:58.509308Z"
+  }
 }

@@ -1,63 +1,33 @@
 {
   "topic": "KERIOTH",
   "slug": "kerioth",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. A city of the tribe of Judah Jos 15:25",
-      "references": [
-        "Josh 15:25"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "2. Also called KIRIOTH",
-      "references": [],
-      "sub_groups": [
-        {
-          "name": "A city of Moab Jer 48:24,41; Am 2:2",
-          "references": [
-            "Jer 48:24",
-            "Jer 48:41",
-            "Amos 2:2"
-          ]
-        }
-      ]
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Amos",
-      "book_abbrev": "amo",
-      "chapter": 2,
-      "testament": "OT",
-      "verses": [
-        2
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.698672+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "1. A city of the tribe of",
+      "references": [
+        "Joshua 15:25"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2. Al",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".A city of Moab",
+      "references": [
+        "Jeremiah 48:24,41",
+        "Amos 2:2"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Joshua",
       "chapter": 15,
@@ -66,8 +36,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Joshua 15:25",
-      "source": "EAS"
+      "raw": "Joshua 15:25"
     },
     {
       "book": "Jeremiah",
@@ -78,8 +47,7 @@
       ],
       "verse_count": 2,
       "testament": "OT",
-      "raw": "Jeremiah 48:24, 41",
-      "source": "EAS"
+      "raw": "Jeremiah 48:24,41"
     },
     {
       "book": "Amos",
@@ -89,8 +57,24 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Amos 2:2",
-      "source": "EAS"
+      "raw": "Amos 2:2"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Amos",
+    "Jeremiah",
+    "Joshua"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 3,
+    "ot_refs": 3,
+    "nt_refs": 0,
+    "books_count": 3,
+    "top_books": [
+      "Joshua",
+      "Jeremiah",
+      "Amos"
+    ]
+  }
 }

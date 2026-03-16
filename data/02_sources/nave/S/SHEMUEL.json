@@ -1,83 +1,72 @@
 {
   "topic": "SHEMUEL",
-  "topic_slug": "shemuel",
+  "slug": "shemuel",
   "canonical_id": "NAV:shemuel",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "SAMUEL"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "SAMUEL",
-      "clean": "SAMUEL",
-      "slug": "samuel",
-      "canonical_id": "NAV:samuel"
-    }
-  ],
-  "raw_block": "–1. A Simeonite appointed on the committee to divide up the land \nof CanaanNu 34:20\n–2. SHEMUEL\n  .SeeSAMUEL\n–3. Head of a family in the tribe of Issachar1Ch 7:2",
-  "content_preview": "–1. A Simeonite appointed on the committee to divide up the land ",
-  "reference_groups": [
-    {
-      "idx": 0,
-      "entry_label": "–1. A Simeonite appointed on the committee to divide up the land \nof CanaanNu 34:20",
-      "raw_segment": "–1. A Simeonite appointed on the committee to divide up the land \nof CanaanNu 34:20"
+      "label": "1. A Simeonite appointed on the committee to divi",
+      "references": []
     },
     {
-      "idx": 1,
-      "entry_label": "–2. SHEMUEL",
-      "raw_segment": "–2. SHEMUEL"
+      "label": "of",
+      "references": [
+        "Numbers 34:20"
+      ]
     },
     {
-      "idx": 2,
-      "entry_label": "–3. Head of a family in the tribe of Issachar1Ch 7:2",
-      "raw_segment": "–3. Head of a family in the tribe of Issachar1Ch 7:2"
+      "label": "2. SHEMUEL",
+      "references": []
+    },
+    {
+      "label": ".SeeSAMUEL",
+      "references": []
+    },
+    {
+      "label": "3. Head of a family in the tribe of Issachar",
+      "references": [
+        "1 Chronicles 7:2"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Numbers",
+      "chapter": 34,
+      "verses": [
+        20
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Numbers 34:20"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 7,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 7:2"
+    }
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Numbers"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 5,
+    "total_refs": 2,
+    "ot_refs": 2,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:51f715cc163d46dee4d1d90f1d09d805e76f8f5afc9f99725ee9b01ae5f8cc10",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 5
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 2,
+    "top_books": [
+      "Numbers",
+      "1 Chronicles"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:31:18.831156Z",
-  "updated_at": "2025-09-20T17:31:18.831167Z"
+  }
 }

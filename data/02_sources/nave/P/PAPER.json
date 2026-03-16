@@ -1,78 +1,46 @@
 {
   "topic": "PAPER",
-  "topic_slug": "paper",
+  "slug": "paper",
   "canonical_id": "NAV:paper",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "PARCHMENT"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "PARCHMENT",
-      "clean": "PARCHMENT",
-      "slug": "parchment",
-      "canonical_id": "NAV:parchment"
-    }
-  ],
-  "raw_block": "–General scriptures concerning2Jo 1:12\n–SeePARCHMENT",
-  "content_preview": "–General scriptures concerning2Jo 1:12",
-  "reference_groups": [
-    {
-      "idx": 0,
-      "entry_label": "–General scriptures concerning2Jo 1:12",
-      "raw_segment": "–General scriptures concerning2Jo 1:12"
+      "label": "General scriptures concerning",
+      "references": [
+        "Job 1:12"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–SeePARCHMENT",
-      "raw_segment": "–SeePARCHMENT"
+      "label": "SeePARCHMENT",
+      "references": []
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Job",
+      "chapter": 1,
+      "verses": [
+        12
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Job 1:12"
+    }
+  ],
+  "books_mentioned": [
+    "Job"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 2,
+    "total_refs": 1,
+    "ot_refs": 1,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:fcc7502071fdc543c492a96411ff6b86988ed4c95ff2fa06d2f74b4f0f12f9a5",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 1,
+    "top_books": [
+      "Job"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:29:49.362870Z",
-  "updated_at": "2025-09-20T17:29:49.362880Z"
+  }
 }

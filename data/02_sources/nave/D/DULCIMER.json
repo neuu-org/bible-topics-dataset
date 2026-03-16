@@ -1,78 +1,48 @@
 {
   "topic": "DULCIMER",
-  "topic_slug": "dulcimer",
+  "slug": "dulcimer",
   "canonical_id": "NAV:dulcimer",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "MUSIC, INSTRUMENTS OF"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "MUSIC, INSTRUMENTS OF",
-      "clean": "MUSIC, INSTRUMENTS OF",
-      "slug": "music__instruments_of",
-      "canonical_id": "NAV:music__instruments_of"
-    }
-  ],
-  "raw_block": "–(R. V., margin, bagpipe)Da 3:5,10,15\n–SeeMUSIC, INSTRUMENTS OF",
-  "content_preview": "–(R. V., margin, bagpipe)Da 3:5,10,15",
-  "reference_groups": [
-    {
-      "idx": 0,
-      "entry_label": "–(R. V., margin, bagpipe)Da 3:5,10,15",
-      "raw_segment": "–(R. V., margin, bagpipe)Da 3:5,10,15"
+      "label": "(R. V., margin, bagpipe)",
+      "references": [
+        "Daniel 3:5,10,15"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–SeeMUSIC, INSTRUMENTS OF",
-      "raw_segment": "–SeeMUSIC, INSTRUMENTS OF"
+      "label": "SeeMUSIC, INSTRUMENTS OF",
+      "references": []
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Daniel",
+      "chapter": 3,
+      "verses": [
+        5,
+        10,
+        15
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Daniel 3:5,10,15"
+    }
+  ],
+  "books_mentioned": [
+    "Daniel"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 2,
+    "total_refs": 1,
+    "ot_refs": 1,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:fbd0c8877bb88eb67deb5157987f9bde1b28d81ef0346b23ec3d0fdacaffbf10",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 1,
+    "top_books": [
+      "Daniel"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:25:43.190556Z",
-  "updated_at": "2025-09-20T17:25:43.190564Z"
+  }
 }

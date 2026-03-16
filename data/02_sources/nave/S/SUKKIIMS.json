@@ -1,69 +1,44 @@
 {
   "topic": "SUKKIIMS",
-  "topic_slug": "sukkiims",
+  "slug": "sukkiims",
   "canonical_id": "NAV:sukkiims",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–(An African race)\n–Invaded Judah with Shishak2Ch 12:3",
-  "content_preview": "–(An African race)",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–(An African race)",
-      "raw_segment": "–(An African race)"
+      "label": "(An Afri",
+      "references": []
     },
     {
-      "idx": 1,
-      "entry_label": "–Invaded Judah with Shishak2Ch 12:3",
-      "raw_segment": "–Invaded Judah with Shishak2Ch 12:3"
+      "label": "Inva",
+      "references": [
+        "2 Chronicles 12:3"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "2 Chronicles",
+      "chapter": 12,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Chronicles 12:3"
+    }
+  ],
+  "books_mentioned": [
+    "2 Chronicles"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 2,
+    "total_refs": 1,
+    "ot_refs": 1,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:86ef0fa1577e93e42a32040a865841517815d9859e40cfe5557bd66a638d1956",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 1,
+    "top_books": [
+      "2 Chronicles"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:31:51.996827Z",
-  "updated_at": "2025-09-20T17:31:51.996835Z"
+  }
 }

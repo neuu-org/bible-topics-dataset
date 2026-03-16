@@ -1,73 +1,48 @@
 {
   "topic": "LEMUEL",
   "slug": "lemuel",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "(A king)",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "Probably refers to Solomon Pr 31:1,4",
-      "references": [
-        "Prov 31:1",
-        "Prov 31:4"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.700618+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "(A king)",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "Probably refers to",
+      "references": [
+        "Proverbs 31:1,4"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Proverbs",
       "chapter": 31,
       "verses": [
         1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9
+        4
       ],
-      "verse_count": 9,
+      "verse_count": 2,
       "testament": "OT",
-      "raw": "Proverbs 31:1-9",
-      "source": "EAS"
-    },
-    {
-      "book": "Proverbs",
-      "chapter": 30,
-      "verses": [
-        1
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Proverbs 30:1",
-      "source": "SMI"
+      "raw": "Proverbs 31:1,4"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Proverbs"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 1,
+    "ot_refs": 1,
+    "nt_refs": 0,
+    "books_count": 1,
+    "top_books": [
+      "Proverbs"
+    ]
+  }
 }

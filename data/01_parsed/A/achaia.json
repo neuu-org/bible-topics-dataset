@@ -1,144 +1,65 @@
 {
   "topic": "ACHAIA",
   "slug": "achaia",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "(A region of Greece)",
+      "label": "(A region of Greece)",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Paul visits Ac 18; 19:21; Ro 16:5; 1Co 16:15; 2Co 1:1",
+      "label": "Paul visitsAc 18;19:21;",
       "references": [
-        "Acts 18",
-        "Acts 19:21",
-        "Rom 16:5",
-        "1Cor 16:15",
-        "2Cor 1:1"
+        "Romans 16:5",
+        "1 Corinthians 16:15",
+        "2 Corinthians 1:1"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Benevolence of the Christians in Ro 15:26; 2Co 9:2; 11:10",
+      "label": "Benevolence of the Christians in",
       "references": [
-        "Rom 15:26",
-        "2Cor 9:2",
-        "2Cor 11:10"
+        "Romans 15:26",
+        "2 Corinthians 9:2",
+        "2 Corinthians 11:10"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
       "book": "Romans",
-      "book_abbrev": "rom",
       "chapter": 16,
-      "testament": "NT",
       "verses": [
-        1,
         5
       ],
-      "verse_count": 2
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Romans 16:5"
     },
     {
       "book": "1 Corinthians",
-      "book_abbrev": "1co",
       "chapter": 16,
-      "testament": "NT",
       "verses": [
-        2,
         15
       ],
-      "verse_count": 2
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "1 Corinthians 16:15"
     },
     {
       "book": "2 Corinthians",
-      "book_abbrev": "2co",
       "chapter": 1,
-      "testament": "NT",
       "verses": [
         1
       ],
-      "verse_count": 1
-    },
-    {
-      "book": "2 Corinthians",
-      "book_abbrev": "2co",
-      "chapter": 9,
-      "testament": "NT",
-      "verses": [
-        2,
-        11
-      ],
-      "verse_count": 2
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 0,
-    "nt_refs": 4,
-    "total_verses": 4
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.660907+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "Acts",
-      "chapter": 18,
-      "verses": [
-        12,
-        27
-      ],
-      "verse_count": 2,
-      "testament": "NT",
-      "raw": "Acts 18:12, 27",
-      "source": "EAS"
-    },
-    {
-      "book": "Acts",
-      "chapter": 19,
-      "verses": [
-        21
-      ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Acts 19:21",
-      "source": "EAS"
-    },
-    {
-      "book": "Romans",
-      "chapter": 16,
-      "verses": [
-        5
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Romans 16:5",
-      "source": "EAS"
-    },
-    {
-      "book": "Acts",
-      "chapter": 18,
-      "verses": [
-        12
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Acts 18:12",
-      "source": "EAS"
+      "raw": "2 Corinthians 1:1"
     },
     {
       "book": "Romans",
@@ -148,30 +69,7 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Romans 15:26",
-      "source": "SMI"
-    },
-    {
-      "book": "1 Corinthians",
-      "chapter": 16,
-      "verses": [
-        15
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "1 Corinthians 16:15",
-      "source": "SMI"
-    },
-    {
-      "book": "2 Corinthians",
-      "chapter": 7,
-      "verses": [
-        5
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "2 Corinthians 7:5",
-      "source": "SMI"
+      "raw": "Romans 15:26"
     },
     {
       "book": "2 Corinthians",
@@ -181,8 +79,7 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "2 Corinthians 9:2",
-      "source": "SMI"
+      "raw": "2 Corinthians 9:2"
     },
     {
       "book": "2 Corinthians",
@@ -192,20 +89,24 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "2 Corinthians 11:10",
-      "source": "SMI"
-    },
-    {
-      "book": "1 Thessalonians",
-      "chapter": 1,
-      "verses": [
-        7,
-        8
-      ],
-      "verse_count": 2,
-      "testament": "NT",
-      "raw": "1 Thessalonians 1:7,8",
-      "source": "SMI"
+      "raw": "2 Corinthians 11:10"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Corinthians",
+    "2 Corinthians",
+    "Romans"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 6,
+    "ot_refs": 0,
+    "nt_refs": 6,
+    "books_count": 3,
+    "top_books": [
+      "2 Corinthians",
+      "Romans",
+      "1 Corinthians"
+    ]
+  }
 }

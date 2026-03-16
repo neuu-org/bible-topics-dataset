@@ -1,63 +1,33 @@
 {
   "topic": "BUL",
   "slug": "bul",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "(The eighth month (November))",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "The temple completed in 1Ki 6:38",
-      "references": [
-        "1Kgs 6:38"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Jeroboam institutes an idolatrous feast in, to correspond with the Feast of Tabernacles 1Ki 12:32,33; 1Ch 27:11",
-      "references": [
-        "1Kgs 12:32",
-        "1Kgs 12:33",
-        "1Chr 27:11"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "1 Chronicles",
-      "book_abbrev": "1ch",
-      "chapter": 27,
-      "testament": "OT",
-      "verses": [
-        11
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.675657+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "(The eighth month (November))",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "The temple completed in",
+      "references": [
+        "1 Kings 6:38"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "the Feast of Tabernacles",
+      "references": [
+        "1 Kings 12:32,33",
+        "1 Chronicles 27:11"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "1 Kings",
       "chapter": 6,
@@ -66,8 +36,43 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Kings 6:38",
-      "source": "EAS"
+      "raw": "1 Kings 6:38"
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 12,
+      "verses": [
+        32,
+        33
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "1 Kings 12:32,33"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 27,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 27:11"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "1 Kings"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 3,
+    "ot_refs": 3,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "1 Kings",
+      "1 Chronicles"
+    ]
+  }
 }

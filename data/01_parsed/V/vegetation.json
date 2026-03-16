@@ -1,44 +1,71 @@
 {
   "topic": "VEGETATION",
   "slug": "vegetation",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Created on the third day Ge 1:11; 2:5",
-      "references": [
-        "Gen 1:11",
-        "Gen 2:5"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "For food Ge 1:29,30",
-      "references": [
-        "Gen 1:29",
-        "Gen 1:30"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.732518+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "Created on the third day",
+      "references": [
+        "Genesis 1:11",
+        "Genesis 2:5"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "For food",
+      "references": [
+        "Genesis 1:29,30"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0"
+  ],
+  "biblical_references": [
+    {
+      "book": "Genesis",
+      "chapter": 1,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 1:11"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 2,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 2:5"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 1,
+      "verses": [
+        29,
+        30
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Genesis 1:29,30"
+    }
+  ],
+  "books_mentioned": [
+    "Genesis"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 3,
+    "ot_refs": 3,
+    "nt_refs": 0,
+    "books_count": 1,
+    "top_books": [
+      "Genesis"
+    ]
+  }
 }

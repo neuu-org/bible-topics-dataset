@@ -1,78 +1,47 @@
 {
   "topic": "ISH-TOB",
-  "topic_slug": "ish_tob",
+  "slug": "ish_tob",
   "canonical_id": "NAV:ish_tob",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "TOB"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "TOB",
-      "clean": "TOB",
-      "slug": "tob",
-      "canonical_id": "NAV:tob"
-    }
-  ],
-  "raw_block": "–A small state of Aram2Sa 10:6,8\n–SeeTOB",
-  "content_preview": "–A small state of Aram2Sa 10:6,8",
-  "reference_groups": [
-    {
-      "idx": 0,
-      "entry_label": "–A small state of Aram2Sa 10:6,8",
-      "raw_segment": "–A small state of Aram2Sa 10:6,8"
+      "label": "A small state of Aram",
+      "references": [
+        "2 Samuel 10:6,8"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–SeeTOB",
-      "raw_segment": "–SeeTOB"
+      "label": "SeeTOB",
+      "references": []
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "2 Samuel",
+      "chapter": 10,
+      "verses": [
+        6,
+        8
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "2 Samuel 10:6,8"
+    }
+  ],
+  "books_mentioned": [
+    "2 Samuel"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 2,
+    "total_refs": 1,
+    "ot_refs": 1,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:6b088c19322eb157e2b9e4223379a94892e046c3d6850b67db1eeb5b1a33ca1d",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 1,
+    "top_books": [
+      "2 Samuel"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:27:40.635259Z",
-  "updated_at": "2025-09-20T17:27:40.635266Z"
+  }
 }

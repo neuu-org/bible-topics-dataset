@@ -1,111 +1,36 @@
 {
   "topic": "APPLE",
   "slug": "apple",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "A fruit Pr 25:11; So 2:3,5; 7:8; 8:5; Joe 1:12",
+      "label": "A fruit",
       "references": [
-        "Prov 25:11",
-        "Song 2:3",
-        "Song 2:5",
-        "Song 7:8",
-        "Song 8:5",
+        "Proverbs 25:11",
+        "Song of Solomon 2:3,5",
+        "Song of Solomon 7:8",
+        "Song of Solomon 8:5",
         "Joel 1:12"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Joel",
-      "book_abbrev": "jol",
-      "chapter": 1,
-      "testament": "OT",
-      "verses": [
-        12
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.669285+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "Joel",
-      "chapter": 1,
-      "verses": [
-        12
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Joel 1:12",
-      "source": "EAS"
-    },
-    {
       "book": "Proverbs",
-      "chapter": 7,
+      "chapter": 25,
       "verses": [
-        2
+        11
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Proverbs 7:2",
-      "source": "EAS"
+      "raw": "Proverbs 25:11"
     },
     {
-      "book": "Zechariah",
-      "chapter": 2,
-      "verses": [
-        8
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Zechariah 2:8",
-      "source": "EAS"
-    },
-    {
-      "book": "Psalms",
-      "chapter": 17,
-      "verses": [
-        8
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Psalms 17:8",
-      "source": "EAS"
-    },
-    {
-      "book": "Deuteronomy",
-      "chapter": 32,
-      "verses": [
-        10
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Deuteronomy 32:10",
-      "source": "EAS"
-    },
-    {
-      "book": "Joel",
+      "book": "Song of Solomon",
       "chapter": 2,
       "verses": [
         3,
@@ -113,30 +38,54 @@
       ],
       "verse_count": 2,
       "testament": "OT",
-      "raw": "Joel 2:3, 5",
-      "source": "EAS"
+      "raw": "Song of Solomon 2:3,5"
     },
     {
-      "book": "Joel",
+      "book": "Song of Solomon",
+      "chapter": 7,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Song of Solomon 7:8"
+    },
+    {
+      "book": "Song of Solomon",
       "chapter": 8,
       "verses": [
         5
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Joel 8:5",
-      "source": "EAS"
+      "raw": "Song of Solomon 8:5"
     },
     {
-      "book": "Micah",
-      "chapter": 7,
+      "book": "Joel",
+      "chapter": 1,
       "verses": [
-        4
+        12
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Micah 7:4",
-      "source": "EAS"
+      "raw": "Joel 1:12"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Joel",
+    "Proverbs",
+    "Song of Solomon"
+  ],
+  "stats": {
+    "total_aspects": 1,
+    "total_refs": 5,
+    "ot_refs": 5,
+    "nt_refs": 0,
+    "books_count": 3,
+    "top_books": [
+      "Song of Solomon",
+      "Proverbs",
+      "Joel"
+    ]
+  }
 }

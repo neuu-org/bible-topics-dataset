@@ -1,69 +1,103 @@
 {
   "topic": "ALPHA",
-  "topic_slug": "alpha",
+  "slug": "alpha",
   "canonical_id": "NAV:alpha",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–A title of ChristRe 1:8,11;21:6;22:13\n–CompareIsa 41:4;44:6;48:12",
-  "content_preview": "–A title of ChristRe 1:8,11;21:6;22:13",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–A title of ChristRe 1:8,11;21:6;22:13",
-      "raw_segment": "–A title of ChristRe 1:8,11;21:6;22:13"
+      "label": "A title of Christ",
+      "references": [
+        "Revelation 1:8,11",
+        "Revelation 21:6",
+        "Revelation 22:13"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–CompareIsa 41:4;44:6;48:12",
-      "raw_segment": "–CompareIsa 41:4;44:6;48:12"
+      "label": "Compare",
+      "references": [
+        "Isaiah 41:4",
+        "Isaiah 44:6",
+        "Isaiah 48:12"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Revelation",
+      "chapter": 1,
+      "verses": [
+        8,
+        11
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Revelation 1:8,11"
+    },
+    {
+      "book": "Revelation",
+      "chapter": 21,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Revelation 21:6"
+    },
+    {
+      "book": "Revelation",
+      "chapter": 22,
+      "verses": [
+        13
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Revelation 22:13"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 41,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 41:4"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 44,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 44:6"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 48,
+      "verses": [
+        12
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 48:12"
+    }
+  ],
+  "books_mentioned": [
+    "Isaiah",
+    "Revelation"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:97c6c9e43af241fd69fb4e44044209af770987900dcfec4ed476863ce62f7990",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 2,
+    "total_refs": 6,
+    "ot_refs": 3,
+    "nt_refs": 3,
+    "books_count": 2,
+    "top_books": [
+      "Revelation",
+      "Isaiah"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:23:29.899855Z",
-  "updated_at": "2025-09-20T17:23:29.899864Z"
+  }
 }

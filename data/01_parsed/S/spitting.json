@@ -1,79 +1,125 @@
 {
   "topic": "SPITTING",
   "slug": "spitting",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "In the face, as an indignity Nu 12:14; De 25:9; Job 30:10; Mt 26:67; 27:30",
+      "label": "In the face, as an indignity",
       "references": [
-        "Num 12:14",
-        "Deut 25:9",
-        "Job 30:10",
-        "Matt 26:67",
-        "Matt 27:30"
+        "Numbers 12:14",
+        "Deuteronomy 25:9"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Jesus used spittle for healing Mr 7:33; 8:23",
+      "label": "30:10;",
+      "references": [
+        "Matthew 26:67",
+        "Matthew 27:30"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Jesus used spittle for healing",
       "references": [
         "Mark 7:33",
         "Mark 8:23"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Deuteronomy",
-      "book_abbrev": "deu",
-      "chapter": 25,
+      "book": "Numbers",
+      "chapter": 12,
+      "verses": [
+        14
+      ],
+      "verse_count": 1,
       "testament": "OT",
+      "raw": "Numbers 12:14"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 25,
       "verses": [
         9
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 25:9"
     },
     {
-      "book": "Job",
-      "book_abbrev": "job",
+      "book": "Deuteronomy",
       "chapter": 30,
-      "testament": "OT",
       "verses": [
         10
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 30:10"
     },
     {
       "book": "Matthew",
-      "book_abbrev": "mat",
       "chapter": 26,
-      "testament": "NT",
       "verses": [
-        27,
         67
       ],
-      "verse_count": 2
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 26:67"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 27,
+      "verses": [
+        30
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 27:30"
+    },
+    {
+      "book": "Mark",
+      "chapter": 7,
+      "verses": [
+        33
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Mark 7:33"
+    },
+    {
+      "book": "Mark",
+      "chapter": 8,
+      "verses": [
+        23
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Mark 8:23"
     }
   ],
-  "see_also": [],
-  "aliases": [],
+  "books_mentioned": [
+    "Deuteronomy",
+    "Mark",
+    "Matthew",
+    "Numbers"
+  ],
   "stats": {
-    "entries_count": 2,
-    "ot_refs": 2,
-    "nt_refs": 1,
-    "total_verses": 3
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.727405+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    }
-  },
-  "version": "3.0.0"
+    "total_aspects": 3,
+    "total_refs": 7,
+    "ot_refs": 3,
+    "nt_refs": 4,
+    "books_count": 4,
+    "top_books": [
+      "Deuteronomy",
+      "Matthew",
+      "Mark",
+      "Numbers"
+    ]
+  }
 }

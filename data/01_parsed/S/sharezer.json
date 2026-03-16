@@ -1,57 +1,33 @@
 {
   "topic": "SHAREZER",
   "slug": "sharezer",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. Son of Sennacherib 2Ki 19:37; Isa 37:38",
-      "references": [
-        "2Kgs 19:37",
-        "Isa 37:38"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "2. (R. V.) A delegate to priests and prophets to consult as to a day of humiliation Zec 7:2",
-      "references": [
-        "Zech 7:2"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Isaiah",
-      "book_abbrev": "isa",
-      "chapter": 37,
-      "testament": "OT",
-      "verses": [
-        38
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.724460+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "1.",
+      "references": [
+        "2 Kings 19:37",
+        "Isaiah 37:38"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2. (R. V.) A",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "a day of humiliation",
+      "references": [
+        "Ecclesiastes 7:2"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "2 Kings",
       "chapter": 19,
@@ -60,8 +36,44 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Kings 19:37",
-      "source": "EAS"
+      "raw": "2 Kings 19:37"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 37,
+      "verses": [
+        38
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 37:38"
+    },
+    {
+      "book": "Ecclesiastes",
+      "chapter": 7,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ecclesiastes 7:2"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "2 Kings",
+    "Ecclesiastes",
+    "Isaiah"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 3,
+    "ot_refs": 3,
+    "nt_refs": 0,
+    "books_count": 3,
+    "top_books": [
+      "2 Kings",
+      "Isaiah",
+      "Ecclesiastes"
+    ]
+  }
 }

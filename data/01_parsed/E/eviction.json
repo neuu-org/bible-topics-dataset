@@ -1,49 +1,55 @@
 {
   "topic": "EVICTION",
   "slug": "eviction",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "Of tenants Mt 21:41; Mr 12:9",
+      "label": "Of tenants",
       "references": [
-        "Matt 21:41",
+        "Matthew 21:41",
         "Mark 12:9"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Mark",
-      "book_abbrev": "mrk",
-      "chapter": 12,
+      "book": "Matthew",
+      "chapter": 21,
+      "verses": [
+        41
+      ],
+      "verse_count": 1,
       "testament": "NT",
+      "raw": "Matthew 21:41"
+    },
+    {
+      "book": "Mark",
+      "chapter": 12,
       "verses": [
         9
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Mark 12:9"
     }
   ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 1,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
+  "books_mentioned": [
+    "Mark",
+    "Matthew"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.685532+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    },
-    "enriched_at": "2025-12-02T22:02:10.002024+00:00",
-    "enrichment_source": "pipeline_merge"
-  },
-  "version": "3.0.0"
+  "stats": {
+    "total_aspects": 1,
+    "total_refs": 2,
+    "ot_refs": 0,
+    "nt_refs": 2,
+    "books_count": 2,
+    "top_books": [
+      "Matthew",
+      "Mark"
+    ]
+  }
 }

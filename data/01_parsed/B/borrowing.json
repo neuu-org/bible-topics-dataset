@@ -1,55 +1,76 @@
 {
   "topic": "BORROWING",
   "slug": "borrowing",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [
+    "INTEREST",
+    "LENDING",
+    "TROUBLE, BORROWING"
+  ],
+  "aspects": [
     {
-      "name": "General scriptures concerning Ex 22:14,15; Ne 5:1-13; Ps 37:21; Pr 22:7; Mt 5:42",
+      "label": "General scriptures concerning",
       "references": [
-        "Exod 22:14",
-        "Exod 22:15",
-        "Neh 5:1-13",
-        "Ps 37:21",
-        "Prov 22:7",
-        "Matt 5:42"
+        "Exodus 22:14,15",
+        "Nehemiah 5:1-13",
+        "Psalms 37:21",
+        "Proverbs 22:7",
+        "Matthew 5:42"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See LENDING",
+      "label": "SeeLENDING",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See INTEREST",
+      "label": "SeeINTEREST",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "INSTANCES OF",
+      "label": "INSTANCES OF",
       "references": [],
-      "sub_groups": [
-        {
-          "name": "Israelites from the Egyptians Ex 3:22; 11:2; 12:35",
-          "references": [
-            "Exod 3:22",
-            "Exod 11:2",
-            "Exod 12:35"
-          ]
-        },
-        {
-          "name": "Borrowing trouble",
-          "references": []
-        }
-      ]
+      "source": "NAV"
+    },
+    {
+      "label": ".Israelites from the Egyptians",
+      "references": [
+        "Exodus 3:22",
+        "Exodus 11:2",
+        "Exodus 12:35"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".Borrowing trouble",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeTROUBLE, BORROWING",
+      "references": [],
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Nehemiah",
-      "book_abbrev": "neh",
-      "chapter": 5,
+      "book": "Exodus",
+      "chapter": 22,
+      "verses": [
+        14,
+        15
+      ],
+      "verse_count": 2,
       "testament": "OT",
+      "raw": "Exodus 22:14,15"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 5,
       "verses": [
         1,
         2,
@@ -65,61 +86,90 @@
         12,
         13
       ],
-      "verse_count": 13
+      "verse_count": 13,
+      "testament": "OT",
+      "raw": "Nehemiah 5:1-13"
     },
     {
       "book": "Psalms",
-      "book_abbrev": "psa",
       "chapter": 37,
-      "testament": "OT",
       "verses": [
         21
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 37:21"
     },
     {
       "book": "Proverbs",
-      "book_abbrev": "pro",
       "chapter": 22,
-      "testament": "OT",
       "verses": [
         7
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 22:7"
     },
     {
       "book": "Matthew",
-      "book_abbrev": "mat",
       "chapter": 5,
-      "testament": "NT",
       "verses": [
         42
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 5:42"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 3,
+      "verses": [
+        22
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 3:22"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 11,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 11:2"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 12,
+      "verses": [
+        35
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 12:35"
     }
   ],
-  "see_also": [
-    "INTEREST",
-    "LENDING",
-    "TROUBLE, BORROWING"
+  "books_mentioned": [
+    "Exodus",
+    "Matthew",
+    "Nehemiah",
+    "Proverbs",
+    "Psalms"
   ],
-  "aliases": [],
   "stats": {
-    "entries_count": 4,
-    "ot_refs": 3,
+    "total_aspects": 7,
+    "total_refs": 8,
+    "ot_refs": 7,
     "nt_refs": 1,
-    "total_verses": 4
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.675190+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    }
-  },
-  "version": "3.0.0"
+    "books_count": 5,
+    "top_books": [
+      "Exodus",
+      "Nehemiah",
+      "Psalms",
+      "Proverbs",
+      "Matthew"
+    ]
+  }
 }

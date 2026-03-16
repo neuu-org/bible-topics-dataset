@@ -1,64 +1,44 @@
 {
   "topic": "ONESIMUS",
-  "topic_slug": "onesimus",
+  "slug": "onesimus",
   "canonical_id": "NAV:onesimus",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–A fugitive slave and subsequent convert of PaulCol \n4:9;Phm 1:10",
-  "content_preview": "–A fugitive slave and subsequent convert of PaulCol ",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–A fugitive slave and subsequent convert of PaulCol \n4:9;Phm 1:10",
-      "raw_segment": "–A fugitive slave and subsequent convert of PaulCol \n4:9;Phm 1:10"
+      "label": "A fugitive slave and subsequent convert of PaulCol",
+      "references": []
+    },
+    {
+      "label": "4:9;",
+      "references": [
+        "Philemon 1:10"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Philemon",
+      "chapter": 1,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Philemon 1:10"
+    }
+  ],
+  "books_mentioned": [
+    "Philemon"
+  ],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 2,
+    "total_refs": 1,
     "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:4c4f1ab802b4211ea7770bc3deaa73dadfde46c2f6c0fa21115db3de329b46b5",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "nt_refs": 1,
+    "books_count": 1,
+    "top_books": [
+      "Philemon"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:29:42.054448Z",
-  "updated_at": "2025-09-20T17:29:42.054457Z"
+  }
 }

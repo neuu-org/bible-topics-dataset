@@ -1,49 +1,96 @@
 {
   "topic": "DISCIPLINE",
   "slug": "discipline",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Of armies, for disobedience of orders Jos 7:10-26; Jud 21:5-12",
-      "references": [
-        "Josh 7:10-26",
-        "Judg 21:5-12"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "See ARMIES",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "CHURCH DISCIPLINE",
-      "references": [],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [
-    "CHURCH, DISCIPLINE IN",
-    "ARMIES"
-  ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.681916+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
+  "see_also": [
+    "ARMIES",
+    "CHURCH, DISCIPLINE IN"
+  ],
+  "aspects": [
+    {
+      "label": "Of armies, for di",
+      "references": [
+        "Joshua 7:10-26",
+        "Judges 21:5-12"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeARMIES",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "CHURCH DISCIPLINE",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".SeeCHURCH, DISCIPLINE IN",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0"
+  ],
+  "biblical_references": [
+    {
+      "book": "Joshua",
+      "chapter": 7,
+      "verses": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "verse_count": 17,
+      "testament": "OT",
+      "raw": "Joshua 7:10-26"
+    },
+    {
+      "book": "Judges",
+      "chapter": 21,
+      "verses": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "verse_count": 8,
+      "testament": "OT",
+      "raw": "Judges 21:5-12"
+    }
+  ],
+  "books_mentioned": [
+    "Joshua",
+    "Judges"
+  ],
+  "stats": {
+    "total_aspects": 4,
+    "total_refs": 2,
+    "ot_refs": 2,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "Joshua",
+      "Judges"
+    ]
+  }
 }

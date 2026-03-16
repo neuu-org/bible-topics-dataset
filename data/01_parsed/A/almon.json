@@ -1,45 +1,27 @@
 {
   "topic": "ALMON",
   "slug": "almon",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Levitical city of refuge Jos 21:18",
-      "references": [
-        "Josh 21:18"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Called ALEMETH 1Ch 6:60",
-      "references": [
-        "1Chr 6:60"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.662607+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "Leviti",
+      "references": [
+        "Joshua 21:18"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "General references",
+      "references": [
+        "1 Chronicles 6:60"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Joshua",
       "chapter": 21,
@@ -48,8 +30,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Joshua 21:18",
-      "source": "EAS"
+      "raw": "Joshua 21:18"
     },
     {
       "book": "1 Chronicles",
@@ -59,8 +40,22 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 6:60",
-      "source": "EAS"
+      "raw": "1 Chronicles 6:60"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Joshua"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 2,
+    "ot_refs": 2,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "Joshua",
+      "1 Chronicles"
+    ]
+  }
 }

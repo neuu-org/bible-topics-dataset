@@ -1,54 +1,61 @@
 {
   "topic": "SIGNAL",
   "slug": "signal",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Used in war Isa 18:3",
-      "references": [
-        "Isa 18:3"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "See ARMIES",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "See ENSIGNS (banners)",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "See TRUMPETS",
-      "references": [],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [
-    "ARMIES",
-    "TRUMPETS",
-    "ENSIGNS (BANNERS)"
-  ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 4,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.726320+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
+  "see_also": [
+    "ARMIES",
+    "ENSIGNS (BANNERS)",
+    "TRUMPETS"
+  ],
+  "aspects": [
+    {
+      "label": "Used in war",
+      "references": [
+        "Isaiah 18:3"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeARMIES",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeENSIGNS (banners)",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeTRUMPETS",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0"
+  ],
+  "biblical_references": [
+    {
+      "book": "Isaiah",
+      "chapter": 18,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 18:3"
+    }
+  ],
+  "books_mentioned": [
+    "Isaiah"
+  ],
+  "stats": {
+    "total_aspects": 4,
+    "total_refs": 1,
+    "ot_refs": 1,
+    "nt_refs": 0,
+    "books_count": 1,
+    "top_books": [
+      "Isaiah"
+    ]
+  }
 }

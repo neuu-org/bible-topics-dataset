@@ -1,114 +1,29 @@
 {
   "topic": "FIREBRAND",
   "slug": "firebrand",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Used by Samson Jud 15:4",
-      "references": [
-        "Judg 15:4"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "FIGURATIVE Pr 26:18; Am 4:11; Zec 3:2",
-      "references": [
-        "Prov 26:18",
-        "Amos 4:11",
-        "Zech 3:2"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Amos",
-      "book_abbrev": "amo",
-      "chapter": 4,
-      "testament": "OT",
-      "verses": [
-        11
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Zechariah",
-      "book_abbrev": "zec",
-      "chapter": 3,
-      "testament": "OT",
-      "verses": [
-        2
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 2,
-    "nt_refs": 0,
-    "total_verses": 2
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.686552+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    },
-    "enriched_at": "2025-12-02T22:02:10.163191+00:00",
-    "enrichment_source": "pipeline_merge"
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "see_also": [],
+  "aspects": [
     {
-      "book": "Ephesians",
-      "chapter": 6,
-      "verses": [
-        16
+      "label": "Used by Sam",
+      "references": [
+        "Judges 15:4"
       ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Ephesians 6:16",
-      "source": "EAS"
+      "source": "NAV"
     },
     {
-      "book": "Isaiah",
-      "chapter": 7,
-      "verses": [
-        4
+      "label": "FIGURATIVE",
+      "references": [
+        "Proverbs 26:18",
+        "Amos 4:11",
+        "Ecclesiastes 3:2"
       ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Isaiah 7:4",
-      "source": "EAS"
-    },
-    {
-      "book": "Amos",
-      "chapter": 4,
-      "verses": [
-        11
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Amos 4:11",
-      "source": "EAS"
-    },
-    {
-      "book": "Zechariah",
-      "chapter": 3,
-      "verses": [
-        2
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Zechariah 3:2",
-      "source": "EAS"
-    },
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
     {
       "book": "Judges",
       "chapter": 15,
@@ -117,8 +32,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Judges 15:4",
-      "source": "EAS"
+      "raw": "Judges 15:4"
     },
     {
       "book": "Proverbs",
@@ -128,8 +42,46 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Proverbs 26:18",
-      "source": "EAS"
+      "raw": "Proverbs 26:18"
+    },
+    {
+      "book": "Amos",
+      "chapter": 4,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Amos 4:11"
+    },
+    {
+      "book": "Ecclesiastes",
+      "chapter": 3,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ecclesiastes 3:2"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Amos",
+    "Ecclesiastes",
+    "Judges",
+    "Proverbs"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 4,
+    "ot_refs": 4,
+    "nt_refs": 0,
+    "books_count": 4,
+    "top_books": [
+      "Judges",
+      "Proverbs",
+      "Amos",
+      "Ecclesiastes"
+    ]
+  }
 }

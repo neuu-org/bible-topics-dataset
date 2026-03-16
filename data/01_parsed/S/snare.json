@@ -1,72 +1,59 @@
 {
   "topic": "SNARE",
   "slug": "snare",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "General scriptures concerning Am 3:5",
-      "references": [
-        "Amos 3:5"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "FIGURATIVE",
-      "references": [],
-      "sub_groups": [
-        {
-          "name": "Of the evils in life of wicked people Job 18:8-10",
-          "references": [
-            "Job 18:8-10"
-          ]
-        },
-        {
-          "name": "Of the devices of evil people to deceive the righteous Ps 91:3; Jer 5:26",
-          "references": [
-            "Ps 91:3",
-            "Jer 5:26"
-          ]
-        }
-      ]
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Jeremiah",
-      "book_abbrev": "jer",
-      "chapter": 5,
-      "testament": "OT",
-      "verses": [
-        26
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [
-    "AMBUSH",
-    "PIT",
-    "CONSPIRACY"
-  ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.726871+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [
+    "AMBUSH",
+    "CONSPIRACY",
+    "PIT"
+  ],
+  "aspects": [
+    {
+      "label": "General scriptures concerning",
+      "references": [
+        "Amos 3:5"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "FIGURATIVE",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".Of the evils in life of wicked people",
+      "references": [
+        "Job 18:8-10"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".Of the",
+      "references": [
+        "Psalms 91:3",
+        "Jeremiah 5:26"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".SeeAMBUSH",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".SeeCONSPIRACY",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".SeePIT",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Amos",
       "chapter": 3,
@@ -75,8 +62,58 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Amos 3:5",
-      "source": "EAS"
+      "raw": "Amos 3:5"
+    },
+    {
+      "book": "Job",
+      "chapter": 18,
+      "verses": [
+        8,
+        9,
+        10
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Job 18:8-10"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 91,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 91:3"
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 5,
+      "verses": [
+        26
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Jeremiah 5:26"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Amos",
+    "Jeremiah",
+    "Job",
+    "Psalms"
+  ],
+  "stats": {
+    "total_aspects": 7,
+    "total_refs": 4,
+    "ot_refs": 4,
+    "nt_refs": 0,
+    "books_count": 4,
+    "top_books": [
+      "Amos",
+      "Job",
+      "Psalms",
+      "Jeremiah"
+    ]
+  }
 }

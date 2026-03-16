@@ -1,68 +1,117 @@
 {
   "topic": "BETROTHAL",
   "slug": "betrothal",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Of Jacob Ge 29:18-30",
-      "references": [
-        "Gen 29:18-30"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Exempts from military duty De 20:7",
-      "references": [
-        "Deut 20:7"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "A quasi-marriage Mt 1:18; Lu 1:27",
-      "references": [
-        "Matt 1:18",
-        "Luke 1:27"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "FIGURATIVE",
-      "references": [],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Luke",
-      "book_abbrev": "luk",
-      "chapter": 1,
-      "testament": "NT",
-      "verses": [
-        27
-      ],
-      "verse_count": 1
-    }
+  "sources": [
+    "NAV"
   ],
   "see_also": [
     "MARRIAGE"
   ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 4,
-    "ot_refs": 0,
-    "nt_refs": 1,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.674267+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
+  "aspects": [
+    {
+      "label": "Of Jacob",
+      "references": [
+        "Genesis 29:18-30"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Exempts from military duty",
+      "references": [
+        "Deuteronomy 20:7"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "A quasi-marriage",
+      "references": [
+        "Matthew 1:18",
+        "Luke 1:27"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "FIGURATIVE",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".SeeMARRIAGE",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0"
+  ],
+  "biblical_references": [
+    {
+      "book": "Genesis",
+      "chapter": 29,
+      "verses": [
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "verse_count": 13,
+      "testament": "OT",
+      "raw": "Genesis 29:18-30"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 20,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 20:7"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 1,
+      "verses": [
+        18
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 1:18"
+    },
+    {
+      "book": "Luke",
+      "chapter": 1,
+      "verses": [
+        27
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 1:27"
+    }
+  ],
+  "books_mentioned": [
+    "Deuteronomy",
+    "Genesis",
+    "Luke",
+    "Matthew"
+  ],
+  "stats": {
+    "total_aspects": 5,
+    "total_refs": 4,
+    "ot_refs": 2,
+    "nt_refs": 2,
+    "books_count": 4,
+    "top_books": [
+      "Genesis",
+      "Deuteronomy",
+      "Matthew",
+      "Luke"
+    ]
+  }
 }

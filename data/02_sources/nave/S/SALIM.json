@@ -1,64 +1,40 @@
 {
   "topic": "SALIM",
-  "topic_slug": "salim",
+  "slug": "salim",
   "canonical_id": "NAV:salim",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–A city which is near AenonJoh 3:23",
-  "content_preview": "–A city which is near AenonJoh 3:23",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–A city which is near AenonJoh 3:23",
-      "raw_segment": "–A city which is near AenonJoh 3:23"
+      "label": "A city which is near Aenon",
+      "references": [
+        "John 3:23"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "John",
+      "chapter": 3,
+      "verses": [
+        23
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "John 3:23"
+    }
+  ],
+  "books_mentioned": [
+    "John"
+  ],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 1,
+    "total_refs": 1,
     "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:e942ba1da06a7174801d8f5ceefae59ab2827ecccac4d18f7549c8b33632eca3",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 1
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "nt_refs": 1,
+    "books_count": 1,
+    "top_books": [
+      "John"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:30:49.444056Z",
-  "updated_at": "2025-09-20T17:30:49.444065Z"
+  }
 }

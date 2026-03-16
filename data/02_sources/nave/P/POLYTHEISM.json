@@ -1,64 +1,164 @@
 {
   "topic": "POLYTHEISM",
-  "topic_slug": "polytheism",
+  "slug": "polytheism",
   "canonical_id": "NAV:polytheism",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–General scriptures concerningGe 31:19;35:2,4;Jos \n24:2,23;Jud 2:13;3:7;10:16;17:5;Jer 2:28;11:13;Da 4:8;1Co 8:5",
-  "content_preview": "–General scriptures concerningGe 31:19;35:2,4;Jos ",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–General scriptures concerningGe 31:19;35:2,4;Jos \n24:2,23;Jud 2:13;3:7;10:16;17:5;Jer 2:28;11:13;Da 4:8;1Co 8:5",
-      "raw_segment": "–General scriptures concerningGe 31:19;35:2,4;Jos \n24:2,23;Jud 2:13;3:7;10:16;17:5;Jer 2:28;11:13;Da 4:8;1Co 8:5"
+      "label": "General scriptures concerning",
+      "references": [
+        "Genesis 31:19",
+        "Genesis 35:2,4"
+      ]
+    },
+    {
+      "label": "24:2,23;",
+      "references": [
+        "Judges 2:13",
+        "Judges 3:7",
+        "Judges 10:16",
+        "Judges 17:5",
+        "Jeremiah 2:28",
+        "Jeremiah 11:13",
+        "Daniel 4:8",
+        "1 Corinthians 8:5"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Genesis",
+      "chapter": 31,
+      "verses": [
+        19
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 31:19"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 35,
+      "verses": [
+        2,
+        4
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Genesis 35:2,4"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 24,
+      "verses": [
+        2,
+        23
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Genesis 24:2,23"
+    },
+    {
+      "book": "Judges",
+      "chapter": 2,
+      "verses": [
+        13
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Judges 2:13"
+    },
+    {
+      "book": "Judges",
+      "chapter": 3,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Judges 3:7"
+    },
+    {
+      "book": "Judges",
+      "chapter": 10,
+      "verses": [
+        16
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Judges 10:16"
+    },
+    {
+      "book": "Judges",
+      "chapter": 17,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Judges 17:5"
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 2,
+      "verses": [
+        28
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Jeremiah 2:28"
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 11,
+      "verses": [
+        13
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Jeremiah 11:13"
+    },
+    {
+      "book": "Daniel",
+      "chapter": 4,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Daniel 4:8"
+    },
+    {
+      "book": "1 Corinthians",
+      "chapter": 8,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "1 Corinthians 8:5"
+    }
+  ],
+  "books_mentioned": [
+    "1 Corinthians",
+    "Daniel",
+    "Genesis",
+    "Jeremiah",
+    "Judges"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:84dc27ae88aadde2ff45d1a127f771ea4f5f97d87a19711adc492a35f256c014",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 2,
+    "total_refs": 11,
+    "ot_refs": 10,
+    "nt_refs": 1,
+    "books_count": 5,
+    "top_books": [
+      "Judges",
+      "Genesis",
+      "Jeremiah",
+      "Daniel",
+      "1 Corinthians"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:30:12.485495Z",
-  "updated_at": "2025-09-20T17:30:12.485505Z"
+  }
 }

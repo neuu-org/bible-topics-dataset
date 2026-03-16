@@ -1,73 +1,74 @@
 {
   "topic": "MORTIFICATION",
-  "topic_slug": "mortification",
+  "slug": "mortification",
   "canonical_id": "NAV:mortification",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "HUMILITY"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "HUMILITY",
-      "clean": "HUMILITY",
-      "slug": "humility",
-      "canonical_id": "NAV:humility"
+      "label": "INSTANCES OF",
+      "references": []
+    },
+    {
+      "label": ".David’s ambassadors, sent to Ha",
+      "references": [
+        "2 Samuel 10:1-5"
+      ]
+    },
+    {
+      "label": ".",
+      "references": [
+        "Matthew 27:3-5"
+      ]
+    },
+    {
+      "label": ".SeeHUMILITY",
+      "references": []
     }
   ],
-  "raw_block": "–INSTANCES OF\n  .David’s ambassadors, sent to Hanun2Sa 10:1-5\n  .Judas IscariotMt 27:3-5\n  .SeeHUMILITY",
-  "content_preview": "–INSTANCES OF",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–INSTANCES OF",
-      "raw_segment": "–INSTANCES OF"
+      "book": "2 Samuel",
+      "chapter": 10,
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "verse_count": 5,
+      "testament": "OT",
+      "raw": "2 Samuel 10:1-5"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 27,
+      "verses": [
+        3,
+        4,
+        5
+      ],
+      "verse_count": 3,
+      "testament": "NT",
+      "raw": "Matthew 27:3-5"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "2 Samuel",
+    "Matthew"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:a56080ac644d1b73d0b153186618875d10cbc6bad8dabcf768ebd2c50d96315c",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 4
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 4,
+    "total_refs": 2,
+    "ot_refs": 1,
+    "nt_refs": 1,
+    "books_count": 2,
+    "top_books": [
+      "2 Samuel",
+      "Matthew"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:29:18.254879Z",
-  "updated_at": "2025-09-20T17:29:18.254886Z"
+  }
 }

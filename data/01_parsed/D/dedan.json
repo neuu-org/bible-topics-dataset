@@ -1,90 +1,39 @@
 {
   "topic": "DEDAN",
   "slug": "dedan",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. Son of Raamah Ge 10:7; 1Ch 1:9",
-      "references": [
-        "Gen 10:7",
-        "1Chr 1:9"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "2. Son of Jokshan Ge 25:3; 1Ch 1:32",
-      "references": [
-        "Gen 25:3",
-        "1Chr 1:32"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "3. A country, probably bordering on Edom Jer 49:8; Eze 25:13; 27:15,20; 38:13",
-      "references": [
-        "Jer 49:8",
-        "Ezek 25:13",
-        "Ezek 27:15",
-        "Ezek 27:20",
-        "Ezek 38:13"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "1 Chronicles",
-      "book_abbrev": "1ch",
-      "chapter": 1,
-      "testament": "OT",
-      "verses": [
-        9
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "1 Chronicles",
-      "book_abbrev": "1ch",
-      "chapter": 1,
-      "testament": "OT",
-      "verses": [
-        32
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Ezekiel",
-      "book_abbrev": "ezk",
-      "chapter": 25,
-      "testament": "OT",
-      "verses": [
-        13,
-        27
-      ],
-      "verse_count": 2
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 3,
-    "nt_refs": 0,
-    "total_verses": 3
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.680918+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "1.",
+      "references": [
+        "Genesis 10:7",
+        "1 Chronicles 1:9"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2.",
+      "references": [
+        "Genesis 25:3",
+        "1 Chronicles 1:32"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "3. A country, probably bor",
+      "references": [
+        "Jeremiah 49:8",
+        "Ezekiel 25:13",
+        "Ezekiel 27:15,20",
+        "Ezekiel 38:13"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Genesis",
       "chapter": 10,
@@ -93,8 +42,27 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 10:7",
-      "source": "EAS"
+      "raw": "Genesis 10:7"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 1,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 1:9"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 25,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 25:3"
     },
     {
       "book": "1 Chronicles",
@@ -104,30 +72,67 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 1:32",
-      "source": "EAS"
+      "raw": "1 Chronicles 1:32"
     },
     {
-      "book": "Isaiah",
-      "chapter": 21,
+      "book": "Jeremiah",
+      "chapter": 49,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Jeremiah 49:8"
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 25,
       "verses": [
         13
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Isaiah 21:13",
-      "source": "EAS"
+      "raw": "Ezekiel 25:13"
     },
     {
       "book": "Ezekiel",
       "chapter": 27,
       "verses": [
-        15
+        15,
+        20
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Ezekiel 27:15,20"
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 38,
+      "verses": [
+        13
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Ezekiel 27:15",
-      "source": "EAS"
+      "raw": "Ezekiel 38:13"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Ezekiel",
+    "Genesis",
+    "Jeremiah"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 8,
+    "ot_refs": 8,
+    "nt_refs": 0,
+    "books_count": 4,
+    "top_books": [
+      "Ezekiel",
+      "Genesis",
+      "1 Chronicles",
+      "Jeremiah"
+    ]
+  }
 }

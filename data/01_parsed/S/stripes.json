@@ -1,107 +1,60 @@
 {
   "topic": "STRIPES",
   "slug": "stripes",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Inflicted on Paul 2Co 6:5; 11:23",
-      "references": [
-        "2Cor 6:5",
-        "2Cor 11:23"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "See SCOURGING",
-      "references": [],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [
-    "SCOURGING"
-  ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.727805+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "see_also": [
+    "SCOURGING"
+  ],
+  "aspects": [
     {
-      "book": "Deuteronomy",
-      "chapter": 25,
-      "verses": [
-        1,
-        2,
-        3
+      "label": "Inflicted on Paul",
+      "references": [
+        "2 Corinthians 6:5",
+        "2 Corinthians 11:23"
       ],
-      "verse_count": 3,
-      "testament": "OT",
-      "raw": "Deuteronomy 25:1-3",
-      "source": "EAS"
+      "source": "NAV"
+    },
+    {
+      "label": "SeeSCOURGING",
+      "references": [],
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
+    {
+      "book": "2 Corinthians",
+      "chapter": 6,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "2 Corinthians 6:5"
     },
     {
       "book": "2 Corinthians",
       "chapter": 11,
       "verses": [
-        24
+        23
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "2 Corinthians 11:24",
-      "source": "EAS"
-    },
-    {
-      "book": "Acts",
-      "chapter": 16,
-      "verses": [
-        37,
-        38
-      ],
-      "verse_count": 2,
-      "testament": "NT",
-      "raw": "Acts 16:37, 38",
-      "source": "EAS"
-    },
-    {
-      "book": "Acts",
-      "chapter": 22,
-      "verses": [
-        25,
-        26,
-        27,
-        28,
-        29
-      ],
-      "verse_count": 5,
-      "testament": "NT",
-      "raw": "Acts 22:25-29",
-      "source": "EAS"
-    },
-    {
-      "book": "Matthew",
-      "chapter": 27,
-      "verses": [
-        26
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Matthew 27:26",
-      "source": "EAS"
+      "raw": "2 Corinthians 11:23"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "2 Corinthians"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 2,
+    "ot_refs": 0,
+    "nt_refs": 2,
+    "books_count": 1,
+    "top_books": [
+      "2 Corinthians"
+    ]
+  }
 }

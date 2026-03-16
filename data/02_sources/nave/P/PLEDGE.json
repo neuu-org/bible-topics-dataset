@@ -1,95 +1,75 @@
 {
   "topic": "PLEDGE",
-  "topic_slug": "pledge",
+  "slug": "pledge",
   "canonical_id": "NAV:pledge",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "SURETY (GUARANTEE)",
     "PAWN"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "SURETY (GUARANTEE)",
-      "clean": "SURETY (GUARANTEE)",
-      "slug": "surety__guarantee_",
-      "canonical_id": "NAV:surety__guarantee_"
+      "label": "General scriptures concerning",
+      "references": [
+        "Genesis 38:17-20"
+      ]
     },
     {
-      "original": "PAWN",
-      "clean": "PAWN",
-      "slug": "pawn",
-      "canonical_id": "NAV:pawn"
+      "label": "A creditor must not enter the house of a",
+      "references": [
+        "Deuteronomy 24:10-13"
+      ]
+    },
+    {
+      "label": "SeePAWN",
+      "references": []
+    },
+    {
+      "label": "SeeSURETY (guarantee)",
+      "references": []
     }
   ],
-  "raw_block": "–General scriptures concerningGe 38:17-20\n–A creditor must not enter the house of a debtor to takeDe 24:10-13\n–SeePAWN\n–SeeSURETY (guarantee)",
-  "content_preview": "–General scriptures concerningGe 38:17-20",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–General scriptures concerningGe 38:17-20",
-      "raw_segment": "–General scriptures concerningGe 38:17-20"
+      "book": "Genesis",
+      "chapter": 38,
+      "verses": [
+        17,
+        18,
+        19,
+        20
+      ],
+      "verse_count": 4,
+      "testament": "OT",
+      "raw": "Genesis 38:17-20"
     },
     {
-      "idx": 1,
-      "entry_label": "–A creditor must not enter the house of a debtor to takeDe 24:10-13",
-      "raw_segment": "–A creditor must not enter the house of a debtor to takeDe 24:10-13"
-    },
-    {
-      "idx": 2,
-      "entry_label": "–SeePAWN",
-      "raw_segment": "–SeePAWN"
-    },
-    {
-      "idx": 3,
-      "entry_label": "–SeeSURETY (guarantee)",
-      "raw_segment": "–SeeSURETY (guarantee)"
+      "book": "Deuteronomy",
+      "chapter": 24,
+      "verses": [
+        10,
+        11,
+        12,
+        13
+      ],
+      "verse_count": 4,
+      "testament": "OT",
+      "raw": "Deuteronomy 24:10-13"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "Deuteronomy",
+    "Genesis"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 4,
+    "total_refs": 2,
+    "ot_refs": 2,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:1750bd9e01f48a03ccc95603ee190007d45e25a7beaddf6779204c4c3901f933",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 4
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 2,
+    "top_books": [
+      "Genesis",
+      "Deuteronomy"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:30:11.049370Z",
-  "updated_at": "2025-09-20T17:30:11.049377Z"
+  }
 }

@@ -1,68 +1,125 @@
 {
   "topic": "ARSON",
   "slug": "arson",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "General scriptures concerning Ps 74:7,8",
-      "references": [
-        "Ps 74:7",
-        "Ps 74:8"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Law concerning Ex 22:6",
-      "references": [
-        "Exod 22:6"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "INSTANCES OF",
-      "references": [],
-      "sub_groups": [
-        {
-          "name": "By Samson Jud 15:4,5",
-          "references": [
-            "Judg 15:4",
-            "Judg 15:5"
-          ]
-        },
-        {
-          "name": "By Absalom 2Sa 14:30",
-          "references": [
-            "2Sam 14:30"
-          ]
-        },
-        {
-          "name": "By Zimri 1Ki 16:18",
-          "references": [
-            "1Kgs 16:18"
-          ]
-        }
-      ]
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.669998+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "General scriptures concerning",
+      "references": [
+        "Psalms 74:7,8"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Law concerning",
+      "references": [
+        "Exodus 22:6"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "INSTANCES OF",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".By Sam",
+      "references": [
+        "Judges 15:4,5"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".By Absalom",
+      "references": [
+        "2 Samuel 14:30"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".By Zi",
+      "references": [
+        "1 Kings 16:18"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0"
+  ],
+  "biblical_references": [
+    {
+      "book": "Psalms",
+      "chapter": 74,
+      "verses": [
+        7,
+        8
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Psalms 74:7,8"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 22,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 22:6"
+    },
+    {
+      "book": "Judges",
+      "chapter": 15,
+      "verses": [
+        4,
+        5
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Judges 15:4,5"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 14,
+      "verses": [
+        30
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Samuel 14:30"
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 16,
+      "verses": [
+        18
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Kings 16:18"
+    }
+  ],
+  "books_mentioned": [
+    "1 Kings",
+    "2 Samuel",
+    "Exodus",
+    "Judges",
+    "Psalms"
+  ],
+  "stats": {
+    "total_aspects": 6,
+    "total_refs": 5,
+    "ot_refs": 5,
+    "nt_refs": 0,
+    "books_count": 5,
+    "top_books": [
+      "Psalms",
+      "Exodus",
+      "Judges",
+      "2 Samuel",
+      "1 Kings"
+    ]
+  }
 }

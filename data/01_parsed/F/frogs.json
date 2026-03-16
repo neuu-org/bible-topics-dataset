@@ -1,57 +1,84 @@
 {
   "topic": "FROGS",
   "slug": "frogs",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "Plague of Ex 8:2-14; Ps 45; 105:30",
+      "label": "Plague of",
       "references": [
-        "Exod 8:2-14",
-        "Ps 45",
-        "Ps 105:30"
+        "Exodus 8:2-14",
+        "Exodus 105:30"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "SYMBOLICAL Re 16:13",
+      "label": "SYMBOLI",
       "references": [
-        "Rev 16:13"
+        "Revelation 16:13"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Psalms",
-      "book_abbrev": "psa",
-      "chapter": 45,
-      "testament": "OT",
+      "book": "Exodus",
+      "chapter": 8,
       "verses": [
-        105
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
       ],
-      "verse_count": 1
+      "verse_count": 13,
+      "testament": "OT",
+      "raw": "Exodus 8:2-14"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 105,
+      "verses": [
+        30
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 105:30"
+    },
+    {
+      "book": "Revelation",
+      "chapter": 16,
+      "verses": [
+        13
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Revelation 16:13"
     }
   ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
+  "books_mentioned": [
+    "Exodus",
+    "Revelation"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.687408+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    },
-    "enriched_at": "2025-12-02T22:02:10.277319+00:00",
-    "enrichment_source": "pipeline_merge"
-  },
-  "version": "3.0.0"
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 3,
+    "ot_refs": 2,
+    "nt_refs": 1,
+    "books_count": 2,
+    "top_books": [
+      "Exodus",
+      "Revelation"
+    ]
+  }
 }

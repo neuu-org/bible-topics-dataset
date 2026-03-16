@@ -1,78 +1,46 @@
 {
   "topic": "CUSHAN",
-  "topic_slug": "cushan",
+  "slug": "cushan",
   "canonical_id": "NAV:cushan",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "ETHIOPIA"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "ETHIOPIA",
-      "clean": "ETHIOPIA",
-      "slug": "ethiopia",
-      "canonical_id": "NAV:ethiopia"
-    }
-  ],
-  "raw_block": "–Poetic form of CushHab 3:7\n–SeeETHIOPIA",
-  "content_preview": "–Poetic form of CushHab 3:7",
-  "reference_groups": [
-    {
-      "idx": 0,
-      "entry_label": "–Poetic form of CushHab 3:7",
-      "raw_segment": "–Poetic form of CushHab 3:7"
+      "label": "Poetic form of Cush",
+      "references": [
+        "Habakkuk 3:7"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–SeeETHIOPIA",
-      "raw_segment": "–SeeETHIOPIA"
+      "label": "SeeETHIOPIA",
+      "references": []
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Habakkuk",
+      "chapter": 3,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Habakkuk 3:7"
+    }
+  ],
+  "books_mentioned": [
+    "Habakkuk"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 2,
+    "total_refs": 1,
+    "ot_refs": 1,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:5034e6482ce88e3d45a67ab61ba57cb16d29fecfedb96931b8ee0ab2b07e5481",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 1,
+    "top_books": [
+      "Habakkuk"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:25:23.757687Z",
-  "updated_at": "2025-09-20T17:25:23.757695Z"
+  }
 }

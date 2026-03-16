@@ -1,80 +1,125 @@
 {
   "topic": "RESPECT",
   "slug": "respect",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "To the aged Le 19:32",
+      "label": "To the aged",
       "references": [
-        "Lev 19:32"
+        "Leviticus 19:32"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "To rulers Pr 25:6",
+      "label": "To rulers",
       "references": [
-        "Prov 25:6"
+        "Proverbs 25:6"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "To an army Lu 14:10",
+      "label": "To an army",
       "references": [
         "Luke 14:10"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "To one another Ro 12:10; Php 2:3; 1Pe 2:17",
+      "label": "To one another",
       "references": [
-        "Rom 12:10",
-        "Phil 2:3",
-        "1Pet 2:17"
+        "Romans 12:10",
+        "Philippians 2:3",
+        "1 Peter 2:17"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Philippians",
-      "book_abbrev": "php",
-      "chapter": 2,
-      "testament": "NT",
+      "book": "Leviticus",
+      "chapter": 19,
       "verses": [
-        1,
+        32
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Leviticus 19:32"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 25,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 25:6"
+    },
+    {
+      "book": "Luke",
+      "chapter": 14,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 14:10"
+    },
+    {
+      "book": "Romans",
+      "chapter": 12,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Romans 12:10"
+    },
+    {
+      "book": "Philippians",
+      "chapter": 2,
+      "verses": [
         3
       ],
-      "verse_count": 2
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Philippians 2:3"
     },
     {
       "book": "1 Peter",
-      "book_abbrev": "1pe",
       "chapter": 2,
-      "testament": "NT",
       "verses": [
         17
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "1 Peter 2:17"
     }
   ],
-  "see_also": [],
-  "aliases": [],
+  "books_mentioned": [
+    "1 Peter",
+    "Leviticus",
+    "Luke",
+    "Philippians",
+    "Proverbs",
+    "Romans"
+  ],
   "stats": {
-    "entries_count": 4,
-    "ot_refs": 0,
-    "nt_refs": 2,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.721459+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    }
-  },
-  "version": "3.0.0"
+    "total_aspects": 4,
+    "total_refs": 6,
+    "ot_refs": 2,
+    "nt_refs": 4,
+    "books_count": 6,
+    "top_books": [
+      "Leviticus",
+      "Proverbs",
+      "Luke",
+      "Romans",
+      "Philippians",
+      "1 Peter"
+    ]
+  }
 }

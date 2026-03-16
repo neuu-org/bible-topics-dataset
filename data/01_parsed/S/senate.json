@@ -1,69 +1,40 @@
 {
   "topic": "SENATE",
   "slug": "senate",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "The Sanhedrin Ac 5:21",
-      "references": [
-        "Acts 5:21"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Senator (an elder) Ps 105:22",
-      "references": [
-        "Ps 105:22"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "See ELDER",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "See GOVERNMENT",
-      "references": [],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Psalms",
-      "book_abbrev": "psa",
-      "chapter": 105,
-      "testament": "OT",
-      "verses": [
-        22
-      ],
-      "verse_count": 1
-    }
+  "sources": [
+    "NAV"
   ],
   "see_also": [
     "ELDER",
     "GOVERNMENT"
   ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 4,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.723811+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "aspects": [
+    {
+      "label": "The Sanhedrin",
+      "references": [
+        "Acts 5:21"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Senator (an el",
+      "references": [
+        "Psalms 105:22"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeEL",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeGOVERNMENT",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Acts",
       "chapter": 5,
@@ -72,8 +43,32 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Acts 5:21",
-      "source": "EAS"
+      "raw": "Acts 5:21"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 105,
+      "verses": [
+        22
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 105:22"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Acts",
+    "Psalms"
+  ],
+  "stats": {
+    "total_aspects": 4,
+    "total_refs": 2,
+    "ot_refs": 1,
+    "nt_refs": 1,
+    "books_count": 2,
+    "top_books": [
+      "Acts",
+      "Psalms"
+    ]
+  }
 }

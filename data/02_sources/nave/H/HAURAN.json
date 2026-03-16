@@ -1,64 +1,45 @@
 {
   "topic": "HAURAN",
-  "topic_slug": "hauran",
+  "slug": "hauran",
   "canonical_id": "NAV:hauran",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–A district probably south of Damascus and east of the Jordan \nRiverEze 47:16,18",
-  "content_preview": "–A district probably south of Damascus and east of the Jordan ",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–A district probably south of Damascus and east of the Jordan \nRiverEze 47:16,18",
-      "raw_segment": "–A district probably south of Damascus and east of the Jordan \nRiverEze 47:16,18"
+      "label": "A district probably",
+      "references": []
+    },
+    {
+      "label": "River",
+      "references": [
+        "Ezekiel 47:16,18"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Ezekiel",
+      "chapter": 47,
+      "verses": [
+        16,
+        18
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Ezekiel 47:16,18"
+    }
+  ],
+  "books_mentioned": [
+    "Ezekiel"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 2,
+    "total_refs": 1,
+    "ot_refs": 1,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:58c3fa665acfa9eaba6765dbe16133b82589f21fac61b678c881b485a859cb28",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 1,
+    "top_books": [
+      "Ezekiel"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:27:03.911310Z",
-  "updated_at": "2025-09-20T17:27:03.911318Z"
+  }
 }

@@ -1,110 +1,104 @@
 {
   "topic": "ABIGAIL",
   "slug": "abigail",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "1. Nabal’s wife",
+      "label": "1. Nabal’s wife",
       "references": [],
-      "sub_groups": [
-        {
-          "name": "Her wisdom and tact, and marriage to David 1Sa 25; 27:3; 2Sa 2:2",
-          "references": [
-            "1Sam 25",
-            "1Sam 27:3",
-            "2Sam 2:2"
-          ]
-        },
-        {
-          "name": "Mother of Chileab by David 2Sa 3:3; 1Ch 3:1",
-          "references": [
-            "2Sam 3:3",
-            "1Chr 3:1"
-          ]
-        },
-        {
-          "name": "Taken captive and rescued by David 1Sa 30:1-18",
-          "references": [
-            "1Sam 30:1-18"
-          ]
-        }
-      ]
+      "source": "NAV"
     },
     {
-      "name": "2. Sister of David, and mother of Amasa 2Sa 17:25; 1Ch 2:16,17",
+      "label": ".Her wisdom and tact, and marriage to David1Sa 25;27:3;",
       "references": [
-        "2Sam 17:25",
-        "1Chr 2:16",
-        "1Chr 2:17"
+        "2 Samuel 2:2"
       ],
-      "sub_groups": []
+      "source": "NAV"
+    },
+    {
+      "label": ".Mother of Chileab by David",
+      "references": [
+        "2 Samuel 3:3",
+        "1 Chronicles 3:1"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".Taken",
+      "references": [
+        "1 Samuel 30:1-18"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2. Sister of David, and mother of Amasa",
+      "references": [
+        "2 Samuel 17:25",
+        "1 Chronicles 2:16,17"
+      ],
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
       "book": "2 Samuel",
-      "book_abbrev": "2sa",
       "chapter": 2,
-      "testament": "OT",
       "verses": [
         2
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Samuel 2:2"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 3,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Samuel 3:3"
     },
     {
       "book": "1 Chronicles",
-      "book_abbrev": "1ch",
       "chapter": 3,
-      "testament": "OT",
       "verses": [
         1
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 3:1"
     },
     {
-      "book": "1 Chronicles",
-      "book_abbrev": "1ch",
-      "chapter": 2,
-      "testament": "OT",
+      "book": "1 Samuel",
+      "chapter": 30,
       "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
         16,
-        17
+        17,
+        18
       ],
-      "verse_count": 2
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 3,
-    "nt_refs": 0,
-    "total_verses": 3
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.659785+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "1 Chronicles",
-      "chapter": 2,
-      "verses": [
-        16,
-        17
-      ],
-      "verse_count": 2,
+      "verse_count": 18,
       "testament": "OT",
-      "raw": "1 Chronicles 2:16, 17",
-      "source": "EAS"
+      "raw": "1 Samuel 30:1-18"
     },
     {
       "book": "2 Samuel",
@@ -114,113 +108,35 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Samuel 17:25",
-      "source": "EAS"
-    },
-    {
-      "book": "1 Samuel",
-      "chapter": 25,
-      "verses": [
-        3
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "1 Samuel 25:3",
-      "source": "EAS"
-    },
-    {
-      "book": "1 Samuel",
-      "chapter": 25,
-      "verses": [
-        14,
-        15,
-        16,
-        17,
-        18,
-        19,
-        20,
-        21,
-        22,
-        23,
-        24,
-        25,
-        26,
-        27,
-        28,
-        29,
-        30,
-        31,
-        32,
-        33,
-        34,
-        35,
-        36,
-        37,
-        38,
-        39,
-        40,
-        41,
-        42
-      ],
-      "verse_count": 29,
-      "testament": "OT",
-      "raw": "1 Samuel 25:14-42",
-      "source": "EAS"
-    },
-    {
-      "book": "1 Samuel",
-      "chapter": 27,
-      "verses": [
-        3
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "1 Samuel 27:3",
-      "source": "EAS"
-    },
-    {
-      "book": "1 Samuel",
-      "chapter": 30,
-      "verses": [
-        5
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "1 Samuel 30:5",
-      "source": "EAS"
-    },
-    {
-      "book": "2 Samuel",
-      "chapter": 2,
-      "verses": [
-        2
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "2 Samuel 2:2",
-      "source": "EAS"
-    },
-    {
-      "book": "2 Samuel",
-      "chapter": 3,
-      "verses": [
-        3
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "2 Samuel 3:3",
-      "source": "EAS"
+      "raw": "2 Samuel 17:25"
     },
     {
       "book": "1 Chronicles",
-      "chapter": 3,
+      "chapter": 2,
       "verses": [
-        1
+        16,
+        17
       ],
-      "verse_count": 1,
+      "verse_count": 2,
       "testament": "OT",
-      "raw": "1 Chronicles 3:1",
-      "source": "EAS"
+      "raw": "1 Chronicles 2:16,17"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "1 Samuel",
+    "2 Samuel"
+  ],
+  "stats": {
+    "total_aspects": 5,
+    "total_refs": 6,
+    "ot_refs": 6,
+    "nt_refs": 0,
+    "books_count": 3,
+    "top_books": [
+      "2 Samuel",
+      "1 Chronicles",
+      "1 Samuel"
+    ]
+  }
 }

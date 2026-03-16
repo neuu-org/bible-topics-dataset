@@ -1,146 +1,241 @@
 {
   "topic": "SUICIDE",
   "slug": "suicide",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [
+    "DEATH, DESIRED"
+  ],
+  "aspects": [
     {
-      "name": "General scriptures concerning Am 9:2; Re 9:6",
+      "label": "General scriptures concerning",
       "references": [
         "Amos 9:2",
-        "Rev 9:6"
+        "Revelation 9:6"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Temptation to, of Jesus Mt 4:5,6; Lu 4:9,10,11",
+      "label": "Temptation to, of Jesus",
       "references": [
-        "Matt 4:5",
-        "Matt 4:6",
-        "Luke 4:9",
-        "Luke 4:10",
-        "Luke 4:11"
+        "Matthew 4:5,6",
+        "Luke 4:9,10,11"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Of the Philippian jailer Ac 16:27",
+      "label": "Of the Philippian jailer",
       "references": [
         "Acts 16:27"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See DEATH, DESIRED",
+      "label": "See",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "INSTANCES OF",
+      "label": "INSTANCES OF",
       "references": [],
-      "sub_groups": [
-        {
-          "name": "Samson Jud 16:29,30",
-          "references": [
-            "Judg 16:29",
-            "Judg 16:30"
-          ]
-        },
-        {
-          "name": "Saul and his armor-bearer 1Sa 31:4,5; 1Ch 10:4,5",
-          "references": [
-            "1Sam 31:4",
-            "1Sam 31:5",
-            "1Chr 10:4",
-            "1Chr 10:5"
-          ]
-        },
-        {
-          "name": "Ahithophel 2Sa 17:23",
-          "references": [
-            "2Sam 17:23"
-          ]
-        },
-        {
-          "name": "Zimri 1Ki 16:18",
-          "references": [
-            "1Kgs 16:18"
-          ]
-        },
-        {
-          "name": "Judas Mt 27:5; Ac 1:18",
-          "references": [
-            "Matt 27:5",
-            "Acts 1:18"
-          ]
-        }
-      ]
+      "source": "NAV"
+    },
+    {
+      "label": ".Sam",
+      "references": [
+        "Judges 16:29,30"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".Saul and his armor-bearer",
+      "references": [
+        "1 Samuel 31:4,5",
+        "1 Chronicles 10:4,5"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".Ahithophel",
+      "references": [
+        "2 Samuel 17:23"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".Zi",
+      "references": [
+        "1 Kings 16:18"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".",
+      "references": [
+        "Matthew 27:5",
+        "Acts 1:18"
+      ],
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "1 Chronicles",
-      "book_abbrev": "1ch",
-      "chapter": 10,
-      "testament": "OT",
+      "book": "Amos",
+      "chapter": 9,
       "verses": [
-        4,
-        5
+        2
       ],
-      "verse_count": 2
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Amos 9:2"
+    },
+    {
+      "book": "Revelation",
+      "chapter": 9,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Revelation 9:6"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 4,
+      "verses": [
+        5,
+        6
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Matthew 4:5,6"
     },
     {
       "book": "Luke",
-      "book_abbrev": "luk",
       "chapter": 4,
-      "testament": "NT",
       "verses": [
         9,
         10,
         11
       ],
-      "verse_count": 3
+      "verse_count": 3,
+      "testament": "NT",
+      "raw": "Luke 4:9,10,11"
     },
     {
       "book": "Acts",
-      "book_abbrev": "act",
-      "chapter": 1,
+      "chapter": 16,
+      "verses": [
+        27
+      ],
+      "verse_count": 1,
       "testament": "NT",
+      "raw": "Acts 16:27"
+    },
+    {
+      "book": "Judges",
+      "chapter": 16,
+      "verses": [
+        29,
+        30
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Judges 16:29,30"
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 31,
+      "verses": [
+        4,
+        5
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "1 Samuel 31:4,5"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 10,
+      "verses": [
+        4,
+        5
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "1 Chronicles 10:4,5"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 17,
+      "verses": [
+        23
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Samuel 17:23"
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 16,
       "verses": [
         18
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Kings 16:18"
     },
     {
-      "book": "Revelation",
-      "book_abbrev": "rev",
-      "chapter": 9,
-      "testament": "NT",
+      "book": "Matthew",
+      "chapter": 27,
       "verses": [
-        6
+        5
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 27:5"
+    },
+    {
+      "book": "Acts",
+      "chapter": 1,
+      "verses": [
+        18
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 1:18"
     }
   ],
-  "see_also": [
-    "DEATH, DESIRED"
+  "books_mentioned": [
+    "1 Chronicles",
+    "1 Kings",
+    "1 Samuel",
+    "2 Samuel",
+    "Acts",
+    "Amos",
+    "Judges",
+    "Luke",
+    "Matthew",
+    "Revelation"
   ],
-  "aliases": [],
   "stats": {
-    "entries_count": 5,
-    "ot_refs": 1,
-    "nt_refs": 3,
-    "total_verses": 4
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.727918+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    }
-  },
-  "version": "3.0.0"
+    "total_aspects": 10,
+    "total_refs": 12,
+    "ot_refs": 6,
+    "nt_refs": 6,
+    "books_count": 10,
+    "top_books": [
+      "Matthew",
+      "Acts",
+      "Amos",
+      "Revelation",
+      "Luke",
+      "Judges",
+      "1 Samuel",
+      "1 Chronicles",
+      "2 Samuel",
+      "1 Kings"
+    ]
+  }
 }

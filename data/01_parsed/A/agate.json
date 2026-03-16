@@ -1,61 +1,22 @@
 {
   "topic": "AGATE",
   "slug": "agate",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "A precious stone Ex 28:19; Isa 54:12; Eze 27:16",
-      "references": [
-        "Exod 28:19",
-        "Isa 54:12",
-        "Ezek 27:16"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Isaiah",
-      "book_abbrev": "isa",
-      "chapter": 54,
-      "testament": "OT",
-      "verses": [
-        12
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Ezekiel",
-      "book_abbrev": "ezk",
-      "chapter": 27,
-      "testament": "OT",
-      "verses": [
-        16
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 2,
-    "nt_refs": 0,
-    "total_verses": 2
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.661703+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "A precious stone",
+      "references": [
+        "Exodus 28:19",
+        "Isaiah 54:12",
+        "Ezekiel 27:16"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Exodus",
       "chapter": 28,
@@ -64,19 +25,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Exodus 28:19",
-      "source": "EAS"
-    },
-    {
-      "book": "Exodus",
-      "chapter": 39,
-      "verses": [
-        12
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Exodus 39:12",
-      "source": "EAS"
+      "raw": "Exodus 28:19"
     },
     {
       "book": "Isaiah",
@@ -86,8 +35,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Isaiah 54:12",
-      "source": "EAS"
+      "raw": "Isaiah 54:12"
     },
     {
       "book": "Ezekiel",
@@ -97,8 +45,24 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Ezekiel 27:16",
-      "source": "EAS"
+      "raw": "Ezekiel 27:16"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Exodus",
+    "Ezekiel",
+    "Isaiah"
+  ],
+  "stats": {
+    "total_aspects": 1,
+    "total_refs": 3,
+    "ot_refs": 3,
+    "nt_refs": 0,
+    "books_count": 3,
+    "top_books": [
+      "Exodus",
+      "Isaiah",
+      "Ezekiel"
+    ]
+  }
 }

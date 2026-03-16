@@ -1,65 +1,79 @@
 {
-  "topic": "Pomegranate",
+  "topic": "POMEGRANATE",
   "slug": "pomegranate",
-  "type": "topic",
-  "reference_groups": [],
-  "biblical_references": [],
-  "stats": {},
-  "sources": [],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.718871+00:00",
-    "merged_from": {
-      "v2": false,
-      "dictionary": true
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "(A fruit)",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "Aboun",
+      "references": [
+        "1 Samuel 14:2"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Brought by the spies to show the fruitfulness of the land of",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "General references",
+      "references": [
+        "Numbers 13:23"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Figures of the fruits of, were embroi",
+      "references": [
+        "Exodus 28:33,34",
+        "Exodus 39:24"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "General references",
+      "references": [
+        "1 Kings 7:18,20,42",
+        "Jeremiah 52:22,23"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Wine ma",
+      "references": [
+        "Song of Solomon 8:2"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
+    {
+      "book": "1 Samuel",
+      "chapter": 14,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Samuel 14:2"
+    },
     {
       "book": "Numbers",
-      "chapter": 20,
+      "chapter": 13,
       "verses": [
-        5
+        23
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Numbers 20:5",
-      "source": "EAS"
-    },
-    {
-      "book": "Deuteronomy",
-      "chapter": 8,
-      "verses": [
-        8
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Deuteronomy 8:8",
-      "source": "EAS"
-    },
-    {
-      "book": "Joel",
-      "chapter": 1,
-      "verses": [
-        12
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Joel 1:12",
-      "source": "EAS"
-    },
-    {
-      "book": "Song of Solomon",
-      "chapter": 4,
-      "verses": [
-        3,
-        13
-      ],
-      "verse_count": 2,
-      "testament": "OT",
-      "raw": "Song of Solomon 4:3, 13",
-      "source": "EAS"
+      "raw": "Numbers 13:23"
     },
     {
       "book": "Exodus",
@@ -70,42 +84,73 @@
       ],
       "verse_count": 2,
       "testament": "OT",
-      "raw": "Exodus 28:33, 34",
-      "source": "EAS"
+      "raw": "Exodus 28:33,34"
     },
     {
-      "book": "1 Kings",
-      "chapter": 7,
+      "book": "Exodus",
+      "chapter": 39,
       "verses": [
-        20
+        24
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Kings 7:20",
-      "source": "EAS"
-    },
-    {
-      "book": "Numbers",
-      "chapter": 13,
-      "verses": [
-        23
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Numbers 13:23",
-      "source": "EAS"
+      "raw": "Exodus 39:24"
     },
     {
       "book": "1 Kings",
       "chapter": 7,
       "verses": [
         18,
-        20
+        20,
+        42
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "1 Kings 7:18,20,42"
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 52,
+      "verses": [
+        22,
+        23
       ],
       "verse_count": 2,
       "testament": "OT",
-      "raw": "1 Kings 7:18,20",
-      "source": "SMI"
+      "raw": "Jeremiah 52:22,23"
+    },
+    {
+      "book": "Song of Solomon",
+      "chapter": 8,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Song of Solomon 8:2"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Kings",
+    "1 Samuel",
+    "Exodus",
+    "Jeremiah",
+    "Numbers",
+    "Song of Solomon"
+  ],
+  "stats": {
+    "total_aspects": 7,
+    "total_refs": 7,
+    "ot_refs": 7,
+    "nt_refs": 0,
+    "books_count": 6,
+    "top_books": [
+      "Exodus",
+      "1 Samuel",
+      "Numbers",
+      "1 Kings",
+      "Jeremiah",
+      "Song of Solomon"
+    ]
+  }
 }

@@ -1,77 +1,52 @@
 {
   "topic": "GALLIO",
   "slug": "gallio",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "(Proconsul (governor) of Achaia)",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "Dismisses complaint of Jews against Paul Ac 18:12-17",
-      "references": [
-        "Acts 18:12-17"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.687832+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    },
-    "enriched_at": "2025-12-02T22:02:10.328755+00:00",
-    "enrichment_source": "pipeline_merge"
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "see_also": [],
+  "aspects": [
     {
-      "book": "Acts",
-      "chapter": 18,
-      "verses": [
-        12
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Acts 18:12",
-      "source": "EAS"
+      "label": "(Proconsul (governor) of Achaia)",
+      "references": [],
+      "source": "NAV"
     },
     {
-      "book": "Acts",
-      "chapter": 18,
-      "verses": [
-        13
+      "label": "Dismisses complaint of Jews against Paul",
+      "references": [
+        "Acts 18:12-17"
       ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Acts 18:13",
-      "source": "EAS"
-    },
-    {
-      "book": "Acts",
-      "chapter": 18,
-      "verses": [
-        16
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Acts 18:16",
-      "source": "EAS"
+      "source": "NAV"
     }
-  ]
+  ],
+  "biblical_references": [
+    {
+      "book": "Acts",
+      "chapter": 18,
+      "verses": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "verse_count": 6,
+      "testament": "NT",
+      "raw": "Acts 18:12-17"
+    }
+  ],
+  "books_mentioned": [
+    "Acts"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 1,
+    "ot_refs": 0,
+    "nt_refs": 1,
+    "books_count": 1,
+    "top_books": [
+      "Acts"
+    ]
+  }
 }

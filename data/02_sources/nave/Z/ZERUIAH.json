@@ -1,69 +1,94 @@
 {
   "topic": "ZERUIAH",
-  "topic_slug": "zeruiah",
+  "slug": "zeruiah",
   "canonical_id": "NAV:zeruiah",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–Sister of David1Ch 2:16\n–Mother of three of David’ s great soldiers1Ch 2:16;2Sa 2:18;3:39;16:9-11;17:25",
-  "content_preview": "–Sister of David1Ch 2:16",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–Sister of David1Ch 2:16",
-      "raw_segment": "–Sister of David1Ch 2:16"
+      "label": "Sister of David",
+      "references": [
+        "1 Chronicles 2:16"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–Mother of three of David’ s great soldiers1Ch 2:16;2Sa 2:18;3:39;16:9-11;17:25",
-      "raw_segment": "–Mother of three of David’ s great soldiers1Ch 2:16;2Sa 2:18;3:39;16:9-11;17:25"
+      "label": "Mother of three of David’ s great",
+      "references": [
+        "1 Chronicles 2:16",
+        "2 Samuel 2:18",
+        "2 Samuel 3:39",
+        "2 Samuel 16:9-11",
+        "2 Samuel 17:25"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "1 Chronicles",
+      "chapter": 2,
+      "verses": [
+        16
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 2:16"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 2,
+      "verses": [
+        18
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Samuel 2:18"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 3,
+      "verses": [
+        39
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Samuel 3:39"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 16,
+      "verses": [
+        9,
+        10,
+        11
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "2 Samuel 16:9-11"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 17,
+      "verses": [
+        25
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Samuel 17:25"
+    }
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "2 Samuel"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 2,
+    "total_refs": 5,
+    "ot_refs": 5,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:3e4e53569b1160013d15228e532a1ebb01d16c773f1651032b6af5f4b9735243",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 2,
+    "top_books": [
+      "2 Samuel",
+      "1 Chronicles"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:32:52.222572Z",
-  "updated_at": "2025-09-20T17:32:52.222579Z"
+  }
 }

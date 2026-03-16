@@ -1,79 +1,124 @@
 {
   "topic": "FIG TREE",
-  "topic_slug": "fig_tree",
+  "slug": "fig_tree",
   "canonical_id": "NAV:fig_tree",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–In an allegoryJud 9:11\n–Jeremiah’s parable ofJer 24:2,3\n–Barren, parable ofLu 13:6-9;21:29-31\n–FIGURATIVEMt 24:32;Re 6:13",
-  "content_preview": "–In an allegoryJud 9:11",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–In an allegoryJud 9:11",
-      "raw_segment": "–In an allegoryJud 9:11"
+      "label": "In an allegory",
+      "references": [
+        "Judges 9:11"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–Jeremiah’s parable ofJer 24:2,3",
-      "raw_segment": "–Jeremiah’s parable ofJer 24:2,3"
+      "label": "General references",
+      "references": [
+        "Jeremiah 24:2,3"
+      ]
     },
     {
-      "idx": 2,
-      "entry_label": "–Barren, parable ofLu 13:6-9;21:29-31",
-      "raw_segment": "–Barren, parable ofLu 13:6-9;21:29-31"
+      "label": "Barren, parable of",
+      "references": [
+        "Luke 13:6-9",
+        "Luke 21:29-31"
+      ]
     },
     {
-      "idx": 3,
-      "entry_label": "–FIGURATIVEMt 24:32;Re 6:13",
-      "raw_segment": "–FIGURATIVEMt 24:32;Re 6:13"
+      "label": "FIGURATIVE",
+      "references": [
+        "Matthew 24:32",
+        "Revelation 6:13"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Judges",
+      "chapter": 9,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Judges 9:11"
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 24,
+      "verses": [
+        2,
+        3
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Jeremiah 24:2,3"
+    },
+    {
+      "book": "Luke",
+      "chapter": 13,
+      "verses": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "verse_count": 4,
+      "testament": "NT",
+      "raw": "Luke 13:6-9"
+    },
+    {
+      "book": "Luke",
+      "chapter": 21,
+      "verses": [
+        29,
+        30,
+        31
+      ],
+      "verse_count": 3,
+      "testament": "NT",
+      "raw": "Luke 21:29-31"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 24,
+      "verses": [
+        32
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 24:32"
+    },
+    {
+      "book": "Revelation",
+      "chapter": 6,
+      "verses": [
+        13
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Revelation 6:13"
+    }
+  ],
+  "books_mentioned": [
+    "Jeremiah",
+    "Judges",
+    "Luke",
+    "Matthew",
+    "Revelation"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:90ecad385f079048e81e00db094a898bf00b8ba69e4d491be3248fccb2557918",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 4
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 4,
+    "total_refs": 6,
+    "ot_refs": 2,
+    "nt_refs": 4,
+    "books_count": 5,
+    "top_books": [
+      "Luke",
+      "Judges",
+      "Jeremiah",
+      "Matthew",
+      "Revelation"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:26:19.591121Z",
-  "updated_at": "2025-09-20T17:26:19.591128Z"
+  }
 }

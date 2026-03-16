@@ -1,93 +1,92 @@
 {
   "topic": "ESTHER",
   "slug": "esther",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Also called HADASSAH",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "Niece of Mordecai Es 2:7,15",
-      "references": [
-        "Esth 2:7",
-        "Esth 2:15"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Chosen queen Es 2:17",
-      "references": [
-        "Esth 2:17"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Tells the king of the plot against his life Es 2:22",
-      "references": [
-        "Esth 2:22"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Fasts on account of the decree to destroy the Israelites; Accuses Haman to the king; intercedes for her people Es 4; 5; 6; 7; 8; 9",
-      "references": [
-        "Esth 4",
-        "Esth 5",
-        "Esth 6",
-        "Esth 7",
-        "Esth 8",
-        "Esth 9"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 5,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.685228+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    },
-    "enriched_at": "2025-12-02T22:02:09.963780+00:00",
-    "enrichment_source": "pipeline_merge"
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "see_also": [],
+  "aspects": [
     {
-      "book": "Esther",
-      "chapter": 2,
-      "verses": [
-        7
+      "label": "Al",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "Niece of Mor",
+      "references": [
+        "Esther 2:7,15"
       ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Esther 2:7",
-      "source": "EAS"
+      "source": "NAV"
     },
+    {
+      "label": "Chosen queen",
+      "references": [
+        "Esther 2:17"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Tells the king of the plot against his life",
+      "references": [
+        "Esther 2:22"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Fasts on account of the",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "Haman to the king; interce",
+      "references": [],
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
     {
       "book": "Esther",
       "chapter": 2,
       "verses": [
+        7,
         15
       ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Esther 2:7,15"
+    },
+    {
+      "book": "Esther",
+      "chapter": 2,
+      "verses": [
+        17
+      ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Esther 2:15",
-      "source": "EAS"
+      "raw": "Esther 2:17"
+    },
+    {
+      "book": "Esther",
+      "chapter": 2,
+      "verses": [
+        22
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Esther 2:22"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Esther"
+  ],
+  "stats": {
+    "total_aspects": 6,
+    "total_refs": 3,
+    "ot_refs": 3,
+    "nt_refs": 0,
+    "books_count": 1,
+    "top_books": [
+      "Esther"
+    ]
+  }
 }

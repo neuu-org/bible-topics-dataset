@@ -1,68 +1,60 @@
 {
   "topic": "HABERGEON",
   "slug": "habergeon",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "A part of the defensive armor of a soldier Ex 28:32; 39:23",
-      "references": [
-        "Exod 28:32",
-        "Exod 39:23"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "See BREASTPLATE",
-      "references": [],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [
-    "BREASTPLATE"
-  ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.689955+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "see_also": [
+    "BREASTPLATE"
+  ],
+  "aspects": [
     {
-      "book": "Job",
-      "chapter": 41,
-      "verses": [
-        26
+      "label": "A part of the",
+      "references": [
+        "Exodus 28:32",
+        "Exodus 39:23"
       ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Job 41:26",
-      "source": "EAS"
+      "source": "NAV"
     },
+    {
+      "label": "SeeBREASTPLATE",
+      "references": [],
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
     {
       "book": "Exodus",
       "chapter": 28,
       "verses": [
-        32,
-        39
+        32
       ],
-      "verse_count": 2,
+      "verse_count": 1,
       "testament": "OT",
-      "raw": "Exodus 28:32, 39",
-      "source": "EAS"
+      "raw": "Exodus 28:32"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 39,
+      "verses": [
+        23
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 39:23"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Exodus"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 2,
+    "ot_refs": 2,
+    "nt_refs": 0,
+    "books_count": 1,
+    "top_books": [
+      "Exodus"
+    ]
+  }
 }

@@ -1,78 +1,46 @@
 {
   "topic": "COPPER",
-  "topic_slug": "copper",
+  "slug": "copper",
   "canonical_id": "NAV:copper",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "BRASS"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "BRASS",
-      "clean": "BRASS",
-      "slug": "brass",
-      "canonical_id": "NAV:brass"
-    }
-  ],
-  "raw_block": "–Incorrectly translated brassDe 8:9\n–SeeBRASS",
-  "content_preview": "–Incorrectly translated brassDe 8:9",
-  "reference_groups": [
-    {
-      "idx": 0,
-      "entry_label": "–Incorrectly translated brassDe 8:9",
-      "raw_segment": "–Incorrectly translated brassDe 8:9"
+      "label": "Incorrectly translated brass",
+      "references": [
+        "Deuteronomy 8:9"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–SeeBRASS",
-      "raw_segment": "–SeeBRASS"
+      "label": "SeeBRASS",
+      "references": []
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Deuteronomy",
+      "chapter": 8,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 8:9"
+    }
+  ],
+  "books_mentioned": [
+    "Deuteronomy"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 2,
+    "total_refs": 1,
+    "ot_refs": 1,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:dd13fd27bb233ab7fd7f211823a10f83e6f8eb9e6840bf53daedc80f56a8e536",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 1,
+    "top_books": [
+      "Deuteronomy"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:25:15.653614Z",
-  "updated_at": "2025-09-20T17:25:15.653621Z"
+  }
 }

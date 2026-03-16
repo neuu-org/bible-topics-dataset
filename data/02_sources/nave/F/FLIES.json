@@ -1,74 +1,110 @@
 {
   "topic": "FLIES",
-  "topic_slug": "flies",
+  "slug": "flies",
   "canonical_id": "NAV:flies",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–General scriptures concerningEc 10:1\n–Plague ofEx 8:21-31;Ps 78:45;105:31\n–FIGURATIVEIsa 7:18",
-  "content_preview": "–General scriptures concerningEc 10:1",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–General scriptures concerningEc 10:1",
-      "raw_segment": "–General scriptures concerningEc 10:1"
+      "label": "General scriptures concerning",
+      "references": [
+        "Ecclesiastes 10:1"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–Plague ofEx 8:21-31;Ps 78:45;105:31",
-      "raw_segment": "–Plague ofEx 8:21-31;Ps 78:45;105:31"
+      "label": "Plague of",
+      "references": [
+        "Exodus 8:21-31",
+        "Psalms 78:45",
+        "Psalms 105:31"
+      ]
     },
     {
-      "idx": 2,
-      "entry_label": "–FIGURATIVEIsa 7:18",
-      "raw_segment": "–FIGURATIVEIsa 7:18"
+      "label": "FIGURATIVE",
+      "references": [
+        "Isaiah 7:18"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Ecclesiastes",
+      "chapter": 10,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ecclesiastes 10:1"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 8,
+      "verses": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "verse_count": 11,
+      "testament": "OT",
+      "raw": "Exodus 8:21-31"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 78,
+      "verses": [
+        45
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 78:45"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 105,
+      "verses": [
+        31
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 105:31"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 7,
+      "verses": [
+        18
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 7:18"
+    }
+  ],
+  "books_mentioned": [
+    "Ecclesiastes",
+    "Exodus",
+    "Isaiah",
+    "Psalms"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 3,
+    "total_refs": 5,
+    "ot_refs": 5,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:433d7c142867c81cbe3c4e06a357d24157518c1470ed0b344ec3fdab0f00ca71",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 3
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 4,
+    "top_books": [
+      "Psalms",
+      "Ecclesiastes",
+      "Exodus",
+      "Isaiah"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:26:22.969946Z",
-  "updated_at": "2025-09-20T17:26:22.969953Z"
+  }
 }

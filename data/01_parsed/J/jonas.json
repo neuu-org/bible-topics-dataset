@@ -1,65 +1,39 @@
 {
   "topic": "JONAS",
   "slug": "jonas",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. JONAS",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "2. Father of Peter Joh 21:15-17",
-      "references": [
-        "John 21:15-17"
-      ],
-      "sub_groups": [
-        {
-          "name": "Called JONA Joh 1:42",
-          "references": [
-            "John 1:42"
-          ]
-        }
-      ]
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [
-    "JONAH"
-  ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.697573+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "see_also": [
+    "JONAH"
+  ],
+  "aspects": [
     {
-      "book": "Matthew",
-      "chapter": 12,
-      "verses": [
-        39,
-        40,
-        41
-      ],
-      "verse_count": 3,
-      "testament": "NT",
-      "raw": "Matthew 12:39, 40, 41",
-      "source": "EAS"
+      "label": "1. JONAS",
+      "references": [],
+      "source": "NAV"
     },
+    {
+      "label": ".SeeJONAH",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "2. Father of Peter",
+      "references": [
+        "John 21:15-17"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".",
+      "references": [
+        "John 1:42"
+      ],
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
     {
       "book": "John",
       "chapter": 21,
@@ -70,8 +44,7 @@
       ],
       "verse_count": 3,
       "testament": "NT",
-      "raw": "John 21:15-17",
-      "source": "EAS"
+      "raw": "John 21:15-17"
     },
     {
       "book": "John",
@@ -81,8 +54,20 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "John 1:42",
-      "source": "EAS"
+      "raw": "John 1:42"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "John"
+  ],
+  "stats": {
+    "total_aspects": 4,
+    "total_refs": 2,
+    "ot_refs": 0,
+    "nt_refs": 2,
+    "books_count": 1,
+    "top_books": [
+      "John"
+    ]
+  }
 }

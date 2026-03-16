@@ -1,74 +1,144 @@
 {
   "topic": "RAHAB",
-  "topic_slug": "rahab",
+  "slug": "rahab",
   "canonical_id": "NAV:rahab",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–1. Also called RACHAB\n–(A woman of Jericho)\n  .Assists the spies of the IsraelitesJos 2\n  .Is spared when the Israelites captured JerichoJos \n6:17-25\n  .An ancestor of Joseph of NazarethMt 1:5\n  .The faith of, commendedHeb 11:31;Jas 2:25\n–2. A symbolic name applied to EgyptPs 87:4;89:10;Isa 30:7;51:9",
-  "content_preview": "–1. Also called RACHAB",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–1. Also called RACHAB",
-      "raw_segment": "–1. Also called RACHAB"
+      "label": "1. Al",
+      "references": []
     },
     {
-      "idx": 1,
-      "entry_label": "–(A woman of Jericho)",
-      "raw_segment": "–(A woman of Jericho)"
+      "label": "(A woman of",
+      "references": []
     },
     {
-      "idx": 2,
-      "entry_label": "–2. A symbolic name applied to EgyptPs 87:4;89:10;Isa 30:7;51:9",
-      "raw_segment": "–2. A symbolic name applied to EgyptPs 87:4;89:10;Isa 30:7;51:9"
+      "label": ".Assists the spies of the IsraelitesJos 2",
+      "references": []
+    },
+    {
+      "label": ".Is spared when the Israelites",
+      "references": []
+    },
+    {
+      "label": "6:17-25",
+      "references": []
+    },
+    {
+      "label": ".An ancestor of Joseph of Nazareth",
+      "references": [
+        "Matthew 1:5"
+      ]
+    },
+    {
+      "label": ".The faith of, commen",
+      "references": [
+        "Hebrews 11:31",
+        "James 2:25"
+      ]
+    },
+    {
+      "label": "2. A symbolic name applied to Egypt",
+      "references": [
+        "Psalms 87:4",
+        "Psalms 89:10",
+        "Isaiah 30:7",
+        "Isaiah 51:9"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Matthew",
+      "chapter": 1,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 1:5"
+    },
+    {
+      "book": "Hebrews",
+      "chapter": 11,
+      "verses": [
+        31
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Hebrews 11:31"
+    },
+    {
+      "book": "James",
+      "chapter": 2,
+      "verses": [
+        25
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "James 2:25"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 87,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 87:4"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 89,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 89:10"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 30,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 30:7"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 51,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 51:9"
+    }
+  ],
+  "books_mentioned": [
+    "Hebrews",
+    "Isaiah",
+    "James",
+    "Matthew",
+    "Psalms"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:5dcb0dc17035b7ec06a1e4ff15c22a2debf94229dc867e59cf0af758606543f6",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 8
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 8,
+    "total_refs": 7,
+    "ot_refs": 4,
+    "nt_refs": 3,
+    "books_count": 5,
+    "top_books": [
+      "Psalms",
+      "Isaiah",
+      "Matthew",
+      "Hebrews",
+      "James"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:30:27.343546Z",
-  "updated_at": "2025-09-20T17:30:27.343553Z"
+  }
 }

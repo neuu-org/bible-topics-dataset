@@ -1,45 +1,32 @@
 {
   "topic": "ZABDIEL",
   "slug": "zabdiel",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. Father of Jashobeam 1Ch 27:2",
-      "references": [
-        "1Chr 27:2"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "2. An overseer of one-hundred twenty eight mighty men of valor, who lived in Jerusalem Ne 11:14",
-      "references": [
-        "Neh 11:14"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.734115+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "1. Father of Jashobeam",
+      "references": [
+        "1 Chronicles 27:2"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2. An overseer of one-hundred twenty eight mighty men of valor,",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "who lived in",
+      "references": [
+        "Nehemiah 11:14"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "1 Chronicles",
       "chapter": 27,
@@ -48,8 +35,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 27:2",
-      "source": "EAS"
+      "raw": "1 Chronicles 27:2"
     },
     {
       "book": "Nehemiah",
@@ -59,8 +45,22 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Nehemiah 11:14",
-      "source": "EAS"
+      "raw": "Nehemiah 11:14"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Nehemiah"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 2,
+    "ot_refs": 2,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "1 Chronicles",
+      "Nehemiah"
+    ]
+  }
 }

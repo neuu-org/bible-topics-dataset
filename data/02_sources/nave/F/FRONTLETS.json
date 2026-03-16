@@ -1,78 +1,87 @@
 {
   "topic": "FRONTLETS",
-  "topic_slug": "frontlets",
+  "slug": "frontlets",
   "canonical_id": "NAV:frontlets",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "PHYLACTERY"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "PHYLACTERY",
-      "clean": "PHYLACTERY",
-      "slug": "phylactery",
-      "canonical_id": "NAV:phylactery"
-    }
-  ],
-  "raw_block": "–A leather band worn on the forehead, containing certain commandmentsEx 13:6-16;De 6:1-8;11:18\n–SeePHYLACTERY",
-  "content_preview": "–A leather band worn on the forehead, containing certain commandmentsEx 13:6-16;De 6:1-8;11:18",
-  "reference_groups": [
-    {
-      "idx": 0,
-      "entry_label": "–A leather band worn on the forehead, containing certain commandmentsEx 13:6-16;De 6:1-8;11:18",
-      "raw_segment": "–A leather band worn on the forehead, containing certain commandmentsEx 13:6-16;De 6:1-8;11:18"
+      "label": "A leather band worn on the forehead, containing certain commandments",
+      "references": [
+        "Exodus 13:6-16",
+        "Deuteronomy 6:1-8",
+        "Deuteronomy 11:18"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–SeePHYLACTERY",
-      "raw_segment": "–SeePHYLACTERY"
+      "label": "SeePHYLACTERY",
+      "references": []
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Exodus",
+      "chapter": 13,
+      "verses": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "verse_count": 11,
+      "testament": "OT",
+      "raw": "Exodus 13:6-16"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 6,
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "verse_count": 8,
+      "testament": "OT",
+      "raw": "Deuteronomy 6:1-8"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 11,
+      "verses": [
+        18
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 11:18"
+    }
+  ],
+  "books_mentioned": [
+    "Deuteronomy",
+    "Exodus"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 2,
+    "total_refs": 3,
+    "ot_refs": 3,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:9d3d5a86d1830c39c08cc4164bbe756d86a5ac74b56db9b4f78b811b9dccfdd1",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 2,
+    "top_books": [
+      "Deuteronomy",
+      "Exodus"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:26:27.929935Z",
-  "updated_at": "2025-09-20T17:26:27.929942Z"
+  }
 }

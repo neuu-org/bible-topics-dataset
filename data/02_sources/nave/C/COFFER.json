@@ -1,78 +1,61 @@
 {
   "topic": "COFFER",
-  "topic_slug": "coffer",
+  "slug": "coffer",
   "canonical_id": "NAV:coffer",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "TREASURY"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "TREASURY",
-      "clean": "TREASURY",
-      "slug": "treasury",
-      "canonical_id": "NAV:treasury"
-    }
-  ],
-  "raw_block": "–A chest1Sa 6:8,11,15;Eze 27:24\n–SeeTREASURY",
-  "content_preview": "–A chest1Sa 6:8,11,15;Eze 27:24",
-  "reference_groups": [
-    {
-      "idx": 0,
-      "entry_label": "–A chest1Sa 6:8,11,15;Eze 27:24",
-      "raw_segment": "–A chest1Sa 6:8,11,15;Eze 27:24"
+      "label": "A chest",
+      "references": [
+        "1 Samuel 6:8,11,15",
+        "Ezekiel 27:24"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–SeeTREASURY",
-      "raw_segment": "–SeeTREASURY"
+      "label": "SeeTREASURY",
+      "references": []
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "1 Samuel",
+      "chapter": 6,
+      "verses": [
+        8,
+        11,
+        15
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "1 Samuel 6:8,11,15"
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 27,
+      "verses": [
+        24
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezekiel 27:24"
+    }
+  ],
+  "books_mentioned": [
+    "1 Samuel",
+    "Ezekiel"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 2,
+    "total_refs": 2,
+    "ot_refs": 2,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:ad826c0bb9a0690302f79290af0f97ad55fb49533852f38e2871e141eec6013c",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 2,
+    "top_books": [
+      "1 Samuel",
+      "Ezekiel"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:25:07.628893Z",
-  "updated_at": "2025-09-20T17:25:07.628901Z"
+  }
 }

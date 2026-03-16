@@ -1,69 +1,44 @@
 {
   "topic": "TARPELITES",
-  "topic_slug": "tarpelites",
+  "slug": "tarpelites",
   "canonical_id": "NAV:tarpelites",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–(An Assyrian tribe)\n–Colonists in SamariaEzr 4:9",
-  "content_preview": "–(An Assyrian tribe)",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–(An Assyrian tribe)",
-      "raw_segment": "–(An Assyrian tribe)"
+      "label": "(An Assyrian tribe)",
+      "references": []
     },
     {
-      "idx": 1,
-      "entry_label": "–Colonists in SamariaEzr 4:9",
-      "raw_segment": "–Colonists in SamariaEzr 4:9"
+      "label": "Colonists in Samaria",
+      "references": [
+        "Ezra 4:9"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Ezra",
+      "chapter": 4,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezra 4:9"
+    }
+  ],
+  "books_mentioned": [
+    "Ezra"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 2,
+    "total_refs": 1,
+    "ot_refs": 1,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:0bf96b410e37e5ccd31bb8174f364af46ff8f915920eb1a7800b0f05a0372ff1",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 1,
+    "top_books": [
+      "Ezra"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:32:01.550038Z",
-  "updated_at": "2025-09-20T17:32:01.550045Z"
+  }
 }

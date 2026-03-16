@@ -1,69 +1,144 @@
 {
   "topic": "NETHINIMS",
-  "topic_slug": "nethinims",
+  "slug": "nethinims",
   "canonical_id": "NAV:nethinims",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–Servants of the LevitesEzr 8:20\n–Return from the captivity1Ch 9:2;Ezr 2:43,58,70;7:7,24;8:17;Ne 3:26,31;7:46,60,73;10:28;11:3,21",
-  "content_preview": "–Servants of the LevitesEzr 8:20",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–Servants of the LevitesEzr 8:20",
-      "raw_segment": "–Servants of the LevitesEzr 8:20"
+      "label": "Servants of the Levites",
+      "references": [
+        "Ezra 8:20"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–Return from the captivity1Ch 9:2;Ezr 2:43,58,70;7:7,24;8:17;Ne 3:26,31;7:46,60,73;10:28;11:3,21",
-      "raw_segment": "–Return from the captivity1Ch 9:2;Ezr 2:43,58,70;7:7,24;8:17;Ne 3:26,31;7:46,60,73;10:28;11:3,21"
+      "label": "Return from the",
+      "references": [
+        "1 Chronicles 9:2",
+        "Ezra 2:43,58,70",
+        "Ezra 7:7,24",
+        "Ezra 8:17",
+        "Nehemiah 3:26,31",
+        "Nehemiah 7:46,60,73",
+        "Nehemiah 10:28",
+        "Nehemiah 11:3,21"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Ezra",
+      "chapter": 8,
+      "verses": [
+        20
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezra 8:20"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 9,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 9:2"
+    },
+    {
+      "book": "Ezra",
+      "chapter": 2,
+      "verses": [
+        43,
+        58,
+        70
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Ezra 2:43,58,70"
+    },
+    {
+      "book": "Ezra",
+      "chapter": 7,
+      "verses": [
+        7,
+        24
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Ezra 7:7,24"
+    },
+    {
+      "book": "Ezra",
+      "chapter": 8,
+      "verses": [
+        17
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezra 8:17"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 3,
+      "verses": [
+        26,
+        31
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Nehemiah 3:26,31"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 7,
+      "verses": [
+        46,
+        60,
+        73
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Nehemiah 7:46,60,73"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 10,
+      "verses": [
+        28
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Nehemiah 10:28"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 11,
+      "verses": [
+        3,
+        21
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Nehemiah 11:3,21"
+    }
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Ezra",
+    "Nehemiah"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 2,
+    "total_refs": 9,
+    "ot_refs": 9,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:63827ae00e22fa1709234df638f1afcdb7b183ebc6bcb50385cc877bc1507a41",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 3,
+    "top_books": [
+      "Ezra",
+      "Nehemiah",
+      "1 Chronicles"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:29:32.318862Z",
-  "updated_at": "2025-09-20T17:29:32.318870Z"
+  }
 }

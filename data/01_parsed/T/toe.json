@@ -1,85 +1,128 @@
 {
   "topic": "TOE",
   "slug": "toe",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "Anointed in consecration Ex 29:20; Le 8:23,24",
+      "label": "Anointed in consecration",
       "references": [
-        "Exod 29:20",
-        "Lev 8:23",
-        "Lev 8:24"
+        "Exodus 29:20",
+        "Leviticus 8:23,24"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "In purification Le 14:14,17,25,28",
+      "label": "In purifi",
       "references": [
-        "Lev 14:14",
-        "Lev 14:17",
-        "Lev 14:25",
-        "Lev 14:28"
+        "Leviticus 14:14,17,25,28"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Of prisoners of war cut off Jud 1:6,7",
+      "label": "Of pri",
       "references": [
-        "Judg 1:6",
-        "Judg 1:7"
+        "Judges 1:6,7"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Six, on each foot 2Sa 21:20; 1Ch 20:6",
+      "label": "Six, on each foot",
       "references": [
-        "2Sam 21:20",
-        "1Chr 20:6"
+        "2 Samuel 21:20",
+        "1 Chronicles 20:6"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Leviticus",
-      "book_abbrev": "lev",
-      "chapter": 8,
+      "book": "Exodus",
+      "chapter": 29,
+      "verses": [
+        20
+      ],
+      "verse_count": 1,
       "testament": "OT",
+      "raw": "Exodus 29:20"
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 8,
       "verses": [
         23,
         24
       ],
-      "verse_count": 2
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Leviticus 8:23,24"
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 14,
+      "verses": [
+        14,
+        17,
+        25,
+        28
+      ],
+      "verse_count": 4,
+      "testament": "OT",
+      "raw": "Leviticus 14:14,17,25,28"
+    },
+    {
+      "book": "Judges",
+      "chapter": 1,
+      "verses": [
+        6,
+        7
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Judges 1:6,7"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 21,
+      "verses": [
+        20
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Samuel 21:20"
     },
     {
       "book": "1 Chronicles",
-      "book_abbrev": "1ch",
       "chapter": 20,
-      "testament": "OT",
       "verses": [
         6
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 20:6"
     }
   ],
-  "see_also": [],
-  "aliases": [],
+  "books_mentioned": [
+    "1 Chronicles",
+    "2 Samuel",
+    "Exodus",
+    "Judges",
+    "Leviticus"
+  ],
   "stats": {
-    "entries_count": 4,
-    "ot_refs": 2,
+    "total_aspects": 4,
+    "total_refs": 6,
+    "ot_refs": 6,
     "nt_refs": 0,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.730592+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    }
-  },
-  "version": "3.0.0"
+    "books_count": 5,
+    "top_books": [
+      "Leviticus",
+      "Exodus",
+      "Judges",
+      "2 Samuel",
+      "1 Chronicles"
+    ]
+  }
 }

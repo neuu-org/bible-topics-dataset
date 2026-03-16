@@ -1,104 +1,110 @@
 {
   "topic": "FETTERS",
   "slug": "fetters",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Used for securing prisoners 2Ch 33:11; 36:6; Mr 5:4",
-      "references": [
-        "2Chr 33:11",
-        "2Chr 36:6",
-        "Mark 5:4"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Made of brass (bronze) Jud 16:21; 2Ki 25:7",
-      "references": [
-        "Judg 16:21",
-        "2Kgs 25:7"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Made of iron",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "See CHAINS",
-      "references": [],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "2 Kings",
-      "book_abbrev": "2ki",
-      "chapter": 25,
-      "testament": "OT",
-      "verses": [
-        7
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Mark",
-      "book_abbrev": "mrk",
-      "chapter": 5,
-      "testament": "NT",
-      "verses": [
-        4
-      ],
-      "verse_count": 1
-    }
+  "sources": [
+    "NAV"
   ],
   "see_also": [
     "CHAINS"
   ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 4,
-    "ot_refs": 1,
-    "nt_refs": 1,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.686430+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    },
-    "enriched_at": "2025-12-02T22:02:10.145787+00:00",
-    "enrichment_source": "pipeline_merge"
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "aspects": [
     {
-      "book": "Psalms",
-      "chapter": 105,
-      "verses": [
-        18
+      "label": "Used for securing pri",
+      "references": [
+        "2 Chronicles 33:11",
+        "2 Chronicles 36:6",
+        "Mark 5:4"
       ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Psalms 105:18",
-      "source": "SMI"
+      "source": "NAV"
     },
     {
-      "book": "Psalms",
-      "chapter": 149,
-      "verses": [
-        8
+      "label": "Ma",
+      "references": [
+        "Judges 16:21",
+        "2 Kings 25:7"
       ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Psalms 149:8",
-      "source": "SMI"
+      "source": "NAV"
+    },
+    {
+      "label": "Ma",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeCHAINS",
+      "references": [],
+      "source": "NAV"
     }
-  ]
+  ],
+  "biblical_references": [
+    {
+      "book": "2 Chronicles",
+      "chapter": 33,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Chronicles 33:11"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 36,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Chronicles 36:6"
+    },
+    {
+      "book": "Mark",
+      "chapter": 5,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Mark 5:4"
+    },
+    {
+      "book": "Judges",
+      "chapter": 16,
+      "verses": [
+        21
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Judges 16:21"
+    },
+    {
+      "book": "2 Kings",
+      "chapter": 25,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Kings 25:7"
+    }
+  ],
+  "books_mentioned": [
+    "2 Chronicles",
+    "2 Kings",
+    "Judges",
+    "Mark"
+  ],
+  "stats": {
+    "total_aspects": 4,
+    "total_refs": 5,
+    "ot_refs": 4,
+    "nt_refs": 1,
+    "books_count": 4,
+    "top_books": [
+      "2 Chronicles",
+      "Mark",
+      "Judges",
+      "2 Kings"
+    ]
+  }
 }

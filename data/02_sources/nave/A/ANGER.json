@@ -1,8 +1,8 @@
 {
   "topic": "ANGER",
-  "topic_slug": "anger",
+  "slug": "anger",
   "canonical_id": "NAV:anger",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "STRIFE",
     "HATRED",
@@ -13,160 +13,683 @@
     "MEEKNESS",
     "MALICE"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "STRIFE",
-      "clean": "STRIFE",
-      "slug": "strife",
-      "canonical_id": "NAV:strife"
+      "label": "General scriptures concerning",
+      "references": [
+        "Genesis 4:6",
+        "Genesis 49:7",
+        "2 Chronicles 28:9",
+        "Job 5:2",
+        "Job 19:29",
+        "Psalms 37:8",
+        "Psalms 55:3",
+        "Psalms 76:10",
+        "Proverbs 6:34",
+        "Proverbs 12:16",
+        "Proverbs 14:17,29",
+        "Proverbs 15:1,18",
+        "Proverbs 16:14,29,32",
+        "Proverbs 17:14",
+        "Proverbs 19:11,12,19",
+        "Proverbs 21:24",
+        "Proverbs 22:24,25",
+        "Proverbs 25:28",
+        "Proverbs 27:3,4",
+        "Proverbs 29:8,9,22",
+        "Proverbs 30:33",
+        "Ecclesiastes 7:9"
+      ]
     },
     {
-      "original": "HATRED",
-      "clean": "HATRED",
-      "slug": "hatred",
-      "canonical_id": "NAV:hatred"
+      "label": "7:16;",
+      "references": [
+        "Amos 1:11",
+        "Jonah 4:4",
+        "Matthew 5:22",
+        "2 Corinthians 12:20",
+        "Galatians 5:19-21",
+        "Ephesians 4:26,31",
+        "Colossians 3:8"
+      ]
     },
     {
-      "original": "PATIENCE",
-      "clean": "PATIENCE",
-      "slug": "patience",
-      "canonical_id": "NAV:patience"
+      "label": "2:8;",
+      "references": [
+        "Titus 1:7",
+        "James 1:19,20"
+      ]
     },
     {
-      "original": "SPEAKING, EVIL",
-      "clean": "SPEAKING, EVIL",
-      "slug": "speaking__evil",
-      "canonical_id": "NAV:speaking__evil"
+      "label": "SeeHATRED",
+      "references": []
     },
     {
-      "original": "KINDNESS",
-      "clean": "KINDNESS",
-      "slug": "kindness",
-      "canonical_id": "NAV:kindness"
+      "label": "SeeJEALOUSY",
+      "references": []
     },
     {
-      "original": "JEALOUSY",
-      "clean": "JEALOUSY",
-      "slug": "jealousy",
-      "canonical_id": "NAV:jealousy"
+      "label": "SeeMALICE",
+      "references": []
     },
     {
-      "original": "MEEKNESS",
-      "clean": "MEEKNESS",
-      "slug": "meekness",
-      "canonical_id": "NAV:meekness"
+      "label": "SeeSPEAKING, EVIL",
+      "references": []
     },
     {
-      "original": "MALICE",
-      "clean": "MALICE",
-      "slug": "malice",
-      "canonical_id": "NAV:malice"
+      "label": "SeeSTRIFE",
+      "references": []
+    },
+    {
+      "label": "SeeKINDNESS",
+      "references": []
+    },
+    {
+      "label": "SeeMEEKNESS",
+      "references": []
+    },
+    {
+      "label": "SeePATIENCE",
+      "references": []
+    },
+    {
+      "label": "INSTANCES OF",
+      "references": []
+    },
+    {
+      "label": ".Of",
+      "references": [
+        "Genesis 4:5-8"
+      ]
+    },
+    {
+      "label": ".Simeon and Levi, on account of the humbling of their sister,",
+      "references": []
+    },
+    {
+      "label": "Dinah",
+      "references": [
+        "Genesis 49:5-7"
+      ]
+    },
+    {
+      "label": ".Pharaoh, toward Moses",
+      "references": [
+        "Exodus 10:11,28"
+      ]
+    },
+    {
+      "label": ".Moses, toward Pharaoh",
+      "references": [
+        "Exodus 11:8",
+        "Numbers 20:10,11"
+      ]
+    },
+    {
+      "label": ".Balaam, toward his ass",
+      "references": [
+        "Numbers 22:27,29"
+      ]
+    },
+    {
+      "label": ".Balak, toward Balaam",
+      "references": [
+        "Numbers 24:10,11"
+      ]
+    },
+    {
+      "label": ".Ephraimites, toward Gi",
+      "references": []
+    },
+    {
+      "label": "the Midianites",
+      "references": [
+        "Judges 8:1"
+      ]
+    },
+    {
+      "label": ".Jonathan, on account of Saul’s persecution of David",
+      "references": [
+        "1 Samuel 20:34",
+        "2 Chronicles 25:10"
+      ]
+    },
+    {
+      "label": ".Saul, toward Jonathan, on account of his sympathy with David",
+      "references": [
+        "1 Samuel 20:30-34"
+      ]
+    },
+    {
+      "label": ".Ahab, be",
+      "references": []
+    },
+    {
+      "label": "21:4",
+      "references": []
+    },
+    {
+      "label": ".Naaman, be",
+      "references": []
     }
   ],
-  "raw_block": "–General scriptures concerningGe 4:6;49:7;2Ch 28:9;Job 5:2;19:29;Ps 37:8;55:3;76:10;Pr 6:34;12:16;14:17,29;15:1,18;16:14,29,32;17:14;19:11,12,19;21:24;22:24,25;25:28;27:3,4;29:8,9,22;30:33;Ec 7:9;Ho \n7:16;Am 1:11;Jon 4:4;Mt 5:22;2Co 12:20;Ga 5:19-21;Eph 4:26,31;Col 3:8;1Ti \n2:8;Tit 1:7;Jas 1:19,20\n–SeeHATRED\n–SeeJEALOUSY\n–SeeMALICE\n–SeeSPEAKING, EVIL\n–SeeSTRIFE\n–SeeKINDNESS\n–SeeMEEKNESS\n–SeePATIENCE\n–INSTANCES OF\n  .Of Cain slaying AbelGe 4:5-8\n  .Simeon and Levi, on account of the humbling of their sister, \nDinahGe 49:5-7\n  .Pharaoh, toward MosesEx 10:11,28\n  .Moses, toward PharaohEx 11:8;Nu 20:10,11\n  .Balaam, toward his assNu 22:27,29\n  .Balak, toward BalaamNu 24:10,11\n  .Ephraimites, toward Gideon, for not soliciting their help against \nthe MidianitesJud 8:1\n  .Jonathan, on account of Saul’s persecution of David1Sa 20:34;2Ch 25:10\n  .Saul, toward Jonathan, on account of his sympathy with David1Sa 20:30-34\n  .Ahab, because Naboth would not sell his vineyard1Ki \n21:4\n  .Naaman, becau",
-  "content_preview": "–General scriptures concerningGe 4:6;49:7;2Ch 28:9;Job 5:2;19:29;Ps 37:8;55:3;76:10;Pr 6:34;12:16;14...",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–General scriptures concerningGe 4:6;49:7;2Ch 28:9;Job 5:2;19:29;Ps 37:8;55:3;76:10;Pr 6:34;12:16;14:17,29;15:1,18;16:14,29,32;17:14;19:11,12,19;21:24;22:24,25;25:28;27:3,4;29:8,9,22;30:33;Ec 7:9;Ho \n7:16;Am 1:11;Jon 4:4;Mt 5:22;2Co 12:20;Ga 5:19-21;Eph 4:26,31;Col 3:8;1Ti \n2:8;Tit 1:7;Jas 1:19,20",
-      "raw_segment": "–General scriptures concerningGe 4:6;49:7;2Ch 28:9;Job 5:2;19:29;Ps 37:8;55:3;76:10;Pr 6:34;12:16;14:17,29;15:1,18;16:14,29,32;17:14;19:11,12,19;21:24;22:24,25;25:28;27:3,4;29:8,9,22;30:33;Ec 7:9;Ho \n7:16;Am 1:11;Jon 4:4;Mt 5:22;2Co 12:20;Ga 5:19-21;Eph 4:26,31;Col 3:8;1Ti \n2:8;Tit 1:7;Jas 1:19,20"
+      "book": "Genesis",
+      "chapter": 4,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 4:6"
     },
     {
-      "idx": 1,
-      "entry_label": "–SeeHATRED",
-      "raw_segment": "–SeeHATRED"
+      "book": "Genesis",
+      "chapter": 49,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 49:7"
     },
     {
-      "idx": 2,
-      "entry_label": "–SeeJEALOUSY",
-      "raw_segment": "–SeeJEALOUSY"
+      "book": "2 Chronicles",
+      "chapter": 28,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Chronicles 28:9"
     },
     {
-      "idx": 3,
-      "entry_label": "–SeeMALICE",
-      "raw_segment": "–SeeMALICE"
+      "book": "Job",
+      "chapter": 5,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Job 5:2"
     },
     {
-      "idx": 4,
-      "entry_label": "–SeeSPEAKING, EVIL",
-      "raw_segment": "–SeeSPEAKING, EVIL"
+      "book": "Job",
+      "chapter": 19,
+      "verses": [
+        29
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Job 19:29"
     },
     {
-      "idx": 5,
-      "entry_label": "–SeeSTRIFE",
-      "raw_segment": "–SeeSTRIFE"
+      "book": "Psalms",
+      "chapter": 37,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 37:8"
     },
     {
-      "idx": 6,
-      "entry_label": "–SeeKINDNESS",
-      "raw_segment": "–SeeKINDNESS"
+      "book": "Psalms",
+      "chapter": 55,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 55:3"
     },
     {
-      "idx": 7,
-      "entry_label": "–SeeMEEKNESS",
-      "raw_segment": "–SeeMEEKNESS"
+      "book": "Psalms",
+      "chapter": 76,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 76:10"
     },
     {
-      "idx": 8,
-      "entry_label": "–SeePATIENCE",
-      "raw_segment": "–SeePATIENCE"
+      "book": "Proverbs",
+      "chapter": 6,
+      "verses": [
+        34
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 6:34"
     },
     {
-      "idx": 9,
-      "entry_label": "–INSTANCES OF",
-      "raw_segment": "–INSTANCES OF"
+      "book": "Proverbs",
+      "chapter": 12,
+      "verses": [
+        16
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 12:16"
     },
     {
-      "idx": 10,
-      "entry_label": "–ANGER OF GODEx 22:24;32:10;33:5;Nu 11:1,10,33;12:9;14:11;16:20,21,45;25:3,4,11;32:10,11,13;De 6:14,15;9:13,14,18-20;32:21,22;Jos 7:1,26;23:16;Jud 2:12;3:8;10:7;1Sa 28:18;2Sa 6:7;22:8,9;1Ki 11:9;16:2-13;2Ki 13:3;17:18;22:13;23:26;Ps 7:11;69:24;74:1;76:7;78:21,38,49,50;85:3;90:11;103:8;106:23,29,32;110:5;Isa 5:25;9:17,19,21;12:1;13:9,13;30:27;42:25;48:9;57:16,17;63:3-6;66:15;Jer 3:12;4:4,8,26;7:20;10:10;17:4;21:5,6;23:20;25:15-17,37,38;30:24;32:37;33:5;36:7;42:18;44:6;51:45;La 2:1,3,6;4:11;Eze 5:13,15;25:14-17;Da 9:16;Ho 11:9;13:11;14:4;Na 1:2,3,6;Mt 22:7,13;Ro \n1:18;2:5;Eph 5:6;Col 3:6;Heb 3:11;4:3;Re 6:16,17;14:10,11;15:1,7;16:19;19:15",
-      "raw_segment": "–ANGER OF GODEx 22:24;32:10;33:5;Nu 11:1,10,33;12:9;14:11;16:20,21,45;25:3,4,11;32:10,11,13;De 6:14,15;9:13,14,18-20;32:21,22;Jos 7:1,26;23:16;Jud 2:12;3:8;10:7;1Sa 28:18;2Sa 6:7;22:8,9;1Ki 11:9;16:2-13;2Ki 13:3;17:18;22:13;23:26;Ps 7:11;69:24;74:1;76:7;78:21,38,49,50;85:3;90:11;103:8;106:23,29,32;110:5;Isa 5:25;9:17,19,21;12:1;13:9,13;30:27;42:25;48:9;57:16,17;63:3-6;66:15;Jer 3:12;4:4,8,26;7:20;10:10;17:4;21:5,6;23:20;25:15-17,37,38;30:24;32:37;33:5;36:7;42:18;44:6;51:45;La 2:1,3,6;4:11;Eze 5:13,15;25:14-17;Da 9:16;Ho 11:9;13:11;14:4;Na 1:2,3,6;Mt 22:7,13;Ro \n1:18;2:5;Eph 5:6;Col 3:6;Heb 3:11;4:3;Re 6:16,17;14:10,11;15:1,7;16:19;19:15"
+      "book": "Proverbs",
+      "chapter": 14,
+      "verses": [
+        17,
+        29
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Proverbs 14:17,29"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 15,
+      "verses": [
+        1,
+        18
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Proverbs 15:1,18"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 16,
+      "verses": [
+        14,
+        29,
+        32
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Proverbs 16:14,29,32"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 17,
+      "verses": [
+        14
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 17:14"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 19,
+      "verses": [
+        11,
+        12,
+        19
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Proverbs 19:11,12,19"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 21,
+      "verses": [
+        24
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 21:24"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 22,
+      "verses": [
+        24,
+        25
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Proverbs 22:24,25"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 25,
+      "verses": [
+        28
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 25:28"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 27,
+      "verses": [
+        3,
+        4
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Proverbs 27:3,4"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 29,
+      "verses": [
+        8,
+        9,
+        22
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Proverbs 29:8,9,22"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 30,
+      "verses": [
+        33
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 30:33"
+    },
+    {
+      "book": "Ecclesiastes",
+      "chapter": 7,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ecclesiastes 7:9"
+    },
+    {
+      "book": "Ecclesiastes",
+      "chapter": 7,
+      "verses": [
+        16
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ecclesiastes 7:16"
+    },
+    {
+      "book": "Amos",
+      "chapter": 1,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Amos 1:11"
+    },
+    {
+      "book": "Jonah",
+      "chapter": 4,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Jonah 4:4"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 5,
+      "verses": [
+        22
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 5:22"
+    },
+    {
+      "book": "2 Corinthians",
+      "chapter": 12,
+      "verses": [
+        20
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "2 Corinthians 12:20"
+    },
+    {
+      "book": "Galatians",
+      "chapter": 5,
+      "verses": [
+        19,
+        20,
+        21
+      ],
+      "verse_count": 3,
+      "testament": "NT",
+      "raw": "Galatians 5:19-21"
+    },
+    {
+      "book": "Ephesians",
+      "chapter": 4,
+      "verses": [
+        26,
+        31
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Ephesians 4:26,31"
+    },
+    {
+      "book": "Colossians",
+      "chapter": 3,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Colossians 3:8"
+    },
+    {
+      "book": "Colossians",
+      "chapter": 2,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Colossians 2:8"
+    },
+    {
+      "book": "Titus",
+      "chapter": 1,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Titus 1:7"
+    },
+    {
+      "book": "James",
+      "chapter": 1,
+      "verses": [
+        19,
+        20
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "James 1:19,20"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 4,
+      "verses": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "verse_count": 4,
+      "testament": "OT",
+      "raw": "Genesis 4:5-8"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 49,
+      "verses": [
+        5,
+        6,
+        7
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Genesis 49:5-7"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 10,
+      "verses": [
+        11,
+        28
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Exodus 10:11,28"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 11,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 11:8"
+    },
+    {
+      "book": "Numbers",
+      "chapter": 20,
+      "verses": [
+        10,
+        11
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Numbers 20:10,11"
+    },
+    {
+      "book": "Numbers",
+      "chapter": 22,
+      "verses": [
+        27,
+        29
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Numbers 22:27,29"
+    },
+    {
+      "book": "Numbers",
+      "chapter": 24,
+      "verses": [
+        10,
+        11
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Numbers 24:10,11"
+    },
+    {
+      "book": "Judges",
+      "chapter": 8,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Judges 8:1"
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 20,
+      "verses": [
+        34
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Samuel 20:34"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 25,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Chronicles 25:10"
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 20,
+      "verses": [
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "verse_count": 5,
+      "testament": "OT",
+      "raw": "1 Samuel 20:30-34"
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 21,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Samuel 21:4"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "1 Samuel",
+    "2 Chronicles",
+    "2 Corinthians",
+    "Amos",
+    "Colossians",
+    "Ecclesiastes",
+    "Ephesians",
+    "Exodus",
+    "Galatians",
+    "Genesis",
+    "James",
+    "Job",
+    "Jonah",
+    "Judges",
+    "Matthew",
+    "Numbers",
+    "Proverbs",
+    "Psalms",
+    "Titus"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:061893b4c38d75c0767d5c64fb9c54f39d635f1ade0ebde904f0e27302435fb0",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 41
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 26,
+    "total_refs": 45,
+    "ot_refs": 37,
+    "nt_refs": 8,
+    "books_count": 19,
+    "top_books": [
+      "Proverbs",
+      "Genesis",
+      "Psalms",
+      "Numbers",
+      "1 Samuel",
+      "2 Chronicles",
+      "Job",
+      "Ecclesiastes",
+      "Colossians",
+      "Exodus"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:23:38.042240Z",
-  "updated_at": "2025-09-20T17:23:38.042248Z"
+  }
 }

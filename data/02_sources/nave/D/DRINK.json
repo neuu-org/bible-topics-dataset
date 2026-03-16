@@ -1,109 +1,44 @@
 {
   "topic": "DRINK",
-  "topic_slug": "drink",
+  "slug": "drink",
   "canonical_id": "NAV:drink",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "WINE",
     "ABSTINENCE, TOTAL",
     "DRUNKARD",
     "DRUNKENNESS"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "WINE",
-      "clean": "WINE",
-      "slug": "wine",
-      "canonical_id": "NAV:wine"
+      "label": "INTOXI",
+      "references": []
     },
     {
-      "original": "ABSTINENCE, TOTAL",
-      "clean": "ABSTINENCE, TOTAL",
-      "slug": "abstinence__total",
-      "canonical_id": "NAV:abstinence__total"
+      "label": ".SeeABSTINENCE, TOTAL",
+      "references": []
     },
     {
-      "original": "DRUNKARD",
-      "clean": "DRUNKARD",
-      "slug": "drunkard",
-      "canonical_id": "NAV:drunkard"
+      "label": "SeeDRUNKARD",
+      "references": []
     },
     {
-      "original": "DRUNKENNESS",
-      "clean": "DRUNKENNESS",
-      "slug": "drunkenness",
-      "canonical_id": "NAV:drunkenness"
-    }
-  ],
-  "raw_block": "–INTOXICATING\n  .SeeABSTINENCE, TOTAL\n–SeeDRUNKARD\n–SeeDRUNKENNESS\n–SeeWINE",
-  "content_preview": "–INTOXICATING",
-  "reference_groups": [
-    {
-      "idx": 0,
-      "entry_label": "–INTOXICATING",
-      "raw_segment": "–INTOXICATING"
+      "label": "SeeDRUNKENNESS",
+      "references": []
     },
     {
-      "idx": 1,
-      "entry_label": "–SeeDRUNKARD",
-      "raw_segment": "–SeeDRUNKARD"
-    },
-    {
-      "idx": 2,
-      "entry_label": "–SeeDRUNKENNESS",
-      "raw_segment": "–SeeDRUNKENNESS"
-    },
-    {
-      "idx": 3,
-      "entry_label": "–SeeWINE",
-      "raw_segment": "–SeeWINE"
+      "label": "SeeWINE",
+      "references": []
     }
   ],
   "biblical_references": [],
   "books_mentioned": [],
-  "normalized_labels": [],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 5,
+    "total_refs": 0,
     "ot_refs": 0,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:0297d602433a655abe62483231f76230916fba469d70aa3f6eb691f3b467a364",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 5
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
-    ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:25:42.003904Z",
-  "updated_at": "2025-09-20T17:25:42.003912Z"
+    "books_count": 0,
+    "top_books": []
+  }
 }

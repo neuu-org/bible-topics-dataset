@@ -1,103 +1,178 @@
 {
   "topic": "MANNERS",
-  "topic_slug": "manners",
+  "slug": "manners",
   "canonical_id": "NAV:manners",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "SALUTATIONS"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "SALUTATIONS",
-      "clean": "SALUTATIONS",
-      "slug": "salutations",
-      "canonical_id": "NAV:salutations"
+      "label": "(",
+      "references": []
+    },
+    {
+      "label": "Obe",
+      "references": [
+        "Genesis 18:2",
+        "Genesis 19:1"
+      ]
+    },
+    {
+      "label": "Standing while guests eat",
+      "references": [
+        "Genesis 18:8"
+      ]
+    },
+    {
+      "label": "In presence of",
+      "references": []
+    },
+    {
+      "label": ".Superiors",
+      "references": [
+        "Genesis 31:35",
+        "Job 29:8"
+      ]
+    },
+    {
+      "label": ".The aged",
+      "references": [
+        "Leviticus 19:32"
+      ]
+    },
+    {
+      "label": "Courteousness enjoined",
+      "references": [
+        "1 Peter 3:8"
+      ]
+    },
+    {
+      "label": "Rules for guests",
+      "references": [
+        "Proverbs 23:1,2",
+        "1 Corinthians 10:27"
+      ]
+    },
+    {
+      "label": "SeeSA",
+      "references": []
     }
   ],
-  "raw_block": "–(Social customs)\n–Obeisance to strangersGe 18:2;19:1\n–Standing while guests eatGe 18:8\n–In presence of\n  .SuperiorsGe 31:35;Job 29:8\n  .The agedLe 19:32\n–Courteousness enjoined1Pe 3:8\n–Rules for guestsPr 23:1,2;1Co 10:27\n–SeeSALUTATIONS",
-  "content_preview": "–(Social customs)",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–(Social customs)",
-      "raw_segment": "–(Social customs)"
+      "book": "Genesis",
+      "chapter": 18,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 18:2"
     },
     {
-      "idx": 1,
-      "entry_label": "–Obeisance to strangersGe 18:2;19:1",
-      "raw_segment": "–Obeisance to strangersGe 18:2;19:1"
+      "book": "Genesis",
+      "chapter": 19,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 19:1"
     },
     {
-      "idx": 2,
-      "entry_label": "–Standing while guests eatGe 18:8",
-      "raw_segment": "–Standing while guests eatGe 18:8"
+      "book": "Genesis",
+      "chapter": 18,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 18:8"
     },
     {
-      "idx": 3,
-      "entry_label": "–In presence of",
-      "raw_segment": "–In presence of"
+      "book": "Genesis",
+      "chapter": 31,
+      "verses": [
+        35
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 31:35"
     },
     {
-      "idx": 4,
-      "entry_label": "–Courteousness enjoined1Pe 3:8",
-      "raw_segment": "–Courteousness enjoined1Pe 3:8"
+      "book": "Job",
+      "chapter": 29,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Job 29:8"
     },
     {
-      "idx": 5,
-      "entry_label": "–Rules for guestsPr 23:1,2;1Co 10:27",
-      "raw_segment": "–Rules for guestsPr 23:1,2;1Co 10:27"
+      "book": "Leviticus",
+      "chapter": 19,
+      "verses": [
+        32
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Leviticus 19:32"
     },
     {
-      "idx": 6,
-      "entry_label": "–SeeSALUTATIONS",
-      "raw_segment": "–SeeSALUTATIONS"
+      "book": "1 Peter",
+      "chapter": 3,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "1 Peter 3:8"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 23,
+      "verses": [
+        1,
+        2
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Proverbs 23:1,2"
+    },
+    {
+      "book": "1 Corinthians",
+      "chapter": 10,
+      "verses": [
+        27
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "1 Corinthians 10:27"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "1 Corinthians",
+    "1 Peter",
+    "Genesis",
+    "Job",
+    "Leviticus",
+    "Proverbs"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:89334af40b97fb0b3ecba0af8524aea2d7f00c78ed1e168d39f8298accdae242",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 9
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 9,
+    "total_refs": 9,
+    "ot_refs": 7,
+    "nt_refs": 2,
+    "books_count": 6,
+    "top_books": [
+      "Genesis",
+      "Job",
+      "Leviticus",
+      "1 Peter",
+      "Proverbs",
+      "1 Corinthians"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:28:51.160902Z",
-  "updated_at": "2025-09-20T17:28:51.160910Z"
+  }
 }

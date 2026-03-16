@@ -1,105 +1,115 @@
 {
   "topic": "CHALDEA",
   "slug": "chaldea",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "(The southern portion of Babylonia, often used interchangeably with Babylon, as the name of the empire founded in the valley of the Euphrates)",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "Abraham a native of Ge 11:28,31; 15:7",
-      "references": [
-        "Gen 11:28",
-        "Gen 11:31",
-        "Gen 15:7"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Founded by the Assyrians Isa 23:13",
-      "references": [
-        "Isa 23:13"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Character of its people Hab 1:6",
-      "references": [
-        "Hab 1:6"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "See BABYLON",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "See CHALDEANS",
-      "references": [],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [
-    "CHALDEANS",
-    "BABYLON"
-  ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 6,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.676911+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "see_also": [
+    "BABYLON",
+    "CHALDEANS"
+  ],
+  "aspects": [
     {
-      "book": "Jeremiah",
-      "chapter": 50,
-      "verses": [
-        10
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Jeremiah 50:10",
-      "source": "EAS"
+      "label": "(The",
+      "references": [],
+      "source": "NAV"
     },
     {
-      "book": "Jeremiah",
-      "chapter": 51,
+      "label": "with Babylon, as the name of the empire foun",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "Abraham a native of",
+      "references": [
+        "Genesis 11:28,31",
+        "Genesis 15:7"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Foun",
+      "references": [
+        "Isaiah 23:13"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Character of its people",
+      "references": [
+        "Habakkuk 1:6"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeBABYLON",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeCHAL",
+      "references": [],
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
+    {
+      "book": "Genesis",
+      "chapter": 11,
       "verses": [
-        24,
-        35
+        28,
+        31
       ],
       "verse_count": 2,
       "testament": "OT",
-      "raw": "Jeremiah 51:24, 35",
-      "source": "EAS"
+      "raw": "Genesis 11:28,31"
     },
     {
       "book": "Genesis",
-      "chapter": 14,
+      "chapter": 15,
       "verses": [
-        1
+        7
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 14:1",
-      "source": "EAS"
+      "raw": "Genesis 15:7"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 23,
+      "verses": [
+        13
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 23:13"
+    },
+    {
+      "book": "Habakkuk",
+      "chapter": 1,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Habakkuk 1:6"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Genesis",
+    "Habakkuk",
+    "Isaiah"
+  ],
+  "stats": {
+    "total_aspects": 7,
+    "total_refs": 4,
+    "ot_refs": 4,
+    "nt_refs": 0,
+    "books_count": 3,
+    "top_books": [
+      "Genesis",
+      "Isaiah",
+      "Habakkuk"
+    ]
+  }
 }

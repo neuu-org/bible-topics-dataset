@@ -1,73 +1,25 @@
 {
   "topic": "CANNEH",
-  "topic_slug": "canneh",
+  "slug": "canneh",
   "canonical_id": "NAV:canneh",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "CALNEH"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "CALNEH",
-      "clean": "CALNEH",
-      "slug": "calneh",
-      "canonical_id": "NAV:calneh"
-    }
-  ],
-  "raw_block": "–SeeCALNEH",
-  "content_preview": "–SeeCALNEH",
-  "reference_groups": [
-    {
-      "idx": 0,
-      "entry_label": "–SeeCALNEH",
-      "raw_segment": "–SeeCALNEH"
+      "label": "See",
+      "references": []
     }
   ],
   "biblical_references": [],
   "books_mentioned": [],
-  "normalized_labels": [],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 1,
+    "total_refs": 0,
     "ot_refs": 0,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:f04b3e54e538b9fc476b67fa5b0676d77ff79601f531bde3135de24a4dc23439",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 1
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
-    ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:24:47.714978Z",
-  "updated_at": "2025-09-20T17:24:47.714985Z"
+    "books_count": 0,
+    "top_books": []
+  }
 }

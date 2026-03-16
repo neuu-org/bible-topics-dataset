@@ -1,52 +1,21 @@
 {
   "topic": "FULLER",
   "slug": "fuller",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "General scriptures concerning Mal 3:2; Mr 9:3",
-      "references": [
-        "Mal 3:2",
-        "Mark 9:3"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Mark",
-      "book_abbrev": "mrk",
-      "chapter": 9,
-      "testament": "NT",
-      "verses": [
-        3
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 1,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.687495+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    },
-    "enriched_at": "2025-12-02T22:02:10.289444+00:00",
-    "enrichment_source": "pipeline_merge"
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "General scriptures concerning",
+      "references": [
+        "Malachi 3:2",
+        "Mark 9:3"
+      ],
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
     {
       "book": "Malachi",
       "chapter": 3,
@@ -55,19 +24,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Malachi 3:2",
-      "source": "EAS"
-    },
-    {
-      "book": "2 Kings",
-      "chapter": 18,
-      "verses": [
-        17
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "2 Kings 18:17",
-      "source": "EAS"
+      "raw": "Malachi 3:2"
     },
     {
       "book": "Mark",
@@ -77,30 +34,22 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Mark 9:3",
-      "source": "EAS"
-    },
-    {
-      "book": "Proverbs",
-      "chapter": 25,
-      "verses": [
-        20
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Proverbs 25:20",
-      "source": "SMI"
-    },
-    {
-      "book": "Jeremiah",
-      "chapter": 2,
-      "verses": [
-        22
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Jeremiah 2:22",
-      "source": "SMI"
+      "raw": "Mark 9:3"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Malachi",
+    "Mark"
+  ],
+  "stats": {
+    "total_aspects": 1,
+    "total_refs": 2,
+    "ot_refs": 1,
+    "nt_refs": 1,
+    "books_count": 2,
+    "top_books": [
+      "Malachi",
+      "Mark"
+    ]
+  }
 }

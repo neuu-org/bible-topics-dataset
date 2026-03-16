@@ -1,235 +1,106 @@
 {
   "topic": "BASKET",
   "slug": "basket",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "General scriptures concerning Ge 40:16,17; Ex 29:3,23,32; Le 8:2; Nu 6:15; De 26:2; 28:5,17; 2Ki 10:7",
+      "label": "General scriptures concerning",
       "references": [
-        "Gen 40:16",
-        "Gen 40:17",
-        "Exod 29:3",
-        "Exod 29:23",
-        "Exod 29:32",
-        "Lev 8:2",
-        "Num 6:15",
-        "Deut 26:2",
-        "Deut 28:5",
-        "Deut 28:17",
-        "2Kgs 10:7"
+        "Genesis 40:16,17",
+        "Exodus 29:3,23,32",
+        "Leviticus 8:2",
+        "Numbers 6:15",
+        "Deuteronomy 26:2",
+        "Deuteronomy 28:5,17",
+        "2 Kings 10:7"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Received the fragments after the miracles of the loaves Mt 14:20; 15:37; 16:9,10",
+      "label": "Received the fragments after the miracles of the loaves",
       "references": [
-        "Matt 14:20",
-        "Matt 15:37",
-        "Matt 16:9",
-        "Matt 16:10"
+        "Matthew 14:20",
+        "Matthew 15:37",
+        "Matthew 16:9,10"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Paul lowered from the wall in Ac 9:25; 2Co 11:33",
+      "label": "Paul lowered from the wall in",
       "references": [
         "Acts 9:25",
-        "2Cor 11:33"
+        "2 Corinthians 11:33"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Exodus",
-      "book_abbrev": "exo",
-      "chapter": 29,
+      "book": "Genesis",
+      "chapter": 40,
+      "verses": [
+        16,
+        17
+      ],
+      "verse_count": 2,
       "testament": "OT",
+      "raw": "Genesis 40:16,17"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 29,
       "verses": [
         3,
         23,
         32
       ],
-      "verse_count": 3
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Exodus 29:3,23,32"
     },
     {
       "book": "Leviticus",
-      "book_abbrev": "lev",
       "chapter": 8,
-      "testament": "OT",
       "verses": [
         2
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Leviticus 8:2"
     },
     {
       "book": "Numbers",
-      "book_abbrev": "num",
       "chapter": 6,
-      "testament": "OT",
       "verses": [
         15
       ],
-      "verse_count": 1
-    },
-    {
-      "book": "Deuteronomy",
-      "book_abbrev": "deu",
-      "chapter": 26,
-      "testament": "OT",
-      "verses": [
-        2,
-        28
-      ],
-      "verse_count": 2
-    },
-    {
-      "book": "2 Kings",
-      "book_abbrev": "2ki",
-      "chapter": 10,
-      "testament": "OT",
-      "verses": [
-        7
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "2 Corinthians",
-      "book_abbrev": "2co",
-      "chapter": 11,
-      "testament": "NT",
-      "verses": [
-        33
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 5,
-    "nt_refs": 1,
-    "total_verses": 6
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.672322+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "Genesis",
-      "chapter": 40,
-      "verses": [
-        16
-      ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 40:16",
-      "source": "EAS"
-    },
-    {
-      "book": "Exodus",
-      "chapter": 29,
-      "verses": [
-        3,
-        23
-      ],
-      "verse_count": 2,
-      "testament": "OT",
-      "raw": "Exodus 29:3, 23",
-      "source": "EAS"
-    },
-    {
-      "book": "Leviticus",
-      "chapter": 8,
-      "verses": [
-        2,
-        26,
-        31
-      ],
-      "verse_count": 3,
-      "testament": "OT",
-      "raw": "Leviticus 8:2, 26, 31",
-      "source": "EAS"
-    },
-    {
-      "book": "Numbers",
-      "chapter": 6,
-      "verses": [
-        15,
-        17,
-        19
-      ],
-      "verse_count": 3,
-      "testament": "OT",
-      "raw": "Numbers 6:15, 17, 19",
-      "source": "EAS"
-    },
-    {
-      "book": "Jeremiah",
-      "chapter": 6,
-      "verses": [
-        9
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Jeremiah 6:9",
-      "source": "EAS"
+      "raw": "Numbers 6:15"
     },
     {
       "book": "Deuteronomy",
       "chapter": 26,
       "verses": [
-        2,
-        4
-      ],
-      "verse_count": 2,
-      "testament": "OT",
-      "raw": "Deuteronomy 26:2, 4",
-      "source": "EAS"
-    },
-    {
-      "book": "Amos",
-      "chapter": 8,
-      "verses": [
-        1,
-        2
-      ],
-      "verse_count": 2,
-      "testament": "OT",
-      "raw": "Amos 8:1, 2",
-      "source": "EAS"
-    },
-    {
-      "book": "Jeremiah",
-      "chapter": 24,
-      "verses": [
         2
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Jeremiah 24:2",
-      "source": "EAS"
+      "raw": "Deuteronomy 26:2"
     },
     {
-      "book": "Psalms",
-      "chapter": 81,
+      "book": "Deuteronomy",
+      "chapter": 28,
       "verses": [
-        6
+        5,
+        17
       ],
-      "verse_count": 1,
+      "verse_count": 2,
       "testament": "OT",
-      "raw": "Psalms 81:6",
-      "source": "EAS"
+      "raw": "Deuteronomy 28:5,17"
     },
     {
       "book": "2 Kings",
@@ -239,63 +110,17 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Kings 10:7",
-      "source": "EAS"
+      "raw": "2 Kings 10:7"
     },
     {
-      "book": "1 Samuel",
-      "chapter": 2,
-      "verses": [
-        14
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "1 Samuel 2:14",
-      "source": "EAS"
-    },
-    {
-      "book": "2 Chronicles",
-      "chapter": 35,
-      "verses": [
-        13
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "2 Chronicles 35:13",
-      "source": "EAS"
-    },
-    {
-      "book": "Job",
-      "chapter": 41,
+      "book": "Matthew",
+      "chapter": 14,
       "verses": [
         20
       ],
       "verse_count": 1,
-      "testament": "OT",
-      "raw": "Job 41:20",
-      "source": "EAS"
-    },
-    {
-      "book": "Acts",
-      "chapter": 9,
-      "verses": [
-        25
-      ],
-      "verse_count": 1,
       "testament": "NT",
-      "raw": "Acts 9:25",
-      "source": "EAS"
-    },
-    {
-      "book": "Mark",
-      "chapter": 6,
-      "verses": [
-        43
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Mark 6:43",
-      "source": "EAS"
+      "raw": "Matthew 14:20"
     },
     {
       "book": "Matthew",
@@ -305,32 +130,67 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Matthew 15:37",
-      "source": "EAS"
+      "raw": "Matthew 15:37"
     },
     {
-      "book": "Jeremiah",
-      "chapter": 24,
+      "book": "Matthew",
+      "chapter": 16,
       "verses": [
-        1,
-        2
+        9,
+        10
       ],
       "verse_count": 2,
-      "testament": "OT",
-      "raw": "Jeremiah 24:1,2",
-      "source": "SMI"
+      "testament": "NT",
+      "raw": "Matthew 16:9,10"
     },
     {
-      "book": "Jeremiah",
-      "chapter": 26,
+      "book": "Acts",
+      "chapter": 9,
       "verses": [
-        2,
-        4
+        25
       ],
-      "verse_count": 2,
-      "testament": "OT",
-      "raw": "Jeremiah 26:2,4",
-      "source": "SMI"
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 9:25"
+    },
+    {
+      "book": "2 Corinthians",
+      "chapter": 11,
+      "verses": [
+        33
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "2 Corinthians 11:33"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "2 Corinthians",
+    "2 Kings",
+    "Acts",
+    "Deuteronomy",
+    "Exodus",
+    "Genesis",
+    "Leviticus",
+    "Matthew",
+    "Numbers"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 12,
+    "ot_refs": 7,
+    "nt_refs": 5,
+    "books_count": 9,
+    "top_books": [
+      "Matthew",
+      "Deuteronomy",
+      "Genesis",
+      "Exodus",
+      "Leviticus",
+      "Numbers",
+      "2 Kings",
+      "Acts",
+      "2 Corinthians"
+    ]
+  }
 }

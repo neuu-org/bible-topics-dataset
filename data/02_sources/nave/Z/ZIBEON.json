@@ -1,69 +1,73 @@
 {
   "topic": "ZIBEON",
-  "topic_slug": "zibeon",
+  "slug": "zibeon",
   "canonical_id": "NAV:zibeon",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–1. A HiviteGe 36:2,14\n–2. Son of SeirGe 36:20,24,29;1Ch 1:38,40",
-  "content_preview": "–1. A HiviteGe 36:2,14",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–1. A HiviteGe 36:2,14",
-      "raw_segment": "–1. A HiviteGe 36:2,14"
+      "label": "1. A Hivite",
+      "references": [
+        "Genesis 36:2,14"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–2. Son of SeirGe 36:20,24,29;1Ch 1:38,40",
-      "raw_segment": "–2. Son of SeirGe 36:20,24,29;1Ch 1:38,40"
+      "label": "2.",
+      "references": [
+        "Genesis 36:20,24,29",
+        "1 Chronicles 1:38,40"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Genesis",
+      "chapter": 36,
+      "verses": [
+        2,
+        14
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Genesis 36:2,14"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 36,
+      "verses": [
+        20,
+        24,
+        29
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Genesis 36:20,24,29"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 1,
+      "verses": [
+        38,
+        40
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "1 Chronicles 1:38,40"
+    }
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Genesis"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 2,
+    "total_refs": 3,
+    "ot_refs": 3,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:73b579afb334ac4d4b6fd7d9b95f77220b124c5fb9b7253373a5ff7516f82907",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 2,
+    "top_books": [
+      "Genesis",
+      "1 Chronicles"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:32:52.906179Z",
-  "updated_at": "2025-09-20T17:32:52.906189Z"
+  }
 }

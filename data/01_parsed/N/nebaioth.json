@@ -1,64 +1,35 @@
 {
   "topic": "NEBAIOTH",
   "slug": "nebaioth",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Also called NEBAJOTH",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "Son of Ishmael Ge 25:13; 28:9; 36:3; 1Ch 1:29",
-      "references": [
-        "Gen 25:13",
-        "Gen 28:9",
-        "Gen 36:3",
-        "1Chr 1:29"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Prophecies concerning Isa 60:7",
-      "references": [
-        "Isa 60:7"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "1 Chronicles",
-      "book_abbrev": "1ch",
-      "chapter": 1,
-      "testament": "OT",
-      "verses": [
-        29
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.713941+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "Al",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "General references",
+      "references": [
+        "Genesis 25:13",
+        "Genesis 28:9",
+        "Genesis 36:3",
+        "1 Chronicles 1:29"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Prophecies concerning",
+      "references": [
+        "Isaiah 60:7"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Genesis",
       "chapter": 25,
@@ -67,8 +38,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 25:13",
-      "source": "EAS"
+      "raw": "Genesis 25:13"
     },
     {
       "book": "Genesis",
@@ -78,8 +48,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 28:9",
-      "source": "EAS"
+      "raw": "Genesis 28:9"
     },
     {
       "book": "Genesis",
@@ -89,20 +58,17 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 36:3",
-      "source": "EAS"
+      "raw": "Genesis 36:3"
     },
     {
-      "book": "Genesis",
-      "chapter": 25,
+      "book": "1 Chronicles",
+      "chapter": 1,
       "verses": [
-        13,
-        18
+        29
       ],
-      "verse_count": 2,
+      "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 25:13, 18",
-      "source": "EAS"
+      "raw": "1 Chronicles 1:29"
     },
     {
       "book": "Isaiah",
@@ -112,8 +78,24 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Isaiah 60:7",
-      "source": "EAS"
+      "raw": "Isaiah 60:7"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Genesis",
+    "Isaiah"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 5,
+    "ot_refs": 5,
+    "nt_refs": 0,
+    "books_count": 3,
+    "top_books": [
+      "Genesis",
+      "1 Chronicles",
+      "Isaiah"
+    ]
+  }
 }

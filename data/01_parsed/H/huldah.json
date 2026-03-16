@@ -1,61 +1,26 @@
 {
   "topic": "HULDAH",
   "slug": "huldah",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "(A prophetess)",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "Foretells the destruction of Jerusalem 2Ki 22:14-20; 2Ch 34:22-28",
-      "references": [
-        "2Kgs 22:14-20",
-        "2Chr 34:22-28"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "2 Chronicles",
-      "book_abbrev": "2ch",
-      "chapter": 34,
-      "testament": "OT",
-      "verses": [
-        22,
-        23,
-        24,
-        25,
-        26,
-        27,
-        28
-      ],
-      "verse_count": 7
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.693321+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "(A prophetess)",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "Foretells the",
+      "references": [
+        "2 Kings 22:14-20",
+        "2 Chronicles 34:22-28"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "2 Kings",
       "chapter": 22,
@@ -70,8 +35,7 @@
       ],
       "verse_count": 7,
       "testament": "OT",
-      "raw": "2 Kings 22:14-20",
-      "source": "EAS"
+      "raw": "2 Kings 22:14-20"
     },
     {
       "book": "2 Chronicles",
@@ -87,63 +51,22 @@
       ],
       "verse_count": 7,
       "testament": "OT",
-      "raw": "2 Chronicles 34:22-28",
-      "source": "EAS"
-    },
-    {
-      "book": "Exodus",
-      "chapter": 15,
-      "verses": [
-        20
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Exodus 15:20",
-      "source": "EAS"
-    },
-    {
-      "book": "Judges",
-      "chapter": 4,
-      "verses": [
-        4
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Judges 4:4",
-      "source": "EAS"
-    },
-    {
-      "book": "Isaiah",
-      "chapter": 8,
-      "verses": [
-        3
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Isaiah 8:3",
-      "source": "EAS"
-    },
-    {
-      "book": "2 Kings",
-      "chapter": 22,
-      "verses": [
-        14
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "2 Kings 22:14",
-      "source": "SMI"
-    },
-    {
-      "book": "2 Chronicles",
-      "chapter": 34,
-      "verses": [
-        22
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "2 Chronicles 34:22",
-      "source": "SMI"
+      "raw": "2 Chronicles 34:22-28"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "2 Chronicles",
+    "2 Kings"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 2,
+    "ot_refs": 2,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "2 Kings",
+      "2 Chronicles"
+    ]
+  }
 }

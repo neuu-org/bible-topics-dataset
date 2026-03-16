@@ -1,78 +1,46 @@
 {
   "topic": "JAHZAH",
-  "topic_slug": "jahzah",
+  "slug": "jahzah",
   "canonical_id": "NAV:jahzah",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "JAHAZ"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "JAHAZ",
-      "clean": "JAHAZ",
-      "slug": "jahaz",
-      "canonical_id": "NAV:jahaz"
-    }
-  ],
-  "raw_block": "–A city of the tribe of Reuben1Ch 6:78\n–SeeJAHAZ",
-  "content_preview": "–A city of the tribe of Reuben1Ch 6:78",
-  "reference_groups": [
-    {
-      "idx": 0,
-      "entry_label": "–A city of the tribe of Reuben1Ch 6:78",
-      "raw_segment": "–A city of the tribe of Reuben1Ch 6:78"
+      "label": "A city of the tribe of Reuben",
+      "references": [
+        "1 Chronicles 6:78"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–SeeJAHAZ",
-      "raw_segment": "–SeeJAHAZ"
+      "label": "SeeJAHAZ",
+      "references": []
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "1 Chronicles",
+      "chapter": 6,
+      "verses": [
+        78
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 6:78"
+    }
+  ],
+  "books_mentioned": [
+    "1 Chronicles"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 2,
+    "total_refs": 1,
+    "ot_refs": 1,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:3c1144b135a8ed4c9b81d6ae27578bf8e1e43cf0cea16c63fb4934faec0e1b50",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 1,
+    "top_books": [
+      "1 Chronicles"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:27:49.642700Z",
-  "updated_at": "2025-09-20T17:27:49.642711Z"
+  }
 }

@@ -1,83 +1,152 @@
 {
   "topic": "TABOR",
-  "topic_slug": "tabor",
+  "slug": "tabor",
   "canonical_id": "NAV:tabor",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "CHISLOTH-TABOR"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "CHISLOTH-TABOR",
-      "clean": "CHISLOTH-TABOR",
-      "slug": "chisloth_tabor",
-      "canonical_id": "NAV:chisloth_tabor"
-    }
-  ],
-  "raw_block": "–1. A mountain on the border of the tribe of IssacharJos 19:22;Jud 8:18;Ps 89:12;Jer 46:18;Ho 5:1\n  .The place for assembling Barak’ s armyJud 4:6,12,14\n–2. A plain (R. V., “oak”) of unknown location1Sa 10:3\n–3. A Levitical city in Zebulun1Ch 6:77\n  .SeeCHISLOTH-TABOR",
-  "content_preview": "–1. A mountain on the border of the tribe of IssacharJos 19:22;Jud 8:18;Ps 89:12;Jer 46:18;Ho 5:1",
-  "reference_groups": [
-    {
-      "idx": 0,
-      "entry_label": "–1. A mountain on the border of the tribe of IssacharJos 19:22;Jud 8:18;Ps 89:12;Jer 46:18;Ho 5:1",
-      "raw_segment": "–1. A mountain on the border of the tribe of IssacharJos 19:22;Jud 8:18;Ps 89:12;Jer 46:18;Ho 5:1"
+      "label": "1. A mountain on the bor",
+      "references": [
+        "Joshua 19:22",
+        "Judges 8:18",
+        "Psalms 89:12",
+        "Jeremiah 46:18",
+        "Hosea 5:1"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–2. A plain (R. V., “oak”) of unknown location1Sa 10:3",
-      "raw_segment": "–2. A plain (R. V., “oak”) of unknown location1Sa 10:3"
+      "label": ".The place for assembling Barak’ s army",
+      "references": [
+        "Judges 4:6,12,14"
+      ]
     },
     {
-      "idx": 2,
-      "entry_label": "–3. A Levitical city in Zebulun1Ch 6:77",
-      "raw_segment": "–3. A Levitical city in Zebulun1Ch 6:77"
+      "label": "2. A plain (R. V., “oak”) of unknown lo",
+      "references": [
+        "1 Samuel 10:3"
+      ]
+    },
+    {
+      "label": "3. A Leviti",
+      "references": [
+        "1 Chronicles 6:77"
+      ]
+    },
+    {
+      "label": ".SeeCHISLOTH-TABOR",
+      "references": []
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Joshua",
+      "chapter": 19,
+      "verses": [
+        22
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 19:22"
+    },
+    {
+      "book": "Judges",
+      "chapter": 8,
+      "verses": [
+        18
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Judges 8:18"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 89,
+      "verses": [
+        12
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 89:12"
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 46,
+      "verses": [
+        18
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Jeremiah 46:18"
+    },
+    {
+      "book": "Hosea",
+      "chapter": 5,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Hosea 5:1"
+    },
+    {
+      "book": "Judges",
+      "chapter": 4,
+      "verses": [
+        6,
+        12,
+        14
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Judges 4:6,12,14"
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 10,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Samuel 10:3"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 6,
+      "verses": [
+        77
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 6:77"
+    }
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "1 Samuel",
+    "Hosea",
+    "Jeremiah",
+    "Joshua",
+    "Judges",
+    "Psalms"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 5,
+    "total_refs": 8,
+    "ot_refs": 8,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:0a5b51f589f3cb3e4528230f8e4a06d31803192c05bfe15d4517dd517871161c",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 5
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 7,
+    "top_books": [
+      "Judges",
+      "Joshua",
+      "Psalms",
+      "Jeremiah",
+      "Hosea",
+      "1 Samuel",
+      "1 Chronicles"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:31:57.477687Z",
-  "updated_at": "2025-09-20T17:31:57.477694Z"
+  }
 }

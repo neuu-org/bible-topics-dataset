@@ -1,74 +1,134 @@
 {
   "topic": "ANANIAS",
-  "topic_slug": "ananias",
+  "slug": "ananias",
   "canonical_id": "NAV:ananias",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–1. High priest, before whom Paul was triedAc 23:2-5;24:1;25:2\n–2. A covetous member of church at Jerusalem. Falsehood and death \nofAc 5:1-11\n–3. A Christian in DamascusAc 9:10-18;22:12-16",
-  "content_preview": "–1. High priest, before whom Paul was triedAc 23:2-5;24:1;25:2",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–1. High priest, before whom Paul was triedAc 23:2-5;24:1;25:2",
-      "raw_segment": "–1. High priest, before whom Paul was triedAc 23:2-5;24:1;25:2"
+      "label": "1. High priest, before whom Paul was tried",
+      "references": [
+        "Acts 23:2-5",
+        "Acts 24:1",
+        "Acts 25:2"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–2. A covetous member of church at Jerusalem. Falsehood and death \nofAc 5:1-11",
-      "raw_segment": "–2. A covetous member of church at Jerusalem. Falsehood and death \nofAc 5:1-11"
+      "label": "2. A covetous member of church at",
+      "references": []
     },
     {
-      "idx": 2,
-      "entry_label": "–3. A Christian in DamascusAc 9:10-18;22:12-16",
-      "raw_segment": "–3. A Christian in DamascusAc 9:10-18;22:12-16"
+      "label": "of",
+      "references": [
+        "Acts 5:1-11"
+      ]
+    },
+    {
+      "label": "3. A Christian in Damascus",
+      "references": [
+        "Acts 9:10-18",
+        "Acts 22:12-16"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Acts",
+      "chapter": 23,
+      "verses": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "verse_count": 4,
+      "testament": "NT",
+      "raw": "Acts 23:2-5"
+    },
+    {
+      "book": "Acts",
+      "chapter": 24,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 24:1"
+    },
+    {
+      "book": "Acts",
+      "chapter": 25,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 25:2"
+    },
+    {
+      "book": "Acts",
+      "chapter": 5,
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "verse_count": 11,
+      "testament": "NT",
+      "raw": "Acts 5:1-11"
+    },
+    {
+      "book": "Acts",
+      "chapter": 9,
+      "verses": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "verse_count": 9,
+      "testament": "NT",
+      "raw": "Acts 9:10-18"
+    },
+    {
+      "book": "Acts",
+      "chapter": 22,
+      "verses": [
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "verse_count": 5,
+      "testament": "NT",
+      "raw": "Acts 22:12-16"
+    }
+  ],
+  "books_mentioned": [
+    "Acts"
+  ],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 4,
+    "total_refs": 6,
     "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:12590a0beba40ca953d38866fae76ade630c0de9ae95f3dfa108b6690b192e24",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 4
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "nt_refs": 6,
+    "books_count": 1,
+    "top_books": [
+      "Acts"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:23:36.478445Z",
-  "updated_at": "2025-09-20T17:23:36.478453Z"
+  }
 }

@@ -1,121 +1,162 @@
 {
   "topic": "CLEANLINESS",
   "slug": "cleanliness",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [
+    "ABLUTION",
+    "PURIFICATION"
+  ],
+  "aspects": [
     {
-      "name": "Taught by frequent ablutions",
+      "label": "Taught by frequent ab",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See ABLUTION",
+      "label": "SeeAB",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See PURIFICATION",
+      "label": "SeePURIFI",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Regulation relating to, in camp De 23:12-14",
+      "label": "Regulation relating to, in",
       "references": [
-        "Deut 23:12-14"
+        "Deuteronomy 23:12-14"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "FIGURATIVE Ps 51:7,10; 73:1; Pr 20:9; Isa 1:16; Eze 36:25; 1Jo 1:7,9; Re 1:5",
+      "label": "FIGURATIVE",
       "references": [
-        "Ps 51:7",
-        "Ps 51:10",
-        "Ps 73:1",
-        "Prov 20:9",
-        "Isa 1:16",
-        "Ezek 36:25",
-        "1John 1:7",
-        "1John 1:9",
-        "Rev 1:5"
+        "Psalms 51:7,10",
+        "Psalms 73:1",
+        "Proverbs 20:9",
+        "Isaiah 1:16"
       ],
-      "sub_groups": []
+      "source": "NAV"
+    },
+    {
+      "label": "36:25;",
+      "references": [
+        "Job 1:7,9",
+        "Revelation 1:5"
+      ],
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Proverbs",
-      "book_abbrev": "pro",
-      "chapter": 20,
+      "book": "Deuteronomy",
+      "chapter": 23,
+      "verses": [
+        12,
+        13,
+        14
+      ],
+      "verse_count": 3,
       "testament": "OT",
+      "raw": "Deuteronomy 23:12-14"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 51,
+      "verses": [
+        7,
+        10
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Psalms 51:7,10"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 73,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 73:1"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 20,
       "verses": [
         9
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 20:9"
     },
     {
       "book": "Isaiah",
-      "book_abbrev": "isa",
       "chapter": 1,
-      "testament": "OT",
       "verses": [
         16
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 1:16"
     },
     {
-      "book": "Ezekiel",
-      "book_abbrev": "ezk",
+      "book": "Isaiah",
       "chapter": 36,
-      "testament": "OT",
       "verses": [
-        1,
         25
       ],
-      "verse_count": 2
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 36:25"
     },
     {
-      "book": "1 John",
-      "book_abbrev": "1jn",
+      "book": "Job",
       "chapter": 1,
-      "testament": "NT",
       "verses": [
         7,
         9
       ],
-      "verse_count": 2
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Job 1:7,9"
     },
     {
       "book": "Revelation",
-      "book_abbrev": "rev",
       "chapter": 1,
-      "testament": "NT",
       "verses": [
         5
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Revelation 1:5"
     }
   ],
-  "see_also": [
-    "PURIFICATION",
-    "ABLUTION"
+  "books_mentioned": [
+    "Deuteronomy",
+    "Isaiah",
+    "Job",
+    "Proverbs",
+    "Psalms",
+    "Revelation"
   ],
-  "aliases": [],
   "stats": {
-    "entries_count": 5,
-    "ot_refs": 3,
-    "nt_refs": 2,
-    "total_verses": 5
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.678339+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    }
-  },
-  "version": "3.0.0"
+    "total_aspects": 6,
+    "total_refs": 8,
+    "ot_refs": 7,
+    "nt_refs": 1,
+    "books_count": 6,
+    "top_books": [
+      "Psalms",
+      "Isaiah",
+      "Deuteronomy",
+      "Proverbs",
+      "Job",
+      "Revelation"
+    ]
+  }
 }

@@ -1,64 +1,103 @@
 {
   "topic": "PARALYSIS",
-  "topic_slug": "paralysis",
+  "slug": "paralysis",
   "canonical_id": "NAV:paralysis",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–Cured\n  .By JesusMt 4:24;8:6,13;9:2,6\n  .By PhilipAc 8:7\n  .By PeterAc 9:33,34",
-  "content_preview": "–Cured",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–Cured",
-      "raw_segment": "–Cured"
+      "label": "Cured",
+      "references": []
+    },
+    {
+      "label": ".By Jesus",
+      "references": [
+        "Matthew 4:24",
+        "Matthew 8:6,13",
+        "Matthew 9:2,6"
+      ]
+    },
+    {
+      "label": ".By Philip",
+      "references": [
+        "Acts 8:7"
+      ]
+    },
+    {
+      "label": ".By Peter",
+      "references": [
+        "Acts 9:33,34"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Matthew",
+      "chapter": 4,
+      "verses": [
+        24
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 4:24"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 8,
+      "verses": [
+        6,
+        13
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Matthew 8:6,13"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 9,
+      "verses": [
+        2,
+        6
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Matthew 9:2,6"
+    },
+    {
+      "book": "Acts",
+      "chapter": 8,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 8:7"
+    },
+    {
+      "book": "Acts",
+      "chapter": 9,
+      "verses": [
+        33,
+        34
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Acts 9:33,34"
+    }
+  ],
+  "books_mentioned": [
+    "Acts",
+    "Matthew"
+  ],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 4,
+    "total_refs": 5,
     "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:f9f50d0a709d34cfa066fd4c3a8de5353c42622ca2fe2fffb5f89844fb703715",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 4
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "nt_refs": 5,
+    "books_count": 2,
+    "top_books": [
+      "Matthew",
+      "Acts"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:29:50.158706Z",
-  "updated_at": "2025-09-20T17:29:50.158713Z"
+  }
 }

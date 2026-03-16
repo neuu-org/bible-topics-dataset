@@ -1,76 +1,36 @@
 {
   "topic": "ALOES",
   "slug": "aloes",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Used as perfume Ps 45:8; Pr 7:17; So 4:14",
-      "references": [
-        "Ps 45:8",
-        "Prov 7:17",
-        "Song 4:14"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "In embalming the dead Joh 19:39",
-      "references": [
-        "John 19:39"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Lign-aloes Nu 2:1-6",
-      "references": [
-        "Num 2:1-6"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Proverbs",
-      "book_abbrev": "pro",
-      "chapter": 7,
-      "testament": "OT",
-      "verses": [
-        17
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.662663+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "see_also": [],
+  "aspects": [
     {
-      "book": "Numbers",
-      "chapter": 24,
-      "verses": [
-        6
+      "label": "Used as perfume",
+      "references": [
+        "Psalms 45:8",
+        "Proverbs 7:17",
+        "Song of Solomon 4:14"
       ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Numbers 24:6",
-      "source": "EAS"
+      "source": "NAV"
     },
+    {
+      "label": "In embalming the",
+      "references": [
+        "John 19:39"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Lign-aloes",
+      "references": [
+        "Numbers 2:1-6"
+      ],
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
     {
       "book": "Psalms",
       "chapter": 45,
@@ -79,8 +39,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Psalms 45:8",
-      "source": "EAS"
+      "raw": "Psalms 45:8"
     },
     {
       "book": "Proverbs",
@@ -90,8 +49,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Proverbs 7:17",
-      "source": "EAS"
+      "raw": "Proverbs 7:17"
     },
     {
       "book": "Song of Solomon",
@@ -101,8 +59,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Song of Solomon 4:14",
-      "source": "EAS"
+      "raw": "Song of Solomon 4:14"
     },
     {
       "book": "John",
@@ -112,8 +69,43 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "John 19:39",
-      "source": "EAS"
+      "raw": "John 19:39"
+    },
+    {
+      "book": "Numbers",
+      "chapter": 2,
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "verse_count": 6,
+      "testament": "OT",
+      "raw": "Numbers 2:1-6"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "John",
+    "Numbers",
+    "Proverbs",
+    "Psalms",
+    "Song of Solomon"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 5,
+    "ot_refs": 4,
+    "nt_refs": 1,
+    "books_count": 5,
+    "top_books": [
+      "Psalms",
+      "Proverbs",
+      "Song of Solomon",
+      "John",
+      "Numbers"
+    ]
+  }
 }

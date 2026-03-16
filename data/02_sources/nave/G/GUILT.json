@@ -1,97 +1,35 @@
 {
   "topic": "GUILT",
-  "topic_slug": "guilt",
+  "slug": "guilt",
   "canonical_id": "NAV:guilt",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "CONVICTION",
     "SIN",
     "CONSCIENCE"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "CONVICTION",
-      "clean": "CONVICTION",
-      "slug": "conviction",
-      "canonical_id": "NAV:conviction"
+      "label": "SeeCONVICTION",
+      "references": []
     },
     {
-      "original": "SIN",
-      "clean": "SIN",
-      "slug": "sin",
-      "canonical_id": "NAV:sin"
+      "label": "SeeSIN",
+      "references": []
     },
     {
-      "original": "CONSCIENCE",
-      "clean": "CONSCIENCE",
-      "slug": "conscience",
-      "canonical_id": "NAV:conscience"
-    }
-  ],
-  "raw_block": "–SeeCONVICTION\n–SeeSIN\n–SeeCONSCIENCE",
-  "content_preview": "–SeeCONVICTION",
-  "reference_groups": [
-    {
-      "idx": 0,
-      "entry_label": "–SeeCONVICTION",
-      "raw_segment": "–SeeCONVICTION"
-    },
-    {
-      "idx": 1,
-      "entry_label": "–SeeSIN",
-      "raw_segment": "–SeeSIN"
-    },
-    {
-      "idx": 2,
-      "entry_label": "–SeeCONSCIENCE",
-      "raw_segment": "–SeeCONSCIENCE"
+      "label": "SeeCONSCIENCE",
+      "references": []
     }
   ],
   "biblical_references": [],
   "books_mentioned": [],
-  "normalized_labels": [],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 3,
+    "total_refs": 0,
     "ot_refs": 0,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:8443eb62a1f42f20ed7afe2992a38a2c39d46db890070b32988a58e0c91fc06d",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 3
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
-    ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:26:49.564076Z",
-  "updated_at": "2025-09-20T17:26:49.564084Z"
+    "books_count": 0,
+    "top_books": []
+  }
 }

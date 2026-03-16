@@ -1,88 +1,105 @@
 {
   "topic": "FETTERS",
-  "topic_slug": "fetters",
+  "slug": "fetters",
   "canonical_id": "NAV:fetters",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "CHAINS"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "CHAINS",
-      "clean": "CHAINS",
-      "slug": "chains",
-      "canonical_id": "NAV:chains"
+      "label": "Used for securing pri",
+      "references": [
+        "2 Chronicles 33:11",
+        "2 Chronicles 36:6",
+        "Mark 5:4"
+      ]
+    },
+    {
+      "label": "Ma",
+      "references": [
+        "Judges 16:21",
+        "2 Kings 25:7"
+      ]
+    },
+    {
+      "label": "Ma",
+      "references": []
+    },
+    {
+      "label": "SeeCHAINS",
+      "references": []
     }
   ],
-  "raw_block": "–Used for securing prisoners2Ch 33:11;36:6;Mr 5:4\n–Made of brass (bronze)Jud 16:21;2Ki 25:7\n–Made of iron\n–SeeCHAINS",
-  "content_preview": "–Used for securing prisoners2Ch 33:11;36:6;Mr 5:4",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–Used for securing prisoners2Ch 33:11;36:6;Mr 5:4",
-      "raw_segment": "–Used for securing prisoners2Ch 33:11;36:6;Mr 5:4"
+      "book": "2 Chronicles",
+      "chapter": 33,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Chronicles 33:11"
     },
     {
-      "idx": 1,
-      "entry_label": "–Made of brass (bronze)Jud 16:21;2Ki 25:7",
-      "raw_segment": "–Made of brass (bronze)Jud 16:21;2Ki 25:7"
+      "book": "2 Chronicles",
+      "chapter": 36,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Chronicles 36:6"
     },
     {
-      "idx": 2,
-      "entry_label": "–Made of iron",
-      "raw_segment": "–Made of iron"
+      "book": "Mark",
+      "chapter": 5,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Mark 5:4"
     },
     {
-      "idx": 3,
-      "entry_label": "–SeeCHAINS",
-      "raw_segment": "–SeeCHAINS"
+      "book": "Judges",
+      "chapter": 16,
+      "verses": [
+        21
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Judges 16:21"
+    },
+    {
+      "book": "2 Kings",
+      "chapter": 25,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Kings 25:7"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "2 Chronicles",
+    "2 Kings",
+    "Judges",
+    "Mark"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:d70a80f99eb77454f1e9a9f539fb7ad193568265ac3c7f71edbeb9535c801054",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 4
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 4,
+    "total_refs": 5,
+    "ot_refs": 4,
+    "nt_refs": 1,
+    "books_count": 4,
+    "top_books": [
+      "2 Chronicles",
+      "Mark",
+      "Judges",
+      "2 Kings"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:26:19.155578Z",
-  "updated_at": "2025-09-20T17:26:19.155585Z"
+  }
 }

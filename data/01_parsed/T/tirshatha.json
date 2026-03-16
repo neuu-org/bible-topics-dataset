@@ -1,54 +1,22 @@
 {
   "topic": "TIRSHATHA",
   "slug": "tirshatha",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "A title of Persian governors Ezr 2:63; Ne 7:65,70; 8:9",
-      "references": [
-        "Ezra 2:63",
-        "Neh 7:65",
-        "Neh 7:70",
-        "Neh 8:9"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Nehemiah",
-      "book_abbrev": "neh",
-      "chapter": 7,
-      "testament": "OT",
-      "verses": [
-        8,
-        65,
-        70
-      ],
-      "verse_count": 3
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.730364+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "A title of Persian governors",
+      "references": [
+        "Ezra 2:63",
+        "Nehemiah 7:65,70",
+        "Nehemiah 8:9"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Ezra",
       "chapter": 2,
@@ -57,8 +25,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Ezra 2:63",
-      "source": "EAS"
+      "raw": "Ezra 2:63"
     },
     {
       "book": "Nehemiah",
@@ -69,8 +36,7 @@
       ],
       "verse_count": 2,
       "testament": "OT",
-      "raw": "Nehemiah 7:65, 70",
-      "source": "EAS"
+      "raw": "Nehemiah 7:65,70"
     },
     {
       "book": "Nehemiah",
@@ -80,41 +46,22 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Nehemiah 8:9",
-      "source": "EAS"
-    },
-    {
-      "book": "Nehemiah",
-      "chapter": 10,
-      "verses": [
-        1
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Nehemiah 10:1",
-      "source": "EAS"
-    },
-    {
-      "book": "Nehemiah",
-      "chapter": 5,
-      "verses": [
-        18
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Nehemiah 5:18",
-      "source": "EAS"
-    },
-    {
-      "book": "Nehemiah",
-      "chapter": 7,
-      "verses": [
-        65
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Nehemiah 7:65",
-      "source": "SMI"
+      "raw": "Nehemiah 8:9"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Ezra",
+    "Nehemiah"
+  ],
+  "stats": {
+    "total_aspects": 1,
+    "total_refs": 3,
+    "ot_refs": 3,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "Nehemiah",
+      "Ezra"
+    ]
+  }
 }

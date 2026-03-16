@@ -1,73 +1,22 @@
 {
   "topic": "ADIN",
   "slug": "adin",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "A Jewish captive Ezr 2:15; 8:6; Ne 7:20",
-      "references": [
-        "Ezra 2:15",
-        "Ezra 8:6",
-        "Neh 7:20"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Nehemiah",
-      "book_abbrev": "neh",
-      "chapter": 7,
-      "testament": "OT",
-      "verses": [
-        20
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.661238+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "A Jewish",
+      "references": [
+        "Ezra 2:15",
+        "Ezra 8:6",
+        "Nehemiah 7:20"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "Ezra",
-      "chapter": 8,
-      "verses": [
-        6
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Ezra 8:6",
-      "source": "EAS"
-    },
-    {
-      "book": "Nehemiah",
-      "chapter": 10,
-      "verses": [
-        16
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Nehemiah 10:16",
-      "source": "EAS"
-    },
+  ],
+  "biblical_references": [
     {
       "book": "Ezra",
       "chapter": 2,
@@ -76,8 +25,17 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Ezra 2:15",
-      "source": "SMI"
+      "raw": "Ezra 2:15"
+    },
+    {
+      "book": "Ezra",
+      "chapter": 8,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezra 8:6"
     },
     {
       "book": "Nehemiah",
@@ -87,8 +45,22 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Nehemiah 7:20",
-      "source": "SMI"
+      "raw": "Nehemiah 7:20"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Ezra",
+    "Nehemiah"
+  ],
+  "stats": {
+    "total_aspects": 1,
+    "total_refs": 3,
+    "ot_refs": 3,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "Ezra",
+      "Nehemiah"
+    ]
+  }
 }

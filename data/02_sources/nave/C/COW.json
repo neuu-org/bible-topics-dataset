@@ -1,112 +1,96 @@
 {
   "topic": "COW",
-  "topic_slug": "cow",
+  "slug": "cow",
   "canonical_id": "NAV:cow",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "KINE",
     "CATTLE",
     "MILK"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "KINE",
-      "clean": "KINE",
-      "slug": "kine",
-      "canonical_id": "NAV:kine"
+      "label": "Used for pulling",
+      "references": [
+        "1 Samuel 6:7-12",
+        "Hosea 10:11"
+      ]
     },
     {
-      "original": "CATTLE",
-      "clean": "CATTLE",
-      "slug": "cattle",
-      "canonical_id": "NAV:cattle"
+      "label": "(Milk of, used for food)",
+      "references": []
     },
     {
-      "original": "MILK",
-      "clean": "MILK",
-      "slug": "milk",
-      "canonical_id": "NAV:milk"
+      "label": "SeeMILK",
+      "references": []
+    },
+    {
+      "label": "See",
+      "references": []
+    },
+    {
+      "label": "SeeKINE",
+      "references": []
+    },
+    {
+      "label": "FIGURATIVE",
+      "references": [
+        "Amos 4:1"
+      ]
     }
   ],
-  "raw_block": "–Used for pulling1Sa 6:7-12;Ho 10:11\n–(Milk of, used for food)\n–SeeMILK\n–SeeCATTLE\n–SeeKINE\n–FIGURATIVEAm 4:1",
-  "content_preview": "–Used for pulling1Sa 6:7-12;Ho 10:11",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–Used for pulling1Sa 6:7-12;Ho 10:11",
-      "raw_segment": "–Used for pulling1Sa 6:7-12;Ho 10:11"
+      "book": "1 Samuel",
+      "chapter": 6,
+      "verses": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "verse_count": 6,
+      "testament": "OT",
+      "raw": "1 Samuel 6:7-12"
     },
     {
-      "idx": 1,
-      "entry_label": "–(Milk of, used for food)",
-      "raw_segment": "–(Milk of, used for food)"
+      "book": "Hosea",
+      "chapter": 10,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Hosea 10:11"
     },
     {
-      "idx": 2,
-      "entry_label": "–SeeMILK",
-      "raw_segment": "–SeeMILK"
-    },
-    {
-      "idx": 3,
-      "entry_label": "–SeeCATTLE",
-      "raw_segment": "–SeeCATTLE"
-    },
-    {
-      "idx": 4,
-      "entry_label": "–SeeKINE",
-      "raw_segment": "–SeeKINE"
-    },
-    {
-      "idx": 5,
-      "entry_label": "–FIGURATIVEAm 4:1",
-      "raw_segment": "–FIGURATIVEAm 4:1"
+      "book": "Amos",
+      "chapter": 4,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Amos 4:1"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "1 Samuel",
+    "Amos",
+    "Hosea"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 6,
+    "total_refs": 3,
+    "ot_refs": 3,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:9a272f54d5d10f83e623897783817efccc6dc025acee33163e71bd904bf3a3ad",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 6
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 3,
+    "top_books": [
+      "1 Samuel",
+      "Hosea",
+      "Amos"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:25:18.851779Z",
-  "updated_at": "2025-09-20T17:25:18.851786Z"
+  }
 }

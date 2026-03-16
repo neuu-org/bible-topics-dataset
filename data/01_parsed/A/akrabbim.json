@@ -1,51 +1,22 @@
 {
   "topic": "AKRABBIM",
   "slug": "akrabbim",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "A chain of hills in the south of Palestine Nu 34:4; Jos 15:3; Jud 1:36",
-      "references": [
-        "Num 34:4",
-        "Josh 15:3",
-        "Judg 1:36"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Joshua",
-      "book_abbrev": "jos",
-      "chapter": 15,
-      "testament": "OT",
-      "verses": [
-        3
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.662376+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "A chain of hills in the",
+      "references": [
+        "Numbers 34:4",
+        "Joshua 15:3",
+        "Judges 1:36"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Numbers",
       "chapter": 34,
@@ -54,8 +25,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Numbers 34:4",
-      "source": "EAS"
+      "raw": "Numbers 34:4"
     },
     {
       "book": "Joshua",
@@ -65,8 +35,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Joshua 15:3",
-      "source": "EAS"
+      "raw": "Joshua 15:3"
     },
     {
       "book": "Judges",
@@ -76,8 +45,24 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Judges 1:36",
-      "source": "SMI"
+      "raw": "Judges 1:36"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Joshua",
+    "Judges",
+    "Numbers"
+  ],
+  "stats": {
+    "total_aspects": 1,
+    "total_refs": 3,
+    "ot_refs": 3,
+    "nt_refs": 0,
+    "books_count": 3,
+    "top_books": [
+      "Numbers",
+      "Joshua",
+      "Judges"
+    ]
+  }
 }

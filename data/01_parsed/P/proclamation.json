@@ -1,100 +1,175 @@
 {
   "topic": "PROCLAMATION",
   "slug": "proclamation",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "Imperial 2Ch 30:1-10; Es 1:22; 6:9; 8:10-14; Isa 40:3,9; Da 3:4-7; 4:1; 5:29",
+      "label": "Imperial",
       "references": [
-        "2Chr 30:1-10",
-        "Esth 1:22",
-        "Esth 6:9",
-        "Esth 8:10-14",
-        "Isa 40:3",
-        "Isa 40:9",
-        "Dan 3:4-7",
-        "Dan 4:1",
-        "Dan 5:29"
+        "2 Chronicles 30:1-10",
+        "Esther 1:22",
+        "Esther 6:9",
+        "Esther 8:10-14",
+        "Isaiah 40:3,9",
+        "Daniel 3:4-7",
+        "Daniel 4:1",
+        "Daniel 5:29"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Emancipation 2Ch 36:23; Ezr 1:1-4",
+      "label": "Emancipation",
       "references": [
-        "2Chr 36:23",
+        "2 Chronicles 36:23",
         "Ezra 1:1-4"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Ezra",
-      "book_abbrev": "ezr",
-      "chapter": 1,
-      "testament": "OT",
+      "book": "2 Chronicles",
+      "chapter": 30,
       "verses": [
         1,
         2,
         3,
-        4
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
       ],
-      "verse_count": 4
+      "verse_count": 10,
+      "testament": "OT",
+      "raw": "2 Chronicles 30:1-10"
     },
     {
       "book": "Esther",
-      "book_abbrev": "est",
       "chapter": 1,
-      "testament": "OT",
       "verses": [
-        6,
         22
       ],
-      "verse_count": 2
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Esther 1:22"
+    },
+    {
+      "book": "Esther",
+      "chapter": 6,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Esther 6:9"
+    },
+    {
+      "book": "Esther",
+      "chapter": 8,
+      "verses": [
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "verse_count": 5,
+      "testament": "OT",
+      "raw": "Esther 8:10-14"
     },
     {
       "book": "Isaiah",
-      "book_abbrev": "isa",
       "chapter": 40,
-      "testament": "OT",
       "verses": [
         3,
         9
       ],
-      "verse_count": 2
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Isaiah 40:3,9"
     },
     {
       "book": "Daniel",
-      "book_abbrev": "dan",
       "chapter": 3,
-      "testament": "OT",
       "verses": [
         4,
         5,
         6,
         7
       ],
-      "verse_count": 4
+      "verse_count": 4,
+      "testament": "OT",
+      "raw": "Daniel 3:4-7"
+    },
+    {
+      "book": "Daniel",
+      "chapter": 4,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Daniel 4:1"
+    },
+    {
+      "book": "Daniel",
+      "chapter": 5,
+      "verses": [
+        29
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Daniel 5:29"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 36,
+      "verses": [
+        23
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Chronicles 36:23"
+    },
+    {
+      "book": "Ezra",
+      "chapter": 1,
+      "verses": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "verse_count": 4,
+      "testament": "OT",
+      "raw": "Ezra 1:1-4"
     }
   ],
-  "see_also": [],
-  "aliases": [],
+  "books_mentioned": [
+    "2 Chronicles",
+    "Daniel",
+    "Esther",
+    "Ezra",
+    "Isaiah"
+  ],
   "stats": {
-    "entries_count": 2,
-    "ot_refs": 4,
+    "total_aspects": 2,
+    "total_refs": 10,
+    "ot_refs": 10,
     "nt_refs": 0,
-    "total_verses": 4
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.719638+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    }
-  },
-  "version": "3.0.0"
+    "books_count": 5,
+    "top_books": [
+      "Esther",
+      "Daniel",
+      "2 Chronicles",
+      "Isaiah",
+      "Ezra"
+    ]
+  }
 }

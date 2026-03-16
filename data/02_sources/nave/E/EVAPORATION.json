@@ -1,64 +1,88 @@
 {
   "topic": "EVAPORATION",
-  "topic_slug": "evaporation",
+  "slug": "evaporation",
   "canonical_id": "NAV:evaporation",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–General scriptures concerningPs 135:7;Jer 10:13;51:16;Am 5:8;9:6",
-  "content_preview": "–General scriptures concerningPs 135:7;Jer 10:13;51:16;Am 5:8;9:6",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–General scriptures concerningPs 135:7;Jer 10:13;51:16;Am 5:8;9:6",
-      "raw_segment": "–General scriptures concerningPs 135:7;Jer 10:13;51:16;Am 5:8;9:6"
+      "label": "General scriptures concerning",
+      "references": [
+        "Psalms 135:7",
+        "Jeremiah 10:13",
+        "Jeremiah 51:16",
+        "Amos 5:8",
+        "Amos 9:6"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Psalms",
+      "chapter": 135,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 135:7"
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 10,
+      "verses": [
+        13
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Jeremiah 10:13"
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 51,
+      "verses": [
+        16
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Jeremiah 51:16"
+    },
+    {
+      "book": "Amos",
+      "chapter": 5,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Amos 5:8"
+    },
+    {
+      "book": "Amos",
+      "chapter": 9,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Amos 9:6"
+    }
+  ],
+  "books_mentioned": [
+    "Amos",
+    "Jeremiah",
+    "Psalms"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 1,
+    "total_refs": 5,
+    "ot_refs": 5,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:40a80778cfa9982c7c22bc00229af47525648cd40ea3074de0a3c16d0a952407",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 1
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 3,
+    "top_books": [
+      "Jeremiah",
+      "Amos",
+      "Psalms"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:26:10.060876Z",
-  "updated_at": "2025-09-20T17:26:10.060884Z"
+  }
 }

@@ -1,87 +1,37 @@
 {
   "topic": "CALAMUS",
   "slug": "calamus",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "A sweet cane of Palestine So 4:14; Eze 27:19",
-      "references": [
-        "Song 4:14",
-        "Ezek 27:19"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "An ingredient of the holy ointment Ex 30:23; Isa 43:24",
-      "references": [
-        "Exod 30:23",
-        "Isa 43:24"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Commerce in Jer 6:20; Eze 27:19",
-      "references": [
-        "Jer 6:20",
-        "Ezek 27:19"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Isaiah",
-      "book_abbrev": "isa",
-      "chapter": 43,
-      "testament": "OT",
-      "verses": [
-        24
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Ezekiel",
-      "book_abbrev": "ezk",
-      "chapter": 27,
-      "testament": "OT",
-      "verses": [
-        19
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 2,
-    "nt_refs": 0,
-    "total_verses": 2
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.676009+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "see_also": [],
+  "aspects": [
     {
-      "book": "Exodus",
-      "chapter": 30,
-      "verses": [
-        23
+      "label": "A sweet",
+      "references": [
+        "Song of Solomon 4:14",
+        "Ezekiel 27:19"
       ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Exodus 30:23",
-      "source": "EAS"
+      "source": "NAV"
     },
+    {
+      "label": "An ingredient of the holy ointment",
+      "references": [
+        "Exodus 30:23",
+        "Isaiah 43:24"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Commerce in",
+      "references": [
+        "Jeremiah 6:20",
+        "Ezekiel 27:19"
+      ],
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
     {
       "book": "Song of Solomon",
       "chapter": 4,
@@ -90,8 +40,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Song of Solomon 4:14",
-      "source": "EAS"
+      "raw": "Song of Solomon 4:14"
     },
     {
       "book": "Ezekiel",
@@ -101,8 +50,17 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Ezekiel 27:19",
-      "source": "EAS"
+      "raw": "Ezekiel 27:19"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 30,
+      "verses": [
+        23
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 30:23"
     },
     {
       "book": "Isaiah",
@@ -112,8 +70,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Isaiah 43:24",
-      "source": "EAS"
+      "raw": "Isaiah 43:24"
     },
     {
       "book": "Jeremiah",
@@ -123,8 +80,28 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Jeremiah 6:20",
-      "source": "EAS"
+      "raw": "Jeremiah 6:20"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Exodus",
+    "Ezekiel",
+    "Isaiah",
+    "Jeremiah",
+    "Song of Solomon"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 5,
+    "ot_refs": 5,
+    "nt_refs": 0,
+    "books_count": 5,
+    "top_books": [
+      "Song of Solomon",
+      "Ezekiel",
+      "Exodus",
+      "Isaiah",
+      "Jeremiah"
+    ]
+  }
 }

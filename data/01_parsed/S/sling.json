@@ -1,107 +1,85 @@
 {
   "topic": "SLING",
   "slug": "sling",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [
+    "ARMIES",
+    "ARMS"
+  ],
+  "aspects": [
     {
-      "name": "Used for throwing stones Pr 26:8",
+      "label": "Used for throwing stones",
       "references": [
-        "Prov 26:8"
+        "Proverbs 26:8"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "David kills Goliath with a 1Sa 17:40-50",
+      "label": "David kills Goliath with a",
       "references": [
-        "1Sam 17:40-50"
+        "1 Samuel 17:40-50"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Dextrous use of Jud 20:16",
+      "label": "General references",
       "references": [
-        "Judg 20:16"
+        "Judges 20:16"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Used in war Jud 20:16; 2Ki 3:25; 2Ch 26:14",
+      "label": "Used in war",
       "references": [
-        "Judg 20:16",
-        "2Kgs 3:25",
-        "2Chr 26:14"
+        "Judges 20:16",
+        "2 Kings 3:25",
+        "2 Chronicles 26:14"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See ARMIES",
+      "label": "SeeARMIES",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See ARMS",
+      "label": "SeeARMS",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "2 Kings",
-      "book_abbrev": "2ki",
-      "chapter": 3,
-      "testament": "OT",
-      "verses": [
-        2,
-        25
-      ],
-      "verse_count": 2
-    },
-    {
-      "book": "2 Chronicles",
-      "book_abbrev": "2ch",
+      "book": "Proverbs",
       "chapter": 26,
-      "testament": "OT",
       "verses": [
-        14
+        8
       ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [
-    "ARMS",
-    "ARMIES"
-  ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 6,
-    "ot_refs": 2,
-    "nt_refs": 0,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.726809+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 26:8"
+    },
     {
       "book": "1 Samuel",
       "chapter": 17,
       "verses": [
         40,
-        49
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50
       ],
-      "verse_count": 2,
+      "verse_count": 11,
       "testament": "OT",
-      "raw": "1 Samuel 17:40, 49",
-      "source": "EAS"
+      "raw": "1 Samuel 17:40-50"
     },
     {
       "book": "Judges",
@@ -111,19 +89,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Judges 20:16",
-      "source": "EAS"
-    },
-    {
-      "book": "1 Chronicles",
-      "chapter": 12,
-      "verses": [
-        2
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "1 Chronicles 12:2",
-      "source": "EAS"
+      "raw": "Judges 20:16"
     },
     {
       "book": "2 Kings",
@@ -133,19 +99,38 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Kings 3:25",
-      "source": "EAS"
+      "raw": "2 Kings 3:25"
     },
     {
-      "book": "Proverbs",
+      "book": "2 Chronicles",
       "chapter": 26,
       "verses": [
-        8
+        14
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Proverbs 26:8",
-      "source": "EAS"
+      "raw": "2 Chronicles 26:14"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Samuel",
+    "2 Chronicles",
+    "2 Kings",
+    "Judges",
+    "Proverbs"
+  ],
+  "stats": {
+    "total_aspects": 6,
+    "total_refs": 5,
+    "ot_refs": 5,
+    "nt_refs": 0,
+    "books_count": 5,
+    "top_books": [
+      "Proverbs",
+      "1 Samuel",
+      "Judges",
+      "2 Kings",
+      "2 Chronicles"
+    ]
+  }
 }

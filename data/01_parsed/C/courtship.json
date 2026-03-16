@@ -1,53 +1,77 @@
 {
   "topic": "COURTSHIP",
   "slug": "courtship",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Ancient customs of",
-      "references": [],
-      "sub_groups": [
-        {
-          "name": "Suitor visited the maid Jud 14:7",
-          "references": [
-            "Judg 14:7"
-          ]
-        },
-        {
-          "name": "Women proposed marriage Ru 3:9-13",
-          "references": [
-            "Ruth 3:9-13"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "See MARRIAGE",
-      "references": [],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [
-    "MARRIAGE"
-  ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.679601+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
+  "see_also": [
+    "MARRIAGE"
+  ],
+  "aspects": [
+    {
+      "label": "Ancient customs of",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".Suitor visited the maid",
+      "references": [
+        "Judges 14:7"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".Women proposed marriage",
+      "references": [
+        "Ruth 3:9-13"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeMARRIAGE",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0"
+  ],
+  "biblical_references": [
+    {
+      "book": "Judges",
+      "chapter": 14,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Judges 14:7"
+    },
+    {
+      "book": "Ruth",
+      "chapter": 3,
+      "verses": [
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "verse_count": 5,
+      "testament": "OT",
+      "raw": "Ruth 3:9-13"
+    }
+  ],
+  "books_mentioned": [
+    "Judges",
+    "Ruth"
+  ],
+  "stats": {
+    "total_aspects": 4,
+    "total_refs": 2,
+    "ot_refs": 2,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "Judges",
+      "Ruth"
+    ]
+  }
 }

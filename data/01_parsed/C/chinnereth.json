@@ -1,94 +1,72 @@
 {
   "topic": "CHINNERETH",
   "slug": "chinnereth",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [
+    "GALILEE, SEA OF"
+  ],
+  "aspects": [
     {
-      "name": "Also called CHINNEROTH, CINNERETH and CINNEROTH",
+      "label": "Al",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "1. A district in the north of Palestine Jos 11:2; 1Ki 15:20",
+      "label": "1. A district in the north of Palestine",
       "references": [
-        "Josh 11:2",
-        "1Kgs 15:20"
+        "Joshua 11:2"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "2. A city in Naphtali Jos 19:35",
-      "references": [
-        "Josh 19:35"
-      ],
-      "sub_groups": []
+      "label": "15:20",
+      "references": [],
+      "source": "NAV"
     },
     {
-      "name": "3. The sea of Nu 34:11; Jos 12:3; 13:27",
+      "label": "2. A city in Naphtali",
       "references": [
-        "Num 34:11",
-        "Josh 12:3",
-        "Josh 13:27"
+        "Joshua 19:35"
       ],
-      "sub_groups": []
+      "source": "NAV"
+    },
+    {
+      "label": "3. The sea of",
+      "references": [
+        "Numbers 34:11",
+        "Joshua 12:3",
+        "Joshua 13:27"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".SeeGALILEE, SEA OF",
+      "references": [],
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
       "book": "Joshua",
-      "book_abbrev": "jos",
-      "chapter": 12,
-      "testament": "OT",
+      "chapter": 11,
       "verses": [
-        3,
-        13
-      ],
-      "verse_count": 2
-    },
-    {
-      "book": "1 Kings",
-      "book_abbrev": "1ki",
-      "chapter": 15,
-      "testament": "OT",
-      "verses": [
-        20
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [
-    "GALILEE, SEA OF"
-  ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 4,
-    "ot_refs": 2,
-    "nt_refs": 0,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.677782+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "Deuteronomy",
-      "chapter": 3,
-      "verses": [
-        17
+        2
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Deuteronomy 3:17",
-      "source": "EAS"
+      "raw": "Joshua 11:2"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 15,
+      "verses": [
+        20
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 15:20"
     },
     {
       "book": "Joshua",
@@ -98,8 +76,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Joshua 19:35",
-      "source": "EAS"
+      "raw": "Joshua 19:35"
     },
     {
       "book": "Numbers",
@@ -109,8 +86,17 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Numbers 34:11",
-      "source": "EAS"
+      "raw": "Numbers 34:11"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 12,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 12:3"
     },
     {
       "book": "Joshua",
@@ -120,30 +106,22 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Joshua 13:27",
-      "source": "EAS"
-    },
-    {
-      "book": "Joshua",
-      "chapter": 11,
-      "verses": [
-        2
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Joshua 11:2",
-      "source": "EAS"
-    },
-    {
-      "book": "1 Kings",
-      "chapter": 15,
-      "verses": [
-        20
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "1 Kings 15:20",
-      "source": "EAS"
+      "raw": "Joshua 13:27"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Joshua",
+    "Numbers"
+  ],
+  "stats": {
+    "total_aspects": 6,
+    "total_refs": 6,
+    "ot_refs": 6,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "Joshua",
+      "Numbers"
+    ]
+  }
 }

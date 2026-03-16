@@ -1,77 +1,47 @@
 {
   "topic": "LAODICEA",
   "slug": "laodicea",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "(A Phrygian city)",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "Paul’s concern for Col 2:1",
-      "references": [
-        "Col 2:1"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Epaphras’ zeal for Col 4:13",
-      "references": [
-        "Col 4:13"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Epistle to the Colossians to be read in Col 4:15,16",
-      "references": [
-        "Col 4:15",
-        "Col 4:16"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Message to, through John Re 1:11; 3:14-22",
-      "references": [
-        "Rev 1:11",
-        "Rev 3:14-22"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 5,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.699994+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "see_also": [],
+  "aspects": [
     {
-      "book": "Revelation",
-      "chapter": 3,
-      "verses": [
-        14
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Revelation 3:14",
-      "source": "EAS"
+      "label": "(A Phrygian city)",
+      "references": [],
+      "source": "NAV"
     },
+    {
+      "label": "Paul’s concern for",
+      "references": [
+        "Colossians 2:1"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Epaphras’ zeal for",
+      "references": [
+        "Colossians 4:13"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Epistle to the Colossians to be read in",
+      "references": [
+        "Colossians 4:15,16"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Message to, through",
+      "references": [
+        "Revelation 1:11",
+        "Revelation 3:14-22"
+      ],
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
     {
       "book": "Colossians",
       "chapter": 2,
@@ -80,19 +50,28 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Colossians 2:1",
-      "source": "EAS"
+      "raw": "Colossians 2:1"
     },
     {
       "book": "Colossians",
       "chapter": 4,
       "verses": [
-        15
+        13
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Colossians 4:15",
-      "source": "EAS"
+      "raw": "Colossians 4:13"
+    },
+    {
+      "book": "Colossians",
+      "chapter": 4,
+      "verses": [
+        15,
+        16
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Colossians 4:15,16"
     },
     {
       "book": "Revelation",
@@ -102,30 +81,7 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Revelation 1:11",
-      "source": "EAS"
-    },
-    {
-      "book": "Acts",
-      "chapter": 18,
-      "verses": [
-        19
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Acts 18:19",
-      "source": "SMI"
-    },
-    {
-      "book": "Acts",
-      "chapter": 19,
-      "verses": [
-        41
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Acts 19:41",
-      "source": "SMI"
+      "raw": "Revelation 1:11"
     },
     {
       "book": "Revelation",
@@ -143,19 +99,22 @@
       ],
       "verse_count": 9,
       "testament": "NT",
-      "raw": "Revelation 3:14-22",
-      "source": "SMI"
-    },
-    {
-      "book": "Colossians",
-      "chapter": 4,
-      "verses": [
-        16
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Colossians 4:16",
-      "source": "SMI"
+      "raw": "Revelation 3:14-22"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Colossians",
+    "Revelation"
+  ],
+  "stats": {
+    "total_aspects": 5,
+    "total_refs": 5,
+    "ot_refs": 0,
+    "nt_refs": 5,
+    "books_count": 2,
+    "top_books": [
+      "Colossians",
+      "Revelation"
+    ]
+  }
 }

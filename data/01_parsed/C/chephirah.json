@@ -1,62 +1,27 @@
 {
   "topic": "CHEPHIRAH",
   "slug": "chephirah",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "A city of the Hivites Jos 9:17; 18:26; Ezr 2:25; Ne 7:29",
-      "references": [
-        "Josh 9:17",
-        "Josh 18:26",
-        "Ezra 2:25",
-        "Neh 7:29"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Ezra",
-      "book_abbrev": "ezr",
-      "chapter": 2,
-      "testament": "OT",
-      "verses": [
-        25
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Nehemiah",
-      "book_abbrev": "neh",
-      "chapter": 7,
-      "testament": "OT",
-      "verses": [
-        29
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 2,
-    "nt_refs": 0,
-    "total_verses": 2
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.677377+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "A city of the Hivites",
+      "references": [
+        "Joshua 9:17",
+        "Joshua 18:26",
+        "Ezra 2:25"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "7:29",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Joshua",
       "chapter": 9,
@@ -65,8 +30,17 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Joshua 9:17",
-      "source": "SMI"
+      "raw": "Joshua 9:17"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 18,
+      "verses": [
+        26
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 18:26"
     },
     {
       "book": "Ezra",
@@ -76,19 +50,32 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Ezra 2:25",
-      "source": "SMI"
+      "raw": "Ezra 2:25"
     },
     {
-      "book": "Nehemiah",
+      "book": "Ezra",
       "chapter": 7,
       "verses": [
         29
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Nehemiah 7:29",
-      "source": "SMI"
+      "raw": "Ezra 7:29"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Ezra",
+    "Joshua"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 4,
+    "ot_refs": 4,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "Joshua",
+      "Ezra"
+    ]
+  }
 }

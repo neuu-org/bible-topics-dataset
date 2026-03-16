@@ -1,78 +1,29 @@
 {
   "topic": "NISAN",
-  "topic_slug": "nisan",
+  "slug": "nisan",
   "canonical_id": "NAV:nisan",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "MONTH"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "MONTH",
-      "clean": "MONTH",
-      "slug": "month",
-      "canonical_id": "NAV:month"
-    }
-  ],
-  "raw_block": "–The first month in the Jewish calendar\n–SeeMONTH",
-  "content_preview": "–The first month in the Jewish calendar",
-  "reference_groups": [
-    {
-      "idx": 0,
-      "entry_label": "–The first month in the Jewish calendar",
-      "raw_segment": "–The first month in the Jewish calendar"
+      "label": "The first month in the Jewish",
+      "references": []
     },
     {
-      "idx": 1,
-      "entry_label": "–SeeMONTH",
-      "raw_segment": "–SeeMONTH"
+      "label": "SeeMONTH",
+      "references": []
     }
   ],
   "biblical_references": [],
   "books_mentioned": [],
-  "normalized_labels": [],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 2,
+    "total_refs": 0,
     "ot_refs": 0,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:bac814264e1dc3bd0ad1d308fce5264250083d1726f4a7aa3c0b928a396388a7",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
-    ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:29:34.871991Z",
-  "updated_at": "2025-09-20T17:29:34.872003Z"
+    "books_count": 0,
+    "top_books": []
+  }
 }

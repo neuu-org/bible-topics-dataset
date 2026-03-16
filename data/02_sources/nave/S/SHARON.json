@@ -1,69 +1,131 @@
 {
   "topic": "SHARON",
-  "topic_slug": "sharon",
+  "slug": "sharon",
   "canonical_id": "NAV:sharon",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–1. The maritime slope of Palestine north of the city of Joppa\n  .David’ s herds in1Ch 27:29\n  .Roses and beauty ofSo 2:1;Isa 33:9;35:2;65:10\n  .Called SARONAc 9:35\n–2. A place that has not been ascertained1Ch 5:16",
-  "content_preview": "–1. The maritime slope of Palestine north of the city of Joppa",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–1. The maritime slope of Palestine north of the city of Joppa",
-      "raw_segment": "–1. The maritime slope of Palestine north of the city of Joppa"
+      "label": "1. The maritime slope of Palestine north of the city of Joppa",
+      "references": []
     },
     {
-      "idx": 1,
-      "entry_label": "–2. A place that has not been ascertained1Ch 5:16",
-      "raw_segment": "–2. A place that has not been ascertained1Ch 5:16"
+      "label": ".David’ s herds in",
+      "references": [
+        "1 Chronicles 27:29"
+      ]
+    },
+    {
+      "label": ".Roses and beauty of",
+      "references": [
+        "Song of Solomon 2:1",
+        "Isaiah 33:9",
+        "Isaiah 35:2",
+        "Isaiah 65:10"
+      ]
+    },
+    {
+      "label": ".",
+      "references": [
+        "Acts 9:35"
+      ]
+    },
+    {
+      "label": "2. A place that has not been ascertained",
+      "references": [
+        "1 Chronicles 5:16"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "1 Chronicles",
+      "chapter": 27,
+      "verses": [
+        29
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 27:29"
+    },
+    {
+      "book": "Song of Solomon",
+      "chapter": 2,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Song of Solomon 2:1"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 33,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 33:9"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 35,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 35:2"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 65,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 65:10"
+    },
+    {
+      "book": "Acts",
+      "chapter": 9,
+      "verses": [
+        35
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 9:35"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 5,
+      "verses": [
+        16
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 5:16"
+    }
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Acts",
+    "Isaiah",
+    "Song of Solomon"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:a98fc474126ddb3daf3715be389a0b96b2c6df9f546fa728ccd3a560eca67ae0",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 5
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 5,
+    "total_refs": 7,
+    "ot_refs": 6,
+    "nt_refs": 1,
+    "books_count": 4,
+    "top_books": [
+      "Isaiah",
+      "1 Chronicles",
+      "Song of Solomon",
+      "Acts"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:31:12.195353Z",
-  "updated_at": "2025-09-20T17:31:12.195362Z"
+  }
 }

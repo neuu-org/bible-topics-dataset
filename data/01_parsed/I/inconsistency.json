@@ -1,97 +1,171 @@
 {
   "topic": "INCONSISTENCY",
   "slug": "inconsistency",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [
+    "DECEIT",
+    "DECEPTION",
+    "HYPOCRISY"
+  ],
+  "aspects": [
     {
-      "name": "General scriptures concerning Mt 7:3-5; 23:3,4; Ro 2:1,21-23",
+      "label": "General scriptures concerning",
       "references": [
-        "Matt 7:3-5",
-        "Matt 23:3",
-        "Matt 23:4",
-        "Rom 2:1",
-        "Rom 2:21-23"
+        "Matthew 7:3-5",
+        "Matthew 23:3,4"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See DECEIT",
+      "label": "2:1,21-23",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See DECEPTION",
+      "label": "See",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See HYPOCRISY",
+      "label": "See",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "INSTANCES OF",
+      "label": "SeeHYPOCRISY",
       "references": [],
-      "sub_groups": [
-        {
-          "name": "Jehu 2Ki 10:16-31",
-          "references": [
-            "2Kgs 10:16-31"
-          ]
-        },
-        {
-          "name": "The Jews, in oppressing the poor Ne 5:9",
-          "references": [
-            "Neh 5:9"
-          ]
-        },
-        {
-          "name": "In accusing Jesus of violating the Sabbath Joh 7:22,23",
-          "references": [
-            "John 7:22",
-            "John 7:23"
-          ]
-        }
-      ]
+      "source": "NAV"
+    },
+    {
+      "label": "INSTANCES OF",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".Jehu",
+      "references": [
+        "2 Kings 10:16-31"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".The Jews, in oppressing the poor",
+      "references": [
+        "Nehemiah 5:9"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".In accusing Jesus of violating the Sabbath",
+      "references": [
+        "John 7:22,23"
+      ],
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Romans",
-      "book_abbrev": "rom",
-      "chapter": 2,
+      "book": "Matthew",
+      "chapter": 7,
+      "verses": [
+        3,
+        4,
+        5
+      ],
+      "verse_count": 3,
       "testament": "NT",
+      "raw": "Matthew 7:3-5"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 23,
+      "verses": [
+        3,
+        4
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Matthew 23:3,4"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 2,
       "verses": [
         1,
         21,
         22,
         23
       ],
-      "verse_count": 4
+      "verse_count": 4,
+      "testament": "NT",
+      "raw": "Matthew 2:1,21-23"
+    },
+    {
+      "book": "2 Kings",
+      "chapter": 10,
+      "verses": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "verse_count": 16,
+      "testament": "OT",
+      "raw": "2 Kings 10:16-31"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 5,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Nehemiah 5:9"
+    },
+    {
+      "book": "John",
+      "chapter": 7,
+      "verses": [
+        22,
+        23
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "John 7:22,23"
     }
   ],
-  "see_also": [
-    "DECEPTION",
-    "DECEIT",
-    "HYPOCRISY"
+  "books_mentioned": [
+    "2 Kings",
+    "John",
+    "Matthew",
+    "Nehemiah"
   ],
-  "aliases": [],
   "stats": {
-    "entries_count": 5,
-    "ot_refs": 0,
-    "nt_refs": 1,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.694067+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    }
-  },
-  "version": "3.0.0"
+    "total_aspects": 9,
+    "total_refs": 6,
+    "ot_refs": 2,
+    "nt_refs": 4,
+    "books_count": 4,
+    "top_books": [
+      "Matthew",
+      "2 Kings",
+      "Nehemiah",
+      "John"
+    ]
+  }
 }

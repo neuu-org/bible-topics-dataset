@@ -1,78 +1,276 @@
 {
   "topic": "ABSTINENCE, TOTAL",
-  "topic_slug": "abstinence__total",
+  "slug": "abstinence__total",
   "canonical_id": "NAV:abstinence__total",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "TEMPERANCE"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "TEMPERANCE",
-      "clean": "TEMPERANCE",
-      "slug": "temperance",
-      "canonical_id": "NAV:temperance"
-    }
-  ],
-  "raw_block": "–FROM INTOXICATING BEVERAGESLe 10:8-10;Nu 6:3,4;Jud \n13:4,13,14;Es 1:8;Pr 23:20,31,32;31:4;Jer 35:6-8,14;Lu 1:15\n–INSTANCES OF\n  .Israelites in the wildernessDe 29:6\n  .SamsonJud 16:17; with 13:3-5,13,14;Nu 6:3,4\n  .DanielDa 1:8,12\n  .RechabitesJer 35:6-14\n  .John the BaptistMt 11:18;Lu 1:15;7:33\n  .SeeTEMPERANCE",
-  "content_preview": "–FROM INTOXICATING BEVERAGESLe 10:8-10;Nu 6:3,4;Jud ",
-  "reference_groups": [
-    {
-      "idx": 0,
-      "entry_label": "–FROM INTOXICATING BEVERAGESLe 10:8-10;Nu 6:3,4;Jud \n13:4,13,14;Es 1:8;Pr 23:20,31,32;31:4;Jer 35:6-8,14;Lu 1:15",
-      "raw_segment": "–FROM INTOXICATING BEVERAGESLe 10:8-10;Nu 6:3,4;Jud \n13:4,13,14;Es 1:8;Pr 23:20,31,32;31:4;Jer 35:6-8,14;Lu 1:15"
+      "label": "FROM INTOXI",
+      "references": [
+        "Leviticus 10:8-10",
+        "Numbers 6:3,4"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–INSTANCES OF",
-      "raw_segment": "–INSTANCES OF"
+      "label": "13:4,13,14;",
+      "references": [
+        "Esther 1:8",
+        "Proverbs 23:20,31,32",
+        "Proverbs 31:4",
+        "Jeremiah 35:6-8,14",
+        "Luke 1:15"
+      ]
+    },
+    {
+      "label": "INSTANCES OF",
+      "references": []
+    },
+    {
+      "label": ".Israelites in the wil",
+      "references": [
+        "Deuteronomy 29:6"
+      ]
+    },
+    {
+      "label": ".Sam",
+      "references": [
+        "Judges 16:17",
+        "Judges 13:3-5,13,14",
+        "Numbers 6:3,4"
+      ]
+    },
+    {
+      "label": ".Daniel",
+      "references": [
+        "Daniel 1:8,12"
+      ]
+    },
+    {
+      "label": ".Rechabites",
+      "references": [
+        "Jeremiah 35:6-14"
+      ]
+    },
+    {
+      "label": ".",
+      "references": [
+        "Matthew 11:18",
+        "Luke 1:15",
+        "Luke 7:33"
+      ]
+    },
+    {
+      "label": ".SeeTEMPERANCE",
+      "references": []
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Leviticus",
+      "chapter": 10,
+      "verses": [
+        8,
+        9,
+        10
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Leviticus 10:8-10"
+    },
+    {
+      "book": "Numbers",
+      "chapter": 6,
+      "verses": [
+        3,
+        4
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Numbers 6:3,4"
+    },
+    {
+      "book": "Numbers",
+      "chapter": 13,
+      "verses": [
+        4,
+        13,
+        14
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Numbers 13:4,13,14"
+    },
+    {
+      "book": "Esther",
+      "chapter": 1,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Esther 1:8"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 23,
+      "verses": [
+        20,
+        31,
+        32
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Proverbs 23:20,31,32"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 31,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 31:4"
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 35,
+      "verses": [
+        6,
+        7,
+        8,
+        14
+      ],
+      "verse_count": 4,
+      "testament": "OT",
+      "raw": "Jeremiah 35:6-8,14"
+    },
+    {
+      "book": "Luke",
+      "chapter": 1,
+      "verses": [
+        15
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 1:15"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 29,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 29:6"
+    },
+    {
+      "book": "Judges",
+      "chapter": 16,
+      "verses": [
+        17
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Judges 16:17"
+    },
+    {
+      "book": "Judges",
+      "chapter": 13,
+      "verses": [
+        3,
+        4,
+        5,
+        13,
+        14
+      ],
+      "verse_count": 5,
+      "testament": "OT",
+      "raw": "Judges 13:3-5,13,14"
+    },
+    {
+      "book": "Daniel",
+      "chapter": 1,
+      "verses": [
+        8,
+        12
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Daniel 1:8,12"
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 35,
+      "verses": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "verse_count": 9,
+      "testament": "OT",
+      "raw": "Jeremiah 35:6-14"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 11,
+      "verses": [
+        18
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 11:18"
+    },
+    {
+      "book": "Luke",
+      "chapter": 7,
+      "verses": [
+        33
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 7:33"
+    }
+  ],
+  "books_mentioned": [
+    "Daniel",
+    "Deuteronomy",
+    "Esther",
+    "Jeremiah",
+    "Judges",
+    "Leviticus",
+    "Luke",
+    "Matthew",
+    "Numbers",
+    "Proverbs"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:0d1bc58fb28aab54a7b0e9f6371dcb4fb8ba2c1078d2dab70f759012ad81fe4b",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 9
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 9,
+    "total_refs": 15,
+    "ot_refs": 12,
+    "nt_refs": 3,
+    "books_count": 10,
+    "top_books": [
+      "Numbers",
+      "Proverbs",
+      "Jeremiah",
+      "Luke",
+      "Judges",
+      "Leviticus",
+      "Esther",
+      "Deuteronomy",
+      "Daniel",
+      "Matthew"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:23:12.525742Z",
-  "updated_at": "2025-09-20T17:23:12.525750Z"
+  }
 }

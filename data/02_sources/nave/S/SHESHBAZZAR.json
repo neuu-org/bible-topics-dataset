@@ -1,78 +1,59 @@
 {
   "topic": "SHESHBAZZAR",
-  "topic_slug": "sheshbazzar",
+  "slug": "sheshbazzar",
   "canonical_id": "NAV:sheshbazzar",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "ZERUBBABEL"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "ZERUBBABEL",
-      "clean": "ZERUBBABEL",
-      "slug": "zerubbabel",
-      "canonical_id": "NAV:zerubbabel"
-    }
-  ],
-  "raw_block": "–A name given, apparently, to ZerubbabelEzr 1:8,11;5:14,16\n–SeeZERUBBABEL",
-  "content_preview": "–A name given, apparently, to ZerubbabelEzr 1:8,11;5:14,16",
-  "reference_groups": [
-    {
-      "idx": 0,
-      "entry_label": "–A name given, apparently, to ZerubbabelEzr 1:8,11;5:14,16",
-      "raw_segment": "–A name given, apparently, to ZerubbabelEzr 1:8,11;5:14,16"
+      "label": "A name given, apparently, to Zerubbabel",
+      "references": [
+        "Ezra 1:8,11",
+        "Ezra 5:14,16"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–SeeZERUBBABEL",
-      "raw_segment": "–SeeZERUBBABEL"
+      "label": "SeeZERUBBABEL",
+      "references": []
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Ezra",
+      "chapter": 1,
+      "verses": [
+        8,
+        11
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Ezra 1:8,11"
+    },
+    {
+      "book": "Ezra",
+      "chapter": 5,
+      "verses": [
+        14,
+        16
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Ezra 5:14,16"
+    }
+  ],
+  "books_mentioned": [
+    "Ezra"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 2,
+    "total_refs": 2,
+    "ot_refs": 2,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:8193d074da475fa446de471762b5aeba5e7b156ecf5e97b6daf8e9b281bc35d9",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 1,
+    "top_books": [
+      "Ezra"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:31:21.259306Z",
-  "updated_at": "2025-09-20T17:31:21.259313Z"
+  }
 }

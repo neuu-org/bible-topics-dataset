@@ -1,69 +1,66 @@
 {
   "topic": "EBIASAPH",
-  "topic_slug": "ebiasaph",
+  "slug": "ebiasaph",
   "canonical_id": "NAV:ebiasaph",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–Also called ASAPH\n–A son of Korah1Ch 6:23;9:19;26:1",
-  "content_preview": "–Also called ASAPH",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–Also called ASAPH",
-      "raw_segment": "–Also called ASAPH"
+      "label": "Al",
+      "references": []
     },
     {
-      "idx": 1,
-      "entry_label": "–A son of Korah1Ch 6:23;9:19;26:1",
-      "raw_segment": "–A son of Korah1Ch 6:23;9:19;26:1"
+      "label": "A",
+      "references": [
+        "1 Chronicles 6:23",
+        "1 Chronicles 9:19",
+        "1 Chronicles 26:1"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "1 Chronicles",
+      "chapter": 6,
+      "verses": [
+        23
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 6:23"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 9,
+      "verses": [
+        19
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 9:19"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 26,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 26:1"
+    }
+  ],
+  "books_mentioned": [
+    "1 Chronicles"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 2,
+    "total_refs": 3,
+    "ot_refs": 3,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:a7cbf184e6c1b7e3837fa4cb5325456952a483a0b71f8bb1c59d7ed32d5caabb",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 1,
+    "top_books": [
+      "1 Chronicles"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:25:46.407978Z",
-  "updated_at": "2025-09-20T17:25:46.407985Z"
+  }
 }

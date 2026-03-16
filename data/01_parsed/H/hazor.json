@@ -1,119 +1,63 @@
 {
   "topic": "HAZOR",
   "slug": "hazor",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. A fortified city of Naphtali Jos 11:1,10,11,13; 12:19; 19:36; Jud 4:2,17; 1Sa 12:9; 2Ki 15:29; Ne 11:33",
-      "references": [
-        "Josh 11:1",
-        "Josh 11:10",
-        "Josh 11:11",
-        "Josh 11:13",
-        "Josh 12:19",
-        "Josh 19:36",
-        "Judg 4:2",
-        "Judg 4:17",
-        "1Sam 12:9",
-        "2Kgs 15:29",
-        "Neh 11:33"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "2. A city in the south of Judah Jos 15:23; 1Ki 9:15",
-      "references": [
-        "Josh 15:23",
-        "1Kgs 9:15"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "3. A place north of Jerusalem Ne 11:33",
-      "references": [
-        "Neh 11:33"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "1 Samuel",
-      "book_abbrev": "1sa",
-      "chapter": 12,
-      "testament": "OT",
-      "verses": [
-        2,
-        9
-      ],
-      "verse_count": 2
-    },
-    {
-      "book": "1 Kings",
-      "book_abbrev": "1ki",
-      "chapter": 9,
-      "testament": "OT",
-      "verses": [
-        15
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "2 Kings",
-      "book_abbrev": "2ki",
-      "chapter": 15,
-      "testament": "OT",
-      "verses": [
-        29
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Nehemiah",
-      "book_abbrev": "neh",
-      "chapter": 11,
-      "testament": "OT",
-      "verses": [
-        33
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 4,
-    "nt_refs": 0,
-    "total_verses": 4
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.691434+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "1. A fortified city of Naphtali",
+      "references": [
+        "Joshua 11:1,10,11,13",
+        "Joshua 12:19",
+        "Joshua 19:36",
+        "Judges 4:2,17",
+        "1 Samuel 12:9",
+        "2 Kings 15:29",
+        "Nehemiah 11:33"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2. A city in the",
+      "references": [
+        "Joshua 15:23",
+        "1 Kings 9:15"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "3. A place north of",
+      "references": [
+        "Nehemiah 11:33"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Joshua",
       "chapter": 11,
       "verses": [
         1,
-        2,
-        3,
-        4,
-        5
+        10,
+        11,
+        13
       ],
-      "verse_count": 5,
+      "verse_count": 4,
       "testament": "OT",
-      "raw": "Joshua 11:1-5",
-      "source": "EAS"
+      "raw": "Joshua 11:1,10,11,13"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 12,
+      "verses": [
+        19
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 12:19"
     },
     {
       "book": "Joshua",
@@ -123,19 +67,18 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Joshua 19:36",
-      "source": "EAS"
+      "raw": "Joshua 19:36"
     },
     {
       "book": "Judges",
       "chapter": 4,
       "verses": [
-        2
+        2,
+        17
       ],
-      "verse_count": 1,
+      "verse_count": 2,
       "testament": "OT",
-      "raw": "Judges 4:2",
-      "source": "EAS"
+      "raw": "Judges 4:2,17"
     },
     {
       "book": "1 Samuel",
@@ -145,8 +88,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Samuel 12:9",
-      "source": "EAS"
+      "raw": "1 Samuel 12:9"
     },
     {
       "book": "2 Kings",
@@ -156,8 +98,17 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Kings 15:29",
-      "source": "EAS"
+      "raw": "2 Kings 15:29"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 11,
+      "verses": [
+        33
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Nehemiah 11:33"
     },
     {
       "book": "Joshua",
@@ -167,38 +118,40 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Joshua 15:23",
-      "source": "EAS"
+      "raw": "Joshua 15:23"
     },
     {
-      "book": "Jeremiah",
-      "chapter": 49,
+      "book": "1 Kings",
+      "chapter": 9,
       "verses": [
-        28,
-        29,
-        30,
-        31,
-        32,
-        33
+        15
       ],
-      "verse_count": 6,
+      "verse_count": 1,
       "testament": "OT",
-      "raw": "Jeremiah 49:28-33",
-      "source": "EAS"
-    },
-    {
-      "book": "Joshua",
-      "chapter": 11,
-      "verses": [
-        10,
-        11,
-        12,
-        13
-      ],
-      "verse_count": 4,
-      "testament": "OT",
-      "raw": "Joshua 11:10-13",
-      "source": "EAS"
+      "raw": "1 Kings 9:15"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Kings",
+    "1 Samuel",
+    "2 Kings",
+    "Joshua",
+    "Judges",
+    "Nehemiah"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 9,
+    "ot_refs": 9,
+    "nt_refs": 0,
+    "books_count": 6,
+    "top_books": [
+      "Joshua",
+      "Judges",
+      "1 Samuel",
+      "2 Kings",
+      "Nehemiah",
+      "1 Kings"
+    ]
+  }
 }

@@ -1,51 +1,26 @@
 {
   "topic": "HENA",
   "slug": "hena",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "A city on the Euphrates River 2Ki 18:34; 19:13; Isa 37:13",
-      "references": [
-        "2Kgs 18:34",
-        "2Kgs 19:13",
-        "Isa 37:13"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Isaiah",
-      "book_abbrev": "isa",
-      "chapter": 37,
-      "testament": "OT",
-      "verses": [
-        13
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.691948+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "A city on the Euphrates River",
+      "references": [
+        "2 Kings 18:34",
+        "2 Kings 19:13"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "37:13",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "2 Kings",
       "chapter": 18,
@@ -54,8 +29,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Kings 18:34",
-      "source": "EAS"
+      "raw": "2 Kings 18:34"
     },
     {
       "book": "2 Kings",
@@ -65,19 +39,30 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Kings 19:13",
-      "source": "EAS"
+      "raw": "2 Kings 19:13"
     },
     {
-      "book": "Isaiah",
+      "book": "2 Kings",
       "chapter": 37,
       "verses": [
         13
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Isaiah 37:13",
-      "source": "SMI"
+      "raw": "2 Kings 37:13"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "2 Kings"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 3,
+    "ot_refs": 3,
+    "nt_refs": 0,
+    "books_count": 1,
+    "top_books": [
+      "2 Kings"
+    ]
+  }
 }

@@ -1,141 +1,96 @@
 {
   "topic": "KIDRON",
   "slug": "kidron",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "Also called CEDRON",
+      "label": "Al",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "A valley and stream between Jerusalem and the Mount of Olives 1Ki 2:37; Ne 2:15; Jer 31:40",
+      "label": "A valley and stream between",
       "references": [
-        "1Kgs 2:37",
-        "Neh 2:15",
-        "Jer 31:40"
+        "1 Kings 2:37",
+        "Nehemiah 2:15",
+        "Jeremiah 31:40"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "David flees from Absalom across 2Sa 15:23",
+      "label": "David flees from Absalom across",
       "references": [
-        "2Sam 15:23"
+        "2 Samuel 15:23"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Destruction of idols at, by Asa, Josiah, and the Levites 1Ki 15:13; 2Ki 23:6,12; 2Ch 29:16",
+      "label": "General references",
       "references": [
-        "1Kgs 15:13",
-        "2Kgs 23:6",
-        "2Kgs 23:12",
-        "2Chr 29:16"
+        "1 Kings 15:13",
+        "2 Kings 23:6,12",
+        "2 Chronicles 29:16"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Source of, closed by Hezekiah 2Ch 32:4",
+      "label": "General references",
       "references": [
-        "2Chr 32:4"
+        "2 Chronicles 32:4"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Jesus crossed, on the night of his agony Joh 18:1",
+      "label": "Jesus crossed, on the night of his agony",
       "references": [
         "John 18:1"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "2 Kings",
-      "book_abbrev": "2ki",
-      "chapter": 23,
-      "testament": "OT",
+      "book": "1 Kings",
+      "chapter": 2,
       "verses": [
-        2,
-        6,
-        12
+        37
       ],
-      "verse_count": 3
-    },
-    {
-      "book": "2 Chronicles",
-      "book_abbrev": "2ch",
-      "chapter": 29,
+      "verse_count": 1,
       "testament": "OT",
-      "verses": [
-        16
-      ],
-      "verse_count": 1
+      "raw": "1 Kings 2:37"
     },
     {
       "book": "Nehemiah",
-      "book_abbrev": "neh",
       "chapter": 2,
-      "testament": "OT",
       "verses": [
         15
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Nehemiah 2:15"
     },
     {
       "book": "Jeremiah",
-      "book_abbrev": "jer",
       "chapter": 31,
-      "testament": "OT",
       "verses": [
         40
       ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 6,
-    "ot_refs": 4,
-    "nt_refs": 0,
-    "total_verses": 4
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.698769+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Jeremiah 31:40"
+    },
     {
       "book": "2 Samuel",
       "chapter": 15,
       "verses": [
-        23,
-        30
-      ],
-      "verse_count": 2,
-      "testament": "OT",
-      "raw": "2 Samuel 15:23, 30",
-      "source": "EAS"
-    },
-    {
-      "book": "John",
-      "chapter": 18,
-      "verses": [
-        1
+        23
       ],
       "verse_count": 1,
-      "testament": "NT",
-      "raw": "John 18:1",
-      "source": "EAS"
+      "testament": "OT",
+      "raw": "2 Samuel 15:23"
     },
     {
       "book": "1 Kings",
@@ -145,19 +100,18 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Kings 15:13",
-      "source": "EAS"
+      "raw": "1 Kings 15:13"
     },
     {
       "book": "2 Kings",
-      "chapter": 11,
+      "chapter": 23,
       "verses": [
-        16
+        6,
+        12
       ],
-      "verse_count": 1,
+      "verse_count": 2,
       "testament": "OT",
-      "raw": "2 Kings 11:16",
-      "source": "EAS"
+      "raw": "2 Kings 23:6,12"
     },
     {
       "book": "2 Chronicles",
@@ -167,52 +121,52 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Chronicles 29:16",
-      "source": "EAS"
+      "raw": "2 Chronicles 29:16"
     },
     {
       "book": "2 Chronicles",
-      "chapter": 30,
+      "chapter": 32,
       "verses": [
-        14
+        4
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Chronicles 30:14",
-      "source": "EAS"
+      "raw": "2 Chronicles 32:4"
     },
     {
-      "book": "2 Kings",
-      "chapter": 23,
+      "book": "John",
+      "chapter": 18,
       "verses": [
-        6
+        1
       ],
       "verse_count": 1,
-      "testament": "OT",
-      "raw": "2 Kings 23:6",
-      "source": "EAS"
-    },
-    {
-      "book": "Jeremiah",
-      "chapter": 26,
-      "verses": [
-        23
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Jeremiah 26:23",
-      "source": "EAS"
-    },
-    {
-      "book": "Joel",
-      "chapter": 3,
-      "verses": [
-        2
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Joel 3:2",
-      "source": "EAS"
+      "testament": "NT",
+      "raw": "John 18:1"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Kings",
+    "2 Chronicles",
+    "2 Kings",
+    "2 Samuel",
+    "Jeremiah",
+    "John",
+    "Nehemiah"
+  ],
+  "stats": {
+    "total_aspects": 6,
+    "total_refs": 9,
+    "ot_refs": 8,
+    "nt_refs": 1,
+    "books_count": 7,
+    "top_books": [
+      "1 Kings",
+      "2 Chronicles",
+      "Nehemiah",
+      "Jeremiah",
+      "2 Samuel",
+      "2 Kings",
+      "John"
+    ]
+  }
 }

@@ -1,69 +1,67 @@
 {
   "topic": "BITTER WATER",
-  "topic_slug": "bitter_water",
+  "slug": "bitter_water",
   "canonical_id": "NAV:bitter_water",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–At MarahEx 15:23\n–A ceremonial water used by the priestNu 5:18-27",
-  "content_preview": "–At MarahEx 15:23",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–At MarahEx 15:23",
-      "raw_segment": "–At MarahEx 15:23"
+      "label": "At Marah",
+      "references": [
+        "Exodus 15:23"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–A ceremonial water used by the priestNu 5:18-27",
-      "raw_segment": "–A ceremonial water used by the priestNu 5:18-27"
+      "label": "A ceremonial water used by the priest",
+      "references": [
+        "Numbers 5:18-27"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Exodus",
+      "chapter": 15,
+      "verses": [
+        23
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 15:23"
+    },
+    {
+      "book": "Numbers",
+      "chapter": 5,
+      "verses": [
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "verse_count": 10,
+      "testament": "OT",
+      "raw": "Numbers 5:18-27"
+    }
+  ],
+  "books_mentioned": [
+    "Exodus",
+    "Numbers"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 2,
+    "total_refs": 2,
+    "ot_refs": 2,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:1fb1177023d69884473b1583012388a0e9bbf82987222ec497d14ced44ea775f",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 2,
+    "top_books": [
+      "Exodus",
+      "Numbers"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:24:32.140067Z",
-  "updated_at": "2025-09-20T17:24:32.140075Z"
+  }
 }

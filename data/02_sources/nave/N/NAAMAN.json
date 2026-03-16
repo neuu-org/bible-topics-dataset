@@ -1,79 +1,140 @@
 {
   "topic": "NAAMAN",
-  "topic_slug": "naaman",
+  "slug": "naaman",
   "canonical_id": "NAV:naaman",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–1. Son of BenjaminGe 46:21\n–2. Son of BelaNu 26:40;1Ch 8:4\n–3. Son of Ehud1Ch 8:7\n–4. A Syrian general, healed of leprosy by Elisha2Ki 5:1-23;Lu 4:27",
-  "content_preview": "–1. Son of BenjaminGe 46:21",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–1. Son of BenjaminGe 46:21",
-      "raw_segment": "–1. Son of BenjaminGe 46:21"
+      "label": "1.",
+      "references": [
+        "Genesis 46:21"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–2. Son of BelaNu 26:40;1Ch 8:4",
-      "raw_segment": "–2. Son of BelaNu 26:40;1Ch 8:4"
+      "label": "2.",
+      "references": [
+        "Numbers 26:40",
+        "1 Chronicles 8:4"
+      ]
     },
     {
-      "idx": 2,
-      "entry_label": "–3. Son of Ehud1Ch 8:7",
-      "raw_segment": "–3. Son of Ehud1Ch 8:7"
+      "label": "3.",
+      "references": [
+        "1 Chronicles 8:7"
+      ]
     },
     {
-      "idx": 3,
-      "entry_label": "–4. A Syrian general, healed of leprosy by Elisha2Ki 5:1-23;Lu 4:27",
-      "raw_segment": "–4. A Syrian general, healed of leprosy by Elisha2Ki 5:1-23;Lu 4:27"
+      "label": "4. A Syrian general, healed of leprosy by Elisha",
+      "references": [
+        "2 Kings 5:1-23",
+        "Luke 4:27"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Genesis",
+      "chapter": 46,
+      "verses": [
+        21
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 46:21"
+    },
+    {
+      "book": "Numbers",
+      "chapter": 26,
+      "verses": [
+        40
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Numbers 26:40"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 8,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 8:4"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 8,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 8:7"
+    },
+    {
+      "book": "2 Kings",
+      "chapter": 5,
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "verse_count": 23,
+      "testament": "OT",
+      "raw": "2 Kings 5:1-23"
+    },
+    {
+      "book": "Luke",
+      "chapter": 4,
+      "verses": [
+        27
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 4:27"
+    }
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "2 Kings",
+    "Genesis",
+    "Luke",
+    "Numbers"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:b4e0d1c5d887f6742dc2c8d2a91f2f47e75f102e71e72cc86f5b6ef8101e0538",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 4
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 4,
+    "total_refs": 6,
+    "ot_refs": 5,
+    "nt_refs": 1,
+    "books_count": 5,
+    "top_books": [
+      "1 Chronicles",
+      "Genesis",
+      "Numbers",
+      "2 Kings",
+      "Luke"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:29:22.519826Z",
-  "updated_at": "2025-09-20T17:29:22.519834Z"
+  }
 }

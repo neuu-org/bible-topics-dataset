@@ -1,50 +1,31 @@
 {
   "topic": "LAHMI",
   "slug": "lahmi",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "(Brother of Goliath) -Killed by Elhanan 2Sa 21:19; 1Ch 20:5",
+      "label": "(Brother of Goliath) -Killed by Elhanan",
       "references": [
-        "2Sam 21:19",
-        "1Chr 20:5"
+        "2 Samuel 21:19",
+        "1 Chronicles 20:5"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "1 Chronicles",
-      "book_abbrev": "1ch",
-      "chapter": 20,
-      "testament": "OT",
+      "book": "2 Samuel",
+      "chapter": 21,
       "verses": [
-        5
+        19
       ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.699733+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Samuel 21:19"
+    },
     {
       "book": "1 Chronicles",
       "chapter": 20,
@@ -53,8 +34,22 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 20:5",
-      "source": "SMI"
+      "raw": "1 Chronicles 20:5"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "2 Samuel"
+  ],
+  "stats": {
+    "total_aspects": 1,
+    "total_refs": 2,
+    "ot_refs": 2,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "2 Samuel",
+      "1 Chronicles"
+    ]
+  }
 }

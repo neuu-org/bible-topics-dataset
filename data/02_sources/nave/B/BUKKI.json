@@ -1,69 +1,72 @@
 {
   "topic": "BUKKI",
-  "topic_slug": "bukki",
+  "slug": "bukki",
   "canonical_id": "NAV:bukki",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–1. Son of Abishua1Ch 6:5,51;Ezr 7:4\n–2. A prince of DanNu 34:22",
-  "content_preview": "–1. Son of Abishua1Ch 6:5,51;Ezr 7:4",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–1. Son of Abishua1Ch 6:5,51;Ezr 7:4",
-      "raw_segment": "–1. Son of Abishua1Ch 6:5,51;Ezr 7:4"
+      "label": "1.",
+      "references": [
+        "1 Chronicles 6:5,51",
+        "Ezra 7:4"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–2. A prince of DanNu 34:22",
-      "raw_segment": "–2. A prince of DanNu 34:22"
+      "label": "2. A prince of Dan",
+      "references": [
+        "Numbers 34:22"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "1 Chronicles",
+      "chapter": 6,
+      "verses": [
+        5,
+        51
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "1 Chronicles 6:5,51"
+    },
+    {
+      "book": "Ezra",
+      "chapter": 7,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezra 7:4"
+    },
+    {
+      "book": "Numbers",
+      "chapter": 34,
+      "verses": [
+        22
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Numbers 34:22"
+    }
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Ezra",
+    "Numbers"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 2,
+    "total_refs": 3,
+    "ot_refs": 3,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:966f9c70f002e411468564d03820752a3e8766fd7ca336dfa3edbcbf3077a5c9",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 3,
+    "top_books": [
+      "1 Chronicles",
+      "Ezra",
+      "Numbers"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:24:41.560020Z",
-  "updated_at": "2025-09-20T17:24:41.560064Z"
+  }
 }

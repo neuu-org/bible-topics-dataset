@@ -1,74 +1,144 @@
 {
   "topic": "OPHRAH",
-  "topic_slug": "ophrah",
+  "slug": "ophrah",
   "canonical_id": "NAV:ophrah",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–L. A city in territory of the tribe of BenjaminJos \n18:23;1Sa 13:17\n  .Possibly identical with EPHRAIN2Ch 13:19\n  .And EPHRAIMJoh 11:54\n–2. A city in territory of the tribe of Manasseh; the home of \nGideonJud 6:11,24;8:27,32;9:5\n–3. Son of Meonothai1Ch 4:14",
-  "content_preview": "–L. A city in territory of the tribe of BenjaminJos ",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–L. A city in territory of the tribe of BenjaminJos \n18:23;1Sa 13:17",
-      "raw_segment": "–L. A city in territory of the tribe of BenjaminJos \n18:23;1Sa 13:17"
+      "label": "L. A city in territory of the tribe of BenjaminJos",
+      "references": []
     },
     {
-      "idx": 1,
-      "entry_label": "–2. A city in territory of the tribe of Manasseh; the home of \nGideonJud 6:11,24;8:27,32;9:5",
-      "raw_segment": "–2. A city in territory of the tribe of Manasseh; the home of \nGideonJud 6:11,24;8:27,32;9:5"
+      "label": "18:23;",
+      "references": [
+        "1 Samuel 13:17"
+      ]
     },
     {
-      "idx": 2,
-      "entry_label": "–3. Son of Meonothai1Ch 4:14",
-      "raw_segment": "–3. Son of Meonothai1Ch 4:14"
+      "label": ".Possibly i",
+      "references": [
+        "2 Chronicles 13:19"
+      ]
+    },
+    {
+      "label": ".And EPHRAIM",
+      "references": [
+        "John 11:54"
+      ]
+    },
+    {
+      "label": "2. A city in territory of the tribe of Manasseh; the home of",
+      "references": []
+    },
+    {
+      "label": "Gi",
+      "references": [
+        "Judges 6:11,24",
+        "Judges 8:27,32",
+        "Judges 9:5"
+      ]
+    },
+    {
+      "label": "3.",
+      "references": [
+        "1 Chronicles 4:14"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "1 Samuel",
+      "chapter": 13,
+      "verses": [
+        17
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Samuel 13:17"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 13,
+      "verses": [
+        19
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Chronicles 13:19"
+    },
+    {
+      "book": "John",
+      "chapter": 11,
+      "verses": [
+        54
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "John 11:54"
+    },
+    {
+      "book": "Judges",
+      "chapter": 6,
+      "verses": [
+        11,
+        24
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Judges 6:11,24"
+    },
+    {
+      "book": "Judges",
+      "chapter": 8,
+      "verses": [
+        27,
+        32
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Judges 8:27,32"
+    },
+    {
+      "book": "Judges",
+      "chapter": 9,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Judges 9:5"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 4,
+      "verses": [
+        14
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 4:14"
+    }
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "1 Samuel",
+    "2 Chronicles",
+    "John",
+    "Judges"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:56226eacbb867ed8afb545b5ecac563f2457e908c9a6bfaf8d7bdc5405d1ca5e",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 7
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 7,
+    "total_refs": 7,
+    "ot_refs": 6,
+    "nt_refs": 1,
+    "books_count": 5,
+    "top_books": [
+      "Judges",
+      "1 Samuel",
+      "2 Chronicles",
+      "John",
+      "1 Chronicles"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:29:43.138086Z",
-  "updated_at": "2025-09-20T17:29:43.138092Z"
+  }
 }

@@ -1,69 +1,107 @@
 {
   "topic": "SALMA",
-  "topic_slug": "salma",
+  "slug": "salma",
   "canonical_id": "NAV:salma",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–1. Son of Caleb1Ch 2:51,54\n–2. Called also SALMON\n  .Father of BoazRu 4:20,21;1Ch 2:11\n  .In the lineage of JosephMt 1:4,5;Lu 3:32",
-  "content_preview": "–1. Son of Caleb1Ch 2:51,54",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–1. Son of Caleb1Ch 2:51,54",
-      "raw_segment": "–1. Son of Caleb1Ch 2:51,54"
+      "label": "1.",
+      "references": [
+        "1 Chronicles 2:51,54"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–2. Called also SALMON",
-      "raw_segment": "–2. Called also SALMON"
+      "label": "2.",
+      "references": []
+    },
+    {
+      "label": ".Father of Boaz",
+      "references": [
+        "Ruth 4:20,21",
+        "1 Chronicles 2:11"
+      ]
+    },
+    {
+      "label": ".In the lineage of Joseph",
+      "references": [
+        "Matthew 1:4,5",
+        "Luke 3:32"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "1 Chronicles",
+      "chapter": 2,
+      "verses": [
+        51,
+        54
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "1 Chronicles 2:51,54"
+    },
+    {
+      "book": "Ruth",
+      "chapter": 4,
+      "verses": [
+        20,
+        21
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Ruth 4:20,21"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 2,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 2:11"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 1,
+      "verses": [
+        4,
+        5
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Matthew 1:4,5"
+    },
+    {
+      "book": "Luke",
+      "chapter": 3,
+      "verses": [
+        32
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 3:32"
+    }
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Luke",
+    "Matthew",
+    "Ruth"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:914901ff5e72472e8d2cf2104ab5faf1bbd74122cbe947759faa0234a3483ca5",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 4
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 4,
+    "total_refs": 5,
+    "ot_refs": 3,
+    "nt_refs": 2,
+    "books_count": 4,
+    "top_books": [
+      "1 Chronicles",
+      "Ruth",
+      "Matthew",
+      "Luke"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:30:49.788200Z",
-  "updated_at": "2025-09-20T17:30:49.788207Z"
+  }
 }

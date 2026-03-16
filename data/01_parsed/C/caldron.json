@@ -1,66 +1,35 @@
 {
   "topic": "CALDRON",
   "slug": "caldron",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "In the tabernacle 1Sa 2:14",
-      "references": [
-        "1Sam 2:14"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "In the temple 2Ch 35:13; Jer 52:18,19",
-      "references": [
-        "2Chr 35:13",
-        "Jer 52:18",
-        "Jer 52:19"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "FIGURATIVE Eze 11:3-11",
-      "references": [
-        "Ezek 11:3-11"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Jeremiah",
-      "book_abbrev": "jer",
-      "chapter": 52,
-      "testament": "OT",
-      "verses": [
-        18,
-        19
-      ],
-      "verse_count": 2
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.676022+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "In the tabernacle",
+      "references": [
+        "1 Samuel 2:14"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "In the temple",
+      "references": [
+        "2 Chronicles 35:13",
+        "Jeremiah 52:18,19"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "FIGURATIVE",
+      "references": [
+        "Ezekiel 11:3-11"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "1 Samuel",
       "chapter": 2,
@@ -69,8 +38,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Samuel 2:14",
-      "source": "SMI"
+      "raw": "1 Samuel 2:14"
     },
     {
       "book": "2 Chronicles",
@@ -80,30 +48,55 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Chronicles 35:13",
-      "source": "SMI"
+      "raw": "2 Chronicles 35:13"
     },
     {
-      "book": "Job",
-      "chapter": 41,
+      "book": "Jeremiah",
+      "chapter": 52,
       "verses": [
-        20
+        18,
+        19
       ],
-      "verse_count": 1,
+      "verse_count": 2,
       "testament": "OT",
-      "raw": "Job 41:20",
-      "source": "SMI"
+      "raw": "Jeremiah 52:18,19"
     },
     {
-      "book": "Micah",
-      "chapter": 3,
+      "book": "Ezekiel",
+      "chapter": 11,
       "verses": [
-        3
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
       ],
-      "verse_count": 1,
+      "verse_count": 9,
       "testament": "OT",
-      "raw": "Micah 3:3",
-      "source": "SMI"
+      "raw": "Ezekiel 11:3-11"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Samuel",
+    "2 Chronicles",
+    "Ezekiel",
+    "Jeremiah"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 4,
+    "ot_refs": 4,
+    "nt_refs": 0,
+    "books_count": 4,
+    "top_books": [
+      "1 Samuel",
+      "2 Chronicles",
+      "Jeremiah",
+      "Ezekiel"
+    ]
+  }
 }

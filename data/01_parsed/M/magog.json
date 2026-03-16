@@ -1,65 +1,36 @@
 {
   "topic": "MAGOG",
   "slug": "magog",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Son of Japheth Ge 10:2; 1Ch 1:5",
-      "references": [
-        "Gen 10:2",
-        "1Chr 1:5"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Prophecy concerning Eze 38:2; 39:6",
-      "references": [
-        "Ezek 38:2",
-        "Ezek 39:6"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Symbolical of the enemies of God Re 20:8",
-      "references": [
-        "Rev 20:8"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "1 Chronicles",
-      "book_abbrev": "1ch",
-      "chapter": 1,
-      "testament": "OT",
-      "verses": [
-        5
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.702729+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "General references",
+      "references": [
+        "Genesis 10:2",
+        "1 Chronicles 1:5"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Prophecy concerning",
+      "references": [
+        "Ezekiel 38:2",
+        "Ezekiel 39:6"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Symboli",
+      "references": [
+        "Revelation 20:8"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Genesis",
       "chapter": 10,
@@ -68,8 +39,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 10:2",
-      "source": "EAS"
+      "raw": "Genesis 10:2"
     },
     {
       "book": "1 Chronicles",
@@ -79,30 +49,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 1:5",
-      "source": "EAS"
-    },
-    {
-      "book": "1 Chronicles",
-      "chapter": 38,
-      "verses": [
-        2
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "1 Chronicles 38:2",
-      "source": "EAS"
-    },
-    {
-      "book": "1 Chronicles",
-      "chapter": 39,
-      "verses": [
-        6
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "1 Chronicles 39:6",
-      "source": "EAS"
+      "raw": "1 Chronicles 1:5"
     },
     {
       "book": "Ezekiel",
@@ -112,31 +59,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Ezekiel 38:2",
-      "source": "SMI"
-    },
-    {
-      "book": "Ezekiel",
-      "chapter": 39,
-      "verses": [
-        1,
-        6
-      ],
-      "verse_count": 2,
-      "testament": "OT",
-      "raw": "Ezekiel 39:1,6",
-      "source": "SMI"
-    },
-    {
-      "book": "Ezekiel",
-      "chapter": 39,
-      "verses": [
-        2
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Ezekiel 39:2",
-      "source": "SMI"
+      "raw": "Ezekiel 38:2"
     },
     {
       "book": "Ezekiel",
@@ -146,41 +69,36 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Ezekiel 39:6",
-      "source": "SMI"
+      "raw": "Ezekiel 39:6"
     },
     {
-      "book": "Ezekiel",
-      "chapter": 38,
+      "book": "Revelation",
+      "chapter": 20,
       "verses": [
-        16
+        8
       ],
       "verse_count": 1,
-      "testament": "OT",
-      "raw": "Ezekiel 38:16",
-      "source": "SMI"
-    },
-    {
-      "book": "Ezekiel",
-      "chapter": 39,
-      "verses": [
-        3
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Ezekiel 39:3",
-      "source": "SMI"
-    },
-    {
-      "book": "Ezekiel",
-      "chapter": 58,
-      "verses": [
-        6
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Ezekiel 58:6",
-      "source": "SMI"
+      "testament": "NT",
+      "raw": "Revelation 20:8"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Ezekiel",
+    "Genesis",
+    "Revelation"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 5,
+    "ot_refs": 4,
+    "nt_refs": 1,
+    "books_count": 4,
+    "top_books": [
+      "Ezekiel",
+      "Genesis",
+      "1 Chronicles",
+      "Revelation"
+    ]
+  }
 }

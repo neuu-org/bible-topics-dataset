@@ -1,8 +1,8 @@
 {
   "topic": "CRIME",
-  "topic_slug": "crime",
+  "slug": "crime",
   "canonical_id": "NAV:crime",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "PUNISHMENT",
     "THEFT",
@@ -10,92 +10,181 @@
     "ARSON",
     "HOMICIDE"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "PUNISHMENT",
-      "clean": "PUNISHMENT",
-      "slug": "punishment",
-      "canonical_id": "NAV:punishment"
+      "label": "PARTIAL LISTS OF",
+      "references": [
+        "Ezekiel 22:8-12,27-30",
+        "Hosea 4:1,2",
+        "Matthew 15:19",
+        "Mark 7:21,22",
+        "Romans 1:24,29-32",
+        "Romans 3:14-18",
+        "Romans 13:9",
+        "1 Corinthians 5:11",
+        "Galatians 5:19-21"
+      ]
     },
     {
-      "original": "THEFT",
-      "clean": "THEFT",
-      "slug": "theft",
-      "canonical_id": "NAV:theft"
+      "label": ".See un",
+      "references": []
     },
     {
-      "original": "ADULTERY",
-      "clean": "ADULTERY",
-      "slug": "adultery",
-      "canonical_id": "NAV:adultery"
+      "label": "SeeADULTERY",
+      "references": []
     },
     {
-      "original": "ARSON",
-      "clean": "ARSON",
-      "slug": "arson",
-      "canonical_id": "NAV:arson"
+      "label": "SeeAR",
+      "references": []
     },
     {
-      "original": "HOMICIDE",
-      "clean": "HOMICIDE",
-      "slug": "homicide",
-      "canonical_id": "NAV:homicide"
+      "label": "SeeHOMICI",
+      "references": []
+    },
+    {
+      "label": "SeeTHEFT, and the like",
+      "references": []
+    },
+    {
+      "label": "SeePUNISHMENT",
+      "references": []
     }
   ],
-  "raw_block": "–PARTIAL LISTS OFEze 22:8-12,27-30;Ho 4:1,2;Mt 15:19;Mr 7:21,22;Ro 1:24,29-32;3:14-18;13:9;1Co 5:11;Ga 5:19-21\n  .See under terms by which various crimes are known\n    SeeADULTERY\n    SeeARSON\n    SeeHOMICIDE\n    SeeTHEFT, and the like\n    SeePUNISHMENT",
-  "content_preview": "–PARTIAL LISTS OFEze 22:8-12,27-30;Ho 4:1,2;Mt 15:19;Mr 7:21,22;Ro 1:24,29-32;3:14-18;13:9;1Co 5:11;...",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–PARTIAL LISTS OFEze 22:8-12,27-30;Ho 4:1,2;Mt 15:19;Mr 7:21,22;Ro 1:24,29-32;3:14-18;13:9;1Co 5:11;Ga 5:19-21",
-      "raw_segment": "–PARTIAL LISTS OFEze 22:8-12,27-30;Ho 4:1,2;Mt 15:19;Mr 7:21,22;Ro 1:24,29-32;3:14-18;13:9;1Co 5:11;Ga 5:19-21"
+      "book": "Ezekiel",
+      "chapter": 22,
+      "verses": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        27,
+        28,
+        29,
+        30
+      ],
+      "verse_count": 9,
+      "testament": "OT",
+      "raw": "Ezekiel 22:8-12,27-30"
+    },
+    {
+      "book": "Hosea",
+      "chapter": 4,
+      "verses": [
+        1,
+        2
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Hosea 4:1,2"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 15,
+      "verses": [
+        19
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 15:19"
+    },
+    {
+      "book": "Mark",
+      "chapter": 7,
+      "verses": [
+        21,
+        22
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Mark 7:21,22"
+    },
+    {
+      "book": "Romans",
+      "chapter": 1,
+      "verses": [
+        24,
+        29,
+        30,
+        31,
+        32
+      ],
+      "verse_count": 5,
+      "testament": "NT",
+      "raw": "Romans 1:24,29-32"
+    },
+    {
+      "book": "Romans",
+      "chapter": 3,
+      "verses": [
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "verse_count": 5,
+      "testament": "NT",
+      "raw": "Romans 3:14-18"
+    },
+    {
+      "book": "Romans",
+      "chapter": 13,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Romans 13:9"
+    },
+    {
+      "book": "1 Corinthians",
+      "chapter": 5,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "1 Corinthians 5:11"
+    },
+    {
+      "book": "Galatians",
+      "chapter": 5,
+      "verses": [
+        19,
+        20,
+        21
+      ],
+      "verse_count": 3,
+      "testament": "NT",
+      "raw": "Galatians 5:19-21"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "1 Corinthians",
+    "Ezekiel",
+    "Galatians",
+    "Hosea",
+    "Mark",
+    "Matthew",
+    "Romans"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:a4939fd434856d83ee8720134e27bfafa5f39f48aa1e7cb0e4c1a3b6703d7da2",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 7
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 7,
+    "total_refs": 9,
+    "ot_refs": 2,
+    "nt_refs": 7,
+    "books_count": 7,
+    "top_books": [
+      "Romans",
+      "Ezekiel",
+      "Hosea",
+      "Matthew",
+      "Mark",
+      "1 Corinthians",
+      "Galatians"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:25:20.679833Z",
-  "updated_at": "2025-09-20T17:25:20.679840Z"
+  }
 }

@@ -1,8 +1,8 @@
 {
   "topic": "MAGIC",
-  "topic_slug": "magic",
+  "slug": "magic",
   "canonical_id": "NAV:magic",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "NECROMANCY",
     "WITCHCRAFT",
@@ -10,112 +10,36 @@
     "SORCERY",
     "MAGICIAN"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "NECROMANCY",
-      "clean": "NECROMANCY",
-      "slug": "necromancy",
-      "canonical_id": "NAV:necromancy"
+      "label": "SeeASTROLOGY",
+      "references": []
     },
     {
-      "original": "WITCHCRAFT",
-      "clean": "WITCHCRAFT",
-      "slug": "witchcraft",
-      "canonical_id": "NAV:witchcraft"
+      "label": "SeeMAGICIAN",
+      "references": []
     },
     {
-      "original": "ASTROLOGY",
-      "clean": "ASTROLOGY",
-      "slug": "astrology",
-      "canonical_id": "NAV:astrology"
+      "label": "SeeNECROMANCY",
+      "references": []
     },
     {
-      "original": "SORCERY",
-      "clean": "SORCERY",
-      "slug": "sorcery",
-      "canonical_id": "NAV:sorcery"
+      "label": "See",
+      "references": []
     },
     {
-      "original": "MAGICIAN",
-      "clean": "MAGICIAN",
-      "slug": "magician",
-      "canonical_id": "NAV:magician"
-    }
-  ],
-  "raw_block": "–SeeASTROLOGY\n–SeeMAGICIAN\n–SeeNECROMANCY\n–SeeSORCERY\n–SeeWITCHCRAFT",
-  "content_preview": "–SeeASTROLOGY",
-  "reference_groups": [
-    {
-      "idx": 0,
-      "entry_label": "–SeeASTROLOGY",
-      "raw_segment": "–SeeASTROLOGY"
-    },
-    {
-      "idx": 1,
-      "entry_label": "–SeeMAGICIAN",
-      "raw_segment": "–SeeMAGICIAN"
-    },
-    {
-      "idx": 2,
-      "entry_label": "–SeeNECROMANCY",
-      "raw_segment": "–SeeNECROMANCY"
-    },
-    {
-      "idx": 3,
-      "entry_label": "–SeeSORCERY",
-      "raw_segment": "–SeeSORCERY"
-    },
-    {
-      "idx": 4,
-      "entry_label": "–SeeWITCHCRAFT",
-      "raw_segment": "–SeeWITCHCRAFT"
+      "label": "SeeWITCHCRAFT",
+      "references": []
     }
   ],
   "biblical_references": [],
   "books_mentioned": [],
-  "normalized_labels": [],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 5,
+    "total_refs": 0,
     "ot_refs": 0,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:5d01f2ee576dac85eadf1f15d3f288750399152db2aa8cf2296254dd743246c8",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 5
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
-    ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:28:45.286319Z",
-  "updated_at": "2025-09-20T17:28:45.286327Z"
+    "books_count": 0,
+    "top_books": []
+  }
 }

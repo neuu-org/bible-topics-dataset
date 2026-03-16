@@ -1,90 +1,52 @@
 {
   "topic": "MINORS",
-  "topic_slug": "minors",
+  "slug": "minors",
   "canonical_id": "NAV:minors",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "ORPHAN",
     "YOUNG MEN"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "ORPHAN",
-      "clean": "ORPHAN",
-      "slug": "orphan",
-      "canonical_id": "NAV:orphan"
+      "label": "Legal status of",
+      "references": [
+        "Galatians 4:1,2"
+      ]
     },
     {
-      "original": "YOUNG MEN",
-      "clean": "YOUNG MEN",
-      "slug": "young_men",
-      "canonical_id": "NAV:young_men"
+      "label": "SeeORPHAN",
+      "references": []
+    },
+    {
+      "label": "SeeYOUNG MEN",
+      "references": []
     }
   ],
-  "raw_block": "–Legal status ofGa 4:1,2\n–SeeORPHAN\n–SeeYOUNG MEN",
-  "content_preview": "–Legal status ofGa 4:1,2",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–Legal status ofGa 4:1,2",
-      "raw_segment": "–Legal status ofGa 4:1,2"
-    },
-    {
-      "idx": 1,
-      "entry_label": "–SeeORPHAN",
-      "raw_segment": "–SeeORPHAN"
-    },
-    {
-      "idx": 2,
-      "entry_label": "–SeeYOUNG MEN",
-      "raw_segment": "–SeeYOUNG MEN"
+      "book": "Galatians",
+      "chapter": 4,
+      "verses": [
+        1,
+        2
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Galatians 4:1,2"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "Galatians"
+  ],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 3,
+    "total_refs": 1,
     "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:e444f77ec01b230e83142e8130cf6a6836daecbc9c1b85167fac0295e5488c5a",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 3
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "nt_refs": 1,
+    "books_count": 1,
+    "top_books": [
+      "Galatians"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:29:12.171882Z",
-  "updated_at": "2025-09-20T17:29:12.171889Z"
+  }
 }

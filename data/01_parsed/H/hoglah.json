@@ -1,52 +1,27 @@
 {
   "topic": "HOGLAH",
   "slug": "hoglah",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "A daughter of Zelophehad Nu 26:33; 27:1; 36:11; Jos 17:3",
-      "references": [
-        "Num 26:33",
-        "Num 27:1",
-        "Num 36:11",
-        "Josh 17:3"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Joshua",
-      "book_abbrev": "jos",
-      "chapter": 17,
-      "testament": "OT",
-      "verses": [
-        3
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.692586+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "A daughter of Zelophehad",
+      "references": [
+        "Numbers 26:33",
+        "Numbers 27:1",
+        "Numbers 36:11"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "17:3",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Numbers",
       "chapter": 26,
@@ -55,8 +30,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Numbers 26:33",
-      "source": "EAS"
+      "raw": "Numbers 26:33"
     },
     {
       "book": "Numbers",
@@ -66,8 +40,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Numbers 27:1",
-      "source": "EAS"
+      "raw": "Numbers 27:1"
     },
     {
       "book": "Numbers",
@@ -77,19 +50,30 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Numbers 36:11",
-      "source": "EAS"
+      "raw": "Numbers 36:11"
     },
     {
-      "book": "Joshua",
+      "book": "Numbers",
       "chapter": 17,
       "verses": [
         3
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Joshua 17:3",
-      "source": "SMI"
+      "raw": "Numbers 17:3"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Numbers"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 4,
+    "ot_refs": 4,
+    "nt_refs": 0,
+    "books_count": 1,
+    "top_books": [
+      "Numbers"
+    ]
+  }
 }

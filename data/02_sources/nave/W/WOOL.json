@@ -1,84 +1,155 @@
 {
   "topic": "WOOL",
-  "topic_slug": "wool",
+  "slug": "wool",
   "canonical_id": "NAV:wool",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–Used for clothingLe 13:47-52,59;Pr 31:13;Eze 34:3;44:17\n–Prohibited in the priest’ s temple dressEze 44:17\n–Mixing of, with other fabrics forbiddenLe 19:19;De \n22:11\n–Fleece ofJud 6:37\n–First fleece of, belonged to the priestsDe 18:4",
-  "content_preview": "–Used for clothingLe 13:47-52,59;Pr 31:13;Eze 34:3;44:17",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–Used for clothingLe 13:47-52,59;Pr 31:13;Eze 34:3;44:17",
-      "raw_segment": "–Used for clothingLe 13:47-52,59;Pr 31:13;Eze 34:3;44:17"
+      "label": "Used for clothing",
+      "references": [
+        "Leviticus 13:47-52,59",
+        "Proverbs 31:13",
+        "Ezekiel 34:3",
+        "Ezekiel 44:17"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–Prohibited in the priest’ s temple dressEze 44:17",
-      "raw_segment": "–Prohibited in the priest’ s temple dressEze 44:17"
+      "label": "Prohibited in the priest’ s temple dress",
+      "references": [
+        "Ezekiel 44:17"
+      ]
     },
     {
-      "idx": 2,
-      "entry_label": "–Mixing of, with other fabrics forbiddenLe 19:19;De \n22:11",
-      "raw_segment": "–Mixing of, with other fabrics forbiddenLe 19:19;De \n22:11"
+      "label": "Mixing of, with other fabrics forbid",
+      "references": [
+        "Leviticus 19:19"
+      ]
     },
     {
-      "idx": 3,
-      "entry_label": "–Fleece ofJud 6:37",
-      "raw_segment": "–Fleece ofJud 6:37"
+      "label": "22:11",
+      "references": []
     },
     {
-      "idx": 4,
-      "entry_label": "–First fleece of, belonged to the priestsDe 18:4",
-      "raw_segment": "–First fleece of, belonged to the priestsDe 18:4"
+      "label": "Fleece of",
+      "references": [
+        "Judges 6:37"
+      ]
+    },
+    {
+      "label": "First fleece of, belonged to the priests",
+      "references": [
+        "Deuteronomy 18:4"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Leviticus",
+      "chapter": 13,
+      "verses": [
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        59
+      ],
+      "verse_count": 7,
+      "testament": "OT",
+      "raw": "Leviticus 13:47-52,59"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 31,
+      "verses": [
+        13
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 31:13"
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 34,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezekiel 34:3"
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 44,
+      "verses": [
+        17
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezekiel 44:17"
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 19,
+      "verses": [
+        19
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Leviticus 19:19"
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 22,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Leviticus 22:11"
+    },
+    {
+      "book": "Judges",
+      "chapter": 6,
+      "verses": [
+        37
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Judges 6:37"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 18,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 18:4"
+    }
+  ],
+  "books_mentioned": [
+    "Deuteronomy",
+    "Ezekiel",
+    "Judges",
+    "Leviticus",
+    "Proverbs"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 6,
+    "total_refs": 8,
+    "ot_refs": 8,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:3823ce8971fdebb13c1776a71e4c4bd9fd3bb01ef7d489662d1b7e0b0b411d22",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 6
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 5,
+    "top_books": [
+      "Leviticus",
+      "Ezekiel",
+      "Proverbs",
+      "Judges",
+      "Deuteronomy"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:32:40.655368Z",
-  "updated_at": "2025-09-20T17:32:40.655376Z"
+  }
 }

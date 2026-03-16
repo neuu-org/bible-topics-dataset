@@ -1,108 +1,168 @@
 {
   "topic": "ROADS",
-  "topic_slug": "roads",
+  "slug": "roads",
   "canonical_id": "NAV:roads",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "HIGHWAYS"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "HIGHWAYS",
-      "clean": "HIGHWAYS",
-      "slug": "highways",
-      "canonical_id": "NAV:highways"
+      "label": "Public highways",
+      "references": [
+        "Deuteronomy 2:27"
+      ]
+    },
+    {
+      "label": "From Gibeon to Beth-horon",
+      "references": [
+        "Joshua 10:10"
+      ]
+    },
+    {
+      "label": "From Beth-el to Shechem",
+      "references": [
+        "Judges 21:19"
+      ]
+    },
+    {
+      "label": "From",
+      "references": [
+        "John 4:3-5,43"
+      ]
+    },
+    {
+      "label": "To the house of God",
+      "references": [
+        "Judges 20:31"
+      ]
+    },
+    {
+      "label": "To cities of refuge",
+      "references": [
+        "Deuteronomy 19:3"
+      ]
+    },
+    {
+      "label": "Built by rulers",
+      "references": [
+        "Numbers 20:17",
+        "Numbers 21:22"
+      ]
+    },
+    {
+      "label": "FIGURATIVE",
+      "references": []
+    },
+    {
+      "label": ".SeeHIGHWAYS",
+      "references": []
     }
   ],
-  "raw_block": "–Public highwaysDe 2:27\n–From Gibeon to Beth-horonJos 10:10\n–From Beth-el to ShechemJud 21:19\n–From Judaea to Galilee, by way of SamariaJoh 4:3-5,43\n–To the house of GodJud 20:31\n–To cities of refugeDe 19:3\n–Built by rulersNu 20:17;21:22\n–FIGURATIVE\n  .SeeHIGHWAYS",
-  "content_preview": "–Public highwaysDe 2:27",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–Public highwaysDe 2:27",
-      "raw_segment": "–Public highwaysDe 2:27"
+      "book": "Deuteronomy",
+      "chapter": 2,
+      "verses": [
+        27
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 2:27"
     },
     {
-      "idx": 1,
-      "entry_label": "–From Gibeon to Beth-horonJos 10:10",
-      "raw_segment": "–From Gibeon to Beth-horonJos 10:10"
+      "book": "Joshua",
+      "chapter": 10,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 10:10"
     },
     {
-      "idx": 2,
-      "entry_label": "–From Beth-el to ShechemJud 21:19",
-      "raw_segment": "–From Beth-el to ShechemJud 21:19"
+      "book": "Judges",
+      "chapter": 21,
+      "verses": [
+        19
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Judges 21:19"
     },
     {
-      "idx": 3,
-      "entry_label": "–From Judaea to Galilee, by way of SamariaJoh 4:3-5,43",
-      "raw_segment": "–From Judaea to Galilee, by way of SamariaJoh 4:3-5,43"
+      "book": "John",
+      "chapter": 4,
+      "verses": [
+        3,
+        4,
+        5,
+        43
+      ],
+      "verse_count": 4,
+      "testament": "NT",
+      "raw": "John 4:3-5,43"
     },
     {
-      "idx": 4,
-      "entry_label": "–To the house of GodJud 20:31",
-      "raw_segment": "–To the house of GodJud 20:31"
+      "book": "Judges",
+      "chapter": 20,
+      "verses": [
+        31
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Judges 20:31"
     },
     {
-      "idx": 5,
-      "entry_label": "–To cities of refugeDe 19:3",
-      "raw_segment": "–To cities of refugeDe 19:3"
+      "book": "Deuteronomy",
+      "chapter": 19,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 19:3"
     },
     {
-      "idx": 6,
-      "entry_label": "–Built by rulersNu 20:17;21:22",
-      "raw_segment": "–Built by rulersNu 20:17;21:22"
+      "book": "Numbers",
+      "chapter": 20,
+      "verses": [
+        17
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Numbers 20:17"
     },
     {
-      "idx": 7,
-      "entry_label": "–FIGURATIVE",
-      "raw_segment": "–FIGURATIVE"
+      "book": "Numbers",
+      "chapter": 21,
+      "verses": [
+        22
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Numbers 21:22"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "Deuteronomy",
+    "John",
+    "Joshua",
+    "Judges",
+    "Numbers"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:ab22c5843ee7eba16507a02370fa71afc00d68a58783ed6ea3c05dc46743ddd1",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 9
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 9,
+    "total_refs": 8,
+    "ot_refs": 7,
+    "nt_refs": 1,
+    "books_count": 5,
+    "top_books": [
+      "Deuteronomy",
+      "Judges",
+      "Numbers",
+      "Joshua",
+      "John"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:30:44.302686Z",
-  "updated_at": "2025-09-20T17:30:44.302694Z"
+  }
 }

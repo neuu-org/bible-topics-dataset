@@ -1,64 +1,66 @@
 {
   "topic": "CRUSE",
-  "topic_slug": "cruse",
+  "slug": "cruse",
   "canonical_id": "NAV:cruse",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–A vessel for liquids1Sa 26:11;1Ki 14:3;2Ki 2:20",
-  "content_preview": "–A vessel for liquids1Sa 26:11;1Ki 14:3;2Ki 2:20",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–A vessel for liquids1Sa 26:11;1Ki 14:3;2Ki 2:20",
-      "raw_segment": "–A vessel for liquids1Sa 26:11;1Ki 14:3;2Ki 2:20"
+      "label": "A vessel for liquids",
+      "references": [
+        "1 Samuel 26:11",
+        "1 Kings 14:3",
+        "2 Kings 2:20"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "1 Samuel",
+      "chapter": 26,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Samuel 26:11"
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 14,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Kings 14:3"
+    },
+    {
+      "book": "2 Kings",
+      "chapter": 2,
+      "verses": [
+        20
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Kings 2:20"
+    }
+  ],
+  "books_mentioned": [
+    "1 Kings",
+    "1 Samuel",
+    "2 Kings"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 1,
+    "total_refs": 3,
+    "ot_refs": 3,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:5fe02cce23382ca62b2ade43e5a2f172503ffa67b39589067ccc8f2d71213919",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 1
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 3,
+    "top_books": [
+      "1 Samuel",
+      "1 Kings",
+      "2 Kings"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:25:22.056656Z",
-  "updated_at": "2025-09-20T17:25:22.056663Z"
+  }
 }

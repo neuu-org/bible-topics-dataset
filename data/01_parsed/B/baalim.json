@@ -1,72 +1,30 @@
 {
   "topic": "BAALIM",
   "slug": "baalim",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Plural form of BAAL Jud 2:11; 1Sa 7:4; Ho 2:13,17; 11:2",
-      "references": [
-        "Judg 2:11",
-        "1Sam 7:4",
-        "Hos 2:13",
-        "Hos 2:17",
-        "Hos 11:2"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "See BAAL",
-      "references": [],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "1 Samuel",
-      "book_abbrev": "1sa",
-      "chapter": 7,
-      "testament": "OT",
-      "verses": [
-        4
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Hosea",
-      "book_abbrev": "hos",
-      "chapter": 2,
-      "testament": "OT",
-      "verses": [
-        11,
-        13,
-        17
-      ],
-      "verse_count": 3
-    }
+  "sources": [
+    "NAV"
   ],
   "see_also": [
     "BAAL"
   ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 2,
-    "nt_refs": 0,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.671400+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "aspects": [
+    {
+      "label": "P",
+      "references": [
+        "Judges 2:11",
+        "1 Samuel 7:4",
+        "Hosea 2:13,17",
+        "Hosea 11:2"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeBAAL",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Judges",
       "chapter": 2,
@@ -75,8 +33,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Judges 2:11",
-      "source": "EAS"
+      "raw": "Judges 2:11"
     },
     {
       "book": "1 Samuel",
@@ -86,8 +43,45 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Samuel 7:4",
-      "source": "EAS"
+      "raw": "1 Samuel 7:4"
+    },
+    {
+      "book": "Hosea",
+      "chapter": 2,
+      "verses": [
+        13,
+        17
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Hosea 2:13,17"
+    },
+    {
+      "book": "Hosea",
+      "chapter": 11,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Hosea 11:2"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Samuel",
+    "Hosea",
+    "Judges"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 4,
+    "ot_refs": 4,
+    "nt_refs": 0,
+    "books_count": 3,
+    "top_books": [
+      "Hosea",
+      "Judges",
+      "1 Samuel"
+    ]
+  }
 }

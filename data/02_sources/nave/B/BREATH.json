@@ -1,74 +1,183 @@
 {
   "topic": "BREATH",
-  "topic_slug": "breath",
+  "slug": "breath",
   "canonical_id": "NAV:breath",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–Of lifeGe 2:7;7:22;Ac 17:25\n–Of God2Sa 22:16;Job 4:9;15:30;33:4;37:10;Ps 18:15;33:6;Isa 30:33\n–FIGURATIVEEze 37:9",
-  "content_preview": "–Of lifeGe 2:7;7:22;Ac 17:25",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–Of lifeGe 2:7;7:22;Ac 17:25",
-      "raw_segment": "–Of lifeGe 2:7;7:22;Ac 17:25"
+      "label": "Of life",
+      "references": [
+        "Genesis 2:7",
+        "Genesis 7:22",
+        "Acts 17:25"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–Of God2Sa 22:16;Job 4:9;15:30;33:4;37:10;Ps 18:15;33:6;Isa 30:33",
-      "raw_segment": "–Of God2Sa 22:16;Job 4:9;15:30;33:4;37:10;Ps 18:15;33:6;Isa 30:33"
+      "label": "Of God",
+      "references": [
+        "2 Samuel 22:16",
+        "Job 4:9",
+        "Job 15:30",
+        "Job 33:4",
+        "Job 37:10",
+        "Psalms 18:15",
+        "Psalms 33:6",
+        "Isaiah 30:33"
+      ]
     },
     {
-      "idx": 2,
-      "entry_label": "–FIGURATIVEEze 37:9",
-      "raw_segment": "–FIGURATIVEEze 37:9"
+      "label": "FIGURATIVE",
+      "references": [
+        "Ezekiel 37:9"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Genesis",
+      "chapter": 2,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 2:7"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 7,
+      "verses": [
+        22
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 7:22"
+    },
+    {
+      "book": "Acts",
+      "chapter": 17,
+      "verses": [
+        25
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 17:25"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 22,
+      "verses": [
+        16
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Samuel 22:16"
+    },
+    {
+      "book": "Job",
+      "chapter": 4,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Job 4:9"
+    },
+    {
+      "book": "Job",
+      "chapter": 15,
+      "verses": [
+        30
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Job 15:30"
+    },
+    {
+      "book": "Job",
+      "chapter": 33,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Job 33:4"
+    },
+    {
+      "book": "Job",
+      "chapter": 37,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Job 37:10"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 18,
+      "verses": [
+        15
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 18:15"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 33,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 33:6"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 30,
+      "verses": [
+        33
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 30:33"
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 37,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezekiel 37:9"
+    }
+  ],
+  "books_mentioned": [
+    "2 Samuel",
+    "Acts",
+    "Ezekiel",
+    "Genesis",
+    "Isaiah",
+    "Job",
+    "Psalms"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:480bbdbdac6232c2ec8db694515e85f3508331ea803b600bc67894625c03f6f0",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 3
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 3,
+    "total_refs": 12,
+    "ot_refs": 11,
+    "nt_refs": 1,
+    "books_count": 7,
+    "top_books": [
+      "Job",
+      "Genesis",
+      "Psalms",
+      "Acts",
+      "2 Samuel",
+      "Isaiah",
+      "Ezekiel"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:24:39.435700Z",
-  "updated_at": "2025-09-20T17:24:39.435707Z"
+  }
 }

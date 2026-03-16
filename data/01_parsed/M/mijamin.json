@@ -1,42 +1,62 @@
 {
   "topic": "MIJAMIN",
   "slug": "mijamin",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. A priest during the time of David 1Ch 24:9",
-      "references": [
-        "1Chr 24:9"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "2. A priest who sealed the covenant with Nehemiah Ne 10:7",
-      "references": [
-        "Neh 10:7"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.706403+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "1. A priest during the time of David",
+      "references": [
+        "1 Chronicles 24:9"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2. A priest who sealed the covenant with NehemiahNe",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "10:7",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0"
+  ],
+  "biblical_references": [
+    {
+      "book": "1 Chronicles",
+      "chapter": 24,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 24:9"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 10,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 10:7"
+    }
+  ],
+  "books_mentioned": [
+    "1 Chronicles"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 2,
+    "ot_refs": 2,
+    "nt_refs": 0,
+    "books_count": 1,
+    "top_books": [
+      "1 Chronicles"
+    ]
+  }
 }

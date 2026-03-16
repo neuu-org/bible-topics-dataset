@@ -1,143 +1,86 @@
 {
   "topic": "ABDON",
   "slug": "abdon",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. A judge of Israel, in the time of the judges Jud 12:13-15",
-      "references": [
-        "Judg 12:13-15"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "2. A Levitical city Jos 21:30; 1Ch 6:74",
-      "references": [
-        "Josh 21:30",
-        "1Chr 6:74"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "3. A Benjamite chief 1Ch 8:23",
-      "references": [
-        "1Chr 8:23"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "4. Son of Gibeon 1Ch 8:30; 9:36",
-      "references": [
-        "1Chr 8:30",
-        "1Chr 9:36"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "5. Son of Micah 2Ch 34:20",
-      "references": [
-        "Micah 2"
-      ],
-      "sub_groups": [
-        {
-          "name": "Also called ACHBOR 2Ki 22:12",
-          "references": [
-            "2Kgs 22:12"
-          ]
-        }
-      ]
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "1 Chronicles",
-      "book_abbrev": "1ch",
-      "chapter": 6,
-      "testament": "OT",
-      "verses": [
-        74
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "2 Chronicles",
-      "book_abbrev": "2ch",
-      "chapter": 34,
-      "testament": "OT",
-      "verses": [
-        20
-      ],
-      "verse_count": 1
-    }
+  "sources": [
+    "NAV"
   ],
   "see_also": [
     "ACHBOR"
   ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 5,
-    "ot_refs": 2,
-    "nt_refs": 0,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.659526+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "aspects": [
     {
-      "book": "Judges",
-      "chapter": 12,
-      "verses": [
-        13,
-        14,
-        15
-      ],
-      "verse_count": 3,
-      "testament": "OT",
-      "raw": "Judges 12:13-15",
-      "source": "EAS"
+      "label": "1. A",
+      "references": [],
+      "source": "NAV"
     },
     {
-      "book": "1 Chronicles",
-      "chapter": 8,
+      "label": "12:13-15",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "2. A Leviti",
+      "references": [
+        "Joshua 21:30",
+        "1 Chronicles 6:74"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "3. A Benjamite chief",
+      "references": [
+        "1 Chronicles 8:23"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".SeeACHBOR",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "4.",
+      "references": [
+        "1 Chronicles 8:30",
+        "1 Chronicles 9:36"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "5.",
+      "references": [
+        "2 Chronicles 34:20"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".Al",
+      "references": [
+        "2 Kings 22:12"
+      ],
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
+    {
+      "book": "Joshua",
+      "chapter": 21,
       "verses": [
         30
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 8:30",
-      "source": "EAS"
+      "raw": "Joshua 21:30"
     },
     {
       "book": "1 Chronicles",
-      "chapter": 9,
+      "chapter": 6,
       "verses": [
-        36
+        74
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 9:36",
-      "source": "EAS"
-    },
-    {
-      "book": "2 Chronicles",
-      "chapter": 34,
-      "verses": [
-        20
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "2 Chronicles 34:20",
-      "source": "EAS"
+      "raw": "1 Chronicles 6:74"
     },
     {
       "book": "1 Chronicles",
@@ -147,41 +90,37 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 8:23",
-      "source": "EAS"
+      "raw": "1 Chronicles 8:23"
     },
     {
-      "book": "Joshua",
-      "chapter": 21,
+      "book": "1 Chronicles",
+      "chapter": 8,
       "verses": [
         30
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Joshua 21:30",
-      "source": "EAS"
+      "raw": "1 Chronicles 8:30"
     },
     {
       "book": "1 Chronicles",
-      "chapter": 6,
+      "chapter": 9,
       "verses": [
-        74
+        36
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 6:74",
-      "source": "EAS"
+      "raw": "1 Chronicles 9:36"
     },
     {
-      "book": "1 Samuel",
-      "chapter": 12,
+      "book": "2 Chronicles",
+      "chapter": 34,
       "verses": [
-        11
+        20
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Samuel 12:11",
-      "source": "EAS"
+      "raw": "2 Chronicles 34:20"
     },
     {
       "book": "2 Kings",
@@ -191,8 +130,26 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Kings 22:12",
-      "source": "EAS"
+      "raw": "2 Kings 22:12"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "2 Chronicles",
+    "2 Kings",
+    "Joshua"
+  ],
+  "stats": {
+    "total_aspects": 8,
+    "total_refs": 7,
+    "ot_refs": 7,
+    "nt_refs": 0,
+    "books_count": 4,
+    "top_books": [
+      "1 Chronicles",
+      "Joshua",
+      "2 Chronicles",
+      "2 Kings"
+    ]
+  }
 }

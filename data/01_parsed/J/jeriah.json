@@ -1,45 +1,27 @@
 {
   "topic": "JERIAH",
   "slug": "jeriah",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Also called JERIJAH",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "A descendant of Hebron 1Ch 23:19; 24:23; 26:31",
-      "references": [
-        "1Chr 23:19",
-        "1Chr 24:23",
-        "1Chr 26:31"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.696609+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "Al",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "A",
+      "references": [
+        "1 Chronicles 23:19",
+        "1 Chronicles 24:23",
+        "1 Chronicles 26:31"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "1 Chronicles",
       "chapter": 23,
@@ -48,8 +30,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 23:19",
-      "source": "SMI"
+      "raw": "1 Chronicles 23:19"
     },
     {
       "book": "1 Chronicles",
@@ -59,8 +40,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 24:23",
-      "source": "SMI"
+      "raw": "1 Chronicles 24:23"
     },
     {
       "book": "1 Chronicles",
@@ -70,8 +50,20 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 26:31",
-      "source": "SMI"
+      "raw": "1 Chronicles 26:31"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 3,
+    "ot_refs": 3,
+    "nt_refs": 0,
+    "books_count": 1,
+    "top_books": [
+      "1 Chronicles"
+    ]
+  }
 }

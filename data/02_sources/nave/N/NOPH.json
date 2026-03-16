@@ -1,74 +1,95 @@
 {
   "topic": "NOPH",
-  "topic_slug": "noph",
+  "slug": "noph",
   "canonical_id": "NAV:noph",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–A city of EgyptJer 2:16\n–Prophecy against Jews inJer 44\n–Prophecies againstIsa 19:13;Jer 46:13-19;Eze 30:13-16",
-  "content_preview": "–A city of EgyptJer 2:16",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–A city of EgyptJer 2:16",
-      "raw_segment": "–A city of EgyptJer 2:16"
+      "label": "A city of Egypt",
+      "references": [
+        "Jeremiah 2:16"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–Prophecy against Jews inJer 44",
-      "raw_segment": "–Prophecy against Jews inJer 44"
+      "label": "Prophecy against Jews in",
+      "references": []
     },
     {
-      "idx": 2,
-      "entry_label": "–Prophecies againstIsa 19:13;Jer 46:13-19;Eze 30:13-16",
-      "raw_segment": "–Prophecies againstIsa 19:13;Jer 46:13-19;Eze 30:13-16"
+      "label": "Prophecies against",
+      "references": [
+        "Isaiah 19:13",
+        "Jeremiah 46:13-19",
+        "Ezekiel 30:13-16"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Jeremiah",
+      "chapter": 2,
+      "verses": [
+        16
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Jeremiah 2:16"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 19,
+      "verses": [
+        13
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 19:13"
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 46,
+      "verses": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "verse_count": 7,
+      "testament": "OT",
+      "raw": "Jeremiah 46:13-19"
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 30,
+      "verses": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "verse_count": 4,
+      "testament": "OT",
+      "raw": "Ezekiel 30:13-16"
+    }
+  ],
+  "books_mentioned": [
+    "Ezekiel",
+    "Isaiah",
+    "Jeremiah"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 3,
+    "total_refs": 4,
+    "ot_refs": 4,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:6177a7e7b2e1efb291f2e299d5142e164741cbfb2580ef4ee6d64317341b9962",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 3
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 3,
+    "top_books": [
+      "Jeremiah",
+      "Isaiah",
+      "Ezekiel"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:29:36.470053Z",
-  "updated_at": "2025-09-20T17:29:36.470060Z"
+  }
 }

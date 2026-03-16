@@ -1,42 +1,22 @@
 {
   "topic": "HAMMEDATHA",
   "slug": "hammedatha",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Father of Haman Es 3:1,10; 8:5; 9:10,24",
-      "references": [
-        "Esth 3:1",
-        "Esth 3:10",
-        "Esth 8:5",
-        "Esth 9:10",
-        "Esth 9:24"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.690427+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "Father of Haman",
+      "references": [
+        "Esther 3:1,10",
+        "Esther 8:5",
+        "Esther 9:10,24"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Esther",
       "chapter": 3,
@@ -46,8 +26,7 @@
       ],
       "verse_count": 2,
       "testament": "OT",
-      "raw": "Esther 3:1, 10",
-      "source": "EAS"
+      "raw": "Esther 3:1,10"
     },
     {
       "book": "Esther",
@@ -57,19 +36,31 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Esther 8:5",
-      "source": "EAS"
+      "raw": "Esther 8:5"
     },
     {
       "book": "Esther",
       "chapter": 9,
       "verses": [
+        10,
         24
       ],
-      "verse_count": 1,
+      "verse_count": 2,
       "testament": "OT",
-      "raw": "Esther 9:24",
-      "source": "SMI"
+      "raw": "Esther 9:10,24"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Esther"
+  ],
+  "stats": {
+    "total_aspects": 1,
+    "total_refs": 3,
+    "ot_refs": 3,
+    "nt_refs": 0,
+    "books_count": 1,
+    "top_books": [
+      "Esther"
+    ]
+  }
 }

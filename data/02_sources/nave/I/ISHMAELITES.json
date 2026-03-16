@@ -1,93 +1,133 @@
 {
   "topic": "ISHMAELITES",
-  "topic_slug": "ishmaelites",
+  "slug": "ishmaelites",
   "canonical_id": "NAV:ishmaelites",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "ISHMAEL"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "ISHMAEL",
-      "clean": "ISHMAEL",
-      "slug": "ishmael",
-      "canonical_id": "NAV:ishmael"
+      "label": "Region occupied by",
+      "references": [
+        "Genesis 25:18"
+      ]
+    },
+    {
+      "label": "Merchants of, buy Joseph",
+      "references": [
+        "Genesis 37:25-36",
+        "Genesis 39:1"
+      ]
+    },
+    {
+      "label": "General references",
+      "references": [
+        "Genesis 37:28,36",
+        "Judges 8:24,26"
+      ]
+    },
+    {
+      "label": "Enemies to Israel",
+      "references": [
+        "Psalms 83:6"
+      ]
+    },
+    {
+      "label": "SeeISHMAEL",
+      "references": []
     }
   ],
-  "raw_block": "–Region occupied byGe 25:18\n–Merchants of, buy JosephGe 37:25-36;39:1\n–Called MIDIANITESGe 37:28,36;Jud 8:24,26\n–Enemies to IsraelPs 83:6\n–SeeISHMAEL",
-  "content_preview": "–Region occupied byGe 25:18",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–Region occupied byGe 25:18",
-      "raw_segment": "–Region occupied byGe 25:18"
+      "book": "Genesis",
+      "chapter": 25,
+      "verses": [
+        18
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 25:18"
     },
     {
-      "idx": 1,
-      "entry_label": "–Merchants of, buy JosephGe 37:25-36;39:1",
-      "raw_segment": "–Merchants of, buy JosephGe 37:25-36;39:1"
+      "book": "Genesis",
+      "chapter": 37,
+      "verses": [
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36
+      ],
+      "verse_count": 12,
+      "testament": "OT",
+      "raw": "Genesis 37:25-36"
     },
     {
-      "idx": 2,
-      "entry_label": "–Called MIDIANITESGe 37:28,36;Jud 8:24,26",
-      "raw_segment": "–Called MIDIANITESGe 37:28,36;Jud 8:24,26"
+      "book": "Genesis",
+      "chapter": 39,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 39:1"
     },
     {
-      "idx": 3,
-      "entry_label": "–Enemies to IsraelPs 83:6",
-      "raw_segment": "–Enemies to IsraelPs 83:6"
+      "book": "Genesis",
+      "chapter": 37,
+      "verses": [
+        28,
+        36
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Genesis 37:28,36"
     },
     {
-      "idx": 4,
-      "entry_label": "–SeeISHMAEL",
-      "raw_segment": "–SeeISHMAEL"
+      "book": "Judges",
+      "chapter": 8,
+      "verses": [
+        24,
+        26
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Judges 8:24,26"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 83,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 83:6"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "Genesis",
+    "Judges",
+    "Psalms"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 5,
+    "total_refs": 6,
+    "ot_refs": 6,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:9c7f0b849f448afa3a61a5ad67aa89dbee909bdf1a9e3f05f3067de4c3bd7978",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 5
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 3,
+    "top_books": [
+      "Genesis",
+      "Judges",
+      "Psalms"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:27:41.634714Z",
-  "updated_at": "2025-09-20T17:27:41.634722Z"
+  }
 }

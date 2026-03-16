@@ -1,64 +1,103 @@
 {
   "topic": "CATERPILLAR",
-  "topic_slug": "caterpillar",
+  "slug": "caterpillar",
   "canonical_id": "NAV:caterpillar",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–Sent as a judgment1Ki 8:37;Ps 78:46;105:34;Jer \n51:27;Joe 1:4;2:25",
-  "content_preview": "–Sent as a judgment1Ki 8:37;Ps 78:46;105:34;Jer ",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–Sent as a judgment1Ki 8:37;Ps 78:46;105:34;Jer \n51:27;Joe 1:4;2:25",
-      "raw_segment": "–Sent as a judgment1Ki 8:37;Ps 78:46;105:34;Jer \n51:27;Joe 1:4;2:25"
+      "label": "Sent as a",
+      "references": [
+        "1 Kings 8:37",
+        "Psalms 78:46",
+        "Psalms 105:34"
+      ]
+    },
+    {
+      "label": "51:27;",
+      "references": [
+        "Joel 1:4",
+        "Joel 2:25"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "1 Kings",
+      "chapter": 8,
+      "verses": [
+        37
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Kings 8:37"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 78,
+      "verses": [
+        46
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 78:46"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 105,
+      "verses": [
+        34
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 105:34"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 51,
+      "verses": [
+        27
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 51:27"
+    },
+    {
+      "book": "Joel",
+      "chapter": 1,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joel 1:4"
+    },
+    {
+      "book": "Joel",
+      "chapter": 2,
+      "verses": [
+        25
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joel 2:25"
+    }
+  ],
+  "books_mentioned": [
+    "1 Kings",
+    "Joel",
+    "Psalms"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 2,
+    "total_refs": 6,
+    "ot_refs": 6,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:a0fe70f961ce7730e7d3b452d42f9148e9e09985b982cb9cb0d3777548030fdb",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 3,
+    "top_books": [
+      "Psalms",
+      "Joel",
+      "1 Kings"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:24:51.001201Z",
-  "updated_at": "2025-09-20T17:24:51.001209Z"
+  }
 }

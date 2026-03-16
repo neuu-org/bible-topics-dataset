@@ -1,64 +1,55 @@
 {
   "topic": "I AM THAT I AM",
-  "topic_slug": "i_am_that_i_am",
+  "slug": "i_am_that_i_am",
   "canonical_id": "NAV:i_am_that_i_am",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–A name of deityEx 3:14;Re 1:4,11,17",
-  "content_preview": "–A name of deityEx 3:14;Re 1:4,11,17",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–A name of deityEx 3:14;Re 1:4,11,17",
-      "raw_segment": "–A name of deityEx 3:14;Re 1:4,11,17"
+      "label": "A name of",
+      "references": [
+        "Exodus 3:14",
+        "Revelation 1:4,11,17"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Exodus",
+      "chapter": 3,
+      "verses": [
+        14
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 3:14"
+    },
+    {
+      "book": "Revelation",
+      "chapter": 1,
+      "verses": [
+        4,
+        11,
+        17
+      ],
+      "verse_count": 3,
+      "testament": "NT",
+      "raw": "Revelation 1:4,11,17"
+    }
+  ],
+  "books_mentioned": [
+    "Exodus",
+    "Revelation"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:af264c03744276a86f5026b3f90001430dd01d42bf8ba77e5acd620cbd370dd2",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 1
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 1,
+    "total_refs": 2,
+    "ot_refs": 1,
+    "nt_refs": 1,
+    "books_count": 2,
+    "top_books": [
+      "Exodus",
+      "Revelation"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:27:27.546351Z",
-  "updated_at": "2025-09-20T17:27:27.546359Z"
+  }
 }

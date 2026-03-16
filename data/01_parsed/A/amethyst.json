@@ -1,51 +1,22 @@
 {
   "topic": "AMETHYST",
   "slug": "amethyst",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "A precious stone Ex 28:19; 39:12; Re 21:20",
-      "references": [
-        "Exod 28:19",
-        "Exod 39:12",
-        "Rev 21:20"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Revelation",
-      "book_abbrev": "rev",
-      "chapter": 21,
-      "testament": "NT",
-      "verses": [
-        20
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 1,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.662975+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "A precious stone",
+      "references": [
+        "Exodus 28:19",
+        "Exodus 39:12",
+        "Revelation 21:20"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Exodus",
       "chapter": 28,
@@ -54,8 +25,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Exodus 28:19",
-      "source": "EAS"
+      "raw": "Exodus 28:19"
     },
     {
       "book": "Exodus",
@@ -65,8 +35,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Exodus 39:12",
-      "source": "EAS"
+      "raw": "Exodus 39:12"
     },
     {
       "book": "Revelation",
@@ -76,8 +45,22 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Revelation 21:20",
-      "source": "EAS"
+      "raw": "Revelation 21:20"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Exodus",
+    "Revelation"
+  ],
+  "stats": {
+    "total_aspects": 1,
+    "total_refs": 3,
+    "ot_refs": 2,
+    "nt_refs": 1,
+    "books_count": 2,
+    "top_books": [
+      "Exodus",
+      "Revelation"
+    ]
+  }
 }

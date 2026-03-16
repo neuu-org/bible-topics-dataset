@@ -1,102 +1,48 @@
 {
   "topic": "ENSIGN",
   "slug": "ensign",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [
+    "BANNER",
+    "STANDARD"
+  ],
+  "aspects": [
     {
-      "name": "General scriptures concerning Ps 74:4; Isa 5:26; 11:10,12; 18:3; 30:17; 31:9; Zec 9:16",
+      "label": "General scriptures concerning",
       "references": [
-        "Ps 74:4",
-        "Isa 5:26",
-        "Isa 11:10",
-        "Isa 11:12",
-        "Isa 18:3",
-        "Isa 30:17",
-        "Isa 31:9",
-        "Zech 9:16"
+        "Psalms 74:4",
+        "Isaiah 5:26",
+        "Isaiah 11:10,12",
+        "Isaiah 18:3",
+        "Isaiah 30:17",
+        "Isaiah 31:9",
+        "Ecclesiastes 9:16"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See BANNER",
+      "label": "SeeBANNER",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See STANDARD",
+      "label": "SeeSTANDARD",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Isaiah",
-      "book_abbrev": "isa",
-      "chapter": 5,
-      "testament": "OT",
+      "book": "Psalms",
+      "chapter": 74,
       "verses": [
-        11,
-        26
-      ],
-      "verse_count": 2
-    },
-    {
-      "book": "Zechariah",
-      "book_abbrev": "zec",
-      "chapter": 9,
-      "testament": "OT",
-      "verses": [
-        16
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [
-    "STANDARD",
-    "BANNER"
-  ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 2,
-    "nt_refs": 0,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.684614+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "Numbers",
-      "chapter": 2,
-      "verses": [
-        2
+        4
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Numbers 2:2",
-      "source": "EAS"
-    },
-    {
-      "book": "Numbers",
-      "chapter": 21,
-      "verses": [
-        8,
-        9
-      ],
-      "verse_count": 2,
-      "testament": "OT",
-      "raw": "Numbers 21:8, 9",
-      "source": "EAS"
+      "raw": "Psalms 74:4"
     },
     {
       "book": "Isaiah",
@@ -106,19 +52,18 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Isaiah 5:26",
-      "source": "EAS"
+      "raw": "Isaiah 5:26"
     },
     {
       "book": "Isaiah",
       "chapter": 11,
       "verses": [
+        10,
         12
       ],
-      "verse_count": 1,
+      "verse_count": 2,
       "testament": "OT",
-      "raw": "Isaiah 11:12",
-      "source": "EAS"
+      "raw": "Isaiah 11:10,12"
     },
     {
       "book": "Isaiah",
@@ -128,86 +73,54 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Isaiah 18:3",
-      "source": "EAS"
+      "raw": "Isaiah 18:3"
     },
     {
       "book": "Isaiah",
-      "chapter": 62,
+      "chapter": 30,
       "verses": [
-        10
+        17
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Isaiah 62:10",
-      "source": "EAS"
-    },
-    {
-      "book": "Jeremiah",
-      "chapter": 4,
-      "verses": [
-        6,
-        21
-      ],
-      "verse_count": 2,
-      "testament": "OT",
-      "raw": "Jeremiah 4:6, 21",
-      "source": "EAS"
-    },
-    {
-      "book": "Psalms",
-      "chapter": 60,
-      "verses": [
-        4
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Psalms 60:4",
-      "source": "EAS"
-    },
-    {
-      "book": "Numbers",
-      "chapter": 1,
-      "verses": [
-        52
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Numbers 1:52",
-      "source": "EAS"
-    },
-    {
-      "book": "Numbers",
-      "chapter": 10,
-      "verses": [
-        14
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Numbers 10:14",
-      "source": "EAS"
-    },
-    {
-      "book": "Song of Solomon",
-      "chapter": 2,
-      "verses": [
-        4
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Song of Solomon 2:4",
-      "source": "EAS"
+      "raw": "Isaiah 30:17"
     },
     {
       "book": "Isaiah",
-      "chapter": 13,
+      "chapter": 31,
       "verses": [
-        2
+        9
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Isaiah 13:2",
-      "source": "SMI"
+      "raw": "Isaiah 31:9"
+    },
+    {
+      "book": "Ecclesiastes",
+      "chapter": 9,
+      "verses": [
+        16
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ecclesiastes 9:16"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Ecclesiastes",
+    "Isaiah",
+    "Psalms"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 7,
+    "ot_refs": 7,
+    "nt_refs": 0,
+    "books_count": 3,
+    "top_books": [
+      "Isaiah",
+      "Psalms",
+      "Ecclesiastes"
+    ]
+  }
 }

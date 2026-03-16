@@ -1,78 +1,232 @@
 {
   "topic": "OINTMENT",
-  "topic_slug": "ointment",
+  "slug": "ointment",
   "canonical_id": "NAV:ointment",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "OIL, SACRED"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "OIL, SACRED",
-      "clean": "OIL, SACRED",
-      "slug": "oil__sacred",
-      "canonical_id": "NAV:oil__sacred"
-    }
-  ],
-  "raw_block": "–NOT SACRED2Ki 20:13;Es 2:12;Ec 7:1;10:1;So 1:3;4:10;Am 6:6;Mr 14:3-5;Joh 12:3-5\n  .The alabaster container ofMt 26:7\n–SACRED\n  .Formula forEx 30:23-25\n  .Uses ofEx 30:26-33\n  .Compounded by BezaleelEx 37:1,29\n  .SeeOIL, SACRED",
-  "content_preview": "–NOT SACRED2Ki 20:13;Es 2:12;Ec 7:1;10:1;So 1:3;4:10;Am 6:6;Mr 14:3-5;Joh 12:3-5",
-  "reference_groups": [
-    {
-      "idx": 0,
-      "entry_label": "–NOT SACRED2Ki 20:13;Es 2:12;Ec 7:1;10:1;So 1:3;4:10;Am 6:6;Mr 14:3-5;Joh 12:3-5",
-      "raw_segment": "–NOT SACRED2Ki 20:13;Es 2:12;Ec 7:1;10:1;So 1:3;4:10;Am 6:6;Mr 14:3-5;Joh 12:3-5"
+      "label": "NOT SACRED",
+      "references": [
+        "2 Kings 20:13",
+        "Esther 2:12",
+        "Ecclesiastes 7:1",
+        "Ecclesiastes 10:1",
+        "Song of Solomon 1:3",
+        "Song of Solomon 4:10",
+        "Amos 6:6",
+        "Mark 14:3-5",
+        "John 12:3-5"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–SACRED",
-      "raw_segment": "–SACRED"
+      "label": ".The alabaster container of",
+      "references": [
+        "Matthew 26:7"
+      ]
+    },
+    {
+      "label": "SACRED",
+      "references": []
+    },
+    {
+      "label": ".Formula for",
+      "references": [
+        "Exodus 30:23-25"
+      ]
+    },
+    {
+      "label": ".Uses of",
+      "references": [
+        "Exodus 30:26-33"
+      ]
+    },
+    {
+      "label": ".Compoun",
+      "references": [
+        "Exodus 37:1,29"
+      ]
+    },
+    {
+      "label": ".SeeOIL, SACRED",
+      "references": []
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "2 Kings",
+      "chapter": 20,
+      "verses": [
+        13
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Kings 20:13"
+    },
+    {
+      "book": "Esther",
+      "chapter": 2,
+      "verses": [
+        12
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Esther 2:12"
+    },
+    {
+      "book": "Ecclesiastes",
+      "chapter": 7,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ecclesiastes 7:1"
+    },
+    {
+      "book": "Ecclesiastes",
+      "chapter": 10,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ecclesiastes 10:1"
+    },
+    {
+      "book": "Song of Solomon",
+      "chapter": 1,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Song of Solomon 1:3"
+    },
+    {
+      "book": "Song of Solomon",
+      "chapter": 4,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Song of Solomon 4:10"
+    },
+    {
+      "book": "Amos",
+      "chapter": 6,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Amos 6:6"
+    },
+    {
+      "book": "Mark",
+      "chapter": 14,
+      "verses": [
+        3,
+        4,
+        5
+      ],
+      "verse_count": 3,
+      "testament": "NT",
+      "raw": "Mark 14:3-5"
+    },
+    {
+      "book": "John",
+      "chapter": 12,
+      "verses": [
+        3,
+        4,
+        5
+      ],
+      "verse_count": 3,
+      "testament": "NT",
+      "raw": "John 12:3-5"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 26,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 26:7"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 30,
+      "verses": [
+        23,
+        24,
+        25
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Exodus 30:23-25"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 30,
+      "verses": [
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33
+      ],
+      "verse_count": 8,
+      "testament": "OT",
+      "raw": "Exodus 30:26-33"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 37,
+      "verses": [
+        1,
+        29
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Exodus 37:1,29"
+    }
+  ],
+  "books_mentioned": [
+    "2 Kings",
+    "Amos",
+    "Ecclesiastes",
+    "Esther",
+    "Exodus",
+    "John",
+    "Mark",
+    "Matthew",
+    "Song of Solomon"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:efc1c0f01c26c79ec1019ab0ef47e3504ec7b125526d5e8b73d8d73d20bfc68e",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 7
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 7,
+    "total_refs": 13,
+    "ot_refs": 10,
+    "nt_refs": 3,
+    "books_count": 9,
+    "top_books": [
+      "Exodus",
+      "Ecclesiastes",
+      "Song of Solomon",
+      "2 Kings",
+      "Esther",
+      "Amos",
+      "Mark",
+      "John",
+      "Matthew"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:29:40.311937Z",
-  "updated_at": "2025-09-20T17:29:40.311947Z"
+  }
 }

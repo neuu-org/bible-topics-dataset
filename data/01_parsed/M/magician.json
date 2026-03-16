@@ -1,62 +1,134 @@
 {
   "topic": "MAGICIAN",
   "slug": "magician",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "A person who claims to understand and explain mysteries by magic Da 1:20",
-      "references": [
-        "Dan 1:20"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Failed to interpret Pharaoh’s dreams Ge 41:8,24",
-      "references": [
-        "Gen 41:8",
-        "Gen 41:24"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Nebuchadnezzars Da 2:2-13; 4:7",
-      "references": [
-        "Dan 2:2-13",
-        "Dan 4:7"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Wrought apparent miracles Ex 7:11,12,22; 8:7,18",
-      "references": [
-        "Exod 7:11",
-        "Exod 7:12",
-        "Exod 7:22",
-        "Exod 8:7",
-        "Exod 8:18"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 4,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.702657+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "A per",
+      "references": [
+        "Daniel 1:20"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Failed to interpret Pharaoh’s dreams",
+      "references": [
+        "Genesis 41:8,24"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Nebuchadnezzars",
+      "references": [
+        "Daniel 2:2-13",
+        "Daniel 4:7"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Wrought apparent miracles",
+      "references": [
+        "Exodus 7:11,12,22",
+        "Exodus 8:7,18"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0"
+  ],
+  "biblical_references": [
+    {
+      "book": "Daniel",
+      "chapter": 1,
+      "verses": [
+        20
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Daniel 1:20"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 41,
+      "verses": [
+        8,
+        24
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Genesis 41:8,24"
+    },
+    {
+      "book": "Daniel",
+      "chapter": 2,
+      "verses": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "verse_count": 12,
+      "testament": "OT",
+      "raw": "Daniel 2:2-13"
+    },
+    {
+      "book": "Daniel",
+      "chapter": 4,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Daniel 4:7"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 7,
+      "verses": [
+        11,
+        12,
+        22
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Exodus 7:11,12,22"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 8,
+      "verses": [
+        7,
+        18
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Exodus 8:7,18"
+    }
+  ],
+  "books_mentioned": [
+    "Daniel",
+    "Exodus",
+    "Genesis"
+  ],
+  "stats": {
+    "total_aspects": 4,
+    "total_refs": 6,
+    "ot_refs": 6,
+    "nt_refs": 0,
+    "books_count": 3,
+    "top_books": [
+      "Daniel",
+      "Exodus",
+      "Genesis"
+    ]
+  }
 }

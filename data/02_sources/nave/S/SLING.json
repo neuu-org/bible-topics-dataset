@@ -1,105 +1,129 @@
 {
   "topic": "SLING",
-  "topic_slug": "sling",
+  "slug": "sling",
   "canonical_id": "NAV:sling",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "ARMS",
     "ARMIES"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "ARMS",
-      "clean": "ARMS",
-      "slug": "arms",
-      "canonical_id": "NAV:arms"
+      "label": "Used for throwing stones",
+      "references": [
+        "Proverbs 26:8"
+      ]
     },
     {
-      "original": "ARMIES",
-      "clean": "ARMIES",
-      "slug": "armies",
-      "canonical_id": "NAV:armies"
+      "label": "David kills Goliath with a",
+      "references": [
+        "1 Samuel 17:40-50"
+      ]
+    },
+    {
+      "label": "General references",
+      "references": [
+        "Judges 20:16"
+      ]
+    },
+    {
+      "label": "Used in war",
+      "references": [
+        "Judges 20:16",
+        "2 Kings 3:25",
+        "2 Chronicles 26:14"
+      ]
+    },
+    {
+      "label": "SeeARMIES",
+      "references": []
+    },
+    {
+      "label": "SeeARMS",
+      "references": []
     }
   ],
-  "raw_block": "–Used for throwing stonesPr 26:8\n–David kills Goliath with a1Sa 17:40-50\n–Dextrous use ofJud 20:16\n–Used in warJud 20:16;2Ki 3:25;2Ch 26:14\n–SeeARMIES\n–SeeARMS",
-  "content_preview": "–Used for throwing stonesPr 26:8",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–Used for throwing stonesPr 26:8",
-      "raw_segment": "–Used for throwing stonesPr 26:8"
+      "book": "Proverbs",
+      "chapter": 26,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 26:8"
     },
     {
-      "idx": 1,
-      "entry_label": "–David kills Goliath with a1Sa 17:40-50",
-      "raw_segment": "–David kills Goliath with a1Sa 17:40-50"
+      "book": "1 Samuel",
+      "chapter": 17,
+      "verses": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "verse_count": 11,
+      "testament": "OT",
+      "raw": "1 Samuel 17:40-50"
     },
     {
-      "idx": 2,
-      "entry_label": "–Dextrous use ofJud 20:16",
-      "raw_segment": "–Dextrous use ofJud 20:16"
+      "book": "Judges",
+      "chapter": 20,
+      "verses": [
+        16
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Judges 20:16"
     },
     {
-      "idx": 3,
-      "entry_label": "–Used in warJud 20:16;2Ki 3:25;2Ch 26:14",
-      "raw_segment": "–Used in warJud 20:16;2Ki 3:25;2Ch 26:14"
+      "book": "2 Kings",
+      "chapter": 3,
+      "verses": [
+        25
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Kings 3:25"
     },
     {
-      "idx": 4,
-      "entry_label": "–SeeARMIES",
-      "raw_segment": "–SeeARMIES"
-    },
-    {
-      "idx": 5,
-      "entry_label": "–SeeARMS",
-      "raw_segment": "–SeeARMS"
+      "book": "2 Chronicles",
+      "chapter": 26,
+      "verses": [
+        14
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Chronicles 26:14"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "1 Samuel",
+    "2 Chronicles",
+    "2 Kings",
+    "Judges",
+    "Proverbs"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 6,
+    "total_refs": 5,
+    "ot_refs": 5,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:d9d3af169537c8b64bae51b72ccf44ebf3b49a68c70ea3262425a47a77c762d1",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 6
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 5,
+    "top_books": [
+      "Proverbs",
+      "1 Samuel",
+      "Judges",
+      "2 Kings",
+      "2 Chronicles"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:31:38.036018Z",
-  "updated_at": "2025-09-20T17:31:38.036026Z"
+  }
 }

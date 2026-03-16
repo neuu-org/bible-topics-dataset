@@ -1,74 +1,89 @@
 {
   "topic": "TRANSFIGURATION",
-  "topic_slug": "transfiguration",
+  "slug": "transfiguration",
   "canonical_id": "NAV:transfiguration",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–Of MosesEx 34:29-35\n–Of JesusMt 17:2-9\n–Of StephenAc 6:15",
-  "content_preview": "–Of MosesEx 34:29-35",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–Of MosesEx 34:29-35",
-      "raw_segment": "–Of MosesEx 34:29-35"
+      "label": "Of Moses",
+      "references": [
+        "Exodus 34:29-35"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–Of JesusMt 17:2-9",
-      "raw_segment": "–Of JesusMt 17:2-9"
+      "label": "Of Jesus",
+      "references": [
+        "Matthew 17:2-9"
+      ]
     },
     {
-      "idx": 2,
-      "entry_label": "–Of StephenAc 6:15",
-      "raw_segment": "–Of StephenAc 6:15"
+      "label": "Of Stephen",
+      "references": [
+        "Acts 6:15"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Exodus",
+      "chapter": 34,
+      "verses": [
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "verse_count": 7,
+      "testament": "OT",
+      "raw": "Exodus 34:29-35"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 17,
+      "verses": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "verse_count": 8,
+      "testament": "NT",
+      "raw": "Matthew 17:2-9"
+    },
+    {
+      "book": "Acts",
+      "chapter": 6,
+      "verses": [
+        15
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 6:15"
+    }
+  ],
+  "books_mentioned": [
+    "Acts",
+    "Exodus",
+    "Matthew"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:4f83d137dbde1df8d91443e05eca256aea18d3be963844d0e8e76bb45fcfbbc4",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 3
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 3,
+    "total_refs": 3,
+    "ot_refs": 1,
+    "nt_refs": 2,
+    "books_count": 3,
+    "top_books": [
+      "Exodus",
+      "Matthew",
+      "Acts"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:32:19.670181Z",
-  "updated_at": "2025-09-20T17:32:19.670188Z"
+  }
 }

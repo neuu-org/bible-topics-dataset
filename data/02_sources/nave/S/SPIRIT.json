@@ -1,8 +1,8 @@
 {
   "topic": "SPIRIT",
-  "topic_slug": "spirit",
+  "slug": "spirit",
   "canonical_id": "NAV:spirit",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "SATAN",
     "ANGELS",
@@ -10,117 +10,70 @@
     "DEMONS",
     "MAN, A SPIRIT"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "SATAN",
-      "clean": "SATAN",
-      "slug": "satan",
-      "canonical_id": "NAV:satan"
+      "label": "General references",
+      "references": [
+        "Romans 7:22",
+        "Ephesians 3:16"
+      ]
     },
     {
-      "original": "ANGELS",
-      "clean": "ANGELS",
-      "slug": "angels",
-      "canonical_id": "NAV:angels"
+      "label": "SeeANGELS",
+      "references": []
     },
     {
-      "original": "HOLY SPIRIT",
-      "clean": "HOLY SPIRIT",
-      "slug": "holy_spirit",
-      "canonical_id": "NAV:holy_spirit"
+      "label": "See",
+      "references": []
     },
     {
-      "original": "DEMONS",
-      "clean": "DEMONS",
-      "slug": "demons",
-      "canonical_id": "NAV:demons"
+      "label": "SeeHOLY SPIRIT",
+      "references": []
     },
     {
-      "original": "MAN, A SPIRIT",
-      "clean": "MAN, A SPIRIT",
-      "slug": "man__a_spirit",
-      "canonical_id": "NAV:man__a_spirit"
+      "label": "SeeMAN, A SPIRIT",
+      "references": []
+    },
+    {
+      "label": "SeeSATAN",
+      "references": []
     }
   ],
-  "raw_block": "–Called “the inner man,”Ro 7:22;Eph 3:16\n–SeeANGELS\n–SeeDEMONS\n–SeeHOLY SPIRIT\n–SeeMAN, A SPIRIT\n–SeeSATAN",
-  "content_preview": "–Called “the inner man,”Ro 7:22;Eph 3:16",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–Called “the inner man,”Ro 7:22;Eph 3:16",
-      "raw_segment": "–Called “the inner man,”Ro 7:22;Eph 3:16"
+      "book": "Romans",
+      "chapter": 7,
+      "verses": [
+        22
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Romans 7:22"
     },
     {
-      "idx": 1,
-      "entry_label": "–SeeANGELS",
-      "raw_segment": "–SeeANGELS"
-    },
-    {
-      "idx": 2,
-      "entry_label": "–SeeDEMONS",
-      "raw_segment": "–SeeDEMONS"
-    },
-    {
-      "idx": 3,
-      "entry_label": "–SeeHOLY SPIRIT",
-      "raw_segment": "–SeeHOLY SPIRIT"
-    },
-    {
-      "idx": 4,
-      "entry_label": "–SeeMAN, A SPIRIT",
-      "raw_segment": "–SeeMAN, A SPIRIT"
-    },
-    {
-      "idx": 5,
-      "entry_label": "–SeeSATAN",
-      "raw_segment": "–SeeSATAN"
+      "book": "Ephesians",
+      "chapter": 3,
+      "verses": [
+        16
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Ephesians 3:16"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "Ephesians",
+    "Romans"
+  ],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 6,
+    "total_refs": 2,
     "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:bcdc7ab00a611974e08b34ce67286a5e36ccdaf5e2a778a084ac46331bd2c67d",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 6
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "nt_refs": 2,
+    "books_count": 2,
+    "top_books": [
+      "Romans",
+      "Ephesians"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:31:44.470090Z",
-  "updated_at": "2025-09-20T17:31:44.470098Z"
+  }
 }

@@ -1,64 +1,132 @@
 {
   "topic": "IMAGINATION",
-  "topic_slug": "imagination",
+  "slug": "imagination",
   "canonical_id": "NAV:imagination",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–General scriptures concerningGe 6:5;8:21;De 29:19,20;1Ch 28:9;Pr 6:16-18;Mt 5:28;Ro 1:21;2Co 10:3",
-  "content_preview": "–General scriptures concerningGe 6:5;8:21;De 29:19,20;1Ch 28:9;Pr 6:16-18;Mt 5:28;Ro 1:21;2Co 10:3",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–General scriptures concerningGe 6:5;8:21;De 29:19,20;1Ch 28:9;Pr 6:16-18;Mt 5:28;Ro 1:21;2Co 10:3",
-      "raw_segment": "–General scriptures concerningGe 6:5;8:21;De 29:19,20;1Ch 28:9;Pr 6:16-18;Mt 5:28;Ro 1:21;2Co 10:3"
+      "label": "General scriptures concerning",
+      "references": [
+        "Genesis 6:5",
+        "Genesis 8:21",
+        "Deuteronomy 29:19,20",
+        "1 Chronicles 28:9",
+        "Proverbs 6:16-18",
+        "Matthew 5:28",
+        "Romans 1:21",
+        "2 Corinthians 10:3"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Genesis",
+      "chapter": 6,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 6:5"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 8,
+      "verses": [
+        21
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 8:21"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 29,
+      "verses": [
+        19,
+        20
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Deuteronomy 29:19,20"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 28,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 28:9"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 6,
+      "verses": [
+        16,
+        17,
+        18
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Proverbs 6:16-18"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 5,
+      "verses": [
+        28
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 5:28"
+    },
+    {
+      "book": "Romans",
+      "chapter": 1,
+      "verses": [
+        21
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Romans 1:21"
+    },
+    {
+      "book": "2 Corinthians",
+      "chapter": 10,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "2 Corinthians 10:3"
+    }
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "2 Corinthians",
+    "Deuteronomy",
+    "Genesis",
+    "Matthew",
+    "Proverbs",
+    "Romans"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:c86b0c14a7e81434698c8949b5494137a5d4d50671a5dc497a2d735d75a737b0",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 1
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 1,
+    "total_refs": 8,
+    "ot_refs": 5,
+    "nt_refs": 3,
+    "books_count": 7,
+    "top_books": [
+      "Genesis",
+      "Deuteronomy",
+      "1 Chronicles",
+      "Proverbs",
+      "Matthew",
+      "Romans",
+      "2 Corinthians"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:27:30.844545Z",
-  "updated_at": "2025-09-20T17:27:30.844552Z"
+  }
 }

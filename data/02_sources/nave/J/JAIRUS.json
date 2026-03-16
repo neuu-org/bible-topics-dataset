@@ -1,69 +1,122 @@
 {
   "topic": "JAIRUS",
-  "topic_slug": "jairus",
+  "slug": "jairus",
   "canonical_id": "NAV:jairus",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–A ruler of the synagogue in CapernaumMt 9:18\n–Daughter of, restored to lifeMt 9:18,23-26;Mr 5:22-43;Lu 8:41-56",
-  "content_preview": "–A ruler of the synagogue in CapernaumMt 9:18",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–A ruler of the synagogue in CapernaumMt 9:18",
-      "raw_segment": "–A ruler of the synagogue in CapernaumMt 9:18"
+      "label": "A ruler of the synagogue in",
+      "references": [
+        "Matthew 9:18"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–Daughter of, restored to lifeMt 9:18,23-26;Mr 5:22-43;Lu 8:41-56",
-      "raw_segment": "–Daughter of, restored to lifeMt 9:18,23-26;Mr 5:22-43;Lu 8:41-56"
+      "label": "Daughter of, restored to life",
+      "references": [
+        "Matthew 9:18,23-26",
+        "Mark 5:22-43",
+        "Luke 8:41-56"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Matthew",
+      "chapter": 9,
+      "verses": [
+        18
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 9:18"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 9,
+      "verses": [
+        18,
+        23,
+        24,
+        25,
+        26
+      ],
+      "verse_count": 5,
+      "testament": "NT",
+      "raw": "Matthew 9:18,23-26"
+    },
+    {
+      "book": "Mark",
+      "chapter": 5,
+      "verses": [
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43
+      ],
+      "verse_count": 22,
+      "testament": "NT",
+      "raw": "Mark 5:22-43"
+    },
+    {
+      "book": "Luke",
+      "chapter": 8,
+      "verses": [
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56
+      ],
+      "verse_count": 16,
+      "testament": "NT",
+      "raw": "Luke 8:41-56"
+    }
+  ],
+  "books_mentioned": [
+    "Luke",
+    "Mark",
+    "Matthew"
+  ],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 2,
+    "total_refs": 4,
     "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:ccb87a98bd31fd57e0e96be20bea3e3e0aef91c94c894ab2f440c8e4ce1d3afd",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "nt_refs": 4,
+    "books_count": 3,
+    "top_books": [
+      "Matthew",
+      "Mark",
+      "Luke"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:27:50.353825Z",
-  "updated_at": "2025-09-20T17:27:50.353833Z"
+  }
 }

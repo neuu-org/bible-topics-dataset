@@ -1,82 +1,62 @@
 {
   "topic": "CRETE",
   "slug": "crete",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "(An island in the Mediterranean Sea)",
+      "label": "(An island in the Mediterranean Sea)",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Visited by Paul Ac 27:7,12,13,21",
+      "label": "Visited by Paul",
       "references": [
-        "Acts 27:7",
-        "Acts 27:12",
-        "Acts 27:13",
-        "Acts 27:21"
+        "Acts 27:7,12,13,21"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Visited by Titus Tit 1:5",
+      "label": "Visited by Titus",
       "references": [
         "Titus 1:5"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Character of the inhabitants of Ac 2:11; Tit 1:12",
+      "label": "Character of the inhabitants of",
       "references": [
         "Acts 2:11",
         "Titus 1:12"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Titus",
-      "book_abbrev": "tit",
-      "chapter": 1,
-      "testament": "NT",
+      "book": "Acts",
+      "chapter": 27,
       "verses": [
-        12
+        7,
+        12,
+        13,
+        21
       ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 4,
-    "ot_refs": 0,
-    "nt_refs": 1,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.679768+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+      "verse_count": 4,
+      "testament": "NT",
+      "raw": "Acts 27:7,12,13,21"
+    },
     {
       "book": "Titus",
       "chapter": 1,
       "verses": [
-        12
+        5
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Titus 1:12",
-      "source": "EAS"
+      "raw": "Titus 1:5"
     },
     {
       "book": "Acts",
@@ -86,46 +66,32 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Acts 2:11",
-      "source": "EAS"
-    },
-    {
-      "book": "Acts",
-      "chapter": 1,
-      "verses": [
-        5
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Acts 1:5",
-      "source": "EAS"
+      "raw": "Acts 2:11"
     },
     {
       "book": "Titus",
       "chapter": 1,
       "verses": [
-        5
+        12
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Titus 1:5",
-      "source": "SMI"
-    },
-    {
-      "book": "Acts",
-      "chapter": 27,
-      "verses": [
-        7,
-        8,
-        9,
-        10,
-        11,
-        12
-      ],
-      "verse_count": 6,
-      "testament": "NT",
-      "raw": "Acts 27:7-12",
-      "source": "SMI"
+      "raw": "Titus 1:12"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Acts",
+    "Titus"
+  ],
+  "stats": {
+    "total_aspects": 4,
+    "total_refs": 4,
+    "ot_refs": 0,
+    "nt_refs": 4,
+    "books_count": 2,
+    "top_books": [
+      "Acts",
+      "Titus"
+    ]
+  }
 }

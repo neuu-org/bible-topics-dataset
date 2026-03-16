@@ -1,61 +1,31 @@
 {
   "topic": "ZERUIAH",
   "slug": "zeruiah",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Sister of David 1Ch 2:16",
-      "references": [
-        "1Chr 2:16"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Mother of three of David’ s great soldiers 1Ch 2:16; 2Sa 2:18; 3:39; 16:9-11; 17:25",
-      "references": [
-        "1Chr 2:16",
-        "2Sam 2:18",
-        "2Sam 3:39",
-        "2Sam 16:9-11",
-        "2Sam 17:25"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "2 Samuel",
-      "book_abbrev": "2sa",
-      "chapter": 2,
-      "testament": "OT",
-      "verses": [
-        3,
-        18
-      ],
-      "verse_count": 2
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.735004+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "Sister of David",
+      "references": [
+        "1 Chronicles 2:16"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Mother of three of David’ s great",
+      "references": [
+        "1 Chronicles 2:16",
+        "2 Samuel 2:18",
+        "2 Samuel 3:39",
+        "2 Samuel 16:9-11",
+        "2 Samuel 17:25"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "1 Chronicles",
       "chapter": 2,
@@ -64,8 +34,64 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 2:16",
-      "source": "EAS"
+      "raw": "1 Chronicles 2:16"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 2,
+      "verses": [
+        18
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Samuel 2:18"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 3,
+      "verses": [
+        39
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Samuel 3:39"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 16,
+      "verses": [
+        9,
+        10,
+        11
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "2 Samuel 16:9-11"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 17,
+      "verses": [
+        25
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Samuel 17:25"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "2 Samuel"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 5,
+    "ot_refs": 5,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "2 Samuel",
+      "1 Chronicles"
+    ]
+  }
 }

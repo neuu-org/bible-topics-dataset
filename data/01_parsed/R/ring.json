@@ -1,31 +1,60 @@
 {
-  "topic": "Ring",
+  "topic": "RING",
   "slug": "ring",
-  "type": "topic",
-  "reference_groups": [],
-  "biblical_references": [],
-  "stats": {},
-  "sources": [],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.721851+00:00",
-    "merged_from": {
-      "v2": false,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "book": "Genesis",
-      "chapter": 38,
+      "label": "Of gold",
+      "references": [
+        "Numbers 31:50"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Worn as a badge of office",
+      "references": [
+        "Genesis 41:42"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Given as a token",
+      "references": [
+        "Esther 3:10,12",
+        "Esther 8:2-10"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Worn in the nose",
+      "references": [
+        "Proverbs 11:22",
+        "Isaiah 3:21"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Offerings of, to the tabernacle",
+      "references": [
+        "Exodus 35:22",
+        "Numbers 31:50"
+      ],
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
+    {
+      "book": "Numbers",
+      "chapter": 31,
       "verses": [
-        18
+        50
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 38:18",
-      "source": "EAS"
+      "raw": "Numbers 31:50"
     },
     {
       "book": "Genesis",
@@ -35,76 +64,46 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 41:42",
-      "source": "EAS"
+      "raw": "Genesis 41:42"
     },
     {
       "book": "Esther",
       "chapter": 3,
       "verses": [
-        8,
-        9,
-        10
+        10,
+        12
       ],
-      "verse_count": 3,
+      "verse_count": 2,
       "testament": "OT",
-      "raw": "Esther 3:8-10",
-      "source": "EAS"
+      "raw": "Esther 3:10,12"
     },
     {
       "book": "Esther",
       "chapter": 8,
       "verses": [
-        2
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
       ],
-      "verse_count": 1,
+      "verse_count": 9,
       "testament": "OT",
-      "raw": "Esther 8:2",
-      "source": "EAS"
+      "raw": "Esther 8:2-10"
     },
     {
-      "book": "Luke",
-      "chapter": 15,
+      "book": "Proverbs",
+      "chapter": 11,
       "verses": [
         22
       ],
       "verse_count": 1,
-      "testament": "NT",
-      "raw": "Luke 15:22",
-      "source": "EAS"
-    },
-    {
-      "book": "James",
-      "chapter": 2,
-      "verses": [
-        2
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "James 2:2",
-      "source": "EAS"
-    },
-    {
-      "book": "James",
-      "chapter": 3,
-      "verses": [
-        21
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "James 3:21",
-      "source": "EAS"
-    },
-    {
-      "book": "Esther",
-      "chapter": 3,
-      "verses": [
-        10
-      ],
-      "verse_count": 1,
       "testament": "OT",
-      "raw": "Esther 3:10",
-      "source": "SMI"
+      "raw": "Proverbs 11:22"
     },
     {
       "book": "Isaiah",
@@ -114,19 +113,40 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Isaiah 3:21",
-      "source": "SMI"
+      "raw": "Isaiah 3:21"
     },
     {
       "book": "Exodus",
-      "chapter": 28,
+      "chapter": 35,
       "verses": [
-        11
+        22
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Exodus 28:11",
-      "source": "SMI"
+      "raw": "Exodus 35:22"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Esther",
+    "Exodus",
+    "Genesis",
+    "Isaiah",
+    "Numbers",
+    "Proverbs"
+  ],
+  "stats": {
+    "total_aspects": 5,
+    "total_refs": 7,
+    "ot_refs": 7,
+    "nt_refs": 0,
+    "books_count": 6,
+    "top_books": [
+      "Esther",
+      "Numbers",
+      "Genesis",
+      "Proverbs",
+      "Isaiah",
+      "Exodus"
+    ]
+  }
 }

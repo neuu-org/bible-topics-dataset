@@ -1,50 +1,21 @@
 {
   "topic": "ELIM",
   "slug": "elim",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Second camp of the Israelites after crossing the Red Sea Ex 15:27; Nu 33:9",
-      "references": [
-        "Exod 15:27",
-        "Num 33:9"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Numbers",
-      "book_abbrev": "num",
-      "chapter": 33,
-      "testament": "OT",
-      "verses": [
-        9
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.683658+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "Second",
+      "references": [
+        "Exodus 15:27",
+        "Numbers 33:9"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Exodus",
       "chapter": 15,
@@ -53,8 +24,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Exodus 15:27",
-      "source": "EAS"
+      "raw": "Exodus 15:27"
     },
     {
       "book": "Numbers",
@@ -64,19 +34,22 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Numbers 33:9",
-      "source": "EAS"
-    },
-    {
-      "book": "Exodus",
-      "chapter": 16,
-      "verses": [
-        1
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Exodus 16:1",
-      "source": "EAS"
+      "raw": "Numbers 33:9"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Exodus",
+    "Numbers"
+  ],
+  "stats": {
+    "total_aspects": 1,
+    "total_refs": 2,
+    "ot_refs": 2,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "Exodus",
+      "Numbers"
+    ]
+  }
 }

@@ -1,84 +1,141 @@
 {
   "topic": "ZABAD",
-  "topic_slug": "zabad",
+  "slug": "zabad",
   "canonical_id": "NAV:zabad",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–1. Son of Nathan1Ch 2:36,37\n–2. An Ephraimite1Ch 7:21\n–3. One of David’ s valiant men1Ch 11:41\n–4. An assassin of King Joash2Ch 24:26;25:3,4\n  .Called JOZACHAR in2Ki 12:21\n–5. Three Israelites who divorced their Gentile wivesEzr 10:27,33,43",
-  "content_preview": "–1. Son of Nathan1Ch 2:36,37",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–1. Son of Nathan1Ch 2:36,37",
-      "raw_segment": "–1. Son of Nathan1Ch 2:36,37"
+      "label": "1.",
+      "references": [
+        "1 Chronicles 2:36,37"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–2. An Ephraimite1Ch 7:21",
-      "raw_segment": "–2. An Ephraimite1Ch 7:21"
+      "label": "2. An Ephraimite",
+      "references": [
+        "1 Chronicles 7:21"
+      ]
     },
     {
-      "idx": 2,
-      "entry_label": "–3. One of David’ s valiant men1Ch 11:41",
-      "raw_segment": "–3. One of David’ s valiant men1Ch 11:41"
+      "label": "3. One of David’ s valiant men",
+      "references": [
+        "1 Chronicles 11:41"
+      ]
     },
     {
-      "idx": 3,
-      "entry_label": "–4. An assassin of King Joash2Ch 24:26;25:3,4",
-      "raw_segment": "–4. An assassin of King Joash2Ch 24:26;25:3,4"
+      "label": "4. An assassin of King Joash",
+      "references": [
+        "2 Chronicles 24:26",
+        "2 Chronicles 25:3,4"
+      ]
     },
     {
-      "idx": 4,
-      "entry_label": "–5. Three Israelites who divorced their Gentile wivesEzr 10:27,33,43",
-      "raw_segment": "–5. Three Israelites who divorced their Gentile wivesEzr 10:27,33,43"
+      "label": ".",
+      "references": [
+        "2 Kings 12:21"
+      ]
+    },
+    {
+      "label": "5. Three Israelites who divorced their Gentile wives",
+      "references": [
+        "Ezra 10:27,33,43"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "1 Chronicles",
+      "chapter": 2,
+      "verses": [
+        36,
+        37
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "1 Chronicles 2:36,37"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 7,
+      "verses": [
+        21
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 7:21"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 11,
+      "verses": [
+        41
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 11:41"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 24,
+      "verses": [
+        26
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Chronicles 24:26"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 25,
+      "verses": [
+        3,
+        4
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "2 Chronicles 25:3,4"
+    },
+    {
+      "book": "2 Kings",
+      "chapter": 12,
+      "verses": [
+        21
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Kings 12:21"
+    },
+    {
+      "book": "Ezra",
+      "chapter": 10,
+      "verses": [
+        27,
+        33,
+        43
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Ezra 10:27,33,43"
+    }
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "2 Chronicles",
+    "2 Kings",
+    "Ezra"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 6,
+    "total_refs": 7,
+    "ot_refs": 7,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:8dcf7b826d9aec1f93d3fab026c80dcfb6bbe89ca8734afc92901b70631e1118",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 6
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 4,
+    "top_books": [
+      "1 Chronicles",
+      "2 Chronicles",
+      "2 Kings",
+      "Ezra"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:32:43.294086Z",
-  "updated_at": "2025-09-20T17:32:43.294094Z"
+  }
 }

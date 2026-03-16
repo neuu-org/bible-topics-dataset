@@ -1,69 +1,96 @@
 {
   "topic": "HELDAI",
-  "topic_slug": "heldai",
+  "slug": "heldai",
   "canonical_id": "NAV:heldai",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–1. The Netophathite\n  .One of David’s heroes1Ch 27:15\n  .Called HELED1Ch 11:30\n  .And HELEB2Sa 23:29\n–2. An IsraeliteZec 6:10",
-  "content_preview": "–1. The Netophathite",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–1. The Netophathite",
-      "raw_segment": "–1. The Netophathite"
+      "label": "1. The Netophathite",
+      "references": []
     },
     {
-      "idx": 1,
-      "entry_label": "–2. An IsraeliteZec 6:10",
-      "raw_segment": "–2. An IsraeliteZec 6:10"
+      "label": ".One of David’s heroes",
+      "references": [
+        "1 Chronicles 27:15"
+      ]
+    },
+    {
+      "label": ".",
+      "references": [
+        "1 Chronicles 11:30"
+      ]
+    },
+    {
+      "label": ".And HELEB",
+      "references": [
+        "2 Samuel 23:29"
+      ]
+    },
+    {
+      "label": "2. An Israelite",
+      "references": [
+        "Ecclesiastes 6:10"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "1 Chronicles",
+      "chapter": 27,
+      "verses": [
+        15
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 27:15"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 11,
+      "verses": [
+        30
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 11:30"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 23,
+      "verses": [
+        29
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Samuel 23:29"
+    },
+    {
+      "book": "Ecclesiastes",
+      "chapter": 6,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ecclesiastes 6:10"
+    }
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "2 Samuel",
+    "Ecclesiastes"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 5,
+    "total_refs": 4,
+    "ot_refs": 4,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:fa7123ebebffa2e40cf2d6961112ccb3e97fbc76c0cfcbed8bb72e3cd73a1cd6",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 5
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 3,
+    "top_books": [
+      "1 Chronicles",
+      "2 Samuel",
+      "Ecclesiastes"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:27:08.730012Z",
-  "updated_at": "2025-09-20T17:27:08.730022Z"
+  }
 }

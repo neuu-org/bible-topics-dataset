@@ -1,53 +1,25 @@
 {
   "topic": "EZEM",
   "slug": "ezem",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Also called AZEM, a city of the tribe of Simeon Jos 15:29; 19:3; 1Ch 4:29",
-      "references": [
-        "Josh 15:29",
-        "Josh 19:3",
-        "1Chr 4:29"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "1 Chronicles",
-      "book_abbrev": "1ch",
-      "chapter": 4,
-      "testament": "OT",
-      "verses": [
-        29
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.685847+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "Al",
+      "references": [],
+      "source": "NAV"
     },
-    "enriched_at": "2025-12-02T22:02:10.047487+00:00",
-    "enrichment_source": "pipeline_merge"
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+    {
+      "label": "15:29;19:3;",
+      "references": [
+        "1 Chronicles 4:29"
+      ],
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
     {
       "book": "1 Chronicles",
       "chapter": 4,
@@ -56,8 +28,20 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 4:29",
-      "source": "SMI"
+      "raw": "1 Chronicles 4:29"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 1,
+    "ot_refs": 1,
+    "nt_refs": 0,
+    "books_count": 1,
+    "top_books": [
+      "1 Chronicles"
+    ]
+  }
 }

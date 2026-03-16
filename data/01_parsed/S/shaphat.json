@@ -1,81 +1,55 @@
 {
   "topic": "SHAPHAT",
   "slug": "shaphat",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. The representative of the tribe of Simeon among the spies sent into Canaan Nu 13:5",
-      "references": [
-        "Num 13:5"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "2. Father of Elisha 1Ki 19:16,19; 2Ki 3:11; 6:31",
-      "references": [
-        "1Kgs 19:16",
-        "1Kgs 19:19",
-        "2Kgs 3:11",
-        "2Kgs 6:31"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "3. Son of Shemaiah 1Ch 3:22",
-      "references": [
-        "1Chr 3:22"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "4. A Gadite 1Ch 5:12",
-      "references": [
-        "1Chr 5:12"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "5. Son of Adlai 1Ch 27:29",
-      "references": [
-        "1Chr 27:29"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "2 Kings",
-      "book_abbrev": "2ki",
-      "chapter": 3,
-      "testament": "OT",
-      "verses": [
-        6,
-        11
-      ],
-      "verse_count": 2
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 5,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.724425+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "1. The representative of the tribe of Simeon among the spies",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "sent into",
+      "references": [
+        "Numbers 13:5"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2. Father of Elisha",
+      "references": [
+        "1 Kings 19:16,19",
+        "2 Kings 3:11",
+        "2 Kings 6:31"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "3.",
+      "references": [
+        "1 Chronicles 3:22"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "4. A Gadite",
+      "references": [
+        "1 Chronicles 5:12"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "5.",
+      "references": [
+        "1 Chronicles 27:29"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Numbers",
       "chapter": 13,
@@ -84,22 +58,58 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Numbers 13:5",
-      "source": "EAS"
+      "raw": "Numbers 13:5"
     },
     {
       "book": "1 Kings",
       "chapter": 19,
       "verses": [
         16,
-        17,
-        18,
         19
       ],
-      "verse_count": 4,
+      "verse_count": 2,
       "testament": "OT",
-      "raw": "1 Kings 19:16-19",
-      "source": "EAS"
+      "raw": "1 Kings 19:16,19"
+    },
+    {
+      "book": "2 Kings",
+      "chapter": 3,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Kings 3:11"
+    },
+    {
+      "book": "2 Kings",
+      "chapter": 6,
+      "verses": [
+        31
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Kings 6:31"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 3,
+      "verses": [
+        22
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 3:22"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 5,
+      "verses": [
+        12
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 5:12"
     },
     {
       "book": "1 Chronicles",
@@ -109,8 +119,26 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 27:29",
-      "source": "EAS"
+      "raw": "1 Chronicles 27:29"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "1 Kings",
+    "2 Kings",
+    "Numbers"
+  ],
+  "stats": {
+    "total_aspects": 6,
+    "total_refs": 7,
+    "ot_refs": 7,
+    "nt_refs": 0,
+    "books_count": 4,
+    "top_books": [
+      "1 Chronicles",
+      "2 Kings",
+      "Numbers",
+      "1 Kings"
+    ]
+  }
 }

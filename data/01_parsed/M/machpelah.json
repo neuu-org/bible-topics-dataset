@@ -1,65 +1,42 @@
 {
   "topic": "MACHPELAH",
   "slug": "machpelah",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "The burying place of Sarah, Abraham, Isaac, Rebekah, Leah, and Jacob Ge 23:9,17-20; 25:9; 49:30,31; 50:13; Ac 7:16",
+      "label": "The burying place of Sarah, Abraham,",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "Jacob",
       "references": [
-        "Gen 23:9",
-        "Gen 23:17-20",
-        "Gen 25:9",
-        "Gen 49:30",
-        "Gen 49:31",
-        "Gen 50:13",
+        "Genesis 23:9,17-20",
+        "Genesis 25:9",
+        "Genesis 49:30,31",
+        "Genesis 50:13",
         "Acts 7:16"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Acts",
-      "book_abbrev": "act",
-      "chapter": 7,
-      "testament": "NT",
-      "verses": [
-        16
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 1,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.702496+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
       "book": "Genesis",
       "chapter": 23,
       "verses": [
-        19
+        9,
+        17,
+        18,
+        19,
+        20
       ],
-      "verse_count": 1,
+      "verse_count": 5,
       "testament": "OT",
-      "raw": "Genesis 23:19",
-      "source": "EAS"
+      "raw": "Genesis 23:9,17-20"
     },
     {
       "book": "Genesis",
@@ -69,19 +46,18 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 25:9",
-      "source": "EAS"
+      "raw": "Genesis 25:9"
     },
     {
       "book": "Genesis",
       "chapter": 49,
       "verses": [
+        30,
         31
       ],
-      "verse_count": 1,
+      "verse_count": 2,
       "testament": "OT",
-      "raw": "Genesis 49:31",
-      "source": "EAS"
+      "raw": "Genesis 49:30,31"
     },
     {
       "book": "Genesis",
@@ -91,8 +67,32 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 50:13",
-      "source": "EAS"
+      "raw": "Genesis 50:13"
+    },
+    {
+      "book": "Acts",
+      "chapter": 7,
+      "verses": [
+        16
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 7:16"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Acts",
+    "Genesis"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 5,
+    "ot_refs": 4,
+    "nt_refs": 1,
+    "books_count": 2,
+    "top_books": [
+      "Genesis",
+      "Acts"
+    ]
+  }
 }

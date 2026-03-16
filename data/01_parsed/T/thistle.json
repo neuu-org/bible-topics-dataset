@@ -1,112 +1,31 @@
 {
   "topic": "THISTLE",
   "slug": "thistle",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "A noxious plant Ge 3:18; Job 31:40; Ho 10:8",
-      "references": [
-        "Gen 3:18",
-        "Job 31:40",
-        "Hos 10:8"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Parables of 2Ki 14:9; 2Ch 25:18; Mt 7:16",
-      "references": [
-        "2Kgs 14:9",
-        "2Chr 25:18",
-        "Matt 7:16"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "2 Chronicles",
-      "book_abbrev": "2ch",
-      "chapter": 25,
-      "testament": "OT",
-      "verses": [
-        18
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Job",
-      "book_abbrev": "job",
-      "chapter": 31,
-      "testament": "OT",
-      "verses": [
-        40
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Hosea",
-      "book_abbrev": "hos",
-      "chapter": 10,
-      "testament": "OT",
-      "verses": [
-        8
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Matthew",
-      "book_abbrev": "mat",
-      "chapter": 7,
-      "testament": "NT",
-      "verses": [
-        16
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 3,
-    "nt_refs": 1,
-    "total_verses": 4
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.729863+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "A noxious plant",
+      "references": [
+        "Genesis 3:18",
+        "Job 31:40",
+        "Hosea 10:8"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Parables of",
+      "references": [
+        "2 Kings 14:9",
+        "2 Chronicles 25:18",
+        "Matthew 7:16"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "2 Kings",
-      "chapter": 14,
-      "verses": [
-        9
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "2 Kings 14:9",
-      "source": "EAS"
-    },
-    {
-      "book": "Job",
-      "chapter": 31,
-      "verses": [
-        40
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Job 31:40",
-      "source": "EAS"
-    },
+  ],
+  "biblical_references": [
     {
       "book": "Genesis",
       "chapter": 3,
@@ -115,8 +34,17 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 3:18",
-      "source": "EAS"
+      "raw": "Genesis 3:18"
+    },
+    {
+      "book": "Job",
+      "chapter": 31,
+      "verses": [
+        40
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Job 31:40"
     },
     {
       "book": "Hosea",
@@ -126,8 +54,27 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Hosea 10:8",
-      "source": "EAS"
+      "raw": "Hosea 10:8"
+    },
+    {
+      "book": "2 Kings",
+      "chapter": 14,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Kings 14:9"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 25,
+      "verses": [
+        18
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Chronicles 25:18"
     },
     {
       "book": "Matthew",
@@ -137,74 +84,30 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Matthew 7:16",
-      "source": "EAS"
-    },
-    {
-      "book": "Hebrews",
-      "chapter": 6,
-      "verses": [
-        8
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Hebrews 6:8",
-      "source": "EAS"
-    },
-    {
-      "book": "Job",
-      "chapter": 41,
-      "verses": [
-        2
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Job 41:2",
-      "source": "EAS"
-    },
-    {
-      "book": "2 Chronicles",
-      "chapter": 33,
-      "verses": [
-        11
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "2 Chronicles 33:11",
-      "source": "EAS"
-    },
-    {
-      "book": "Proverbs",
-      "chapter": 26,
-      "verses": [
-        9
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Proverbs 26:9",
-      "source": "EAS"
-    },
-    {
-      "book": "Song of Solomon",
-      "chapter": 2,
-      "verses": [
-        2
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Song of Solomon 2:2",
-      "source": "EAS"
-    },
-    {
-      "book": "Isaiah",
-      "chapter": 34,
-      "verses": [
-        13
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Isaiah 34:13",
-      "source": "EAS"
+      "raw": "Matthew 7:16"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "2 Chronicles",
+    "2 Kings",
+    "Genesis",
+    "Hosea",
+    "Job",
+    "Matthew"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 6,
+    "ot_refs": 5,
+    "nt_refs": 1,
+    "books_count": 6,
+    "top_books": [
+      "Genesis",
+      "Job",
+      "Hosea",
+      "2 Kings",
+      "2 Chronicles",
+      "Matthew"
+    ]
+  }
 }

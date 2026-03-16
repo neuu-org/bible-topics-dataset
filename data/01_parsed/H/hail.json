@@ -1,42 +1,182 @@
 {
-  "topic": "Hail!",
+  "topic": "HAIL",
   "slug": "hail",
-  "type": "topic",
-  "reference_groups": [],
-  "biblical_references": [],
-  "stats": {},
-  "sources": [],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.690240+00:00",
-    "merged_from": {
-      "v2": false,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "book": "Luke",
-      "chapter": 1,
-      "verses": [
-        8
+      "label": "General scriptures concerning",
+      "references": [
+        "Job 38:22",
+        "Haggai 2:17"
       ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Luke 1:8",
-      "source": "EAS"
+      "source": "NAV"
     },
     {
-      "book": "Matthew",
-      "chapter": 27,
+      "label": "Plague of, in Egypt",
+      "references": [
+        "Exodus 9:18-29",
+        "Psalms 78:48",
+        "Psalms 105:32"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "General references",
+      "references": [
+        "Joshua 10:11"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "FIGURATIVE",
+      "references": [
+        "Isaiah 28:2",
+        "Revelation 8:7",
+        "Revelation 11:19",
+        "Revelation 16:21"
+      ],
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
+    {
+      "book": "Job",
+      "chapter": 38,
       "verses": [
+        22
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Job 38:22"
+    },
+    {
+      "book": "Haggai",
+      "chapter": 2,
+      "verses": [
+        17
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Haggai 2:17"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 9,
+      "verses": [
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
         29
+      ],
+      "verse_count": 12,
+      "testament": "OT",
+      "raw": "Exodus 9:18-29"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 78,
+      "verses": [
+        48
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 78:48"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 105,
+      "verses": [
+        32
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 105:32"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 10,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 10:11"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 28,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 28:2"
+    },
+    {
+      "book": "Revelation",
+      "chapter": 8,
+      "verses": [
+        7
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Matthew 27:29",
-      "source": "EAS"
+      "raw": "Revelation 8:7"
+    },
+    {
+      "book": "Revelation",
+      "chapter": 11,
+      "verses": [
+        19
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Revelation 11:19"
+    },
+    {
+      "book": "Revelation",
+      "chapter": 16,
+      "verses": [
+        21
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Revelation 16:21"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Exodus",
+    "Haggai",
+    "Isaiah",
+    "Job",
+    "Joshua",
+    "Psalms",
+    "Revelation"
+  ],
+  "stats": {
+    "total_aspects": 4,
+    "total_refs": 10,
+    "ot_refs": 7,
+    "nt_refs": 3,
+    "books_count": 7,
+    "top_books": [
+      "Revelation",
+      "Psalms",
+      "Job",
+      "Haggai",
+      "Exodus",
+      "Joshua",
+      "Isaiah"
+    ]
+  }
 }

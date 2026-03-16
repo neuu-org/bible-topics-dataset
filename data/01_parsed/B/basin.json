@@ -1,146 +1,49 @@
 {
   "topic": "BASIN",
   "slug": "basin",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Made of gold 1Ki 7:50; 1Ch 28:17; 2Ch 4:8,22; Ezr 1:10; 8:27",
-      "references": [
-        "1Kgs 7:50",
-        "1Chr 28:17",
-        "2Chr 4:8",
-        "2Chr 4:22",
-        "Ezra 1:10",
-        "Ezra 8:27"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Made of brass (bronze) Ex 27:3; 38:3; 1Ki 7:45",
-      "references": [
-        "Exod 27:3",
-        "Exod 38:3",
-        "1Kgs 7:45"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "See TABERNACLE, FURNITURE OF",
-      "references": [],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Exodus",
-      "book_abbrev": "exo",
-      "chapter": 27,
-      "testament": "OT",
-      "verses": [
-        3,
-        38
-      ],
-      "verse_count": 2
-    },
-    {
-      "book": "1 Kings",
-      "book_abbrev": "1ki",
-      "chapter": 7,
-      "testament": "OT",
-      "verses": [
-        45
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "1 Chronicles",
-      "book_abbrev": "1ch",
-      "chapter": 28,
-      "testament": "OT",
-      "verses": [
-        2,
-        17
-      ],
-      "verse_count": 2
-    },
-    {
-      "book": "2 Chronicles",
-      "book_abbrev": "2ch",
-      "chapter": 4,
-      "testament": "OT",
-      "verses": [
-        8,
-        22
-      ],
-      "verse_count": 2
-    },
-    {
-      "book": "Ezra",
-      "book_abbrev": "ezr",
-      "chapter": 1,
-      "testament": "OT",
-      "verses": [
-        8,
-        10
-      ],
-      "verse_count": 2
-    }
+  "sources": [
+    "NAV"
   ],
   "see_also": [
     "TABERNACLE, FURNITURE OF"
   ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 5,
-    "nt_refs": 0,
-    "total_verses": 5
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.672314+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "aspects": [
     {
-      "book": "Exodus",
-      "chapter": 24,
-      "verses": [
-        6
+      "label": "Ma",
+      "references": [
+        "1 Kings 7:50",
+        "1 Chronicles 28:17",
+        "2 Chronicles 4:8,22",
+        "Ezra 1:10",
+        "Ezra 8:27"
       ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Exodus 24:6",
-      "source": "EAS"
+      "source": "NAV"
     },
     {
-      "book": "Song of Solomon",
+      "label": "Ma",
+      "references": [
+        "Exodus 27:3",
+        "Exodus 38:3",
+        "1 Kings 7:45"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeTABERNACLE, FURNITURE OF",
+      "references": [],
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
+    {
+      "book": "1 Kings",
       "chapter": 7,
       "verses": [
-        2
+        50
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Song of Solomon 7:2",
-      "source": "EAS"
-    },
-    {
-      "book": "Isaiah",
-      "chapter": 22,
-      "verses": [
-        24
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Isaiah 22:24",
-      "source": "EAS"
+      "raw": "1 Kings 7:50"
     },
     {
       "book": "1 Chronicles",
@@ -150,8 +53,18 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 28:17",
-      "source": "EAS"
+      "raw": "1 Chronicles 28:17"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 4,
+      "verses": [
+        8,
+        22
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "2 Chronicles 4:8,22"
     },
     {
       "book": "Ezra",
@@ -161,8 +74,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Ezra 1:10",
-      "source": "EAS"
+      "raw": "Ezra 1:10"
     },
     {
       "book": "Ezra",
@@ -172,30 +84,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Ezra 8:27",
-      "source": "EAS"
-    },
-    {
-      "book": "Amos",
-      "chapter": 6,
-      "verses": [
-        6
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Amos 6:6",
-      "source": "EAS"
-    },
-    {
-      "book": "Zechariah",
-      "chapter": 9,
-      "verses": [
-        15
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Zechariah 9:15",
-      "source": "EAS"
+      "raw": "Ezra 8:27"
     },
     {
       "book": "Exodus",
@@ -205,52 +94,48 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Exodus 27:3",
-      "source": "EAS"
-    },
-    {
-      "book": "2 Chronicles",
-      "chapter": 4,
-      "verses": [
-        8
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "2 Chronicles 4:8",
-      "source": "EAS"
+      "raw": "Exodus 27:3"
     },
     {
       "book": "Exodus",
-      "chapter": 12,
+      "chapter": 38,
       "verses": [
-        22
+        3
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Exodus 12:22",
-      "source": "EAS"
+      "raw": "Exodus 38:3"
     },
     {
-      "book": "2 Samuel",
-      "chapter": 17,
+      "book": "1 Kings",
+      "chapter": 7,
       "verses": [
-        28
+        45
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Samuel 17:28",
-      "source": "EAS"
-    },
-    {
-      "book": "John",
-      "chapter": 13,
-      "verses": [
-        5
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "John 13:5",
-      "source": "EAS"
+      "raw": "1 Kings 7:45"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "1 Kings",
+    "2 Chronicles",
+    "Exodus",
+    "Ezra"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 8,
+    "ot_refs": 8,
+    "nt_refs": 0,
+    "books_count": 5,
+    "top_books": [
+      "1 Kings",
+      "Ezra",
+      "Exodus",
+      "1 Chronicles",
+      "2 Chronicles"
+    ]
+  }
 }

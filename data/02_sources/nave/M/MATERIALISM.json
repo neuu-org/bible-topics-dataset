@@ -1,78 +1,46 @@
 {
   "topic": "MATERIALISM",
-  "topic_slug": "materialism",
+  "slug": "materialism",
   "canonical_id": "NAV:materialism",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "INFIDELITY"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "INFIDELITY",
-      "clean": "INFIDELITY",
-      "slug": "infidelity",
-      "canonical_id": "NAV:infidelity"
-    }
-  ],
-  "raw_block": "–General scriptures concerningAc 23:8\n–SeeINFIDELITY",
-  "content_preview": "–General scriptures concerningAc 23:8",
-  "reference_groups": [
-    {
-      "idx": 0,
-      "entry_label": "–General scriptures concerningAc 23:8",
-      "raw_segment": "–General scriptures concerningAc 23:8"
+      "label": "General scriptures concerning",
+      "references": [
+        "Acts 23:8"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–SeeINFIDELITY",
-      "raw_segment": "–SeeINFIDELITY"
+      "label": "SeeINFI",
+      "references": []
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Acts",
+      "chapter": 23,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 23:8"
+    }
+  ],
+  "books_mentioned": [
+    "Acts"
+  ],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 2,
+    "total_refs": 1,
     "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:53a6fbf7dd6b17224c1f6764fe73f0e61d694f3542b5ccfd62eadd78e2715b12",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "nt_refs": 1,
+    "books_count": 1,
+    "top_books": [
+      "Acts"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:28:54.791823Z",
-  "updated_at": "2025-09-20T17:28:54.791830Z"
+  }
 }

@@ -1,56 +1,68 @@
 {
   "topic": "TORMENTS",
   "slug": "torments",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Of the wicked Lu 16:23-28; Re 14:10,11",
-      "references": [
-        "Luke 16:23-28",
-        "Rev 14:10",
-        "Rev 14:11"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "See WICKED, PUNISMENT OF",
-      "references": [],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Revelation",
-      "book_abbrev": "rev",
-      "chapter": 14,
-      "testament": "NT",
-      "verses": [
-        10,
-        11
-      ],
-      "verse_count": 2
-    }
+  "sources": [
+    "NAV"
   ],
   "see_also": [
     "WICKED, PUNISMENT OF"
   ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 1,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.730794+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
+  "aspects": [
+    {
+      "label": "Of the wicked",
+      "references": [
+        "Luke 16:23-28",
+        "Revelation 14:10,11"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeWICKED, PUNISMENT OF",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0"
+  ],
+  "biblical_references": [
+    {
+      "book": "Luke",
+      "chapter": 16,
+      "verses": [
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ],
+      "verse_count": 6,
+      "testament": "NT",
+      "raw": "Luke 16:23-28"
+    },
+    {
+      "book": "Revelation",
+      "chapter": 14,
+      "verses": [
+        10,
+        11
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Revelation 14:10,11"
+    }
+  ],
+  "books_mentioned": [
+    "Luke",
+    "Revelation"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 2,
+    "ot_refs": 0,
+    "nt_refs": 2,
+    "books_count": 2,
+    "top_books": [
+      "Luke",
+      "Revelation"
+    ]
+  }
 }

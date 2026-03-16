@@ -1,45 +1,27 @@
 {
   "topic": "NAHALLAL",
   "slug": "nahallal",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Also called NAHALAL and NAHALOL",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "A Levitical city Jos 19:15; 21:35; Jud 1:30",
-      "references": [
-        "Josh 19:15",
-        "Josh 21:35",
-        "Judg 1:30"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.713313+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "Al",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "A Leviti",
+      "references": [
+        "Joshua 19:15",
+        "Joshua 21:35",
+        "Judges 1:30"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Joshua",
       "chapter": 19,
@@ -48,8 +30,17 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Joshua 19:15",
-      "source": "EAS"
+      "raw": "Joshua 19:15"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 21,
+      "verses": [
+        35
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 21:35"
     },
     {
       "book": "Judges",
@@ -59,8 +50,22 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Judges 1:30",
-      "source": "EAS"
+      "raw": "Judges 1:30"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Joshua",
+    "Judges"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 3,
+    "ot_refs": 3,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "Joshua",
+      "Judges"
+    ]
+  }
 }

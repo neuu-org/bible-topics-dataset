@@ -1,64 +1,43 @@
 {
   "topic": "ELIASHIB",
   "slug": "eliashib",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. A priest 1Ch 24:12",
-      "references": [
-        "1Chr 24:12"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "2. Name of three Israelites mentioned in Ezr 10:24,27,36",
-      "references": [
-        "Ezra 10:24",
-        "Ezra 10:27",
-        "Ezra 10:36"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "3. High priest Ne 3:1; 12:10; 13:4-9,28",
-      "references": [
-        "Neh 3:1",
-        "Neh 12:10",
-        "Neh 13:4-9",
-        "Neh 13:28"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "4. Son of Elioenai 1Ch 3:24",
-      "references": [
-        "1Chr 3:24"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 4,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.683567+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "1. A priest",
+      "references": [
+        "1 Chronicles 24:12"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2. Name of three Israelites mentioned in",
+      "references": [
+        "Ezra 10:24,27,36"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "3. High priest",
+      "references": [
+        "Nehemiah 3:1",
+        "Nehemiah 12:10",
+        "Nehemiah 13:4-9,28"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "4.",
+      "references": [
+        "1 Chronicles 3:24"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "1 Chronicles",
       "chapter": 24,
@@ -67,20 +46,19 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 24:12",
-      "source": "EAS"
+      "raw": "1 Chronicles 24:12"
     },
     {
-      "book": "Nehemiah",
-      "chapter": 12,
+      "book": "Ezra",
+      "chapter": 10,
       "verses": [
-        22,
-        23
+        24,
+        27,
+        36
       ],
-      "verse_count": 2,
+      "verse_count": 3,
       "testament": "OT",
-      "raw": "Nehemiah 12:22, 23",
-      "source": "EAS"
+      "raw": "Ezra 10:24,27,36"
     },
     {
       "book": "Nehemiah",
@@ -90,32 +68,60 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Nehemiah 3:1",
-      "source": "EAS"
+      "raw": "Nehemiah 3:1"
     },
     {
       "book": "Nehemiah",
-      "chapter": 3,
+      "chapter": 12,
       "verses": [
-        20,
-        21
+        10
       ],
-      "verse_count": 2,
+      "verse_count": 1,
       "testament": "OT",
-      "raw": "Nehemiah 3:20, 21",
-      "source": "EAS"
+      "raw": "Nehemiah 12:10"
     },
     {
       "book": "Nehemiah",
       "chapter": 13,
       "verses": [
         4,
-        7
+        5,
+        6,
+        7,
+        8,
+        9,
+        28
       ],
-      "verse_count": 2,
+      "verse_count": 7,
       "testament": "OT",
-      "raw": "Nehemiah 13:4, 7",
-      "source": "EAS"
+      "raw": "Nehemiah 13:4-9,28"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 3,
+      "verses": [
+        24
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 3:24"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Ezra",
+    "Nehemiah"
+  ],
+  "stats": {
+    "total_aspects": 4,
+    "total_refs": 6,
+    "ot_refs": 6,
+    "nt_refs": 0,
+    "books_count": 3,
+    "top_books": [
+      "Nehemiah",
+      "1 Chronicles",
+      "Ezra"
+    ]
+  }
 }

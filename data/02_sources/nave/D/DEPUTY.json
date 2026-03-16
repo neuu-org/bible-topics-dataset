@@ -1,64 +1,80 @@
 {
   "topic": "DEPUTY",
-  "topic_slug": "deputy",
+  "slug": "deputy",
   "canonical_id": "NAV:deputy",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–An officer who administers the functions of a superior in his \nabsence1Ki 22:47;Ac 13:7,8;18:12;19:38",
-  "content_preview": "–An officer who administers the functions of a superior in his ",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–An officer who administers the functions of a superior in his \nabsence1Ki 22:47;Ac 13:7,8;18:12;19:38",
-      "raw_segment": "–An officer who administers the functions of a superior in his \nabsence1Ki 22:47;Ac 13:7,8;18:12;19:38"
+      "label": "An officer who administers the functions of a superior in his",
+      "references": []
+    },
+    {
+      "label": "absence",
+      "references": [
+        "1 Kings 22:47",
+        "Acts 13:7,8",
+        "Acts 18:12",
+        "Acts 19:38"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "1 Kings",
+      "chapter": 22,
+      "verses": [
+        47
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Kings 22:47"
+    },
+    {
+      "book": "Acts",
+      "chapter": 13,
+      "verses": [
+        7,
+        8
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Acts 13:7,8"
+    },
+    {
+      "book": "Acts",
+      "chapter": 18,
+      "verses": [
+        12
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 18:12"
+    },
+    {
+      "book": "Acts",
+      "chapter": 19,
+      "verses": [
+        38
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 19:38"
+    }
+  ],
+  "books_mentioned": [
+    "1 Kings",
+    "Acts"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:86b4ed84f79506d54ab4a5de591d2c30cb8bfd1f4f29efce8ab15e61da32b1a9",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 2,
+    "total_refs": 4,
+    "ot_refs": 1,
+    "nt_refs": 3,
+    "books_count": 2,
+    "top_books": [
+      "Acts",
+      "1 Kings"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:25:32.819952Z",
-  "updated_at": "2025-09-20T17:25:32.819959Z"
+  }
 }

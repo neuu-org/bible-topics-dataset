@@ -1,74 +1,114 @@
 {
   "topic": "DODO",
-  "topic_slug": "dodo",
+  "slug": "dodo",
   "canonical_id": "NAV:dodo",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–1. A descendant of IssacharJud 10:1\n–2. One of David’s heroes2Sa 23:9;1Ch 11:12\n  .Called DODAI1Ch 27:4\n–3. A Bethlehemite2Sa 23:24;1Ch 11:26",
-  "content_preview": "–1. A descendant of IssacharJud 10:1",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–1. A descendant of IssacharJud 10:1",
-      "raw_segment": "–1. A descendant of IssacharJud 10:1"
+      "label": "1. A",
+      "references": [
+        "Judges 10:1"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–2. One of David’s heroes2Sa 23:9;1Ch 11:12",
-      "raw_segment": "–2. One of David’s heroes2Sa 23:9;1Ch 11:12"
+      "label": "2. One of David’s heroes",
+      "references": [
+        "2 Samuel 23:9",
+        "1 Chronicles 11:12"
+      ]
     },
     {
-      "idx": 2,
-      "entry_label": "–3. A Bethlehemite2Sa 23:24;1Ch 11:26",
-      "raw_segment": "–3. A Bethlehemite2Sa 23:24;1Ch 11:26"
+      "label": ".",
+      "references": [
+        "1 Chronicles 27:4"
+      ]
+    },
+    {
+      "label": "3. A Bethlehemite",
+      "references": [
+        "2 Samuel 23:24",
+        "1 Chronicles 11:26"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Judges",
+      "chapter": 10,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Judges 10:1"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 23,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Samuel 23:9"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 11,
+      "verses": [
+        12
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 11:12"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 27,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 27:4"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 23,
+      "verses": [
+        24
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Samuel 23:24"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 11,
+      "verses": [
+        26
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 11:26"
+    }
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "2 Samuel",
+    "Judges"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 4,
+    "total_refs": 6,
+    "ot_refs": 6,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:9a0530e952d59128e6ed9a6a21a73327fe451148494768a6023d4640e51a3069",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 4
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 3,
+    "top_books": [
+      "1 Chronicles",
+      "2 Samuel",
+      "Judges"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:25:39.314617Z",
-  "updated_at": "2025-09-20T17:25:39.314624Z"
+  }
 }

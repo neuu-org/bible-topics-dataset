@@ -1,74 +1,44 @@
 {
   "topic": "REHOBOTH",
   "slug": "rehoboth",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "1. A city built by Asshur Ge 10:11",
+      "label": "1. A city built by Asshur",
       "references": [
-        "Gen 10:11"
+        "Genesis 10:11"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "2. A city of the Edomites Ge 36:37; 1Ch 1:48",
+      "label": "2. A city of the Edomites",
       "references": [
-        "Gen 36:37",
-        "1Chr 1:48"
+        "Genesis 36:37",
+        "1 Chronicles 1:48"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "3. The name given to a well that was dug by Isaac and his servants Ge 26:22",
+      "label": "3. The name given to a well that was dug by",
       "references": [
-        "Gen 26:22"
+        "Genesis 26:22"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "1 Chronicles",
-      "book_abbrev": "1ch",
-      "chapter": 1,
-      "testament": "OT",
-      "verses": [
-        48
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.721156+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
       "book": "Genesis",
-      "chapter": 26,
+      "chapter": 10,
       "verses": [
-        22
+        11
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 26:22",
-      "source": "EAS"
+      "raw": "Genesis 10:11"
     },
     {
       "book": "Genesis",
@@ -78,8 +48,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 36:37",
-      "source": "EAS"
+      "raw": "Genesis 36:37"
     },
     {
       "book": "1 Chronicles",
@@ -89,19 +58,32 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 1:48",
-      "source": "EAS"
+      "raw": "1 Chronicles 1:48"
     },
     {
       "book": "Genesis",
-      "chapter": 10,
+      "chapter": 26,
       "verses": [
-        11
+        22
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 10:11",
-      "source": "EAS"
+      "raw": "Genesis 26:22"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Genesis"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 4,
+    "ot_refs": 4,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "Genesis",
+      "1 Chronicles"
+    ]
+  }
 }

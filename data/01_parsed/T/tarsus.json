@@ -1,71 +1,41 @@
 {
   "topic": "TARSUS",
   "slug": "tarsus",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "(The capitol of Cilicia in Asia Minor)",
+      "label": "(The",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Paul’ s birthplace Ac 9:11; 21:39; 22:3",
+      "label": "Paul’ s birthplace",
       "references": [
         "Acts 9:11",
         "Acts 21:39",
         "Acts 22:3"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Paul sent to, from Jerusalem, to avoid assassination Ac 9:30",
+      "label": "Paul sent to, from",
       "references": [
         "Acts 9:30"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Paul brought from, by Barnabas Ac 11:25,26",
+      "label": "Paul brought from, by Barnabas",
       "references": [
-        "Acts 11:25",
-        "Acts 11:26"
+        "Acts 11:25,26"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 4,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.729089+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "Acts",
-      "chapter": 21,
-      "verses": [
-        39
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Acts 21:39",
-      "source": "EAS"
-    },
+  "biblical_references": [
     {
       "book": "Acts",
       "chapter": 9,
@@ -74,8 +44,17 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Acts 9:11",
-      "source": "SMI"
+      "raw": "Acts 9:11"
+    },
+    {
+      "book": "Acts",
+      "chapter": 21,
+      "verses": [
+        39
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 21:39"
     },
     {
       "book": "Acts",
@@ -85,8 +64,41 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Acts 22:3",
-      "source": "SMI"
+      "raw": "Acts 22:3"
+    },
+    {
+      "book": "Acts",
+      "chapter": 9,
+      "verses": [
+        30
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 9:30"
+    },
+    {
+      "book": "Acts",
+      "chapter": 11,
+      "verses": [
+        25,
+        26
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Acts 11:25,26"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Acts"
+  ],
+  "stats": {
+    "total_aspects": 4,
+    "total_refs": 5,
+    "ot_refs": 0,
+    "nt_refs": 5,
+    "books_count": 1,
+    "top_books": [
+      "Acts"
+    ]
+  }
 }

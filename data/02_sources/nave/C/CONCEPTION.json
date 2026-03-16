@@ -1,64 +1,191 @@
 {
   "topic": "CONCEPTION",
-  "topic_slug": "conception",
+  "slug": "conception",
   "canonical_id": "NAV:conception",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–MIRACULOUS\n  .By SarahGe 21:1,2\n  .RebekahGe 25:21\n  .RachelGe 30:22\n  .Manoah’s wifeJud 13:3-24\n  .Hannah1Sa 1:19,20\n  .ElisabethLu 1:24,25,36,37,58\n  .MaryMt 1:18,20;Lu 1:31-35",
-  "content_preview": "–MIRACULOUS",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–MIRACULOUS",
-      "raw_segment": "–MIRACULOUS"
+      "label": "MIRACULOUS",
+      "references": []
+    },
+    {
+      "label": ".By Sarah",
+      "references": [
+        "Genesis 21:1,2"
+      ]
+    },
+    {
+      "label": ".Rebekah",
+      "references": [
+        "Genesis 25:21"
+      ]
+    },
+    {
+      "label": ".Rachel",
+      "references": [
+        "Genesis 30:22"
+      ]
+    },
+    {
+      "label": ".Manoah’s wife",
+      "references": [
+        "Judges 13:3-24"
+      ]
+    },
+    {
+      "label": ".Hannah",
+      "references": [
+        "1 Samuel 1:19,20"
+      ]
+    },
+    {
+      "label": ".El",
+      "references": [
+        "Luke 1:24,25,36,37,58"
+      ]
+    },
+    {
+      "label": ".Mary",
+      "references": [
+        "Matthew 1:18,20",
+        "Luke 1:31-35"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Genesis",
+      "chapter": 21,
+      "verses": [
+        1,
+        2
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Genesis 21:1,2"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 25,
+      "verses": [
+        21
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 25:21"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 30,
+      "verses": [
+        22
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 30:22"
+    },
+    {
+      "book": "Judges",
+      "chapter": 13,
+      "verses": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "verse_count": 22,
+      "testament": "OT",
+      "raw": "Judges 13:3-24"
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 1,
+      "verses": [
+        19,
+        20
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "1 Samuel 1:19,20"
+    },
+    {
+      "book": "Luke",
+      "chapter": 1,
+      "verses": [
+        24,
+        25,
+        36,
+        37,
+        58
+      ],
+      "verse_count": 5,
+      "testament": "NT",
+      "raw": "Luke 1:24,25,36,37,58"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 1,
+      "verses": [
+        18,
+        20
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Matthew 1:18,20"
+    },
+    {
+      "book": "Luke",
+      "chapter": 1,
+      "verses": [
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "verse_count": 5,
+      "testament": "NT",
+      "raw": "Luke 1:31-35"
+    }
+  ],
+  "books_mentioned": [
+    "1 Samuel",
+    "Genesis",
+    "Judges",
+    "Luke",
+    "Matthew"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:d6f4c103cc27d15554876a12c71bc148768e5e8252e6ba36c6de8c716c53e0fd",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 8
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 8,
+    "total_refs": 8,
+    "ot_refs": 5,
+    "nt_refs": 3,
+    "books_count": 5,
+    "top_books": [
+      "Genesis",
+      "Luke",
+      "Judges",
+      "1 Samuel",
+      "Matthew"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:25:10.419961Z",
-  "updated_at": "2025-09-20T17:25:10.419968Z"
+  }
 }

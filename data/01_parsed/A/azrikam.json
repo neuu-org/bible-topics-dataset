@@ -1,69 +1,119 @@
 {
   "topic": "AZRIKAM",
   "slug": "azrikam",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "1. Son of Neraiah 1Ch 3:23",
+      "label": "1.",
       "references": [
-        "1Chr 3:23"
+        "1 Chronicles 3:23"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "2. Son of Azel 1Ch 8:38; 9:44",
+      "label": "2.",
       "references": [
-        "1Chr 8:38",
-        "1Chr 9:44"
+        "1 Chronicles 8:38",
+        "1 Chronicles 9:44"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "3. A Levite 1Ch 9:14; Ne 11:15",
+      "label": "3. A Levite",
       "references": [
-        "1Chr 9:14",
-        "Neh 11:15"
+        "1 Chronicles 9:14",
+        "Nehemiah 11:15"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "4. Governor of the house of Ahaz 2Ch 28:7",
+      "label": "4. Governor of the house of Ahaz",
       "references": [
-        "2Chr 28:7"
+        "2 Chronicles 28:7"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Nehemiah",
-      "book_abbrev": "neh",
-      "chapter": 11,
+      "book": "1 Chronicles",
+      "chapter": 3,
+      "verses": [
+        23
+      ],
+      "verse_count": 1,
       "testament": "OT",
+      "raw": "1 Chronicles 3:23"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 8,
+      "verses": [
+        38
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 8:38"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 9,
+      "verses": [
+        44
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 9:44"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 9,
+      "verses": [
+        14
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 9:14"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 11,
       "verses": [
         15
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Nehemiah 11:15"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 28,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Chronicles 28:7"
     }
   ],
-  "see_also": [],
-  "aliases": [],
+  "books_mentioned": [
+    "1 Chronicles",
+    "2 Chronicles",
+    "Nehemiah"
+  ],
   "stats": {
-    "entries_count": 4,
-    "ot_refs": 1,
+    "total_aspects": 4,
+    "total_refs": 6,
+    "ot_refs": 6,
     "nt_refs": 0,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.671175+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0"
+    "books_count": 3,
+    "top_books": [
+      "1 Chronicles",
+      "Nehemiah",
+      "2 Chronicles"
+    ]
+  }
 }

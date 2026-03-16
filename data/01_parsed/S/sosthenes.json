@@ -1,60 +1,36 @@
 {
   "topic": "SOSTHENES",
   "slug": "sosthenes",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. Chief ruler of the synagogue in Corinth Ac 18:17",
-      "references": [
-        "Acts 18:17"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "2. A Christian with whom Paul wrote the first letter to the Corinthians 1Co 1:1",
-      "references": [
-        "1Cor 1:1"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.727171+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "1. Chief ruler of the synagogue in Corinth",
+      "references": [
+        "Acts 18:17"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2. A Christian with whom Paul wrote the first letter to the Corinthians",
+      "references": [
+        "1 Corinthians 1:1"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Acts",
       "chapter": 18,
       "verses": [
-        12,
-        13,
-        14,
-        15,
-        16,
         17
       ],
-      "verse_count": 6,
+      "verse_count": 1,
       "testament": "NT",
-      "raw": "Acts 18:12-17",
-      "source": "EAS"
+      "raw": "Acts 18:17"
     },
     {
       "book": "1 Corinthians",
@@ -64,8 +40,22 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "1 Corinthians 1:1",
-      "source": "EAS"
+      "raw": "1 Corinthians 1:1"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Corinthians",
+    "Acts"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 2,
+    "ot_refs": 0,
+    "nt_refs": 2,
+    "books_count": 2,
+    "top_books": [
+      "Acts",
+      "1 Corinthians"
+    ]
+  }
 }

@@ -1,78 +1,114 @@
 {
   "topic": "BRIDLE",
-  "topic_slug": "bridle",
+  "slug": "bridle",
   "canonical_id": "NAV:bridle",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "BIT"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "BIT",
-      "clean": "BIT",
-      "slug": "bit",
-      "canonical_id": "NAV:bit"
-    }
-  ],
-  "raw_block": "–General scriptures concerningPs 32:9;Pr 26:3;Re 14:20\n–FIGURATIVE2Ki 19:28;Ps 39:1;Jas 1:26\n  .SeeBIT",
-  "content_preview": "–General scriptures concerningPs 32:9;Pr 26:3;Re 14:20",
-  "reference_groups": [
-    {
-      "idx": 0,
-      "entry_label": "–General scriptures concerningPs 32:9;Pr 26:3;Re 14:20",
-      "raw_segment": "–General scriptures concerningPs 32:9;Pr 26:3;Re 14:20"
+      "label": "General scriptures concerning",
+      "references": [
+        "Psalms 32:9",
+        "Proverbs 26:3",
+        "Revelation 14:20"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–FIGURATIVE2Ki 19:28;Ps 39:1;Jas 1:26",
-      "raw_segment": "–FIGURATIVE2Ki 19:28;Ps 39:1;Jas 1:26"
+      "label": "FIGURATIVE",
+      "references": [
+        "2 Kings 19:28",
+        "Psalms 39:1",
+        "James 1:26"
+      ]
+    },
+    {
+      "label": ".SeeBIT",
+      "references": []
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Psalms",
+      "chapter": 32,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 32:9"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 26,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 26:3"
+    },
+    {
+      "book": "Revelation",
+      "chapter": 14,
+      "verses": [
+        20
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Revelation 14:20"
+    },
+    {
+      "book": "2 Kings",
+      "chapter": 19,
+      "verses": [
+        28
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Kings 19:28"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 39,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 39:1"
+    },
+    {
+      "book": "James",
+      "chapter": 1,
+      "verses": [
+        26
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "James 1:26"
+    }
+  ],
+  "books_mentioned": [
+    "2 Kings",
+    "James",
+    "Proverbs",
+    "Psalms",
+    "Revelation"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:44d808f7c13ab78da45dc0d85847ef7e729da5d56468a5c72e6e2a0dcb4f917c",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 3
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 3,
+    "total_refs": 6,
+    "ot_refs": 4,
+    "nt_refs": 2,
+    "books_count": 5,
+    "top_books": [
+      "Psalms",
+      "Proverbs",
+      "Revelation",
+      "2 Kings",
+      "James"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:24:40.174501Z",
-  "updated_at": "2025-09-20T17:24:40.174509Z"
+  }
 }

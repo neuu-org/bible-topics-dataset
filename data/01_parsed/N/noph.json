@@ -1,38 +1,57 @@
 {
   "topic": "NOPH",
   "slug": "noph",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "A city of Egypt Jer 2:16",
+      "label": "A city of Egypt",
       "references": [
-        "Jer 2:16"
+        "Jeremiah 2:16"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Prophecy against Jews in Jer 44",
-      "references": [
-        "Jer 44"
-      ],
-      "sub_groups": []
+      "label": "Prophecy against Jews in",
+      "references": [],
+      "source": "NAV"
     },
     {
-      "name": "Prophecies against Isa 19:13; Jer 46:13-19; Eze 30:13-16",
+      "label": "Prophecies against",
       "references": [
-        "Isa 19:13",
-        "Jer 46:13-19",
-        "Ezek 30:13-16"
+        "Isaiah 19:13",
+        "Jeremiah 46:13-19",
+        "Ezekiel 30:13-16"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
       "book": "Jeremiah",
-      "book_abbrev": "jer",
-      "chapter": 46,
+      "chapter": 2,
+      "verses": [
+        16
+      ],
+      "verse_count": 1,
       "testament": "OT",
+      "raw": "Jeremiah 2:16"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 19,
+      "verses": [
+        13
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 19:13"
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 46,
       "verses": [
         13,
         14,
@@ -42,110 +61,39 @@
         18,
         19
       ],
-      "verse_count": 7
+      "verse_count": 7,
+      "testament": "OT",
+      "raw": "Jeremiah 46:13-19"
     },
     {
       "book": "Ezekiel",
-      "book_abbrev": "ezk",
       "chapter": 30,
-      "testament": "OT",
       "verses": [
         13,
         14,
         15,
         16
       ],
-      "verse_count": 4
+      "verse_count": 4,
+      "testament": "OT",
+      "raw": "Ezekiel 30:13-16"
     }
   ],
-  "see_also": [],
-  "aliases": [],
+  "books_mentioned": [
+    "Ezekiel",
+    "Isaiah",
+    "Jeremiah"
+  ],
   "stats": {
-    "entries_count": 3,
-    "ot_refs": 2,
+    "total_aspects": 3,
+    "total_refs": 4,
+    "ot_refs": 4,
     "nt_refs": 0,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.715294+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "Isaiah",
-      "chapter": 19,
-      "verses": [
-        13
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Isaiah 19:13",
-      "source": "EAS"
-    },
-    {
-      "book": "Jeremiah",
-      "chapter": 2,
-      "verses": [
-        16
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Jeremiah 2:16",
-      "source": "EAS"
-    },
-    {
-      "book": "Jeremiah",
-      "chapter": 44,
-      "verses": [
-        1
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Jeremiah 44:1",
-      "source": "EAS"
-    },
-    {
-      "book": "Jeremiah",
-      "chapter": 46,
-      "verses": [
-        14,
-        19
-      ],
-      "verse_count": 2,
-      "testament": "OT",
-      "raw": "Jeremiah 46:14, 19",
-      "source": "EAS"
-    },
-    {
-      "book": "Ezekiel",
-      "chapter": 30,
-      "verses": [
-        13,
-        16
-      ],
-      "verse_count": 2,
-      "testament": "OT",
-      "raw": "Ezekiel 30:13, 16",
-      "source": "EAS"
-    },
-    {
-      "book": "Hosea",
-      "chapter": 9,
-      "verses": [
-        6
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Hosea 9:6",
-      "source": "EAS"
-    }
-  ]
+    "books_count": 3,
+    "top_books": [
+      "Jeremiah",
+      "Isaiah",
+      "Ezekiel"
+    ]
+  }
 }

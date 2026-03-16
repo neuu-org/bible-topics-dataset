@@ -1,21 +1,21 @@
 {
-  "topic": "Rose",
+  "topic": "ROSE",
   "slug": "rose",
-  "type": "topic",
-  "reference_groups": [],
-  "biblical_references": [],
-  "stats": {},
-  "sources": [],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.722104+00:00",
-    "merged_from": {
-      "v2": false,
-      "dictionary": true
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "General scriptures concerning",
+      "references": [
+        "Song of Solomon 2:1",
+        "Isaiah 35:1"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Song of Solomon",
       "chapter": 2,
@@ -24,8 +24,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Song of Solomon 2:1",
-      "source": "EAS"
+      "raw": "Song of Solomon 2:1"
     },
     {
       "book": "Isaiah",
@@ -35,8 +34,22 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Isaiah 35:1",
-      "source": "EAS"
+      "raw": "Isaiah 35:1"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Isaiah",
+    "Song of Solomon"
+  ],
+  "stats": {
+    "total_aspects": 1,
+    "total_refs": 2,
+    "ot_refs": 2,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "Song of Solomon",
+      "Isaiah"
+    ]
+  }
 }

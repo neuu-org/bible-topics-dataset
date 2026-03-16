@@ -1,59 +1,41 @@
 {
   "topic": "STORK",
   "slug": "stork",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Forbidden as food Le 11:19",
-      "references": [
-        "Lev 11:19"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Nest of, in fir trees Ps 104:17",
-      "references": [
-        "Ps 104:17"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Migratory Jer 8:7",
-      "references": [
-        "Jer 8:7"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "FIGURATIVE Zec 5:9",
-      "references": [
-        "Zech 5:9"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 4,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.727702+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "Forbid",
+      "references": [
+        "Leviticus 11:19"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Nest of, in fir trees",
+      "references": [
+        "Psalms 104:17"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Migratory",
+      "references": [
+        "Jeremiah 8:7"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "FIGURATIVE",
+      "references": [
+        "Ecclesiastes 5:9"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Leviticus",
       "chapter": 11,
@@ -62,19 +44,17 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Leviticus 11:19",
-      "source": "EAS"
+      "raw": "Leviticus 11:19"
     },
     {
-      "book": "Deuteronomy",
-      "chapter": 14,
+      "book": "Psalms",
+      "chapter": 104,
       "verses": [
-        18
+        17
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Deuteronomy 14:18",
-      "source": "EAS"
+      "raw": "Psalms 104:17"
     },
     {
       "book": "Jeremiah",
@@ -84,52 +64,36 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Jeremiah 8:7",
-      "source": "EAS"
+      "raw": "Jeremiah 8:7"
     },
     {
-      "book": "Job",
-      "chapter": 39,
-      "verses": [
-        13
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Job 39:13",
-      "source": "EAS"
-    },
-    {
-      "book": "Job",
+      "book": "Ecclesiastes",
       "chapter": 5,
       "verses": [
         9
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Job 5:9",
-      "source": "EAS"
-    },
-    {
-      "book": "Zechariah",
-      "chapter": 6,
-      "verses": [
-        9
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Zechariah 6:9",
-      "source": "SMI"
-    },
-    {
-      "book": "Leviticus",
-      "chapter": 14,
-      "verses": [
-        18
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Leviticus 14:18",
-      "source": "SMI"
+      "raw": "Ecclesiastes 5:9"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Ecclesiastes",
+    "Jeremiah",
+    "Leviticus",
+    "Psalms"
+  ],
+  "stats": {
+    "total_aspects": 4,
+    "total_refs": 4,
+    "ot_refs": 4,
+    "nt_refs": 0,
+    "books_count": 4,
+    "top_books": [
+      "Leviticus",
+      "Psalms",
+      "Jeremiah",
+      "Ecclesiastes"
+    ]
+  }
 }

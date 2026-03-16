@@ -1,69 +1,58 @@
 {
   "topic": "JOTBAH",
-  "topic_slug": "jotbah",
+  "slug": "jotbah",
   "canonical_id": "NAV:jotbah",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–A place in Judah2Ki 21:19\n–Called JOTBATH inDe 10:7",
-  "content_preview": "–A place in Judah2Ki 21:19",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–A place in Judah2Ki 21:19",
-      "raw_segment": "–A place in Judah2Ki 21:19"
+      "label": "A place in",
+      "references": [
+        "2 Kings 21:19"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–Called JOTBATH inDe 10:7",
-      "raw_segment": "–Called JOTBATH inDe 10:7"
+      "label": "General references",
+      "references": [
+        "Deuteronomy 10:7"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "2 Kings",
+      "chapter": 21,
+      "verses": [
+        19
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Kings 21:19"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 10,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 10:7"
+    }
+  ],
+  "books_mentioned": [
+    "2 Kings",
+    "Deuteronomy"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 2,
+    "total_refs": 2,
+    "ot_refs": 2,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:2892bc06dfda87ef07ed053ece2d5c4152fa7a8b1b55853e7786cc299bf21209",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 2,
+    "top_books": [
+      "2 Kings",
+      "Deuteronomy"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:28:14.332078Z",
-  "updated_at": "2025-09-20T17:28:14.332085Z"
+  }
 }

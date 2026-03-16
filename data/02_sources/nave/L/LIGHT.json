@@ -1,74 +1,469 @@
 {
   "topic": "LIGHT",
-  "topic_slug": "light",
+  "slug": "light",
   "canonical_id": "NAV:light",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–CreatedGe 1:3-5;Isa 45:7;2Co 4:6\n–MiraculousMt 17:2;Ac 9:3\n–FIGURATIVE AND SYMBOLICAL1Ki 11:36;Ps 27:1;119:105,130;Pr 6:23;Ec 2:13;Isa 8:20;49:6;58:8;60:19,20;Mt 4:16;5:14,16;Lu 2:32;11:34;16:8;Joh 1:4,5,7-9;3:19-21;5:35;8:12;9:5;12:35,36;Ac 26:18;Eph 5:8,14;Php \n2:15;1Th 5:5;1Ti 6:16;Jas 1:17;1Pe 2:9;2Pe 1:19;1Jo 1:5,7;Re 21:23",
-  "content_preview": "–CreatedGe 1:3-5;Isa 45:7;2Co 4:6",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–CreatedGe 1:3-5;Isa 45:7;2Co 4:6",
-      "raw_segment": "–CreatedGe 1:3-5;Isa 45:7;2Co 4:6"
+      "label": "Created",
+      "references": [
+        "Genesis 1:3-5",
+        "Isaiah 45:7",
+        "2 Corinthians 4:6"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–MiraculousMt 17:2;Ac 9:3",
-      "raw_segment": "–MiraculousMt 17:2;Ac 9:3"
+      "label": "Miraculous",
+      "references": [
+        "Matthew 17:2",
+        "Acts 9:3"
+      ]
     },
     {
-      "idx": 2,
-      "entry_label": "–FIGURATIVE AND SYMBOLICAL1Ki 11:36;Ps 27:1;119:105,130;Pr 6:23;Ec 2:13;Isa 8:20;49:6;58:8;60:19,20;Mt 4:16;5:14,16;Lu 2:32;11:34;16:8;Joh 1:4,5,7-9;3:19-21;5:35;8:12;9:5;12:35,36;Ac 26:18;Eph 5:8,14;Php \n2:15;1Th 5:5;1Ti 6:16;Jas 1:17;1Pe 2:9;2Pe 1:19;1Jo 1:5,7;Re 21:23",
-      "raw_segment": "–FIGURATIVE AND SYMBOLICAL1Ki 11:36;Ps 27:1;119:105,130;Pr 6:23;Ec 2:13;Isa 8:20;49:6;58:8;60:19,20;Mt 4:16;5:14,16;Lu 2:32;11:34;16:8;Joh 1:4,5,7-9;3:19-21;5:35;8:12;9:5;12:35,36;Ac 26:18;Eph 5:8,14;Php \n2:15;1Th 5:5;1Ti 6:16;Jas 1:17;1Pe 2:9;2Pe 1:19;1Jo 1:5,7;Re 21:23"
+      "label": "FIGURATIVE AND SYMBOLI",
+      "references": [
+        "1 Kings 11:36",
+        "Psalms 27:1",
+        "Psalms 119:105,130",
+        "Proverbs 6:23",
+        "Ecclesiastes 2:13",
+        "Isaiah 8:20",
+        "Isaiah 49:6",
+        "Isaiah 58:8",
+        "Isaiah 60:19,20",
+        "Matthew 4:16",
+        "Matthew 5:14,16",
+        "Luke 2:32",
+        "Luke 11:34",
+        "Luke 16:8",
+        "John 1:4,5,7-9",
+        "John 3:19-21",
+        "John 5:35",
+        "John 8:12",
+        "John 9:5",
+        "John 12:35,36",
+        "Acts 26:18",
+        "Ephesians 5:8,14"
+      ]
+    },
+    {
+      "label": "2:15;",
+      "references": [
+        "1 Thessalonians 5:5",
+        "1 Timothy 6:16",
+        "James 1:17",
+        "1 Peter 2:9",
+        "2 Peter 1:19",
+        "Job 1:5,7",
+        "Revelation 21:23"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Genesis",
+      "chapter": 1,
+      "verses": [
+        3,
+        4,
+        5
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Genesis 1:3-5"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 45,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 45:7"
+    },
+    {
+      "book": "2 Corinthians",
+      "chapter": 4,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "2 Corinthians 4:6"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 17,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 17:2"
+    },
+    {
+      "book": "Acts",
+      "chapter": 9,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 9:3"
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 11,
+      "verses": [
+        36
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Kings 11:36"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 27,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 27:1"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 119,
+      "verses": [
+        105,
+        130
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Psalms 119:105,130"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 6,
+      "verses": [
+        23
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 6:23"
+    },
+    {
+      "book": "Ecclesiastes",
+      "chapter": 2,
+      "verses": [
+        13
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ecclesiastes 2:13"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 8,
+      "verses": [
+        20
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 8:20"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 49,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 49:6"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 58,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 58:8"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 60,
+      "verses": [
+        19,
+        20
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Isaiah 60:19,20"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 4,
+      "verses": [
+        16
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 4:16"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 5,
+      "verses": [
+        14,
+        16
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Matthew 5:14,16"
+    },
+    {
+      "book": "Luke",
+      "chapter": 2,
+      "verses": [
+        32
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 2:32"
+    },
+    {
+      "book": "Luke",
+      "chapter": 11,
+      "verses": [
+        34
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 11:34"
+    },
+    {
+      "book": "Luke",
+      "chapter": 16,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 16:8"
+    },
+    {
+      "book": "John",
+      "chapter": 1,
+      "verses": [
+        4,
+        5,
+        7,
+        8,
+        9
+      ],
+      "verse_count": 5,
+      "testament": "NT",
+      "raw": "John 1:4,5,7-9"
+    },
+    {
+      "book": "John",
+      "chapter": 3,
+      "verses": [
+        19,
+        20,
+        21
+      ],
+      "verse_count": 3,
+      "testament": "NT",
+      "raw": "John 3:19-21"
+    },
+    {
+      "book": "John",
+      "chapter": 5,
+      "verses": [
+        35
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "John 5:35"
+    },
+    {
+      "book": "John",
+      "chapter": 8,
+      "verses": [
+        12
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "John 8:12"
+    },
+    {
+      "book": "John",
+      "chapter": 9,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "John 9:5"
+    },
+    {
+      "book": "John",
+      "chapter": 12,
+      "verses": [
+        35,
+        36
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "John 12:35,36"
+    },
+    {
+      "book": "Acts",
+      "chapter": 26,
+      "verses": [
+        18
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 26:18"
+    },
+    {
+      "book": "Ephesians",
+      "chapter": 5,
+      "verses": [
+        8,
+        14
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Ephesians 5:8,14"
+    },
+    {
+      "book": "Ephesians",
+      "chapter": 2,
+      "verses": [
+        15
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Ephesians 2:15"
+    },
+    {
+      "book": "1 Thessalonians",
+      "chapter": 5,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "1 Thessalonians 5:5"
+    },
+    {
+      "book": "1 Timothy",
+      "chapter": 6,
+      "verses": [
+        16
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "1 Timothy 6:16"
+    },
+    {
+      "book": "James",
+      "chapter": 1,
+      "verses": [
+        17
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "James 1:17"
+    },
+    {
+      "book": "1 Peter",
+      "chapter": 2,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "1 Peter 2:9"
+    },
+    {
+      "book": "2 Peter",
+      "chapter": 1,
+      "verses": [
+        19
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "2 Peter 1:19"
+    },
+    {
+      "book": "Job",
+      "chapter": 1,
+      "verses": [
+        5,
+        7
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Job 1:5,7"
+    },
+    {
+      "book": "Revelation",
+      "chapter": 21,
+      "verses": [
+        23
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Revelation 21:23"
+    }
+  ],
+  "books_mentioned": [
+    "1 Kings",
+    "1 Peter",
+    "1 Thessalonians",
+    "1 Timothy",
+    "2 Corinthians",
+    "2 Peter",
+    "Acts",
+    "Ecclesiastes",
+    "Ephesians",
+    "Genesis",
+    "Isaiah",
+    "James",
+    "Job",
+    "John",
+    "Luke",
+    "Matthew",
+    "Proverbs",
+    "Psalms",
+    "Revelation"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:71bb62350ececa55071832e48621c3a2b742facdeef96fae0ac05c41211ffc3f",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 4
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 4,
+    "total_refs": 35,
+    "ot_refs": 12,
+    "nt_refs": 23,
+    "books_count": 19,
+    "top_books": [
+      "John",
+      "Isaiah",
+      "Matthew",
+      "Luke",
+      "Acts",
+      "Psalms",
+      "Ephesians",
+      "Genesis",
+      "2 Corinthians",
+      "1 Kings"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:28:36.323898Z",
-  "updated_at": "2025-09-20T17:28:36.323906Z"
+  }
 }

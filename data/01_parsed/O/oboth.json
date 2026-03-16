@@ -1,62 +1,55 @@
 {
   "topic": "OBOTH",
   "slug": "oboth",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "One camping place of Israel during the forty years of wandering Nu 21:10,11; 33:43,44",
-      "references": [
-        "Num 21:10",
-        "Num 21:11",
-        "Num 33:43",
-        "Num 33:44"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.715719+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "see_also": [],
+  "aspects": [
     {
-      "book": "Numbers",
-      "chapter": 33,
-      "verses": [
-        43
+      "label": "One",
+      "references": [
+        "Numbers 21:10,11",
+        "Numbers 33:43,44"
       ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Numbers 33:43",
-      "source": "EAS"
-    },
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
     {
       "book": "Numbers",
       "chapter": 21,
       "verses": [
-        10
+        10,
+        11
       ],
-      "verse_count": 1,
+      "verse_count": 2,
       "testament": "OT",
-      "raw": "Numbers 21:10",
-      "source": "SMI"
+      "raw": "Numbers 21:10,11"
+    },
+    {
+      "book": "Numbers",
+      "chapter": 33,
+      "verses": [
+        43,
+        44
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Numbers 33:43,44"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Numbers"
+  ],
+  "stats": {
+    "total_aspects": 1,
+    "total_refs": 2,
+    "ot_refs": 2,
+    "nt_refs": 0,
+    "books_count": 1,
+    "top_books": [
+      "Numbers"
+    ]
+  }
 }

@@ -1,69 +1,72 @@
 {
   "topic": "AVITES",
-  "topic_slug": "avites",
+  "slug": "avites",
   "canonical_id": "NAV:avites",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–1. A nation in southern part of CanaanDe 2:23;Jos \n13:3\n–2. Colonists of Samaria2Ki 17:31",
-  "content_preview": "–1. A nation in southern part of CanaanDe 2:23;Jos ",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–1. A nation in southern part of CanaanDe 2:23;Jos \n13:3",
-      "raw_segment": "–1. A nation in southern part of CanaanDe 2:23;Jos \n13:3"
+      "label": "1. A nation in",
+      "references": [
+        "Deuteronomy 2:23"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–2. Colonists of Samaria2Ki 17:31",
-      "raw_segment": "–2. Colonists of Samaria2Ki 17:31"
+      "label": "13:3",
+      "references": []
+    },
+    {
+      "label": "2. Colonists of Samaria",
+      "references": [
+        "2 Kings 17:31"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Deuteronomy",
+      "chapter": 2,
+      "verses": [
+        23
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 2:23"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 13,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 13:3"
+    },
+    {
+      "book": "2 Kings",
+      "chapter": 17,
+      "verses": [
+        31
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Kings 17:31"
+    }
+  ],
+  "books_mentioned": [
+    "2 Kings",
+    "Deuteronomy"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 3,
+    "total_refs": 3,
+    "ot_refs": 3,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:5be7a05b626cd4b43bafed472075ff7bae1fb9b300ee12b8c504aa37b99e3fcf",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 3
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 2,
+    "top_books": [
+      "Deuteronomy",
+      "2 Kings"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:23:58.485647Z",
-  "updated_at": "2025-09-20T17:23:58.485655Z"
+  }
 }

@@ -1,44 +1,53 @@
 {
-  "topic": "Doeg",
+  "topic": "DOEG",
   "slug": "doeg",
-  "type": "topic",
-  "reference_groups": [],
-  "biblical_references": [],
-  "stats": {},
-  "sources": [],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.682168+00:00",
-    "merged_from": {
-      "v2": false,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "book": "1 Samuel",
-      "chapter": 21,
-      "verses": [
-        7
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "1 Samuel 21:7",
-      "source": "EAS"
+      "label": "An Edomite, present when Ahimelech helped David1Sa",
+      "references": [],
+      "source": "NAV"
     },
+    {
+      "label": "21:7;Ps 52",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "Mur",
+      "references": [
+        "1 Samuel 22:18,19"
+      ],
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
     {
       "book": "1 Samuel",
       "chapter": 22,
       "verses": [
-        9,
         18,
-        22
+        19
       ],
-      "verse_count": 3,
+      "verse_count": 2,
       "testament": "OT",
-      "raw": "1 Samuel 22:9,18,22",
-      "source": "SMI"
+      "raw": "1 Samuel 22:18,19"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Samuel"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 1,
+    "ot_refs": 1,
+    "nt_refs": 0,
+    "books_count": 1,
+    "top_books": [
+      "1 Samuel"
+    ]
+  }
 }

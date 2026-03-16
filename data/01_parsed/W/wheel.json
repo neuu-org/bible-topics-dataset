@@ -1,88 +1,142 @@
 {
   "topic": "WHEEL",
   "slug": "wheel",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "Potter’ s Jer 18:3",
+      "label": "Potter’ s",
       "references": [
-        "Jer 18:3"
+        "Jeremiah 18:3"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "FIGURATIVE Pr 20:26; Ec 12:6",
+      "label": "FIGURATIVE",
       "references": [
-        "Prov 20:26",
-        "Eccl 12:6"
+        "Proverbs 20:26",
+        "Ecclesiastes 12:6"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "SYMBOLICAL Eze 1:15-21; 3:13; 10:9-19; 11:22",
+      "label": "SYMBOLI",
       "references": [
-        "Ezek 1:15-21",
-        "Ezek 3:13",
-        "Ezek 10:9-19",
-        "Ezek 11:22"
+        "Ezekiel 1:15-21",
+        "Ezekiel 3:13",
+        "Ezekiel 10:9-19",
+        "Ezekiel 11:22"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Ecclesiastes",
-      "book_abbrev": "ecc",
-      "chapter": 12,
+      "book": "Jeremiah",
+      "chapter": 18,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
       "testament": "OT",
+      "raw": "Jeremiah 18:3"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 20,
+      "verses": [
+        26
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 20:26"
+    },
+    {
+      "book": "Ecclesiastes",
+      "chapter": 12,
       "verses": [
         6
       ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.733421+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "Psalms",
-      "chapter": 83,
-      "verses": [
-        13
-      ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Psalms 83:13",
-      "source": "EAS"
+      "raw": "Ecclesiastes 12:6"
     },
     {
-      "book": "Isaiah",
-      "chapter": 17,
+      "book": "Ezekiel",
+      "chapter": 1,
+      "verses": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "verse_count": 7,
+      "testament": "OT",
+      "raw": "Ezekiel 1:15-21"
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 3,
       "verses": [
         13
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Isaiah 17:13",
-      "source": "EAS"
+      "raw": "Ezekiel 3:13"
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 10,
+      "verses": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "verse_count": 11,
+      "testament": "OT",
+      "raw": "Ezekiel 10:9-19"
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 11,
+      "verses": [
+        22
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezekiel 11:22"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Ecclesiastes",
+    "Ezekiel",
+    "Jeremiah",
+    "Proverbs"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 7,
+    "ot_refs": 7,
+    "nt_refs": 0,
+    "books_count": 4,
+    "top_books": [
+      "Ezekiel",
+      "Jeremiah",
+      "Proverbs",
+      "Ecclesiastes"
+    ]
+  }
 }

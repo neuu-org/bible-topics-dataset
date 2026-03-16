@@ -1,50 +1,21 @@
 {
   "topic": "BOZKATH",
   "slug": "bozkath",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "A city of Judah Jos 15:39; 2Ki 22:1",
-      "references": [
-        "Josh 15:39",
-        "2Kgs 22:1"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "2 Kings",
-      "book_abbrev": "2ki",
-      "chapter": 22,
-      "testament": "OT",
-      "verses": [
-        1
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.675342+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "A city of",
+      "references": [
+        "Joshua 15:39",
+        "2 Kings 22:1"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Joshua",
       "chapter": 15,
@@ -53,8 +24,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Joshua 15:39",
-      "source": "SMI"
+      "raw": "Joshua 15:39"
     },
     {
       "book": "2 Kings",
@@ -64,8 +34,22 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Kings 22:1",
-      "source": "SMI"
+      "raw": "2 Kings 22:1"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "2 Kings",
+    "Joshua"
+  ],
+  "stats": {
+    "total_aspects": 1,
+    "total_refs": 2,
+    "ot_refs": 2,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "Joshua",
+      "2 Kings"
+    ]
+  }
 }

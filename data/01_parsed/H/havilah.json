@@ -1,93 +1,44 @@
 {
   "topic": "HAVILAH",
   "slug": "havilah",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. Son of Cush Ge 10:7; 1Ch 1:9",
-      "references": [
-        "Gen 10:7",
-        "1Chr 1:9"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "2. A son of Joktan Ge 10:29; 1Ch 1:23",
-      "references": [
-        "Gen 10:29",
-        "1Chr 1:23"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "3. An unknown region Ge 2:11",
-      "references": [
-        "Gen 2:11"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "4. A district east of Amalek Ge 25:18; 1Sa 15:7",
-      "references": [
-        "Gen 25:18",
-        "1Sam 15:7"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "1 Samuel",
-      "book_abbrev": "1sa",
-      "chapter": 15,
-      "testament": "OT",
-      "verses": [
-        7
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "1 Chronicles",
-      "book_abbrev": "1ch",
-      "chapter": 1,
-      "testament": "OT",
-      "verses": [
-        9
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "1 Chronicles",
-      "book_abbrev": "1ch",
-      "chapter": 1,
-      "testament": "OT",
-      "verses": [
-        23
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 4,
-    "ot_refs": 3,
-    "nt_refs": 0,
-    "total_verses": 3
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.691255+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "1.",
+      "references": [
+        "Genesis 10:7",
+        "1 Chronicles 1:9"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2. A",
+      "references": [
+        "Genesis 10:29",
+        "1 Chronicles 1:23"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "3. An unknown region",
+      "references": [
+        "Genesis 2:11"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "4. A district east of Amalek",
+      "references": [
+        "Genesis 25:18",
+        "1 Samuel 15:7"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Genesis",
       "chapter": 10,
@@ -96,8 +47,17 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 10:7",
-      "source": "EAS"
+      "raw": "Genesis 10:7"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 1,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 1:9"
     },
     {
       "book": "Genesis",
@@ -107,8 +67,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 10:29",
-      "source": "EAS"
+      "raw": "Genesis 10:29"
     },
     {
       "book": "1 Chronicles",
@@ -118,8 +77,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 1:23",
-      "source": "EAS"
+      "raw": "1 Chronicles 1:23"
     },
     {
       "book": "Genesis",
@@ -129,8 +87,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 2:11",
-      "source": "EAS"
+      "raw": "Genesis 2:11"
     },
     {
       "book": "Genesis",
@@ -140,8 +97,34 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 25:18",
-      "source": "EAS"
+      "raw": "Genesis 25:18"
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 15,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Samuel 15:7"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "1 Samuel",
+    "Genesis"
+  ],
+  "stats": {
+    "total_aspects": 4,
+    "total_refs": 7,
+    "ot_refs": 7,
+    "nt_refs": 0,
+    "books_count": 3,
+    "top_books": [
+      "Genesis",
+      "1 Chronicles",
+      "1 Samuel"
+    ]
+  }
 }

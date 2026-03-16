@@ -1,78 +1,46 @@
 {
   "topic": "FREEDMEN",
-  "topic_slug": "freedmen",
+  "slug": "freedmen",
   "canonical_id": "NAV:freedmen",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "EMANCIPATION"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "EMANCIPATION",
-      "clean": "EMANCIPATION",
-      "slug": "emancipation",
-      "canonical_id": "NAV:emancipation"
-    }
-  ],
-  "raw_block": "–Synagogue ofAc 6:9\n–SeeEMANCIPATION",
-  "content_preview": "–Synagogue ofAc 6:9",
-  "reference_groups": [
-    {
-      "idx": 0,
-      "entry_label": "–Synagogue ofAc 6:9",
-      "raw_segment": "–Synagogue ofAc 6:9"
+      "label": "Synagogue of",
+      "references": [
+        "Acts 6:9"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–SeeEMANCIPATION",
-      "raw_segment": "–SeeEMANCIPATION"
+      "label": "SeeEMANCIPATION",
+      "references": []
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Acts",
+      "chapter": 6,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 6:9"
+    }
+  ],
+  "books_mentioned": [
+    "Acts"
+  ],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 2,
+    "total_refs": 1,
     "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:48cefc81a9a57929140bbda3144ec8f8d04b5b4513164ee5364dfb2ce4947c1c",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "nt_refs": 1,
+    "books_count": 1,
+    "top_books": [
+      "Acts"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:26:27.282913Z",
-  "updated_at": "2025-09-20T17:26:27.282920Z"
+  }
 }

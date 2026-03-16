@@ -1,84 +1,140 @@
 {
   "topic": "HEROD",
   "slug": "herod",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "1. King of Judah (Herod the Great) Mt 2",
-      "references": [
-        "Matt 2"
-      ],
-      "sub_groups": []
+      "label": "1. King of",
+      "references": [],
+      "source": "NAV"
     },
     {
-      "name": "2. Tetrarch of Galilee (Herod Antipas) Lu 3:1; 23:7",
+      "label": "2. Tetrarch of Galilee (Herod Antipas)",
       "references": [
         "Luke 3:1",
         "Luke 23:7"
       ],
-      "sub_groups": [
-        {
-          "name": "Incest of Mt 14:3,4; Mr 6:17-19",
-          "references": [
-            "Matt 14:3",
-            "Matt 14:4",
-            "Mark 6:17-19"
-          ]
-        },
-        {
-          "name": "Beheads John the Baptist Mr 6:16-28; Mt 14:3-11",
-          "references": [
-            "Mark 6:16-28",
-            "Matt 14:3-11"
-          ]
-        },
-        {
-          "name": "Desires to see Jesus Lu 9:7,9; 23:8",
-          "references": [
-            "Luke 9:7",
-            "Luke 9:9",
-            "Luke 23:8"
-          ]
-        },
-        {
-          "name": "Tyranny of Lu 13:31,32",
-          "references": [
-            "Luke 13:31",
-            "Luke 13:32"
-          ]
-        },
-        {
-          "name": "Jesus tried by Lu 23:6-12,15; Ac 4:27",
-          "references": [
-            "Luke 23:6-12",
-            "Luke 23:15",
-            "Acts 4:27"
-          ]
-        }
-      ]
+      "source": "NAV"
     },
     {
-      "name": "3. Son of Aristobulus (Herod Agrippa I) Ac 12:1-23",
+      "label": ".Incest of",
+      "references": [
+        "Matthew 14:3,4",
+        "Mark 6:17-19"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".Beheads",
+      "references": [
+        "Mark 6:16-28",
+        "Matthew 14:3-11"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".",
+      "references": [
+        "Luke 9:7,9",
+        "Luke 23:8"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".Tyranny of",
+      "references": [
+        "Luke 13:31,32"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".Jesus tried by",
+      "references": [
+        "Luke 23:6-12,15",
+        "Acts 4:27"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "3.",
       "references": [
         "Acts 12:1-23"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Matthew",
-      "book_abbrev": "mat",
-      "chapter": 2,
+      "book": "Luke",
+      "chapter": 3,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
       "testament": "NT",
-      "verses": [],
-      "verse_count": 1
+      "raw": "Luke 3:1"
+    },
+    {
+      "book": "Luke",
+      "chapter": 23,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 23:7"
     },
     {
       "book": "Matthew",
-      "book_abbrev": "mat",
       "chapter": 14,
+      "verses": [
+        3,
+        4
+      ],
+      "verse_count": 2,
       "testament": "NT",
+      "raw": "Matthew 14:3,4"
+    },
+    {
+      "book": "Mark",
+      "chapter": 6,
+      "verses": [
+        17,
+        18,
+        19
+      ],
+      "verse_count": 3,
+      "testament": "NT",
+      "raw": "Mark 6:17-19"
+    },
+    {
+      "book": "Mark",
+      "chapter": 6,
+      "verses": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ],
+      "verse_count": 13,
+      "testament": "NT",
+      "raw": "Mark 6:16-28"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 14,
       "verses": [
         3,
         4,
@@ -90,46 +146,72 @@
         10,
         11
       ],
-      "verse_count": 9
-    },
-    {
-      "book": "Mark",
-      "book_abbrev": "mrk",
-      "chapter": 6,
+      "verse_count": 9,
       "testament": "NT",
-      "verses": [
-        17,
-        18,
-        19
-      ],
-      "verse_count": 3
+      "raw": "Matthew 14:3-11"
     },
     {
       "book": "Luke",
-      "book_abbrev": "luk",
-      "chapter": 3,
-      "testament": "NT",
+      "chapter": 9,
       "verses": [
-        1,
-        23
+        7,
+        9
       ],
-      "verse_count": 2
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Luke 9:7,9"
+    },
+    {
+      "book": "Luke",
+      "chapter": 23,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 23:8"
+    },
+    {
+      "book": "Luke",
+      "chapter": 13,
+      "verses": [
+        31,
+        32
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Luke 13:31,32"
+    },
+    {
+      "book": "Luke",
+      "chapter": 23,
+      "verses": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        15
+      ],
+      "verse_count": 8,
+      "testament": "NT",
+      "raw": "Luke 23:6-12,15"
     },
     {
       "book": "Acts",
-      "book_abbrev": "act",
       "chapter": 4,
-      "testament": "NT",
       "verses": [
         27
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 4:27"
     },
     {
       "book": "Acts",
-      "book_abbrev": "act",
       "chapter": 12,
-      "testament": "NT",
       "verses": [
         1,
         2,
@@ -155,175 +237,28 @@
         22,
         23
       ],
-      "verse_count": 23
+      "verse_count": 23,
+      "testament": "NT",
+      "raw": "Acts 12:1-23"
     }
   ],
-  "see_also": [],
-  "aliases": [],
+  "books_mentioned": [
+    "Acts",
+    "Luke",
+    "Mark",
+    "Matthew"
+  ],
   "stats": {
-    "entries_count": 3,
+    "total_aspects": 8,
+    "total_refs": 12,
     "ot_refs": 0,
-    "nt_refs": 6,
-    "total_verses": 6
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.692091+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "Matthew",
-      "chapter": 2,
-      "verses": [
-        16,
-        17,
-        18
-      ],
-      "verse_count": 3,
-      "testament": "NT",
-      "raw": "Matthew 2:16-18",
-      "source": "SMI"
-    },
-    {
-      "book": "John",
-      "chapter": 2,
-      "verses": [
-        20
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "John 2:20",
-      "source": "SMI"
-    },
-    {
-      "book": "Matthew",
-      "chapter": 14,
-      "verses": [
-        4
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Matthew 14:4",
-      "source": "SMI"
-    },
-    {
-      "book": "Mark",
-      "chapter": 6,
-      "verses": [
-        14
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Mark 6:14",
-      "source": "SMI"
-    },
-    {
-      "book": "Luke",
-      "chapter": 23,
-      "verses": [
-        6
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Luke 23:6",
-      "source": "SMI"
-    },
-    {
-      "book": "Mark",
-      "chapter": 6,
-      "verses": [
-        17
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Mark 6:17",
-      "source": "SMI"
-    },
-    {
-      "book": "Matthew",
-      "chapter": 16,
-      "verses": [
-        13
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Matthew 16:13",
-      "source": "SMI"
-    },
-    {
-      "book": "Mark",
-      "chapter": 8,
-      "verses": [
-        27
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Mark 8:27",
-      "source": "SMI"
-    },
-    {
-      "book": "Acts",
-      "chapter": 12,
-      "verses": [
-        1
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Acts 12:1",
-      "source": "SMI"
-    },
-    {
-      "book": "Acts",
-      "chapter": 12,
-      "verses": [
-        21,
-        23
-      ],
-      "verse_count": 2,
-      "testament": "NT",
-      "raw": "Acts 12:21,23",
-      "source": "SMI"
-    },
-    {
-      "book": "Acts",
-      "chapter": 25,
-      "verses": [
-        13
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Acts 25:13",
-      "source": "SMI"
-    },
-    {
-      "book": "Luke",
-      "chapter": 3,
-      "verses": [
-        19
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Luke 3:19",
-      "source": "SMI"
-    },
-    {
-      "book": "Luke",
-      "chapter": 3,
-      "verses": [
-        1
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Luke 3:1",
-      "source": "SMI"
-    }
-  ]
+    "nt_refs": 12,
+    "books_count": 4,
+    "top_books": [
+      "Luke",
+      "Matthew",
+      "Mark",
+      "Acts"
+    ]
+  }
 }

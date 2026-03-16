@@ -1,84 +1,106 @@
 {
   "topic": "PRETORIUM",
   "slug": "pretorium",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "Also called PRAETORIUM, COMMON HALL, JUDGMENT HALL, and PALACE Mt 27:27; Mr 15:16; Joh 18:28,33; 19:9; Ac 23:35; Php 1:13",
+      "label": "Al",
       "references": [
-        "Matt 27:27",
+        "Matthew 27:27",
         "Mark 15:16",
-        "John 18:28",
-        "John 18:33",
+        "John 18:28,33",
         "John 19:9",
         "Acts 23:35",
-        "Phil 1:13"
+        "Philippians 1:13"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Mark",
-      "book_abbrev": "mrk",
-      "chapter": 15,
+      "book": "Matthew",
+      "chapter": 27,
+      "verses": [
+        27
+      ],
+      "verse_count": 1,
       "testament": "NT",
+      "raw": "Matthew 27:27"
+    },
+    {
+      "book": "Mark",
+      "chapter": 15,
       "verses": [
         16
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Mark 15:16"
     },
     {
       "book": "John",
-      "book_abbrev": "jhn",
       "chapter": 18,
-      "testament": "NT",
       "verses": [
-        19,
         28,
         33
       ],
-      "verse_count": 3
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "John 18:28,33"
+    },
+    {
+      "book": "John",
+      "chapter": 19,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "John 19:9"
     },
     {
       "book": "Acts",
-      "book_abbrev": "act",
       "chapter": 23,
-      "testament": "NT",
       "verses": [
         35
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 23:35"
     },
     {
       "book": "Philippians",
-      "book_abbrev": "php",
       "chapter": 1,
-      "testament": "NT",
       "verses": [
         13
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Philippians 1:13"
     }
   ],
-  "see_also": [],
-  "aliases": [],
+  "books_mentioned": [
+    "Acts",
+    "John",
+    "Mark",
+    "Matthew",
+    "Philippians"
+  ],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 1,
+    "total_refs": 6,
     "ot_refs": 0,
-    "nt_refs": 4,
-    "total_verses": 4
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.719475+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    }
-  },
-  "version": "3.0.0"
+    "nt_refs": 6,
+    "books_count": 5,
+    "top_books": [
+      "John",
+      "Matthew",
+      "Mark",
+      "Acts",
+      "Philippians"
+    ]
+  }
 }

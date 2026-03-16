@@ -1,69 +1,59 @@
 {
   "topic": "AZOR",
-  "topic_slug": "azor",
+  "slug": "azor",
   "canonical_id": "NAV:azor",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–Ancestor of JesusMt 1:13,14\n–Perhaps identical with AZRIKAM1Ch 3:23",
-  "content_preview": "–Ancestor of JesusMt 1:13,14",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–Ancestor of JesusMt 1:13,14",
-      "raw_segment": "–Ancestor of JesusMt 1:13,14"
+      "label": "Ancestor of Jesus",
+      "references": [
+        "Matthew 1:13,14"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–Perhaps identical with AZRIKAM1Ch 3:23",
-      "raw_segment": "–Perhaps identical with AZRIKAM1Ch 3:23"
+      "label": "Perhaps i",
+      "references": [
+        "1 Chronicles 3:23"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Matthew",
+      "chapter": 1,
+      "verses": [
+        13,
+        14
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Matthew 1:13,14"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 3,
+      "verses": [
+        23
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 3:23"
+    }
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Matthew"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:08191970275e6e867f13603ecac784418e87f1b7eaf7c085cf4d5072da810e2e",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 2,
+    "total_refs": 2,
+    "ot_refs": 1,
+    "nt_refs": 1,
+    "books_count": 2,
+    "top_books": [
+      "Matthew",
+      "1 Chronicles"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:24:00.984596Z",
-  "updated_at": "2025-09-20T17:24:00.984603Z"
+  }
 }

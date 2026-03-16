@@ -1,110 +1,217 @@
 {
   "topic": "ORDINANCE",
   "slug": "ordinance",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [
+    "FORM",
+    "FORMALISM"
+  ],
+  "aspects": [
     {
-      "name": "A decree Ex 12:14,24,43; 13:10; 15:25; Nu 9:14; 10:8; 15:15; 18:8; Isa 24:5; Mal 4:4; Ro 13:2; 1Pe 2:13",
+      "label": "A",
       "references": [
-        "Exod 12:14",
-        "Exod 12:24",
-        "Exod 12:43",
-        "Exod 13:10",
-        "Exod 15:25",
-        "Num 9:14",
-        "Num 10:8",
-        "Num 15:15",
-        "Num 18:8",
-        "Isa 24:5",
-        "Mal 4:4",
-        "Rom 13:2",
-        "1Pet 2:13"
+        "Exodus 12:14,24,43",
+        "Exodus 13:10",
+        "Exodus 15:25",
+        "Numbers 9:14",
+        "Numbers 10:8",
+        "Numbers 15:15",
+        "Numbers 18:8",
+        "Isaiah 24:5",
+        "Malachi 4:4",
+        "Romans 13:2",
+        "1 Peter 2:13"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "INSUFFICIENCY OF, FOR SALVATION Isa 1:10-17; Ga 5:6; 6:15; Eph 2:15; Col 2:14,20-23; Heb 9:1,8-10",
+      "label": "INSUFFICIENCY OF, FOR SALVATION",
       "references": [
-        "Isa 1:10-17",
-        "Gal 5:6",
-        "Gal 6:15",
-        "Eph 2:15",
-        "Col 2:14",
-        "Col 2:20-23",
-        "Heb 9:1",
-        "Heb 9:8-10"
+        "Isaiah 1:10-17",
+        "Galatians 5:6",
+        "Galatians 6:15",
+        "Ephesians 2:15",
+        "Colossians 2:14,20-23",
+        "Hebrews 9:1,8-10"
       ],
-      "sub_groups": []
+      "source": "NAV"
+    },
+    {
+      "label": ".SeeFORM",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".SeeFORMALISM",
+      "references": [],
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Numbers",
-      "book_abbrev": "num",
-      "chapter": 9,
-      "testament": "OT",
+      "book": "Exodus",
+      "chapter": 12,
       "verses": [
-        10,
+        14,
+        24,
+        43
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Exodus 12:14,24,43"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 13,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 13:10"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 15,
+      "verses": [
+        25
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 15:25"
+    },
+    {
+      "book": "Numbers",
+      "chapter": 9,
+      "verses": [
         14
       ],
-      "verse_count": 2
-    },
-    {
-      "book": "Isaiah",
-      "book_abbrev": "isa",
-      "chapter": 24,
+      "verse_count": 1,
       "testament": "OT",
-      "verses": [
-        5
-      ],
-      "verse_count": 1
+      "raw": "Numbers 9:14"
     },
     {
-      "book": "Malachi",
-      "book_abbrev": "mal",
-      "chapter": 4,
+      "book": "Numbers",
+      "chapter": 10,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
       "testament": "OT",
-      "verses": [
-        4
-      ],
-      "verse_count": 1
+      "raw": "Numbers 10:8"
     },
     {
-      "book": "Romans",
-      "book_abbrev": "rom",
-      "chapter": 13,
-      "testament": "NT",
-      "verses": [
-        1,
-        2
-      ],
-      "verse_count": 2
-    },
-    {
-      "book": "Galatians",
-      "book_abbrev": "gal",
-      "chapter": 5,
-      "testament": "NT",
-      "verses": [
-        6
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Ephesians",
-      "book_abbrev": "eph",
-      "chapter": 2,
-      "testament": "NT",
+      "book": "Numbers",
+      "chapter": 15,
       "verses": [
         15
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Numbers 15:15"
+    },
+    {
+      "book": "Numbers",
+      "chapter": 18,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Numbers 18:8"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 24,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 24:5"
+    },
+    {
+      "book": "Malachi",
+      "chapter": 4,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Malachi 4:4"
+    },
+    {
+      "book": "Romans",
+      "chapter": 13,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Romans 13:2"
+    },
+    {
+      "book": "1 Peter",
+      "chapter": 2,
+      "verses": [
+        13
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "1 Peter 2:13"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 1,
+      "verses": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "verse_count": 8,
+      "testament": "OT",
+      "raw": "Isaiah 1:10-17"
+    },
+    {
+      "book": "Galatians",
+      "chapter": 5,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Galatians 5:6"
+    },
+    {
+      "book": "Galatians",
+      "chapter": 6,
+      "verses": [
+        15
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Galatians 6:15"
+    },
+    {
+      "book": "Ephesians",
+      "chapter": 2,
+      "verses": [
+        15
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Ephesians 2:15"
     },
     {
       "book": "Colossians",
-      "book_abbrev": "col",
       "chapter": 2,
-      "testament": "NT",
       "verses": [
         14,
         20,
@@ -112,53 +219,53 @@
         22,
         23
       ],
-      "verse_count": 5
+      "verse_count": 5,
+      "testament": "NT",
+      "raw": "Colossians 2:14,20-23"
     },
     {
       "book": "Hebrews",
-      "book_abbrev": "heb",
       "chapter": 9,
-      "testament": "NT",
       "verses": [
         1,
         8,
         9,
         10
       ],
-      "verse_count": 4
-    },
-    {
-      "book": "1 Peter",
-      "book_abbrev": "1pe",
-      "chapter": 2,
+      "verse_count": 4,
       "testament": "NT",
-      "verses": [
-        13
-      ],
-      "verse_count": 1
+      "raw": "Hebrews 9:1,8-10"
     }
   ],
-  "see_also": [
-    "FORM",
-    "FORMALISM"
+  "books_mentioned": [
+    "1 Peter",
+    "Colossians",
+    "Ephesians",
+    "Exodus",
+    "Galatians",
+    "Hebrews",
+    "Isaiah",
+    "Malachi",
+    "Numbers",
+    "Romans"
   ],
-  "aliases": [],
   "stats": {
-    "entries_count": 2,
-    "ot_refs": 3,
-    "nt_refs": 6,
-    "total_verses": 9
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.716256+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    }
-  },
-  "version": "3.0.0"
+    "total_aspects": 4,
+    "total_refs": 17,
+    "ot_refs": 10,
+    "nt_refs": 7,
+    "books_count": 10,
+    "top_books": [
+      "Numbers",
+      "Exodus",
+      "Isaiah",
+      "Galatians",
+      "Malachi",
+      "Romans",
+      "1 Peter",
+      "Ephesians",
+      "Colossians",
+      "Hebrews"
+    ]
+  }
 }

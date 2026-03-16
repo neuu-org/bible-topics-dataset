@@ -1,69 +1,160 @@
 {
   "topic": "GIHON",
-  "topic_slug": "gihon",
+  "slug": "gihon",
   "canonical_id": "NAV:gihon",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–1. A river in EgyptGe 2:13\n–2. Pools near Jerusalem1Ki 1:33,38,45\n  .Hezekiah brings the waters of the upper pool by an aqueduct into \nthe city of Jerusalem2Ch 32:4,30;33:14;Ne 2:13-15;3:13-16;Isa 7:3;22:9-11;36:2",
-  "content_preview": "–1. A river in EgyptGe 2:13",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–1. A river in EgyptGe 2:13",
-      "raw_segment": "–1. A river in EgyptGe 2:13"
+      "label": "1. A river in Egypt",
+      "references": [
+        "Genesis 2:13"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–2. Pools near Jerusalem1Ki 1:33,38,45",
-      "raw_segment": "–2. Pools near Jerusalem1Ki 1:33,38,45"
+      "label": "2. Pools near",
+      "references": [
+        "1 Kings 1:33,38,45"
+      ]
+    },
+    {
+      "label": ".Hezekiah brings the waters of the upper pool by an aqueduct into",
+      "references": []
+    },
+    {
+      "label": "the city of",
+      "references": [
+        "2 Chronicles 32:4,30",
+        "2 Chronicles 33:14",
+        "Nehemiah 2:13-15",
+        "Nehemiah 3:13-16",
+        "Isaiah 7:3",
+        "Isaiah 22:9-11",
+        "Isaiah 36:2"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Genesis",
+      "chapter": 2,
+      "verses": [
+        13
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 2:13"
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 1,
+      "verses": [
+        33,
+        38,
+        45
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "1 Kings 1:33,38,45"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 32,
+      "verses": [
+        4,
+        30
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "2 Chronicles 32:4,30"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 33,
+      "verses": [
+        14
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Chronicles 33:14"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 2,
+      "verses": [
+        13,
+        14,
+        15
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Nehemiah 2:13-15"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 3,
+      "verses": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "verse_count": 4,
+      "testament": "OT",
+      "raw": "Nehemiah 3:13-16"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 7,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 7:3"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 22,
+      "verses": [
+        9,
+        10,
+        11
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Isaiah 22:9-11"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 36,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 36:2"
+    }
+  ],
+  "books_mentioned": [
+    "1 Kings",
+    "2 Chronicles",
+    "Genesis",
+    "Isaiah",
+    "Nehemiah"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 4,
+    "total_refs": 9,
+    "ot_refs": 9,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:edfd9aed8389a89a1b9be5bf19667d9f5130ed4acca0d4909a87590e841b48c4",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 4
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 5,
+    "top_books": [
+      "Isaiah",
+      "2 Chronicles",
+      "Nehemiah",
+      "Genesis",
+      "1 Kings"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:26:39.891070Z",
-  "updated_at": "2025-09-20T17:26:39.891078Z"
+  }
 }

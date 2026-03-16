@@ -1,80 +1,90 @@
 {
   "topic": "CHARITY",
   "slug": "charity",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV",
+    "TOR"
+  ],
+  "see_also": [
+    "ALMS",
+    "BENEFICENCE",
+    "LIBERALITY",
+    "LOVE"
+  ],
+  "aspects": [
     {
-      "name": "See ALMS",
+      "label": "SeeALMS",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See BENEFICENCE",
+      "label": "SeeBENEFICENCE",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See LIBERALITY",
+      "label": "SeeLIBERALITY",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See LOVE",
+      "label": "SeeLOVE",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
+    },
+    {
+      "label": "Explained —",
+      "references": [
+        "1 Corinthians 13:4-7"
+      ],
+      "source": "TOR"
+    },
+    {
+      "label": "Enjoined — See “Love to man”.",
+      "references": [
+        "Colossians 3:14"
+      ],
+      "source": "TOR"
     }
   ],
   "biblical_references": [
     {
-      "book": "1 Cor",
-      "book_abbrev": "1 c",
+      "book": "1 Corinthians",
       "chapter": 13,
-      "testament": "NT",
       "verses": [
         4,
         5,
         6,
         7
       ],
-      "verse_count": 4
+      "verse_count": 4,
+      "testament": "NT",
+      "raw": "1 Corinthians 13:4-7"
     },
     {
-      "book": "Col",
-      "book_abbrev": "col",
+      "book": "Colossians",
       "chapter": 3,
-      "testament": "NT",
       "verses": [
         14
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Colossians 3:14"
     }
   ],
-  "see_also": [
-    "BENEFICENCE",
-    "LIBERALITY",
-    "ALMS",
-    "LOVE"
+  "books_mentioned": [
+    "1 Corinthians",
+    "Colossians"
   ],
-  "aliases": [],
   "stats": {
-    "total_aspects": 2,
-    "level1_aspects": 2,
-    "level2_aspects": 0,
+    "total_aspects": 6,
     "total_refs": 2,
     "ot_refs": 0,
-    "nt_refs": 2
-  },
-  "sources": [
-    "NAV",
-    "TOR"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.677175+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0"
+    "nt_refs": 2,
+    "books_count": 2,
+    "top_books": [
+      "1 Corinthians",
+      "Colossians"
+    ]
+  }
 }

@@ -1,59 +1,54 @@
 {
   "topic": "TIBERIAS",
   "slug": "tiberias",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [
+    "GALILEE"
+  ],
+  "aspects": [
     {
-      "name": "1. A city next to Lake Galilee Joh 6:23",
+      "label": "1. A city next to Lake Galilee",
       "references": [
         "John 6:23"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "2. The sea of, a name given to Lake Galilee Joh 6:1; 21:1",
+      "label": "2. The sea of, a name given to Lake Galilee",
       "references": [
         "John 6:1",
         "John 21:1"
       ],
-      "sub_groups": []
+      "source": "NAV"
+    },
+    {
+      "label": ".SeeGALILEE,",
+      "references": [],
+      "source": "NAV"
     }
   ],
-  "biblical_references": [],
-  "see_also": [
-    "GALILEE"
-  ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.729988+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "biblical_references": [
     {
       "book": "John",
       "chapter": 6,
       "verses": [
-        1,
         23
       ],
-      "verse_count": 2,
+      "verse_count": 1,
       "testament": "NT",
-      "raw": "John 6:1, 23",
-      "source": "EAS"
+      "raw": "John 6:23"
+    },
+    {
+      "book": "John",
+      "chapter": 6,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "John 6:1"
     },
     {
       "book": "John",
@@ -63,19 +58,20 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "John 21:1",
-      "source": "EAS"
-    },
-    {
-      "book": "John",
-      "chapter": 6,
-      "verses": [
-        23
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "John 6:23",
-      "source": "SMI"
+      "raw": "John 21:1"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "John"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 3,
+    "ot_refs": 0,
+    "nt_refs": 3,
+    "books_count": 1,
+    "top_books": [
+      "John"
+    ]
+  }
 }

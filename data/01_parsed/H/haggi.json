@@ -1,50 +1,21 @@
 {
   "topic": "HAGGI",
   "slug": "haggi",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Son of Gad Ge 46:16; Nu 26:15",
-      "references": [
-        "Gen 46:16",
-        "Num 26:15"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Numbers",
-      "book_abbrev": "num",
-      "chapter": 26,
-      "testament": "OT",
-      "verses": [
-        15
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.690192+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "General references",
+      "references": [
+        "Genesis 46:16",
+        "Numbers 26:15"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Genesis",
       "chapter": 46,
@@ -53,8 +24,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 46:16",
-      "source": "SMI"
+      "raw": "Genesis 46:16"
     },
     {
       "book": "Numbers",
@@ -64,8 +34,22 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Numbers 26:15",
-      "source": "SMI"
+      "raw": "Numbers 26:15"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Genesis",
+    "Numbers"
+  ],
+  "stats": {
+    "total_aspects": 1,
+    "total_refs": 2,
+    "ot_refs": 2,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "Genesis",
+      "Numbers"
+    ]
+  }
 }

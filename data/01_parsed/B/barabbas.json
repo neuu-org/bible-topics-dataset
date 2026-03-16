@@ -1,131 +1,24 @@
 {
   "topic": "BARABBAS",
   "slug": "barabbas",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "A prisoner released by Pilate Mt 27:16-26; Mr 15:7-15; Lu 23:18-25; Joh 18:40; Ac 3:14",
+      "label": "A pri",
       "references": [
-        "Matt 27:16-26",
+        "Matthew 27:16-26",
         "Mark 15:7-15",
         "Luke 23:18-25",
         "John 18:40",
         "Acts 3:14"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
-    {
-      "book": "Mark",
-      "book_abbrev": "mrk",
-      "chapter": 15,
-      "testament": "NT",
-      "verses": [
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14,
-        15
-      ],
-      "verse_count": 9
-    },
-    {
-      "book": "Luke",
-      "book_abbrev": "luk",
-      "chapter": 23,
-      "testament": "NT",
-      "verses": [
-        18,
-        19,
-        20,
-        21,
-        22,
-        23,
-        24,
-        25
-      ],
-      "verse_count": 8
-    },
-    {
-      "book": "John",
-      "book_abbrev": "jhn",
-      "chapter": 18,
-      "testament": "NT",
-      "verses": [
-        40
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Acts",
-      "book_abbrev": "act",
-      "chapter": 3,
-      "testament": "NT",
-      "verses": [
-        14
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 4,
-    "total_verses": 4
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.672053+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "John",
-      "chapter": 18,
-      "verses": [
-        40
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "John 18:40",
-      "source": "EAS"
-    },
-    {
-      "book": "Mark",
-      "chapter": 15,
-      "verses": [
-        7
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Mark 15:7",
-      "source": "EAS"
-    },
-    {
-      "book": "Luke",
-      "chapter": 23,
-      "verses": [
-        19
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Luke 23:19",
-      "source": "EAS"
-    },
     {
       "book": "Matthew",
       "chapter": 27,
@@ -144,8 +37,52 @@
       ],
       "verse_count": 11,
       "testament": "NT",
-      "raw": "Matthew 27:16-26",
-      "source": "EAS"
+      "raw": "Matthew 27:16-26"
+    },
+    {
+      "book": "Mark",
+      "chapter": 15,
+      "verses": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "verse_count": 9,
+      "testament": "NT",
+      "raw": "Mark 15:7-15"
+    },
+    {
+      "book": "Luke",
+      "chapter": 23,
+      "verses": [
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "verse_count": 8,
+      "testament": "NT",
+      "raw": "Luke 23:18-25"
+    },
+    {
+      "book": "John",
+      "chapter": 18,
+      "verses": [
+        40
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "John 18:40"
     },
     {
       "book": "Acts",
@@ -155,19 +92,28 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Acts 3:14",
-      "source": "EAS"
-    },
-    {
-      "book": "Luke",
-      "chapter": 28,
-      "verses": [
-        18
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Luke 28:18",
-      "source": "SMI"
+      "raw": "Acts 3:14"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Acts",
+    "John",
+    "Luke",
+    "Mark",
+    "Matthew"
+  ],
+  "stats": {
+    "total_aspects": 1,
+    "total_refs": 5,
+    "ot_refs": 0,
+    "nt_refs": 5,
+    "books_count": 5,
+    "top_books": [
+      "Matthew",
+      "Mark",
+      "Luke",
+      "John",
+      "Acts"
+    ]
+  }
 }

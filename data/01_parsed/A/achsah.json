@@ -1,57 +1,28 @@
 {
   "topic": "ACHSAH",
   "slug": "achsah",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Caleb’s daughter Jos 15:16-19; Jud 1:9-13",
-      "references": [
-        "Josh 15:16-19",
-        "Judg 1:9-13"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Called ACHSA 1Ch 2:49",
-      "references": [
-        "1Chr 2:49"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.661012+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "see_also": [],
+  "aspects": [
     {
-      "book": "1 Chronicles",
-      "chapter": 2,
-      "verses": [
-        49
+      "label": "General references",
+      "references": [
+        "Joshua 15:16-19",
+        "Judges 1:9-13"
       ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "1 Chronicles 2:49",
-      "source": "EAS"
+      "source": "NAV"
     },
+    {
+      "label": "General references",
+      "references": [
+        "1 Chronicles 2:49"
+      ],
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
     {
       "book": "Joshua",
       "chapter": 15,
@@ -63,8 +34,7 @@
       ],
       "verse_count": 4,
       "testament": "OT",
-      "raw": "Joshua 15:16-19",
-      "source": "EAS"
+      "raw": "Joshua 15:16-19"
     },
     {
       "book": "Judges",
@@ -74,44 +44,38 @@
         10,
         11,
         12,
-        13,
-        14,
-        15
-      ],
-      "verse_count": 7,
-      "testament": "OT",
-      "raw": "Judges 1:9-15",
-      "source": "EAS"
-    },
-    {
-      "book": "Joshua",
-      "chapter": 15,
-      "verses": [
-        15,
-        16,
-        17,
-        18,
-        19
+        13
       ],
       "verse_count": 5,
       "testament": "OT",
-      "raw": "Joshua 15:15-19",
-      "source": "SMI"
+      "raw": "Judges 1:9-13"
     },
     {
-      "book": "Judges",
-      "chapter": 1,
+      "book": "1 Chronicles",
+      "chapter": 2,
       "verses": [
-        11,
-        12,
-        13,
-        14,
-        15
+        49
       ],
-      "verse_count": 5,
+      "verse_count": 1,
       "testament": "OT",
-      "raw": "Judges 1:11-15",
-      "source": "SMI"
+      "raw": "1 Chronicles 2:49"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Joshua",
+    "Judges"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 3,
+    "ot_refs": 3,
+    "nt_refs": 0,
+    "books_count": 3,
+    "top_books": [
+      "Joshua",
+      "Judges",
+      "1 Chronicles"
+    ]
+  }
 }

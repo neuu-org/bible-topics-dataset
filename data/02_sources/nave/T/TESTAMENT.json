@@ -1,83 +1,105 @@
 {
   "topic": "TESTAMENT",
-  "topic_slug": "testament",
+  "slug": "testament",
   "canonical_id": "NAV:testament",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "COVENANT"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "COVENANT",
-      "clean": "COVENANT",
-      "slug": "covenant",
-      "canonical_id": "NAV:covenant"
-    }
-  ],
-  "raw_block": "–A willHeb 9:16-18\n–The newMt 26:28;Mr 14:24;Lu 22:20;1Co 11:25\n–SeeCOVENANT",
-  "content_preview": "–A willHeb 9:16-18",
-  "reference_groups": [
-    {
-      "idx": 0,
-      "entry_label": "–A willHeb 9:16-18",
-      "raw_segment": "–A willHeb 9:16-18"
+      "label": "A will",
+      "references": [
+        "Hebrews 9:16-18"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–The newMt 26:28;Mr 14:24;Lu 22:20;1Co 11:25",
-      "raw_segment": "–The newMt 26:28;Mr 14:24;Lu 22:20;1Co 11:25"
+      "label": "The new",
+      "references": [
+        "Matthew 26:28",
+        "Mark 14:24",
+        "Luke 22:20",
+        "1 Corinthians 11:25"
+      ]
     },
     {
-      "idx": 2,
-      "entry_label": "–SeeCOVENANT",
-      "raw_segment": "–SeeCOVENANT"
+      "label": "SeeCOVENANT",
+      "references": []
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Hebrews",
+      "chapter": 9,
+      "verses": [
+        16,
+        17,
+        18
+      ],
+      "verse_count": 3,
+      "testament": "NT",
+      "raw": "Hebrews 9:16-18"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 26,
+      "verses": [
+        28
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 26:28"
+    },
+    {
+      "book": "Mark",
+      "chapter": 14,
+      "verses": [
+        24
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Mark 14:24"
+    },
+    {
+      "book": "Luke",
+      "chapter": 22,
+      "verses": [
+        20
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 22:20"
+    },
+    {
+      "book": "1 Corinthians",
+      "chapter": 11,
+      "verses": [
+        25
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "1 Corinthians 11:25"
+    }
+  ],
+  "books_mentioned": [
+    "1 Corinthians",
+    "Hebrews",
+    "Luke",
+    "Mark",
+    "Matthew"
+  ],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 3,
+    "total_refs": 5,
     "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:68fc3c3d9aefe2033808e971bffc5921f2a0f9f6be437bdc55f291eb337ef6b7",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 3
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "nt_refs": 5,
+    "books_count": 5,
+    "top_books": [
+      "Hebrews",
+      "Matthew",
+      "Mark",
+      "Luke",
+      "1 Corinthians"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:32:07.420062Z",
-  "updated_at": "2025-09-20T17:32:07.420069Z"
+  }
 }

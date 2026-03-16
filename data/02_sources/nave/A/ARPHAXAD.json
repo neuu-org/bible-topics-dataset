@@ -1,64 +1,83 @@
 {
   "topic": "ARPHAXAD",
-  "topic_slug": "arphaxad",
+  "slug": "arphaxad",
   "canonical_id": "NAV:arphaxad",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–Son of ShemGe 10:22;11:10-13;1Ch 1:17,18,24;Lu \n3:36",
-  "content_preview": "–Son of ShemGe 10:22;11:10-13;1Ch 1:17,18,24;Lu ",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–Son of ShemGe 10:22;11:10-13;1Ch 1:17,18,24;Lu \n3:36",
-      "raw_segment": "–Son of ShemGe 10:22;11:10-13;1Ch 1:17,18,24;Lu \n3:36"
+      "label": "General references",
+      "references": [
+        "Genesis 10:22",
+        "Genesis 11:10-13",
+        "1 Chronicles 1:17,18,24"
+      ]
+    },
+    {
+      "label": "3:36",
+      "references": []
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Genesis",
+      "chapter": 10,
+      "verses": [
+        22
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 10:22"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 11,
+      "verses": [
+        10,
+        11,
+        12,
+        13
+      ],
+      "verse_count": 4,
+      "testament": "OT",
+      "raw": "Genesis 11:10-13"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 1,
+      "verses": [
+        17,
+        18,
+        24
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "1 Chronicles 1:17,18,24"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 3,
+      "verses": [
+        36
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 3:36"
+    }
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Genesis"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 2,
+    "total_refs": 4,
+    "ot_refs": 4,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:e4be0d5f878fc4cfa0a5899db701e1079a0fb2dbde0b20a0327d03256d5c9b4d",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 2,
+    "top_books": [
+      "Genesis",
+      "1 Chronicles"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:23:48.726847Z",
-  "updated_at": "2025-09-20T17:23:48.726854Z"
+  }
 }

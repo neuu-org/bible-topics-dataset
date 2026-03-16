@@ -1,79 +1,53 @@
 {
   "topic": "MILLO",
   "slug": "millo",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. The house of Millo, possibly a clan at Shechem Jud 9:6,20",
-      "references": [
-        "Judg 9:6",
-        "Judg 9:20"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "2. A name given to part of the citadel of Jerusalem 2Sa 5:9; 1Ch 11:8",
-      "references": [
-        "2Sam 5:9",
-        "1Chr 11:8"
-      ],
-      "sub_groups": [
-        {
-          "name": "King Solomon raises a levy to repair 1Ki 9:15,24; 11:27",
-          "references": [
-            "1Kgs 9:15",
-            "1Kgs 9:24",
-            "1Kgs 11:27"
-          ]
-        },
-        {
-          "name": "Repaired by Hezekiah 2Ch 32:5",
-          "references": [
-            "2Chr 32:5"
-          ]
-        },
-        {
-          "name": "King Joash murdered at 2Ki 12:20",
-          "references": [
-            "2Kgs 12:20"
-          ]
-        }
-      ]
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "1 Chronicles",
-      "book_abbrev": "1ch",
-      "chapter": 11,
-      "testament": "OT",
-      "verses": [
-        8
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.706578+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "1. The house of Millo, possibly a clan at Shechem",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "9:6,20",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "2. A name given to part of the cita",
+      "references": [
+        "2 Samuel 5:9",
+        "1 Chronicles 11:8"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".King",
+      "references": [
+        "1 Kings 9:15,24",
+        "1 Kings 11:27"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".Repaired by Hezekiah",
+      "references": [
+        "2 Chronicles 32:5"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".King Joash mur",
+      "references": [
+        "2 Kings 12:20"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "2 Samuel",
       "chapter": 5,
@@ -82,8 +56,17 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Samuel 5:9",
-      "source": "EAS"
+      "raw": "2 Samuel 5:9"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 11,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 11:8"
     },
     {
       "book": "1 Kings",
@@ -94,8 +77,7 @@
       ],
       "verse_count": 2,
       "testament": "OT",
-      "raw": "1 Kings 9:15, 24",
-      "source": "EAS"
+      "raw": "1 Kings 9:15,24"
     },
     {
       "book": "1 Kings",
@@ -105,8 +87,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Kings 11:27",
-      "source": "EAS"
+      "raw": "1 Kings 11:27"
     },
     {
       "book": "2 Chronicles",
@@ -116,43 +97,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Chronicles 32:5",
-      "source": "EAS"
-    },
-    {
-      "book": "Judges",
-      "chapter": 9,
-      "verses": [
-        6,
-        20
-      ],
-      "verse_count": 2,
-      "testament": "OT",
-      "raw": "Judges 9:6, 20",
-      "source": "EAS"
-    },
-    {
-      "book": "Judges",
-      "chapter": 9,
-      "verses": [
-        46,
-        49
-      ],
-      "verse_count": 2,
-      "testament": "OT",
-      "raw": "Judges 9:46, 49",
-      "source": "EAS"
-    },
-    {
-      "book": "1 Chronicles",
-      "chapter": 11,
-      "verses": [
-        8
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "1 Chronicles 11:8",
-      "source": "SMI"
+      "raw": "2 Chronicles 32:5"
     },
     {
       "book": "2 Kings",
@@ -162,8 +107,28 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Kings 12:20",
-      "source": "SMI"
+      "raw": "2 Kings 12:20"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "1 Kings",
+    "2 Chronicles",
+    "2 Kings",
+    "2 Samuel"
+  ],
+  "stats": {
+    "total_aspects": 6,
+    "total_refs": 6,
+    "ot_refs": 6,
+    "nt_refs": 0,
+    "books_count": 5,
+    "top_books": [
+      "1 Kings",
+      "2 Samuel",
+      "1 Chronicles",
+      "2 Chronicles",
+      "2 Kings"
+    ]
+  }
 }

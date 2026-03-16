@@ -1,69 +1,69 @@
 {
   "topic": "ITHRAN",
-  "topic_slug": "ithran",
+  "slug": "ithran",
   "canonical_id": "NAV:ithran",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–1. Son of DishonGe 36:26;1Ch 1:41\n–2. Son of Zophah1Ch 7:37",
-  "content_preview": "–1. Son of DishonGe 36:26;1Ch 1:41",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–1. Son of DishonGe 36:26;1Ch 1:41",
-      "raw_segment": "–1. Son of DishonGe 36:26;1Ch 1:41"
+      "label": "1.",
+      "references": [
+        "Genesis 36:26",
+        "1 Chronicles 1:41"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–2. Son of Zophah1Ch 7:37",
-      "raw_segment": "–2. Son of Zophah1Ch 7:37"
+      "label": "2.",
+      "references": [
+        "1 Chronicles 7:37"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Genesis",
+      "chapter": 36,
+      "verses": [
+        26
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 36:26"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 1,
+      "verses": [
+        41
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 1:41"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 7,
+      "verses": [
+        37
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 7:37"
+    }
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Genesis"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 2,
+    "total_refs": 3,
+    "ot_refs": 3,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:48701a2b5cb35e1fd6097b1e6f814b357b9a7fd0080b479b626e958f5661dc62",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 2,
+    "top_books": [
+      "1 Chronicles",
+      "Genesis"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:27:44.346517Z",
-  "updated_at": "2025-09-20T17:27:44.346524Z"
+  }
 }

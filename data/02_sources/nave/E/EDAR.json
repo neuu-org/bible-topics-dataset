@@ -1,64 +1,53 @@
 {
   "topic": "EDAR",
-  "topic_slug": "edar",
+  "slug": "edar",
   "canonical_id": "NAV:edar",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–A towerGe 35:21;Mic 4:8",
-  "content_preview": "–A towerGe 35:21;Mic 4:8",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–A towerGe 35:21;Mic 4:8",
-      "raw_segment": "–A towerGe 35:21;Mic 4:8"
+      "label": "A tower",
+      "references": [
+        "Genesis 35:21",
+        "Micah 4:8"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Genesis",
+      "chapter": 35,
+      "verses": [
+        21
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 35:21"
+    },
+    {
+      "book": "Micah",
+      "chapter": 4,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Micah 4:8"
+    }
+  ],
+  "books_mentioned": [
+    "Genesis",
+    "Micah"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 1,
+    "total_refs": 2,
+    "ot_refs": 2,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:aedf8586c4f39c56bf0d5667a0f3486e4ac665a28e45f4be8c05422595f83351",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 1
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 2,
+    "top_books": [
+      "Genesis",
+      "Micah"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:25:47.274429Z",
-  "updated_at": "2025-09-20T17:25:47.274436Z"
+  }
 }

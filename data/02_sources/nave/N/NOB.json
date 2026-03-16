@@ -1,89 +1,142 @@
 {
   "topic": "NOB",
-  "topic_slug": "nob",
+  "slug": "nob",
   "canonical_id": "NAV:nob",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–A city of the tribe of BenjaminNe 11:31,32\n–Called “the city of the priests,”1Sa 22:19\n–The home of Ahimelech, the priest1Sa 21:1;22:11\n–Probable seat of the tabernacle in Saul’s time1Sa \n21:4,6,9\n–Destroyed by Saul2Sa 22:19\n–Prophecy concerningIsa 10:32",
-  "content_preview": "–A city of the tribe of BenjaminNe 11:31,32",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–A city of the tribe of BenjaminNe 11:31,32",
-      "raw_segment": "–A city of the tribe of BenjaminNe 11:31,32"
+      "label": "A city of the tribe of Benjamin",
+      "references": [
+        "Nehemiah 11:31,32"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–Called “the city of the priests,”1Sa 22:19",
-      "raw_segment": "–Called “the city of the priests,”1Sa 22:19"
+      "label": "General references",
+      "references": [
+        "1 Samuel 22:19"
+      ]
     },
     {
-      "idx": 2,
-      "entry_label": "–The home of Ahimelech, the priest1Sa 21:1;22:11",
-      "raw_segment": "–The home of Ahimelech, the priest1Sa 21:1;22:11"
+      "label": "The home of Ahimelech, the priest",
+      "references": [
+        "1 Samuel 21:1",
+        "1 Samuel 22:11"
+      ]
     },
     {
-      "idx": 3,
-      "entry_label": "–Probable seat of the tabernacle in Saul’s time1Sa \n21:4,6,9",
-      "raw_segment": "–Probable seat of the tabernacle in Saul’s time1Sa \n21:4,6,9"
+      "label": "Probable seat of the tabernacle in Saul’s time1Sa",
+      "references": []
     },
     {
-      "idx": 4,
-      "entry_label": "–Destroyed by Saul2Sa 22:19",
-      "raw_segment": "–Destroyed by Saul2Sa 22:19"
+      "label": "21:4,6,9",
+      "references": []
     },
     {
-      "idx": 5,
-      "entry_label": "–Prophecy concerningIsa 10:32",
-      "raw_segment": "–Prophecy concerningIsa 10:32"
+      "label": "General references",
+      "references": [
+        "2 Samuel 22:19"
+      ]
+    },
+    {
+      "label": "Prophecy concerning",
+      "references": [
+        "Isaiah 10:32"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Nehemiah",
+      "chapter": 11,
+      "verses": [
+        31,
+        32
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Nehemiah 11:31,32"
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 22,
+      "verses": [
+        19
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Samuel 22:19"
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 21,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Samuel 21:1"
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 22,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Samuel 22:11"
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 21,
+      "verses": [
+        4,
+        6,
+        9
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "1 Samuel 21:4,6,9"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 22,
+      "verses": [
+        19
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Samuel 22:19"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 10,
+      "verses": [
+        32
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 10:32"
+    }
+  ],
+  "books_mentioned": [
+    "1 Samuel",
+    "2 Samuel",
+    "Isaiah",
+    "Nehemiah"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 7,
+    "total_refs": 7,
+    "ot_refs": 7,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:9577aa3e341d5d070456e5816e3866ea6dd83d9e303dfd5be50c3c4a728aff52",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 7
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 4,
+    "top_books": [
+      "1 Samuel",
+      "Nehemiah",
+      "2 Samuel",
+      "Isaiah"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:29:35.532869Z",
-  "updated_at": "2025-09-20T17:29:35.532877Z"
+  }
 }

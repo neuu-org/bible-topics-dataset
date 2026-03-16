@@ -1,68 +1,29 @@
 {
   "topic": "GOLGOTHA",
   "slug": "golgotha",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "The Aramaic name of the place where Jesus was crucified Mt 27:33; Mr 15:22; Joh 19:17",
-      "references": [
-        "Matt 27:33",
-        "Mark 15:22",
-        "John 19:17"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "See CALVARY",
-      "references": [],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Mark",
-      "book_abbrev": "mrk",
-      "chapter": 15,
-      "testament": "NT",
-      "verses": [
-        22
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "John",
-      "book_abbrev": "jhn",
-      "chapter": 19,
-      "testament": "NT",
-      "verses": [
-        17
-      ],
-      "verse_count": 1
-    }
+  "sources": [
+    "NAV"
   ],
   "see_also": [
     "CALVARY"
   ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 2,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.689268+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "aspects": [
+    {
+      "label": "The Aramaic name of the place where Jesus was crucified",
+      "references": [
+        "Matthew 27:33",
+        "Mark 15:22",
+        "John 19:17"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "See",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Matthew",
       "chapter": 27,
@@ -71,8 +32,7 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Matthew 27:33",
-      "source": "EAS"
+      "raw": "Matthew 27:33"
     },
     {
       "book": "Mark",
@@ -82,8 +42,7 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Mark 15:22",
-      "source": "EAS"
+      "raw": "Mark 15:22"
     },
     {
       "book": "John",
@@ -93,75 +52,24 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "John 19:17",
-      "source": "EAS"
-    },
-    {
-      "book": "Numbers",
-      "chapter": 1,
-      "verses": [
-        2
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Numbers 1:2",
-      "source": "EAS"
-    },
-    {
-      "book": "1 Chronicles",
-      "chapter": 23,
-      "verses": [
-        3,
-        24
-      ],
-      "verse_count": 2,
-      "testament": "OT",
-      "raw": "1 Chronicles 23:3, 24",
-      "source": "EAS"
-    },
-    {
-      "book": "2 Kings",
-      "chapter": 9,
-      "verses": [
-        35
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "2 Kings 9:35",
-      "source": "EAS"
-    },
-    {
-      "book": "Hebrews",
-      "chapter": 13,
-      "verses": [
-        12
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Hebrews 13:12",
-      "source": "EAS"
-    },
-    {
-      "book": "Luke",
-      "chapter": 23,
-      "verses": [
-        26
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Luke 23:26",
-      "source": "EAS"
-    },
-    {
-      "book": "John",
-      "chapter": 19,
-      "verses": [
-        41
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "John 19:41",
-      "source": "EAS"
+      "raw": "John 19:17"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "John",
+    "Mark",
+    "Matthew"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 3,
+    "ot_refs": 0,
+    "nt_refs": 3,
+    "books_count": 3,
+    "top_books": [
+      "Matthew",
+      "Mark",
+      "John"
+    ]
+  }
 }

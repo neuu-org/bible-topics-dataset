@@ -1,55 +1,26 @@
 {
   "topic": "HEZRAI",
   "slug": "hezrai",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Also called HEZRO",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "A Carmelite 2Sa 23:35; 1Ch 11:37",
-      "references": [
-        "2Sam 23:35",
-        "1Chr 11:37"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "1 Chronicles",
-      "book_abbrev": "1ch",
-      "chapter": 11,
-      "testament": "OT",
-      "verses": [
-        37
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.692245+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "Al",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "A",
+      "references": [
+        "2 Samuel 23:35",
+        "1 Chronicles 11:37"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "2 Samuel",
       "chapter": 23,
@@ -58,8 +29,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Samuel 23:35",
-      "source": "SMI"
+      "raw": "2 Samuel 23:35"
     },
     {
       "book": "1 Chronicles",
@@ -69,8 +39,22 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 11:37",
-      "source": "SMI"
+      "raw": "1 Chronicles 11:37"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "2 Samuel"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 2,
+    "ot_refs": 2,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "2 Samuel",
+      "1 Chronicles"
+    ]
+  }
 }

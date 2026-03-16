@@ -1,89 +1,154 @@
 {
   "topic": "THESSALONICA",
-  "topic_slug": "thessalonica",
+  "slug": "thessalonica",
   "canonical_id": "NAV:thessalonica",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–(A city of the Macedonia area)\n–Paul visitsAc 17:1;Php 4:16\n–People of, persecute PaulAc 17:5-8,11,13\n–Men of, accompany PaulAc 20:4;27:2\n–Paul writes to Christians in1Th 1:1;2Th 1:1\n–Demas goes to2Ti 4:10",
-  "content_preview": "–(A city of the Macedonia area)",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–(A city of the Macedonia area)",
-      "raw_segment": "–(A city of the Macedonia area)"
+      "label": "(A city of the Macedonia area)",
+      "references": []
     },
     {
-      "idx": 1,
-      "entry_label": "–Paul visitsAc 17:1;Php 4:16",
-      "raw_segment": "–Paul visitsAc 17:1;Php 4:16"
+      "label": "Paul visits",
+      "references": [
+        "Acts 17:1",
+        "Philippians 4:16"
+      ]
     },
     {
-      "idx": 2,
-      "entry_label": "–People of, persecute PaulAc 17:5-8,11,13",
-      "raw_segment": "–People of, persecute PaulAc 17:5-8,11,13"
+      "label": "People of, persecute Paul",
+      "references": [
+        "Acts 17:5-8,11,13"
+      ]
     },
     {
-      "idx": 3,
-      "entry_label": "–Men of, accompany PaulAc 20:4;27:2",
-      "raw_segment": "–Men of, accompany PaulAc 20:4;27:2"
+      "label": "Men of, accompany Paul",
+      "references": [
+        "Acts 20:4",
+        "Acts 27:2"
+      ]
     },
     {
-      "idx": 4,
-      "entry_label": "–Paul writes to Christians in1Th 1:1;2Th 1:1",
-      "raw_segment": "–Paul writes to Christians in1Th 1:1;2Th 1:1"
+      "label": "Paul writes to Christians in",
+      "references": [
+        "1 Thessalonians 1:1",
+        "2 Thessalonians 1:1"
+      ]
     },
     {
-      "idx": 5,
-      "entry_label": "–Demas goes to2Ti 4:10",
-      "raw_segment": "–Demas goes to2Ti 4:10"
+      "label": "General references",
+      "references": [
+        "2 Timothy 4:10"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Acts",
+      "chapter": 17,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 17:1"
+    },
+    {
+      "book": "Philippians",
+      "chapter": 4,
+      "verses": [
+        16
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Philippians 4:16"
+    },
+    {
+      "book": "Acts",
+      "chapter": 17,
+      "verses": [
+        5,
+        6,
+        7,
+        8,
+        11,
+        13
+      ],
+      "verse_count": 6,
+      "testament": "NT",
+      "raw": "Acts 17:5-8,11,13"
+    },
+    {
+      "book": "Acts",
+      "chapter": 20,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 20:4"
+    },
+    {
+      "book": "Acts",
+      "chapter": 27,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 27:2"
+    },
+    {
+      "book": "1 Thessalonians",
+      "chapter": 1,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "1 Thessalonians 1:1"
+    },
+    {
+      "book": "2 Thessalonians",
+      "chapter": 1,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "2 Thessalonians 1:1"
+    },
+    {
+      "book": "2 Timothy",
+      "chapter": 4,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "2 Timothy 4:10"
+    }
+  ],
+  "books_mentioned": [
+    "1 Thessalonians",
+    "2 Thessalonians",
+    "2 Timothy",
+    "Acts",
+    "Philippians"
+  ],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 6,
+    "total_refs": 8,
     "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:0a08d12ea1e32da72938369716a1fc7ba6729eebfe20cbd9fdd632e9f41cb0e8",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 6
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "nt_refs": 8,
+    "books_count": 5,
+    "top_books": [
+      "Acts",
+      "Philippians",
+      "1 Thessalonians",
+      "2 Thessalonians",
+      "2 Timothy"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:32:09.727207Z",
-  "updated_at": "2025-09-20T17:32:09.727215Z"
+  }
 }

@@ -1,73 +1,75 @@
 {
   "topic": "SALOME",
   "slug": "salome",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Mother of James and John Mt 27:56; with Mr 15:40; 16:1",
-      "references": [
-        "Matt 27:56",
-        "Mark 15:40",
-        "Mark 16:1"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Asks Jesus to promote her sons Mt 20:20,21",
-      "references": [
-        "Matt 20:20",
-        "Matt 20:21"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Present at the crucifixion of Jesus of Nazareth Mr 15:40",
-      "references": [
-        "Mark 15:40"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Present at the gravesite of Jesus Mr 16:1,2",
-      "references": [
-        "Mark 16:1",
-        "Mark 16:2"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 4,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.722662+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "see_also": [],
+  "aspects": [
     {
-      "book": "John",
-      "chapter": 19,
+      "label": "Mother of James and",
+      "references": [
+        "Matthew 27:56",
+        "Mark 15:40",
+        "Mark 16:1"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Asks Jesus to promote her",
+      "references": [
+        "Matthew 20:20,21"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Present at the crucifixion of Jesus of Nazareth",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "15:40",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "Present at the gravesite of Jesus",
+      "references": [
+        "Mark 16:1,2"
+      ],
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
+    {
+      "book": "Matthew",
+      "chapter": 27,
       "verses": [
-        25
+        56
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "John 19:25",
-      "source": "EAS"
+      "raw": "Matthew 27:56"
+    },
+    {
+      "book": "Mark",
+      "chapter": 15,
+      "verses": [
+        40
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Mark 15:40"
+    },
+    {
+      "book": "Mark",
+      "chapter": 16,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Mark 16:1"
     },
     {
       "book": "Matthew",
@@ -78,67 +80,43 @@
       ],
       "verse_count": 2,
       "testament": "NT",
-      "raw": "Matthew 20:20, 21",
-      "source": "EAS"
+      "raw": "Matthew 20:20,21"
     },
     {
       "book": "Matthew",
-      "chapter": 19,
-      "verses": [
-        28
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Matthew 19:28",
-      "source": "EAS"
-    },
-    {
-      "book": "Mark",
       "chapter": 15,
       "verses": [
         40
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Mark 15:40",
-      "source": "EAS"
-    },
-    {
-      "book": "Matthew",
-      "chapter": 27,
-      "verses": [
-        56
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Matthew 27:56",
-      "source": "EAS"
+      "raw": "Matthew 15:40"
     },
     {
       "book": "Mark",
-      "chapter": 6,
+      "chapter": 16,
       "verses": [
-        14,
-        15,
-        16,
-        17,
-        18,
-        19,
-        20,
-        21,
-        22,
-        23,
-        24,
-        25,
-        26,
-        27,
-        28,
-        29
+        1,
+        2
       ],
-      "verse_count": 16,
+      "verse_count": 2,
       "testament": "NT",
-      "raw": "Mark 6:14-29",
-      "source": "EAS"
+      "raw": "Mark 16:1,2"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Mark",
+    "Matthew"
+  ],
+  "stats": {
+    "total_aspects": 5,
+    "total_refs": 6,
+    "ot_refs": 0,
+    "nt_refs": 6,
+    "books_count": 2,
+    "top_books": [
+      "Matthew",
+      "Mark"
+    ]
+  }
 }

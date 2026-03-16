@@ -1,77 +1,72 @@
 {
   "topic": "MICHAIAH",
   "slug": "michaiah",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. Father of Achbor 2Ki 22:12",
-      "references": [
-        "2Kgs 22:12"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "2. MICHAIAH",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "3. A prince sent by Jehoshaphat to teach the law in the cities of Judah 2Ch 17:7",
-      "references": [
-        "2Chr 17:7"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "4. A priest of the family of Asaph Ne 12:35,41",
-      "references": [
-        "Neh 12:35",
-        "Neh 12:41"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "5. Son of Gemariah .Who expounds to the prophecies of Jeremiah read by to the people Jer 36:11-14",
-      "references": [
-        "Jer 36:11-14"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [
-    "MAACHAH"
-  ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 5,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.706152+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "see_also": [
+    "MAACHAH"
+  ],
+  "aspects": [
     {
-      "book": "2 Chronicles",
-      "chapter": 13,
+      "label": "1. Father of Achbor",
+      "references": [
+        "2 Kings 22:12"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2. MICHAIAH",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".SeeMAACHAH,",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "3. A prince sent by Jehoshaphat to teach the law in the cities",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "of",
+      "references": [
+        "2 Chronicles 17:7"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "4. A priest of the family of Asaph",
+      "references": [
+        "Nehemiah 12:35,41"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "5.",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "read by to the people",
+      "references": [
+        "Jeremiah 36:11-14"
+      ],
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
+    {
+      "book": "2 Kings",
+      "chapter": 22,
       "verses": [
-        2
+        12
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Chronicles 13:2",
-      "source": "EAS"
+      "raw": "2 Kings 22:12"
     },
     {
       "book": "2 Chronicles",
@@ -81,53 +76,50 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Chronicles 17:7",
-      "source": "EAS"
+      "raw": "2 Chronicles 17:7"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 12,
+      "verses": [
+        35,
+        41
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Nehemiah 12:35,41"
     },
     {
       "book": "Jeremiah",
       "chapter": 36,
       "verses": [
         11,
-        13
+        12,
+        13,
+        14
       ],
-      "verse_count": 2,
+      "verse_count": 4,
       "testament": "OT",
-      "raw": "Jeremiah 36:11, 13",
-      "source": "EAS"
-    },
-    {
-      "book": "Nehemiah",
-      "chapter": 12,
-      "verses": [
-        35
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Nehemiah 12:35",
-      "source": "EAS"
-    },
-    {
-      "book": "Nehemiah",
-      "chapter": 12,
-      "verses": [
-        41
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Nehemiah 12:41",
-      "source": "EAS"
-    },
-    {
-      "book": "2 Kings",
-      "chapter": 22,
-      "verses": [
-        12
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "2 Kings 22:12",
-      "source": "EAS"
+      "raw": "Jeremiah 36:11-14"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "2 Chronicles",
+    "2 Kings",
+    "Jeremiah",
+    "Nehemiah"
+  ],
+  "stats": {
+    "total_aspects": 8,
+    "total_refs": 4,
+    "ot_refs": 4,
+    "nt_refs": 0,
+    "books_count": 4,
+    "top_books": [
+      "2 Kings",
+      "2 Chronicles",
+      "Nehemiah",
+      "Jeremiah"
+    ]
+  }
 }

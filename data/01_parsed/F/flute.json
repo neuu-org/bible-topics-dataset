@@ -1,50 +1,27 @@
 {
   "topic": "FLUTE",
   "slug": "flute",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "General scriptures concerning Da 3:5,7,10,15",
-      "references": [
-        "Dan 3:5",
-        "Dan 3:7",
-        "Dan 3:10",
-        "Dan 3:15"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "See MUSIC, INSTRUMENTS OF",
-      "references": [],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [
-    "MUSIC, INSTRUMENTS OF"
-  ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.686958+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [
+    "MUSIC, INSTRUMENTS OF"
+  ],
+  "aspects": [
+    {
+      "label": "General scriptures concerning",
+      "references": [
+        "Daniel 3:5,7,10,15"
+      ],
+      "source": "NAV"
     },
-    "enriched_at": "2025-12-02T22:02:10.203618+00:00",
-    "enrichment_source": "pipeline_merge"
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+    {
+      "label": "SeeMUSIC, INSTRUMENTS OF",
+      "references": [],
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
     {
       "book": "Daniel",
       "chapter": 3,
@@ -56,31 +33,20 @@
       ],
       "verse_count": 4,
       "testament": "OT",
-      "raw": "Daniel 3:5, 7, 10, 15",
-      "source": "EAS"
-    },
-    {
-      "book": "Matthew",
-      "chapter": 9,
-      "verses": [
-        23,
-        24
-      ],
-      "verse_count": 2,
-      "testament": "NT",
-      "raw": "Matthew 9:23, 24",
-      "source": "EAS"
-    },
-    {
-      "book": "1 Kings",
-      "chapter": 1,
-      "verses": [
-        40
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "1 Kings 1:40",
-      "source": "SMI"
+      "raw": "Daniel 3:5,7,10,15"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Daniel"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 1,
+    "ot_refs": 1,
+    "nt_refs": 0,
+    "books_count": 1,
+    "top_books": [
+      "Daniel"
+    ]
+  }
 }

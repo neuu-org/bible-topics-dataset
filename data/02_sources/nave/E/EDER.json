@@ -1,79 +1,91 @@
 {
   "topic": "EDER",
-  "topic_slug": "eder",
+  "slug": "eder",
   "canonical_id": "NAV:eder",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–Also called EDAR\n–1. A place near EphrathGe 35:21\n–2. A city of JudahJos 15:21\n–3. A grandson of Merari1Ch 23:23;24:30",
-  "content_preview": "–Also called EDAR",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–Also called EDAR",
-      "raw_segment": "–Also called EDAR"
+      "label": "Al",
+      "references": []
     },
     {
-      "idx": 1,
-      "entry_label": "–1. A place near EphrathGe 35:21",
-      "raw_segment": "–1. A place near EphrathGe 35:21"
+      "label": "1. A place near Ephrath",
+      "references": [
+        "Genesis 35:21"
+      ]
     },
     {
-      "idx": 2,
-      "entry_label": "–2. A city of JudahJos 15:21",
-      "raw_segment": "–2. A city of JudahJos 15:21"
+      "label": "2. A city of",
+      "references": [
+        "Joshua 15:21"
+      ]
     },
     {
-      "idx": 3,
-      "entry_label": "–3. A grandson of Merari1Ch 23:23;24:30",
-      "raw_segment": "–3. A grandson of Merari1Ch 23:23;24:30"
+      "label": "3. A grand",
+      "references": [
+        "1 Chronicles 23:23",
+        "1 Chronicles 24:30"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Genesis",
+      "chapter": 35,
+      "verses": [
+        21
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 35:21"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 15,
+      "verses": [
+        21
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 15:21"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 23,
+      "verses": [
+        23
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 23:23"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 24,
+      "verses": [
+        30
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 24:30"
+    }
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Genesis",
+    "Joshua"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 4,
+    "total_refs": 4,
+    "ot_refs": 4,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:13862a3f101dc499ff2f6f19f382efcc7438da7c5e61cec5eec1ed155c9eba86",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 4
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 3,
+    "top_books": [
+      "1 Chronicles",
+      "Genesis",
+      "Joshua"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:25:47.484510Z",
-  "updated_at": "2025-09-20T17:25:47.484518Z"
+  }
 }

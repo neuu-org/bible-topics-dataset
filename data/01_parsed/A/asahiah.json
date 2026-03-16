@@ -1,23 +1,42 @@
 {
   "topic": "ASAHIAH",
   "slug": "asahiah",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "An officer of King Josiah 2Ki 22:12-20; 2Ch 34:20-28",
+      "label": "An officer of King Josiah",
       "references": [
-        "2Kgs 22:12-20",
-        "2Chr 34:20-28"
+        "2 Kings 22:12-20",
+        "2 Chronicles 34:20-28"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "2 Chronicles",
-      "book_abbrev": "2ch",
-      "chapter": 34,
+      "book": "2 Kings",
+      "chapter": 22,
+      "verses": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "verse_count": 9,
       "testament": "OT",
+      "raw": "2 Kings 22:12-20"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 34,
       "verses": [
         20,
         21,
@@ -29,52 +48,24 @@
         27,
         28
       ],
-      "verse_count": 9
+      "verse_count": 9,
+      "testament": "OT",
+      "raw": "2 Chronicles 34:20-28"
     }
   ],
-  "see_also": [],
-  "aliases": [],
+  "books_mentioned": [
+    "2 Chronicles",
+    "2 Kings"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 1,
+    "total_aspects": 1,
+    "total_refs": 2,
+    "ot_refs": 2,
     "nt_refs": 0,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.670112+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "2 Kings",
-      "chapter": 22,
-      "verses": [
-        12,
-        14
-      ],
-      "verse_count": 2,
-      "testament": "OT",
-      "raw": "2 Kings 22:12,14",
-      "source": "SMI"
-    },
-    {
-      "book": "2 Chronicles",
-      "chapter": 34,
-      "verses": [
-        20
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "2 Chronicles 34:20",
-      "source": "SMI"
-    }
-  ]
+    "books_count": 2,
+    "top_books": [
+      "2 Kings",
+      "2 Chronicles"
+    ]
+  }
 }

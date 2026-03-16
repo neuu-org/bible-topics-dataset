@@ -1,100 +1,102 @@
 {
   "topic": "STUDENTS",
-  "topic_slug": "students",
+  "slug": "students",
   "canonical_id": "NAV:students",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "SCHOOL",
     "INSTRUCTION"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "SCHOOL",
-      "clean": "SCHOOL",
-      "slug": "school",
-      "canonical_id": "NAV:school"
+      "label": "Poverty of",
+      "references": [
+        "2 Kings 4:1"
+      ]
     },
     {
-      "original": "INSTRUCTION",
-      "clean": "INSTRUCTION",
-      "slug": "instruction",
-      "canonical_id": "NAV:instruction"
+      "label": "In a state schoolDa 1",
+      "references": []
+    },
+    {
+      "label": "In the schools of the prophets",
+      "references": [
+        "1 Samuel 19:20",
+        "1 Kings 20:35",
+        "2 Kings 2:2,3,5,7,15",
+        "2 Kings 4:1"
+      ]
+    },
+    {
+      "label": "SeeINSTRUCTION",
+      "references": []
+    },
+    {
+      "label": "SeeSCHOOL",
+      "references": []
     }
   ],
-  "raw_block": "–Poverty of2Ki 4:1\n–In a state schoolDa 1\n–In the schools of the prophets1Sa 19:20;1Ki 20:35;2Ki 2:2,3,5,7,15;4:1\n–SeeINSTRUCTION\n–SeeSCHOOL",
-  "content_preview": "–Poverty of2Ki 4:1",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–Poverty of2Ki 4:1",
-      "raw_segment": "–Poverty of2Ki 4:1"
+      "book": "2 Kings",
+      "chapter": 4,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Kings 4:1"
     },
     {
-      "idx": 1,
-      "entry_label": "–In a state schoolDa 1",
-      "raw_segment": "–In a state schoolDa 1"
+      "book": "1 Samuel",
+      "chapter": 19,
+      "verses": [
+        20
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Samuel 19:20"
     },
     {
-      "idx": 2,
-      "entry_label": "–In the schools of the prophets1Sa 19:20;1Ki 20:35;2Ki 2:2,3,5,7,15;4:1",
-      "raw_segment": "–In the schools of the prophets1Sa 19:20;1Ki 20:35;2Ki 2:2,3,5,7,15;4:1"
+      "book": "1 Kings",
+      "chapter": 20,
+      "verses": [
+        35
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Kings 20:35"
     },
     {
-      "idx": 3,
-      "entry_label": "–SeeINSTRUCTION",
-      "raw_segment": "–SeeINSTRUCTION"
-    },
-    {
-      "idx": 4,
-      "entry_label": "–SeeSCHOOL",
-      "raw_segment": "–SeeSCHOOL"
+      "book": "2 Kings",
+      "chapter": 2,
+      "verses": [
+        2,
+        3,
+        5,
+        7,
+        15
+      ],
+      "verse_count": 5,
+      "testament": "OT",
+      "raw": "2 Kings 2:2,3,5,7,15"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "1 Kings",
+    "1 Samuel",
+    "2 Kings"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 5,
+    "total_refs": 4,
+    "ot_refs": 4,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:04b8754bb574ecfd3d7fa2884db7e957c467d8ac6e7b0d399cba6e27d46d6f54",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 5
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 3,
+    "top_books": [
+      "2 Kings",
+      "1 Samuel",
+      "1 Kings"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:31:50.634696Z",
-  "updated_at": "2025-09-20T17:31:50.634704Z"
+  }
 }

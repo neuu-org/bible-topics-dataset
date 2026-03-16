@@ -1,74 +1,133 @@
 {
   "topic": "MARESHAH",
-  "topic_slug": "mareshah",
+  "slug": "mareshah",
   "canonical_id": "NAV:mareshah",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–1. A city of the tribe of JudahJos 15:44;2Ch 11:8;14:9,10\n  .Birthplace of Eliezer the prophet2Ch 20:37\n  .Prophecy concerningMic 1:15\n–2. Father of Hebron1Ch 2:42\n–3. A son of (or possibly a city) founded by, Laadah1Ch 4:21",
-  "content_preview": "–1. A city of the tribe of JudahJos 15:44;2Ch 11:8;14:9,10",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–1. A city of the tribe of JudahJos 15:44;2Ch 11:8;14:9,10",
-      "raw_segment": "–1. A city of the tribe of JudahJos 15:44;2Ch 11:8;14:9,10"
+      "label": "1. A city of the tribe of",
+      "references": [
+        "Joshua 15:44",
+        "2 Chronicles 11:8",
+        "2 Chronicles 14:9,10"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–2. Father of Hebron1Ch 2:42",
-      "raw_segment": "–2. Father of Hebron1Ch 2:42"
+      "label": ".Birthplace of Eliezer the prophet",
+      "references": [
+        "2 Chronicles 20:37"
+      ]
     },
     {
-      "idx": 2,
-      "entry_label": "–3. A son of (or possibly a city) founded by, Laadah1Ch 4:21",
-      "raw_segment": "–3. A son of (or possibly a city) founded by, Laadah1Ch 4:21"
+      "label": ".Prophecy concerning",
+      "references": [
+        "Micah 1:15"
+      ]
+    },
+    {
+      "label": "2. Father of Hebron",
+      "references": [
+        "1 Chronicles 2:42"
+      ]
+    },
+    {
+      "label": "3. A",
+      "references": [
+        "1 Chronicles 4:21"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Joshua",
+      "chapter": 15,
+      "verses": [
+        44
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 15:44"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 11,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Chronicles 11:8"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 14,
+      "verses": [
+        9,
+        10
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "2 Chronicles 14:9,10"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 20,
+      "verses": [
+        37
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Chronicles 20:37"
+    },
+    {
+      "book": "Micah",
+      "chapter": 1,
+      "verses": [
+        15
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Micah 1:15"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 2,
+      "verses": [
+        42
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 2:42"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 4,
+      "verses": [
+        21
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 4:21"
+    }
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "2 Chronicles",
+    "Joshua",
+    "Micah"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 5,
+    "total_refs": 7,
+    "ot_refs": 7,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:89abe63ff9fd797446de17ba0c829bd7645b553beb4d95352b10816525bd3838",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 5
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 4,
+    "top_books": [
+      "2 Chronicles",
+      "1 Chronicles",
+      "Joshua",
+      "Micah"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:28:52.493407Z",
-  "updated_at": "2025-09-20T17:28:52.493414Z"
+  }
 }

@@ -1,79 +1,47 @@
 {
   "topic": "PHILIPPI",
   "slug": "philippi",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "(A city of Macedonia) -Paul preaches in Ac 16:12-40; 20:1-6; 1Th 2:2",
+      "label": "(A city of Macedonia) -Paul preaches in",
       "references": [
         "Acts 16:12-40",
         "Acts 20:1-6",
-        "1Thess 2:2"
+        "1 Thessalonians 2:2"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Contributes to the maintenance of Paul Php 4:10-18",
+      "label": "Contributes to the maintenance of Paul",
       "references": [
-        "Phil 4:10-18"
+        "Philippians 4:10-18"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Paul sends Epaphroditus to Php 2:25",
+      "label": "Paul sends Epaphroditus to",
       "references": [
-        "Phil 2:25"
+        "Philippians 2:25"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Paul writes a letter to the Christians of Php 1:1",
+      "label": "Paul writes a letter to the Christians of",
       "references": [
-        "Phil 1:1"
+        "Philippians 1:1"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "1 Thessalonians",
-      "book_abbrev": "1th",
-      "chapter": 2,
-      "testament": "NT",
-      "verses": [
-        2
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 4,
-    "ot_refs": 0,
-    "nt_refs": 1,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.718166+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
       "book": "Acts",
       "chapter": 16,
       "verses": [
-        9,
-        10,
-        11,
         12,
         13,
         14,
@@ -104,10 +72,24 @@
         39,
         40
       ],
-      "verse_count": 32,
+      "verse_count": 29,
       "testament": "NT",
-      "raw": "Acts 16:9-40",
-      "source": "EAS"
+      "raw": "Acts 16:12-40"
+    },
+    {
+      "book": "Acts",
+      "chapter": 20,
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "verse_count": 6,
+      "testament": "NT",
+      "raw": "Acts 20:1-6"
     },
     {
       "book": "1 Thessalonians",
@@ -117,19 +99,62 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "1 Thessalonians 2:2",
-      "source": "EAS"
+      "raw": "1 Thessalonians 2:2"
     },
     {
-      "book": "Acts",
-      "chapter": 16,
+      "book": "Philippians",
+      "chapter": 4,
       "verses": [
-        23
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "verse_count": 9,
+      "testament": "NT",
+      "raw": "Philippians 4:10-18"
+    },
+    {
+      "book": "Philippians",
+      "chapter": 2,
+      "verses": [
+        25
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Acts 16:23",
-      "source": "SMI"
+      "raw": "Philippians 2:25"
+    },
+    {
+      "book": "Philippians",
+      "chapter": 1,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Philippians 1:1"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Thessalonians",
+    "Acts",
+    "Philippians"
+  ],
+  "stats": {
+    "total_aspects": 4,
+    "total_refs": 6,
+    "ot_refs": 0,
+    "nt_refs": 6,
+    "books_count": 3,
+    "top_books": [
+      "Philippians",
+      "Acts",
+      "1 Thessalonians"
+    ]
+  }
 }

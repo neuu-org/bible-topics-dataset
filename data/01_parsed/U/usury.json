@@ -1,192 +1,104 @@
 {
   "topic": "USURY",
   "slug": "usury",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "(Interest, not necessarily unreasonable exaction, but all income from loans)",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "Forbidden Ex 22:25; Le 25:35-37; De 23:19; Ps 15:5; Pr 28:8; Jer 15:10; Eze 18:8,13,17; 22:12",
-      "references": [
-        "Exod 22:25",
-        "Lev 25:35-37",
-        "Deut 23:19",
-        "Ps 15:5",
-        "Prov 28:8",
-        "Jer 15:10",
-        "Ezek 18:8",
-        "Ezek 18:13",
-        "Ezek 18:17",
-        "Ezek 22:12"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Exaction of, rebuked Ne 5:1-13",
-      "references": [
-        "Neh 5:1-13"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Authorized, of strangers (foreigners) De 23:20",
-      "references": [
-        "Deut 23:20"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Exacted by Jews Eze 22:12",
-      "references": [
-        "Ezek 22:12"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Just men innocent of the vice of requiring Eze 18:8",
-      "references": [
-        "Ezek 18:8"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "See INTEREST",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "See MONEY",
-      "references": [],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Leviticus",
-      "book_abbrev": "lev",
-      "chapter": 25,
-      "testament": "OT",
-      "verses": [
-        35,
-        36,
-        37
-      ],
-      "verse_count": 3
-    },
-    {
-      "book": "Deuteronomy",
-      "book_abbrev": "deu",
-      "chapter": 23,
-      "testament": "OT",
-      "verses": [
-        19
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Deuteronomy",
-      "book_abbrev": "deu",
-      "chapter": 23,
-      "testament": "OT",
-      "verses": [
-        20
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Psalms",
-      "book_abbrev": "psa",
-      "chapter": 15,
-      "testament": "OT",
-      "verses": [
-        5
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Proverbs",
-      "book_abbrev": "pro",
-      "chapter": 28,
-      "testament": "OT",
-      "verses": [
-        8
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Jeremiah",
-      "book_abbrev": "jer",
-      "chapter": 15,
-      "testament": "OT",
-      "verses": [
-        10
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Ezekiel",
-      "book_abbrev": "ezk",
-      "chapter": 18,
-      "testament": "OT",
-      "verses": [
-        8,
-        13,
-        17,
-        22
-      ],
-      "verse_count": 4
-    }
+  "sources": [
+    "NAV"
   ],
   "see_also": [
     "INTEREST",
     "MONEY"
   ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 8,
-    "ot_refs": 7,
-    "nt_refs": 0,
-    "total_verses": 7
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.732158+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "aspects": [
+    {
+      "label": "(Interest, not necessarily unrea",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "Forbid",
+      "references": [
+        "Exodus 22:25",
+        "Leviticus 25:35-37",
+        "Deuteronomy 23:19",
+        "Psalms 15:5",
+        "Proverbs 28:8",
+        "Jeremiah 15:10",
+        "Ezekiel 18:8,13,17",
+        "Ezekiel 22:12"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Exaction of, rebuked",
+      "references": [
+        "Nehemiah 5:1-13"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Authorized, of strangers (foreigners)",
+      "references": [
+        "Deuteronomy 23:20"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Exacted by Jews",
+      "references": [
+        "Ezekiel 22:12"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Just men innocent of the vice of requiring",
+      "references": [
+        "Ezekiel 18:8"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeINTEREST",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeMONEY",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
+    {
+      "book": "Exodus",
+      "chapter": 22,
+      "verses": [
+        25
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 22:25"
+    },
     {
       "book": "Leviticus",
       "chapter": 25,
       "verses": [
+        35,
         36,
         37
       ],
-      "verse_count": 2,
+      "verse_count": 3,
       "testament": "OT",
-      "raw": "Leviticus 25:36, 37",
-      "source": "EAS"
+      "raw": "Leviticus 25:35-37"
     },
     {
       "book": "Deuteronomy",
       "chapter": 23,
       "verses": [
-        19,
-        20
+        19
       ],
-      "verse_count": 2,
+      "verse_count": 1,
       "testament": "OT",
-      "raw": "Deuteronomy 23:19, 20",
-      "source": "EAS"
+      "raw": "Deuteronomy 23:19"
     },
     {
       "book": "Psalms",
@@ -196,8 +108,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Psalms 15:5",
-      "source": "EAS"
+      "raw": "Psalms 15:5"
     },
     {
       "book": "Proverbs",
@@ -207,8 +118,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Proverbs 28:8",
-      "source": "EAS"
+      "raw": "Proverbs 28:8"
     },
     {
       "book": "Jeremiah",
@@ -218,20 +128,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Jeremiah 15:10",
-      "source": "EAS"
-    },
-    {
-      "book": "Nehemiah",
-      "chapter": 5,
-      "verses": [
-        7,
-        10
-      ],
-      "verse_count": 2,
-      "testament": "OT",
-      "raw": "Nehemiah 5:7, 10",
-      "source": "EAS"
+      "raw": "Jeremiah 15:10"
     },
     {
       "book": "Ezekiel",
@@ -243,8 +140,86 @@
       ],
       "verse_count": 3,
       "testament": "OT",
-      "raw": "Ezekiel 18:8,13,17",
-      "source": "SMI"
+      "raw": "Ezekiel 18:8,13,17"
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 22,
+      "verses": [
+        12
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezekiel 22:12"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 5,
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "verse_count": 13,
+      "testament": "OT",
+      "raw": "Nehemiah 5:1-13"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 23,
+      "verses": [
+        20
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 23:20"
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 18,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezekiel 18:8"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Deuteronomy",
+    "Exodus",
+    "Ezekiel",
+    "Jeremiah",
+    "Leviticus",
+    "Nehemiah",
+    "Proverbs",
+    "Psalms"
+  ],
+  "stats": {
+    "total_aspects": 8,
+    "total_refs": 11,
+    "ot_refs": 11,
+    "nt_refs": 0,
+    "books_count": 8,
+    "top_books": [
+      "Ezekiel",
+      "Deuteronomy",
+      "Exodus",
+      "Leviticus",
+      "Psalms",
+      "Proverbs",
+      "Jeremiah",
+      "Nehemiah"
+    ]
+  }
 }

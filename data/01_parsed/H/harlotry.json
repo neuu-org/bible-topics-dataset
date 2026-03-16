@@ -1,67 +1,85 @@
 {
   "topic": "HARLOTRY",
   "slug": "harlotry",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [
+    "ADULTERY",
+    "WHOREDOM"
+  ],
+  "aspects": [
     {
-      "name": "Forbidden Le 19:29; De 23:17",
+      "label": "Forbid",
       "references": [
-        "Lev 19:29",
-        "Deut 23:17"
+        "Leviticus 19:29",
+        "Deuteronomy 23:17"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Punishment of Le 21:9",
+      "label": "Punishment of",
       "references": [
-        "Lev 21:9"
+        "Leviticus 21:9"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See ADULTERY",
+      "label": "SeeADULTERY",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See WHOREDOM",
+      "label": "SeeWHOREDOM",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Deuteronomy",
-      "book_abbrev": "deu",
-      "chapter": 23,
+      "book": "Leviticus",
+      "chapter": 19,
+      "verses": [
+        29
+      ],
+      "verse_count": 1,
       "testament": "OT",
+      "raw": "Leviticus 19:29"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 23,
       "verses": [
         17
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 23:17"
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 21,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Leviticus 21:9"
     }
   ],
-  "see_also": [
-    "WHOREDOM",
-    "ADULTERY"
+  "books_mentioned": [
+    "Deuteronomy",
+    "Leviticus"
   ],
-  "aliases": [],
   "stats": {
-    "entries_count": 4,
-    "ot_refs": 1,
+    "total_aspects": 4,
+    "total_refs": 3,
+    "ot_refs": 3,
     "nt_refs": 0,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.690877+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    }
-  },
-  "version": "3.0.0"
+    "books_count": 2,
+    "top_books": [
+      "Leviticus",
+      "Deuteronomy"
+    ]
+  }
 }

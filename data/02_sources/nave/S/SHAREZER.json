@@ -1,69 +1,75 @@
 {
   "topic": "SHAREZER",
-  "topic_slug": "sharezer",
+  "slug": "sharezer",
   "canonical_id": "NAV:sharezer",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–1. Son of Sennacherib2Ki 19:37;Isa 37:38\n–2. (R. V.) A delegate to priests and prophets to consult as to \na day of humiliationZec 7:2",
-  "content_preview": "–1. Son of Sennacherib2Ki 19:37;Isa 37:38",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–1. Son of Sennacherib2Ki 19:37;Isa 37:38",
-      "raw_segment": "–1. Son of Sennacherib2Ki 19:37;Isa 37:38"
+      "label": "1.",
+      "references": [
+        "2 Kings 19:37",
+        "Isaiah 37:38"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–2. (R. V.) A delegate to priests and prophets to consult as to \na day of humiliationZec 7:2",
-      "raw_segment": "–2. (R. V.) A delegate to priests and prophets to consult as to \na day of humiliationZec 7:2"
+      "label": "2. (R. V.) A",
+      "references": []
+    },
+    {
+      "label": "a day of humiliation",
+      "references": [
+        "Ecclesiastes 7:2"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "2 Kings",
+      "chapter": 19,
+      "verses": [
+        37
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Kings 19:37"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 37,
+      "verses": [
+        38
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 37:38"
+    },
+    {
+      "book": "Ecclesiastes",
+      "chapter": 7,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ecclesiastes 7:2"
+    }
+  ],
+  "books_mentioned": [
+    "2 Kings",
+    "Ecclesiastes",
+    "Isaiah"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 3,
+    "total_refs": 3,
+    "ot_refs": 3,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:6dd88d42e86e9f826962d334bf94ce7c4931efa986e587326d32e1ac9c3477b2",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 3
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 3,
+    "top_books": [
+      "2 Kings",
+      "Isaiah",
+      "Ecclesiastes"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:31:12.078787Z",
-  "updated_at": "2025-09-20T17:31:12.078795Z"
+  }
 }

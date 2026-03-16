@@ -1,64 +1,40 @@
 {
   "topic": "DYSPEPSIA",
-  "topic_slug": "dyspepsia",
+  "slug": "dyspepsia",
   "canonical_id": "NAV:dyspepsia",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–Of Timothy1Ti 5:23",
-  "content_preview": "–Of Timothy1Ti 5:23",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–Of Timothy1Ti 5:23",
-      "raw_segment": "–Of Timothy1Ti 5:23"
+      "label": "Of Timothy",
+      "references": [
+        "1 Timothy 5:23"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "1 Timothy",
+      "chapter": 5,
+      "verses": [
+        23
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "1 Timothy 5:23"
+    }
+  ],
+  "books_mentioned": [
+    "1 Timothy"
+  ],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 1,
+    "total_refs": 1,
     "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:fcdf974cebe83efdfbb34aaa8e89e6f700355982558f41582e3dac9bfd0b9831",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 1
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "nt_refs": 1,
+    "books_count": 1,
+    "top_books": [
+      "1 Timothy"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:25:44.474217Z",
-  "updated_at": "2025-09-20T17:25:44.474225Z"
+  }
 }

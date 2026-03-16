@@ -1,105 +1,72 @@
 {
   "topic": "UZZI",
   "slug": "uzzi",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. A priest",
-      "references": [],
-      "sub_groups": [
-        {
-          "name": "Son of Bukki 1Ch 6:5,6,51; Ezr 7:4",
-          "references": [
-            "1Chr 6:5",
-            "1Chr 6:6",
-            "1Chr 6:51",
-            "Ezra 7:4"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "2. Grandson of Issachar 1Ch 7:2,3",
-      "references": [
-        "1Chr 7:2",
-        "1Chr 7:3"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "3. Grandson of Benjamin 1Ch 7:7",
-      "references": [
-        "1Chr 7:7"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "4. Son of Michri 1Ch 9:8",
-      "references": [
-        "1Chr 9:8"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "5. An overseer of the Levites Ne 11:22",
-      "references": [
-        "Neh 11:22"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "6. A priest in the time of Nehemiah Ne 12:19,42",
-      "references": [
-        "Neh 12:19",
-        "Neh 12:42"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Ezra",
-      "book_abbrev": "ezr",
-      "chapter": 7,
-      "testament": "OT",
-      "verses": [
-        4
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 6,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.732282+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "1. A priest",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".",
+      "references": [
+        "1 Chronicles 6:5,6,51",
+        "Ezra 7:4"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2. Grand",
+      "references": [
+        "1 Chronicles 7:2,3"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "3. Grand",
+      "references": [
+        "1 Chronicles 7:7"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "4.",
+      "references": [
+        "1 Chronicles 9:8"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "5. An overseer of the Levites",
+      "references": [
+        "Nehemiah 11:22"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "6. A priest in the time of Nehemiah",
+      "references": [
+        "Nehemiah 12:19,42"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "1 Chronicles",
       "chapter": 6,
       "verses": [
         5,
+        6,
         51
       ],
-      "verse_count": 2,
+      "verse_count": 3,
       "testament": "OT",
-      "raw": "1 Chronicles 6:5, 51",
-      "source": "EAS"
+      "raw": "1 Chronicles 6:5,6,51"
     },
     {
       "book": "Ezra",
@@ -109,8 +76,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Ezra 7:4",
-      "source": "EAS"
+      "raw": "Ezra 7:4"
     },
     {
       "book": "1 Chronicles",
@@ -121,8 +87,7 @@
       ],
       "verse_count": 2,
       "testament": "OT",
-      "raw": "1 Chronicles 7:2, 3",
-      "source": "EAS"
+      "raw": "1 Chronicles 7:2,3"
     },
     {
       "book": "1 Chronicles",
@@ -132,8 +97,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 7:7",
-      "source": "EAS"
+      "raw": "1 Chronicles 7:7"
     },
     {
       "book": "1 Chronicles",
@@ -143,8 +107,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 9:8",
-      "source": "EAS"
+      "raw": "1 Chronicles 9:8"
     },
     {
       "book": "Nehemiah",
@@ -154,30 +117,35 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Nehemiah 11:22",
-      "source": "EAS"
+      "raw": "Nehemiah 11:22"
     },
     {
       "book": "Nehemiah",
       "chapter": 12,
       "verses": [
-        19
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Nehemiah 12:19",
-      "source": "EAS"
-    },
-    {
-      "book": "Nehemiah",
-      "chapter": 12,
-      "verses": [
+        19,
         42
       ],
-      "verse_count": 1,
+      "verse_count": 2,
       "testament": "OT",
-      "raw": "Nehemiah 12:42",
-      "source": "EAS"
+      "raw": "Nehemiah 12:19,42"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Ezra",
+    "Nehemiah"
+  ],
+  "stats": {
+    "total_aspects": 7,
+    "total_refs": 7,
+    "ot_refs": 7,
+    "nt_refs": 0,
+    "books_count": 3,
+    "top_books": [
+      "1 Chronicles",
+      "Nehemiah",
+      "Ezra"
+    ]
+  }
 }

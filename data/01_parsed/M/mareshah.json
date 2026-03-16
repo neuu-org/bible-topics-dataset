@@ -1,90 +1,69 @@
 {
   "topic": "MARESHAH",
   "slug": "mareshah",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "1. A city of the tribe of Judah Jos 15:44; 2Ch 11:8; 14:9,10",
+      "label": "1. A city of the tribe of",
       "references": [
-        "Josh 15:44",
-        "2Chr 11:8",
-        "2Chr 14:9",
-        "2Chr 14:10"
+        "Joshua 15:44",
+        "2 Chronicles 11:8",
+        "2 Chronicles 14:9,10"
       ],
-      "sub_groups": [
-        {
-          "name": "Birthplace of Eliezer the prophet 2Ch 20:37",
-          "references": [
-            "2Chr 20:37"
-          ]
-        },
-        {
-          "name": "Prophecy concerning Mic 1:15",
-          "references": [
-            "Mic 1:15"
-          ]
-        }
-      ]
+      "source": "NAV"
     },
     {
-      "name": "2. Father of Hebron 1Ch 2:42",
+      "label": ".Birthplace of Eliezer the prophet",
       "references": [
-        "1Chr 2:42"
+        "2 Chronicles 20:37"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "3. A son of (or possibly a city) founded by, Laadah 1Ch 4:21",
+      "label": ".Prophecy concerning",
       "references": [
-        "1Chr 4:21"
+        "Micah 1:15"
       ],
-      "sub_groups": []
+      "source": "NAV"
+    },
+    {
+      "label": "2. Father of Hebron",
+      "references": [
+        "1 Chronicles 2:42"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "3. A",
+      "references": [
+        "1 Chronicles 4:21"
+      ],
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "2 Chronicles",
-      "book_abbrev": "2ch",
-      "chapter": 11,
-      "testament": "OT",
-      "verses": [
-        8,
-        14
-      ],
-      "verse_count": 2
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.703913+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "John",
+      "book": "Joshua",
       "chapter": 15,
       "verses": [
         44
       ],
       "verse_count": 1,
-      "testament": "NT",
-      "raw": "John 15:44",
-      "source": "EAS"
+      "testament": "OT",
+      "raw": "Joshua 15:44"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 11,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Chronicles 11:8"
     },
     {
       "book": "2 Chronicles",
@@ -95,8 +74,66 @@
       ],
       "verse_count": 2,
       "testament": "OT",
-      "raw": "2 Chronicles 14:9, 10",
-      "source": "EAS"
+      "raw": "2 Chronicles 14:9,10"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 20,
+      "verses": [
+        37
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Chronicles 20:37"
+    },
+    {
+      "book": "Micah",
+      "chapter": 1,
+      "verses": [
+        15
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Micah 1:15"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 2,
+      "verses": [
+        42
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 2:42"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 4,
+      "verses": [
+        21
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 4:21"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "2 Chronicles",
+    "Joshua",
+    "Micah"
+  ],
+  "stats": {
+    "total_aspects": 5,
+    "total_refs": 7,
+    "ot_refs": 7,
+    "nt_refs": 0,
+    "books_count": 4,
+    "top_books": [
+      "2 Chronicles",
+      "1 Chronicles",
+      "Joshua",
+      "Micah"
+    ]
+  }
 }

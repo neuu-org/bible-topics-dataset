@@ -1,79 +1,95 @@
 {
   "topic": "AMASAI",
-  "topic_slug": "amasai",
+  "slug": "amasai",
   "canonical_id": "NAV:amasai",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–1. A Levite and ancestor of Samuel1Ch 6:25,35\n–2. Leader of a body of men disaffected toward Saul, who joined \nDavid1Ch 12:18\n–3. A priest and trumpeter1Ch 15:24\n–4. A Levite of the Kohathites2Ch 29:12",
-  "content_preview": "–1. A Levite and ancestor of Samuel1Ch 6:25,35",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–1. A Levite and ancestor of Samuel1Ch 6:25,35",
-      "raw_segment": "–1. A Levite and ancestor of Samuel1Ch 6:25,35"
+      "label": "1. A Levite and ancestor of Samuel",
+      "references": [
+        "1 Chronicles 6:25,35"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–2. Leader of a body of men disaffected toward Saul, who joined \nDavid1Ch 12:18",
-      "raw_segment": "–2. Leader of a body of men disaffected toward Saul, who joined \nDavid1Ch 12:18"
+      "label": "2. Lea",
+      "references": []
     },
     {
-      "idx": 2,
-      "entry_label": "–3. A priest and trumpeter1Ch 15:24",
-      "raw_segment": "–3. A priest and trumpeter1Ch 15:24"
+      "label": "David",
+      "references": [
+        "1 Chronicles 12:18"
+      ]
     },
     {
-      "idx": 3,
-      "entry_label": "–4. A Levite of the Kohathites2Ch 29:12",
-      "raw_segment": "–4. A Levite of the Kohathites2Ch 29:12"
+      "label": "3. A priest and trumpeter",
+      "references": [
+        "1 Chronicles 15:24"
+      ]
+    },
+    {
+      "label": "4. A Levite of the Kohathites",
+      "references": [
+        "2 Chronicles 29:12"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "1 Chronicles",
+      "chapter": 6,
+      "verses": [
+        25,
+        35
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "1 Chronicles 6:25,35"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 12,
+      "verses": [
+        18
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 12:18"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 15,
+      "verses": [
+        24
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 15:24"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 29,
+      "verses": [
+        12
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Chronicles 29:12"
+    }
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "2 Chronicles"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 5,
+    "total_refs": 4,
+    "ot_refs": 4,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:6ea6409d59b8d123e6edc85016791bd415510a4adfb6c2ab5f40a74eb8ed1dbc",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 5
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 2,
+    "top_books": [
+      "1 Chronicles",
+      "2 Chronicles"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:23:31.450970Z",
-  "updated_at": "2025-09-20T17:23:31.450978Z"
+  }
 }

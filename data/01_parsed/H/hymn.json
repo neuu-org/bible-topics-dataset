@@ -1,109 +1,33 @@
 {
   "topic": "HYMN",
   "slug": "hymn",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "See PSALMS",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "See SONG",
-      "references": [],
-      "sub_groups": []
-    }
+  "sources": [
+    "NAV"
   ],
-  "biblical_references": [],
   "see_also": [
     "PSALMS",
     "SONG"
   ],
-  "aliases": [],
+  "aspects": [
+    {
+      "label": "SeePSALMS",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "See",
+      "references": [],
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [],
+  "books_mentioned": [],
   "stats": {
-    "entries_count": 2,
+    "total_aspects": 2,
+    "total_refs": 0,
     "ot_refs": 0,
     "nt_refs": 0,
-    "total_verses": 0
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.693613+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "Ephesians",
-      "chapter": 5,
-      "verses": [
-        19
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Ephesians 5:19",
-      "source": "EAS"
-    },
-    {
-      "book": "Colossians",
-      "chapter": 3,
-      "verses": [
-        16
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Colossians 3:16",
-      "source": "EAS"
-    },
-    {
-      "book": "Matthew",
-      "chapter": 26,
-      "verses": [
-        30
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Matthew 26:30",
-      "source": "EAS"
-    },
-    {
-      "book": "Mark",
-      "chapter": 14,
-      "verses": [
-        26
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Mark 14:26",
-      "source": "EAS"
-    },
-    {
-      "book": "Acts",
-      "chapter": 16,
-      "verses": [
-        25
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Acts 16:25",
-      "source": "EAS"
-    },
-    {
-      "book": "Hebrews",
-      "chapter": 2,
-      "verses": [
-        12
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Hebrews 2:12",
-      "source": "EAS"
-    }
-  ]
+    "books_count": 0,
+    "top_books": []
+  }
 }

@@ -1,84 +1,35 @@
 {
   "topic": "VULTURE",
   "slug": "vulture",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "A carnivorous bird Le 11:14; De 14:13",
-      "references": [
-        "Lev 11:14",
-        "Deut 14:13"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "In R. V., translated “falcon,” Job 28:7",
-      "references": [
-        "Job 28:7"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "And “kite,” Isa 34:15",
-      "references": [
-        "Isa 34:15"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Deuteronomy",
-      "book_abbrev": "deu",
-      "chapter": 14,
-      "testament": "OT",
-      "verses": [
-        13
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Job",
-      "book_abbrev": "job",
-      "chapter": 28,
-      "testament": "OT",
-      "verses": [
-        7
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Isaiah",
-      "book_abbrev": "isa",
-      "chapter": 34,
-      "testament": "OT",
-      "verses": [
-        15
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 3,
-    "nt_refs": 0,
-    "total_verses": 3
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.732948+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "A",
+      "references": [
+        "Leviticus 11:14",
+        "Deuteronomy 14:13"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "In R. V., translated “falcon,”",
+      "references": [
+        "Job 28:7"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "And “kite,”",
+      "references": [
+        "Isaiah 34:15"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Leviticus",
       "chapter": 11,
@@ -87,8 +38,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Leviticus 11:14",
-      "source": "EAS"
+      "raw": "Leviticus 11:14"
     },
     {
       "book": "Deuteronomy",
@@ -98,19 +48,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Deuteronomy 14:13",
-      "source": "EAS"
-    },
-    {
-      "book": "Isaiah",
-      "chapter": 34,
-      "verses": [
-        15
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Isaiah 34:15",
-      "source": "EAS"
+      "raw": "Deuteronomy 14:13"
     },
     {
       "book": "Job",
@@ -120,8 +58,36 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Job 28:7",
-      "source": "EAS"
+      "raw": "Job 28:7"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 34,
+      "verses": [
+        15
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 34:15"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Deuteronomy",
+    "Isaiah",
+    "Job",
+    "Leviticus"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 4,
+    "ot_refs": 4,
+    "nt_refs": 0,
+    "books_count": 4,
+    "top_books": [
+      "Leviticus",
+      "Deuteronomy",
+      "Job",
+      "Isaiah"
+    ]
+  }
 }

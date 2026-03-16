@@ -1,69 +1,110 @@
 {
   "topic": "THISTLE",
-  "topic_slug": "thistle",
+  "slug": "thistle",
   "canonical_id": "NAV:thistle",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–A noxious plantGe 3:18;Job 31:40;Ho 10:8\n–Parables of2Ki 14:9;2Ch 25:18;Mt 7:16",
-  "content_preview": "–A noxious plantGe 3:18;Job 31:40;Ho 10:8",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–A noxious plantGe 3:18;Job 31:40;Ho 10:8",
-      "raw_segment": "–A noxious plantGe 3:18;Job 31:40;Ho 10:8"
+      "label": "A noxious plant",
+      "references": [
+        "Genesis 3:18",
+        "Job 31:40",
+        "Hosea 10:8"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–Parables of2Ki 14:9;2Ch 25:18;Mt 7:16",
-      "raw_segment": "–Parables of2Ki 14:9;2Ch 25:18;Mt 7:16"
+      "label": "Parables of",
+      "references": [
+        "2 Kings 14:9",
+        "2 Chronicles 25:18",
+        "Matthew 7:16"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Genesis",
+      "chapter": 3,
+      "verses": [
+        18
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 3:18"
+    },
+    {
+      "book": "Job",
+      "chapter": 31,
+      "verses": [
+        40
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Job 31:40"
+    },
+    {
+      "book": "Hosea",
+      "chapter": 10,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Hosea 10:8"
+    },
+    {
+      "book": "2 Kings",
+      "chapter": 14,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Kings 14:9"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 25,
+      "verses": [
+        18
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Chronicles 25:18"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 7,
+      "verses": [
+        16
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 7:16"
+    }
+  ],
+  "books_mentioned": [
+    "2 Chronicles",
+    "2 Kings",
+    "Genesis",
+    "Hosea",
+    "Job",
+    "Matthew"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:c69dd9309797f42112ad948a7588d45058a50c4493a64d552ee11b73996c7ddc",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 2,
+    "total_refs": 6,
+    "ot_refs": 5,
+    "nt_refs": 1,
+    "books_count": 6,
+    "top_books": [
+      "Genesis",
+      "Job",
+      "Hosea",
+      "2 Kings",
+      "2 Chronicles",
+      "Matthew"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:32:10.176416Z",
-  "updated_at": "2025-09-20T17:32:10.176423Z"
+  }
 }

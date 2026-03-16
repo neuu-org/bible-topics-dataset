@@ -1,73 +1,46 @@
 {
   "topic": "HELDAI",
   "slug": "heldai",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. The Netophathite",
-      "references": [],
-      "sub_groups": [
-        {
-          "name": "One of David’s heroes 1Ch 27:15",
-          "references": [
-            "1Chr 27:15"
-          ]
-        },
-        {
-          "name": "Called HELED 1Ch 11:30",
-          "references": [
-            "1Chr 11:30"
-          ]
-        },
-        {
-          "name": "And HELEB 2Sa 23:29",
-          "references": [
-            "2Sam 23:29"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "2. An Israelite Zec 6:10",
-      "references": [
-        "Zech 6:10"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.691735+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "see_also": [],
+  "aspects": [
     {
-      "book": "2 Samuel",
-      "chapter": 23,
-      "verses": [
-        29
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "2 Samuel 23:29",
-      "source": "EAS"
+      "label": "1. The Netophathite",
+      "references": [],
+      "source": "NAV"
     },
+    {
+      "label": ".One of David’s heroes",
+      "references": [
+        "1 Chronicles 27:15"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".",
+      "references": [
+        "1 Chronicles 11:30"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".And HELEB",
+      "references": [
+        "2 Samuel 23:29"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2. An Israelite",
+      "references": [
+        "Ecclesiastes 6:10"
+      ],
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
     {
       "book": "1 Chronicles",
       "chapter": 27,
@@ -76,19 +49,54 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 27:15",
-      "source": "EAS"
+      "raw": "1 Chronicles 27:15"
     },
     {
-      "book": "Zechariah",
+      "book": "1 Chronicles",
+      "chapter": 11,
+      "verses": [
+        30
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 11:30"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 23,
+      "verses": [
+        29
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Samuel 23:29"
+    },
+    {
+      "book": "Ecclesiastes",
       "chapter": 6,
       "verses": [
         10
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Zechariah 6:10",
-      "source": "EAS"
+      "raw": "Ecclesiastes 6:10"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "2 Samuel",
+    "Ecclesiastes"
+  ],
+  "stats": {
+    "total_aspects": 5,
+    "total_refs": 4,
+    "ot_refs": 4,
+    "nt_refs": 0,
+    "books_count": 3,
+    "top_books": [
+      "1 Chronicles",
+      "2 Samuel",
+      "Ecclesiastes"
+    ]
+  }
 }

@@ -1,31 +1,42 @@
 {
-  "topic": "Azal",
+  "topic": "AZAL",
   "slug": "azal",
-  "type": "topic",
-  "reference_groups": [],
-  "biblical_references": [],
-  "stats": {},
-  "sources": [],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.670997+00:00",
-    "merged_from": {
-      "v2": false,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "book": "Zechariah",
+      "label": "A place near",
+      "references": [
+        "Ecclesiastes 14:5"
+      ],
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
+    {
+      "book": "Ecclesiastes",
       "chapter": 14,
       "verses": [
         5
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Zechariah 14:5",
-      "source": "EAS"
+      "raw": "Ecclesiastes 14:5"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Ecclesiastes"
+  ],
+  "stats": {
+    "total_aspects": 1,
+    "total_refs": 1,
+    "ot_refs": 1,
+    "nt_refs": 0,
+    "books_count": 1,
+    "top_books": [
+      "Ecclesiastes"
+    ]
+  }
 }

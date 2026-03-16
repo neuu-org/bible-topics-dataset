@@ -1,111 +1,188 @@
 {
   "topic": "MANNERS",
   "slug": "manners",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "(Social customs)",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "Obeisance to strangers Ge 18:2; 19:1",
-      "references": [
-        "Gen 18:2",
-        "Gen 19:1"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Standing while guests eat Ge 18:8",
-      "references": [
-        "Gen 18:8"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "In presence of",
-      "references": [],
-      "sub_groups": [
-        {
-          "name": "Superiors Ge 31:35; Job 29:8",
-          "references": [
-            "Gen 31:35",
-            "Job 29:8"
-          ]
-        },
-        {
-          "name": "The aged Le 19:32",
-          "references": [
-            "Lev 19:32"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Courteousness enjoined 1Pe 3:8",
-      "references": [
-        "1Pet 3:8"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Rules for guests Pr 23:1,2; 1Co 10:27",
-      "references": [
-        "Prov 23:1",
-        "Prov 23:2",
-        "1Cor 10:27"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "See SALUTATIONS",
-      "references": [],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Job",
-      "book_abbrev": "job",
-      "chapter": 29,
-      "testament": "OT",
-      "verses": [
-        8
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "1 Corinthians",
-      "book_abbrev": "1co",
-      "chapter": 10,
-      "testament": "NT",
-      "verses": [
-        27
-      ],
-      "verse_count": 1
-    }
+  "sources": [
+    "NAV"
   ],
   "see_also": [
     "SALUTATIONS"
   ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 7,
-    "ot_refs": 1,
-    "nt_refs": 1,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.703729+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
+  "aspects": [
+    {
+      "label": "(",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "Obe",
+      "references": [
+        "Genesis 18:2",
+        "Genesis 19:1"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Standing while guests eat",
+      "references": [
+        "Genesis 18:8"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "In presence of",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".Superiors",
+      "references": [
+        "Genesis 31:35",
+        "Job 29:8"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".The aged",
+      "references": [
+        "Leviticus 19:32"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Courteousness enjoined",
+      "references": [
+        "1 Peter 3:8"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Rules for guests",
+      "references": [
+        "Proverbs 23:1,2",
+        "1 Corinthians 10:27"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeSA",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0"
+  ],
+  "biblical_references": [
+    {
+      "book": "Genesis",
+      "chapter": 18,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 18:2"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 19,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 19:1"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 18,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 18:8"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 31,
+      "verses": [
+        35
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 31:35"
+    },
+    {
+      "book": "Job",
+      "chapter": 29,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Job 29:8"
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 19,
+      "verses": [
+        32
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Leviticus 19:32"
+    },
+    {
+      "book": "1 Peter",
+      "chapter": 3,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "1 Peter 3:8"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 23,
+      "verses": [
+        1,
+        2
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Proverbs 23:1,2"
+    },
+    {
+      "book": "1 Corinthians",
+      "chapter": 10,
+      "verses": [
+        27
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "1 Corinthians 10:27"
+    }
+  ],
+  "books_mentioned": [
+    "1 Corinthians",
+    "1 Peter",
+    "Genesis",
+    "Job",
+    "Leviticus",
+    "Proverbs"
+  ],
+  "stats": {
+    "total_aspects": 9,
+    "total_refs": 9,
+    "ot_refs": 7,
+    "nt_refs": 2,
+    "books_count": 6,
+    "top_books": [
+      "Genesis",
+      "Job",
+      "Leviticus",
+      "1 Peter",
+      "Proverbs",
+      "1 Corinthians"
+    ]
+  }
 }

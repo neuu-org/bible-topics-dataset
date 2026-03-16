@@ -1,73 +1,140 @@
 {
   "topic": "GROUND",
   "slug": "ground",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "Man made from Ge 2:7; 3:19,23; Job 4:19; 33:6",
+      "label": "Man ma",
       "references": [
-        "Gen 2:7",
-        "Gen 3:19",
-        "Gen 3:23",
+        "Genesis 2:7",
+        "Genesis 3:19,23",
         "Job 4:19",
         "Job 33:6"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Animals made from Ge 2:19",
+      "label": "Animals ma",
       "references": [
-        "Gen 2:19"
+        "Genesis 2:19"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Vegetables come from Ge 2:9",
+      "label": "Vegetables come from",
       "references": [
-        "Gen 2:9"
+        "Genesis 2:9"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Cursed Ge 3:17; 5:29",
+      "label": "Cursed",
       "references": [
-        "Gen 3:17",
-        "Gen 5:29"
+        "Genesis 3:17",
+        "Genesis 5:29"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Job",
-      "book_abbrev": "job",
-      "chapter": 4,
+      "book": "Genesis",
+      "chapter": 2,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
       "testament": "OT",
+      "raw": "Genesis 2:7"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 3,
       "verses": [
         19,
-        33
+        23
       ],
-      "verse_count": 2
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Genesis 3:19,23"
+    },
+    {
+      "book": "Job",
+      "chapter": 4,
+      "verses": [
+        19
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Job 4:19"
+    },
+    {
+      "book": "Job",
+      "chapter": 33,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Job 33:6"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 2,
+      "verses": [
+        19
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 2:19"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 2,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 2:9"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 3,
+      "verses": [
+        17
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 3:17"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 5,
+      "verses": [
+        29
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 5:29"
     }
   ],
-  "see_also": [],
-  "aliases": [],
+  "books_mentioned": [
+    "Genesis",
+    "Job"
+  ],
   "stats": {
-    "entries_count": 4,
-    "ot_refs": 1,
+    "total_aspects": 4,
+    "total_refs": 8,
+    "ot_refs": 8,
     "nt_refs": 0,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.689636+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    }
-  },
-  "version": "3.0.0"
+    "books_count": 2,
+    "top_books": [
+      "Genesis",
+      "Job"
+    ]
+  }
 }

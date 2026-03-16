@@ -1,69 +1,158 @@
 {
   "topic": "CAIN",
-  "topic_slug": "cain",
+  "slug": "cain",
   "canonical_id": "NAV:cain",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–1. Son of AdamGe 4:1\n  .Jealousy and crime ofGe 4:3-15;Heb 11:4;1Jo  3:12;Jude 1:11\n  .Sojourns in the land of NodGe 4:16\n  .Children and descendants ofGe 4:17,18\n–2. A city of JudahJos 15:57",
-  "content_preview": "–1. Son of AdamGe 4:1",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–1. Son of AdamGe 4:1",
-      "raw_segment": "–1. Son of AdamGe 4:1"
+      "label": "1.",
+      "references": [
+        "Genesis 4:1"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–2. A city of JudahJos 15:57",
-      "raw_segment": "–2. A city of JudahJos 15:57"
+      "label": ".Jealousy and crime of",
+      "references": [
+        "Genesis 4:3-15",
+        "Hebrews 11:4",
+        "Job 3:12",
+        "Deuteronomy 1:11"
+      ]
+    },
+    {
+      "label": ".",
+      "references": [
+        "Genesis 4:16"
+      ]
+    },
+    {
+      "label": ".Children and",
+      "references": [
+        "Genesis 4:17,18"
+      ]
+    },
+    {
+      "label": "2. A city of",
+      "references": [
+        "Joshua 15:57"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Genesis",
+      "chapter": 4,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 4:1"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 4,
+      "verses": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "verse_count": 13,
+      "testament": "OT",
+      "raw": "Genesis 4:3-15"
+    },
+    {
+      "book": "Hebrews",
+      "chapter": 11,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Hebrews 11:4"
+    },
+    {
+      "book": "Job",
+      "chapter": 3,
+      "verses": [
+        12
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Job 3:12"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 1,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 1:11"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 4,
+      "verses": [
+        16
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 4:16"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 4,
+      "verses": [
+        17,
+        18
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Genesis 4:17,18"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 15,
+      "verses": [
+        57
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 15:57"
+    }
+  ],
+  "books_mentioned": [
+    "Deuteronomy",
+    "Genesis",
+    "Hebrews",
+    "Job",
+    "Joshua"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:d2d0c4dde32fd0e89a294d3151e483d89fe1f1dd2bef0d24480ef84a635c6680",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 5
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 5,
+    "total_refs": 8,
+    "ot_refs": 7,
+    "nt_refs": 1,
+    "books_count": 5,
+    "top_books": [
+      "Genesis",
+      "Hebrews",
+      "Job",
+      "Deuteronomy",
+      "Joshua"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:24:44.857932Z",
-  "updated_at": "2025-09-20T17:24:44.857939Z"
+  }
 }

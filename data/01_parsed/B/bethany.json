@@ -1,73 +1,103 @@
 {
   "topic": "BETHANY",
   "slug": "bethany",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "A village on the eastem slope of the Mount of Olives Joh 11:18",
+      "label": "A village on the eastem slope of the Mount of Olives",
       "references": [
         "John 11:18"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Mary, Martha, and Lazarus dwell at Lu 10:38-41",
+      "label": "Mary, Martha, and Lazarus dwell at",
       "references": [
         "Luke 10:38-41"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Lazarus dies and is raised to life at Joh 11",
-      "references": [
-        "John 11"
-      ],
-      "sub_groups": []
+      "label": "Lazarus dies and is raised to life at",
+      "references": [],
+      "source": "NAV"
     },
     {
-      "name": "Jesus attends a feast in Mt 26:6-13; Joh 12:1-9",
+      "label": "Jesus attends a feast in",
       "references": [
-        "Matt 26:6-13",
+        "Matthew 26:6-13",
         "John 12:1-9"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "The colt of a donkey upon which Jesus made his triumphal entry into Jerusalem, obtained at Mr 11:1-11",
+      "label": "The colt of a donkey upon which Jesus ma",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "into",
       "references": [
         "Mark 11:1-11"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Jesus sojourns at Mt 21:17; Mr 11:11,12,19",
+      "label": "Jesus",
       "references": [
-        "Matt 21:17",
-        "Mark 11:11",
-        "Mark 11:12",
-        "Mark 11:19"
+        "Matthew 21:17",
+        "Mark 11:11,12,19"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Mark",
-      "book_abbrev": "mrk",
+      "book": "John",
       "chapter": 11,
-      "testament": "NT",
       "verses": [
+        18
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "John 11:18"
+    },
+    {
+      "book": "Luke",
+      "chapter": 10,
+      "verses": [
+        38,
+        39,
+        40,
+        41
+      ],
+      "verse_count": 4,
+      "testament": "NT",
+      "raw": "Luke 10:38-41"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 26,
+      "verses": [
+        6,
+        7,
+        8,
+        9,
+        10,
         11,
         12,
-        19
+        13
       ],
-      "verse_count": 3
+      "verse_count": 8,
+      "testament": "NT",
+      "raw": "Matthew 26:6-13"
     },
     {
       "book": "John",
-      "book_abbrev": "jhn",
       "chapter": 12,
-      "testament": "NT",
       "verses": [
         1,
         2,
@@ -79,40 +109,29 @@
         8,
         9
       ],
-      "verse_count": 9
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 6,
-    "ot_refs": 0,
-    "nt_refs": 2,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.673958+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+      "verse_count": 9,
+      "testament": "NT",
+      "raw": "John 12:1-9"
+    },
     {
       "book": "Mark",
       "chapter": 11,
       "verses": [
-        1
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
       ],
-      "verse_count": 1,
+      "verse_count": 11,
       "testament": "NT",
-      "raw": "Mark 11:1",
-      "source": "EAS"
+      "raw": "Mark 11:1-11"
     },
     {
       "book": "Matthew",
@@ -122,119 +141,38 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Matthew 21:17",
-      "source": "EAS"
-    },
-    {
-      "book": "Matthew",
-      "chapter": 26,
-      "verses": [
-        6
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Matthew 26:6",
-      "source": "EAS"
+      "raw": "Matthew 21:17"
     },
     {
       "book": "Mark",
       "chapter": 11,
       "verses": [
         11,
-        12
+        12,
+        19
       ],
-      "verse_count": 2,
+      "verse_count": 3,
       "testament": "NT",
-      "raw": "Mark 11:11, 12",
-      "source": "EAS"
-    },
-    {
-      "book": "Mark",
-      "chapter": 14,
-      "verses": [
-        3
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Mark 14:3",
-      "source": "EAS"
-    },
-    {
-      "book": "Luke",
-      "chapter": 24,
-      "verses": [
-        50
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Luke 24:50",
-      "source": "EAS"
-    },
-    {
-      "book": "John",
-      "chapter": 11,
-      "verses": [
-        1
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "John 11:1",
-      "source": "EAS"
-    },
-    {
-      "book": "John",
-      "chapter": 12,
-      "verses": [
-        1
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "John 12:1",
-      "source": "EAS"
-    },
-    {
-      "book": "John",
-      "chapter": 1,
-      "verses": [
-        28
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "John 1:28",
-      "source": "EAS"
-    },
-    {
-      "book": "Luke",
-      "chapter": 19,
-      "verses": [
-        29
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Luke 19:29",
-      "source": "SMI"
-    },
-    {
-      "book": "John",
-      "chapter": 11,
-      "verses": [
-        18
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "John 11:18",
-      "source": "SMI"
-    },
-    {
-      "book": "Mark",
-      "chapter": 10,
-      "verses": [
-        46
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Mark 10:46",
-      "source": "SMI"
+      "raw": "Mark 11:11,12,19"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "John",
+    "Luke",
+    "Mark",
+    "Matthew"
+  ],
+  "stats": {
+    "total_aspects": 7,
+    "total_refs": 7,
+    "ot_refs": 0,
+    "nt_refs": 7,
+    "books_count": 4,
+    "top_books": [
+      "John",
+      "Matthew",
+      "Mark",
+      "Luke"
+    ]
+  }
 }

@@ -1,8 +1,8 @@
 {
   "topic": "CONSECRATION",
-  "topic_slug": "consecration",
+  "slug": "consecration",
   "canonical_id": "NAV:consecration",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "PRIESTS",
     "AARON",
@@ -11,133 +11,294 @@
     "OFFERINGS",
     "ALTAR"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "PRIESTS",
-      "clean": "PRIESTS",
-      "slug": "priests",
-      "canonical_id": "NAV:priests"
+      "label": "Of Aaron",
+      "references": []
     },
     {
-      "original": "AARON",
-      "clean": "AARON",
-      "slug": "aaron",
-      "canonical_id": "NAV:aaron"
+      "label": ".SeeAARON",
+      "references": []
     },
     {
-      "original": "DEDICATION",
-      "clean": "DEDICATION",
-      "slug": "dedication",
-      "canonical_id": "NAV:dedication"
+      "label": "Of priests",
+      "references": []
     },
     {
-      "original": "TEMPLE, DEDICATION OF",
-      "clean": "TEMPLE, DEDICATION OF",
-      "slug": "temple__dedication_of",
-      "canonical_id": "NAV:temple__dedication_of"
+      "label": ".SeePRIESTS",
+      "references": []
     },
     {
-      "original": "OFFERINGS",
-      "clean": "OFFERINGS",
-      "slug": "offerings",
-      "canonical_id": "NAV:offerings"
+      "label": "Of the altar",
+      "references": []
     },
     {
-      "original": "ALTAR",
-      "clean": "ALTAR",
-      "slug": "altar",
-      "canonical_id": "NAV:altar"
+      "label": ".SeeALTAR",
+      "references": []
+    },
+    {
+      "label": "Of the temple",
+      "references": []
+    },
+    {
+      "label": ".SeeTEMPLE,",
+      "references": []
+    },
+    {
+      "label": "See al",
+      "references": []
+    },
+    {
+      "label": "PER",
+      "references": [
+        "Psalms 51:17",
+        "Matthew 13:44-46",
+        "Romans 6:13,16,19",
+        "Romans 12:1",
+        "2 Corinthians 8:5"
+      ]
+    },
+    {
+      "label": "CONDITIONAL",
+      "references": [
+        "Genesis 28:20-22",
+        "2 Samuel 15:7,8"
+      ]
+    },
+    {
+      "label": ".See",
+      "references": []
+    },
+    {
+      "label": ".SeeOFFERINGS",
+      "references": []
+    },
+    {
+      "label": "INSTANCES OF",
+      "references": []
+    },
+    {
+      "label": ".",
+      "references": [
+        "Genesis 4:4-7"
+      ]
+    },
+    {
+      "label": ".Abraham, of",
+      "references": [
+        "Genesis 22:9-12"
+      ]
+    },
+    {
+      "label": ".Jephthah, of his daughter",
+      "references": [
+        "Judges 11:30,31,34-40"
+      ]
+    },
+    {
+      "label": ".Hannah, of Samuel",
+      "references": [
+        "1 Samuel 1:11,24-28"
+      ]
+    },
+    {
+      "label": ".David consecrates the water obtained by his valiant warriors",
+      "references": [
+        "2 Samuel 23:16"
+      ]
+    },
+    {
+      "label": ".Zichri, of himself",
+      "references": [
+        "2 Chronicles 17:16"
+      ]
     }
   ],
-  "raw_block": "–Of Aaron\n  .SeeAARON\n–Of priests\n  .SeePRIESTS\n–Of the altar\n  .SeeALTAR\n–Of the temple\n  .SeeTEMPLE, DEDICATION OF\n–See alsoOFFERINGS\n–PERSONALPs 51:17;Mt 13:44-46;Ro 6:13,16,19;12:1;2Co 8:5\n–CONDITIONALGe 28:20-22;2Sa 15:7,8\n  .SeeDEDICATION\n  .SeeOFFERINGS\n–INSTANCES OF\n  .Cain and AbelGe 4:4-7\n  .Abraham, of IsaacGe 22:9-12\n  .Jephthah, of his daughterJud 11:30,31,34-40\n  .Hannah, of Samuel1Sa 1:11,24-28\n  .David consecrates the water obtained by his valiant warriors2Sa 23:16\n  .Zichri, of himself2Ch 17:16",
-  "content_preview": "–Of Aaron",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–Of Aaron",
-      "raw_segment": "–Of Aaron"
+      "book": "Psalms",
+      "chapter": 51,
+      "verses": [
+        17
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 51:17"
     },
     {
-      "idx": 1,
-      "entry_label": "–Of priests",
-      "raw_segment": "–Of priests"
+      "book": "Matthew",
+      "chapter": 13,
+      "verses": [
+        44,
+        45,
+        46
+      ],
+      "verse_count": 3,
+      "testament": "NT",
+      "raw": "Matthew 13:44-46"
     },
     {
-      "idx": 2,
-      "entry_label": "–Of the altar",
-      "raw_segment": "–Of the altar"
+      "book": "Romans",
+      "chapter": 6,
+      "verses": [
+        13,
+        16,
+        19
+      ],
+      "verse_count": 3,
+      "testament": "NT",
+      "raw": "Romans 6:13,16,19"
     },
     {
-      "idx": 3,
-      "entry_label": "–Of the temple",
-      "raw_segment": "–Of the temple"
+      "book": "Romans",
+      "chapter": 12,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Romans 12:1"
     },
     {
-      "idx": 4,
-      "entry_label": "–See alsoOFFERINGS",
-      "raw_segment": "–See alsoOFFERINGS"
+      "book": "2 Corinthians",
+      "chapter": 8,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "2 Corinthians 8:5"
     },
     {
-      "idx": 5,
-      "entry_label": "–PERSONALPs 51:17;Mt 13:44-46;Ro 6:13,16,19;12:1;2Co 8:5",
-      "raw_segment": "–PERSONALPs 51:17;Mt 13:44-46;Ro 6:13,16,19;12:1;2Co 8:5"
+      "book": "Genesis",
+      "chapter": 28,
+      "verses": [
+        20,
+        21,
+        22
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Genesis 28:20-22"
     },
     {
-      "idx": 6,
-      "entry_label": "–CONDITIONALGe 28:20-22;2Sa 15:7,8",
-      "raw_segment": "–CONDITIONALGe 28:20-22;2Sa 15:7,8"
+      "book": "2 Samuel",
+      "chapter": 15,
+      "verses": [
+        7,
+        8
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "2 Samuel 15:7,8"
     },
     {
-      "idx": 7,
-      "entry_label": "–INSTANCES OF",
-      "raw_segment": "–INSTANCES OF"
+      "book": "Genesis",
+      "chapter": 4,
+      "verses": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "verse_count": 4,
+      "testament": "OT",
+      "raw": "Genesis 4:4-7"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 22,
+      "verses": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "verse_count": 4,
+      "testament": "OT",
+      "raw": "Genesis 22:9-12"
+    },
+    {
+      "book": "Judges",
+      "chapter": 11,
+      "verses": [
+        30,
+        31,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "verse_count": 9,
+      "testament": "OT",
+      "raw": "Judges 11:30,31,34-40"
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 1,
+      "verses": [
+        11,
+        24,
+        25,
+        26,
+        27,
+        28
+      ],
+      "verse_count": 6,
+      "testament": "OT",
+      "raw": "1 Samuel 1:11,24-28"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 23,
+      "verses": [
+        16
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Samuel 23:16"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 17,
+      "verses": [
+        16
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Chronicles 17:16"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "1 Samuel",
+    "2 Chronicles",
+    "2 Corinthians",
+    "2 Samuel",
+    "Genesis",
+    "Judges",
+    "Matthew",
+    "Psalms",
+    "Romans"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:c6d5228e7f0c7ae47b808b57de65b1c19d03f518aeba500da8f129fd0a80a097",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 20
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 20,
+    "total_refs": 13,
+    "ot_refs": 9,
+    "nt_refs": 4,
+    "books_count": 9,
+    "top_books": [
+      "Genesis",
+      "Romans",
+      "2 Samuel",
+      "Psalms",
+      "Matthew",
+      "2 Corinthians",
+      "Judges",
+      "1 Samuel",
+      "2 Chronicles"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:25:12.987231Z",
-  "updated_at": "2025-09-20T17:25:12.987238Z"
+  }
 }

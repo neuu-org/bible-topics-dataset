@@ -1,74 +1,34 @@
 {
   "topic": "BITUMEN",
   "slug": "bitumen",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "(Margin R. V., slime))",
-      "references": [],
-      "sub_groups": [
-        {
-          "name": "An inflammable mineral Ge 11:3; 14:10; Ex 2:3",
-          "references": [
-            "Gen 11:3",
-            "Gen 14:10",
-            "Exod 2:3"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "See PETROLEUM",
-      "references": [],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Exodus",
-      "book_abbrev": "exo",
-      "chapter": 2,
-      "testament": "OT",
-      "verses": [
-        3
-      ],
-      "verse_count": 1
-    }
+  "sources": [
+    "NAV"
   ],
   "see_also": [
     "PETROLEUM"
   ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.674652+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "aspects": [
     {
-      "book": "Exodus",
-      "chapter": 2,
-      "verses": [
-        3
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Exodus 2:3",
-      "source": "EAS"
+      "label": "(Margin R. V., slime))",
+      "references": [],
+      "source": "NAV"
     },
+    {
+      "label": ".An inflammable mineral",
+      "references": [
+        "Genesis 11:3",
+        "Genesis 14:10",
+        "Exodus 2:3"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "SeePETROLEUM",
+      "references": [],
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
     {
       "book": "Genesis",
       "chapter": 11,
@@ -77,19 +37,42 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 11:3",
-      "source": "EAS"
+      "raw": "Genesis 11:3"
     },
     {
       "book": "Genesis",
-      "chapter": 6,
+      "chapter": 14,
       "verses": [
-        14
+        10
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 6:14",
-      "source": "EAS"
+      "raw": "Genesis 14:10"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 2,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 2:3"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Exodus",
+    "Genesis"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 3,
+    "ot_refs": 3,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "Genesis",
+      "Exodus"
+    ]
+  }
 }

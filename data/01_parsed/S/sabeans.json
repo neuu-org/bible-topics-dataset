@@ -1,99 +1,59 @@
 {
   "topic": "SABEANS",
   "slug": "sabeans",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "A people who invaded the land of Uz Job 1:15; Isa 43:3",
-      "references": [
-        "Job 1:15",
-        "Isa 43:3"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Giants among Isa 45:14",
-      "references": [
-        "Isa 45:14"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Prophecies concerning Isa 43:3; Joe 3:8",
-      "references": [
-        "Isa 43:3",
-        "Joel 3:8"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Proverbial drunkards Eze 23:42",
-      "references": [
-        "Ezek 23:42"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "See SHEBA",
-      "references": [],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Isaiah",
-      "book_abbrev": "isa",
-      "chapter": 43,
-      "testament": "OT",
-      "verses": [
-        3
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Joel",
-      "book_abbrev": "jol",
-      "chapter": 3,
-      "testament": "OT",
-      "verses": [
-        8
-      ],
-      "verse_count": 1
-    }
+  "sources": [
+    "NAV"
   ],
   "see_also": [
     "SHEBA"
   ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 5,
-    "ot_refs": 2,
-    "nt_refs": 0,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.722418+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "aspects": [
     {
-      "book": "Genesis",
-      "chapter": 10,
+      "label": "A people who inva",
+      "references": [
+        "Job 1:15",
+        "Isaiah 43:3"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Giants among",
+      "references": [
+        "Isaiah 45:14"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Prophecies concerning",
+      "references": [
+        "Isaiah 43:3",
+        "Joel 3:8"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Proverbial drunkards",
+      "references": [
+        "Ezekiel 23:42"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeSHEBA",
+      "references": [],
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
+    {
+      "book": "Job",
+      "chapter": 1,
       "verses": [
-        7
+        15
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 10:7",
-      "source": "EAS"
+      "raw": "Job 1:15"
     },
     {
       "book": "Isaiah",
@@ -103,8 +63,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Isaiah 43:3",
-      "source": "EAS"
+      "raw": "Isaiah 43:3"
     },
     {
       "book": "Isaiah",
@@ -114,19 +73,17 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Isaiah 45:14",
-      "source": "EAS"
+      "raw": "Isaiah 45:14"
     },
     {
-      "book": "Psalms",
-      "chapter": 72,
+      "book": "Joel",
+      "chapter": 3,
       "verses": [
-        10
+        8
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Psalms 72:10",
-      "source": "EAS"
+      "raw": "Joel 3:8"
     },
     {
       "book": "Ezekiel",
@@ -136,19 +93,26 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Ezekiel 23:42",
-      "source": "EAS"
-    },
-    {
-      "book": "Job",
-      "chapter": 1,
-      "verses": [
-        15
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Job 1:15",
-      "source": "EAS"
+      "raw": "Ezekiel 23:42"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Ezekiel",
+    "Isaiah",
+    "Job",
+    "Joel"
+  ],
+  "stats": {
+    "total_aspects": 5,
+    "total_refs": 5,
+    "ot_refs": 5,
+    "nt_refs": 0,
+    "books_count": 4,
+    "top_books": [
+      "Isaiah",
+      "Job",
+      "Joel",
+      "Ezekiel"
+    ]
+  }
 }

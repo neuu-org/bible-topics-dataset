@@ -1,42 +1,61 @@
 {
   "topic": "IMNAH",
   "slug": "imnah",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. Firstborn of Asher 1Ch 7:30",
-      "references": [
-        "1Chr 7:30"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "2. A Levite 2Ch 31:14",
-      "references": [
-        "2Chr 31:14"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.693968+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "1. Firstborn of Asher",
+      "references": [
+        "1 Chronicles 7:30"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2. A Levite",
+      "references": [
+        "2 Chronicles 31:14"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0"
+  ],
+  "biblical_references": [
+    {
+      "book": "1 Chronicles",
+      "chapter": 7,
+      "verses": [
+        30
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 7:30"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 31,
+      "verses": [
+        14
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Chronicles 31:14"
+    }
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "2 Chronicles"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 2,
+    "ot_refs": 2,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "1 Chronicles",
+      "2 Chronicles"
+    ]
+  }
 }

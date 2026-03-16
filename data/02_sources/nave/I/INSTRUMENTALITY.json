@@ -1,85 +1,34 @@
 {
   "topic": "INSTRUMENTALITY",
-  "topic_slug": "instrumentality",
+  "slug": "instrumentality",
   "canonical_id": "NAV:instrumentality",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "MUSIC",
     "AGENCY"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "MUSIC",
-      "clean": "MUSIC",
-      "slug": "music",
-      "canonical_id": "NAV:music"
+      "label": "SeeAGENCY",
+      "references": []
     },
     {
-      "original": "AGENCY",
-      "clean": "AGENCY",
-      "slug": "agency",
-      "canonical_id": "NAV:agency"
-    }
-  ],
-  "raw_block": "–SeeAGENCY\n–INSTRUMENTS, MUSICAL\n  .SeeMUSIC",
-  "content_preview": "–SeeAGENCY",
-  "reference_groups": [
-    {
-      "idx": 0,
-      "entry_label": "–SeeAGENCY",
-      "raw_segment": "–SeeAGENCY"
+      "label": "INSTRUMENTS, MUSI",
+      "references": []
     },
     {
-      "idx": 1,
-      "entry_label": "–INSTRUMENTS, MUSICAL",
-      "raw_segment": "–INSTRUMENTS, MUSICAL"
+      "label": ".SeeMUSIC",
+      "references": []
     }
   ],
   "biblical_references": [],
   "books_mentioned": [],
-  "normalized_labels": [],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 3,
+    "total_refs": 0,
     "ot_refs": 0,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:d42deb04caa7639cca0606fa7448b120c762ddcf6e81ba724569c705ac6351db",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 3
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
-    ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:27:36.700618Z",
-  "updated_at": "2025-09-20T17:27:36.700626Z"
+    "books_count": 0,
+    "top_books": []
+  }
 }

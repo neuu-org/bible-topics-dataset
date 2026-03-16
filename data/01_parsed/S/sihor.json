@@ -1,110 +1,28 @@
 {
   "topic": "SIHOR",
   "slug": "sihor",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Also called SHIHOR",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "A river of Egypt, given by some authorities as the Nile River Jos 13:3; 1Ch 13:5; Isa 23:3; Jer 2:18",
-      "references": [
-        "Josh 13:3",
-        "1Chr 13:5",
-        "Isa 23:3",
-        "Jer 2:18"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "1 Chronicles",
-      "book_abbrev": "1ch",
-      "chapter": 13,
-      "testament": "OT",
-      "verses": [
-        5
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Isaiah",
-      "book_abbrev": "isa",
-      "chapter": 23,
-      "testament": "OT",
-      "verses": [
-        3
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Jeremiah",
-      "book_abbrev": "jer",
-      "chapter": 2,
-      "testament": "OT",
-      "verses": [
-        18
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 3,
-    "nt_refs": 0,
-    "total_verses": 3
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.726350+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "Al",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "A river of Egypt, given by",
+      "references": [
+        "Joshua 13:3",
+        "1 Chronicles 13:5",
+        "Isaiah 23:3",
+        "Jeremiah 2:18"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "1 Chronicles",
-      "chapter": 13,
-      "verses": [
-        5
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "1 Chronicles 13:5",
-      "source": "EAS"
-    },
-    {
-      "book": "Isaiah",
-      "chapter": 23,
-      "verses": [
-        3
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Isaiah 23:3",
-      "source": "EAS"
-    },
-    {
-      "book": "Jeremiah",
-      "chapter": 2,
-      "verses": [
-        18
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Jeremiah 2:18",
-      "source": "EAS"
-    },
+  ],
+  "biblical_references": [
     {
       "book": "Joshua",
       "chapter": 13,
@@ -113,8 +31,56 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Joshua 13:3",
-      "source": "EAS"
+      "raw": "Joshua 13:3"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 13,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 13:5"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 23,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 23:3"
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 2,
+      "verses": [
+        18
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Jeremiah 2:18"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Isaiah",
+    "Jeremiah",
+    "Joshua"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 4,
+    "ot_refs": 4,
+    "nt_refs": 0,
+    "books_count": 4,
+    "top_books": [
+      "Joshua",
+      "1 Chronicles",
+      "Isaiah",
+      "Jeremiah"
+    ]
+  }
 }

@@ -1,57 +1,28 @@
 {
   "topic": "PONTUS",
   "slug": "pontus",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "A province of Asia Minor Ac 2:9; 1Pe 1:1",
-      "references": [
-        "Acts 2:9",
-        "1Pet 1:1"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Aquila lived in Ac 18:2",
-      "references": [
-        "Acts 18:2"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "1 Peter",
-      "book_abbrev": "1pe",
-      "chapter": 1,
-      "testament": "NT",
-      "verses": [
-        1
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 1,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.718912+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "A province of Asia Minor",
+      "references": [
+        "Acts 2:9",
+        "1 Peter 1:1"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Aquila lived in",
+      "references": [
+        "Acts 18:2"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Acts",
       "chapter": 2,
@@ -60,8 +31,7 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Acts 2:9",
-      "source": "EAS"
+      "raw": "Acts 2:9"
     },
     {
       "book": "1 Peter",
@@ -71,8 +41,7 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "1 Peter 1:1",
-      "source": "EAS"
+      "raw": "1 Peter 1:1"
     },
     {
       "book": "Acts",
@@ -82,8 +51,22 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Acts 18:2",
-      "source": "EAS"
+      "raw": "Acts 18:2"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Peter",
+    "Acts"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 3,
+    "ot_refs": 0,
+    "nt_refs": 3,
+    "books_count": 2,
+    "top_books": [
+      "Acts",
+      "1 Peter"
+    ]
+  }
 }

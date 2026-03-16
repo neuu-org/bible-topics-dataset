@@ -1,70 +1,31 @@
 {
   "topic": "ERASTUS",
   "slug": "erastus",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. A friend of Paul Ac 19:22; 2Ti 4:20",
-      "references": [
-        "Acts 19:22",
-        "2Tim 4:20"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "2. Convert of Paul’s, probably same as preceding Ro 16:23",
-      "references": [
-        "Rom 16:23"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "2 Timothy",
-      "book_abbrev": "2ti",
-      "chapter": 4,
-      "testament": "NT",
-      "verses": [
-        20
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 1,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.684992+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    },
-    "enriched_at": "2025-12-02T22:02:09.931962+00:00",
-    "enrichment_source": "pipeline_merge"
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "see_also": [],
+  "aspects": [
     {
-      "book": "Romans",
-      "chapter": 16,
-      "verses": [
-        23
+      "label": "1. A friend of Paul",
+      "references": [
+        "Acts 19:22",
+        "2 Timothy 4:20"
       ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Romans 16:23",
-      "source": "EAS"
+      "source": "NAV"
     },
+    {
+      "label": "2. Convert of Paul’s, probably same as precedingRo",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "16:23",
+      "references": [],
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
     {
       "book": "Acts",
       "chapter": 19,
@@ -73,8 +34,7 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Acts 19:22",
-      "source": "EAS"
+      "raw": "Acts 19:22"
     },
     {
       "book": "2 Timothy",
@@ -84,8 +44,32 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "2 Timothy 4:20",
-      "source": "EAS"
+      "raw": "2 Timothy 4:20"
+    },
+    {
+      "book": "2 Timothy",
+      "chapter": 16,
+      "verses": [
+        23
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "2 Timothy 16:23"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "2 Timothy",
+    "Acts"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 3,
+    "ot_refs": 0,
+    "nt_refs": 3,
+    "books_count": 2,
+    "top_books": [
+      "2 Timothy",
+      "Acts"
+    ]
+  }
 }

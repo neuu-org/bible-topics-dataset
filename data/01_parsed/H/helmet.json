@@ -1,103 +1,32 @@
 {
   "topic": "HELMET",
   "slug": "helmet",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "A defensive head-gear worn by soldiers 1Sa 17:5,38; 2Ch 26:14; Jer 46:4; Eze 23:24",
-      "references": [
-        "1Sam 17:5",
-        "1Sam 17:38",
-        "2Chr 26:14",
-        "Jer 46:4",
-        "Ezek 23:24"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "FIGURATIVE Isa 59:17; Eph 6:17; 1Th 5:8",
-      "references": [
-        "Isa 59:17",
-        "Eph 6:17",
-        "1Thess 5:8"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "2 Chronicles",
-      "book_abbrev": "2ch",
-      "chapter": 26,
-      "testament": "OT",
-      "verses": [
-        14
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Jeremiah",
-      "book_abbrev": "jer",
-      "chapter": 46,
-      "testament": "OT",
-      "verses": [
-        4
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Ezekiel",
-      "book_abbrev": "ezk",
-      "chapter": 23,
-      "testament": "OT",
-      "verses": [
-        24
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Ephesians",
-      "book_abbrev": "eph",
-      "chapter": 6,
-      "testament": "NT",
-      "verses": [
-        1,
-        17
-      ],
-      "verse_count": 2
-    },
-    {
-      "book": "1 Thessalonians",
-      "book_abbrev": "1th",
-      "chapter": 5,
-      "testament": "NT",
-      "verses": [
-        8
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 3,
-    "nt_refs": 2,
-    "total_verses": 5
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.691853+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "A",
+      "references": [
+        "1 Samuel 17:5,38",
+        "2 Chronicles 26:14",
+        "Jeremiah 46:4",
+        "Ezekiel 23:24"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "FIGURATIVE",
+      "references": [
+        "Isaiah 59:17",
+        "Ephesians 6:17",
+        "1 Thessalonians 5:8"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "1 Samuel",
       "chapter": 17,
@@ -107,8 +36,47 @@
       ],
       "verse_count": 2,
       "testament": "OT",
-      "raw": "1 Samuel 17:5, 38",
-      "source": "EAS"
+      "raw": "1 Samuel 17:5,38"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 26,
+      "verses": [
+        14
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Chronicles 26:14"
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 46,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Jeremiah 46:4"
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 23,
+      "verses": [
+        24
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezekiel 23:24"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 59,
+      "verses": [
+        17
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 59:17"
     },
     {
       "book": "Ephesians",
@@ -118,8 +86,7 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Ephesians 6:17",
-      "source": "EAS"
+      "raw": "Ephesians 6:17"
     },
     {
       "book": "1 Thessalonians",
@@ -129,8 +96,32 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "1 Thessalonians 5:8",
-      "source": "EAS"
+      "raw": "1 Thessalonians 5:8"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Samuel",
+    "1 Thessalonians",
+    "2 Chronicles",
+    "Ephesians",
+    "Ezekiel",
+    "Isaiah",
+    "Jeremiah"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 7,
+    "ot_refs": 5,
+    "nt_refs": 2,
+    "books_count": 7,
+    "top_books": [
+      "1 Samuel",
+      "2 Chronicles",
+      "Jeremiah",
+      "Ezekiel",
+      "Isaiah",
+      "Ephesians",
+      "1 Thessalonians"
+    ]
+  }
 }

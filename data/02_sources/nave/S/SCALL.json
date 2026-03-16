@@ -1,78 +1,46 @@
 {
   "topic": "SCALL",
-  "topic_slug": "scall",
+  "slug": "scall",
   "canonical_id": "NAV:scall",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "LEPROSY"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "LEPROSY",
-      "clean": "LEPROSY",
-      "slug": "leprosy",
-      "canonical_id": "NAV:leprosy"
-    }
-  ],
-  "raw_block": "–A form of leprosyLe 13:30\n–SeeLEPROSY",
-  "content_preview": "–A form of leprosyLe 13:30",
-  "reference_groups": [
-    {
-      "idx": 0,
-      "entry_label": "–A form of leprosyLe 13:30",
-      "raw_segment": "–A form of leprosyLe 13:30"
+      "label": "A form of leprosy",
+      "references": [
+        "Leviticus 13:30"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–SeeLEPROSY",
-      "raw_segment": "–SeeLEPROSY"
+      "label": "SeeLEPROSY",
+      "references": []
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Leviticus",
+      "chapter": 13,
+      "verses": [
+        30
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Leviticus 13:30"
+    }
+  ],
+  "books_mentioned": [
+    "Leviticus"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 2,
+    "total_refs": 1,
+    "ot_refs": 1,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:819860be950d538141fbc7f74cb1b1ca35df4a13dbd361a0ba9ad3444037320e",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 1,
+    "top_books": [
+      "Leviticus"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:30:55.701888Z",
-  "updated_at": "2025-09-20T17:30:55.701896Z"
+  }
 }

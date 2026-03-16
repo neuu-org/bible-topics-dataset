@@ -1,78 +1,101 @@
 {
   "topic": "EPICUREANS",
   "slug": "epicureans",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "(Referring to those who are fastidious in their tastes or enjoyments, connoisseurs)",
+      "label": "(Referring to those who are fastidious in their tastes or enjoyments,",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Reject John the Baptist Mt 11:18; Lu 7:33",
+      "label": "connoisseurs)",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "Reject",
       "references": [
-        "Matt 11:18",
+        "Matthew 11:18",
         "Luke 7:33"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Doctrines propagated by, familiar to Solomon Ec 2:1-10",
+      "label": "Doctrines propagated by, familiar to",
       "references": [
-        "Eccl 2:1-10"
+        "Ecclesiastes 2:1-10"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "To Paul 1Co 15:32",
+      "label": "To Paul",
       "references": [
-        "1Cor 15:32"
+        "1 Corinthians 15:32"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Dispute with Paul Ac 17:18",
+      "label": "Dispute with Paul",
       "references": [
         "Acts 17:18"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Luke",
-      "book_abbrev": "luk",
-      "chapter": 7,
+      "book": "Matthew",
+      "chapter": 11,
+      "verses": [
+        18
+      ],
+      "verse_count": 1,
       "testament": "NT",
+      "raw": "Matthew 11:18"
+    },
+    {
+      "book": "Luke",
+      "chapter": 7,
       "verses": [
         33
       ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 5,
-    "ot_refs": 0,
-    "nt_refs": 1,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.684926+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 7:33"
     },
-    "enriched_at": "2025-12-02T22:02:09.924286+00:00",
-    "enrichment_source": "pipeline_merge"
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+    {
+      "book": "Ecclesiastes",
+      "chapter": 2,
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "verse_count": 10,
+      "testament": "OT",
+      "raw": "Ecclesiastes 2:1-10"
+    },
+    {
+      "book": "1 Corinthians",
+      "chapter": 15,
+      "verses": [
+        32
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "1 Corinthians 15:32"
+    },
     {
       "book": "Acts",
       "chapter": 17,
@@ -81,8 +104,28 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Acts 17:18",
-      "source": "EAS"
+      "raw": "Acts 17:18"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Corinthians",
+    "Acts",
+    "Ecclesiastes",
+    "Luke",
+    "Matthew"
+  ],
+  "stats": {
+    "total_aspects": 6,
+    "total_refs": 5,
+    "ot_refs": 1,
+    "nt_refs": 4,
+    "books_count": 5,
+    "top_books": [
+      "Matthew",
+      "Luke",
+      "Ecclesiastes",
+      "1 Corinthians",
+      "Acts"
+    ]
+  }
 }

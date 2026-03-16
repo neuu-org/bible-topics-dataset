@@ -1,47 +1,34 @@
 {
   "topic": "ABIEL",
   "slug": "abiel",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. Saul’s grandfather 1Sa 14:51",
-      "references": [
-        "1Sam 14:51"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "2. A Benjamite 1Sa 9:1",
-      "references": [
-        "1Sam 9:1"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [
-    "ABI-ALBON"
-  ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.659758+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [
+    "ABI-ALBON"
+  ],
+  "aspects": [
+    {
+      "label": "1. Saul’s grandfather",
+      "references": [
+        "1 Samuel 14:51"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2. A Benjamite",
+      "references": [
+        "1 Samuel 9:1"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".SeeABI-ALBON",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "1 Samuel",
       "chapter": 14,
@@ -50,52 +37,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Samuel 14:51",
-      "source": "EAS"
-    },
-    {
-      "book": "1 Chronicles",
-      "chapter": 8,
-      "verses": [
-        33
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "1 Chronicles 8:33",
-      "source": "EAS"
-    },
-    {
-      "book": "1 Chronicles",
-      "chapter": 9,
-      "verses": [
-        39
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "1 Chronicles 9:39",
-      "source": "EAS"
-    },
-    {
-      "book": "1 Chronicles",
-      "chapter": 11,
-      "verses": [
-        32
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "1 Chronicles 11:32",
-      "source": "EAS"
-    },
-    {
-      "book": "2 Samuel",
-      "chapter": 23,
-      "verses": [
-        31
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "2 Samuel 23:31",
-      "source": "EAS"
+      "raw": "1 Samuel 14:51"
     },
     {
       "book": "1 Samuel",
@@ -105,8 +47,20 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Samuel 9:1",
-      "source": "EAS"
+      "raw": "1 Samuel 9:1"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Samuel"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 2,
+    "ot_refs": 2,
+    "nt_refs": 0,
+    "books_count": 1,
+    "top_books": [
+      "1 Samuel"
+    ]
+  }
 }

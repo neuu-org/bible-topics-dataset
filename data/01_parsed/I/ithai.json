@@ -1,55 +1,36 @@
 {
   "topic": "ITHAI",
   "slug": "ithai",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "Also called ITTAI",
+      "label": "Al",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "One of David’s valiant men 2Sa 23:29; 1Ch 11:31",
+      "label": "One of David’s valiant men",
       "references": [
-        "2Sam 23:29",
-        "1Chr 11:31"
+        "2 Samuel 23:29",
+        "1 Chronicles 11:31"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "1 Chronicles",
-      "book_abbrev": "1ch",
-      "chapter": 11,
-      "testament": "OT",
+      "book": "2 Samuel",
+      "chapter": 23,
       "verses": [
-        31
+        29
       ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.694904+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Samuel 23:29"
+    },
     {
       "book": "1 Chronicles",
       "chapter": 11,
@@ -58,8 +39,22 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 11:31",
-      "source": "SMI"
+      "raw": "1 Chronicles 11:31"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "2 Samuel"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 2,
+    "ot_refs": 2,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "2 Samuel",
+      "1 Chronicles"
+    ]
+  }
 }

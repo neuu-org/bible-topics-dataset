@@ -1,83 +1,112 @@
 {
   "topic": "LOAVES",
-  "topic_slug": "loaves",
+  "slug": "loaves",
   "canonical_id": "NAV:loaves",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "BREAD"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "BREAD",
-      "clean": "BREAD",
-      "slug": "bread",
-      "canonical_id": "NAV:bread"
-    }
-  ],
-  "raw_block": "–Miracle of the fiveMt 14:15-21;16:9;Lu 9:12-17\n–Miracle of the sevenMt 15:34-38;16:10\n–SeeBREAD",
-  "content_preview": "–Miracle of the fiveMt 14:15-21;16:9;Lu 9:12-17",
-  "reference_groups": [
-    {
-      "idx": 0,
-      "entry_label": "–Miracle of the fiveMt 14:15-21;16:9;Lu 9:12-17",
-      "raw_segment": "–Miracle of the fiveMt 14:15-21;16:9;Lu 9:12-17"
+      "label": "Miracle of the five",
+      "references": [
+        "Matthew 14:15-21",
+        "Matthew 16:9",
+        "Luke 9:12-17"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–Miracle of the sevenMt 15:34-38;16:10",
-      "raw_segment": "–Miracle of the sevenMt 15:34-38;16:10"
+      "label": "Miracle of the seven",
+      "references": [
+        "Matthew 15:34-38",
+        "Matthew 16:10"
+      ]
     },
     {
-      "idx": 2,
-      "entry_label": "–SeeBREAD",
-      "raw_segment": "–SeeBREAD"
+      "label": "SeeBREAD",
+      "references": []
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Matthew",
+      "chapter": 14,
+      "verses": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "verse_count": 7,
+      "testament": "NT",
+      "raw": "Matthew 14:15-21"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 16,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 16:9"
+    },
+    {
+      "book": "Luke",
+      "chapter": 9,
+      "verses": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "verse_count": 6,
+      "testament": "NT",
+      "raw": "Luke 9:12-17"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 15,
+      "verses": [
+        34,
+        35,
+        36,
+        37,
+        38
+      ],
+      "verse_count": 5,
+      "testament": "NT",
+      "raw": "Matthew 15:34-38"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 16,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 16:10"
+    }
+  ],
+  "books_mentioned": [
+    "Luke",
+    "Matthew"
+  ],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 3,
+    "total_refs": 5,
     "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:a055f1d511257881d0559f42f62a099d086436f84735b8dd56035e9a89f1f2e8",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 3
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "nt_refs": 5,
+    "books_count": 2,
+    "top_books": [
+      "Matthew",
+      "Luke"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:28:38.177418Z",
-  "updated_at": "2025-09-20T17:28:38.177425Z"
+  }
 }

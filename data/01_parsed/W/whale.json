@@ -1,52 +1,34 @@
 {
   "topic": "WHALE",
   "slug": "whale",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Created Ge 1:21",
-      "references": [
-        "Gen 1:21"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Called a “sea monster,” in the R. V Job 7:12",
-      "references": [
-        "Job 7:12"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "See DRAGON",
-      "references": [],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [
-    "DRAGON"
-  ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.733406+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [
+    "DRAGON"
+  ],
+  "aspects": [
+    {
+      "label": "Created",
+      "references": [
+        "Genesis 1:21"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "General references",
+      "references": [
+        "Job 7:12"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeDRAGON",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Genesis",
       "chapter": 1,
@@ -55,19 +37,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 1:21",
-      "source": "EAS"
-    },
-    {
-      "book": "Lamentations",
-      "chapter": 4,
-      "verses": [
-        3
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Lamentations 4:3",
-      "source": "EAS"
+      "raw": "Genesis 1:21"
     },
     {
       "book": "Job",
@@ -77,107 +47,22 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Job 7:12",
-      "source": "EAS"
-    },
-    {
-      "book": "Deuteronomy",
-      "chapter": 32,
-      "verses": [
-        33
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Deuteronomy 32:33",
-      "source": "EAS"
-    },
-    {
-      "book": "Psalms",
-      "chapter": 91,
-      "verses": [
-        13
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Psalms 91:13",
-      "source": "EAS"
-    },
-    {
-      "book": "Jeremiah",
-      "chapter": 51,
-      "verses": [
-        34
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Jeremiah 51:34",
-      "source": "EAS"
-    },
-    {
-      "book": "Psalms",
-      "chapter": 74,
-      "verses": [
-        13
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Psalms 74:13",
-      "source": "EAS"
-    },
-    {
-      "book": "Isaiah",
-      "chapter": 27,
-      "verses": [
-        1
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Isaiah 27:1",
-      "source": "EAS"
-    },
-    {
-      "book": "Exodus",
-      "chapter": 7,
-      "verses": [
-        9
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Exodus 7:9",
-      "source": "EAS"
-    },
-    {
-      "book": "Exodus",
-      "chapter": 7,
-      "verses": [
-        12
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Exodus 7:12",
-      "source": "EAS"
-    },
-    {
-      "book": "Matthew",
-      "chapter": 12,
-      "verses": [
-        40
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Matthew 12:40",
-      "source": "EAS"
-    },
-    {
-      "book": "Matthew",
-      "chapter": 1,
-      "verses": [
-        17
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Matthew 1:17",
-      "source": "EAS"
+      "raw": "Job 7:12"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Genesis",
+    "Job"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 2,
+    "ot_refs": 2,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "Genesis",
+      "Job"
+    ]
+  }
 }

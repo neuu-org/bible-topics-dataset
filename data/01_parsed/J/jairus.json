@@ -1,32 +1,56 @@
 {
   "topic": "JAIRUS",
   "slug": "jairus",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "A ruler of the synagogue in Capernaum Mt 9:18",
+      "label": "A ruler of the synagogue in",
       "references": [
-        "Matt 9:18"
+        "Matthew 9:18"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Daughter of, restored to life Mt 9:18,23-26; Mr 5:22-43; Lu 8:41-56",
+      "label": "Daughter of, restored to life",
       "references": [
-        "Matt 9:18",
-        "Matt 9:23-26",
+        "Matthew 9:18,23-26",
         "Mark 5:22-43",
         "Luke 8:41-56"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Mark",
-      "book_abbrev": "mrk",
-      "chapter": 5,
+      "book": "Matthew",
+      "chapter": 9,
+      "verses": [
+        18
+      ],
+      "verse_count": 1,
       "testament": "NT",
+      "raw": "Matthew 9:18"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 9,
+      "verses": [
+        18,
+        23,
+        24,
+        25,
+        26
+      ],
+      "verse_count": 5,
+      "testament": "NT",
+      "raw": "Matthew 9:18,23-26"
+    },
+    {
+      "book": "Mark",
+      "chapter": 5,
       "verses": [
         22,
         23,
@@ -51,13 +75,13 @@
         42,
         43
       ],
-      "verse_count": 22
+      "verse_count": 22,
+      "testament": "NT",
+      "raw": "Mark 5:22-43"
     },
     {
       "book": "Luke",
-      "book_abbrev": "luk",
       "chapter": 8,
-      "testament": "NT",
       "verses": [
         41,
         42,
@@ -76,62 +100,26 @@
         55,
         56
       ],
-      "verse_count": 16
+      "verse_count": 16,
+      "testament": "NT",
+      "raw": "Luke 8:41-56"
     }
   ],
-  "see_also": [],
-  "aliases": [],
+  "books_mentioned": [
+    "Luke",
+    "Mark",
+    "Matthew"
+  ],
   "stats": {
-    "entries_count": 2,
+    "total_aspects": 2,
+    "total_refs": 4,
     "ot_refs": 0,
-    "nt_refs": 2,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.695500+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "Mark",
-      "chapter": 5,
-      "verses": [
-        22
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Mark 5:22",
-      "source": "EAS"
-    },
-    {
-      "book": "Luke",
-      "chapter": 8,
-      "verses": [
-        41
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Luke 8:41",
-      "source": "EAS"
-    },
-    {
-      "book": "Mark",
-      "chapter": 5,
-      "verses": [
-        43
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Mark 5:43",
-      "source": "EAS"
-    }
-  ]
+    "nt_refs": 4,
+    "books_count": 3,
+    "top_books": [
+      "Matthew",
+      "Mark",
+      "Luke"
+    ]
+  }
 }

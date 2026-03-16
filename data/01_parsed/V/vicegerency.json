@@ -1,72 +1,105 @@
 {
   "topic": "VICEGERENCY",
   "slug": "vicegerency",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "(Exercising the powers of another)",
+      "label": "(Exercising the powers of another)",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Of Elisha",
+      "label": "Of Elisha",
       "references": [],
-      "sub_groups": [
-        {
-          "name": "In miraculously rewarding the Shunammite woman 2Ki 4:16,17",
-          "references": [
-            "2Kgs 4:16",
-            "2Kgs 4:17"
-          ]
-        },
-        {
-          "name": "In condemning Gehazi 2Ki 5:27",
-          "references": [
-            "2Kgs 5:27"
-          ]
-        }
-      ]
+      "source": "NAV"
     },
     {
-      "name": "Of the apostles Mt 16:19; 18:18; Joh 20:23",
+      "label": ".In miraculously rewarding the Shunammite woman",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "4:16,17",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".In con",
       "references": [
-        "Matt 16:19",
-        "Matt 18:18",
+        "2 Kings 5:27"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Of the apostles",
+      "references": [
+        "Matthew 16:19",
+        "Matthew 18:18",
         "John 20:23"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "John",
-      "book_abbrev": "jhn",
-      "chapter": 20,
+      "book": "2 Kings",
+      "chapter": 5,
+      "verses": [
+        27
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Kings 5:27"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 16,
+      "verses": [
+        19
+      ],
+      "verse_count": 1,
       "testament": "NT",
+      "raw": "Matthew 16:19"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 18,
+      "verses": [
+        18
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 18:18"
+    },
+    {
+      "book": "John",
+      "chapter": 20,
       "verses": [
         23
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "John 20:23"
     }
   ],
-  "see_also": [],
-  "aliases": [],
+  "books_mentioned": [
+    "2 Kings",
+    "John",
+    "Matthew"
+  ],
   "stats": {
-    "entries_count": 3,
-    "ot_refs": 0,
-    "nt_refs": 1,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.732685+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    }
-  },
-  "version": "3.0.0"
+    "total_aspects": 6,
+    "total_refs": 4,
+    "ot_refs": 1,
+    "nt_refs": 3,
+    "books_count": 3,
+    "top_books": [
+      "Matthew",
+      "2 Kings",
+      "John"
+    ]
+  }
 }

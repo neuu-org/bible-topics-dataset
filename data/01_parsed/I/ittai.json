@@ -1,69 +1,48 @@
 {
   "topic": "ITTAI",
   "slug": "ittai",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "A chief of David 2Sa 18:2; 1Ch 11:31",
+      "label": "A chief of David",
       "references": [
-        "2Sam 18:2",
-        "1Chr 11:31"
+        "2 Samuel 18:2",
+        "1 Chronicles 11:31"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Supports David against Absalom 2Sa 15:19-22; 18:2,5",
+      "label": "Supports David against Absalom",
       "references": [
-        "2Sam 15:19-22",
-        "2Sam 18:2",
-        "2Sam 18:5"
+        "2 Samuel 15:19-22",
+        "2 Samuel 18:2,5"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "1 Chronicles",
-      "book_abbrev": "1ch",
-      "chapter": 11,
-      "testament": "OT",
-      "verses": [
-        31
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.694994+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
       "book": "2 Samuel",
-      "chapter": 23,
+      "chapter": 18,
       "verses": [
-        29
+        2
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Samuel 23:29",
-      "source": "EAS"
+      "raw": "2 Samuel 18:2"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 11,
+      "verses": [
+        31
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 11:31"
     },
     {
       "book": "2 Samuel",
@@ -76,55 +55,33 @@
       ],
       "verse_count": 4,
       "testament": "OT",
-      "raw": "2 Samuel 15:19-22",
-      "source": "EAS"
-    },
-    {
-      "book": "1 Samuel",
-      "chapter": 23,
-      "verses": [
-        13
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "1 Samuel 23:13",
-      "source": "EAS"
-    },
-    {
-      "book": "1 Samuel",
-      "chapter": 27,
-      "verses": [
-        2
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "1 Samuel 27:2",
-      "source": "EAS"
-    },
-    {
-      "book": "1 Samuel",
-      "chapter": 30,
-      "verses": [
-        9,
-        10
-      ],
-      "verse_count": 2,
-      "testament": "OT",
-      "raw": "1 Samuel 30:9, 10",
-      "source": "EAS"
+      "raw": "2 Samuel 15:19-22"
     },
     {
       "book": "2 Samuel",
       "chapter": 18,
       "verses": [
         2,
-        5,
-        12
+        5
       ],
-      "verse_count": 3,
+      "verse_count": 2,
       "testament": "OT",
-      "raw": "2 Samuel 18:2, 5, 12",
-      "source": "EAS"
+      "raw": "2 Samuel 18:2,5"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "2 Samuel"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 4,
+    "ot_refs": 4,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "2 Samuel",
+      "1 Chronicles"
+    ]
+  }
 }

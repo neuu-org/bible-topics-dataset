@@ -1,88 +1,46 @@
 {
   "topic": "BALAK",
   "slug": "balak",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "King of Moab Nu 22:4; Jos 24:9; Jud 11:25; Mic 6:5",
-      "references": [
-        "Num 22:4",
-        "Josh 24:9",
-        "Judg 11:25",
-        "Mic 6:5"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Tries to bribe Balaam to curse Israel Nu 22:5-7,15-17",
-      "references": [
-        "Num 22:5-7",
-        "Num 22:15-17"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "See BALAAM",
-      "references": [],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Joshua",
-      "book_abbrev": "jos",
-      "chapter": 24,
-      "testament": "OT",
-      "verses": [
-        9
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Micah",
-      "book_abbrev": "mic",
-      "chapter": 6,
-      "testament": "OT",
-      "verses": [
-        5
-      ],
-      "verse_count": 1
-    }
+  "sources": [
+    "NAV"
   ],
   "see_also": [
     "BALAAM"
   ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 2,
-    "nt_refs": 0,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.671702+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "aspects": [
+    {
+      "label": "King of Moab",
+      "references": [
+        "Numbers 22:4",
+        "Joshua 24:9",
+        "Judges 11:25",
+        "Micah 6:5"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Tries to bribe Balaam to curse Israel",
+      "references": [
+        "Numbers 22:5-7,15-17"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeBALAAM",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Numbers",
       "chapter": 22,
       "verses": [
-        2,
         4
       ],
-      "verse_count": 2,
+      "verse_count": 1,
       "testament": "OT",
-      "raw": "Numbers 22:2, 4",
-      "source": "EAS"
+      "raw": "Numbers 22:4"
     },
     {
       "book": "Joshua",
@@ -92,19 +50,61 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Joshua 24:9",
-      "source": "EAS"
+      "raw": "Joshua 24:9"
+    },
+    {
+      "book": "Judges",
+      "chapter": 11,
+      "verses": [
+        25
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Judges 11:25"
+    },
+    {
+      "book": "Micah",
+      "chapter": 6,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Micah 6:5"
     },
     {
       "book": "Numbers",
       "chapter": 22,
       "verses": [
-        24
+        5,
+        6,
+        7,
+        15,
+        16,
+        17
       ],
-      "verse_count": 1,
+      "verse_count": 6,
       "testament": "OT",
-      "raw": "Numbers 22:24",
-      "source": "SMI"
+      "raw": "Numbers 22:5-7,15-17"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Joshua",
+    "Judges",
+    "Micah",
+    "Numbers"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 5,
+    "ot_refs": 5,
+    "nt_refs": 0,
+    "books_count": 4,
+    "top_books": [
+      "Numbers",
+      "Joshua",
+      "Judges",
+      "Micah"
+    ]
+  }
 }

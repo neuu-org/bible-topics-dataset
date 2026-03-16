@@ -1,80 +1,41 @@
 {
   "topic": "JABBOK",
   "slug": "jabbok",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "A stream on the east of the Jordan River, the northern boundary of the possessions of the Ammonites Nu 21:24; Jud 11:13",
-      "references": [
-        "Num 21:24",
-        "Judg 11:13"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Of the Reubenites and the Gadites Jos 12:2; De 3:16",
-      "references": [
-        "Josh 12:2",
-        "Deut 3:16"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "The northern boundary of the Amorites Jud 11:22",
-      "references": [
-        "Judg 11:22"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Deuteronomy",
-      "book_abbrev": "deu",
-      "chapter": 3,
-      "testament": "OT",
-      "verses": [
-        16
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.695195+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "see_also": [],
+  "aspects": [
     {
-      "book": "Joshua",
-      "chapter": 12,
-      "verses": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "verse_count": 5,
-      "testament": "OT",
-      "raw": "Joshua 12:1-5",
-      "source": "EAS"
+      "label": "A stream on the east of the Jordan River, the northern boundary",
+      "references": [],
+      "source": "NAV"
     },
+    {
+      "label": "of the possessions of the Ammonites",
+      "references": [
+        "Numbers 21:24",
+        "Judges 11:13"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Of the Reubenites and the Gadites",
+      "references": [
+        "Joshua 12:2",
+        "Deuteronomy 3:16"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "The northern boundary of the Amorites",
+      "references": [
+        "Judges 11:22"
+      ],
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
     {
       "book": "Numbers",
       "chapter": 21,
@@ -83,8 +44,27 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Numbers 21:24",
-      "source": "EAS"
+      "raw": "Numbers 21:24"
+    },
+    {
+      "book": "Judges",
+      "chapter": 11,
+      "verses": [
+        13
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Judges 11:13"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 12,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 12:2"
     },
     {
       "book": "Deuteronomy",
@@ -94,53 +74,36 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Deuteronomy 3:16",
-      "source": "EAS"
+      "raw": "Deuteronomy 3:16"
     },
     {
-      "book": "Joshua",
-      "chapter": 12,
-      "verses": [
-        2,
-        5
-      ],
-      "verse_count": 2,
-      "testament": "OT",
-      "raw": "Joshua 12:2,5",
-      "source": "SMI"
-    },
-    {
-      "book": "Numbers",
-      "chapter": 2,
-      "verses": [
-        37
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Numbers 2:37",
-      "source": "SMI"
-    },
-    {
-      "book": "Numbers",
-      "chapter": 3,
-      "verses": [
-        16
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Numbers 3:16",
-      "source": "SMI"
-    },
-    {
-      "book": "Genesis",
-      "chapter": 32,
+      "book": "Judges",
+      "chapter": 11,
       "verses": [
         22
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 32:22",
-      "source": "SMI"
+      "raw": "Judges 11:22"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Deuteronomy",
+    "Joshua",
+    "Judges",
+    "Numbers"
+  ],
+  "stats": {
+    "total_aspects": 4,
+    "total_refs": 5,
+    "ot_refs": 5,
+    "nt_refs": 0,
+    "books_count": 4,
+    "top_books": [
+      "Judges",
+      "Numbers",
+      "Joshua",
+      "Deuteronomy"
+    ]
+  }
 }

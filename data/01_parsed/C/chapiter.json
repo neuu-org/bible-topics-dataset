@@ -1,29 +1,38 @@
 {
   "topic": "CHAPITER",
   "slug": "chapiter",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "Head of a pillar Ex 36:38; 1Ki 7:16-42; 2Ki 25:17; 2Ch 4:12,13; Jer 52:22",
+      "label": "Head of a pillar",
       "references": [
-        "Exod 36:38",
-        "1Kgs 7:16-42",
-        "2Kgs 25:17",
-        "2Chr 4:12",
-        "2Chr 4:13",
-        "Jer 52:22"
+        "Exodus 36:38",
+        "1 Kings 7:16-42",
+        "2 Kings 25:17",
+        "2 Chronicles 4:12,13",
+        "Jeremiah 52:22"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "1 Kings",
-      "book_abbrev": "1ki",
-      "chapter": 7,
-      "testament": "OT",
+      "book": "Exodus",
+      "chapter": 36,
       "verses": [
-        2,
+        38
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 36:38"
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 7,
+      "verses": [
         16,
         17,
         18,
@@ -52,129 +61,61 @@
         41,
         42
       ],
-      "verse_count": 28
+      "verse_count": 27,
+      "testament": "OT",
+      "raw": "1 Kings 7:16-42"
     },
     {
       "book": "2 Kings",
-      "book_abbrev": "2ki",
       "chapter": 25,
-      "testament": "OT",
       "verses": [
-        2,
         17
       ],
-      "verse_count": 2
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Kings 25:17"
     },
     {
       "book": "2 Chronicles",
-      "book_abbrev": "2ch",
       "chapter": 4,
-      "testament": "OT",
       "verses": [
         12,
         13
       ],
-      "verse_count": 2
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "2 Chronicles 4:12,13"
     },
     {
       "book": "Jeremiah",
-      "book_abbrev": "jer",
       "chapter": 52,
-      "testament": "OT",
       "verses": [
         22
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Jeremiah 52:22"
     }
   ],
-  "see_also": [],
-  "aliases": [],
+  "books_mentioned": [
+    "1 Kings",
+    "2 Chronicles",
+    "2 Kings",
+    "Exodus",
+    "Jeremiah"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 4,
+    "total_aspects": 1,
+    "total_refs": 5,
+    "ot_refs": 5,
     "nt_refs": 0,
-    "total_verses": 4
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.677071+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "1 Kings",
-      "chapter": 7,
-      "verses": [
-        16
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "1 Kings 7:16",
-      "source": "EAS"
-    },
-    {
-      "book": "2 Kings",
-      "chapter": 25,
-      "verses": [
-        17
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "2 Kings 25:17",
-      "source": "EAS"
-    },
-    {
-      "book": "2 Chronicles",
-      "chapter": 4,
-      "verses": [
-        12
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "2 Chronicles 4:12",
-      "source": "EAS"
-    },
-    {
-      "book": "2 Chronicles",
-      "chapter": 3,
-      "verses": [
-        15
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "2 Chronicles 3:15",
-      "source": "EAS"
-    },
-    {
-      "book": "Exodus",
-      "chapter": 36,
-      "verses": [
-        38
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Exodus 36:38",
-      "source": "EAS"
-    },
-    {
-      "book": "Exodus",
-      "chapter": 38,
-      "verses": [
-        17,
-        19,
-        28
-      ],
-      "verse_count": 3,
-      "testament": "OT",
-      "raw": "Exodus 38:17, 19, 28",
-      "source": "EAS"
-    }
-  ]
+    "books_count": 5,
+    "top_books": [
+      "Exodus",
+      "1 Kings",
+      "2 Kings",
+      "2 Chronicles",
+      "Jeremiah"
+    ]
+  }
 }

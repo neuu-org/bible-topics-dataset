@@ -1,50 +1,31 @@
 {
   "topic": "ALPHA",
   "slug": "alpha",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "A title of Christ Re 1:8,11; 21:6; 22:13",
-      "references": [
-        "Rev 1:8",
-        "Rev 1:11",
-        "Rev 21:6",
-        "Rev 22:13"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Compare Isa 41:4; 44:6; 48:12",
-      "references": [
-        "Isa 41:4",
-        "Isa 44:6",
-        "Isa 48:12"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.662684+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "A title of Christ",
+      "references": [
+        "Revelation 1:8,11",
+        "Revelation 21:6",
+        "Revelation 22:13"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Compare",
+      "references": [
+        "Isaiah 41:4",
+        "Isaiah 44:6",
+        "Isaiah 48:12"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Revelation",
       "chapter": 1,
@@ -54,8 +35,7 @@
       ],
       "verse_count": 2,
       "testament": "NT",
-      "raw": "Revelation 1:8,11",
-      "source": "SMI"
+      "raw": "Revelation 1:8,11"
     },
     {
       "book": "Revelation",
@@ -65,8 +45,7 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Revelation 21:6",
-      "source": "SMI"
+      "raw": "Revelation 21:6"
     },
     {
       "book": "Revelation",
@@ -76,8 +55,7 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Revelation 22:13",
-      "source": "SMI"
+      "raw": "Revelation 22:13"
     },
     {
       "book": "Isaiah",
@@ -87,8 +65,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Isaiah 41:4",
-      "source": "SMI"
+      "raw": "Isaiah 41:4"
     },
     {
       "book": "Isaiah",
@@ -98,8 +75,32 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Isaiah 44:6",
-      "source": "SMI"
+      "raw": "Isaiah 44:6"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 48,
+      "verses": [
+        12
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 48:12"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Isaiah",
+    "Revelation"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 6,
+    "ot_refs": 3,
+    "nt_refs": 3,
+    "books_count": 2,
+    "top_books": [
+      "Revelation",
+      "Isaiah"
+    ]
+  }
 }

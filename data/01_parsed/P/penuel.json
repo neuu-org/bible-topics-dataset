@@ -1,154 +1,111 @@
 {
   "topic": "PENUEL",
   "slug": "penuel",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "1. Also called PENIEL",
+      "label": "1. Al",
       "references": [],
-      "sub_groups": [
-        {
-          "name": "City built where Jacob wrestled with the angel Ge 32:31; Jud 8:8,9,17; 1Ki 12:25",
-          "references": [
-            "Gen 32:31",
-            "Judg 8:8",
-            "Judg 8:9",
-            "Judg 8:17",
-            "1Kgs 12:25"
-          ]
-        }
-      ]
+      "source": "NAV"
     },
     {
-      "name": "2. Chief of Gedor 1Ch 4:4",
+      "label": ".City built where Jacob wrestled with the angel",
       "references": [
-        "1Chr 4:4"
+        "Genesis 32:31",
+        "Judges 8:8,9,17",
+        "1 Kings 12:25"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "3. A Benjamite 1Ch 8:25",
+      "label": "2. Chief of Gedor",
       "references": [
-        "1Chr 8:25"
+        "1 Chronicles 4:4"
       ],
-      "sub_groups": []
+      "source": "NAV"
+    },
+    {
+      "label": "3. A Benjamite",
+      "references": [
+        "1 Chronicles 8:25"
+      ],
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "1 Kings",
-      "book_abbrev": "1ki",
-      "chapter": 12,
-      "testament": "OT",
-      "verses": [
-        25
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.717634+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
       "book": "Genesis",
       "chapter": 32,
       "verses": [
-        24,
-        25,
-        26,
-        27,
-        28,
-        29,
-        30,
-        31,
-        32
+        31
       ],
-      "verse_count": 9,
+      "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 32:24-32",
-      "source": "EAS"
+      "raw": "Genesis 32:31"
     },
     {
-      "book": "Hosea",
+      "book": "Judges",
+      "chapter": 8,
+      "verses": [
+        8,
+        9,
+        17
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Judges 8:8,9,17"
+    },
+    {
+      "book": "1 Kings",
       "chapter": 12,
+      "verses": [
+        25
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Kings 12:25"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 4,
       "verses": [
         4
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Hosea 12:4",
-      "source": "EAS"
+      "raw": "1 Chronicles 4:4"
     },
     {
-      "book": "Judges",
+      "book": "1 Chronicles",
       "chapter": 8,
-      "verses": [
-        8
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Judges 8:8",
-      "source": "EAS"
-    },
-    {
-      "book": "1 Kings",
-      "chapter": 12,
       "verses": [
         25
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Kings 12:25",
-      "source": "EAS"
-    },
-    {
-      "book": "Judges",
-      "chapter": 8,
-      "verses": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14,
-        15,
-        16,
-        17,
-        18,
-        19,
-        20,
-        21
-      ],
-      "verse_count": 21,
-      "testament": "OT",
-      "raw": "Judges 8:1-21",
-      "source": "EAS"
+      "raw": "1 Chronicles 8:25"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "1 Kings",
+    "Genesis",
+    "Judges"
+  ],
+  "stats": {
+    "total_aspects": 4,
+    "total_refs": 5,
+    "ot_refs": 5,
+    "nt_refs": 0,
+    "books_count": 4,
+    "top_books": [
+      "1 Chronicles",
+      "Genesis",
+      "Judges",
+      "1 Kings"
+    ]
+  }
 }

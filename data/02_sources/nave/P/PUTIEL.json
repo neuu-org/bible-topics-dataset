@@ -1,64 +1,40 @@
 {
   "topic": "PUTIEL",
-  "topic_slug": "putiel",
+  "slug": "putiel",
   "canonical_id": "NAV:putiel",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–The father-in-law of Eleazar the priestEx 6:25",
-  "content_preview": "–The father-in-law of Eleazar the priestEx 6:25",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–The father-in-law of Eleazar the priestEx 6:25",
-      "raw_segment": "–The father-in-law of Eleazar the priestEx 6:25"
+      "label": "The father-in-law of Eleazar the priest",
+      "references": [
+        "Exodus 6:25"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Exodus",
+      "chapter": 6,
+      "verses": [
+        25
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 6:25"
+    }
+  ],
+  "books_mentioned": [
+    "Exodus"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 1,
+    "total_refs": 1,
+    "ot_refs": 1,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:61b72b27d2fc8621cfff0699e4dd80ce8c96b9ad22105b4829cde3c8ec0748e6",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 1
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 1,
+    "top_books": [
+      "Exodus"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:30:23.773389Z",
-  "updated_at": "2025-09-20T17:30:23.773400Z"
+  }
 }

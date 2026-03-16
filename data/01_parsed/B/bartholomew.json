@@ -1,72 +1,23 @@
 {
   "topic": "BARTHOLOMEW",
   "slug": "bartholomew",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "One of the apostles Mt 10:3; Mr 3:18; Lu 6:14; Ac 1:13",
+      "label": "One of the apostles",
       "references": [
-        "Matt 10:3",
+        "Matthew 10:3",
         "Mark 3:18",
         "Luke 6:14",
         "Acts 1:13"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
-    {
-      "book": "Mark",
-      "book_abbrev": "mrk",
-      "chapter": 3,
-      "testament": "NT",
-      "verses": [
-        18
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Luke",
-      "book_abbrev": "luk",
-      "chapter": 6,
-      "testament": "NT",
-      "verses": [
-        14
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Acts",
-      "book_abbrev": "act",
-      "chapter": 1,
-      "testament": "NT",
-      "verses": [
-        13
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 3,
-    "total_verses": 3
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.672227+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
     {
       "book": "Matthew",
       "chapter": 10,
@@ -75,54 +26,7 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Matthew 10:3",
-      "source": "EAS"
-    },
-    {
-      "book": "Acts",
-      "chapter": 1,
-      "verses": [
-        13
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Acts 1:13",
-      "source": "EAS"
-    },
-    {
-      "book": "John",
-      "chapter": 21,
-      "verses": [
-        2
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "John 21:2",
-      "source": "EAS"
-    },
-    {
-      "book": "Acts",
-      "chapter": 1,
-      "verses": [
-        4,
-        12,
-        13
-      ],
-      "verse_count": 3,
-      "testament": "NT",
-      "raw": "Acts 1:4, 12, 13",
-      "source": "EAS"
-    },
-    {
-      "book": "John",
-      "chapter": 1,
-      "verses": [
-        47
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "John 1:47",
-      "source": "EAS"
+      "raw": "Matthew 10:3"
     },
     {
       "book": "Mark",
@@ -132,8 +36,7 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Mark 3:18",
-      "source": "SMI"
+      "raw": "Mark 3:18"
     },
     {
       "book": "Luke",
@@ -143,19 +46,36 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Luke 6:14",
-      "source": "SMI"
+      "raw": "Luke 6:14"
     },
     {
-      "book": "John",
+      "book": "Acts",
       "chapter": 1,
       "verses": [
-        45
+        13
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "John 1:45",
-      "source": "SMI"
+      "raw": "Acts 1:13"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Acts",
+    "Luke",
+    "Mark",
+    "Matthew"
+  ],
+  "stats": {
+    "total_aspects": 1,
+    "total_refs": 4,
+    "ot_refs": 0,
+    "nt_refs": 4,
+    "books_count": 4,
+    "top_books": [
+      "Matthew",
+      "Mark",
+      "Luke",
+      "Acts"
+    ]
+  }
 }

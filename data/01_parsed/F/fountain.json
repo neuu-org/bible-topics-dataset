@@ -1,135 +1,124 @@
 {
   "topic": "FOUNTAIN",
   "slug": "fountain",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "FIGURATIVE",
+      "label": "FIGURATIVE",
       "references": [],
-      "sub_groups": [
-        {
-          "name": "Of divine grace Ps 36:9; Jer 2:13",
-          "references": [
-            "Ps 36:9",
-            "Jer 2:13"
-          ]
-        },
-        {
-          "name": "Of the salvation of the gospel Joe 3:18; Zec 13:1; Re 7:17",
-          "references": [
-            "Joel 3:18",
-            "Zech 13:1",
-            "Rev 7:17"
-          ]
-        },
-        {
-          "name": "The turgid, of the debasement of character Pr 25:26",
-          "references": [
-            "Prov 25:26"
-          ]
-        }
-      ]
+      "source": "NAV"
+    },
+    {
+      "label": ".Of divine grace",
+      "references": [
+        "Psalms 36:9",
+        "Jeremiah 2:13"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".Of the salvation of the gospel",
+      "references": [
+        "Joel 3:18",
+        "Ecclesiastes 13:1",
+        "Revelation 7:17"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".The turgid, of the",
+      "references": [
+        "Proverbs 25:26"
+      ],
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Jeremiah",
-      "book_abbrev": "jer",
-      "chapter": 2,
+      "book": "Psalms",
+      "chapter": 36,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
       "testament": "OT",
+      "raw": "Psalms 36:9"
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 2,
       "verses": [
         13
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Jeremiah 2:13"
     },
     {
-      "book": "Zechariah",
-      "book_abbrev": "zec",
-      "chapter": 13,
+      "book": "Joel",
+      "chapter": 3,
+      "verses": [
+        18
+      ],
+      "verse_count": 1,
       "testament": "OT",
+      "raw": "Joel 3:18"
+    },
+    {
+      "book": "Ecclesiastes",
+      "chapter": 13,
       "verses": [
         1
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ecclesiastes 13:1"
     },
     {
       "book": "Revelation",
-      "book_abbrev": "rev",
       "chapter": 7,
+      "verses": [
+        17
+      ],
+      "verse_count": 1,
       "testament": "NT",
+      "raw": "Revelation 7:17"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 25,
       "verses": [
-        17
+        26
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 25:26"
     }
   ],
-  "see_also": [],
-  "aliases": [],
+  "books_mentioned": [
+    "Ecclesiastes",
+    "Jeremiah",
+    "Joel",
+    "Proverbs",
+    "Psalms",
+    "Revelation"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 2,
+    "total_aspects": 4,
+    "total_refs": 6,
+    "ot_refs": 5,
     "nt_refs": 1,
-    "total_verses": 3
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.687260+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    },
-    "enriched_at": "2025-12-02T22:02:10.257675+00:00",
-    "enrichment_source": "pipeline_merge"
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "Deuteronomy",
-      "chapter": 8,
-      "verses": [
-        7
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Deuteronomy 8:7",
-      "source": "EAS"
-    },
-    {
-      "book": "Deuteronomy",
-      "chapter": 11,
-      "verses": [
-        11
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Deuteronomy 11:11",
-      "source": "EAS"
-    },
-    {
-      "book": "2 Samuel",
-      "chapter": 17,
-      "verses": [
-        17
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "2 Samuel 17:17",
-      "source": "SMI"
-    },
-    {
-      "book": "Nehemiah",
-      "chapter": 2,
-      "verses": [
-        13,
-        14
-      ],
-      "verse_count": 2,
-      "testament": "OT",
-      "raw": "Nehemiah 2:13,14",
-      "source": "SMI"
-    }
-  ]
+    "books_count": 6,
+    "top_books": [
+      "Psalms",
+      "Jeremiah",
+      "Joel",
+      "Ecclesiastes",
+      "Revelation",
+      "Proverbs"
+    ]
+  }
 }

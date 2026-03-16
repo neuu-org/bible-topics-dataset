@@ -1,39 +1,35 @@
 {
   "topic": "NATHANAEL",
   "slug": "nathanael",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "Becomes a disciple of Jesus Joh 1:45-49; 21:2",
+      "label": "Becomes a disciple of Jesus",
       "references": [
         "John 1:45-49",
         "John 21:2"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.713707+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "biblical_references": [
+    {
+      "book": "John",
+      "chapter": 1,
+      "verses": [
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "verse_count": 5,
+      "testament": "NT",
+      "raw": "John 1:45-49"
+    },
     {
       "book": "John",
       "chapter": 21,
@@ -42,64 +38,20 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "John 21:2",
-      "source": "EAS"
-    },
-    {
-      "book": "John",
-      "chapter": 1,
-      "verses": [
-        47,
-        48
-      ],
-      "verse_count": 2,
-      "testament": "NT",
-      "raw": "John 1:47, 48",
-      "source": "EAS"
-    },
-    {
-      "book": "John",
-      "chapter": 1,
-      "verses": [
-        47
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "John 1:47",
-      "source": "SMI"
-    },
-    {
-      "book": "Matthew",
-      "chapter": 10,
-      "verses": [
-        3
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Matthew 10:3",
-      "source": "SMI"
-    },
-    {
-      "book": "Mark",
-      "chapter": 3,
-      "verses": [
-        18
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Mark 3:18",
-      "source": "SMI"
-    },
-    {
-      "book": "Luke",
-      "chapter": 8,
-      "verses": [
-        14
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Luke 8:14",
-      "source": "SMI"
+      "raw": "John 21:2"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "John"
+  ],
+  "stats": {
+    "total_aspects": 1,
+    "total_refs": 2,
+    "ot_refs": 0,
+    "nt_refs": 2,
+    "books_count": 1,
+    "top_books": [
+      "John"
+    ]
+  }
 }

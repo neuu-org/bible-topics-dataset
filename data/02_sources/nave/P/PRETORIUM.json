@@ -1,64 +1,104 @@
 {
   "topic": "PRETORIUM",
-  "topic_slug": "pretorium",
+  "slug": "pretorium",
   "canonical_id": "NAV:pretorium",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–Also called PRAETORIUM, COMMON HALL, JUDGMENT HALL, and PALACEMt 27:27;Mr 15:16;Joh 18:28,33;19:9;Ac 23:35;Php 1:13",
-  "content_preview": "–Also called PRAETORIUM, COMMON HALL, JUDGMENT HALL, and PALACEMt 27:27;Mr 15:16;Joh 18:28,33;19:9;A...",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–Also called PRAETORIUM, COMMON HALL, JUDGMENT HALL, and PALACEMt 27:27;Mr 15:16;Joh 18:28,33;19:9;Ac 23:35;Php 1:13",
-      "raw_segment": "–Also called PRAETORIUM, COMMON HALL, JUDGMENT HALL, and PALACEMt 27:27;Mr 15:16;Joh 18:28,33;19:9;Ac 23:35;Php 1:13"
+      "label": "Al",
+      "references": [
+        "Matthew 27:27",
+        "Mark 15:16",
+        "John 18:28,33",
+        "John 19:9",
+        "Acts 23:35",
+        "Philippians 1:13"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Matthew",
+      "chapter": 27,
+      "verses": [
+        27
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 27:27"
+    },
+    {
+      "book": "Mark",
+      "chapter": 15,
+      "verses": [
+        16
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Mark 15:16"
+    },
+    {
+      "book": "John",
+      "chapter": 18,
+      "verses": [
+        28,
+        33
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "John 18:28,33"
+    },
+    {
+      "book": "John",
+      "chapter": 19,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "John 19:9"
+    },
+    {
+      "book": "Acts",
+      "chapter": 23,
+      "verses": [
+        35
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 23:35"
+    },
+    {
+      "book": "Philippians",
+      "chapter": 1,
+      "verses": [
+        13
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Philippians 1:13"
+    }
+  ],
+  "books_mentioned": [
+    "Acts",
+    "John",
+    "Mark",
+    "Matthew",
+    "Philippians"
+  ],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 1,
+    "total_refs": 6,
     "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:74af181584387cd31918ac38c5316bbef98552955fc89f63a7d8ab5ccbcf6278",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 1
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "nt_refs": 6,
+    "books_count": 5,
+    "top_books": [
+      "John",
+      "Matthew",
+      "Mark",
+      "Acts",
+      "Philippians"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:30:16.681757Z",
-  "updated_at": "2025-09-20T17:30:16.681765Z"
+  }
 }

@@ -1,115 +1,47 @@
 {
   "topic": "EXECUTIONER",
   "slug": "executioner",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "General scriptures concerning Ge 37:36; Pr 16:14; Jer 39:9",
-      "references": [
-        "Gen 37:36",
-        "Prov 16:14",
-        "Jer 39:9"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "(Margin) Da 2:14",
-      "references": [
-        "Dan 2:14"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "(Margin) Mt 14:10",
-      "references": [
-        "Matt 14:10"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "See PUNISHMENT",
-      "references": [],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Proverbs",
-      "book_abbrev": "pro",
-      "chapter": 16,
-      "testament": "OT",
-      "verses": [
-        14
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Jeremiah",
-      "book_abbrev": "jer",
-      "chapter": 39,
-      "testament": "OT",
-      "verses": [
-        9
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Daniel",
-      "book_abbrev": "dan",
-      "chapter": 2,
-      "testament": "OT",
-      "verses": [
-        14
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Matthew",
-      "book_abbrev": "mat",
-      "chapter": 14,
-      "testament": "NT",
-      "verses": [
-        10
-      ],
-      "verse_count": 1
-    }
+  "sources": [
+    "NAV"
   ],
   "see_also": [
     "PUNISHMENT"
   ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 4,
-    "ot_refs": 3,
-    "nt_refs": 1,
-    "total_verses": 4
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.685649+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    },
-    "enriched_at": "2025-12-02T22:02:10.020492+00:00",
-    "enrichment_source": "pipeline_merge"
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "aspects": [
     {
-      "book": "Mark",
-      "chapter": 6,
-      "verses": [
-        27
+      "label": "General scriptures concerning",
+      "references": [
+        "Genesis 37:36",
+        "Proverbs 16:14"
       ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Mark 6:27",
-      "source": "EAS"
+      "source": "NAV"
     },
+    {
+      "label": "39:9",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "(Margin)",
+      "references": [
+        "Daniel 2:14"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "(Margin)",
+      "references": [
+        "Matthew 14:10"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "SeePUNISHMENT",
+      "references": [],
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
     {
       "book": "Genesis",
       "chapter": 37,
@@ -118,20 +50,66 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 37:36",
-      "source": "SMI"
+      "raw": "Genesis 37:36"
     },
     {
-      "book": "1 Kings",
+      "book": "Proverbs",
+      "chapter": 16,
+      "verses": [
+        14
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 16:14"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 39,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 39:9"
+    },
+    {
+      "book": "Daniel",
       "chapter": 2,
       "verses": [
-        25,
-        34
+        14
       ],
-      "verse_count": 2,
+      "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Kings 2:25,34",
-      "source": "SMI"
+      "raw": "Daniel 2:14"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 14,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 14:10"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Daniel",
+    "Genesis",
+    "Matthew",
+    "Proverbs"
+  ],
+  "stats": {
+    "total_aspects": 5,
+    "total_refs": 5,
+    "ot_refs": 4,
+    "nt_refs": 1,
+    "books_count": 4,
+    "top_books": [
+      "Proverbs",
+      "Genesis",
+      "Daniel",
+      "Matthew"
+    ]
+  }
 }

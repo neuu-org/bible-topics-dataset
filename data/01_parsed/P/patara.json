@@ -1,44 +1,25 @@
 {
   "topic": "PATARA",
   "slug": "patara",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "(A Lycian city in Asia Minor)",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "Visited by Paul Ac 21:1,2",
-      "references": [
-        "Acts 21:1",
-        "Acts 21:2"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.717230+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "(A Lycian city in Asia Minor)",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "Visited by Paul",
+      "references": [
+        "Acts 21:1,2"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Acts",
       "chapter": 21,
@@ -48,8 +29,20 @@
       ],
       "verse_count": 2,
       "testament": "NT",
-      "raw": "Acts 21:1, 2",
-      "source": "EAS"
+      "raw": "Acts 21:1,2"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Acts"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 1,
+    "ot_refs": 0,
+    "nt_refs": 1,
+    "books_count": 1,
+    "top_books": [
+      "Acts"
+    ]
+  }
 }

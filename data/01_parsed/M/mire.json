@@ -1,36 +1,53 @@
 {
   "topic": "MIRE",
   "slug": "mire",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "FIGURATIVE Ps 40:2; 69:2",
-      "references": [
-        "Ps 40:2",
-        "Ps 69:2"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.706877+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "FIGURATIVE",
+      "references": [
+        "Psalms 40:2",
+        "Psalms 69:2"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0"
+  ],
+  "biblical_references": [
+    {
+      "book": "Psalms",
+      "chapter": 40,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 40:2"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 69,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 69:2"
+    }
+  ],
+  "books_mentioned": [
+    "Psalms"
+  ],
+  "stats": {
+    "total_aspects": 1,
+    "total_refs": 2,
+    "ot_refs": 2,
+    "nt_refs": 0,
+    "books_count": 1,
+    "top_books": [
+      "Psalms"
+    ]
+  }
 }

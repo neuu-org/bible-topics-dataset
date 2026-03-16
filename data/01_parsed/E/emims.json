@@ -1,52 +1,21 @@
 {
   "topic": "EMIMS",
   "slug": "emims",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "A race of giants Ge 14:5; De 2:10,11",
-      "references": [
-        "Gen 14:5",
-        "Deut 2:10",
-        "Deut 2:11"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Deuteronomy",
-      "book_abbrev": "deu",
-      "chapter": 2,
-      "testament": "OT",
-      "verses": [
-        10,
-        11
-      ],
-      "verse_count": 2
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.684235+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "A race of giants",
+      "references": [
+        "Genesis 14:5",
+        "Deuteronomy 2:10,11"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Genesis",
       "chapter": 14,
@@ -55,41 +24,33 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 14:5",
-      "source": "EAS"
+      "raw": "Genesis 14:5"
     },
     {
       "book": "Deuteronomy",
       "chapter": 2,
       "verses": [
-        10
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Deuteronomy 2:10",
-      "source": "EAS"
-    },
-    {
-      "book": "Deuteronomy",
-      "chapter": 2,
-      "verses": [
+        10,
         11
       ],
-      "verse_count": 1,
+      "verse_count": 2,
       "testament": "OT",
-      "raw": "Deuteronomy 2:11",
-      "source": "EAS"
-    },
-    {
-      "book": "Deuteronomy",
-      "chapter": 2,
-      "verses": [
-        20
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Deuteronomy 2:20",
-      "source": "EAS"
+      "raw": "Deuteronomy 2:10,11"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Deuteronomy",
+    "Genesis"
+  ],
+  "stats": {
+    "total_aspects": 1,
+    "total_refs": 2,
+    "ot_refs": 2,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "Genesis",
+      "Deuteronomy"
+    ]
+  }
 }

@@ -1,61 +1,91 @@
 {
   "topic": "ARAH",
   "slug": "arah",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "1. Son of Ulla 1Ch 7:39",
+      "label": "1.",
       "references": [
-        "1Chr 7:39"
+        "1 Chronicles 7:39"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "2. An Israelite, whose descendants returned from Babylon Ezr 2:5; Ne 7:10",
+      "label": "2. An Israelite, whose",
       "references": [
         "Ezra 2:5",
-        "Neh 7:10"
+        "Nehemiah 7:10"
       ],
-      "sub_groups": [
-        {
-          "name": "Probably identcal with ARAH in Ne 6:18",
-          "references": [
-            "Neh 6:18"
-          ]
-        }
-      ]
+      "source": "NAV"
+    },
+    {
+      "label": ".Probably i",
+      "references": [
+        "Nehemiah 6:18"
+      ],
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Nehemiah",
-      "book_abbrev": "neh",
+      "book": "1 Chronicles",
       "chapter": 7,
+      "verses": [
+        39
+      ],
+      "verse_count": 1,
       "testament": "OT",
+      "raw": "1 Chronicles 7:39"
+    },
+    {
+      "book": "Ezra",
+      "chapter": 2,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezra 2:5"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 7,
       "verses": [
         10
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Nehemiah 7:10"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 6,
+      "verses": [
+        18
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Nehemiah 6:18"
     }
   ],
-  "see_also": [],
-  "aliases": [],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Ezra",
+    "Nehemiah"
+  ],
   "stats": {
-    "entries_count": 2,
-    "ot_refs": 1,
+    "total_aspects": 3,
+    "total_refs": 4,
+    "ot_refs": 4,
     "nt_refs": 0,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.669375+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0"
+    "books_count": 3,
+    "top_books": [
+      "Nehemiah",
+      "1 Chronicles",
+      "Ezra"
+    ]
+  }
 }

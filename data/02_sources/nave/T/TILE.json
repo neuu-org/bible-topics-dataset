@@ -1,64 +1,53 @@
 {
   "topic": "TILE",
-  "topic_slug": "tile",
+  "slug": "tile",
   "canonical_id": "NAV:tile",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–BrickEze 4:1;Lu 5:19",
-  "content_preview": "–BrickEze 4:1;Lu 5:19",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–BrickEze 4:1;Lu 5:19",
-      "raw_segment": "–BrickEze 4:1;Lu 5:19"
+      "label": "Brick",
+      "references": [
+        "Ezekiel 4:1",
+        "Luke 5:19"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Ezekiel",
+      "chapter": 4,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezekiel 4:1"
+    },
+    {
+      "book": "Luke",
+      "chapter": 5,
+      "verses": [
+        19
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 5:19"
+    }
+  ],
+  "books_mentioned": [
+    "Ezekiel",
+    "Luke"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:cac25d6ee053aec9a6ff562c18d5b6f9fecda77627a437f63ce3798509537469",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 1
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 1,
+    "total_refs": 2,
+    "ot_refs": 1,
+    "nt_refs": 1,
+    "books_count": 2,
+    "top_books": [
+      "Ezekiel",
+      "Luke"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:32:12.204507Z",
-  "updated_at": "2025-09-20T17:32:12.204514Z"
+  }
 }

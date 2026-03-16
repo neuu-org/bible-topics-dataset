@@ -1,74 +1,103 @@
 {
   "topic": "CALAMUS",
-  "topic_slug": "calamus",
+  "slug": "calamus",
   "canonical_id": "NAV:calamus",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–A sweet cane of PalestineSo 4:14;Eze 27:19\n–An ingredient of the holy ointmentEx 30:23;Isa 43:24\n–Commerce inJer 6:20;Eze 27:19",
-  "content_preview": "–A sweet cane of PalestineSo 4:14;Eze 27:19",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–A sweet cane of PalestineSo 4:14;Eze 27:19",
-      "raw_segment": "–A sweet cane of PalestineSo 4:14;Eze 27:19"
+      "label": "A sweet",
+      "references": [
+        "Song of Solomon 4:14",
+        "Ezekiel 27:19"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–An ingredient of the holy ointmentEx 30:23;Isa 43:24",
-      "raw_segment": "–An ingredient of the holy ointmentEx 30:23;Isa 43:24"
+      "label": "An ingredient of the holy ointment",
+      "references": [
+        "Exodus 30:23",
+        "Isaiah 43:24"
+      ]
     },
     {
-      "idx": 2,
-      "entry_label": "–Commerce inJer 6:20;Eze 27:19",
-      "raw_segment": "–Commerce inJer 6:20;Eze 27:19"
+      "label": "Commerce in",
+      "references": [
+        "Jeremiah 6:20",
+        "Ezekiel 27:19"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Song of Solomon",
+      "chapter": 4,
+      "verses": [
+        14
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Song of Solomon 4:14"
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 27,
+      "verses": [
+        19
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezekiel 27:19"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 30,
+      "verses": [
+        23
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 30:23"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 43,
+      "verses": [
+        24
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 43:24"
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 6,
+      "verses": [
+        20
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Jeremiah 6:20"
+    }
+  ],
+  "books_mentioned": [
+    "Exodus",
+    "Ezekiel",
+    "Isaiah",
+    "Jeremiah",
+    "Song of Solomon"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 3,
+    "total_refs": 5,
+    "ot_refs": 5,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:2a329a013257ac4b97b6868611556437f1ead504fed13b846cec408e2d237429",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 3
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 5,
+    "top_books": [
+      "Song of Solomon",
+      "Ezekiel",
+      "Exodus",
+      "Isaiah",
+      "Jeremiah"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:24:45.174297Z",
-  "updated_at": "2025-09-20T17:24:45.174304Z"
+  }
 }

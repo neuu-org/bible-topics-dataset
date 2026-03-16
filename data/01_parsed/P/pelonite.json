@@ -1,43 +1,70 @@
 {
   "topic": "PELONITE",
   "slug": "pelonite",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. An Ephaimite 1Ch 11:27; 27:10",
-      "references": [
-        "1Chr 11:27",
-        "1Chr 27:10"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "2. An appellation of Ahijah the prophet 1Ch 11:36",
-      "references": [
-        "1Chr 11:36"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.717521+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "1. An Ephaimite",
+      "references": [
+        "1 Chronicles 11:27",
+        "1 Chronicles 27:10"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2. An appellation of Ahijah the prophet",
+      "references": [
+        "1 Chronicles 11:36"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0"
+  ],
+  "biblical_references": [
+    {
+      "book": "1 Chronicles",
+      "chapter": 11,
+      "verses": [
+        27
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 11:27"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 27,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 27:10"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 11,
+      "verses": [
+        36
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 11:36"
+    }
+  ],
+  "books_mentioned": [
+    "1 Chronicles"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 3,
+    "ot_refs": 3,
+    "nt_refs": 0,
+    "books_count": 1,
+    "top_books": [
+      "1 Chronicles"
+    ]
+  }
 }

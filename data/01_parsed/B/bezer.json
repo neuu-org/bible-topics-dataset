@@ -1,80 +1,73 @@
 {
   "topic": "BEZER",
   "slug": "bezer",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "1. A city of refuge, East of the Jordan De 4:43; Jos 20:8; 21:36; 1Ch 6:78",
+      "label": "1. A city of refuge, East of the Jordan",
       "references": [
-        "Deut 4:43",
-        "Josh 20:8",
-        "Josh 21:36",
-        "1Chr 6:78"
+        "Deuteronomy 4:43"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "2. Son of Zophah 1Ch 7:37",
+      "label": "20:8;21:36;",
       "references": [
-        "1Chr 7:37"
+        "1 Chronicles 6:78"
       ],
-      "sub_groups": []
+      "source": "NAV"
+    },
+    {
+      "label": "2.",
+      "references": [
+        "1 Chronicles 7:37"
+      ],
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Joshua",
-      "book_abbrev": "jos",
-      "chapter": 20,
-      "testament": "OT",
+      "book": "Deuteronomy",
+      "chapter": 4,
       "verses": [
-        8,
-        21
+        43
       ],
-      "verse_count": 2
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 4:43"
     },
     {
-      "book": "1 Chronicles",
-      "book_abbrev": "1ch",
-      "chapter": 6,
-      "testament": "OT",
-      "verses": [
-        78
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 2,
-    "nt_refs": 0,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.674336+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "Joshua",
+      "book": "Deuteronomy",
       "chapter": 20,
       "verses": [
         8
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Joshua 20:8",
-      "source": "EAS"
+      "raw": "Deuteronomy 20:8"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 21,
+      "verses": [
+        36
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 21:36"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 6,
+      "verses": [
+        78
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 6:78"
     },
     {
       "book": "1 Chronicles",
@@ -84,8 +77,22 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 7:37",
-      "source": "EAS"
+      "raw": "1 Chronicles 7:37"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Deuteronomy"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 5,
+    "ot_refs": 5,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "Deuteronomy",
+      "1 Chronicles"
+    ]
+  }
 }

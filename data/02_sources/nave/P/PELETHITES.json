@@ -1,69 +1,94 @@
 {
   "topic": "PELETHITES",
-  "topic_slug": "pelethites",
+  "slug": "pelethites",
   "canonical_id": "NAV:pelethites",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–A part of David’s bodyguard1Ki 1:38;2Sa 8:18;20:7,23;1Ch 18:17\n–Absalom’s escort2Sa 15:18",
-  "content_preview": "–A part of David’s bodyguard1Ki 1:38;2Sa 8:18;20:7,23;1Ch 18:17",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–A part of David’s bodyguard1Ki 1:38;2Sa 8:18;20:7,23;1Ch 18:17",
-      "raw_segment": "–A part of David’s bodyguard1Ki 1:38;2Sa 8:18;20:7,23;1Ch 18:17"
+      "label": "A part of David’s bodyguard",
+      "references": [
+        "1 Kings 1:38",
+        "2 Samuel 8:18",
+        "2 Samuel 20:7,23",
+        "1 Chronicles 18:17"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–Absalom’s escort2Sa 15:18",
-      "raw_segment": "–Absalom’s escort2Sa 15:18"
+      "label": "Absalom’s escort",
+      "references": [
+        "2 Samuel 15:18"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "1 Kings",
+      "chapter": 1,
+      "verses": [
+        38
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Kings 1:38"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 8,
+      "verses": [
+        18
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Samuel 8:18"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 20,
+      "verses": [
+        7,
+        23
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "2 Samuel 20:7,23"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 18,
+      "verses": [
+        17
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 18:17"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 15,
+      "verses": [
+        18
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Samuel 15:18"
+    }
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "1 Kings",
+    "2 Samuel"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 2,
+    "total_refs": 5,
+    "ot_refs": 5,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:2fcddc04c95fcb9c3fce1e225d0849c30d39d48f0c77c757b94c2d669e109536",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 3,
+    "top_books": [
+      "2 Samuel",
+      "1 Kings",
+      "1 Chronicles"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:29:57.298543Z",
-  "updated_at": "2025-09-20T17:29:57.298550Z"
+  }
 }

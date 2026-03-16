@@ -1,238 +1,362 @@
 {
   "topic": "FORT",
   "slug": "fort",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [
+    "CASTLES",
+    "TOWERS",
+    "WALLS"
+  ],
+  "aspects": [
     {
-      "name": "(A military defense)",
+      "label": "(A military",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Field fortifications De 20:19,20; 2Ki 25:1; Eze 4:2; 17:17; 26:8",
+      "label": "Field fortifi",
       "references": [
-        "Deut 20:19",
-        "Deut 20:20",
-        "2Kgs 25:1",
-        "Ezek 4:2",
-        "Ezek 17:17",
-        "Ezek 26:8"
+        "Deuteronomy 20:19,20",
+        "2 Kings 25:1",
+        "Ezekiel 4:2",
+        "Ezekiel 17:17",
+        "Ezekiel 26:8"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Defenses of cities 2Ch 26:15; Isa 25:12",
+      "label": "General references",
       "references": [
-        "2Chr 26:15",
-        "Isa 25:12"
+        "2 Chronicles 26:15",
+        "Isaiah 25:12"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See CASTLES",
+      "label": "See",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See TOWERS",
+      "label": "SeeTOWERS",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See WALLS",
+      "label": "SeeWALLS",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Erected in vineyards and herding grounds 2Ch 26:10; Isa 5:2; Mt 21:33; Mr 12:1; Lu 20:9",
+      "label": "Erected in vineyards and herding grounds",
       "references": [
-        "2Chr 26:10",
-        "Isa 5:2",
-        "Matt 21:33",
+        "2 Chronicles 26:10",
+        "Isaiah 5:2",
+        "Matthew 21:33",
         "Mark 12:1",
         "Luke 20:9"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Caves used for Jud 6:2; 1Sa 23:29; Isa 33:16",
+      "label": "General references",
       "references": [
-        "Judg 6:2",
-        "1Sam 23:29",
-        "Isa 33:16"
+        "Judges 6:2",
+        "1 Samuel 23:29",
+        "Isaiah 33:16"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "FIGURATIVE",
+      "label": "FIGURATIVE",
       "references": [],
-      "sub_groups": [
-        {
-          "name": "Of God’s care 2Sa 22:2,3,47; Ps 18:2; 31:3; 71:3; 91:2; 144:2; Pr 18:10; Na 1:7",
-          "references": [
-            "2Sam 22:2",
-            "2Sam 22:3",
-            "2Sam 22:47",
-            "Ps 18:2",
-            "Ps 31:3",
-            "Ps 71:3",
-            "Ps 91:2",
-            "Ps 144:2",
-            "Prov 18:10",
-            "Nah 1:7"
-          ]
-        }
-      ]
+      "source": "NAV"
+    },
+    {
+      "label": ".Of God’s",
+      "references": [
+        "2 Samuel 22:2,3,47",
+        "Psalms 18:2",
+        "Psalms 31:3",
+        "Psalms 71:3",
+        "Psalms 91:2",
+        "Psalms 144:2",
+        "Proverbs 18:10",
+        "Nahum 1:7"
+      ],
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "1 Samuel",
-      "book_abbrev": "1sa",
-      "chapter": 23,
-      "testament": "OT",
+      "book": "Deuteronomy",
+      "chapter": 20,
       "verses": [
-        29
+        19,
+        20
       ],
-      "verse_count": 1
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Deuteronomy 20:19,20"
     },
     {
       "book": "2 Kings",
-      "book_abbrev": "2ki",
       "chapter": 25,
-      "testament": "OT",
       "verses": [
         1
       ],
-      "verse_count": 1
-    },
-    {
-      "book": "Psalms",
-      "book_abbrev": "psa",
-      "chapter": 18,
+      "verse_count": 1,
       "testament": "OT",
-      "verses": [
-        2,
-        31
-      ],
-      "verse_count": 2
-    },
-    {
-      "book": "Proverbs",
-      "book_abbrev": "pro",
-      "chapter": 18,
-      "testament": "OT",
-      "verses": [
-        10
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Isaiah",
-      "book_abbrev": "isa",
-      "chapter": 25,
-      "testament": "OT",
-      "verses": [
-        12
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Isaiah",
-      "book_abbrev": "isa",
-      "chapter": 5,
-      "testament": "OT",
-      "verses": [
-        2
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Isaiah",
-      "book_abbrev": "isa",
-      "chapter": 33,
-      "testament": "OT",
-      "verses": [
-        16
-      ],
-      "verse_count": 1
+      "raw": "2 Kings 25:1"
     },
     {
       "book": "Ezekiel",
-      "book_abbrev": "ezk",
       "chapter": 4,
-      "testament": "OT",
       "verses": [
-        2,
-        17
+        2
       ],
-      "verse_count": 2
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezekiel 4:2"
     },
     {
-      "book": "Nahum",
-      "book_abbrev": "nah",
-      "chapter": 1,
-      "testament": "OT",
+      "book": "Ezekiel",
+      "chapter": 17,
       "verses": [
-        7
+        17
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezekiel 17:17"
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 26,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezekiel 26:8"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 26,
+      "verses": [
+        15
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Chronicles 26:15"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 25,
+      "verses": [
+        12
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 25:12"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 26,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Chronicles 26:10"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 5,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 5:2"
     },
     {
       "book": "Matthew",
-      "book_abbrev": "mat",
       "chapter": 21,
-      "testament": "NT",
       "verses": [
         33
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 21:33"
     },
     {
       "book": "Mark",
-      "book_abbrev": "mrk",
       "chapter": 12,
-      "testament": "NT",
       "verses": [
         1
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Mark 12:1"
     },
     {
       "book": "Luke",
-      "book_abbrev": "luk",
       "chapter": 20,
-      "testament": "NT",
       "verses": [
         9
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 20:9"
+    },
+    {
+      "book": "Judges",
+      "chapter": 6,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Judges 6:2"
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 23,
+      "verses": [
+        29
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Samuel 23:29"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 33,
+      "verses": [
+        16
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 33:16"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 22,
+      "verses": [
+        2,
+        3,
+        47
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "2 Samuel 22:2,3,47"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 18,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 18:2"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 31,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 31:3"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 71,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 71:3"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 91,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 91:2"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 144,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 144:2"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 18,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 18:10"
+    },
+    {
+      "book": "Nahum",
+      "chapter": 1,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Nahum 1:7"
     }
   ],
-  "see_also": [
-    "TOWERS",
-    "CASTLES",
-    "WALLS"
+  "books_mentioned": [
+    "1 Samuel",
+    "2 Chronicles",
+    "2 Kings",
+    "2 Samuel",
+    "Deuteronomy",
+    "Ezekiel",
+    "Isaiah",
+    "Judges",
+    "Luke",
+    "Mark",
+    "Matthew",
+    "Nahum",
+    "Proverbs",
+    "Psalms"
   ],
-  "aliases": [],
   "stats": {
-    "entries_count": 9,
-    "ot_refs": 9,
+    "total_aspects": 10,
+    "total_refs": 23,
+    "ot_refs": 20,
     "nt_refs": 3,
-    "total_verses": 12
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.687187+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    },
-    "enriched_at": "2025-12-02T22:02:10.239497+00:00",
-    "enrichment_source": "pipeline_merge"
-  },
-  "version": "3.0.0"
+    "books_count": 14,
+    "top_books": [
+      "Psalms",
+      "Ezekiel",
+      "Isaiah",
+      "2 Chronicles",
+      "Deuteronomy",
+      "2 Kings",
+      "Matthew",
+      "Mark",
+      "Luke",
+      "Judges"
+    ]
+  }
 }

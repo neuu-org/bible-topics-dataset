@@ -1,79 +1,63 @@
 {
   "topic": "MILETUS",
   "slug": "miletus",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Also called MILETUM",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "A seaport in Asia Minor",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "Paul visits Ac 20:15",
-      "references": [
-        "Acts 20:15"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "And sends to Ephesus for the elders of the congregation, and addresses them at Ac 20:17-38",
-      "references": [
-        "Acts 20:17-38"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Trophimus left sick at 2Ti 4:20",
-      "references": [
-        "2Tim 4:20"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 5,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.706506+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "see_also": [],
+  "aspects": [
     {
-      "book": "2 Timothy",
-      "chapter": 4,
+      "label": "Al",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "A seaport in Asia Minor",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "Paul visits",
+      "references": [
+        "Acts 20:15"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "And sends to Ephesus for the el",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "addresses them at",
+      "references": [
+        "Acts 20:17-38"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Trophimus left sick at",
+      "references": [
+        "2 Timothy 4:20"
+      ],
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
+    {
+      "book": "Acts",
+      "chapter": 20,
       "verses": [
-        20
+        15
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "2 Timothy 4:20",
-      "source": "EAS"
+      "raw": "Acts 20:15"
     },
     {
       "book": "Acts",
       "chapter": 20,
       "verses": [
-        15,
-        16,
         17,
         18,
         19,
@@ -92,35 +76,39 @@
         32,
         33,
         34,
-        35
+        35,
+        36,
+        37,
+        38
       ],
-      "verse_count": 21,
+      "verse_count": 22,
       "testament": "NT",
-      "raw": "Acts 20:15-35",
-      "source": "EAS"
+      "raw": "Acts 20:17-38"
     },
     {
-      "book": "Acts",
-      "chapter": 20,
+      "book": "2 Timothy",
+      "chapter": 4,
       "verses": [
-        15,
-        17
-      ],
-      "verse_count": 2,
-      "testament": "NT",
-      "raw": "Acts 20:15,17",
-      "source": "SMI"
-    },
-    {
-      "book": "Acts",
-      "chapter": 20,
-      "verses": [
-        15
+        20
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Acts 20:15",
-      "source": "SMI"
+      "raw": "2 Timothy 4:20"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "2 Timothy",
+    "Acts"
+  ],
+  "stats": {
+    "total_aspects": 6,
+    "total_refs": 3,
+    "ot_refs": 0,
+    "nt_refs": 3,
+    "books_count": 2,
+    "top_books": [
+      "Acts",
+      "2 Timothy"
+    ]
+  }
 }

@@ -1,84 +1,122 @@
 {
   "topic": "JAMIN",
   "slug": "jamin",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "1. Son of Simeon Ge 46:10; Ex 6:15; Nu 26:12; 1Ch 4:24",
+      "label": "1.",
       "references": [
-        "Gen 46:10",
-        "Exod 6:15",
-        "Num 26:12",
-        "1Chr 4:24"
+        "Genesis 46:10",
+        "Exodus 6:15",
+        "Numbers 26:12",
+        "1 Chronicles 4:24"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "2. Descendant of Hezron 1Ch 2:27",
+      "label": "2.",
       "references": [
-        "1Chr 2:27"
+        "1 Chronicles 2:27"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "3. A priest who expounded the law to the exiles who returned to Jerusalem Ne 8:7",
+      "label": "3. A priest who expoun",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "to",
       "references": [
-        "Neh 8:7"
+        "Nehemiah 8:7"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Exodus",
-      "book_abbrev": "exo",
-      "chapter": 6,
+      "book": "Genesis",
+      "chapter": 46,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
       "testament": "OT",
+      "raw": "Genesis 46:10"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 6,
       "verses": [
         15
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 6:15"
     },
     {
       "book": "Numbers",
-      "book_abbrev": "num",
       "chapter": 26,
-      "testament": "OT",
       "verses": [
-        1,
         12
       ],
-      "verse_count": 2
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Numbers 26:12"
     },
     {
       "book": "1 Chronicles",
-      "book_abbrev": "1ch",
       "chapter": 4,
-      "testament": "OT",
       "verses": [
         24
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 4:24"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 2,
+      "verses": [
+        27
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 2:27"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 8,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Nehemiah 8:7"
     }
   ],
-  "see_also": [],
-  "aliases": [],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Exodus",
+    "Genesis",
+    "Nehemiah",
+    "Numbers"
+  ],
   "stats": {
-    "entries_count": 3,
-    "ot_refs": 3,
+    "total_aspects": 4,
+    "total_refs": 6,
+    "ot_refs": 6,
     "nt_refs": 0,
-    "total_verses": 3
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.695584+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0"
+    "books_count": 5,
+    "top_books": [
+      "1 Chronicles",
+      "Genesis",
+      "Exodus",
+      "Numbers",
+      "Nehemiah"
+    ]
+  }
 }

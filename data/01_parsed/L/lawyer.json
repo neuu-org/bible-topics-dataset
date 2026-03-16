@@ -1,47 +1,60 @@
 {
   "topic": "LAWYER",
   "slug": "lawyer",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [
+    "LITIGATION"
+  ],
+  "aspects": [
     {
-      "name": "(One versed in the Mosaic law)",
+      "label": "(One versed in the Mosaic law)",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Test Jesus with questions Mt 22:35; Lu 10:25-37",
+      "label": "Test Jesus with questions",
       "references": [
-        "Matt 22:35",
+        "Matthew 22:35",
         "Luke 10:25-37"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Jesus’ remarks against Lu 11:45-52",
+      "label": "Jesus’ remarks against",
       "references": [
         "Luke 11:45-52"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Zenas Tit 3:13",
+      "label": "Zenas",
       "references": [
         "Titus 3:13"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See LITIGATION",
+      "label": "SeeLITIGATION",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Luke",
-      "book_abbrev": "luk",
-      "chapter": 10,
+      "book": "Matthew",
+      "chapter": 22,
+      "verses": [
+        35
+      ],
+      "verse_count": 1,
       "testament": "NT",
+      "raw": "Matthew 22:35"
+    },
+    {
+      "book": "Luke",
+      "chapter": 10,
       "verses": [
         25,
         26,
@@ -57,53 +70,53 @@
         36,
         37
       ],
-      "verse_count": 13
-    }
-  ],
-  "see_also": [
-    "LITIGATION"
-  ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 5,
-    "ot_refs": 0,
-    "nt_refs": 1,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.700268+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "Matthew",
-      "chapter": 22,
-      "verses": [
-        35
-      ],
-      "verse_count": 1,
+      "verse_count": 13,
       "testament": "NT",
-      "raw": "Matthew 22:35",
-      "source": "EAS"
+      "raw": "Luke 10:25-37"
     },
     {
       "book": "Luke",
-      "chapter": 10,
+      "chapter": 11,
       "verses": [
-        25
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52
+      ],
+      "verse_count": 8,
+      "testament": "NT",
+      "raw": "Luke 11:45-52"
+    },
+    {
+      "book": "Titus",
+      "chapter": 3,
+      "verses": [
+        13
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Luke 10:25",
-      "source": "EAS"
+      "raw": "Titus 3:13"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Luke",
+    "Matthew",
+    "Titus"
+  ],
+  "stats": {
+    "total_aspects": 5,
+    "total_refs": 4,
+    "ot_refs": 0,
+    "nt_refs": 4,
+    "books_count": 3,
+    "top_books": [
+      "Luke",
+      "Matthew",
+      "Titus"
+    ]
+  }
 }

@@ -1,64 +1,90 @@
 {
   "topic": "EVAPORATION",
   "slug": "evaporation",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "General scriptures concerning Ps 135:7; Jer 10:13; 51:16; Am 5:8; 9:6",
+      "label": "General scriptures concerning",
       "references": [
-        "Ps 135:7",
-        "Jer 10:13",
-        "Jer 51:16",
+        "Psalms 135:7",
+        "Jeremiah 10:13",
+        "Jeremiah 51:16",
         "Amos 5:8",
         "Amos 9:6"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Jeremiah",
-      "book_abbrev": "jer",
-      "chapter": 10,
-      "testament": "OT",
+      "book": "Psalms",
+      "chapter": 135,
       "verses": [
-        13,
-        51
+        7
       ],
-      "verse_count": 2
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 135:7"
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 10,
+      "verses": [
+        13
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Jeremiah 10:13"
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 51,
+      "verses": [
+        16
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Jeremiah 51:16"
     },
     {
       "book": "Amos",
-      "book_abbrev": "amo",
       "chapter": 5,
-      "testament": "OT",
       "verses": [
-        8,
-        9
+        8
       ],
-      "verse_count": 2
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Amos 5:8"
+    },
+    {
+      "book": "Amos",
+      "chapter": 9,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Amos 9:6"
     }
   ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 2,
-    "nt_refs": 0,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
+  "books_mentioned": [
+    "Amos",
+    "Jeremiah",
+    "Psalms"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.685469+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    },
-    "enriched_at": "2025-12-02T22:02:09.993909+00:00",
-    "enrichment_source": "pipeline_merge"
-  },
-  "version": "3.0.0"
+  "stats": {
+    "total_aspects": 1,
+    "total_refs": 5,
+    "ot_refs": 5,
+    "nt_refs": 0,
+    "books_count": 3,
+    "top_books": [
+      "Jeremiah",
+      "Amos",
+      "Psalms"
+    ]
+  }
 }

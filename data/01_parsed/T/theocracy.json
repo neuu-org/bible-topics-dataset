@@ -1,116 +1,169 @@
 {
   "topic": "THEOCRACY",
   "slug": "theocracy",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Established Ex 19:8; 24:3,7; De 5:25-29; 33:2-5; Jud 8:23; 1Sa 12:12",
-      "references": [
-        "Exod 19:8",
-        "Exod 24:3",
-        "Exod 24:7",
-        "Deut 5:25-29",
-        "Deut 33:2-5",
-        "Judg 8:23",
-        "1Sam 12:12"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Rejected by Israel 1Sa 8:7,19; 10:19; 2Ch 13:8",
-      "references": [
-        "1Sam 8:7",
-        "1Sam 8:19",
-        "1Sam 10:19",
-        "2Chr 13:8"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "See GOD, SOVEREIGN",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "See GOVERNMENT",
-      "references": [],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Deuteronomy",
-      "book_abbrev": "deu",
-      "chapter": 5,
-      "testament": "OT",
-      "verses": [
-        25,
-        26,
-        27,
-        28,
-        29,
-        33
-      ],
-      "verse_count": 6
-    },
-    {
-      "book": "1 Samuel",
-      "book_abbrev": "1sa",
-      "chapter": 12,
-      "testament": "OT",
-      "verses": [
-        12
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "2 Chronicles",
-      "book_abbrev": "2ch",
-      "chapter": 13,
-      "testament": "OT",
-      "verses": [
-        8
-      ],
-      "verse_count": 1
-    }
+  "sources": [
+    "NAV"
   ],
   "see_also": [
     "GOD, SOVEREIGN",
     "GOVERNMENT"
   ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 4,
-    "ot_refs": 3,
-    "nt_refs": 0,
-    "total_verses": 3
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.729756+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "aspects": [
+    {
+      "label": "Establishe",
+      "references": [
+        "Exodus 19:8",
+        "Exodus 24:3,7",
+        "Deuteronomy 5:25-29",
+        "Deuteronomy 33:2-5"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "8:23;",
+      "references": [
+        "1 Samuel 12:12"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Rejected by Israel",
+      "references": [
+        "1 Samuel 8:7,19",
+        "1 Samuel 10:19",
+        "2 Chronicles 13:8"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeGOD,",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeGOVERNMENT",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
+    {
+      "book": "Exodus",
+      "chapter": 19,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 19:8"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 24,
+      "verses": [
+        3,
+        7
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Exodus 24:3,7"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 5,
+      "verses": [
+        25,
+        26,
+        27,
+        28,
+        29
+      ],
+      "verse_count": 5,
+      "testament": "OT",
+      "raw": "Deuteronomy 5:25-29"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 33,
+      "verses": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "verse_count": 4,
+      "testament": "OT",
+      "raw": "Deuteronomy 33:2-5"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 8,
+      "verses": [
+        23
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 8:23"
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 12,
+      "verses": [
+        12
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Samuel 12:12"
+    },
     {
       "book": "1 Samuel",
       "chapter": 8,
       "verses": [
-        6,
         7,
-        8,
-        9
+        19
       ],
-      "verse_count": 4,
+      "verse_count": 2,
       "testament": "OT",
-      "raw": "1 Samuel 8:6-9",
-      "source": "EAS"
+      "raw": "1 Samuel 8:7,19"
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 10,
+      "verses": [
+        19
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Samuel 10:19"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 13,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Chronicles 13:8"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Samuel",
+    "2 Chronicles",
+    "Deuteronomy",
+    "Exodus"
+  ],
+  "stats": {
+    "total_aspects": 5,
+    "total_refs": 9,
+    "ot_refs": 9,
+    "nt_refs": 0,
+    "books_count": 4,
+    "top_books": [
+      "Deuteronomy",
+      "1 Samuel",
+      "Exodus",
+      "2 Chronicles"
+    ]
+  }
 }

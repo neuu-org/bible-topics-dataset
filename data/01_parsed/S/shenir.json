@@ -1,67 +1,28 @@
 {
   "topic": "SHENIR",
   "slug": "shenir",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Also called SENIR",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "The Amorite name of Mount Hermon De 3:9; 1Ch 5:23; So 4:8; Eze 27:5",
-      "references": [
-        "Deut 3:9",
-        "1Chr 5:23",
-        "Song 4:8",
-        "Ezek 27:5"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "1 Chronicles",
-      "book_abbrev": "1ch",
-      "chapter": 5,
-      "testament": "OT",
-      "verses": [
-        23
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Ezekiel",
-      "book_abbrev": "ezk",
-      "chapter": 27,
-      "testament": "OT",
-      "verses": [
-        5
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 2,
-    "nt_refs": 0,
-    "total_verses": 2
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.725030+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "Al",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "The Amorite name of Mount Hermon",
+      "references": [
+        "Deuteronomy 3:9",
+        "1 Chronicles 5:23",
+        "Song of Solomon 4:8",
+        "Ezekiel 27:5"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Deuteronomy",
       "chapter": 3,
@@ -70,8 +31,17 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Deuteronomy 3:9",
-      "source": "EAS"
+      "raw": "Deuteronomy 3:9"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 5,
+      "verses": [
+        23
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 5:23"
     },
     {
       "book": "Song of Solomon",
@@ -81,8 +51,36 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Song of Solomon 4:8",
-      "source": "EAS"
+      "raw": "Song of Solomon 4:8"
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 27,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezekiel 27:5"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Deuteronomy",
+    "Ezekiel",
+    "Song of Solomon"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 4,
+    "ot_refs": 4,
+    "nt_refs": 0,
+    "books_count": 4,
+    "top_books": [
+      "Deuteronomy",
+      "1 Chronicles",
+      "Song of Solomon",
+      "Ezekiel"
+    ]
+  }
 }

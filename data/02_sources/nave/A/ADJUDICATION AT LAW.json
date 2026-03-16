@@ -1,8 +1,8 @@
 {
   "topic": "ADJUDICATION AT LAW",
-  "topic_slug": "adjudication_at_law",
+  "slug": "adjudication_at_law",
   "canonical_id": "NAV:adjudication_at_law",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "COURTS",
     "JUSTICE",
@@ -10,117 +10,94 @@
     "COMPROMISE",
     "ARBITRATION"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "COURTS",
-      "clean": "COURTS",
-      "slug": "courts",
-      "canonical_id": "NAV:courts"
+      "label": "TO BE AVOI",
+      "references": [
+        "Proverbs 17:14",
+        "Proverbs 20:3",
+        "Proverbs 25:8-10",
+        "Matthew 5:25"
+      ]
     },
     {
-      "original": "JUSTICE",
-      "clean": "JUSTICE",
-      "slug": "justice",
-      "canonical_id": "NAV:justice"
+      "label": "SeeACTIONS AT LAW",
+      "references": []
     },
     {
-      "original": "ACTIONS AT LAW",
-      "clean": "ACTIONS AT LAW",
-      "slug": "actions_at_law",
-      "canonical_id": "NAV:actions_at_law"
+      "label": "SeeARBITRATION",
+      "references": []
     },
     {
-      "original": "COMPROMISE",
-      "clean": "COMPROMISE",
-      "slug": "compromise",
-      "canonical_id": "NAV:compromise"
+      "label": "SeeCOMPROMISE",
+      "references": []
     },
     {
-      "original": "ARBITRATION",
-      "clean": "ARBITRATION",
-      "slug": "arbitration",
-      "canonical_id": "NAV:arbitration"
+      "label": "SeeCOURTS",
+      "references": []
+    },
+    {
+      "label": "SeeJUSTICE",
+      "references": []
     }
   ],
-  "raw_block": "–TO BE AVOIDEDPr 17:14;20:3;25:8-10;Mt 5:25\n–SeeACTIONS AT LAW\n–SeeARBITRATION\n–SeeCOMPROMISE\n–SeeCOURTS\n–SeeJUSTICE",
-  "content_preview": "–TO BE AVOIDEDPr 17:14;20:3;25:8-10;Mt 5:25",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–TO BE AVOIDEDPr 17:14;20:3;25:8-10;Mt 5:25",
-      "raw_segment": "–TO BE AVOIDEDPr 17:14;20:3;25:8-10;Mt 5:25"
+      "book": "Proverbs",
+      "chapter": 17,
+      "verses": [
+        14
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 17:14"
     },
     {
-      "idx": 1,
-      "entry_label": "–SeeACTIONS AT LAW",
-      "raw_segment": "–SeeACTIONS AT LAW"
+      "book": "Proverbs",
+      "chapter": 20,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 20:3"
     },
     {
-      "idx": 2,
-      "entry_label": "–SeeARBITRATION",
-      "raw_segment": "–SeeARBITRATION"
+      "book": "Proverbs",
+      "chapter": 25,
+      "verses": [
+        8,
+        9,
+        10
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Proverbs 25:8-10"
     },
     {
-      "idx": 3,
-      "entry_label": "–SeeCOMPROMISE",
-      "raw_segment": "–SeeCOMPROMISE"
-    },
-    {
-      "idx": 4,
-      "entry_label": "–SeeCOURTS",
-      "raw_segment": "–SeeCOURTS"
-    },
-    {
-      "idx": 5,
-      "entry_label": "–SeeJUSTICE",
-      "raw_segment": "–SeeJUSTICE"
+      "book": "Matthew",
+      "chapter": 5,
+      "verses": [
+        25
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 5:25"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "Matthew",
+    "Proverbs"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:4cc6ce0280c95eeeb2d17d67d269f26994a6c0f3dcf4b43cce7318d5abf41e25",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 6
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 6,
+    "total_refs": 4,
+    "ot_refs": 3,
+    "nt_refs": 1,
+    "books_count": 2,
+    "top_books": [
+      "Proverbs",
+      "Matthew"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:23:17.022552Z",
-  "updated_at": "2025-09-20T17:23:17.022559Z"
+  }
 }

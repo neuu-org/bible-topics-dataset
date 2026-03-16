@@ -1,82 +1,48 @@
 {
   "topic": "EPHAH",
   "slug": "ephah",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. A son of Midian Ge 25:4; 1Ch 1:33; Isa 60:6",
-      "references": [
-        "Gen 25:4",
-        "1Chr 1:33",
-        "Isa 60:6"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "2. Caleb’s concubine 1Ch 2:46",
-      "references": [
-        "1Chr 2:46"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "3. Son of Jahdai 1Ch 2:47",
-      "references": [
-        "1Chr 2:47"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "4. A measure of about three pecks",
-      "references": [],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "1 Chronicles",
-      "book_abbrev": "1ch",
-      "chapter": 1,
-      "testament": "OT",
-      "verses": [
-        33
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Isaiah",
-      "book_abbrev": "isa",
-      "chapter": 60,
-      "testament": "OT",
-      "verses": [
-        6
-      ],
-      "verse_count": 1
-    }
+  "sources": [
+    "NAV"
   ],
   "see_also": [
     "MEASURE, DRY"
   ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 4,
-    "ot_refs": 2,
-    "nt_refs": 0,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.684705+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "aspects": [
+    {
+      "label": "1. A",
+      "references": [
+        "Genesis 25:4",
+        "1 Chronicles 1:33",
+        "Isaiah 60:6"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2.",
+      "references": [
+        "1 Chronicles 2:46"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "3.",
+      "references": [
+        "1 Chronicles 2:47"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "4. A measure of about three pecks",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".SeeMEASURE, DRY",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Genesis",
       "chapter": 25,
@@ -85,64 +51,27 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 25:4",
-      "source": "EAS"
+      "raw": "Genesis 25:4"
     },
     {
-      "book": "Judges",
-      "chapter": 6,
+      "book": "1 Chronicles",
+      "chapter": 1,
       "verses": [
-        5
+        33
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Judges 6:5",
-      "source": "EAS"
-    },
-    {
-      "book": "Exodus",
-      "chapter": 16,
-      "verses": [
-        36
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Exodus 16:36",
-      "source": "EAS"
-    },
-    {
-      "book": "1 Samuel",
-      "chapter": 17,
-      "verses": [
-        17
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "1 Samuel 17:17",
-      "source": "EAS"
-    },
-    {
-      "book": "Zechariah",
-      "chapter": 5,
-      "verses": [
-        6
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Zechariah 5:6",
-      "source": "EAS"
+      "raw": "1 Chronicles 1:33"
     },
     {
       "book": "Isaiah",
       "chapter": 60,
       "verses": [
-        6,
-        7
+        6
       ],
-      "verse_count": 2,
+      "verse_count": 1,
       "testament": "OT",
-      "raw": "Isaiah 60:6, 7",
-      "source": "EAS"
+      "raw": "Isaiah 60:6"
     },
     {
       "book": "1 Chronicles",
@@ -152,8 +81,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 2:46",
-      "source": "EAS"
+      "raw": "1 Chronicles 2:46"
     },
     {
       "book": "1 Chronicles",
@@ -163,30 +91,24 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 2:47",
-      "source": "EAS"
-    },
-    {
-      "book": "Proverbs",
-      "chapter": 20,
-      "verses": [
-        10
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Proverbs 20:10",
-      "source": "EAS"
-    },
-    {
-      "book": "Deuteronomy",
-      "chapter": 25,
-      "verses": [
-        14
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Deuteronomy 25:14",
-      "source": "EAS"
+      "raw": "1 Chronicles 2:47"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Genesis",
+    "Isaiah"
+  ],
+  "stats": {
+    "total_aspects": 5,
+    "total_refs": 5,
+    "ot_refs": 5,
+    "nt_refs": 0,
+    "books_count": 3,
+    "top_books": [
+      "1 Chronicles",
+      "Genesis",
+      "Isaiah"
+    ]
+  }
 }

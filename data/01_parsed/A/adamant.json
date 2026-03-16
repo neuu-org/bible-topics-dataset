@@ -1,79 +1,28 @@
 {
   "topic": "ADAMANT",
   "slug": "adamant",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "A flint Eze 3:9; Zec 7:12",
-      "references": [
-        "Ezek 3:9",
-        "Zech 7:12"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "See DIAMOND",
-      "references": [],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Zechariah",
-      "book_abbrev": "zec",
-      "chapter": 7,
-      "testament": "OT",
-      "verses": [
-        12
-      ],
-      "verse_count": 1
-    }
+  "sources": [
+    "NAV"
   ],
   "see_also": [
     "DIAMOND"
   ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.661144+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "aspects": [
+    {
+      "label": "A flint",
+      "references": [
+        "Ezekiel 3:9",
+        "Ecclesiastes 7:12"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeDIAMOND",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "Zechariah",
-      "chapter": 7,
-      "verses": [
-        12
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Zechariah 7:12",
-      "source": "EAS"
-    },
-    {
-      "book": "Jeremiah",
-      "chapter": 17,
-      "verses": [
-        1
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Jeremiah 17:1",
-      "source": "EAS"
-    },
+  ],
+  "biblical_references": [
     {
       "book": "Ezekiel",
       "chapter": 3,
@@ -82,8 +31,32 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Ezekiel 3:9",
-      "source": "EAS"
+      "raw": "Ezekiel 3:9"
+    },
+    {
+      "book": "Ecclesiastes",
+      "chapter": 7,
+      "verses": [
+        12
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ecclesiastes 7:12"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Ecclesiastes",
+    "Ezekiel"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 2,
+    "ot_refs": 2,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "Ezekiel",
+      "Ecclesiastes"
+    ]
+  }
 }

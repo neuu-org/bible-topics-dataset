@@ -1,69 +1,58 @@
 {
   "topic": "HEPHZI-BAH",
-  "topic_slug": "hephzi_bah",
+  "slug": "hephzi_bah",
   "canonical_id": "NAV:hephzi_bah",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–1. Wife of Hezekiah2Ki 21:1\n–2. A prophetic name of JerusalemIsa 62:4",
-  "content_preview": "–1. Wife of Hezekiah2Ki 21:1",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–1. Wife of Hezekiah2Ki 21:1",
-      "raw_segment": "–1. Wife of Hezekiah2Ki 21:1"
+      "label": "1. Wife of Hezekiah",
+      "references": [
+        "2 Kings 21:1"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–2. A prophetic name of JerusalemIsa 62:4",
-      "raw_segment": "–2. A prophetic name of JerusalemIsa 62:4"
+      "label": "2. A prophetic name of",
+      "references": [
+        "Isaiah 62:4"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "2 Kings",
+      "chapter": 21,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Kings 21:1"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 62,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 62:4"
+    }
+  ],
+  "books_mentioned": [
+    "2 Kings",
+    "Isaiah"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 2,
+    "total_refs": 2,
+    "ot_refs": 2,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:a44a3f7f9fbb11533925341255445a75b909d3bd5db5034c1cf5c28af66dc025",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 2,
+    "top_books": [
+      "2 Kings",
+      "Isaiah"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:27:11.478966Z",
-  "updated_at": "2025-09-20T17:27:11.478974Z"
+  }
 }

@@ -1,76 +1,138 @@
 {
   "topic": "CENTURION",
   "slug": "centurion",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [
+    "CORNELIUS",
+    "JULIUS"
+  ],
+  "aspects": [
     {
-      "name": "A commander of approximately one-hundred soldiers in the Roman army Mr 15:44,45; Ac 21:32; 22:25,26; 23:17,23; 24:23",
+      "label": "A comman",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "army",
       "references": [
-        "Mark 15:44",
-        "Mark 15:45",
+        "Mark 15:44,45",
         "Acts 21:32",
-        "Acts 22:25",
-        "Acts 22:26",
-        "Acts 23:17",
-        "Acts 23:23",
+        "Acts 22:25,26",
+        "Acts 23:17,23",
         "Acts 24:23"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Of Capernaum, comes to Jesus in behalf of his servant Mt 8:5-13; Lu 7:1-10",
+      "label": "Of",
       "references": [
-        "Matt 8:5-13",
+        "Matthew 8:5-13",
         "Luke 7:1-10"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "In charge of the soldiers who crucified Jesus, testifies, “Truly this was the Son of God,” Mt 27:54; Mr 15:39; Lu 23:47",
+      "label": "In charge of the",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "this was the",
       "references": [
-        "Matt 27:54",
+        "Matthew 27:54",
         "Mark 15:39",
         "Luke 23:47"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See CORNELIUS",
+      "label": "SeeCORNELIUS",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See JULIUS",
+      "label": "SeeJULIUS",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Matthew",
-      "book_abbrev": "mat",
-      "chapter": 27,
-      "testament": "NT",
+      "book": "Mark",
+      "chapter": 15,
       "verses": [
-        54
+        44,
+        45
       ],
-      "verse_count": 1
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Mark 15:44,45"
     },
     {
-      "book": "Mark",
-      "book_abbrev": "mrk",
-      "chapter": 15,
-      "testament": "NT",
+      "book": "Acts",
+      "chapter": 21,
       "verses": [
-        39
+        32
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 21:32"
+    },
+    {
+      "book": "Acts",
+      "chapter": 22,
+      "verses": [
+        25,
+        26
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Acts 22:25,26"
+    },
+    {
+      "book": "Acts",
+      "chapter": 23,
+      "verses": [
+        17,
+        23
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Acts 23:17,23"
+    },
+    {
+      "book": "Acts",
+      "chapter": 24,
+      "verses": [
+        23
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 24:23"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 8,
+      "verses": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "verse_count": 9,
+      "testament": "NT",
+      "raw": "Matthew 8:5-13"
     },
     {
       "book": "Luke",
-      "book_abbrev": "luk",
       "chapter": 7,
-      "testament": "NT",
       "verses": [
         1,
         2,
@@ -83,78 +145,9 @@
         9,
         10
       ],
-      "verse_count": 10
-    },
-    {
-      "book": "Luke",
-      "book_abbrev": "luk",
-      "chapter": 23,
+      "verse_count": 10,
       "testament": "NT",
-      "verses": [
-        47
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Acts",
-      "book_abbrev": "act",
-      "chapter": 21,
-      "testament": "NT",
-      "verses": [
-        22,
-        32
-      ],
-      "verse_count": 2
-    }
-  ],
-  "see_also": [
-    "JULIUS",
-    "CORNELIUS"
-  ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 5,
-    "ot_refs": 0,
-    "nt_refs": 5,
-    "total_verses": 5
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.676826+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "Mark",
-      "chapter": 15,
-      "verses": [
-        39,
-        44,
-        45
-      ],
-      "verse_count": 3,
-      "testament": "NT",
-      "raw": "Mark 15:39, 44, 45",
-      "source": "EAS"
-    },
-    {
-      "book": "Acts",
-      "chapter": 10,
-      "verses": [
-        1,
-        22
-      ],
-      "verse_count": 2,
-      "testament": "NT",
-      "raw": "Acts 10:1, 22",
-      "source": "EAS"
+      "raw": "Luke 7:1-10"
     },
     {
       "book": "Matthew",
@@ -164,8 +157,17 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Matthew 27:54",
-      "source": "EAS"
+      "raw": "Matthew 27:54"
+    },
+    {
+      "book": "Mark",
+      "chapter": 15,
+      "verses": [
+        39
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Mark 15:39"
     },
     {
       "book": "Luke",
@@ -175,105 +177,26 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Luke 23:47",
-      "source": "EAS"
-    },
-    {
-      "book": "Matthew",
-      "chapter": 8,
-      "verses": [
-        5,
-        8,
-        13
-      ],
-      "verse_count": 3,
-      "testament": "NT",
-      "raw": "Matthew 8:5, 8, 13",
-      "source": "EAS"
-    },
-    {
-      "book": "Luke",
-      "chapter": 7,
-      "verses": [
-        2,
-        6
-      ],
-      "verse_count": 2,
-      "testament": "NT",
-      "raw": "Luke 7:2, 6",
-      "source": "EAS"
-    },
-    {
-      "book": "Acts",
-      "chapter": 21,
-      "verses": [
-        32
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Acts 21:32",
-      "source": "EAS"
-    },
-    {
-      "book": "Acts",
-      "chapter": 22,
-      "verses": [
-        25,
-        26
-      ],
-      "verse_count": 2,
-      "testament": "NT",
-      "raw": "Acts 22:25, 26",
-      "source": "EAS"
-    },
-    {
-      "book": "Acts",
-      "chapter": 23,
-      "verses": [
-        17,
-        23
-      ],
-      "verse_count": 2,
-      "testament": "NT",
-      "raw": "Acts 23:17, 23",
-      "source": "EAS"
-    },
-    {
-      "book": "Acts",
-      "chapter": 24,
-      "verses": [
-        23
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Acts 24:23",
-      "source": "EAS"
-    },
-    {
-      "book": "Acts",
-      "chapter": 27,
-      "verses": [
-        1,
-        6,
-        11,
-        31,
-        43
-      ],
-      "verse_count": 5,
-      "testament": "NT",
-      "raw": "Acts 27:1, 6, 11, 31, 43",
-      "source": "EAS"
-    },
-    {
-      "book": "Acts",
-      "chapter": 28,
-      "verses": [
-        16
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Acts 28:16",
-      "source": "EAS"
+      "raw": "Luke 23:47"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Acts",
+    "Luke",
+    "Mark",
+    "Matthew"
+  ],
+  "stats": {
+    "total_aspects": 7,
+    "total_refs": 10,
+    "ot_refs": 0,
+    "nt_refs": 10,
+    "books_count": 4,
+    "top_books": [
+      "Acts",
+      "Mark",
+      "Matthew",
+      "Luke"
+    ]
+  }
 }

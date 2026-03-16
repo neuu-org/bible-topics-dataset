@@ -1,64 +1,35 @@
 {
   "topic": "ALEXANDRIA",
   "slug": "alexandria",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "A city of Egypt Ac 6:9",
+      "label": "A city of Egypt",
       "references": [
         "Acts 6:9"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Ships of Ac 27:6; 28:11",
+      "label": "Ships of",
       "references": [
         "Acts 27:6",
         "Acts 28:11"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Apollos born in Ac 18:24",
+      "label": "Apollos born in",
       "references": [
         "Acts 18:24"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.662459+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "Acts",
-      "chapter": 18,
-      "verses": [
-        24
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Acts 18:24",
-      "source": "EAS"
-    },
+  "biblical_references": [
     {
       "book": "Acts",
       "chapter": 6,
@@ -67,8 +38,50 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Acts 6:9",
-      "source": "EAS"
+      "raw": "Acts 6:9"
+    },
+    {
+      "book": "Acts",
+      "chapter": 27,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 27:6"
+    },
+    {
+      "book": "Acts",
+      "chapter": 28,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 28:11"
+    },
+    {
+      "book": "Acts",
+      "chapter": 18,
+      "verses": [
+        24
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 18:24"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Acts"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 4,
+    "ot_refs": 0,
+    "nt_refs": 4,
+    "books_count": 1,
+    "top_books": [
+      "Acts"
+    ]
+  }
 }

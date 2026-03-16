@@ -1,69 +1,84 @@
 {
   "topic": "MALCHUS",
-  "topic_slug": "malchus",
+  "slug": "malchus",
   "canonical_id": "NAV:malchus",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–Servant of the high priest\n–Peter assaults in Gethsemane -Healed by JesusMt 26:51;Mr 14:47;Lu 22:50,51;Joh 18:10",
-  "content_preview": "–Servant of the high priest",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–Servant of the high priest",
-      "raw_segment": "–Servant of the high priest"
+      "label": "Servant of the high priest",
+      "references": []
     },
     {
-      "idx": 1,
-      "entry_label": "–Peter assaults in Gethsemane -Healed by JesusMt 26:51;Mr 14:47;Lu 22:50,51;Joh 18:10",
-      "raw_segment": "–Peter assaults in Gethsemane -Healed by JesusMt 26:51;Mr 14:47;Lu 22:50,51;Joh 18:10"
+      "label": "Peter assaults in Gethsemane -Healed by Jesus",
+      "references": [
+        "Matthew 26:51",
+        "Mark 14:47",
+        "Luke 22:50,51",
+        "John 18:10"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Matthew",
+      "chapter": 26,
+      "verses": [
+        51
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 26:51"
+    },
+    {
+      "book": "Mark",
+      "chapter": 14,
+      "verses": [
+        47
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Mark 14:47"
+    },
+    {
+      "book": "Luke",
+      "chapter": 22,
+      "verses": [
+        50,
+        51
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Luke 22:50,51"
+    },
+    {
+      "book": "John",
+      "chapter": 18,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "John 18:10"
+    }
+  ],
+  "books_mentioned": [
+    "John",
+    "Luke",
+    "Mark",
+    "Matthew"
+  ],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 2,
+    "total_refs": 4,
     "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:79d1842e0eee83b3bf97f56dfcec2300e0e285f30be1b729ba175944a1648f4b",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "nt_refs": 4,
+    "books_count": 4,
+    "top_books": [
+      "Matthew",
+      "Mark",
+      "Luke",
+      "John"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:28:49.160316Z",
-  "updated_at": "2025-09-20T17:28:49.160323Z"
+  }
 }

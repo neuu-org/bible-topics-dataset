@@ -1,80 +1,57 @@
 {
   "topic": "SHOBAL",
   "slug": "shobal",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "1. Son of Seir Ge 36:20,23,29; 1Ch 1:38,40",
+      "label": "1.",
       "references": [
-        "Gen 36:20",
-        "Gen 36:23",
-        "Gen 36:29",
-        "1Chr 1:38",
-        "1Chr 1:40"
+        "Genesis 36:20,23,29",
+        "1 Chronicles 1:38,40"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "2. Son of Caleb 1Ch 2:50,52",
+      "label": "2.",
       "references": [
-        "1Chr 2:50",
-        "1Chr 2:52"
+        "1 Chronicles 2:50,52"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "3. Son of Judah 1Ch 4:1,2",
+      "label": "3.",
       "references": [
-        "1Chr 4:1",
-        "1Chr 4:2"
+        "1 Chronicles 4:1,2"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "1 Chronicles",
-      "book_abbrev": "1ch",
-      "chapter": 1,
+      "book": "Genesis",
+      "chapter": 36,
+      "verses": [
+        20,
+        23,
+        29
+      ],
+      "verse_count": 3,
       "testament": "OT",
+      "raw": "Genesis 36:20,23,29"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 1,
       "verses": [
         38,
         40
       ],
-      "verse_count": 2
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.725850+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "Genesis",
-      "chapter": 36,
-      "verses": [
-        20
-      ],
-      "verse_count": 1,
+      "verse_count": 2,
       "testament": "OT",
-      "raw": "Genesis 36:20",
-      "source": "EAS"
+      "raw": "1 Chronicles 1:38,40"
     },
     {
       "book": "1 Chronicles",
@@ -85,8 +62,7 @@
       ],
       "verse_count": 2,
       "testament": "OT",
-      "raw": "1 Chronicles 2:50, 52",
-      "source": "EAS"
+      "raw": "1 Chronicles 2:50,52"
     },
     {
       "book": "1 Chronicles",
@@ -97,8 +73,22 @@
       ],
       "verse_count": 2,
       "testament": "OT",
-      "raw": "1 Chronicles 4:1, 2",
-      "source": "EAS"
+      "raw": "1 Chronicles 4:1,2"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Genesis"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 4,
+    "ot_refs": 4,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "1 Chronicles",
+      "Genesis"
+    ]
+  }
 }

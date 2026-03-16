@@ -1,71 +1,30 @@
 {
   "topic": "PIRATHON",
   "slug": "pirathon",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "A place in the land of Ephraim Jud 12:15",
-      "references": [
-        "Judg 12:15"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Men of Jud 12:13; 2Sa 23:30; 1Ch 11:31; 27:14",
-      "references": [
-        "Judg 12:13",
-        "2Sam 23:30",
-        "1Chr 11:31",
-        "1Chr 27:14"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "2 Samuel",
-      "book_abbrev": "2sa",
-      "chapter": 23,
-      "testament": "OT",
-      "verses": [
-        1,
-        30
-      ],
-      "verse_count": 2
-    },
-    {
-      "book": "1 Chronicles",
-      "book_abbrev": "1ch",
-      "chapter": 11,
-      "testament": "OT",
-      "verses": [
-        27,
-        31
-      ],
-      "verse_count": 2
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 2,
-    "nt_refs": 0,
-    "total_verses": 2
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.718561+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "A place in the land of Ephraim",
+      "references": [
+        "Judges 12:15"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Men of",
+      "references": [
+        "Judges 12:13",
+        "2 Samuel 23:30",
+        "1 Chronicles 11:31",
+        "1 Chronicles 27:14"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Judges",
       "chapter": 12,
@@ -74,20 +33,37 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Judges 12:15",
-      "source": "EAS"
+      "raw": "Judges 12:15"
     },
     {
       "book": "Judges",
       "chapter": 12,
       "verses": [
-        13,
-        15
+        13
       ],
-      "verse_count": 2,
+      "verse_count": 1,
       "testament": "OT",
-      "raw": "Judges 12:13,15",
-      "source": "SMI"
+      "raw": "Judges 12:13"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 23,
+      "verses": [
+        30
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Samuel 23:30"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 11,
+      "verses": [
+        31
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 11:31"
     },
     {
       "book": "1 Chronicles",
@@ -97,8 +73,24 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 27:14",
-      "source": "SMI"
+      "raw": "1 Chronicles 27:14"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "2 Samuel",
+    "Judges"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 5,
+    "ot_refs": 5,
+    "nt_refs": 0,
+    "books_count": 3,
+    "top_books": [
+      "Judges",
+      "1 Chronicles",
+      "2 Samuel"
+    ]
+  }
 }

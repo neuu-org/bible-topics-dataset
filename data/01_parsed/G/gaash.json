@@ -1,60 +1,40 @@
 {
   "topic": "GAASH",
   "slug": "gaash",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "(A foothill of Mount Ephraim)",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "Joshua’s inheritance embraced Jos 24:30",
-      "references": [
-        "Josh 24:30"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Joshua buried on the north side of Jos 24:30; Jud 2:9",
-      "references": [
-        "Josh 24:30",
-        "Judg 2:9"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Brooks of 2Sa 23:30",
-      "references": [
-        "2Sam 23:30"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 4,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.687585+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "(A foothill of Mount Ephraim)",
+      "references": [],
+      "source": "NAV"
     },
-    "enriched_at": "2025-12-02T22:02:10.299465+00:00",
-    "enrichment_source": "pipeline_merge"
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+    {
+      "label": "Joshua’s inheritance embraced",
+      "references": [
+        "Joshua 24:30"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Joshua buried on the north si",
+      "references": [
+        "Joshua 24:30",
+        "Judges 2:9"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Brooks of",
+      "references": [
+        "2 Samuel 23:30"
+      ],
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
     {
       "book": "Joshua",
       "chapter": 24,
@@ -63,8 +43,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Joshua 24:30",
-      "source": "EAS"
+      "raw": "Joshua 24:30"
     },
     {
       "book": "Judges",
@@ -74,8 +53,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Judges 2:9",
-      "source": "EAS"
+      "raw": "Judges 2:9"
     },
     {
       "book": "2 Samuel",
@@ -85,19 +63,24 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Samuel 23:30",
-      "source": "SMI"
-    },
-    {
-      "book": "1 Chronicles",
-      "chapter": 11,
-      "verses": [
-        32
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "1 Chronicles 11:32",
-      "source": "SMI"
+      "raw": "2 Samuel 23:30"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "2 Samuel",
+    "Joshua",
+    "Judges"
+  ],
+  "stats": {
+    "total_aspects": 4,
+    "total_refs": 3,
+    "ot_refs": 3,
+    "nt_refs": 0,
+    "books_count": 3,
+    "top_books": [
+      "Joshua",
+      "Judges",
+      "2 Samuel"
+    ]
+  }
 }

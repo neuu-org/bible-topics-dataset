@@ -1,64 +1,81 @@
 {
   "topic": "AHARAH",
-  "topic_slug": "aharah",
+  "slug": "aharah",
   "canonical_id": "NAV:aharah",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–Also called EHI, and AHIRAM, and AHER\n  .Son of BenjaminGe 46:21;Nu 26:38;1Ch 7:12;8:1",
-  "content_preview": "–Also called EHI, and AHIRAM, and AHER",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–Also called EHI, and AHIRAM, and AHER",
-      "raw_segment": "–Also called EHI, and AHIRAM, and AHER"
+      "label": "Al",
+      "references": []
+    },
+    {
+      "label": ".",
+      "references": [
+        "Genesis 46:21",
+        "Numbers 26:38",
+        "1 Chronicles 7:12",
+        "1 Chronicles 8:1"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Genesis",
+      "chapter": 46,
+      "verses": [
+        21
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 46:21"
+    },
+    {
+      "book": "Numbers",
+      "chapter": 26,
+      "verses": [
+        38
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Numbers 26:38"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 7,
+      "verses": [
+        12
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 7:12"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 8,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 8:1"
+    }
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Genesis",
+    "Numbers"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 2,
+    "total_refs": 4,
+    "ot_refs": 4,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:8dfda6b7b0b7627d451a36f207203637a496e14e4d7f0430c5ede20629376748",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 3,
+    "top_books": [
+      "1 Chronicles",
+      "Genesis",
+      "Numbers"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:23:21.646802Z",
-  "updated_at": "2025-09-20T17:23:21.646809Z"
+  }
 }

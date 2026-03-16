@@ -1,102 +1,56 @@
 {
   "topic": "SIMILITUDE",
-  "topic_slug": "similitude",
+  "slug": "similitude",
   "canonical_id": "NAV:similitude",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "TYPES",
     "PARABLES: SYMBOLS",
     "FIGURES"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "TYPES",
-      "clean": "TYPES",
-      "slug": "types",
-      "canonical_id": "NAV:types"
+      "label": "General scriptures concerning",
+      "references": [
+        "Hosea 12:10"
+      ]
     },
     {
-      "original": "PARABLES: SYMBOLS",
-      "clean": "PARABLES: SYMBOLS",
-      "slug": "parables__symbols",
-      "canonical_id": "NAV:parables__symbols"
+      "label": "SeeFIGURES",
+      "references": []
     },
     {
-      "original": "FIGURES",
-      "clean": "FIGURES",
-      "slug": "figures",
-      "canonical_id": "NAV:figures"
+      "label": "SeePARABLES: SYMBOLS",
+      "references": []
+    },
+    {
+      "label": "SeeTYPES",
+      "references": []
     }
   ],
-  "raw_block": "–General scriptures concerningHo 12:10\n–SeeFIGURES\n–SeePARABLES: SYMBOLS\n–SeeTYPES",
-  "content_preview": "–General scriptures concerningHo 12:10",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–General scriptures concerningHo 12:10",
-      "raw_segment": "–General scriptures concerningHo 12:10"
-    },
-    {
-      "idx": 1,
-      "entry_label": "–SeeFIGURES",
-      "raw_segment": "–SeeFIGURES"
-    },
-    {
-      "idx": 2,
-      "entry_label": "–SeePARABLES: SYMBOLS",
-      "raw_segment": "–SeePARABLES: SYMBOLS"
-    },
-    {
-      "idx": 3,
-      "entry_label": "–SeeTYPES",
-      "raw_segment": "–SeeTYPES"
+      "book": "Hosea",
+      "chapter": 12,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Hosea 12:10"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "Hosea"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 4,
+    "total_refs": 1,
+    "ot_refs": 1,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:9c64186d76158853022b17c06de3ea253a1a195cf7e3075a17666e2cd6425b0f",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 4
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 1,
+    "top_books": [
+      "Hosea"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:31:34.343933Z",
-  "updated_at": "2025-09-20T17:31:34.343940Z"
+  }
 }

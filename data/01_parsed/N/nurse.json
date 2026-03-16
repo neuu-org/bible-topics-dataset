@@ -1,104 +1,33 @@
 {
   "topic": "NURSE",
   "slug": "nurse",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "General scriptures concerning Ge 24:59; 35:8; Ex 2:7; Ru 4:16; 2Ki 11:2; Isa 60:4; 1Th 2:7",
-      "references": [
-        "Gen 24:59",
-        "Gen 35:8",
-        "Exod 2:7",
-        "Ruth 4:16",
-        "2Kgs 11:2",
-        "Isa 60:4",
-        "1Thess 2:7"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Careless 2Sa 4:4",
-      "references": [
-        "2Sam 4:4"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Exodus",
-      "book_abbrev": "exo",
-      "chapter": 2,
-      "testament": "OT",
-      "verses": [
-        7
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Ruth",
-      "book_abbrev": "rut",
-      "chapter": 4,
-      "testament": "OT",
-      "verses": [
-        2,
-        16
-      ],
-      "verse_count": 2
-    },
-    {
-      "book": "2 Kings",
-      "book_abbrev": "2ki",
-      "chapter": 11,
-      "testament": "OT",
-      "verses": [
-        2
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Isaiah",
-      "book_abbrev": "isa",
-      "chapter": 60,
-      "testament": "OT",
-      "verses": [
-        1,
-        4
-      ],
-      "verse_count": 2
-    },
-    {
-      "book": "1 Thessalonians",
-      "book_abbrev": "1th",
-      "chapter": 2,
-      "testament": "NT",
-      "verses": [
-        7
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 4,
-    "nt_refs": 1,
-    "total_verses": 5
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.715417+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "General scriptures concerning",
+      "references": [
+        "Genesis 24:59",
+        "Genesis 35:8",
+        "Exodus 2:7",
+        "Ruth 4:16",
+        "2 Kings 11:2",
+        "Isaiah 60:4",
+        "1 Thessalonians 2:7"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "General references",
+      "references": [
+        "2 Samuel 4:4"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Genesis",
       "chapter": 24,
@@ -107,19 +36,67 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 24:59",
-      "source": "SMI"
+      "raw": "Genesis 24:59"
     },
     {
       "book": "Genesis",
-      "chapter": 36,
+      "chapter": 35,
       "verses": [
         8
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 36:8",
-      "source": "SMI"
+      "raw": "Genesis 35:8"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 2,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 2:7"
+    },
+    {
+      "book": "Ruth",
+      "chapter": 4,
+      "verses": [
+        16
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ruth 4:16"
+    },
+    {
+      "book": "2 Kings",
+      "chapter": 11,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Kings 11:2"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 60,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 60:4"
+    },
+    {
+      "book": "1 Thessalonians",
+      "chapter": 2,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "1 Thessalonians 2:7"
     },
     {
       "book": "2 Samuel",
@@ -129,52 +106,32 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Samuel 4:4",
-      "source": "SMI"
-    },
-    {
-      "book": "2 Kings",
-      "chapter": 11,
-      "verses": [
-        2
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "2 Kings 11:2",
-      "source": "SMI"
-    },
-    {
-      "book": "Numbers",
-      "chapter": 11,
-      "verses": [
-        12
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Numbers 11:12",
-      "source": "SMI"
-    },
-    {
-      "book": "Ruth",
-      "chapter": 4,
-      "verses": [
-        16
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Ruth 4:16",
-      "source": "SMI"
-    },
-    {
-      "book": "Isaiah",
-      "chapter": 49,
-      "verses": [
-        23
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Isaiah 49:23",
-      "source": "SMI"
+      "raw": "2 Samuel 4:4"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Thessalonians",
+    "2 Kings",
+    "2 Samuel",
+    "Exodus",
+    "Genesis",
+    "Isaiah",
+    "Ruth"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 8,
+    "ot_refs": 7,
+    "nt_refs": 1,
+    "books_count": 7,
+    "top_books": [
+      "Genesis",
+      "Exodus",
+      "Ruth",
+      "2 Kings",
+      "Isaiah",
+      "1 Thessalonians",
+      "2 Samuel"
+    ]
+  }
 }

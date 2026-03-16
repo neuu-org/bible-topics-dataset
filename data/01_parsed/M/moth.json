@@ -1,21 +1,40 @@
 {
-  "topic": "Moth",
+  "topic": "MOTH",
   "slug": "moth",
-  "type": "topic",
-  "reference_groups": [],
-  "biblical_references": [],
-  "stats": {},
-  "sources": [],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.712436+00:00",
-    "merged_from": {
-      "v2": false,
-      "dictionary": true
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "An insect",
+      "references": [
+        "Job 4:19",
+        "Job 27:18",
+        "Psalms 39:11"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "General references",
+      "references": [
+        "Job 13:28",
+        "Isaiah 50:9",
+        "Isaiah 51:8",
+        "Hosea 5:12"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "FIGURATIVE",
+      "references": [
+        "Matthew 6:19,20",
+        "James 5:2"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Job",
       "chapter": 4,
@@ -24,8 +43,27 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Job 4:19",
-      "source": "EAS"
+      "raw": "Job 4:19"
+    },
+    {
+      "book": "Job",
+      "chapter": 27,
+      "verses": [
+        18
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Job 27:18"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 39,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 39:11"
     },
     {
       "book": "Job",
@@ -35,8 +73,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Job 13:28",
-      "source": "EAS"
+      "raw": "Job 13:28"
     },
     {
       "book": "Isaiah",
@@ -46,8 +83,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Isaiah 50:9",
-      "source": "EAS"
+      "raw": "Isaiah 50:9"
     },
     {
       "book": "Isaiah",
@@ -57,8 +93,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Isaiah 51:8",
-      "source": "EAS"
+      "raw": "Isaiah 51:8"
     },
     {
       "book": "Hosea",
@@ -68,8 +103,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Hosea 5:12",
-      "source": "EAS"
+      "raw": "Hosea 5:12"
     },
     {
       "book": "Matthew",
@@ -80,30 +114,40 @@
       ],
       "verse_count": 2,
       "testament": "NT",
-      "raw": "Matthew 6:19, 20",
-      "source": "EAS"
+      "raw": "Matthew 6:19,20"
     },
     {
-      "book": "Luke",
-      "chapter": 12,
+      "book": "James",
+      "chapter": 5,
       "verses": [
-        33
+        2
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Luke 12:33",
-      "source": "EAS"
-    },
-    {
-      "book": "Psalms",
-      "chapter": 39,
-      "verses": [
-        11
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Psalms 39:11",
-      "source": "SMI"
+      "raw": "James 5:2"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Hosea",
+    "Isaiah",
+    "James",
+    "Job",
+    "Matthew",
+    "Psalms"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 9,
+    "ot_refs": 7,
+    "nt_refs": 2,
+    "books_count": 6,
+    "top_books": [
+      "Job",
+      "Isaiah",
+      "Psalms",
+      "Hosea",
+      "Matthew",
+      "James"
+    ]
+  }
 }

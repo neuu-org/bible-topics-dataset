@@ -1,60 +1,41 @@
 {
   "topic": "GLASS",
   "slug": "glass",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "General scriptures concerning Job 28:17",
-      "references": [
-        "Job 28:17"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Symbolical Re 21:18,21",
-      "references": [
-        "Rev 21:18",
-        "Rev 21:21"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Sea of Re 15:2",
-      "references": [
-        "Rev 15:2"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "See MIRROR",
-      "references": [],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [
-    "MIRROR"
-  ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 4,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.689013+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [
+    "MIRROR"
+  ],
+  "aspects": [
+    {
+      "label": "General scriptures concerning",
+      "references": [
+        "Job 28:17"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Symboli",
+      "references": [
+        "Revelation 21:18,21"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Sea of",
+      "references": [
+        "Revelation 15:2"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeMIRROR",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Job",
       "chapter": 28,
@@ -63,41 +44,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Job 28:17",
-      "source": "EAS"
-    },
-    {
-      "book": "Exodus",
-      "chapter": 38,
-      "verses": [
-        8
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Exodus 38:8",
-      "source": "EAS"
-    },
-    {
-      "book": "Revelation",
-      "chapter": 4,
-      "verses": [
-        6
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Revelation 4:6",
-      "source": "EAS"
-    },
-    {
-      "book": "Revelation",
-      "chapter": 15,
-      "verses": [
-        2
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Revelation 15:2",
-      "source": "EAS"
+      "raw": "Job 28:17"
     },
     {
       "book": "Revelation",
@@ -108,41 +55,32 @@
       ],
       "verse_count": 2,
       "testament": "NT",
-      "raw": "Revelation 21:18, 21",
-      "source": "EAS"
-    },
-    {
-      "book": "Job",
-      "chapter": 37,
-      "verses": [
-        18
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Job 37:18",
-      "source": "EAS"
-    },
-    {
-      "book": "James",
-      "chapter": 1,
-      "verses": [
-        23
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "James 1:23",
-      "source": "EAS"
+      "raw": "Revelation 21:18,21"
     },
     {
       "book": "Revelation",
-      "chapter": 21,
+      "chapter": 15,
       "verses": [
-        18
+        2
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Revelation 21:18",
-      "source": "SMI"
+      "raw": "Revelation 15:2"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Job",
+    "Revelation"
+  ],
+  "stats": {
+    "total_aspects": 4,
+    "total_refs": 3,
+    "ot_refs": 1,
+    "nt_refs": 2,
+    "books_count": 2,
+    "top_books": [
+      "Revelation",
+      "Job"
+    ]
+  }
 }

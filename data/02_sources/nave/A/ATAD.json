@@ -1,64 +1,41 @@
 {
   "topic": "ATAD",
-  "topic_slug": "atad",
+  "slug": "atad",
   "canonical_id": "NAV:atad",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–The place where the sons of Jacob mourned for their fatherGe 50:10,11",
-  "content_preview": "–The place where the sons of Jacob mourned for their fatherGe 50:10,11",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–The place where the sons of Jacob mourned for their fatherGe 50:10,11",
-      "raw_segment": "–The place where the sons of Jacob mourned for their fatherGe 50:10,11"
+      "label": "The place where the",
+      "references": [
+        "Genesis 50:10,11"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Genesis",
+      "chapter": 50,
+      "verses": [
+        10,
+        11
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Genesis 50:10,11"
+    }
+  ],
+  "books_mentioned": [
+    "Genesis"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 1,
+    "total_refs": 1,
+    "ot_refs": 1,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:5a70da50bc80adc2f28de767e848eed3d7b89abfbb86ddc2d8ebf04aeb2e6003",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 1
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 1,
+    "top_books": [
+      "Genesis"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:23:55.977769Z",
-  "updated_at": "2025-09-20T17:23:55.977775Z"
+  }
 }

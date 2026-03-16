@@ -1,83 +1,78 @@
 {
   "topic": "COMMISSARY",
-  "topic_slug": "commissary",
+  "slug": "commissary",
   "canonical_id": "NAV:commissary",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "ARMIES"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "ARMIES",
-      "clean": "ARMIES",
-      "slug": "armies",
-      "canonical_id": "NAV:armies"
-    }
-  ],
-  "raw_block": "–For armies, cattle driven with2Ki 3:9\n–SeeARMIES\n–For royal households1Ki 4:7-19,27,28",
-  "content_preview": "–For armies, cattle driven with2Ki 3:9",
-  "reference_groups": [
-    {
-      "idx": 0,
-      "entry_label": "–For armies, cattle driven with2Ki 3:9",
-      "raw_segment": "–For armies, cattle driven with2Ki 3:9"
+      "label": "For armies,",
+      "references": [
+        "2 Kings 3:9"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–SeeARMIES",
-      "raw_segment": "–SeeARMIES"
+      "label": "SeeARMIES",
+      "references": []
     },
     {
-      "idx": 2,
-      "entry_label": "–For royal households1Ki 4:7-19,27,28",
-      "raw_segment": "–For royal households1Ki 4:7-19,27,28"
+      "label": "For royal households",
+      "references": [
+        "1 Kings 4:7-19,27,28"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "2 Kings",
+      "chapter": 3,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Kings 3:9"
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 4,
+      "verses": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        27,
+        28
+      ],
+      "verse_count": 15,
+      "testament": "OT",
+      "raw": "1 Kings 4:7-19,27,28"
+    }
+  ],
+  "books_mentioned": [
+    "1 Kings",
+    "2 Kings"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 3,
+    "total_refs": 2,
+    "ot_refs": 2,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:270513a3083e321488e861bc02d2e21c9b38bf3d126fefe52d10d29c93db6712",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 3
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 2,
+    "top_books": [
+      "2 Kings",
+      "1 Kings"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:25:09.235785Z",
-  "updated_at": "2025-09-20T17:25:09.235792Z"
+  }
 }

@@ -1,79 +1,115 @@
 {
   "topic": "HAMOR",
-  "topic_slug": "hamor",
+  "slug": "hamor",
   "canonical_id": "NAV:hamor",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–(The father of Shechem)\n–Jacob buys a piece of property fromGe 33:19;Jos 24:32;Jud 9:28\n–Murdered by the sons of JacobGe 34:26;49:6\n–Called EMMORAc 7:16",
-  "content_preview": "–(The father of Shechem)",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–(The father of Shechem)",
-      "raw_segment": "–(The father of Shechem)"
+      "label": "(The father of Shechem)",
+      "references": []
     },
     {
-      "idx": 1,
-      "entry_label": "–Jacob buys a piece of property fromGe 33:19;Jos 24:32;Jud 9:28",
-      "raw_segment": "–Jacob buys a piece of property fromGe 33:19;Jos 24:32;Jud 9:28"
+      "label": "Jacob buys a piece of property from",
+      "references": [
+        "Genesis 33:19",
+        "Joshua 24:32",
+        "Judges 9:28"
+      ]
     },
     {
-      "idx": 2,
-      "entry_label": "–Murdered by the sons of JacobGe 34:26;49:6",
-      "raw_segment": "–Murdered by the sons of JacobGe 34:26;49:6"
+      "label": "Mur",
+      "references": [
+        "Genesis 34:26",
+        "Genesis 49:6"
+      ]
     },
     {
-      "idx": 3,
-      "entry_label": "–Called EMMORAc 7:16",
-      "raw_segment": "–Called EMMORAc 7:16"
+      "label": "General references",
+      "references": [
+        "Acts 7:16"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Genesis",
+      "chapter": 33,
+      "verses": [
+        19
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 33:19"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 24,
+      "verses": [
+        32
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 24:32"
+    },
+    {
+      "book": "Judges",
+      "chapter": 9,
+      "verses": [
+        28
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Judges 9:28"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 34,
+      "verses": [
+        26
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 34:26"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 49,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 49:6"
+    },
+    {
+      "book": "Acts",
+      "chapter": 7,
+      "verses": [
+        16
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 7:16"
+    }
+  ],
+  "books_mentioned": [
+    "Acts",
+    "Genesis",
+    "Joshua",
+    "Judges"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:961908cbf2475230e4492ae2e88173a1a10731a3d2324a0f785f5c1d66017805",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 4
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 4,
+    "total_refs": 6,
+    "ot_refs": 5,
+    "nt_refs": 1,
+    "books_count": 4,
+    "top_books": [
+      "Genesis",
+      "Joshua",
+      "Judges",
+      "Acts"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:26:56.070996Z",
-  "updated_at": "2025-09-20T17:26:56.071006Z"
+  }
 }

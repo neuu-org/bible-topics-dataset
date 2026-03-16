@@ -1,79 +1,130 @@
 {
   "topic": "ASCENSION",
   "slug": "ascension",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "Of Elijah 2Ki 2:1-18",
+      "label": "Of Elijah",
       "references": [
-        "2Kgs 2:1-18"
+        "2 Kings 2:1-18"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Of Jesus Mr 16:19,20; Lu 24:50-53; Ac 1:9-12",
+      "label": "Of Jesus",
       "references": [
-        "Mark 16:19",
-        "Mark 16:20",
+        "Mark 16:19,20",
         "Luke 24:50-53",
         "Acts 1:9-12"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Of two witnesses Re 11:12",
+      "label": "Of two witnesses",
       "references": [
-        "Rev 11:12"
+        "Revelation 11:12"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Luke",
-      "book_abbrev": "luk",
-      "chapter": 24,
+      "book": "2 Kings",
+      "chapter": 2,
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "verse_count": 18,
+      "testament": "OT",
+      "raw": "2 Kings 2:1-18"
+    },
+    {
+      "book": "Mark",
+      "chapter": 16,
+      "verses": [
+        19,
+        20
+      ],
+      "verse_count": 2,
       "testament": "NT",
+      "raw": "Mark 16:19,20"
+    },
+    {
+      "book": "Luke",
+      "chapter": 24,
       "verses": [
         50,
         51,
         52,
         53
       ],
-      "verse_count": 4
+      "verse_count": 4,
+      "testament": "NT",
+      "raw": "Luke 24:50-53"
     },
     {
       "book": "Acts",
-      "book_abbrev": "act",
       "chapter": 1,
-      "testament": "NT",
       "verses": [
         9,
         10,
         11,
         12
       ],
-      "verse_count": 4
+      "verse_count": 4,
+      "testament": "NT",
+      "raw": "Acts 1:9-12"
+    },
+    {
+      "book": "Revelation",
+      "chapter": 11,
+      "verses": [
+        12
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Revelation 11:12"
     }
   ],
-  "see_also": [],
-  "aliases": [],
+  "books_mentioned": [
+    "2 Kings",
+    "Acts",
+    "Luke",
+    "Mark",
+    "Revelation"
+  ],
   "stats": {
-    "entries_count": 3,
-    "ot_refs": 0,
-    "nt_refs": 2,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.670162+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0"
+    "total_aspects": 3,
+    "total_refs": 5,
+    "ot_refs": 1,
+    "nt_refs": 4,
+    "books_count": 5,
+    "top_books": [
+      "2 Kings",
+      "Mark",
+      "Luke",
+      "Acts",
+      "Revelation"
+    ]
+  }
 }

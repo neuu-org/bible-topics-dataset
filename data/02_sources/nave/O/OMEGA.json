@@ -1,64 +1,63 @@
 {
   "topic": "OMEGA",
-  "topic_slug": "omega",
+  "slug": "omega",
   "canonical_id": "NAV:omega",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–Alpha and Omega, the all-comprehensiveness of ChristRe 1:8,11;21:6;22:13",
-  "content_preview": "–Alpha and Omega, the all-comprehensiveness of ChristRe 1:8,11;21:6;22:13",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–Alpha and Omega, the all-comprehensiveness of ChristRe 1:8,11;21:6;22:13",
-      "raw_segment": "–Alpha and Omega, the all-comprehensiveness of ChristRe 1:8,11;21:6;22:13"
+      "label": "Alpha and Omega, the all-comprehensiveness of Christ",
+      "references": [
+        "Revelation 1:8,11",
+        "Revelation 21:6",
+        "Revelation 22:13"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Revelation",
+      "chapter": 1,
+      "verses": [
+        8,
+        11
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Revelation 1:8,11"
+    },
+    {
+      "book": "Revelation",
+      "chapter": 21,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Revelation 21:6"
+    },
+    {
+      "book": "Revelation",
+      "chapter": 22,
+      "verses": [
+        13
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Revelation 22:13"
+    }
+  ],
+  "books_mentioned": [
+    "Revelation"
+  ],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 1,
+    "total_refs": 3,
     "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:7663d2b18504525f5a69665c220a932650406d069790a03751c46ddf4696fdbb",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 1
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "nt_refs": 3,
+    "books_count": 1,
+    "top_books": [
+      "Revelation"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:29:41.129782Z",
-  "updated_at": "2025-09-20T17:29:41.129791Z"
+  }
 }

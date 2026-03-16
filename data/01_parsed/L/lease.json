@@ -1,29 +1,50 @@
 {
   "topic": "LEASE",
   "slug": "lease",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [
+    "LAND"
+  ],
+  "aspects": [
     {
-      "name": "Of real estate Mt 21:33-41; Mr 12:1-9; Lu 20:9-16",
+      "label": "Of real estate",
       "references": [
-        "Matt 21:33-41",
+        "Matthew 21:33-41",
         "Mark 12:1-9",
         "Luke 20:9-16"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See LAND",
+      "label": "SeeLAND",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Mark",
-      "book_abbrev": "mrk",
-      "chapter": 12,
+      "book": "Matthew",
+      "chapter": 21,
+      "verses": [
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "verse_count": 9,
       "testament": "NT",
+      "raw": "Matthew 21:33-41"
+    },
+    {
+      "book": "Mark",
+      "chapter": 12,
       "verses": [
         1,
         2,
@@ -35,13 +56,13 @@
         8,
         9
       ],
-      "verse_count": 9
+      "verse_count": 9,
+      "testament": "NT",
+      "raw": "Mark 12:1-9"
     },
     {
       "book": "Luke",
-      "book_abbrev": "luk",
       "chapter": 20,
-      "testament": "NT",
       "verses": [
         9,
         10,
@@ -52,29 +73,26 @@
         15,
         16
       ],
-      "verse_count": 8
+      "verse_count": 8,
+      "testament": "NT",
+      "raw": "Luke 20:9-16"
     }
   ],
-  "see_also": [
-    "LAND"
+  "books_mentioned": [
+    "Luke",
+    "Mark",
+    "Matthew"
   ],
-  "aliases": [],
   "stats": {
-    "entries_count": 2,
+    "total_aspects": 2,
+    "total_refs": 3,
     "ot_refs": 0,
-    "nt_refs": 2,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.700386+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    }
-  },
-  "version": "3.0.0"
+    "nt_refs": 3,
+    "books_count": 3,
+    "top_books": [
+      "Matthew",
+      "Mark",
+      "Luke"
+    ]
+  }
 }

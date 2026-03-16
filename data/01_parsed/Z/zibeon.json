@@ -1,83 +1,38 @@
 {
   "topic": "ZIBEON",
   "slug": "zibeon",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "1. A Hivite Ge 36:2,14",
+      "label": "1. A Hivite",
       "references": [
-        "Gen 36:2",
-        "Gen 36:14"
+        "Genesis 36:2,14"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "2. Son of Seir Ge 36:20,24,29; 1Ch 1:38,40",
+      "label": "2.",
       "references": [
-        "Gen 36:20",
-        "Gen 36:24",
-        "Gen 36:29",
-        "1Chr 1:38",
-        "1Chr 1:40"
+        "Genesis 36:20,24,29",
+        "1 Chronicles 1:38,40"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "1 Chronicles",
-      "book_abbrev": "1ch",
-      "chapter": 1,
-      "testament": "OT",
-      "verses": [
-        38,
-        40
-      ],
-      "verse_count": 2
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.735049+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
       "book": "Genesis",
       "chapter": 36,
       "verses": [
-        2
+        2,
+        14
       ],
-      "verse_count": 1,
+      "verse_count": 2,
       "testament": "OT",
-      "raw": "Genesis 36:2",
-      "source": "EAS"
-    },
-    {
-      "book": "Genesis",
-      "chapter": 36,
-      "verses": [
-        20
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Genesis 36:20",
-      "source": "EAS"
+      "raw": "Genesis 36:2,14"
     },
     {
       "book": "Genesis",
@@ -89,8 +44,7 @@
       ],
       "verse_count": 3,
       "testament": "OT",
-      "raw": "Genesis 36:20,24,29",
-      "source": "SMI"
+      "raw": "Genesis 36:20,24,29"
     },
     {
       "book": "1 Chronicles",
@@ -101,8 +55,22 @@
       ],
       "verse_count": 2,
       "testament": "OT",
-      "raw": "1 Chronicles 1:38,40",
-      "source": "SMI"
+      "raw": "1 Chronicles 1:38,40"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Genesis"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 3,
+    "ot_refs": 3,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "Genesis",
+      "1 Chronicles"
+    ]
+  }
 }

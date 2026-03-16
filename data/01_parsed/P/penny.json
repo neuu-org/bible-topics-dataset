@@ -1,114 +1,46 @@
 {
   "topic": "PENNY",
   "slug": "penny",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "A denarius Mt 18; 28; Mr 6:37; 14:5; Lu 7:41; 10:35",
+      "label": "A",
       "references": [
-        "Matt 18",
-        "Matt 28",
         "Mark 6:37",
         "Mark 14:5",
         "Luke 7:41",
         "Luke 10:35"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Roman, had Caesar’s image on it Mt 22:19-21",
+      "label": "Roman, had",
       "references": [
-        "Matt 22:19-21"
+        "Matthew 22:19-21"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Worth one day’s wages Mt 20:2-14",
+      "label": "Worth one day’s wages",
       "references": [
-        "Matt 20:2-14"
+        "Matthew 20:2-14"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
       "book": "Mark",
-      "book_abbrev": "mrk",
-      "chapter": 6,
-      "testament": "NT",
-      "verses": [
-        14,
-        37
-      ],
-      "verse_count": 2
-    },
-    {
-      "book": "Luke",
-      "book_abbrev": "luk",
-      "chapter": 7,
-      "testament": "NT",
-      "verses": [
-        10,
-        41
-      ],
-      "verse_count": 2
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 0,
-    "nt_refs": 2,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.717594+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "Matthew",
-      "chapter": 18,
-      "verses": [
-        28
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Matthew 18:28",
-      "source": "EAS"
-    },
-    {
-      "book": "Matthew",
-      "chapter": 20,
-      "verses": [
-        2,
-        9,
-        13
-      ],
-      "verse_count": 3,
-      "testament": "NT",
-      "raw": "Matthew 20:2, 9, 13",
-      "source": "EAS"
-    },
-    {
-      "book": "Mark",
       "chapter": 6,
       "verses": [
         37
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Mark 6:37",
-      "source": "EAS"
+      "raw": "Mark 6:37"
     },
     {
       "book": "Mark",
@@ -118,30 +50,78 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Mark 14:5",
-      "source": "EAS"
+      "raw": "Mark 14:5"
+    },
+    {
+      "book": "Luke",
+      "chapter": 7,
+      "verses": [
+        41
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 7:41"
+    },
+    {
+      "book": "Luke",
+      "chapter": 10,
+      "verses": [
+        35
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 10:35"
     },
     {
       "book": "Matthew",
       "chapter": 22,
       "verses": [
-        19
+        19,
+        20,
+        21
       ],
-      "verse_count": 1,
+      "verse_count": 3,
       "testament": "NT",
-      "raw": "Matthew 22:19",
-      "source": "EAS"
+      "raw": "Matthew 22:19-21"
     },
     {
-      "book": "Mark",
-      "chapter": 12,
+      "book": "Matthew",
+      "chapter": 20,
       "verses": [
-        15
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
       ],
-      "verse_count": 1,
+      "verse_count": 13,
       "testament": "NT",
-      "raw": "Mark 12:15",
-      "source": "EAS"
+      "raw": "Matthew 20:2-14"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Luke",
+    "Mark",
+    "Matthew"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 6,
+    "ot_refs": 0,
+    "nt_refs": 6,
+    "books_count": 3,
+    "top_books": [
+      "Mark",
+      "Luke",
+      "Matthew"
+    ]
+  }
 }

@@ -1,64 +1,75 @@
 {
   "topic": "WAX",
-  "topic_slug": "wax",
+  "slug": "wax",
   "canonical_id": "NAV:wax",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–General scriptures concerningPs 22:14;68:2;97:5;Mic 1:4",
-  "content_preview": "–General scriptures concerningPs 22:14;68:2;97:5;Mic 1:4",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–General scriptures concerningPs 22:14;68:2;97:5;Mic 1:4",
-      "raw_segment": "–General scriptures concerningPs 22:14;68:2;97:5;Mic 1:4"
+      "label": "General scriptures concerning",
+      "references": [
+        "Psalms 22:14",
+        "Psalms 68:2",
+        "Psalms 97:5",
+        "Micah 1:4"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Psalms",
+      "chapter": 22,
+      "verses": [
+        14
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 22:14"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 68,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 68:2"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 97,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 97:5"
+    },
+    {
+      "book": "Micah",
+      "chapter": 1,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Micah 1:4"
+    }
+  ],
+  "books_mentioned": [
+    "Micah",
+    "Psalms"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 1,
+    "total_refs": 4,
+    "ot_refs": 4,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:06c0ccd29cde4c4aa57c44ca7fc0cf63a7af354fa2f8f4e0c777931cabc1f1a5",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 1
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 2,
+    "top_books": [
+      "Psalms",
+      "Micah"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:32:35.305868Z",
-  "updated_at": "2025-09-20T17:32:35.305876Z"
+  }
 }

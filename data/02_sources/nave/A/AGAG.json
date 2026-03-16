@@ -1,69 +1,63 @@
 {
   "topic": "AGAG",
-  "topic_slug": "agag",
+  "slug": "agag",
   "canonical_id": "NAV:agag",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–1. A king of the AmalekitesNu 24:7\n–2. A king of the Amalekites, taken prisoner by Saul, and killed \nby Samuel1Sa 15:8,33",
-  "content_preview": "–1. A king of the AmalekitesNu 24:7",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–1. A king of the AmalekitesNu 24:7",
-      "raw_segment": "–1. A king of the AmalekitesNu 24:7"
+      "label": "1. A king of the Amalekites",
+      "references": [
+        "Numbers 24:7"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–2. A king of the Amalekites, taken prisoner by Saul, and killed \nby Samuel1Sa 15:8,33",
-      "raw_segment": "–2. A king of the Amalekites, taken prisoner by Saul, and killed \nby Samuel1Sa 15:8,33"
+      "label": "2. A king of the Amalekites, taken pri",
+      "references": []
+    },
+    {
+      "label": "by Samuel",
+      "references": [
+        "1 Samuel 15:8,33"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Numbers",
+      "chapter": 24,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Numbers 24:7"
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 15,
+      "verses": [
+        8,
+        33
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "1 Samuel 15:8,33"
+    }
+  ],
+  "books_mentioned": [
+    "1 Samuel",
+    "Numbers"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 3,
+    "total_refs": 2,
+    "ot_refs": 2,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:48d1d4d30800303fba12a2daf5350dd6f8c2ed5a894bbb1768a0497b00599ebc",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 3
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 2,
+    "top_books": [
+      "Numbers",
+      "1 Samuel"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:23:20.290774Z",
-  "updated_at": "2025-09-20T17:23:20.290782Z"
+  }
 }

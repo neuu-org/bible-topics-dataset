@@ -1,46 +1,37 @@
 {
   "topic": "JABEZ",
   "slug": "jabez",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. A city of the tribe of Judah 1Ch 2:55",
-      "references": [
-        "1Chr 2:55"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "2. The head of a family 1Ch 4:9,10",
-      "references": [
-        "1Chr 4:9",
-        "1Chr 4:10"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.695217+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "1. A city of the tribe of",
+      "references": [
+        "1 Chronicles 2:55"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2. The head of a family",
+      "references": [
+        "1 Chronicles 4:9,10"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
+    {
+      "book": "1 Chronicles",
+      "chapter": 2,
+      "verses": [
+        55
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 2:55"
+    },
     {
       "book": "1 Chronicles",
       "chapter": 4,
@@ -50,19 +41,20 @@
       ],
       "verse_count": 2,
       "testament": "OT",
-      "raw": "1 Chronicles 4:9, 10",
-      "source": "EAS"
-    },
-    {
-      "book": "1 Chronicles",
-      "chapter": 2,
-      "verses": [
-        55
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "1 Chronicles 2:55",
-      "source": "EAS"
+      "raw": "1 Chronicles 4:9,10"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 2,
+    "ot_refs": 2,
+    "nt_refs": 0,
+    "books_count": 1,
+    "top_books": [
+      "1 Chronicles"
+    ]
+  }
 }

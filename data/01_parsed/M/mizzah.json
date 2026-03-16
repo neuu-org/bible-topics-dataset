@@ -1,51 +1,21 @@
 {
   "topic": "MIZZAH",
   "slug": "mizzah",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Son of Reuel Ge 36:13,17; 1Ch 1:37",
-      "references": [
-        "Gen 36:13",
-        "Gen 36:17",
-        "1Chr 1:37"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "1 Chronicles",
-      "book_abbrev": "1ch",
-      "chapter": 1,
-      "testament": "OT",
-      "verses": [
-        37
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.707316+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "General references",
+      "references": [
+        "Genesis 36:13,17",
+        "1 Chronicles 1:37"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Genesis",
       "chapter": 36,
@@ -55,8 +25,7 @@
       ],
       "verse_count": 2,
       "testament": "OT",
-      "raw": "Genesis 36:13, 17",
-      "source": "EAS"
+      "raw": "Genesis 36:13,17"
     },
     {
       "book": "1 Chronicles",
@@ -66,8 +35,22 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 1:37",
-      "source": "SMI"
+      "raw": "1 Chronicles 1:37"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Genesis"
+  ],
+  "stats": {
+    "total_aspects": 1,
+    "total_refs": 2,
+    "ot_refs": 2,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "Genesis",
+      "1 Chronicles"
+    ]
+  }
 }

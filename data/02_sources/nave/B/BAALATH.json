@@ -1,64 +1,67 @@
 {
   "topic": "BAALATH",
-  "topic_slug": "baalath",
+  "slug": "baalath",
   "canonical_id": "NAV:baalath",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–A city of the tribe of DanJos 19:44;1Ki 9:18;2Ch \n8:6",
-  "content_preview": "–A city of the tribe of DanJos 19:44;1Ki 9:18;2Ch ",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–A city of the tribe of DanJos 19:44;1Ki 9:18;2Ch \n8:6",
-      "raw_segment": "–A city of the tribe of DanJos 19:44;1Ki 9:18;2Ch \n8:6"
+      "label": "A city of the tribe of Dan",
+      "references": [
+        "Joshua 19:44",
+        "1 Kings 9:18"
+      ]
+    },
+    {
+      "label": "8:6",
+      "references": []
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Joshua",
+      "chapter": 19,
+      "verses": [
+        44
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 19:44"
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 9,
+      "verses": [
+        18
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Kings 9:18"
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 8,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Kings 8:6"
+    }
+  ],
+  "books_mentioned": [
+    "1 Kings",
+    "Joshua"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 2,
+    "total_refs": 3,
+    "ot_refs": 3,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:99f2bf89182647183829a5648358ec1bb62796504fccbfa8cb5763eb1b896514",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 2,
+    "top_books": [
+      "1 Kings",
+      "Joshua"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:24:03.627670Z",
-  "updated_at": "2025-09-20T17:24:03.627678Z"
+  }
 }

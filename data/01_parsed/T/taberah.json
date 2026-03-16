@@ -1,50 +1,26 @@
 {
   "topic": "TABERAH",
   "slug": "taberah",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "A place in the wilderness where the Israelites were punished for their complaining Nu 11:3; De 9:22",
-      "references": [
-        "Num 11:3",
-        "Deut 9:22"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Deuteronomy",
-      "book_abbrev": "deu",
-      "chapter": 9,
-      "testament": "OT",
-      "verses": [
-        22
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.728539+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "A place in the wil",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "for their complaining",
+      "references": [
+        "Numbers 11:3",
+        "Deuteronomy 9:22"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Numbers",
       "chapter": 11,
@@ -53,8 +29,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Numbers 11:3",
-      "source": "EAS"
+      "raw": "Numbers 11:3"
     },
     {
       "book": "Deuteronomy",
@@ -64,19 +39,22 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Deuteronomy 9:22",
-      "source": "EAS"
-    },
-    {
-      "book": "Numbers",
-      "chapter": 9,
-      "verses": [
-        22
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Numbers 9:22",
-      "source": "SMI"
+      "raw": "Deuteronomy 9:22"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Deuteronomy",
+    "Numbers"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 2,
+    "ot_refs": 2,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "Numbers",
+      "Deuteronomy"
+    ]
+  }
 }

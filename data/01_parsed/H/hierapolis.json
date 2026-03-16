@@ -1,55 +1,25 @@
 {
   "topic": "HIERAPOLIS",
   "slug": "hierapolis",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "A city of Phrygia",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "Christians in Col 4:13",
-      "references": [
-        "Col 4:13"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.692294+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "see_also": [],
+  "aspects": [
     {
-      "book": "Colossians",
-      "chapter": 4,
-      "verses": [
-        12,
-        13
-      ],
-      "verse_count": 2,
-      "testament": "NT",
-      "raw": "Colossians 4:12, 13",
-      "source": "EAS"
+      "label": "A city of Phrygia",
+      "references": [],
+      "source": "NAV"
     },
+    {
+      "label": "Christians in",
+      "references": [
+        "Colossians 4:13"
+      ],
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
     {
       "book": "Colossians",
       "chapter": 4,
@@ -58,8 +28,20 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Colossians 4:13",
-      "source": "SMI"
+      "raw": "Colossians 4:13"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Colossians"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 1,
+    "ot_refs": 0,
+    "nt_refs": 1,
+    "books_count": 1,
+    "top_books": [
+      "Colossians"
+    ]
+  }
 }

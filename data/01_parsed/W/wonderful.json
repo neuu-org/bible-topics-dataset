@@ -1,49 +1,68 @@
 {
   "topic": "WONDERFUL",
   "slug": "wonderful",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "A name of the Messiah Isa 9:6",
-      "references": [
-        "Isa 9:6"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "See Jud 13:18",
-      "references": [
-        "Judg 13:18"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "See JESUS, NAMES OF",
-      "references": [],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [
-    "JESUS, NAMES OF"
-  ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.733812+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
+  "see_also": [
+    "JESUS, NAMES OF"
+  ],
+  "aspects": [
+    {
+      "label": "A name of the Messiah",
+      "references": [
+        "Isaiah 9:6"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "See",
+      "references": [
+        "Judges 13:18"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeJESUS, NAMES OF",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0"
+  ],
+  "biblical_references": [
+    {
+      "book": "Isaiah",
+      "chapter": 9,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 9:6"
+    },
+    {
+      "book": "Judges",
+      "chapter": 13,
+      "verses": [
+        18
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Judges 13:18"
+    }
+  ],
+  "books_mentioned": [
+    "Isaiah",
+    "Judges"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 2,
+    "ot_refs": 2,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "Isaiah",
+      "Judges"
+    ]
+  }
 }

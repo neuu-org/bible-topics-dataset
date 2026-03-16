@@ -1,43 +1,25 @@
 {
   "topic": "PHARPAR",
   "slug": "pharpar",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "(A river of Damascus)",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "Referred to by Naaman 2Ki 5:12",
-      "references": [
-        "2Kgs 5:12"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.718048+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "(A river of Damascus)",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "Referred to by Naaman",
+      "references": [
+        "2 Kings 5:12"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "2 Kings",
       "chapter": 5,
@@ -46,19 +28,20 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Kings 5:12",
-      "source": "EAS"
-    },
-    {
-      "book": "2 Kings",
-      "chapter": 5,
-      "verses": [
-        18
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "2 Kings 5:18",
-      "source": "SMI"
+      "raw": "2 Kings 5:12"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "2 Kings"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 1,
+    "ot_refs": 1,
+    "nt_refs": 0,
+    "books_count": 1,
+    "top_books": [
+      "2 Kings"
+    ]
+  }
 }

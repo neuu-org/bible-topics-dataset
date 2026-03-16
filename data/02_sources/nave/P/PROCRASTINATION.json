@@ -1,83 +1,278 @@
 {
   "topic": "PROCRASTINATION",
-  "topic_slug": "procrastination",
+  "slug": "procrastination",
   "canonical_id": "NAV:procrastination",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "EXCUSES"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "EXCUSES",
-      "clean": "EXCUSES",
-      "slug": "excuses",
-      "canonical_id": "NAV:excuses"
-    }
-  ],
-  "raw_block": "–General scriptures concerningEx 22:29;Pr 27:1;Eze \n11:2,3;12:22,27,28;Mt 8:21;24:48-51;25:2-13;Lu 9:59-62;Ac 24:25;1Th 5:2,3;Heb 3:7-19;4:1-7\n–SeeEXCUSES\n–INSTANCES OF\n  .PharaohEx 8:10\n  .Elisha1Ki 19:20,21\n  .EstherEs 5:8",
-  "content_preview": "–General scriptures concerningEx 22:29;Pr 27:1;Eze ",
-  "reference_groups": [
-    {
-      "idx": 0,
-      "entry_label": "–General scriptures concerningEx 22:29;Pr 27:1;Eze \n11:2,3;12:22,27,28;Mt 8:21;24:48-51;25:2-13;Lu 9:59-62;Ac 24:25;1Th 5:2,3;Heb 3:7-19;4:1-7",
-      "raw_segment": "–General scriptures concerningEx 22:29;Pr 27:1;Eze \n11:2,3;12:22,27,28;Mt 8:21;24:48-51;25:2-13;Lu 9:59-62;Ac 24:25;1Th 5:2,3;Heb 3:7-19;4:1-7"
+      "label": "General scriptures concerning",
+      "references": [
+        "Exodus 22:29",
+        "Proverbs 27:1"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–SeeEXCUSES",
-      "raw_segment": "–SeeEXCUSES"
+      "label": "11:2,3;12:22,27,28;",
+      "references": [
+        "Matthew 8:21",
+        "Matthew 24:48-51",
+        "Matthew 25:2-13",
+        "Luke 9:59-62",
+        "Acts 24:25",
+        "1 Thessalonians 5:2,3",
+        "Hebrews 3:7-19",
+        "Hebrews 4:1-7"
+      ]
     },
     {
-      "idx": 2,
-      "entry_label": "–INSTANCES OF",
-      "raw_segment": "–INSTANCES OF"
+      "label": "SeeEXCUSES",
+      "references": []
+    },
+    {
+      "label": "INSTANCES OF",
+      "references": []
+    },
+    {
+      "label": ".Pharaoh",
+      "references": [
+        "Exodus 8:10"
+      ]
+    },
+    {
+      "label": ".Elisha",
+      "references": [
+        "1 Kings 19:20,21"
+      ]
+    },
+    {
+      "label": ".Esther",
+      "references": [
+        "Esther 5:8"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Exodus",
+      "chapter": 22,
+      "verses": [
+        29
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 22:29"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 27,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 27:1"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 11,
+      "verses": [
+        2,
+        3
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Proverbs 11:2,3"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 12,
+      "verses": [
+        22,
+        27,
+        28
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Proverbs 12:22,27,28"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 8,
+      "verses": [
+        21
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 8:21"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 24,
+      "verses": [
+        48,
+        49,
+        50,
+        51
+      ],
+      "verse_count": 4,
+      "testament": "NT",
+      "raw": "Matthew 24:48-51"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 25,
+      "verses": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "verse_count": 12,
+      "testament": "NT",
+      "raw": "Matthew 25:2-13"
+    },
+    {
+      "book": "Luke",
+      "chapter": 9,
+      "verses": [
+        59,
+        60,
+        61,
+        62
+      ],
+      "verse_count": 4,
+      "testament": "NT",
+      "raw": "Luke 9:59-62"
+    },
+    {
+      "book": "Acts",
+      "chapter": 24,
+      "verses": [
+        25
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 24:25"
+    },
+    {
+      "book": "1 Thessalonians",
+      "chapter": 5,
+      "verses": [
+        2,
+        3
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "1 Thessalonians 5:2,3"
+    },
+    {
+      "book": "Hebrews",
+      "chapter": 3,
+      "verses": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "verse_count": 13,
+      "testament": "NT",
+      "raw": "Hebrews 3:7-19"
+    },
+    {
+      "book": "Hebrews",
+      "chapter": 4,
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "verse_count": 7,
+      "testament": "NT",
+      "raw": "Hebrews 4:1-7"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 8,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 8:10"
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 19,
+      "verses": [
+        20,
+        21
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "1 Kings 19:20,21"
+    },
+    {
+      "book": "Esther",
+      "chapter": 5,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Esther 5:8"
+    }
+  ],
+  "books_mentioned": [
+    "1 Kings",
+    "1 Thessalonians",
+    "Acts",
+    "Esther",
+    "Exodus",
+    "Hebrews",
+    "Luke",
+    "Matthew",
+    "Proverbs"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:22e568f0b58fa1f9f676969df8fb6ef0762e2d8e9783797b0830aa8ffb4c7454",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 7
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 7,
+    "total_refs": 15,
+    "ot_refs": 7,
+    "nt_refs": 8,
+    "books_count": 9,
+    "top_books": [
+      "Proverbs",
+      "Matthew",
+      "Exodus",
+      "Hebrews",
+      "Luke",
+      "Acts",
+      "1 Thessalonians",
+      "1 Kings",
+      "Esther"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:30:18.457581Z",
-  "updated_at": "2025-09-20T17:30:18.457588Z"
+  }
 }

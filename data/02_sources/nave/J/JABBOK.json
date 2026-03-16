@@ -1,74 +1,104 @@
 {
   "topic": "JABBOK",
-  "topic_slug": "jabbok",
+  "slug": "jabbok",
   "canonical_id": "NAV:jabbok",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–A stream on the east of the Jordan River, the northern boundary \nof the possessions of the AmmonitesNu 21:24;Jud 11:13\n–Of the Reubenites and the GaditesJos 12:2;De 3:16\n–The northern boundary of the AmoritesJud 11:22",
-  "content_preview": "–A stream on the east of the Jordan River, the northern boundary ",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–A stream on the east of the Jordan River, the northern boundary \nof the possessions of the AmmonitesNu 21:24;Jud 11:13",
-      "raw_segment": "–A stream on the east of the Jordan River, the northern boundary \nof the possessions of the AmmonitesNu 21:24;Jud 11:13"
+      "label": "A stream on the east of the Jordan River, the northern boundary",
+      "references": []
     },
     {
-      "idx": 1,
-      "entry_label": "–Of the Reubenites and the GaditesJos 12:2;De 3:16",
-      "raw_segment": "–Of the Reubenites and the GaditesJos 12:2;De 3:16"
+      "label": "of the possessions of the Ammonites",
+      "references": [
+        "Numbers 21:24",
+        "Judges 11:13"
+      ]
     },
     {
-      "idx": 2,
-      "entry_label": "–The northern boundary of the AmoritesJud 11:22",
-      "raw_segment": "–The northern boundary of the AmoritesJud 11:22"
+      "label": "Of the Reubenites and the Gadites",
+      "references": [
+        "Joshua 12:2",
+        "Deuteronomy 3:16"
+      ]
+    },
+    {
+      "label": "The northern boundary of the Amorites",
+      "references": [
+        "Judges 11:22"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Numbers",
+      "chapter": 21,
+      "verses": [
+        24
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Numbers 21:24"
+    },
+    {
+      "book": "Judges",
+      "chapter": 11,
+      "verses": [
+        13
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Judges 11:13"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 12,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 12:2"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 3,
+      "verses": [
+        16
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 3:16"
+    },
+    {
+      "book": "Judges",
+      "chapter": 11,
+      "verses": [
+        22
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Judges 11:22"
+    }
+  ],
+  "books_mentioned": [
+    "Deuteronomy",
+    "Joshua",
+    "Judges",
+    "Numbers"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 4,
+    "total_refs": 5,
+    "ot_refs": 5,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:d0d3f26030569261c78cae7ced9903f767529115d57bb345a130e86932fb15c6",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 4
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 4,
+    "top_books": [
+      "Judges",
+      "Numbers",
+      "Joshua",
+      "Deuteronomy"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:27:47.133209Z",
-  "updated_at": "2025-09-20T17:27:47.133217Z"
+  }
 }

@@ -1,122 +1,173 @@
 {
   "topic": "ARREST",
-  "topic_slug": "arrest",
+  "slug": "arrest",
   "canonical_id": "NAV:arrest",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "PRISON",
     "EXTRADITION",
     "PRISONERS"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "PRISON",
-      "clean": "PRISON",
-      "slug": "prison",
-      "canonical_id": "NAV:prison"
+      "label": "Of Jesus",
+      "references": [
+        "Matthew 26:57",
+        "Mark 14:46",
+        "Luke 22:54",
+        "John 18:12"
+      ]
     },
     {
-      "original": "EXTRADITION",
-      "clean": "EXTRADITION",
-      "slug": "extradition",
-      "canonical_id": "NAV:extradition"
+      "label": "Of apostles",
+      "references": [
+        "Acts 5:17,18",
+        "Acts 6:12"
+      ]
     },
     {
-      "original": "PRISONERS",
-      "clean": "PRISONERS",
-      "slug": "prisoners",
-      "canonical_id": "NAV:prisoners"
+      "label": "Of Paul and Silas",
+      "references": [
+        "Acts 16:19"
+      ]
+    },
+    {
+      "label": "Of Paul",
+      "references": [
+        "Acts 21:30"
+      ]
+    },
+    {
+      "label": "Paul authorized to arrest Christians",
+      "references": [
+        "Acts 9:2"
+      ]
+    },
+    {
+      "label": "SeeEXTRADITION",
+      "references": []
+    },
+    {
+      "label": "SeePRI",
+      "references": []
+    },
+    {
+      "label": "SeePRI",
+      "references": []
     }
   ],
-  "raw_block": "–Of JesusMt 26:57;Mr 14:46;Lu 22:54;Joh 18:12\n–Of apostlesAc 5:17,18;6:12\n–Of Paul and SilasAc 16:19\n–Of PaulAc 21:30\n–Paul authorized to arrest ChristiansAc 9:2\n–SeeEXTRADITION\n–SeePRISON\n–SeePRISONERS",
-  "content_preview": "–Of JesusMt 26:57;Mr 14:46;Lu 22:54;Joh 18:12",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–Of JesusMt 26:57;Mr 14:46;Lu 22:54;Joh 18:12",
-      "raw_segment": "–Of JesusMt 26:57;Mr 14:46;Lu 22:54;Joh 18:12"
+      "book": "Matthew",
+      "chapter": 26,
+      "verses": [
+        57
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 26:57"
     },
     {
-      "idx": 1,
-      "entry_label": "–Of apostlesAc 5:17,18;6:12",
-      "raw_segment": "–Of apostlesAc 5:17,18;6:12"
+      "book": "Mark",
+      "chapter": 14,
+      "verses": [
+        46
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Mark 14:46"
     },
     {
-      "idx": 2,
-      "entry_label": "–Of Paul and SilasAc 16:19",
-      "raw_segment": "–Of Paul and SilasAc 16:19"
+      "book": "Luke",
+      "chapter": 22,
+      "verses": [
+        54
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 22:54"
     },
     {
-      "idx": 3,
-      "entry_label": "–Of PaulAc 21:30",
-      "raw_segment": "–Of PaulAc 21:30"
+      "book": "John",
+      "chapter": 18,
+      "verses": [
+        12
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "John 18:12"
     },
     {
-      "idx": 4,
-      "entry_label": "–Paul authorized to arrest ChristiansAc 9:2",
-      "raw_segment": "–Paul authorized to arrest ChristiansAc 9:2"
+      "book": "Acts",
+      "chapter": 5,
+      "verses": [
+        17,
+        18
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Acts 5:17,18"
     },
     {
-      "idx": 5,
-      "entry_label": "–SeeEXTRADITION",
-      "raw_segment": "–SeeEXTRADITION"
+      "book": "Acts",
+      "chapter": 6,
+      "verses": [
+        12
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 6:12"
     },
     {
-      "idx": 6,
-      "entry_label": "–SeePRISON",
-      "raw_segment": "–SeePRISON"
+      "book": "Acts",
+      "chapter": 16,
+      "verses": [
+        19
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 16:19"
     },
     {
-      "idx": 7,
-      "entry_label": "–SeePRISONERS",
-      "raw_segment": "–SeePRISONERS"
+      "book": "Acts",
+      "chapter": 21,
+      "verses": [
+        30
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 21:30"
+    },
+    {
+      "book": "Acts",
+      "chapter": 9,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 9:2"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "Acts",
+    "John",
+    "Luke",
+    "Mark",
+    "Matthew"
+  ],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 8,
+    "total_refs": 9,
     "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:1c06e7d618ee3c463562c226cfd7d4efe6e289e8c6aa2038a3180ac3e179af7f",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 8
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "nt_refs": 9,
+    "books_count": 5,
+    "top_books": [
+      "Acts",
+      "Matthew",
+      "Mark",
+      "Luke",
+      "John"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:23:48.828735Z",
-  "updated_at": "2025-09-20T17:23:48.828742Z"
+  }
 }

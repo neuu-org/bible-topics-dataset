@@ -1,65 +1,76 @@
 {
   "topic": "GABA",
   "slug": "gaba",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "Also called GEBA",
+      "label": "Al",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "A city of Canaan allotted to Benjamin Jos 18:24; Ezr 2:26; Ne 7:30",
+      "label": "A city of",
       "references": [
-        "Josh 18:24",
-        "Ezra 2:26",
-        "Neh 7:30"
+        "Joshua 18:24"
       ],
-      "sub_groups": []
+      "source": "NAV"
+    },
+    {
+      "label": "2:26;",
+      "references": [
+        "Nehemiah 7:30"
+      ],
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Ezra",
-      "book_abbrev": "ezr",
-      "chapter": 2,
+      "book": "Joshua",
+      "chapter": 18,
+      "verses": [
+        24
+      ],
+      "verse_count": 1,
       "testament": "OT",
+      "raw": "Joshua 18:24"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 2,
       "verses": [
         26
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 2:26"
     },
     {
       "book": "Nehemiah",
-      "book_abbrev": "neh",
       "chapter": 7,
-      "testament": "OT",
       "verses": [
         30
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Nehemiah 7:30"
     }
   ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 2,
-    "nt_refs": 0,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
+  "books_mentioned": [
+    "Joshua",
+    "Nehemiah"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.687593+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    },
-    "enriched_at": "2025-12-02T22:02:10.300612+00:00",
-    "enrichment_source": "pipeline_merge"
-  },
-  "version": "3.0.0"
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 3,
+    "ot_refs": 3,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "Joshua",
+      "Nehemiah"
+    ]
+  }
 }

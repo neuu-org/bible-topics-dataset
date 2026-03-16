@@ -1,60 +1,93 @@
 {
   "topic": "AJAH",
   "slug": "ajah",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "Also called AIAH",
+      "label": "Al",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "1. A Horite Ge 36:24; 1Ch 1:40",
+      "label": "1. A Horite",
       "references": [
-        "Gen 36:24",
-        "1Chr 1:40"
+        "Genesis 36:24",
+        "1 Chronicles 1:40"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "2. Father of Rizpah 2Sa 3:7; 21:8-11",
+      "label": "2. Father of Rizpah",
       "references": [
-        "2Sam 3:7",
-        "2Sam 21:8-11"
+        "2 Samuel 3:7",
+        "2 Samuel 21:8-11"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "1 Chronicles",
-      "book_abbrev": "1ch",
-      "chapter": 1,
+      "book": "Genesis",
+      "chapter": 36,
+      "verses": [
+        24
+      ],
+      "verse_count": 1,
       "testament": "OT",
+      "raw": "Genesis 36:24"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 1,
       "verses": [
         40
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 1:40"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 3,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Samuel 3:7"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 21,
+      "verses": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "verse_count": 4,
+      "testament": "OT",
+      "raw": "2 Samuel 21:8-11"
     }
   ],
-  "see_also": [],
-  "aliases": [],
+  "books_mentioned": [
+    "1 Chronicles",
+    "2 Samuel",
+    "Genesis"
+  ],
   "stats": {
-    "entries_count": 3,
-    "ot_refs": 1,
+    "total_aspects": 3,
+    "total_refs": 4,
+    "ot_refs": 4,
     "nt_refs": 0,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.662333+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    }
-  },
-  "version": "3.0.0"
+    "books_count": 3,
+    "top_books": [
+      "2 Samuel",
+      "Genesis",
+      "1 Chronicles"
+    ]
+  }
 }

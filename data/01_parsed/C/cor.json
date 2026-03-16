@@ -1,89 +1,44 @@
 {
   "topic": "COR",
   "slug": "cor",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "A measure for liquids and solids, containing ten ephahs, or baths, and equal to the homer Eze 45:14",
-      "references": [
-        "Ezek 45:14"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Rendered measure in 1Ki 4:22; 5:11; 2Ch 2:10; 27:5; Ezr 7:22; Lu 16:7",
-      "references": [
-        "1Kgs 4:22",
-        "1Kgs 5:11",
-        "2Chr 2:10",
-        "2Chr 27:5",
-        "Ezra 7:22",
-        "Luke 16:7"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "See MEASURES",
-      "references": [],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "2 Chronicles",
-      "book_abbrev": "2ch",
-      "chapter": 2,
-      "testament": "OT",
-      "verses": [
-        10,
-        27
-      ],
-      "verse_count": 2
-    },
-    {
-      "book": "Ezra",
-      "book_abbrev": "ezr",
-      "chapter": 7,
-      "testament": "OT",
-      "verses": [
-        22
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Luke",
-      "book_abbrev": "luk",
-      "chapter": 16,
-      "testament": "NT",
-      "verses": [
-        7
-      ],
-      "verse_count": 1
-    }
+  "sources": [
+    "NAV"
   ],
   "see_also": [
     "MEASURES"
   ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 2,
-    "nt_refs": 1,
-    "total_verses": 3
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.679325+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "aspects": [
+    {
+      "label": "A measure for liquids and",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "and equal to the homer",
+      "references": [
+        "Ezekiel 45:14"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Ren",
+      "references": [
+        "1 Kings 4:22",
+        "1 Kings 5:11",
+        "2 Chronicles 2:10",
+        "2 Chronicles 27:5",
+        "Ezra 7:22",
+        "Luke 16:7"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeMEASURES",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Ezekiel",
       "chapter": 45,
@@ -92,8 +47,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Ezekiel 45:14",
-      "source": "EAS"
+      "raw": "Ezekiel 45:14"
     },
     {
       "book": "1 Kings",
@@ -103,8 +57,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Kings 4:22",
-      "source": "EAS"
+      "raw": "1 Kings 4:22"
     },
     {
       "book": "1 Kings",
@@ -114,8 +67,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Kings 5:11",
-      "source": "EAS"
+      "raw": "1 Kings 5:11"
     },
     {
       "book": "2 Chronicles",
@@ -125,8 +77,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Chronicles 2:10",
-      "source": "EAS"
+      "raw": "2 Chronicles 2:10"
     },
     {
       "book": "2 Chronicles",
@@ -136,8 +87,48 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Chronicles 27:5",
-      "source": "EAS"
+      "raw": "2 Chronicles 27:5"
+    },
+    {
+      "book": "Ezra",
+      "chapter": 7,
+      "verses": [
+        22
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezra 7:22"
+    },
+    {
+      "book": "Luke",
+      "chapter": 16,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 16:7"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Kings",
+    "2 Chronicles",
+    "Ezekiel",
+    "Ezra",
+    "Luke"
+  ],
+  "stats": {
+    "total_aspects": 4,
+    "total_refs": 7,
+    "ot_refs": 6,
+    "nt_refs": 1,
+    "books_count": 5,
+    "top_books": [
+      "1 Kings",
+      "2 Chronicles",
+      "Ezekiel",
+      "Ezra",
+      "Luke"
+    ]
+  }
 }

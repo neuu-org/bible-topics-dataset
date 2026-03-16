@@ -1,66 +1,35 @@
 {
   "topic": "BECHER",
   "slug": "becher",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. Son of Benjamin Ge 46:21; 1Ch 7:6,8",
-      "references": [
-        "Gen 46:21",
-        "1Chr 7:6",
-        "1Chr 7:8"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "2. Son of Ephraim Nu 26:35",
-      "references": [
-        "Num 26:35"
-      ],
-      "sub_groups": [
-        {
-          "name": "Called BERED 1Ch 7:20",
-          "references": [
-            "1Chr 7:20"
-          ]
-        }
-      ]
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "1 Chronicles",
-      "book_abbrev": "1ch",
-      "chapter": 7,
-      "testament": "OT",
-      "verses": [
-        6,
-        8
-      ],
-      "verse_count": 2
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.672703+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "1.",
+      "references": [
+        "Genesis 46:21",
+        "1 Chronicles 7:6,8"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2.",
+      "references": [
+        "Numbers 26:35"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".",
+      "references": [
+        "1 Chronicles 7:20"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Genesis",
       "chapter": 46,
@@ -69,8 +38,18 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 46:21",
-      "source": "EAS"
+      "raw": "Genesis 46:21"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 7,
+      "verses": [
+        6,
+        8
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "1 Chronicles 7:6,8"
     },
     {
       "book": "Numbers",
@@ -80,31 +59,34 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Numbers 26:35",
-      "source": "EAS"
+      "raw": "Numbers 26:35"
     },
     {
       "book": "1 Chronicles",
       "chapter": 7,
       "verses": [
-        20,
-        21
-      ],
-      "verse_count": 2,
-      "testament": "OT",
-      "raw": "1 Chronicles 7:20, 21",
-      "source": "EAS"
-    },
-    {
-      "book": "Numbers",
-      "chapter": 26,
-      "verses": [
-        38
+        20
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Numbers 26:38",
-      "source": "EAS"
+      "raw": "1 Chronicles 7:20"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Genesis",
+    "Numbers"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 4,
+    "ot_refs": 4,
+    "nt_refs": 0,
+    "books_count": 3,
+    "top_books": [
+      "1 Chronicles",
+      "Genesis",
+      "Numbers"
+    ]
+  }
 }

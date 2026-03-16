@@ -1,48 +1,40 @@
 {
   "topic": "ZILPAH",
   "slug": "zilpah",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Leah’ s handmaiden Ge 29:24",
-      "references": [
-        "Gen 29:24"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Mother of Gad and Asher by Jacob Ge 30:9-13; 35:26; 37:2; 46:18",
-      "references": [
-        "Gen 30:9-13",
-        "Gen 35:26",
-        "Gen 37:2",
-        "Gen 46:18"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.735141+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "Leah’ s handmai",
+      "references": [
+        "Genesis 29:24"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Mother of Gad and Asher by Jacob",
+      "references": [
+        "Genesis 30:9-13",
+        "Genesis 35:26",
+        "Genesis 37:2",
+        "Genesis 46:18"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
+    {
+      "book": "Genesis",
+      "chapter": 29,
+      "verses": [
+        24
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 29:24"
+    },
     {
       "book": "Genesis",
       "chapter": 30,
@@ -55,19 +47,7 @@
       ],
       "verse_count": 5,
       "testament": "OT",
-      "raw": "Genesis 30:9-13",
-      "source": "EAS"
-    },
-    {
-      "book": "Genesis",
-      "chapter": 29,
-      "verses": [
-        24
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Genesis 29:24",
-      "source": "SMI"
+      "raw": "Genesis 30:9-13"
     },
     {
       "book": "Genesis",
@@ -77,8 +57,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 35:26",
-      "source": "SMI"
+      "raw": "Genesis 35:26"
     },
     {
       "book": "Genesis",
@@ -88,8 +67,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 37:2",
-      "source": "SMI"
+      "raw": "Genesis 37:2"
     },
     {
       "book": "Genesis",
@@ -99,8 +77,20 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 46:18",
-      "source": "SMI"
+      "raw": "Genesis 46:18"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Genesis"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 5,
+    "ot_refs": 5,
+    "nt_refs": 0,
+    "books_count": 1,
+    "top_books": [
+      "Genesis"
+    ]
+  }
 }

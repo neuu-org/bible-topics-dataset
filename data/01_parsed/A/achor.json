@@ -1,73 +1,46 @@
 {
   "topic": "ACHOR",
   "slug": "achor",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "A valley near Jericho Jos 7:26; 15:7; Isa 65:10; Ho 2:15",
+      "label": "A valley near",
       "references": [
-        "Josh 7:26",
-        "Josh 15:7",
-        "Isa 65:10",
-        "Hos 2:15"
+        "Joshua 7:26",
+        "Joshua 15:7",
+        "Isaiah 65:10"
       ],
-      "sub_groups": []
+      "source": "NAV"
+    },
+    {
+      "label": "2:15",
+      "references": [],
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Isaiah",
-      "book_abbrev": "isa",
-      "chapter": 65,
-      "testament": "OT",
-      "verses": [
-        10
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Hosea",
-      "book_abbrev": "hos",
-      "chapter": 2,
-      "testament": "OT",
-      "verses": [
-        15
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 2,
-    "nt_refs": 0,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.660989+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
       "book": "Joshua",
       "chapter": 7,
       "verses": [
-        24,
         26
       ],
-      "verse_count": 2,
+      "verse_count": 1,
       "testament": "OT",
-      "raw": "Joshua 7:24, 26",
-      "source": "EAS"
+      "raw": "Joshua 7:26"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 15,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 15:7"
     },
     {
       "book": "Isaiah",
@@ -77,19 +50,32 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Isaiah 65:10",
-      "source": "EAS"
+      "raw": "Isaiah 65:10"
     },
     {
-      "book": "Hosea",
+      "book": "Isaiah",
       "chapter": 2,
       "verses": [
         15
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Hosea 2:15",
-      "source": "EAS"
+      "raw": "Isaiah 2:15"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Isaiah",
+    "Joshua"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 4,
+    "ot_refs": 4,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "Joshua",
+      "Isaiah"
+    ]
+  }
 }

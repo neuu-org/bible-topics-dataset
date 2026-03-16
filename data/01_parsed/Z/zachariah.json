@@ -1,59 +1,40 @@
 {
   "topic": "ZACHARIAH",
   "slug": "zachariah",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "1. Son of Jeroboam, and the last of the household of Jehu 2Ki 10:30; 14:29; 15:8-12",
+      "label": "1.",
       "references": [
-        "2Kgs 10:30",
-        "2Kgs 14:29",
-        "2Kgs 15:8-12"
+        "2 Kings 10:30",
+        "2 Kings 14:29",
+        "2 Kings 15:8-12"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "2. Grandfather of Hezekiah 2Ki 18:2; 2Ch 29:1",
+      "label": "2. Grandfather of Hezekiah",
       "references": [
-        "2Kgs 18:2",
-        "2Chr 29:1"
+        "2 Kings 18:2",
+        "2 Chronicles 29:1"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "2 Chronicles",
-      "book_abbrev": "2ch",
-      "chapter": 29,
-      "testament": "OT",
+      "book": "2 Kings",
+      "chapter": 10,
       "verses": [
-        1
+        30
       ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.734174+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Kings 10:30"
+    },
     {
       "book": "2 Kings",
       "chapter": 14,
@@ -62,8 +43,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Kings 14:29",
-      "source": "EAS"
+      "raw": "2 Kings 14:29"
     },
     {
       "book": "2 Kings",
@@ -77,8 +57,7 @@
       ],
       "verse_count": 5,
       "testament": "OT",
-      "raw": "2 Kings 15:8-12",
-      "source": "EAS"
+      "raw": "2 Kings 15:8-12"
     },
     {
       "book": "2 Kings",
@@ -88,8 +67,32 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Kings 18:2",
-      "source": "EAS"
+      "raw": "2 Kings 18:2"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 29,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Chronicles 29:1"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "2 Chronicles",
+    "2 Kings"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 5,
+    "ot_refs": 5,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "2 Kings",
+      "2 Chronicles"
+    ]
+  }
 }

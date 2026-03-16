@@ -1,40 +1,20 @@
 {
   "topic": "ESHEAN",
   "slug": "eshean",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "A city in Judah Jos 15:52",
-      "references": [
-        "Josh 15:52"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.685131+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    },
-    "enriched_at": "2025-12-02T22:02:09.951775+00:00",
-    "enrichment_source": "pipeline_merge"
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "A city in",
+      "references": [
+        "Joshua 15:52"
+      ],
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
     {
       "book": "Joshua",
       "chapter": 15,
@@ -43,8 +23,20 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Joshua 15:52",
-      "source": "EAS"
+      "raw": "Joshua 15:52"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Joshua"
+  ],
+  "stats": {
+    "total_aspects": 1,
+    "total_refs": 1,
+    "ot_refs": 1,
+    "nt_refs": 0,
+    "books_count": 1,
+    "top_books": [
+      "Joshua"
+    ]
+  }
 }

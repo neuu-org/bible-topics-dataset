@@ -1,84 +1,151 @@
 {
   "topic": "LEAH",
-  "topic_slug": "leah",
+  "slug": "leah",
   "canonical_id": "NAV:leah",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–The older daughter of LabanGe 29:16\n–Married to JacobGe 29:23-26\n–Children ofGe 29:31-35;30:9-13,17-21\n–Flees with JacobGe 31:4,14,17;33:2-7\n–“The builder of the house of Israel,”Ru 4:11",
-  "content_preview": "–The older daughter of LabanGe 29:16",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–The older daughter of LabanGe 29:16",
-      "raw_segment": "–The older daughter of LabanGe 29:16"
+      "label": "The ol",
+      "references": [
+        "Genesis 29:16"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–Married to JacobGe 29:23-26",
-      "raw_segment": "–Married to JacobGe 29:23-26"
+      "label": "Married to Jacob",
+      "references": [
+        "Genesis 29:23-26"
+      ]
     },
     {
-      "idx": 2,
-      "entry_label": "–Children ofGe 29:31-35;30:9-13,17-21",
-      "raw_segment": "–Children ofGe 29:31-35;30:9-13,17-21"
+      "label": "Children of",
+      "references": [
+        "Genesis 29:31-35",
+        "Genesis 30:9-13,17-21"
+      ]
     },
     {
-      "idx": 3,
-      "entry_label": "–Flees with JacobGe 31:4,14,17;33:2-7",
-      "raw_segment": "–Flees with JacobGe 31:4,14,17;33:2-7"
+      "label": "Flees with Jacob",
+      "references": [
+        "Genesis 31:4,14,17",
+        "Genesis 33:2-7"
+      ]
     },
     {
-      "idx": 4,
-      "entry_label": "–“The builder of the house of Israel,”Ru 4:11",
-      "raw_segment": "–“The builder of the house of Israel,”Ru 4:11"
+      "label": "“The buil",
+      "references": [
+        "Ruth 4:11"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Genesis",
+      "chapter": 29,
+      "verses": [
+        16
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 29:16"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 29,
+      "verses": [
+        23,
+        24,
+        25,
+        26
+      ],
+      "verse_count": 4,
+      "testament": "OT",
+      "raw": "Genesis 29:23-26"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 29,
+      "verses": [
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "verse_count": 5,
+      "testament": "OT",
+      "raw": "Genesis 29:31-35"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 30,
+      "verses": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "verse_count": 10,
+      "testament": "OT",
+      "raw": "Genesis 30:9-13,17-21"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 31,
+      "verses": [
+        4,
+        14,
+        17
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Genesis 31:4,14,17"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 33,
+      "verses": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "verse_count": 6,
+      "testament": "OT",
+      "raw": "Genesis 33:2-7"
+    },
+    {
+      "book": "Ruth",
+      "chapter": 4,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ruth 4:11"
+    }
+  ],
+  "books_mentioned": [
+    "Genesis",
+    "Ruth"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 5,
+    "total_refs": 7,
+    "ot_refs": 7,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:6455435e4184f2a6029ff4cde55fd78cee737f149e39cd05d54b433817350b34",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 5
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 2,
+    "top_books": [
+      "Genesis",
+      "Ruth"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:28:31.404068Z",
-  "updated_at": "2025-09-20T17:28:31.404077Z"
+  }
 }

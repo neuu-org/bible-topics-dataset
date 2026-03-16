@@ -1,89 +1,463 @@
 {
   "topic": "MARY",
-  "topic_slug": "mary",
+  "slug": "mary",
   "canonical_id": "NAV:mary",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–1. The mother of JesusMt 1:16;Lu 1:26-38;2:5-19\n  .Visits her cousin, ElisabethLu 1:39-56\n  .Attends the feast at Jerusalem with her husband and her son, \nstarts back on the return, misses Jesus, seeks and finds him in the temple areaLu 2:48-51\n  .Is present with Jesus at a marriage feast in Cana of GalileeJoh 2:1-10\n  .Seeks Jesus when he is teaching in a houseMt 12:46,47;Mr 3:31;Lu 8:19\n  .Present at the crossJoh 19:25-27\n  .Is committed to the care of JohnJoh 19:27\n  .Lives with the disciples in JerusalemAc 1:14\n  .Prophecies concerningIsa 7:14;Lu 2:35\n–2. Magdalene\n  .Possessed of devils, delivered by JesusMr 16:9;Lu \n8:2,3\n  .Present at the crucifixionMt 27:56;Mr 15:40;Joh \n20:1,11-13\n  .Recognizes Jesus after the resurrectionMt 28:8-10;Mr 16:9;Joh 20:14-18\n–3. Sister of Mary the mother of Jesus, and wife of CleophasJoh 19:25\n  .Mother of James and JosesMt 27:56;Mr 15:40;Joh 19:25\n  .At the gravesite of JesusMt 27:61;Mr 15:47\n  .Assists in preparing the corpse of Jesus for burial",
-  "content_preview": "–1. The mother of JesusMt 1:16;Lu 1:26-38;2:5-19",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–1. The mother of JesusMt 1:16;Lu 1:26-38;2:5-19",
-      "raw_segment": "–1. The mother of JesusMt 1:16;Lu 1:26-38;2:5-19"
+      "label": "1. The mother of Jesus",
+      "references": [
+        "Matthew 1:16",
+        "Luke 1:26-38",
+        "Luke 2:5-19"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–2. Magdalene",
-      "raw_segment": "–2. Magdalene"
+      "label": ".Visits her cousin, El",
+      "references": [
+        "Luke 1:39-56"
+      ]
     },
     {
-      "idx": 2,
-      "entry_label": "–3. Sister of Mary the mother of Jesus, and wife of CleophasJoh 19:25",
-      "raw_segment": "–3. Sister of Mary the mother of Jesus, and wife of CleophasJoh 19:25"
+      "label": ".Attends the feast at",
+      "references": []
     },
     {
-      "idx": 3,
-      "entry_label": "–4. Sister of Lazarus",
-      "raw_segment": "–4. Sister of Lazarus"
+      "label": "starts back on the return, misses Jesus, seeks and finds him in the temple area",
+      "references": [
+        "Luke 2:48-51"
+      ]
     },
     {
-      "idx": 4,
-      "entry_label": "–5. Mother of Mark and sister of BarnabasAc 12:12;Col 4:10",
-      "raw_segment": "–5. Mother of Mark and sister of BarnabasAc 12:12;Col 4:10"
+      "label": ".Is present with Jesus at a marriage feast in",
+      "references": [
+        "John 2:1-10"
+      ]
     },
     {
-      "idx": 5,
-      "entry_label": "–6. A Christian woman in RomeRo 16:6",
-      "raw_segment": "–6. A Christian woman in RomeRo 16:6"
+      "label": ".Seeks Jesus when he is teaching in a house",
+      "references": [
+        "Matthew 12:46,47",
+        "Mark 3:31",
+        "Luke 8:19"
+      ]
+    },
+    {
+      "label": ".Present at the cross",
+      "references": [
+        "John 19:25-27"
+      ]
+    },
+    {
+      "label": ".Is committed to the",
+      "references": [
+        "John 19:27"
+      ]
+    },
+    {
+      "label": ".Lives with the disciples in",
+      "references": [
+        "Acts 1:14"
+      ]
+    },
+    {
+      "label": ".Prophecies concerning",
+      "references": [
+        "Isaiah 7:14",
+        "Luke 2:35"
+      ]
+    },
+    {
+      "label": "2. Magdalene",
+      "references": []
+    },
+    {
+      "label": ".Possessed of",
+      "references": [
+        "Mark 16:9"
+      ]
+    },
+    {
+      "label": "8:2,3",
+      "references": []
+    },
+    {
+      "label": ".Present at the crucifixion",
+      "references": [
+        "Matthew 27:56",
+        "Mark 15:40"
+      ]
+    },
+    {
+      "label": "20:1,11-13",
+      "references": []
+    },
+    {
+      "label": ".Recognizes Jesus after the resurrection",
+      "references": [
+        "Matthew 28:8-10",
+        "Mark 16:9",
+        "John 20:14-18"
+      ]
+    },
+    {
+      "label": "3. Sister of Mary the mother of Jesus, and wife of Cleophas",
+      "references": [
+        "John 19:25"
+      ]
+    },
+    {
+      "label": ".Mother of James and Joses",
+      "references": [
+        "Matthew 27:56",
+        "Mark 15:40",
+        "John 19:25"
+      ]
+    },
+    {
+      "label": ".At the gravesite of Jesus",
+      "references": [
+        "Matthew 27:61",
+        "Mark 15:47"
+      ]
+    },
+    {
+      "label": ".Assists in preparing the corpse of Jesus for burial",
+      "references": []
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Matthew",
+      "chapter": 1,
+      "verses": [
+        16
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 1:16"
+    },
+    {
+      "book": "Luke",
+      "chapter": 1,
+      "verses": [
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38
+      ],
+      "verse_count": 13,
+      "testament": "NT",
+      "raw": "Luke 1:26-38"
+    },
+    {
+      "book": "Luke",
+      "chapter": 2,
+      "verses": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "verse_count": 15,
+      "testament": "NT",
+      "raw": "Luke 2:5-19"
+    },
+    {
+      "book": "Luke",
+      "chapter": 1,
+      "verses": [
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56
+      ],
+      "verse_count": 18,
+      "testament": "NT",
+      "raw": "Luke 1:39-56"
+    },
+    {
+      "book": "Luke",
+      "chapter": 2,
+      "verses": [
+        48,
+        49,
+        50,
+        51
+      ],
+      "verse_count": 4,
+      "testament": "NT",
+      "raw": "Luke 2:48-51"
+    },
+    {
+      "book": "John",
+      "chapter": 2,
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "verse_count": 10,
+      "testament": "NT",
+      "raw": "John 2:1-10"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 12,
+      "verses": [
+        46,
+        47
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Matthew 12:46,47"
+    },
+    {
+      "book": "Mark",
+      "chapter": 3,
+      "verses": [
+        31
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Mark 3:31"
+    },
+    {
+      "book": "Luke",
+      "chapter": 8,
+      "verses": [
+        19
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 8:19"
+    },
+    {
+      "book": "John",
+      "chapter": 19,
+      "verses": [
+        25,
+        26,
+        27
+      ],
+      "verse_count": 3,
+      "testament": "NT",
+      "raw": "John 19:25-27"
+    },
+    {
+      "book": "John",
+      "chapter": 19,
+      "verses": [
+        27
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "John 19:27"
+    },
+    {
+      "book": "Acts",
+      "chapter": 1,
+      "verses": [
+        14
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 1:14"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 7,
+      "verses": [
+        14
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 7:14"
+    },
+    {
+      "book": "Luke",
+      "chapter": 2,
+      "verses": [
+        35
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 2:35"
+    },
+    {
+      "book": "Mark",
+      "chapter": 16,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Mark 16:9"
+    },
+    {
+      "book": "Mark",
+      "chapter": 8,
+      "verses": [
+        2,
+        3
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Mark 8:2,3"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 27,
+      "verses": [
+        56
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 27:56"
+    },
+    {
+      "book": "Mark",
+      "chapter": 15,
+      "verses": [
+        40
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Mark 15:40"
+    },
+    {
+      "book": "Mark",
+      "chapter": 20,
+      "verses": [
+        1,
+        11,
+        12,
+        13
+      ],
+      "verse_count": 4,
+      "testament": "NT",
+      "raw": "Mark 20:1,11-13"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 28,
+      "verses": [
+        8,
+        9,
+        10
+      ],
+      "verse_count": 3,
+      "testament": "NT",
+      "raw": "Matthew 28:8-10"
+    },
+    {
+      "book": "John",
+      "chapter": 20,
+      "verses": [
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "verse_count": 5,
+      "testament": "NT",
+      "raw": "John 20:14-18"
+    },
+    {
+      "book": "John",
+      "chapter": 19,
+      "verses": [
+        25
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "John 19:25"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 27,
+      "verses": [
+        61
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 27:61"
+    },
+    {
+      "book": "Mark",
+      "chapter": 15,
+      "verses": [
+        47
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Mark 15:47"
+    }
+  ],
+  "books_mentioned": [
+    "Acts",
+    "Isaiah",
+    "John",
+    "Luke",
+    "Mark",
+    "Matthew"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:835d4c41b4e791546b911e441c156b901de98229095dfc9d717bc710b82877e9",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 27
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 20,
+    "total_refs": 24,
+    "ot_refs": 1,
+    "nt_refs": 23,
+    "books_count": 6,
+    "top_books": [
+      "Luke",
+      "Mark",
+      "Matthew",
+      "John",
+      "Acts",
+      "Isaiah"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:28:53.475575Z",
-  "updated_at": "2025-09-20T17:28:53.475583Z"
+  }
 }

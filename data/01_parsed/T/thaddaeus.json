@@ -1,61 +1,21 @@
 {
   "topic": "THADDAEUS",
   "slug": "thaddaeus",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "One of the twelve apostles Mt 10:3; Mr 3:18",
-      "references": [
-        "Matt 10:3",
-        "Mark 3:18"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Mark",
-      "book_abbrev": "mrk",
-      "chapter": 3,
-      "testament": "NT",
-      "verses": [
-        18
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 1,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.729620+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "see_also": [],
+  "aspects": [
     {
-      "book": "Mark",
-      "chapter": 3,
-      "verses": [
-        18
+      "label": "One of the twelve apostles",
+      "references": [
+        "Matthew 10:3",
+        "Mark 3:18"
       ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Mark 3:18",
-      "source": "EAS"
-    },
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
     {
       "book": "Matthew",
       "chapter": 10,
@@ -64,30 +24,32 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Matthew 10:3",
-      "source": "EAS"
+      "raw": "Matthew 10:3"
     },
     {
-      "book": "Luke",
-      "chapter": 6,
+      "book": "Mark",
+      "chapter": 3,
       "verses": [
-        16
+        18
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Luke 6:16",
-      "source": "EAS"
-    },
-    {
-      "book": "Luke",
-      "chapter": 14,
-      "verses": [
-        22
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Luke 14:22",
-      "source": "EAS"
+      "raw": "Mark 3:18"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Mark",
+    "Matthew"
+  ],
+  "stats": {
+    "total_aspects": 1,
+    "total_refs": 2,
+    "ot_refs": 0,
+    "nt_refs": 2,
+    "books_count": 2,
+    "top_books": [
+      "Matthew",
+      "Mark"
+    ]
+  }
 }

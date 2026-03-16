@@ -1,99 +1,327 @@
 {
   "topic": "REMORSE",
-  "topic_slug": "remorse",
+  "slug": "remorse",
   "canonical_id": "NAV:remorse",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "PENITENTS",
     "SIN, CONFESSION OF",
     "CONVICTION, OF SIN",
     "REPENTANCE"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "PENITENTS",
-      "clean": "PENITENTS",
-      "slug": "penitents",
-      "canonical_id": "NAV:penitents"
+      "label": "General scriptures concerning",
+      "references": [
+        "Psalms 31:10",
+        "Psalms 38:2-6",
+        "Psalms 51:1-4,7-17",
+        "Proverbs 1:25-27",
+        "Proverbs 5:7-13",
+        "Proverbs 28:1",
+        "Isaiah 2:19,21",
+        "Isaiah 6:5",
+        "Isaiah 48:22",
+        "Isaiah 57:20,21",
+        "Lamentations 1:20",
+        "Ezekiel 7:16-18,25,26",
+        "Ezekiel 33:10",
+        "Luke 13:28",
+        "Acts 2:37",
+        "Acts 9:6",
+        "Job 3:20"
+      ]
     },
     {
-      "original": "SIN, CONFESSION OF",
-      "clean": "SIN, CONFESSION OF",
-      "slug": "sin__confession_of",
-      "canonical_id": "NAV:sin__confession_of"
+      "label": "INSTANCES OF",
+      "references": []
     },
     {
-      "original": "CONVICTION, OF SIN",
-      "clean": "CONVICTION, OF SIN",
-      "slug": "conviction__of_sin",
-      "canonical_id": "NAV:conviction__of_sin"
+      "label": ".DavidPs 51",
+      "references": []
     },
     {
-      "original": "REPENTANCE",
-      "clean": "REPENTANCE",
-      "slug": "repentance",
-      "canonical_id": "NAV:repentance"
+      "label": ".Peter",
+      "references": [
+        "Matthew 26:75"
+      ]
+    },
+    {
+      "label": ".",
+      "references": [
+        "Matthew 27:3-5"
+      ]
+    },
+    {
+      "label": ".SeeCONVICTION, OF SIN",
+      "references": []
+    },
+    {
+      "label": ".SeePENITENTS",
+      "references": []
+    },
+    {
+      "label": ".SeeREPENTANCE",
+      "references": []
+    },
+    {
+      "label": ".SeeSIN, CONFESSION OF",
+      "references": []
     }
   ],
-  "raw_block": "–General scriptures concerningPs 31:10;38:2-6;51:1-4,7-17;Pr 1:25-27;5:7-13;28:1;Isa 2:19,21;6:5;48:22;57:20,21;La 1:20;Eze 7:16-18,25,26;33:10;Lu 13:28;Ac 2:37;9:6;1Jo  3:20\n–INSTANCES OF\n  .DavidPs 51\n  .PeterMt 26:75\n  .JudasMt 27:3-5\n  .SeeCONVICTION, OF SIN\n  .SeePENITENTS\n  .SeeREPENTANCE\n  .SeeSIN, CONFESSION OF",
-  "content_preview": "–General scriptures concerningPs 31:10;38:2-6;51:1-4,7-17;Pr 1:25-27;5:7-13;28:1;Isa 2:19,21;6:5;48:...",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–General scriptures concerningPs 31:10;38:2-6;51:1-4,7-17;Pr 1:25-27;5:7-13;28:1;Isa 2:19,21;6:5;48:22;57:20,21;La 1:20;Eze 7:16-18,25,26;33:10;Lu 13:28;Ac 2:37;9:6;1Jo  3:20",
-      "raw_segment": "–General scriptures concerningPs 31:10;38:2-6;51:1-4,7-17;Pr 1:25-27;5:7-13;28:1;Isa 2:19,21;6:5;48:22;57:20,21;La 1:20;Eze 7:16-18,25,26;33:10;Lu 13:28;Ac 2:37;9:6;1Jo  3:20"
+      "book": "Psalms",
+      "chapter": 31,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 31:10"
     },
     {
-      "idx": 1,
-      "entry_label": "–INSTANCES OF",
-      "raw_segment": "–INSTANCES OF"
+      "book": "Psalms",
+      "chapter": 38,
+      "verses": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "verse_count": 5,
+      "testament": "OT",
+      "raw": "Psalms 38:2-6"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 51,
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "verse_count": 15,
+      "testament": "OT",
+      "raw": "Psalms 51:1-4,7-17"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 1,
+      "verses": [
+        25,
+        26,
+        27
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Proverbs 1:25-27"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 5,
+      "verses": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "verse_count": 7,
+      "testament": "OT",
+      "raw": "Proverbs 5:7-13"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 28,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 28:1"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 2,
+      "verses": [
+        19,
+        21
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Isaiah 2:19,21"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 6,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 6:5"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 48,
+      "verses": [
+        22
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 48:22"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 57,
+      "verses": [
+        20,
+        21
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Isaiah 57:20,21"
+    },
+    {
+      "book": "Lamentations",
+      "chapter": 1,
+      "verses": [
+        20
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Lamentations 1:20"
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 7,
+      "verses": [
+        16,
+        17,
+        18,
+        25,
+        26
+      ],
+      "verse_count": 5,
+      "testament": "OT",
+      "raw": "Ezekiel 7:16-18,25,26"
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 33,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezekiel 33:10"
+    },
+    {
+      "book": "Luke",
+      "chapter": 13,
+      "verses": [
+        28
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 13:28"
+    },
+    {
+      "book": "Acts",
+      "chapter": 2,
+      "verses": [
+        37
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 2:37"
+    },
+    {
+      "book": "Acts",
+      "chapter": 9,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 9:6"
+    },
+    {
+      "book": "Job",
+      "chapter": 3,
+      "verses": [
+        20
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Job 3:20"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 26,
+      "verses": [
+        75
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 26:75"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 27,
+      "verses": [
+        3,
+        4,
+        5
+      ],
+      "verse_count": 3,
+      "testament": "NT",
+      "raw": "Matthew 27:3-5"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "Acts",
+    "Ezekiel",
+    "Isaiah",
+    "Job",
+    "Lamentations",
+    "Luke",
+    "Matthew",
+    "Proverbs",
+    "Psalms"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:92d4c0edeae72d65e49902c1207c0f2729d75c1323f0622508274ddff6676dd5",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 9
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 9,
+    "total_refs": 19,
+    "ot_refs": 14,
+    "nt_refs": 5,
+    "books_count": 9,
+    "top_books": [
+      "Isaiah",
+      "Psalms",
+      "Proverbs",
+      "Ezekiel",
+      "Acts",
+      "Matthew",
+      "Lamentations",
+      "Luke",
+      "Job"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:30:36.325632Z",
-  "updated_at": "2025-09-20T17:30:36.325640Z"
+  }
 }

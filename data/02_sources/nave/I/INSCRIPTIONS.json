@@ -1,69 +1,97 @@
 {
   "topic": "INSCRIPTIONS",
-  "topic_slug": "inscriptions",
+  "slug": "inscriptions",
   "canonical_id": "NAV:inscriptions",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–On gravestones2Ki 23:17\n–Above Jesus at the crucifixionMt 27:37;Mr 15:26;Lu 23:38;Joh 19:19",
-  "content_preview": "–On gravestones2Ki 23:17",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–On gravestones2Ki 23:17",
-      "raw_segment": "–On gravestones2Ki 23:17"
+      "label": "On gravestones",
+      "references": [
+        "2 Kings 23:17"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–Above Jesus at the crucifixionMt 27:37;Mr 15:26;Lu 23:38;Joh 19:19",
-      "raw_segment": "–Above Jesus at the crucifixionMt 27:37;Mr 15:26;Lu 23:38;Joh 19:19"
+      "label": "Above Jesus at the crucifixion",
+      "references": [
+        "Matthew 27:37",
+        "Mark 15:26",
+        "Luke 23:38",
+        "John 19:19"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "2 Kings",
+      "chapter": 23,
+      "verses": [
+        17
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Kings 23:17"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 27,
+      "verses": [
+        37
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 27:37"
+    },
+    {
+      "book": "Mark",
+      "chapter": 15,
+      "verses": [
+        26
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Mark 15:26"
+    },
+    {
+      "book": "Luke",
+      "chapter": 23,
+      "verses": [
+        38
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 23:38"
+    },
+    {
+      "book": "John",
+      "chapter": 19,
+      "verses": [
+        19
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "John 19:19"
+    }
+  ],
+  "books_mentioned": [
+    "2 Kings",
+    "John",
+    "Luke",
+    "Mark",
+    "Matthew"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:36952404660bd17c846598d27e700737aa915459a82e80f7b25d941162b7c2a5",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 2,
+    "total_refs": 5,
+    "ot_refs": 1,
+    "nt_refs": 4,
+    "books_count": 5,
+    "top_books": [
+      "2 Kings",
+      "Matthew",
+      "Mark",
+      "Luke",
+      "John"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:27:35.680878Z",
-  "updated_at": "2025-09-20T17:27:35.680885Z"
+  }
 }

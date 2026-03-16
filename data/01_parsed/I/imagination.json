@@ -1,109 +1,134 @@
 {
   "topic": "IMAGINATION",
   "slug": "imagination",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "General scriptures concerning Ge 6:5; 8:21; De 29:19,20; 1Ch 28:9; Pr 6:16-18; Mt 5:28; Ro 1:21; 2Co 10:3",
+      "label": "General scriptures concerning",
       "references": [
-        "Gen 6:5",
-        "Gen 8:21",
-        "Deut 29:19",
-        "Deut 29:20",
-        "1Chr 28:9",
-        "Prov 6:16-18",
-        "Matt 5:28",
-        "Rom 1:21",
-        "2Cor 10:3"
+        "Genesis 6:5",
+        "Genesis 8:21",
+        "Deuteronomy 29:19,20",
+        "1 Chronicles 28:9",
+        "Proverbs 6:16-18",
+        "Matthew 5:28",
+        "Romans 1:21",
+        "2 Corinthians 10:3"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Deuteronomy",
-      "book_abbrev": "deu",
-      "chapter": 29,
-      "testament": "OT",
+      "book": "Genesis",
+      "chapter": 6,
       "verses": [
-        1,
+        5
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 6:5"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 8,
+      "verses": [
+        21
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 8:21"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 29,
+      "verses": [
         19,
         20
       ],
-      "verse_count": 3
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Deuteronomy 29:19,20"
     },
     {
       "book": "1 Chronicles",
-      "book_abbrev": "1ch",
       "chapter": 28,
-      "testament": "OT",
       "verses": [
         9
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 28:9"
     },
     {
       "book": "Proverbs",
-      "book_abbrev": "pro",
       "chapter": 6,
-      "testament": "OT",
       "verses": [
         16,
         17,
         18
       ],
-      "verse_count": 3
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Proverbs 6:16-18"
     },
     {
       "book": "Matthew",
-      "book_abbrev": "mat",
       "chapter": 5,
-      "testament": "NT",
       "verses": [
         28
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 5:28"
     },
     {
       "book": "Romans",
-      "book_abbrev": "rom",
       "chapter": 1,
-      "testament": "NT",
       "verses": [
-        2,
         21
       ],
-      "verse_count": 2
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Romans 1:21"
     },
     {
       "book": "2 Corinthians",
-      "book_abbrev": "2co",
       "chapter": 10,
-      "testament": "NT",
       "verses": [
         3
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "2 Corinthians 10:3"
     }
   ],
-  "see_also": [],
-  "aliases": [],
+  "books_mentioned": [
+    "1 Chronicles",
+    "2 Corinthians",
+    "Deuteronomy",
+    "Genesis",
+    "Matthew",
+    "Proverbs",
+    "Romans"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 3,
+    "total_aspects": 1,
+    "total_refs": 8,
+    "ot_refs": 5,
     "nt_refs": 3,
-    "total_verses": 6
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.693924+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    }
-  },
-  "version": "3.0.0"
+    "books_count": 7,
+    "top_books": [
+      "Genesis",
+      "Deuteronomy",
+      "1 Chronicles",
+      "Proverbs",
+      "Matthew",
+      "Romans",
+      "2 Corinthians"
+    ]
+  }
 }

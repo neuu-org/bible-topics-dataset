@@ -1,87 +1,166 @@
 {
   "topic": "CONTINENTS",
   "slug": "continents",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "General scriptures concerning Ge 1:9,10; Job 26:7,10; 28:8-11; 38:4-18; Ps 95:5; 104:5-9; 136:6; Pr 8:29; 30:4",
-      "references": [
-        "Gen 1:9",
-        "Gen 1:10",
-        "Job 26:7",
-        "Job 26:10",
-        "Job 28:8-11",
-        "Job 38:4-18",
-        "Ps 95:5",
-        "Ps 104:5-9",
-        "Ps 136:6",
-        "Prov 8:29",
-        "Prov 30:4"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "See GEOLOGY",
-      "references": [],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Job",
-      "book_abbrev": "job",
-      "chapter": 26,
-      "testament": "OT",
-      "verses": [
-        7,
-        10,
-        28
-      ],
-      "verse_count": 3
-    },
-    {
-      "book": "Psalms",
-      "book_abbrev": "psa",
-      "chapter": 95,
-      "testament": "OT",
-      "verses": [
-        5,
-        104
-      ],
-      "verse_count": 2
-    },
-    {
-      "book": "Proverbs",
-      "book_abbrev": "pro",
-      "chapter": 8,
-      "testament": "OT",
-      "verses": [
-        29,
-        30
-      ],
-      "verse_count": 2
-    }
+  "sources": [
+    "NAV"
   ],
   "see_also": [
     "GEOLOGY"
   ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 3,
-    "nt_refs": 0,
-    "total_verses": 3
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.679210+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
+  "aspects": [
+    {
+      "label": "General scriptures concerning",
+      "references": [
+        "Genesis 1:9,10",
+        "Job 26:7,10",
+        "Job 28:8-11",
+        "Job 38:4-18",
+        "Psalms 95:5",
+        "Psalms 104:5-9",
+        "Psalms 136:6",
+        "Proverbs 8:29",
+        "Proverbs 30:4"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeGEOLOGY",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0"
+  ],
+  "biblical_references": [
+    {
+      "book": "Genesis",
+      "chapter": 1,
+      "verses": [
+        9,
+        10
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Genesis 1:9,10"
+    },
+    {
+      "book": "Job",
+      "chapter": 26,
+      "verses": [
+        7,
+        10
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Job 26:7,10"
+    },
+    {
+      "book": "Job",
+      "chapter": 28,
+      "verses": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "verse_count": 4,
+      "testament": "OT",
+      "raw": "Job 28:8-11"
+    },
+    {
+      "book": "Job",
+      "chapter": 38,
+      "verses": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "verse_count": 15,
+      "testament": "OT",
+      "raw": "Job 38:4-18"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 95,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 95:5"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 104,
+      "verses": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "verse_count": 5,
+      "testament": "OT",
+      "raw": "Psalms 104:5-9"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 136,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 136:6"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 8,
+      "verses": [
+        29
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 8:29"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 30,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 30:4"
+    }
+  ],
+  "books_mentioned": [
+    "Genesis",
+    "Job",
+    "Proverbs",
+    "Psalms"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 9,
+    "ot_refs": 9,
+    "nt_refs": 0,
+    "books_count": 4,
+    "top_books": [
+      "Job",
+      "Psalms",
+      "Proverbs",
+      "Genesis"
+    ]
+  }
 }

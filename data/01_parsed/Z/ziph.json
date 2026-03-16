@@ -1,82 +1,94 @@
 {
   "topic": "ZIPH",
   "slug": "ziph",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "1. Two cities of the tribe of Judah Jos 15:24,55; 1Sa 23:14,15,24; 26:2; 2Ch 11:8",
+      "label": "1. Two cities of the tribe of",
       "references": [
-        "Josh 15:24",
-        "Josh 15:55",
-        "1Sam 23:14",
-        "1Sam 23:15",
-        "1Sam 23:24",
-        "1Sam 26:2",
-        "2Chr 11:8"
+        "Joshua 15:24,55"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "2. Grandson of Caleb 1Ch 2:42",
+      "label": "23:14,15,24;26:2;",
       "references": [
-        "1Chr 2:42"
+        "2 Chronicles 11:8"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "3. Son of Jehaleleel 1Ch 4:16",
+      "label": "2. Grand",
       "references": [
-        "1Chr 4:16"
+        "1 Chronicles 2:42"
       ],
-      "sub_groups": []
+      "source": "NAV"
+    },
+    {
+      "label": "3.",
+      "references": [
+        "1 Chronicles 4:16"
+      ],
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "1 Samuel",
-      "book_abbrev": "1sa",
-      "chapter": 23,
+      "book": "Joshua",
+      "chapter": 15,
+      "verses": [
+        24,
+        55
+      ],
+      "verse_count": 2,
       "testament": "OT",
+      "raw": "Joshua 15:24,55"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 23,
       "verses": [
         14,
         15,
-        24,
-        26
+        24
       ],
-      "verse_count": 4
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Joshua 23:14,15,24"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 26,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 26:2"
     },
     {
       "book": "2 Chronicles",
-      "book_abbrev": "2ch",
       "chapter": 11,
-      "testament": "OT",
       "verses": [
         8
       ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 2,
-    "nt_refs": 0,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.735206+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Chronicles 11:8"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 2,
+      "verses": [
+        42
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 2:42"
+    },
     {
       "book": "1 Chronicles",
       "chapter": 4,
@@ -85,41 +97,24 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 4:16",
-      "source": "EAS"
-    },
-    {
-      "book": "Joshua",
-      "chapter": 15,
-      "verses": [
-        24
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Joshua 15:24",
-      "source": "EAS"
-    },
-    {
-      "book": "Joshua",
-      "chapter": 15,
-      "verses": [
-        55
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Joshua 15:55",
-      "source": "EAS"
-    },
-    {
-      "book": "1 Samuel",
-      "chapter": 23,
-      "verses": [
-        19
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "1 Samuel 23:19",
-      "source": "EAS"
+      "raw": "1 Chronicles 4:16"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "2 Chronicles",
+    "Joshua"
+  ],
+  "stats": {
+    "total_aspects": 4,
+    "total_refs": 6,
+    "ot_refs": 6,
+    "nt_refs": 0,
+    "books_count": 3,
+    "top_books": [
+      "Joshua",
+      "1 Chronicles",
+      "2 Chronicles"
+    ]
+  }
 }

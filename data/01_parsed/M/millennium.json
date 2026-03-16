@@ -1,136 +1,155 @@
 {
   "topic": "MILLENNIUM",
   "slug": "millennium",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [
+    "CHURCH, PROPHECIES CONCERNING",
+    "JESUS, KINGDOM OF",
+    "JESUS, SECOND COMING OF"
+  ],
+  "aspects": [
     {
-      "name": "General scriptures concerning Isa 65:17-25; Zep 3:11-13; Zec 9:9,10; 14:16-21; Mt 16:18,19; 26:29; Mr 14:25; Heb 8:11; Re 14:6; 20:1-15",
+      "label": "General scriptures concerning",
       "references": [
-        "Isa 65:17-25",
-        "Zeph 3:11-13",
-        "Zech 9:9",
-        "Zech 9:10",
-        "Zech 14:16-21",
-        "Matt 16:18",
-        "Matt 16:19",
-        "Matt 26:29",
+        "Isaiah 65:17-25",
+        "Zephaniah 3:11-13",
+        "Ecclesiastes 9:9,10",
+        "Ecclesiastes 14:16-21",
+        "Matthew 16:18,19",
+        "Matthew 26:29",
         "Mark 14:25",
-        "Heb 8:11",
-        "Rev 14:6",
-        "Rev 20:1-15"
+        "Hebrews 8:11",
+        "Revelation 14:6",
+        "Revelation 20:1-15"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See CHURCH, PROPHECIES CONCERNING",
+      "label": "SeeCHURCH, PROPHECIES CONCERNING",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See JESUS, KINGDOM OF",
+      "label": "SeeJESUS, KINGDOM OF",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See JESUS, SECOND COMING OF",
+      "label": "SeeJESUS, SECOND COMING OF",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Zephaniah",
-      "book_abbrev": "zep",
-      "chapter": 3,
+      "book": "Isaiah",
+      "chapter": 65,
+      "verses": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "verse_count": 9,
       "testament": "OT",
+      "raw": "Isaiah 65:17-25"
+    },
+    {
+      "book": "Zephaniah",
+      "chapter": 3,
       "verses": [
         11,
         12,
         13
       ],
-      "verse_count": 3
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Zephaniah 3:11-13"
     },
     {
-      "book": "Zechariah",
-      "book_abbrev": "zec",
+      "book": "Ecclesiastes",
       "chapter": 9,
-      "testament": "OT",
       "verses": [
         9,
-        10,
-        14
+        10
       ],
-      "verse_count": 3
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Ecclesiastes 9:9,10"
+    },
+    {
+      "book": "Ecclesiastes",
+      "chapter": 14,
+      "verses": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "verse_count": 6,
+      "testament": "OT",
+      "raw": "Ecclesiastes 14:16-21"
     },
     {
       "book": "Matthew",
-      "book_abbrev": "mat",
       "chapter": 16,
-      "testament": "NT",
       "verses": [
         18,
-        19,
-        26
+        19
       ],
-      "verse_count": 3
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Matthew 16:18,19"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 26,
+      "verses": [
+        29
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 26:29"
     },
     {
       "book": "Mark",
-      "book_abbrev": "mrk",
       "chapter": 14,
-      "testament": "NT",
       "verses": [
         25
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Mark 14:25"
     },
     {
       "book": "Hebrews",
-      "book_abbrev": "heb",
       "chapter": 8,
-      "testament": "NT",
       "verses": [
         11
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Hebrews 8:11"
     },
     {
       "book": "Revelation",
-      "book_abbrev": "rev",
       "chapter": 14,
-      "testament": "NT",
       "verses": [
-        6,
-        20
+        6
       ],
-      "verse_count": 2
-    }
-  ],
-  "see_also": [
-    "JESUS, SECOND COMING OF",
-    "JESUS, KINGDOM OF",
-    "CHURCH, PROPHECIES CONCERNING"
-  ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 4,
-    "ot_refs": 2,
-    "nt_refs": 4,
-    "total_verses": 6
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.706556+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Revelation 14:6"
+    },
     {
       "book": "Revelation",
       "chapter": 20,
@@ -141,12 +160,44 @@
         4,
         5,
         6,
-        7
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
       ],
-      "verse_count": 7,
+      "verse_count": 15,
       "testament": "NT",
-      "raw": "Revelation 20:1-7",
-      "source": "EAS"
+      "raw": "Revelation 20:1-15"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Ecclesiastes",
+    "Hebrews",
+    "Isaiah",
+    "Mark",
+    "Matthew",
+    "Revelation",
+    "Zephaniah"
+  ],
+  "stats": {
+    "total_aspects": 4,
+    "total_refs": 10,
+    "ot_refs": 4,
+    "nt_refs": 6,
+    "books_count": 7,
+    "top_books": [
+      "Ecclesiastes",
+      "Matthew",
+      "Revelation",
+      "Isaiah",
+      "Zephaniah",
+      "Mark",
+      "Hebrews"
+    ]
+  }
 }

@@ -1,70 +1,31 @@
 {
   "topic": "TALMAI",
   "slug": "talmai",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. A son of Anak Nu 13:22; Jos 15:14; Jud 1:10",
-      "references": [
-        "Num 13:22",
-        "Josh 15:14",
-        "Judg 1:10"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "2. King of Geshur 2Sa 3:3; 13:37; 1Ch 3:2",
-      "references": [
-        "2Sam 3:3",
-        "2Sam 13:37",
-        "1Chr 3:2"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Joshua",
-      "book_abbrev": "jos",
-      "chapter": 15,
-      "testament": "OT",
-      "verses": [
-        14
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "1 Chronicles",
-      "book_abbrev": "1ch",
-      "chapter": 3,
-      "testament": "OT",
-      "verses": [
-        2
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 2,
-    "nt_refs": 0,
-    "total_verses": 2
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.728855+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "1. A",
+      "references": [
+        "Numbers 13:22",
+        "Joshua 15:14",
+        "Judges 1:10"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2. King of Geshur",
+      "references": [
+        "2 Samuel 3:3",
+        "2 Samuel 13:37",
+        "1 Chronicles 3:2"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Numbers",
       "chapter": 13,
@@ -73,8 +34,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Numbers 13:22",
-      "source": "EAS"
+      "raw": "Numbers 13:22"
     },
     {
       "book": "Joshua",
@@ -84,8 +44,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Joshua 15:14",
-      "source": "EAS"
+      "raw": "Joshua 15:14"
     },
     {
       "book": "Judges",
@@ -95,8 +54,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Judges 1:10",
-      "source": "EAS"
+      "raw": "Judges 1:10"
     },
     {
       "book": "2 Samuel",
@@ -106,8 +64,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Samuel 3:3",
-      "source": "EAS"
+      "raw": "2 Samuel 3:3"
     },
     {
       "book": "2 Samuel",
@@ -117,8 +74,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Samuel 13:37",
-      "source": "EAS"
+      "raw": "2 Samuel 13:37"
     },
     {
       "book": "1 Chronicles",
@@ -128,8 +84,28 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 3:2",
-      "source": "EAS"
+      "raw": "1 Chronicles 3:2"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "2 Samuel",
+    "Joshua",
+    "Judges",
+    "Numbers"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 6,
+    "ot_refs": 6,
+    "nt_refs": 0,
+    "books_count": 5,
+    "top_books": [
+      "2 Samuel",
+      "Numbers",
+      "Joshua",
+      "Judges",
+      "1 Chronicles"
+    ]
+  }
 }

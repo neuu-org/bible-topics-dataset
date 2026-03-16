@@ -1,124 +1,62 @@
 {
   "topic": "PHUT",
   "slug": "phut",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "Also called PUT",
+      "label": "Al",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "1. Son of Ham Ge 10:6; 1Ch 1:8",
+      "label": "1.",
       "references": [
-        "Gen 10:6",
-        "1Chr 1:8"
+        "Genesis 10:6",
+        "1 Chronicles 1:8"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "2. The descendants of Phut, or the country inhabited by them Eze 27:10; Na 3:9",
+      "label": "2. The",
       "references": [
-        "Ezek 27:10",
-        "Nah 3:9"
+        "Ezekiel 27:10",
+        "Nahum 3:9"
       ],
-      "sub_groups": [
-        {
-          "name": "(Margin) Jer 46:9; Eze 30:5; 38:5",
-          "references": [
-            "Jer 46:9",
-            "Ezek 30:5",
-            "Ezek 38:5"
-          ]
-        }
-      ]
+      "source": "NAV"
+    },
+    {
+      "label": ".(Margin)",
+      "references": [
+        "Jeremiah 46:9",
+        "Ezekiel 30:5",
+        "Ezekiel 38:5"
+      ],
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "1 Chronicles",
-      "book_abbrev": "1ch",
-      "chapter": 1,
+      "book": "Genesis",
+      "chapter": 10,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
       "testament": "OT",
+      "raw": "Genesis 10:6"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 1,
       "verses": [
         8
       ],
-      "verse_count": 1
-    },
-    {
-      "book": "Jeremiah",
-      "book_abbrev": "jer",
-      "chapter": 46,
-      "testament": "OT",
-      "verses": [
-        9
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Ezekiel",
-      "book_abbrev": "ezk",
-      "chapter": 30,
-      "testament": "OT",
-      "verses": [
-        5,
-        38
-      ],
-      "verse_count": 2
-    },
-    {
-      "book": "Nahum",
-      "book_abbrev": "nah",
-      "chapter": 3,
-      "testament": "OT",
-      "verses": [
-        9
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 4,
-    "nt_refs": 0,
-    "total_verses": 4
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.718280+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "Jeremiah",
-      "chapter": 46,
-      "verses": [
-        9
-      ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Jeremiah 46:9",
-      "source": "EAS"
-    },
-    {
-      "book": "Ezekiel",
-      "chapter": 30,
-      "verses": [
-        5
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Ezekiel 30:5",
-      "source": "EAS"
+      "raw": "1 Chronicles 1:8"
     },
     {
       "book": "Ezekiel",
@@ -128,19 +66,68 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Ezekiel 27:10",
-      "source": "EAS"
+      "raw": "Ezekiel 27:10"
     },
     {
-      "book": "Genesis",
-      "chapter": 10,
+      "book": "Nahum",
+      "chapter": 3,
       "verses": [
-        6
+        9
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 10:6",
-      "source": "EAS"
+      "raw": "Nahum 3:9"
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 46,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Jeremiah 46:9"
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 30,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezekiel 30:5"
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 38,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezekiel 38:5"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Ezekiel",
+    "Genesis",
+    "Jeremiah",
+    "Nahum"
+  ],
+  "stats": {
+    "total_aspects": 4,
+    "total_refs": 7,
+    "ot_refs": 7,
+    "nt_refs": 0,
+    "books_count": 5,
+    "top_books": [
+      "Ezekiel",
+      "Genesis",
+      "1 Chronicles",
+      "Nahum",
+      "Jeremiah"
+    ]
+  }
 }

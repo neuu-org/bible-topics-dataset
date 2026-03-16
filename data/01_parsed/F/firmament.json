@@ -1,130 +1,75 @@
 {
   "topic": "FIRMAMENT",
   "slug": "firmament",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "The expanse above the earth Ge 1:6-8,14-17,20; Ps 19:1; Da 12:3",
+      "label": "The expanse above the earth",
       "references": [
-        "Gen 1:6-8",
-        "Gen 1:14-17",
-        "Gen 1:20",
-        "Ps 19:1",
-        "Dan 12:3"
+        "Genesis 1:6-8,14-17,20",
+        "Psalms 19:1",
+        "Daniel 12:3"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Psalms",
-      "book_abbrev": "psa",
-      "chapter": 19,
+      "book": "Genesis",
+      "chapter": 1,
+      "verses": [
+        6,
+        7,
+        8,
+        14,
+        15,
+        16,
+        17,
+        20
+      ],
+      "verse_count": 8,
       "testament": "OT",
+      "raw": "Genesis 1:6-8,14-17,20"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 19,
       "verses": [
         1
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 19:1"
     },
     {
       "book": "Daniel",
-      "book_abbrev": "dan",
       "chapter": 12,
-      "testament": "OT",
       "verses": [
         3
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Daniel 12:3"
     }
   ],
-  "see_also": [],
-  "aliases": [],
+  "books_mentioned": [
+    "Daniel",
+    "Genesis",
+    "Psalms"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 2,
+    "total_aspects": 1,
+    "total_refs": 3,
+    "ot_refs": 3,
     "nt_refs": 0,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.686578+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    },
-    "enriched_at": "2025-12-02T22:02:10.167746+00:00",
-    "enrichment_source": "pipeline_merge"
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "Genesis",
-      "chapter": 1,
-      "verses": [
-        7
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Genesis 1:7",
-      "source": "EAS"
-    },
-    {
-      "book": "Psalms",
-      "chapter": 148,
-      "verses": [
-        4
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Psalms 148:4",
-      "source": "EAS"
-    },
-    {
-      "book": "Genesis",
-      "chapter": 1,
-      "verses": [
-        14
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Genesis 1:14",
-      "source": "EAS"
-    },
-    {
-      "book": "Genesis",
-      "chapter": 7,
-      "verses": [
-        11
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Genesis 7:11",
-      "source": "EAS"
-    },
-    {
-      "book": "Isaiah",
-      "chapter": 24,
-      "verses": [
-        18
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Isaiah 24:18",
-      "source": "EAS"
-    },
-    {
-      "book": "Malachi",
-      "chapter": 3,
-      "verses": [
-        10
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Malachi 3:10",
-      "source": "EAS"
-    }
-  ]
+    "books_count": 3,
+    "top_books": [
+      "Genesis",
+      "Psalms",
+      "Daniel"
+    ]
+  }
 }

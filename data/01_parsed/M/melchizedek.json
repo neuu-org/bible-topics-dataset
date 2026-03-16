@@ -1,83 +1,30 @@
 {
   "topic": "MELCHIZEDEK",
   "slug": "melchizedek",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "King of Salem Ge 14:18-20; Ps 110:4",
-      "references": [
-        "Gen 14:18-20",
-        "Ps 110:4"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "A priest and type of Christ Heb 5:6,10; 6:20; 7:1-21",
-      "references": [
-        "Heb 5:6",
-        "Heb 5:10",
-        "Heb 6:20",
-        "Heb 7:1-21"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Psalms",
-      "book_abbrev": "psa",
-      "chapter": 110,
-      "testament": "OT",
-      "verses": [
-        4
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.705096+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "King of Salem",
+      "references": [
+        "Genesis 14:18-20",
+        "Psalms 110:4"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "A priest and type of Christ",
+      "references": [
+        "Hebrews 5:6,10",
+        "Hebrews 6:20",
+        "Hebrews 7:1-21"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "Hebrews",
-      "chapter": 5,
-      "verses": [
-        6,
-        7
-      ],
-      "verse_count": 2,
-      "testament": "NT",
-      "raw": "Hebrews 5:6, 7",
-      "source": "EAS"
-    },
-    {
-      "book": "Hebrews",
-      "chapter": 6,
-      "verses": [
-        20
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Hebrews 6:20",
-      "source": "EAS"
-    },
+  ],
+  "biblical_references": [
     {
       "book": "Genesis",
       "chapter": 14,
@@ -88,8 +35,7 @@
       ],
       "verse_count": 3,
       "testament": "OT",
-      "raw": "Genesis 14:18-20",
-      "source": "EAS"
+      "raw": "Genesis 14:18-20"
     },
     {
       "book": "Psalms",
@@ -99,41 +45,75 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Psalms 110:4",
-      "source": "EAS"
+      "raw": "Psalms 110:4"
     },
     {
       "book": "Hebrews",
       "chapter": 5,
       "verses": [
-        1
+        6,
+        10
       ],
-      "verse_count": 1,
+      "verse_count": 2,
       "testament": "NT",
-      "raw": "Hebrews 5:1",
-      "source": "SMI"
+      "raw": "Hebrews 5:6,10"
     },
     {
       "book": "Hebrews",
       "chapter": 6,
       "verses": [
-        1
+        20
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Hebrews 6:1",
-      "source": "SMI"
+      "raw": "Hebrews 6:20"
     },
     {
       "book": "Hebrews",
       "chapter": 7,
       "verses": [
-        1
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
       ],
-      "verse_count": 1,
+      "verse_count": 21,
       "testament": "NT",
-      "raw": "Hebrews 7:1",
-      "source": "SMI"
+      "raw": "Hebrews 7:1-21"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Genesis",
+    "Hebrews",
+    "Psalms"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 5,
+    "ot_refs": 2,
+    "nt_refs": 3,
+    "books_count": 3,
+    "top_books": [
+      "Hebrews",
+      "Genesis",
+      "Psalms"
+    ]
+  }
 }

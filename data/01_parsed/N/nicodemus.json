@@ -1,39 +1,21 @@
 {
   "topic": "NICODEMUS",
   "slug": "nicodemus",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "A Jewish rabbi -Becomes a disciple of Jesus Joh 3:1-10; 7:50-53",
+      "label": "A Jewish rabbi -Becomes a disciple of Jesus",
       "references": [
         "John 3:1-10",
         "John 7:50-53"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.714744+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "biblical_references": [
     {
       "book": "John",
       "chapter": 3,
@@ -47,34 +29,11 @@
         7,
         8,
         9,
-        10,
-        11,
-        12,
-        13,
-        14,
-        15,
-        16,
-        17,
-        18,
-        19,
-        20,
-        21
+        10
       ],
-      "verse_count": 21,
+      "verse_count": 10,
       "testament": "NT",
-      "raw": "John 3:1-21",
-      "source": "EAS"
-    },
-    {
-      "book": "John",
-      "chapter": 19,
-      "verses": [
-        39
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "John 19:39",
-      "source": "EAS"
+      "raw": "John 3:1-10"
     },
     {
       "book": "John",
@@ -82,24 +41,25 @@
       "verses": [
         50,
         51,
-        52
+        52,
+        53
       ],
-      "verse_count": 3,
+      "verse_count": 4,
       "testament": "NT",
-      "raw": "John 7:50-52",
-      "source": "EAS"
-    },
-    {
-      "book": "John",
-      "chapter": 3,
-      "verses": [
-        1,
-        10
-      ],
-      "verse_count": 2,
-      "testament": "NT",
-      "raw": "John 3:1,10",
-      "source": "SMI"
+      "raw": "John 7:50-53"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "John"
+  ],
+  "stats": {
+    "total_aspects": 1,
+    "total_refs": 2,
+    "ot_refs": 0,
+    "nt_refs": 2,
+    "books_count": 1,
+    "top_books": [
+      "John"
+    ]
+  }
 }

@@ -1,49 +1,73 @@
 {
   "topic": "MITER",
   "slug": "miter",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "General scriptures concerning Ex 28:4,36-39; 39:28-31; Eze 21:26",
+      "label": "General scriptures concerning",
       "references": [
-        "Exod 28:4",
-        "Exod 28:36-39",
-        "Exod 39:28-31",
-        "Ezek 21:26"
+        "Exodus 28:4,36-39",
+        "Exodus 39:28-31",
+        "Ezekiel 21:26"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Ezekiel",
-      "book_abbrev": "ezk",
-      "chapter": 21,
+      "book": "Exodus",
+      "chapter": 28,
+      "verses": [
+        4,
+        36,
+        37,
+        38,
+        39
+      ],
+      "verse_count": 5,
       "testament": "OT",
+      "raw": "Exodus 28:4,36-39"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 39,
+      "verses": [
+        28,
+        29,
+        30,
+        31
+      ],
+      "verse_count": 4,
+      "testament": "OT",
+      "raw": "Exodus 39:28-31"
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 21,
       "verses": [
         26
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezekiel 21:26"
     }
   ],
-  "see_also": [],
-  "aliases": [],
+  "books_mentioned": [
+    "Exodus",
+    "Ezekiel"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 1,
+    "total_aspects": 1,
+    "total_refs": 3,
+    "ot_refs": 3,
     "nt_refs": 0,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.707162+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    }
-  },
-  "version": "3.0.0"
+    "books_count": 2,
+    "top_books": [
+      "Exodus",
+      "Ezekiel"
+    ]
+  }
 }

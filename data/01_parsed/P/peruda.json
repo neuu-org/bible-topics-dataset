@@ -1,45 +1,32 @@
 {
   "topic": "PERUDA",
   "slug": "peruda",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "(One of the servants of Solomon) -Descendants of, return to Jerusalem from captivity in Babylon Ezr 2:55",
-      "references": [
-        "Ezra 2:55"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Called PERIDA in Ne 7:57",
-      "references": [
-        "Neh 7:57"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.717855+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "(One of the servants of",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "from",
+      "references": [
+        "Ezra 2:55"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "General references",
+      "references": [
+        "Nehemiah 7:57"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Ezra",
       "chapter": 2,
@@ -48,8 +35,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Ezra 2:55",
-      "source": "EAS"
+      "raw": "Ezra 2:55"
     },
     {
       "book": "Nehemiah",
@@ -59,8 +45,22 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Nehemiah 7:57",
-      "source": "EAS"
+      "raw": "Nehemiah 7:57"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Ezra",
+    "Nehemiah"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 2,
+    "ot_refs": 2,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "Ezra",
+      "Nehemiah"
+    ]
+  }
 }

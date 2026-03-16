@@ -1,51 +1,22 @@
 {
   "topic": "EPAPHRAS",
   "slug": "epaphras",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "A co-laborer with Paul Col 1:7; 4:12; Phm 1:23",
-      "references": [
-        "Col 1:7",
-        "Col 4:12",
-        "Phlm 1"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Philemon",
-      "book_abbrev": "phm",
-      "chapter": 1,
-      "testament": "NT",
-      "verses": [
-        23
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 1,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.684673+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "A co-laborer with Paul",
+      "references": [
+        "Colossians 1:7",
+        "Colossians 4:12",
+        "Philemon 1:23"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Colossians",
       "chapter": 1,
@@ -54,8 +25,7 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Colossians 1:7",
-      "source": "EAS"
+      "raw": "Colossians 1:7"
     },
     {
       "book": "Colossians",
@@ -65,31 +35,32 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Colossians 4:12",
-      "source": "EAS"
+      "raw": "Colossians 4:12"
     },
     {
-      "book": "Colossians",
+      "book": "Philemon",
       "chapter": 1,
       "verses": [
         23
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Colossians 1:23",
-      "source": "EAS"
-    },
-    {
-      "book": "Colossians",
-      "chapter": 1,
-      "verses": [
-        7,
-        8
-      ],
-      "verse_count": 2,
-      "testament": "NT",
-      "raw": "Colossians 1:7,8",
-      "source": "SMI"
+      "raw": "Philemon 1:23"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Colossians",
+    "Philemon"
+  ],
+  "stats": {
+    "total_aspects": 1,
+    "total_refs": 3,
+    "ot_refs": 0,
+    "nt_refs": 3,
+    "books_count": 2,
+    "top_books": [
+      "Colossians",
+      "Philemon"
+    ]
+  }
 }

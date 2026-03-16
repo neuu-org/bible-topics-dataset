@@ -1,69 +1,57 @@
 {
   "topic": "SAPH",
-  "topic_slug": "saph",
+  "slug": "saph",
   "canonical_id": "NAV:saph",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–Also called SIPPAI\n–A Philistine giant2Sa 21:18;1Ch 20:4",
-  "content_preview": "–Also called SIPPAI",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–Also called SIPPAI",
-      "raw_segment": "–Also called SIPPAI"
+      "label": "Al",
+      "references": []
     },
     {
-      "idx": 1,
-      "entry_label": "–A Philistine giant2Sa 21:18;1Ch 20:4",
-      "raw_segment": "–A Philistine giant2Sa 21:18;1Ch 20:4"
+      "label": "A Philistine giant",
+      "references": [
+        "2 Samuel 21:18",
+        "1 Chronicles 20:4"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "2 Samuel",
+      "chapter": 21,
+      "verses": [
+        18
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Samuel 21:18"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 20,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 20:4"
+    }
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "2 Samuel"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 2,
+    "total_refs": 2,
+    "ot_refs": 2,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:f2646c9255218a70fbe7b1e297f36b3ef291575c843c59071b126294ef482947",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 2,
+    "top_books": [
+      "2 Samuel",
+      "1 Chronicles"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:30:52.476383Z",
-  "updated_at": "2025-09-20T17:30:52.476394Z"
+  }
 }

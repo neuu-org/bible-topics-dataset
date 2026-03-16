@@ -1,69 +1,58 @@
 {
   "topic": "BAAL-HAMON",
-  "topic_slug": "baal_hamon",
+  "slug": "baal_hamon",
   "canonical_id": "NAV:baal_hamon",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–A place in Mount EphraimSo 8:11\n–Called HAMMONJos 19:28",
-  "content_preview": "–A place in Mount EphraimSo 8:11",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–A place in Mount EphraimSo 8:11",
-      "raw_segment": "–A place in Mount EphraimSo 8:11"
+      "label": "A place in Mount Ephraim",
+      "references": [
+        "Song of Solomon 8:11"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–Called HAMMONJos 19:28",
-      "raw_segment": "–Called HAMMONJos 19:28"
+      "label": "General references",
+      "references": [
+        "Joshua 19:28"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Song of Solomon",
+      "chapter": 8,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Song of Solomon 8:11"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 19,
+      "verses": [
+        28
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 19:28"
+    }
+  ],
+  "books_mentioned": [
+    "Joshua",
+    "Song of Solomon"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 2,
+    "total_refs": 2,
+    "ot_refs": 2,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:d39e1726688ad459c8cb1280ec308dff61b3d6b63c38de77ca3f573091d2d137",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 2,
+    "top_books": [
+      "Song of Solomon",
+      "Joshua"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:24:02.366951Z",
-  "updated_at": "2025-09-20T17:24:02.366958Z"
+  }
 }

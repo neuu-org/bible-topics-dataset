@@ -1,74 +1,86 @@
 {
   "topic": "JAVELIN",
-  "topic_slug": "javelin",
+  "slug": "javelin",
   "canonical_id": "NAV:javelin",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–A heavy lanceEze 39:9\n–Used by Goliath (R. V.)1Sa 17:6\n–Used by Saul1Sa 18:11;19:9,10",
-  "content_preview": "–A heavy lanceEze 39:9",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–A heavy lanceEze 39:9",
-      "raw_segment": "–A heavy lanceEze 39:9"
+      "label": "A heavy lance",
+      "references": [
+        "Ezekiel 39:9"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–Used by Goliath (R. V.)1Sa 17:6",
-      "raw_segment": "–Used by Goliath (R. V.)1Sa 17:6"
+      "label": "Used by Goliath (R. V.)",
+      "references": [
+        "1 Samuel 17:6"
+      ]
     },
     {
-      "idx": 2,
-      "entry_label": "–Used by Saul1Sa 18:11;19:9,10",
-      "raw_segment": "–Used by Saul1Sa 18:11;19:9,10"
+      "label": "Used by Saul",
+      "references": [
+        "1 Samuel 18:11",
+        "1 Samuel 19:9,10"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Ezekiel",
+      "chapter": 39,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezekiel 39:9"
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 17,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Samuel 17:6"
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 18,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Samuel 18:11"
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 19,
+      "verses": [
+        9,
+        10
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "1 Samuel 19:9,10"
+    }
+  ],
+  "books_mentioned": [
+    "1 Samuel",
+    "Ezekiel"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 3,
+    "total_refs": 4,
+    "ot_refs": 4,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:7b2e84309f09921ee6f1b2b9051a8312fcf70f6b980c80aacd33dde0f837d9a2",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 3
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 2,
+    "top_books": [
+      "1 Samuel",
+      "Ezekiel"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:27:54.426556Z",
-  "updated_at": "2025-09-20T17:27:54.426564Z"
+  }
 }

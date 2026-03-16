@@ -1,83 +1,103 @@
 {
   "topic": "ADAR",
-  "topic_slug": "adar",
+  "slug": "adar",
   "canonical_id": "NAV:adar",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "HAZAR-ADAR"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "HAZAR-ADAR",
-      "clean": "HAZAR-ADAR",
-      "slug": "hazar_adar",
-      "canonical_id": "NAV:hazar_adar"
-    }
-  ],
-  "raw_block": "–1. Twelfth month in Jewish calendarEzr 6:15;Es 3:7;8:12;9:1\n–2. Son of Bela1Ch 8:3\n–3. ADAR\n  .SeeHAZAR-ADAR",
-  "content_preview": "–1. Twelfth month in Jewish calendarEzr 6:15;Es 3:7;8:12;9:1",
-  "reference_groups": [
-    {
-      "idx": 0,
-      "entry_label": "–1. Twelfth month in Jewish calendarEzr 6:15;Es 3:7;8:12;9:1",
-      "raw_segment": "–1. Twelfth month in Jewish calendarEzr 6:15;Es 3:7;8:12;9:1"
+      "label": "1. Twelfth month in Jewish",
+      "references": [
+        "Ezra 6:15",
+        "Esther 3:7",
+        "Esther 8:12",
+        "Esther 9:1"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–2. Son of Bela1Ch 8:3",
-      "raw_segment": "–2. Son of Bela1Ch 8:3"
+      "label": "2.",
+      "references": [
+        "1 Chronicles 8:3"
+      ]
     },
     {
-      "idx": 2,
-      "entry_label": "–3. ADAR",
-      "raw_segment": "–3. ADAR"
+      "label": "3. ADAR",
+      "references": []
+    },
+    {
+      "label": ".SeeHAZAR-ADAR",
+      "references": []
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Ezra",
+      "chapter": 6,
+      "verses": [
+        15
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezra 6:15"
+    },
+    {
+      "book": "Esther",
+      "chapter": 3,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Esther 3:7"
+    },
+    {
+      "book": "Esther",
+      "chapter": 8,
+      "verses": [
+        12
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Esther 8:12"
+    },
+    {
+      "book": "Esther",
+      "chapter": 9,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Esther 9:1"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 8,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 8:3"
+    }
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Esther",
+    "Ezra"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 4,
+    "total_refs": 5,
+    "ot_refs": 5,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:e3f0f9cf94fd839127e4c4420699c403cd36a3b15f5cd5f3b6615a9edd39e736",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 4
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 3,
+    "top_books": [
+      "Esther",
+      "Ezra",
+      "1 Chronicles"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:23:15.873881Z",
-  "updated_at": "2025-09-20T17:23:15.873891Z"
+  }
 }

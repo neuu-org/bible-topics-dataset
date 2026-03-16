@@ -1,106 +1,76 @@
 {
   "topic": "UZZIEL",
   "slug": "uzziel",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "1. A son of Kohath Ex 6:18,22; Le 10:4",
+      "label": "1. A",
       "references": [
-        "Exod 6:18",
-        "Exod 6:22",
-        "Lev 10:4"
+        "Exodus 6:18,22",
+        "Leviticus 10:4"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "2. A Simeonite captain 1Ch 4:42",
+      "label": "2. A Simeonite",
       "references": [
-        "1Chr 4:42"
+        "1 Chronicles 4:42"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "3. Son of Bela 1Ch 7:7",
+      "label": "3.",
       "references": [
-        "1Chr 7:7"
+        "1 Chronicles 7:7"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "4. One of David’ s musicians 1Ch 25:4",
+      "label": "4. One of David’ s musicians",
       "references": [
-        "1Chr 25:4"
+        "1 Chronicles 25:4"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "5. A Levite",
+      "label": "5. A Levite",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Son of Jeduthun 2Ch 29:14",
+      "label": "General references",
       "references": [
-        "2Chr 29:14"
+        "2 Chronicles 29:14"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "6. A goldsmith",
+      "label": "6. A goldsmith",
       "references": [],
-      "sub_groups": [
-        {
-          "name": "Helped in repairing the walls of Jerusalem Ne 3:8",
-          "references": [
-            "Neh 3:8"
-          ]
-        }
-      ]
+      "source": "NAV"
+    },
+    {
+      "label": ".Helped in repairing the walls of",
+      "references": [
+        "Nehemiah 3:8"
+      ],
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Leviticus",
-      "book_abbrev": "lev",
-      "chapter": 10,
-      "testament": "OT",
-      "verses": [
-        4
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 7,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.732304+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
       "book": "Exodus",
       "chapter": 6,
       "verses": [
-        18
+        18,
+        22
       ],
-      "verse_count": 1,
+      "verse_count": 2,
       "testament": "OT",
-      "raw": "Exodus 6:18",
-      "source": "EAS"
+      "raw": "Exodus 6:18,22"
     },
     {
       "book": "Leviticus",
@@ -110,23 +80,17 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Leviticus 10:4",
-      "source": "EAS"
+      "raw": "Leviticus 10:4"
     },
     {
       "book": "1 Chronicles",
       "chapter": 4,
       "verses": [
-        39,
-        40,
-        41,
-        42,
-        43
+        42
       ],
-      "verse_count": 5,
+      "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 4:39-43",
-      "source": "EAS"
+      "raw": "1 Chronicles 4:42"
     },
     {
       "book": "1 Chronicles",
@@ -136,8 +100,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 7:7",
-      "source": "EAS"
+      "raw": "1 Chronicles 7:7"
     },
     {
       "book": "1 Chronicles",
@@ -147,8 +110,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 25:4",
-      "source": "EAS"
+      "raw": "1 Chronicles 25:4"
     },
     {
       "book": "2 Chronicles",
@@ -158,8 +120,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Chronicles 29:14",
-      "source": "EAS"
+      "raw": "2 Chronicles 29:14"
     },
     {
       "book": "Nehemiah",
@@ -169,8 +130,28 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Nehemiah 3:8",
-      "source": "EAS"
+      "raw": "Nehemiah 3:8"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "2 Chronicles",
+    "Exodus",
+    "Leviticus",
+    "Nehemiah"
+  ],
+  "stats": {
+    "total_aspects": 8,
+    "total_refs": 7,
+    "ot_refs": 7,
+    "nt_refs": 0,
+    "books_count": 5,
+    "top_books": [
+      "1 Chronicles",
+      "Exodus",
+      "Leviticus",
+      "2 Chronicles",
+      "Nehemiah"
+    ]
+  }
 }

@@ -1,78 +1,46 @@
 {
   "topic": "PASSION",
-  "topic_slug": "passion",
+  "slug": "passion",
   "canonical_id": "NAV:passion",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "JESUS, SUFFERINGS OF"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "JESUS, SUFFERINGS OF",
-      "clean": "JESUS, SUFFERINGS OF",
-      "slug": "jesus__sufferings_of",
-      "canonical_id": "NAV:jesus__sufferings_of"
-    }
-  ],
-  "raw_block": "–General scriptures concerningAc 1:3\n–SeeJESUS, SUFFERINGS OF",
-  "content_preview": "–General scriptures concerningAc 1:3",
-  "reference_groups": [
-    {
-      "idx": 0,
-      "entry_label": "–General scriptures concerningAc 1:3",
-      "raw_segment": "–General scriptures concerningAc 1:3"
+      "label": "General scriptures concerning",
+      "references": [
+        "Acts 1:3"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–SeeJESUS, SUFFERINGS OF",
-      "raw_segment": "–SeeJESUS, SUFFERINGS OF"
+      "label": "SeeJESUS, SUFFERINGS OF",
+      "references": []
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Acts",
+      "chapter": 1,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 1:3"
+    }
+  ],
+  "books_mentioned": [
+    "Acts"
+  ],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 2,
+    "total_refs": 1,
     "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:4705c2f920d97c803addf4844def3af11c4c7f48bec3b1a71481d8ad06843560",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "nt_refs": 1,
+    "books_count": 1,
+    "top_books": [
+      "Acts"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:29:53.232905Z",
-  "updated_at": "2025-09-20T17:29:53.232913Z"
+  }
 }

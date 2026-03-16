@@ -1,93 +1,497 @@
 {
   "topic": "LOYALTY",
-  "topic_slug": "loyalty",
+  "slug": "loyalty",
   "canonical_id": "NAV:loyalty",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "PATRIOTISM"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "PATRIOTISM",
-      "clean": "PATRIOTISM",
-      "slug": "patriotism",
-      "canonical_id": "NAV:patriotism"
+      "label": "Enjoine",
+      "references": [
+        "Exodus 22:28",
+        "Numbers 27:20",
+        "Ezra 6:10",
+        "Ezra 7:26",
+        "Job 34:18",
+        "Proverbs 24:21"
+      ]
+    },
+    {
+      "label": "8:2;10:4;",
+      "references": [
+        "Romans 13:1",
+        "Titus 3:1"
+      ]
+    },
+    {
+      "label": "Enforce",
+      "references": [
+        "Ezra 10:8",
+        "Proverbs 17:11"
+      ]
+    },
+    {
+      "label": "Disloyalty",
+      "references": [
+        "2 Peter 2:10"
+      ]
+    },
+    {
+      "label": "SeePATRIOTISM",
+      "references": []
+    },
+    {
+      "label": "INSTANCES OF",
+      "references": []
+    },
+    {
+      "label": ".Israelites",
+      "references": [
+        "Joshua 1:16-18",
+        "2 Samuel 3:36,37",
+        "2 Samuel 15:23,30",
+        "2 Samuel 18:3",
+        "2 Samuel 21:17",
+        "1 Chronicles 12:38"
+      ]
+    },
+    {
+      "label": ".David",
+      "references": [
+        "1 Samuel 24:6-10",
+        "1 Samuel 26:6-16",
+        "2 Samuel 1:14"
+      ]
+    },
+    {
+      "label": ".Uriah",
+      "references": [
+        "2 Samuel 11:9"
+      ]
+    },
+    {
+      "label": ".Ittai",
+      "references": [
+        "2 Samuel 15:21"
+      ]
+    },
+    {
+      "label": ".Hushai",
+      "references": [
+        "2 Samuel 17:15,16"
+      ]
+    },
+    {
+      "label": ".David’s",
+      "references": [
+        "2 Samuel 18:12,13",
+        "2 Samuel 23:15,16"
+      ]
+    },
+    {
+      "label": ".Joab",
+      "references": [
+        "2 Samuel 19:5,6"
+      ]
+    },
+    {
+      "label": ".Barzillai",
+      "references": [
+        "2 Samuel 19:32"
+      ]
+    },
+    {
+      "label": ".Jehoiada",
+      "references": [
+        "2 Kings 11:4-12"
+      ]
+    },
+    {
+      "label": ".Mor",
+      "references": [
+        "Esther 2:21-23"
+      ]
     }
   ],
-  "raw_block": "–EnjoinedEx 22:28;Nu 27:20;Ezr 6:10;7:26;Job 34:18;Pr 24:21;Ec \n8:2;10:4;Ro 13:1;Tit 3:1\n–EnforcedEzr 10:8;Pr 17:11\n–Disloyalty2Pe 2:10\n–SeePATRIOTISM\n–INSTANCES OF\n  .IsraelitesJos 1:16-18;2Sa 3:36,37;15:23,30;18:3;21:17;1Ch 12:38\n  .David1Sa 24:6-10;26:6-16;2Sa 1:14\n  .Uriah2Sa 11:9\n  .Ittai2Sa 15:21\n  .Hushai2Sa 17:15,16\n  .David’s soldiers2Sa 18:12,13;23:15,16\n  .Joab2Sa 19:5,6\n  .Barzillai2Sa 19:32\n  .Jehoiada2Ki 11:4-12\n  .MordecaiEs 2:21-23",
-  "content_preview": "–EnjoinedEx 22:28;Nu 27:20;Ezr 6:10;7:26;Job 34:18;Pr 24:21;Ec ",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–EnjoinedEx 22:28;Nu 27:20;Ezr 6:10;7:26;Job 34:18;Pr 24:21;Ec \n8:2;10:4;Ro 13:1;Tit 3:1",
-      "raw_segment": "–EnjoinedEx 22:28;Nu 27:20;Ezr 6:10;7:26;Job 34:18;Pr 24:21;Ec \n8:2;10:4;Ro 13:1;Tit 3:1"
+      "book": "Exodus",
+      "chapter": 22,
+      "verses": [
+        28
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 22:28"
     },
     {
-      "idx": 1,
-      "entry_label": "–EnforcedEzr 10:8;Pr 17:11",
-      "raw_segment": "–EnforcedEzr 10:8;Pr 17:11"
+      "book": "Numbers",
+      "chapter": 27,
+      "verses": [
+        20
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Numbers 27:20"
     },
     {
-      "idx": 2,
-      "entry_label": "–Disloyalty2Pe 2:10",
-      "raw_segment": "–Disloyalty2Pe 2:10"
+      "book": "Ezra",
+      "chapter": 6,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezra 6:10"
     },
     {
-      "idx": 3,
-      "entry_label": "–SeePATRIOTISM",
-      "raw_segment": "–SeePATRIOTISM"
+      "book": "Ezra",
+      "chapter": 7,
+      "verses": [
+        26
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezra 7:26"
     },
     {
-      "idx": 4,
-      "entry_label": "–INSTANCES OF",
-      "raw_segment": "–INSTANCES OF"
+      "book": "Job",
+      "chapter": 34,
+      "verses": [
+        18
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Job 34:18"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 24,
+      "verses": [
+        21
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 24:21"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 8,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 8:2"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 10,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 10:4"
+    },
+    {
+      "book": "Romans",
+      "chapter": 13,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Romans 13:1"
+    },
+    {
+      "book": "Titus",
+      "chapter": 3,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Titus 3:1"
+    },
+    {
+      "book": "Ezra",
+      "chapter": 10,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezra 10:8"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 17,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 17:11"
+    },
+    {
+      "book": "2 Peter",
+      "chapter": 2,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "2 Peter 2:10"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 1,
+      "verses": [
+        16,
+        17,
+        18
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Joshua 1:16-18"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 3,
+      "verses": [
+        36,
+        37
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "2 Samuel 3:36,37"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 15,
+      "verses": [
+        23,
+        30
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "2 Samuel 15:23,30"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 18,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Samuel 18:3"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 21,
+      "verses": [
+        17
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Samuel 21:17"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 12,
+      "verses": [
+        38
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 12:38"
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 24,
+      "verses": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "verse_count": 5,
+      "testament": "OT",
+      "raw": "1 Samuel 24:6-10"
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 26,
+      "verses": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "verse_count": 11,
+      "testament": "OT",
+      "raw": "1 Samuel 26:6-16"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 1,
+      "verses": [
+        14
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Samuel 1:14"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 11,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Samuel 11:9"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 15,
+      "verses": [
+        21
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Samuel 15:21"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 17,
+      "verses": [
+        15,
+        16
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "2 Samuel 17:15,16"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 18,
+      "verses": [
+        12,
+        13
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "2 Samuel 18:12,13"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 23,
+      "verses": [
+        15,
+        16
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "2 Samuel 23:15,16"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 19,
+      "verses": [
+        5,
+        6
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "2 Samuel 19:5,6"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 19,
+      "verses": [
+        32
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Samuel 19:32"
+    },
+    {
+      "book": "2 Kings",
+      "chapter": 11,
+      "verses": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "verse_count": 9,
+      "testament": "OT",
+      "raw": "2 Kings 11:4-12"
+    },
+    {
+      "book": "Esther",
+      "chapter": 2,
+      "verses": [
+        21,
+        22,
+        23
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Esther 2:21-23"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "1 Chronicles",
+    "1 Samuel",
+    "2 Kings",
+    "2 Peter",
+    "2 Samuel",
+    "Esther",
+    "Exodus",
+    "Ezra",
+    "Job",
+    "Joshua",
+    "Numbers",
+    "Proverbs",
+    "Romans",
+    "Titus"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:b71de2cc8d4e3456ac9b22f2e60cce500d6804727181a7deb24215797c57b11c",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 16
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 16,
+    "total_refs": 31,
+    "ot_refs": 28,
+    "nt_refs": 3,
+    "books_count": 14,
+    "top_books": [
+      "2 Samuel",
+      "Proverbs",
+      "Ezra",
+      "1 Samuel",
+      "Exodus",
+      "Numbers",
+      "Job",
+      "Romans",
+      "Titus",
+      "2 Peter"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:28:40.500165Z",
-  "updated_at": "2025-09-20T17:28:40.500172Z"
+  }
 }

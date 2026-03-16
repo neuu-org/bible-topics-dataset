@@ -1,69 +1,72 @@
 {
   "topic": "BIRTHDAY",
-  "topic_slug": "birthday",
+  "slug": "birthday",
   "canonical_id": "NAV:birthday",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–Celebrated by feastsGe 40:20;Mt 14:6\n–CursedJob 3;Jer 20:14,18",
-  "content_preview": "–Celebrated by feastsGe 40:20;Mt 14:6",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–Celebrated by feastsGe 40:20;Mt 14:6",
-      "raw_segment": "–Celebrated by feastsGe 40:20;Mt 14:6"
+      "label": "Celebrated by feasts",
+      "references": [
+        "Genesis 40:20",
+        "Matthew 14:6"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–CursedJob 3;Jer 20:14,18",
-      "raw_segment": "–CursedJob 3;Jer 20:14,18"
+      "label": "CursedJob 3;",
+      "references": [
+        "Jeremiah 20:14,18"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Genesis",
+      "chapter": 40,
+      "verses": [
+        20
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 40:20"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 14,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 14:6"
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 20,
+      "verses": [
+        14,
+        18
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Jeremiah 20:14,18"
+    }
+  ],
+  "books_mentioned": [
+    "Genesis",
+    "Jeremiah",
+    "Matthew"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:85ec3b570e82510e9599991330bf74e66d7d0b5ecf0cbdbf2a6caa5540bc44e2",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 2,
+    "total_refs": 3,
+    "ot_refs": 2,
+    "nt_refs": 1,
+    "books_count": 3,
+    "top_books": [
+      "Genesis",
+      "Matthew",
+      "Jeremiah"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:24:31.064840Z",
-  "updated_at": "2025-09-20T17:24:31.064847Z"
+  }
 }

@@ -1,64 +1,53 @@
 {
   "topic": "HELM",
-  "topic_slug": "helm",
+  "slug": "helm",
   "canonical_id": "NAV:helm",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–General scriptures concerningAc 27:40;Jas 3:4",
-  "content_preview": "–General scriptures concerningAc 27:40;Jas 3:4",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–General scriptures concerningAc 27:40;Jas 3:4",
-      "raw_segment": "–General scriptures concerningAc 27:40;Jas 3:4"
+      "label": "General scriptures concerning",
+      "references": [
+        "Acts 27:40",
+        "James 3:4"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Acts",
+      "chapter": 27,
+      "verses": [
+        40
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 27:40"
+    },
+    {
+      "book": "James",
+      "chapter": 3,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "James 3:4"
+    }
+  ],
+  "books_mentioned": [
+    "Acts",
+    "James"
+  ],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 1,
+    "total_refs": 2,
     "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:4d9c26c732f3051a1205331ff42753785e8a3782073ef0f5260e907e969ac4fd",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 1
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "nt_refs": 2,
+    "books_count": 2,
+    "top_books": [
+      "Acts",
+      "James"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:27:09.944750Z",
-  "updated_at": "2025-09-20T17:27:09.944758Z"
+  }
 }

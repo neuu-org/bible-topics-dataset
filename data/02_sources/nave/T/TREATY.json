@@ -1,84 +1,196 @@
 {
   "topic": "TREATY",
-  "topic_slug": "treaty",
+  "slug": "treaty",
   "canonical_id": "NAV:treaty",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–Between nations\n  .Israelites and GibeonitesJos 9:3-15\n  .Judah and Syria1Ki 15:19\n–Ceding of the territory by1Ki 9:10-14;20:34\n–Sacredness ofJos 9:16-21; with 2:8-21\n–Reciprocity1Ki 5:1-12\n–With idolatrous nations forbiddenEx 34:12,15",
-  "content_preview": "–Between nations",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–Between nations",
-      "raw_segment": "–Between nations"
+      "label": "Between nations",
+      "references": []
     },
     {
-      "idx": 1,
-      "entry_label": "–Ceding of the territory by1Ki 9:10-14;20:34",
-      "raw_segment": "–Ceding of the territory by1Ki 9:10-14;20:34"
+      "label": ".Israelites and Gibeonites",
+      "references": [
+        "Joshua 9:3-15"
+      ]
     },
     {
-      "idx": 2,
-      "entry_label": "–Sacredness ofJos 9:16-21; with 2:8-21",
-      "raw_segment": "–Sacredness ofJos 9:16-21; with 2:8-21"
+      "label": ".",
+      "references": [
+        "1 Kings 15:19"
+      ]
     },
     {
-      "idx": 3,
-      "entry_label": "–Reciprocity1Ki 5:1-12",
-      "raw_segment": "–Reciprocity1Ki 5:1-12"
+      "label": "Ceding of the territory by",
+      "references": [
+        "1 Kings 9:10-14",
+        "1 Kings 20:34"
+      ]
     },
     {
-      "idx": 4,
-      "entry_label": "–With idolatrous nations forbiddenEx 34:12,15",
-      "raw_segment": "–With idolatrous nations forbiddenEx 34:12,15"
+      "label": "Sacredness of",
+      "references": [
+        "Joshua 9:16-21",
+        "Joshua 2:8-21"
+      ]
+    },
+    {
+      "label": "Reciprocity",
+      "references": [
+        "1 Kings 5:1-12"
+      ]
+    },
+    {
+      "label": "With idolatrous nations forbid",
+      "references": [
+        "Exodus 34:12,15"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Joshua",
+      "chapter": 9,
+      "verses": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "verse_count": 13,
+      "testament": "OT",
+      "raw": "Joshua 9:3-15"
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 15,
+      "verses": [
+        19
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Kings 15:19"
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 9,
+      "verses": [
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "verse_count": 5,
+      "testament": "OT",
+      "raw": "1 Kings 9:10-14"
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 20,
+      "verses": [
+        34
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Kings 20:34"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 9,
+      "verses": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "verse_count": 6,
+      "testament": "OT",
+      "raw": "Joshua 9:16-21"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 2,
+      "verses": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "verse_count": 14,
+      "testament": "OT",
+      "raw": "Joshua 2:8-21"
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 5,
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "verse_count": 12,
+      "testament": "OT",
+      "raw": "1 Kings 5:1-12"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 34,
+      "verses": [
+        12,
+        15
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Exodus 34:12,15"
+    }
+  ],
+  "books_mentioned": [
+    "1 Kings",
+    "Exodus",
+    "Joshua"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 7,
+    "total_refs": 8,
+    "ot_refs": 8,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:6f2414ed1e9a1e86e4599cb26d06c08dc39cec77862360daa9bc7893ce22e6a9",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 7
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 3,
+    "top_books": [
+      "1 Kings",
+      "Joshua",
+      "Exodus"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:32:20.582691Z",
-  "updated_at": "2025-09-20T17:32:20.582699Z"
+  }
 }

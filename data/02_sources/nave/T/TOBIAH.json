@@ -1,69 +1,147 @@
 {
   "topic": "TOBIAH",
-  "topic_slug": "tobiah",
+  "slug": "tobiah",
   "canonical_id": "NAV:tobiah",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–1. Ancestor of a family of Babylonian captivesEzr \n2:60;Ne 7:62\n–2. An enemy of the Jews in the time of Nehemiah\n  .Opposes the rebuilding of the wall of JerusalemNe \n2:10,19;4:3,7,8\n  .Conspires to injure and intimidate NehemiahNe 6:1-14,19\n  .Subverts nobles of JudahNe 6:17,18\n  .Allies himself with Eliashib, the priestNe 13:4-9",
-  "content_preview": "–1. Ancestor of a family of Babylonian captivesEzr ",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–1. Ancestor of a family of Babylonian captivesEzr \n2:60;Ne 7:62",
-      "raw_segment": "–1. Ancestor of a family of Babylonian captivesEzr \n2:60;Ne 7:62"
+      "label": "1. Ancestor of a family of Babylonian",
+      "references": []
     },
     {
-      "idx": 1,
-      "entry_label": "–2. An enemy of the Jews in the time of Nehemiah",
-      "raw_segment": "–2. An enemy of the Jews in the time of Nehemiah"
+      "label": "2:60;",
+      "references": [
+        "Nehemiah 7:62"
+      ]
+    },
+    {
+      "label": "2. An enemy of the Jews in the time of Nehemiah",
+      "references": []
+    },
+    {
+      "label": ".Opposes the rebuilding of the wall of",
+      "references": []
+    },
+    {
+      "label": "2:10,19;4:3,7,8",
+      "references": []
+    },
+    {
+      "label": ".Conspires to injure and intimidate Nehemiah",
+      "references": [
+        "Nehemiah 6:1-14,19"
+      ]
+    },
+    {
+      "label": ".Subverts nobles of",
+      "references": [
+        "Nehemiah 6:17,18"
+      ]
+    },
+    {
+      "label": ".Allies himself with Eliashib, the priest",
+      "references": [
+        "Nehemiah 13:4-9"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Nehemiah",
+      "chapter": 7,
+      "verses": [
+        62
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Nehemiah 7:62"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 2,
+      "verses": [
+        10,
+        19
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Nehemiah 2:10,19"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 4,
+      "verses": [
+        3,
+        7,
+        8
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Nehemiah 4:3,7,8"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 6,
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        19
+      ],
+      "verse_count": 15,
+      "testament": "OT",
+      "raw": "Nehemiah 6:1-14,19"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 6,
+      "verses": [
+        17,
+        18
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Nehemiah 6:17,18"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 13,
+      "verses": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "verse_count": 6,
+      "testament": "OT",
+      "raw": "Nehemiah 13:4-9"
+    }
+  ],
+  "books_mentioned": [
+    "Nehemiah"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 8,
+    "total_refs": 6,
+    "ot_refs": 6,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:7d4cf4451fc704212ac4c41b852f13300eea7706532ecc2df772d47549c926c2",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 8
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 1,
+    "top_books": [
+      "Nehemiah"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:32:15.388768Z",
-  "updated_at": "2025-09-20T17:32:15.388775Z"
+  }
 }

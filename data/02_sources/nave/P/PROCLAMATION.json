@@ -1,69 +1,172 @@
 {
   "topic": "PROCLAMATION",
-  "topic_slug": "proclamation",
+  "slug": "proclamation",
   "canonical_id": "NAV:proclamation",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–Imperial2Ch 30:1-10;Es 1:22;6:9;8:10-14;Isa 40:3,9;Da 3:4-7;4:1;5:29\n–Emancipation2Ch 36:23;Ezr 1:1-4",
-  "content_preview": "–Imperial2Ch 30:1-10;Es 1:22;6:9;8:10-14;Isa 40:3,9;Da 3:4-7;4:1;5:29",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–Imperial2Ch 30:1-10;Es 1:22;6:9;8:10-14;Isa 40:3,9;Da 3:4-7;4:1;5:29",
-      "raw_segment": "–Imperial2Ch 30:1-10;Es 1:22;6:9;8:10-14;Isa 40:3,9;Da 3:4-7;4:1;5:29"
+      "label": "Imperial",
+      "references": [
+        "2 Chronicles 30:1-10",
+        "Esther 1:22",
+        "Esther 6:9",
+        "Esther 8:10-14",
+        "Isaiah 40:3,9",
+        "Daniel 3:4-7",
+        "Daniel 4:1",
+        "Daniel 5:29"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–Emancipation2Ch 36:23;Ezr 1:1-4",
-      "raw_segment": "–Emancipation2Ch 36:23;Ezr 1:1-4"
+      "label": "Emancipation",
+      "references": [
+        "2 Chronicles 36:23",
+        "Ezra 1:1-4"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "2 Chronicles",
+      "chapter": 30,
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "verse_count": 10,
+      "testament": "OT",
+      "raw": "2 Chronicles 30:1-10"
+    },
+    {
+      "book": "Esther",
+      "chapter": 1,
+      "verses": [
+        22
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Esther 1:22"
+    },
+    {
+      "book": "Esther",
+      "chapter": 6,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Esther 6:9"
+    },
+    {
+      "book": "Esther",
+      "chapter": 8,
+      "verses": [
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "verse_count": 5,
+      "testament": "OT",
+      "raw": "Esther 8:10-14"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 40,
+      "verses": [
+        3,
+        9
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Isaiah 40:3,9"
+    },
+    {
+      "book": "Daniel",
+      "chapter": 3,
+      "verses": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "verse_count": 4,
+      "testament": "OT",
+      "raw": "Daniel 3:4-7"
+    },
+    {
+      "book": "Daniel",
+      "chapter": 4,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Daniel 4:1"
+    },
+    {
+      "book": "Daniel",
+      "chapter": 5,
+      "verses": [
+        29
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Daniel 5:29"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 36,
+      "verses": [
+        23
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Chronicles 36:23"
+    },
+    {
+      "book": "Ezra",
+      "chapter": 1,
+      "verses": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "verse_count": 4,
+      "testament": "OT",
+      "raw": "Ezra 1:1-4"
+    }
+  ],
+  "books_mentioned": [
+    "2 Chronicles",
+    "Daniel",
+    "Esther",
+    "Ezra",
+    "Isaiah"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 2,
+    "total_refs": 10,
+    "ot_refs": 10,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:518e1b790f1680a0d7ecbdc8ad8c06183c5b5795142c863899aef7ccf447dbf3",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 5,
+    "top_books": [
+      "Esther",
+      "Daniel",
+      "2 Chronicles",
+      "Isaiah",
+      "Ezra"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:30:18.345754Z",
-  "updated_at": "2025-09-20T17:30:18.345761Z"
+  }
 }

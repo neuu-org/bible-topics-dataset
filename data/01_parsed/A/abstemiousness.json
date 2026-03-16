@@ -1,56 +1,108 @@
 {
   "topic": "ABSTEMIOUSNESS",
   "slug": "abstemiousness",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "General scriptures concerning Pr 23:1-3",
-      "references": [
-        "Prov 23:1-3"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "INSTANCES OF",
-      "references": [],
-      "sub_groups": [
-        {
-          "name": "Daniel and his Hebrew companions Da 1:8-16",
-          "references": [
-            "Dan 1:8-16"
-          ]
-        },
-        {
-          "name": "John the Baptist Mt 11:19",
-          "references": [
-            "Matt 11:19"
-          ]
-        }
-      ]
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [
-    "TEMPERANCE",
-    "ABSTINENCE"
-  ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.660802+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
+  "see_also": [
+    "ABSTINENCE",
+    "TEMPERANCE"
+  ],
+  "aspects": [
+    {
+      "label": "General scriptures concerning",
+      "references": [
+        "Proverbs 23:1-3"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "INSTANCES OF",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".Daniel and his Hebrew companions",
+      "references": [
+        "Daniel 1:8-16"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".",
+      "references": [
+        "Matthew 11:19"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".SeeABSTINENCE",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".SeeTEMPERANCE",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0"
+  ],
+  "biblical_references": [
+    {
+      "book": "Proverbs",
+      "chapter": 23,
+      "verses": [
+        1,
+        2,
+        3
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Proverbs 23:1-3"
+    },
+    {
+      "book": "Daniel",
+      "chapter": 1,
+      "verses": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "verse_count": 9,
+      "testament": "OT",
+      "raw": "Daniel 1:8-16"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 11,
+      "verses": [
+        19
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 11:19"
+    }
+  ],
+  "books_mentioned": [
+    "Daniel",
+    "Matthew",
+    "Proverbs"
+  ],
+  "stats": {
+    "total_aspects": 6,
+    "total_refs": 3,
+    "ot_refs": 2,
+    "nt_refs": 1,
+    "books_count": 3,
+    "top_books": [
+      "Proverbs",
+      "Daniel",
+      "Matthew"
+    ]
+  }
 }

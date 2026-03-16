@@ -1,81 +1,55 @@
 {
   "topic": "AMITTAI",
   "slug": "amittai",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "Father of Jonah 2Ki 14:25; Jon 1:1",
+      "label": "Father ofJonah",
       "references": [
-        "Jonah 2",
+        "2 Kings 14:25",
         "Jonah 1:1"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
       "book": "2 Kings",
-      "book_abbrev": "2ki",
       "chapter": 14,
-      "testament": "OT",
       "verses": [
         25
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Kings 14:25"
     },
     {
       "book": "Jonah",
-      "book_abbrev": "jon",
       "chapter": 1,
-      "testament": "OT",
       "verses": [
         1
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Jonah 1:1"
     }
   ],
-  "see_also": [],
-  "aliases": [],
+  "books_mentioned": [
+    "2 Kings",
+    "Jonah"
+  ],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 1,
+    "total_refs": 2,
     "ot_refs": 2,
     "nt_refs": 0,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.662999+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "2 Kings",
-      "chapter": 14,
-      "verses": [
-        25
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "2 Kings 14:25",
-      "source": "EAS"
-    },
-    {
-      "book": "Jonah",
-      "chapter": 1,
-      "verses": [
-        1
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Jonah 1:1",
-      "source": "EAS"
-    }
-  ]
+    "books_count": 2,
+    "top_books": [
+      "2 Kings",
+      "Jonah"
+    ]
+  }
 }

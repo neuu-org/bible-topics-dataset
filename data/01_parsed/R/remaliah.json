@@ -1,131 +1,35 @@
 {
   "topic": "REMALIAH",
   "slug": "remaliah",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "Father of Pekah, king of Israel 2Ki 15:25,27,30; 16:1,5; 2Ch 28:6; Isa 7:1,4; 8:6",
+      "label": "Father of Pekah, king of Israel",
       "references": [
-        "2Kgs 15:25",
-        "2Kgs 15:27",
-        "2Kgs 15:30",
-        "2Kgs 16:1",
-        "2Kgs 16:5",
-        "2Chr 28:6",
-        "Isa 7:1",
-        "Isa 7:4",
-        "Isa 8:6"
+        "2 Kings 15:25,27,30",
+        "2 Kings 16:1,5",
+        "2 Chronicles 28:6",
+        "Isaiah 7:1,4",
+        "Isaiah 8:6"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "2 Chronicles",
-      "book_abbrev": "2ch",
-      "chapter": 28,
-      "testament": "OT",
-      "verses": [
-        6
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Isaiah",
-      "book_abbrev": "isa",
-      "chapter": 7,
-      "testament": "OT",
-      "verses": [
-        1,
-        4,
-        8
-      ],
-      "verse_count": 3
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 2,
-    "nt_refs": 0,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.721210+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
       "book": "2 Kings",
       "chapter": 15,
       "verses": [
         25,
         27,
-        30,
-        32,
-        37
+        30
       ],
-      "verse_count": 5,
+      "verse_count": 3,
       "testament": "OT",
-      "raw": "2 Kings 15:25, 27, 30, 32, 37",
-      "source": "EAS"
-    },
-    {
-      "book": "Isaiah",
-      "chapter": 7,
-      "verses": [
-        1,
-        4,
-        5,
-        9
-      ],
-      "verse_count": 4,
-      "testament": "OT",
-      "raw": "Isaiah 7:1, 4, 5, 9",
-      "source": "EAS"
-    },
-    {
-      "book": "Isaiah",
-      "chapter": 8,
-      "verses": [
-        6
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Isaiah 8:6",
-      "source": "EAS"
-    },
-    {
-      "book": "2 Kings",
-      "chapter": 15,
-      "verses": [
-        25,
-        26,
-        27,
-        28,
-        29,
-        30,
-        31,
-        32,
-        33,
-        34,
-        35,
-        36,
-        37
-      ],
-      "verse_count": 13,
-      "testament": "OT",
-      "raw": "2 Kings 15:25-37",
-      "source": "SMI"
+      "raw": "2 Kings 15:25,27,30"
     },
     {
       "book": "2 Kings",
@@ -136,8 +40,7 @@
       ],
       "verse_count": 2,
       "testament": "OT",
-      "raw": "2 Kings 16:1,5",
-      "source": "SMI"
+      "raw": "2 Kings 16:1,5"
     },
     {
       "book": "2 Chronicles",
@@ -147,27 +50,45 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Chronicles 28:6",
-      "source": "SMI"
+      "raw": "2 Chronicles 28:6"
     },
     {
       "book": "Isaiah",
       "chapter": 7,
       "verses": [
         1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9
+        4
       ],
-      "verse_count": 9,
+      "verse_count": 2,
       "testament": "OT",
-      "raw": "Isaiah 7:1-9",
-      "source": "SMI"
+      "raw": "Isaiah 7:1,4"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 8,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 8:6"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "2 Chronicles",
+    "2 Kings",
+    "Isaiah"
+  ],
+  "stats": {
+    "total_aspects": 1,
+    "total_refs": 5,
+    "ot_refs": 5,
+    "nt_refs": 0,
+    "books_count": 3,
+    "top_books": [
+      "2 Kings",
+      "Isaiah",
+      "2 Chronicles"
+    ]
+  }
 }

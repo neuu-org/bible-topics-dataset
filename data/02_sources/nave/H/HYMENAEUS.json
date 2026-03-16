@@ -1,64 +1,53 @@
 {
   "topic": "HYMENAEUS",
-  "topic_slug": "hymenaeus",
+  "slug": "hymenaeus",
   "canonical_id": "NAV:hymenaeus",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–A false teacher1Ti 1:20;2Ti 2:17",
-  "content_preview": "–A false teacher1Ti 1:20;2Ti 2:17",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–A false teacher1Ti 1:20;2Ti 2:17",
-      "raw_segment": "–A false teacher1Ti 1:20;2Ti 2:17"
+      "label": "A false teacher",
+      "references": [
+        "1 Timothy 1:20",
+        "2 Timothy 2:17"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "1 Timothy",
+      "chapter": 1,
+      "verses": [
+        20
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "1 Timothy 1:20"
+    },
+    {
+      "book": "2 Timothy",
+      "chapter": 2,
+      "verses": [
+        17
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "2 Timothy 2:17"
+    }
+  ],
+  "books_mentioned": [
+    "1 Timothy",
+    "2 Timothy"
+  ],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 1,
+    "total_refs": 2,
     "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:c3eeee29c1ea006a5afab7de50d15440e16ce560812bc07aa65101e0b29bb535",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 1
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "nt_refs": 2,
+    "books_count": 2,
+    "top_books": [
+      "1 Timothy",
+      "2 Timothy"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:27:27.109629Z",
-  "updated_at": "2025-09-20T17:27:27.109639Z"
+  }
 }

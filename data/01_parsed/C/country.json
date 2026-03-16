@@ -1,47 +1,96 @@
 {
   "topic": "COUNTRY",
   "slug": "country",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [
+    "ALSO PATRIOTISM",
+    "CHURCH, LOVE OF"
+  ],
+  "aspects": [
     {
-      "name": "LOVE OF Jud 5:1-31; 2Sa 10:12; Ne 1:1-11; 2:1-20; 5:1-18; Ps 137:1-6",
+      "label": "LOVE OF",
       "references": [
-        "Judg 5:1-31",
-        "2Sam 10:12",
-        "Neh 1:1-11",
-        "Neh 2:1-20",
-        "Neh 5:1-18",
-        "Ps 137:1-6"
+        "Judges 5:1-31",
+        "2 Samuel 10:12",
+        "Nehemiah 1:1-11",
+        "Nehemiah 2:1-20",
+        "Nehemiah 5:1-18",
+        "Psalms 137:1-6"
       ],
-      "sub_groups": [
-        {
-          "name": "The Jews held religion and country as one (a theocracy), therefore",
-          "references": []
-        }
-      ]
+      "source": "NAV"
     },
     {
-      "name": "See also PATRIOTISM",
+      "label": ".The Jews held religion and country as one (a theocracy), therefore",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
+    },
+    {
+      "label": ".SeeCHURCH, LOVE OF",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "Seeal",
+      "references": [],
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "2 Samuel",
-      "book_abbrev": "2sa",
-      "chapter": 10,
+      "book": "Judges",
+      "chapter": 5,
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "verse_count": 31,
       "testament": "OT",
+      "raw": "Judges 5:1-31"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 10,
       "verses": [
         12
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Samuel 10:12"
     },
     {
       "book": "Nehemiah",
-      "book_abbrev": "neh",
       "chapter": 1,
-      "testament": "OT",
       "verses": [
         1,
         2,
@@ -55,13 +104,69 @@
         10,
         11
       ],
-      "verse_count": 11
+      "verse_count": 11,
+      "testament": "OT",
+      "raw": "Nehemiah 1:1-11"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 2,
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "verse_count": 20,
+      "testament": "OT",
+      "raw": "Nehemiah 2:1-20"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 5,
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "verse_count": 18,
+      "testament": "OT",
+      "raw": "Nehemiah 5:1-18"
     },
     {
       "book": "Psalms",
-      "book_abbrev": "psa",
       "chapter": 137,
-      "testament": "OT",
       "verses": [
         1,
         2,
@@ -70,30 +175,28 @@
         5,
         6
       ],
-      "verse_count": 6
+      "verse_count": 6,
+      "testament": "OT",
+      "raw": "Psalms 137:1-6"
     }
   ],
-  "see_also": [
-    "ALSO PATRIOTISM",
-    "CHURCH, LOVE OF"
+  "books_mentioned": [
+    "2 Samuel",
+    "Judges",
+    "Nehemiah",
+    "Psalms"
   ],
-  "aliases": [],
   "stats": {
-    "entries_count": 2,
-    "ot_refs": 3,
+    "total_aspects": 4,
+    "total_refs": 6,
+    "ot_refs": 6,
     "nt_refs": 0,
-    "total_verses": 3
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.679558+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    }
-  },
-  "version": "3.0.0"
+    "books_count": 4,
+    "top_books": [
+      "Nehemiah",
+      "Judges",
+      "2 Samuel",
+      "Psalms"
+    ]
+  }
 }

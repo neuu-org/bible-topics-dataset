@@ -1,76 +1,22 @@
 {
   "topic": "ANNAS",
   "slug": "annas",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Associate high priest with Caiaphas Lu 3:2; Joh 18:13,19,24; Ac 4:6",
-      "references": [
-        "Luke 3:2",
-        "John 18:13",
-        "John 18:19",
-        "John 18:24",
-        "Acts 4:6"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "John",
-      "book_abbrev": "jhn",
-      "chapter": 18,
-      "testament": "NT",
-      "verses": [
-        13,
-        19,
-        24
-      ],
-      "verse_count": 3
-    },
-    {
-      "book": "Acts",
-      "book_abbrev": "act",
-      "chapter": 4,
-      "testament": "NT",
-      "verses": [
-        6
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 2,
-    "total_verses": 2
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.663581+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "see_also": [],
+  "aspects": [
     {
-      "book": "John",
-      "chapter": 18,
-      "verses": [
-        13
+      "label": "As",
+      "references": [
+        "Luke 3:2",
+        "John 18:13,19,24",
+        "Acts 4:6"
       ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "John 18:13",
-      "source": "EAS"
-    },
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
     {
       "book": "Luke",
       "chapter": 3,
@@ -79,56 +25,19 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Luke 3:2",
-      "source": "EAS"
-    },
-    {
-      "book": "Numbers",
-      "chapter": 3,
-      "verses": [
-        10
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Numbers 3:10",
-      "source": "EAS"
+      "raw": "Luke 3:2"
     },
     {
       "book": "John",
       "chapter": 18,
       "verses": [
+        13,
         19,
-        20,
-        21,
-        22,
-        23
+        24
       ],
-      "verse_count": 5,
+      "verse_count": 3,
       "testament": "NT",
-      "raw": "John 18:19-23",
-      "source": "EAS"
-    },
-    {
-      "book": "Matthew",
-      "chapter": 26,
-      "verses": [
-        57,
-        58,
-        59,
-        60,
-        61,
-        62,
-        63,
-        64,
-        65,
-        66,
-        67,
-        68
-      ],
-      "verse_count": 12,
-      "testament": "NT",
-      "raw": "Matthew 26:57-68",
-      "source": "EAS"
+      "raw": "John 18:13,19,24"
     },
     {
       "book": "Acts",
@@ -138,8 +47,24 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Acts 4:6",
-      "source": "EAS"
+      "raw": "Acts 4:6"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Acts",
+    "John",
+    "Luke"
+  ],
+  "stats": {
+    "total_aspects": 1,
+    "total_refs": 3,
+    "ot_refs": 0,
+    "nt_refs": 3,
+    "books_count": 3,
+    "top_books": [
+      "Luke",
+      "John",
+      "Acts"
+    ]
+  }
 }

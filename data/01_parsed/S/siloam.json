@@ -1,80 +1,45 @@
 {
   "topic": "SILOAM",
   "slug": "siloam",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Also called SHILOAH and SILOAH",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "A pool in Jerusalem Ne 3:15; Isa 8:6",
-      "references": [
-        "Neh 3:15",
-        "Isa 8:6"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Jesus directs the blind man whom he had healed to wash in Joh 9:1-11",
-      "references": [
-        "John 9:1-11"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Tower of, in the wall of Jerusalem, falls and kills eighteen people Lu 13:4",
-      "references": [
-        "Luke 13:4"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Isaiah",
-      "book_abbrev": "isa",
-      "chapter": 8,
-      "testament": "OT",
-      "verses": [
-        6
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 4,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.726394+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "see_also": [],
+  "aspects": [
     {
-      "book": "Isaiah",
-      "chapter": 8,
-      "verses": [
-        6
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Isaiah 8:6",
-      "source": "SMI"
+      "label": "Al",
+      "references": [],
+      "source": "NAV"
     },
+    {
+      "label": "A pool in",
+      "references": [
+        "Nehemiah 3:15",
+        "Isaiah 8:6"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Jesus directs the blind man whom he had healed to wash in",
+      "references": [
+        "John 9:1-11"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Tower of, in the wall of",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "people",
+      "references": [
+        "Luke 13:4"
+      ],
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
     {
       "book": "Nehemiah",
       "chapter": 3,
@@ -83,30 +48,66 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Nehemiah 3:15",
-      "source": "SMI"
+      "raw": "Nehemiah 3:15"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 8,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 8:6"
     },
     {
       "book": "John",
       "chapter": 9,
       "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
         11
+      ],
+      "verse_count": 11,
+      "testament": "NT",
+      "raw": "John 9:1-11"
+    },
+    {
+      "book": "Luke",
+      "chapter": 13,
+      "verses": [
+        4
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "John 9:11",
-      "source": "SMI"
-    },
-    {
-      "book": "Nehemiah",
-      "chapter": 2,
-      "verses": [
-        14
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Nehemiah 2:14",
-      "source": "SMI"
+      "raw": "Luke 13:4"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Isaiah",
+    "John",
+    "Luke",
+    "Nehemiah"
+  ],
+  "stats": {
+    "total_aspects": 5,
+    "total_refs": 4,
+    "ot_refs": 2,
+    "nt_refs": 2,
+    "books_count": 4,
+    "top_books": [
+      "Nehemiah",
+      "Isaiah",
+      "John",
+      "Luke"
+    ]
+  }
 }

@@ -1,78 +1,97 @@
 {
   "topic": "HETH",
-  "topic_slug": "heth",
+  "slug": "heth",
   "canonical_id": "NAV:heth",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "HITTITES"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "HITTITES",
-      "clean": "HITTITES",
-      "slug": "hittites",
-      "canonical_id": "NAV:hittites"
-    }
-  ],
-  "raw_block": "–Son of Canaan, and ancestor of the HittitesGe 10:15;23:3,5,7,10,16,18;27:46;49:32;1Ch 1:13\n–SeeHITTITES",
-  "content_preview": "–Son of Canaan, and ancestor of the HittitesGe 10:15;23:3,5,7,10,16,18;27:46;49:32;1Ch 1:13",
-  "reference_groups": [
-    {
-      "idx": 0,
-      "entry_label": "–Son of Canaan, and ancestor of the HittitesGe 10:15;23:3,5,7,10,16,18;27:46;49:32;1Ch 1:13",
-      "raw_segment": "–Son of Canaan, and ancestor of the HittitesGe 10:15;23:3,5,7,10,16,18;27:46;49:32;1Ch 1:13"
+      "label": "General references",
+      "references": [
+        "Genesis 10:15",
+        "Genesis 23:3,5,7,10,16,18",
+        "Genesis 27:46",
+        "Genesis 49:32",
+        "1 Chronicles 1:13"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–SeeHITTITES",
-      "raw_segment": "–SeeHITTITES"
+      "label": "SeeHITTITES",
+      "references": []
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Genesis",
+      "chapter": 10,
+      "verses": [
+        15
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 10:15"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 23,
+      "verses": [
+        3,
+        5,
+        7,
+        10,
+        16,
+        18
+      ],
+      "verse_count": 6,
+      "testament": "OT",
+      "raw": "Genesis 23:3,5,7,10,16,18"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 27,
+      "verses": [
+        46
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 27:46"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 49,
+      "verses": [
+        32
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 49:32"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 1,
+      "verses": [
+        13
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 1:13"
+    }
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Genesis"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 2,
+    "total_refs": 5,
+    "ot_refs": 5,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:4e04e097d86e153862558b5063d1625d06c49459e52f403dc737e749b7490d76",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 2,
+    "top_books": [
+      "Genesis",
+      "1 Chronicles"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:27:13.595409Z",
-  "updated_at": "2025-09-20T17:27:13.595418Z"
+  }
 }

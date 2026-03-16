@@ -1,53 +1,74 @@
 {
   "topic": "POPULARITY",
   "slug": "popularity",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "INSTANCES OF",
-      "references": [],
-      "sub_groups": [
-        {
-          "name": "David 2Sa 3:36",
-          "references": [
-            "2Sam 3:36"
-          ]
-        },
-        {
-          "name": "Absalom 2Sa 15:2-6,13",
-          "references": [
-            "2Sam 15:2-6",
-            "2Sam 15:13"
-          ]
-        },
-        {
-          "name": "Job Job 29",
-          "references": [
-            "Job 29"
-          ]
-        }
-      ]
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.718966+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "INSTANCES OF",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".David",
+      "references": [
+        "2 Samuel 3:36"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".Absalom",
+      "references": [
+        "2 Samuel 15:2-6,13"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".JobJob 29",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0"
+  ],
+  "biblical_references": [
+    {
+      "book": "2 Samuel",
+      "chapter": 3,
+      "verses": [
+        36
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Samuel 3:36"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 15,
+      "verses": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        13
+      ],
+      "verse_count": 6,
+      "testament": "OT",
+      "raw": "2 Samuel 15:2-6,13"
+    }
+  ],
+  "books_mentioned": [
+    "2 Samuel"
+  ],
+  "stats": {
+    "total_aspects": 4,
+    "total_refs": 2,
+    "ot_refs": 2,
+    "nt_refs": 0,
+    "books_count": 1,
+    "top_books": [
+      "2 Samuel"
+    ]
+  }
 }

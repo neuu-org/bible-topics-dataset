@@ -1,66 +1,128 @@
 {
   "topic": "EXPEDIENCY",
   "slug": "expediency",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [
+    "EVIL, APPEARANCE OF, TO BE AVOIDED",
+    "PRUDENCE"
+  ],
+  "aspects": [
     {
-      "name": "General scriptures concerning Ro 14:14-22; 1Co 6:12; 8:8-13; 9:19-23; 10:23-33",
+      "label": "General scriptures concerning",
       "references": [
-        "Rom 14:14-22",
-        "1Cor 6:12",
-        "1Cor 8:8-13",
-        "1Cor 9:19-23",
-        "1Cor 10:23-33"
+        "Romans 14:14-22",
+        "1 Corinthians 6:12",
+        "1 Corinthians 8:8-13",
+        "1 Corinthians 9:19-23",
+        "1 Corinthians 10:23-33"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See EVIL, APPEARANCE OF, TO BE AVOIDED",
+      "label": "SeeEVIL, APPEARANCE OF, TO BE AVOI",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See PRUDENCE",
+      "label": "SeePRU",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "1 Corinthians",
-      "book_abbrev": "1co",
-      "chapter": 6,
-      "testament": "NT",
+      "book": "Romans",
+      "chapter": 14,
       "verses": [
-        8,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "verse_count": 9,
+      "testament": "NT",
+      "raw": "Romans 14:14-22"
+    },
+    {
+      "book": "1 Corinthians",
+      "chapter": 6,
+      "verses": [
         12
       ],
-      "verse_count": 2
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "1 Corinthians 6:12"
+    },
+    {
+      "book": "1 Corinthians",
+      "chapter": 8,
+      "verses": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "verse_count": 6,
+      "testament": "NT",
+      "raw": "1 Corinthians 8:8-13"
+    },
+    {
+      "book": "1 Corinthians",
+      "chapter": 9,
+      "verses": [
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "verse_count": 5,
+      "testament": "NT",
+      "raw": "1 Corinthians 9:19-23"
+    },
+    {
+      "book": "1 Corinthians",
+      "chapter": 10,
+      "verses": [
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33
+      ],
+      "verse_count": 11,
+      "testament": "NT",
+      "raw": "1 Corinthians 10:23-33"
     }
   ],
-  "see_also": [
-    "PRUDENCE",
-    "EVIL, APPEARANCE OF, TO BE AVOIDED"
+  "books_mentioned": [
+    "1 Corinthians",
+    "Romans"
   ],
-  "aliases": [],
   "stats": {
-    "entries_count": 3,
+    "total_aspects": 3,
+    "total_refs": 5,
     "ot_refs": 0,
-    "nt_refs": 1,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.685707+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    },
-    "enriched_at": "2025-12-02T22:02:10.026316+00:00",
-    "enrichment_source": "pipeline_merge"
-  },
-  "version": "3.0.0"
+    "nt_refs": 5,
+    "books_count": 2,
+    "top_books": [
+      "1 Corinthians",
+      "Romans"
+    ]
+  }
 }

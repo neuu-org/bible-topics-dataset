@@ -1,59 +1,79 @@
 {
   "topic": "DYEING",
   "slug": "dyeing",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "General scriptures concerning Ex 25:5; 26:14; Isa 63:1; Eze 23:15",
+      "label": "General scriptures concerning",
       "references": [
-        "Exod 25:5",
-        "Exod 26:14",
-        "Isa 63:1",
-        "Ezek 23:15"
+        "Exodus 25:5",
+        "Exodus 26:14",
+        "Isaiah 63:1",
+        "Ezekiel 23:15"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Isaiah",
-      "book_abbrev": "isa",
-      "chapter": 63,
+      "book": "Exodus",
+      "chapter": 25,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
       "testament": "OT",
+      "raw": "Exodus 25:5"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 26,
+      "verses": [
+        14
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 26:14"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 63,
       "verses": [
         1
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 63:1"
     },
     {
       "book": "Ezekiel",
-      "book_abbrev": "ezk",
       "chapter": 23,
-      "testament": "OT",
       "verses": [
         15
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezekiel 23:15"
     }
   ],
-  "see_also": [],
-  "aliases": [],
+  "books_mentioned": [
+    "Exodus",
+    "Ezekiel",
+    "Isaiah"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 2,
+    "total_aspects": 1,
+    "total_refs": 4,
+    "ot_refs": 4,
     "nt_refs": 0,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.682713+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    }
-  },
-  "version": "3.0.0"
+    "books_count": 3,
+    "top_books": [
+      "Exodus",
+      "Isaiah",
+      "Ezekiel"
+    ]
+  }
 }

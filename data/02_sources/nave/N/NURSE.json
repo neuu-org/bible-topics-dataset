@@ -1,69 +1,134 @@
 {
   "topic": "NURSE",
-  "topic_slug": "nurse",
+  "slug": "nurse",
   "canonical_id": "NAV:nurse",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–General scriptures concerningGe 24:59;35:8;Ex 2:7;Ru 4:16;2Ki 11:2;Isa 60:4;1Th 2:7\n–Careless2Sa 4:4",
-  "content_preview": "–General scriptures concerningGe 24:59;35:8;Ex 2:7;Ru 4:16;2Ki 11:2;Isa 60:4;1Th 2:7",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–General scriptures concerningGe 24:59;35:8;Ex 2:7;Ru 4:16;2Ki 11:2;Isa 60:4;1Th 2:7",
-      "raw_segment": "–General scriptures concerningGe 24:59;35:8;Ex 2:7;Ru 4:16;2Ki 11:2;Isa 60:4;1Th 2:7"
+      "label": "General scriptures concerning",
+      "references": [
+        "Genesis 24:59",
+        "Genesis 35:8",
+        "Exodus 2:7",
+        "Ruth 4:16",
+        "2 Kings 11:2",
+        "Isaiah 60:4",
+        "1 Thessalonians 2:7"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–Careless2Sa 4:4",
-      "raw_segment": "–Careless2Sa 4:4"
+      "label": "General references",
+      "references": [
+        "2 Samuel 4:4"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Genesis",
+      "chapter": 24,
+      "verses": [
+        59
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 24:59"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 35,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 35:8"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 2,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 2:7"
+    },
+    {
+      "book": "Ruth",
+      "chapter": 4,
+      "verses": [
+        16
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ruth 4:16"
+    },
+    {
+      "book": "2 Kings",
+      "chapter": 11,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Kings 11:2"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 60,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 60:4"
+    },
+    {
+      "book": "1 Thessalonians",
+      "chapter": 2,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "1 Thessalonians 2:7"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 4,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Samuel 4:4"
+    }
+  ],
+  "books_mentioned": [
+    "1 Thessalonians",
+    "2 Kings",
+    "2 Samuel",
+    "Exodus",
+    "Genesis",
+    "Isaiah",
+    "Ruth"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:c9a3a5b1a3091eeaae42590b8cf151bb0d4d017c33e2b329af7a2b13fca1f3ff",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 2,
+    "total_refs": 8,
+    "ot_refs": 7,
+    "nt_refs": 1,
+    "books_count": 7,
+    "top_books": [
+      "Genesis",
+      "Exodus",
+      "Ruth",
+      "2 Kings",
+      "Isaiah",
+      "1 Thessalonians",
+      "2 Samuel"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:29:36.797205Z",
-  "updated_at": "2025-09-20T17:29:36.797213Z"
+  }
 }

@@ -1,85 +1,48 @@
 {
   "topic": "KOHATH",
   "slug": "kohath",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Son of Levi Ge 46:11; Ex 6:16",
-      "references": [
-        "Gen 46:11",
-        "Exod 6:16"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Grandfather of Moses, Aaron, and Miriam Nu 26:58,59",
-      "references": [
-        "Num 26:58",
-        "Num 26:59"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Father of the Kohathites, one of the divisions (shifts) of the Levites Ex 6:18; Nu 3:19,27",
-      "references": [
-        "Exod 6:18",
-        "Num 3:19",
-        "Num 3:27"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "See LEVITES",
-      "references": [],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Exodus",
-      "book_abbrev": "exo",
-      "chapter": 6,
-      "testament": "OT",
-      "verses": [
-        16
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Numbers",
-      "book_abbrev": "num",
-      "chapter": 3,
-      "testament": "OT",
-      "verses": [
-        19,
-        27
-      ],
-      "verse_count": 2
-    }
+  "sources": [
+    "NAV"
   ],
   "see_also": [
     "LEVITES"
   ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 4,
-    "ot_refs": 2,
-    "nt_refs": 0,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.699461+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "aspects": [
+    {
+      "label": "General references",
+      "references": [
+        "Genesis 46:11",
+        "Exodus 6:16"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Grandfather of Moses, Aaron, and Miriam",
+      "references": [
+        "Numbers 26:58,59"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Father of the Kohathites, one of the divisions (shifts) of the",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "Levites",
+      "references": [
+        "Exodus 6:18",
+        "Numbers 3:19,27"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeLEVITES",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Genesis",
       "chapter": 46,
@@ -88,8 +51,28 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 46:11",
-      "source": "EAS"
+      "raw": "Genesis 46:11"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 6,
+      "verses": [
+        16
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 6:16"
+    },
+    {
+      "book": "Numbers",
+      "chapter": 26,
+      "verses": [
+        58,
+        59
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Numbers 26:58,59"
     },
     {
       "book": "Exodus",
@@ -99,41 +82,35 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Exodus 6:18",
-      "source": "EAS"
-    },
-    {
-      "book": "Exodus",
-      "chapter": 6,
-      "verses": [
-        16
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Exodus 6:16",
-      "source": "SMI"
+      "raw": "Exodus 6:18"
     },
     {
       "book": "Numbers",
-      "chapter": 4,
+      "chapter": 3,
       "verses": [
-        1
+        19,
+        27
       ],
-      "verse_count": 1,
+      "verse_count": 2,
       "testament": "OT",
-      "raw": "Numbers 4:1",
-      "source": "SMI"
-    },
-    {
-      "book": "Exodus",
-      "chapter": 6,
-      "verses": [
-        20
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Exodus 6:20",
-      "source": "SMI"
+      "raw": "Numbers 3:19,27"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Exodus",
+    "Genesis",
+    "Numbers"
+  ],
+  "stats": {
+    "total_aspects": 5,
+    "total_refs": 5,
+    "ot_refs": 5,
+    "nt_refs": 0,
+    "books_count": 3,
+    "top_books": [
+      "Exodus",
+      "Numbers",
+      "Genesis"
+    ]
+  }
 }

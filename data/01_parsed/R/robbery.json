@@ -1,108 +1,96 @@
 {
   "topic": "ROBBERY",
   "slug": "robbery",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Forbidden Le 19:13; Isa 61:8",
-      "references": [
-        "Lev 19:13",
-        "Isa 61:8"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Punished with death Eze 18:10,13",
-      "references": [
-        "Ezek 18:10",
-        "Ezek 18:13"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Forgiven Eze 33:15",
-      "references": [
-        "Ezek 33:15"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "INSTANCES OF Jud 9:25; Lu 10:30",
-      "references": [
-        "Judg 9:25",
-        "Luke 10:30"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Isaiah",
-      "book_abbrev": "isa",
-      "chapter": 61,
-      "testament": "OT",
-      "verses": [
-        8
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Luke",
-      "book_abbrev": "luk",
-      "chapter": 10,
-      "testament": "NT",
-      "verses": [
-        30
-      ],
-      "verse_count": 1
-    }
+  "sources": [
+    "NAV"
   ],
   "see_also": [
     "ROBBERS",
     "THEFT"
   ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 4,
-    "ot_refs": 1,
-    "nt_refs": 1,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.721988+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "aspects": [
     {
-      "book": "Genesis",
-      "chapter": 16,
+      "label": "Forbid",
+      "references": [
+        "Leviticus 19:13",
+        "Isaiah 61:8"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Punished with",
+      "references": [
+        "Ezekiel 18:10,13"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Forgiven",
+      "references": [
+        "Ezekiel 33:15"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "INSTANCES OF",
+      "references": [
+        "Judges 9:25",
+        "Luke 10:30"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".SeeROBBERS",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".SeeTHEFT",
+      "references": [],
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
+    {
+      "book": "Leviticus",
+      "chapter": 19,
       "verses": [
-        12
+        13
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 16:12",
-      "source": "EAS"
+      "raw": "Leviticus 19:13"
     },
     {
-      "book": "Job",
-      "chapter": 1,
+      "book": "Isaiah",
+      "chapter": 61,
       "verses": [
-        15,
-        17
+        8
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 61:8"
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 18,
+      "verses": [
+        10,
+        13
       ],
       "verse_count": 2,
       "testament": "OT",
-      "raw": "Job 1:15, 17",
-      "source": "EAS"
+      "raw": "Ezekiel 18:10,13"
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 33,
+      "verses": [
+        15
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezekiel 33:15"
     },
     {
       "book": "Judges",
@@ -112,45 +100,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Judges 9:25",
-      "source": "EAS"
-    },
-    {
-      "book": "1 Samuel",
-      "chapter": 27,
-      "verses": [
-        6,
-        7,
-        8,
-        9,
-        10
-      ],
-      "verse_count": 5,
-      "testament": "OT",
-      "raw": "1 Samuel 27:6-10",
-      "source": "EAS"
-    },
-    {
-      "book": "Hosea",
-      "chapter": 4,
-      "verses": [
-        2
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Hosea 4:2",
-      "source": "EAS"
-    },
-    {
-      "book": "Hosea",
-      "chapter": 6,
-      "verses": [
-        9
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Hosea 6:9",
-      "source": "EAS"
+      "raw": "Judges 9:25"
     },
     {
       "book": "Luke",
@@ -160,142 +110,28 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Luke 10:30",
-      "source": "EAS"
-    },
-    {
-      "book": "John",
-      "chapter": 18,
-      "verses": [
-        40
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "John 18:40",
-      "source": "EAS"
-    },
-    {
-      "book": "Acts",
-      "chapter": 5,
-      "verses": [
-        36,
-        37
-      ],
-      "verse_count": 2,
-      "testament": "NT",
-      "raw": "Acts 5:36, 37",
-      "source": "EAS"
-    },
-    {
-      "book": "Acts",
-      "chapter": 21,
-      "verses": [
-        38
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Acts 21:38",
-      "source": "EAS"
-    },
-    {
-      "book": "2 Corinthians",
-      "chapter": 11,
-      "verses": [
-        26
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "2 Corinthians 11:26",
-      "source": "EAS"
-    },
-    {
-      "book": "Philippians",
-      "chapter": 2,
-      "verses": [
-        6,
-        7
-      ],
-      "verse_count": 2,
-      "testament": "NT",
-      "raw": "Philippians 2:6, 7",
-      "source": "EAS"
-    },
-    {
-      "book": "Acts",
-      "chapter": 19,
-      "verses": [
-        37
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Acts 19:37",
-      "source": "EAS"
-    },
-    {
-      "book": "Exodus",
-      "chapter": 2,
-      "verses": [
-        2
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Exodus 2:2",
-      "source": "SMI"
-    },
-    {
-      "book": "Exodus",
-      "chapter": 21,
-      "verses": [
-        16
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Exodus 21:16",
-      "source": "SMI"
-    },
-    {
-      "book": "Exodus",
-      "chapter": 24,
-      "verses": [
-        7
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Exodus 24:7",
-      "source": "SMI"
-    },
-    {
-      "book": "Isaiah",
-      "chapter": 5,
-      "verses": [
-        8
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Isaiah 5:8",
-      "source": "SMI"
-    },
-    {
-      "book": "Micah",
-      "chapter": 2,
-      "verses": [
-        2
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Micah 2:2",
-      "source": "SMI"
-    },
-    {
-      "book": "Exodus",
-      "chapter": 27,
-      "verses": [
-        17
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Exodus 27:17",
-      "source": "SMI"
+      "raw": "Luke 10:30"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Ezekiel",
+    "Isaiah",
+    "Judges",
+    "Leviticus",
+    "Luke"
+  ],
+  "stats": {
+    "total_aspects": 6,
+    "total_refs": 6,
+    "ot_refs": 5,
+    "nt_refs": 1,
+    "books_count": 5,
+    "top_books": [
+      "Ezekiel",
+      "Leviticus",
+      "Isaiah",
+      "Judges",
+      "Luke"
+    ]
+  }
 }

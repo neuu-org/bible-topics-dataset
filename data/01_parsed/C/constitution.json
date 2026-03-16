@@ -1,89 +1,103 @@
 {
   "topic": "CONSTITUTION",
   "slug": "constitution",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "AGREEMENT BETWEEN THE RULER AND PEOPLE De 17:18-20; 2Sa 5:3; 2Ch 23:2,3; Jer 34:8-11; Da 6:12-15",
+      "label": "AGREEMENT BETWEEN THE RULER AND PEOPLE",
       "references": [
-        "Deut 17:18-20",
-        "2Sam 5:3",
-        "2Chr 23:2",
-        "2Chr 23:3",
-        "Jer 34:8-11",
-        "Dan 6:12-15"
+        "Deuteronomy 17:18-20",
+        "2 Samuel 5:3",
+        "2 Chronicles 23:2,3",
+        "Jeremiah 34:8-11",
+        "Daniel 6:12-15"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "2 Samuel",
-      "book_abbrev": "2sa",
-      "chapter": 5,
-      "testament": "OT",
+      "book": "Deuteronomy",
+      "chapter": 17,
       "verses": [
-        2,
+        18,
+        19,
+        20
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Deuteronomy 17:18-20"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 5,
+      "verses": [
         3
       ],
-      "verse_count": 2
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Samuel 5:3"
     },
     {
       "book": "2 Chronicles",
-      "book_abbrev": "2ch",
       "chapter": 23,
-      "testament": "OT",
       "verses": [
         2,
         3
       ],
-      "verse_count": 2
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "2 Chronicles 23:2,3"
     },
     {
       "book": "Jeremiah",
-      "book_abbrev": "jer",
       "chapter": 34,
-      "testament": "OT",
       "verses": [
         8,
         9,
         10,
         11
       ],
-      "verse_count": 4
+      "verse_count": 4,
+      "testament": "OT",
+      "raw": "Jeremiah 34:8-11"
     },
     {
       "book": "Daniel",
-      "book_abbrev": "dan",
       "chapter": 6,
-      "testament": "OT",
       "verses": [
         12,
         13,
         14,
         15
       ],
-      "verse_count": 4
+      "verse_count": 4,
+      "testament": "OT",
+      "raw": "Daniel 6:12-15"
     }
   ],
-  "see_also": [],
-  "aliases": [],
+  "books_mentioned": [
+    "2 Chronicles",
+    "2 Samuel",
+    "Daniel",
+    "Deuteronomy",
+    "Jeremiah"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 4,
+    "total_aspects": 1,
+    "total_refs": 5,
+    "ot_refs": 5,
     "nt_refs": 0,
-    "total_verses": 4
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.679162+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    }
-  },
-  "version": "3.0.0"
+    "books_count": 5,
+    "top_books": [
+      "Deuteronomy",
+      "2 Samuel",
+      "2 Chronicles",
+      "Jeremiah",
+      "Daniel"
+    ]
+  }
 }

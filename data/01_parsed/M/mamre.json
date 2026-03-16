@@ -1,83 +1,85 @@
 {
   "topic": "MAMRE",
   "slug": "mamre",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. A plain near Hebron .Abraham resides in Ge 13:18; 14:13",
-      "references": [
-        "Gen 13:18",
-        "Gen 14:13"
-      ],
-      "sub_groups": [
-        {
-          "name": "Entertains three angels, and is promised a son Ge 18:1-15",
-          "references": [
-            "Gen 18:1-15"
-          ]
-        },
-        {
-          "name": "Isaac lives in Ge 35:27",
-          "references": [
-            "Gen 35:27"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "2. An Amorite and confederate of Abraham Ge 14:13,24",
-      "references": [
-        "Gen 14:13",
-        "Gen 14:24"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.703568+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "1. A plain near Hebron .Abraham resi",
+      "references": [
+        "Genesis 13:18",
+        "Genesis 14:13"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".Entertains three angels, and is promised a",
+      "references": [
+        "Genesis 18:1-15"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".",
+      "references": [
+        "Genesis 35:27"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2. An Amorite and confe",
+      "references": [
+        "Genesis 14:13,24"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
+    {
+      "book": "Genesis",
+      "chapter": 13,
+      "verses": [
+        18
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 13:18"
+    },
     {
       "book": "Genesis",
       "chapter": 14,
       "verses": [
-        13,
-        24
+        13
       ],
-      "verse_count": 2,
+      "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 14:13, 24",
-      "source": "EAS"
+      "raw": "Genesis 14:13"
     },
     {
       "book": "Genesis",
-      "chapter": 23,
+      "chapter": 18,
       "verses": [
-        17,
-        19
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
       ],
-      "verse_count": 2,
+      "verse_count": 15,
       "testament": "OT",
-      "raw": "Genesis 23:17, 19",
-      "source": "EAS"
+      "raw": "Genesis 18:1-15"
     },
     {
       "book": "Genesis",
@@ -87,75 +89,31 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 35:27",
-      "source": "EAS"
-    },
-    {
-      "book": "Genesis",
-      "chapter": 13,
-      "verses": [
-        18
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Genesis 13:18",
-      "source": "EAS"
+      "raw": "Genesis 35:27"
     },
     {
       "book": "Genesis",
       "chapter": 14,
       "verses": [
         13,
-        51
+        24
       ],
       "verse_count": 2,
       "testament": "OT",
-      "raw": "Genesis 14:13,51",
-      "source": "SMI"
-    },
-    {
-      "book": "Genesis",
-      "chapter": 18,
-      "verses": [
-        1
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Genesis 18:1",
-      "source": "SMI"
-    },
-    {
-      "book": "Genesis",
-      "chapter": 25,
-      "verses": [
-        9
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Genesis 25:9",
-      "source": "SMI"
-    },
-    {
-      "book": "Genesis",
-      "chapter": 49,
-      "verses": [
-        30
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Genesis 49:30",
-      "source": "SMI"
-    },
-    {
-      "book": "Genesis",
-      "chapter": 50,
-      "verses": [
-        13
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Genesis 50:13",
-      "source": "SMI"
+      "raw": "Genesis 14:13,24"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Genesis"
+  ],
+  "stats": {
+    "total_aspects": 4,
+    "total_refs": 5,
+    "ot_refs": 5,
+    "nt_refs": 0,
+    "books_count": 1,
+    "top_books": [
+      "Genesis"
+    ]
+  }
 }

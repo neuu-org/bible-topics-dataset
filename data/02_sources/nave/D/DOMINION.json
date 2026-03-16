@@ -1,73 +1,29 @@
 {
   "topic": "DOMINION",
-  "topic_slug": "dominion",
+  "slug": "dominion",
   "canonical_id": "NAV:dominion",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "MAN, DOMINION OF"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "MAN, DOMINION OF",
-      "clean": "MAN, DOMINION OF",
-      "slug": "man__dominion_of",
-      "canonical_id": "NAV:man__dominion_of"
-    }
-  ],
-  "raw_block": "–OF MAN\n  .SeeMAN, DOMINION OF",
-  "content_preview": "–OF MAN",
-  "reference_groups": [
+      "label": "OF MAN",
+      "references": []
+    },
     {
-      "idx": 0,
-      "entry_label": "–OF MAN",
-      "raw_segment": "–OF MAN"
+      "label": ".SeeMAN, DOMINION OF",
+      "references": []
     }
   ],
   "biblical_references": [],
   "books_mentioned": [],
-  "normalized_labels": [],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 2,
+    "total_refs": 0,
     "ot_refs": 0,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:06575c110c059d17e9f6245d9413e4af74e3d877558a08ae7ef44ca0c263bde1",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
-    ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:25:39.970139Z",
-  "updated_at": "2025-09-20T17:25:39.970146Z"
+    "books_count": 0,
+    "top_books": []
+  }
 }

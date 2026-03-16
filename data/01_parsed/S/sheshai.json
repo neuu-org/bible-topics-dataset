@@ -1,51 +1,22 @@
 {
   "topic": "SHESHAI",
   "slug": "sheshai",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "A son of Anak Nu 13:22; Jos 15:14; Jud 1:10",
-      "references": [
-        "Num 13:22",
-        "Josh 15:14",
-        "Judg 1:10"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Joshua",
-      "book_abbrev": "jos",
-      "chapter": 15,
-      "testament": "OT",
-      "verses": [
-        14
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.725265+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "A",
+      "references": [
+        "Numbers 13:22",
+        "Joshua 15:14",
+        "Judges 1:10"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Numbers",
       "chapter": 13,
@@ -54,8 +25,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Numbers 13:22",
-      "source": "EAS"
+      "raw": "Numbers 13:22"
     },
     {
       "book": "Joshua",
@@ -65,8 +35,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Joshua 15:14",
-      "source": "EAS"
+      "raw": "Joshua 15:14"
     },
     {
       "book": "Judges",
@@ -76,8 +45,24 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Judges 1:10",
-      "source": "EAS"
+      "raw": "Judges 1:10"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Joshua",
+    "Judges",
+    "Numbers"
+  ],
+  "stats": {
+    "total_aspects": 1,
+    "total_refs": 3,
+    "ot_refs": 3,
+    "nt_refs": 0,
+    "books_count": 3,
+    "top_books": [
+      "Numbers",
+      "Joshua",
+      "Judges"
+    ]
+  }
 }

@@ -1,102 +1,167 @@
 {
   "topic": "BORROWING",
-  "topic_slug": "borrowing",
+  "slug": "borrowing",
   "canonical_id": "NAV:borrowing",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "LENDING",
     "INTEREST",
     "TROUBLE, BORROWING"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "LENDING",
-      "clean": "LENDING",
-      "slug": "lending",
-      "canonical_id": "NAV:lending"
+      "label": "General scriptures concerning",
+      "references": [
+        "Exodus 22:14,15",
+        "Nehemiah 5:1-13",
+        "Psalms 37:21",
+        "Proverbs 22:7",
+        "Matthew 5:42"
+      ]
     },
     {
-      "original": "INTEREST",
-      "clean": "INTEREST",
-      "slug": "interest",
-      "canonical_id": "NAV:interest"
+      "label": "SeeLENDING",
+      "references": []
     },
     {
-      "original": "TROUBLE, BORROWING",
-      "clean": "TROUBLE, BORROWING",
-      "slug": "trouble__borrowing",
-      "canonical_id": "NAV:trouble__borrowing"
+      "label": "SeeINTEREST",
+      "references": []
+    },
+    {
+      "label": "INSTANCES OF",
+      "references": []
+    },
+    {
+      "label": ".Israelites from the Egyptians",
+      "references": [
+        "Exodus 3:22",
+        "Exodus 11:2",
+        "Exodus 12:35"
+      ]
+    },
+    {
+      "label": ".Borrowing trouble",
+      "references": []
+    },
+    {
+      "label": "SeeTROUBLE, BORROWING",
+      "references": []
     }
   ],
-  "raw_block": "–General scriptures concerningEx 22:14,15;Ne 5:1-13;Ps 37:21;Pr 22:7;Mt 5:42\n–SeeLENDING\n–SeeINTEREST\n–INSTANCES OF\n  .Israelites from the EgyptiansEx 3:22;11:2;12:35\n  .Borrowing trouble\n    SeeTROUBLE, BORROWING",
-  "content_preview": "–General scriptures concerningEx 22:14,15;Ne 5:1-13;Ps 37:21;Pr 22:7;Mt 5:42",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–General scriptures concerningEx 22:14,15;Ne 5:1-13;Ps 37:21;Pr 22:7;Mt 5:42",
-      "raw_segment": "–General scriptures concerningEx 22:14,15;Ne 5:1-13;Ps 37:21;Pr 22:7;Mt 5:42"
+      "book": "Exodus",
+      "chapter": 22,
+      "verses": [
+        14,
+        15
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Exodus 22:14,15"
     },
     {
-      "idx": 1,
-      "entry_label": "–SeeLENDING",
-      "raw_segment": "–SeeLENDING"
+      "book": "Nehemiah",
+      "chapter": 5,
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "verse_count": 13,
+      "testament": "OT",
+      "raw": "Nehemiah 5:1-13"
     },
     {
-      "idx": 2,
-      "entry_label": "–SeeINTEREST",
-      "raw_segment": "–SeeINTEREST"
+      "book": "Psalms",
+      "chapter": 37,
+      "verses": [
+        21
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 37:21"
     },
     {
-      "idx": 3,
-      "entry_label": "–INSTANCES OF",
-      "raw_segment": "–INSTANCES OF"
+      "book": "Proverbs",
+      "chapter": 22,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 22:7"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 5,
+      "verses": [
+        42
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 5:42"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 3,
+      "verses": [
+        22
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 3:22"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 11,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 11:2"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 12,
+      "verses": [
+        35
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 12:35"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "Exodus",
+    "Matthew",
+    "Nehemiah",
+    "Proverbs",
+    "Psalms"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:8c61a4cf838da841811dbdf13a7a464fe971e30c130a731dc1bef691950bc376",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 7
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 7,
+    "total_refs": 8,
+    "ot_refs": 7,
+    "nt_refs": 1,
+    "books_count": 5,
+    "top_books": [
+      "Exodus",
+      "Nehemiah",
+      "Psalms",
+      "Proverbs",
+      "Matthew"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:24:36.370944Z",
-  "updated_at": "2025-09-20T17:24:36.370951Z"
+  }
 }

@@ -1,97 +1,35 @@
 {
   "topic": "DELIVERANCE",
-  "topic_slug": "deliverance",
+  "slug": "deliverance",
   "canonical_id": "NAV:deliverance",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "PRAYER, ANSWERED",
     "AFFLICTION",
     "GOD, PROVIDENCE OF"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "PRAYER, ANSWERED",
-      "clean": "PRAYER, ANSWERED",
-      "slug": "prayer__answered",
-      "canonical_id": "NAV:prayer__answered"
+      "label": "SeeAFFLICTION",
+      "references": []
     },
     {
-      "original": "AFFLICTION",
-      "clean": "AFFLICTION",
-      "slug": "affliction",
-      "canonical_id": "NAV:affliction"
+      "label": "SeeGOD, PROVI",
+      "references": []
     },
     {
-      "original": "GOD, PROVIDENCE OF",
-      "clean": "GOD, PROVIDENCE OF",
-      "slug": "god__providence_of",
-      "canonical_id": "NAV:god__providence_of"
-    }
-  ],
-  "raw_block": "–SeeAFFLICTION\n–SeeGOD, PROVIDENCE OF\n–SeePRAYER, ANSWERED",
-  "content_preview": "–SeeAFFLICTION",
-  "reference_groups": [
-    {
-      "idx": 0,
-      "entry_label": "–SeeAFFLICTION",
-      "raw_segment": "–SeeAFFLICTION"
-    },
-    {
-      "idx": 1,
-      "entry_label": "–SeeGOD, PROVIDENCE OF",
-      "raw_segment": "–SeeGOD, PROVIDENCE OF"
-    },
-    {
-      "idx": 2,
-      "entry_label": "–SeePRAYER, ANSWERED",
-      "raw_segment": "–SeePRAYER, ANSWERED"
+      "label": "SeePRAYER, ANSWERED",
+      "references": []
     }
   ],
   "biblical_references": [],
   "books_mentioned": [],
-  "normalized_labels": [],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 3,
+    "total_refs": 0,
     "ot_refs": 0,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:17943971d66d37014d04a87e25732ee7e2e8342913b7b0639b8a36beed55df71",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 3
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
-    ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:25:31.591468Z",
-  "updated_at": "2025-09-20T17:25:31.591475Z"
+    "books_count": 0,
+    "top_books": []
+  }
 }

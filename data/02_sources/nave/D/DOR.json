@@ -1,74 +1,102 @@
 {
   "topic": "DOR",
-  "topic_slug": "dor",
+  "slug": "dor",
   "canonical_id": "NAV:dor",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–A town and district of PalestineJos 11:2\n–Conquered by JoshuaJos 12:23;1Ki 4:11\n–Allotted to the tribe of Manasseh, although it was situated in \nthe territory of the tribe of AsherJos 17:11;Jud 1:27",
-  "content_preview": "–A town and district of PalestineJos 11:2",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–A town and district of PalestineJos 11:2",
-      "raw_segment": "–A town and district of PalestineJos 11:2"
+      "label": "A town and district of Palestine",
+      "references": [
+        "Joshua 11:2"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–Conquered by JoshuaJos 12:23;1Ki 4:11",
-      "raw_segment": "–Conquered by JoshuaJos 12:23;1Ki 4:11"
+      "label": "Conquered by Joshua",
+      "references": [
+        "Joshua 12:23",
+        "1 Kings 4:11"
+      ]
     },
     {
-      "idx": 2,
-      "entry_label": "–Allotted to the tribe of Manasseh, although it was situated in \nthe territory of the tribe of AsherJos 17:11;Jud 1:27",
-      "raw_segment": "–Allotted to the tribe of Manasseh, although it was situated in \nthe territory of the tribe of AsherJos 17:11;Jud 1:27"
+      "label": "Allotted to the tribe of Manasseh, although it was situated in",
+      "references": []
+    },
+    {
+      "label": "the territory of the tribe of Asher",
+      "references": [
+        "Joshua 17:11",
+        "Judges 1:27"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Joshua",
+      "chapter": 11,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 11:2"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 12,
+      "verses": [
+        23
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 12:23"
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 4,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Kings 4:11"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 17,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 17:11"
+    },
+    {
+      "book": "Judges",
+      "chapter": 1,
+      "verses": [
+        27
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Judges 1:27"
+    }
+  ],
+  "books_mentioned": [
+    "1 Kings",
+    "Joshua",
+    "Judges"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 4,
+    "total_refs": 5,
+    "ot_refs": 5,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:b29a30b4887f644ec5964aae80c53d5799b94156f1db4aee794d7026856e3af9",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 4
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 3,
+    "top_books": [
+      "Joshua",
+      "1 Kings",
+      "Judges"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:25:40.514014Z",
-  "updated_at": "2025-09-20T17:25:40.514021Z"
+  }
 }

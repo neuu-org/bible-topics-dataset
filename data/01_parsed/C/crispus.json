@@ -1,50 +1,21 @@
 {
   "topic": "CRISPUS",
   "slug": "crispus",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "A leader of a synagogue at Corinth Ac 18:8; 1Co 1:14",
-      "references": [
-        "Acts 18:8",
-        "1Cor 1:14"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "1 Corinthians",
-      "book_abbrev": "1co",
-      "chapter": 1,
-      "testament": "NT",
-      "verses": [
-        14
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 1,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.679827+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "A lea",
+      "references": [
+        "Acts 18:8",
+        "1 Corinthians 1:14"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Acts",
       "chapter": 18,
@@ -53,8 +24,7 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Acts 18:8",
-      "source": "EAS"
+      "raw": "Acts 18:8"
     },
     {
       "book": "1 Corinthians",
@@ -64,8 +34,22 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "1 Corinthians 1:14",
-      "source": "EAS"
+      "raw": "1 Corinthians 1:14"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Corinthians",
+    "Acts"
+  ],
+  "stats": {
+    "total_aspects": 1,
+    "total_refs": 2,
+    "ot_refs": 0,
+    "nt_refs": 2,
+    "books_count": 2,
+    "top_books": [
+      "Acts",
+      "1 Corinthians"
+    ]
+  }
 }

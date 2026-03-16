@@ -1,69 +1,85 @@
 {
   "topic": "BETRAYAL",
   "slug": "betrayal",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [
+    "CONFIDENCE BETRAYED"
+  ],
+  "aspects": [
     {
-      "name": "Of Jesus Mt 26:14-16,45-50; Mr 14:10,11; Lu 22:3-6,47,48; Joh 13:21",
+      "label": "Of Jesus",
       "references": [
-        "Matt 26:14-16",
-        "Matt 26:45-50",
-        "Mark 14:10",
-        "Mark 14:11",
-        "Luke 22:3-6",
-        "Luke 22:47",
-        "Luke 22:48",
+        "Matthew 26:14-16,45-50",
+        "Mark 14:10,11",
+        "Luke 22:3-6,47,48",
         "John 13:21"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Of others, foretold Mt 20:18; 24:10",
+      "label": "Of others, foretold",
       "references": [
-        "Matt 20:18",
-        "Matt 24:10"
+        "Matthew 20:18",
+        "Matthew 24:10"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Of David, by Doeg 1Sa 22:9,10; with 21:1-10",
+      "label": "Of David, by Doeg",
       "references": [
-        "1Sam 22:9",
-        "1Sam 22:10"
+        "1 Samuel 22:9,10",
+        "1 Samuel 21:1-10"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Of cities Jud 1:24,25",
+      "label": "Of cities",
       "references": [
-        "Judg 1:24",
-        "Judg 1:25"
+        "Judges 1:24,25"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See CONFIDENCE BETRAYED",
+      "label": "SeeCONFI",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Mark",
-      "book_abbrev": "mrk",
-      "chapter": 14,
+      "book": "Matthew",
+      "chapter": 26,
+      "verses": [
+        14,
+        15,
+        16,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "verse_count": 9,
       "testament": "NT",
+      "raw": "Matthew 26:14-16,45-50"
+    },
+    {
+      "book": "Mark",
+      "chapter": 14,
       "verses": [
         10,
         11
       ],
-      "verse_count": 2
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Mark 14:10,11"
     },
     {
       "book": "Luke",
-      "book_abbrev": "luk",
       "chapter": 22,
-      "testament": "NT",
       "verses": [
         3,
         4,
@@ -72,39 +88,103 @@
         47,
         48
       ],
-      "verse_count": 6
+      "verse_count": 6,
+      "testament": "NT",
+      "raw": "Luke 22:3-6,47,48"
     },
     {
       "book": "John",
-      "book_abbrev": "jhn",
       "chapter": 13,
-      "testament": "NT",
       "verses": [
         21
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "John 13:21"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 20,
+      "verses": [
+        18
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 20:18"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 24,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 24:10"
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 22,
+      "verses": [
+        9,
+        10
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "1 Samuel 22:9,10"
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 21,
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "verse_count": 10,
+      "testament": "OT",
+      "raw": "1 Samuel 21:1-10"
+    },
+    {
+      "book": "Judges",
+      "chapter": 1,
+      "verses": [
+        24,
+        25
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Judges 1:24,25"
     }
   ],
-  "see_also": [
-    "CONFIDENCE BETRAYED"
+  "books_mentioned": [
+    "1 Samuel",
+    "John",
+    "Judges",
+    "Luke",
+    "Mark",
+    "Matthew"
   ],
-  "aliases": [],
   "stats": {
-    "entries_count": 5,
-    "ot_refs": 0,
-    "nt_refs": 3,
-    "total_verses": 3
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.674253+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    }
-  },
-  "version": "3.0.0"
+    "total_aspects": 5,
+    "total_refs": 9,
+    "ot_refs": 3,
+    "nt_refs": 6,
+    "books_count": 6,
+    "top_books": [
+      "Matthew",
+      "1 Samuel",
+      "Mark",
+      "Luke",
+      "John",
+      "Judges"
+    ]
+  }
 }

@@ -1,64 +1,28 @@
 {
   "topic": "BREECHES",
   "slug": "breeches",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "For the priests Ex 28:42; 39:28; Le 6:10; 16:4; Eze 44:18",
-      "references": [
-        "Exod 28:42",
-        "Exod 39:28",
-        "Lev 6:10",
-        "Lev 16:4",
-        "Ezek 44:18"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Leviticus",
-      "book_abbrev": "lev",
-      "chapter": 6,
-      "testament": "OT",
-      "verses": [
-        10,
-        16
-      ],
-      "verse_count": 2
-    },
-    {
-      "book": "Ezekiel",
-      "book_abbrev": "ezk",
-      "chapter": 44,
-      "testament": "OT",
-      "verses": [
-        18
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 2,
-    "nt_refs": 0,
-    "total_verses": 2
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.675463+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "For the priests",
+      "references": [
+        "Exodus 28:42",
+        "Exodus 39:28",
+        "Leviticus 6:10",
+        "Leviticus 16:4"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "44:18",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Exodus",
       "chapter": 28,
@@ -67,20 +31,62 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Exodus 28:42",
-      "source": "EAS"
+      "raw": "Exodus 28:42"
     },
     {
-      "book": "Ezekiel",
+      "book": "Exodus",
+      "chapter": 39,
+      "verses": [
+        28
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 39:28"
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 6,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Leviticus 6:10"
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 16,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Leviticus 16:4"
+    },
+    {
+      "book": "Leviticus",
       "chapter": 44,
       "verses": [
-        17,
         18
       ],
-      "verse_count": 2,
+      "verse_count": 1,
       "testament": "OT",
-      "raw": "Ezekiel 44:17, 18",
-      "source": "EAS"
+      "raw": "Leviticus 44:18"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Exodus",
+    "Leviticus"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 5,
+    "ot_refs": 5,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "Leviticus",
+      "Exodus"
+    ]
+  }
 }

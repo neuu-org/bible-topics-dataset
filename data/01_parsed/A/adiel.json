@@ -1,63 +1,34 @@
 {
   "topic": "ADIEL",
   "slug": "adiel",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. A man of the tribe of Simeon 1Ch 4:36",
-      "references": [
-        "1Chr 4:36"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "2. A priest 1Ch 9:12",
-      "references": [
-        "1Chr 9:12"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "3. Father of Azmaveth 1Ch 27:25",
-      "references": [
-        "1Chr 27:25"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.661230+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "see_also": [],
+  "aspects": [
     {
-      "book": "1 Chronicles",
-      "chapter": 27,
-      "verses": [
-        25
+      "label": "1. A man of the tribe of Simeon",
+      "references": [
+        "1 Chronicles 4:36"
       ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "1 Chronicles 27:25",
-      "source": "EAS"
+      "source": "NAV"
     },
+    {
+      "label": "2. A priest",
+      "references": [
+        "1 Chronicles 9:12"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "3. Father of Azmaveth",
+      "references": [
+        "1 Chronicles 27:25"
+      ],
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
     {
       "book": "1 Chronicles",
       "chapter": 4,
@@ -66,8 +37,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 4:36",
-      "source": "EAS"
+      "raw": "1 Chronicles 4:36"
     },
     {
       "book": "1 Chronicles",
@@ -77,8 +47,30 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 9:12",
-      "source": "EAS"
+      "raw": "1 Chronicles 9:12"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 27,
+      "verses": [
+        25
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 27:25"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 3,
+    "ot_refs": 3,
+    "nt_refs": 0,
+    "books_count": 1,
+    "top_books": [
+      "1 Chronicles"
+    ]
+  }
 }

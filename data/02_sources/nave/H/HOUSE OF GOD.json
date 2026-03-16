@@ -1,107 +1,139 @@
 {
   "topic": "HOUSE OF GOD",
-  "topic_slug": "house_of_god",
+  "slug": "house_of_god",
   "canonical_id": "NAV:house_of_god",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "SYNAGOGUE",
     "TABERNACLE",
     "TEMPLE"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "SYNAGOGUE",
-      "clean": "SYNAGOGUE",
-      "slug": "synagogue",
-      "canonical_id": "NAV:synagogue"
+      "label": "A place of prayer",
+      "references": [
+        "Matthew 21:13",
+        "Mark 11:17",
+        "Luke 19:46"
+      ]
     },
     {
-      "original": "TABERNACLE",
-      "clean": "TABERNACLE",
-      "slug": "tabernacle",
-      "canonical_id": "NAV:tabernacle"
+      "label": "Holy",
+      "references": [
+        "Ecclesiastes 5:1",
+        "Isaiah 62:9",
+        "Ezekiel 43:12",
+        "1 Corinthians 3:17"
+      ]
     },
     {
-      "original": "TEMPLE",
-      "clean": "TEMPLE",
-      "slug": "temple",
-      "canonical_id": "NAV:temple"
+      "label": "SeeSYNAGOGUE",
+      "references": []
+    },
+    {
+      "label": "SeeTABERNACLE",
+      "references": []
+    },
+    {
+      "label": "SeeTEMPLE",
+      "references": []
     }
   ],
-  "raw_block": "–A place of prayerMt 21:13;Mr 11:17;Lu 19:46\n–HolyEc 5:1;Isa 62:9;Eze 43:12;1Co 3:17\n–SeeSYNAGOGUE\n–SeeTABERNACLE\n–SeeTEMPLE",
-  "content_preview": "–A place of prayerMt 21:13;Mr 11:17;Lu 19:46",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–A place of prayerMt 21:13;Mr 11:17;Lu 19:46",
-      "raw_segment": "–A place of prayerMt 21:13;Mr 11:17;Lu 19:46"
+      "book": "Matthew",
+      "chapter": 21,
+      "verses": [
+        13
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 21:13"
     },
     {
-      "idx": 1,
-      "entry_label": "–HolyEc 5:1;Isa 62:9;Eze 43:12;1Co 3:17",
-      "raw_segment": "–HolyEc 5:1;Isa 62:9;Eze 43:12;1Co 3:17"
+      "book": "Mark",
+      "chapter": 11,
+      "verses": [
+        17
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Mark 11:17"
     },
     {
-      "idx": 2,
-      "entry_label": "–SeeSYNAGOGUE",
-      "raw_segment": "–SeeSYNAGOGUE"
+      "book": "Luke",
+      "chapter": 19,
+      "verses": [
+        46
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 19:46"
     },
     {
-      "idx": 3,
-      "entry_label": "–SeeTABERNACLE",
-      "raw_segment": "–SeeTABERNACLE"
+      "book": "Ecclesiastes",
+      "chapter": 5,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ecclesiastes 5:1"
     },
     {
-      "idx": 4,
-      "entry_label": "–SeeTEMPLE",
-      "raw_segment": "–SeeTEMPLE"
+      "book": "Isaiah",
+      "chapter": 62,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 62:9"
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 43,
+      "verses": [
+        12
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezekiel 43:12"
+    },
+    {
+      "book": "1 Corinthians",
+      "chapter": 3,
+      "verses": [
+        17
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "1 Corinthians 3:17"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "1 Corinthians",
+    "Ecclesiastes",
+    "Ezekiel",
+    "Isaiah",
+    "Luke",
+    "Mark",
+    "Matthew"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:06fe8845245806f6d91f2a363b1fef92ed0dff2356112a04eaae940fa804f638",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 5
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 5,
+    "total_refs": 7,
+    "ot_refs": 3,
+    "nt_refs": 4,
+    "books_count": 7,
+    "top_books": [
+      "Matthew",
+      "Mark",
+      "Luke",
+      "Ecclesiastes",
+      "Isaiah",
+      "Ezekiel",
+      "1 Corinthians"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:27:23.771633Z",
-  "updated_at": "2025-09-20T17:27:23.771640Z"
+  }
 }

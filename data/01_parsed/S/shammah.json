@@ -1,109 +1,79 @@
 {
   "topic": "SHAMMAH",
   "slug": "shammah",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. Son of Reuel Ge 36:13,17; 1Ch 1:37",
-      "references": [
-        "Gen 36:13",
-        "Gen 36:17",
-        "1Chr 1:37"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "2. David’ s brother 1Sa 16:9; 17:13",
-      "references": [
-        "1Sam 16:9",
-        "1Sam 17:13"
-      ],
-      "sub_groups": [
-        {
-          "name": "Called SHIMEAH 2Sa 13:3,32; 21:21",
-          "references": [
-            "2Sam 13:3",
-            "2Sam 13:32",
-            "2Sam 21:21"
-          ]
-        },
-        {
-          "name": "Called SHIMMA 1Ch 2:13",
-          "references": [
-            "1Chr 2:13"
-          ]
-        },
-        {
-          "name": "Called SHIMEA 1Ch 20:7",
-          "references": [
-            "1Chr 20:7"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "3. One of David’ s mighty men, son of Agee 2Sa 23:11,12",
-      "references": [
-        "2Sam 23:11",
-        "2Sam 23:12"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "4. One of David’ s mighty men 2Sa 23:25",
-      "references": [
-        "2Sam 23:25"
-      ],
-      "sub_groups": [
-        {
-          "name": "Called SHAMMOTH 1Ch 11:27",
-          "references": [
-            "1Chr 11:27"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "5. A Hararite, one of David’ s mighty men 2Sa 23:33",
-      "references": [
-        "2Sam 23:33"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "1 Chronicles",
-      "book_abbrev": "1ch",
-      "chapter": 1,
-      "testament": "OT",
-      "verses": [
-        37
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 5,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.724363+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "1.",
+      "references": [
+        "Genesis 36:13,17",
+        "1 Chronicles 1:37"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2. David’ s brother",
+      "references": [
+        "1 Samuel 16:9",
+        "1 Samuel 17:13"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".",
+      "references": [
+        "2 Samuel 13:3,32",
+        "2 Samuel 21:21"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".",
+      "references": [
+        "1 Chronicles 2:13"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".",
+      "references": [
+        "1 Chronicles 20:7"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "3. One of David’ s mighty men,",
+      "references": [
+        "2 Samuel 23:11,12"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "4. One of David’ s mighty men",
+      "references": [
+        "2 Samuel 23:25"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".",
+      "references": [
+        "1 Chronicles 11:27"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "5. A Hararite, one of David’ s mighty men",
+      "references": [
+        "2 Samuel 23:33"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Genesis",
       "chapter": 36,
@@ -113,8 +83,17 @@
       ],
       "verse_count": 2,
       "testament": "OT",
-      "raw": "Genesis 36:13, 17",
-      "source": "EAS"
+      "raw": "Genesis 36:13,17"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 1,
+      "verses": [
+        37
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 1:37"
     },
     {
       "book": "1 Samuel",
@@ -124,19 +103,38 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Samuel 16:9",
-      "source": "EAS"
+      "raw": "1 Samuel 16:9"
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 17,
+      "verses": [
+        13
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Samuel 17:13"
     },
     {
       "book": "2 Samuel",
       "chapter": 13,
       "verses": [
-        3
+        3,
+        32
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "2 Samuel 13:3,32"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 21,
+      "verses": [
+        21
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Samuel 13:3",
-      "source": "EAS"
+      "raw": "2 Samuel 21:21"
     },
     {
       "book": "1 Chronicles",
@@ -146,8 +144,17 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 2:13",
-      "source": "EAS"
+      "raw": "1 Chronicles 2:13"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 20,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 20:7"
     },
     {
       "book": "2 Samuel",
@@ -158,8 +165,7 @@
       ],
       "verse_count": 2,
       "testament": "OT",
-      "raw": "2 Samuel 23:11, 12",
-      "source": "EAS"
+      "raw": "2 Samuel 23:11,12"
     },
     {
       "book": "2 Samuel",
@@ -169,8 +175,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Samuel 23:25",
-      "source": "EAS"
+      "raw": "2 Samuel 23:25"
     },
     {
       "book": "1 Chronicles",
@@ -180,19 +185,36 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 11:27",
-      "source": "EAS"
+      "raw": "1 Chronicles 11:27"
     },
     {
-      "book": "1 Chronicles",
-      "chapter": 27,
+      "book": "2 Samuel",
+      "chapter": 23,
       "verses": [
-        8
+        33
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 27:8",
-      "source": "EAS"
+      "raw": "2 Samuel 23:33"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "1 Samuel",
+    "2 Samuel",
+    "Genesis"
+  ],
+  "stats": {
+    "total_aspects": 9,
+    "total_refs": 12,
+    "ot_refs": 12,
+    "nt_refs": 0,
+    "books_count": 4,
+    "top_books": [
+      "2 Samuel",
+      "1 Chronicles",
+      "1 Samuel",
+      "Genesis"
+    ]
+  }
 }

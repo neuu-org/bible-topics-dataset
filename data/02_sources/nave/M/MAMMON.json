@@ -1,90 +1,66 @@
 {
   "topic": "MAMMON",
-  "topic_slug": "mammon",
+  "slug": "mammon",
   "canonical_id": "NAV:mammon",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "RICHES",
     "RICH"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "RICHES",
-      "clean": "RICHES",
-      "slug": "riches",
-      "canonical_id": "NAV:riches"
+      "label": "Wealth",
+      "references": [
+        "Matthew 6:24",
+        "Luke 16:9,11,13"
+      ]
     },
     {
-      "original": "RICH",
-      "clean": "RICH",
-      "slug": "rich",
-      "canonical_id": "NAV:rich"
+      "label": "SeeRICH",
+      "references": []
+    },
+    {
+      "label": "SeeRICHES",
+      "references": []
     }
   ],
-  "raw_block": "–WealthMt 6:24;Lu 16:9,11,13\n–SeeRICH\n–SeeRICHES",
-  "content_preview": "–WealthMt 6:24;Lu 16:9,11,13",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–WealthMt 6:24;Lu 16:9,11,13",
-      "raw_segment": "–WealthMt 6:24;Lu 16:9,11,13"
+      "book": "Matthew",
+      "chapter": 6,
+      "verses": [
+        24
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 6:24"
     },
     {
-      "idx": 1,
-      "entry_label": "–SeeRICH",
-      "raw_segment": "–SeeRICH"
-    },
-    {
-      "idx": 2,
-      "entry_label": "–SeeRICHES",
-      "raw_segment": "–SeeRICHES"
+      "book": "Luke",
+      "chapter": 16,
+      "verses": [
+        9,
+        11,
+        13
+      ],
+      "verse_count": 3,
+      "testament": "NT",
+      "raw": "Luke 16:9,11,13"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "Luke",
+    "Matthew"
+  ],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 3,
+    "total_refs": 2,
     "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:fafb290b4e545f67224a46b54cd778e163bef35a088813570a0a317006887467",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 3
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "nt_refs": 2,
+    "books_count": 2,
+    "top_books": [
+      "Matthew",
+      "Luke"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:28:50.055199Z",
-  "updated_at": "2025-09-20T17:28:50.055207Z"
+  }
 }

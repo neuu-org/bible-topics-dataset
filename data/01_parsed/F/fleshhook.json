@@ -1,88 +1,120 @@
 {
   "topic": "FLESHHOOK",
   "slug": "fleshhook",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "Used in the tabernacle Ex 27:3; 38:3; Nu 4:14; 1Sa 2:13,14",
+      "label": "Used in the tabernacle",
       "references": [
-        "Exod 27:3",
-        "Exod 38:3",
-        "Num 4:14",
-        "1Sam 2:13",
-        "1Sam 2:14"
+        "Exodus 27:3",
+        "Exodus 38:3",
+        "Numbers 4:14"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Made of gold 1Ch 28:17",
-      "references": [
-        "1Chr 28:17"
-      ],
-      "sub_groups": []
+      "label": "2:13,14",
+      "references": [],
+      "source": "NAV"
     },
     {
-      "name": "Made of brass (bronze) 2Ch 4:16",
+      "label": "Ma",
       "references": [
-        "2Chr 4:16"
+        "1 Chronicles 28:17"
       ],
-      "sub_groups": []
+      "source": "NAV"
+    },
+    {
+      "label": "Ma",
+      "references": [
+        "2 Chronicles 4:16"
+      ],
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Numbers",
-      "book_abbrev": "num",
-      "chapter": 4,
-      "testament": "OT",
+      "book": "Exodus",
+      "chapter": 27,
       "verses": [
-        1,
-        14
+        3
       ],
-      "verse_count": 2
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 27:3"
     },
     {
-      "book": "1 Samuel",
-      "book_abbrev": "1sa",
-      "chapter": 2,
+      "book": "Exodus",
+      "chapter": 38,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
       "testament": "OT",
+      "raw": "Exodus 38:3"
+    },
+    {
+      "book": "Numbers",
+      "chapter": 4,
+      "verses": [
+        14
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Numbers 4:14"
+    },
+    {
+      "book": "Numbers",
+      "chapter": 2,
       "verses": [
         13,
         14
       ],
-      "verse_count": 2
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Numbers 2:13,14"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 28,
+      "verses": [
+        17
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 28:17"
     },
     {
       "book": "2 Chronicles",
-      "book_abbrev": "2ch",
       "chapter": 4,
-      "testament": "OT",
       "verses": [
         16
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Chronicles 4:16"
     }
   ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 3,
-    "nt_refs": 0,
-    "total_verses": 3
-  },
-  "sources": [
-    "NAV"
+  "books_mentioned": [
+    "1 Chronicles",
+    "2 Chronicles",
+    "Exodus",
+    "Numbers"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.686914+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    },
-    "enriched_at": "2025-12-02T22:02:10.197266+00:00",
-    "enrichment_source": "pipeline_merge"
-  },
-  "version": "3.0.0"
+  "stats": {
+    "total_aspects": 4,
+    "total_refs": 6,
+    "ot_refs": 6,
+    "nt_refs": 0,
+    "books_count": 4,
+    "top_books": [
+      "Exodus",
+      "Numbers",
+      "1 Chronicles",
+      "2 Chronicles"
+    ]
+  }
 }

@@ -1,90 +1,123 @@
 {
   "topic": "GARMENT",
-  "topic_slug": "garment",
+  "slug": "garment",
   "canonical_id": "NAV:garment",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "ROBE",
     "DRESS"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "ROBE",
-      "clean": "ROBE",
-      "slug": "robe",
-      "canonical_id": "NAV:robe"
+      "label": "Of righteousness",
+      "references": [
+        "Isaiah 61:10",
+        "Matthew 22:11",
+        "2 Corinthians 5:3",
+        "Revelation 3:18",
+        "Revelation 7:14",
+        "Revelation 16:15",
+        "Revelation 19:8"
+      ]
     },
     {
-      "original": "DRESS",
-      "clean": "DRESS",
-      "slug": "dress",
-      "canonical_id": "NAV:dress"
+      "label": "SeeDRESS",
+      "references": []
+    },
+    {
+      "label": "SeeROBE",
+      "references": []
     }
   ],
-  "raw_block": "–Of righteousnessIsa 61:10;Mt 22:11;2Co 5:3;Re 3:18;7:14;16:15;19:8\n–SeeDRESS\n–SeeROBE",
-  "content_preview": "–Of righteousnessIsa 61:10;Mt 22:11;2Co 5:3;Re 3:18;7:14;16:15;19:8",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–Of righteousnessIsa 61:10;Mt 22:11;2Co 5:3;Re 3:18;7:14;16:15;19:8",
-      "raw_segment": "–Of righteousnessIsa 61:10;Mt 22:11;2Co 5:3;Re 3:18;7:14;16:15;19:8"
+      "book": "Isaiah",
+      "chapter": 61,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 61:10"
     },
     {
-      "idx": 1,
-      "entry_label": "–SeeDRESS",
-      "raw_segment": "–SeeDRESS"
+      "book": "Matthew",
+      "chapter": 22,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 22:11"
     },
     {
-      "idx": 2,
-      "entry_label": "–SeeROBE",
-      "raw_segment": "–SeeROBE"
+      "book": "2 Corinthians",
+      "chapter": 5,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "2 Corinthians 5:3"
+    },
+    {
+      "book": "Revelation",
+      "chapter": 3,
+      "verses": [
+        18
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Revelation 3:18"
+    },
+    {
+      "book": "Revelation",
+      "chapter": 7,
+      "verses": [
+        14
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Revelation 7:14"
+    },
+    {
+      "book": "Revelation",
+      "chapter": 16,
+      "verses": [
+        15
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Revelation 16:15"
+    },
+    {
+      "book": "Revelation",
+      "chapter": 19,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Revelation 19:8"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "2 Corinthians",
+    "Isaiah",
+    "Matthew",
+    "Revelation"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:2f8cac7f87e536259ff6e5c7284313bfdec76eaffe42ed850753c9743cdd8cbb",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 3
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 3,
+    "total_refs": 7,
+    "ot_refs": 1,
+    "nt_refs": 6,
+    "books_count": 4,
+    "top_books": [
+      "Revelation",
+      "Isaiah",
+      "Matthew",
+      "2 Corinthians"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:26:32.818603Z",
-  "updated_at": "2025-09-20T17:26:32.818610Z"
+  }
 }

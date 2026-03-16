@@ -1,62 +1,33 @@
 {
   "topic": "PIPE",
   "slug": "pipe",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "(A wind instrument of music)",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "Used in religious services 1Sa 10:5; Isa 30:29",
-      "references": [
-        "1Sam 10:5",
-        "Isa 30:29"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "See MUSIC, INSTRUMENTS OF",
-      "references": [],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Isaiah",
-      "book_abbrev": "isa",
-      "chapter": 30,
-      "testament": "OT",
-      "verses": [
-        29
-      ],
-      "verse_count": 1
-    }
+  "sources": [
+    "NAV"
   ],
   "see_also": [
     "MUSIC, INSTRUMENTS OF"
   ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.718547+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "aspects": [
+    {
+      "label": "(A wind instrument of music)",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "Used in religious services",
+      "references": [
+        "1 Samuel 10:5",
+        "Isaiah 30:29"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeMUSIC, INSTRUMENTS OF",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "1 Samuel",
       "chapter": 10,
@@ -65,30 +36,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Samuel 10:5",
-      "source": "EAS"
-    },
-    {
-      "book": "1 Kings",
-      "chapter": 1,
-      "verses": [
-        40
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "1 Kings 1:40",
-      "source": "EAS"
-    },
-    {
-      "book": "Isaiah",
-      "chapter": 5,
-      "verses": [
-        12
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Isaiah 5:12",
-      "source": "EAS"
+      "raw": "1 Samuel 10:5"
     },
     {
       "book": "Isaiah",
@@ -98,74 +46,22 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Isaiah 30:29",
-      "source": "EAS"
-    },
-    {
-      "book": "Matthew",
-      "chapter": 11,
-      "verses": [
-        17
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Matthew 11:17",
-      "source": "EAS"
-    },
-    {
-      "book": "1 Corinthians",
-      "chapter": 14,
-      "verses": [
-        7
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "1 Corinthians 14:7",
-      "source": "EAS"
-    },
-    {
-      "book": "Amos",
-      "chapter": 6,
-      "verses": [
-        5
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Amos 6:5",
-      "source": "EAS"
-    },
-    {
-      "book": "Matthew",
-      "chapter": 9,
-      "verses": [
-        23
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Matthew 9:23",
-      "source": "SMI"
-    },
-    {
-      "book": "Jeremiah",
-      "chapter": 48,
-      "verses": [
-        36
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Jeremiah 48:36",
-      "source": "SMI"
-    },
-    {
-      "book": "Psalms",
-      "chapter": 87,
-      "verses": [
-        7
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Psalms 87:7",
-      "source": "SMI"
+      "raw": "Isaiah 30:29"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Samuel",
+    "Isaiah"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 2,
+    "ot_refs": 2,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "1 Samuel",
+      "Isaiah"
+    ]
+  }
 }

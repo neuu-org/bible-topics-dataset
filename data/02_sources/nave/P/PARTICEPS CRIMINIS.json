@@ -1,78 +1,46 @@
 {
   "topic": "PARTICEPS CRIMINIS",
-  "topic_slug": "particeps_criminis",
+  "slug": "particeps_criminis",
   "canonical_id": "NAV:particeps_criminis",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "COLLUSION"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "COLLUSION",
-      "clean": "COLLUSION",
-      "slug": "collusion",
-      "canonical_id": "NAV:collusion"
-    }
-  ],
-  "raw_block": "–General scriptures concerning2Jo 1:11\n–SeeCOLLUSION",
-  "content_preview": "–General scriptures concerning2Jo 1:11",
-  "reference_groups": [
-    {
-      "idx": 0,
-      "entry_label": "–General scriptures concerning2Jo 1:11",
-      "raw_segment": "–General scriptures concerning2Jo 1:11"
+      "label": "General scriptures concerning",
+      "references": [
+        "Job 1:11"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–SeeCOLLUSION",
-      "raw_segment": "–SeeCOLLUSION"
+      "label": "SeeCOL",
+      "references": []
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Job",
+      "chapter": 1,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Job 1:11"
+    }
+  ],
+  "books_mentioned": [
+    "Job"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 2,
+    "total_refs": 1,
+    "ot_refs": 1,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:e824bfd584b3950c8cd3abe0bd4123378ba1df20ab847b9a3c725e2143b72f89",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 1,
+    "top_books": [
+      "Job"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:29:51.928771Z",
-  "updated_at": "2025-09-20T17:29:51.928779Z"
+  }
 }

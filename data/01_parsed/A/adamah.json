@@ -1,39 +1,20 @@
 {
   "topic": "ADAMAH",
   "slug": "adamah",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Also called ADAMI, a city of Naphtali Jos 19:33,36",
-      "references": [
-        "Josh 19:33",
-        "Josh 19:36"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.661137+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "Al",
+      "references": [
+        "Joshua 19:33,36"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Joshua",
       "chapter": 19,
@@ -43,19 +24,20 @@
       ],
       "verse_count": 2,
       "testament": "OT",
-      "raw": "Joshua 19:33, 36",
-      "source": "EAS"
-    },
-    {
-      "book": "Joshua",
-      "chapter": 19,
-      "verses": [
-        36
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Joshua 19:36",
-      "source": "SMI"
+      "raw": "Joshua 19:33,36"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Joshua"
+  ],
+  "stats": {
+    "total_aspects": 1,
+    "total_refs": 1,
+    "ot_refs": 1,
+    "nt_refs": 0,
+    "books_count": 1,
+    "top_books": [
+      "Joshua"
+    ]
+  }
 }

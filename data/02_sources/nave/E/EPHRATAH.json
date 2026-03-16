@@ -1,69 +1,125 @@
 {
   "topic": "EPHRATAH",
-  "topic_slug": "ephratah",
+  "slug": "ephratah",
   "canonical_id": "NAV:ephratah",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–1. Also called EPHRATH\n  .The ancient name of Beth-lehem-judahGe 35:16,19;48:7;Ru 4:11;Ps 132:6;Mic 5:2\n–2. Second wife of Caleb, mother of Hur1Ch 2:19,50;4:4",
-  "content_preview": "–1. Also called EPHRATH",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–1. Also called EPHRATH",
-      "raw_segment": "–1. Also called EPHRATH"
+      "label": "1. Al",
+      "references": []
     },
     {
-      "idx": 1,
-      "entry_label": "–2. Second wife of Caleb, mother of Hur1Ch 2:19,50;4:4",
-      "raw_segment": "–2. Second wife of Caleb, mother of Hur1Ch 2:19,50;4:4"
+      "label": ".The ancient name of Beth-lehem-",
+      "references": [
+        "Genesis 35:16,19",
+        "Genesis 48:7",
+        "Ruth 4:11",
+        "Psalms 132:6",
+        "Micah 5:2"
+      ]
+    },
+    {
+      "label": "2. Second wife of",
+      "references": [
+        "1 Chronicles 2:19,50",
+        "1 Chronicles 4:4"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Genesis",
+      "chapter": 35,
+      "verses": [
+        16,
+        19
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Genesis 35:16,19"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 48,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 48:7"
+    },
+    {
+      "book": "Ruth",
+      "chapter": 4,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ruth 4:11"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 132,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 132:6"
+    },
+    {
+      "book": "Micah",
+      "chapter": 5,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Micah 5:2"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 2,
+      "verses": [
+        19,
+        50
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "1 Chronicles 2:19,50"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 4,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 4:4"
+    }
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Genesis",
+    "Micah",
+    "Psalms",
+    "Ruth"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 3,
+    "total_refs": 7,
+    "ot_refs": 7,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:3b20aa45ce5e626e3e644c233969a3d5d4e55eede5dd258054066f29d1d2517b",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 3
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 5,
+    "top_books": [
+      "Genesis",
+      "1 Chronicles",
+      "Ruth",
+      "Psalms",
+      "Micah"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:26:04.130959Z",
-  "updated_at": "2025-09-20T17:26:04.130966Z"
+  }
 }

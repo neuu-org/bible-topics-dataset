@@ -1,109 +1,241 @@
 {
   "topic": "SWINE",
-  "topic_slug": "swine",
+  "slug": "swine",
   "canonical_id": "NAV:swine",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–(Pigs)\n–Forbidden as foodLe 11:7;De 14:8\n–Used for foodIsa 65:4;66:17\n–For sacrificeIsa 66:3\n–Wild boarPs 80:13\n–Jewels in the nose ofPr 11:22\n–Viciousness ofMt 7:6\n–Jesus sends demons into theMt 8:28-32;Mr 5:11-14;Lu 8:32,33\n–Feeding ofLu 15:15,16\n–Sow returns to her wallowing2Pe 2:22",
-  "content_preview": "–(Pigs)",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–(Pigs)",
-      "raw_segment": "–(Pigs)"
+      "label": "(Pigs)",
+      "references": []
     },
     {
-      "idx": 1,
-      "entry_label": "–Forbidden as foodLe 11:7;De 14:8",
-      "raw_segment": "–Forbidden as foodLe 11:7;De 14:8"
+      "label": "Forbid",
+      "references": [
+        "Leviticus 11:7",
+        "Deuteronomy 14:8"
+      ]
     },
     {
-      "idx": 2,
-      "entry_label": "–Used for foodIsa 65:4;66:17",
-      "raw_segment": "–Used for foodIsa 65:4;66:17"
+      "label": "Used for food",
+      "references": [
+        "Isaiah 65:4",
+        "Isaiah 66:17"
+      ]
     },
     {
-      "idx": 3,
-      "entry_label": "–For sacrificeIsa 66:3",
-      "raw_segment": "–For sacrificeIsa 66:3"
+      "label": "For sacrifice",
+      "references": [
+        "Isaiah 66:3"
+      ]
     },
     {
-      "idx": 4,
-      "entry_label": "–Wild boarPs 80:13",
-      "raw_segment": "–Wild boarPs 80:13"
+      "label": "Wild boar",
+      "references": [
+        "Psalms 80:13"
+      ]
     },
     {
-      "idx": 5,
-      "entry_label": "–Jewels in the nose ofPr 11:22",
-      "raw_segment": "–Jewels in the nose ofPr 11:22"
+      "label": "Jewels in the nose of",
+      "references": [
+        "Proverbs 11:22"
+      ]
     },
     {
-      "idx": 6,
-      "entry_label": "–Viciousness ofMt 7:6",
-      "raw_segment": "–Viciousness ofMt 7:6"
+      "label": "Viciousness of",
+      "references": [
+        "Matthew 7:6"
+      ]
     },
     {
-      "idx": 7,
-      "entry_label": "–Jesus sends demons into theMt 8:28-32;Mr 5:11-14;Lu 8:32,33",
-      "raw_segment": "–Jesus sends demons into theMt 8:28-32;Mr 5:11-14;Lu 8:32,33"
+      "label": "Jesus sends",
+      "references": [
+        "Matthew 8:28-32",
+        "Mark 5:11-14",
+        "Luke 8:32,33"
+      ]
     },
     {
-      "idx": 8,
-      "entry_label": "–Feeding ofLu 15:15,16",
-      "raw_segment": "–Feeding ofLu 15:15,16"
+      "label": "Feeding of",
+      "references": [
+        "Luke 15:15,16"
+      ]
     },
     {
-      "idx": 9,
-      "entry_label": "–Sow returns to her wallowing2Pe 2:22",
-      "raw_segment": "–Sow returns to her wallowing2Pe 2:22"
+      "label": "General references",
+      "references": [
+        "2 Peter 2:22"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Leviticus",
+      "chapter": 11,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Leviticus 11:7"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 14,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 14:8"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 65,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 65:4"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 66,
+      "verses": [
+        17
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 66:17"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 66,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 66:3"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 80,
+      "verses": [
+        13
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 80:13"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 11,
+      "verses": [
+        22
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 11:22"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 7,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 7:6"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 8,
+      "verses": [
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "verse_count": 5,
+      "testament": "NT",
+      "raw": "Matthew 8:28-32"
+    },
+    {
+      "book": "Mark",
+      "chapter": 5,
+      "verses": [
+        11,
+        12,
+        13,
+        14
+      ],
+      "verse_count": 4,
+      "testament": "NT",
+      "raw": "Mark 5:11-14"
+    },
+    {
+      "book": "Luke",
+      "chapter": 8,
+      "verses": [
+        32,
+        33
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Luke 8:32,33"
+    },
+    {
+      "book": "Luke",
+      "chapter": 15,
+      "verses": [
+        15,
+        16
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Luke 15:15,16"
+    },
+    {
+      "book": "2 Peter",
+      "chapter": 2,
+      "verses": [
+        22
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "2 Peter 2:22"
+    }
+  ],
+  "books_mentioned": [
+    "2 Peter",
+    "Deuteronomy",
+    "Isaiah",
+    "Leviticus",
+    "Luke",
+    "Mark",
+    "Matthew",
+    "Proverbs",
+    "Psalms"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:e47f05b1e5cad593f2dbdd0119437f66f6b0f0401d0d976b83ee3fc44d56e1c5",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 10
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 10,
+    "total_refs": 13,
+    "ot_refs": 7,
+    "nt_refs": 6,
+    "books_count": 9,
+    "top_books": [
+      "Isaiah",
+      "Matthew",
+      "Luke",
+      "Leviticus",
+      "Deuteronomy",
+      "Psalms",
+      "Proverbs",
+      "Mark",
+      "2 Peter"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:31:54.509081Z",
-  "updated_at": "2025-09-20T17:31:54.509090Z"
+  }
 }

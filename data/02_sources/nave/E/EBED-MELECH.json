@@ -1,74 +1,68 @@
 {
   "topic": "EBED-MELECH",
-  "topic_slug": "ebed_melech",
+  "slug": "ebed_melech",
   "canonical_id": "NAV:ebed_melech",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–(An Ethiopian)\n–Jeremiah rescued byJer 38:7-13\n–Prophecy concerningJer 39:16-18",
-  "content_preview": "–(An Ethiopian)",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–(An Ethiopian)",
-      "raw_segment": "–(An Ethiopian)"
+      "label": "(An Ethiopian)",
+      "references": []
     },
     {
-      "idx": 1,
-      "entry_label": "–Jeremiah rescued byJer 38:7-13",
-      "raw_segment": "–Jeremiah rescued byJer 38:7-13"
+      "label": "General references",
+      "references": [
+        "Jeremiah 38:7-13"
+      ]
     },
     {
-      "idx": 2,
-      "entry_label": "–Prophecy concerningJer 39:16-18",
-      "raw_segment": "–Prophecy concerningJer 39:16-18"
+      "label": "Prophecy concerning",
+      "references": [
+        "Jeremiah 39:16-18"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Jeremiah",
+      "chapter": 38,
+      "verses": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "verse_count": 7,
+      "testament": "OT",
+      "raw": "Jeremiah 38:7-13"
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 39,
+      "verses": [
+        16,
+        17,
+        18
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Jeremiah 39:16-18"
+    }
+  ],
+  "books_mentioned": [
+    "Jeremiah"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 3,
+    "total_refs": 2,
+    "ot_refs": 2,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:a117ca32676e736dec68f9b7a3fc14576b19eb0409b37013fc7388195c19bbfc",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 3
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 1,
+    "top_books": [
+      "Jeremiah"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:25:46.082428Z",
-  "updated_at": "2025-09-20T17:25:46.082436Z"
+  }
 }

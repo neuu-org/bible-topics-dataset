@@ -1,51 +1,33 @@
 {
   "topic": "DABERATH",
   "slug": "daberath",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Also called DABAREH",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "A town of Issachar Jos 19:12; 21:28",
-      "references": [
-        "Josh 19:12",
-        "Josh 21:28"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Assigned to the Levites 1Ch 6:72",
-      "references": [
-        "1Chr 6:72"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.680190+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "Al",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "A town of Issachar",
+      "references": [
+        "Joshua 19:12",
+        "Joshua 21:28"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Assigned to the Levites",
+      "references": [
+        "1 Chronicles 6:72"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Joshua",
       "chapter": 19,
@@ -54,8 +36,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Joshua 19:12",
-      "source": "EAS"
+      "raw": "Joshua 19:12"
     },
     {
       "book": "Joshua",
@@ -65,19 +46,32 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Joshua 21:28",
-      "source": "EAS"
+      "raw": "Joshua 21:28"
     },
     {
-      "book": "Matthew",
-      "chapter": 17,
+      "book": "1 Chronicles",
+      "chapter": 6,
       "verses": [
-        14
+        72
       ],
       "verse_count": 1,
-      "testament": "NT",
-      "raw": "Matthew 17:14",
-      "source": "EAS"
+      "testament": "OT",
+      "raw": "1 Chronicles 6:72"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Joshua"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 3,
+    "ot_refs": 3,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "Joshua",
+      "1 Chronicles"
+    ]
+  }
 }

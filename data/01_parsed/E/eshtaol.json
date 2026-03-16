@@ -1,64 +1,42 @@
 {
   "topic": "ESHTAOL",
   "slug": "eshtaol",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "A town of the tribe of Judah Jos 15:33",
-      "references": [
-        "Josh 15:33"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Allotted to Dan Jos 19:41; Jud 18:2,8,11",
-      "references": [
-        "Josh 19:41",
-        "Judg 18:2",
-        "Judg 18:8",
-        "Judg 18:11"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Samson moved by the spirit of the Lord near Jud 13:25",
-      "references": [
-        "Judg 13:25"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Samson buried near Jud 16:31",
-      "references": [
-        "Judg 16:31"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 4,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.685160+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "A town of the tribe of",
+      "references": [
+        "Joshua 15:33"
+      ],
+      "source": "NAV"
     },
-    "enriched_at": "2025-12-02T22:02:09.955138+00:00",
-    "enrichment_source": "pipeline_merge"
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+    {
+      "label": "Allotted to Dan",
+      "references": [
+        "Joshua 19:41",
+        "Judges 18:2,8,11"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Sam",
+      "references": [
+        "Judges 13:25"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Sam",
+      "references": [
+        "Judges 16:31"
+      ],
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
     {
       "book": "Joshua",
       "chapter": 15,
@@ -67,8 +45,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Joshua 15:33",
-      "source": "EAS"
+      "raw": "Joshua 15:33"
     },
     {
       "book": "Joshua",
@@ -78,8 +55,19 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Joshua 19:41",
-      "source": "EAS"
+      "raw": "Joshua 19:41"
+    },
+    {
+      "book": "Judges",
+      "chapter": 18,
+      "verses": [
+        2,
+        8,
+        11
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Judges 18:2,8,11"
     },
     {
       "book": "Judges",
@@ -89,8 +77,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Judges 13:25",
-      "source": "EAS"
+      "raw": "Judges 13:25"
     },
     {
       "book": "Judges",
@@ -100,22 +87,22 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Judges 16:31",
-      "source": "EAS"
-    },
-    {
-      "book": "Judges",
-      "chapter": 18,
-      "verses": [
-        2,
-        8,
-        11,
-        12
-      ],
-      "verse_count": 4,
-      "testament": "OT",
-      "raw": "Judges 18:2, 8, 11, 12",
-      "source": "EAS"
+      "raw": "Judges 16:31"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Joshua",
+    "Judges"
+  ],
+  "stats": {
+    "total_aspects": 4,
+    "total_refs": 5,
+    "ot_refs": 5,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "Judges",
+      "Joshua"
+    ]
+  }
 }

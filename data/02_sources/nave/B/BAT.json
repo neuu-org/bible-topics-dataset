@@ -1,64 +1,67 @@
 {
   "topic": "BAT",
-  "topic_slug": "bat",
+  "slug": "bat",
   "canonical_id": "NAV:bat",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–General scriptures concerningLe 11:19;De 14:18;Isa \n2:20",
-  "content_preview": "–General scriptures concerningLe 11:19;De 14:18;Isa ",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–General scriptures concerningLe 11:19;De 14:18;Isa \n2:20",
-      "raw_segment": "–General scriptures concerningLe 11:19;De 14:18;Isa \n2:20"
+      "label": "General scriptures concerning",
+      "references": [
+        "Leviticus 11:19",
+        "Deuteronomy 14:18"
+      ]
+    },
+    {
+      "label": "2:20",
+      "references": []
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Leviticus",
+      "chapter": 11,
+      "verses": [
+        19
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Leviticus 11:19"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 14,
+      "verses": [
+        18
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 14:18"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 2,
+      "verses": [
+        20
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 2:20"
+    }
+  ],
+  "books_mentioned": [
+    "Deuteronomy",
+    "Leviticus"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 2,
+    "total_refs": 3,
+    "ot_refs": 3,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:8798587f3db27f060e566a4b033c77bfdcfe5f99bd168468a605650b1587609e",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 2,
+    "top_books": [
+      "Deuteronomy",
+      "Leviticus"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:24:11.325803Z",
-  "updated_at": "2025-09-20T17:24:11.325811Z"
+  }
 }

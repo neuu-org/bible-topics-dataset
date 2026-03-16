@@ -1,88 +1,109 @@
 {
   "topic": "EXECUTIONER",
-  "topic_slug": "executioner",
+  "slug": "executioner",
   "canonical_id": "NAV:executioner",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "PUNISHMENT"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "PUNISHMENT",
-      "clean": "PUNISHMENT",
-      "slug": "punishment",
-      "canonical_id": "NAV:punishment"
+      "label": "General scriptures concerning",
+      "references": [
+        "Genesis 37:36",
+        "Proverbs 16:14"
+      ]
+    },
+    {
+      "label": "39:9",
+      "references": []
+    },
+    {
+      "label": "(Margin)",
+      "references": [
+        "Daniel 2:14"
+      ]
+    },
+    {
+      "label": "(Margin)",
+      "references": [
+        "Matthew 14:10"
+      ]
+    },
+    {
+      "label": "SeePUNISHMENT",
+      "references": []
     }
   ],
-  "raw_block": "–General scriptures concerningGe 37:36;Pr 16:14;Jer \n39:9\n–(Margin)Da 2:14\n–(Margin)Mt 14:10\n–SeePUNISHMENT",
-  "content_preview": "–General scriptures concerningGe 37:36;Pr 16:14;Jer ",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–General scriptures concerningGe 37:36;Pr 16:14;Jer \n39:9",
-      "raw_segment": "–General scriptures concerningGe 37:36;Pr 16:14;Jer \n39:9"
+      "book": "Genesis",
+      "chapter": 37,
+      "verses": [
+        36
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 37:36"
     },
     {
-      "idx": 1,
-      "entry_label": "–(Margin)Da 2:14",
-      "raw_segment": "–(Margin)Da 2:14"
+      "book": "Proverbs",
+      "chapter": 16,
+      "verses": [
+        14
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 16:14"
     },
     {
-      "idx": 2,
-      "entry_label": "–(Margin)Mt 14:10",
-      "raw_segment": "–(Margin)Mt 14:10"
+      "book": "Proverbs",
+      "chapter": 39,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 39:9"
     },
     {
-      "idx": 3,
-      "entry_label": "–SeePUNISHMENT",
-      "raw_segment": "–SeePUNISHMENT"
+      "book": "Daniel",
+      "chapter": 2,
+      "verses": [
+        14
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Daniel 2:14"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 14,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 14:10"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "Daniel",
+    "Genesis",
+    "Matthew",
+    "Proverbs"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:16aaae1602516e6a701f329993659f1174c35819421c9a6007f4910aca1c0d05",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 5
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 5,
+    "total_refs": 5,
+    "ot_refs": 4,
+    "nt_refs": 1,
+    "books_count": 4,
+    "top_books": [
+      "Proverbs",
+      "Genesis",
+      "Daniel",
+      "Matthew"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:26:12.015912Z",
-  "updated_at": "2025-09-20T17:26:12.015920Z"
+  }
 }

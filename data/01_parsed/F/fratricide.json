@@ -1,69 +1,133 @@
 {
   "topic": "FRATRICIDE",
   "slug": "fratricide",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "INSTANCES OF",
-      "references": [],
-      "sub_groups": [
-        {
-          "name": "Cain Ge 4:8",
-          "references": [
-            "Gen 4:8"
-          ]
-        },
-        {
-          "name": "Abimelech Jud 9:5",
-          "references": [
-            "Judg 9:5"
-          ]
-        },
-        {
-          "name": "Absalom 2Sa 13:28,29",
-          "references": [
-            "2Sam 13:28",
-            "2Sam 13:29"
-          ]
-        },
-        {
-          "name": "Solomon 1Ki 2:23-25",
-          "references": [
-            "1Kgs 2:23-25"
-          ]
-        },
-        {
-          "name": "Jehoram 2Ch 21:4",
-          "references": [
-            "2Chr 21:4"
-          ]
-        }
-      ]
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [
-    "HOMICIDE"
-  ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.687335+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
+  "see_also": [
+    "HOMICIDE"
+  ],
+  "aspects": [
+    {
+      "label": "INSTANCES OF",
+      "references": [],
+      "source": "NAV"
     },
-    "enriched_at": "2025-12-02T22:02:10.265966+00:00",
-    "enrichment_source": "pipeline_merge"
-  },
-  "version": "3.0.0"
+    {
+      "label": ".",
+      "references": [
+        "Genesis 4:8"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".Abimelech",
+      "references": [
+        "Judges 9:5"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".Absalom",
+      "references": [
+        "2 Samuel 13:28,29"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".",
+      "references": [
+        "1 Kings 2:23-25"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".Jehoram",
+      "references": [
+        "2 Chronicles 21:4"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".SeeHOMICI",
+      "references": [],
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
+    {
+      "book": "Genesis",
+      "chapter": 4,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 4:8"
+    },
+    {
+      "book": "Judges",
+      "chapter": 9,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Judges 9:5"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 13,
+      "verses": [
+        28,
+        29
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "2 Samuel 13:28,29"
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 2,
+      "verses": [
+        23,
+        24,
+        25
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "1 Kings 2:23-25"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 21,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Chronicles 21:4"
+    }
+  ],
+  "books_mentioned": [
+    "1 Kings",
+    "2 Chronicles",
+    "2 Samuel",
+    "Genesis",
+    "Judges"
+  ],
+  "stats": {
+    "total_aspects": 7,
+    "total_refs": 5,
+    "ot_refs": 5,
+    "nt_refs": 0,
+    "books_count": 5,
+    "top_books": [
+      "Genesis",
+      "Judges",
+      "2 Samuel",
+      "1 Kings",
+      "2 Chronicles"
+    ]
+  }
 }

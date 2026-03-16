@@ -1,69 +1,132 @@
 {
   "topic": "AI",
-  "topic_slug": "ai",
+  "slug": "ai",
   "canonical_id": "NAV:ai",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–1. A royal city of the Canaanites\n  .Conquest and destruction ofJos 7:8\n  .RebuiltEzr 2:28\n  .Also called AIJANe 11:31\n  .And AIATHIsa 10:28\n  .Population ofJos 8:25\n–2. A city of the AmmonitesJer 49:3",
-  "content_preview": "–1. A royal city of the Canaanites",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–1. A royal city of the Canaanites",
-      "raw_segment": "–1. A royal city of the Canaanites"
+      "label": "1. A royal city of the",
+      "references": []
     },
     {
-      "idx": 1,
-      "entry_label": "–2. A city of the AmmonitesJer 49:3",
-      "raw_segment": "–2. A city of the AmmonitesJer 49:3"
+      "label": ".Conquest and",
+      "references": [
+        "Joshua 7:8"
+      ]
+    },
+    {
+      "label": ".Rebuilt",
+      "references": [
+        "Ezra 2:28"
+      ]
+    },
+    {
+      "label": ".Al",
+      "references": [
+        "Nehemiah 11:31"
+      ]
+    },
+    {
+      "label": ".And AIATH",
+      "references": [
+        "Isaiah 10:28"
+      ]
+    },
+    {
+      "label": ".Population of",
+      "references": [
+        "Joshua 8:25"
+      ]
+    },
+    {
+      "label": "2. A city of the Ammonites",
+      "references": [
+        "Jeremiah 49:3"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Joshua",
+      "chapter": 7,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 7:8"
+    },
+    {
+      "book": "Ezra",
+      "chapter": 2,
+      "verses": [
+        28
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezra 2:28"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 11,
+      "verses": [
+        31
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Nehemiah 11:31"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 10,
+      "verses": [
+        28
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 10:28"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 8,
+      "verses": [
+        25
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 8:25"
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 49,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Jeremiah 49:3"
+    }
+  ],
+  "books_mentioned": [
+    "Ezra",
+    "Isaiah",
+    "Jeremiah",
+    "Joshua",
+    "Nehemiah"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 7,
+    "total_refs": 6,
+    "ot_refs": 6,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:75e59d0f3bedbc290413b016528740bcae68fc866d37768f15309d8ff32e02f8",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 7
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 5,
+    "top_books": [
+      "Joshua",
+      "Ezra",
+      "Nehemiah",
+      "Isaiah",
+      "Jeremiah"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:23:26.255628Z",
-  "updated_at": "2025-09-20T17:23:26.255635Z"
+  }
 }

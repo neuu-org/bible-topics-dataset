@@ -1,95 +1,112 @@
 {
   "topic": "MAGISTRATE",
-  "topic_slug": "magistrate",
+  "slug": "magistrate",
   "canonical_id": "NAV:magistrate",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "RULERS",
     "GOVERNMENT"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "RULERS",
-      "clean": "RULERS",
-      "slug": "rulers",
-      "canonical_id": "NAV:rulers"
+      "label": "An officer of civil law",
+      "references": [
+        "Judges 18:7",
+        "Ezra 7:25",
+        "Luke 12:11,58",
+        "Acts 16:20,22,35,38"
+      ]
     },
     {
-      "original": "GOVERNMENT",
-      "clean": "GOVERNMENT",
-      "slug": "government",
-      "canonical_id": "NAV:government"
+      "label": "Obedience to, enjoined",
+      "references": [
+        "Titus 3:1"
+      ]
+    },
+    {
+      "label": "SeeGOVERNMENT",
+      "references": []
+    },
+    {
+      "label": "SeeRULERS",
+      "references": []
     }
   ],
-  "raw_block": "–An officer of civil lawJud 18:7;Ezr 7:25;Lu 12:11,58;Ac 16:20,22,35,38\n–Obedience to, enjoinedTit 3:1\n–SeeGOVERNMENT\n–SeeRULERS",
-  "content_preview": "–An officer of civil lawJud 18:7;Ezr 7:25;Lu 12:11,58;Ac 16:20,22,35,38",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–An officer of civil lawJud 18:7;Ezr 7:25;Lu 12:11,58;Ac 16:20,22,35,38",
-      "raw_segment": "–An officer of civil lawJud 18:7;Ezr 7:25;Lu 12:11,58;Ac 16:20,22,35,38"
+      "book": "Judges",
+      "chapter": 18,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Judges 18:7"
     },
     {
-      "idx": 1,
-      "entry_label": "–Obedience to, enjoinedTit 3:1",
-      "raw_segment": "–Obedience to, enjoinedTit 3:1"
+      "book": "Ezra",
+      "chapter": 7,
+      "verses": [
+        25
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezra 7:25"
     },
     {
-      "idx": 2,
-      "entry_label": "–SeeGOVERNMENT",
-      "raw_segment": "–SeeGOVERNMENT"
+      "book": "Luke",
+      "chapter": 12,
+      "verses": [
+        11,
+        58
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Luke 12:11,58"
     },
     {
-      "idx": 3,
-      "entry_label": "–SeeRULERS",
-      "raw_segment": "–SeeRULERS"
+      "book": "Acts",
+      "chapter": 16,
+      "verses": [
+        20,
+        22,
+        35,
+        38
+      ],
+      "verse_count": 4,
+      "testament": "NT",
+      "raw": "Acts 16:20,22,35,38"
+    },
+    {
+      "book": "Titus",
+      "chapter": 3,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Titus 3:1"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "Acts",
+    "Ezra",
+    "Judges",
+    "Luke",
+    "Titus"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:20c665ada5a448da5b763462f33aab45332874fc4177bfe38ce820988ab4329c",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 4
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 4,
+    "total_refs": 5,
+    "ot_refs": 2,
+    "nt_refs": 3,
+    "books_count": 5,
+    "top_books": [
+      "Judges",
+      "Ezra",
+      "Luke",
+      "Acts",
+      "Titus"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:28:45.507511Z",
-  "updated_at": "2025-09-20T17:28:45.507520Z"
+  }
 }

@@ -1,51 +1,33 @@
 {
   "topic": "CHUN",
   "slug": "chun",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "A Syrian city 1Ch 18:8",
-      "references": [
-        "1Chr 18:8"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "See BETAH",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "See BEROTHAI",
-      "references": [],
-      "sub_groups": []
-    }
+  "sources": [
+    "NAV"
   ],
-  "biblical_references": [],
   "see_also": [
     "BEROTHAI",
     "BETAH"
   ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.678086+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "aspects": [
+    {
+      "label": "A Syrian city",
+      "references": [
+        "1 Chronicles 18:8"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeBETAH",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeBEROTHAI",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "1 Chronicles",
       "chapter": 18,
@@ -54,30 +36,20 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 18:8",
-      "source": "EAS"
-    },
-    {
-      "book": "2 Samuel",
-      "chapter": 8,
-      "verses": [
-        8
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "2 Samuel 8:8",
-      "source": "EAS"
-    },
-    {
-      "book": "Ezekiel",
-      "chapter": 47,
-      "verses": [
-        16
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Ezekiel 47:16",
-      "source": "EAS"
+      "raw": "1 Chronicles 18:8"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 1,
+    "ot_refs": 1,
+    "nt_refs": 0,
+    "books_count": 1,
+    "top_books": [
+      "1 Chronicles"
+    ]
+  }
 }

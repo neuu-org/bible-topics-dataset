@@ -1,72 +1,65 @@
 {
   "topic": "GEBAL",
   "slug": "gebal",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. A city south of Sidon",
-      "references": [],
-      "sub_groups": [
-        {
-          "name": "Given to Reuben Jos 13:5",
-          "references": [
-            "Josh 13:5"
-          ]
-        },
-        {
-          "name": "People of, work for Solomon 1Ki 5:18",
-          "references": [
-            "1Kgs 5:18"
-          ]
-        },
-        {
-          "name": "Shipbuilders in Eze 27:9",
-          "references": [
-            "Ezek 27:9"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "2. A district near the Dead Sea Ps 83:7",
-      "references": [
-        "Ps 83:7"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.688094+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "see_also": [],
+  "aspects": [
     {
-      "book": "Psalms",
-      "chapter": 83,
+      "label": "1. A city",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".Given to Reuben",
+      "references": [
+        "Joshua 13:5"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".People of, work for",
+      "references": [
+        "1 Kings 5:18"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".Shipbuil",
+      "references": [
+        "Ezekiel 27:9"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2. A district near the",
+      "references": [
+        "Psalms 83:7"
+      ],
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
+    {
+      "book": "Joshua",
+      "chapter": 13,
       "verses": [
-        7
+        5
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Psalms 83:7",
-      "source": "EAS"
+      "raw": "Joshua 13:5"
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 5,
+      "verses": [
+        18
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Kings 5:18"
     },
     {
       "book": "Ezekiel",
@@ -76,8 +69,36 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Ezekiel 27:9",
-      "source": "EAS"
+      "raw": "Ezekiel 27:9"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 83,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 83:7"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Kings",
+    "Ezekiel",
+    "Joshua",
+    "Psalms"
+  ],
+  "stats": {
+    "total_aspects": 5,
+    "total_refs": 4,
+    "ot_refs": 4,
+    "nt_refs": 0,
+    "books_count": 4,
+    "top_books": [
+      "Joshua",
+      "1 Kings",
+      "Ezekiel",
+      "Psalms"
+    ]
+  }
 }

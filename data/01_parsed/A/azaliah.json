@@ -1,50 +1,21 @@
 {
   "topic": "AZALIAH",
   "slug": "azaliah",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Father of Shaphan 2Ki 22:3; 2Ch 34:8",
-      "references": [
-        "2Kgs 22:3",
-        "2Chr 34:8"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "2 Chronicles",
-      "book_abbrev": "2ch",
-      "chapter": 34,
-      "testament": "OT",
-      "verses": [
-        8
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.671005+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "Father of Shaphan",
+      "references": [
+        "2 Kings 22:3",
+        "2 Chronicles 34:8"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "2 Kings",
       "chapter": 22,
@@ -53,8 +24,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Kings 22:3",
-      "source": "SMI"
+      "raw": "2 Kings 22:3"
     },
     {
       "book": "2 Chronicles",
@@ -64,8 +34,22 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Chronicles 34:8",
-      "source": "SMI"
+      "raw": "2 Chronicles 34:8"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "2 Chronicles",
+    "2 Kings"
+  ],
+  "stats": {
+    "total_aspects": 1,
+    "total_refs": 2,
+    "ot_refs": 2,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "2 Kings",
+      "2 Chronicles"
+    ]
+  }
 }

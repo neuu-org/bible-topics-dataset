@@ -1,56 +1,27 @@
 {
   "topic": "ELAMITES",
   "slug": "elamites",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Descendants of Elam, whose name was given to the district of Elam Ge 10:22",
-      "references": [
-        "Gen 10:22"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Present at Pentecost Ac 2:9",
-      "references": [
-        "Acts 2:9"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.683312+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "see_also": [],
+  "aspects": [
     {
-      "book": "Ezra",
-      "chapter": 4,
-      "verses": [
-        9
+      "label": "Elam",
+      "references": [
+        "Genesis 10:22"
       ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Ezra 4:9",
-      "source": "SMI"
+      "source": "NAV"
     },
+    {
+      "label": "Present at Pentecost",
+      "references": [
+        "Acts 2:9"
+      ],
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
     {
       "book": "Genesis",
       "chapter": 10,
@@ -59,8 +30,32 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 10:22",
-      "source": "SMI"
+      "raw": "Genesis 10:22"
+    },
+    {
+      "book": "Acts",
+      "chapter": 2,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 2:9"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Acts",
+    "Genesis"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 2,
+    "ot_refs": 1,
+    "nt_refs": 1,
+    "books_count": 2,
+    "top_books": [
+      "Genesis",
+      "Acts"
+    ]
+  }
 }

@@ -1,64 +1,65 @@
 {
   "topic": "ELIMELECH",
-  "topic_slug": "elimelech",
+  "slug": "elimelech",
   "canonical_id": "NAV:elimelech",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–With Naomi, his wife, and two sons, emigrate to MoabRu 1:2,3;2:1,2;4:3,9",
-  "content_preview": "–With Naomi, his wife, and two sons, emigrate to MoabRu 1:2,3;2:1,2;4:3,9",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–With Naomi, his wife, and two sons, emigrate to MoabRu 1:2,3;2:1,2;4:3,9",
-      "raw_segment": "–With Naomi, his wife, and two sons, emigrate to MoabRu 1:2,3;2:1,2;4:3,9"
+      "label": "With Naomi, his wife, and two",
+      "references": [
+        "Ruth 1:2,3",
+        "Ruth 2:1,2",
+        "Ruth 4:3,9"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Ruth",
+      "chapter": 1,
+      "verses": [
+        2,
+        3
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Ruth 1:2,3"
+    },
+    {
+      "book": "Ruth",
+      "chapter": 2,
+      "verses": [
+        1,
+        2
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Ruth 2:1,2"
+    },
+    {
+      "book": "Ruth",
+      "chapter": 4,
+      "verses": [
+        3,
+        9
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Ruth 4:3,9"
+    }
+  ],
+  "books_mentioned": [
+    "Ruth"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 1,
+    "total_refs": 3,
+    "ot_refs": 3,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:777b02f78b94adf68eb5726eb8f140cd320537e41876f939a12ab270ccdc7784",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 1
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 1,
+    "top_books": [
+      "Ruth"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:25:53.696529Z",
-  "updated_at": "2025-09-20T17:25:53.696536Z"
+  }
 }

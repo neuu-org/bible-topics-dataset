@@ -1,64 +1,65 @@
 {
   "topic": "CANKERWORM",
-  "topic_slug": "cankerworm",
+  "slug": "cankerworm",
   "canonical_id": "NAV:cankerworm",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–Sent as a judgmentJoe 1:4;2:25;Na 3:15,16",
-  "content_preview": "–Sent as a judgmentJoe 1:4;2:25;Na 3:15,16",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–Sent as a judgmentJoe 1:4;2:25;Na 3:15,16",
-      "raw_segment": "–Sent as a judgmentJoe 1:4;2:25;Na 3:15,16"
+      "label": "Sent as a",
+      "references": [
+        "Joel 1:4",
+        "Joel 2:25",
+        "Nahum 3:15,16"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Joel",
+      "chapter": 1,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joel 1:4"
+    },
+    {
+      "book": "Joel",
+      "chapter": 2,
+      "verses": [
+        25
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joel 2:25"
+    },
+    {
+      "book": "Nahum",
+      "chapter": 3,
+      "verses": [
+        15,
+        16
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Nahum 3:15,16"
+    }
+  ],
+  "books_mentioned": [
+    "Joel",
+    "Nahum"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 1,
+    "total_refs": 3,
+    "ot_refs": 3,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:14ebc9af2ab89ea17c20c704c4b32e6a1040f5c772e9a91e93e2ede30f2ae028",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 1
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 2,
+    "top_books": [
+      "Joel",
+      "Nahum"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:24:47.611339Z",
-  "updated_at": "2025-09-20T17:24:47.611347Z"
+  }
 }

@@ -1,50 +1,21 @@
 {
   "topic": "KITE",
   "slug": "kite",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "A bird forbidden as food Le 11:14; De 14:13",
-      "references": [
-        "Lev 11:14",
-        "Deut 14:13"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Deuteronomy",
-      "book_abbrev": "deu",
-      "chapter": 14,
-      "testament": "OT",
-      "verses": [
-        13
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.699338+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "A bird forbid",
+      "references": [
+        "Leviticus 11:14",
+        "Deuteronomy 14:13"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Leviticus",
       "chapter": 11,
@@ -53,8 +24,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Leviticus 11:14",
-      "source": "EAS"
+      "raw": "Leviticus 11:14"
     },
     {
       "book": "Deuteronomy",
@@ -64,41 +34,22 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Deuteronomy 14:13",
-      "source": "EAS"
-    },
-    {
-      "book": "Job",
-      "chapter": 28,
-      "verses": [
-        7
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Job 28:7",
-      "source": "EAS"
-    },
-    {
-      "book": "Leviticus",
-      "chapter": 14,
-      "verses": [
-        13
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Leviticus 14:13",
-      "source": "SMI"
-    },
-    {
-      "book": "Job",
-      "chapter": 14,
-      "verses": [
-        1
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Job 14:1",
-      "source": "SMI"
+      "raw": "Deuteronomy 14:13"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Deuteronomy",
+    "Leviticus"
+  ],
+  "stats": {
+    "total_aspects": 1,
+    "total_refs": 2,
+    "ot_refs": 2,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "Leviticus",
+      "Deuteronomy"
+    ]
+  }
 }

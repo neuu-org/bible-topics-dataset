@@ -1,79 +1,81 @@
 {
   "topic": "TEN",
   "slug": "ten",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "(Used for an indefinite number) Ge 31:7; Le 26:26; Nu 14:22; Zec 8:23",
+      "label": "(Used for an in",
       "references": [
-        "Gen 31:7",
-        "Lev 26:26",
-        "Num 14:22",
-        "Zech 8:23"
+        "Genesis 31:7",
+        "Leviticus 26:26",
+        "Numbers 14:22",
+        "Ecclesiastes 8:23"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
       "book": "Genesis",
-      "book_abbrev": "gen",
       "chapter": 31,
-      "testament": "OT",
       "verses": [
         7
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 31:7"
     },
     {
       "book": "Leviticus",
-      "book_abbrev": "lev",
       "chapter": 26,
-      "testament": "OT",
       "verses": [
         26
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Leviticus 26:26"
     },
     {
       "book": "Numbers",
-      "book_abbrev": "num",
       "chapter": 14,
-      "testament": "OT",
       "verses": [
         22
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Numbers 14:22"
     },
     {
-      "book": "Zechariah",
-      "book_abbrev": "zec",
+      "book": "Ecclesiastes",
       "chapter": 8,
-      "testament": "OT",
       "verses": [
         23
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ecclesiastes 8:23"
     }
   ],
-  "see_also": [],
-  "aliases": [],
+  "books_mentioned": [
+    "Ecclesiastes",
+    "Genesis",
+    "Leviticus",
+    "Numbers"
+  ],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 1,
+    "total_refs": 4,
     "ot_refs": 4,
     "nt_refs": 0,
-    "total_verses": 4
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.729502+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    }
-  },
-  "version": "3.0.0"
+    "books_count": 4,
+    "top_books": [
+      "Genesis",
+      "Leviticus",
+      "Numbers",
+      "Ecclesiastes"
+    ]
+  }
 }

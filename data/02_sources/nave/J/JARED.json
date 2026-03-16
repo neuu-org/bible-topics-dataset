@@ -1,69 +1,79 @@
 {
   "topic": "JARED",
-  "topic_slug": "jared",
+  "slug": "jared",
   "canonical_id": "NAV:jared",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–1. Also called JERED\n  .A descendant of SethGe 5:15,16,18,19,20;1Ch 1:2\n–2. An ancestor of JesusLu 3:37",
-  "content_preview": "–1. Also called JERED",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–1. Also called JERED",
-      "raw_segment": "–1. Also called JERED"
+      "label": "1. Al",
+      "references": []
     },
     {
-      "idx": 1,
-      "entry_label": "–2. An ancestor of JesusLu 3:37",
-      "raw_segment": "–2. An ancestor of JesusLu 3:37"
+      "label": ".A",
+      "references": [
+        "Genesis 5:15,16,18,19,20",
+        "1 Chronicles 1:2"
+      ]
+    },
+    {
+      "label": "2. An ancestor of Jesus",
+      "references": [
+        "Luke 3:37"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Genesis",
+      "chapter": 5,
+      "verses": [
+        15,
+        16,
+        18,
+        19,
+        20
+      ],
+      "verse_count": 5,
+      "testament": "OT",
+      "raw": "Genesis 5:15,16,18,19,20"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 1,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 1:2"
+    },
+    {
+      "book": "Luke",
+      "chapter": 3,
+      "verses": [
+        37
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 3:37"
+    }
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Genesis",
+    "Luke"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:2144aebe10cd384a54d6970e0de18ce107fc3847d7ca3ac47e96f50271015a71",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 3
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 3,
+    "total_refs": 3,
+    "ot_refs": 2,
+    "nt_refs": 1,
+    "books_count": 3,
+    "top_books": [
+      "Genesis",
+      "1 Chronicles",
+      "Luke"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:27:52.673507Z",
-  "updated_at": "2025-09-20T17:27:52.673515Z"
+  }
 }

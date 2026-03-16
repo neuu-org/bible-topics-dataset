@@ -1,43 +1,62 @@
 {
   "topic": "GUDGODAH",
   "slug": "gudgodah",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "A station of the Israelites in the wilderness De 10:7",
-      "references": [
-        "Deut 10:7"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Probably identical with HOR-HAGIDGAD in Nu 33:32,33",
-      "references": [
-        "Num 33:32",
-        "Num 33:33"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.689815+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "A station of the Israelites in the wil",
+      "references": [
+        "Deuteronomy 10:7"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Probably i",
+      "references": [
+        "Numbers 33:32,33"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0"
+  ],
+  "biblical_references": [
+    {
+      "book": "Deuteronomy",
+      "chapter": 10,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 10:7"
+    },
+    {
+      "book": "Numbers",
+      "chapter": 33,
+      "verses": [
+        32,
+        33
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Numbers 33:32,33"
+    }
+  ],
+  "books_mentioned": [
+    "Deuteronomy",
+    "Numbers"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 2,
+    "ot_refs": 2,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "Deuteronomy",
+      "Numbers"
+    ]
+  }
 }

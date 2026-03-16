@@ -1,88 +1,56 @@
 {
   "topic": "RIBLAH",
   "slug": "riblah",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "A border town of the promised land Nu 34:10,11",
+      "label": "A bor",
       "references": [
-        "Num 34:10",
-        "Num 34:11"
+        "Numbers 34:10,11"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "King Jehoahaz overthrown in, by Pharaoh 2Ki 23:33",
+      "label": "King Jehoahaz overthrown in, by Pharaoh",
       "references": [
-        "2Kgs 23:33"
+        "2 Kings 23:33"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Headquarters of Nebuchadnezzar during the siege of Jerusalem 2Ki 25:6,20,21; Jer 39:5,6; 52:9,26",
+      "label": "Headquarters of Nebuchadnezzar during the siege of",
       "references": [
-        "2Kgs 25:6",
-        "2Kgs 25:20",
-        "2Kgs 25:21",
-        "Jer 39:5",
-        "Jer 39:6",
-        "Jer 52:9",
-        "Jer 52:26"
+        "2 Kings 25:6,20,21",
+        "Jeremiah 39:5,6",
+        "Jeremiah 52:9,26"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Jeremiah",
-      "book_abbrev": "jer",
-      "chapter": 39,
-      "testament": "OT",
+      "book": "Numbers",
+      "chapter": 34,
       "verses": [
-        5,
-        6,
-        52
+        10,
+        11
       ],
-      "verse_count": 3
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.721777+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Numbers 34:10,11"
+    },
     {
       "book": "2 Kings",
       "chapter": 23,
       "verses": [
-        29,
-        30,
-        31,
-        32,
-        33,
-        34,
-        35
+        33
       ],
-      "verse_count": 7,
+      "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Kings 23:29-35",
-      "source": "EAS"
+      "raw": "2 Kings 23:33"
     },
     {
       "book": "2 Kings",
@@ -94,41 +62,46 @@
       ],
       "verse_count": 3,
       "testament": "OT",
-      "raw": "2 Kings 25:6, 20, 21",
-      "source": "EAS"
+      "raw": "2 Kings 25:6,20,21"
     },
     {
       "book": "Jeremiah",
       "chapter": 39,
       "verses": [
-        5
+        5,
+        6
       ],
-      "verse_count": 1,
+      "verse_count": 2,
       "testament": "OT",
-      "raw": "Jeremiah 39:5",
-      "source": "EAS"
+      "raw": "Jeremiah 39:5,6"
     },
     {
       "book": "Jeremiah",
       "chapter": 52,
       "verses": [
-        10
+        9,
+        26
       ],
-      "verse_count": 1,
+      "verse_count": 2,
       "testament": "OT",
-      "raw": "Jeremiah 52:10",
-      "source": "EAS"
-    },
-    {
-      "book": "Numbers",
-      "chapter": 34,
-      "verses": [
-        11
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Numbers 34:11",
-      "source": "EAS"
+      "raw": "Jeremiah 52:9,26"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "2 Kings",
+    "Jeremiah",
+    "Numbers"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 5,
+    "ot_refs": 5,
+    "nt_refs": 0,
+    "books_count": 3,
+    "top_books": [
+      "2 Kings",
+      "Jeremiah",
+      "Numbers"
+    ]
+  }
 }

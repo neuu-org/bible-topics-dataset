@@ -1,78 +1,117 @@
 {
   "topic": "TOLERATION",
-  "topic_slug": "toleration",
+  "slug": "toleration",
   "canonical_id": "NAV:toleration",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "INTOLERANCE"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "INTOLERANCE",
-      "clean": "INTOLERANCE",
-      "slug": "intolerance",
-      "canonical_id": "NAV:intolerance"
-    }
-  ],
-  "raw_block": "–ReligionsMic 4:4,5;Mr 9:38-40;Lu 9:49,50;Ac 17:11;28:31;Ro 14;1Co 10:28-32\n–SeeINTOLERANCE",
-  "content_preview": "–ReligionsMic 4:4,5;Mr 9:38-40;Lu 9:49,50;Ac 17:11;28:31;Ro 14;1Co 10:28-32",
-  "reference_groups": [
-    {
-      "idx": 0,
-      "entry_label": "–ReligionsMic 4:4,5;Mr 9:38-40;Lu 9:49,50;Ac 17:11;28:31;Ro 14;1Co 10:28-32",
-      "raw_segment": "–ReligionsMic 4:4,5;Mr 9:38-40;Lu 9:49,50;Ac 17:11;28:31;Ro 14;1Co 10:28-32"
+      "label": "Religions",
+      "references": [
+        "Micah 4:4,5",
+        "Mark 9:38-40",
+        "Luke 9:49,50",
+        "Acts 17:11",
+        "Acts 28:31",
+        "1 Corinthians 10:28-32"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–SeeINTOLERANCE",
-      "raw_segment": "–SeeINTOLERANCE"
+      "label": "SeeINTOLERANCE",
+      "references": []
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Micah",
+      "chapter": 4,
+      "verses": [
+        4,
+        5
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Micah 4:4,5"
+    },
+    {
+      "book": "Mark",
+      "chapter": 9,
+      "verses": [
+        38,
+        39,
+        40
+      ],
+      "verse_count": 3,
+      "testament": "NT",
+      "raw": "Mark 9:38-40"
+    },
+    {
+      "book": "Luke",
+      "chapter": 9,
+      "verses": [
+        49,
+        50
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Luke 9:49,50"
+    },
+    {
+      "book": "Acts",
+      "chapter": 17,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 17:11"
+    },
+    {
+      "book": "Acts",
+      "chapter": 28,
+      "verses": [
+        31
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 28:31"
+    },
+    {
+      "book": "1 Corinthians",
+      "chapter": 10,
+      "verses": [
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "verse_count": 5,
+      "testament": "NT",
+      "raw": "1 Corinthians 10:28-32"
+    }
+  ],
+  "books_mentioned": [
+    "1 Corinthians",
+    "Acts",
+    "Luke",
+    "Mark",
+    "Micah"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:7d35a15d06cbbda945595dc7aaa285a1eddadf5d98c1fe8ca2046762fc3bd4eb",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 2,
+    "total_refs": 6,
+    "ot_refs": 1,
+    "nt_refs": 5,
+    "books_count": 5,
+    "top_books": [
+      "Acts",
+      "Micah",
+      "Mark",
+      "Luke",
+      "1 Corinthians"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:32:16.517391Z",
-  "updated_at": "2025-09-20T17:32:16.517398Z"
+  }
 }

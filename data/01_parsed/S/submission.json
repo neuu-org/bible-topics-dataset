@@ -1,89 +1,113 @@
 {
   "topic": "SUBMISSION",
   "slug": "submission",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "To authority",
-      "references": [],
-      "sub_groups": [
-        {
-          "name": "Jesus an example of Mt 26:39,42; Mr 14:36; Lu 22:42; Heb 5:8",
-          "references": [
-            "Matt 26:39",
-            "Matt 26:42",
-            "Mark 14:36",
-            "Luke 22:42",
-            "Heb 5:8"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Of Paul 1Co 16:7",
-      "references": [
-        "1Cor 16:7"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "See OBEDIENCE",
-      "references": [],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Mark",
-      "book_abbrev": "mrk",
-      "chapter": 14,
-      "testament": "NT",
-      "verses": [
-        36
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Luke",
-      "book_abbrev": "luk",
-      "chapter": 22,
-      "testament": "NT",
-      "verses": [
-        42
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Hebrews",
-      "book_abbrev": "heb",
-      "chapter": 5,
-      "testament": "NT",
-      "verses": [
-        8
-      ],
-      "verse_count": 1
-    }
+  "sources": [
+    "NAV"
   ],
   "see_also": [
     "OBEDIENCE"
   ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 0,
-    "nt_refs": 3,
-    "total_verses": 3
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.727851+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
+  "aspects": [
+    {
+      "label": "To authority",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".Jesus an example of",
+      "references": [
+        "Matthew 26:39,42",
+        "Mark 14:36",
+        "Luke 22:42",
+        "Hebrews 5:8"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Of Paul",
+      "references": [
+        "1 Corinthians 16:7"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeOBEDIENCE",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0"
+  ],
+  "biblical_references": [
+    {
+      "book": "Matthew",
+      "chapter": 26,
+      "verses": [
+        39,
+        42
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Matthew 26:39,42"
+    },
+    {
+      "book": "Mark",
+      "chapter": 14,
+      "verses": [
+        36
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Mark 14:36"
+    },
+    {
+      "book": "Luke",
+      "chapter": 22,
+      "verses": [
+        42
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 22:42"
+    },
+    {
+      "book": "Hebrews",
+      "chapter": 5,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Hebrews 5:8"
+    },
+    {
+      "book": "1 Corinthians",
+      "chapter": 16,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "1 Corinthians 16:7"
+    }
+  ],
+  "books_mentioned": [
+    "1 Corinthians",
+    "Hebrews",
+    "Luke",
+    "Mark",
+    "Matthew"
+  ],
+  "stats": {
+    "total_aspects": 4,
+    "total_refs": 5,
+    "ot_refs": 0,
+    "nt_refs": 5,
+    "books_count": 5,
+    "top_books": [
+      "Matthew",
+      "Mark",
+      "Luke",
+      "Hebrews",
+      "1 Corinthians"
+    ]
+  }
 }

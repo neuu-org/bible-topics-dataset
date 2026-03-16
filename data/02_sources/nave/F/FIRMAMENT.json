@@ -1,64 +1,73 @@
 {
   "topic": "FIRMAMENT",
-  "topic_slug": "firmament",
+  "slug": "firmament",
   "canonical_id": "NAV:firmament",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–The expanse above the earthGe 1:6-8,14-17,20;Ps 19:1;Da 12:3",
-  "content_preview": "–The expanse above the earthGe 1:6-8,14-17,20;Ps 19:1;Da 12:3",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–The expanse above the earthGe 1:6-8,14-17,20;Ps 19:1;Da 12:3",
-      "raw_segment": "–The expanse above the earthGe 1:6-8,14-17,20;Ps 19:1;Da 12:3"
+      "label": "The expanse above the earth",
+      "references": [
+        "Genesis 1:6-8,14-17,20",
+        "Psalms 19:1",
+        "Daniel 12:3"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Genesis",
+      "chapter": 1,
+      "verses": [
+        6,
+        7,
+        8,
+        14,
+        15,
+        16,
+        17,
+        20
+      ],
+      "verse_count": 8,
+      "testament": "OT",
+      "raw": "Genesis 1:6-8,14-17,20"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 19,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 19:1"
+    },
+    {
+      "book": "Daniel",
+      "chapter": 12,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Daniel 12:3"
+    }
+  ],
+  "books_mentioned": [
+    "Daniel",
+    "Genesis",
+    "Psalms"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 1,
+    "total_refs": 3,
+    "ot_refs": 3,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:25f650da8502e52d29686478ce2989929a26499f36f2120ad27210c66da09031",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 1
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 3,
+    "top_books": [
+      "Genesis",
+      "Psalms",
+      "Daniel"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:26:20.982844Z",
-  "updated_at": "2025-09-20T17:26:20.982852Z"
+  }
 }

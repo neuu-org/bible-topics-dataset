@@ -1,8 +1,8 @@
 {
   "topic": "OFFICER",
-  "topic_slug": "officer",
+  "slug": "officer",
   "canonical_id": "NAV:officer",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "RULER",
     "APOSTLE",
@@ -13,115 +13,173 @@
     "JUDGE",
     "LEVITE"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "RULER",
-      "clean": "RULER",
-      "slug": "ruler",
-      "canonical_id": "NAV:ruler"
+      "label": "CIVIL",
+      "references": []
     },
     {
-      "original": "APOSTLE",
-      "clean": "APOSTLE",
-      "slug": "apostle",
-      "canonical_id": "NAV:apostle"
+      "label": ".Chosen by the people",
+      "references": [
+        "Deuteronomy 1:13-16"
+      ]
     },
     {
-      "original": "PRIEST",
-      "clean": "PRIEST",
-      "slug": "priest",
-      "canonical_id": "NAV:priest"
+      "label": ".Appointed by kings",
+      "references": [
+        "2 Samuel 8:16-18",
+        "2 Samuel 20:23-26",
+        "1 Kings 4:1-19",
+        "1 Kings 9:22",
+        "Ezra 7:25"
+      ]
     },
     {
-      "original": "GOVERNMENT",
-      "clean": "GOVERNMENT",
-      "slug": "government",
-      "canonical_id": "NAV:government"
+      "label": ".SeeGOVERNMENT",
+      "references": []
     },
     {
-      "original": "DEACON",
-      "clean": "DEACON",
-      "slug": "deacon",
-      "canonical_id": "NAV:deacon"
+      "label": ".See",
+      "references": []
     },
     {
-      "original": "ELDER",
-      "clean": "ELDER",
-      "slug": "elder",
-      "canonical_id": "NAV:elder"
+      "label": ".SeeRULER",
+      "references": []
     },
     {
-      "original": "JUDGE",
-      "clean": "JUDGE",
-      "slug": "judge",
-      "canonical_id": "NAV:judge"
+      "label": "RELIGIOUS",
+      "references": []
     },
     {
-      "original": "LEVITE",
-      "clean": "LEVITE",
-      "slug": "levite",
-      "canonical_id": "NAV:levite"
+      "label": ".SeePRIEST",
+      "references": []
+    },
+    {
+      "label": ".SeeLEVITE",
+      "references": []
+    },
+    {
+      "label": ".SeeAPOSTLE",
+      "references": []
+    },
+    {
+      "label": ".SeeEL",
+      "references": []
+    },
+    {
+      "label": ".See",
+      "references": []
+    },
+    {
+      "label": ".SeeMINISTER",
+      "references": []
     }
   ],
-  "raw_block": "–CIVIL\n  .Chosen by the peopleDe 1:13-16\n  .Appointed by kings2Sa 8:16-18;20:23-26;1Ki 4:1-19;9:22;Ezr 7:25\n  .SeeGOVERNMENT\n  .SeeJUDGE\n  .SeeRULER\n–RELIGIOUS\n  .SeePRIEST\n  .SeeLEVITE\n  .SeeAPOSTLE\n  .SeeELDER\n  .SeeDEACON\n  .SeeMINISTER",
-  "content_preview": "–CIVIL",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–CIVIL",
-      "raw_segment": "–CIVIL"
+      "book": "Deuteronomy",
+      "chapter": 1,
+      "verses": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "verse_count": 4,
+      "testament": "OT",
+      "raw": "Deuteronomy 1:13-16"
     },
     {
-      "idx": 1,
-      "entry_label": "–RELIGIOUS",
-      "raw_segment": "–RELIGIOUS"
+      "book": "2 Samuel",
+      "chapter": 8,
+      "verses": [
+        16,
+        17,
+        18
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "2 Samuel 8:16-18"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 20,
+      "verses": [
+        23,
+        24,
+        25,
+        26
+      ],
+      "verse_count": 4,
+      "testament": "OT",
+      "raw": "2 Samuel 20:23-26"
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 4,
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "verse_count": 19,
+      "testament": "OT",
+      "raw": "1 Kings 4:1-19"
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 9,
+      "verses": [
+        22
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Kings 9:22"
+    },
+    {
+      "book": "Ezra",
+      "chapter": 7,
+      "verses": [
+        25
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezra 7:25"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "1 Kings",
+    "2 Samuel",
+    "Deuteronomy",
+    "Ezra"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 13,
+    "total_refs": 6,
+    "ot_refs": 6,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:95948d8420f74df4478c801ee5eacfd9d2f7b962d81d8dd670720a76a071ec72",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 13
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 4,
+    "top_books": [
+      "2 Samuel",
+      "1 Kings",
+      "Deuteronomy",
+      "Ezra"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:29:39.735304Z",
-  "updated_at": "2025-09-20T17:29:39.735311Z"
+  }
 }

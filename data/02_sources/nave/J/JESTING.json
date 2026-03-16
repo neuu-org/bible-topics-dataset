@@ -1,69 +1,58 @@
 {
   "topic": "JESTING",
-  "topic_slug": "jesting",
+  "slug": "jesting",
   "canonical_id": "NAV:jesting",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–Foolish, forbiddenEph 5:4\n–SeeMt 12:36",
-  "content_preview": "–Foolish, forbiddenEph 5:4",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–Foolish, forbiddenEph 5:4",
-      "raw_segment": "–Foolish, forbiddenEph 5:4"
+      "label": "Foolish, forbid",
+      "references": [
+        "Ephesians 5:4"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–SeeMt 12:36",
-      "raw_segment": "–SeeMt 12:36"
+      "label": "See",
+      "references": [
+        "Matthew 12:36"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Ephesians",
+      "chapter": 5,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Ephesians 5:4"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 12,
+      "verses": [
+        36
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 12:36"
+    }
+  ],
+  "books_mentioned": [
+    "Ephesians",
+    "Matthew"
+  ],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 2,
+    "total_refs": 2,
     "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:99b699de57b328a8de941d60dff85036d1f9c785cc6ecd1e50bde0aabe317323",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "nt_refs": 2,
+    "books_count": 2,
+    "top_books": [
+      "Ephesians",
+      "Matthew"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:28:04.886217Z",
-  "updated_at": "2025-09-20T17:28:04.886224Z"
+  }
 }

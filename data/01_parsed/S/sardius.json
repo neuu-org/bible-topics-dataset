@@ -1,62 +1,118 @@
 {
   "topic": "SARDIUS",
   "slug": "sardius",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "(A precious stone)",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "In the breastplate Ex 28:17; 39:10",
-      "references": [
-        "Exod 28:17",
-        "Exod 39:10"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "In the garden of Eden Eze 28:13",
-      "references": [
-        "Ezek 28:13"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Seen in John’ s apocalyptic vision of the foundation of the New Jerusalem Re 21:20",
-      "references": [
-        "Rev 21:20"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "FIGURATIVE Re 4:3",
-      "references": [
-        "Rev 4:3"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 5,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.723018+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "(A precious stone)",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "In the breastplate",
+      "references": [
+        "Exodus 28:17",
+        "Exodus 39:10"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "In the gar",
+      "references": [
+        "Ezekiel 28:13"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Seen in",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "General references",
+      "references": [
+        "Revelation 21:20"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "FIGURATIVE",
+      "references": [
+        "Revelation 4:3"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0"
+  ],
+  "biblical_references": [
+    {
+      "book": "Exodus",
+      "chapter": 28,
+      "verses": [
+        17
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 28:17"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 39,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 39:10"
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 28,
+      "verses": [
+        13
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezekiel 28:13"
+    },
+    {
+      "book": "Revelation",
+      "chapter": 21,
+      "verses": [
+        20
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Revelation 21:20"
+    },
+    {
+      "book": "Revelation",
+      "chapter": 4,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Revelation 4:3"
+    }
+  ],
+  "books_mentioned": [
+    "Exodus",
+    "Ezekiel",
+    "Revelation"
+  ],
+  "stats": {
+    "total_aspects": 6,
+    "total_refs": 5,
+    "ot_refs": 3,
+    "nt_refs": 2,
+    "books_count": 3,
+    "top_books": [
+      "Exodus",
+      "Revelation",
+      "Ezekiel"
+    ]
+  }
 }

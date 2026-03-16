@@ -1,69 +1,108 @@
 {
   "topic": "CLAUDIUS LYSIUS",
-  "topic_slug": "claudius_lysius",
+  "slug": "claudius_lysius",
   "canonical_id": "NAV:claudius_lysius",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–A Roman military officerAc 21:31-40;22:23-30\n–Sends Paul to FelixAc 23:10-35",
-  "content_preview": "–A Roman military officerAc 21:31-40;22:23-30",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–A Roman military officerAc 21:31-40;22:23-30",
-      "raw_segment": "–A Roman military officerAc 21:31-40;22:23-30"
+      "label": "A Roman military officer",
+      "references": [
+        "Acts 21:31-40",
+        "Acts 22:23-30"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–Sends Paul to FelixAc 23:10-35",
-      "raw_segment": "–Sends Paul to FelixAc 23:10-35"
+      "label": "Sends Paul to Felix",
+      "references": [
+        "Acts 23:10-35"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Acts",
+      "chapter": 21,
+      "verses": [
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "verse_count": 10,
+      "testament": "NT",
+      "raw": "Acts 21:31-40"
+    },
+    {
+      "book": "Acts",
+      "chapter": 22,
+      "verses": [
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "verse_count": 8,
+      "testament": "NT",
+      "raw": "Acts 22:23-30"
+    },
+    {
+      "book": "Acts",
+      "chapter": 23,
+      "verses": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "verse_count": 26,
+      "testament": "NT",
+      "raw": "Acts 23:10-35"
+    }
+  ],
+  "books_mentioned": [
+    "Acts"
+  ],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 2,
+    "total_refs": 3,
     "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:04e3ed02e67de4c4f2463fa7929da5c19a65e970f48c1df941b755b02761977e",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "nt_refs": 3,
+    "books_count": 1,
+    "top_books": [
+      "Acts"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:25:05.163695Z",
-  "updated_at": "2025-09-20T17:25:05.163703Z"
+  }
 }

@@ -1,69 +1,111 @@
 {
   "topic": "COUNCIL",
-  "topic_slug": "council",
+  "slug": "council",
   "canonical_id": "NAV:council",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–ApostolicAc 15:1-29\n–Of War2Sa 16:20;17:1-4,5-15",
-  "content_preview": "–ApostolicAc 15:1-29",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–ApostolicAc 15:1-29",
-      "raw_segment": "–ApostolicAc 15:1-29"
+      "label": "Apostoli",
+      "references": [
+        "Acts 15:1-29"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–Of War2Sa 16:20;17:1-4,5-15",
-      "raw_segment": "–Of War2Sa 16:20;17:1-4,5-15"
+      "label": "Of War",
+      "references": [
+        "2 Samuel 16:20",
+        "2 Samuel 17:1-4,5-15"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Acts",
+      "chapter": 15,
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ],
+      "verse_count": 29,
+      "testament": "NT",
+      "raw": "Acts 15:1-29"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 16,
+      "verses": [
+        20
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Samuel 16:20"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 17,
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "verse_count": 15,
+      "testament": "OT",
+      "raw": "2 Samuel 17:1-4,5-15"
+    }
+  ],
+  "books_mentioned": [
+    "2 Samuel",
+    "Acts"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:7308f9a6de94925fceacc3252ce0f584a4e4f0caaab49a989a15e12eca7f479d",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 2,
+    "total_refs": 3,
+    "ot_refs": 2,
+    "nt_refs": 1,
+    "books_count": 2,
+    "top_books": [
+      "2 Samuel",
+      "Acts"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:25:17.680754Z",
-  "updated_at": "2025-09-20T17:25:17.680763Z"
+  }
 }

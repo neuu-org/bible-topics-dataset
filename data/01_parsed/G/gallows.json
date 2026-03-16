@@ -1,60 +1,58 @@
 {
   "topic": "GALLOWS",
   "slug": "gallows",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Used for execution of criminals Es 2:23; 5:14; 6:4; 7:9,10; 9:13,25",
-      "references": [
-        "Esth 2:23",
-        "Esth 5:14",
-        "Esth 6:4",
-        "Esth 7:9",
-        "Esth 7:10",
-        "Esth 9:13",
-        "Esth 9:25"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Reproach of being hanged upon Ga 3:13",
-      "references": [
-        "Gal 3:13"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "See PUNISHMENT",
-      "references": [],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [
-    "PUNISHMENT"
-  ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.687839+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [
+    "PUNISHMENT"
+  ],
+  "aspects": [
+    {
+      "label": "Used for execution of criminals",
+      "references": [
+        "Esther 2:23",
+        "Esther 5:14",
+        "Esther 6:4",
+        "Esther 7:9,10",
+        "Esther 9:13,25"
+      ],
+      "source": "NAV"
     },
-    "enriched_at": "2025-12-02T22:02:10.329897+00:00",
-    "enrichment_source": "pipeline_merge"
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+    {
+      "label": "Reproach of being hanged upon",
+      "references": [
+        "Galatians 3:13"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "SeePUNISHMENT",
+      "references": [],
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
+    {
+      "book": "Esther",
+      "chapter": 2,
+      "verses": [
+        23
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Esther 2:23"
+    },
+    {
+      "book": "Esther",
+      "chapter": 5,
+      "verses": [
+        14
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Esther 5:14"
+    },
     {
       "book": "Esther",
       "chapter": 6,
@@ -63,30 +61,54 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Esther 6:4",
-      "source": "EAS"
+      "raw": "Esther 6:4"
     },
     {
-      "book": "Genesis",
-      "chapter": 40,
+      "book": "Esther",
+      "chapter": 7,
       "verses": [
-        19
+        9,
+        10
       ],
-      "verse_count": 1,
+      "verse_count": 2,
       "testament": "OT",
-      "raw": "Genesis 40:19",
-      "source": "EAS"
+      "raw": "Esther 7:9,10"
     },
     {
-      "book": "Deuteronomy",
-      "chapter": 21,
+      "book": "Esther",
+      "chapter": 9,
       "verses": [
-        22
+        13,
+        25
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Esther 9:13,25"
+    },
+    {
+      "book": "Galatians",
+      "chapter": 3,
+      "verses": [
+        13
       ],
       "verse_count": 1,
-      "testament": "OT",
-      "raw": "Deuteronomy 21:22",
-      "source": "EAS"
+      "testament": "NT",
+      "raw": "Galatians 3:13"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Esther",
+    "Galatians"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 6,
+    "ot_refs": 5,
+    "nt_refs": 1,
+    "books_count": 2,
+    "top_books": [
+      "Esther",
+      "Galatians"
+    ]
+  }
 }

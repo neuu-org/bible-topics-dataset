@@ -1,69 +1,55 @@
 {
   "topic": "PISIDIA",
-  "topic_slug": "pisidia",
+  "slug": "pisidia",
   "canonical_id": "NAV:pisidia",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–(A province in Asia Minor)\n–Paul visitsAc 13:14;14:24",
-  "content_preview": "–(A province in Asia Minor)",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–(A province in Asia Minor)",
-      "raw_segment": "–(A province in Asia Minor)"
+      "label": "(A province in Asia Minor)",
+      "references": []
     },
     {
-      "idx": 1,
-      "entry_label": "–Paul visitsAc 13:14;14:24",
-      "raw_segment": "–Paul visitsAc 13:14;14:24"
+      "label": "Paul visits",
+      "references": [
+        "Acts 13:14",
+        "Acts 14:24"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Acts",
+      "chapter": 13,
+      "verses": [
+        14
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 13:14"
+    },
+    {
+      "book": "Acts",
+      "chapter": 14,
+      "verses": [
+        24
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 14:24"
+    }
+  ],
+  "books_mentioned": [
+    "Acts"
+  ],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 2,
+    "total_refs": 2,
     "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:f84b2295f83bd76d34021b113f88edcaa7ff6303b1518c023deba8a264904211",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "nt_refs": 2,
+    "books_count": 1,
+    "top_books": [
+      "Acts"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:30:09.048785Z",
-  "updated_at": "2025-09-20T17:30:09.048794Z"
+  }
 }

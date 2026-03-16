@@ -1,65 +1,36 @@
 {
   "topic": "TOPAZ",
   "slug": "topaz",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "A precious stone Eze 28:13; Re 21:20",
-      "references": [
-        "Ezek 28:13",
-        "Rev 21:20"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "In the breastplate Ex 28:17; 39:10",
-      "references": [
-        "Exod 28:17",
-        "Exod 39:10"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Ethiopian, celebrated Job 28:19",
-      "references": [
-        "Job 28:19"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Revelation",
-      "book_abbrev": "rev",
-      "chapter": 21,
-      "testament": "NT",
-      "verses": [
-        20
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 0,
-    "nt_refs": 1,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.730739+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "A precious stone",
+      "references": [
+        "Ezekiel 28:13",
+        "Revelation 21:20"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "In the breastplate",
+      "references": [
+        "Exodus 28:17",
+        "Exodus 39:10"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Ethiopian, celebrated",
+      "references": [
+        "Job 28:19"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Ezekiel",
       "chapter": 28,
@@ -68,8 +39,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Ezekiel 28:13",
-      "source": "EAS"
+      "raw": "Ezekiel 28:13"
     },
     {
       "book": "Revelation",
@@ -79,19 +49,7 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Revelation 21:20",
-      "source": "EAS"
-    },
-    {
-      "book": "Job",
-      "chapter": 28,
-      "verses": [
-        19
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Job 28:19",
-      "source": "EAS"
+      "raw": "Revelation 21:20"
     },
     {
       "book": "Exodus",
@@ -101,8 +59,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Exodus 28:17",
-      "source": "EAS"
+      "raw": "Exodus 28:17"
     },
     {
       "book": "Exodus",
@@ -112,8 +69,36 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Exodus 39:10",
-      "source": "SMI"
+      "raw": "Exodus 39:10"
+    },
+    {
+      "book": "Job",
+      "chapter": 28,
+      "verses": [
+        19
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Job 28:19"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Exodus",
+    "Ezekiel",
+    "Job",
+    "Revelation"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 5,
+    "ot_refs": 4,
+    "nt_refs": 1,
+    "books_count": 4,
+    "top_books": [
+      "Exodus",
+      "Ezekiel",
+      "Revelation",
+      "Job"
+    ]
+  }
 }

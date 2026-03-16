@@ -1,69 +1,126 @@
 {
   "topic": "BUTTER",
-  "topic_slug": "butter",
+  "slug": "butter",
   "canonical_id": "NAV:butter",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–General scriptures concerningGe 18:8;De 32:14;Jud \n5:25;2Sa 17:29;Job 20:17;Isa 7:15,22\n–Made by churningPr 30:33",
-  "content_preview": "–General scriptures concerningGe 18:8;De 32:14;Jud ",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–General scriptures concerningGe 18:8;De 32:14;Jud \n5:25;2Sa 17:29;Job 20:17;Isa 7:15,22",
-      "raw_segment": "–General scriptures concerningGe 18:8;De 32:14;Jud \n5:25;2Sa 17:29;Job 20:17;Isa 7:15,22"
+      "label": "General scriptures concerning",
+      "references": [
+        "Genesis 18:8",
+        "Deuteronomy 32:14"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–Made by churningPr 30:33",
-      "raw_segment": "–Made by churningPr 30:33"
+      "label": "5:25;",
+      "references": [
+        "2 Samuel 17:29",
+        "Job 20:17",
+        "Isaiah 7:15,22"
+      ]
+    },
+    {
+      "label": "Ma",
+      "references": [
+        "Proverbs 30:33"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Genesis",
+      "chapter": 18,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 18:8"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 32,
+      "verses": [
+        14
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 32:14"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 5,
+      "verses": [
+        25
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 5:25"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 17,
+      "verses": [
+        29
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Samuel 17:29"
+    },
+    {
+      "book": "Job",
+      "chapter": 20,
+      "verses": [
+        17
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Job 20:17"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 7,
+      "verses": [
+        15,
+        22
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Isaiah 7:15,22"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 30,
+      "verses": [
+        33
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 30:33"
+    }
+  ],
+  "books_mentioned": [
+    "2 Samuel",
+    "Deuteronomy",
+    "Genesis",
+    "Isaiah",
+    "Job",
+    "Proverbs"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 3,
+    "total_refs": 7,
+    "ot_refs": 7,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:6c9635986ed3cfea4baa51684bf43c049c01b351c7bd717e26d3003fe98b5268",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 3
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 6,
+    "top_books": [
+      "Deuteronomy",
+      "Genesis",
+      "2 Samuel",
+      "Job",
+      "Isaiah",
+      "Proverbs"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:24:43.584188Z",
-  "updated_at": "2025-09-20T17:24:43.584195Z"
+  }
 }

@@ -1,89 +1,123 @@
 {
   "topic": "MICHAL",
-  "topic_slug": "michal",
+  "slug": "michal",
   "canonical_id": "NAV:michal",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–(Daughter of Saul)\n–Given to David as a reward for killing Goliath1Sa \n18:22-28\n–Rescues David from death1Sa 19:9-17\n–Saul forcibly separates them and she is given in marriage to \nPhalti1Sa 25:44\n–David recovers, to himself2Sa 3:13-16\n–Ridicules David on account of his religious zeal2Sa \n6:16,20-23",
-  "content_preview": "–(Daughter of Saul)",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–(Daughter of Saul)",
-      "raw_segment": "–(Daughter of Saul)"
+      "label": "(Daughter of Saul)",
+      "references": []
     },
     {
-      "idx": 1,
-      "entry_label": "–Given to David as a reward for killing Goliath1Sa \n18:22-28",
-      "raw_segment": "–Given to David as a reward for killing Goliath1Sa \n18:22-28"
+      "label": "Given to David as a reward for killing Goliath1Sa",
+      "references": []
     },
     {
-      "idx": 2,
-      "entry_label": "–Rescues David from death1Sa 19:9-17",
-      "raw_segment": "–Rescues David from death1Sa 19:9-17"
+      "label": "18:22-28",
+      "references": []
     },
     {
-      "idx": 3,
-      "entry_label": "–Saul forcibly separates them and she is given in marriage to \nPhalti1Sa 25:44",
-      "raw_segment": "–Saul forcibly separates them and she is given in marriage to \nPhalti1Sa 25:44"
+      "label": "Rescues David from",
+      "references": [
+        "1 Samuel 19:9-17"
+      ]
     },
     {
-      "idx": 4,
-      "entry_label": "–David recovers, to himself2Sa 3:13-16",
-      "raw_segment": "–David recovers, to himself2Sa 3:13-16"
+      "label": "Saul forcibly separates them and she is given in marriage to",
+      "references": []
     },
     {
-      "idx": 5,
-      "entry_label": "–Ridicules David on account of his religious zeal2Sa \n6:16,20-23",
-      "raw_segment": "–Ridicules David on account of his religious zeal2Sa \n6:16,20-23"
+      "label": "Phalti",
+      "references": [
+        "1 Samuel 25:44"
+      ]
+    },
+    {
+      "label": "David recovers, to himself",
+      "references": [
+        "2 Samuel 3:13-16"
+      ]
+    },
+    {
+      "label": "Ridicules David on account of his religious zeal2Sa",
+      "references": []
+    },
+    {
+      "label": "6:16,20-23",
+      "references": []
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "1 Samuel",
+      "chapter": 19,
+      "verses": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "verse_count": 9,
+      "testament": "OT",
+      "raw": "1 Samuel 19:9-17"
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 25,
+      "verses": [
+        44
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Samuel 25:44"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 3,
+      "verses": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "verse_count": 4,
+      "testament": "OT",
+      "raw": "2 Samuel 3:13-16"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 6,
+      "verses": [
+        16,
+        20,
+        21,
+        22,
+        23
+      ],
+      "verse_count": 5,
+      "testament": "OT",
+      "raw": "2 Samuel 6:16,20-23"
+    }
+  ],
+  "books_mentioned": [
+    "1 Samuel",
+    "2 Samuel"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 9,
+    "total_refs": 4,
+    "ot_refs": 4,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:91fcaadb8289c61bfb0b55745596c3a41a6ef3b5c861e6f2206e430c234c40b6",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 9
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 2,
+    "top_books": [
+      "1 Samuel",
+      "2 Samuel"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:29:07.837676Z",
-  "updated_at": "2025-09-20T17:29:07.837684Z"
+  }
 }

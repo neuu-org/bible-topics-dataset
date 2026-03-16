@@ -1,69 +1,75 @@
 {
   "topic": "ARTAXERXES",
-  "topic_slug": "artaxerxes",
+  "slug": "artaxerxes",
   "canonical_id": "NAV:artaxerxes",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–1. A Persian king probably identical with AHASUERUS\n  .Prohibits the rebuilding of JerusalemEzr 4:7-24\n–2. King of Persia. Decree of, in behalf of the JewsEzr 7;Ne 2;5:14",
-  "content_preview": "–1. A Persian king probably identical with AHASUERUS",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–1. A Persian king probably identical with AHASUERUS",
-      "raw_segment": "–1. A Persian king probably identical with AHASUERUS"
+      "label": "1. A Persian king probably i",
+      "references": []
     },
     {
-      "idx": 1,
-      "entry_label": "–2. King of Persia. Decree of, in behalf of the JewsEzr 7;Ne 2;5:14",
-      "raw_segment": "–2. King of Persia. Decree of, in behalf of the JewsEzr 7;Ne 2;5:14"
+      "label": ".Prohibits the rebuilding of",
+      "references": [
+        "Ezra 4:7-24"
+      ]
+    },
+    {
+      "label": "2. King of Persia.",
+      "references": []
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Ezra",
+      "chapter": 4,
+      "verses": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "verse_count": 18,
+      "testament": "OT",
+      "raw": "Ezra 4:7-24"
+    },
+    {
+      "book": "Ezra",
+      "chapter": 5,
+      "verses": [
+        14
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezra 5:14"
+    }
+  ],
+  "books_mentioned": [
+    "Ezra"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 3,
+    "total_refs": 2,
+    "ot_refs": 2,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:c15d86cfc060e78db5a6e91983b668827e5e1c4ba1243e210789ae6d54d5b9d7",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 3
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 1,
+    "top_books": [
+      "Ezra"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:23:49.366152Z",
-  "updated_at": "2025-09-20T17:23:49.366160Z"
+  }
 }

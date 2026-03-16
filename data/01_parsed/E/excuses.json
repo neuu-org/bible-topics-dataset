@@ -1,80 +1,119 @@
 {
   "topic": "EXCUSES",
   "slug": "excuses",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "General scriptures concerning Ge 3:12,13; Ex 4:1,10-14; 32:22-24; De 30:11-14; Jud 6:12-17; 1Ki 19:19-21; 2Ki 5:10-14; Jer 1:1,4-10; Mt 8:21; Lu 9:59-62; 14:18-20; Ac 24:25; Ro 1:20; 2:1",
+      "label": "General scriptures concerning",
       "references": [
-        "Gen 3:12",
-        "Gen 3:13",
-        "Exod 4:1",
-        "Exod 4:10-14",
-        "Exod 32:22-24",
-        "Deut 30:11-14",
-        "Judg 6:12-17",
-        "1Kgs 19:19-21",
-        "2Kgs 5:10-14",
-        "Jer 1:1",
-        "Jer 1:4-10",
-        "Matt 8:21",
+        "Genesis 3:12,13",
+        "Exodus 4:1,10-14",
+        "Exodus 32:22-24",
+        "Deuteronomy 30:11-14",
+        "Judges 6:12-17",
+        "1 Kings 19:19-21",
+        "2 Kings 5:10-14",
+        "Jeremiah 1:1,4-10"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "8:21;",
+      "references": [
         "Luke 9:59-62",
         "Luke 14:18-20",
         "Acts 24:25",
-        "Rom 1:20",
-        "Rom 2:1"
+        "Romans 1:20",
+        "Romans 2:1"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Exodus",
-      "book_abbrev": "exo",
-      "chapter": 4,
+      "book": "Genesis",
+      "chapter": 3,
+      "verses": [
+        12,
+        13
+      ],
+      "verse_count": 2,
       "testament": "OT",
+      "raw": "Genesis 3:12,13"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 4,
       "verses": [
         1,
         10,
         11,
         12,
         13,
-        14,
-        32
+        14
       ],
-      "verse_count": 7
+      "verse_count": 6,
+      "testament": "OT",
+      "raw": "Exodus 4:1,10-14"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 32,
+      "verses": [
+        22,
+        23,
+        24
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Exodus 32:22-24"
     },
     {
       "book": "Deuteronomy",
-      "book_abbrev": "deu",
       "chapter": 30,
-      "testament": "OT",
       "verses": [
         11,
         12,
         13,
         14
       ],
-      "verse_count": 4
+      "verse_count": 4,
+      "testament": "OT",
+      "raw": "Deuteronomy 30:11-14"
+    },
+    {
+      "book": "Judges",
+      "chapter": 6,
+      "verses": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "verse_count": 6,
+      "testament": "OT",
+      "raw": "Judges 6:12-17"
     },
     {
       "book": "1 Kings",
-      "book_abbrev": "1ki",
       "chapter": 19,
-      "testament": "OT",
       "verses": [
-        2,
         19,
         20,
         21
       ],
-      "verse_count": 4
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "1 Kings 19:19-21"
     },
     {
       "book": "2 Kings",
-      "book_abbrev": "2ki",
       "chapter": 5,
-      "testament": "OT",
       "verses": [
         10,
         11,
@@ -82,13 +121,13 @@
         13,
         14
       ],
-      "verse_count": 5
+      "verse_count": 5,
+      "testament": "OT",
+      "raw": "2 Kings 5:10-14"
     },
     {
       "book": "Jeremiah",
-      "book_abbrev": "jer",
       "chapter": 1,
-      "testament": "OT",
       "verses": [
         1,
         4,
@@ -99,74 +138,105 @@
         9,
         10
       ],
-      "verse_count": 8
+      "verse_count": 8,
+      "testament": "OT",
+      "raw": "Jeremiah 1:1,4-10"
     },
     {
-      "book": "Matthew",
-      "book_abbrev": "mat",
+      "book": "Jeremiah",
       "chapter": 8,
-      "testament": "NT",
       "verses": [
         21
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Jeremiah 8:21"
     },
     {
       "book": "Luke",
-      "book_abbrev": "luk",
       "chapter": 9,
-      "testament": "NT",
       "verses": [
-        14,
         59,
         60,
         61,
         62
       ],
-      "verse_count": 5
+      "verse_count": 4,
+      "testament": "NT",
+      "raw": "Luke 9:59-62"
+    },
+    {
+      "book": "Luke",
+      "chapter": 14,
+      "verses": [
+        18,
+        19,
+        20
+      ],
+      "verse_count": 3,
+      "testament": "NT",
+      "raw": "Luke 14:18-20"
     },
     {
       "book": "Acts",
-      "book_abbrev": "act",
       "chapter": 24,
-      "testament": "NT",
       "verses": [
         25
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 24:25"
     },
     {
       "book": "Romans",
-      "book_abbrev": "rom",
       "chapter": 1,
-      "testament": "NT",
       "verses": [
-        2,
         20
       ],
-      "verse_count": 2
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Romans 1:20"
+    },
+    {
+      "book": "Romans",
+      "chapter": 2,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Romans 2:1"
     }
   ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 5,
-    "nt_refs": 4,
-    "total_verses": 9
-  },
-  "sources": [
-    "NAV"
+  "books_mentioned": [
+    "1 Kings",
+    "2 Kings",
+    "Acts",
+    "Deuteronomy",
+    "Exodus",
+    "Genesis",
+    "Jeremiah",
+    "Judges",
+    "Luke",
+    "Romans"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.685642+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    },
-    "enriched_at": "2025-12-02T22:02:10.018715+00:00",
-    "enrichment_source": "pipeline_merge"
-  },
-  "version": "3.0.0"
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 14,
+    "ot_refs": 9,
+    "nt_refs": 5,
+    "books_count": 10,
+    "top_books": [
+      "Exodus",
+      "Jeremiah",
+      "Luke",
+      "Romans",
+      "Genesis",
+      "Deuteronomy",
+      "Judges",
+      "1 Kings",
+      "2 Kings",
+      "Acts"
+    ]
+  }
 }

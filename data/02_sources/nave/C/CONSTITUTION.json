@@ -1,64 +1,101 @@
 {
   "topic": "CONSTITUTION",
-  "topic_slug": "constitution",
+  "slug": "constitution",
   "canonical_id": "NAV:constitution",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–AGREEMENT BETWEEN THE RULER AND PEOPLEDe 17:18-20;2Sa 5:3;2Ch 23:2,3;Jer 34:8-11;Da 6:12-15",
-  "content_preview": "–AGREEMENT BETWEEN THE RULER AND PEOPLEDe 17:18-20;2Sa 5:3;2Ch 23:2,3;Jer 34:8-11;Da 6:12-15",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–AGREEMENT BETWEEN THE RULER AND PEOPLEDe 17:18-20;2Sa 5:3;2Ch 23:2,3;Jer 34:8-11;Da 6:12-15",
-      "raw_segment": "–AGREEMENT BETWEEN THE RULER AND PEOPLEDe 17:18-20;2Sa 5:3;2Ch 23:2,3;Jer 34:8-11;Da 6:12-15"
+      "label": "AGREEMENT BETWEEN THE RULER AND PEOPLE",
+      "references": [
+        "Deuteronomy 17:18-20",
+        "2 Samuel 5:3",
+        "2 Chronicles 23:2,3",
+        "Jeremiah 34:8-11",
+        "Daniel 6:12-15"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Deuteronomy",
+      "chapter": 17,
+      "verses": [
+        18,
+        19,
+        20
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Deuteronomy 17:18-20"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 5,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Samuel 5:3"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 23,
+      "verses": [
+        2,
+        3
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "2 Chronicles 23:2,3"
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 34,
+      "verses": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "verse_count": 4,
+      "testament": "OT",
+      "raw": "Jeremiah 34:8-11"
+    },
+    {
+      "book": "Daniel",
+      "chapter": 6,
+      "verses": [
+        12,
+        13,
+        14,
+        15
+      ],
+      "verse_count": 4,
+      "testament": "OT",
+      "raw": "Daniel 6:12-15"
+    }
+  ],
+  "books_mentioned": [
+    "2 Chronicles",
+    "2 Samuel",
+    "Daniel",
+    "Deuteronomy",
+    "Jeremiah"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 1,
+    "total_refs": 5,
+    "ot_refs": 5,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:187e672cf00feec3a5fe224e848b42100b60d9819ddfe8489ccea289df6c7269",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 1
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 5,
+    "top_books": [
+      "Deuteronomy",
+      "2 Samuel",
+      "2 Chronicles",
+      "Jeremiah",
+      "Daniel"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:25:13.620192Z",
-  "updated_at": "2025-09-20T17:25:13.620200Z"
+  }
 }

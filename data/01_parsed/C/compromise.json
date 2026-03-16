@@ -1,67 +1,97 @@
 {
   "topic": "COMPROMISE",
   "slug": "compromise",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [
+    "ADJUDICATION",
+    "ARBITRATION",
+    "COURT",
+    "JUSTICE"
+  ],
+  "aspects": [
     {
-      "name": "BEFORE LITIGATION, ENJOINED Pr 25:8-10; Mt 5:25,26; Lu 12:58,59",
+      "label": "BEFORE LITIGATION, ENJOINED",
       "references": [
-        "Prov 25:8-10",
-        "Matt 5:25",
-        "Matt 5:26",
-        "Luke 12:58",
-        "Luke 12:59"
+        "Proverbs 25:8-10",
+        "Matthew 5:25,26",
+        "Luke 12:58,59"
       ],
-      "sub_groups": []
+      "source": "NAV"
+    },
+    {
+      "label": ".SeeAD",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".SeeARBITRATION",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".SeeJUSTICE",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".SeeCOURT",
+      "references": [],
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
+      "book": "Proverbs",
+      "chapter": 25,
+      "verses": [
+        8,
+        9,
+        10
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Proverbs 25:8-10"
+    },
+    {
       "book": "Matthew",
-      "book_abbrev": "mat",
       "chapter": 5,
-      "testament": "NT",
       "verses": [
         25,
         26
       ],
-      "verse_count": 2
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Matthew 5:25,26"
     },
     {
       "book": "Luke",
-      "book_abbrev": "luk",
       "chapter": 12,
-      "testament": "NT",
       "verses": [
         58,
         59
       ],
-      "verse_count": 2
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Luke 12:58,59"
     }
   ],
-  "see_also": [
-    "COURT",
-    "ADJUDICATION",
-    "ARBITRATION",
-    "JUSTICE"
+  "books_mentioned": [
+    "Luke",
+    "Matthew",
+    "Proverbs"
   ],
-  "aliases": [],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 5,
+    "total_refs": 3,
+    "ot_refs": 1,
     "nt_refs": 2,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.678839+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    }
-  },
-  "version": "3.0.0"
+    "books_count": 3,
+    "top_books": [
+      "Proverbs",
+      "Matthew",
+      "Luke"
+    ]
+  }
 }

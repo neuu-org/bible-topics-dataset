@@ -1,87 +1,181 @@
 {
   "topic": "BODY",
   "slug": "body",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Called HOUSE 2Co 5:1",
-      "references": [
-        "2Cor 5:1"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "HOUSE OF CLAY Job 4:19",
-      "references": [
-        "Job 4:19"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "THE TEMPLE OF GOD 1Co 3:16; 6:3,15,19",
-      "references": [
-        "1Cor 3:16",
-        "1Cor 6:3",
-        "1Cor 6:15",
-        "1Cor 6:19"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Corruptible Job 17:14; 1Co 15:53,54",
-      "references": [
-        "Job 17:14",
-        "1Cor 15:53",
-        "1Cor 15:54"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Resurrection of 1Co 15:19-54",
-      "references": [
-        "1Cor 15:19-54"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "See RESURRECTION",
-      "references": [],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "1 Corinthians",
-      "book_abbrev": "1co",
-      "chapter": 15,
-      "testament": "NT",
-      "verses": [
-        53,
-        54
-      ],
-      "verse_count": 2
-    }
+  "sources": [
+    "NAV"
   ],
   "see_also": [
     "RESURRECTION"
   ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 6,
-    "ot_refs": 0,
-    "nt_refs": 1,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.675027+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
+  "aspects": [
+    {
+      "label": "General references",
+      "references": [
+        "2 Corinthians 5:1"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "HOUSE OF CLAY",
+      "references": [
+        "Job 4:19"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "THE TEMPLE OF GOD",
+      "references": [
+        "1 Corinthians 3:16",
+        "1 Corinthians 6:3,15,19"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Corruptible",
+      "references": [
+        "Job 17:14",
+        "1 Corinthians 15:53,54"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Resurrection of",
+      "references": [
+        "1 Corinthians 15:19-54"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeRESURRECTION",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0"
+  ],
+  "biblical_references": [
+    {
+      "book": "2 Corinthians",
+      "chapter": 5,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "2 Corinthians 5:1"
+    },
+    {
+      "book": "Job",
+      "chapter": 4,
+      "verses": [
+        19
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Job 4:19"
+    },
+    {
+      "book": "1 Corinthians",
+      "chapter": 3,
+      "verses": [
+        16
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "1 Corinthians 3:16"
+    },
+    {
+      "book": "1 Corinthians",
+      "chapter": 6,
+      "verses": [
+        3,
+        15,
+        19
+      ],
+      "verse_count": 3,
+      "testament": "NT",
+      "raw": "1 Corinthians 6:3,15,19"
+    },
+    {
+      "book": "Job",
+      "chapter": 17,
+      "verses": [
+        14
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Job 17:14"
+    },
+    {
+      "book": "1 Corinthians",
+      "chapter": 15,
+      "verses": [
+        53,
+        54
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "1 Corinthians 15:53,54"
+    },
+    {
+      "book": "1 Corinthians",
+      "chapter": 15,
+      "verses": [
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54
+      ],
+      "verse_count": 36,
+      "testament": "NT",
+      "raw": "1 Corinthians 15:19-54"
+    }
+  ],
+  "books_mentioned": [
+    "1 Corinthians",
+    "2 Corinthians",
+    "Job"
+  ],
+  "stats": {
+    "total_aspects": 6,
+    "total_refs": 7,
+    "ot_refs": 2,
+    "nt_refs": 5,
+    "books_count": 3,
+    "top_books": [
+      "1 Corinthians",
+      "Job",
+      "2 Corinthians"
+    ]
+  }
 }

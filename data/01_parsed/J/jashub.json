@@ -1,64 +1,45 @@
 {
   "topic": "JASHUB",
   "slug": "jashub",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "1. Son of Issachar Nu 26:24; 1Ch 7:1",
+      "label": "1.",
       "references": [
-        "Num 26:24",
-        "1Chr 7:1"
+        "Numbers 26:24",
+        "1 Chronicles 7:1"
       ],
-      "sub_groups": [
-        {
-          "name": "Called JOB in Ge 46:13",
-          "references": [
-            "Gen 46:13"
-          ]
-        }
-      ]
+      "source": "NAV"
     },
     {
-      "name": "2. Of the family of Bani Ezr 10:29",
+      "label": ".",
+      "references": [
+        "Genesis 46:13"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2. Of the family of Bani",
       "references": [
         "Ezra 10:29"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "1 Chronicles",
-      "book_abbrev": "1ch",
-      "chapter": 7,
-      "testament": "OT",
+      "book": "Numbers",
+      "chapter": 26,
       "verses": [
-        1
+        24
       ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.695894+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Numbers 26:24"
+    },
     {
       "book": "1 Chronicles",
       "chapter": 7,
@@ -67,8 +48,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 7:1",
-      "source": "EAS"
+      "raw": "1 Chronicles 7:1"
     },
     {
       "book": "Genesis",
@@ -78,8 +58,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 46:13",
-      "source": "EAS"
+      "raw": "Genesis 46:13"
     },
     {
       "book": "Ezra",
@@ -89,8 +68,26 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Ezra 10:29",
-      "source": "EAS"
+      "raw": "Ezra 10:29"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Ezra",
+    "Genesis",
+    "Numbers"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 4,
+    "ot_refs": 4,
+    "nt_refs": 0,
+    "books_count": 4,
+    "top_books": [
+      "Numbers",
+      "1 Chronicles",
+      "Genesis",
+      "Ezra"
+    ]
+  }
 }

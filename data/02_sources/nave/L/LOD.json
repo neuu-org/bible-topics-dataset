@@ -1,69 +1,86 @@
 {
   "topic": "LOD",
-  "topic_slug": "lod",
+  "slug": "lod",
   "canonical_id": "NAV:lod",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–A city in the territory of the tribe of Benjamin1Ch \n8:12;Ezr 2:33;Ne 7:37;11:35\n–Called LYDDAAc 9:38",
-  "content_preview": "–A city in the territory of the tribe of Benjamin1Ch ",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–A city in the territory of the tribe of Benjamin1Ch \n8:12;Ezr 2:33;Ne 7:37;11:35",
-      "raw_segment": "–A city in the territory of the tribe of Benjamin1Ch \n8:12;Ezr 2:33;Ne 7:37;11:35"
+      "label": "A city in the territory of the tribe of Benjamin1Ch",
+      "references": []
     },
     {
-      "idx": 1,
-      "entry_label": "–Called LYDDAAc 9:38",
-      "raw_segment": "–Called LYDDAAc 9:38"
+      "label": "8:12;",
+      "references": [
+        "Ezra 2:33",
+        "Nehemiah 7:37",
+        "Nehemiah 11:35"
+      ]
+    },
+    {
+      "label": "General references",
+      "references": [
+        "Acts 9:38"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Ezra",
+      "chapter": 2,
+      "verses": [
+        33
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezra 2:33"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 7,
+      "verses": [
+        37
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Nehemiah 7:37"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 11,
+      "verses": [
+        35
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Nehemiah 11:35"
+    },
+    {
+      "book": "Acts",
+      "chapter": 9,
+      "verses": [
+        38
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 9:38"
+    }
+  ],
+  "books_mentioned": [
+    "Acts",
+    "Ezra",
+    "Nehemiah"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:3c33c5a28b399ec51efd4050d5952fb4a064f71130ff92996292bfacd41906a5",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 3
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 3,
+    "total_refs": 4,
+    "ot_refs": 3,
+    "nt_refs": 1,
+    "books_count": 3,
+    "top_books": [
+      "Nehemiah",
+      "Ezra",
+      "Acts"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:28:38.618753Z",
-  "updated_at": "2025-09-20T17:28:38.618760Z"
+  }
 }

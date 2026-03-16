@@ -1,157 +1,53 @@
 {
   "topic": "LILY",
   "slug": "lily",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "The principal capitals of the temple ornamented with carvings of 1Ki 7:19,22,26",
-      "references": [
-        "1Kgs 7:19",
-        "1Kgs 7:22",
-        "1Kgs 7:26"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Molded on the rim of the molten laver in the temple 1Ki 7:26; 2Ch 4:5",
-      "references": [
-        "1Kgs 7:26",
-        "2Chr 4:5"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Lessons of trust gathered from Mt 6:28-30; Lu 12:27",
-      "references": [
-        "Matt 6:28-30",
-        "Luke 12:27"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "FIGURATIVE",
-      "references": [],
-      "sub_groups": [
-        {
-          "name": "Of the lips of the beloved So 5:13",
-          "references": [
-            "Song 5:13"
-          ]
-        }
-      ]
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "2 Chronicles",
-      "book_abbrev": "2ch",
-      "chapter": 4,
-      "testament": "OT",
-      "verses": [
-        5
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Luke",
-      "book_abbrev": "luk",
-      "chapter": 12,
-      "testament": "NT",
-      "verses": [
-        27
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 4,
-    "ot_refs": 1,
-    "nt_refs": 1,
-    "total_verses": 2
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.701098+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "The principal",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "of",
+      "references": [
+        "1 Kings 7:19,22,26"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Mol",
+      "references": [
+        "1 Kings 7:26",
+        "2 Chronicles 4:5"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Les",
+      "references": [
+        "Matthew 6:28-30",
+        "Luke 12:27"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "FIGURATIVE",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".Of the lips of the beloved",
+      "references": [
+        "Song of Solomon 5:13"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "Song of Solomon",
-      "chapter": 2,
-      "verses": [
-        1,
-        2
-      ],
-      "verse_count": 2,
-      "testament": "OT",
-      "raw": "Song of Solomon 2:1, 2",
-      "source": "EAS"
-    },
-    {
-      "book": "Song of Solomon",
-      "chapter": 2,
-      "verses": [
-        16
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Song of Solomon 2:16",
-      "source": "EAS"
-    },
-    {
-      "book": "Song of Solomon",
-      "chapter": 4,
-      "verses": [
-        5
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Song of Solomon 4:5",
-      "source": "EAS"
-    },
-    {
-      "book": "Song of Solomon",
-      "chapter": 5,
-      "verses": [
-        13
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Song of Solomon 5:13",
-      "source": "EAS"
-    },
-    {
-      "book": "Song of Solomon",
-      "chapter": 6,
-      "verses": [
-        2,
-        3
-      ],
-      "verse_count": 2,
-      "testament": "OT",
-      "raw": "Song of Solomon 6:2, 3",
-      "source": "EAS"
-    },
-    {
-      "book": "Song of Solomon",
-      "chapter": 7,
-      "verses": [
-        2
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Song of Solomon 7:2",
-      "source": "EAS"
-    },
+  ],
+  "biblical_references": [
     {
       "book": "1 Kings",
       "chapter": 7,
@@ -162,8 +58,17 @@
       ],
       "verse_count": 3,
       "testament": "OT",
-      "raw": "1 Kings 7:19, 22, 26",
-      "source": "EAS"
+      "raw": "1 Kings 7:19,22,26"
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 7,
+      "verses": [
+        26
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Kings 7:26"
     },
     {
       "book": "2 Chronicles",
@@ -173,19 +78,19 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Chronicles 4:5",
-      "source": "EAS"
+      "raw": "2 Chronicles 4:5"
     },
     {
       "book": "Matthew",
       "chapter": 6,
       "verses": [
-        28
+        28,
+        29,
+        30
       ],
-      "verse_count": 1,
+      "verse_count": 3,
       "testament": "NT",
-      "raw": "Matthew 6:28",
-      "source": "EAS"
+      "raw": "Matthew 6:28-30"
     },
     {
       "book": "Luke",
@@ -195,96 +100,38 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Luke 12:27",
-      "source": "EAS"
+      "raw": "Luke 12:27"
     },
     {
-      "book": "Hosea",
-      "chapter": 14,
-      "verses": [
-        5
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Hosea 14:5",
-      "source": "SMI"
-    },
-    {
-      "book": "Luke",
-      "chapter": 2,
-      "verses": [
-        1
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Luke 2:1",
-      "source": "SMI"
-    },
-    {
-      "book": "Luke",
-      "chapter": 2,
-      "verses": [
-        2
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Luke 2:2",
-      "source": "SMI"
-    },
-    {
-      "book": "Luke",
-      "chapter": 2,
-      "verses": [
-        16
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Luke 2:16",
-      "source": "SMI"
-    },
-    {
-      "book": "Luke",
-      "chapter": 4,
-      "verses": [
-        5
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Luke 4:5",
-      "source": "SMI"
-    },
-    {
-      "book": "Luke",
-      "chapter": 6,
-      "verses": [
-        3
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Luke 6:3",
-      "source": "SMI"
-    },
-    {
-      "book": "Ecclesiastes",
-      "chapter": 39,
-      "verses": [
-        14
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Ecclesiastes 39:14",
-      "source": "SMI"
-    },
-    {
-      "book": "Matthew",
+      "book": "Song of Solomon",
       "chapter": 5,
       "verses": [
         13
       ],
       "verse_count": 1,
-      "testament": "NT",
-      "raw": "Matthew 5:13",
-      "source": "SMI"
+      "testament": "OT",
+      "raw": "Song of Solomon 5:13"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Kings",
+    "2 Chronicles",
+    "Luke",
+    "Matthew",
+    "Song of Solomon"
+  ],
+  "stats": {
+    "total_aspects": 6,
+    "total_refs": 6,
+    "ot_refs": 4,
+    "nt_refs": 2,
+    "books_count": 5,
+    "top_books": [
+      "1 Kings",
+      "2 Chronicles",
+      "Matthew",
+      "Luke",
+      "Song of Solomon"
+    ]
+  }
 }

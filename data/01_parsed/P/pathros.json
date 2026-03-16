@@ -1,70 +1,29 @@
 {
   "topic": "PATHROS",
   "slug": "pathros",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "(A part of Upper Egypt) -Jewish captives in Isa 11:11; Jer 44:1,15; Eze 29:14",
-      "references": [
-        "Isa 11:11",
-        "Jer 44:1",
-        "Jer 44:15",
-        "Ezek 29:14"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Prophecy against Eze 30:14",
-      "references": [
-        "Ezek 30:14"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Jeremiah",
-      "book_abbrev": "jer",
-      "chapter": 44,
-      "testament": "OT",
-      "verses": [
-        1,
-        15
-      ],
-      "verse_count": 2
-    },
-    {
-      "book": "Ezekiel",
-      "book_abbrev": "ezk",
-      "chapter": 29,
-      "testament": "OT",
-      "verses": [
-        14
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 2,
-    "nt_refs": 0,
-    "total_verses": 2
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.717238+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "(A part of Upper Egypt) -Jewish",
+      "references": [
+        "Isaiah 11:11",
+        "Jeremiah 44:1,15",
+        "Ezekiel 29:14"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Prophecy against",
+      "references": [
+        "Ezekiel 30:14"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Isaiah",
       "chapter": 11,
@@ -73,8 +32,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Isaiah 11:11",
-      "source": "EAS"
+      "raw": "Isaiah 11:11"
     },
     {
       "book": "Jeremiah",
@@ -85,42 +43,7 @@
       ],
       "verse_count": 2,
       "testament": "OT",
-      "raw": "Jeremiah 44:1, 15",
-      "source": "EAS"
-    },
-    {
-      "book": "Ezekiel",
-      "chapter": 30,
-      "verses": [
-        14
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Ezekiel 30:14",
-      "source": "EAS"
-    },
-    {
-      "book": "Genesis",
-      "chapter": 10,
-      "verses": [
-        13,
-        14
-      ],
-      "verse_count": 2,
-      "testament": "OT",
-      "raw": "Genesis 10:13,14",
-      "source": "SMI"
-    },
-    {
-      "book": "1 Chronicles",
-      "chapter": 1,
-      "verses": [
-        12
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "1 Chronicles 1:12",
-      "source": "SMI"
+      "raw": "Jeremiah 44:1,15"
     },
     {
       "book": "Ezekiel",
@@ -130,24 +53,34 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Ezekiel 29:14",
-      "source": "SMI"
+      "raw": "Ezekiel 29:14"
     },
     {
       "book": "Ezekiel",
       "chapter": 30,
       "verses": [
-        13,
-        14,
-        15,
-        16,
-        17,
-        18
+        14
       ],
-      "verse_count": 6,
+      "verse_count": 1,
       "testament": "OT",
-      "raw": "Ezekiel 30:13-18",
-      "source": "SMI"
+      "raw": "Ezekiel 30:14"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Ezekiel",
+    "Isaiah",
+    "Jeremiah"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 4,
+    "ot_refs": 4,
+    "nt_refs": 0,
+    "books_count": 3,
+    "top_books": [
+      "Ezekiel",
+      "Isaiah",
+      "Jeremiah"
+    ]
+  }
 }

@@ -1,93 +1,127 @@
 {
   "topic": "TRESPASS",
-  "topic_slug": "trespass",
+  "slug": "trespass",
   "canonical_id": "NAV:trespass",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "OFFERINGS"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "OFFERINGS",
-      "clean": "OFFERINGS",
-      "slug": "offerings",
-      "canonical_id": "NAV:offerings"
+      "label": "General scriptures concerning",
+      "references": [
+        "Exodus 22:9"
+      ]
+    },
+    {
+      "label": "Of an ox",
+      "references": [
+        "Exodus 21:28-36"
+      ]
+    },
+    {
+      "label": "Of a brother",
+      "references": [
+        "Matthew 18:15-18",
+        "Luke 17:3,4"
+      ]
+    },
+    {
+      "label": "A creditor must not enter a",
+      "references": [
+        "Deuteronomy 24:10"
+      ]
+    },
+    {
+      "label": "Trespass offering",
+      "references": []
+    },
+    {
+      "label": ".SeeOFFERINGS",
+      "references": []
     }
   ],
-  "raw_block": "–General scriptures concerningEx 22:9\n–Of an oxEx 21:28-36\n–Of a brotherMt 18:15-18;Lu 17:3,4\n–A creditor must not enter a debtor’ s house to seize a pledgeDe 24:10\n–Trespass offering\n  .SeeOFFERINGS",
-  "content_preview": "–General scriptures concerningEx 22:9",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–General scriptures concerningEx 22:9",
-      "raw_segment": "–General scriptures concerningEx 22:9"
+      "book": "Exodus",
+      "chapter": 22,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 22:9"
     },
     {
-      "idx": 1,
-      "entry_label": "–Of an oxEx 21:28-36",
-      "raw_segment": "–Of an oxEx 21:28-36"
+      "book": "Exodus",
+      "chapter": 21,
+      "verses": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36
+      ],
+      "verse_count": 9,
+      "testament": "OT",
+      "raw": "Exodus 21:28-36"
     },
     {
-      "idx": 2,
-      "entry_label": "–Of a brotherMt 18:15-18;Lu 17:3,4",
-      "raw_segment": "–Of a brotherMt 18:15-18;Lu 17:3,4"
+      "book": "Matthew",
+      "chapter": 18,
+      "verses": [
+        15,
+        16,
+        17,
+        18
+      ],
+      "verse_count": 4,
+      "testament": "NT",
+      "raw": "Matthew 18:15-18"
     },
     {
-      "idx": 3,
-      "entry_label": "–A creditor must not enter a debtor’ s house to seize a pledgeDe 24:10",
-      "raw_segment": "–A creditor must not enter a debtor’ s house to seize a pledgeDe 24:10"
+      "book": "Luke",
+      "chapter": 17,
+      "verses": [
+        3,
+        4
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Luke 17:3,4"
     },
     {
-      "idx": 4,
-      "entry_label": "–Trespass offering",
-      "raw_segment": "–Trespass offering"
+      "book": "Deuteronomy",
+      "chapter": 24,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 24:10"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "Deuteronomy",
+    "Exodus",
+    "Luke",
+    "Matthew"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:08bc3aea7ad627fd1e29e9bf0f04471d2bc35b04b42e4fee910c353cca596b8a",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 6
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 6,
+    "total_refs": 5,
+    "ot_refs": 3,
+    "nt_refs": 2,
+    "books_count": 4,
+    "top_books": [
+      "Exodus",
+      "Matthew",
+      "Luke",
+      "Deuteronomy"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:32:20.813705Z",
-  "updated_at": "2025-09-20T17:32:20.813712Z"
+  }
 }

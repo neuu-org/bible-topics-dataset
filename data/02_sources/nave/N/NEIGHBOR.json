@@ -1,90 +1,358 @@
 {
   "topic": "NEIGHBOR",
-  "topic_slug": "neighbor",
+  "slug": "neighbor",
   "canonical_id": "NAV:neighbor",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "DUTY",
     "MAN"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "DUTY",
-      "clean": "DUTY",
-      "slug": "duty",
-      "canonical_id": "NAV:duty"
+      "label": "General scriptures concerning",
+      "references": [
+        "Exodus 20:16",
+        "Exodus 23:4,5"
+      ]
     },
     {
-      "original": "MAN",
-      "clean": "MAN",
-      "slug": "man",
-      "canonical_id": "NAV:man"
+      "label": "6:2-5;19:13,16-18;",
+      "references": [
+        "Deuteronomy 22:1-4",
+        "Psalms 15:1-3",
+        "Proverbs 3:28,29",
+        "Isaiah 58:6-14",
+        "Jeremiah 22:13"
+      ]
+    },
+    {
+      "label": "8:16,17;",
+      "references": [
+        "Matthew 7:12",
+        "Matthew 19:19",
+        "Matthew 22:39",
+        "Matthew 25:34-46",
+        "Mark 12:31",
+        "Luke 10:25-37",
+        "Romans 13:9,10",
+        "Romans 15:2",
+        "Galatians 5:14",
+        "Galatians 6:10",
+        "Hebrews 13:3",
+        "James 2:8,9"
+      ]
+    },
+    {
+      "label": "SeeDUTY",
+      "references": []
+    },
+    {
+      "label": "SeeMAN",
+      "references": []
     }
   ],
-  "raw_block": "–General scriptures concerningEx 20:16;23:4,5;Le \n6:2-5;19:13,16-18;De 22:1-4;Ps 15:1-3;Pr 3:28,29;Isa 58:6-14;Jer 22:13;Zec \n8:16,17;Mt 7:12;19:19;22:39;25:34-46;Mr 12:31;Lu 10:25-37;Ro 13:9,10;15:2;Ga 5:14;6:10;Heb 13:3;Jas 2:8,9\n–SeeDUTY\n–SeeMAN",
-  "content_preview": "–General scriptures concerningEx 20:16;23:4,5;Le ",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–General scriptures concerningEx 20:16;23:4,5;Le \n6:2-5;19:13,16-18;De 22:1-4;Ps 15:1-3;Pr 3:28,29;Isa 58:6-14;Jer 22:13;Zec \n8:16,17;Mt 7:12;19:19;22:39;25:34-46;Mr 12:31;Lu 10:25-37;Ro 13:9,10;15:2;Ga 5:14;6:10;Heb 13:3;Jas 2:8,9",
-      "raw_segment": "–General scriptures concerningEx 20:16;23:4,5;Le \n6:2-5;19:13,16-18;De 22:1-4;Ps 15:1-3;Pr 3:28,29;Isa 58:6-14;Jer 22:13;Zec \n8:16,17;Mt 7:12;19:19;22:39;25:34-46;Mr 12:31;Lu 10:25-37;Ro 13:9,10;15:2;Ga 5:14;6:10;Heb 13:3;Jas 2:8,9"
+      "book": "Exodus",
+      "chapter": 20,
+      "verses": [
+        16
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 20:16"
     },
     {
-      "idx": 1,
-      "entry_label": "–SeeDUTY",
-      "raw_segment": "–SeeDUTY"
+      "book": "Exodus",
+      "chapter": 23,
+      "verses": [
+        4,
+        5
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Exodus 23:4,5"
     },
     {
-      "idx": 2,
-      "entry_label": "–SeeMAN",
-      "raw_segment": "–SeeMAN"
+      "book": "Exodus",
+      "chapter": 6,
+      "verses": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "verse_count": 4,
+      "testament": "OT",
+      "raw": "Exodus 6:2-5"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 19,
+      "verses": [
+        13,
+        16,
+        17,
+        18
+      ],
+      "verse_count": 4,
+      "testament": "OT",
+      "raw": "Exodus 19:13,16-18"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 22,
+      "verses": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "verse_count": 4,
+      "testament": "OT",
+      "raw": "Deuteronomy 22:1-4"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 15,
+      "verses": [
+        1,
+        2,
+        3
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Psalms 15:1-3"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 3,
+      "verses": [
+        28,
+        29
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Proverbs 3:28,29"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 58,
+      "verses": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "verse_count": 9,
+      "testament": "OT",
+      "raw": "Isaiah 58:6-14"
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 22,
+      "verses": [
+        13
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Jeremiah 22:13"
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 8,
+      "verses": [
+        16,
+        17
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Jeremiah 8:16,17"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 7,
+      "verses": [
+        12
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 7:12"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 19,
+      "verses": [
+        19
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 19:19"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 22,
+      "verses": [
+        39
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 22:39"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 25,
+      "verses": [
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "verse_count": 13,
+      "testament": "NT",
+      "raw": "Matthew 25:34-46"
+    },
+    {
+      "book": "Mark",
+      "chapter": 12,
+      "verses": [
+        31
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Mark 12:31"
+    },
+    {
+      "book": "Luke",
+      "chapter": 10,
+      "verses": [
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37
+      ],
+      "verse_count": 13,
+      "testament": "NT",
+      "raw": "Luke 10:25-37"
+    },
+    {
+      "book": "Romans",
+      "chapter": 13,
+      "verses": [
+        9,
+        10
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Romans 13:9,10"
+    },
+    {
+      "book": "Romans",
+      "chapter": 15,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Romans 15:2"
+    },
+    {
+      "book": "Galatians",
+      "chapter": 5,
+      "verses": [
+        14
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Galatians 5:14"
+    },
+    {
+      "book": "Galatians",
+      "chapter": 6,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Galatians 6:10"
+    },
+    {
+      "book": "Hebrews",
+      "chapter": 13,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Hebrews 13:3"
+    },
+    {
+      "book": "James",
+      "chapter": 2,
+      "verses": [
+        8,
+        9
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "James 2:8,9"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "Deuteronomy",
+    "Exodus",
+    "Galatians",
+    "Hebrews",
+    "Isaiah",
+    "James",
+    "Jeremiah",
+    "Luke",
+    "Mark",
+    "Matthew",
+    "Proverbs",
+    "Psalms",
+    "Romans"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:2c51a85a379076184e9f55d7fea623742c41af795e3f6374e96f6e67ce6621f2",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 5
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 5,
+    "total_refs": 22,
+    "ot_refs": 10,
+    "nt_refs": 12,
+    "books_count": 13,
+    "top_books": [
+      "Exodus",
+      "Matthew",
+      "Jeremiah",
+      "Romans",
+      "Galatians",
+      "Deuteronomy",
+      "Psalms",
+      "Proverbs",
+      "Isaiah",
+      "Mark"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:29:30.239604Z",
-  "updated_at": "2025-09-20T17:29:30.239611Z"
+  }
 }

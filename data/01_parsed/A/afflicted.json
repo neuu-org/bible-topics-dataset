@@ -1,44 +1,62 @@
 {
   "topic": "AFFLICTED",
   "slug": "afflicted",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "DUTY TO THE Job 6:14; 22:29; Isa 58:6,7,10; Mt 25:34-45; Lu 10:30-37; Php 2:1,2; 1Ti 5:10; Jas 5:13-15",
+      "label": "DUTY TO THE",
       "references": [
         "Job 6:14",
         "Job 22:29",
-        "Isa 58:6",
-        "Isa 58:7",
-        "Isa 58:10",
-        "Matt 25:34-45",
+        "Isaiah 58:6,7,10",
+        "Matthew 25:34-45",
         "Luke 10:30-37",
-        "Phil 2:1",
-        "Phil 2:2",
-        "1Tim 5:10",
-        "Jas 5:13-15"
+        "Philippians 2:1,2",
+        "1 Timothy 5:10",
+        "James 5:13-15"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Isaiah",
-      "book_abbrev": "isa",
-      "chapter": 58,
+      "book": "Job",
+      "chapter": 6,
+      "verses": [
+        14
+      ],
+      "verse_count": 1,
       "testament": "OT",
+      "raw": "Job 6:14"
+    },
+    {
+      "book": "Job",
+      "chapter": 22,
+      "verses": [
+        29
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Job 22:29"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 58,
       "verses": [
         6,
         7,
         10
       ],
-      "verse_count": 3
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Isaiah 58:6,7,10"
     },
     {
       "book": "Matthew",
-      "book_abbrev": "mat",
       "chapter": 25,
-      "testament": "NT",
       "verses": [
         34,
         35,
@@ -53,13 +71,13 @@
         44,
         45
       ],
-      "verse_count": 12
+      "verse_count": 12,
+      "testament": "NT",
+      "raw": "Matthew 25:34-45"
     },
     {
       "book": "Luke",
-      "book_abbrev": "luk",
       "chapter": 10,
-      "testament": "NT",
       "verses": [
         30,
         31,
@@ -70,60 +88,67 @@
         36,
         37
       ],
-      "verse_count": 8
+      "verse_count": 8,
+      "testament": "NT",
+      "raw": "Luke 10:30-37"
     },
     {
       "book": "Philippians",
-      "book_abbrev": "php",
       "chapter": 2,
-      "testament": "NT",
       "verses": [
         1,
         2
       ],
-      "verse_count": 2
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Philippians 2:1,2"
     },
     {
       "book": "1 Timothy",
-      "book_abbrev": "1ti",
       "chapter": 5,
-      "testament": "NT",
       "verses": [
         10
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "1 Timothy 5:10"
     },
     {
       "book": "James",
-      "book_abbrev": "jas",
       "chapter": 5,
-      "testament": "NT",
       "verses": [
         13,
         14,
         15
       ],
-      "verse_count": 3
+      "verse_count": 3,
+      "testament": "NT",
+      "raw": "James 5:13-15"
     }
   ],
-  "see_also": [],
-  "aliases": [],
+  "books_mentioned": [
+    "1 Timothy",
+    "Isaiah",
+    "James",
+    "Job",
+    "Luke",
+    "Matthew",
+    "Philippians"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 1,
+    "total_aspects": 1,
+    "total_refs": 8,
+    "ot_refs": 3,
     "nt_refs": 5,
-    "total_verses": 6
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.661593+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    }
-  },
-  "version": "3.0.0"
+    "books_count": 7,
+    "top_books": [
+      "Job",
+      "Isaiah",
+      "Matthew",
+      "Luke",
+      "Philippians",
+      "1 Timothy",
+      "James"
+    ]
+  }
 }

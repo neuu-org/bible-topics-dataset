@@ -1,69 +1,69 @@
 {
   "topic": "EPAPHRODITUS",
-  "topic_slug": "epaphroditus",
+  "slug": "epaphroditus",
   "canonical_id": "NAV:epaphroditus",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–A messenger of PaulPhp 2:25;4:18\n–Sick at RomePhp 2:26,27,30",
-  "content_preview": "–A messenger of PaulPhp 2:25;4:18",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–A messenger of PaulPhp 2:25;4:18",
-      "raw_segment": "–A messenger of PaulPhp 2:25;4:18"
+      "label": "A messenger of Paul",
+      "references": [
+        "Philippians 2:25",
+        "Philippians 4:18"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–Sick at RomePhp 2:26,27,30",
-      "raw_segment": "–Sick at RomePhp 2:26,27,30"
+      "label": "Sick at Rome",
+      "references": [
+        "Philippians 2:26,27,30"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Philippians",
+      "chapter": 2,
+      "verses": [
+        25
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Philippians 2:25"
+    },
+    {
+      "book": "Philippians",
+      "chapter": 4,
+      "verses": [
+        18
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Philippians 4:18"
+    },
+    {
+      "book": "Philippians",
+      "chapter": 2,
+      "verses": [
+        26,
+        27,
+        30
+      ],
+      "verse_count": 3,
+      "testament": "NT",
+      "raw": "Philippians 2:26,27,30"
+    }
+  ],
+  "books_mentioned": [
+    "Philippians"
+  ],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 2,
+    "total_refs": 3,
     "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:c3841085148ff57a8c61edfffb3d64985cda34a1fe15aa2d3396204834a63dbb",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "nt_refs": 3,
+    "books_count": 1,
+    "top_books": [
+      "Philippians"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:26:02.736816Z",
-  "updated_at": "2025-09-20T17:26:02.736823Z"
+  }
 }

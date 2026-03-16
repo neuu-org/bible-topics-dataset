@@ -1,86 +1,105 @@
 {
   "topic": "VICTORIES",
   "slug": "victories",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [
+    "ARMIES",
+    "WAR, GOD IN"
+  ],
+  "aspects": [
     {
-      "name": "In battle, from God Ps 55:18; 76:5,6",
+      "label": "In battle, from God",
       "references": [
-        "Ps 55:18",
-        "Ps 76:5",
-        "Ps 76:6"
+        "Psalms 55:18",
+        "Psalms 76:5,6"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Celebrated in song Jud 5; 2Sa 22",
-      "references": [
-        "Judg 5",
-        "2Sam 22"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "By women 1Sa 18:6,7; 2Sa 1:20",
-      "references": [
-        "1Sam 18:6",
-        "1Sam 18:7",
-        "2Sam 1:20"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "See ARMIES",
+      "label": "Celebrated in",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See WAR, GOD IN",
+      "label": "By women",
+      "references": [
+        "1 Samuel 18:6,7",
+        "2 Samuel 1:20"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeARMIES",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
+    },
+    {
+      "label": "SeeWAR, GOD IN",
+      "references": [],
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "2 Samuel",
-      "book_abbrev": "2sa",
-      "chapter": 22,
+      "book": "Psalms",
+      "chapter": 55,
+      "verses": [
+        18
+      ],
+      "verse_count": 1,
       "testament": "OT",
-      "verses": [],
-      "verse_count": 1
+      "raw": "Psalms 55:18"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 76,
+      "verses": [
+        5,
+        6
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Psalms 76:5,6"
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 18,
+      "verses": [
+        6,
+        7
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "1 Samuel 18:6,7"
     },
     {
       "book": "2 Samuel",
-      "book_abbrev": "2sa",
       "chapter": 1,
-      "testament": "OT",
       "verses": [
         20
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Samuel 1:20"
     }
   ],
-  "see_also": [
-    "WAR, GOD IN",
-    "ARMIES"
+  "books_mentioned": [
+    "1 Samuel",
+    "2 Samuel",
+    "Psalms"
   ],
-  "aliases": [],
   "stats": {
-    "entries_count": 5,
-    "ot_refs": 2,
+    "total_aspects": 5,
+    "total_refs": 4,
+    "ot_refs": 4,
     "nt_refs": 0,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.732694+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    }
-  },
-  "version": "3.0.0"
+    "books_count": 3,
+    "top_books": [
+      "Psalms",
+      "1 Samuel",
+      "2 Samuel"
+    ]
+  }
 }

@@ -1,64 +1,101 @@
 {
   "topic": "LANDMARKS",
-  "topic_slug": "landmarks",
+  "slug": "landmarks",
   "canonical_id": "NAV:landmarks",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–Protected from fraudulent removalDe 19:14;27:17;Job 24:9;Pr 22:28;23:10;Ho 5:10",
-  "content_preview": "–Protected from fraudulent removalDe 19:14;27:17;Job 24:9;Pr 22:28;23:10;Ho 5:10",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–Protected from fraudulent removalDe 19:14;27:17;Job 24:9;Pr 22:28;23:10;Ho 5:10",
-      "raw_segment": "–Protected from fraudulent removalDe 19:14;27:17;Job 24:9;Pr 22:28;23:10;Ho 5:10"
+      "label": "Protected from fraudulent removal",
+      "references": [
+        "Deuteronomy 19:14",
+        "Deuteronomy 27:17",
+        "Job 24:9",
+        "Proverbs 22:28",
+        "Proverbs 23:10",
+        "Hosea 5:10"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Deuteronomy",
+      "chapter": 19,
+      "verses": [
+        14
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 19:14"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 27,
+      "verses": [
+        17
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 27:17"
+    },
+    {
+      "book": "Job",
+      "chapter": 24,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Job 24:9"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 22,
+      "verses": [
+        28
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 22:28"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 23,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 23:10"
+    },
+    {
+      "book": "Hosea",
+      "chapter": 5,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Hosea 5:10"
+    }
+  ],
+  "books_mentioned": [
+    "Deuteronomy",
+    "Hosea",
+    "Job",
+    "Proverbs"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 1,
+    "total_refs": 6,
+    "ot_refs": 6,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:cc60c876fbe2df81ce8c1c0fa2cf699c5ee637f6574a3030a06abb3c664c131f",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 1
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 4,
+    "top_books": [
+      "Deuteronomy",
+      "Proverbs",
+      "Job",
+      "Hosea"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:28:28.751202Z",
-  "updated_at": "2025-09-20T17:28:28.751208Z"
+  }
 }

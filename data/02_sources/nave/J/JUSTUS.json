@@ -1,74 +1,78 @@
 {
   "topic": "JUSTUS",
-  "topic_slug": "justus",
+  "slug": "justus",
   "canonical_id": "NAV:justus",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–1. A disciple nominated with Matthias to succeed Judas IscariotAc 1:23\n–2. A believer in CorinthAc 18:7\n–3. Also called JESUS\n  .A disciple in RomeCol 4:11",
-  "content_preview": "–1. A disciple nominated with Matthias to succeed Judas IscariotAc 1:23",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–1. A disciple nominated with Matthias to succeed Judas IscariotAc 1:23",
-      "raw_segment": "–1. A disciple nominated with Matthias to succeed Judas IscariotAc 1:23"
+      "label": "1. A disciple nominated with Matthias to succeed",
+      "references": [
+        "Acts 1:23"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–2. A believer in CorinthAc 18:7",
-      "raw_segment": "–2. A believer in CorinthAc 18:7"
+      "label": "2. A believer in Corinth",
+      "references": [
+        "Acts 18:7"
+      ]
     },
     {
-      "idx": 2,
-      "entry_label": "–3. Also called JESUS",
-      "raw_segment": "–3. Also called JESUS"
+      "label": "3. Al",
+      "references": []
+    },
+    {
+      "label": ".A disciple in Rome",
+      "references": [
+        "Colossians 4:11"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Acts",
+      "chapter": 1,
+      "verses": [
+        23
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 1:23"
+    },
+    {
+      "book": "Acts",
+      "chapter": 18,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 18:7"
+    },
+    {
+      "book": "Colossians",
+      "chapter": 4,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Colossians 4:11"
+    }
+  ],
+  "books_mentioned": [
+    "Acts",
+    "Colossians"
+  ],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 4,
+    "total_refs": 3,
     "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:65d45dd4af13490e15f3d3d46f72ad80990d266734d594ed3ce172710d59025d",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 4
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "nt_refs": 3,
+    "books_count": 2,
+    "top_books": [
+      "Acts",
+      "Colossians"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:28:17.755822Z",
-  "updated_at": "2025-09-20T17:28:17.755831Z"
+  }
 }

@@ -1,64 +1,41 @@
 {
   "topic": "CALAH",
-  "topic_slug": "calah",
+  "slug": "calah",
   "canonical_id": "NAV:calah",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–An ancient city of AssyriaGe 10:11,12",
-  "content_preview": "–An ancient city of AssyriaGe 10:11,12",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–An ancient city of AssyriaGe 10:11,12",
-      "raw_segment": "–An ancient city of AssyriaGe 10:11,12"
+      "label": "An ancient city of Assyria",
+      "references": [
+        "Genesis 10:11,12"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Genesis",
+      "chapter": 10,
+      "verses": [
+        11,
+        12
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Genesis 10:11,12"
+    }
+  ],
+  "books_mentioned": [
+    "Genesis"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 1,
+    "total_refs": 1,
+    "ot_refs": 1,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:fc55ab75c4eacbd57fae41080e4aecbeecbd6247574e678edd399fbdde638cda",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 1
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 1,
+    "top_books": [
+      "Genesis"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:24:45.070058Z",
-  "updated_at": "2025-09-20T17:24:45.070065Z"
+  }
 }

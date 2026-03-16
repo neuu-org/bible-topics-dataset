@@ -1,76 +1,100 @@
 {
   "topic": "NETTLES",
   "slug": "nettles",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "An obnoxious plant Pr 24:31; Isa 34:13",
+      "label": "An obnoxious plant",
       "references": [
-        "Prov 24:31",
-        "Isa 34:13"
+        "Proverbs 24:31",
+        "Isaiah 34:13"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "FIGURATIVE Job 30:7; Ho 9:6; Zep 2:9",
+      "label": "FIGURATIVE",
       "references": [
         "Job 30:7",
-        "Hos 9:6",
-        "Zeph 2:9"
+        "Hosea 9:6",
+        "Zephaniah 2:9"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Isaiah",
-      "book_abbrev": "isa",
-      "chapter": 34,
+      "book": "Proverbs",
+      "chapter": 24,
+      "verses": [
+        31
+      ],
+      "verse_count": 1,
       "testament": "OT",
+      "raw": "Proverbs 24:31"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 34,
       "verses": [
         13
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 34:13"
+    },
+    {
+      "book": "Job",
+      "chapter": 30,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Job 30:7"
     },
     {
       "book": "Hosea",
-      "book_abbrev": "hos",
       "chapter": 9,
-      "testament": "OT",
       "verses": [
         6
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Hosea 9:6"
     },
     {
       "book": "Zephaniah",
-      "book_abbrev": "zep",
       "chapter": 2,
-      "testament": "OT",
       "verses": [
         9
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Zephaniah 2:9"
     }
   ],
-  "see_also": [],
-  "aliases": [],
+  "books_mentioned": [
+    "Hosea",
+    "Isaiah",
+    "Job",
+    "Proverbs",
+    "Zephaniah"
+  ],
   "stats": {
-    "entries_count": 2,
-    "ot_refs": 3,
+    "total_aspects": 2,
+    "total_refs": 5,
+    "ot_refs": 5,
     "nt_refs": 0,
-    "total_verses": 3
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.714626+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    }
-  },
-  "version": "3.0.0"
+    "books_count": 5,
+    "top_books": [
+      "Proverbs",
+      "Isaiah",
+      "Job",
+      "Hosea",
+      "Zephaniah"
+    ]
+  }
 }

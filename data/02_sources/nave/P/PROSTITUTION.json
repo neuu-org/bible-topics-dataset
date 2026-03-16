@@ -1,95 +1,68 @@
 {
   "topic": "PROSTITUTION",
-  "topic_slug": "prostitution",
+  "slug": "prostitution",
   "canonical_id": "NAV:prostitution",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "LASCIVIOUSNESS",
     "ADULTERY"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "LASCIVIOUSNESS",
-      "clean": "LASCIVIOUSNESS",
-      "slug": "lasciviousness",
-      "canonical_id": "NAV:lasciviousness"
+      "label": "(Lascivious behavior)",
+      "references": []
     },
     {
-      "original": "ADULTERY",
-      "clean": "ADULTERY",
-      "slug": "adultery",
-      "canonical_id": "NAV:adultery"
+      "label": "Forbid",
+      "references": [
+        "Leviticus 19:29",
+        "Deuteronomy 23:17"
+      ]
+    },
+    {
+      "label": "SeeADULTERY",
+      "references": []
+    },
+    {
+      "label": "SeeLASCIVIOUSNESS",
+      "references": []
     }
   ],
-  "raw_block": "–(Lascivious behavior)\n–ForbiddenLe 19:29;De 23:17\n–SeeADULTERY\n–SeeLASCIVIOUSNESS",
-  "content_preview": "–(Lascivious behavior)",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–(Lascivious behavior)",
-      "raw_segment": "–(Lascivious behavior)"
+      "book": "Leviticus",
+      "chapter": 19,
+      "verses": [
+        29
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Leviticus 19:29"
     },
     {
-      "idx": 1,
-      "entry_label": "–ForbiddenLe 19:29;De 23:17",
-      "raw_segment": "–ForbiddenLe 19:29;De 23:17"
-    },
-    {
-      "idx": 2,
-      "entry_label": "–SeeADULTERY",
-      "raw_segment": "–SeeADULTERY"
-    },
-    {
-      "idx": 3,
-      "entry_label": "–SeeLASCIVIOUSNESS",
-      "raw_segment": "–SeeLASCIVIOUSNESS"
+      "book": "Deuteronomy",
+      "chapter": 23,
+      "verses": [
+        17
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 23:17"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "Deuteronomy",
+    "Leviticus"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 4,
+    "total_refs": 2,
+    "ot_refs": 2,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:e2e1d661a9ebef10b35973a8af232de7d808c423095bfe44bcecd95f90a2b1f7",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 4
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 2,
+    "top_books": [
+      "Leviticus",
+      "Deuteronomy"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:30:20.467087Z",
-  "updated_at": "2025-09-20T17:30:20.467094Z"
+  }
 }

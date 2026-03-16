@@ -1,69 +1,97 @@
 {
   "topic": "NETTLES",
-  "topic_slug": "nettles",
+  "slug": "nettles",
   "canonical_id": "NAV:nettles",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–An obnoxious plantPr 24:31;Isa 34:13\n–FIGURATIVEJob 30:7;Ho 9:6;Zep 2:9",
-  "content_preview": "–An obnoxious plantPr 24:31;Isa 34:13",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–An obnoxious plantPr 24:31;Isa 34:13",
-      "raw_segment": "–An obnoxious plantPr 24:31;Isa 34:13"
+      "label": "An obnoxious plant",
+      "references": [
+        "Proverbs 24:31",
+        "Isaiah 34:13"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–FIGURATIVEJob 30:7;Ho 9:6;Zep 2:9",
-      "raw_segment": "–FIGURATIVEJob 30:7;Ho 9:6;Zep 2:9"
+      "label": "FIGURATIVE",
+      "references": [
+        "Job 30:7",
+        "Hosea 9:6",
+        "Zephaniah 2:9"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Proverbs",
+      "chapter": 24,
+      "verses": [
+        31
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 24:31"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 34,
+      "verses": [
+        13
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 34:13"
+    },
+    {
+      "book": "Job",
+      "chapter": 30,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Job 30:7"
+    },
+    {
+      "book": "Hosea",
+      "chapter": 9,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Hosea 9:6"
+    },
+    {
+      "book": "Zephaniah",
+      "chapter": 2,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Zephaniah 2:9"
+    }
+  ],
+  "books_mentioned": [
+    "Hosea",
+    "Isaiah",
+    "Job",
+    "Proverbs",
+    "Zephaniah"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 2,
+    "total_refs": 5,
+    "ot_refs": 5,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:4496cec55c79a57767af8d4732ea3a05e5a90781fa02dc8c7e2663a68b883d8a",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 5,
+    "top_books": [
+      "Proverbs",
+      "Isaiah",
+      "Job",
+      "Hosea",
+      "Zephaniah"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:29:32.563303Z",
-  "updated_at": "2025-09-20T17:29:32.563311Z"
+  }
 }

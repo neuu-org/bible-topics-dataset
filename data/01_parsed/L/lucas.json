@@ -1,66 +1,49 @@
 {
   "topic": "LUCAS",
   "slug": "lucas",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Fellow-laborer of Paul Phm 1:24",
-      "references": [
-        "Phlm 1"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "See LUKE",
-      "references": [],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [
-    "LUKE"
-  ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.701885+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "see_also": [
+    "LUKE"
+  ],
+  "aspects": [
     {
-      "book": "Philippians",
+      "label": "Fellow-laborer of Paul",
+      "references": [
+        "Philemon 1:24"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "See",
+      "references": [],
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
+    {
+      "book": "Philemon",
       "chapter": 1,
       "verses": [
         24
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Philippians 1:24",
-      "source": "EAS"
-    },
-    {
-      "book": "Colossians",
-      "chapter": 4,
-      "verses": [
-        14
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Colossians 4:14",
-      "source": "EAS"
+      "raw": "Philemon 1:24"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Philemon"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 1,
+    "ot_refs": 0,
+    "nt_refs": 1,
+    "books_count": 1,
+    "top_books": [
+      "Philemon"
+    ]
+  }
 }

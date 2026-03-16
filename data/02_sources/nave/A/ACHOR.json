@@ -1,64 +1,78 @@
 {
   "topic": "ACHOR",
-  "topic_slug": "achor",
+  "slug": "achor",
   "canonical_id": "NAV:achor",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–A valley near JerichoJos 7:26;15:7;Isa 65:10;Ho \n2:15",
-  "content_preview": "–A valley near JerichoJos 7:26;15:7;Isa 65:10;Ho ",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–A valley near JerichoJos 7:26;15:7;Isa 65:10;Ho \n2:15",
-      "raw_segment": "–A valley near JerichoJos 7:26;15:7;Isa 65:10;Ho \n2:15"
+      "label": "A valley near",
+      "references": [
+        "Joshua 7:26",
+        "Joshua 15:7",
+        "Isaiah 65:10"
+      ]
+    },
+    {
+      "label": "2:15",
+      "references": []
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Joshua",
+      "chapter": 7,
+      "verses": [
+        26
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 7:26"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 15,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 15:7"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 65,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 65:10"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 2,
+      "verses": [
+        15
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 2:15"
+    }
+  ],
+  "books_mentioned": [
+    "Isaiah",
+    "Joshua"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 2,
+    "total_refs": 4,
+    "ot_refs": 4,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:73b96d3524a877b337a0461d729ad8cb071a31f1a0c60e3c9c0841eee7d1cf9a",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 2,
+    "top_books": [
+      "Joshua",
+      "Isaiah"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:23:14.301721Z",
-  "updated_at": "2025-09-20T17:23:14.301731Z"
+  }
 }

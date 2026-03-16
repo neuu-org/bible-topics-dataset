@@ -1,83 +1,21 @@
 {
   "topic": "BIT",
   "slug": "bit",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Part of a bridle Ps 32:9; Jas 3:3",
-      "references": [
-        "Ps 32:9",
-        "Jas 3:3"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "James",
-      "book_abbrev": "jas",
-      "chapter": 3,
-      "testament": "NT",
-      "verses": [
-        3
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 1,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.674589+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "Part of a bridle",
+      "references": [
+        "Psalms 32:9",
+        "James 3:3"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "2 Kings",
-      "chapter": 19,
-      "verses": [
-        28
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "2 Kings 19:28",
-      "source": "EAS"
-    },
-    {
-      "book": "Proverbs",
-      "chapter": 26,
-      "verses": [
-        3
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Proverbs 26:3",
-      "source": "EAS"
-    },
-    {
-      "book": "Isaiah",
-      "chapter": 37,
-      "verses": [
-        29
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Isaiah 37:29",
-      "source": "EAS"
-    },
+  ],
+  "biblical_references": [
     {
       "book": "Psalms",
       "chapter": 32,
@@ -86,8 +24,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Psalms 32:9",
-      "source": "EAS"
+      "raw": "Psalms 32:9"
     },
     {
       "book": "James",
@@ -97,8 +34,22 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "James 3:3",
-      "source": "EAS"
+      "raw": "James 3:3"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "James",
+    "Psalms"
+  ],
+  "stats": {
+    "total_aspects": 1,
+    "total_refs": 2,
+    "ot_refs": 1,
+    "nt_refs": 1,
+    "books_count": 2,
+    "top_books": [
+      "Psalms",
+      "James"
+    ]
+  }
 }

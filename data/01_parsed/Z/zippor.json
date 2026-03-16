@@ -1,66 +1,22 @@
 {
   "topic": "ZIPPOR",
   "slug": "zippor",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Father of Balak Nu 22:2,4,10,16; 23:18; Jos 24:9",
-      "references": [
-        "Num 22:2",
-        "Num 22:4",
-        "Num 22:10",
-        "Num 22:16",
-        "Num 23:18",
-        "Josh 24:9"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Joshua",
-      "book_abbrev": "jos",
-      "chapter": 24,
-      "testament": "OT",
-      "verses": [
-        9
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.735255+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "see_also": [],
+  "aspects": [
     {
-      "book": "Numbers",
-      "chapter": 22,
-      "verses": [
-        2,
-        4
+      "label": "Father of Balak",
+      "references": [
+        "Numbers 22:2,4,10,16",
+        "Numbers 23:18",
+        "Joshua 24:9"
       ],
-      "verse_count": 2,
-      "testament": "OT",
-      "raw": "Numbers 22:2, 4",
-      "source": "EAS"
-    },
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
     {
       "book": "Numbers",
       "chapter": 22,
@@ -72,8 +28,7 @@
       ],
       "verse_count": 4,
       "testament": "OT",
-      "raw": "Numbers 22:2,4,10,16",
-      "source": "SMI"
+      "raw": "Numbers 22:2,4,10,16"
     },
     {
       "book": "Numbers",
@@ -83,8 +38,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Numbers 23:18",
-      "source": "SMI"
+      "raw": "Numbers 23:18"
     },
     {
       "book": "Joshua",
@@ -94,30 +48,22 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Joshua 24:9",
-      "source": "SMI"
-    },
-    {
-      "book": "Judges",
-      "chapter": 11,
-      "verses": [
-        25
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Judges 11:25",
-      "source": "SMI"
-    },
-    {
-      "book": "Numbers",
-      "chapter": 21,
-      "verses": [
-        26
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Numbers 21:26",
-      "source": "SMI"
+      "raw": "Joshua 24:9"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Joshua",
+    "Numbers"
+  ],
+  "stats": {
+    "total_aspects": 1,
+    "total_refs": 3,
+    "ot_refs": 3,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "Numbers",
+      "Joshua"
+    ]
+  }
 }

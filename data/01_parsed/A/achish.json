@@ -1,61 +1,31 @@
 {
   "topic": "ACHISH",
   "slug": "achish",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "(King of the Philistines, also called ABIMELECH)",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "David escapes to 1Sa 21:10-15; 27; 28:1,2; 29; 1Ki 2:39,40",
-      "references": [
-        "1Sam 21:10-15",
-        "1Sam 27",
-        "1Sam 28:1",
-        "1Sam 28:2",
-        "1Sam 29",
-        "1Kgs 2:39",
-        "1Kgs 2:40"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "1 Kings",
-      "book_abbrev": "1ki",
-      "chapter": 2,
-      "testament": "OT",
-      "verses": [
-        39,
-        40
-      ],
-      "verse_count": 2
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.660975+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "(King of the Philistines, al",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "David es",
+      "references": [
+        "1 Samuel 21:10-15",
+        "1 Samuel 28:1,2"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2:39,40",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "1 Samuel",
       "chapter": 21,
@@ -69,26 +39,7 @@
       ],
       "verse_count": 6,
       "testament": "OT",
-      "raw": "1 Samuel 21:10-15",
-      "source": "EAS"
-    },
-    {
-      "book": "1 Samuel",
-      "chapter": 27,
-      "verses": [
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12
-      ],
-      "verse_count": 8,
-      "testament": "OT",
-      "raw": "1 Samuel 27:5-12",
-      "source": "EAS"
+      "raw": "1 Samuel 21:10-15"
     },
     {
       "book": "1 Samuel",
@@ -99,46 +50,31 @@
       ],
       "verse_count": 2,
       "testament": "OT",
-      "raw": "1 Samuel 28:1, 2",
-      "source": "EAS"
+      "raw": "1 Samuel 28:1,2"
     },
     {
       "book": "1 Samuel",
-      "chapter": 29,
-      "verses": [
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11
-      ],
-      "verse_count": 10,
-      "testament": "OT",
-      "raw": "1 Samuel 29:2-11",
-      "source": "EAS"
-    },
-    {
-      "book": "1 Kings",
       "chapter": 2,
       "verses": [
         39,
-        40,
-        41,
-        42,
-        43,
-        44,
-        45,
-        46
+        40
       ],
-      "verse_count": 8,
+      "verse_count": 2,
       "testament": "OT",
-      "raw": "1 Kings 2:39-46",
-      "source": "EAS"
+      "raw": "1 Samuel 2:39,40"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Samuel"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 3,
+    "ot_refs": 3,
+    "nt_refs": 0,
+    "books_count": 1,
+    "top_books": [
+      "1 Samuel"
+    ]
+  }
 }

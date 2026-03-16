@@ -1,8 +1,8 @@
 {
   "topic": "DUTY",
-  "topic_slug": "duty",
+  "slug": "duty",
   "canonical_id": "NAV:duty",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "CHILDREN",
     "OBEDIENCE",
@@ -13,115 +13,400 @@
     "FAITHFULNESS",
     "WIFE"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "CHILDREN",
-      "clean": "CHILDREN",
-      "slug": "children",
-      "canonical_id": "NAV:children"
+      "label": "OF MAN TO GOD",
+      "references": [
+        "Deuteronomy 6:5",
+        "Deuteronomy 10:12,13",
+        "Deuteronomy 11:1",
+        "Deuteronomy 30:15-20"
+      ]
     },
     {
-      "original": "OBEDIENCE",
-      "clean": "OBEDIENCE",
-      "slug": "obedience",
-      "canonical_id": "NAV:obedience"
+      "label": "22:5;23:11;",
+      "references": [
+        "Psalms 31:23",
+        "Proverbs 23:26",
+        "Matthew 4:10",
+        "Matthew 12:50",
+        "Matthew 22:21,36-40",
+        "Luke 17:10",
+        "Luke 21:3,4",
+        "John 4:34",
+        "John 6:38",
+        "John 14:15,21",
+        "John 15:14",
+        "Acts 4:19,20",
+        "Acts 5:29",
+        "Deuteronomy 1:21"
+      ]
     },
     {
-      "original": "HUSBAND",
-      "clean": "HUSBAND",
-      "slug": "husband",
-      "canonical_id": "NAV:husband"
+      "label": ".SeeCOMMANDMENTS",
+      "references": []
     },
     {
-      "original": "MINISTER, DUTIES OF",
-      "clean": "MINISTER, DUTIES OF",
-      "slug": "minister__duties_of",
-      "canonical_id": "NAV:minister__duties_of"
+      "label": ".SeeFAITHFULNESS",
+      "references": []
     },
     {
-      "original": "PARENTS",
-      "clean": "PARENTS",
-      "slug": "parents",
-      "canonical_id": "NAV:parents"
+      "label": ".SeeOBEDIENCE",
+      "references": []
     },
     {
-      "original": "COMMANDMENTS",
-      "clean": "COMMANDMENTS",
-      "slug": "commandments",
-      "canonical_id": "NAV:commandments"
+      "label": "OF MAN TO MAN",
+      "references": [
+        "Leviticus 19:18",
+        "Isaiah 58:6,7",
+        "Matthew 7:12",
+        "Matthew 25:34-46",
+        "Luke 10:25-37"
+      ]
     },
     {
-      "original": "FAITHFULNESS",
-      "clean": "FAITHFULNESS",
-      "slug": "faithfulness",
-      "canonical_id": "NAV:faithfulness"
+      "label": ".SeeCOMMANDMENTS",
+      "references": []
     },
     {
-      "original": "WIFE",
-      "clean": "WIFE",
-      "slug": "wife",
-      "canonical_id": "NAV:wife"
+      "label": ".SeeCHILDREN",
+      "references": []
+    },
+    {
+      "label": ".SeeHUSBAND",
+      "references": []
+    },
+    {
+      "label": ".SeeMINISTER, DUTIES OF",
+      "references": []
+    },
+    {
+      "label": ".SeePARENTS",
+      "references": []
+    },
+    {
+      "label": ".SeeWIFE",
+      "references": []
     }
   ],
-  "raw_block": "–OF MAN TO GODDe 6:5;10:12,13;11:1;30:15-20;Jos \n22:5;23:11;Ps 31:23;Pr 23:26;Mt 4:10;12:50;22:21,36-40;Lu 17:10;21:3,4;Joh 4:34;6:38;14:15,21;15:14;Ac 4:19,20;5:29;Jude 1:21\n  .SeeCOMMANDMENTS\n  .SeeFAITHFULNESS\n  .SeeOBEDIENCE\n–OF MAN TO MANLe 19:18;Isa 58:6,7;Mt 7:12;25:34-46;Lu 10:25-37\n  .SeeCOMMANDMENTS\n  .SeeCHILDREN\n  .SeeHUSBAND\n  .SeeMINISTER, DUTIES OF\n  .SeePARENTS\n  .SeeWIFE",
-  "content_preview": "–OF MAN TO GODDe 6:5;10:12,13;11:1;30:15-20;Jos ",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–OF MAN TO GODDe 6:5;10:12,13;11:1;30:15-20;Jos \n22:5;23:11;Ps 31:23;Pr 23:26;Mt 4:10;12:50;22:21,36-40;Lu 17:10;21:3,4;Joh 4:34;6:38;14:15,21;15:14;Ac 4:19,20;5:29;Jude 1:21",
-      "raw_segment": "–OF MAN TO GODDe 6:5;10:12,13;11:1;30:15-20;Jos \n22:5;23:11;Ps 31:23;Pr 23:26;Mt 4:10;12:50;22:21,36-40;Lu 17:10;21:3,4;Joh 4:34;6:38;14:15,21;15:14;Ac 4:19,20;5:29;Jude 1:21"
+      "book": "Deuteronomy",
+      "chapter": 6,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 6:5"
     },
     {
-      "idx": 1,
-      "entry_label": "–OF MAN TO MANLe 19:18;Isa 58:6,7;Mt 7:12;25:34-46;Lu 10:25-37",
-      "raw_segment": "–OF MAN TO MANLe 19:18;Isa 58:6,7;Mt 7:12;25:34-46;Lu 10:25-37"
+      "book": "Deuteronomy",
+      "chapter": 10,
+      "verses": [
+        12,
+        13
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Deuteronomy 10:12,13"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 11,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 11:1"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 30,
+      "verses": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "verse_count": 6,
+      "testament": "OT",
+      "raw": "Deuteronomy 30:15-20"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 22,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 22:5"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 23,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 23:11"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 31,
+      "verses": [
+        23
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 31:23"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 23,
+      "verses": [
+        26
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 23:26"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 4,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 4:10"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 12,
+      "verses": [
+        50
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 12:50"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 22,
+      "verses": [
+        21,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "verse_count": 6,
+      "testament": "NT",
+      "raw": "Matthew 22:21,36-40"
+    },
+    {
+      "book": "Luke",
+      "chapter": 17,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 17:10"
+    },
+    {
+      "book": "Luke",
+      "chapter": 21,
+      "verses": [
+        3,
+        4
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Luke 21:3,4"
+    },
+    {
+      "book": "John",
+      "chapter": 4,
+      "verses": [
+        34
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "John 4:34"
+    },
+    {
+      "book": "John",
+      "chapter": 6,
+      "verses": [
+        38
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "John 6:38"
+    },
+    {
+      "book": "John",
+      "chapter": 14,
+      "verses": [
+        15,
+        21
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "John 14:15,21"
+    },
+    {
+      "book": "John",
+      "chapter": 15,
+      "verses": [
+        14
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "John 15:14"
+    },
+    {
+      "book": "Acts",
+      "chapter": 4,
+      "verses": [
+        19,
+        20
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Acts 4:19,20"
+    },
+    {
+      "book": "Acts",
+      "chapter": 5,
+      "verses": [
+        29
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 5:29"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 1,
+      "verses": [
+        21
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 1:21"
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 19,
+      "verses": [
+        18
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Leviticus 19:18"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 58,
+      "verses": [
+        6,
+        7
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Isaiah 58:6,7"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 7,
+      "verses": [
+        12
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 7:12"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 25,
+      "verses": [
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "verse_count": 13,
+      "testament": "NT",
+      "raw": "Matthew 25:34-46"
+    },
+    {
+      "book": "Luke",
+      "chapter": 10,
+      "verses": [
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37
+      ],
+      "verse_count": 13,
+      "testament": "NT",
+      "raw": "Luke 10:25-37"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "Acts",
+    "Deuteronomy",
+    "Isaiah",
+    "John",
+    "Leviticus",
+    "Luke",
+    "Matthew",
+    "Proverbs",
+    "Psalms"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:249a6f0198e0a64054c37034562f8f7a21dbf3417b5e5a0d68556d8d6157a9e6",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 12
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 12,
+    "total_refs": 25,
+    "ot_refs": 11,
+    "nt_refs": 14,
+    "books_count": 9,
+    "top_books": [
+      "Deuteronomy",
+      "Matthew",
+      "John",
+      "Luke",
+      "Acts",
+      "Psalms",
+      "Proverbs",
+      "Leviticus",
+      "Isaiah"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:25:43.832785Z",
-  "updated_at": "2025-09-20T17:25:43.832793Z"
+  }
 }

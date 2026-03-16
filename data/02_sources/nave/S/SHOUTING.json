@@ -1,64 +1,164 @@
 {
   "topic": "SHOUTING",
-  "topic_slug": "shouting",
+  "slug": "shouting",
   "canonical_id": "NAV:shouting",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–IN JOY AND PRAISE1Ch 15:28;2Ch 15:12-14;Ezr 3:11-13;Ps 5:11;47:1;Isa 12:6;Lu 17:15;19:37-41;Ac 3:8,9;Re 5:12-14",
-  "content_preview": "–IN JOY AND PRAISE1Ch 15:28;2Ch 15:12-14;Ezr 3:11-13;Ps 5:11;47:1;Isa 12:6;Lu 17:15;19:37-41;Ac 3:8,...",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–IN JOY AND PRAISE1Ch 15:28;2Ch 15:12-14;Ezr 3:11-13;Ps 5:11;47:1;Isa 12:6;Lu 17:15;19:37-41;Ac 3:8,9;Re 5:12-14",
-      "raw_segment": "–IN JOY AND PRAISE1Ch 15:28;2Ch 15:12-14;Ezr 3:11-13;Ps 5:11;47:1;Isa 12:6;Lu 17:15;19:37-41;Ac 3:8,9;Re 5:12-14"
+      "label": "IN JOY AND PRAISE",
+      "references": [
+        "1 Chronicles 15:28",
+        "2 Chronicles 15:12-14",
+        "Ezra 3:11-13",
+        "Psalms 5:11",
+        "Psalms 47:1",
+        "Isaiah 12:6",
+        "Luke 17:15",
+        "Luke 19:37-41",
+        "Acts 3:8,9",
+        "Revelation 5:12-14"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "1 Chronicles",
+      "chapter": 15,
+      "verses": [
+        28
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 15:28"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 15,
+      "verses": [
+        12,
+        13,
+        14
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "2 Chronicles 15:12-14"
+    },
+    {
+      "book": "Ezra",
+      "chapter": 3,
+      "verses": [
+        11,
+        12,
+        13
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Ezra 3:11-13"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 5,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 5:11"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 47,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 47:1"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 12,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 12:6"
+    },
+    {
+      "book": "Luke",
+      "chapter": 17,
+      "verses": [
+        15
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 17:15"
+    },
+    {
+      "book": "Luke",
+      "chapter": 19,
+      "verses": [
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "verse_count": 5,
+      "testament": "NT",
+      "raw": "Luke 19:37-41"
+    },
+    {
+      "book": "Acts",
+      "chapter": 3,
+      "verses": [
+        8,
+        9
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Acts 3:8,9"
+    },
+    {
+      "book": "Revelation",
+      "chapter": 5,
+      "verses": [
+        12,
+        13,
+        14
+      ],
+      "verse_count": 3,
+      "testament": "NT",
+      "raw": "Revelation 5:12-14"
+    }
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "2 Chronicles",
+    "Acts",
+    "Ezra",
+    "Isaiah",
+    "Luke",
+    "Psalms",
+    "Revelation"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:44cb0f085f76ee84d4aafd1bb7bfe7417e1ea1b0f2dce0213ebeb6d6a8571667",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 1
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 1,
+    "total_refs": 10,
+    "ot_refs": 6,
+    "nt_refs": 4,
+    "books_count": 8,
+    "top_books": [
+      "Psalms",
+      "Luke",
+      "1 Chronicles",
+      "2 Chronicles",
+      "Ezra",
+      "Isaiah",
+      "Acts",
+      "Revelation"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:31:29.096147Z",
-  "updated_at": "2025-09-20T17:31:29.096154Z"
+  }
 }

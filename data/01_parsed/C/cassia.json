@@ -1,72 +1,21 @@
 {
   "topic": "CASSIA",
   "slug": "cassia",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "An aromatic plant, probably cinnamon Ps 45:8; Eze 27:19",
-      "references": [
-        "Ps 45:8",
-        "Ezek 27:19"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Ezekiel",
-      "book_abbrev": "ezk",
-      "chapter": 27,
-      "testament": "OT",
-      "verses": [
-        19
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.676613+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "An aromatic plant, probably cinnamon",
+      "references": [
+        "Psalms 45:8",
+        "Ezekiel 27:19"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "Exodus",
-      "chapter": 30,
-      "verses": [
-        24
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Exodus 30:24",
-      "source": "EAS"
-    },
-    {
-      "book": "Ezekiel",
-      "chapter": 27,
-      "verses": [
-        19
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Ezekiel 27:19",
-      "source": "EAS"
-    },
+  ],
+  "biblical_references": [
     {
       "book": "Psalms",
       "chapter": 45,
@@ -75,8 +24,32 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Psalms 45:8",
-      "source": "EAS"
+      "raw": "Psalms 45:8"
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 27,
+      "verses": [
+        19
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezekiel 27:19"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Ezekiel",
+    "Psalms"
+  ],
+  "stats": {
+    "total_aspects": 1,
+    "total_refs": 2,
+    "ot_refs": 2,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "Psalms",
+      "Ezekiel"
+    ]
+  }
 }

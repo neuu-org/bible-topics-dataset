@@ -1,98 +1,39 @@
 {
   "topic": "GERA",
   "slug": "gera",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "Possibly the name of three men; more probably of one",
+      "label": "Possibly the name of three men; more probably of one",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "The son of Bela Ge 46:21; Jud 3:15; 2Sa 16:5; 19:16,18; 1Ki 2:8; 1Ch 8:3,5,7",
+      "label": "The",
       "references": [
-        "Gen 46:21",
-        "Judg 3:15",
-        "2Sam 16:5",
-        "2Sam 19:16",
-        "2Sam 19:18",
-        "1Kgs 2:8",
-        "1Chr 8:3",
-        "1Chr 8:5",
-        "1Chr 8:7"
+        "Genesis 46:21",
+        "Judges 3:15",
+        "2 Samuel 16:5",
+        "2 Samuel 19:16,18",
+        "1 Kings 2:8",
+        "1 Chronicles 8:3,5,7"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "2 Samuel",
-      "book_abbrev": "2sa",
-      "chapter": 16,
-      "testament": "OT",
+      "book": "Genesis",
+      "chapter": 46,
       "verses": [
-        5,
-        19
+        21
       ],
-      "verse_count": 2
-    },
-    {
-      "book": "1 Kings",
-      "book_abbrev": "1ki",
-      "chapter": 2,
+      "verse_count": 1,
       "testament": "OT",
-      "verses": [
-        1,
-        8
-      ],
-      "verse_count": 2
-    },
-    {
-      "book": "1 Chronicles",
-      "book_abbrev": "1ch",
-      "chapter": 8,
-      "testament": "OT",
-      "verses": [
-        3,
-        5,
-        7
-      ],
-      "verse_count": 3
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 3,
-    "nt_refs": 0,
-    "total_verses": 3
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.688407+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "1 Chronicles",
-      "chapter": 8,
-      "verses": [
-        3,
-        5,
-        7
-      ],
-      "verse_count": 3,
-      "testament": "OT",
-      "raw": "1 Chronicles 8:3, 5, 7",
-      "source": "EAS"
+      "raw": "Genesis 46:21"
     },
     {
       "book": "Judges",
@@ -102,8 +43,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Judges 3:15",
-      "source": "EAS"
+      "raw": "Judges 3:15"
     },
     {
       "book": "2 Samuel",
@@ -113,8 +53,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Samuel 16:5",
-      "source": "EAS"
+      "raw": "2 Samuel 16:5"
     },
     {
       "book": "2 Samuel",
@@ -125,19 +64,50 @@
       ],
       "verse_count": 2,
       "testament": "OT",
-      "raw": "2 Samuel 19:16, 18",
-      "source": "EAS"
+      "raw": "2 Samuel 19:16,18"
     },
     {
-      "book": "Genesis",
-      "chapter": 46,
+      "book": "1 Kings",
+      "chapter": 2,
       "verses": [
-        21
+        8
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 46:21",
-      "source": "SMI"
+      "raw": "1 Kings 2:8"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 8,
+      "verses": [
+        3,
+        5,
+        7
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "1 Chronicles 8:3,5,7"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "1 Kings",
+    "2 Samuel",
+    "Genesis",
+    "Judges"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 6,
+    "ot_refs": 6,
+    "nt_refs": 0,
+    "books_count": 5,
+    "top_books": [
+      "2 Samuel",
+      "Genesis",
+      "Judges",
+      "1 Kings",
+      "1 Chronicles"
+    ]
+  }
 }

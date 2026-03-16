@@ -1,78 +1,57 @@
 {
   "topic": "STRIPES",
-  "topic_slug": "stripes",
+  "slug": "stripes",
   "canonical_id": "NAV:stripes",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "SCOURGING"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "SCOURGING",
-      "clean": "SCOURGING",
-      "slug": "scourging",
-      "canonical_id": "NAV:scourging"
-    }
-  ],
-  "raw_block": "–Inflicted on Paul2Co 6:5;11:23\n–SeeSCOURGING",
-  "content_preview": "–Inflicted on Paul2Co 6:5;11:23",
-  "reference_groups": [
-    {
-      "idx": 0,
-      "entry_label": "–Inflicted on Paul2Co 6:5;11:23",
-      "raw_segment": "–Inflicted on Paul2Co 6:5;11:23"
+      "label": "Inflicted on Paul",
+      "references": [
+        "2 Corinthians 6:5",
+        "2 Corinthians 11:23"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–SeeSCOURGING",
-      "raw_segment": "–SeeSCOURGING"
+      "label": "SeeSCOURGING",
+      "references": []
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "2 Corinthians",
+      "chapter": 6,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "2 Corinthians 6:5"
+    },
+    {
+      "book": "2 Corinthians",
+      "chapter": 11,
+      "verses": [
+        23
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "2 Corinthians 11:23"
+    }
+  ],
+  "books_mentioned": [
+    "2 Corinthians"
+  ],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 2,
+    "total_refs": 2,
     "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:77b4cfeae72a54625482cecd23a2e3e8a9eb5946778e51d91aba8c3c9fcdd773",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "nt_refs": 2,
+    "books_count": 1,
+    "top_books": [
+      "2 Corinthians"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:31:50.285581Z",
-  "updated_at": "2025-09-20T17:31:50.285588Z"
+  }
 }

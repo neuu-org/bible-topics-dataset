@@ -1,82 +1,50 @@
 {
   "topic": "LEAH",
   "slug": "leah",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "The older daughter of Laban Ge 29:16",
-      "references": [
-        "Gen 29:16"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Married to Jacob Ge 29:23-26",
-      "references": [
-        "Gen 29:23-26"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Children of Ge 29:31-35; 30:9-13,17-21",
-      "references": [
-        "Gen 29:31-35",
-        "Gen 30:9-13",
-        "Gen 30:17-21"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Flees with Jacob Ge 31:4,14,17; 33:2-7",
-      "references": [
-        "Gen 31:4",
-        "Gen 31:14",
-        "Gen 31:17",
-        "Gen 33:2-7"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "“The builder of the house of Israel,” Ru 4:11",
-      "references": [
-        "Ruth 4:11"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Ruth",
-      "book_abbrev": "rut",
-      "chapter": 4,
-      "testament": "OT",
-      "verses": [
-        11
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 5,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.700359+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "The ol",
+      "references": [
+        "Genesis 29:16"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Married to Jacob",
+      "references": [
+        "Genesis 29:23-26"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Children of",
+      "references": [
+        "Genesis 29:31-35",
+        "Genesis 30:9-13,17-21"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Flees with Jacob",
+      "references": [
+        "Genesis 31:4,14,17",
+        "Genesis 33:2-7"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "“The buil",
+      "references": [
+        "Ruth 4:11"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Genesis",
       "chapter": 29,
@@ -85,41 +53,105 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 29:16",
-      "source": "EAS"
+      "raw": "Genesis 29:16"
     },
     {
       "book": "Genesis",
       "chapter": 29,
       "verses": [
-        23
+        23,
+        24,
+        25,
+        26
       ],
-      "verse_count": 1,
+      "verse_count": 4,
       "testament": "OT",
-      "raw": "Genesis 29:23",
-      "source": "EAS"
+      "raw": "Genesis 29:23-26"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 29,
+      "verses": [
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "verse_count": 5,
+      "testament": "OT",
+      "raw": "Genesis 29:31-35"
     },
     {
       "book": "Genesis",
       "chapter": 30,
       "verses": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        17,
+        18,
+        19,
+        20,
         21
       ],
-      "verse_count": 1,
+      "verse_count": 10,
       "testament": "OT",
-      "raw": "Genesis 30:21",
-      "source": "EAS"
+      "raw": "Genesis 30:9-13,17-21"
     },
     {
       "book": "Genesis",
-      "chapter": 49,
+      "chapter": 31,
       "verses": [
-        31
+        4,
+        14,
+        17
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Genesis 31:4,14,17"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 33,
+      "verses": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "verse_count": 6,
+      "testament": "OT",
+      "raw": "Genesis 33:2-7"
+    },
+    {
+      "book": "Ruth",
+      "chapter": 4,
+      "verses": [
+        11
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 49:31",
-      "source": "EAS"
+      "raw": "Ruth 4:11"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Genesis",
+    "Ruth"
+  ],
+  "stats": {
+    "total_aspects": 5,
+    "total_refs": 7,
+    "ot_refs": 7,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "Genesis",
+      "Ruth"
+    ]
+  }
 }

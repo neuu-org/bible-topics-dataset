@@ -1,61 +1,113 @@
 {
   "topic": "CONFISCATION",
   "slug": "confiscation",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Of property",
-      "references": [],
-      "sub_groups": [
-        {
-          "name": "By David, that of Mephibosheth 2Sa 16:4",
-          "references": [
-            "2Sam 16:4"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "By Ahab, of Naboth’s vineyard 1Ki 21:7-16",
-      "references": [
-        "1Kgs 21:7-16"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "By Ahasuerus, of Haman’s house Es 8:1",
-      "references": [
-        "Esth 8:1"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "As a penalty Ezr 10:8",
-      "references": [
-        "Ezra 10:8"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 4,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.679002+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "Of property",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".By David, that of Mephibosheth",
+      "references": [
+        "2 Samuel 16:4"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "By Ahab, of Naboth’s vineyard",
+      "references": [
+        "1 Kings 21:7-16"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "By Ahasuerus, of Haman’s house",
+      "references": [
+        "Esther 8:1"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "As a penalty",
+      "references": [
+        "Ezra 10:8"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0"
+  ],
+  "biblical_references": [
+    {
+      "book": "2 Samuel",
+      "chapter": 16,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Samuel 16:4"
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 21,
+      "verses": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "verse_count": 10,
+      "testament": "OT",
+      "raw": "1 Kings 21:7-16"
+    },
+    {
+      "book": "Esther",
+      "chapter": 8,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Esther 8:1"
+    },
+    {
+      "book": "Ezra",
+      "chapter": 10,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezra 10:8"
+    }
+  ],
+  "books_mentioned": [
+    "1 Kings",
+    "2 Samuel",
+    "Esther",
+    "Ezra"
+  ],
+  "stats": {
+    "total_aspects": 5,
+    "total_refs": 4,
+    "ot_refs": 4,
+    "nt_refs": 0,
+    "books_count": 4,
+    "top_books": [
+      "2 Samuel",
+      "1 Kings",
+      "Esther",
+      "Ezra"
+    ]
+  }
 }

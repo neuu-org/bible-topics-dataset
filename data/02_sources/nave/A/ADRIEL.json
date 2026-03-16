@@ -1,64 +1,54 @@
 {
   "topic": "ADRIEL",
-  "topic_slug": "adriel",
+  "slug": "adriel",
   "canonical_id": "NAV:adriel",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–Saul’s son-in-law1Sa 18:19;2Sa 21:8,9",
-  "content_preview": "–Saul’s son-in-law1Sa 18:19;2Sa 21:8,9",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–Saul’s son-in-law1Sa 18:19;2Sa 21:8,9",
-      "raw_segment": "–Saul’s son-in-law1Sa 18:19;2Sa 21:8,9"
+      "label": "Saul’s",
+      "references": [
+        "1 Samuel 18:19",
+        "2 Samuel 21:8,9"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "1 Samuel",
+      "chapter": 18,
+      "verses": [
+        19
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Samuel 18:19"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 21,
+      "verses": [
+        8,
+        9
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "2 Samuel 21:8,9"
+    }
+  ],
+  "books_mentioned": [
+    "1 Samuel",
+    "2 Samuel"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 1,
+    "total_refs": 2,
+    "ot_refs": 2,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:ce06a0a461c8db8725f69a1ca0df9cf5878bab9f3cad451fe27cd58d5810d691",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 1
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 2,
+    "top_books": [
+      "1 Samuel",
+      "2 Samuel"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:23:18.922272Z",
-  "updated_at": "2025-09-20T17:23:18.922280Z"
+  }
 }

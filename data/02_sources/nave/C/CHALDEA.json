@@ -1,105 +1,107 @@
 {
   "topic": "CHALDEA",
-  "topic_slug": "chaldea",
+  "slug": "chaldea",
   "canonical_id": "NAV:chaldea",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "BABYLON",
     "CHALDEANS"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "BABYLON",
-      "clean": "BABYLON",
-      "slug": "babylon",
-      "canonical_id": "NAV:babylon"
+      "label": "(The",
+      "references": []
     },
     {
-      "original": "CHALDEANS",
-      "clean": "CHALDEANS",
-      "slug": "chaldeans",
-      "canonical_id": "NAV:chaldeans"
+      "label": "with Babylon, as the name of the empire foun",
+      "references": []
+    },
+    {
+      "label": "Abraham a native of",
+      "references": [
+        "Genesis 11:28,31",
+        "Genesis 15:7"
+      ]
+    },
+    {
+      "label": "Foun",
+      "references": [
+        "Isaiah 23:13"
+      ]
+    },
+    {
+      "label": "Character of its people",
+      "references": [
+        "Habakkuk 1:6"
+      ]
+    },
+    {
+      "label": "SeeBABYLON",
+      "references": []
+    },
+    {
+      "label": "SeeCHAL",
+      "references": []
     }
   ],
-  "raw_block": "–(The southern portion of Babylonia, often used interchangeably \nwith Babylon, as the name of the empire founded in the valley of the Euphrates)\n–Abraham a native ofGe 11:28,31;15:7\n–Founded by the AssyriansIsa 23:13\n–Character of its peopleHab 1:6\n–SeeBABYLON\n–SeeCHALDEANS",
-  "content_preview": "–(The southern portion of Babylonia, often used interchangeably ",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–(The southern portion of Babylonia, often used interchangeably \nwith Babylon, as the name of the empire founded in the valley of the Euphrates)",
-      "raw_segment": "–(The southern portion of Babylonia, often used interchangeably \nwith Babylon, as the name of the empire founded in the valley of the Euphrates)"
+      "book": "Genesis",
+      "chapter": 11,
+      "verses": [
+        28,
+        31
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Genesis 11:28,31"
     },
     {
-      "idx": 1,
-      "entry_label": "–Abraham a native ofGe 11:28,31;15:7",
-      "raw_segment": "–Abraham a native ofGe 11:28,31;15:7"
+      "book": "Genesis",
+      "chapter": 15,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 15:7"
     },
     {
-      "idx": 2,
-      "entry_label": "–Founded by the AssyriansIsa 23:13",
-      "raw_segment": "–Founded by the AssyriansIsa 23:13"
+      "book": "Isaiah",
+      "chapter": 23,
+      "verses": [
+        13
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 23:13"
     },
     {
-      "idx": 3,
-      "entry_label": "–Character of its peopleHab 1:6",
-      "raw_segment": "–Character of its peopleHab 1:6"
-    },
-    {
-      "idx": 4,
-      "entry_label": "–SeeBABYLON",
-      "raw_segment": "–SeeBABYLON"
-    },
-    {
-      "idx": 5,
-      "entry_label": "–SeeCHALDEANS",
-      "raw_segment": "–SeeCHALDEANS"
+      "book": "Habakkuk",
+      "chapter": 1,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Habakkuk 1:6"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "Genesis",
+    "Habakkuk",
+    "Isaiah"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 7,
+    "total_refs": 4,
+    "ot_refs": 4,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:3227c67e611e86ae5856e42516ca6bd618002df2c3507275c5fa4cbd2471c51e",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 7
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 3,
+    "top_books": [
+      "Genesis",
+      "Isaiah",
+      "Habakkuk"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:24:53.679577Z",
-  "updated_at": "2025-09-20T17:24:53.679584Z"
+  }
 }

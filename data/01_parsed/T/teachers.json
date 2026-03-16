@@ -1,67 +1,187 @@
 {
   "topic": "TEACHERS",
   "slug": "teachers",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [
+    "INSTRUCTION",
+    "MINISTERS, DUTIES OF",
+    "MINISTERS, FALSE"
+  ],
+  "aspects": [
     {
-      "name": "Samuel, head of school of prophets 1Sa 19:20",
+      "label": "Samuel, head of school of prophets",
       "references": [
-        "1Sam 19:20"
+        "1 Samuel 19:20"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Elisha, head of, at Gilgal 2Ki 4:38",
+      "label": "Elisha, head of, at Gilgal",
       "references": [
-        "2Kgs 4:38"
+        "2 Kings 4:38"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See INSTRUCTION",
+      "label": "SeeINSTRUCTION",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See MINISTERS, DUTIES OF",
+      "label": "SeeMINISTERS, DUTIES OF",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "FALSE",
+      "label": "FALSE",
       "references": [],
-      "sub_groups": [
-        {
-          "name": "Admonition against De 13:1-3; Mt 5:19; 7:15; 15:2-20; 23:2-33; Lu 11:38-52",
-          "references": [
-            "Deut 13:1-3",
-            "Matt 5:19",
-            "Matt 7:15",
-            "Matt 15:2-20",
-            "Matt 23:2-33",
-            "Luke 11:38-52"
-          ]
-        }
-      ]
+      "source": "NAV"
+    },
+    {
+      "label": ".Admonition against",
+      "references": [
+        "Deuteronomy 13:1-3",
+        "Matthew 5:19",
+        "Matthew 7:15",
+        "Matthew 15:2-20",
+        "Matthew 23:2-33",
+        "Luke 11:38-52"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".SeeMINISTERS, FALSE",
+      "references": [],
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Matthew",
-      "book_abbrev": "mat",
-      "chapter": 5,
-      "testament": "NT",
+      "book": "1 Samuel",
+      "chapter": 19,
       "verses": [
-        7,
+        20
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Samuel 19:20"
+    },
+    {
+      "book": "2 Kings",
+      "chapter": 4,
+      "verses": [
+        38
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Kings 4:38"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 13,
+      "verses": [
+        1,
+        2,
+        3
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Deuteronomy 13:1-3"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 5,
+      "verses": [
         19
       ],
-      "verse_count": 2
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 5:19"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 7,
+      "verses": [
+        15
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 7:15"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 15,
+      "verses": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "verse_count": 19,
+      "testament": "NT",
+      "raw": "Matthew 15:2-20"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 23,
+      "verses": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33
+      ],
+      "verse_count": 32,
+      "testament": "NT",
+      "raw": "Matthew 23:2-33"
     },
     {
       "book": "Luke",
-      "book_abbrev": "luk",
       "chapter": 11,
-      "testament": "NT",
       "verses": [
         38,
         39,
@@ -79,31 +199,30 @@
         51,
         52
       ],
-      "verse_count": 15
+      "verse_count": 15,
+      "testament": "NT",
+      "raw": "Luke 11:38-52"
     }
   ],
-  "see_also": [
-    "MINISTERS, DUTIES OF",
-    "INSTRUCTION",
-    "MINISTERS, FALSE"
+  "books_mentioned": [
+    "1 Samuel",
+    "2 Kings",
+    "Deuteronomy",
+    "Luke",
+    "Matthew"
   ],
-  "aliases": [],
   "stats": {
-    "entries_count": 5,
-    "ot_refs": 0,
-    "nt_refs": 2,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.729180+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    }
-  },
-  "version": "3.0.0"
+    "total_aspects": 7,
+    "total_refs": 8,
+    "ot_refs": 3,
+    "nt_refs": 5,
+    "books_count": 5,
+    "top_books": [
+      "Matthew",
+      "1 Samuel",
+      "2 Kings",
+      "Deuteronomy",
+      "Luke"
+    ]
+  }
 }

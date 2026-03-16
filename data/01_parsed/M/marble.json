@@ -1,60 +1,52 @@
 {
   "topic": "MARBLE",
   "slug": "marble",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "In the temple 1Ch 29:2",
-      "references": [
-        "1Chr 29:2"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Pillars of Es 1:6; So 5:15",
-      "references": [
-        "Esth 1:6",
-        "Song 5:15"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Merchandise of Re 18:12",
-      "references": [
-        "Rev 18:12"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Mosaics of Es 1:6",
-      "references": [
-        "Esth 1:6"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 4,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.703881+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "In the temple",
+      "references": [
+        "1 Chronicles 29:2"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Pillars of",
+      "references": [
+        "Esther 1:6",
+        "Song of Solomon 5:15"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Merchandise of",
+      "references": [
+        "Revelation 18:12"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Mosaics of",
+      "references": [
+        "Esther 1:6"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
+    {
+      "book": "1 Chronicles",
+      "chapter": 29,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 29:2"
+    },
     {
       "book": "Esther",
       "chapter": 1,
@@ -63,19 +55,46 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Esther 1:6",
-      "source": "EAS"
+      "raw": "Esther 1:6"
     },
     {
-      "book": "Esther",
-      "chapter": 1,
+      "book": "Song of Solomon",
+      "chapter": 5,
       "verses": [
-        8
+        15
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Esther 1:8",
-      "source": "SMI"
+      "raw": "Song of Solomon 5:15"
+    },
+    {
+      "book": "Revelation",
+      "chapter": 18,
+      "verses": [
+        12
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Revelation 18:12"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Esther",
+    "Revelation",
+    "Song of Solomon"
+  ],
+  "stats": {
+    "total_aspects": 4,
+    "total_refs": 4,
+    "ot_refs": 3,
+    "nt_refs": 1,
+    "books_count": 4,
+    "top_books": [
+      "1 Chronicles",
+      "Esther",
+      "Song of Solomon",
+      "Revelation"
+    ]
+  }
 }

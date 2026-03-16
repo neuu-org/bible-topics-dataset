@@ -1,139 +1,80 @@
 {
   "topic": "CREATURE",
   "slug": "creature",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [
+    "CREATION",
+    "GOD, CREATOR",
+    "MAN, CREATED",
+    "REGENERATION"
+  ],
+  "aspects": [
     {
-      "name": "See CREATION",
+      "label": "SeeCREATION",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See GOD, CREATOR",
+      "label": "SeeGOD, CREATOR",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See MAN, CREATED",
+      "label": "SeeMAN, CREATED",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "NEW CREATURE 2Co 5:17; Ga 6:15",
+      "label": "NEW CREATURE",
       "references": [
-        "2Cor 5:17",
-        "Gal 6:15"
+        "2 Corinthians 5:17",
+        "Galatians 6:15"
       ],
-      "sub_groups": []
+      "source": "NAV"
+    },
+    {
+      "label": ".SeeREGENERATION",
+      "references": [],
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Galatians",
-      "book_abbrev": "gal",
-      "chapter": 6,
-      "testament": "NT",
-      "verses": [
-        15
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [
-    "MAN, CREATED",
-    "GOD, CREATOR",
-    "CREATION",
-    "REGENERATION"
-  ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 4,
-    "ot_refs": 0,
-    "nt_refs": 1,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.679723+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "Romans",
-      "chapter": 8,
-      "verses": [
-        39
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Romans 8:39",
-      "source": "EAS"
-    },
-    {
-      "book": "Colossians",
-      "chapter": 1,
-      "verses": [
-        15
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Colossians 1:15",
-      "source": "EAS"
-    },
-    {
-      "book": "Revelation",
+      "book": "2 Corinthians",
       "chapter": 5,
       "verses": [
-        13
+        17
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Revelation 5:13",
-      "source": "EAS"
+      "raw": "2 Corinthians 5:17"
     },
     {
-      "book": "Mark",
-      "chapter": 16,
+      "book": "Galatians",
+      "chapter": 6,
       "verses": [
         15
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Mark 16:15",
-      "source": "EAS"
-    },
-    {
-      "book": "Romans",
-      "chapter": 8,
-      "verses": [
-        19,
-        20,
-        21,
-        22
-      ],
-      "verse_count": 4,
-      "testament": "NT",
-      "raw": "Romans 8:19-22",
-      "source": "EAS"
-    },
-    {
-      "book": "Ezekiel",
-      "chapter": 10,
-      "verses": [
-        15,
-        17
-      ],
-      "verse_count": 2,
-      "testament": "OT",
-      "raw": "Ezekiel 10:15, 17",
-      "source": "EAS"
+      "raw": "Galatians 6:15"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "2 Corinthians",
+    "Galatians"
+  ],
+  "stats": {
+    "total_aspects": 5,
+    "total_refs": 2,
+    "ot_refs": 0,
+    "nt_refs": 2,
+    "books_count": 2,
+    "top_books": [
+      "2 Corinthians",
+      "Galatians"
+    ]
+  }
 }

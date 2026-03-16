@@ -1,58 +1,48 @@
 {
   "topic": "AZUBAH",
   "slug": "azubah",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "1. Mother of Jehoshaphat 1Ki 22:41; 2Ch 20:31",
+      "label": "1. Mother of Jehoshaphat",
       "references": [
-        "1Kgs 22:41",
-        "2Chr 20:31"
+        "1 Kings 22:41",
+        "2 Chronicles 20:31"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "2. Wife of Caleb 1Ch 2:18,19",
+      "label": "2. Wife of",
       "references": [
-        "1Chr 2:18",
-        "1Chr 2:19"
+        "1 Chronicles 2:18,19"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "2 Chronicles",
-      "book_abbrev": "2ch",
-      "chapter": 20,
+      "book": "1 Kings",
+      "chapter": 22,
+      "verses": [
+        41
+      ],
+      "verse_count": 1,
       "testament": "OT",
+      "raw": "1 Kings 22:41"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 20,
       "verses": [
         31
       ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.671182+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Chronicles 20:31"
+    },
     {
       "book": "1 Chronicles",
       "chapter": 2,
@@ -62,19 +52,24 @@
       ],
       "verse_count": 2,
       "testament": "OT",
-      "raw": "1 Chronicles 2:18, 19",
-      "source": "EAS"
-    },
-    {
-      "book": "1 Kings",
-      "chapter": 22,
-      "verses": [
-        42
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "1 Kings 22:42",
-      "source": "EAS"
+      "raw": "1 Chronicles 2:18,19"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "1 Kings",
+    "2 Chronicles"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 3,
+    "ot_refs": 3,
+    "nt_refs": 0,
+    "books_count": 3,
+    "top_books": [
+      "1 Kings",
+      "2 Chronicles",
+      "1 Chronicles"
+    ]
+  }
 }

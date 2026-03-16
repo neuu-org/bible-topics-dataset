@@ -1,60 +1,119 @@
 {
   "topic": "CLEMENCY",
   "slug": "clemency",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Of David toward disloyal subjects",
-      "references": [],
-      "sub_groups": [
-        {
-          "name": "Shimei 2Sa 16:5-13; 19:16-23",
-          "references": [
-            "2Sam 16:5-13",
-            "2Sam 19:16-23"
-          ]
-        },
-        {
-          "name": "Amasa 2Sa 19:13; with 17:25",
-          "references": [
-            "2Sam 19:13"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "DIVINE",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "See GOD, MERCY OF",
-      "references": [],
-      "sub_groups": []
-    }
+  "sources": [
+    "NAV"
   ],
-  "biblical_references": [],
   "see_also": [
     "GOD, LONGSUFFERING OF",
     "GOD, MERCY OF"
   ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.678356+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
+  "aspects": [
+    {
+      "label": "Of David toward disloyal subjects",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".Shimei",
+      "references": [
+        "2 Samuel 16:5-13",
+        "2 Samuel 19:16-23"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".Amasa",
+      "references": [
+        "2 Samuel 19:13",
+        "2 Samuel 17:25"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "DIVINE",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".SeeGOD, LONGSUFFERING OF",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeGOD, MERCY OF",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0"
+  ],
+  "biblical_references": [
+    {
+      "book": "2 Samuel",
+      "chapter": 16,
+      "verses": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "verse_count": 9,
+      "testament": "OT",
+      "raw": "2 Samuel 16:5-13"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 19,
+      "verses": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "verse_count": 8,
+      "testament": "OT",
+      "raw": "2 Samuel 19:16-23"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 19,
+      "verses": [
+        13
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Samuel 19:13"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 17,
+      "verses": [
+        25
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Samuel 17:25"
+    }
+  ],
+  "books_mentioned": [
+    "2 Samuel"
+  ],
+  "stats": {
+    "total_aspects": 6,
+    "total_refs": 4,
+    "ot_refs": 4,
+    "nt_refs": 0,
+    "books_count": 1,
+    "top_books": [
+      "2 Samuel"
+    ]
+  }
 }

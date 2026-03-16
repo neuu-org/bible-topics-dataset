@@ -1,80 +1,76 @@
 {
   "topic": "NILE",
   "slug": "nile",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "Called THE RIVER Isa 11:15; 19:5-10; Eze 29:4; Am 8:8",
+      "label": "General references",
       "references": [
-        "Isa 11:15",
-        "Isa 19:5-10",
-        "Ezek 29:4",
+        "Isaiah 11:15",
+        "Isaiah 19:5-10",
+        "Ezekiel 29:4",
         "Amos 8:8"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Called SIHOR Isa 23:3; Jer 2:18",
+      "label": "General references",
       "references": [
-        "Isa 23:3",
-        "Jer 2:18"
+        "Isaiah 23:3",
+        "Jeremiah 2:18"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Jeremiah",
-      "book_abbrev": "jer",
-      "chapter": 2,
-      "testament": "OT",
+      "book": "Isaiah",
+      "chapter": 11,
       "verses": [
-        18
+        15
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 11:15"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 19,
+      "verses": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "verse_count": 6,
+      "testament": "OT",
+      "raw": "Isaiah 19:5-10"
     },
     {
       "book": "Ezekiel",
-      "book_abbrev": "ezk",
       "chapter": 29,
-      "testament": "OT",
       "verses": [
         4
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezekiel 29:4"
     },
     {
       "book": "Amos",
-      "book_abbrev": "amo",
       "chapter": 8,
-      "testament": "OT",
       "verses": [
         8
       ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 3,
-    "nt_refs": 0,
-    "total_verses": 3
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.715003+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Amos 8:8"
+    },
     {
       "book": "Isaiah",
       "chapter": 23,
@@ -83,8 +79,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Isaiah 23:3",
-      "source": "EAS"
+      "raw": "Isaiah 23:3"
     },
     {
       "book": "Jeremiah",
@@ -94,52 +89,26 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Jeremiah 2:18",
-      "source": "EAS"
-    },
-    {
-      "book": "Genesis",
-      "chapter": 41,
-      "verses": [
-        1
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Genesis 41:1",
-      "source": "EAS"
-    },
-    {
-      "book": "Exodus",
-      "chapter": 1,
-      "verses": [
-        22
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Exodus 1:22",
-      "source": "EAS"
-    },
-    {
-      "book": "Amos",
-      "chapter": 8,
-      "verses": [
-        8
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Amos 8:8",
-      "source": "EAS"
-    },
-    {
-      "book": "Genesis",
-      "chapter": 15,
-      "verses": [
-        18
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Genesis 15:18",
-      "source": "SMI"
+      "raw": "Jeremiah 2:18"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Amos",
+    "Ezekiel",
+    "Isaiah",
+    "Jeremiah"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 6,
+    "ot_refs": 6,
+    "nt_refs": 0,
+    "books_count": 4,
+    "top_books": [
+      "Isaiah",
+      "Ezekiel",
+      "Amos",
+      "Jeremiah"
+    ]
+  }
 }

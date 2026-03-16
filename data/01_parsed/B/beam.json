@@ -1,55 +1,26 @@
 {
   "topic": "BEAM",
   "slug": "beam",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Weaver’s 1Sa 17:7; 2Sa 21:19",
-      "references": [
-        "1Sam 17:7",
-        "2Sam 21:19"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "FIGURATIVE",
-      "references": [],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "2 Samuel",
-      "book_abbrev": "2sa",
-      "chapter": 21,
-      "testament": "OT",
-      "verses": [
-        19
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.672578+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "Weaver’s",
+      "references": [
+        "1 Samuel 17:7",
+        "2 Samuel 21:19"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "FIGURATIVE",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "1 Samuel",
       "chapter": 17,
@@ -58,78 +29,32 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Samuel 17:7",
-      "source": "EAS"
+      "raw": "1 Samuel 17:7"
     },
     {
-      "book": "Habakkuk",
-      "chapter": 2,
+      "book": "2 Samuel",
+      "chapter": 21,
       "verses": [
-        11
+        19
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Habakkuk 2:11",
-      "source": "EAS"
-    },
-    {
-      "book": "2 Kings",
-      "chapter": 6,
-      "verses": [
-        2,
-        5
-      ],
-      "verse_count": 2,
-      "testament": "OT",
-      "raw": "2 Kings 6:2, 5",
-      "source": "EAS"
-    },
-    {
-      "book": "1 Kings",
-      "chapter": 7,
-      "verses": [
-        6
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "1 Kings 7:6",
-      "source": "EAS"
-    },
-    {
-      "book": "Ezekiel",
-      "chapter": 41,
-      "verses": [
-        25
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Ezekiel 41:25",
-      "source": "EAS"
-    },
-    {
-      "book": "Matthew",
-      "chapter": 7,
-      "verses": [
-        3,
-        4,
-        5
-      ],
-      "verse_count": 3,
-      "testament": "NT",
-      "raw": "Matthew 7:3, 4, 5",
-      "source": "EAS"
-    },
-    {
-      "book": "Luke",
-      "chapter": 6,
-      "verses": [
-        41,
-        42
-      ],
-      "verse_count": 2,
-      "testament": "NT",
-      "raw": "Luke 6:41, 42",
-      "source": "EAS"
+      "raw": "2 Samuel 21:19"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Samuel",
+    "2 Samuel"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 2,
+    "ot_refs": 2,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "1 Samuel",
+      "2 Samuel"
+    ]
+  }
 }

@@ -1,69 +1,81 @@
 {
   "topic": "DISHON",
-  "topic_slug": "dishon",
+  "slug": "dishon",
   "canonical_id": "NAV:dishon",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–1. Son of SeirGe 36:21,30;1Ch 1:38\n–2. Grandson of SeirGe 36:25;1Ch 1:41",
-  "content_preview": "–1. Son of SeirGe 36:21,30;1Ch 1:38",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–1. Son of SeirGe 36:21,30;1Ch 1:38",
-      "raw_segment": "–1. Son of SeirGe 36:21,30;1Ch 1:38"
+      "label": "1.",
+      "references": [
+        "Genesis 36:21,30",
+        "1 Chronicles 1:38"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–2. Grandson of SeirGe 36:25;1Ch 1:41",
-      "raw_segment": "–2. Grandson of SeirGe 36:25;1Ch 1:41"
+      "label": "2. Grand",
+      "references": [
+        "Genesis 36:25",
+        "1 Chronicles 1:41"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Genesis",
+      "chapter": 36,
+      "verses": [
+        21,
+        30
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Genesis 36:21,30"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 1,
+      "verses": [
+        38
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 1:38"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 36,
+      "verses": [
+        25
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 36:25"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 1,
+      "verses": [
+        41
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 1:41"
+    }
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Genesis"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 2,
+    "total_refs": 4,
+    "ot_refs": 4,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:0d4104c720086a81ff020df8b71cb55e77d6cc8c56a9c54751a4e0b6089a34e1",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 2,
+    "top_books": [
+      "Genesis",
+      "1 Chronicles"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:25:37.397016Z",
-  "updated_at": "2025-09-20T17:25:37.397023Z"
+  }
 }

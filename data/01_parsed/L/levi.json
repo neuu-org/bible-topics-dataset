@@ -1,85 +1,53 @@
 {
   "topic": "LEVI",
   "slug": "levi",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Son of Jacob Ge 29:34; 35:23; 1Ch 2:1",
-      "references": [
-        "Gen 29:34",
-        "Gen 35:23",
-        "1Chr 2:1"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Avenges the seduction of Dinah Ge 34; 49:5-7",
-      "references": [
-        "Gen 34",
-        "Gen 49:5-7"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Jacob’s prophecy regarding Ge 49:5-7",
-      "references": [
-        "Gen 49:5-7"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "His age at death Ex 6:16",
-      "references": [
-        "Exod 6:16"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "(Descendants of, made the ministers of religion)",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "See LEVITES",
-      "references": [],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "1 Chronicles",
-      "book_abbrev": "1ch",
-      "chapter": 2,
-      "testament": "OT",
-      "verses": [
-        1
-      ],
-      "verse_count": 1
-    }
+  "sources": [
+    "NAV"
   ],
   "see_also": [
     "LEVITES"
   ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 6,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.700737+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "aspects": [
+    {
+      "label": "General references",
+      "references": [
+        "Genesis 29:34",
+        "Genesis 35:23",
+        "1 Chronicles 2:1"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Avenges the seduction of DinahGe 34;49:5-7",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "Jacob’s prophecy regarding",
+      "references": [
+        "Genesis 49:5-7"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "His age at",
+      "references": [
+        "Exodus 6:16"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "(",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeLEVITES",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Genesis",
       "chapter": 29,
@@ -88,25 +56,51 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 29:34",
-      "source": "EAS"
+      "raw": "Genesis 29:34"
     },
     {
       "book": "Genesis",
-      "chapter": 34,
+      "chapter": 35,
       "verses": [
-        25,
-        26,
-        27,
-        28,
-        29,
-        30,
-        31
+        23
       ],
-      "verse_count": 7,
+      "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 34:25-31",
-      "source": "EAS"
+      "raw": "Genesis 35:23"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 2,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 2:1"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 49,
+      "verses": [
+        5,
+        6,
+        7
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "1 Chronicles 49:5-7"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 49,
+      "verses": [
+        5,
+        6,
+        7
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Genesis 49:5-7"
     },
     {
       "book": "Exodus",
@@ -116,75 +110,24 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Exodus 6:16",
-      "source": "EAS"
-    },
-    {
-      "book": "Luke",
-      "chapter": 3,
-      "verses": [
-        29
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Luke 3:29",
-      "source": "EAS"
-    },
-    {
-      "book": "Mark",
-      "chapter": 2,
-      "verses": [
-        14
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Mark 2:14",
-      "source": "EAS"
-    },
-    {
-      "book": "Luke",
-      "chapter": 5,
-      "verses": [
-        27,
-        29
-      ],
-      "verse_count": 2,
-      "testament": "NT",
-      "raw": "Luke 5:27, 29",
-      "source": "EAS"
-    },
-    {
-      "book": "Matthew",
-      "chapter": 9,
-      "verses": [
-        9
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Matthew 9:9",
-      "source": "EAS"
-    },
-    {
-      "book": "Genesis",
-      "chapter": 46,
-      "verses": [
-        11
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Genesis 46:11",
-      "source": "EAS"
-    },
-    {
-      "book": "Luke",
-      "chapter": 3,
-      "verses": [
-        24
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Luke 3:24",
-      "source": "EAS"
+      "raw": "Exodus 6:16"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Exodus",
+    "Genesis"
+  ],
+  "stats": {
+    "total_aspects": 6,
+    "total_refs": 6,
+    "ot_refs": 6,
+    "nt_refs": 0,
+    "books_count": 3,
+    "top_books": [
+      "Genesis",
+      "1 Chronicles",
+      "Exodus"
+    ]
+  }
 }

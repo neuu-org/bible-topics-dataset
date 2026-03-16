@@ -1,61 +1,104 @@
 {
   "topic": "PLOW",
   "slug": "plow",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Shares of, sharpened by the smiths of the Philistines 1Sa 13:20",
-      "references": [
-        "1Sam 13:20"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Used by Elisha with twelve yoke (pairs) of oxen 1Ki 19:19",
-      "references": [
-        "1Kgs 19:19"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "By Job’ s servants Job 1:14",
-      "references": [
-        "Job 1:14"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "FIGURATIVE",
-      "references": [],
-      "sub_groups": [
-        {
-          "name": "Of afflictions Ps 129:3",
-          "references": [
-            "Ps 129:3"
-          ]
-        }
-      ]
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 4,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.718777+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "Shares of, sharpened by the smiths of the Philistines",
+      "references": [
+        "1 Samuel 13:20"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Used by Elisha with twelve yoke (pairs) of oxen",
+      "references": [
+        "1 Kings 19:19"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "By Job’ s servants",
+      "references": [
+        "Job 1:14"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "FIGURATIVE",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".Of afflictions",
+      "references": [
+        "Psalms 129:3"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0"
+  ],
+  "biblical_references": [
+    {
+      "book": "1 Samuel",
+      "chapter": 13,
+      "verses": [
+        20
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Samuel 13:20"
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 19,
+      "verses": [
+        19
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Kings 19:19"
+    },
+    {
+      "book": "Job",
+      "chapter": 1,
+      "verses": [
+        14
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Job 1:14"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 129,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 129:3"
+    }
+  ],
+  "books_mentioned": [
+    "1 Kings",
+    "1 Samuel",
+    "Job",
+    "Psalms"
+  ],
+  "stats": {
+    "total_aspects": 5,
+    "total_refs": 4,
+    "ot_refs": 4,
+    "nt_refs": 0,
+    "books_count": 4,
+    "top_books": [
+      "1 Samuel",
+      "1 Kings",
+      "Job",
+      "Psalms"
+    ]
+  }
 }

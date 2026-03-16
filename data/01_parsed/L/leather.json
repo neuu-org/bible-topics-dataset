@@ -1,104 +1,44 @@
 {
   "topic": "LEATHER",
   "slug": "leather",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Belts of 2Ki 1:8; Mt 3:4",
-      "references": [
-        "2Kgs 1:8",
-        "Matt 3:4"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Tanning of Ac 9:43; 10:5,6",
-      "references": [
-        "Acts 9:43",
-        "Acts 10:5",
-        "Acts 10:6"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Called “skin,” Ge 3:21; Mr 1:6",
-      "references": [
-        "Gen 3:21",
-        "Mark 1:6"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Called “hide,” Le 8:17",
-      "references": [
-        "Lev 8:17"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Genesis",
-      "book_abbrev": "gen",
-      "chapter": 3,
-      "testament": "OT",
-      "verses": [
-        21
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Leviticus",
-      "book_abbrev": "lev",
-      "chapter": 8,
-      "testament": "OT",
-      "verses": [
-        17
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Matthew",
-      "book_abbrev": "mat",
-      "chapter": 3,
-      "testament": "NT",
-      "verses": [
-        4
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Mark",
-      "book_abbrev": "mrk",
-      "chapter": 1,
-      "testament": "NT",
-      "verses": [
-        6
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 4,
-    "ot_refs": 2,
-    "nt_refs": 2,
-    "total_verses": 4
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.700406+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "Belts of",
+      "references": [
+        "2 Kings 1:8",
+        "Matthew 3:4"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Tanning of",
+      "references": [
+        "Acts 9:43",
+        "Acts 10:5,6"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "General references",
+      "references": [
+        "Genesis 3:21",
+        "Mark 1:6"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "General references",
+      "references": [
+        "Leviticus 8:17"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "2 Kings",
       "chapter": 1,
@@ -107,8 +47,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Kings 1:8",
-      "source": "EAS"
+      "raw": "2 Kings 1:8"
     },
     {
       "book": "Matthew",
@@ -118,30 +57,7 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Matthew 3:4",
-      "source": "EAS"
-    },
-    {
-      "book": "Numbers",
-      "chapter": 31,
-      "verses": [
-        20
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Numbers 31:20",
-      "source": "EAS"
-    },
-    {
-      "book": "Hebrews",
-      "chapter": 11,
-      "verses": [
-        37
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Hebrews 11:37",
-      "source": "EAS"
+      "raw": "Matthew 3:4"
     },
     {
       "book": "Acts",
@@ -151,42 +67,71 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Acts 9:43",
-      "source": "EAS"
+      "raw": "Acts 9:43"
     },
     {
       "book": "Acts",
       "chapter": 10,
       "verses": [
-        6,
-        32
+        5,
+        6
       ],
       "verse_count": 2,
       "testament": "NT",
-      "raw": "Acts 10:6, 32",
-      "source": "EAS"
+      "raw": "Acts 10:5,6"
     },
     {
-      "book": "Leviticus",
-      "chapter": 11,
+      "book": "Genesis",
+      "chapter": 3,
       "verses": [
-        32
+        21
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Leviticus 11:32",
-      "source": "SMI"
+      "raw": "Genesis 3:21"
+    },
+    {
+      "book": "Mark",
+      "chapter": 1,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Mark 1:6"
     },
     {
       "book": "Leviticus",
-      "chapter": 13,
+      "chapter": 8,
       "verses": [
-        48
+        17
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Leviticus 13:48",
-      "source": "SMI"
+      "raw": "Leviticus 8:17"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "2 Kings",
+    "Acts",
+    "Genesis",
+    "Leviticus",
+    "Mark",
+    "Matthew"
+  ],
+  "stats": {
+    "total_aspects": 4,
+    "total_refs": 7,
+    "ot_refs": 3,
+    "nt_refs": 4,
+    "books_count": 6,
+    "top_books": [
+      "Acts",
+      "2 Kings",
+      "Matthew",
+      "Genesis",
+      "Mark",
+      "Leviticus"
+    ]
+  }
 }

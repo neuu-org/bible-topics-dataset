@@ -1,163 +1,237 @@
 {
   "topic": "HUNGER",
   "slug": "hunger",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Of Jesus Mt 4:2-4; 21:18; Mr 11:12; Lu 4:2-4; Joh 4:8",
-      "references": [
-        "Matt 4:2-4",
-        "Matt 21:18",
-        "Mark 11:12",
-        "Luke 4:2-4",
-        "John 4:8"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "A stimulus to work Pr 16:26",
-      "references": [
-        "Prov 16:26"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "No hunger in heaven Re 7:16,17",
-      "references": [
-        "Rev 7:16",
-        "Rev 7:17"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "See FAMINE",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "SPIRITUAL Pr 2:3-5; Isa 55:1,2; Am 8:11-13; Mt 5:6; Lu 6:21; 1Pe 2:2",
-      "references": [
-        "Prov 2:3-5",
-        "Isa 55:1",
-        "Isa 55:2",
-        "Amos 8:11-13",
-        "Matt 5:6",
-        "Luke 6:21",
-        "1Pet 2:2"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Isaiah",
-      "book_abbrev": "isa",
-      "chapter": 55,
-      "testament": "OT",
-      "verses": [
-        1,
-        2
-      ],
-      "verse_count": 2
-    },
-    {
-      "book": "Amos",
-      "book_abbrev": "amo",
-      "chapter": 8,
-      "testament": "OT",
-      "verses": [
-        11,
-        12,
-        13
-      ],
-      "verse_count": 3
-    },
-    {
-      "book": "Matthew",
-      "book_abbrev": "mat",
-      "chapter": 5,
-      "testament": "NT",
-      "verses": [
-        6
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Mark",
-      "book_abbrev": "mrk",
-      "chapter": 11,
-      "testament": "NT",
-      "verses": [
-        12
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Luke",
-      "book_abbrev": "luk",
-      "chapter": 4,
-      "testament": "NT",
-      "verses": [
-        2,
-        3,
-        4
-      ],
-      "verse_count": 3
-    },
-    {
-      "book": "Luke",
-      "book_abbrev": "luk",
-      "chapter": 6,
-      "testament": "NT",
-      "verses": [
-        1,
-        21
-      ],
-      "verse_count": 2
-    },
-    {
-      "book": "John",
-      "book_abbrev": "jhn",
-      "chapter": 4,
-      "testament": "NT",
-      "verses": [
-        8
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "1 Peter",
-      "book_abbrev": "1pe",
-      "chapter": 2,
-      "testament": "NT",
-      "verses": [
-        2
-      ],
-      "verse_count": 1
-    }
+  "sources": [
+    "NAV"
   ],
   "see_also": [
     "DESIRE, SPIRITUAL",
     "FAMINE",
     "THIRST"
   ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 5,
-    "ot_refs": 2,
-    "nt_refs": 6,
-    "total_verses": 8
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.693383+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
+  "aspects": [
+    {
+      "label": "Of Jesus",
+      "references": [
+        "Matthew 4:2-4",
+        "Matthew 21:18",
+        "Mark 11:12",
+        "Luke 4:2-4",
+        "John 4:8"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "A stimu",
+      "references": [
+        "Proverbs 16:26"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "No hunger in heaven",
+      "references": [
+        "Revelation 7:16,17"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeFAMINE",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "SPIRITUAL",
+      "references": [
+        "Proverbs 2:3-5",
+        "Isaiah 55:1,2",
+        "Amos 8:11-13",
+        "Matthew 5:6",
+        "Luke 6:21",
+        "1 Peter 2:2"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".See",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".SeeTHIRST",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0"
+  ],
+  "biblical_references": [
+    {
+      "book": "Matthew",
+      "chapter": 4,
+      "verses": [
+        2,
+        3,
+        4
+      ],
+      "verse_count": 3,
+      "testament": "NT",
+      "raw": "Matthew 4:2-4"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 21,
+      "verses": [
+        18
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 21:18"
+    },
+    {
+      "book": "Mark",
+      "chapter": 11,
+      "verses": [
+        12
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Mark 11:12"
+    },
+    {
+      "book": "Luke",
+      "chapter": 4,
+      "verses": [
+        2,
+        3,
+        4
+      ],
+      "verse_count": 3,
+      "testament": "NT",
+      "raw": "Luke 4:2-4"
+    },
+    {
+      "book": "John",
+      "chapter": 4,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "John 4:8"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 16,
+      "verses": [
+        26
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 16:26"
+    },
+    {
+      "book": "Revelation",
+      "chapter": 7,
+      "verses": [
+        16,
+        17
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Revelation 7:16,17"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 2,
+      "verses": [
+        3,
+        4,
+        5
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Proverbs 2:3-5"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 55,
+      "verses": [
+        1,
+        2
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Isaiah 55:1,2"
+    },
+    {
+      "book": "Amos",
+      "chapter": 8,
+      "verses": [
+        11,
+        12,
+        13
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Amos 8:11-13"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 5,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 5:6"
+    },
+    {
+      "book": "Luke",
+      "chapter": 6,
+      "verses": [
+        21
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 6:21"
+    },
+    {
+      "book": "1 Peter",
+      "chapter": 2,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "1 Peter 2:2"
+    }
+  ],
+  "books_mentioned": [
+    "1 Peter",
+    "Amos",
+    "Isaiah",
+    "John",
+    "Luke",
+    "Mark",
+    "Matthew",
+    "Proverbs",
+    "Revelation"
+  ],
+  "stats": {
+    "total_aspects": 7,
+    "total_refs": 13,
+    "ot_refs": 4,
+    "nt_refs": 9,
+    "books_count": 9,
+    "top_books": [
+      "Matthew",
+      "Luke",
+      "Proverbs",
+      "Mark",
+      "John",
+      "Revelation",
+      "Isaiah",
+      "Amos",
+      "1 Peter"
+    ]
+  }
 }

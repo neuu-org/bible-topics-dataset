@@ -1,78 +1,241 @@
 {
   "topic": "ELECTION",
-  "topic_slug": "election",
+  "slug": "election",
   "canonical_id": "NAV:election",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "PREDESTINATION"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "PREDESTINATION",
-      "clean": "PREDESTINATION",
-      "slug": "predestination",
-      "canonical_id": "NAV:predestination"
-    }
-  ],
-  "raw_block": "–OF RULERS\n  .By lotNe 11:1\n–OF GRACEJoh 15:16;17:6;Eph 1:4;2:10;2Th 2:13\n  .Of Christ as MessiahIsa 42:1;1Pe 2:6\n  .Of good angels1Ti 5:21\n  .Of IsraelDe 7:6;Isa 45:4\n  .Of ministersLu 6:13;Ac 9:15\n  .Of churches1Pe 5:13\n  .SeePREDESTINATION",
-  "content_preview": "–OF RULERS",
-  "reference_groups": [
-    {
-      "idx": 0,
-      "entry_label": "–OF RULERS",
-      "raw_segment": "–OF RULERS"
+      "label": "OF RULERS",
+      "references": []
     },
     {
-      "idx": 1,
-      "entry_label": "–OF GRACEJoh 15:16;17:6;Eph 1:4;2:10;2Th 2:13",
-      "raw_segment": "–OF GRACEJoh 15:16;17:6;Eph 1:4;2:10;2Th 2:13"
+      "label": ".By lot",
+      "references": [
+        "Nehemiah 11:1"
+      ]
+    },
+    {
+      "label": "OF GRACE",
+      "references": [
+        "John 15:16",
+        "John 17:6",
+        "Ephesians 1:4",
+        "Ephesians 2:10",
+        "2 Thessalonians 2:13"
+      ]
+    },
+    {
+      "label": ".Of Christ as Messiah",
+      "references": [
+        "Isaiah 42:1",
+        "1 Peter 2:6"
+      ]
+    },
+    {
+      "label": ".Of good angels",
+      "references": [
+        "1 Timothy 5:21"
+      ]
+    },
+    {
+      "label": ".Of Israel",
+      "references": [
+        "Deuteronomy 7:6",
+        "Isaiah 45:4"
+      ]
+    },
+    {
+      "label": ".Of ministers",
+      "references": [
+        "Luke 6:13",
+        "Acts 9:15"
+      ]
+    },
+    {
+      "label": ".Of churches",
+      "references": [
+        "1 Peter 5:13"
+      ]
+    },
+    {
+      "label": ".SeePRE",
+      "references": []
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Nehemiah",
+      "chapter": 11,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Nehemiah 11:1"
+    },
+    {
+      "book": "John",
+      "chapter": 15,
+      "verses": [
+        16
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "John 15:16"
+    },
+    {
+      "book": "John",
+      "chapter": 17,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "John 17:6"
+    },
+    {
+      "book": "Ephesians",
+      "chapter": 1,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Ephesians 1:4"
+    },
+    {
+      "book": "Ephesians",
+      "chapter": 2,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Ephesians 2:10"
+    },
+    {
+      "book": "2 Thessalonians",
+      "chapter": 2,
+      "verses": [
+        13
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "2 Thessalonians 2:13"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 42,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 42:1"
+    },
+    {
+      "book": "1 Peter",
+      "chapter": 2,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "1 Peter 2:6"
+    },
+    {
+      "book": "1 Timothy",
+      "chapter": 5,
+      "verses": [
+        21
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "1 Timothy 5:21"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 7,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 7:6"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 45,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 45:4"
+    },
+    {
+      "book": "Luke",
+      "chapter": 6,
+      "verses": [
+        13
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 6:13"
+    },
+    {
+      "book": "Acts",
+      "chapter": 9,
+      "verses": [
+        15
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 9:15"
+    },
+    {
+      "book": "1 Peter",
+      "chapter": 5,
+      "verses": [
+        13
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "1 Peter 5:13"
+    }
+  ],
+  "books_mentioned": [
+    "1 Peter",
+    "1 Timothy",
+    "2 Thessalonians",
+    "Acts",
+    "Deuteronomy",
+    "Ephesians",
+    "Isaiah",
+    "John",
+    "Luke",
+    "Nehemiah"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:59717d8113b9ea4b3f193c7a00f0d5806526dbc73917956f0ab001be18f80845",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 9
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 9,
+    "total_refs": 14,
+    "ot_refs": 4,
+    "nt_refs": 10,
+    "books_count": 10,
+    "top_books": [
+      "John",
+      "Ephesians",
+      "Isaiah",
+      "1 Peter",
+      "Nehemiah",
+      "2 Thessalonians",
+      "1 Timothy",
+      "Deuteronomy",
+      "Luke",
+      "Acts"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:25:50.695316Z",
-  "updated_at": "2025-09-20T17:25:50.695323Z"
+  }
 }

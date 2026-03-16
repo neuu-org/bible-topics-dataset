@@ -1,55 +1,31 @@
 {
   "topic": "POTIPHAR",
   "slug": "potiphar",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "(An officer of Pharaoh. The LXX has “eunuch” even though he had a wife)",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "Joseph’ s master Ge 37:36; 39:1",
-      "references": [
-        "Gen 37:36",
-        "Gen 39:1"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.719056+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "see_also": [],
+  "aspects": [
     {
-      "book": "Genesis",
-      "chapter": 39,
-      "verses": [
-        1
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Genesis 39:1",
-      "source": "EAS"
+      "label": "(An officer of Pharaoh. The LXX has “eu",
+      "references": [],
+      "source": "NAV"
     },
+    {
+      "label": "a wife)",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "Joseph’ s master",
+      "references": [
+        "Genesis 37:36",
+        "Genesis 39:1"
+      ],
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
     {
       "book": "Genesis",
       "chapter": 37,
@@ -58,33 +34,30 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 37:36",
-      "source": "EAS"
+      "raw": "Genesis 37:36"
     },
     {
       "book": "Genesis",
       "chapter": 39,
       "verses": [
-        4,
-        5,
-        6
+        1
       ],
-      "verse_count": 3,
+      "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 39:4-6",
-      "source": "SMI"
-    },
-    {
-      "book": "Genesis",
-      "chapter": 39,
-      "verses": [
-        19,
-        20
-      ],
-      "verse_count": 2,
-      "testament": "OT",
-      "raw": "Genesis 39:19,20",
-      "source": "SMI"
+      "raw": "Genesis 39:1"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Genesis"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 2,
+    "ot_refs": 2,
+    "nt_refs": 0,
+    "books_count": 1,
+    "top_books": [
+      "Genesis"
+    ]
+  }
 }

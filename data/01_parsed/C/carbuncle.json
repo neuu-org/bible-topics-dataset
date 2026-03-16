@@ -1,58 +1,49 @@
 {
   "topic": "CARBUNCLE",
   "slug": "carbuncle",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "A precious stone Isa 54:12; Eze 28:13",
+      "label": "A precious stone",
       "references": [
-        "Isa 54:12",
-        "Ezek 28:13"
+        "Isaiah 54:12",
+        "Ezekiel 28:13"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "One of the precious stones set in breastplate Ex 28:17; 39:10",
+      "label": "One of the precious stones set in breastplate",
       "references": [
-        "Exod 28:17",
-        "Exod 39:10"
+        "Exodus 28:17",
+        "Exodus 39:10"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Ezekiel",
-      "book_abbrev": "ezk",
-      "chapter": 28,
+      "book": "Isaiah",
+      "chapter": 54,
+      "verses": [
+        12
+      ],
+      "verse_count": 1,
       "testament": "OT",
+      "raw": "Isaiah 54:12"
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 28,
       "verses": [
         13
       ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.676435+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezekiel 28:13"
+    },
     {
       "book": "Exodus",
       "chapter": 28,
@@ -61,8 +52,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Exodus 28:17",
-      "source": "EAS"
+      "raw": "Exodus 28:17"
     },
     {
       "book": "Exodus",
@@ -72,30 +62,24 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Exodus 39:10",
-      "source": "EAS"
-    },
-    {
-      "book": "Ezekiel",
-      "chapter": 28,
-      "verses": [
-        13
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Ezekiel 28:13",
-      "source": "EAS"
-    },
-    {
-      "book": "Isaiah",
-      "chapter": 54,
-      "verses": [
-        12
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Isaiah 54:12",
-      "source": "EAS"
+      "raw": "Exodus 39:10"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Exodus",
+    "Ezekiel",
+    "Isaiah"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 4,
+    "ot_refs": 4,
+    "nt_refs": 0,
+    "books_count": 3,
+    "top_books": [
+      "Exodus",
+      "Isaiah",
+      "Ezekiel"
+    ]
+  }
 }

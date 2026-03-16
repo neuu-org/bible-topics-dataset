@@ -1,87 +1,51 @@
 {
   "topic": "MIRROR",
   "slug": "mirror",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "Of brass (bronze) Job 37:18",
+      "label": "Of brass (bronze)",
       "references": [
         "Job 37:18"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Given by the Iraelitish women to be melted for the laver of the tabernacle Ex 38:8",
-      "references": [
-        "Exod 38:8"
-      ],
-      "sub_groups": []
+      "label": "Given by the Iraelitish women to be melted for the laver of the",
+      "references": [],
+      "source": "NAV"
     },
     {
-      "name": "FIGURATIVE 1Co 13:12; 2Co 3:18; Jas 1:23,24",
+      "label": "tabernacle",
       "references": [
-        "1Cor 13:12",
-        "2Cor 3:18",
-        "Jas 1:23",
-        "Jas 1:24"
+        "Exodus 38:8"
       ],
-      "sub_groups": []
+      "source": "NAV"
+    },
+    {
+      "label": "FIGURATIVE",
+      "references": [
+        "1 Corinthians 13:12",
+        "2 Corinthians 3:18",
+        "James 1:23,24"
+      ],
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
       "book": "Job",
-      "book_abbrev": "job",
       "chapter": 37,
+      "verses": [
+        18
+      ],
+      "verse_count": 1,
       "testament": "OT",
-      "verses": [
-        18
-      ],
-      "verse_count": 1
+      "raw": "Job 37:18"
     },
-    {
-      "book": "2 Corinthians",
-      "book_abbrev": "2co",
-      "chapter": 3,
-      "testament": "NT",
-      "verses": [
-        18
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "James",
-      "book_abbrev": "jas",
-      "chapter": 1,
-      "testament": "NT",
-      "verses": [
-        23,
-        24
-      ],
-      "verse_count": 2
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 1,
-    "nt_refs": 2,
-    "total_verses": 3
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.706912+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
     {
       "book": "Exodus",
       "chapter": 38,
@@ -90,30 +54,59 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Exodus 38:8",
-      "source": "SMI"
+      "raw": "Exodus 38:8"
     },
     {
-      "book": "Job",
-      "chapter": 37,
-      "verses": [
-        18
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Job 37:18",
-      "source": "SMI"
-    },
-    {
-      "book": "1 Chronicles",
+      "book": "1 Corinthians",
       "chapter": 13,
       "verses": [
         12
       ],
       "verse_count": 1,
-      "testament": "OT",
-      "raw": "1 Chronicles 13:12",
-      "source": "SMI"
+      "testament": "NT",
+      "raw": "1 Corinthians 13:12"
+    },
+    {
+      "book": "2 Corinthians",
+      "chapter": 3,
+      "verses": [
+        18
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "2 Corinthians 3:18"
+    },
+    {
+      "book": "James",
+      "chapter": 1,
+      "verses": [
+        23,
+        24
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "James 1:23,24"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Corinthians",
+    "2 Corinthians",
+    "Exodus",
+    "James",
+    "Job"
+  ],
+  "stats": {
+    "total_aspects": 4,
+    "total_refs": 5,
+    "ot_refs": 2,
+    "nt_refs": 3,
+    "books_count": 5,
+    "top_books": [
+      "Job",
+      "Exodus",
+      "1 Corinthians",
+      "2 Corinthians",
+      "James"
+    ]
+  }
 }

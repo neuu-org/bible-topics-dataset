@@ -1,62 +1,69 @@
 {
   "topic": "GRIEF",
   "slug": "grief",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Attributed to the Holy Spirit Eph 4:30; Heb 3:10,17",
-      "references": [
-        "Eph 4:30",
-        "Heb 3:10",
-        "Heb 3:17"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "See AFFILICTION",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "See SORROW",
-      "references": [],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Hebrews",
-      "book_abbrev": "heb",
-      "chapter": 3,
-      "testament": "NT",
-      "verses": [
-        10,
-        17
-      ],
-      "verse_count": 2
-    }
+  "sources": [
+    "NAV"
   ],
   "see_also": [
     "AFFILICTION",
     "SORROW"
   ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 0,
-    "nt_refs": 1,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.689609+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
+  "aspects": [
+    {
+      "label": "Attributed to the Holy Spirit",
+      "references": [
+        "Ephesians 4:30",
+        "Hebrews 3:10,17"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeAFFILICTION",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "See",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0"
+  ],
+  "biblical_references": [
+    {
+      "book": "Ephesians",
+      "chapter": 4,
+      "verses": [
+        30
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Ephesians 4:30"
+    },
+    {
+      "book": "Hebrews",
+      "chapter": 3,
+      "verses": [
+        10,
+        17
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Hebrews 3:10,17"
+    }
+  ],
+  "books_mentioned": [
+    "Ephesians",
+    "Hebrews"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 2,
+    "ot_refs": 0,
+    "nt_refs": 2,
+    "books_count": 2,
+    "top_books": [
+      "Ephesians",
+      "Hebrews"
+    ]
+  }
 }

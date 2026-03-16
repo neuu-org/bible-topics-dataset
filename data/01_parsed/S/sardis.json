@@ -1,44 +1,36 @@
 {
   "topic": "SARDIS",
   "slug": "sardis",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "(A city in Asia Minor)",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "One of the seven congregations in Re 1:11; 3:1-4",
-      "references": [
-        "Rev 1:11",
-        "Rev 3:1-4"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.722999+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "(A city in Asia Minor)",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "One of the seven congregations in",
+      "references": [
+        "Revelation 1:11",
+        "Revelation 3:1-4"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
+    {
+      "book": "Revelation",
+      "chapter": 1,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Revelation 1:11"
+    },
     {
       "book": "Revelation",
       "chapter": 3,
@@ -46,14 +38,24 @@
         1,
         2,
         3,
-        4,
-        5,
-        6
+        4
       ],
-      "verse_count": 6,
+      "verse_count": 4,
       "testament": "NT",
-      "raw": "Revelation 3:1-6",
-      "source": "EAS"
+      "raw": "Revelation 3:1-4"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Revelation"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 2,
+    "ot_refs": 0,
+    "nt_refs": 2,
+    "books_count": 1,
+    "top_books": [
+      "Revelation"
+    ]
+  }
 }

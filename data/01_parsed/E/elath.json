@@ -1,81 +1,41 @@
 {
   "topic": "ELATH",
   "slug": "elath",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Also called Eloth",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "A city of Idumea De 2:8; 1Ki 9:26; 2Ch 8:17",
-      "references": [
-        "Deut 2:8",
-        "1Kgs 9:26",
-        "2Chr 8:17"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Conquest of, by Uzziah 2Ch 26:2",
-      "references": [
-        "2Chr 26:2"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "By the Syrians 2Ki 16:6",
-      "references": [
-        "2Kgs 16:6"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "1 Kings",
-      "book_abbrev": "1ki",
-      "chapter": 9,
-      "testament": "OT",
-      "verses": [
-        2,
-        26
-      ],
-      "verse_count": 2
-    },
-    {
-      "book": "2 Chronicles",
-      "book_abbrev": "2ch",
-      "chapter": 8,
-      "testament": "OT",
-      "verses": [
-        17
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 4,
-    "ot_refs": 2,
-    "nt_refs": 0,
-    "total_verses": 2
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.683327+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "Al",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "A city of Idumea",
+      "references": [
+        "Deuteronomy 2:8",
+        "1 Kings 9:26",
+        "2 Chronicles 8:17"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Conquest of, by Uzziah",
+      "references": [
+        "2 Chronicles 26:2"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "By the Syrians",
+      "references": [
+        "2 Kings 16:6"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Deuteronomy",
       "chapter": 2,
@@ -84,8 +44,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Deuteronomy 2:8",
-      "source": "EAS"
+      "raw": "Deuteronomy 2:8"
     },
     {
       "book": "1 Kings",
@@ -95,19 +54,56 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Kings 9:26",
-      "source": "EAS"
+      "raw": "1 Kings 9:26"
     },
     {
-      "book": "2 Kings",
-      "chapter": 14,
+      "book": "2 Chronicles",
+      "chapter": 8,
       "verses": [
-        22
+        17
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Kings 14:22",
-      "source": "EAS"
+      "raw": "2 Chronicles 8:17"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 26,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Chronicles 26:2"
+    },
+    {
+      "book": "2 Kings",
+      "chapter": 16,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Kings 16:6"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Kings",
+    "2 Chronicles",
+    "2 Kings",
+    "Deuteronomy"
+  ],
+  "stats": {
+    "total_aspects": 4,
+    "total_refs": 5,
+    "ot_refs": 5,
+    "nt_refs": 0,
+    "books_count": 4,
+    "top_books": [
+      "2 Chronicles",
+      "Deuteronomy",
+      "1 Kings",
+      "2 Kings"
+    ]
+  }
 }

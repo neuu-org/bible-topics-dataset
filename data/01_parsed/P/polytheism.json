@@ -1,91 +1,167 @@
 {
   "topic": "POLYTHEISM",
   "slug": "polytheism",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "General scriptures concerning Ge 31:19; 35:2,4; Jos 24:2,23; Jud 2:13; 3:7; 10:16; 17:5; Jer 2:28; 11:13; Da 4:8; 1Co 8:5",
+      "label": "General scriptures concerning",
       "references": [
-        "Gen 31:19",
-        "Gen 35:2",
-        "Gen 35:4",
-        "Josh 24:2",
-        "Josh 24:23",
-        "Judg 2:13",
-        "Judg 3:7",
-        "Judg 10:16",
-        "Judg 17:5",
-        "Jer 2:28",
-        "Jer 11:13",
-        "Dan 4:8",
-        "1Cor 8:5"
+        "Genesis 31:19",
+        "Genesis 35:2,4"
       ],
-      "sub_groups": []
+      "source": "NAV"
+    },
+    {
+      "label": "24:2,23;",
+      "references": [
+        "Judges 2:13",
+        "Judges 3:7",
+        "Judges 10:16",
+        "Judges 17:5",
+        "Jeremiah 2:28",
+        "Jeremiah 11:13",
+        "Daniel 4:8",
+        "1 Corinthians 8:5"
+      ],
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Joshua",
-      "book_abbrev": "jos",
-      "chapter": 24,
+      "book": "Genesis",
+      "chapter": 31,
+      "verses": [
+        19
+      ],
+      "verse_count": 1,
       "testament": "OT",
+      "raw": "Genesis 31:19"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 35,
+      "verses": [
+        2,
+        4
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Genesis 35:2,4"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 24,
       "verses": [
         2,
         23
       ],
-      "verse_count": 2
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Genesis 24:2,23"
     },
     {
-      "book": "Jeremiah",
-      "book_abbrev": "jer",
+      "book": "Judges",
       "chapter": 2,
-      "testament": "OT",
       "verses": [
-        11,
-        28
+        13
       ],
-      "verse_count": 2
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Judges 2:13"
     },
     {
-      "book": "Daniel",
-      "book_abbrev": "dan",
-      "chapter": 4,
-      "testament": "OT",
+      "book": "Judges",
+      "chapter": 3,
       "verses": [
-        1,
-        8
+        7
       ],
-      "verse_count": 2
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Judges 3:7"
     },
     {
-      "book": "1 Corinthians",
-      "book_abbrev": "1co",
-      "chapter": 8,
-      "testament": "NT",
+      "book": "Judges",
+      "chapter": 10,
+      "verses": [
+        16
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Judges 10:16"
+    },
+    {
+      "book": "Judges",
+      "chapter": 17,
       "verses": [
         5
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Judges 17:5"
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 2,
+      "verses": [
+        28
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Jeremiah 2:28"
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 11,
+      "verses": [
+        13
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Jeremiah 11:13"
+    },
+    {
+      "book": "Daniel",
+      "chapter": 4,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Daniel 4:8"
+    },
+    {
+      "book": "1 Corinthians",
+      "chapter": 8,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "1 Corinthians 8:5"
     }
   ],
-  "see_also": [],
-  "aliases": [],
+  "books_mentioned": [
+    "1 Corinthians",
+    "Daniel",
+    "Genesis",
+    "Jeremiah",
+    "Judges"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 3,
+    "total_aspects": 2,
+    "total_refs": 11,
+    "ot_refs": 10,
     "nt_refs": 1,
-    "total_verses": 4
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.718865+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    }
-  },
-  "version": "3.0.0"
+    "books_count": 5,
+    "top_books": [
+      "Judges",
+      "Genesis",
+      "Jeremiah",
+      "Daniel",
+      "1 Corinthians"
+    ]
+  }
 }

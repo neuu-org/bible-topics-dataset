@@ -1,83 +1,88 @@
 {
   "topic": "TALENT",
   "slug": "talent",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "General scriptures concerning 1Ki 9:14,28; 10:10,14",
+      "label": "General scriptures concerning",
       "references": [
-        "1Kgs 9:14",
-        "1Kgs 9:28",
-        "1Kgs 10:10",
-        "1Kgs 10:14"
+        "1 Kings 9:14,28",
+        "1 Kings 10:10,14"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "(A weight equal to three-thousand shekels-about one hundred twenty-five pounds) Ex 38:25,26",
-      "references": [
-        "Exod 38:25",
-        "Exod 38:26"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Value of",
+      "label": "(A weight equal to three-thousand shekels-about one hundred twenty-five",
       "references": [],
-      "sub_groups": [
-        {
-          "name": "Of gold, about six-thousand pounds, or twenty-nine thousand one-hundred dollars",
-          "references": []
-        },
-        {
-          "name": "Of silver, four-hundred pounds, or one-thousand nine-hundred forty dollars",
-          "references": []
-        },
-        {
-          "name": "Parables of the Mt 18:24; 25:15,28",
-          "references": [
-            "Matt 18:24",
-            "Matt 25:15",
-            "Matt 25:28"
-          ]
-        }
-      ]
+      "source": "NAV"
+    },
+    {
+      "label": "pounds)",
+      "references": [
+        "Exodus 38:25,26"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Va",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".Of gold, about six-thousand pounds, or twenty-nine thousand one-hundred",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "dollars",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".Of silver, four-hundred pounds, or one-thousand nine-hundred",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "forty dollars",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".Parables of the",
+      "references": [
+        "Matthew 18:24",
+        "Matthew 25:15,28"
+      ],
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Exodus",
-      "book_abbrev": "exo",
-      "chapter": 38,
-      "testament": "OT",
+      "book": "1 Kings",
+      "chapter": 9,
       "verses": [
-        25,
-        26
+        14,
+        28
       ],
-      "verse_count": 2
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.728819+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "1 Kings 9:14,28"
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 10,
+      "verses": [
+        10,
+        14
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "1 Kings 10:10,14"
+    },
     {
       "book": "Exodus",
       "chapter": 38,
@@ -87,19 +92,7 @@
       ],
       "verse_count": 2,
       "testament": "OT",
-      "raw": "Exodus 38:25, 26",
-      "source": "EAS"
-    },
-    {
-      "book": "2 Samuel",
-      "chapter": 12,
-      "verses": [
-        30
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "2 Samuel 12:30",
-      "source": "EAS"
+      "raw": "Exodus 38:25,26"
     },
     {
       "book": "Matthew",
@@ -109,19 +102,35 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Matthew 18:24",
-      "source": "EAS"
+      "raw": "Matthew 18:24"
     },
     {
       "book": "Matthew",
       "chapter": 25,
       "verses": [
-        15
+        15,
+        28
       ],
-      "verse_count": 1,
+      "verse_count": 2,
       "testament": "NT",
-      "raw": "Matthew 25:15",
-      "source": "EAS"
+      "raw": "Matthew 25:15,28"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Kings",
+    "Exodus",
+    "Matthew"
+  ],
+  "stats": {
+    "total_aspects": 9,
+    "total_refs": 5,
+    "ot_refs": 3,
+    "nt_refs": 2,
+    "books_count": 3,
+    "top_books": [
+      "1 Kings",
+      "Matthew",
+      "Exodus"
+    ]
+  }
 }

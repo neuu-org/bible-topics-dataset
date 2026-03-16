@@ -1,93 +1,103 @@
 {
   "topic": "ENEMY",
   "slug": "enemy",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [
+    "PRAYER, IMPRECATORY"
+  ],
+  "aspects": [
     {
-      "name": "General scriptures concerning Ex 23:5; Job 31:29,30; Ps 35:1-28; Pr 24:17,18; 25:21,22; Mt 5:43-48; Lu 6:27-36; Ro 12:14,20",
+      "label": "General scriptures concerning",
       "references": [
-        "Exod 23:5",
-        "Job 31:29",
-        "Job 31:30",
-        "Ps 35:1-28",
-        "Prov 24:17",
-        "Prov 24:18",
-        "Prov 25:21",
-        "Prov 25:22",
-        "Matt 5:43-48",
+        "Exodus 23:5",
+        "Job 31:29,30",
+        "Psalms 35:1-28",
+        "Proverbs 24:17,18",
+        "Proverbs 25:21,22",
+        "Matthew 5:43-48",
         "Luke 6:27-36",
-        "Rom 12:14",
-        "Rom 12:20"
+        "Romans 12:14,20"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "The wickedness of David’s Ps 56:5; 57:4,6; 62:4; 69:4,9; 71:10; 102:8; 109:2-5; 129:1-3",
+      "label": "The wickedness of David’s",
       "references": [
-        "Ps 56:5",
-        "Ps 57:4",
-        "Ps 57:6",
-        "Ps 62:4",
-        "Ps 69:4",
-        "Ps 69:9",
-        "Ps 71:10",
-        "Ps 102:8",
-        "Ps 109:2-5",
-        "Ps 129:1-3"
+        "Psalms 56:5",
+        "Psalms 57:4,6",
+        "Psalms 62:4",
+        "Psalms 69:4,9",
+        "Psalms 71:10",
+        "Psalms 102:8",
+        "Psalms 109:2-5",
+        "Psalms 129:1-3"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "His imprecations against",
+      "label": "His impre",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Instances of forgiveness of",
+      "label": ".SeePRAYER, IMPRE",
       "references": [],
-      "sub_groups": [
-        {
-          "name": "David, of Absalom, and co-conspirators 2Sa 19:6,12,13",
-          "references": [
-            "2Sam 19:6",
-            "2Sam 19:12",
-            "2Sam 19:13"
-          ]
-        }
-      ]
+      "source": "NAV"
     },
     {
-      "name": "Jesus, of his persecutors Lu 23:34",
+      "label": "Instances of forgiveness of",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".David, of Absalom, and co-conspirators",
+      "references": [
+        "2 Samuel 19:6,12,13"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Jesus, of his persecutors",
       "references": [
         "Luke 23:34"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Stephen, of his murderers Ac 7:60",
+      "label": "Stephen, of his mur",
       "references": [
         "Acts 7:60"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Job",
-      "book_abbrev": "job",
-      "chapter": 31,
+      "book": "Exodus",
+      "chapter": 23,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
       "testament": "OT",
+      "raw": "Exodus 23:5"
+    },
+    {
+      "book": "Job",
+      "chapter": 31,
       "verses": [
         29,
         30
       ],
-      "verse_count": 2
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Job 31:29,30"
     },
     {
       "book": "Psalms",
-      "book_abbrev": "psa",
       "chapter": 35,
-      "testament": "OT",
       "verses": [
         1,
         2,
@@ -118,25 +128,35 @@
         27,
         28
       ],
-      "verse_count": 28
+      "verse_count": 28,
+      "testament": "OT",
+      "raw": "Psalms 35:1-28"
     },
     {
       "book": "Proverbs",
-      "book_abbrev": "pro",
       "chapter": 24,
-      "testament": "OT",
       "verses": [
         17,
-        18,
-        25
+        18
       ],
-      "verse_count": 3
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Proverbs 24:17,18"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 25,
+      "verses": [
+        21,
+        22
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Proverbs 25:21,22"
     },
     {
       "book": "Matthew",
-      "book_abbrev": "mat",
       "chapter": 5,
-      "testament": "NT",
       "verses": [
         43,
         44,
@@ -145,13 +165,13 @@
         47,
         48
       ],
-      "verse_count": 6
+      "verse_count": 6,
+      "testament": "NT",
+      "raw": "Matthew 5:43-48"
     },
     {
       "book": "Luke",
-      "book_abbrev": "luk",
       "chapter": 6,
-      "testament": "NT",
       "verses": [
         27,
         28,
@@ -164,40 +184,168 @@
         35,
         36
       ],
-      "verse_count": 10
+      "verse_count": 10,
+      "testament": "NT",
+      "raw": "Luke 6:27-36"
     },
     {
       "book": "Romans",
-      "book_abbrev": "rom",
       "chapter": 12,
-      "testament": "NT",
       "verses": [
         14,
         20
       ],
-      "verse_count": 2
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Romans 12:14,20"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 56,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 56:5"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 57,
+      "verses": [
+        4,
+        6
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Psalms 57:4,6"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 62,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 62:4"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 69,
+      "verses": [
+        4,
+        9
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Psalms 69:4,9"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 71,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 71:10"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 102,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 102:8"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 109,
+      "verses": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "verse_count": 4,
+      "testament": "OT",
+      "raw": "Psalms 109:2-5"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 129,
+      "verses": [
+        1,
+        2,
+        3
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Psalms 129:1-3"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 19,
+      "verses": [
+        6,
+        12,
+        13
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "2 Samuel 19:6,12,13"
+    },
+    {
+      "book": "Luke",
+      "chapter": 23,
+      "verses": [
+        34
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 23:34"
+    },
+    {
+      "book": "Acts",
+      "chapter": 7,
+      "verses": [
+        60
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 7:60"
     }
   ],
-  "see_also": [
-    "PRAYER, IMPRECATORY"
+  "books_mentioned": [
+    "2 Samuel",
+    "Acts",
+    "Exodus",
+    "Job",
+    "Luke",
+    "Matthew",
+    "Proverbs",
+    "Psalms",
+    "Romans"
   ],
-  "aliases": [],
   "stats": {
-    "entries_count": 6,
-    "ot_refs": 3,
-    "nt_refs": 3,
-    "total_verses": 6
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.684460+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    }
-  },
-  "version": "3.0.0"
+    "total_aspects": 8,
+    "total_refs": 19,
+    "ot_refs": 14,
+    "nt_refs": 5,
+    "books_count": 9,
+    "top_books": [
+      "Psalms",
+      "Proverbs",
+      "Luke",
+      "Exodus",
+      "Job",
+      "Matthew",
+      "Romans",
+      "2 Samuel",
+      "Acts"
+    ]
+  }
 }

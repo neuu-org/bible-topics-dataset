@@ -1,69 +1,59 @@
 {
   "topic": "BENE-JAAKAN",
-  "topic_slug": "bene_jaakan",
+  "slug": "bene_jaakan",
   "canonical_id": "NAV:bene_jaakan",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–A tribe that gave its name to certain wells in the wildernessNu 33:31,32\n–Called BEEROTHDe 10:6",
-  "content_preview": "–A tribe that gave its name to certain wells in the wildernessNu 33:31,32",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–A tribe that gave its name to certain wells in the wildernessNu 33:31,32",
-      "raw_segment": "–A tribe that gave its name to certain wells in the wildernessNu 33:31,32"
+      "label": "A tribe that gave its name to certain wells in the wil",
+      "references": [
+        "Numbers 33:31,32"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–Called BEEROTHDe 10:6",
-      "raw_segment": "–Called BEEROTHDe 10:6"
+      "label": "General references",
+      "references": [
+        "Deuteronomy 10:6"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Numbers",
+      "chapter": 33,
+      "verses": [
+        31,
+        32
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Numbers 33:31,32"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 10,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 10:6"
+    }
+  ],
+  "books_mentioned": [
+    "Deuteronomy",
+    "Numbers"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 2,
+    "total_refs": 2,
+    "ot_refs": 2,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:9044ac2453ea637d887513a8b42f36277d4d57f48275fd131230e05683f281c4",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 2,
+    "top_books": [
+      "Numbers",
+      "Deuteronomy"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:24:18.791243Z",
-  "updated_at": "2025-09-20T17:24:18.791250Z"
+  }
 }

@@ -1,146 +1,73 @@
 {
   "topic": "HERODIAS",
   "slug": "herodias",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Daughter of Aristobulus Mt 14:3,6; Mr 6:17,19,22; Lu 3:19",
-      "references": [
-        "Matt 14:3",
-        "Matt 14:6",
-        "Mark 6:17",
-        "Mark 6:19",
-        "Mark 6:22",
-        "Luke 3:19"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Mark",
-      "book_abbrev": "mrk",
-      "chapter": 6,
-      "testament": "NT",
-      "verses": [
-        17,
-        19,
-        22
-      ],
-      "verse_count": 3
-    },
-    {
-      "book": "Luke",
-      "book_abbrev": "luk",
-      "chapter": 3,
-      "testament": "NT",
-      "verses": [
-        19
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 2,
-    "total_verses": 2
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.692150+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "Daughter of Aristobu",
+      "references": [
+        "Matthew 14:3,6",
+        "Mark 6:17,19,22"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "3:19",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Matthew",
       "chapter": 14,
       "verses": [
         3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11
+        6
       ],
-      "verse_count": 9,
+      "verse_count": 2,
       "testament": "NT",
-      "raw": "Matthew 14:3-11",
-      "source": "EAS"
+      "raw": "Matthew 14:3,6"
     },
     {
       "book": "Mark",
       "chapter": 6,
       "verses": [
         17,
-        18,
         19,
-        20,
-        21,
-        22,
-        23,
-        24,
-        25,
-        26,
-        27,
-        28
+        22
       ],
-      "verse_count": 12,
+      "verse_count": 3,
       "testament": "NT",
-      "raw": "Mark 6:17-28",
-      "source": "EAS"
+      "raw": "Mark 6:17,19,22"
     },
     {
-      "book": "Luke",
+      "book": "Mark",
       "chapter": 3,
       "verses": [
         19
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Luke 3:19",
-      "source": "EAS"
-    },
-    {
-      "book": "Matthew",
-      "chapter": 14,
-      "verses": [
-        8,
-        9,
-        10,
-        11
-      ],
-      "verse_count": 4,
-      "testament": "NT",
-      "raw": "Matthew 14:8-11",
-      "source": "SMI"
-    },
-    {
-      "book": "Mark",
-      "chapter": 6,
-      "verses": [
-        24,
-        25,
-        26,
-        27,
-        28
-      ],
-      "verse_count": 5,
-      "testament": "NT",
-      "raw": "Mark 6:24-28",
-      "source": "SMI"
+      "raw": "Mark 3:19"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Mark",
+    "Matthew"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 3,
+    "ot_refs": 0,
+    "nt_refs": 3,
+    "books_count": 2,
+    "top_books": [
+      "Mark",
+      "Matthew"
+    ]
+  }
 }

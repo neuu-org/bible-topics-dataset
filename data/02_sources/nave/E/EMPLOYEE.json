@@ -1,102 +1,320 @@
 {
   "topic": "EMPLOYEE",
-  "topic_slug": "employee",
+  "slug": "employee",
   "canonical_id": "NAV:employee",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "EMPLOYER",
     "MASTER",
     "SERVANTS"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "EMPLOYER",
-      "clean": "EMPLOYER",
-      "slug": "employer",
-      "canonical_id": "NAV:employer"
+      "label": "General scriptures concerning",
+      "references": [
+        "Leviticus 19:13",
+        "Leviticus 25:6",
+        "Deuteronomy 15:18",
+        "Deuteronomy 24:14,15",
+        "Matthew 10:10",
+        "Luke 10:7",
+        "Romans 4:4",
+        "1 Timothy 5:18"
+      ]
     },
     {
-      "original": "MASTER",
-      "clean": "MASTER",
-      "slug": "master",
-      "canonical_id": "NAV:master"
+      "label": "CHARACTER OF UNRIGHTEOUS",
+      "references": [
+        "Job 7:1-3",
+        "Job 14:1,6",
+        "Matthew 20:1-15",
+        "Matthew 21:33-41",
+        "John 10:12,13"
+      ]
     },
     {
-      "original": "SERVANTS",
-      "clean": "SERVANTS",
-      "slug": "servants",
-      "canonical_id": "NAV:servants"
+      "label": "KINDNESS TO",
+      "references": [
+        "Ruth 2:4",
+        "Luke 15:17,19"
+      ]
+    },
+    {
+      "label": "OPPRESSIONS OF",
+      "references": [
+        "Proverbs 22:16",
+        "Malachi 3:5",
+        "Luke 15:15,16"
+      ]
+    },
+    {
+      "label": "5:4",
+      "references": []
+    },
+    {
+      "label": ".SeeSERVANTS",
+      "references": []
+    },
+    {
+      "label": ".SeeEMPLOYER",
+      "references": []
+    },
+    {
+      "label": ".SeeMASTER",
+      "references": []
     }
   ],
-  "raw_block": "–General scriptures concerningLe 19:13;25:6;De 15:18;24:14,15;Mt 10:10;Lu 10:7;Ro 4:4;1Ti 5:18\n–CHARACTER OF UNRIGHTEOUSJob 7:1-3;14:1,6;Mt 20:1-15;21:33-41;Joh 10:12,13\n–KINDNESS TORu 2:4;Lu 15:17,19\n–OPPRESSIONS OFPr 22:16;Mal 3:5;Lu 15:15,16;Jas \n5:4\n  .SeeSERVANTS\n  .SeeEMPLOYER\n  .SeeMASTER",
-  "content_preview": "–General scriptures concerningLe 19:13;25:6;De 15:18;24:14,15;Mt 10:10;Lu 10:7;Ro 4:4;1Ti 5:18",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–General scriptures concerningLe 19:13;25:6;De 15:18;24:14,15;Mt 10:10;Lu 10:7;Ro 4:4;1Ti 5:18",
-      "raw_segment": "–General scriptures concerningLe 19:13;25:6;De 15:18;24:14,15;Mt 10:10;Lu 10:7;Ro 4:4;1Ti 5:18"
+      "book": "Leviticus",
+      "chapter": 19,
+      "verses": [
+        13
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Leviticus 19:13"
     },
     {
-      "idx": 1,
-      "entry_label": "–CHARACTER OF UNRIGHTEOUSJob 7:1-3;14:1,6;Mt 20:1-15;21:33-41;Joh 10:12,13",
-      "raw_segment": "–CHARACTER OF UNRIGHTEOUSJob 7:1-3;14:1,6;Mt 20:1-15;21:33-41;Joh 10:12,13"
+      "book": "Leviticus",
+      "chapter": 25,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Leviticus 25:6"
     },
     {
-      "idx": 2,
-      "entry_label": "–KINDNESS TORu 2:4;Lu 15:17,19",
-      "raw_segment": "–KINDNESS TORu 2:4;Lu 15:17,19"
+      "book": "Deuteronomy",
+      "chapter": 15,
+      "verses": [
+        18
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 15:18"
     },
     {
-      "idx": 3,
-      "entry_label": "–OPPRESSIONS OFPr 22:16;Mal 3:5;Lu 15:15,16;Jas \n5:4",
-      "raw_segment": "–OPPRESSIONS OFPr 22:16;Mal 3:5;Lu 15:15,16;Jas \n5:4"
+      "book": "Deuteronomy",
+      "chapter": 24,
+      "verses": [
+        14,
+        15
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Deuteronomy 24:14,15"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 10,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 10:10"
+    },
+    {
+      "book": "Luke",
+      "chapter": 10,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 10:7"
+    },
+    {
+      "book": "Romans",
+      "chapter": 4,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Romans 4:4"
+    },
+    {
+      "book": "1 Timothy",
+      "chapter": 5,
+      "verses": [
+        18
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "1 Timothy 5:18"
+    },
+    {
+      "book": "Job",
+      "chapter": 7,
+      "verses": [
+        1,
+        2,
+        3
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Job 7:1-3"
+    },
+    {
+      "book": "Job",
+      "chapter": 14,
+      "verses": [
+        1,
+        6
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Job 14:1,6"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 20,
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "verse_count": 15,
+      "testament": "NT",
+      "raw": "Matthew 20:1-15"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 21,
+      "verses": [
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "verse_count": 9,
+      "testament": "NT",
+      "raw": "Matthew 21:33-41"
+    },
+    {
+      "book": "John",
+      "chapter": 10,
+      "verses": [
+        12,
+        13
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "John 10:12,13"
+    },
+    {
+      "book": "Ruth",
+      "chapter": 2,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ruth 2:4"
+    },
+    {
+      "book": "Luke",
+      "chapter": 15,
+      "verses": [
+        17,
+        19
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Luke 15:17,19"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 22,
+      "verses": [
+        16
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 22:16"
+    },
+    {
+      "book": "Malachi",
+      "chapter": 3,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Malachi 3:5"
+    },
+    {
+      "book": "Luke",
+      "chapter": 15,
+      "verses": [
+        15,
+        16
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Luke 15:15,16"
+    },
+    {
+      "book": "Luke",
+      "chapter": 5,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 5:4"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "1 Timothy",
+    "Deuteronomy",
+    "Job",
+    "John",
+    "Leviticus",
+    "Luke",
+    "Malachi",
+    "Matthew",
+    "Proverbs",
+    "Romans",
+    "Ruth"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:6682f01c3516bcd9076b7f2ae7d5fc804b2857b02193074959db91e12c6cc914",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 8
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 8,
+    "total_refs": 19,
+    "ot_refs": 9,
+    "nt_refs": 10,
+    "books_count": 11,
+    "top_books": [
+      "Luke",
+      "Matthew",
+      "Leviticus",
+      "Deuteronomy",
+      "Job",
+      "Romans",
+      "1 Timothy",
+      "John",
+      "Ruth",
+      "Proverbs"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:25:59.192616Z",
-  "updated_at": "2025-09-20T17:25:59.192623Z"
+  }
 }

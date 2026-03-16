@@ -1,45 +1,27 @@
 {
   "topic": "BUZ",
   "slug": "buz",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. Son of Nahor Ge 22:21",
-      "references": [
-        "Gen 22:21"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "2. Father of Jahdo 1Ch 5:14",
-      "references": [
-        "1Chr 5:14"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.675843+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "1.",
+      "references": [
+        "Genesis 22:21"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2. Father of Jahdo",
+      "references": [
+        "1 Chronicles 5:14"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Genesis",
       "chapter": 22,
@@ -48,19 +30,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 22:21",
-      "source": "EAS"
-    },
-    {
-      "book": "Job",
-      "chapter": 32,
-      "verses": [
-        2
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Job 32:2",
-      "source": "EAS"
+      "raw": "Genesis 22:21"
     },
     {
       "book": "1 Chronicles",
@@ -70,19 +40,22 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 5:14",
-      "source": "EAS"
-    },
-    {
-      "book": "Jeremiah",
-      "chapter": 25,
-      "verses": [
-        23
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Jeremiah 25:23",
-      "source": "EAS"
+      "raw": "1 Chronicles 5:14"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Genesis"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 2,
+    "ot_refs": 2,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "Genesis",
+      "1 Chronicles"
+    ]
+  }
 }

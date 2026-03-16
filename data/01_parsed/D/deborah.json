@@ -1,67 +1,47 @@
 {
   "topic": "DEBORAH",
   "slug": "deborah",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. Nurse to Rebecca Ge 24:59",
-      "references": [
-        "Gen 24:59"
-      ],
-      "sub_groups": [
-        {
-          "name": "Buried beneath an oak tree near Beth-el Ge 35:8",
-          "references": [
-            "Gen 35:8"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "2. The prophetess, a judge of Israel Jud 4:4,5; 5:7",
-      "references": [
-        "Judg 4:4",
-        "Judg 4:5",
-        "Judg 5:7"
-      ],
-      "sub_groups": [
-        {
-          "name": "Inspires Barak to defeat Sisera Jud 4:6-16",
-          "references": [
-            "Judg 4:6-16"
-          ]
-        },
-        {
-          "name": "The triumphant song of Jud 5",
-          "references": [
-            "Judg 5"
-          ]
-        }
-      ]
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.680824+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "1.",
+      "references": [
+        "Genesis 24:59"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".Buried beneath an oak tree near Beth-el",
+      "references": [
+        "Genesis 35:8"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2. The prophetess, a",
+      "references": [
+        "Judges 4:4,5",
+        "Judges 5:7"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".Inspires Barak to",
+      "references": [
+        "Judges 4:6-16"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".The triumphant",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Genesis",
       "chapter": 24,
@@ -70,31 +50,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 24:59",
-      "source": "EAS"
-    },
-    {
-      "book": "Judges",
-      "chapter": 4,
-      "verses": [
-        6,
-        14
-      ],
-      "verse_count": 2,
-      "testament": "OT",
-      "raw": "Judges 4:6, 14",
-      "source": "EAS"
-    },
-    {
-      "book": "Judges",
-      "chapter": 5,
-      "verses": [
-        7
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Judges 5:7",
-      "source": "EAS"
+      "raw": "Genesis 24:59"
     },
     {
       "book": "Genesis",
@@ -104,8 +60,63 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 35:8",
-      "source": "EAS"
+      "raw": "Genesis 35:8"
+    },
+    {
+      "book": "Judges",
+      "chapter": 4,
+      "verses": [
+        4,
+        5
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Judges 4:4,5"
+    },
+    {
+      "book": "Judges",
+      "chapter": 5,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Judges 5:7"
+    },
+    {
+      "book": "Judges",
+      "chapter": 4,
+      "verses": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "verse_count": 11,
+      "testament": "OT",
+      "raw": "Judges 4:6-16"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Genesis",
+    "Judges"
+  ],
+  "stats": {
+    "total_aspects": 5,
+    "total_refs": 5,
+    "ot_refs": 5,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "Judges",
+      "Genesis"
+    ]
+  }
 }

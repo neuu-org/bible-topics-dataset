@@ -1,84 +1,74 @@
 {
   "topic": "BERECHIAH",
   "slug": "berechiah",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. Fatber of Asaph 1Ch 15:17,23",
-      "references": [
-        "1Chr 15:17",
-        "1Chr 15:23"
-      ],
-      "sub_groups": [
-        {
-          "name": "Called BERACHIAH 1Ch 6:39",
-          "references": [
-            "1Chr 6:39"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "2. A warrior of Ephraim 2Ch 28:12",
-      "references": [
-        "2Chr 28:12"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "3. A brother of Zerubbabel 1Ch 3:20",
-      "references": [
-        "1Chr 3:20"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "4. Son of Asa 1Ch 9:16",
-      "references": [
-        "1Chr 9:16"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "5. Son of Iddo Zec 1:1,7",
-      "references": [
-        "Zech 1:1",
-        "Zech 1:7"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "6. Son of Meshezabeel Ne 3:4,30; 6:18",
-      "references": [
-        "Neh 3:4",
-        "Neh 3:30",
-        "Neh 6:18"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 6,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.673408+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "1. Fatber of Asaph",
+      "references": [
+        "1 Chronicles 15:17,23"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".",
+      "references": [
+        "1 Chronicles 6:39"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2. A warrior of Ephraim",
+      "references": [
+        "2 Chronicles 28:12"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "3. A brother of Zerubbabel",
+      "references": [
+        "1 Chronicles 3:20"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "4.",
+      "references": [
+        "1 Chronicles 9:16"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "5.",
+      "references": [
+        "Ecclesiastes 1:1,7"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "6.",
+      "references": [
+        "Nehemiah 3:4,30",
+        "Nehemiah 6:18"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
+    {
+      "book": "1 Chronicles",
+      "chapter": 15,
+      "verses": [
+        17,
+        23
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "1 Chronicles 15:17,23"
+    },
     {
       "book": "1 Chronicles",
       "chapter": 6,
@@ -87,19 +77,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 6:39",
-      "source": "EAS"
-    },
-    {
-      "book": "1 Chronicles",
-      "chapter": 15,
-      "verses": [
-        17
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "1 Chronicles 15:17",
-      "source": "EAS"
+      "raw": "1 Chronicles 6:39"
     },
     {
       "book": "2 Chronicles",
@@ -109,8 +87,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Chronicles 28:12",
-      "source": "EAS"
+      "raw": "2 Chronicles 28:12"
     },
     {
       "book": "1 Chronicles",
@@ -120,11 +97,20 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 3:20",
-      "source": "EAS"
+      "raw": "1 Chronicles 3:20"
     },
     {
       "book": "1 Chronicles",
+      "chapter": 9,
+      "verses": [
+        16
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 9:16"
+    },
+    {
+      "book": "Ecclesiastes",
       "chapter": 1,
       "verses": [
         1,
@@ -132,8 +118,47 @@
       ],
       "verse_count": 2,
       "testament": "OT",
-      "raw": "1 Chronicles 1:1, 7",
-      "source": "EAS"
+      "raw": "Ecclesiastes 1:1,7"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 3,
+      "verses": [
+        4,
+        30
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Nehemiah 3:4,30"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 6,
+      "verses": [
+        18
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Nehemiah 6:18"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "2 Chronicles",
+    "Ecclesiastes",
+    "Nehemiah"
+  ],
+  "stats": {
+    "total_aspects": 7,
+    "total_refs": 8,
+    "ot_refs": 8,
+    "nt_refs": 0,
+    "books_count": 4,
+    "top_books": [
+      "1 Chronicles",
+      "Nehemiah",
+      "2 Chronicles",
+      "Ecclesiastes"
+    ]
+  }
 }

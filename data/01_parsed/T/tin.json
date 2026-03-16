@@ -1,54 +1,22 @@
 {
   "topic": "TIN",
   "slug": "tin",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "General scriptures concerning Nu 31:22; Eze 22:18,20; 27:12",
-      "references": [
-        "Num 31:22",
-        "Ezek 22:18",
-        "Ezek 22:20",
-        "Ezek 27:12"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Ezekiel",
-      "book_abbrev": "ezk",
-      "chapter": 22,
-      "testament": "OT",
-      "verses": [
-        18,
-        20,
-        27
-      ],
-      "verse_count": 3
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.730274+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "General scriptures concerning",
+      "references": [
+        "Numbers 31:22",
+        "Ezekiel 22:18,20",
+        "Ezekiel 27:12"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Numbers",
       "chapter": 31,
@@ -57,8 +25,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Numbers 31:22",
-      "source": "EAS"
+      "raw": "Numbers 31:22"
     },
     {
       "book": "Ezekiel",
@@ -69,8 +36,7 @@
       ],
       "verse_count": 2,
       "testament": "OT",
-      "raw": "Ezekiel 22:18, 20",
-      "source": "EAS"
+      "raw": "Ezekiel 22:18,20"
     },
     {
       "book": "Ezekiel",
@@ -80,41 +46,22 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Ezekiel 27:12",
-      "source": "EAS"
-    },
-    {
-      "book": "Isaiah",
-      "chapter": 1,
-      "verses": [
-        25
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Isaiah 1:25",
-      "source": "EAS"
-    },
-    {
-      "book": "Zechariah",
-      "chapter": 4,
-      "verses": [
-        10
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Zechariah 4:10",
-      "source": "SMI"
-    },
-    {
-      "book": "Ecclesiastes",
-      "chapter": 47,
-      "verses": [
-        18
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Ecclesiastes 47:18",
-      "source": "SMI"
+      "raw": "Ezekiel 27:12"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Ezekiel",
+    "Numbers"
+  ],
+  "stats": {
+    "total_aspects": 1,
+    "total_refs": 3,
+    "ot_refs": 3,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "Ezekiel",
+      "Numbers"
+    ]
+  }
 }

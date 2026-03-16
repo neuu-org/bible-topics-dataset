@@ -1,88 +1,144 @@
 {
   "topic": "URIJAH",
-  "topic_slug": "urijah",
+  "slug": "urijah",
   "canonical_id": "NAV:urijah",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "URIAH"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "URIAH",
-      "clean": "URIAH",
-      "slug": "uriah",
-      "canonical_id": "NAV:uriah"
+      "label": "1. A priest in Ahaz",
+      "references": []
+    },
+    {
+      "label": ".Builds a new altar for Ahaz",
+      "references": [
+        "2 Kings 16:10-16"
+      ]
+    },
+    {
+      "label": ".Probably i",
+      "references": [
+        "Isaiah 8:2"
+      ]
+    },
+    {
+      "label": "2. URIJAH",
+      "references": []
+    },
+    {
+      "label": ".SeeURIAH,",
+      "references": []
+    },
+    {
+      "label": "3. A priest",
+      "references": []
+    },
+    {
+      "label": ".Assistant to Ezra",
+      "references": [
+        "Nehemiah 8:4"
+      ]
+    },
+    {
+      "label": ".",
+      "references": []
+    },
+    {
+      "label": "4. A prophet in the time of Jehoiakim",
+      "references": []
+    },
+    {
+      "label": ".Prophesies against",
+      "references": [
+        "Jeremiah 26:20"
+      ]
+    },
+    {
+      "label": ".Fled to Egypt; taken; killed by Jehoiakim",
+      "references": [
+        "Jeremiah 26:21-23"
+      ]
     }
   ],
-  "raw_block": "–1. A priest in Ahaz\n  .Builds a new altar for Ahaz2Ki 16:10-16\n  .Probably identical with Uriah, witness to a prophecy of IsaiahIsa 8:2\n–2. URIJAH\n  .SeeURIAH, Number two\n–3. A priest\n  .Assistant to EzraNe 8:4\n  .Called URIAH in the R. V\n–4. A prophet in the time of Jehoiakim\n  .Prophesies against JudahJer 26:20\n  .Fled to Egypt; taken; killed by JehoiakimJer 26:21-23",
-  "content_preview": "–1. A priest in Ahaz",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–1. A priest in Ahaz",
-      "raw_segment": "–1. A priest in Ahaz"
+      "book": "2 Kings",
+      "chapter": 16,
+      "verses": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "verse_count": 7,
+      "testament": "OT",
+      "raw": "2 Kings 16:10-16"
     },
     {
-      "idx": 1,
-      "entry_label": "–2. URIJAH",
-      "raw_segment": "–2. URIJAH"
+      "book": "Isaiah",
+      "chapter": 8,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 8:2"
     },
     {
-      "idx": 2,
-      "entry_label": "–3. A priest",
-      "raw_segment": "–3. A priest"
+      "book": "Nehemiah",
+      "chapter": 8,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Nehemiah 8:4"
     },
     {
-      "idx": 3,
-      "entry_label": "–4. A prophet in the time of Jehoiakim",
-      "raw_segment": "–4. A prophet in the time of Jehoiakim"
+      "book": "Jeremiah",
+      "chapter": 26,
+      "verses": [
+        20
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Jeremiah 26:20"
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 26,
+      "verses": [
+        21,
+        22,
+        23
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Jeremiah 26:21-23"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "2 Kings",
+    "Isaiah",
+    "Jeremiah",
+    "Nehemiah"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 11,
+    "total_refs": 5,
+    "ot_refs": 5,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:3e3bf2eb45221ee13754b12f743a8e9620deb623066ca4ee0fbd0adce0338aca",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 11
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 4,
+    "top_books": [
+      "Jeremiah",
+      "2 Kings",
+      "Isaiah",
+      "Nehemiah"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:32:27.643762Z",
-  "updated_at": "2025-09-20T17:32:27.643769Z"
+  }
 }

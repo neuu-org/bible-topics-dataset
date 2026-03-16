@@ -1,66 +1,202 @@
 {
   "topic": "FUGITIVES",
   "slug": "fugitives",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "From servitude, not to be returned De 23:15,16",
-      "references": [
-        "Deut 23:15",
-        "Deut 23:16"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "INSTANCES OF",
-      "references": [],
-      "sub_groups": [
-        {
-          "name": "From slavery, Shimei’s servants 1Ki 2:39",
-          "references": [
-            "1Kgs 2:39"
-          ]
-        },
-        {
-          "name": "Onesimus Phm 1:1",
-          "references": [
-            "Phlm 1"
-          ]
-        },
-        {
-          "name": "From justice",
-          "references": []
-        },
-        {
-          "name": "From the wrath of the king",
-          "references": []
-        }
-      ]
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [
-    "EXODUS"
-  ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.687487+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
+  "see_also": [
+    "EXODUS"
+  ],
+  "aspects": [
+    {
+      "label": "From servitu",
+      "references": [
+        "Deuteronomy 23:15,16"
+      ],
+      "source": "NAV"
     },
-    "enriched_at": "2025-12-02T22:02:10.288066+00:00",
-    "enrichment_source": "pipeline_merge"
-  },
-  "version": "3.0.0"
+    {
+      "label": "INSTANCES OF",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".From slavery, Shimei’s servants",
+      "references": [
+        "1 Kings 2:39"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".Onesimus",
+      "references": [
+        "Philemon 1:1"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".SeeEXODUS",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".From justice",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "Moses",
+      "references": [
+        "Exodus 2:15"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Absalom",
+      "references": [
+        "2 Samuel 13:34-38"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".From the wrath of the king",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "David",
+      "references": [
+        "1 Samuel 21:10"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "General references",
+      "references": [
+        "1 Kings 11:40"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Joseph, to Egypt",
+      "references": [
+        "Matthew 2:13-15"
+      ],
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
+    {
+      "book": "Deuteronomy",
+      "chapter": 23,
+      "verses": [
+        15,
+        16
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Deuteronomy 23:15,16"
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 2,
+      "verses": [
+        39
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Kings 2:39"
+    },
+    {
+      "book": "Philemon",
+      "chapter": 1,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Philemon 1:1"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 2,
+      "verses": [
+        15
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 2:15"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 13,
+      "verses": [
+        34,
+        35,
+        36,
+        37,
+        38
+      ],
+      "verse_count": 5,
+      "testament": "OT",
+      "raw": "2 Samuel 13:34-38"
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 21,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Samuel 21:10"
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 11,
+      "verses": [
+        40
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Kings 11:40"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 2,
+      "verses": [
+        13,
+        14,
+        15
+      ],
+      "verse_count": 3,
+      "testament": "NT",
+      "raw": "Matthew 2:13-15"
+    }
+  ],
+  "books_mentioned": [
+    "1 Kings",
+    "1 Samuel",
+    "2 Samuel",
+    "Deuteronomy",
+    "Exodus",
+    "Matthew",
+    "Philemon"
+  ],
+  "stats": {
+    "total_aspects": 12,
+    "total_refs": 8,
+    "ot_refs": 6,
+    "nt_refs": 2,
+    "books_count": 7,
+    "top_books": [
+      "1 Kings",
+      "Deuteronomy",
+      "Philemon",
+      "Exodus",
+      "2 Samuel",
+      "1 Samuel",
+      "Matthew"
+    ]
+  }
 }

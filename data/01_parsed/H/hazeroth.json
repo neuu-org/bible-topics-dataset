@@ -1,53 +1,23 @@
 {
   "topic": "HAZEROTH",
   "slug": "hazeroth",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "A station in the journeyings of the people of Israel Nu 11:35; 12:16; 33:17,18; De 1:1",
-      "references": [
-        "Num 11:35",
-        "Num 12:16",
-        "Num 33:17",
-        "Num 33:18",
-        "Deut 1:1"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Deuteronomy",
-      "book_abbrev": "deu",
-      "chapter": 1,
-      "testament": "OT",
-      "verses": [
-        1
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.691400+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "A station in the journeyings of the people of Israel",
+      "references": [
+        "Numbers 11:35",
+        "Numbers 12:16",
+        "Numbers 33:17,18",
+        "Deuteronomy 1:1"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Numbers",
       "chapter": 11,
@@ -56,8 +26,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Numbers 11:35",
-      "source": "EAS"
+      "raw": "Numbers 11:35"
     },
     {
       "book": "Numbers",
@@ -67,8 +36,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Numbers 12:16",
-      "source": "EAS"
+      "raw": "Numbers 12:16"
     },
     {
       "book": "Numbers",
@@ -79,64 +47,32 @@
       ],
       "verse_count": 2,
       "testament": "OT",
-      "raw": "Numbers 33:17, 18",
-      "source": "EAS"
+      "raw": "Numbers 33:17,18"
     },
     {
-      "book": "Numbers",
-      "chapter": 12,
-      "verses": [
-        1
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Numbers 12:1",
-      "source": "EAS"
-    },
-    {
-      "book": "Numbers",
-      "chapter": 12,
-      "verses": [
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14,
-        15,
-        16
-      ],
-      "verse_count": 13,
-      "testament": "OT",
-      "raw": "Numbers 12:4-16",
-      "source": "EAS"
-    },
-    {
-      "book": "Numbers",
-      "chapter": 33,
-      "verses": [
-        17
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Numbers 33:17",
-      "source": "SMI"
-    },
-    {
-      "book": "Numbers",
+      "book": "Deuteronomy",
       "chapter": 1,
       "verses": [
         1
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Numbers 1:1",
-      "source": "SMI"
+      "raw": "Deuteronomy 1:1"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Deuteronomy",
+    "Numbers"
+  ],
+  "stats": {
+    "total_aspects": 1,
+    "total_refs": 4,
+    "ot_refs": 4,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "Numbers",
+      "Deuteronomy"
+    ]
+  }
 }

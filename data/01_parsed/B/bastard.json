@@ -1,122 +1,67 @@
 {
   "topic": "BASTARD",
   "slug": "bastard",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "(An illegitimate child)",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "Excluded from the congregation De 23:2",
-      "references": [
-        "Deut 23:2"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "INSTANCES OF",
-      "references": [],
-      "sub_groups": [
-        {
-          "name": "Ishmael Ge 16:3,15; Ga 4:22",
-          "references": [
-            "Gen 16:3",
-            "Gen 16:15",
-            "Gal 4:22"
-          ]
-        },
-        {
-          "name": "Moab and Ammon Ge 19:36,37",
-          "references": [
-            "Gen 19:36",
-            "Gen 19:37"
-          ]
-        },
-        {
-          "name": "Jephthah Jud 11:1",
-          "references": [
-            "Judg 11:1"
-          ]
-        },
-        {
-          "name": "David’s child by Bath-sheba 2Sa 11:2-5",
-          "references": [
-            "2Sam 11:2-5"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "FIGURATIVE Zec 9:6; Heb 12:8",
-      "references": [
-        "Zech 9:6",
-        "Heb 12:8"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Galatians",
-      "book_abbrev": "gal",
-      "chapter": 4,
-      "testament": "NT",
-      "verses": [
-        22
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Hebrews",
-      "book_abbrev": "heb",
-      "chapter": 12,
-      "testament": "NT",
-      "verses": [
-        8
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 4,
-    "ot_refs": 0,
-    "nt_refs": 2,
-    "total_verses": 2
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.672344+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "see_also": [],
+  "aspects": [
     {
-      "book": "Judges",
-      "chapter": 11,
-      "verses": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7
-      ],
-      "verse_count": 7,
-      "testament": "OT",
-      "raw": "Judges 11:1-7",
-      "source": "EAS"
+      "label": "(An illegitimate child)",
+      "references": [],
+      "source": "NAV"
     },
+    {
+      "label": "Exc",
+      "references": [
+        "Deuteronomy 23:2"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "INSTANCES OF",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".Ishmael",
+      "references": [
+        "Genesis 16:3,15",
+        "Galatians 4:22"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".Moab and Ammon",
+      "references": [
+        "Genesis 19:36,37"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".Jephthah",
+      "references": [
+        "Judges 11:1"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".David’s child by Bath-sheba",
+      "references": [
+        "2 Samuel 11:2-5"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "FIGURATIVE",
+      "references": [
+        "Ecclesiastes 9:6",
+        "Hebrews 12:8"
+      ],
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
     {
       "book": "Deuteronomy",
       "chapter": 23,
@@ -125,19 +70,72 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Deuteronomy 23:2",
-      "source": "EAS"
+      "raw": "Deuteronomy 23:2"
     },
     {
-      "book": "Zechariah",
+      "book": "Genesis",
+      "chapter": 16,
+      "verses": [
+        3,
+        15
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Genesis 16:3,15"
+    },
+    {
+      "book": "Galatians",
+      "chapter": 4,
+      "verses": [
+        22
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Galatians 4:22"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 19,
+      "verses": [
+        36,
+        37
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Genesis 19:36,37"
+    },
+    {
+      "book": "Judges",
+      "chapter": 11,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Judges 11:1"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 11,
+      "verses": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "verse_count": 4,
+      "testament": "OT",
+      "raw": "2 Samuel 11:2-5"
+    },
+    {
+      "book": "Ecclesiastes",
       "chapter": 9,
       "verses": [
         6
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Zechariah 9:6",
-      "source": "EAS"
+      "raw": "Ecclesiastes 9:6"
     },
     {
       "book": "Hebrews",
@@ -147,8 +145,32 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Hebrews 12:8",
-      "source": "EAS"
+      "raw": "Hebrews 12:8"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "2 Samuel",
+    "Deuteronomy",
+    "Ecclesiastes",
+    "Galatians",
+    "Genesis",
+    "Hebrews",
+    "Judges"
+  ],
+  "stats": {
+    "total_aspects": 8,
+    "total_refs": 8,
+    "ot_refs": 6,
+    "nt_refs": 2,
+    "books_count": 7,
+    "top_books": [
+      "Genesis",
+      "Deuteronomy",
+      "Galatians",
+      "Judges",
+      "2 Samuel",
+      "Ecclesiastes",
+      "Hebrews"
+    ]
+  }
 }

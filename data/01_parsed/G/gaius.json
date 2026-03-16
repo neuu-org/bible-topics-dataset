@@ -1,99 +1,106 @@
 {
   "topic": "GAIUS",
   "slug": "gaius",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "1. A Macedonian, and a companion of Paul",
+      "label": "1. A Macedonian, and a companion of Paul",
       "references": [],
-      "sub_groups": [
-        {
-          "name": "Seized at Ephesus Ac 19:29",
-          "references": [
-            "Acts 19:29"
-          ]
-        }
-      ]
+      "source": "NAV"
     },
     {
-      "name": "2. A man of Derbe; accompanied Paul from Macedonia Ac 20:4",
+      "label": ".Seized at Ephesus",
+      "references": [
+        "Acts 19:29"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2. A man of",
       "references": [
         "Acts 20:4"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "3. A Corinthian, whom Paul baptized Ro 16:23; 1Co 1:14",
+      "label": "3. A Corinthian, whom Paul baptized",
       "references": [
-        "Rom 16:23",
-        "1Cor 1:14"
+        "Romans 16:23",
+        "1 Corinthians 1:14"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "4. Man to whom John’s third epistle was addressed 3Jo 1:14",
-      "references": [
-        "3John 1"
-      ],
-      "sub_groups": []
+      "label": "4. Man to whom",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "1:14",
+      "references": [],
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "1 Corinthians",
-      "book_abbrev": "1co",
-      "chapter": 1,
+      "book": "Acts",
+      "chapter": 19,
+      "verses": [
+        29
+      ],
+      "verse_count": 1,
       "testament": "NT",
+      "raw": "Acts 19:29"
+    },
+    {
+      "book": "Acts",
+      "chapter": 20,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 20:4"
+    },
+    {
+      "book": "Romans",
+      "chapter": 16,
+      "verses": [
+        23
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Romans 16:23"
+    },
+    {
+      "book": "1 Corinthians",
+      "chapter": 1,
       "verses": [
         14
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "1 Corinthians 1:14"
     }
   ],
-  "see_also": [],
-  "aliases": [],
+  "books_mentioned": [
+    "1 Corinthians",
+    "Acts",
+    "Romans"
+  ],
   "stats": {
-    "entries_count": 4,
+    "total_aspects": 6,
+    "total_refs": 4,
     "ot_refs": 0,
-    "nt_refs": 1,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.687710+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    },
-    "enriched_at": "2025-12-02T22:02:10.314836+00:00",
-    "enrichment_source": "pipeline_merge"
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "1 Corinthians",
-      "chapter": 1,
-      "verses": [
-        14
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "1 Corinthians 1:14",
-      "source": "EAS"
-    },
-    {
-      "book": "3 John",
-      "chapter": 1,
-      "verses": [
-        1
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "3 John 1:1",
-      "source": "EAS"
-    }
-  ]
+    "nt_refs": 4,
+    "books_count": 3,
+    "top_books": [
+      "Acts",
+      "Romans",
+      "1 Corinthians"
+    ]
+  }
 }

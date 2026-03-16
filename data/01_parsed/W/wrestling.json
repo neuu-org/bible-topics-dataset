@@ -1,49 +1,67 @@
 {
   "topic": "WRESTLING",
   "slug": "wrestling",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "FIGURATIVE Ge 30:8; 32:24,25; Eph 6:12",
+      "label": "FIGURATIVE",
       "references": [
-        "Gen 30:8",
-        "Gen 32:24",
-        "Gen 32:25",
-        "Eph 6:12"
+        "Genesis 30:8",
+        "Genesis 32:24,25",
+        "Ephesians 6:12"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
+      "book": "Genesis",
+      "chapter": 30,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 30:8"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 32,
+      "verses": [
+        24,
+        25
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Genesis 32:24,25"
+    },
+    {
       "book": "Ephesians",
-      "book_abbrev": "eph",
       "chapter": 6,
-      "testament": "NT",
       "verses": [
         12
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Ephesians 6:12"
     }
   ],
-  "see_also": [],
-  "aliases": [],
+  "books_mentioned": [
+    "Ephesians",
+    "Genesis"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 1,
+    "total_refs": 3,
+    "ot_refs": 2,
     "nt_refs": 1,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.733955+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0"
+    "books_count": 2,
+    "top_books": [
+      "Genesis",
+      "Ephesians"
+    ]
+  }
 }

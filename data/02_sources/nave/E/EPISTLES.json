@@ -1,93 +1,104 @@
 {
   "topic": "EPISTLES",
-  "topic_slug": "epistles",
+  "slug": "epistles",
   "canonical_id": "NAV:epistles",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "LETTERS"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "LETTERS",
-      "clean": "LETTERS",
-      "slug": "letters",
-      "canonical_id": "NAV:letters"
+      "label": "From the congregation at",
+      "references": [
+        "Acts 15:23-29"
+      ]
+    },
+    {
+      "label": "Of",
+      "references": [
+        "Luke 1:1-4",
+        "Acts 1:1"
+      ]
+    },
+    {
+      "label": "Of Paul, see the Bibli",
+      "references": []
+    },
+    {
+      "label": "SECOND CORINTHIANS, GALATIANS, EPHESIANS, PHILIPPIANS, COLOSSIANS, THESSALONIANS,",
+      "references": []
+    },
+    {
+      "label": "TIMOTHY, TITUS, and PHILEMON.",
+      "references": []
+    },
+    {
+      "label": "Of JAMES, PETER, and",
+      "references": []
+    },
+    {
+      "label": "their names",
+      "references": []
+    },
+    {
+      "label": "SeeLETTERS",
+      "references": []
     }
   ],
-  "raw_block": "–From the congregation at Jerusalem to the GentilesAc 15:23-29\n–Of Luke to TheophilusLu 1:1-4;Ac 1:1\n–Of Paul, see the Biblical books of ROMANS, FIRST CORINTHIANS, \nSECOND CORINTHIANS, GALATIANS, EPHESIANS, PHILIPPIANS, COLOSSIANS, THESSALONIANS, \nTIMOTHY, TITUS, and PHILEMON.\n–Of JAMES, PETER, and JOHN, see books of the N. T. which bear \ntheir names\n–SeeLETTERS",
-  "content_preview": "–From the congregation at Jerusalem to the GentilesAc 15:23-29",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–From the congregation at Jerusalem to the GentilesAc 15:23-29",
-      "raw_segment": "–From the congregation at Jerusalem to the GentilesAc 15:23-29"
+      "book": "Acts",
+      "chapter": 15,
+      "verses": [
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ],
+      "verse_count": 7,
+      "testament": "NT",
+      "raw": "Acts 15:23-29"
     },
     {
-      "idx": 1,
-      "entry_label": "–Of Luke to TheophilusLu 1:1-4;Ac 1:1",
-      "raw_segment": "–Of Luke to TheophilusLu 1:1-4;Ac 1:1"
+      "book": "Luke",
+      "chapter": 1,
+      "verses": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "verse_count": 4,
+      "testament": "NT",
+      "raw": "Luke 1:1-4"
     },
     {
-      "idx": 2,
-      "entry_label": "–Of Paul, see the Biblical books of ROMANS, FIRST CORINTHIANS, \nSECOND CORINTHIANS, GALATIANS, EPHESIANS, PHILIPPIANS, COLOSSIANS, THESSALONIANS, \nTIMOTHY, TITUS, and PHILEMON.",
-      "raw_segment": "–Of Paul, see the Biblical books of ROMANS, FIRST CORINTHIANS, \nSECOND CORINTHIANS, GALATIANS, EPHESIANS, PHILIPPIANS, COLOSSIANS, THESSALONIANS, \nTIMOTHY, TITUS, and PHILEMON."
-    },
-    {
-      "idx": 3,
-      "entry_label": "–Of JAMES, PETER, and JOHN, see books of the N. T. which bear \ntheir names",
-      "raw_segment": "–Of JAMES, PETER, and JOHN, see books of the N. T. which bear \ntheir names"
-    },
-    {
-      "idx": 4,
-      "entry_label": "–SeeLETTERS",
-      "raw_segment": "–SeeLETTERS"
+      "book": "Acts",
+      "chapter": 1,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 1:1"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "Acts",
+    "Luke"
+  ],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 8,
+    "total_refs": 3,
     "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:20c4e7530fc105d99afe6a0402f047f5f88eb484609a6189998802c7ba6bd30e",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 8
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "nt_refs": 3,
+    "books_count": 2,
+    "top_books": [
+      "Acts",
+      "Luke"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:26:04.773475Z",
-  "updated_at": "2025-09-20T17:26:04.773482Z"
+  }
 }

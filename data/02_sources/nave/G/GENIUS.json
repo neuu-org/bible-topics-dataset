@@ -1,64 +1,87 @@
 {
   "topic": "GENIUS",
-  "topic_slug": "genius",
+  "slug": "genius",
   "canonical_id": "NAV:genius",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–Mechanical, a divine inspirationEx 28:3;31:2-11;35:30-35;36:1",
-  "content_preview": "–Mechanical, a divine inspirationEx 28:3;31:2-11;35:30-35;36:1",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–Mechanical, a divine inspirationEx 28:3;31:2-11;35:30-35;36:1",
-      "raw_segment": "–Mechanical, a divine inspirationEx 28:3;31:2-11;35:30-35;36:1"
+      "label": "Mechani",
+      "references": [
+        "Exodus 28:3",
+        "Exodus 31:2-11",
+        "Exodus 35:30-35",
+        "Exodus 36:1"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Exodus",
+      "chapter": 28,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 28:3"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 31,
+      "verses": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "verse_count": 10,
+      "testament": "OT",
+      "raw": "Exodus 31:2-11"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 35,
+      "verses": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "verse_count": 6,
+      "testament": "OT",
+      "raw": "Exodus 35:30-35"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 36,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 36:1"
+    }
+  ],
+  "books_mentioned": [
+    "Exodus"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 1,
+    "total_refs": 4,
+    "ot_refs": 4,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:9ad82d8f977f4184b8c5100070c970fae2e6b9fbc793c69be818dedeffbd68d7",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 1
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 1,
+    "top_books": [
+      "Exodus"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:26:36.388399Z",
-  "updated_at": "2025-09-20T17:26:36.388406Z"
+  }
 }

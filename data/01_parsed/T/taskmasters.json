@@ -1,55 +1,62 @@
 {
   "topic": "TASKMASTERS",
   "slug": "taskmasters",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "General scriptures concerning Ex 5:13,14",
-      "references": [
-        "Exod 5:13",
-        "Exod 5:14"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "See MASTERS",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "See OPPRESSION",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "See SERVANTS",
-      "references": [],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [
-    "OPPRESSION",
-    "MASTERS",
-    "SERVANTS"
-  ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 4,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.729111+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
+  "see_also": [
+    "MASTERS",
+    "OPPRESSION",
+    "SERVANTS"
+  ],
+  "aspects": [
+    {
+      "label": "General scriptures concerning",
+      "references": [
+        "Exodus 5:13,14"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeMASTERS",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeOPPRESSION",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeSERVANTS",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0"
+  ],
+  "biblical_references": [
+    {
+      "book": "Exodus",
+      "chapter": 5,
+      "verses": [
+        13,
+        14
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Exodus 5:13,14"
+    }
+  ],
+  "books_mentioned": [
+    "Exodus"
+  ],
+  "stats": {
+    "total_aspects": 4,
+    "total_refs": 1,
+    "ot_refs": 1,
+    "nt_refs": 0,
+    "books_count": 1,
+    "top_books": [
+      "Exodus"
+    ]
+  }
 }

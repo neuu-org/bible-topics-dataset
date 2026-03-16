@@ -1,57 +1,28 @@
 {
   "topic": "BEZAI",
   "slug": "bezai",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. Head of a Jewish family, which retumed from Babylon Ezr 2:17; Ne 7:23",
-      "references": [
-        "Ezra 2:17",
-        "Neh 7:23"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "2. A family that sealed the covenant with Nehemiah Ne 10:18",
-      "references": [
-        "Neh 10:18"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Nehemiah",
-      "book_abbrev": "neh",
-      "chapter": 7,
-      "testament": "OT",
-      "verses": [
-        23
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.674307+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "1. Head of a Jewish family, which retumed from Babylon",
+      "references": [
+        "Ezra 2:17",
+        "Nehemiah 7:23"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2. A family that sealed the covenant with Nehemiah",
+      "references": [
+        "Nehemiah 10:18"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Ezra",
       "chapter": 2,
@@ -60,8 +31,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Ezra 2:17",
-      "source": "SMI"
+      "raw": "Ezra 2:17"
     },
     {
       "book": "Nehemiah",
@@ -71,8 +41,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Nehemiah 7:23",
-      "source": "SMI"
+      "raw": "Nehemiah 7:23"
     },
     {
       "book": "Nehemiah",
@@ -82,8 +51,22 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Nehemiah 10:18",
-      "source": "SMI"
+      "raw": "Nehemiah 10:18"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Ezra",
+    "Nehemiah"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 3,
+    "ot_refs": 3,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "Nehemiah",
+      "Ezra"
+    ]
+  }
 }

@@ -1,36 +1,53 @@
 {
   "topic": "SPAN",
   "slug": "span",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "About nine or ten inches Ex 28:16; 39:9",
-      "references": [
-        "Exod 28:16",
-        "Exod 39:9"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.727259+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "About nine or ten inches",
+      "references": [
+        "Exodus 28:16",
+        "Exodus 39:9"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0"
+  ],
+  "biblical_references": [
+    {
+      "book": "Exodus",
+      "chapter": 28,
+      "verses": [
+        16
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 28:16"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 39,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 39:9"
+    }
+  ],
+  "books_mentioned": [
+    "Exodus"
+  ],
+  "stats": {
+    "total_aspects": 1,
+    "total_refs": 2,
+    "ot_refs": 2,
+    "nt_refs": 0,
+    "books_count": 1,
+    "top_books": [
+      "Exodus"
+    ]
+  }
 }

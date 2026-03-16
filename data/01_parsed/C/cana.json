@@ -1,53 +1,34 @@
 {
   "topic": "CANA",
   "slug": "cana",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Marriage at Joh 2:1-11",
-      "references": [
-        "John 2:1-11"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Nobleman’s son healed at Joh 4:46,47",
-      "references": [
-        "John 4:46",
-        "John 4:47"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Nathanael’s home at Joh 21:2",
-      "references": [
-        "John 21:2"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.676168+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "Marriage at",
+      "references": [
+        "John 2:1-11"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Nobleman’s",
+      "references": [
+        "John 4:46,47"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Nathanael’s home at",
+      "references": [
+        "John 21:2"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "John",
       "chapter": 2,
@@ -66,30 +47,18 @@
       ],
       "verse_count": 11,
       "testament": "NT",
-      "raw": "John 2:1-11",
-      "source": "EAS"
+      "raw": "John 2:1-11"
     },
     {
       "book": "John",
       "chapter": 4,
       "verses": [
-        46
+        46,
+        47
       ],
-      "verse_count": 1,
+      "verse_count": 2,
       "testament": "NT",
-      "raw": "John 4:46",
-      "source": "EAS"
-    },
-    {
-      "book": "Joshua",
-      "chapter": 19,
-      "verses": [
-        28
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Joshua 19:28",
-      "source": "EAS"
+      "raw": "John 4:46,47"
     },
     {
       "book": "John",
@@ -99,32 +68,20 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "John 21:2",
-      "source": "EAS"
-    },
-    {
-      "book": "John",
-      "chapter": 2,
-      "verses": [
-        1,
-        11
-      ],
-      "verse_count": 2,
-      "testament": "NT",
-      "raw": "John 2:1,11",
-      "source": "SMI"
-    },
-    {
-      "book": "John",
-      "chapter": 4,
-      "verses": [
-        46,
-        54
-      ],
-      "verse_count": 2,
-      "testament": "NT",
-      "raw": "John 4:46,54",
-      "source": "SMI"
+      "raw": "John 21:2"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "John"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 3,
+    "ot_refs": 0,
+    "nt_refs": 3,
+    "books_count": 1,
+    "top_books": [
+      "John"
+    ]
+  }
 }

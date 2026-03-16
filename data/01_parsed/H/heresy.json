@@ -1,118 +1,126 @@
 {
   "topic": "HERESY",
   "slug": "heresy",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [
+    "TEACHERS, FALSE"
+  ],
+  "aspects": [
     {
-      "name": "The propagation of, forbidden under severe penalties De 13; Tit 3:10,11; 2Jo 1:10,11",
+      "label": "The propagation of, forbid",
       "references": [
-        "Deut 13",
-        "Titus 3:10",
-        "Titus 3:11",
-        "2John 1"
+        "Titus 3:10,11",
+        "Job 1:10,11"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Teachers of, among early Christians Ac 15:24; 2Co 11:4; Ga 1:7; 2:4; 2Pe 2; Jude 1:3-16; Re 2:2",
+      "label": "Teachers of, among early Christians",
       "references": [
         "Acts 15:24",
-        "2Cor 11:4",
-        "Gal 1:7",
-        "Gal 2:4",
-        "2Pet 2",
-        "Jude 1",
-        "Rev 2:2"
+        "2 Corinthians 11:4",
+        "Galatians 1:7",
+        "Galatians 2:4",
+        "Deuteronomy 1:3-16",
+        "Revelation 2:2"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Paul and Silas accused of Ac 16:20,21,23",
+      "label": "Paul and Silas accused of",
       "references": [
-        "Acts 16:20",
-        "Acts 16:21",
-        "Acts 16:23"
+        "Acts 16:20,21,23"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Paul accused of Ac 18:13",
+      "label": "Paul accused of",
       "references": [
         "Acts 18:13"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Disavowed by Paul Ac 24:13-16",
+      "label": "D",
       "references": [
         "Acts 24:13-16"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See TEACHERS, FALSE",
+      "label": "SeeTEACHERS, FALSE",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "2 Corinthians",
-      "book_abbrev": "2co",
-      "chapter": 11,
+      "book": "Titus",
+      "chapter": 3,
+      "verses": [
+        10,
+        11
+      ],
+      "verse_count": 2,
       "testament": "NT",
+      "raw": "Titus 3:10,11"
+    },
+    {
+      "book": "Job",
+      "chapter": 1,
+      "verses": [
+        10,
+        11
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Job 1:10,11"
+    },
+    {
+      "book": "Acts",
+      "chapter": 15,
+      "verses": [
+        24
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 15:24"
+    },
+    {
+      "book": "2 Corinthians",
+      "chapter": 11,
       "verses": [
         4
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "2 Corinthians 11:4"
     },
     {
       "book": "Galatians",
-      "book_abbrev": "gal",
       "chapter": 1,
-      "testament": "NT",
       "verses": [
-        2,
         7
       ],
-      "verse_count": 2
-    },
-    {
-      "book": "Titus",
-      "book_abbrev": "tit",
-      "chapter": 3,
+      "verse_count": 1,
       "testament": "NT",
-      "verses": [
-        2,
-        10,
-        11
-      ],
-      "verse_count": 3
+      "raw": "Galatians 1:7"
     },
     {
-      "book": "2 Peter",
-      "book_abbrev": "2pe",
+      "book": "Galatians",
       "chapter": 2,
-      "testament": "NT",
-      "verses": [],
-      "verse_count": 1
-    },
-    {
-      "book": "2 John",
-      "book_abbrev": "2jn",
-      "chapter": 1,
-      "testament": "NT",
       "verses": [
-        10,
-        11
+        4
       ],
-      "verse_count": 2
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Galatians 2:4"
     },
     {
-      "book": "Jude",
-      "book_abbrev": "jud",
+      "book": "Deuteronomy",
       "chapter": 1,
-      "testament": "NT",
       "verses": [
         3,
         4,
@@ -129,85 +137,79 @@
         15,
         16
       ],
-      "verse_count": 14
+      "verse_count": 14,
+      "testament": "OT",
+      "raw": "Deuteronomy 1:3-16"
     },
     {
       "book": "Revelation",
-      "book_abbrev": "rev",
       "chapter": 2,
-      "testament": "NT",
       "verses": [
         2
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Revelation 2:2"
+    },
+    {
+      "book": "Acts",
+      "chapter": 16,
+      "verses": [
+        20,
+        21,
+        23
+      ],
+      "verse_count": 3,
+      "testament": "NT",
+      "raw": "Acts 16:20,21,23"
+    },
+    {
+      "book": "Acts",
+      "chapter": 18,
+      "verses": [
+        13
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 18:13"
+    },
+    {
+      "book": "Acts",
+      "chapter": 24,
+      "verses": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "verse_count": 4,
+      "testament": "NT",
+      "raw": "Acts 24:13-16"
     }
   ],
-  "see_also": [
-    "TEACHERS, FALSE"
+  "books_mentioned": [
+    "2 Corinthians",
+    "Acts",
+    "Deuteronomy",
+    "Galatians",
+    "Job",
+    "Revelation",
+    "Titus"
   ],
-  "aliases": [],
   "stats": {
-    "entries_count": 6,
-    "ot_refs": 0,
-    "nt_refs": 7,
-    "total_verses": 7
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.692049+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "Galatians",
-      "chapter": 5,
-      "verses": [
-        20
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Galatians 5:20",
-      "source": "EAS"
-    },
-    {
-      "book": "1 Corinthians",
-      "chapter": 11,
-      "verses": [
-        19
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "1 Corinthians 11:19",
-      "source": "EAS"
-    },
-    {
-      "book": "2 Peter",
-      "chapter": 2,
-      "verses": [
-        1
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "2 Peter 2:1",
-      "source": "EAS"
-    },
-    {
-      "book": "Titus",
-      "chapter": 3,
-      "verses": [
-        10
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Titus 3:10",
-      "source": "EAS"
-    }
-  ]
+    "total_aspects": 6,
+    "total_refs": 11,
+    "ot_refs": 2,
+    "nt_refs": 9,
+    "books_count": 7,
+    "top_books": [
+      "Acts",
+      "Galatians",
+      "Titus",
+      "Job",
+      "2 Corinthians",
+      "Deuteronomy",
+      "Revelation"
+    ]
+  }
 }

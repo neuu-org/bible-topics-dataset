@@ -1,57 +1,28 @@
 {
   "topic": "AHIMAN",
   "slug": "ahiman",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. A giant of Hebron Nu 13:22; Jos 15:14",
-      "references": [
-        "Num 13:22",
-        "Josh 15:14"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "2. A Levite 1Ch 9:17",
-      "references": [
-        "1Chr 9:17"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Joshua",
-      "book_abbrev": "jos",
-      "chapter": 15,
-      "testament": "OT",
-      "verses": [
-        14
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.662037+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "1. A giant of Hebron",
+      "references": [
+        "Numbers 13:22",
+        "Joshua 15:14"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2. A Levite",
+      "references": [
+        "1 Chronicles 9:17"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Numbers",
       "chapter": 13,
@@ -60,8 +31,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Numbers 13:22",
-      "source": "EAS"
+      "raw": "Numbers 13:22"
     },
     {
       "book": "Joshua",
@@ -71,19 +41,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Joshua 15:14",
-      "source": "EAS"
-    },
-    {
-      "book": "Judges",
-      "chapter": 1,
-      "verses": [
-        10
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Judges 1:10",
-      "source": "EAS"
+      "raw": "Joshua 15:14"
     },
     {
       "book": "1 Chronicles",
@@ -93,8 +51,24 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 9:17",
-      "source": "EAS"
+      "raw": "1 Chronicles 9:17"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Joshua",
+    "Numbers"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 3,
+    "ot_refs": 3,
+    "nt_refs": 0,
+    "books_count": 3,
+    "top_books": [
+      "Numbers",
+      "Joshua",
+      "1 Chronicles"
+    ]
+  }
 }

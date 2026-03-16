@@ -1,123 +1,79 @@
 {
   "topic": "HEBER",
   "slug": "heber",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "1. Head of a family in the tribe of Gad 1Ch 5:13",
+      "label": "1. Head of a family in the tribe of Gad",
       "references": [
-        "1Chr 5:13"
+        "1 Chronicles 5:13"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "2. A Benjamite 1Ch 8:22",
+      "label": "2. A Benjamite",
       "references": [
-        "1Chr 8:22"
+        "1 Chronicles 8:22"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "3. A son of Beriah Ge 46:17; Nu 26:45; 1Ch 7:31,32; Lu 3:35",
+      "label": "3. A",
       "references": [
-        "Gen 46:17",
-        "Num 26:45",
-        "1Chr 7:31",
-        "1Chr 7:32",
+        "Genesis 46:17",
+        "Numbers 26:45",
+        "1 Chronicles 7:31,32",
         "Luke 3:35"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "4. Husband of Jael Jud 4:11,17,21; 5:24",
+      "label": "4. Husband of Jael",
       "references": [
-        "Judg 4:11",
-        "Judg 4:17",
-        "Judg 4:21",
-        "Judg 5:24"
+        "Judges 4:11,17,21",
+        "Judges 5:24"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "5. Son of Ezra 1Ch 4:18",
+      "label": "5.",
       "references": [
-        "Ezra 1"
+        "1 Chronicles 4:18"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "6. A Benjamite 1Ch 8:17",
+      "label": "6. A Benjamite",
       "references": [
-        "1Chr 8:17"
+        "1 Chronicles 8:17"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Numbers",
-      "book_abbrev": "num",
-      "chapter": 26,
-      "testament": "OT",
+      "book": "1 Chronicles",
+      "chapter": 5,
       "verses": [
-        1,
-        45
+        13
       ],
-      "verse_count": 2
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 5:13"
     },
     {
       "book": "1 Chronicles",
-      "book_abbrev": "1ch",
-      "chapter": 7,
+      "chapter": 8,
+      "verses": [
+        22
+      ],
+      "verse_count": 1,
       "testament": "OT",
-      "verses": [
-        31,
-        32
-      ],
-      "verse_count": 2
+      "raw": "1 Chronicles 8:22"
     },
-    {
-      "book": "1 Chronicles",
-      "book_abbrev": "1ch",
-      "chapter": 4,
-      "testament": "OT",
-      "verses": [
-        18
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Luke",
-      "book_abbrev": "luk",
-      "chapter": 3,
-      "testament": "NT",
-      "verses": [
-        35
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 6,
-    "ot_refs": 3,
-    "nt_refs": 1,
-    "total_verses": 4
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.691595+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
     {
       "book": "Genesis",
       "chapter": 46,
@@ -126,8 +82,17 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 46:17",
-      "source": "EAS"
+      "raw": "Genesis 46:17"
+    },
+    {
+      "book": "Numbers",
+      "chapter": 26,
+      "verses": [
+        45
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Numbers 26:45"
     },
     {
       "book": "1 Chronicles",
@@ -138,20 +103,29 @@
       ],
       "verse_count": 2,
       "testament": "OT",
-      "raw": "1 Chronicles 7:31, 32",
-      "source": "EAS"
+      "raw": "1 Chronicles 7:31,32"
+    },
+    {
+      "book": "Luke",
+      "chapter": 3,
+      "verses": [
+        35
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 3:35"
     },
     {
       "book": "Judges",
       "chapter": 4,
       "verses": [
         11,
-        17
+        17,
+        21
       ],
-      "verse_count": 2,
+      "verse_count": 3,
       "testament": "OT",
-      "raw": "Judges 4:11, 17",
-      "source": "EAS"
+      "raw": "Judges 4:11,17,21"
     },
     {
       "book": "Judges",
@@ -161,19 +135,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Judges 5:24",
-      "source": "EAS"
-    },
-    {
-      "book": "1 Chronicles",
-      "chapter": 8,
-      "verses": [
-        17
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "1 Chronicles 8:17",
-      "source": "EAS"
+      "raw": "Judges 5:24"
     },
     {
       "book": "1 Chronicles",
@@ -183,19 +145,38 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 4:18",
-      "source": "EAS"
+      "raw": "1 Chronicles 4:18"
     },
     {
       "book": "1 Chronicles",
-      "chapter": 5,
+      "chapter": 8,
       "verses": [
-        13
+        17
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 5:13",
-      "source": "EAS"
+      "raw": "1 Chronicles 8:17"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Genesis",
+    "Judges",
+    "Luke",
+    "Numbers"
+  ],
+  "stats": {
+    "total_aspects": 6,
+    "total_refs": 10,
+    "ot_refs": 9,
+    "nt_refs": 1,
+    "books_count": 5,
+    "top_books": [
+      "1 Chronicles",
+      "Judges",
+      "Genesis",
+      "Numbers",
+      "Luke"
+    ]
+  }
 }

@@ -1,56 +1,32 @@
 {
   "topic": "ARBA",
   "slug": "arba",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. Father of Anak Jos 15:13",
-      "references": [
-        "Josh 15:13"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "2. ARBA",
-      "references": [],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [
-    "HEBRON"
-  ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.669444+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "see_also": [
+    "HEBRON"
+  ],
+  "aspects": [
     {
-      "book": "Joshua",
-      "chapter": 14,
-      "verses": [
-        15
+      "label": "1. Father of Anak",
+      "references": [
+        "Joshua 15:13"
       ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Joshua 14:15",
-      "source": "EAS"
+      "source": "NAV"
     },
+    {
+      "label": "2. ARBA",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".SeeHEBRON",
+      "references": [],
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
     {
       "book": "Joshua",
       "chapter": 15,
@@ -59,41 +35,20 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Joshua 15:13",
-      "source": "EAS"
-    },
-    {
-      "book": "Joshua",
-      "chapter": 21,
-      "verses": [
-        11
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Joshua 21:11",
-      "source": "EAS"
-    },
-    {
-      "book": "Genesis",
-      "chapter": 13,
-      "verses": [
-        18
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Genesis 13:18",
-      "source": "EAS"
-    },
-    {
-      "book": "Genesis",
-      "chapter": 23,
-      "verses": [
-        2
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Genesis 23:2",
-      "source": "EAS"
+      "raw": "Joshua 15:13"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Joshua"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 1,
+    "ot_refs": 1,
+    "nt_refs": 0,
+    "books_count": 1,
+    "top_books": [
+      "Joshua"
+    ]
+  }
 }

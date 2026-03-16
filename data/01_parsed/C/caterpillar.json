@@ -1,76 +1,30 @@
 {
   "topic": "CATERPILLAR",
   "slug": "caterpillar",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Sent as a judgment 1Ki 8:37; Ps 78:46; 105:34; Jer 51:27; Joe 1:4; 2:25",
-      "references": [
-        "1Kgs 8:37",
-        "Ps 78:46",
-        "Ps 105:34",
-        "Jer 51:27",
-        "Joel 1:4",
-        "Joel 2:25"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Psalms",
-      "book_abbrev": "psa",
-      "chapter": 78,
-      "testament": "OT",
-      "verses": [
-        46,
-        105
-      ],
-      "verse_count": 2
-    },
-    {
-      "book": "Jeremiah",
-      "book_abbrev": "jer",
-      "chapter": 51,
-      "testament": "OT",
-      "verses": [
-        27
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Joel",
-      "book_abbrev": "jol",
-      "chapter": 1,
-      "testament": "OT",
-      "verses": [
-        2,
-        4
-      ],
-      "verse_count": 2
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 3,
-    "nt_refs": 0,
-    "total_verses": 3
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.676646+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "Sent as a",
+      "references": [
+        "1 Kings 8:37",
+        "Psalms 78:46",
+        "Psalms 105:34"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "51:27;",
+      "references": [
+        "Joel 1:4",
+        "Joel 2:25"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "1 Kings",
       "chapter": 8,
@@ -79,19 +33,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Kings 8:37",
-      "source": "EAS"
-    },
-    {
-      "book": "2 Chronicles",
-      "chapter": 6,
-      "verses": [
-        28
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "2 Chronicles 6:28",
-      "source": "EAS"
+      "raw": "1 Kings 8:37"
     },
     {
       "book": "Psalms",
@@ -101,19 +43,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Psalms 78:46",
-      "source": "EAS"
-    },
-    {
-      "book": "Isaiah",
-      "chapter": 33,
-      "verses": [
-        4
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Isaiah 33:4",
-      "source": "EAS"
+      "raw": "Psalms 78:46"
     },
     {
       "book": "Psalms",
@@ -123,31 +53,17 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Psalms 105:34",
-      "source": "EAS"
+      "raw": "Psalms 105:34"
     },
     {
-      "book": "Jeremiah",
+      "book": "Psalms",
       "chapter": 51,
       "verses": [
-        14,
         27
-      ],
-      "verse_count": 2,
-      "testament": "OT",
-      "raw": "Jeremiah 51:14, 27",
-      "source": "EAS"
-    },
-    {
-      "book": "Deuteronomy",
-      "chapter": 28,
-      "verses": [
-        38
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Deuteronomy 28:38",
-      "source": "EAS"
+      "raw": "Psalms 51:27"
     },
     {
       "book": "Joel",
@@ -157,8 +73,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Joel 1:4",
-      "source": "EAS"
+      "raw": "Joel 1:4"
     },
     {
       "book": "Joel",
@@ -168,8 +83,24 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Joel 2:25",
-      "source": "EAS"
+      "raw": "Joel 2:25"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Kings",
+    "Joel",
+    "Psalms"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 6,
+    "ot_refs": 6,
+    "nt_refs": 0,
+    "books_count": 3,
+    "top_books": [
+      "Psalms",
+      "Joel",
+      "1 Kings"
+    ]
+  }
 }

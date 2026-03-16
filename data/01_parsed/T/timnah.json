@@ -1,85 +1,69 @@
 {
   "topic": "TIMNAH",
   "slug": "timnah",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "1. A duke of Edom Ge 36:40; 1Ch 1:51",
+      "label": "1. A duke of Edom",
       "references": [
-        "Gen 36:40",
-        "1Chr 1:51"
+        "Genesis 36:40",
+        "1 Chronicles 1:51"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "2. A city in the territory of the tribe of Judah Jos 15:10; 2Ch 28:18",
-      "references": [
-        "Josh 15:10",
-        "2Chr 28:18"
-      ],
-      "sub_groups": []
+      "label": "2. A city in the territory of the tribe of",
+      "references": [],
+      "source": "NAV"
     },
     {
-      "name": "3. A city in the mountains of Judah Jos 15:57",
+      "label": "15:10;",
       "references": [
-        "Josh 15:57"
+        "2 Chronicles 28:18"
       ],
-      "sub_groups": []
+      "source": "NAV"
+    },
+    {
+      "label": "3. A city in the mountains of",
+      "references": [
+        "Joshua 15:57"
+      ],
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "1 Chronicles",
-      "book_abbrev": "1ch",
-      "chapter": 1,
+      "book": "Genesis",
+      "chapter": 36,
+      "verses": [
+        40
+      ],
+      "verse_count": 1,
       "testament": "OT",
+      "raw": "Genesis 36:40"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 1,
       "verses": [
         51
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 1:51"
     },
     {
-      "book": "2 Chronicles",
-      "book_abbrev": "2ch",
-      "chapter": 28,
-      "testament": "OT",
-      "verses": [
-        18
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 2,
-    "nt_refs": 0,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.730164+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "Joshua",
+      "book": "1 Chronicles",
       "chapter": 15,
       "verses": [
         10
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Joshua 15:10",
-      "source": "EAS"
+      "raw": "1 Chronicles 15:10"
     },
     {
       "book": "2 Chronicles",
@@ -89,31 +73,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Chronicles 28:18",
-      "source": "EAS"
-    },
-    {
-      "book": "Joshua",
-      "chapter": 19,
-      "verses": [
-        43
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Joshua 19:43",
-      "source": "EAS"
-    },
-    {
-      "book": "Judges",
-      "chapter": 14,
-      "verses": [
-        1,
-        5
-      ],
-      "verse_count": 2,
-      "testament": "OT",
-      "raw": "Judges 14:1, 5",
-      "source": "EAS"
+      "raw": "2 Chronicles 28:18"
     },
     {
       "book": "Joshua",
@@ -123,19 +83,26 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Joshua 15:57",
-      "source": "EAS"
-    },
-    {
-      "book": "Genesis",
-      "chapter": 36,
-      "verses": [
-        40
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Genesis 36:40",
-      "source": "EAS"
+      "raw": "Joshua 15:57"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "2 Chronicles",
+    "Genesis",
+    "Joshua"
+  ],
+  "stats": {
+    "total_aspects": 4,
+    "total_refs": 5,
+    "ot_refs": 5,
+    "nt_refs": 0,
+    "books_count": 4,
+    "top_books": [
+      "1 Chronicles",
+      "Genesis",
+      "2 Chronicles",
+      "Joshua"
+    ]
+  }
 }

@@ -1,76 +1,64 @@
 {
   "topic": "JAVELIN",
   "slug": "javelin",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "A heavy lance Eze 39:9",
+      "label": "A heavy lance",
       "references": [
-        "Ezek 39:9"
+        "Ezekiel 39:9"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Used by Goliath (R. V.) 1Sa 17:6",
+      "label": "Used by Goliath (R. V.)",
       "references": [
-        "1Sam 17:6"
+        "1 Samuel 17:6"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Used by Saul 1Sa 18:11; 19:9,10",
+      "label": "Used by Saul",
       "references": [
-        "1Sam 18:11",
-        "1Sam 19:9",
-        "1Sam 19:10"
+        "1 Samuel 18:11",
+        "1 Samuel 19:9,10"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "1 Samuel",
-      "book_abbrev": "1sa",
-      "chapter": 17,
+      "book": "Ezekiel",
+      "chapter": 39,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
       "testament": "OT",
+      "raw": "Ezekiel 39:9"
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 17,
       "verses": [
         6
       ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.695957+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Samuel 17:6"
+    },
     {
       "book": "1 Samuel",
       "chapter": 18,
       "verses": [
-        10,
         11
       ],
-      "verse_count": 2,
+      "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Samuel 18:10, 11",
-      "source": "EAS"
+      "raw": "1 Samuel 18:11"
     },
     {
       "book": "1 Samuel",
@@ -81,30 +69,22 @@
       ],
       "verse_count": 2,
       "testament": "OT",
-      "raw": "1 Samuel 19:9, 10",
-      "source": "EAS"
-    },
-    {
-      "book": "1 Samuel",
-      "chapter": 20,
-      "verses": [
-        33
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "1 Samuel 20:33",
-      "source": "EAS"
-    },
-    {
-      "book": "Numbers",
-      "chapter": 25,
-      "verses": [
-        7
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Numbers 25:7",
-      "source": "EAS"
+      "raw": "1 Samuel 19:9,10"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Samuel",
+    "Ezekiel"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 4,
+    "ot_refs": 4,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "1 Samuel",
+      "Ezekiel"
+    ]
+  }
 }

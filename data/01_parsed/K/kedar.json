@@ -1,97 +1,48 @@
 {
   "topic": "KEDAR",
   "slug": "kedar",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. Son of Ishmael Ge 25:13; 1Ch 1:29",
-      "references": [
-        "Gen 25:13",
-        "1Chr 1:29"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "2. A nomadic clan of the Ishmaelites Ps 120:5; So 1:5; Isa 21:16; 42:11; 60:7; Jer 49:28",
-      "references": [
-        "Ps 120:5",
-        "Song 1:5",
-        "Isa 21:16",
-        "Isa 42:11",
-        "Isa 60:7",
-        "Jer 49:28"
-      ],
-      "sub_groups": [
-        {
-          "name": "Flocks of Isa 60:7; Jer 49:28",
-          "references": [
-            "Isa 60:7",
-            "Jer 49:28"
-          ]
-        },
-        {
-          "name": "Princes and commerce of Eze 27:21",
-          "references": [
-            "Ezek 27:21"
-          ]
-        }
-      ]
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "1 Chronicles",
-      "book_abbrev": "1ch",
-      "chapter": 1,
-      "testament": "OT",
-      "verses": [
-        29
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Isaiah",
-      "book_abbrev": "isa",
-      "chapter": 21,
-      "testament": "OT",
-      "verses": [
-        16,
-        42
-      ],
-      "verse_count": 2
-    },
-    {
-      "book": "Jeremiah",
-      "book_abbrev": "jer",
-      "chapter": 49,
-      "testament": "OT",
-      "verses": [
-        28
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 3,
-    "nt_refs": 0,
-    "total_verses": 3
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.698483+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "1.",
+      "references": [
+        "Genesis 25:13",
+        "1 Chronicles 1:29"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2. A nomadic clan of the Ishmaelites",
+      "references": [
+        "Psalms 120:5",
+        "Song of Solomon 1:5",
+        "Isaiah 21:16",
+        "Isaiah 42:11",
+        "Isaiah 60:7",
+        "Jeremiah 49:28"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".Flocks of",
+      "references": [
+        "Isaiah 60:7",
+        "Jeremiah 49:28"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".Princes and commerce of",
+      "references": [
+        "Ezekiel 27:21"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Genesis",
       "chapter": 25,
@@ -100,74 +51,17 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 25:13",
-      "source": "EAS"
+      "raw": "Genesis 25:13"
     },
     {
-      "book": "Isaiah",
-      "chapter": 21,
-      "verses": [
-        16
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Isaiah 21:16",
-      "source": "EAS"
-    },
-    {
-      "book": "Isaiah",
-      "chapter": 42,
-      "verses": [
-        11
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Isaiah 42:11",
-      "source": "EAS"
-    },
-    {
-      "book": "Isaiah",
-      "chapter": 60,
-      "verses": [
-        7
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Isaiah 60:7",
-      "source": "EAS"
-    },
-    {
-      "book": "Jeremiah",
-      "chapter": 2,
-      "verses": [
-        10
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Jeremiah 2:10",
-      "source": "EAS"
-    },
-    {
-      "book": "Ezekiel",
-      "chapter": 27,
-      "verses": [
-        21
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Ezekiel 27:21",
-      "source": "EAS"
-    },
-    {
-      "book": "Song of Solomon",
+      "book": "1 Chronicles",
       "chapter": 1,
       "verses": [
-        5
+        29
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Song of Solomon 1:5",
-      "source": "EAS"
+      "raw": "1 Chronicles 1:29"
     },
     {
       "book": "Psalms",
@@ -177,68 +71,92 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Psalms 120:5",
-      "source": "EAS"
+      "raw": "Psalms 120:5"
     },
     {
-      "book": "Jeremiah",
-      "chapter": 49,
-      "verses": [
-        28,
-        29
-      ],
-      "verse_count": 2,
-      "testament": "OT",
-      "raw": "Jeremiah 49:28, 29",
-      "source": "EAS"
-    },
-    {
-      "book": "1 Chronicles",
+      "book": "Song of Solomon",
       "chapter": 1,
-      "verses": [
-        29
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "1 Chronicles 1:29",
-      "source": "SMI"
-    },
-    {
-      "book": "Isaiah",
-      "chapter": 21,
-      "verses": [
-        13,
-        14,
-        15,
-        16,
-        17
-      ],
-      "verse_count": 5,
-      "testament": "OT",
-      "raw": "Isaiah 21:13-17",
-      "source": "SMI"
-    },
-    {
-      "book": "Isaiah",
-      "chapter": 21,
-      "verses": [
-        17
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Isaiah 21:17",
-      "source": "SMI"
-    },
-    {
-      "book": "Isaiah",
-      "chapter": 120,
       "verses": [
         5
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Isaiah 120:5",
-      "source": "SMI"
+      "raw": "Song of Solomon 1:5"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 21,
+      "verses": [
+        16
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 21:16"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 42,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 42:11"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 60,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 60:7"
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 49,
+      "verses": [
+        28
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Jeremiah 49:28"
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 27,
+      "verses": [
+        21
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezekiel 27:21"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Ezekiel",
+    "Genesis",
+    "Isaiah",
+    "Jeremiah",
+    "Psalms",
+    "Song of Solomon"
+  ],
+  "stats": {
+    "total_aspects": 4,
+    "total_refs": 9,
+    "ot_refs": 9,
+    "nt_refs": 0,
+    "books_count": 7,
+    "top_books": [
+      "Isaiah",
+      "Genesis",
+      "1 Chronicles",
+      "Psalms",
+      "Song of Solomon",
+      "Jeremiah",
+      "Ezekiel"
+    ]
+  }
 }

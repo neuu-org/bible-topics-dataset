@@ -1,88 +1,108 @@
 {
   "topic": "EPHAH",
-  "topic_slug": "ephah",
+  "slug": "ephah",
   "canonical_id": "NAV:ephah",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "MEASURE, DRY"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "MEASURE, DRY",
-      "clean": "MEASURE, DRY",
-      "slug": "measure__dry",
-      "canonical_id": "NAV:measure__dry"
+      "label": "1. A",
+      "references": [
+        "Genesis 25:4",
+        "1 Chronicles 1:33",
+        "Isaiah 60:6"
+      ]
+    },
+    {
+      "label": "2.",
+      "references": [
+        "1 Chronicles 2:46"
+      ]
+    },
+    {
+      "label": "3.",
+      "references": [
+        "1 Chronicles 2:47"
+      ]
+    },
+    {
+      "label": "4. A measure of about three pecks",
+      "references": []
+    },
+    {
+      "label": ".SeeMEASURE, DRY",
+      "references": []
     }
   ],
-  "raw_block": "–1. A son of MidianGe 25:4;1Ch 1:33;Isa 60:6\n–2. Caleb’s concubine1Ch 2:46\n–3. Son of Jahdai1Ch 2:47\n–4. A measure of about three pecks\n  .SeeMEASURE, DRY",
-  "content_preview": "–1. A son of MidianGe 25:4;1Ch 1:33;Isa 60:6",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–1. A son of MidianGe 25:4;1Ch 1:33;Isa 60:6",
-      "raw_segment": "–1. A son of MidianGe 25:4;1Ch 1:33;Isa 60:6"
+      "book": "Genesis",
+      "chapter": 25,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 25:4"
     },
     {
-      "idx": 1,
-      "entry_label": "–2. Caleb’s concubine1Ch 2:46",
-      "raw_segment": "–2. Caleb’s concubine1Ch 2:46"
+      "book": "1 Chronicles",
+      "chapter": 1,
+      "verses": [
+        33
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 1:33"
     },
     {
-      "idx": 2,
-      "entry_label": "–3. Son of Jahdai1Ch 2:47",
-      "raw_segment": "–3. Son of Jahdai1Ch 2:47"
+      "book": "Isaiah",
+      "chapter": 60,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 60:6"
     },
     {
-      "idx": 3,
-      "entry_label": "–4. A measure of about three pecks",
-      "raw_segment": "–4. A measure of about three pecks"
+      "book": "1 Chronicles",
+      "chapter": 2,
+      "verses": [
+        46
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 2:46"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 2,
+      "verses": [
+        47
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 2:47"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Genesis",
+    "Isaiah"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 5,
+    "total_refs": 5,
+    "ot_refs": 5,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:426781171f609252765c5e19ff74765696b2d0406f2e2f3954549f0a5209ede1",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 5
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 3,
+    "top_books": [
+      "1 Chronicles",
+      "Genesis",
+      "Isaiah"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:26:02.951846Z",
-  "updated_at": "2025-09-20T17:26:02.951853Z"
+  }
 }

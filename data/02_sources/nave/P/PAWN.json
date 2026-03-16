@@ -1,78 +1,128 @@
 {
   "topic": "PAWN",
-  "topic_slug": "pawn",
+  "slug": "pawn",
   "canonical_id": "NAV:pawn",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "SURETY"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "SURETY",
-      "clean": "SURETY",
-      "slug": "surety",
-      "canonical_id": "NAV:surety"
-    }
-  ],
-  "raw_block": "–General scriptures concerningEx 22:26;De 24:10-13,17;Job 24:3;Pr 22:27;Eze 18:5,7,12;33:15;Am 2:8\n–SeeSURETY",
-  "content_preview": "–General scriptures concerningEx 22:26;De 24:10-13,17;Job 24:3;Pr 22:27;Eze 18:5,7,12;33:15;Am 2:8",
-  "reference_groups": [
-    {
-      "idx": 0,
-      "entry_label": "–General scriptures concerningEx 22:26;De 24:10-13,17;Job 24:3;Pr 22:27;Eze 18:5,7,12;33:15;Am 2:8",
-      "raw_segment": "–General scriptures concerningEx 22:26;De 24:10-13,17;Job 24:3;Pr 22:27;Eze 18:5,7,12;33:15;Am 2:8"
+      "label": "General scriptures concerning",
+      "references": [
+        "Exodus 22:26",
+        "Deuteronomy 24:10-13,17",
+        "Job 24:3",
+        "Proverbs 22:27",
+        "Ezekiel 18:5,7,12",
+        "Ezekiel 33:15",
+        "Amos 2:8"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–SeeSURETY",
-      "raw_segment": "–SeeSURETY"
+      "label": "SeeSURETY",
+      "references": []
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Exodus",
+      "chapter": 22,
+      "verses": [
+        26
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 22:26"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 24,
+      "verses": [
+        10,
+        11,
+        12,
+        13,
+        17
+      ],
+      "verse_count": 5,
+      "testament": "OT",
+      "raw": "Deuteronomy 24:10-13,17"
+    },
+    {
+      "book": "Job",
+      "chapter": 24,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Job 24:3"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 22,
+      "verses": [
+        27
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 22:27"
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 18,
+      "verses": [
+        5,
+        7,
+        12
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Ezekiel 18:5,7,12"
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 33,
+      "verses": [
+        15
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezekiel 33:15"
+    },
+    {
+      "book": "Amos",
+      "chapter": 2,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Amos 2:8"
+    }
+  ],
+  "books_mentioned": [
+    "Amos",
+    "Deuteronomy",
+    "Exodus",
+    "Ezekiel",
+    "Job",
+    "Proverbs"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 2,
+    "total_refs": 7,
+    "ot_refs": 7,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:8864521a016849a2e8f4e77761158ae066ed18635dd229c22de934545dd9c84d",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 6,
+    "top_books": [
+      "Ezekiel",
+      "Exodus",
+      "Deuteronomy",
+      "Job",
+      "Proverbs",
+      "Amos"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:29:55.322451Z",
-  "updated_at": "2025-09-20T17:29:55.322459Z"
+  }
 }

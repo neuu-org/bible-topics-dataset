@@ -1,64 +1,152 @@
 {
   "topic": "AFFLICTED",
-  "topic_slug": "afflicted",
+  "slug": "afflicted",
   "canonical_id": "NAV:afflicted",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–DUTY TO THEJob 6:14;22:29;Isa 58:6,7,10;Mt 25:34-45;Lu 10:30-37;Php 2:1,2;1Ti 5:10;Jas 5:13-15",
-  "content_preview": "–DUTY TO THEJob 6:14;22:29;Isa 58:6,7,10;Mt 25:34-45;Lu 10:30-37;Php 2:1,2;1Ti 5:10;Jas 5:13-15",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–DUTY TO THEJob 6:14;22:29;Isa 58:6,7,10;Mt 25:34-45;Lu 10:30-37;Php 2:1,2;1Ti 5:10;Jas 5:13-15",
-      "raw_segment": "–DUTY TO THEJob 6:14;22:29;Isa 58:6,7,10;Mt 25:34-45;Lu 10:30-37;Php 2:1,2;1Ti 5:10;Jas 5:13-15"
+      "label": "DUTY TO THE",
+      "references": [
+        "Job 6:14",
+        "Job 22:29",
+        "Isaiah 58:6,7,10",
+        "Matthew 25:34-45",
+        "Luke 10:30-37",
+        "Philippians 2:1,2",
+        "1 Timothy 5:10",
+        "James 5:13-15"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Job",
+      "chapter": 6,
+      "verses": [
+        14
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Job 6:14"
+    },
+    {
+      "book": "Job",
+      "chapter": 22,
+      "verses": [
+        29
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Job 22:29"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 58,
+      "verses": [
+        6,
+        7,
+        10
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Isaiah 58:6,7,10"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 25,
+      "verses": [
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45
+      ],
+      "verse_count": 12,
+      "testament": "NT",
+      "raw": "Matthew 25:34-45"
+    },
+    {
+      "book": "Luke",
+      "chapter": 10,
+      "verses": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37
+      ],
+      "verse_count": 8,
+      "testament": "NT",
+      "raw": "Luke 10:30-37"
+    },
+    {
+      "book": "Philippians",
+      "chapter": 2,
+      "verses": [
+        1,
+        2
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Philippians 2:1,2"
+    },
+    {
+      "book": "1 Timothy",
+      "chapter": 5,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "1 Timothy 5:10"
+    },
+    {
+      "book": "James",
+      "chapter": 5,
+      "verses": [
+        13,
+        14,
+        15
+      ],
+      "verse_count": 3,
+      "testament": "NT",
+      "raw": "James 5:13-15"
+    }
+  ],
+  "books_mentioned": [
+    "1 Timothy",
+    "Isaiah",
+    "James",
+    "Job",
+    "Luke",
+    "Matthew",
+    "Philippians"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:58ac864c521b31ff3e65fd08aa13b2e1371a86b9de484aba5ad3e49443c90e6f",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 1
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 1,
+    "total_refs": 8,
+    "ot_refs": 3,
+    "nt_refs": 5,
+    "books_count": 7,
+    "top_books": [
+      "Job",
+      "Isaiah",
+      "Matthew",
+      "Luke",
+      "Philippians",
+      "1 Timothy",
+      "James"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:23:19.961161Z",
-  "updated_at": "2025-09-20T17:23:19.961169Z"
+  }
 }

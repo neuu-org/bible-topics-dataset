@@ -1,112 +1,102 @@
 {
   "topic": "VIRTUE",
-  "topic_slug": "virtue",
+  "slug": "virtue",
   "canonical_id": "NAV:virtue",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "CHASTITY",
     "CONTINENCE (SELF-CONTROL)",
     "COURAGE"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "CHASTITY",
-      "clean": "CHASTITY",
-      "slug": "chastity",
-      "canonical_id": "NAV:chastity"
+      "label": "(From the Latin “vir,” manliness)",
+      "references": []
     },
     {
-      "original": "CONTINENCE (SELF-CONTROL)",
-      "clean": "CONTINENCE (SELF-CONTROL)",
-      "slug": "continence__self_control_",
-      "canonical_id": "NAV:continence__self_control_"
+      "label": "Power (R. V.)",
+      "references": [
+        "Luke 6:19",
+        "Luke 8:46"
+      ]
     },
     {
-      "original": "COURAGE",
-      "clean": "COURAGE",
-      "slug": "courage",
-      "canonical_id": "NAV:courage"
+      "label": "Excellence",
+      "references": [
+        "Philippians 4:8",
+        "2 Peter 1:5"
+      ]
+    },
+    {
+      "label": "SeeCHASTITY",
+      "references": []
+    },
+    {
+      "label": "SeeCONTINENCE (self-control)",
+      "references": []
+    },
+    {
+      "label": "SeeCOURAGE",
+      "references": []
     }
   ],
-  "raw_block": "–(From the Latin “vir,” manliness)\n–Power (R. V.)Lu 6:19;8:46\n–ExcellencePhp 4:8;2Pe 1:5\n–SeeCHASTITY\n–SeeCONTINENCE (self-control)\n–SeeCOURAGE",
-  "content_preview": "–(From the Latin “vir,” manliness)",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–(From the Latin “vir,” manliness)",
-      "raw_segment": "–(From the Latin “vir,” manliness)"
+      "book": "Luke",
+      "chapter": 6,
+      "verses": [
+        19
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 6:19"
     },
     {
-      "idx": 1,
-      "entry_label": "–Power (R. V.)Lu 6:19;8:46",
-      "raw_segment": "–Power (R. V.)Lu 6:19;8:46"
+      "book": "Luke",
+      "chapter": 8,
+      "verses": [
+        46
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 8:46"
     },
     {
-      "idx": 2,
-      "entry_label": "–ExcellencePhp 4:8;2Pe 1:5",
-      "raw_segment": "–ExcellencePhp 4:8;2Pe 1:5"
+      "book": "Philippians",
+      "chapter": 4,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Philippians 4:8"
     },
     {
-      "idx": 3,
-      "entry_label": "–SeeCHASTITY",
-      "raw_segment": "–SeeCHASTITY"
-    },
-    {
-      "idx": 4,
-      "entry_label": "–SeeCONTINENCE (self-control)",
-      "raw_segment": "–SeeCONTINENCE (self-control)"
-    },
-    {
-      "idx": 5,
-      "entry_label": "–SeeCOURAGE",
-      "raw_segment": "–SeeCOURAGE"
+      "book": "2 Peter",
+      "chapter": 1,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "2 Peter 1:5"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "2 Peter",
+    "Luke",
+    "Philippians"
+  ],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 6,
+    "total_refs": 4,
     "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:273e3058837e8d0fb9a897ad687f8fd7282bcd9af4d862e4fb5d4ca2a62370ef",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 6
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "nt_refs": 4,
+    "books_count": 3,
+    "top_books": [
+      "Luke",
+      "Philippians",
+      "2 Peter"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:32:32.555315Z",
-  "updated_at": "2025-09-20T17:32:32.555323Z"
+  }
 }

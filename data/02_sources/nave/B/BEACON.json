@@ -1,90 +1,64 @@
 {
   "topic": "BEACON",
-  "topic_slug": "beacon",
+  "slug": "beacon",
   "canonical_id": "NAV:beacon",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "ENSIGN",
     "STANDARD"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "ENSIGN",
-      "clean": "ENSIGN",
-      "slug": "ensign",
-      "canonical_id": "NAV:ensign"
+      "label": "General scriptures concerning",
+      "references": [
+        "Isaiah 30:17",
+        "Jeremiah 6:1"
+      ]
     },
     {
-      "original": "STANDARD",
-      "clean": "STANDARD",
-      "slug": "standard",
-      "canonical_id": "NAV:standard"
+      "label": "SeeENSIGN",
+      "references": []
+    },
+    {
+      "label": "SeeSTANDARD",
+      "references": []
     }
   ],
-  "raw_block": "–General scriptures concerningIsa 30:17;Jer 6:1\n–SeeENSIGN\n–SeeSTANDARD",
-  "content_preview": "–General scriptures concerningIsa 30:17;Jer 6:1",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–General scriptures concerningIsa 30:17;Jer 6:1",
-      "raw_segment": "–General scriptures concerningIsa 30:17;Jer 6:1"
+      "book": "Isaiah",
+      "chapter": 30,
+      "verses": [
+        17
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 30:17"
     },
     {
-      "idx": 1,
-      "entry_label": "–SeeENSIGN",
-      "raw_segment": "–SeeENSIGN"
-    },
-    {
-      "idx": 2,
-      "entry_label": "–SeeSTANDARD",
-      "raw_segment": "–SeeSTANDARD"
+      "book": "Jeremiah",
+      "chapter": 6,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Jeremiah 6:1"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "Isaiah",
+    "Jeremiah"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 3,
+    "total_refs": 2,
+    "ot_refs": 2,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:516467a886aa5ee982680fb545624e903b86ff4a320261759582e7bbfdfe99a3",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 3
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 2,
+    "top_books": [
+      "Isaiah",
+      "Jeremiah"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:24:12.809942Z",
-  "updated_at": "2025-09-20T17:24:12.809950Z"
+  }
 }

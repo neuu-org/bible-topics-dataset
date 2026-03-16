@@ -1,77 +1,36 @@
 {
   "topic": "MERAIOTH",
   "slug": "meraioth",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. A high priest of the line of Eleazar 1Ch 6:6,7,52; Ezr 7:3",
-      "references": [
-        "1Chr 6:6",
-        "1Chr 6:7",
-        "1Chr 6:52",
-        "Ezra 7:3"
-      ],
-      "sub_groups": [
-        {
-          "name": "Probably identical with the priest of same name in 1Ch 9:11; Ne 11:11",
-          "references": [
-            "1Chr 9:11",
-            "Neh 11:11"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "2. A priest in the time of Joiakim Ne 12:15",
-      "references": [
-        "Neh 12:15"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Ezra",
-      "book_abbrev": "ezr",
-      "chapter": 7,
-      "testament": "OT",
-      "verses": [
-        3
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Nehemiah",
-      "book_abbrev": "neh",
-      "chapter": 11,
-      "testament": "OT",
-      "verses": [
-        11
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 2,
-    "nt_refs": 0,
-    "total_verses": 2
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.705374+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "1. A high priest of the line of Eleazar",
+      "references": [
+        "1 Chronicles 6:6,7,52",
+        "Ezra 7:3"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".Probably i",
+      "references": [
+        "1 Chronicles 9:11",
+        "Nehemiah 11:11"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2. A priest in the time of Joiakim",
+      "references": [
+        "Nehemiah 12:15"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "1 Chronicles",
       "chapter": 6,
@@ -82,8 +41,37 @@
       ],
       "verse_count": 3,
       "testament": "OT",
-      "raw": "1 Chronicles 6:6, 7, 52",
-      "source": "EAS"
+      "raw": "1 Chronicles 6:6,7,52"
+    },
+    {
+      "book": "Ezra",
+      "chapter": 7,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezra 7:3"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 9,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 9:11"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 11,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Nehemiah 11:11"
     },
     {
       "book": "Nehemiah",
@@ -93,19 +81,24 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Nehemiah 12:15",
-      "source": "EAS"
-    },
-    {
-      "book": "Nehemiah",
-      "chapter": 12,
-      "verses": [
-        3
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Nehemiah 12:3",
-      "source": "EAS"
+      "raw": "Nehemiah 12:15"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Ezra",
+    "Nehemiah"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 5,
+    "ot_refs": 5,
+    "nt_refs": 0,
+    "books_count": 3,
+    "top_books": [
+      "1 Chronicles",
+      "Nehemiah",
+      "Ezra"
+    ]
+  }
 }

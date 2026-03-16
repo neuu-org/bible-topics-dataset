@@ -1,83 +1,182 @@
 {
   "topic": "DAILY OFFERING",
-  "topic_slug": "daily_offering",
+  "slug": "daily_offering",
   "canonical_id": "NAV:daily_offering",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "OFFERINGS"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "OFFERINGS",
-      "clean": "OFFERINGS",
-      "slug": "offerings",
-      "canonical_id": "NAV:offerings"
-    }
-  ],
-  "raw_block": "–SacrificialEx 29:38-42;30:7-9;Nu 28:3-8;Ezr 3:4-6;Eze 46:13-15;Da 9:21,26,27;11:31;Ac 3:1\n–SeeOFFERINGS\n–FIGURATIVEJoh 1:29,36;1Pe 1:19",
-  "content_preview": "–SacrificialEx 29:38-42;30:7-9;Nu 28:3-8;Ezr 3:4-6;Eze 46:13-15;Da 9:21,26,27;11:31;Ac 3:1",
-  "reference_groups": [
-    {
-      "idx": 0,
-      "entry_label": "–SacrificialEx 29:38-42;30:7-9;Nu 28:3-8;Ezr 3:4-6;Eze 46:13-15;Da 9:21,26,27;11:31;Ac 3:1",
-      "raw_segment": "–SacrificialEx 29:38-42;30:7-9;Nu 28:3-8;Ezr 3:4-6;Eze 46:13-15;Da 9:21,26,27;11:31;Ac 3:1"
+      "label": "Sacrificial",
+      "references": [
+        "Exodus 29:38-42",
+        "Exodus 30:7-9",
+        "Numbers 28:3-8",
+        "Ezra 3:4-6",
+        "Ezekiel 46:13-15",
+        "Daniel 9:21,26,27",
+        "Daniel 11:31",
+        "Acts 3:1"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–SeeOFFERINGS",
-      "raw_segment": "–SeeOFFERINGS"
+      "label": "SeeOFFERINGS",
+      "references": []
     },
     {
-      "idx": 2,
-      "entry_label": "–FIGURATIVEJoh 1:29,36;1Pe 1:19",
-      "raw_segment": "–FIGURATIVEJoh 1:29,36;1Pe 1:19"
+      "label": "FIGURATIVE",
+      "references": [
+        "John 1:29,36",
+        "1 Peter 1:19"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Exodus",
+      "chapter": 29,
+      "verses": [
+        38,
+        39,
+        40,
+        41,
+        42
+      ],
+      "verse_count": 5,
+      "testament": "OT",
+      "raw": "Exodus 29:38-42"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 30,
+      "verses": [
+        7,
+        8,
+        9
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Exodus 30:7-9"
+    },
+    {
+      "book": "Numbers",
+      "chapter": 28,
+      "verses": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "verse_count": 6,
+      "testament": "OT",
+      "raw": "Numbers 28:3-8"
+    },
+    {
+      "book": "Ezra",
+      "chapter": 3,
+      "verses": [
+        4,
+        5,
+        6
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Ezra 3:4-6"
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 46,
+      "verses": [
+        13,
+        14,
+        15
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Ezekiel 46:13-15"
+    },
+    {
+      "book": "Daniel",
+      "chapter": 9,
+      "verses": [
+        21,
+        26,
+        27
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Daniel 9:21,26,27"
+    },
+    {
+      "book": "Daniel",
+      "chapter": 11,
+      "verses": [
+        31
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Daniel 11:31"
+    },
+    {
+      "book": "Acts",
+      "chapter": 3,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 3:1"
+    },
+    {
+      "book": "John",
+      "chapter": 1,
+      "verses": [
+        29,
+        36
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "John 1:29,36"
+    },
+    {
+      "book": "1 Peter",
+      "chapter": 1,
+      "verses": [
+        19
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "1 Peter 1:19"
+    }
+  ],
+  "books_mentioned": [
+    "1 Peter",
+    "Acts",
+    "Daniel",
+    "Exodus",
+    "Ezekiel",
+    "Ezra",
+    "John",
+    "Numbers"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:607f5180eaa3f9a09f4bc9738050658a82a5b47b168ca7fea1df689cdff315b9",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 3
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 3,
+    "total_refs": 10,
+    "ot_refs": 7,
+    "nt_refs": 3,
+    "books_count": 8,
+    "top_books": [
+      "Exodus",
+      "Daniel",
+      "Numbers",
+      "Ezra",
+      "Ezekiel",
+      "Acts",
+      "John",
+      "1 Peter"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:25:25.338829Z",
-  "updated_at": "2025-09-20T17:25:25.338836Z"
+  }
 }

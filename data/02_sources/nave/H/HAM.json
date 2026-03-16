@@ -1,74 +1,208 @@
 {
   "topic": "HAM",
-  "topic_slug": "ham",
+  "slug": "ham",
   "canonical_id": "NAV:ham",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–1. Son of NoahGe 5:32;9:18,24;1Ch 1:4\n  .Provokes his father’s wrath and is cursed by himGe \n9:18-27\n  .His childrenGe 10:6-20;1Ch 1:8-16\n–2. Patronymic of the descendants of Ham1Ch 4:40;Ps \n78:51;105:23,27;106:22\n–3. Place where Chedorlaomer struck down the ZuzimsGe 14:5",
-  "content_preview": "–1. Son of NoahGe 5:32;9:18,24;1Ch 1:4",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–1. Son of NoahGe 5:32;9:18,24;1Ch 1:4",
-      "raw_segment": "–1. Son of NoahGe 5:32;9:18,24;1Ch 1:4"
+      "label": "1.",
+      "references": [
+        "Genesis 5:32",
+        "Genesis 9:18,24",
+        "1 Chronicles 1:4"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–2. Patronymic of the descendants of Ham1Ch 4:40;Ps \n78:51;105:23,27;106:22",
-      "raw_segment": "–2. Patronymic of the descendants of Ham1Ch 4:40;Ps \n78:51;105:23,27;106:22"
+      "label": ".Provokes his father’s wrath and is cursed by himGe",
+      "references": []
     },
     {
-      "idx": 2,
-      "entry_label": "–3. Place where Chedorlaomer struck down the ZuzimsGe 14:5",
-      "raw_segment": "–3. Place where Chedorlaomer struck down the ZuzimsGe 14:5"
+      "label": "9:18-27",
+      "references": []
+    },
+    {
+      "label": ".His children",
+      "references": [
+        "Genesis 10:6-20",
+        "1 Chronicles 1:8-16"
+      ]
+    },
+    {
+      "label": "2. Patronymic of the",
+      "references": [
+        "1 Chronicles 4:40"
+      ]
+    },
+    {
+      "label": "78:51;105:23,27;106:22",
+      "references": []
+    },
+    {
+      "label": "3. Place where Chedorlaomer struck down the Zuzims",
+      "references": [
+        "Genesis 14:5"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Genesis",
+      "chapter": 5,
+      "verses": [
+        32
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 5:32"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 9,
+      "verses": [
+        18,
+        24
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Genesis 9:18,24"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 1,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 1:4"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 9,
+      "verses": [
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "verse_count": 10,
+      "testament": "OT",
+      "raw": "1 Chronicles 9:18-27"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 10,
+      "verses": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "verse_count": 15,
+      "testament": "OT",
+      "raw": "Genesis 10:6-20"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 1,
+      "verses": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "verse_count": 9,
+      "testament": "OT",
+      "raw": "1 Chronicles 1:8-16"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 4,
+      "verses": [
+        40
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 4:40"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 78,
+      "verses": [
+        51
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 78:51"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 105,
+      "verses": [
+        23,
+        27
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "1 Chronicles 105:23,27"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 106,
+      "verses": [
+        22
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 106:22"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 14,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 14:5"
+    }
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Genesis"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 7,
+    "total_refs": 11,
+    "ot_refs": 11,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:97d45c8719e1220f4b38f79c134b07a72a5444a1ccc9100e3b0a05a03fbf0270",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 7
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 2,
+    "top_books": [
+      "1 Chronicles",
+      "Genesis"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:26:54.666270Z",
-  "updated_at": "2025-09-20T17:26:54.666277Z"
+  }
 }

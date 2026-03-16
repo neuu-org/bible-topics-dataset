@@ -1,69 +1,43 @@
 {
   "topic": "BLEMISH",
   "slug": "blemish",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "(A physical deformity)",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "Debarred sons of Aaron from exercise of priestly offices Le 21:17-23",
-      "references": [
-        "Lev 21:17-23"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Animals with, forbidden to be used for sacrifice Le 22:19-25",
-      "references": [
-        "Lev 22:19-25"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "FIGURATIVE Eph 5:27; 1Pe 1:19",
-      "references": [
-        "Eph 5:27",
-        "1Pet 1:19"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "1 Peter",
-      "book_abbrev": "1pe",
-      "chapter": 1,
-      "testament": "NT",
-      "verses": [
-        19
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 4,
-    "ot_refs": 0,
-    "nt_refs": 1,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.674873+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "(A physi",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "General references",
+      "references": [
+        "Leviticus 21:17-23"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Animals with, forbid",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "22:19-25",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "FIGURATIVE",
+      "references": [
+        "Ephesians 5:27",
+        "1 Peter 1:19"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Leviticus",
       "chapter": 21,
@@ -78,8 +52,7 @@
       ],
       "verse_count": 7,
       "testament": "OT",
-      "raw": "Leviticus 21:17-23",
-      "source": "EAS"
+      "raw": "Leviticus 21:17-23"
     },
     {
       "book": "Leviticus",
@@ -95,8 +68,7 @@
       ],
       "verse_count": 7,
       "testament": "OT",
-      "raw": "Leviticus 22:19-25",
-      "source": "EAS"
+      "raw": "Leviticus 22:19-25"
     },
     {
       "book": "Ephesians",
@@ -106,8 +78,7 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Ephesians 5:27",
-      "source": "EAS"
+      "raw": "Ephesians 5:27"
     },
     {
       "book": "1 Peter",
@@ -117,8 +88,24 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "1 Peter 1:19",
-      "source": "EAS"
+      "raw": "1 Peter 1:19"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Peter",
+    "Ephesians",
+    "Leviticus"
+  ],
+  "stats": {
+    "total_aspects": 5,
+    "total_refs": 4,
+    "ot_refs": 2,
+    "nt_refs": 2,
+    "books_count": 3,
+    "top_books": [
+      "Leviticus",
+      "Ephesians",
+      "1 Peter"
+    ]
+  }
 }

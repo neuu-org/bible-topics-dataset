@@ -1,8 +1,8 @@
 {
   "topic": "SELF-CONTROL",
-  "topic_slug": "self_control",
+  "slug": "self_control",
   "canonical_id": "NAV:self_control",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "TACT",
     "ABSTINENCE, TOTAL",
@@ -10,127 +10,149 @@
     "PATIENCE",
     "RASHNESS"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "TACT",
-      "clean": "TACT",
-      "slug": "tact",
-      "canonical_id": "NAV:tact"
+      "label": "Of Saul",
+      "references": [
+        "1 Samuel 10:27"
+      ]
     },
     {
-      "original": "ABSTINENCE, TOTAL",
-      "clean": "ABSTINENCE, TOTAL",
-      "slug": "abstinence__total",
-      "canonical_id": "NAV:abstinence__total"
+      "label": "Of David",
+      "references": [
+        "1 Samuel 24:1-15",
+        "1 Samuel 26:1-20"
+      ]
     },
     {
-      "original": "GRACES, CHRISTIAN",
-      "clean": "GRACES, CHRISTIAN",
-      "slug": "graces__christian",
-      "canonical_id": "NAV:graces__christian"
+      "label": "Of Jesus",
+      "references": [
+        "Matthew 26:62,63",
+        "Matthew 27:12-14"
+      ]
     },
     {
-      "original": "PATIENCE",
-      "clean": "PATIENCE",
-      "slug": "patience",
-      "canonical_id": "NAV:patience"
+      "label": "SeeABSTINENCE, TOTAL",
+      "references": []
     },
     {
-      "original": "RASHNESS",
-      "clean": "RASHNESS",
-      "slug": "rashness",
-      "canonical_id": "NAV:rashness"
+      "label": "SeeGRACES, CHRISTIAN",
+      "references": []
+    },
+    {
+      "label": "SeePATIENCE",
+      "references": []
+    },
+    {
+      "label": "SeeTACT",
+      "references": []
+    },
+    {
+      "label": "See al",
+      "references": []
     }
   ],
-  "raw_block": "–Of Saul1Sa 10:27\n–Of David1Sa 24:1-15;26:1-20\n–Of JesusMt 26:62,63;27:12-14\n–SeeABSTINENCE, TOTAL\n–SeeGRACES, CHRISTIAN\n–SeePATIENCE\n–SeeTACT\n–See also,RASHNESS",
-  "content_preview": "–Of Saul1Sa 10:27",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–Of Saul1Sa 10:27",
-      "raw_segment": "–Of Saul1Sa 10:27"
+      "book": "1 Samuel",
+      "chapter": 10,
+      "verses": [
+        27
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Samuel 10:27"
     },
     {
-      "idx": 1,
-      "entry_label": "–Of David1Sa 24:1-15;26:1-20",
-      "raw_segment": "–Of David1Sa 24:1-15;26:1-20"
+      "book": "1 Samuel",
+      "chapter": 24,
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "verse_count": 15,
+      "testament": "OT",
+      "raw": "1 Samuel 24:1-15"
     },
     {
-      "idx": 2,
-      "entry_label": "–Of JesusMt 26:62,63;27:12-14",
-      "raw_segment": "–Of JesusMt 26:62,63;27:12-14"
+      "book": "1 Samuel",
+      "chapter": 26,
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "verse_count": 20,
+      "testament": "OT",
+      "raw": "1 Samuel 26:1-20"
     },
     {
-      "idx": 3,
-      "entry_label": "–SeeABSTINENCE, TOTAL",
-      "raw_segment": "–SeeABSTINENCE, TOTAL"
+      "book": "Matthew",
+      "chapter": 26,
+      "verses": [
+        62,
+        63
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Matthew 26:62,63"
     },
     {
-      "idx": 4,
-      "entry_label": "–SeeGRACES, CHRISTIAN",
-      "raw_segment": "–SeeGRACES, CHRISTIAN"
-    },
-    {
-      "idx": 5,
-      "entry_label": "–SeePATIENCE",
-      "raw_segment": "–SeePATIENCE"
-    },
-    {
-      "idx": 6,
-      "entry_label": "–SeeTACT",
-      "raw_segment": "–SeeTACT"
-    },
-    {
-      "idx": 7,
-      "entry_label": "–See also,RASHNESS",
-      "raw_segment": "–See also,RASHNESS"
+      "book": "Matthew",
+      "chapter": 27,
+      "verses": [
+        12,
+        13,
+        14
+      ],
+      "verse_count": 3,
+      "testament": "NT",
+      "raw": "Matthew 27:12-14"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "1 Samuel",
+    "Matthew"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:2cd0a0443d454ecd5b04d9eca812393c0a5c05e353ea5e96f46acb79728b36d4",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 8
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 8,
+    "total_refs": 5,
+    "ot_refs": 3,
+    "nt_refs": 2,
+    "books_count": 2,
+    "top_books": [
+      "1 Samuel",
+      "Matthew"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:31:01.136282Z",
-  "updated_at": "2025-09-20T17:31:01.136290Z"
+  }
 }

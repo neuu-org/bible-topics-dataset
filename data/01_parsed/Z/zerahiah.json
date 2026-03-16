@@ -1,65 +1,73 @@
 {
   "topic": "ZERAHIAH",
   "slug": "zerahiah",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "1. An ancestor of Ezra 1Ch 6:6,51; Ezr 7:4",
+      "label": "1. An ancestor ofEzra",
       "references": [
-        "Ezra 1",
+        "1 Chronicles 6:6,51",
         "Ezra 7:4"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "2. Father of Elihoenai Ezr 8:4",
+      "label": "2. Father of Elihoenai",
       "references": [
         "Ezra 8:4"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
       "book": "1 Chronicles",
-      "book_abbrev": "1ch",
       "chapter": 6,
-      "testament": "OT",
       "verses": [
         6,
         51
       ],
-      "verse_count": 2
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "1 Chronicles 6:6,51"
     },
     {
       "book": "Ezra",
-      "book_abbrev": "ezr",
       "chapter": 7,
-      "testament": "OT",
       "verses": [
         4
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezra 7:4"
+    },
+    {
+      "book": "Ezra",
+      "chapter": 8,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezra 8:4"
     }
   ],
-  "see_also": [],
-  "aliases": [],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Ezra"
+  ],
   "stats": {
-    "entries_count": 2,
-    "ot_refs": 2,
+    "total_aspects": 2,
+    "total_refs": 3,
+    "ot_refs": 3,
     "nt_refs": 0,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.734928+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0"
+    "books_count": 2,
+    "top_books": [
+      "Ezra",
+      "1 Chronicles"
+    ]
+  }
 }

@@ -1,42 +1,49 @@
 {
   "topic": "PASTOR",
   "slug": "pastor",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "General scriptures concerning Jer 22:22",
-      "references": [
-        "Jer 22:22"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "See SHEPHERD",
-      "references": [],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [
-    "SHEPHERD"
-  ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.717222+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
+  "see_also": [
+    "SHEPHERD"
+  ],
+  "aspects": [
+    {
+      "label": "General scriptures concerning",
+      "references": [
+        "Jeremiah 22:22"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeSHEPHERD",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0"
+  ],
+  "biblical_references": [
+    {
+      "book": "Jeremiah",
+      "chapter": 22,
+      "verses": [
+        22
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Jeremiah 22:22"
+    }
+  ],
+  "books_mentioned": [
+    "Jeremiah"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 1,
+    "ot_refs": 1,
+    "nt_refs": 0,
+    "books_count": 1,
+    "top_books": [
+      "Jeremiah"
+    ]
+  }
 }

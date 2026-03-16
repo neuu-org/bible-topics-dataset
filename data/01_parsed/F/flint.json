@@ -1,119 +1,92 @@
 {
   "topic": "FLINT",
   "slug": "flint",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "General scriptures concerning De 8:15; 32:13; Ps 114:8; Isa 50:7; Eze 3:9",
+      "label": "General scriptures concerning",
       "references": [
-        "Deut 8:15",
-        "Deut 32:13",
-        "Ps 114:8",
-        "Isa 50:7",
-        "Ezek 3:9"
+        "Deuteronomy 8:15",
+        "Deuteronomy 32:13",
+        "Psalms 114:8",
+        "Isaiah 50:7",
+        "Ezekiel 3:9"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Psalms",
-      "book_abbrev": "psa",
-      "chapter": 114,
+      "book": "Deuteronomy",
+      "chapter": 8,
+      "verses": [
+        15
+      ],
+      "verse_count": 1,
       "testament": "OT",
+      "raw": "Deuteronomy 8:15"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 32,
+      "verses": [
+        13
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 32:13"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 114,
       "verses": [
         8
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 114:8"
     },
     {
       "book": "Isaiah",
-      "book_abbrev": "isa",
       "chapter": 50,
-      "testament": "OT",
       "verses": [
         7
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 50:7"
     },
     {
       "book": "Ezekiel",
-      "book_abbrev": "ezk",
       "chapter": 3,
-      "testament": "OT",
       "verses": [
         9
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezekiel 3:9"
     }
   ],
-  "see_also": [],
-  "aliases": [],
+  "books_mentioned": [
+    "Deuteronomy",
+    "Ezekiel",
+    "Isaiah",
+    "Psalms"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 3,
+    "total_aspects": 1,
+    "total_refs": 5,
+    "ot_refs": 5,
     "nt_refs": 0,
-    "total_verses": 3
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.686922+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    },
-    "enriched_at": "2025-12-02T22:02:10.198321+00:00",
-    "enrichment_source": "pipeline_merge"
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "Ezekiel",
-      "chapter": 3,
-      "verses": [
-        8,
-        9
-      ],
-      "verse_count": 2,
-      "testament": "OT",
-      "raw": "Ezekiel 3:8, 9",
-      "source": "EAS"
-    },
-    {
-      "book": "Isaiah",
-      "chapter": 5,
-      "verses": [
-        28
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Isaiah 5:28",
-      "source": "EAS"
-    },
-    {
-      "book": "Isaiah",
-      "chapter": 50,
-      "verses": [
-        7
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Isaiah 50:7",
-      "source": "EAS"
-    },
-    {
-      "book": "Ezekiel",
-      "chapter": 3,
-      "verses": [
-        9
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Ezekiel 3:9",
-      "source": "EAS"
-    }
-  ]
+    "books_count": 4,
+    "top_books": [
+      "Deuteronomy",
+      "Psalms",
+      "Isaiah",
+      "Ezekiel"
+    ]
+  }
 }

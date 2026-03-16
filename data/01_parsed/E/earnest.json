@@ -1,70 +1,40 @@
 {
   "topic": "EARNEST",
   "slug": "earnest",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "A pledge or token Ps 86:17; 2Co 1:22; 5:5; Eph 1:14",
-      "references": [
-        "Ps 86:17",
-        "2Cor 1:22",
-        "2Cor 5:5",
-        "Eph 1:14"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "See TOKEN",
-      "references": [],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "2 Corinthians",
-      "book_abbrev": "2co",
-      "chapter": 1,
-      "testament": "NT",
-      "verses": [
-        5,
-        22
-      ],
-      "verse_count": 2
-    },
-    {
-      "book": "Ephesians",
-      "book_abbrev": "eph",
-      "chapter": 1,
-      "testament": "NT",
-      "verses": [
-        14
-      ],
-      "verse_count": 1
-    }
+  "sources": [
+    "NAV"
   ],
   "see_also": [
     "TOKEN"
   ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 2,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.682797+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "aspects": [
+    {
+      "label": "A pledge or token",
+      "references": [
+        "Psalms 86:17",
+        "2 Corinthians 1:22",
+        "2 Corinthians 5:5",
+        "Ephesians 1:14"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeTOKEN",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
+    {
+      "book": "Psalms",
+      "chapter": 86,
+      "verses": [
+        17
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 86:17"
+    },
     {
       "book": "2 Corinthians",
       "chapter": 1,
@@ -73,8 +43,7 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "2 Corinthians 1:22",
-      "source": "EAS"
+      "raw": "2 Corinthians 1:22"
     },
     {
       "book": "2 Corinthians",
@@ -84,8 +53,7 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "2 Corinthians 5:5",
-      "source": "EAS"
+      "raw": "2 Corinthians 5:5"
     },
     {
       "book": "Ephesians",
@@ -95,55 +63,24 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Ephesians 1:14",
-      "source": "EAS"
-    },
-    {
-      "book": "Genesis",
-      "chapter": 38,
-      "verses": [
-        17,
-        18,
-        19,
-        20
-      ],
-      "verse_count": 4,
-      "testament": "OT",
-      "raw": "Genesis 38:17-20",
-      "source": "EAS"
-    },
-    {
-      "book": "Genesis",
-      "chapter": 38,
-      "verses": [
-        17
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Genesis 38:17",
-      "source": "SMI"
-    },
-    {
-      "book": "Proverbs",
-      "chapter": 17,
-      "verses": [
-        18
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Proverbs 17:18",
-      "source": "SMI"
-    },
-    {
-      "book": "2 Kings",
-      "chapter": 14,
-      "verses": [
-        14
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "2 Kings 14:14",
-      "source": "SMI"
+      "raw": "Ephesians 1:14"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "2 Corinthians",
+    "Ephesians",
+    "Psalms"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 4,
+    "ot_refs": 1,
+    "nt_refs": 3,
+    "books_count": 3,
+    "top_books": [
+      "2 Corinthians",
+      "Psalms",
+      "Ephesians"
+    ]
+  }
 }

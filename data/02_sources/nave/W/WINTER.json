@@ -1,103 +1,159 @@
 {
   "topic": "WINTER",
-  "topic_slug": "winter",
+  "slug": "winter",
   "canonical_id": "NAV:winter",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "METEOROLOGY"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "METEOROLOGY",
-      "clean": "METEOROLOGY",
-      "slug": "meteorology",
-      "canonical_id": "NAV:meteorology"
+      "label": "An",
+      "references": [
+        "Genesis 8:22"
+      ]
+    },
+    {
+      "label": "Plowing in, in",
+      "references": [
+        "Proverbs 20:4"
+      ]
+    },
+    {
+      "label": "Rainy sea",
+      "references": [
+        "Song of Solomon 2:11"
+      ]
+    },
+    {
+      "label": "Shipping suspen",
+      "references": []
+    },
+    {
+      "label": "27:12;28:11",
+      "references": []
+    },
+    {
+      "label": "Paul remains for one, at Nicopolis",
+      "references": [
+        "Titus 3:12"
+      ]
+    },
+    {
+      "label": "Summer and winter houses",
+      "references": [
+        "Jeremiah 36:22",
+        "Amos 3:15"
+      ]
+    },
+    {
+      "label": "SeeMETEOROLOGY",
+      "references": []
     }
   ],
-  "raw_block": "–Annual return of, will never ceaseGe 8:22\n–Plowing in, in Canaan, (margin)Pr 20:4\n–Rainy season in, in CanaanSo 2:11\n–Shipping suspended in, on the Mediterranean SeaAc \n27:12;28:11\n–Paul remains for one, at NicopolisTit 3:12\n–Summer and winter housesJer 36:22;Am 3:15\n–SeeMETEOROLOGY",
-  "content_preview": "–Annual return of, will never ceaseGe 8:22",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–Annual return of, will never ceaseGe 8:22",
-      "raw_segment": "–Annual return of, will never ceaseGe 8:22"
+      "book": "Genesis",
+      "chapter": 8,
+      "verses": [
+        22
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 8:22"
     },
     {
-      "idx": 1,
-      "entry_label": "–Plowing in, in Canaan, (margin)Pr 20:4",
-      "raw_segment": "–Plowing in, in Canaan, (margin)Pr 20:4"
+      "book": "Proverbs",
+      "chapter": 20,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 20:4"
     },
     {
-      "idx": 2,
-      "entry_label": "–Rainy season in, in CanaanSo 2:11",
-      "raw_segment": "–Rainy season in, in CanaanSo 2:11"
+      "book": "Song of Solomon",
+      "chapter": 2,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Song of Solomon 2:11"
     },
     {
-      "idx": 3,
-      "entry_label": "–Shipping suspended in, on the Mediterranean SeaAc \n27:12;28:11",
-      "raw_segment": "–Shipping suspended in, on the Mediterranean SeaAc \n27:12;28:11"
+      "book": "Song of Solomon",
+      "chapter": 27,
+      "verses": [
+        12
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Song of Solomon 27:12"
     },
     {
-      "idx": 4,
-      "entry_label": "–Paul remains for one, at NicopolisTit 3:12",
-      "raw_segment": "–Paul remains for one, at NicopolisTit 3:12"
+      "book": "Song of Solomon",
+      "chapter": 28,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Song of Solomon 28:11"
     },
     {
-      "idx": 5,
-      "entry_label": "–Summer and winter housesJer 36:22;Am 3:15",
-      "raw_segment": "–Summer and winter housesJer 36:22;Am 3:15"
+      "book": "Titus",
+      "chapter": 3,
+      "verses": [
+        12
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Titus 3:12"
     },
     {
-      "idx": 6,
-      "entry_label": "–SeeMETEOROLOGY",
-      "raw_segment": "–SeeMETEOROLOGY"
+      "book": "Jeremiah",
+      "chapter": 36,
+      "verses": [
+        22
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Jeremiah 36:22"
+    },
+    {
+      "book": "Amos",
+      "chapter": 3,
+      "verses": [
+        15
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Amos 3:15"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "Amos",
+    "Genesis",
+    "Jeremiah",
+    "Proverbs",
+    "Song of Solomon",
+    "Titus"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:dbb5387de1eab5af16ea081903a96ca3b96cb96b7165caf296fb1f60b6640171",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 8
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 8,
+    "total_refs": 8,
+    "ot_refs": 7,
+    "nt_refs": 1,
+    "books_count": 6,
+    "top_books": [
+      "Song of Solomon",
+      "Genesis",
+      "Proverbs",
+      "Titus",
+      "Jeremiah",
+      "Amos"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:32:39.618579Z",
-  "updated_at": "2025-09-20T17:32:39.618587Z"
+  }
 }

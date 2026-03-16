@@ -1,102 +1,174 @@
 {
   "topic": "FAMILIAR SPIRITS",
-  "topic_slug": "familiar_spirits",
+  "slug": "familiar_spirits",
   "canonical_id": "NAV:familiar_spirits",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "WITCHCRAFT",
     "DEMONS",
     "NECROMANCY"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "WITCHCRAFT",
-      "clean": "WITCHCRAFT",
-      "slug": "witchcraft",
-      "canonical_id": "NAV:witchcraft"
+      "label": "Consulting of, forbid",
+      "references": [
+        "Leviticus 19:31",
+        "Leviticus 20:6,27",
+        "Deuteronomy 18:10,11"
+      ]
     },
     {
-      "original": "DEMONS",
-      "clean": "DEMONS",
-      "slug": "demons",
-      "canonical_id": "NAV:demons"
+      "label": "Vain",
+      "references": [
+        "Isaiah 8:19",
+        "Isaiah 19:3"
+      ]
     },
     {
-      "original": "NECROMANCY",
-      "clean": "NECROMANCY",
-      "slug": "necromancy",
-      "canonical_id": "NAV:necromancy"
+      "label": "Those who consulted, to be cut off",
+      "references": [
+        "Leviticus 20:6,27"
+      ]
+    },
+    {
+      "label": "INSTANCES OF THOSE WHO CONSULTED",
+      "references": []
+    },
+    {
+      "label": ".Saul",
+      "references": [
+        "1 Samuel 28:3-25",
+        "1 Chronicles 10:13"
+      ]
+    },
+    {
+      "label": ".See",
+      "references": []
+    },
+    {
+      "label": ".SeeNECROMANCY",
+      "references": []
+    },
+    {
+      "label": ".SeeWITCHCRAFT",
+      "references": []
     }
   ],
-  "raw_block": "–Consulting of, forbiddenLe 19:31;20:6,27;De 18:10,11\n–VainIsa 8:19;19:3\n–Those who consulted, to be cut offLe 20:6,27\n–INSTANCES OF THOSE WHO CONSULTED\n  .Saul1Sa 28:3-25;1Ch 10:13\n  .SeeDEMONS\n  .SeeNECROMANCY\n  .SeeWITCHCRAFT",
-  "content_preview": "–Consulting of, forbiddenLe 19:31;20:6,27;De 18:10,11",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–Consulting of, forbiddenLe 19:31;20:6,27;De 18:10,11",
-      "raw_segment": "–Consulting of, forbiddenLe 19:31;20:6,27;De 18:10,11"
+      "book": "Leviticus",
+      "chapter": 19,
+      "verses": [
+        31
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Leviticus 19:31"
     },
     {
-      "idx": 1,
-      "entry_label": "–VainIsa 8:19;19:3",
-      "raw_segment": "–VainIsa 8:19;19:3"
+      "book": "Leviticus",
+      "chapter": 20,
+      "verses": [
+        6,
+        27
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Leviticus 20:6,27"
     },
     {
-      "idx": 2,
-      "entry_label": "–Those who consulted, to be cut offLe 20:6,27",
-      "raw_segment": "–Those who consulted, to be cut offLe 20:6,27"
+      "book": "Deuteronomy",
+      "chapter": 18,
+      "verses": [
+        10,
+        11
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Deuteronomy 18:10,11"
     },
     {
-      "idx": 3,
-      "entry_label": "–INSTANCES OF THOSE WHO CONSULTED",
-      "raw_segment": "–INSTANCES OF THOSE WHO CONSULTED"
+      "book": "Isaiah",
+      "chapter": 8,
+      "verses": [
+        19
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 8:19"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 19,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 19:3"
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 28,
+      "verses": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "verse_count": 23,
+      "testament": "OT",
+      "raw": "1 Samuel 28:3-25"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 10,
+      "verses": [
+        13
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 10:13"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "1 Chronicles",
+    "1 Samuel",
+    "Deuteronomy",
+    "Isaiah",
+    "Leviticus"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 8,
+    "total_refs": 7,
+    "ot_refs": 7,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:ce51463c873ace67954ba8fbf79f2877dd91cc0c3b06625bc34a4078ef8c43e6",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 8
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 5,
+    "top_books": [
+      "Leviticus",
+      "Isaiah",
+      "Deuteronomy",
+      "1 Samuel",
+      "1 Chronicles"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:26:16.247453Z",
-  "updated_at": "2025-09-20T17:26:16.247462Z"
+  }
 }

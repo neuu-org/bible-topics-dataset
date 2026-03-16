@@ -1,94 +1,203 @@
 {
   "topic": "PETITION",
   "slug": "petition",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "Right of, recognized by Pharaoh Ex 5:15-18",
+      "label": "Right of, recognized by Pharaoh",
       "references": [
-        "Exod 5:15-18"
+        "Exodus 5:15-18"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Israel Nu 27:1-5; 32:1-5; 36:1-5; Jos 17:4,14,16; 21:1,2",
+      "label": "Israel",
       "references": [
-        "Num 27:1-5",
-        "Num 32:1-5",
-        "Num 36:1-5",
-        "Josh 17:4",
-        "Josh 17:14",
-        "Josh 17:16",
-        "Josh 21:1",
-        "Josh 21:2"
+        "Numbers 27:1-5",
+        "Numbers 32:1-5",
+        "Numbers 36:1-5",
+        "Joshua 17:4,14,16",
+        "Joshua 21:1,2"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "David 1Ki 1:15-21",
+      "label": "David",
       "references": [
-        "1Kgs 1:15-21"
+        "1 Kings 1:15-21"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Rehoboam 1Ki 12:1-17; 2Ch 10",
+      "label": "Rehoboam",
       "references": [
-        "1Kgs 12:1-17",
-        "2Chr 10"
+        "1 Kings 12:1-17"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Jehoram 2Ki 8:3,6",
+      "label": "Jehoram",
       "references": [
-        "2Kgs 8:3",
-        "2Kgs 8:6"
+        "2 Kings 8:3,6"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Joshua",
-      "book_abbrev": "jos",
-      "chapter": 17,
+      "book": "Exodus",
+      "chapter": 5,
+      "verses": [
+        15,
+        16,
+        17,
+        18
+      ],
+      "verse_count": 4,
       "testament": "OT",
+      "raw": "Exodus 5:15-18"
+    },
+    {
+      "book": "Numbers",
+      "chapter": 27,
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "verse_count": 5,
+      "testament": "OT",
+      "raw": "Numbers 27:1-5"
+    },
+    {
+      "book": "Numbers",
+      "chapter": 32,
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "verse_count": 5,
+      "testament": "OT",
+      "raw": "Numbers 32:1-5"
+    },
+    {
+      "book": "Numbers",
+      "chapter": 36,
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "verse_count": 5,
+      "testament": "OT",
+      "raw": "Numbers 36:1-5"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 17,
       "verses": [
         4,
         14,
-        16,
-        21
+        16
       ],
-      "verse_count": 4
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Joshua 17:4,14,16"
     },
     {
-      "book": "2 Chronicles",
-      "book_abbrev": "2ch",
-      "chapter": 10,
+      "book": "Joshua",
+      "chapter": 21,
+      "verses": [
+        1,
+        2
+      ],
+      "verse_count": 2,
       "testament": "OT",
-      "verses": [],
-      "verse_count": 1
+      "raw": "Joshua 21:1,2"
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 1,
+      "verses": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "verse_count": 7,
+      "testament": "OT",
+      "raw": "1 Kings 1:15-21"
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 12,
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "verse_count": 17,
+      "testament": "OT",
+      "raw": "1 Kings 12:1-17"
+    },
+    {
+      "book": "2 Kings",
+      "chapter": 8,
+      "verses": [
+        3,
+        6
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "2 Kings 8:3,6"
     }
   ],
-  "see_also": [],
-  "aliases": [],
+  "books_mentioned": [
+    "1 Kings",
+    "2 Kings",
+    "Exodus",
+    "Joshua",
+    "Numbers"
+  ],
   "stats": {
-    "entries_count": 5,
-    "ot_refs": 2,
+    "total_aspects": 5,
+    "total_refs": 9,
+    "ot_refs": 9,
     "nt_refs": 0,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.717913+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    }
-  },
-  "version": "3.0.0"
+    "books_count": 5,
+    "top_books": [
+      "Numbers",
+      "Joshua",
+      "1 Kings",
+      "Exodus",
+      "2 Kings"
+    ]
+  }
 }

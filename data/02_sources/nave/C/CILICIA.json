@@ -1,79 +1,90 @@
 {
   "topic": "CILICIA",
-  "topic_slug": "cilicia",
+  "slug": "cilicia",
   "canonical_id": "NAV:cilicia",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–(A maritime province of Asia Minor)\n–Jews live inAc 6:9\n–The congregations ofAc 15:23,41;Ga 1:21\n–Sea ofAc 27:5",
-  "content_preview": "–(A maritime province of Asia Minor)",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–(A maritime province of Asia Minor)",
-      "raw_segment": "–(A maritime province of Asia Minor)"
+      "label": "(A maritime province of Asia Minor)",
+      "references": []
     },
     {
-      "idx": 1,
-      "entry_label": "–Jews live inAc 6:9",
-      "raw_segment": "–Jews live inAc 6:9"
+      "label": "Jews live in",
+      "references": [
+        "Acts 6:9"
+      ]
     },
     {
-      "idx": 2,
-      "entry_label": "–The congregations ofAc 15:23,41;Ga 1:21",
-      "raw_segment": "–The congregations ofAc 15:23,41;Ga 1:21"
+      "label": "The congregations of",
+      "references": [
+        "Acts 15:23,41",
+        "Galatians 1:21"
+      ]
     },
     {
-      "idx": 3,
-      "entry_label": "–Sea ofAc 27:5",
-      "raw_segment": "–Sea ofAc 27:5"
+      "label": "Sea of",
+      "references": [
+        "Acts 27:5"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Acts",
+      "chapter": 6,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 6:9"
+    },
+    {
+      "book": "Acts",
+      "chapter": 15,
+      "verses": [
+        23,
+        41
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Acts 15:23,41"
+    },
+    {
+      "book": "Galatians",
+      "chapter": 1,
+      "verses": [
+        21
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Galatians 1:21"
+    },
+    {
+      "book": "Acts",
+      "chapter": 27,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 27:5"
+    }
+  ],
+  "books_mentioned": [
+    "Acts",
+    "Galatians"
+  ],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 4,
+    "total_refs": 4,
     "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:12112b08206cc1087ffe993a9523cf2bf15e6a12ce679ed34d7da3a4807739b8",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 4
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "nt_refs": 4,
+    "books_count": 2,
+    "top_books": [
+      "Acts",
+      "Galatians"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:25:03.451082Z",
-  "updated_at": "2025-09-20T17:25:03.451089Z"
+  }
 }

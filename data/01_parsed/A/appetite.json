@@ -1,54 +1,70 @@
 {
   "topic": "APPETITE",
   "slug": "appetite",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Kept in subjection Da 1:8-16; 1Co 9:27",
-      "references": [
-        "Dan 1:8-16",
-        "1Cor 9:27"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "See TEMPERANCE",
-      "references": [],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "1 Corinthians",
-      "book_abbrev": "1co",
-      "chapter": 9,
-      "testament": "NT",
-      "verses": [
-        27
-      ],
-      "verse_count": 1
-    }
+  "sources": [
+    "NAV"
   ],
   "see_also": [
     "TEMPERANCE"
   ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 1,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.669247+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
+  "aspects": [
+    {
+      "label": "Kept in subjection",
+      "references": [
+        "Daniel 1:8-16",
+        "1 Corinthians 9:27"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeTEMPERANCE",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0"
+  ],
+  "biblical_references": [
+    {
+      "book": "Daniel",
+      "chapter": 1,
+      "verses": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "verse_count": 9,
+      "testament": "OT",
+      "raw": "Daniel 1:8-16"
+    },
+    {
+      "book": "1 Corinthians",
+      "chapter": 9,
+      "verses": [
+        27
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "1 Corinthians 9:27"
+    }
+  ],
+  "books_mentioned": [
+    "1 Corinthians",
+    "Daniel"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 2,
+    "ot_refs": 1,
+    "nt_refs": 1,
+    "books_count": 2,
+    "top_books": [
+      "Daniel",
+      "1 Corinthians"
+    ]
+  }
 }

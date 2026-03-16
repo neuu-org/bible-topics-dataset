@@ -1,65 +1,102 @@
 {
   "topic": "KIDNEY",
   "slug": "kidney",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "Burnt offering of the Ex 29:13,22; Le 3; 4:9,10; 7:4,5; 8:16; 9:10; De 32:14",
+      "label": "Burnt offering of the",
       "references": [
-        "Exod 29:13",
-        "Exod 29:22",
-        "Lev 3",
-        "Lev 4:9",
-        "Lev 4:10",
-        "Lev 7:4",
-        "Lev 7:5",
-        "Lev 8:16",
-        "Lev 9:10",
-        "Deut 32:14"
+        "Exodus 29:13,22",
+        "Exodus 4:9,10",
+        "Exodus 7:4,5",
+        "Exodus 8:16",
+        "Exodus 9:10",
+        "Deuteronomy 32:14"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Leviticus",
-      "book_abbrev": "lev",
-      "chapter": 3,
-      "testament": "OT",
+      "book": "Exodus",
+      "chapter": 29,
       "verses": [
-        4
+        13,
+        22
       ],
-      "verse_count": 1
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Exodus 29:13,22"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 4,
+      "verses": [
+        9,
+        10
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Exodus 4:9,10"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 7,
+      "verses": [
+        4,
+        5
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Exodus 7:4,5"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 8,
+      "verses": [
+        16
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 8:16"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 9,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 9:10"
     },
     {
       "book": "Deuteronomy",
-      "book_abbrev": "deu",
       "chapter": 32,
-      "testament": "OT",
       "verses": [
         14
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 32:14"
     }
   ],
-  "see_also": [],
-  "aliases": [],
+  "books_mentioned": [
+    "Deuteronomy",
+    "Exodus"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 2,
+    "total_aspects": 1,
+    "total_refs": 6,
+    "ot_refs": 6,
     "nt_refs": 0,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.698762+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    }
-  },
-  "version": "3.0.0"
+    "books_count": 2,
+    "top_books": [
+      "Exodus",
+      "Deuteronomy"
+    ]
+  }
 }

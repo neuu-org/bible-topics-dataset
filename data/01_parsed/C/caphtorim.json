@@ -1,80 +1,97 @@
 {
   "topic": "CAPHTORIM",
   "slug": "caphtorim",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "People of Caphtor Ge 10:14; 1Ch 1:12; De 2:23; Jer 47:4; Am 9:7",
+      "label": "People of",
       "references": [
-        "Gen 10:14",
-        "1Chr 1:12",
-        "Deut 2:23",
-        "Jer 47:4",
+        "Genesis 10:14",
+        "1 Chronicles 1:12",
+        "Deuteronomy 2:23"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "47:4;",
+      "references": [
         "Amos 9:7"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Deuteronomy",
-      "book_abbrev": "deu",
-      "chapter": 2,
-      "testament": "OT",
+      "book": "Genesis",
+      "chapter": 10,
       "verses": [
-        23
+        14
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 10:14"
     },
     {
       "book": "1 Chronicles",
-      "book_abbrev": "1ch",
       "chapter": 1,
-      "testament": "OT",
       "verses": [
         12
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 1:12"
     },
     {
-      "book": "Jeremiah",
-      "book_abbrev": "jer",
-      "chapter": 47,
+      "book": "Deuteronomy",
+      "chapter": 2,
+      "verses": [
+        23
+      ],
+      "verse_count": 1,
       "testament": "OT",
+      "raw": "Deuteronomy 2:23"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 47,
       "verses": [
         4
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 47:4"
     },
     {
       "book": "Amos",
-      "book_abbrev": "amo",
       "chapter": 9,
-      "testament": "OT",
       "verses": [
         7
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Amos 9:7"
     }
   ],
-  "see_also": [],
-  "aliases": [],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Amos",
+    "Deuteronomy",
+    "Genesis"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 4,
+    "total_aspects": 2,
+    "total_refs": 5,
+    "ot_refs": 5,
     "nt_refs": 0,
-    "total_verses": 4
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.676366+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    }
-  },
-  "version": "3.0.0"
+    "books_count": 4,
+    "top_books": [
+      "Deuteronomy",
+      "Genesis",
+      "1 Chronicles",
+      "Amos"
+    ]
+  }
 }

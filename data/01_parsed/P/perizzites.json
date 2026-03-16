@@ -1,93 +1,61 @@
 {
   "topic": "PERIZZITES",
   "slug": "perizzites",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "One of the seven nations in the land of Canaan Ge 13:7",
-      "references": [
-        "Gen 13:7"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Territory of, given to Abraham Ge 15:20; Ex 3:8; 23:23",
-      "references": [
-        "Gen 15:20",
-        "Exod 3:8",
-        "Exod 23:23"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Doomed to destruction De 20:17",
-      "references": [
-        "Deut 20:17"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Not all destroyed; Israelites intermarry with Jud 3:5-7; Ezr 9:1,2",
-      "references": [
-        "Judg 3:5-7",
-        "Ezra 9:1",
-        "Ezra 9:2"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "See CANAANITES",
-      "references": [],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Exodus",
-      "book_abbrev": "exo",
-      "chapter": 3,
-      "testament": "OT",
-      "verses": [
-        8,
-        23
-      ],
-      "verse_count": 2
-    },
-    {
-      "book": "Ezra",
-      "book_abbrev": "ezr",
-      "chapter": 9,
-      "testament": "OT",
-      "verses": [
-        1,
-        2
-      ],
-      "verse_count": 2
-    }
+  "sources": [
+    "NAV"
   ],
   "see_also": [
     "CANAANITES"
   ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 5,
-    "ot_refs": 2,
-    "nt_refs": 0,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.717784+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "aspects": [
+    {
+      "label": "One of the seven nations in the land of",
+      "references": [
+        "Genesis 13:7"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Territory of, given to Abraham",
+      "references": [
+        "Genesis 15:20",
+        "Exodus 3:8",
+        "Exodus 23:23"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Doomed to",
+      "references": [
+        "Deuteronomy 20:17"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Not all",
+      "references": [
+        "Judges 3:5-7",
+        "Ezra 9:1,2"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "See",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
+    {
+      "book": "Genesis",
+      "chapter": 13,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 13:7"
+    },
     {
       "book": "Genesis",
       "chapter": 15,
@@ -96,20 +64,17 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 15:20",
-      "source": "EAS"
+      "raw": "Genesis 15:20"
     },
     {
       "book": "Exodus",
       "chapter": 3,
       "verses": [
-        8,
-        17
+        8
       ],
-      "verse_count": 2,
+      "verse_count": 1,
       "testament": "OT",
-      "raw": "Exodus 3:8, 17",
-      "source": "EAS"
+      "raw": "Exodus 3:8"
     },
     {
       "book": "Exodus",
@@ -119,52 +84,61 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Exodus 23:23",
-      "source": "EAS"
+      "raw": "Exodus 23:23"
     },
     {
-      "book": "Exodus",
-      "chapter": 33,
+      "book": "Deuteronomy",
+      "chapter": 20,
       "verses": [
-        2
+        17
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Exodus 33:2",
-      "source": "EAS"
+      "raw": "Deuteronomy 20:17"
     },
     {
-      "book": "Exodus",
-      "chapter": 34,
+      "book": "Judges",
+      "chapter": 3,
       "verses": [
-        11
+        5,
+        6,
+        7
       ],
-      "verse_count": 1,
+      "verse_count": 3,
       "testament": "OT",
-      "raw": "Exodus 34:11",
-      "source": "EAS"
+      "raw": "Judges 3:5-7"
     },
     {
-      "book": "Joshua",
-      "chapter": 24,
-      "verses": [
-        11
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Joshua 24:11",
-      "source": "EAS"
-    },
-    {
-      "book": "1 Kings",
+      "book": "Ezra",
       "chapter": 9,
       "verses": [
-        20
+        1,
+        2
       ],
-      "verse_count": 1,
+      "verse_count": 2,
       "testament": "OT",
-      "raw": "1 Kings 9:20",
-      "source": "EAS"
+      "raw": "Ezra 9:1,2"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Deuteronomy",
+    "Exodus",
+    "Ezra",
+    "Genesis",
+    "Judges"
+  ],
+  "stats": {
+    "total_aspects": 5,
+    "total_refs": 7,
+    "ot_refs": 7,
+    "nt_refs": 0,
+    "books_count": 5,
+    "top_books": [
+      "Genesis",
+      "Exodus",
+      "Deuteronomy",
+      "Judges",
+      "Ezra"
+    ]
+  }
 }

@@ -1,21 +1,61 @@
 {
-  "topic": "Owl",
+  "topic": "OWL",
   "slug": "owl",
-  "type": "topic",
-  "reference_groups": [],
-  "biblical_references": [],
-  "stats": {},
-  "sources": [],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.716599+00:00",
-    "merged_from": {
-      "v2": false,
-      "dictionary": true
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "(A",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "Unclean",
+      "references": [
+        "Leviticus 11:16,17",
+        "Deuteronomy 14:16"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "In R. V. ostrich is substituted",
+      "references": [
+        "Leviticus 11:16",
+        "Deuteronomy 14:15",
+        "Job 30:29",
+        "Isaiah 13:21",
+        "Isaiah 34:11,13",
+        "Isaiah 43:20",
+        "Jeremiah 50:39",
+        "Micah 1:8"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
+    {
+      "book": "Leviticus",
+      "chapter": 11,
+      "verses": [
+        16,
+        17
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Leviticus 11:16,17"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 14,
+      "verses": [
+        16
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 14:16"
+    },
     {
       "book": "Leviticus",
       "chapter": 11,
@@ -24,8 +64,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Leviticus 11:16",
-      "source": "EAS"
+      "raw": "Leviticus 11:16"
     },
     {
       "book": "Deuteronomy",
@@ -35,30 +74,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Deuteronomy 14:15",
-      "source": "EAS"
-    },
-    {
-      "book": "Isaiah",
-      "chapter": 34,
-      "verses": [
-        15
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Isaiah 34:15",
-      "source": "EAS"
-    },
-    {
-      "book": "Isaiah",
-      "chapter": 34,
-      "verses": [
-        14
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Isaiah 34:14",
-      "source": "EAS"
+      "raw": "Deuteronomy 14:15"
     },
     {
       "book": "Job",
@@ -68,8 +84,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Job 30:29",
-      "source": "EAS"
+      "raw": "Job 30:29"
     },
     {
       "book": "Isaiah",
@@ -79,19 +94,18 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Isaiah 13:21",
-      "source": "EAS"
+      "raw": "Isaiah 13:21"
     },
     {
       "book": "Isaiah",
       "chapter": 34,
       "verses": [
+        11,
         13
       ],
-      "verse_count": 1,
+      "verse_count": 2,
       "testament": "OT",
-      "raw": "Isaiah 34:13",
-      "source": "EAS"
+      "raw": "Isaiah 34:11,13"
     },
     {
       "book": "Isaiah",
@@ -101,8 +115,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Isaiah 43:20",
-      "source": "EAS"
+      "raw": "Isaiah 43:20"
     },
     {
       "book": "Jeremiah",
@@ -112,8 +125,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Jeremiah 50:39",
-      "source": "EAS"
+      "raw": "Jeremiah 50:39"
     },
     {
       "book": "Micah",
@@ -123,99 +135,30 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Micah 1:8",
-      "source": "EAS"
-    },
-    {
-      "book": "Leviticus",
-      "chapter": 11,
-      "verses": [
-        17
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Leviticus 11:17",
-      "source": "EAS"
-    },
-    {
-      "book": "Deuteronomy",
-      "chapter": 14,
-      "verses": [
-        16
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Deuteronomy 14:16",
-      "source": "EAS"
-    },
-    {
-      "book": "Isaiah",
-      "chapter": 34,
-      "verses": [
-        11
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Isaiah 34:11",
-      "source": "EAS"
-    },
-    {
-      "book": "Psalms",
-      "chapter": 102,
-      "verses": [
-        6
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Psalms 102:6",
-      "source": "EAS"
-    },
-    {
-      "book": "Leviticus",
-      "chapter": 14,
-      "verses": [
-        16
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Leviticus 14:16",
-      "source": "SMI"
-    },
-    {
-      "book": "Isaiah",
-      "chapter": 14,
-      "verses": [
-        23
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Isaiah 14:23",
-      "source": "SMI"
-    },
-    {
-      "book": "Zephaniah",
-      "chapter": 2,
-      "verses": [
-        14
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Zephaniah 2:14",
-      "source": "SMI"
-    },
-    {
-      "book": "Isaiah",
-      "chapter": 34,
-      "verses": [
-        11,
-        13,
-        14,
-        15
-      ],
-      "verse_count": 4,
-      "testament": "OT",
-      "raw": "Isaiah 34:11,13-15",
-      "source": "SMI"
+      "raw": "Micah 1:8"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Deuteronomy",
+    "Isaiah",
+    "Jeremiah",
+    "Job",
+    "Leviticus",
+    "Micah"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 10,
+    "ot_refs": 10,
+    "nt_refs": 0,
+    "books_count": 6,
+    "top_books": [
+      "Isaiah",
+      "Leviticus",
+      "Deuteronomy",
+      "Job",
+      "Jeremiah",
+      "Micah"
+    ]
+  }
 }

@@ -1,63 +1,47 @@
 {
   "topic": "JAHATH",
   "slug": "jahath",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "Name of four Levites 1Ch 4:2; 23:10,11; 24:22; 2Ch 34:12",
+      "label": "Name of four Levites",
       "references": [
-        "1Chr 4:2",
-        "1Chr 23:10",
-        "1Chr 23:11",
-        "1Chr 24:22",
-        "2Chr 34:12"
+        "1 Chronicles 4:2",
+        "1 Chronicles 23:10,11",
+        "1 Chronicles 24:22"
       ],
-      "sub_groups": []
+      "source": "NAV"
+    },
+    {
+      "label": "34:12",
+      "references": [],
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "2 Chronicles",
-      "book_abbrev": "2ch",
-      "chapter": 34,
-      "testament": "OT",
+      "book": "1 Chronicles",
+      "chapter": 4,
       "verses": [
-        12
+        2
       ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.695348+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 4:2"
+    },
     {
       "book": "1 Chronicles",
       "chapter": 23,
       "verses": [
-        10
+        10,
+        11
       ],
-      "verse_count": 1,
+      "verse_count": 2,
       "testament": "OT",
-      "raw": "1 Chronicles 23:10",
-      "source": "EAS"
+      "raw": "1 Chronicles 23:10,11"
     },
     {
       "book": "1 Chronicles",
@@ -67,19 +51,30 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 24:22",
-      "source": "EAS"
+      "raw": "1 Chronicles 24:22"
     },
     {
-      "book": "2 Chronicles",
+      "book": "1 Chronicles",
       "chapter": 34,
       "verses": [
         12
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Chronicles 34:12",
-      "source": "EAS"
+      "raw": "1 Chronicles 34:12"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 4,
+    "ot_refs": 4,
+    "nt_refs": 0,
+    "books_count": 1,
+    "top_books": [
+      "1 Chronicles"
+    ]
+  }
 }

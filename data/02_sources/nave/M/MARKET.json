@@ -1,98 +1,100 @@
 {
   "topic": "MARKET",
-  "topic_slug": "market",
+  "slug": "market",
   "canonical_id": "NAV:market",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "GATES"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "GATES",
-      "clean": "GATES",
-      "slug": "gates",
-      "canonical_id": "NAV:gates"
+      "label": "(A place for general merchandise)",
+      "references": []
+    },
+    {
+      "label": "Held at gates",
+      "references": []
+    },
+    {
+      "label": "SeeGATES",
+      "references": []
+    },
+    {
+      "label": "General references",
+      "references": [
+        "Acts 16:19"
+      ]
+    },
+    {
+      "label": "Traffic of, in Tyre",
+      "references": []
+    },
+    {
+      "label": ".Consisted of horses, horsemen, horns, ivory, and ebony, emeralds,",
+      "references": []
+    },
+    {
+      "label": "purple, embroi",
+      "references": []
+    },
+    {
+      "label": "General references",
+      "references": [
+        "Ezekiel 27:13-25"
+      ]
+    },
+    {
+      "label": "SeeGATES",
+      "references": []
     }
   ],
-  "raw_block": "–(A place for general merchandise)\n–Held at gates\n–SeeGATES\n–Judgment seat atAc 16:19\n–Traffic of, in Tyre\n  .Consisted of horses, horsemen, horns, ivory, and ebony, emeralds, \npurple, embroidered wares, linen, coral, agate, honey, balm, wine, wool, oil, cassia, \ncalamus, lambs, rams, goats, precious stones, and gold, spices, and costly apparelEze 27:13-25\n–SeeGATES",
-  "content_preview": "–(A place for general merchandise)",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–(A place for general merchandise)",
-      "raw_segment": "–(A place for general merchandise)"
+      "book": "Acts",
+      "chapter": 16,
+      "verses": [
+        19
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 16:19"
     },
     {
-      "idx": 1,
-      "entry_label": "–Held at gates",
-      "raw_segment": "–Held at gates"
-    },
-    {
-      "idx": 2,
-      "entry_label": "–SeeGATES",
-      "raw_segment": "–SeeGATES"
-    },
-    {
-      "idx": 3,
-      "entry_label": "–Judgment seat atAc 16:19",
-      "raw_segment": "–Judgment seat atAc 16:19"
-    },
-    {
-      "idx": 4,
-      "entry_label": "–Traffic of, in Tyre",
-      "raw_segment": "–Traffic of, in Tyre"
-    },
-    {
-      "idx": 5,
-      "entry_label": "–SeeGATES",
-      "raw_segment": "–SeeGATES"
+      "book": "Ezekiel",
+      "chapter": 27,
+      "verses": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "verse_count": 13,
+      "testament": "OT",
+      "raw": "Ezekiel 27:13-25"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "Acts",
+    "Ezekiel"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:6f0ac296735bed1e9616ded77952ed1504cd0388f7ee9719e723e858b4e865d8",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 9
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 9,
+    "total_refs": 2,
+    "ot_refs": 1,
+    "nt_refs": 1,
+    "books_count": 2,
+    "top_books": [
+      "Acts",
+      "Ezekiel"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:28:52.816714Z",
-  "updated_at": "2025-09-20T17:28:52.816721Z"
+  }
 }

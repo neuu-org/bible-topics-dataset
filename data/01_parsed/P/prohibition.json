@@ -1,78 +1,86 @@
 {
   "topic": "PROHIBITION",
   "slug": "prohibition",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [
+    "ABSTINENCE, TOTAL",
+    "COMMANDMENTS",
+    "DRUNKENNESS"
+  ],
+  "aspects": [
     {
-      "name": "(Of the use of intoxicating liquors)",
+      "label": "(Of the use of intoxi",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "To priests “on duty,” Le 10:9",
+      "label": "To priests “on duty,”",
       "references": [
-        "Lev 10:9"
+        "Leviticus 10:9"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "To Nazarites Nu 6:3,4",
+      "label": "To Nazarites",
       "references": [
-        "Num 6:3",
-        "Num 6:4"
+        "Numbers 6:3,4"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See ABSTINENCE, TOTAL",
+      "label": "SeeABSTINENCE, TOTAL",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See COMMANDMENTS",
+      "label": "SeeCOMMANDMENTS",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See DRUNKENNESS",
+      "label": "SeeDRUNKENNESS",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
       "book": "Leviticus",
-      "book_abbrev": "lev",
       "chapter": 10,
-      "testament": "OT",
       "verses": [
         9
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Leviticus 10:9"
+    },
+    {
+      "book": "Numbers",
+      "chapter": 6,
+      "verses": [
+        3,
+        4
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Numbers 6:3,4"
     }
   ],
-  "see_also": [
-    "DRUNKENNESS",
-    "ABSTINENCE, TOTAL",
-    "COMMANDMENTS"
+  "books_mentioned": [
+    "Leviticus",
+    "Numbers"
   ],
-  "aliases": [],
   "stats": {
-    "entries_count": 6,
-    "ot_refs": 1,
+    "total_aspects": 6,
+    "total_refs": 2,
+    "ot_refs": 2,
     "nt_refs": 0,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.719709+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    }
-  },
-  "version": "3.0.0"
+    "books_count": 2,
+    "top_books": [
+      "Leviticus",
+      "Numbers"
+    ]
+  }
 }

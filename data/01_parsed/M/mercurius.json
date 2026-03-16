@@ -1,65 +1,48 @@
 {
   "topic": "MERCURIUS",
   "slug": "mercurius",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "(A pagan god; Mercury (to the Romans); Hermes (to the Greeks))",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "Paul taken for, in Lycaonia Ac 14:11,12",
-      "references": [
-        "Acts 14:11",
-        "Acts 14:12"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.705472+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "see_also": [],
+  "aspects": [
     {
-      "book": "Acts",
-      "chapter": 14,
-      "verses": [
-        12
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Acts 14:12",
-      "source": "EAS"
+      "label": "(A pagan god; Mercury (to the Romans); Hermes (to the Greeks))",
+      "references": [],
+      "source": "NAV"
     },
     {
+      "label": "Paul taken for, in Ly",
+      "references": [
+        "Acts 14:11,12"
+      ],
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
+    {
       "book": "Acts",
       "chapter": 14,
       "verses": [
-        11
+        11,
+        12
       ],
-      "verse_count": 1,
+      "verse_count": 2,
       "testament": "NT",
-      "raw": "Acts 14:11",
-      "source": "SMI"
+      "raw": "Acts 14:11,12"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Acts"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 1,
+    "ot_refs": 0,
+    "nt_refs": 1,
+    "books_count": 1,
+    "top_books": [
+      "Acts"
+    ]
+  }
 }

@@ -1,50 +1,21 @@
 {
   "topic": "ZEBAIM",
   "slug": "zebaim",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "A place whose exact location is unknown Ezr 2:57; Ne 7:59",
-      "references": [
-        "Ezra 2:57",
-        "Neh 7:59"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Nehemiah",
-      "book_abbrev": "neh",
-      "chapter": 7,
-      "testament": "OT",
-      "verses": [
-        59
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.734494+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "A place whose exact lo",
+      "references": [
+        "Ezra 2:57",
+        "Nehemiah 7:59"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Ezra",
       "chapter": 2,
@@ -53,8 +24,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Ezra 2:57",
-      "source": "EAS"
+      "raw": "Ezra 2:57"
     },
     {
       "book": "Nehemiah",
@@ -64,8 +34,22 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Nehemiah 7:59",
-      "source": "EAS"
+      "raw": "Nehemiah 7:59"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Ezra",
+    "Nehemiah"
+  ],
+  "stats": {
+    "total_aspects": 1,
+    "total_refs": 2,
+    "ot_refs": 2,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "Ezra",
+      "Nehemiah"
+    ]
+  }
 }

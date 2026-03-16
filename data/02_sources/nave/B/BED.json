@@ -1,99 +1,140 @@
 {
   "topic": "BED",
-  "topic_slug": "bed",
+  "slug": "bed",
   "canonical_id": "NAV:bed",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–Made of woodSo 3:7-9\n–Made of ironDe 3:11\n–Made of ivoryAm 6:4\n–Made of gold and silverEs 1:6\n–Used at mealsAm 6:4\n–Exempt from execution for debtPr 22:27\n–PerfumedPr 7:17\n–FIGURATIVE",
-  "content_preview": "–Made of woodSo 3:7-9",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–Made of woodSo 3:7-9",
-      "raw_segment": "–Made of woodSo 3:7-9"
+      "label": "Ma",
+      "references": [
+        "Song of Solomon 3:7-9"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–Made of ironDe 3:11",
-      "raw_segment": "–Made of ironDe 3:11"
+      "label": "Ma",
+      "references": [
+        "Deuteronomy 3:11"
+      ]
     },
     {
-      "idx": 2,
-      "entry_label": "–Made of ivoryAm 6:4",
-      "raw_segment": "–Made of ivoryAm 6:4"
+      "label": "Ma",
+      "references": [
+        "Amos 6:4"
+      ]
     },
     {
-      "idx": 3,
-      "entry_label": "–Made of gold and silverEs 1:6",
-      "raw_segment": "–Made of gold and silverEs 1:6"
+      "label": "Ma",
+      "references": [
+        "Esther 1:6"
+      ]
     },
     {
-      "idx": 4,
-      "entry_label": "–Used at mealsAm 6:4",
-      "raw_segment": "–Used at mealsAm 6:4"
+      "label": "Used at meals",
+      "references": [
+        "Amos 6:4"
+      ]
     },
     {
-      "idx": 5,
-      "entry_label": "–Exempt from execution for debtPr 22:27",
-      "raw_segment": "–Exempt from execution for debtPr 22:27"
+      "label": "Exempt from execution for",
+      "references": [
+        "Proverbs 22:27"
+      ]
     },
     {
-      "idx": 6,
-      "entry_label": "–PerfumedPr 7:17",
-      "raw_segment": "–PerfumedPr 7:17"
+      "label": "Perfumed",
+      "references": [
+        "Proverbs 7:17"
+      ]
     },
     {
-      "idx": 7,
-      "entry_label": "–FIGURATIVE",
-      "raw_segment": "–FIGURATIVE"
+      "label": "FIGURATIVE",
+      "references": []
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Song of Solomon",
+      "chapter": 3,
+      "verses": [
+        7,
+        8,
+        9
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Song of Solomon 3:7-9"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 3,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 3:11"
+    },
+    {
+      "book": "Amos",
+      "chapter": 6,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Amos 6:4"
+    },
+    {
+      "book": "Esther",
+      "chapter": 1,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Esther 1:6"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 22,
+      "verses": [
+        27
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 22:27"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 7,
+      "verses": [
+        17
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 7:17"
+    }
+  ],
+  "books_mentioned": [
+    "Amos",
+    "Deuteronomy",
+    "Esther",
+    "Proverbs",
+    "Song of Solomon"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 8,
+    "total_refs": 6,
+    "ot_refs": 6,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:2d395eafe5e3f900452d1b965edf49b39e5037cdad8f87c6c3baceb1f166b326",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 8
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 5,
+    "top_books": [
+      "Proverbs",
+      "Song of Solomon",
+      "Deuteronomy",
+      "Amos",
+      "Esther"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:24:14.272449Z",
-  "updated_at": "2025-09-20T17:24:14.272462Z"
+  }
 }

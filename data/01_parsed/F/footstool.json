@@ -1,123 +1,37 @@
 {
   "topic": "FOOTSTOOL",
   "slug": "footstool",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "FIGURATIVE",
+      "label": "FIGURATIVE",
       "references": [],
-      "sub_groups": [
-        {
-          "name": "The earth is God’s Isa 60:13; 66:1; La 2:1; Ac 7:49",
-          "references": [
-            "Isa 60:13",
-            "Isa 66:1",
-            "Lam 2:1",
-            "Acts 7:49"
-          ]
-        }
-      ]
+      "source": "NAV"
+    },
+    {
+      "label": ".The earth is God’s",
+      "references": [
+        "Isaiah 60:13",
+        "Isaiah 66:1",
+        "Lamentations 2:1",
+        "Acts 7:49"
+      ],
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Lamentations",
-      "book_abbrev": "lam",
-      "chapter": 2,
-      "testament": "OT",
+      "book": "Isaiah",
+      "chapter": 60,
       "verses": [
-        1
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Acts",
-      "book_abbrev": "act",
-      "chapter": 7,
-      "testament": "NT",
-      "verses": [
-        49
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 1,
-    "nt_refs": 1,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.687030+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    },
-    "enriched_at": "2025-12-02T22:02:10.214555+00:00",
-    "enrichment_source": "pipeline_merge"
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "2 Chronicles",
-      "chapter": 9,
-      "verses": [
-        18
+        13
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Chronicles 9:18",
-      "source": "EAS"
-    },
-    {
-      "book": "1 Chronicles",
-      "chapter": 28,
-      "verses": [
-        2
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "1 Chronicles 28:2",
-      "source": "EAS"
-    },
-    {
-      "book": "Psalms",
-      "chapter": 99,
-      "verses": [
-        5
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Psalms 99:5",
-      "source": "EAS"
-    },
-    {
-      "book": "Psalms",
-      "chapter": 132,
-      "verses": [
-        7
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Psalms 132:7",
-      "source": "EAS"
-    },
-    {
-      "book": "Psalms",
-      "chapter": 110,
-      "verses": [
-        1
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Psalms 110:1",
-      "source": "EAS"
+      "raw": "Isaiah 60:13"
     },
     {
       "book": "Isaiah",
@@ -127,19 +41,44 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Isaiah 66:1",
-      "source": "EAS"
+      "raw": "Isaiah 66:1"
     },
     {
-      "book": "Matthew",
-      "chapter": 5,
+      "book": "Lamentations",
+      "chapter": 2,
       "verses": [
-        35
+        1
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Lamentations 2:1"
+    },
+    {
+      "book": "Acts",
+      "chapter": 7,
+      "verses": [
+        49
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Matthew 5:35",
-      "source": "EAS"
+      "raw": "Acts 7:49"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Acts",
+    "Isaiah",
+    "Lamentations"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 4,
+    "ot_refs": 3,
+    "nt_refs": 1,
+    "books_count": 3,
+    "top_books": [
+      "Isaiah",
+      "Lamentations",
+      "Acts"
+    ]
+  }
 }

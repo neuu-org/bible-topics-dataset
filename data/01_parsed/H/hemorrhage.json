@@ -1,72 +1,98 @@
 {
   "topic": "HEMORRHAGE",
   "slug": "hemorrhage",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Menstruation Le 15:19; Mt 9:20; Lu 8:43",
-      "references": [
-        "Lev 15:19",
-        "Matt 9:20",
-        "Luke 8:43"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "A woman suffers for twelve years Mr 5:25-29",
-      "references": [
-        "Mark 5:25-29"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "See MENSTRUATION",
-      "references": [],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Matthew",
-      "book_abbrev": "mat",
-      "chapter": 9,
-      "testament": "NT",
-      "verses": [
-        20
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Luke",
-      "book_abbrev": "luk",
-      "chapter": 8,
-      "testament": "NT",
-      "verses": [
-        43
-      ],
-      "verse_count": 1
-    }
+  "sources": [
+    "NAV"
   ],
   "see_also": [
     "MENSTRUATION"
   ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 0,
-    "nt_refs": 2,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.691926+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
+  "aspects": [
+    {
+      "label": "Menstruation",
+      "references": [
+        "Leviticus 15:19",
+        "Matthew 9:20",
+        "Luke 8:43"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "A woman suffers for twelve years",
+      "references": [
+        "Mark 5:25-29"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeMENSTRUATION",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0"
+  ],
+  "biblical_references": [
+    {
+      "book": "Leviticus",
+      "chapter": 15,
+      "verses": [
+        19
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Leviticus 15:19"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 9,
+      "verses": [
+        20
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 9:20"
+    },
+    {
+      "book": "Luke",
+      "chapter": 8,
+      "verses": [
+        43
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 8:43"
+    },
+    {
+      "book": "Mark",
+      "chapter": 5,
+      "verses": [
+        25,
+        26,
+        27,
+        28,
+        29
+      ],
+      "verse_count": 5,
+      "testament": "NT",
+      "raw": "Mark 5:25-29"
+    }
+  ],
+  "books_mentioned": [
+    "Leviticus",
+    "Luke",
+    "Mark",
+    "Matthew"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 4,
+    "ot_refs": 1,
+    "nt_refs": 3,
+    "books_count": 4,
+    "top_books": [
+      "Leviticus",
+      "Matthew",
+      "Luke",
+      "Mark"
+    ]
+  }
 }

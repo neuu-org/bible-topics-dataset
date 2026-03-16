@@ -1,69 +1,80 @@
 {
   "topic": "FLESH",
-  "topic_slug": "flesh",
+  "slug": "flesh",
   "canonical_id": "NAV:flesh",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–FIGURATIVE\n  .Fruits ofGa 5:19-21\n–SYMOLICAL\n  .Body of Christ symbolized by the breadJoh 6:51-63",
-  "content_preview": "–FIGURATIVE",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–FIGURATIVE",
-      "raw_segment": "–FIGURATIVE"
+      "label": "FIGURATIVE",
+      "references": []
     },
     {
-      "idx": 1,
-      "entry_label": "–SYMOLICAL",
-      "raw_segment": "–SYMOLICAL"
+      "label": ".Fruits of",
+      "references": [
+        "Galatians 5:19-21"
+      ]
+    },
+    {
+      "label": "SYMOLI",
+      "references": []
+    },
+    {
+      "label": ".Body of Christ symbolized by the bread",
+      "references": [
+        "John 6:51-63"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Galatians",
+      "chapter": 5,
+      "verses": [
+        19,
+        20,
+        21
+      ],
+      "verse_count": 3,
+      "testament": "NT",
+      "raw": "Galatians 5:19-21"
+    },
+    {
+      "book": "John",
+      "chapter": 6,
+      "verses": [
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63
+      ],
+      "verse_count": 13,
+      "testament": "NT",
+      "raw": "John 6:51-63"
+    }
+  ],
+  "books_mentioned": [
+    "Galatians",
+    "John"
+  ],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 4,
+    "total_refs": 2,
     "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:19777e1364fd0d913b39348197bd757febab26cd063822ba7c94805355b712e8",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 4
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "nt_refs": 2,
+    "books_count": 2,
+    "top_books": [
+      "Galatians",
+      "John"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:26:22.732521Z",
-  "updated_at": "2025-09-20T17:26:22.732527Z"
+  }
 }

@@ -1,74 +1,74 @@
 {
   "topic": "CHESULLOTH",
-  "topic_slug": "chesulloth",
+  "slug": "chesulloth",
   "canonical_id": "NAV:chesulloth",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–A city of IssacharJos 19:18\n–Probably identical with CHISLOTH-TABOR, ofJos 19:12\n–And TABOR1Ch 6:77",
-  "content_preview": "–A city of IssacharJos 19:18",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–A city of IssacharJos 19:18",
-      "raw_segment": "–A city of IssacharJos 19:18"
+      "label": "A city of Issachar",
+      "references": [
+        "Joshua 19:18"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–Probably identical with CHISLOTH-TABOR, ofJos 19:12",
-      "raw_segment": "–Probably identical with CHISLOTH-TABOR, ofJos 19:12"
+      "label": "Probably i",
+      "references": [
+        "Joshua 19:12"
+      ]
     },
     {
-      "idx": 2,
-      "entry_label": "–And TABOR1Ch 6:77",
-      "raw_segment": "–And TABOR1Ch 6:77"
+      "label": "And TABOR",
+      "references": [
+        "1 Chronicles 6:77"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Joshua",
+      "chapter": 19,
+      "verses": [
+        18
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 19:18"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 19,
+      "verses": [
+        12
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 19:12"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 6,
+      "verses": [
+        77
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 6:77"
+    }
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Joshua"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 3,
+    "total_refs": 3,
+    "ot_refs": 3,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:77ab84d89d0098adafc992edd39ecaa0891200f76c3a7de45ee6ac1b29fe2e82",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 3
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 2,
+    "top_books": [
+      "Joshua",
+      "1 Chronicles"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:24:58.971293Z",
-  "updated_at": "2025-09-20T17:24:58.971300Z"
+  }
 }

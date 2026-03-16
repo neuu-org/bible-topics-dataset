@@ -1,43 +1,61 @@
 {
   "topic": "DISCIPLESHIP",
   "slug": "discipleship",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [
+    "COMMANDMENTS"
+  ],
+  "aspects": [
     {
-      "name": "Tests of Mt 10:32-39; Lu 14:26,27,33; Joh 21:15-19",
+      "label": "Tests of",
       "references": [
-        "Matt 10:32-39",
-        "Luke 14:26",
-        "Luke 14:27",
-        "Luke 14:33",
+        "Matthew 10:32-39",
+        "Luke 14:26,27,33",
         "John 21:15-19"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See COMMANDMENTS",
+      "label": "SeeCOMMANDMENTS",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Luke",
-      "book_abbrev": "luk",
-      "chapter": 14,
+      "book": "Matthew",
+      "chapter": 10,
+      "verses": [
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "verse_count": 8,
       "testament": "NT",
+      "raw": "Matthew 10:32-39"
+    },
+    {
+      "book": "Luke",
+      "chapter": 14,
       "verses": [
         26,
         27,
         33
       ],
-      "verse_count": 3
+      "verse_count": 3,
+      "testament": "NT",
+      "raw": "Luke 14:26,27,33"
     },
     {
       "book": "John",
-      "book_abbrev": "jhn",
       "chapter": 21,
-      "testament": "NT",
       "verses": [
         15,
         16,
@@ -45,29 +63,26 @@
         18,
         19
       ],
-      "verse_count": 5
+      "verse_count": 5,
+      "testament": "NT",
+      "raw": "John 21:15-19"
     }
   ],
-  "see_also": [
-    "COMMANDMENTS"
+  "books_mentioned": [
+    "John",
+    "Luke",
+    "Matthew"
   ],
-  "aliases": [],
   "stats": {
-    "entries_count": 2,
+    "total_aspects": 2,
+    "total_refs": 3,
     "ot_refs": 0,
-    "nt_refs": 2,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.681903+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    }
-  },
-  "version": "3.0.0"
+    "nt_refs": 3,
+    "books_count": 3,
+    "top_books": [
+      "Matthew",
+      "Luke",
+      "John"
+    ]
+  }
 }

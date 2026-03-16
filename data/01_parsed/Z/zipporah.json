@@ -1,83 +1,67 @@
 {
   "topic": "ZIPPORAH",
   "slug": "zipporah",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Wife of Moses Ex 2:16-22",
-      "references": [
-        "Exod 2:16-22"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Reproaches Moses Ex 4:25,26",
-      "references": [
-        "Exod 4:25",
-        "Exod 4:26"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Separates from Moses, is brought again to him by her father Ex 18:2-6",
-      "references": [
-        "Exod 18:2-6"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Miriam and Aaron upbraid Moses concerning Nu 12:1",
-      "references": [
-        "Num 12:1"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 4,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.735263+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "Wife of Moses",
+      "references": [
+        "Exodus 2:16-22"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Reproaches Moses",
+      "references": [
+        "Exodus 4:25,26"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Separates from Moses, is brought again to him by her father",
+      "references": [
+        "Exodus 18:2-6"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Miriam and Aaron upbraid Moses concerning",
+      "references": [
+        "Numbers 12:1"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Exodus",
       "chapter": 2,
       "verses": [
-        21
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
       ],
-      "verse_count": 1,
+      "verse_count": 7,
       "testament": "OT",
-      "raw": "Exodus 2:21",
-      "source": "EAS"
+      "raw": "Exodus 2:16-22"
     },
     {
       "book": "Exodus",
       "chapter": 4,
       "verses": [
-        24,
         25,
         26
       ],
-      "verse_count": 3,
+      "verse_count": 2,
       "testament": "OT",
-      "raw": "Exodus 4:24-26",
-      "source": "EAS"
+      "raw": "Exodus 4:25,26"
     },
     {
       "book": "Exodus",
@@ -91,8 +75,32 @@
       ],
       "verse_count": 5,
       "testament": "OT",
-      "raw": "Exodus 18:2-6",
-      "source": "EAS"
+      "raw": "Exodus 18:2-6"
+    },
+    {
+      "book": "Numbers",
+      "chapter": 12,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Numbers 12:1"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Exodus",
+    "Numbers"
+  ],
+  "stats": {
+    "total_aspects": 4,
+    "total_refs": 4,
+    "ot_refs": 4,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "Exodus",
+      "Numbers"
+    ]
+  }
 }

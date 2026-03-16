@@ -1,69 +1,134 @@
 {
   "topic": "JEHOZADAK",
-  "topic_slug": "jehozadak",
+  "slug": "jehozadak",
   "canonical_id": "NAV:jehozadak",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–Also called JOSEDECH and JOZADAK\n–A priest of the exile1Ch 6:14,15;Ezr 3:2,8;5:2;10:18;Ne 12:26;Hag 1:1,12,14;2:2,4;Zec 6:11",
-  "content_preview": "–Also called JOSEDECH and JOZADAK",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–Also called JOSEDECH and JOZADAK",
-      "raw_segment": "–Also called JOSEDECH and JOZADAK"
+      "label": "Al",
+      "references": []
     },
     {
-      "idx": 1,
-      "entry_label": "–A priest of the exile1Ch 6:14,15;Ezr 3:2,8;5:2;10:18;Ne 12:26;Hag 1:1,12,14;2:2,4;Zec 6:11",
-      "raw_segment": "–A priest of the exile1Ch 6:14,15;Ezr 3:2,8;5:2;10:18;Ne 12:26;Hag 1:1,12,14;2:2,4;Zec 6:11"
+      "label": "A priest of the exile",
+      "references": [
+        "1 Chronicles 6:14,15",
+        "Ezra 3:2,8",
+        "Ezra 5:2",
+        "Ezra 10:18",
+        "Nehemiah 12:26",
+        "Haggai 1:1,12,14",
+        "Haggai 2:2,4",
+        "Ecclesiastes 6:11"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "1 Chronicles",
+      "chapter": 6,
+      "verses": [
+        14,
+        15
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "1 Chronicles 6:14,15"
+    },
+    {
+      "book": "Ezra",
+      "chapter": 3,
+      "verses": [
+        2,
+        8
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Ezra 3:2,8"
+    },
+    {
+      "book": "Ezra",
+      "chapter": 5,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezra 5:2"
+    },
+    {
+      "book": "Ezra",
+      "chapter": 10,
+      "verses": [
+        18
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezra 10:18"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 12,
+      "verses": [
+        26
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Nehemiah 12:26"
+    },
+    {
+      "book": "Haggai",
+      "chapter": 1,
+      "verses": [
+        1,
+        12,
+        14
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Haggai 1:1,12,14"
+    },
+    {
+      "book": "Haggai",
+      "chapter": 2,
+      "verses": [
+        2,
+        4
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Haggai 2:2,4"
+    },
+    {
+      "book": "Ecclesiastes",
+      "chapter": 6,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ecclesiastes 6:11"
+    }
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Ecclesiastes",
+    "Ezra",
+    "Haggai",
+    "Nehemiah"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 2,
+    "total_refs": 8,
+    "ot_refs": 8,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:22dd89078fc001b4e94be5dfe13d0324c96dd4af9166ce016a31d894031d3f34",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 5,
+    "top_books": [
+      "Ezra",
+      "Haggai",
+      "1 Chronicles",
+      "Nehemiah",
+      "Ecclesiastes"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:27:59.505550Z",
-  "updated_at": "2025-09-20T17:27:59.505558Z"
+  }
 }

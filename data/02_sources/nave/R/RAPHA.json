@@ -1,74 +1,104 @@
 {
   "topic": "RAPHA",
-  "topic_slug": "rapha",
+  "slug": "rapha",
   "canonical_id": "NAV:rapha",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–1. Son of Benjamin1Ch 8:2\n–2. Also called REPHAIAH\n  .A descendant of Jonathan1Ch 8:37;9:43\n–3. An ancestor of certain Philistine warriors, (margins)2Sa 21:16,20,22;1Ch 20:4,6,8",
-  "content_preview": "–1. Son of Benjamin1Ch 8:2",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–1. Son of Benjamin1Ch 8:2",
-      "raw_segment": "–1. Son of Benjamin1Ch 8:2"
+      "label": "1.",
+      "references": [
+        "1 Chronicles 8:2"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–2. Also called REPHAIAH",
-      "raw_segment": "–2. Also called REPHAIAH"
+      "label": "2. Al",
+      "references": []
     },
     {
-      "idx": 2,
-      "entry_label": "–3. An ancestor of certain Philistine warriors, (margins)2Sa 21:16,20,22;1Ch 20:4,6,8",
-      "raw_segment": "–3. An ancestor of certain Philistine warriors, (margins)2Sa 21:16,20,22;1Ch 20:4,6,8"
+      "label": ".A",
+      "references": [
+        "1 Chronicles 8:37",
+        "1 Chronicles 9:43"
+      ]
+    },
+    {
+      "label": "3. An ancestor of certain Philistine warriors, (margins)",
+      "references": [
+        "2 Samuel 21:16,20,22",
+        "1 Chronicles 20:4,6,8"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "1 Chronicles",
+      "chapter": 8,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 8:2"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 8,
+      "verses": [
+        37
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 8:37"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 9,
+      "verses": [
+        43
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 9:43"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 21,
+      "verses": [
+        16,
+        20,
+        22
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "2 Samuel 21:16,20,22"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 20,
+      "verses": [
+        4,
+        6,
+        8
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "1 Chronicles 20:4,6,8"
+    }
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "2 Samuel"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 4,
+    "total_refs": 5,
+    "ot_refs": 5,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:894e131256571d4753b600c8badaa1df399e8009c3599b1f946f2da268efa141",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 4
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 2,
+    "top_books": [
+      "1 Chronicles",
+      "2 Samuel"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:30:30.145299Z",
-  "updated_at": "2025-09-20T17:30:30.145307Z"
+  }
 }

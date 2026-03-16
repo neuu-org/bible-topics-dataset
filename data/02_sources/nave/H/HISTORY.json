@@ -1,102 +1,58 @@
 {
   "topic": "HISTORY",
-  "topic_slug": "history",
+  "slug": "history",
   "canonical_id": "NAV:history",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "ISRAEL, HISTORY OF",
     "BOOKS",
     "JESUS, LIFE OF"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "ISRAEL, HISTORY OF",
-      "clean": "ISRAEL, HISTORY OF",
-      "slug": "israel__history_of",
-      "canonical_id": "NAV:israel__history_of"
+      "label": "General scriptures concerning",
+      "references": [
+        "Job 8:8-10"
+      ]
     },
     {
-      "original": "BOOKS",
-      "clean": "BOOKS",
-      "slug": "books",
-      "canonical_id": "NAV:books"
+      "label": "SeeBOOKS",
+      "references": []
     },
     {
-      "original": "JESUS, LIFE OF",
-      "clean": "JESUS, LIFE OF",
-      "slug": "jesus__life_of",
-      "canonical_id": "NAV:jesus__life_of"
+      "label": "SeeISRAEL, HISTORY OF",
+      "references": []
+    },
+    {
+      "label": "SeeJESUS, LIFE OF",
+      "references": []
     }
   ],
-  "raw_block": "–General scriptures concerningJob 8:8-10\n–SeeBOOKS\n–SeeISRAEL, HISTORY OF\n–SeeJESUS, LIFE OF",
-  "content_preview": "–General scriptures concerningJob 8:8-10",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–General scriptures concerningJob 8:8-10",
-      "raw_segment": "–General scriptures concerningJob 8:8-10"
-    },
-    {
-      "idx": 1,
-      "entry_label": "–SeeBOOKS",
-      "raw_segment": "–SeeBOOKS"
-    },
-    {
-      "idx": 2,
-      "entry_label": "–SeeISRAEL, HISTORY OF",
-      "raw_segment": "–SeeISRAEL, HISTORY OF"
-    },
-    {
-      "idx": 3,
-      "entry_label": "–SeeJESUS, LIFE OF",
-      "raw_segment": "–SeeJESUS, LIFE OF"
+      "book": "Job",
+      "chapter": 8,
+      "verses": [
+        8,
+        9,
+        10
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Job 8:8-10"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "Job"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 4,
+    "total_refs": 1,
+    "ot_refs": 1,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:2f4c0384fece265b04d10a04073b3de1f2e1dd4f2257f86f22cabfd818283378",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 4
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 1,
+    "top_books": [
+      "Job"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:27:16.799832Z",
-  "updated_at": "2025-09-20T17:27:16.799840Z"
+  }
 }

@@ -1,64 +1,53 @@
 {
   "topic": "BAKBUK",
-  "topic_slug": "bakbuk",
+  "slug": "bakbuk",
   "canonical_id": "NAV:bakbuk",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–An ancestor of the NethinimEzr 2:51;Ne 7:53",
-  "content_preview": "–An ancestor of the NethinimEzr 2:51;Ne 7:53",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–An ancestor of the NethinimEzr 2:51;Ne 7:53",
-      "raw_segment": "–An ancestor of the NethinimEzr 2:51;Ne 7:53"
+      "label": "An ancestor of the Nethinim",
+      "references": [
+        "Ezra 2:51",
+        "Nehemiah 7:53"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Ezra",
+      "chapter": 2,
+      "verses": [
+        51
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezra 2:51"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 7,
+      "verses": [
+        53
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Nehemiah 7:53"
+    }
+  ],
+  "books_mentioned": [
+    "Ezra",
+    "Nehemiah"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 1,
+    "total_refs": 2,
+    "ot_refs": 2,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:101895e9b45256abfc165f36a7436c7d0d7d9bbb8700a3df3a442b5d4018fe09",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 1
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 2,
+    "top_books": [
+      "Ezra",
+      "Nehemiah"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:24:06.378609Z",
-  "updated_at": "2025-09-20T17:24:06.378617Z"
+  }
 }

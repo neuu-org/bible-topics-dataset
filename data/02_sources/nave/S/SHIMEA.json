@@ -1,95 +1,67 @@
 {
   "topic": "SHIMEA",
-  "topic_slug": "shimea",
+  "slug": "shimea",
   "canonical_id": "NAV:shimea",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "SHAMMAH",
     "SHAMMUAH"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "SHAMMAH",
-      "clean": "SHAMMAH",
-      "slug": "shammah",
-      "canonical_id": "NAV:shammah"
+      "label": "1. SeeSHAMMUAH",
+      "references": []
     },
     {
-      "original": "SHAMMUAH",
-      "clean": "SHAMMUAH",
-      "slug": "shammuah",
-      "canonical_id": "NAV:shammuah"
+      "label": "2. SeeSHAMMAH",
+      "references": []
+    },
+    {
+      "label": "3. A Merarite Levite",
+      "references": [
+        "1 Chronicles 6:30"
+      ]
+    },
+    {
+      "label": "4. Grandfather of Asaph",
+      "references": [
+        "1 Chronicles 6:39"
+      ]
     }
   ],
-  "raw_block": "–1. SeeSHAMMUAH\n–2. SeeSHAMMAHnumber two\n–3. A Merarite Levite1Ch 6:30\n–4. Grandfather of Asaph1Ch 6:39",
-  "content_preview": "–1. SeeSHAMMUAH",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–1. SeeSHAMMUAH",
-      "raw_segment": "–1. SeeSHAMMUAH"
+      "book": "1 Chronicles",
+      "chapter": 6,
+      "verses": [
+        30
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 6:30"
     },
     {
-      "idx": 1,
-      "entry_label": "–2. SeeSHAMMAHnumber two",
-      "raw_segment": "–2. SeeSHAMMAHnumber two"
-    },
-    {
-      "idx": 2,
-      "entry_label": "–3. A Merarite Levite1Ch 6:30",
-      "raw_segment": "–3. A Merarite Levite1Ch 6:30"
-    },
-    {
-      "idx": 3,
-      "entry_label": "–4. Grandfather of Asaph1Ch 6:39",
-      "raw_segment": "–4. Grandfather of Asaph1Ch 6:39"
+      "book": "1 Chronicles",
+      "chapter": 6,
+      "verses": [
+        39
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 6:39"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "1 Chronicles"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 4,
+    "total_refs": 2,
+    "ot_refs": 2,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:d87fca856820fcf141a64b92d87bac78794c9fb1e1684563136dddd68af6a91f",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 4
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 1,
+    "top_books": [
+      "1 Chronicles"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:31:23.825570Z",
-  "updated_at": "2025-09-20T17:31:23.825579Z"
+  }
 }

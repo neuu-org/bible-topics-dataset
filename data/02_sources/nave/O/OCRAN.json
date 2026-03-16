@@ -1,64 +1,66 @@
 {
   "topic": "OCRAN",
-  "topic_slug": "ocran",
+  "slug": "ocran",
   "canonical_id": "NAV:ocran",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–An Asherite and the father of Pagiel who counted Israel in a \ncensusNu 1:13;2:27;10:26",
-  "content_preview": "–An Asherite and the father of Pagiel who counted Israel in a ",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–An Asherite and the father of Pagiel who counted Israel in a \ncensusNu 1:13;2:27;10:26",
-      "raw_segment": "–An Asherite and the father of Pagiel who counted Israel in a \ncensusNu 1:13;2:27;10:26"
+      "label": "An Asherite and the father of Pagiel who counted Israel in a",
+      "references": []
+    },
+    {
+      "label": "census",
+      "references": [
+        "Numbers 1:13",
+        "Numbers 2:27",
+        "Numbers 10:26"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Numbers",
+      "chapter": 1,
+      "verses": [
+        13
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Numbers 1:13"
+    },
+    {
+      "book": "Numbers",
+      "chapter": 2,
+      "verses": [
+        27
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Numbers 2:27"
+    },
+    {
+      "book": "Numbers",
+      "chapter": 10,
+      "verses": [
+        26
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Numbers 10:26"
+    }
+  ],
+  "books_mentioned": [
+    "Numbers"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 2,
+    "total_refs": 3,
+    "ot_refs": 3,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:2206a1c0cd4122245e697ff001d761d09a39b3d323ba1b450e2e9f48e91a2bc8",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 1,
+    "top_books": [
+      "Numbers"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:29:39.153695Z",
-  "updated_at": "2025-09-20T17:29:39.153703Z"
+  }
 }

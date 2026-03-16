@@ -1,69 +1,188 @@
 {
   "topic": "SUCCOTH",
-  "topic_slug": "succoth",
+  "slug": "succoth",
   "canonical_id": "NAV:succoth",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–1. A city which was located probably east of the Jordan River\n  .Jacob builds a house inGe 33:17\n  .Allotted to the tribe of GadJos 13:27\n  .People of, punished by GideonJud 8:5-8,14-16\n  .Located near the Jordan River1Ki 7:46;2Ch 4:17;Ps 60:6;108:7\n–2. The first camping place of the Israelites after leaving the \ncity of RamesesEx 12:37;13:20;Nu 33:5,6",
-  "content_preview": "–1. A city which was located probably east of the Jordan River",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–1. A city which was located probably east of the Jordan River",
-      "raw_segment": "–1. A city which was located probably east of the Jordan River"
+      "label": "1. A city which was lo",
+      "references": []
     },
     {
-      "idx": 1,
-      "entry_label": "–2. The first camping place of the Israelites after leaving the \ncity of RamesesEx 12:37;13:20;Nu 33:5,6",
-      "raw_segment": "–2. The first camping place of the Israelites after leaving the \ncity of RamesesEx 12:37;13:20;Nu 33:5,6"
+      "label": ".Jacob builds a house in",
+      "references": [
+        "Genesis 33:17"
+      ]
+    },
+    {
+      "label": ".Allotted to the tribe of Gad",
+      "references": [
+        "Joshua 13:27"
+      ]
+    },
+    {
+      "label": ".People of, punished by Gi",
+      "references": [
+        "Judges 8:5-8,14-16"
+      ]
+    },
+    {
+      "label": ".Lo",
+      "references": [
+        "1 Kings 7:46",
+        "2 Chronicles 4:17",
+        "Psalms 60:6",
+        "Psalms 108:7"
+      ]
+    },
+    {
+      "label": "2. The first",
+      "references": []
+    },
+    {
+      "label": "city of Rameses",
+      "references": [
+        "Exodus 12:37",
+        "Exodus 13:20",
+        "Numbers 33:5,6"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Genesis",
+      "chapter": 33,
+      "verses": [
+        17
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 33:17"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 13,
+      "verses": [
+        27
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 13:27"
+    },
+    {
+      "book": "Judges",
+      "chapter": 8,
+      "verses": [
+        5,
+        6,
+        7,
+        8,
+        14,
+        15,
+        16
+      ],
+      "verse_count": 7,
+      "testament": "OT",
+      "raw": "Judges 8:5-8,14-16"
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 7,
+      "verses": [
+        46
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Kings 7:46"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 4,
+      "verses": [
+        17
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Chronicles 4:17"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 60,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 60:6"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 108,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 108:7"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 12,
+      "verses": [
+        37
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 12:37"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 13,
+      "verses": [
+        20
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 13:20"
+    },
+    {
+      "book": "Numbers",
+      "chapter": 33,
+      "verses": [
+        5,
+        6
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Numbers 33:5,6"
+    }
+  ],
+  "books_mentioned": [
+    "1 Kings",
+    "2 Chronicles",
+    "Exodus",
+    "Genesis",
+    "Joshua",
+    "Judges",
+    "Numbers",
+    "Psalms"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 7,
+    "total_refs": 10,
+    "ot_refs": 10,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:f124b8c6cc509b57a312b75ac01074a7c742cf876f716e55a404ff1684b2c72e",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 7
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 8,
+    "top_books": [
+      "Psalms",
+      "Exodus",
+      "Genesis",
+      "Joshua",
+      "Judges",
+      "1 Kings",
+      "2 Chronicles",
+      "Numbers"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:31:51.549163Z",
-  "updated_at": "2025-09-20T17:31:51.549170Z"
+  }
 }

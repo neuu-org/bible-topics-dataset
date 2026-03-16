@@ -1,82 +1,115 @@
 {
   "topic": "NAAMAN",
   "slug": "naaman",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "1. Son of Benjamin Ge 46:21",
+      "label": "1.",
       "references": [
-        "Gen 46:21"
+        "Genesis 46:21"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "2. Son of Bela Nu 26:40; 1Ch 8:4",
+      "label": "2.",
       "references": [
-        "Num 26:40",
-        "1Chr 8:4"
+        "Numbers 26:40",
+        "1 Chronicles 8:4"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "3. Son of Ehud 1Ch 8:7",
+      "label": "3.",
       "references": [
-        "1Chr 8:7"
+        "1 Chronicles 8:7"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "4. A Syrian general, healed of leprosy by Elisha 2Ki 5:1-23; Lu 4:27",
+      "label": "4. A Syrian general, healed of leprosy by Elisha",
       "references": [
-        "2Kgs 5:1-23",
+        "2 Kings 5:1-23",
         "Luke 4:27"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "1 Chronicles",
-      "book_abbrev": "1ch",
-      "chapter": 8,
+      "book": "Genesis",
+      "chapter": 46,
+      "verses": [
+        21
+      ],
+      "verse_count": 1,
       "testament": "OT",
+      "raw": "Genesis 46:21"
+    },
+    {
+      "book": "Numbers",
+      "chapter": 26,
+      "verses": [
+        40
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Numbers 26:40"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 8,
       "verses": [
         4
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 8:4"
     },
     {
-      "book": "Luke",
-      "book_abbrev": "luk",
-      "chapter": 4,
-      "testament": "NT",
+      "book": "1 Chronicles",
+      "chapter": 8,
       "verses": [
-        27
+        7
       ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 4,
-    "ot_refs": 1,
-    "nt_refs": 1,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.713101+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 8:7"
+    },
+    {
+      "book": "2 Kings",
+      "chapter": 5,
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "verse_count": 23,
+      "testament": "OT",
+      "raw": "2 Kings 5:1-23"
+    },
     {
       "book": "Luke",
       "chapter": 4,
@@ -85,8 +118,28 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Luke 4:27",
-      "source": "EAS"
+      "raw": "Luke 4:27"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "2 Kings",
+    "Genesis",
+    "Luke",
+    "Numbers"
+  ],
+  "stats": {
+    "total_aspects": 4,
+    "total_refs": 6,
+    "ot_refs": 5,
+    "nt_refs": 1,
+    "books_count": 5,
+    "top_books": [
+      "1 Chronicles",
+      "Genesis",
+      "Numbers",
+      "2 Kings",
+      "Luke"
+    ]
+  }
 }

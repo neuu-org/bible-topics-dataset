@@ -1,78 +1,38 @@
 {
   "topic": "AKKUB",
   "slug": "akkub",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. One of the Nethinim Ezr 2:45",
-      "references": [
-        "Ezra 2:45"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "2. A returned exile 1Ch 9:17; Ezr 2:42; Ne 7:45; 8:7; 12:25",
-      "references": [
-        "1Chr 9:17",
-        "Ezra 2:42",
-        "Neh 7:45",
-        "Neh 8:7",
-        "Neh 12:25"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "3. A son of Elioenai 1Ch 3:24",
-      "references": [
-        "1Chr 3:24"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Ezra",
-      "book_abbrev": "ezr",
-      "chapter": 2,
-      "testament": "OT",
-      "verses": [
-        42
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Nehemiah",
-      "book_abbrev": "neh",
-      "chapter": 7,
-      "testament": "OT",
-      "verses": [
-        8,
-        45
-      ],
-      "verse_count": 2
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 2,
-    "nt_refs": 0,
-    "total_verses": 2
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.662368+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "1. One of the Nethinim",
+      "references": [
+        "Ezra 2:45"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2. A returned exile",
+      "references": [
+        "1 Chronicles 9:17",
+        "Ezra 2:42",
+        "Nehemiah 7:45",
+        "Nehemiah 8:7",
+        "Nehemiah 12:25"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "3. A",
+      "references": [
+        "1 Chronicles 3:24"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Ezra",
       "chapter": 2,
@@ -81,8 +41,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Ezra 2:45",
-      "source": "EAS"
+      "raw": "Ezra 2:45"
     },
     {
       "book": "1 Chronicles",
@@ -92,8 +51,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 9:17",
-      "source": "EAS"
+      "raw": "1 Chronicles 9:17"
     },
     {
       "book": "Ezra",
@@ -103,8 +61,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Ezra 2:42",
-      "source": "EAS"
+      "raw": "Ezra 2:42"
     },
     {
       "book": "Nehemiah",
@@ -114,8 +71,27 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Nehemiah 7:45",
-      "source": "EAS"
+      "raw": "Nehemiah 7:45"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 8,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Nehemiah 8:7"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 12,
+      "verses": [
+        25
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Nehemiah 12:25"
     },
     {
       "book": "1 Chronicles",
@@ -125,8 +101,24 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 3:24",
-      "source": "EAS"
+      "raw": "1 Chronicles 3:24"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Ezra",
+    "Nehemiah"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 7,
+    "ot_refs": 7,
+    "nt_refs": 0,
+    "books_count": 3,
+    "top_books": [
+      "Nehemiah",
+      "Ezra",
+      "1 Chronicles"
+    ]
+  }
 }

@@ -1,21 +1,90 @@
 {
-  "topic": "Confession",
+  "topic": "CONFESSION",
   "slug": "confession",
-  "type": "topic",
-  "reference_groups": [],
-  "biblical_references": [],
-  "stats": {},
-  "sources": [],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.678981+00:00",
-    "merged_from": {
-      "v2": false,
-      "dictionary": true
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [
+    "SIN, CONFESSION OF",
+    "TESTIMONY, RELIGIOUS"
+  ],
+  "aspects": [
+    {
+      "label": "OF CHRIST",
+      "references": [
+        "Matthew 3:11",
+        "Matthew 7:21-23",
+        "Matthew 10:32,33",
+        "Luke 12:8"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "1:15-18;9:22-38;12:42,43;",
+      "references": [
+        "Acts 8:35-37",
+        "Acts 18:5",
+        "Acts 19:4,5",
+        "Romans 10:9-11",
+        "1 Corinthians 12:3"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "1:6;2:4;4:2,3,15",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".SeeTESTIMONY, RELIGIOUS",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "OF SIN",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".SeeSIN, CONFESSION OF",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
+    {
+      "book": "Matthew",
+      "chapter": 3,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 3:11"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 7,
+      "verses": [
+        21,
+        22,
+        23
+      ],
+      "verse_count": 3,
+      "testament": "NT",
+      "raw": "Matthew 7:21-23"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 10,
+      "verses": [
+        32,
+        33
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Matthew 10:32,33"
+    },
     {
       "book": "Luke",
       "chapter": 12,
@@ -24,82 +93,165 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Luke 12:8",
-      "source": "EAS"
+      "raw": "Luke 12:8"
     },
     {
-      "book": "Leviticus",
-      "chapter": 16,
+      "book": "Luke",
+      "chapter": 1,
       "verses": [
-        21
+        15,
+        16,
+        17,
+        18
       ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Leviticus 16:21",
-      "source": "EAS"
-    },
-    {
-      "book": "Ezra",
-      "chapter": 9,
-      "verses": [
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14,
-        15
-      ],
-      "verse_count": 11,
-      "testament": "OT",
-      "raw": "Ezra 9:5-15",
-      "source": "EAS"
-    },
-    {
-      "book": "Daniel",
-      "chapter": 9,
-      "verses": [
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12
-      ],
-      "verse_count": 10,
-      "testament": "OT",
-      "raw": "Daniel 9:3-12",
-      "source": "EAS"
-    },
-    {
-      "book": "James",
-      "chapter": 5,
-      "verses": [
-        16
-      ],
-      "verse_count": 1,
+      "verse_count": 4,
       "testament": "NT",
-      "raw": "James 5:16",
-      "source": "EAS"
+      "raw": "Luke 1:15-18"
     },
     {
-      "book": "Matthew",
+      "book": "Luke",
+      "chapter": 9,
+      "verses": [
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38
+      ],
+      "verse_count": 17,
+      "testament": "NT",
+      "raw": "Luke 9:22-38"
+    },
+    {
+      "book": "Luke",
+      "chapter": 12,
+      "verses": [
+        42,
+        43
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Luke 12:42,43"
+    },
+    {
+      "book": "Acts",
+      "chapter": 8,
+      "verses": [
+        35,
+        36,
+        37
+      ],
+      "verse_count": 3,
+      "testament": "NT",
+      "raw": "Acts 8:35-37"
+    },
+    {
+      "book": "Acts",
       "chapter": 18,
       "verses": [
-        15
+        5
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Matthew 18:15",
-      "source": "EAS"
+      "raw": "Acts 18:5"
+    },
+    {
+      "book": "Acts",
+      "chapter": 19,
+      "verses": [
+        4,
+        5
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Acts 19:4,5"
+    },
+    {
+      "book": "Romans",
+      "chapter": 10,
+      "verses": [
+        9,
+        10,
+        11
+      ],
+      "verse_count": 3,
+      "testament": "NT",
+      "raw": "Romans 10:9-11"
+    },
+    {
+      "book": "1 Corinthians",
+      "chapter": 12,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "1 Corinthians 12:3"
+    },
+    {
+      "book": "1 Corinthians",
+      "chapter": 1,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "1 Corinthians 1:6"
+    },
+    {
+      "book": "1 Corinthians",
+      "chapter": 2,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "1 Corinthians 2:4"
+    },
+    {
+      "book": "1 Corinthians",
+      "chapter": 4,
+      "verses": [
+        2,
+        3,
+        15
+      ],
+      "verse_count": 3,
+      "testament": "NT",
+      "raw": "1 Corinthians 4:2,3,15"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Corinthians",
+    "Acts",
+    "Luke",
+    "Matthew",
+    "Romans"
+  ],
+  "stats": {
+    "total_aspects": 6,
+    "total_refs": 15,
+    "ot_refs": 0,
+    "nt_refs": 15,
+    "books_count": 5,
+    "top_books": [
+      "Luke",
+      "1 Corinthians",
+      "Matthew",
+      "Acts",
+      "Romans"
+    ]
+  }
 }

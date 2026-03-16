@@ -1,69 +1,127 @@
 {
   "topic": "MILLO",
-  "topic_slug": "millo",
+  "slug": "millo",
   "canonical_id": "NAV:millo",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–1. The house of Millo, possibly a clan at ShechemJud \n9:6,20\n–2. A name given to part of the citadel of Jerusalem2Sa 5:9;1Ch 11:8\n  .King Solomon raises a levy to repair1Ki 9:15,24;11:27\n  .Repaired by Hezekiah2Ch 32:5\n  .King Joash murdered at2Ki 12:20",
-  "content_preview": "–1. The house of Millo, possibly a clan at ShechemJud ",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–1. The house of Millo, possibly a clan at ShechemJud \n9:6,20",
-      "raw_segment": "–1. The house of Millo, possibly a clan at ShechemJud \n9:6,20"
+      "label": "1. The house of Millo, possibly a clan at Shechem",
+      "references": []
     },
     {
-      "idx": 1,
-      "entry_label": "–2. A name given to part of the citadel of Jerusalem2Sa 5:9;1Ch 11:8",
-      "raw_segment": "–2. A name given to part of the citadel of Jerusalem2Sa 5:9;1Ch 11:8"
+      "label": "9:6,20",
+      "references": []
+    },
+    {
+      "label": "2. A name given to part of the cita",
+      "references": [
+        "2 Samuel 5:9",
+        "1 Chronicles 11:8"
+      ]
+    },
+    {
+      "label": ".King",
+      "references": [
+        "1 Kings 9:15,24",
+        "1 Kings 11:27"
+      ]
+    },
+    {
+      "label": ".Repaired by Hezekiah",
+      "references": [
+        "2 Chronicles 32:5"
+      ]
+    },
+    {
+      "label": ".King Joash mur",
+      "references": [
+        "2 Kings 12:20"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "2 Samuel",
+      "chapter": 5,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Samuel 5:9"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 11,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 11:8"
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 9,
+      "verses": [
+        15,
+        24
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "1 Kings 9:15,24"
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 11,
+      "verses": [
+        27
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Kings 11:27"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 32,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Chronicles 32:5"
+    },
+    {
+      "book": "2 Kings",
+      "chapter": 12,
+      "verses": [
+        20
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Kings 12:20"
+    }
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "1 Kings",
+    "2 Chronicles",
+    "2 Kings",
+    "2 Samuel"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 6,
+    "total_refs": 6,
+    "ot_refs": 6,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:1dbdb38aba072b61c3fa4d71f2caf55e61894092581239c0f4505bc74ba27cd1",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 6
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 5,
+    "top_books": [
+      "1 Kings",
+      "2 Samuel",
+      "1 Chronicles",
+      "2 Chronicles",
+      "2 Kings"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:29:11.023510Z",
-  "updated_at": "2025-09-20T17:29:11.023517Z"
+  }
 }

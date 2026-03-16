@@ -1,52 +1,34 @@
 {
   "topic": "BIZJOTHJAH",
   "slug": "bizjothjah",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "A town in Judah Jos 15:28",
-      "references": [
-        "Josh 15:28"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Called BIMOTHIAH-BAALAH, BAALATH-BEER Jos 19:8",
-      "references": [
-        "Josh 19:8"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "And BALAH Jos 19:3",
-      "references": [
-        "Josh 19:3"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.674660+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "A town in",
+      "references": [
+        "Joshua 15:28"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "General references",
+      "references": [
+        "Joshua 19:8"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "And BALAH",
+      "references": [
+        "Joshua 19:3"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Joshua",
       "chapter": 15,
@@ -55,8 +37,40 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Joshua 15:28",
-      "source": "SMI"
+      "raw": "Joshua 15:28"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 19,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 19:8"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 19,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 19:3"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Joshua"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 3,
+    "ot_refs": 3,
+    "nt_refs": 0,
+    "books_count": 1,
+    "top_books": [
+      "Joshua"
+    ]
+  }
 }

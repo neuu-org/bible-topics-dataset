@@ -1,69 +1,110 @@
 {
   "topic": "GERA",
-  "topic_slug": "gera",
+  "slug": "gera",
   "canonical_id": "NAV:gera",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–Possibly the name of three men; more probably of one\n–The son of BelaGe 46:21;Jud 3:15;2Sa 16:5;19:16,18;1Ki 2:8;1Ch 8:3,5,7",
-  "content_preview": "–Possibly the name of three men; more probably of one",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–Possibly the name of three men; more probably of one",
-      "raw_segment": "–Possibly the name of three men; more probably of one"
+      "label": "Possibly the name of three men; more probably of one",
+      "references": []
     },
     {
-      "idx": 1,
-      "entry_label": "–The son of BelaGe 46:21;Jud 3:15;2Sa 16:5;19:16,18;1Ki 2:8;1Ch 8:3,5,7",
-      "raw_segment": "–The son of BelaGe 46:21;Jud 3:15;2Sa 16:5;19:16,18;1Ki 2:8;1Ch 8:3,5,7"
+      "label": "The",
+      "references": [
+        "Genesis 46:21",
+        "Judges 3:15",
+        "2 Samuel 16:5",
+        "2 Samuel 19:16,18",
+        "1 Kings 2:8",
+        "1 Chronicles 8:3,5,7"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Genesis",
+      "chapter": 46,
+      "verses": [
+        21
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 46:21"
+    },
+    {
+      "book": "Judges",
+      "chapter": 3,
+      "verses": [
+        15
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Judges 3:15"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 16,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Samuel 16:5"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 19,
+      "verses": [
+        16,
+        18
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "2 Samuel 19:16,18"
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 2,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Kings 2:8"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 8,
+      "verses": [
+        3,
+        5,
+        7
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "1 Chronicles 8:3,5,7"
+    }
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "1 Kings",
+    "2 Samuel",
+    "Genesis",
+    "Judges"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 2,
+    "total_refs": 6,
+    "ot_refs": 6,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:eb4e71f8b651ade1c1fca4a87c4c0f8479bca26253b62d90d7f249b948dc5d63",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 5,
+    "top_books": [
+      "2 Samuel",
+      "Genesis",
+      "Judges",
+      "1 Kings",
+      "1 Chronicles"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:26:37.037998Z",
-  "updated_at": "2025-09-20T17:26:37.038006Z"
+  }
 }

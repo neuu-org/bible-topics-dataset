@@ -1,64 +1,53 @@
 {
   "topic": "PARTRIDGE",
-  "topic_slug": "partridge",
+  "slug": "partridge",
   "canonical_id": "NAV:partridge",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–General scriptures concerning1Sa 26:20;Jer 17:11",
-  "content_preview": "–General scriptures concerning1Sa 26:20;Jer 17:11",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–General scriptures concerning1Sa 26:20;Jer 17:11",
-      "raw_segment": "–General scriptures concerning1Sa 26:20;Jer 17:11"
+      "label": "General scriptures concerning",
+      "references": [
+        "1 Samuel 26:20",
+        "Jeremiah 17:11"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "1 Samuel",
+      "chapter": 26,
+      "verses": [
+        20
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Samuel 26:20"
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 17,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Jeremiah 17:11"
+    }
+  ],
+  "books_mentioned": [
+    "1 Samuel",
+    "Jeremiah"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 1,
+    "total_refs": 2,
+    "ot_refs": 2,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:faa4176199226ff7109644e523f87b5815b3189d2b8327e53524b87380c7f330",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 1
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 2,
+    "top_books": [
+      "1 Samuel",
+      "Jeremiah"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:29:52.161775Z",
-  "updated_at": "2025-09-20T17:29:52.161782Z"
+  }
 }

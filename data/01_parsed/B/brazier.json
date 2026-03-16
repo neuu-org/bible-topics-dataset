@@ -1,54 +1,76 @@
 {
   "topic": "BRAZIER",
   "slug": "brazier",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "1. An artificer in brass and copper Ge 4:22; 2Ti 4:14",
+      "label": "1. An artificer in brass and copper",
       "references": [
-        "Gen 4:22",
-        "2Tim 4:14"
+        "Genesis 4:22",
+        "2 Timothy 4:14"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "2. A utensil used for warming houses Jer 36:22-24",
+      "label": "2. A utensil used for warming houses",
       "references": [
-        "Jer 36:22-24"
+        "Jeremiah 36:22-24"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "2 Timothy",
-      "book_abbrev": "2ti",
+      "book": "Genesis",
       "chapter": 4,
-      "testament": "NT",
+      "verses": [
+        22
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 4:22"
+    },
+    {
+      "book": "2 Timothy",
+      "chapter": 4,
       "verses": [
         14
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "2 Timothy 4:14"
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 36,
+      "verses": [
+        22,
+        23,
+        24
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Jeremiah 36:22-24"
     }
   ],
-  "see_also": [],
-  "aliases": [],
+  "books_mentioned": [
+    "2 Timothy",
+    "Genesis",
+    "Jeremiah"
+  ],
   "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
+    "total_aspects": 2,
+    "total_refs": 3,
+    "ot_refs": 2,
     "nt_refs": 1,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.675427+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    }
-  },
-  "version": "3.0.0"
+    "books_count": 3,
+    "top_books": [
+      "Genesis",
+      "2 Timothy",
+      "Jeremiah"
+    ]
+  }
 }

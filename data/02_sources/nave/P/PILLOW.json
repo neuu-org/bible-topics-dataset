@@ -1,74 +1,143 @@
 {
   "topic": "PILLOW",
-  "topic_slug": "pillow",
+  "slug": "pillow",
   "canonical_id": "NAV:pillow",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–1. A cushionGe 28:11,18;1Sa 26:7,11,16\n–2. A support for the head\n  .Stones used forGe 28:11,18\n  .Called bolster1Sa 26:7,11,12,16\n  .Made of goats’ hair1Sa 19:13,16\n  .Jesus sleeps uponMr 4:38\n–FIGURATIVE\n  .Of false teachersEze 13:18,20",
-  "content_preview": "–1. A cushionGe 28:11,18;1Sa 26:7,11,16",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–1. A cushionGe 28:11,18;1Sa 26:7,11,16",
-      "raw_segment": "–1. A cushionGe 28:11,18;1Sa 26:7,11,16"
+      "label": "1. A cushion",
+      "references": [
+        "Genesis 28:11,18",
+        "1 Samuel 26:7,11,16"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–2. A support for the head",
-      "raw_segment": "–2. A support for the head"
+      "label": "2. A support for the head",
+      "references": []
     },
     {
-      "idx": 2,
-      "entry_label": "–FIGURATIVE",
-      "raw_segment": "–FIGURATIVE"
+      "label": ".Stones used for",
+      "references": [
+        "Genesis 28:11,18"
+      ]
+    },
+    {
+      "label": ".",
+      "references": [
+        "1 Samuel 26:7,11,12,16"
+      ]
+    },
+    {
+      "label": ".Ma",
+      "references": [
+        "1 Samuel 19:13,16"
+      ]
+    },
+    {
+      "label": ".Jesus sleeps upon",
+      "references": [
+        "Mark 4:38"
+      ]
+    },
+    {
+      "label": "FIGURATIVE",
+      "references": []
+    },
+    {
+      "label": ".Of false teachers",
+      "references": [
+        "Ezekiel 13:18,20"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Genesis",
+      "chapter": 28,
+      "verses": [
+        11,
+        18
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Genesis 28:11,18"
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 26,
+      "verses": [
+        7,
+        11,
+        16
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "1 Samuel 26:7,11,16"
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 26,
+      "verses": [
+        7,
+        11,
+        12,
+        16
+      ],
+      "verse_count": 4,
+      "testament": "OT",
+      "raw": "1 Samuel 26:7,11,12,16"
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 19,
+      "verses": [
+        13,
+        16
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "1 Samuel 19:13,16"
+    },
+    {
+      "book": "Mark",
+      "chapter": 4,
+      "verses": [
+        38
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Mark 4:38"
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 13,
+      "verses": [
+        18,
+        20
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Ezekiel 13:18,20"
+    }
+  ],
+  "books_mentioned": [
+    "1 Samuel",
+    "Ezekiel",
+    "Genesis",
+    "Mark"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:3f933a0f90f7f7cde11398e4a3a9fc6ec553c4b4f174efba88fc5e5228cd9624",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 8
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 8,
+    "total_refs": 6,
+    "ot_refs": 5,
+    "nt_refs": 1,
+    "books_count": 4,
+    "top_books": [
+      "1 Samuel",
+      "Genesis",
+      "Mark",
+      "Ezekiel"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:30:07.601714Z",
-  "updated_at": "2025-09-20T17:30:07.601721Z"
+  }
 }

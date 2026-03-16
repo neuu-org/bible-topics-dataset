@@ -1,94 +1,195 @@
 {
   "topic": "SMITH",
-  "topic_slug": "smith",
+  "slug": "smith",
   "canonical_id": "NAV:smith",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–(A worker in metals)\n–Tubal-cainGe 4:22\n–BezaleelEx 31:1-11\n–The Philistines1Sa 13:19\n–Jewish, carried away captive to Babylon2Ki 24:14;Jer 24:1\n–The manufacturers of idolsIsa 41:7;44:12\n–Genius of, from GodEx 31:3-5;35:30-35;Isa 54:16",
-  "content_preview": "–(A worker in metals)",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–(A worker in metals)",
-      "raw_segment": "–(A worker in metals)"
+      "label": "(A worker in metals)",
+      "references": []
     },
     {
-      "idx": 1,
-      "entry_label": "–Tubal-cainGe 4:22",
-      "raw_segment": "–Tubal-cainGe 4:22"
+      "label": "Tubal-",
+      "references": [
+        "Genesis 4:22"
+      ]
     },
     {
-      "idx": 2,
-      "entry_label": "–BezaleelEx 31:1-11",
-      "raw_segment": "–BezaleelEx 31:1-11"
+      "label": "Bezaleel",
+      "references": [
+        "Exodus 31:1-11"
+      ]
     },
     {
-      "idx": 3,
-      "entry_label": "–The Philistines1Sa 13:19",
-      "raw_segment": "–The Philistines1Sa 13:19"
+      "label": "The Philistines",
+      "references": [
+        "1 Samuel 13:19"
+      ]
     },
     {
-      "idx": 4,
-      "entry_label": "–Jewish, carried away captive to Babylon2Ki 24:14;Jer 24:1",
-      "raw_segment": "–Jewish, carried away captive to Babylon2Ki 24:14;Jer 24:1"
+      "label": "Jewish,",
+      "references": [
+        "2 Kings 24:14",
+        "Jeremiah 24:1"
+      ]
     },
     {
-      "idx": 5,
-      "entry_label": "–The manufacturers of idolsIsa 41:7;44:12",
-      "raw_segment": "–The manufacturers of idolsIsa 41:7;44:12"
+      "label": "The ma",
+      "references": [
+        "Isaiah 41:7",
+        "Isaiah 44:12"
+      ]
     },
     {
-      "idx": 6,
-      "entry_label": "–Genius of, from GodEx 31:3-5;35:30-35;Isa 54:16",
-      "raw_segment": "–Genius of, from GodEx 31:3-5;35:30-35;Isa 54:16"
+      "label": "Genius of, from Go",
+      "references": [
+        "Exodus 31:3-5",
+        "Exodus 35:30-35",
+        "Isaiah 54:16"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Genesis",
+      "chapter": 4,
+      "verses": [
+        22
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 4:22"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 31,
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "verse_count": 11,
+      "testament": "OT",
+      "raw": "Exodus 31:1-11"
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 13,
+      "verses": [
+        19
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Samuel 13:19"
+    },
+    {
+      "book": "2 Kings",
+      "chapter": 24,
+      "verses": [
+        14
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Kings 24:14"
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 24,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Jeremiah 24:1"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 41,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 41:7"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 44,
+      "verses": [
+        12
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 44:12"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 31,
+      "verses": [
+        3,
+        4,
+        5
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Exodus 31:3-5"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 35,
+      "verses": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "verse_count": 6,
+      "testament": "OT",
+      "raw": "Exodus 35:30-35"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 54,
+      "verses": [
+        16
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 54:16"
+    }
+  ],
+  "books_mentioned": [
+    "1 Samuel",
+    "2 Kings",
+    "Exodus",
+    "Genesis",
+    "Isaiah",
+    "Jeremiah"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 7,
+    "total_refs": 10,
+    "ot_refs": 10,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:e8b5cf506ecc91eb27533df9d05ed44522226280c9bd589eb6bbed0278120f01",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 7
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 6,
+    "top_books": [
+      "Exodus",
+      "Isaiah",
+      "Genesis",
+      "1 Samuel",
+      "2 Kings",
+      "Jeremiah"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:31:38.373926Z",
-  "updated_at": "2025-09-20T17:31:38.373934Z"
+  }
 }

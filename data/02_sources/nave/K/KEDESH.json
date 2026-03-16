@@ -1,74 +1,168 @@
 {
   "topic": "KEDESH",
-  "topic_slug": "kedesh",
+  "slug": "kedesh",
   "canonical_id": "NAV:kedesh",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–1. A city of the tribe of JudahJos 15:23\n  .Possibly identical with KADESH-BARNEA\n–2. Also called KISHION and KISHON\n  .A Canaanite city captured by JoshuaJos 12:22;19:20;21:28;1Ch 6:72\n–3. Also called KEDESH-NAPHTALI\n  .A city of refugeJos 20:7;21:32\n  .Home of Barak and HeberJud 4:6,9,11\n  .Captured by Tiglath-pileser2Ki 15:29",
-  "content_preview": "–1. A city of the tribe of JudahJos 15:23",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–1. A city of the tribe of JudahJos 15:23",
-      "raw_segment": "–1. A city of the tribe of JudahJos 15:23"
+      "label": "1. A city of the tribe of",
+      "references": [
+        "Joshua 15:23"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–2. Also called KISHION and KISHON",
-      "raw_segment": "–2. Also called KISHION and KISHON"
+      "label": ".Possibly i",
+      "references": []
     },
     {
-      "idx": 2,
-      "entry_label": "–3. Also called KEDESH-NAPHTALI",
-      "raw_segment": "–3. Also called KEDESH-NAPHTALI"
+      "label": "2. Al",
+      "references": []
+    },
+    {
+      "label": ".A",
+      "references": [
+        "Joshua 12:22",
+        "Joshua 19:20",
+        "Joshua 21:28",
+        "1 Chronicles 6:72"
+      ]
+    },
+    {
+      "label": "3. Al",
+      "references": []
+    },
+    {
+      "label": ".A city of refuge",
+      "references": [
+        "Joshua 20:7",
+        "Joshua 21:32"
+      ]
+    },
+    {
+      "label": ".Home of Barak and Heber",
+      "references": [
+        "Judges 4:6,9,11"
+      ]
+    },
+    {
+      "label": ".",
+      "references": [
+        "2 Kings 15:29"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Joshua",
+      "chapter": 15,
+      "verses": [
+        23
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 15:23"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 12,
+      "verses": [
+        22
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 12:22"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 19,
+      "verses": [
+        20
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 19:20"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 21,
+      "verses": [
+        28
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 21:28"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 6,
+      "verses": [
+        72
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 6:72"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 20,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 20:7"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 21,
+      "verses": [
+        32
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 21:32"
+    },
+    {
+      "book": "Judges",
+      "chapter": 4,
+      "verses": [
+        6,
+        9,
+        11
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Judges 4:6,9,11"
+    },
+    {
+      "book": "2 Kings",
+      "chapter": 15,
+      "verses": [
+        29
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Kings 15:29"
+    }
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "2 Kings",
+    "Joshua",
+    "Judges"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 8,
+    "total_refs": 9,
+    "ot_refs": 9,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:7d110625bb5ab8875ff642fe9ab378a880a9334ef95854b71f6947a97310098b",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 8
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 4,
+    "top_books": [
+      "Joshua",
+      "1 Chronicles",
+      "Judges",
+      "2 Kings"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:28:19.662540Z",
-  "updated_at": "2025-09-20T17:28:19.662549Z"
+  }
 }

@@ -1,30 +1,56 @@
 {
   "topic": "HUSBANDMAN",
   "slug": "husbandman",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [
+    "AGRICULTURE"
+  ],
+  "aspects": [
     {
-      "name": "An agriculturist Mt 21:33-46; Mr 12:1-9; Joh 15:1; 1Co 3:9",
+      "label": "An agriculturist",
       "references": [
-        "Matt 21:33-46",
+        "Matthew 21:33-46",
         "Mark 12:1-9",
         "John 15:1",
-        "1Cor 3:9"
+        "1 Corinthians 3:9"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See AGRICULTURE",
+      "label": "SeeAGRICULTURE",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Mark",
-      "book_abbrev": "mrk",
-      "chapter": 12,
+      "book": "Matthew",
+      "chapter": 21,
+      "verses": [
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "verse_count": 14,
       "testament": "NT",
+      "raw": "Matthew 21:33-46"
+    },
+    {
+      "book": "Mark",
+      "chapter": 12,
       "verses": [
         1,
         2,
@@ -36,85 +62,48 @@
         8,
         9
       ],
-      "verse_count": 9
+      "verse_count": 9,
+      "testament": "NT",
+      "raw": "Mark 12:1-9"
     },
     {
       "book": "John",
-      "book_abbrev": "jhn",
       "chapter": 15,
-      "testament": "NT",
       "verses": [
         1
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "John 15:1"
     },
     {
       "book": "1 Corinthians",
-      "book_abbrev": "1co",
       "chapter": 3,
-      "testament": "NT",
       "verses": [
         9
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "1 Corinthians 3:9"
     }
   ],
-  "see_also": [
-    "AGRICULTURE"
+  "books_mentioned": [
+    "1 Corinthians",
+    "John",
+    "Mark",
+    "Matthew"
   ],
-  "aliases": [],
   "stats": {
-    "entries_count": 2,
+    "total_aspects": 2,
+    "total_refs": 4,
     "ot_refs": 0,
-    "nt_refs": 3,
-    "total_verses": 3
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.693477+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "Genesis",
-      "chapter": 9,
-      "verses": [
-        20
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Genesis 9:20",
-      "source": "EAS"
-    },
-    {
-      "book": "Genesis",
-      "chapter": 26,
-      "verses": [
-        12,
-        14
-      ],
-      "verse_count": 2,
-      "testament": "OT",
-      "raw": "Genesis 26:12, 14",
-      "source": "EAS"
-    },
-    {
-      "book": "Genesis",
-      "chapter": 37,
-      "verses": [
-        7
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Genesis 37:7",
-      "source": "EAS"
-    }
-  ]
+    "nt_refs": 4,
+    "books_count": 4,
+    "top_books": [
+      "Matthew",
+      "Mark",
+      "John",
+      "1 Corinthians"
+    ]
+  }
 }

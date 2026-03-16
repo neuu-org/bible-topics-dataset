@@ -1,73 +1,156 @@
 {
   "topic": "INHOSPITABLENESS",
-  "topic_slug": "inhospitableness",
+  "slug": "inhospitableness",
   "canonical_id": "NAV:inhospitableness",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "HOSPITALITY"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "HOSPITALITY",
-      "clean": "HOSPITALITY",
-      "slug": "hospitality",
-      "canonical_id": "NAV:hospitality"
+      "label": "INSTANCES OF",
+      "references": []
+    },
+    {
+      "label": ".Toward the Israelites",
+      "references": []
+    },
+    {
+      "label": "Edom",
+      "references": [
+        "Numbers 20:18-21"
+      ]
+    },
+    {
+      "label": "Sihon",
+      "references": [
+        "Numbers 21:22,23"
+      ]
+    },
+    {
+      "label": "Ammonites and Moabites",
+      "references": [
+        "Deuteronomy 23:3-6"
+      ]
+    },
+    {
+      "label": ".Men of Gibeah toward a Levite",
+      "references": [
+        "Judges 19:15"
+      ]
+    },
+    {
+      "label": ".Nabal toward David",
+      "references": [
+        "1 Samuel 25:10-17"
+      ]
+    },
+    {
+      "label": ".",
+      "references": [
+        "Luke 9:53"
+      ]
+    },
+    {
+      "label": ".SeeHOSPITALITY",
+      "references": []
     }
   ],
-  "raw_block": "–INSTANCES OF\n  .Toward the Israelites\n    EdomNu 20:18-21\n    SihonNu 21:22,23\n    Ammonites and MoabitesDe 23:3-6\n  .Men of Gibeah toward a LeviteJud 19:15\n  .Nabal toward David1Sa 25:10-17\n  .Some Samaritans toward JesusLu 9:53\n  .SeeHOSPITALITY",
-  "content_preview": "–INSTANCES OF",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–INSTANCES OF",
-      "raw_segment": "–INSTANCES OF"
+      "book": "Numbers",
+      "chapter": 20,
+      "verses": [
+        18,
+        19,
+        20,
+        21
+      ],
+      "verse_count": 4,
+      "testament": "OT",
+      "raw": "Numbers 20:18-21"
+    },
+    {
+      "book": "Numbers",
+      "chapter": 21,
+      "verses": [
+        22,
+        23
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Numbers 21:22,23"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 23,
+      "verses": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "verse_count": 4,
+      "testament": "OT",
+      "raw": "Deuteronomy 23:3-6"
+    },
+    {
+      "book": "Judges",
+      "chapter": 19,
+      "verses": [
+        15
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Judges 19:15"
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 25,
+      "verses": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "verse_count": 8,
+      "testament": "OT",
+      "raw": "1 Samuel 25:10-17"
+    },
+    {
+      "book": "Luke",
+      "chapter": 9,
+      "verses": [
+        53
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 9:53"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "1 Samuel",
+    "Deuteronomy",
+    "Judges",
+    "Luke",
+    "Numbers"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:4cbd50e2397871bfad7025513ae0efb64fe59c354013536ba7fd821c9a6476fa",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 9
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 9,
+    "total_refs": 6,
+    "ot_refs": 5,
+    "nt_refs": 1,
+    "books_count": 5,
+    "top_books": [
+      "Numbers",
+      "Deuteronomy",
+      "Judges",
+      "1 Samuel",
+      "Luke"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:27:34.673474Z",
-  "updated_at": "2025-09-20T17:27:34.673481Z"
+  }
 }

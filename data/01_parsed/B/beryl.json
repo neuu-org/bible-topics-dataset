@@ -1,67 +1,65 @@
 {
   "topic": "BERYL",
   "slug": "beryl",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "A precious stone So 5:14; Eze 1:16; 10:9",
+      "label": "A precious stone",
       "references": [
-        "Song 5:14",
-        "Ezek 1:16",
-        "Ezek 10:9"
+        "Song of Solomon 5:14",
+        "Ezekiel 1:16",
+        "Ezekiel 10:9"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Set in the breastplate Ex 28:20; 39:13",
+      "label": "Set in the breastplate",
       "references": [
-        "Exod 28:20",
-        "Exod 39:13"
+        "Exodus 28:20",
+        "Exodus 39:13"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "John saw, in the foundation of the new Jerusalem Re 21:20",
-      "references": [
-        "Rev 21:20"
-      ],
-      "sub_groups": []
+      "label": "21:20",
+      "references": [],
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Ezekiel",
-      "book_abbrev": "ezk",
-      "chapter": 1,
-      "testament": "OT",
+      "book": "Song of Solomon",
+      "chapter": 5,
       "verses": [
-        10,
+        14
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Song of Solomon 5:14"
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 1,
+      "verses": [
         16
       ],
-      "verse_count": 2
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.673508+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezekiel 1:16"
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 10,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezekiel 10:9"
+    },
     {
       "book": "Exodus",
       "chapter": 28,
@@ -70,8 +68,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Exodus 28:20",
-      "source": "EAS"
+      "raw": "Exodus 28:20"
     },
     {
       "book": "Exodus",
@@ -81,74 +78,34 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Exodus 39:13",
-      "source": "EAS"
+      "raw": "Exodus 39:13"
     },
     {
       "book": "Exodus",
-      "chapter": 1,
-      "verses": [
-        16
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Exodus 1:16",
-      "source": "EAS"
-    },
-    {
-      "book": "Exodus",
-      "chapter": 10,
-      "verses": [
-        9
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Exodus 10:9",
-      "source": "EAS"
-    },
-    {
-      "book": "Song of Solomon",
-      "chapter": 5,
-      "verses": [
-        14
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Song of Solomon 5:14",
-      "source": "EAS"
-    },
-    {
-      "book": "Daniel",
-      "chapter": 10,
-      "verses": [
-        6
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Daniel 10:6",
-      "source": "EAS"
-    },
-    {
-      "book": "Revelation",
       "chapter": 21,
       "verses": [
         20
       ],
       "verse_count": 1,
-      "testament": "NT",
-      "raw": "Revelation 21:20",
-      "source": "EAS"
-    },
-    {
-      "book": "Ezekiel",
-      "chapter": 28,
-      "verses": [
-        13
-      ],
-      "verse_count": 1,
       "testament": "OT",
-      "raw": "Ezekiel 28:13",
-      "source": "EAS"
+      "raw": "Exodus 21:20"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Exodus",
+    "Ezekiel",
+    "Song of Solomon"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 6,
+    "ot_refs": 6,
+    "nt_refs": 0,
+    "books_count": 3,
+    "top_books": [
+      "Exodus",
+      "Ezekiel",
+      "Song of Solomon"
+    ]
+  }
 }

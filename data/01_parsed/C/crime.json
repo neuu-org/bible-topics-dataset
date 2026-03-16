@@ -1,123 +1,198 @@
 {
   "topic": "CRIME",
   "slug": "crime",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [
+    "ADULTERY",
+    "ARSON",
+    "HOMICIDE",
+    "PUNISHMENT",
+    "THEFT"
+  ],
+  "aspects": [
     {
-      "name": "PARTIAL LISTS OF Eze 22:8-12,27-30; Ho 4:1,2; Mt 15:19; Mr 7:21,22; Ro 1:24,29-32; 3:14-18; 13:9; 1Co 5:11; Ga 5:19-21",
+      "label": "PARTIAL LISTS OF",
       "references": [
-        "Ezek 22:8-12",
-        "Ezek 22:27-30",
-        "Hos 4:1",
-        "Hos 4:2",
-        "Matt 15:19",
-        "Mark 7:21",
-        "Mark 7:22",
-        "Rom 1:24",
-        "Rom 1:29-32",
-        "Rom 3:14-18",
-        "Rom 13:9",
-        "1Cor 5:11",
-        "Gal 5:19-21"
+        "Ezekiel 22:8-12,27-30",
+        "Hosea 4:1,2",
+        "Matthew 15:19",
+        "Mark 7:21,22",
+        "Romans 1:24,29-32",
+        "Romans 3:14-18",
+        "Romans 13:9",
+        "1 Corinthians 5:11",
+        "Galatians 5:19-21"
       ],
-      "sub_groups": []
+      "source": "NAV"
+    },
+    {
+      "label": ".See un",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeADULTERY",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeAR",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeHOMICI",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeTHEFT, and the like",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "SeePUNISHMENT",
+      "references": [],
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Hosea",
-      "book_abbrev": "hos",
-      "chapter": 4,
+      "book": "Ezekiel",
+      "chapter": 22,
+      "verses": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        27,
+        28,
+        29,
+        30
+      ],
+      "verse_count": 9,
       "testament": "OT",
+      "raw": "Ezekiel 22:8-12,27-30"
+    },
+    {
+      "book": "Hosea",
+      "chapter": 4,
       "verses": [
         1,
         2
       ],
-      "verse_count": 2
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Hosea 4:1,2"
     },
     {
       "book": "Matthew",
-      "book_abbrev": "mat",
       "chapter": 15,
-      "testament": "NT",
       "verses": [
         19
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 15:19"
     },
     {
       "book": "Mark",
-      "book_abbrev": "mrk",
       "chapter": 7,
-      "testament": "NT",
       "verses": [
         21,
         22
       ],
-      "verse_count": 2
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Mark 7:21,22"
     },
     {
       "book": "Romans",
-      "book_abbrev": "rom",
       "chapter": 1,
-      "testament": "NT",
       "verses": [
-        3,
         24,
         29,
         30,
         31,
         32
       ],
-      "verse_count": 6
+      "verse_count": 5,
+      "testament": "NT",
+      "raw": "Romans 1:24,29-32"
+    },
+    {
+      "book": "Romans",
+      "chapter": 3,
+      "verses": [
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "verse_count": 5,
+      "testament": "NT",
+      "raw": "Romans 3:14-18"
+    },
+    {
+      "book": "Romans",
+      "chapter": 13,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Romans 13:9"
     },
     {
       "book": "1 Corinthians",
-      "book_abbrev": "1co",
       "chapter": 5,
-      "testament": "NT",
       "verses": [
         11
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "1 Corinthians 5:11"
     },
     {
       "book": "Galatians",
-      "book_abbrev": "gal",
       "chapter": 5,
-      "testament": "NT",
       "verses": [
         19,
         20,
         21
       ],
-      "verse_count": 3
+      "verse_count": 3,
+      "testament": "NT",
+      "raw": "Galatians 5:19-21"
     }
   ],
-  "see_also": [
-    "PUNISHMENT",
-    "ADULTERY",
-    "HOMICIDE",
-    "ARSON",
-    "THEFT"
+  "books_mentioned": [
+    "1 Corinthians",
+    "Ezekiel",
+    "Galatians",
+    "Hosea",
+    "Mark",
+    "Matthew",
+    "Romans"
   ],
-  "aliases": [],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 1,
-    "nt_refs": 5,
-    "total_verses": 6
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.679786+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    }
-  },
-  "version": "3.0.0"
+    "total_aspects": 7,
+    "total_refs": 9,
+    "ot_refs": 2,
+    "nt_refs": 7,
+    "books_count": 7,
+    "top_books": [
+      "Romans",
+      "Ezekiel",
+      "Hosea",
+      "Matthew",
+      "Mark",
+      "1 Corinthians",
+      "Galatians"
+    ]
+  }
 }

@@ -1,69 +1,58 @@
 {
   "topic": "MANGER",
-  "topic_slug": "manger",
+  "slug": "manger",
   "canonical_id": "NAV:manger",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–(A feeding box for cattle)Lu 2:7,12,16\n–Rendered “stall” inLu 13:15",
-  "content_preview": "–(A feeding box for cattle)Lu 2:7,12,16",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–(A feeding box for cattle)Lu 2:7,12,16",
-      "raw_segment": "–(A feeding box for cattle)Lu 2:7,12,16"
+      "label": "(A feeding box for",
+      "references": [
+        "Luke 2:7,12,16"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–Rendered “stall” inLu 13:15",
-      "raw_segment": "–Rendered “stall” inLu 13:15"
+      "label": "Ren",
+      "references": [
+        "Luke 13:15"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Luke",
+      "chapter": 2,
+      "verses": [
+        7,
+        12,
+        16
+      ],
+      "verse_count": 3,
+      "testament": "NT",
+      "raw": "Luke 2:7,12,16"
+    },
+    {
+      "book": "Luke",
+      "chapter": 13,
+      "verses": [
+        15
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 13:15"
+    }
+  ],
+  "books_mentioned": [
+    "Luke"
+  ],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 2,
+    "total_refs": 2,
     "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:1ee11820d2a23efdce7df094f55a78b27070d5778ed90a610f1fd001b347903f",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "nt_refs": 2,
+    "books_count": 1,
+    "top_books": [
+      "Luke"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:28:50.934919Z",
-  "updated_at": "2025-09-20T17:28:50.934926Z"
+  }
 }

@@ -1,78 +1,138 @@
 {
   "topic": "DRUNKARD",
-  "topic_slug": "drunkard",
+  "slug": "drunkard",
   "canonical_id": "NAV:drunkard",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "DRUNKENNESS"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "DRUNKENNESS",
-      "clean": "DRUNKENNESS",
-      "slug": "drunkenness",
-      "canonical_id": "NAV:drunkenness"
-    }
-  ],
-  "raw_block": "–General scriptures concerningDe 21:20,21;Ps 69:12;Pr 23:21;Isa 28:1,3;Joe 1:5;Na 1:10;1Co 5:11;6:9,10\n–SeeDRUNKENNESS",
-  "content_preview": "–General scriptures concerningDe 21:20,21;Ps 69:12;Pr 23:21;Isa 28:1,3;Joe 1:5;Na 1:10;1Co 5:11;6:9,...",
-  "reference_groups": [
-    {
-      "idx": 0,
-      "entry_label": "–General scriptures concerningDe 21:20,21;Ps 69:12;Pr 23:21;Isa 28:1,3;Joe 1:5;Na 1:10;1Co 5:11;6:9,10",
-      "raw_segment": "–General scriptures concerningDe 21:20,21;Ps 69:12;Pr 23:21;Isa 28:1,3;Joe 1:5;Na 1:10;1Co 5:11;6:9,10"
+      "label": "General scriptures concerning",
+      "references": [
+        "Deuteronomy 21:20,21",
+        "Psalms 69:12",
+        "Proverbs 23:21",
+        "Isaiah 28:1,3",
+        "Joel 1:5",
+        "Nahum 1:10",
+        "1 Corinthians 5:11",
+        "1 Corinthians 6:9,10"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–SeeDRUNKENNESS",
-      "raw_segment": "–SeeDRUNKENNESS"
+      "label": "SeeDRUNKENNESS",
+      "references": []
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Deuteronomy",
+      "chapter": 21,
+      "verses": [
+        20,
+        21
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Deuteronomy 21:20,21"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 69,
+      "verses": [
+        12
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 69:12"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 23,
+      "verses": [
+        21
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 23:21"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 28,
+      "verses": [
+        1,
+        3
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Isaiah 28:1,3"
+    },
+    {
+      "book": "Joel",
+      "chapter": 1,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joel 1:5"
+    },
+    {
+      "book": "Nahum",
+      "chapter": 1,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Nahum 1:10"
+    },
+    {
+      "book": "1 Corinthians",
+      "chapter": 5,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "1 Corinthians 5:11"
+    },
+    {
+      "book": "1 Corinthians",
+      "chapter": 6,
+      "verses": [
+        9,
+        10
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "1 Corinthians 6:9,10"
+    }
+  ],
+  "books_mentioned": [
+    "1 Corinthians",
+    "Deuteronomy",
+    "Isaiah",
+    "Joel",
+    "Nahum",
+    "Proverbs",
+    "Psalms"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:8a1dd85644868c04ce309e7c01bcb4fb03733998692ef30f1b73b8bf88a23118",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 2,
+    "total_refs": 8,
+    "ot_refs": 6,
+    "nt_refs": 2,
+    "books_count": 7,
+    "top_books": [
+      "1 Corinthians",
+      "Deuteronomy",
+      "Psalms",
+      "Proverbs",
+      "Isaiah",
+      "Joel",
+      "Nahum"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:25:42.762108Z",
-  "updated_at": "2025-09-20T17:25:42.762116Z"
+  }
 }

@@ -1,55 +1,26 @@
 {
   "topic": "OSPREY",
   "slug": "osprey",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "A carnivorous bird",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "Forbidden as food Le 11:13; De 14:12",
-      "references": [
-        "Lev 11:13",
-        "Deut 14:12"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Deuteronomy",
-      "book_abbrev": "deu",
-      "chapter": 14,
-      "testament": "OT",
-      "verses": [
-        12
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.716366+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "A",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "Forbid",
+      "references": [
+        "Leviticus 11:13",
+        "Deuteronomy 14:12"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Leviticus",
       "chapter": 11,
@@ -58,8 +29,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Leviticus 11:13",
-      "source": "EAS"
+      "raw": "Leviticus 11:13"
     },
     {
       "book": "Deuteronomy",
@@ -69,8 +39,22 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Deuteronomy 14:12",
-      "source": "EAS"
+      "raw": "Deuteronomy 14:12"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Deuteronomy",
+    "Leviticus"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 2,
+    "ot_refs": 2,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "Leviticus",
+      "Deuteronomy"
+    ]
+  }
 }

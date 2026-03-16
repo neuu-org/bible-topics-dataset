@@ -1,132 +1,61 @@
 {
   "topic": "BELA",
   "slug": "bela",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "1. A city also called Zoar Ge 14:2,8",
+      "label": "1. A city al",
       "references": [
-        "Gen 14:2",
-        "Gen 14:8"
+        "Genesis 14:2,8"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "2. King of Edom Ge 36:32,33; 1Ch 1:43,44",
+      "label": "2. King of Edom",
       "references": [
-        "Gen 36:32",
-        "Gen 36:33",
-        "1Chr 1:43",
-        "1Chr 1:44"
+        "Genesis 36:32,33",
+        "1 Chronicles 1:43,44"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "3. Son of Benjamin Nu 26:38,40; 1Ch 7:6,7; 8:1,3",
+      "label": "3.",
       "references": [
-        "Num 26:38",
-        "Num 26:40",
-        "1Chr 7:6",
-        "1Chr 7:7",
-        "1Chr 8:1",
-        "1Chr 8:3"
+        "Numbers 26:38,40",
+        "1 Chronicles 7:6,7",
+        "1 Chronicles 8:1,3"
       ],
-      "sub_groups": [
-        {
-          "name": "Called BELAH Ge 46:21",
-          "references": [
-            "Gen 46:21"
-          ]
-        }
-      ]
+      "source": "NAV"
     },
     {
-      "name": "4. Son of Azaz 1Ch 5:8",
+      "label": ".",
       "references": [
-        "1Chr 5:8"
+        "Genesis 46:21"
       ],
-      "sub_groups": []
+      "source": "NAV"
+    },
+    {
+      "label": "4.",
+      "references": [
+        "1 Chronicles 5:8"
+      ],
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "1 Chronicles",
-      "book_abbrev": "1ch",
-      "chapter": 1,
-      "testament": "OT",
-      "verses": [
-        43,
-        44
-      ],
-      "verse_count": 2
-    },
-    {
-      "book": "1 Chronicles",
-      "book_abbrev": "1ch",
-      "chapter": 7,
-      "testament": "OT",
-      "verses": [
-        6,
-        7,
-        8
-      ],
-      "verse_count": 3
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 4,
-    "ot_refs": 2,
-    "nt_refs": 0,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.672986+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
       "book": "Genesis",
-      "chapter": 19,
+      "chapter": 14,
       "verses": [
-        20,
-        23
+        2,
+        8
       ],
       "verse_count": 2,
       "testament": "OT",
-      "raw": "Genesis 19:20, 23",
-      "source": "EAS"
-    },
-    {
-      "book": "Numbers",
-      "chapter": 26,
-      "verses": [
-        38
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Numbers 26:38",
-      "source": "EAS"
-    },
-    {
-      "book": "Genesis",
-      "chapter": 46,
-      "verses": [
-        21
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Genesis 46:21",
-      "source": "EAS"
+      "raw": "Genesis 14:2,8"
     },
     {
       "book": "Genesis",
@@ -137,19 +66,61 @@
       ],
       "verse_count": 2,
       "testament": "OT",
-      "raw": "Genesis 36:32, 33",
-      "source": "EAS"
+      "raw": "Genesis 36:32,33"
     },
     {
       "book": "1 Chronicles",
       "chapter": 1,
       "verses": [
-        43
+        43,
+        44
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "1 Chronicles 1:43,44"
+    },
+    {
+      "book": "Numbers",
+      "chapter": 26,
+      "verses": [
+        38,
+        40
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Numbers 26:38,40"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 7,
+      "verses": [
+        6,
+        7
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "1 Chronicles 7:6,7"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 8,
+      "verses": [
+        1,
+        3
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "1 Chronicles 8:1,3"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 46,
+      "verses": [
+        21
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 1:43",
-      "source": "EAS"
+      "raw": "Genesis 46:21"
     },
     {
       "book": "1 Chronicles",
@@ -159,20 +130,24 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 5:8",
-      "source": "EAS"
-    },
-    {
-      "book": "Genesis",
-      "chapter": 14,
-      "verses": [
-        2,
-        8
-      ],
-      "verse_count": 2,
-      "testament": "OT",
-      "raw": "Genesis 14:2, 8",
-      "source": "EAS"
+      "raw": "1 Chronicles 5:8"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Genesis",
+    "Numbers"
+  ],
+  "stats": {
+    "total_aspects": 5,
+    "total_refs": 8,
+    "ot_refs": 8,
+    "nt_refs": 0,
+    "books_count": 3,
+    "top_books": [
+      "1 Chronicles",
+      "Genesis",
+      "Numbers"
+    ]
+  }
 }

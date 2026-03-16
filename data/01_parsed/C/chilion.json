@@ -1,51 +1,32 @@
 {
   "topic": "CHILION",
   "slug": "chilion",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "A son of Naomi Ru 1:2,4,5; 4:9",
-      "references": [
-        "Ruth 1:2",
-        "Ruth 1:4",
-        "Ruth 1:5",
-        "Ruth 4:9"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.677585+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "A",
+      "references": [
+        "Ruth 1:2,4,5",
+        "Ruth 4:9"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Ruth",
       "chapter": 1,
       "verses": [
-        2
+        2,
+        4,
+        5
       ],
-      "verse_count": 1,
+      "verse_count": 3,
       "testament": "OT",
-      "raw": "Ruth 1:2",
-      "source": "EAS"
+      "raw": "Ruth 1:2,4,5"
     },
     {
       "book": "Ruth",
@@ -55,8 +36,20 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Ruth 4:9",
-      "source": "EAS"
+      "raw": "Ruth 4:9"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Ruth"
+  ],
+  "stats": {
+    "total_aspects": 1,
+    "total_refs": 2,
+    "ot_refs": 2,
+    "nt_refs": 0,
+    "books_count": 1,
+    "top_books": [
+      "Ruth"
+    ]
+  }
 }

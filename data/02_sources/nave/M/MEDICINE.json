@@ -1,90 +1,161 @@
 {
   "topic": "MEDICINE",
-  "topic_slug": "medicine",
+  "slug": "medicine",
   "canonical_id": "NAV:medicine",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "PHYSICIAN",
     "DISEASES"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "PHYSICIAN",
-      "clean": "PHYSICIAN",
-      "slug": "physician",
-      "canonical_id": "NAV:physician"
+      "label": "General scriptures concerning",
+      "references": [
+        "Proverbs 17:22",
+        "Isaiah 1:6",
+        "Isaiah 38:21",
+        "Jeremiah 8:22",
+        "Jeremiah 30:13",
+        "Jeremiah 46:11",
+        "Jeremiah 51:8,9",
+        "Ezekiel 47:12",
+        "Luke 10:34",
+        "Revelation 22:2"
+      ]
     },
     {
-      "original": "DISEASES",
-      "clean": "DISEASES",
-      "slug": "diseases",
-      "canonical_id": "NAV:diseases"
+      "label": "SeeDISEASES",
+      "references": []
+    },
+    {
+      "label": "SeePHYSICIAN",
+      "references": []
     }
   ],
-  "raw_block": "–General scriptures concerningPr 17:22;Isa 1:6;38:21;Jer 8:22;30:13;46:11;51:8,9;Eze 47:12;Lu 10:34;Re 22:2\n–SeeDISEASES\n–SeePHYSICIAN",
-  "content_preview": "–General scriptures concerningPr 17:22;Isa 1:6;38:21;Jer 8:22;30:13;46:11;51:8,9;Eze 47:12;Lu 10:34;...",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–General scriptures concerningPr 17:22;Isa 1:6;38:21;Jer 8:22;30:13;46:11;51:8,9;Eze 47:12;Lu 10:34;Re 22:2",
-      "raw_segment": "–General scriptures concerningPr 17:22;Isa 1:6;38:21;Jer 8:22;30:13;46:11;51:8,9;Eze 47:12;Lu 10:34;Re 22:2"
+      "book": "Proverbs",
+      "chapter": 17,
+      "verses": [
+        22
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 17:22"
     },
     {
-      "idx": 1,
-      "entry_label": "–SeeDISEASES",
-      "raw_segment": "–SeeDISEASES"
+      "book": "Isaiah",
+      "chapter": 1,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 1:6"
     },
     {
-      "idx": 2,
-      "entry_label": "–SeePHYSICIAN",
-      "raw_segment": "–SeePHYSICIAN"
+      "book": "Isaiah",
+      "chapter": 38,
+      "verses": [
+        21
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 38:21"
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 8,
+      "verses": [
+        22
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Jeremiah 8:22"
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 30,
+      "verses": [
+        13
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Jeremiah 30:13"
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 46,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Jeremiah 46:11"
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 51,
+      "verses": [
+        8,
+        9
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Jeremiah 51:8,9"
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 47,
+      "verses": [
+        12
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezekiel 47:12"
+    },
+    {
+      "book": "Luke",
+      "chapter": 10,
+      "verses": [
+        34
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 10:34"
+    },
+    {
+      "book": "Revelation",
+      "chapter": 22,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Revelation 22:2"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "Ezekiel",
+    "Isaiah",
+    "Jeremiah",
+    "Luke",
+    "Proverbs",
+    "Revelation"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:2d99a937287ed86d468abf7629de1535c63345eaefdb2608b6877df4791e8f64",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 3
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 3,
+    "total_refs": 10,
+    "ot_refs": 8,
+    "nt_refs": 2,
+    "books_count": 6,
+    "top_books": [
+      "Jeremiah",
+      "Isaiah",
+      "Proverbs",
+      "Ezekiel",
+      "Luke",
+      "Revelation"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:28:58.310123Z",
-  "updated_at": "2025-09-20T17:28:58.310130Z"
+  }
 }

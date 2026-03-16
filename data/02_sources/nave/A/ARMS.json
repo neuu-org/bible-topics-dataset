@@ -1,8 +1,8 @@
 {
   "topic": "ARMS",
-  "topic_slug": "arms",
+  "slug": "arms",
   "canonical_id": "NAV:arms",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "DART",
     "ARTILLERY",
@@ -20,222 +20,76 @@
     "ARROW",
     "BATTERING-RAM"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "DART",
-      "clean": "DART",
-      "slug": "dart",
-      "canonical_id": "NAV:dart"
+      "label": "SeeARMOR",
+      "references": []
     },
     {
-      "original": "ARTILLERY",
-      "clean": "ARTILLERY",
-      "slug": "artillery",
-      "canonical_id": "NAV:artillery"
+      "label": "SeeARROW",
+      "references": []
     },
     {
-      "original": "DAGGER",
-      "clean": "DAGGER",
-      "slug": "dagger",
-      "canonical_id": "NAV:dagger"
+      "label": "SeeARTILLERY",
+      "references": []
     },
     {
-      "original": "SHIELD",
-      "clean": "SHIELD",
-      "slug": "shield",
-      "canonical_id": "NAV:shield"
+      "label": "SeeBATTLE-AX",
+      "references": []
     },
     {
-      "original": "SLING",
-      "clean": "SLING",
-      "slug": "sling",
-      "canonical_id": "NAV:sling"
+      "label": "SeeBATTERING-RAM",
+      "references": []
     },
     {
-      "original": "BOW",
-      "clean": "BOW",
-      "slug": "bow",
-      "canonical_id": "NAV:bow"
+      "label": "SeeBOW",
+      "references": []
     },
     {
-      "original": "ENGINE",
-      "clean": "ENGINE",
-      "slug": "engine",
-      "canonical_id": "NAV:engine"
+      "label": "SeeCHARIOT",
+      "references": []
     },
     {
-      "original": "BATTLE-AX",
-      "clean": "BATTLE-AX",
-      "slug": "battle_ax",
-      "canonical_id": "NAV:battle_ax"
+      "label": "SeeDAGGER",
+      "references": []
     },
     {
-      "original": "JAVELIN",
-      "clean": "JAVELIN",
-      "slug": "javelin",
-      "canonical_id": "NAV:javelin"
+      "label": "SeeDART",
+      "references": []
     },
     {
-      "original": "SPEAR",
-      "clean": "SPEAR",
-      "slug": "spear",
-      "canonical_id": "NAV:spear"
+      "label": "SeeENGINE",
+      "references": []
     },
     {
-      "original": "SWORD",
-      "clean": "SWORD",
-      "slug": "sword",
-      "canonical_id": "NAV:sword"
+      "label": "SeeJAVELIN",
+      "references": []
     },
     {
-      "original": "CHARIOT",
-      "clean": "CHARIOT",
-      "slug": "chariot",
-      "canonical_id": "NAV:chariot"
+      "label": "SeeSHIELD",
+      "references": []
     },
     {
-      "original": "ARMOR",
-      "clean": "ARMOR",
-      "slug": "armor",
-      "canonical_id": "NAV:armor"
+      "label": "SeeSLING",
+      "references": []
     },
     {
-      "original": "ARROW",
-      "clean": "ARROW",
-      "slug": "arrow",
-      "canonical_id": "NAV:arrow"
+      "label": "SeeSPEAR",
+      "references": []
     },
     {
-      "original": "BATTERING-RAM",
-      "clean": "BATTERING-RAM",
-      "slug": "battering_ram",
-      "canonical_id": "NAV:battering_ram"
-    }
-  ],
-  "raw_block": "–SeeARMOR\n–SeeARROW\n–SeeARTILLERY\n–SeeBATTLE-AX\n–SeeBATTERING-RAM\n–SeeBOW\n–SeeCHARIOT\n–SeeDAGGER\n–SeeDART\n–SeeENGINE\n–SeeJAVELIN\n–SeeSHIELD\n–SeeSLING\n–SeeSPEAR\n–SeeSWORD",
-  "content_preview": "–SeeARMOR",
-  "reference_groups": [
-    {
-      "idx": 0,
-      "entry_label": "–SeeARMOR",
-      "raw_segment": "–SeeARMOR"
-    },
-    {
-      "idx": 1,
-      "entry_label": "–SeeARROW",
-      "raw_segment": "–SeeARROW"
-    },
-    {
-      "idx": 2,
-      "entry_label": "–SeeARTILLERY",
-      "raw_segment": "–SeeARTILLERY"
-    },
-    {
-      "idx": 3,
-      "entry_label": "–SeeBATTLE-AX",
-      "raw_segment": "–SeeBATTLE-AX"
-    },
-    {
-      "idx": 4,
-      "entry_label": "–SeeBATTERING-RAM",
-      "raw_segment": "–SeeBATTERING-RAM"
-    },
-    {
-      "idx": 5,
-      "entry_label": "–SeeBOW",
-      "raw_segment": "–SeeBOW"
-    },
-    {
-      "idx": 6,
-      "entry_label": "–SeeCHARIOT",
-      "raw_segment": "–SeeCHARIOT"
-    },
-    {
-      "idx": 7,
-      "entry_label": "–SeeDAGGER",
-      "raw_segment": "–SeeDAGGER"
-    },
-    {
-      "idx": 8,
-      "entry_label": "–SeeDART",
-      "raw_segment": "–SeeDART"
-    },
-    {
-      "idx": 9,
-      "entry_label": "–SeeENGINE",
-      "raw_segment": "–SeeENGINE"
-    },
-    {
-      "idx": 10,
-      "entry_label": "–SeeJAVELIN",
-      "raw_segment": "–SeeJAVELIN"
-    },
-    {
-      "idx": 11,
-      "entry_label": "–SeeSHIELD",
-      "raw_segment": "–SeeSHIELD"
-    },
-    {
-      "idx": 12,
-      "entry_label": "–SeeSLING",
-      "raw_segment": "–SeeSLING"
-    },
-    {
-      "idx": 13,
-      "entry_label": "–SeeSPEAR",
-      "raw_segment": "–SeeSPEAR"
-    },
-    {
-      "idx": 14,
-      "entry_label": "–SeeSWORD",
-      "raw_segment": "–SeeSWORD"
+      "label": "SeeSWORD",
+      "references": []
     }
   ],
   "biblical_references": [],
   "books_mentioned": [],
-  "normalized_labels": [],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 15,
+    "total_refs": 0,
     "ot_refs": 0,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:957d979850c3a8415116fcfd96a6ff4313ca956a32f60ef780b494f4c92e1d29",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 15
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
-    ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:23:47.891316Z",
-  "updated_at": "2025-09-20T17:23:47.891323Z"
+    "books_count": 0,
+    "top_books": []
+  }
 }

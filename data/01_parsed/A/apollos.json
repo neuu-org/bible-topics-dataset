@@ -1,88 +1,50 @@
 {
   "topic": "APOLLOS",
   "slug": "apollos",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "An eloquent, Christian convert at Corinth Ac 18:24-28; 19:1; 1Co 1:12; 3:4-7",
+      "label": "An eloquent, Christian convert at Corinth",
       "references": [
         "Acts 18:24-28",
         "Acts 19:1",
-        "1Cor 1:12",
-        "1Cor 3:4-7"
+        "1 Corinthians 1:12",
+        "1 Corinthians 3:4-7"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Refuses to return to Rome 1Co 16:12",
+      "label": "Refuses to return to Rome",
       "references": [
-        "1Cor 16:12"
+        "1 Corinthians 16:12"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Paul writes Titus about Tit 3:13",
+      "label": "Paul writes Titus about",
       "references": [
         "Titus 3:13"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "1 Corinthians",
-      "book_abbrev": "1co",
-      "chapter": 1,
-      "testament": "NT",
-      "verses": [
-        3,
-        12
-      ],
-      "verse_count": 2
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 0,
-    "nt_refs": 1,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.669173+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
       "book": "Acts",
       "chapter": 18,
       "verses": [
-        24
+        24,
+        25,
+        26,
+        27,
+        28
       ],
-      "verse_count": 1,
+      "verse_count": 5,
       "testament": "NT",
-      "raw": "Acts 18:24",
-      "source": "EAS"
-    },
-    {
-      "book": "Acts",
-      "chapter": 18,
-      "verses": [
-        27
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Acts 18:27",
-      "source": "EAS"
+      "raw": "Acts 18:24-28"
     },
     {
       "book": "Acts",
@@ -92,8 +54,7 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Acts 19:1",
-      "source": "EAS"
+      "raw": "Acts 19:1"
     },
     {
       "book": "1 Corinthians",
@@ -103,8 +64,7 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "1 Corinthians 1:12",
-      "source": "EAS"
+      "raw": "1 Corinthians 1:12"
     },
     {
       "book": "1 Corinthians",
@@ -113,35 +73,11 @@
         4,
         5,
         6,
-        7,
-        22
+        7
       ],
-      "verse_count": 5,
+      "verse_count": 4,
       "testament": "NT",
-      "raw": "1 Corinthians 3:4-7, 22",
-      "source": "EAS"
-    },
-    {
-      "book": "Acts",
-      "chapter": 18,
-      "verses": [
-        26
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Acts 18:26",
-      "source": "EAS"
-    },
-    {
-      "book": "1 Corinthians",
-      "chapter": 3,
-      "verses": [
-        13
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "1 Corinthians 3:13",
-      "source": "EAS"
+      "raw": "1 Corinthians 3:4-7"
     },
     {
       "book": "1 Corinthians",
@@ -151,8 +87,7 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "1 Corinthians 16:12",
-      "source": "SMI"
+      "raw": "1 Corinthians 16:12"
     },
     {
       "book": "Titus",
@@ -162,8 +97,24 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Titus 3:13",
-      "source": "SMI"
+      "raw": "Titus 3:13"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Corinthians",
+    "Acts",
+    "Titus"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 6,
+    "ot_refs": 0,
+    "nt_refs": 6,
+    "books_count": 3,
+    "top_books": [
+      "1 Corinthians",
+      "Acts",
+      "Titus"
+    ]
+  }
 }

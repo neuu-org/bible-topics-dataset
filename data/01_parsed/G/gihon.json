@@ -1,86 +1,45 @@
 {
   "topic": "GIHON",
   "slug": "gihon",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. A river in Egypt Ge 2:13",
-      "references": [
-        "Gen 2:13"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "2. Pools near Jerusalem 1Ki 1:33,38,45",
-      "references": [
-        "1Kgs 1:33",
-        "1Kgs 1:38",
-        "1Kgs 1:45"
-      ],
-      "sub_groups": [
-        {
-          "name": "Hezekiah brings the waters of the upper pool by an aqueduct into the city of Jerusalem 2Ch 32:4,30; 33:14; Ne 2:13-15; 3:13-16; Isa 7:3; 22:9-11; 36:2",
-          "references": [
-            "2Chr 32:4",
-            "2Chr 32:30",
-            "2Chr 33:14",
-            "Neh 2:13-15",
-            "Neh 3:13-16",
-            "Isa 7:3",
-            "Isa 22:9-11",
-            "Isa 36:2"
-          ]
-        }
-      ]
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Nehemiah",
-      "book_abbrev": "neh",
-      "chapter": 2,
-      "testament": "OT",
-      "verses": [
-        3,
-        13,
-        14,
-        15
-      ],
-      "verse_count": 4
-    },
-    {
-      "book": "Isaiah",
-      "book_abbrev": "isa",
-      "chapter": 7,
-      "testament": "OT",
-      "verses": [
-        3,
-        22
-      ],
-      "verse_count": 2
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 2,
-    "nt_refs": 0,
-    "total_verses": 2
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.688780+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "1. A river in Egypt",
+      "references": [
+        "Genesis 2:13"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2. Pools near",
+      "references": [
+        "1 Kings 1:33,38,45"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".Hezekiah brings the waters of the upper pool by an aqueduct into",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "the city of",
+      "references": [
+        "2 Chronicles 32:4,30",
+        "2 Chronicles 33:14",
+        "Nehemiah 2:13-15",
+        "Nehemiah 3:13-16",
+        "Isaiah 7:3",
+        "Isaiah 22:9-11",
+        "Isaiah 36:2"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Genesis",
       "chapter": 2,
@@ -89,33 +48,30 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 2:13",
-      "source": "EAS"
+      "raw": "Genesis 2:13"
     },
     {
-      "book": "Genesis",
-      "chapter": 10,
+      "book": "1 Kings",
+      "chapter": 1,
       "verses": [
-        7,
-        8,
-        9,
-        10
+        33,
+        38,
+        45
       ],
-      "verse_count": 4,
+      "verse_count": 3,
       "testament": "OT",
-      "raw": "Genesis 10:7-10",
-      "source": "EAS"
+      "raw": "1 Kings 1:33,38,45"
     },
     {
       "book": "2 Chronicles",
       "chapter": 32,
       "verses": [
+        4,
         30
       ],
-      "verse_count": 1,
+      "verse_count": 2,
       "testament": "OT",
-      "raw": "2 Chronicles 32:30",
-      "source": "EAS"
+      "raw": "2 Chronicles 32:4,30"
     },
     {
       "book": "2 Chronicles",
@@ -125,30 +81,32 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Chronicles 33:14",
-      "source": "EAS"
+      "raw": "2 Chronicles 33:14"
     },
     {
-      "book": "Isaiah",
-      "chapter": 8,
+      "book": "Nehemiah",
+      "chapter": 2,
       "verses": [
-        6
+        13,
+        14,
+        15
       ],
-      "verse_count": 1,
+      "verse_count": 3,
       "testament": "OT",
-      "raw": "Isaiah 8:6",
-      "source": "EAS"
+      "raw": "Nehemiah 2:13-15"
     },
     {
-      "book": "2 Kings",
-      "chapter": 18,
+      "book": "Nehemiah",
+      "chapter": 3,
       "verses": [
-        17
+        13,
+        14,
+        15,
+        16
       ],
-      "verse_count": 1,
+      "verse_count": 4,
       "testament": "OT",
-      "raw": "2 Kings 18:17",
-      "source": "EAS"
+      "raw": "Nehemiah 3:13-16"
     },
     {
       "book": "Isaiah",
@@ -158,8 +116,19 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Isaiah 7:3",
-      "source": "EAS"
+      "raw": "Isaiah 7:3"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 22,
+      "verses": [
+        9,
+        10,
+        11
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Isaiah 22:9-11"
     },
     {
       "book": "Isaiah",
@@ -169,19 +138,28 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Isaiah 36:2",
-      "source": "EAS"
-    },
-    {
-      "book": "Isaiah",
-      "chapter": 22,
-      "verses": [
-        9
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Isaiah 22:9",
-      "source": "EAS"
+      "raw": "Isaiah 36:2"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Kings",
+    "2 Chronicles",
+    "Genesis",
+    "Isaiah",
+    "Nehemiah"
+  ],
+  "stats": {
+    "total_aspects": 4,
+    "total_refs": 9,
+    "ot_refs": 9,
+    "nt_refs": 0,
+    "books_count": 5,
+    "top_books": [
+      "Isaiah",
+      "2 Chronicles",
+      "Nehemiah",
+      "Genesis",
+      "1 Kings"
+    ]
+  }
 }

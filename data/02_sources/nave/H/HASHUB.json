@@ -1,79 +1,109 @@
 {
   "topic": "HASHUB",
-  "topic_slug": "hashub",
+  "slug": "hashub",
   "canonical_id": "NAV:hashub",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–1. Son of Pahath-moabNe 3:11\n–2. One of the captivity who assisted in repairing the wall of \nJerusalemNe 3:23\n–3. Head of a familyNe 10:23\n–4. Also called Hasshub\n  .A Levite1Ch 9:14;Ne 11:15",
-  "content_preview": "–1. Son of Pahath-moabNe 3:11",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–1. Son of Pahath-moabNe 3:11",
-      "raw_segment": "–1. Son of Pahath-moabNe 3:11"
+      "label": "1.",
+      "references": [
+        "Nehemiah 3:11"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–2. One of the captivity who assisted in repairing the wall of \nJerusalemNe 3:23",
-      "raw_segment": "–2. One of the captivity who assisted in repairing the wall of \nJerusalemNe 3:23"
+      "label": "2. One of the",
+      "references": []
     },
     {
-      "idx": 2,
-      "entry_label": "–3. Head of a familyNe 10:23",
-      "raw_segment": "–3. Head of a familyNe 10:23"
+      "label": "General references",
+      "references": [
+        "Nehemiah 3:23"
+      ]
     },
     {
-      "idx": 3,
-      "entry_label": "–4. Also called Hasshub",
-      "raw_segment": "–4. Also called Hasshub"
+      "label": "3. Head of a family",
+      "references": [
+        "Nehemiah 10:23"
+      ]
+    },
+    {
+      "label": "4. Al",
+      "references": []
+    },
+    {
+      "label": ".A Levite",
+      "references": [
+        "1 Chronicles 9:14",
+        "Nehemiah 11:15"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Nehemiah",
+      "chapter": 3,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Nehemiah 3:11"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 3,
+      "verses": [
+        23
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Nehemiah 3:23"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 10,
+      "verses": [
+        23
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Nehemiah 10:23"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 9,
+      "verses": [
+        14
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 9:14"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 11,
+      "verses": [
+        15
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Nehemiah 11:15"
+    }
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Nehemiah"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 6,
+    "total_refs": 5,
+    "ot_refs": 5,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:ed31d54b5c814c4d212e01892483f81c4dd3f28e56ed8e1c2208c0749ee18a4f",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 6
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 2,
+    "top_books": [
+      "Nehemiah",
+      "1 Chronicles"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:27:02.159620Z",
-  "updated_at": "2025-09-20T17:27:02.159627Z"
+  }
 }

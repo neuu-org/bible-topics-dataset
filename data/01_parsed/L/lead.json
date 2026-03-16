@@ -1,101 +1,99 @@
 {
   "topic": "LEAD",
   "slug": "lead",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "A mineral Ex 15:10",
+      "label": "A mineral",
       "references": [
-        "Exod 15:10"
+        "Exodus 15:10"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Purified by fire Nu 31:22; Jer 6:29; Eze 22:18,20",
+      "label": "Purified by fire",
       "references": [
-        "Num 31:22",
-        "Jer 6:29",
-        "Ezek 22:18",
-        "Ezek 22:20"
+        "Numbers 31:22",
+        "Jeremiah 6:29",
+        "Ezekiel 22:18,20"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Used in making inscriptions on stone Job 19:24",
+      "label": "Used in making inscriptions on stone",
       "references": [
         "Job 19:24"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Lead foundry Jer 6:29; Eze 22:18,20",
+      "label": "Lead foundry",
       "references": [
-        "Jer 6:29",
-        "Ezek 22:18",
-        "Ezek 22:20"
+        "Jeremiah 6:29",
+        "Ezekiel 22:18,20"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Trade in Eze 27:12",
+      "label": "Tra",
       "references": [
-        "Ezek 27:12"
+        "Ezekiel 27:12"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Used for weighing Zec 5:7,8",
+      "label": "Used for weighing",
       "references": [
-        "Zech 5:7",
-        "Zech 5:8"
+        "Ecclesiastes 5:7,8"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Jeremiah",
-      "book_abbrev": "jer",
-      "chapter": 6,
+      "book": "Exodus",
+      "chapter": 15,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
       "testament": "OT",
+      "raw": "Exodus 15:10"
+    },
+    {
+      "book": "Numbers",
+      "chapter": 31,
+      "verses": [
+        22
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Numbers 31:22"
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 6,
       "verses": [
         29
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Jeremiah 6:29"
     },
     {
       "book": "Ezekiel",
-      "book_abbrev": "ezk",
       "chapter": 22,
-      "testament": "OT",
       "verses": [
         18,
         20
       ],
-      "verse_count": 2
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 6,
-    "ot_refs": 2,
-    "nt_refs": 0,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.700309+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Ezekiel 22:18,20"
+    },
     {
       "book": "Job",
       "chapter": 19,
@@ -104,8 +102,51 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Job 19:24",
-      "source": "SMI"
+      "raw": "Job 19:24"
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 27,
+      "verses": [
+        12
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezekiel 27:12"
+    },
+    {
+      "book": "Ecclesiastes",
+      "chapter": 5,
+      "verses": [
+        7,
+        8
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Ecclesiastes 5:7,8"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Ecclesiastes",
+    "Exodus",
+    "Ezekiel",
+    "Jeremiah",
+    "Job",
+    "Numbers"
+  ],
+  "stats": {
+    "total_aspects": 6,
+    "total_refs": 7,
+    "ot_refs": 7,
+    "nt_refs": 0,
+    "books_count": 6,
+    "top_books": [
+      "Ezekiel",
+      "Exodus",
+      "Numbers",
+      "Jeremiah",
+      "Job",
+      "Ecclesiastes"
+    ]
+  }
 }

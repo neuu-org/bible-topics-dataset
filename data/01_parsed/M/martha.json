@@ -1,160 +1,81 @@
 {
   "topic": "MARTHA",
   "slug": "martha",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [
+    "LAZARUS",
+    "MARY"
+  ],
+  "aspects": [
     {
-      "name": "Sister of Mary and Lazarus Joh 11:1",
+      "label": "Sister of Mary and Lazarus",
       "references": [
         "John 11:1"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Ministers to Jesus Lu 10:38-42; Joh 12:2",
+      "label": "Ministers to Jesus",
       "references": [
         "Luke 10:38-42",
         "John 12:2"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Beloved by Jesus Joh 11:5",
+      "label": "Beloved by Jesus",
       "references": [
         "John 11:5"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See LAZARUS",
+      "label": "SeeLAZARUS",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See MARY",
+      "label": "SeeMARY",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
       "book": "John",
-      "book_abbrev": "jhn",
-      "chapter": 12,
-      "testament": "NT",
+      "chapter": 11,
       "verses": [
-        2
+        1
       ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [
-    "MARY",
-    "LAZARUS"
-  ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 5,
-    "ot_refs": 0,
-    "nt_refs": 1,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.704084+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "John 11:1"
+    },
     {
       "book": "Luke",
       "chapter": 10,
       "verses": [
         38,
+        39,
         40,
-        41
+        41,
+        42
       ],
-      "verse_count": 3,
+      "verse_count": 5,
       "testament": "NT",
-      "raw": "Luke 10:38, 40, 41",
-      "source": "EAS"
+      "raw": "Luke 10:38-42"
     },
     {
       "book": "John",
-      "chapter": 11,
+      "chapter": 12,
       "verses": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14,
-        15,
-        16,
-        17,
-        18,
-        19,
-        20,
-        21,
-        22,
-        23,
-        24,
-        25,
-        26,
-        27,
-        28,
-        29,
-        30,
-        31,
-        32,
-        33,
-        34,
-        35,
-        36,
-        37,
-        38,
-        39
-      ],
-      "verse_count": 39,
-      "testament": "NT",
-      "raw": "John 11:1-39",
-      "source": "EAS"
-    },
-    {
-      "book": "1 Corinthians",
-      "chapter": 7,
-      "verses": [
-        35
+        2
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "1 Corinthians 7:35",
-      "source": "EAS"
-    },
-    {
-      "book": "Luke",
-      "chapter": 10,
-      "verses": [
-        38
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Luke 10:38",
-      "source": "SMI"
+      "raw": "John 12:2"
     },
     {
       "book": "John",
@@ -164,19 +85,22 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "John 11:5",
-      "source": "SMI"
-    },
-    {
-      "book": "John",
-      "chapter": 12,
-      "verses": [
-        2
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "John 12:2",
-      "source": "SMI"
+      "raw": "John 11:5"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "John",
+    "Luke"
+  ],
+  "stats": {
+    "total_aspects": 5,
+    "total_refs": 4,
+    "ot_refs": 0,
+    "nt_refs": 4,
+    "books_count": 2,
+    "top_books": [
+      "John",
+      "Luke"
+    ]
+  }
 }

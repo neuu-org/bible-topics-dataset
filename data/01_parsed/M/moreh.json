@@ -1,58 +1,28 @@
 {
   "topic": "MOREH",
   "slug": "moreh",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. A plain near Shechem and Gilgal Ge 12:6; De 11:30",
-      "references": [
-        "Gen 12:6",
-        "Deut 11:30"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "2. A hill on the plain of Jezreel where the Midianites encamped Jud 7:1,12",
-      "references": [
-        "Judg 7:1",
-        "Judg 7:12"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Deuteronomy",
-      "book_abbrev": "deu",
-      "chapter": 11,
-      "testament": "OT",
-      "verses": [
-        30
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.712265+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "1. A plain near Shechem and Gilgal",
+      "references": [
+        "Genesis 12:6",
+        "Deuteronomy 11:30"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2. A hill on the plain of Jezreel where the Midianites en",
+      "references": [
+        "Judges 7:1,12"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Genesis",
       "chapter": 12,
@@ -61,20 +31,45 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 12:6",
-      "source": "EAS"
+      "raw": "Genesis 12:6"
     },
     {
-      "book": "Genesis",
-      "chapter": 12,
+      "book": "Deuteronomy",
+      "chapter": 11,
       "verses": [
-        7,
-        8
+        30
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 11:30"
+    },
+    {
+      "book": "Judges",
+      "chapter": 7,
+      "verses": [
+        1,
+        12
       ],
       "verse_count": 2,
       "testament": "OT",
-      "raw": "Genesis 12:7, 8",
-      "source": "EAS"
+      "raw": "Judges 7:1,12"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Deuteronomy",
+    "Genesis",
+    "Judges"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 3,
+    "ot_refs": 3,
+    "nt_refs": 0,
+    "books_count": 3,
+    "top_books": [
+      "Genesis",
+      "Deuteronomy",
+      "Judges"
+    ]
+  }
 }

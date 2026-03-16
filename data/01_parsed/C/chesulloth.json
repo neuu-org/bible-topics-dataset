@@ -1,52 +1,34 @@
 {
   "topic": "CHESULLOTH",
   "slug": "chesulloth",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "A city of Issachar Jos 19:18",
-      "references": [
-        "Josh 19:18"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Probably identical with CHISLOTH-TABOR, of Jos 19:12",
-      "references": [
-        "Josh 19:12"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "And TABOR 1Ch 6:77",
-      "references": [
-        "1Chr 6:77"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.677483+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "A city of Issachar",
+      "references": [
+        "Joshua 19:18"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Probably i",
+      "references": [
+        "Joshua 19:12"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "And TABOR",
+      "references": [
+        "1 Chronicles 6:77"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Joshua",
       "chapter": 19,
@@ -55,8 +37,42 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Joshua 19:18",
-      "source": "EAS"
+      "raw": "Joshua 19:18"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 19,
+      "verses": [
+        12
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 19:12"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 6,
+      "verses": [
+        77
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 6:77"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Joshua"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 3,
+    "ot_refs": 3,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "Joshua",
+      "1 Chronicles"
+    ]
+  }
 }

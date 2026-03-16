@@ -1,69 +1,134 @@
 {
   "topic": "HEMAN",
-  "topic_slug": "heman",
+  "slug": "heman",
   "canonical_id": "NAV:heman",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–1. A man noted for wisdom, to whom Solomon is compared1Ki 4:31;1Ch 2:6\n–2. “The singer,” a chief Levite, and musician1Ch 6:33;15:17,19;16:41\n  .The king’s seer1Ch 25:5\n  .His sons and daughters temple musicians1Ch 6:33;25:1-6\n  .”Maschil of,” title ofPs 88",
-  "content_preview": "–1. A man noted for wisdom, to whom Solomon is compared1Ki 4:31;1Ch 2:6",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–1. A man noted for wisdom, to whom Solomon is compared1Ki 4:31;1Ch 2:6",
-      "raw_segment": "–1. A man noted for wisdom, to whom Solomon is compared1Ki 4:31;1Ch 2:6"
+      "label": "1. A man noted for wisdom, to whom",
+      "references": [
+        "1 Kings 4:31",
+        "1 Chronicles 2:6"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–2. “The singer,” a chief Levite, and musician1Ch 6:33;15:17,19;16:41",
-      "raw_segment": "–2. “The singer,” a chief Levite, and musician1Ch 6:33;15:17,19;16:41"
+      "label": "2. “The singer,” a chief Levite, and musician",
+      "references": [
+        "1 Chronicles 6:33",
+        "1 Chronicles 15:17,19",
+        "1 Chronicles 16:41"
+      ]
+    },
+    {
+      "label": ".The king’s seer",
+      "references": [
+        "1 Chronicles 25:5"
+      ]
+    },
+    {
+      "label": ".His",
+      "references": [
+        "1 Chronicles 6:33",
+        "1 Chronicles 25:1-6"
+      ]
+    },
+    {
+      "label": ".”Maschil of,” title ofPs 88",
+      "references": []
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "1 Kings",
+      "chapter": 4,
+      "verses": [
+        31
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Kings 4:31"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 2,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 2:6"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 6,
+      "verses": [
+        33
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 6:33"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 15,
+      "verses": [
+        17,
+        19
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "1 Chronicles 15:17,19"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 16,
+      "verses": [
+        41
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 16:41"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 25,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 25:5"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 25,
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "verse_count": 6,
+      "testament": "OT",
+      "raw": "1 Chronicles 25:1-6"
+    }
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "1 Kings"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 5,
+    "total_refs": 7,
+    "ot_refs": 7,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:cc914c7ed18e78ef23e45dc5a768eb3878e6a3cbcf161b6832449106377abfc9",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 5
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 2,
+    "top_books": [
+      "1 Chronicles",
+      "1 Kings"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:27:10.377646Z",
-  "updated_at": "2025-09-20T17:27:10.377655Z"
+  }
 }

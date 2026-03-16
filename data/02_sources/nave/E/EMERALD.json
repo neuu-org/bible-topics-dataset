@@ -1,84 +1,111 @@
 {
   "topic": "EMERALD",
-  "topic_slug": "emerald",
+  "slug": "emerald",
   "canonical_id": "NAV:emerald",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–(A precious stone)\n–Color of the rainbowRe 4:3\n–Merchandise of, in TyreEze 27:16;28:13\n–Set in the breastplateEx 28:18\n–SYMBOLICAL\n  .In the foundation of the holy cityRe 21:19",
-  "content_preview": "–(A precious stone)",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–(A precious stone)",
-      "raw_segment": "–(A precious stone)"
+      "label": "(A precious stone)",
+      "references": []
     },
     {
-      "idx": 1,
-      "entry_label": "–Color of the rainbowRe 4:3",
-      "raw_segment": "–Color of the rainbowRe 4:3"
+      "label": "Color of the rainbow",
+      "references": [
+        "Revelation 4:3"
+      ]
     },
     {
-      "idx": 2,
-      "entry_label": "–Merchandise of, in TyreEze 27:16;28:13",
-      "raw_segment": "–Merchandise of, in TyreEze 27:16;28:13"
+      "label": "Merchandise of, in Tyre",
+      "references": [
+        "Ezekiel 27:16",
+        "Ezekiel 28:13"
+      ]
     },
     {
-      "idx": 3,
-      "entry_label": "–Set in the breastplateEx 28:18",
-      "raw_segment": "–Set in the breastplateEx 28:18"
+      "label": "Set in the breastplate",
+      "references": [
+        "Exodus 28:18"
+      ]
     },
     {
-      "idx": 4,
-      "entry_label": "–SYMBOLICAL",
-      "raw_segment": "–SYMBOLICAL"
+      "label": "SYMBOLI",
+      "references": []
+    },
+    {
+      "label": ".In the foundation of the holy city",
+      "references": [
+        "Revelation 21:19"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Revelation",
+      "chapter": 4,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Revelation 4:3"
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 27,
+      "verses": [
+        16
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezekiel 27:16"
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 28,
+      "verses": [
+        13
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezekiel 28:13"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 28,
+      "verses": [
+        18
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 28:18"
+    },
+    {
+      "book": "Revelation",
+      "chapter": 21,
+      "verses": [
+        19
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Revelation 21:19"
+    }
+  ],
+  "books_mentioned": [
+    "Exodus",
+    "Ezekiel",
+    "Revelation"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:017528580ca5cd25ffdafb1c19f6ff8671984547e794fdd8c840a12e5d92ceb5",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 6
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 6,
+    "total_refs": 5,
+    "ot_refs": 3,
+    "nt_refs": 2,
+    "books_count": 3,
+    "top_books": [
+      "Revelation",
+      "Ezekiel",
+      "Exodus"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:25:58.446321Z",
-  "updated_at": "2025-09-20T17:25:58.446329Z"
+  }
 }

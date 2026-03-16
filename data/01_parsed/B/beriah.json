@@ -1,86 +1,43 @@
 {
   "topic": "BERIAH",
   "slug": "beriah",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. Son of Asher Ge 46:17; Nu 26:44,45; 1Ch 7:30",
-      "references": [
-        "Gen 46:17",
-        "Num 26:44",
-        "Num 26:45",
-        "1Chr 7:30"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "2. Son of Ephraim 1Ch 7:20-23",
-      "references": [
-        "1Chr 7:20-23"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "3. A Benjamite 1Ch 8:13",
-      "references": [
-        "1Chr 8:13"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "4. Son of Shimei 1Ch 23:10,11",
-      "references": [
-        "1Chr 23:10",
-        "1Chr 23:11"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Numbers",
-      "book_abbrev": "num",
-      "chapter": 26,
-      "testament": "OT",
-      "verses": [
-        1,
-        44,
-        45
-      ],
-      "verse_count": 3
-    },
-    {
-      "book": "1 Chronicles",
-      "book_abbrev": "1ch",
-      "chapter": 7,
-      "testament": "OT",
-      "verses": [
-        30
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 4,
-    "ot_refs": 2,
-    "nt_refs": 0,
-    "total_verses": 2
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.673435+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "1.",
+      "references": [
+        "Genesis 46:17",
+        "Numbers 26:44,45",
+        "1 Chronicles 7:30"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2.",
+      "references": [
+        "1 Chronicles 7:20-23"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "3. A Benjamite",
+      "references": [
+        "1 Chronicles 8:13"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "4.",
+      "references": [
+        "1 Chronicles 23:10,11"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Genesis",
       "chapter": 46,
@@ -89,8 +46,28 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 46:17",
-      "source": "EAS"
+      "raw": "Genesis 46:17"
+    },
+    {
+      "book": "Numbers",
+      "chapter": 26,
+      "verses": [
+        44,
+        45
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Numbers 26:44,45"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 7,
+      "verses": [
+        30
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 7:30"
     },
     {
       "book": "1 Chronicles",
@@ -103,8 +80,7 @@
       ],
       "verse_count": 4,
       "testament": "OT",
-      "raw": "1 Chronicles 7:20-23",
-      "source": "EAS"
+      "raw": "1 Chronicles 7:20-23"
     },
     {
       "book": "1 Chronicles",
@@ -114,8 +90,35 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 8:13",
-      "source": "EAS"
+      "raw": "1 Chronicles 8:13"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 23,
+      "verses": [
+        10,
+        11
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "1 Chronicles 23:10,11"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Genesis",
+    "Numbers"
+  ],
+  "stats": {
+    "total_aspects": 4,
+    "total_refs": 6,
+    "ot_refs": 6,
+    "nt_refs": 0,
+    "books_count": 3,
+    "top_books": [
+      "1 Chronicles",
+      "Genesis",
+      "Numbers"
+    ]
+  }
 }

@@ -1,88 +1,147 @@
 {
   "topic": "SKEPTICISM",
-  "topic_slug": "skepticism",
+  "slug": "skepticism",
   "canonical_id": "NAV:skepticism",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "UNBELIEF"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "UNBELIEF",
-      "clean": "UNBELIEF",
-      "slug": "unbelief",
-      "canonical_id": "NAV:unbelief"
+      "label": "General scriptures concerning",
+      "references": [
+        "Job 21:15",
+        "Job 22:17"
+      ]
+    },
+    {
+      "label": "14:1;53:1;",
+      "references": [
+        "Zephaniah 1:12",
+        "Malachi 3:14"
+      ]
+    },
+    {
+      "label": "Of Pharaoh",
+      "references": [
+        "Exodus 5:2"
+      ]
+    },
+    {
+      "label": "Of Thomas",
+      "references": [
+        "John 20:25-28"
+      ]
+    },
+    {
+      "label": "SeeUNBELIEF",
+      "references": []
     }
   ],
-  "raw_block": "–General scriptures concerningJob 21:15;22:17;Ps \n14:1;53:1;Zep 1:12;Mal 3:14\n–Of PharaohEx 5:2\n–Of ThomasJoh 20:25-28\n–SeeUNBELIEF",
-  "content_preview": "–General scriptures concerningJob 21:15;22:17;Ps ",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–General scriptures concerningJob 21:15;22:17;Ps \n14:1;53:1;Zep 1:12;Mal 3:14",
-      "raw_segment": "–General scriptures concerningJob 21:15;22:17;Ps \n14:1;53:1;Zep 1:12;Mal 3:14"
+      "book": "Job",
+      "chapter": 21,
+      "verses": [
+        15
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Job 21:15"
     },
     {
-      "idx": 1,
-      "entry_label": "–Of PharaohEx 5:2",
-      "raw_segment": "–Of PharaohEx 5:2"
+      "book": "Job",
+      "chapter": 22,
+      "verses": [
+        17
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Job 22:17"
     },
     {
-      "idx": 2,
-      "entry_label": "–Of ThomasJoh 20:25-28",
-      "raw_segment": "–Of ThomasJoh 20:25-28"
+      "book": "Job",
+      "chapter": 14,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Job 14:1"
     },
     {
-      "idx": 3,
-      "entry_label": "–SeeUNBELIEF",
-      "raw_segment": "–SeeUNBELIEF"
+      "book": "Job",
+      "chapter": 53,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Job 53:1"
+    },
+    {
+      "book": "Zephaniah",
+      "chapter": 1,
+      "verses": [
+        12
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Zephaniah 1:12"
+    },
+    {
+      "book": "Malachi",
+      "chapter": 3,
+      "verses": [
+        14
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Malachi 3:14"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 5,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 5:2"
+    },
+    {
+      "book": "John",
+      "chapter": 20,
+      "verses": [
+        25,
+        26,
+        27,
+        28
+      ],
+      "verse_count": 4,
+      "testament": "NT",
+      "raw": "John 20:25-28"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "Exodus",
+    "Job",
+    "John",
+    "Malachi",
+    "Zephaniah"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:b83004b6d16e15b8f554b8f6aeafdaf61a62d49eb4bffc878013e40e99607927",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 5
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 5,
+    "total_refs": 8,
+    "ot_refs": 7,
+    "nt_refs": 1,
+    "books_count": 5,
+    "top_books": [
+      "Job",
+      "Zephaniah",
+      "Malachi",
+      "Exodus",
+      "John"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:31:37.230052Z",
-  "updated_at": "2025-09-20T17:31:37.230061Z"
+  }
 }

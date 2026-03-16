@@ -1,41 +1,69 @@
 {
   "topic": "REPORTS",
   "slug": "reports",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "MAJORITY AND MINORITY",
-      "references": [],
-      "sub_groups": [
-        {
-          "name": "Of spies Nu 13:26-33; 14:6-10",
-          "references": [
-            "Num 13:26-33",
-            "Num 14:6-10"
-          ]
-        }
-      ]
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.721369+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "MAJORITY AND MINORITY",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".Of spies",
+      "references": [
+        "Numbers 13:26-33",
+        "Numbers 14:6-10"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0"
+  ],
+  "biblical_references": [
+    {
+      "book": "Numbers",
+      "chapter": 13,
+      "verses": [
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33
+      ],
+      "verse_count": 8,
+      "testament": "OT",
+      "raw": "Numbers 13:26-33"
+    },
+    {
+      "book": "Numbers",
+      "chapter": 14,
+      "verses": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "verse_count": 5,
+      "testament": "OT",
+      "raw": "Numbers 14:6-10"
+    }
+  ],
+  "books_mentioned": [
+    "Numbers"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 2,
+    "ot_refs": 2,
+    "nt_refs": 0,
+    "books_count": 1,
+    "top_books": [
+      "Numbers"
+    ]
+  }
 }

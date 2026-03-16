@@ -1,90 +1,38 @@
 {
   "topic": "SOVEREIGNTY",
-  "topic_slug": "sovereignty",
+  "slug": "sovereignty",
   "canonical_id": "NAV:sovereignty",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "GOD, SOVEREIGN",
     "MAN, DOMINION OF"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "GOD, SOVEREIGN",
-      "clean": "GOD, SOVEREIGN",
-      "slug": "god__sovereign",
-      "canonical_id": "NAV:god__sovereign"
+      "label": "Of God",
+      "references": []
     },
     {
-      "original": "MAN, DOMINION OF",
-      "clean": "MAN, DOMINION OF",
-      "slug": "man__dominion_of",
-      "canonical_id": "NAV:man__dominion_of"
-    }
-  ],
-  "raw_block": "–Of God\n  .SeeGOD, SOVEREIGN\n–Of Man\n–SeeMAN, DOMINION OF",
-  "content_preview": "–Of God",
-  "reference_groups": [
-    {
-      "idx": 0,
-      "entry_label": "–Of God",
-      "raw_segment": "–Of God"
+      "label": ".SeeGOD,",
+      "references": []
     },
     {
-      "idx": 1,
-      "entry_label": "–Of Man",
-      "raw_segment": "–Of Man"
+      "label": "Of Man",
+      "references": []
     },
     {
-      "idx": 2,
-      "entry_label": "–SeeMAN, DOMINION OF",
-      "raw_segment": "–SeeMAN, DOMINION OF"
+      "label": "SeeMAN, DOMINION OF",
+      "references": []
     }
   ],
   "biblical_references": [],
   "books_mentioned": [],
-  "normalized_labels": [],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 4,
+    "total_refs": 0,
     "ot_refs": 0,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:73b867a71952d6e6459a6c31d9c8bac278f33b39759d695e2e1bd73bfd7e0c79",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 4
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
-    ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:31:42.748066Z",
-  "updated_at": "2025-09-20T17:31:42.748075Z"
+    "books_count": 0,
+    "top_books": []
+  }
 }

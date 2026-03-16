@@ -1,67 +1,80 @@
 {
   "topic": "TRADITION",
   "slug": "tradition",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "The decisions and minor precepts taught by Paul 1Co 11:2",
-      "references": [
-        "1Cor 11:2"
-      ],
-      "sub_groups": []
+      "label": "The",
+      "references": [],
+      "source": "NAV"
     },
     {
-      "name": "R. V.) 2Th 2:15; 3:6",
-      "references": [
-        "2Thess 2:15",
-        "2Thess 3:6"
-      ],
-      "sub_groups": []
+      "label": "11:2",
+      "references": [],
+      "source": "NAV"
     },
     {
-      "name": "Commandments of men Mt 12:1-8; 15:2-6; Mr 7:3-9; Lu 6:1-11; Col 2:8; 1Pe 1:18",
+      "label": "R. V.)",
       "references": [
-        "Matt 12:1-8",
-        "Matt 15:2-6",
-        "Mark 7:3-9",
-        "Luke 6:1-11",
-        "Col 2:8",
-        "1Pet 1:18"
+        "2 Thessalonians 2:15",
+        "2 Thessalonians 3:6"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Not authoritative Mt 15:3-20; 1Ti 1:4; 4:7",
+      "label": "Commandments of men",
       "references": [
-        "Matt 15:3-20",
-        "1Tim 1:4",
-        "1Tim 4:7"
+        "Matthew 12:1-8",
+        "Matthew 15:2-6",
+        "Mark 7:3-9"
       ],
-      "sub_groups": []
+      "source": "NAV"
+    },
+    {
+      "label": "6:1-11;",
+      "references": [
+        "Colossians 2:8",
+        "1 Peter 1:18"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Not authoritative",
+      "references": [
+        "Matthew 15:3-20",
+        "1 Timothy 1:4",
+        "1 Timothy 4:7"
+      ],
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Mark",
-      "book_abbrev": "mrk",
-      "chapter": 7,
-      "testament": "NT",
+      "book": "2 Thessalonians",
+      "chapter": 2,
       "verses": [
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9
+        15
       ],
-      "verse_count": 7
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "2 Thessalonians 2:15"
     },
     {
-      "book": "Luke",
-      "book_abbrev": "luk",
-      "chapter": 6,
+      "book": "2 Thessalonians",
+      "chapter": 3,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
       "testament": "NT",
+      "raw": "2 Thessalonians 3:6"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 12,
       "verses": [
         1,
         2,
@@ -70,98 +83,11 @@
         5,
         6,
         7,
-        8,
-        9,
-        10,
-        11
-      ],
-      "verse_count": 11
-    },
-    {
-      "book": "Colossians",
-      "book_abbrev": "col",
-      "chapter": 2,
-      "testament": "NT",
-      "verses": [
-        1,
         8
       ],
-      "verse_count": 2
-    },
-    {
-      "book": "2 Thessalonians",
-      "book_abbrev": "2th",
-      "chapter": 2,
+      "verse_count": 8,
       "testament": "NT",
-      "verses": [
-        3,
-        15
-      ],
-      "verse_count": 2
-    },
-    {
-      "book": "1 Timothy",
-      "book_abbrev": "1ti",
-      "chapter": 1,
-      "testament": "NT",
-      "verses": [
-        4
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "1 Peter",
-      "book_abbrev": "1pe",
-      "chapter": 1,
-      "testament": "NT",
-      "verses": [
-        18
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 4,
-    "ot_refs": 0,
-    "nt_refs": 6,
-    "total_verses": 6
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.730903+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "1 Peter",
-      "chapter": 1,
-      "verses": [
-        18
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "1 Peter 1:18",
-      "source": "EAS"
-    },
-    {
-      "book": "Acts",
-      "chapter": 15,
-      "verses": [
-        10
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Acts 15:10",
-      "source": "EAS"
+      "raw": "Matthew 12:1-8"
     },
     {
       "book": "Matthew",
@@ -175,32 +101,43 @@
       ],
       "verse_count": 5,
       "testament": "NT",
-      "raw": "Matthew 15:2-6",
-      "source": "EAS"
-    },
-    {
-      "book": "Galatians",
-      "chapter": 1,
-      "verses": [
-        14
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Galatians 1:14",
-      "source": "EAS"
+      "raw": "Matthew 15:2-6"
     },
     {
       "book": "Mark",
       "chapter": 7,
       "verses": [
         3,
-        9,
-        13
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
       ],
-      "verse_count": 3,
+      "verse_count": 7,
       "testament": "NT",
-      "raw": "Mark 7:3, 9, 13",
-      "source": "EAS"
+      "raw": "Mark 7:3-9"
+    },
+    {
+      "book": "Mark",
+      "chapter": 6,
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "verse_count": 11,
+      "testament": "NT",
+      "raw": "Mark 6:1-11"
     },
     {
       "book": "Colossians",
@@ -210,30 +147,87 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Colossians 2:8",
-      "source": "EAS"
+      "raw": "Colossians 2:8"
     },
     {
-      "book": "2 Thessalonians",
-      "chapter": 2,
+      "book": "1 Peter",
+      "chapter": 1,
       "verses": [
-        15
+        18
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "2 Thessalonians 2:15",
-      "source": "EAS"
+      "raw": "1 Peter 1:18"
     },
     {
-      "book": "2 Thessalonians",
-      "chapter": 3,
+      "book": "Matthew",
+      "chapter": 15,
       "verses": [
-        6
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "verse_count": 18,
+      "testament": "NT",
+      "raw": "Matthew 15:3-20"
+    },
+    {
+      "book": "1 Timothy",
+      "chapter": 1,
+      "verses": [
+        4
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "2 Thessalonians 3:6",
-      "source": "EAS"
+      "raw": "1 Timothy 1:4"
+    },
+    {
+      "book": "1 Timothy",
+      "chapter": 4,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "1 Timothy 4:7"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Peter",
+    "1 Timothy",
+    "2 Thessalonians",
+    "Colossians",
+    "Mark",
+    "Matthew"
+  ],
+  "stats": {
+    "total_aspects": 6,
+    "total_refs": 11,
+    "ot_refs": 0,
+    "nt_refs": 11,
+    "books_count": 6,
+    "top_books": [
+      "Matthew",
+      "2 Thessalonians",
+      "Mark",
+      "1 Timothy",
+      "Colossians",
+      "1 Peter"
+    ]
+  }
 }

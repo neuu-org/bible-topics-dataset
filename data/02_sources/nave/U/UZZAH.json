@@ -1,78 +1,98 @@
 {
   "topic": "UZZAH",
-  "topic_slug": "uzzah",
+  "slug": "uzzah",
   "canonical_id": "NAV:uzzah",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "UZZA"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "UZZA",
-      "clean": "UZZA",
-      "slug": "uzza",
-      "canonical_id": "NAV:uzza"
-    }
-  ],
-  "raw_block": "–1. Also called UZZA, son of Abinadab\n  .Driver of the cart when moving the ark of the covenant2Sa 6:3;1Ch 13:7\n  .Stricken dead for touching the ark of the covenant2Sa 6:6-8;1Ch 13:9-11\n–2. UZZAH\n  .SeeUZZA, Number two",
-  "content_preview": "–1. Also called UZZA, son of Abinadab",
-  "reference_groups": [
-    {
-      "idx": 0,
-      "entry_label": "–1. Also called UZZA, son of Abinadab",
-      "raw_segment": "–1. Also called UZZA, son of Abinadab"
+      "label": "1. Al",
+      "references": []
     },
     {
-      "idx": 1,
-      "entry_label": "–2. UZZAH",
-      "raw_segment": "–2. UZZAH"
+      "label": ".Driver of the",
+      "references": [
+        "2 Samuel 6:3",
+        "1 Chronicles 13:7"
+      ]
+    },
+    {
+      "label": ".Stricken",
+      "references": [
+        "2 Samuel 6:6-8",
+        "1 Chronicles 13:9-11"
+      ]
+    },
+    {
+      "label": "2. UZZAH",
+      "references": []
+    },
+    {
+      "label": ".SeeUZZA,",
+      "references": []
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "2 Samuel",
+      "chapter": 6,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Samuel 6:3"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 13,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 13:7"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 6,
+      "verses": [
+        6,
+        7,
+        8
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "2 Samuel 6:6-8"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 13,
+      "verses": [
+        9,
+        10,
+        11
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "1 Chronicles 13:9-11"
+    }
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "2 Samuel"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 5,
+    "total_refs": 4,
+    "ot_refs": 4,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:454d3100ac31cee1129e5d64b73b247960ed0aaa270de460819fe794d6b43c42",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 5
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 2,
+    "top_books": [
+      "2 Samuel",
+      "1 Chronicles"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:32:28.664325Z",
-  "updated_at": "2025-09-20T17:32:28.664333Z"
+  }
 }

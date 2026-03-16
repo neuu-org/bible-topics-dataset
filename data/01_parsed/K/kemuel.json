@@ -1,52 +1,34 @@
 {
   "topic": "KEMUEL",
   "slug": "kemuel",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. Son of Nahor Ge 22:21",
-      "references": [
-        "Gen 22:21"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "2. A prince of Ephraim Nu 34:24",
-      "references": [
-        "Num 34:24"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "3. A Levite 1Ch 27:17",
-      "references": [
-        "1Chr 27:17"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.698567+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "1.",
+      "references": [
+        "Genesis 22:21"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2. A prince of Ephraim",
+      "references": [
+        "Numbers 34:24"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "3. A Levite",
+      "references": [
+        "1 Chronicles 27:17"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Genesis",
       "chapter": 22,
@@ -55,8 +37,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 22:21",
-      "source": "EAS"
+      "raw": "Genesis 22:21"
     },
     {
       "book": "Numbers",
@@ -66,8 +47,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Numbers 34:24",
-      "source": "EAS"
+      "raw": "Numbers 34:24"
     },
     {
       "book": "1 Chronicles",
@@ -77,8 +57,24 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 27:17",
-      "source": "EAS"
+      "raw": "1 Chronicles 27:17"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Genesis",
+    "Numbers"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 3,
+    "ot_refs": 3,
+    "nt_refs": 0,
+    "books_count": 3,
+    "top_books": [
+      "Genesis",
+      "Numbers",
+      "1 Chronicles"
+    ]
+  }
 }

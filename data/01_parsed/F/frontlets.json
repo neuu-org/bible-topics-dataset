@@ -1,29 +1,52 @@
 {
   "topic": "FRONTLETS",
   "slug": "frontlets",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [
+    "PHYLACTERY"
+  ],
+  "aspects": [
     {
-      "name": "A leather band worn on the forehead, containing certain commandments Ex 13:6-16; De 6:1-8; 11:18",
+      "label": "A leather band worn on the forehead, containing certain commandments",
       "references": [
-        "Exod 13:6-16",
-        "Deut 6:1-8",
-        "Deut 11:18"
+        "Exodus 13:6-16",
+        "Deuteronomy 6:1-8",
+        "Deuteronomy 11:18"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See PHYLACTERY",
+      "label": "SeePHYLACTERY",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Deuteronomy",
-      "book_abbrev": "deu",
-      "chapter": 6,
+      "book": "Exodus",
+      "chapter": 13,
+      "verses": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "verse_count": 11,
       "testament": "OT",
+      "raw": "Exodus 13:6-16"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 6,
       "verses": [
         1,
         2,
@@ -32,58 +55,11 @@
         5,
         6,
         7,
-        8,
-        11
-      ],
-      "verse_count": 9
-    }
-  ],
-  "see_also": [
-    "PHYLACTERY"
-  ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.687415+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    },
-    "enriched_at": "2025-12-02T22:02:10.278826+00:00",
-    "enrichment_source": "pipeline_merge"
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "Exodus",
-      "chapter": 13,
-      "verses": [
-        16
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Exodus 13:16",
-      "source": "EAS"
-    },
-    {
-      "book": "Deuteronomy",
-      "chapter": 6,
-      "verses": [
         8
       ],
-      "verse_count": 1,
+      "verse_count": 8,
       "testament": "OT",
-      "raw": "Deuteronomy 6:8",
-      "source": "EAS"
+      "raw": "Deuteronomy 6:1-8"
     },
     {
       "book": "Deuteronomy",
@@ -93,78 +69,22 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Deuteronomy 11:18",
-      "source": "EAS"
-    },
-    {
-      "book": "Exodus",
-      "chapter": 12,
-      "verses": [
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10
-      ],
-      "verse_count": 9,
-      "testament": "OT",
-      "raw": "Exodus 12:2-10",
-      "source": "EAS"
-    },
-    {
-      "book": "Exodus",
-      "chapter": 13,
-      "verses": [
-        11,
-        12,
-        13,
-        14,
-        15,
-        16,
-        17,
-        18,
-        19,
-        20,
-        21
-      ],
-      "verse_count": 11,
-      "testament": "OT",
-      "raw": "Exodus 13:11-21",
-      "source": "EAS"
-    },
-    {
-      "book": "Deuteronomy",
-      "chapter": 6,
-      "verses": [
-        4,
-        5,
-        6,
-        7,
-        8,
-        9
-      ],
-      "verse_count": 6,
-      "testament": "OT",
-      "raw": "Deuteronomy 6:4-9",
-      "source": "EAS"
-    },
-    {
-      "book": "Deuteronomy",
-      "chapter": 11,
-      "verses": [
-        18,
-        19,
-        20,
-        21
-      ],
-      "verse_count": 4,
-      "testament": "OT",
-      "raw": "Deuteronomy 11:18-21",
-      "source": "EAS"
+      "raw": "Deuteronomy 11:18"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Deuteronomy",
+    "Exodus"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 3,
+    "ot_refs": 3,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "Deuteronomy",
+      "Exodus"
+    ]
+  }
 }

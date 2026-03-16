@@ -1,80 +1,28 @@
 {
   "topic": "BRAMBLE",
   "slug": "bramble",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "General scriptures concerning Isa 34:13; Lu 6:44",
-      "references": [
-        "Isa 34:13",
-        "Luke 6:44"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Allegory of Jud 9:14,15",
-      "references": [
-        "Judg 9:14",
-        "Judg 9:15"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Luke",
-      "book_abbrev": "luk",
-      "chapter": 6,
-      "testament": "NT",
-      "verses": [
-        44
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 1,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.675365+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "General scriptures concerning",
+      "references": [
+        "Isaiah 34:13",
+        "Luke 6:44"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Allegory of",
+      "references": [
+        "Judges 9:14,15"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "Judges",
-      "chapter": 9,
-      "verses": [
-        14
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Judges 9:14",
-      "source": "EAS"
-    },
-    {
-      "book": "Psalms",
-      "chapter": 58,
-      "verses": [
-        9
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Psalms 58:9",
-      "source": "EAS"
-    },
+  ],
+  "biblical_references": [
     {
       "book": "Isaiah",
       "chapter": 34,
@@ -83,86 +31,45 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Isaiah 34:13",
-      "source": "EAS"
+      "raw": "Isaiah 34:13"
     },
     {
-      "book": "1 Samuel",
-      "chapter": 13,
+      "book": "Luke",
+      "chapter": 6,
       "verses": [
-        6
+        44
       ],
       "verse_count": 1,
-      "testament": "OT",
-      "raw": "1 Samuel 13:6",
-      "source": "EAS"
+      "testament": "NT",
+      "raw": "Luke 6:44"
     },
     {
-      "book": "2 Kings",
-      "chapter": 14,
+      "book": "Judges",
+      "chapter": 9,
       "verses": [
-        2,
-        9
+        14,
+        15
       ],
       "verse_count": 2,
       "testament": "OT",
-      "raw": "2 Kings 14:9, 2",
-      "source": "EAS"
-    },
-    {
-      "book": "2 Chronicles",
-      "chapter": 25,
-      "verses": [
-        18
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "2 Chronicles 25:18",
-      "source": "EAS"
-    },
-    {
-      "book": "Job",
-      "chapter": 31,
-      "verses": [
-        40
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Job 31:40",
-      "source": "EAS"
-    },
-    {
-      "book": "2 Chronicles",
-      "chapter": 33,
-      "verses": [
-        11
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "2 Chronicles 33:11",
-      "source": "EAS"
-    },
-    {
-      "book": "Song of Solomon",
-      "chapter": 2,
-      "verses": [
-        2
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Song of Solomon 2:2",
-      "source": "EAS"
-    },
-    {
-      "book": "Hosea",
-      "chapter": 9,
-      "verses": [
-        6
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Hosea 9:6",
-      "source": "EAS"
+      "raw": "Judges 9:14,15"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Isaiah",
+    "Judges",
+    "Luke"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 3,
+    "ot_refs": 2,
+    "nt_refs": 1,
+    "books_count": 3,
+    "top_books": [
+      "Isaiah",
+      "Luke",
+      "Judges"
+    ]
+  }
 }

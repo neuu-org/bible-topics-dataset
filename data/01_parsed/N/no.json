@@ -1,63 +1,26 @@
 {
   "topic": "NO",
   "slug": "no",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "A city on the Nile River Jer 46:25; Eze 30:14-16; Na 3:8",
-      "references": [
-        "Jer 46:25",
-        "Ezek 30:14-16",
-        "Nah 3:8"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Ezekiel",
-      "book_abbrev": "ezk",
-      "chapter": 30,
-      "testament": "OT",
-      "verses": [
-        14,
-        15,
-        16
-      ],
-      "verse_count": 3
-    },
-    {
-      "book": "Nahum",
-      "book_abbrev": "nah",
-      "chapter": 3,
-      "testament": "OT",
-      "verses": [
-        8
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 2,
-    "nt_refs": 0,
-    "total_verses": 2
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.715134+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "A city on the Nile River",
+      "references": [
+        "Jeremiah 46:25",
+        "Ezekiel 30:14-16"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "3:8",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Jeremiah",
       "chapter": 46,
@@ -66,43 +29,44 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Jeremiah 46:25",
-      "source": "EAS"
-    },
-    {
-      "book": "Jeremiah",
-      "chapter": 46,
-      "verses": [
-        25,
-        26
-      ],
-      "verse_count": 2,
-      "testament": "OT",
-      "raw": "Jeremiah 46:25, 26",
-      "source": "EAS"
+      "raw": "Jeremiah 46:25"
     },
     {
       "book": "Ezekiel",
       "chapter": 30,
       "verses": [
         14,
+        15,
         16
       ],
-      "verse_count": 2,
+      "verse_count": 3,
       "testament": "OT",
-      "raw": "Ezekiel 30:14, 16",
-      "source": "EAS"
+      "raw": "Ezekiel 30:14-16"
     },
     {
-      "book": "Nahum",
+      "book": "Ezekiel",
       "chapter": 3,
       "verses": [
         8
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Nahum 3:8",
-      "source": "EAS"
+      "raw": "Ezekiel 3:8"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Ezekiel",
+    "Jeremiah"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 3,
+    "ot_refs": 3,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "Ezekiel",
+      "Jeremiah"
+    ]
+  }
 }

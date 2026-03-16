@@ -1,51 +1,22 @@
 {
   "topic": "HAMUTAL",
   "slug": "hamutal",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "The mother of Jehoahaz and Zedekiah 2Ki 23:31; 24:18; Jer 52:1",
-      "references": [
-        "2Kgs 23:31",
-        "2Kgs 24:18",
-        "Jer 52:1"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Jeremiah",
-      "book_abbrev": "jer",
-      "chapter": 52,
-      "testament": "OT",
-      "verses": [
-        1
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.690534+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "The mother of Jehoahaz and Ze",
+      "references": [
+        "2 Kings 23:31",
+        "2 Kings 24:18",
+        "Jeremiah 52:1"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "2 Kings",
       "chapter": 23,
@@ -54,8 +25,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Kings 23:31",
-      "source": "EAS"
+      "raw": "2 Kings 23:31"
     },
     {
       "book": "2 Kings",
@@ -65,8 +35,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Kings 24:18",
-      "source": "EAS"
+      "raw": "2 Kings 24:18"
     },
     {
       "book": "Jeremiah",
@@ -76,8 +45,22 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Jeremiah 52:1",
-      "source": "SMI"
+      "raw": "Jeremiah 52:1"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "2 Kings",
+    "Jeremiah"
+  ],
+  "stats": {
+    "total_aspects": 1,
+    "total_refs": 3,
+    "ot_refs": 3,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "2 Kings",
+      "Jeremiah"
+    ]
+  }
 }

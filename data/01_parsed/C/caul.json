@@ -1,73 +1,37 @@
 {
   "topic": "CAUL",
   "slug": "caul",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. Probably the upper lobe of the liver",
-      "references": [],
-      "sub_groups": [
-        {
-          "name": "Burnt with sacrifice Ex 29:13,22; Le 3:4,10,15; 4:9; 7:4; 8:16,25; 9:10,19",
-          "references": [
-            "Exod 29:13",
-            "Exod 29:22",
-            "Lev 3:4",
-            "Lev 3:10",
-            "Lev 3:15",
-            "Lev 4:9",
-            "Lev 7:4",
-            "Lev 8:16",
-            "Lev 8:25",
-            "Lev 9:10",
-            "Lev 9:19"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "2. Netted caps Isa 3:18",
-      "references": [
-        "Isa 3:18"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Leviticus",
-      "book_abbrev": "lev",
-      "chapter": 3,
-      "testament": "OT",
-      "verses": [
-        4,
-        10,
-        15
-      ],
-      "verse_count": 3
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.676681+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "1. Probably the upper lobe of the liver",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".Burnt with sacrifice",
+      "references": [
+        "Exodus 29:13,22",
+        "Leviticus 3:4,10,15",
+        "Leviticus 4:9",
+        "Leviticus 7:4",
+        "Leviticus 8:16,25",
+        "Leviticus 9:10,19"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2. Netted",
+      "references": [
+        "Isaiah 3:18"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Exodus",
       "chapter": 29,
@@ -77,8 +41,7 @@
       ],
       "verse_count": 2,
       "testament": "OT",
-      "raw": "Exodus 29:13, 22",
-      "source": "EAS"
+      "raw": "Exodus 29:13,22"
     },
     {
       "book": "Leviticus",
@@ -90,8 +53,7 @@
       ],
       "verse_count": 3,
       "testament": "OT",
-      "raw": "Leviticus 3:4, 10, 15",
-      "source": "EAS"
+      "raw": "Leviticus 3:4,10,15"
     },
     {
       "book": "Leviticus",
@@ -101,8 +63,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Leviticus 4:9",
-      "source": "EAS"
+      "raw": "Leviticus 4:9"
     },
     {
       "book": "Leviticus",
@@ -112,19 +73,29 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Leviticus 7:4",
-      "source": "EAS"
+      "raw": "Leviticus 7:4"
     },
     {
-      "book": "Hosea",
-      "chapter": 13,
+      "book": "Leviticus",
+      "chapter": 8,
       "verses": [
-        8
+        16,
+        25
       ],
-      "verse_count": 1,
+      "verse_count": 2,
       "testament": "OT",
-      "raw": "Hosea 13:8",
-      "source": "EAS"
+      "raw": "Leviticus 8:16,25"
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 9,
+      "verses": [
+        10,
+        19
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Leviticus 9:10,19"
     },
     {
       "book": "Isaiah",
@@ -134,8 +105,24 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Isaiah 3:18",
-      "source": "SMI"
+      "raw": "Isaiah 3:18"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Exodus",
+    "Isaiah",
+    "Leviticus"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 7,
+    "ot_refs": 7,
+    "nt_refs": 0,
+    "books_count": 3,
+    "top_books": [
+      "Leviticus",
+      "Exodus",
+      "Isaiah"
+    ]
+  }
 }

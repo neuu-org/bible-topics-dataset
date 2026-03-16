@@ -1,78 +1,61 @@
 {
   "topic": "ADAR",
   "slug": "adar",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. Twelfth month in Jewish calendar Ezr 6:15; Es 3:7; 8:12; 9:1",
-      "references": [
-        "Ezra 6:15",
-        "Esth 3:7",
-        "Esth 8:12",
-        "Esth 9:1"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "2. Son of Bela 1Ch 8:3",
-      "references": [
-        "1Chr 8:3"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "3. ADAR",
-      "references": [],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Esther",
-      "book_abbrev": "est",
-      "chapter": 3,
-      "testament": "OT",
-      "verses": [
-        7,
-        8
-      ],
-      "verse_count": 2
-    }
+  "sources": [
+    "NAV"
   ],
   "see_also": [
     "HAZAR-ADAR"
   ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.661159+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "aspects": [
+    {
+      "label": "1. Twelfth month in Jewish",
+      "references": [
+        "Ezra 6:15",
+        "Esther 3:7",
+        "Esther 8:12",
+        "Esther 9:1"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2.",
+      "references": [
+        "1 Chronicles 8:3"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "3. ADAR",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".SeeHAZAR-ADAR",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
+    {
+      "book": "Ezra",
+      "chapter": 6,
+      "verses": [
+        15
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezra 6:15"
+    },
     {
       "book": "Esther",
       "chapter": 3,
       "verses": [
-        7,
-        13
+        7
       ],
-      "verse_count": 2,
+      "verse_count": 1,
       "testament": "OT",
-      "raw": "Esther 3:7, 13",
-      "source": "EAS"
+      "raw": "Esther 3:7"
     },
     {
       "book": "Esther",
@@ -82,34 +65,44 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Esther 8:12",
-      "source": "EAS"
+      "raw": "Esther 8:12"
     },
     {
       "book": "Esther",
       "chapter": 9,
       "verses": [
-        1,
-        15,
-        17,
-        19,
-        21
+        1
       ],
-      "verse_count": 5,
+      "verse_count": 1,
       "testament": "OT",
-      "raw": "Esther 9:1, 15, 17, 19, 21",
-      "source": "EAS"
+      "raw": "Esther 9:1"
     },
     {
-      "book": "Joshua",
-      "chapter": 15,
+      "book": "1 Chronicles",
+      "chapter": 8,
       "verses": [
         3
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Joshua 15:3",
-      "source": "SMI"
+      "raw": "1 Chronicles 8:3"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Esther",
+    "Ezra"
+  ],
+  "stats": {
+    "total_aspects": 4,
+    "total_refs": 5,
+    "ot_refs": 5,
+    "nt_refs": 0,
+    "books_count": 3,
+    "top_books": [
+      "Esther",
+      "Ezra",
+      "1 Chronicles"
+    ]
+  }
 }

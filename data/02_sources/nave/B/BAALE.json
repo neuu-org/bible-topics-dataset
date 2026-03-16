@@ -1,78 +1,46 @@
 {
   "topic": "BAALE",
-  "topic_slug": "baale",
+  "slug": "baale",
   "canonical_id": "NAV:baale",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "KIRJATH-JEARIM"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "KIRJATH-JEARIM",
-      "clean": "KIRJATH-JEARIM",
-      "slug": "kirjath_jearim",
-      "canonical_id": "NAV:kirjath_jearim"
-    }
-  ],
-  "raw_block": "–A city of Judah2Sa 6:2\n–SeeKIRJATH-JEARIM",
-  "content_preview": "–A city of Judah2Sa 6:2",
-  "reference_groups": [
-    {
-      "idx": 0,
-      "entry_label": "–A city of Judah2Sa 6:2",
-      "raw_segment": "–A city of Judah2Sa 6:2"
+      "label": "A city of",
+      "references": [
+        "2 Samuel 6:2"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–SeeKIRJATH-JEARIM",
-      "raw_segment": "–SeeKIRJATH-JEARIM"
+      "label": "SeeKIRJATH-JEARIM",
+      "references": []
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "2 Samuel",
+      "chapter": 6,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Samuel 6:2"
+    }
+  ],
+  "books_mentioned": [
+    "2 Samuel"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 2,
+    "total_refs": 1,
+    "ot_refs": 1,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:43e7f1de35a4ca443ed4466037dc94233f05b64b3cc4fe5b59311b86abdd477f",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 1,
+    "top_books": [
+      "2 Samuel"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:24:03.835110Z",
-  "updated_at": "2025-09-20T17:24:03.835117Z"
+  }
 }

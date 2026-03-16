@@ -1,138 +1,53 @@
 {
   "topic": "VINEGAR",
   "slug": "vinegar",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "(A sour wine)",
+      "label": "(A",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Forbidden to Nazarites Nu 6:3",
+      "label": "Forbid",
       "references": [
-        "Num 6:3"
+        "Numbers 6:3"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Used with food Ru 2:14; Ps 69:21; Pr 10:26; 25:20",
+      "label": "Used with food",
       "references": [
         "Ruth 2:14",
-        "Ps 69:21",
-        "Prov 10:26",
-        "Prov 25:20"
+        "Psalms 69:21",
+        "Proverbs 10:26",
+        "Proverbs 25:20"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Offered to Christ while on the cross Mt 27:34,48; Joh 19:29; with Mr 15:23",
+      "label": "Offered to Christ while on the cross",
       "references": [
-        "Matt 27:34",
-        "Matt 27:48",
+        "Matthew 27:34,48",
         "John 19:29",
         "Mark 15:23"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Psalms",
-      "book_abbrev": "psa",
-      "chapter": 69,
-      "testament": "OT",
+      "book": "Numbers",
+      "chapter": 6,
       "verses": [
-        21
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Proverbs",
-      "book_abbrev": "pro",
-      "chapter": 10,
-      "testament": "OT",
-      "verses": [
-        25,
-        26
-      ],
-      "verse_count": 2
-    },
-    {
-      "book": "John",
-      "book_abbrev": "jhn",
-      "chapter": 19,
-      "testament": "NT",
-      "verses": [
-        29
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 4,
-    "ot_refs": 2,
-    "nt_refs": 1,
-    "total_verses": 3
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.732765+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "Matthew",
-      "chapter": 27,
-      "verses": [
-        34
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Matthew 27:34",
-      "source": "EAS"
-    },
-    {
-      "book": "Psalms",
-      "chapter": 69,
-      "verses": [
-        21
+        3
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Psalms 69:21",
-      "source": "EAS"
-    },
-    {
-      "book": "Proverbs",
-      "chapter": 10,
-      "verses": [
-        26
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Proverbs 10:26",
-      "source": "EAS"
-    },
-    {
-      "book": "Psalms",
-      "chapter": 49,
-      "verses": [
-        21
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Psalms 49:21",
-      "source": "SMI"
+      "raw": "Numbers 6:3"
     },
     {
       "book": "Ruth",
@@ -142,42 +57,93 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Ruth 2:14",
-      "source": "SMI"
+      "raw": "Ruth 2:14"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 69,
+      "verses": [
+        21
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 69:21"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 10,
+      "verses": [
+        26
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 10:26"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 25,
+      "verses": [
+        20
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 25:20"
     },
     {
       "book": "Matthew",
       "chapter": 27,
       "verses": [
+        34,
         48
       ],
-      "verse_count": 1,
+      "verse_count": 2,
       "testament": "NT",
-      "raw": "Matthew 27:48",
-      "source": "SMI"
-    },
-    {
-      "book": "Mark",
-      "chapter": 15,
-      "verses": [
-        36
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Mark 15:36",
-      "source": "SMI"
+      "raw": "Matthew 27:34,48"
     },
     {
       "book": "John",
       "chapter": 19,
       "verses": [
-        29,
-        30
+        29
       ],
-      "verse_count": 2,
+      "verse_count": 1,
       "testament": "NT",
-      "raw": "John 19:29,30",
-      "source": "SMI"
+      "raw": "John 19:29"
+    },
+    {
+      "book": "Mark",
+      "chapter": 15,
+      "verses": [
+        23
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Mark 15:23"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "John",
+    "Mark",
+    "Matthew",
+    "Numbers",
+    "Proverbs",
+    "Psalms",
+    "Ruth"
+  ],
+  "stats": {
+    "total_aspects": 4,
+    "total_refs": 8,
+    "ot_refs": 5,
+    "nt_refs": 3,
+    "books_count": 7,
+    "top_books": [
+      "Proverbs",
+      "Numbers",
+      "Ruth",
+      "Psalms",
+      "Matthew",
+      "John",
+      "Mark"
+    ]
+  }
 }

@@ -1,32 +1,20 @@
 {
-  "topic": "Anna",
+  "topic": "ANNA",
   "slug": "anna",
-  "type": "topic",
-  "reference_groups": [],
-  "biblical_references": [],
-  "stats": {},
-  "sources": [],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.663574+00:00",
-    "merged_from": {
-      "v2": false,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "book": "2 Chronicles",
-      "chapter": 34,
-      "verses": [
-        22
+      "label": "A",
+      "references": [
+        "Luke 2:36,37"
       ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "2 Chronicles 34:22",
-      "source": "EAS"
-    },
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
     {
       "book": "Luke",
       "chapter": 2,
@@ -36,19 +24,20 @@
       ],
       "verse_count": 2,
       "testament": "NT",
-      "raw": "Luke 2:36, 37",
-      "source": "EAS"
-    },
-    {
-      "book": "Luke",
-      "chapter": 2,
-      "verses": [
-        36
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Luke 2:36",
-      "source": "SMI"
+      "raw": "Luke 2:36,37"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Luke"
+  ],
+  "stats": {
+    "total_aspects": 1,
+    "total_refs": 1,
+    "ot_refs": 0,
+    "nt_refs": 1,
+    "books_count": 1,
+    "top_books": [
+      "Luke"
+    ]
+  }
 }

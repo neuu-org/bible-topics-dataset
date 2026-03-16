@@ -1,107 +1,229 @@
 {
   "topic": "HUNGER",
-  "topic_slug": "hunger",
+  "slug": "hunger",
   "canonical_id": "NAV:hunger",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "THIRST",
     "FAMINE",
     "DESIRE, SPIRITUAL"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "THIRST",
-      "clean": "THIRST",
-      "slug": "thirst",
-      "canonical_id": "NAV:thirst"
+      "label": "Of Jesus",
+      "references": [
+        "Matthew 4:2-4",
+        "Matthew 21:18",
+        "Mark 11:12",
+        "Luke 4:2-4",
+        "John 4:8"
+      ]
     },
     {
-      "original": "FAMINE",
-      "clean": "FAMINE",
-      "slug": "famine",
-      "canonical_id": "NAV:famine"
+      "label": "A stimu",
+      "references": [
+        "Proverbs 16:26"
+      ]
     },
     {
-      "original": "DESIRE, SPIRITUAL",
-      "clean": "DESIRE, SPIRITUAL",
-      "slug": "desire__spiritual",
-      "canonical_id": "NAV:desire__spiritual"
+      "label": "No hunger in heaven",
+      "references": [
+        "Revelation 7:16,17"
+      ]
+    },
+    {
+      "label": "SeeFAMINE",
+      "references": []
+    },
+    {
+      "label": "SPIRITUAL",
+      "references": [
+        "Proverbs 2:3-5",
+        "Isaiah 55:1,2",
+        "Amos 8:11-13",
+        "Matthew 5:6",
+        "Luke 6:21",
+        "1 Peter 2:2"
+      ]
+    },
+    {
+      "label": ".See",
+      "references": []
+    },
+    {
+      "label": ".SeeTHIRST",
+      "references": []
     }
   ],
-  "raw_block": "–Of JesusMt 4:2-4;21:18;Mr 11:12;Lu 4:2-4;Joh 4:8\n–A stimulus to workPr 16:26\n–No hunger in heavenRe 7:16,17\n–SeeFAMINE\n–SPIRITUALPr 2:3-5;Isa 55:1,2;Am 8:11-13;Mt 5:6;Lu 6:21;1Pe 2:2\n  .SeeDESIRE, SPIRITUAL\n  .SeeTHIRST",
-  "content_preview": "–Of JesusMt 4:2-4;21:18;Mr 11:12;Lu 4:2-4;Joh 4:8",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–Of JesusMt 4:2-4;21:18;Mr 11:12;Lu 4:2-4;Joh 4:8",
-      "raw_segment": "–Of JesusMt 4:2-4;21:18;Mr 11:12;Lu 4:2-4;Joh 4:8"
+      "book": "Matthew",
+      "chapter": 4,
+      "verses": [
+        2,
+        3,
+        4
+      ],
+      "verse_count": 3,
+      "testament": "NT",
+      "raw": "Matthew 4:2-4"
     },
     {
-      "idx": 1,
-      "entry_label": "–A stimulus to workPr 16:26",
-      "raw_segment": "–A stimulus to workPr 16:26"
+      "book": "Matthew",
+      "chapter": 21,
+      "verses": [
+        18
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 21:18"
     },
     {
-      "idx": 2,
-      "entry_label": "–No hunger in heavenRe 7:16,17",
-      "raw_segment": "–No hunger in heavenRe 7:16,17"
+      "book": "Mark",
+      "chapter": 11,
+      "verses": [
+        12
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Mark 11:12"
     },
     {
-      "idx": 3,
-      "entry_label": "–SeeFAMINE",
-      "raw_segment": "–SeeFAMINE"
+      "book": "Luke",
+      "chapter": 4,
+      "verses": [
+        2,
+        3,
+        4
+      ],
+      "verse_count": 3,
+      "testament": "NT",
+      "raw": "Luke 4:2-4"
     },
     {
-      "idx": 4,
-      "entry_label": "–SPIRITUALPr 2:3-5;Isa 55:1,2;Am 8:11-13;Mt 5:6;Lu 6:21;1Pe 2:2",
-      "raw_segment": "–SPIRITUALPr 2:3-5;Isa 55:1,2;Am 8:11-13;Mt 5:6;Lu 6:21;1Pe 2:2"
+      "book": "John",
+      "chapter": 4,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "John 4:8"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 16,
+      "verses": [
+        26
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 16:26"
+    },
+    {
+      "book": "Revelation",
+      "chapter": 7,
+      "verses": [
+        16,
+        17
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Revelation 7:16,17"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 2,
+      "verses": [
+        3,
+        4,
+        5
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Proverbs 2:3-5"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 55,
+      "verses": [
+        1,
+        2
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Isaiah 55:1,2"
+    },
+    {
+      "book": "Amos",
+      "chapter": 8,
+      "verses": [
+        11,
+        12,
+        13
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Amos 8:11-13"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 5,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 5:6"
+    },
+    {
+      "book": "Luke",
+      "chapter": 6,
+      "verses": [
+        21
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 6:21"
+    },
+    {
+      "book": "1 Peter",
+      "chapter": 2,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "1 Peter 2:2"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "1 Peter",
+    "Amos",
+    "Isaiah",
+    "John",
+    "Luke",
+    "Mark",
+    "Matthew",
+    "Proverbs",
+    "Revelation"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:2faac6754e61a7790eb661479c6c99a2ae6d6afd95beedb7b3590125ded7a913",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 7
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 7,
+    "total_refs": 13,
+    "ot_refs": 4,
+    "nt_refs": 9,
+    "books_count": 9,
+    "top_books": [
+      "Matthew",
+      "Luke",
+      "Proverbs",
+      "Mark",
+      "John",
+      "Revelation",
+      "Isaiah",
+      "Amos",
+      "1 Peter"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:27:24.775501Z",
-  "updated_at": "2025-09-20T17:27:24.775510Z"
+  }
 }

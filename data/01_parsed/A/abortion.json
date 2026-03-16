@@ -1,50 +1,81 @@
 {
   "topic": "ABORTION",
   "slug": "abortion",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "General scriptures concerning Ex 21:22,23",
-      "references": [
-        "Exod 21:22",
-        "Exod 21:23"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "As a judgment Ho 9:14",
-      "references": [
-        "Hos 9:14"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Of animals, caused by thunder Ps 29:9",
-      "references": [
-        "Ps 29:9"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.660747+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "General scriptures concerning",
+      "references": [
+        "Exodus 21:22,23"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "As a",
+      "references": [
+        "Hosea 9:14"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Of animals,",
+      "references": [
+        "Psalms 29:9"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0"
+  ],
+  "biblical_references": [
+    {
+      "book": "Exodus",
+      "chapter": 21,
+      "verses": [
+        22,
+        23
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Exodus 21:22,23"
+    },
+    {
+      "book": "Hosea",
+      "chapter": 9,
+      "verses": [
+        14
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Hosea 9:14"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 29,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 29:9"
+    }
+  ],
+  "books_mentioned": [
+    "Exodus",
+    "Hosea",
+    "Psalms"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 3,
+    "ot_refs": 3,
+    "nt_refs": 0,
+    "books_count": 3,
+    "top_books": [
+      "Exodus",
+      "Hosea",
+      "Psalms"
+    ]
+  }
 }

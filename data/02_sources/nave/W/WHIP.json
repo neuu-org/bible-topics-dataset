@@ -1,64 +1,66 @@
 {
   "topic": "WHIP",
-  "topic_slug": "whip",
+  "slug": "whip",
   "canonical_id": "NAV:whip",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–General scriptures concerning1Ki 12:11;Pr 26:3;Na 3:2",
-  "content_preview": "–General scriptures concerning1Ki 12:11;Pr 26:3;Na 3:2",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–General scriptures concerning1Ki 12:11;Pr 26:3;Na 3:2",
-      "raw_segment": "–General scriptures concerning1Ki 12:11;Pr 26:3;Na 3:2"
+      "label": "General scriptures concerning",
+      "references": [
+        "1 Kings 12:11",
+        "Proverbs 26:3",
+        "Nahum 3:2"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "1 Kings",
+      "chapter": 12,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Kings 12:11"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 26,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 26:3"
+    },
+    {
+      "book": "Nahum",
+      "chapter": 3,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Nahum 3:2"
+    }
+  ],
+  "books_mentioned": [
+    "1 Kings",
+    "Nahum",
+    "Proverbs"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 1,
+    "total_refs": 3,
+    "ot_refs": 3,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:a0b22f7c3138c25466415f48b1779ce87c7134adf22f9c19ab565edac1b8f4a2",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 1
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 3,
+    "top_books": [
+      "1 Kings",
+      "Proverbs",
+      "Nahum"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:32:37.113286Z",
-  "updated_at": "2025-09-20T17:32:37.113295Z"
+  }
 }

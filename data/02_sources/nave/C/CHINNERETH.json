@@ -1,88 +1,120 @@
 {
   "topic": "CHINNERETH",
-  "topic_slug": "chinnereth",
+  "slug": "chinnereth",
   "canonical_id": "NAV:chinnereth",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "GALILEE, SEA OF"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "GALILEE, SEA OF",
-      "clean": "GALILEE, SEA OF",
-      "slug": "galilee__sea_of",
-      "canonical_id": "NAV:galilee__sea_of"
+      "label": "Al",
+      "references": []
+    },
+    {
+      "label": "1. A district in the north of Palestine",
+      "references": [
+        "Joshua 11:2"
+      ]
+    },
+    {
+      "label": "15:20",
+      "references": []
+    },
+    {
+      "label": "2. A city in Naphtali",
+      "references": [
+        "Joshua 19:35"
+      ]
+    },
+    {
+      "label": "3. The sea of",
+      "references": [
+        "Numbers 34:11",
+        "Joshua 12:3",
+        "Joshua 13:27"
+      ]
+    },
+    {
+      "label": ".SeeGALILEE, SEA OF",
+      "references": []
     }
   ],
-  "raw_block": "–Also called CHINNEROTH, CINNERETH and CINNEROTH\n–1. A district in the north of PalestineJos 11:2;1Ki \n15:20\n–2. A city in NaphtaliJos 19:35\n–3. The sea ofNu 34:11;Jos 12:3;13:27\n  .SeeGALILEE, SEA OF",
-  "content_preview": "–Also called CHINNEROTH, CINNERETH and CINNEROTH",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–Also called CHINNEROTH, CINNERETH and CINNEROTH",
-      "raw_segment": "–Also called CHINNEROTH, CINNERETH and CINNEROTH"
+      "book": "Joshua",
+      "chapter": 11,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 11:2"
     },
     {
-      "idx": 1,
-      "entry_label": "–1. A district in the north of PalestineJos 11:2;1Ki \n15:20",
-      "raw_segment": "–1. A district in the north of PalestineJos 11:2;1Ki \n15:20"
+      "book": "Joshua",
+      "chapter": 15,
+      "verses": [
+        20
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 15:20"
     },
     {
-      "idx": 2,
-      "entry_label": "–2. A city in NaphtaliJos 19:35",
-      "raw_segment": "–2. A city in NaphtaliJos 19:35"
+      "book": "Joshua",
+      "chapter": 19,
+      "verses": [
+        35
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 19:35"
     },
     {
-      "idx": 3,
-      "entry_label": "–3. The sea ofNu 34:11;Jos 12:3;13:27",
-      "raw_segment": "–3. The sea ofNu 34:11;Jos 12:3;13:27"
+      "book": "Numbers",
+      "chapter": 34,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Numbers 34:11"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 12,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 12:3"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 13,
+      "verses": [
+        27
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 13:27"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "Joshua",
+    "Numbers"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 6,
+    "total_refs": 6,
+    "ot_refs": 6,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:eb0f95511780a5f6e0848d124da57a6b69a99180d7466dfe1f3bc311f4405e6e",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 6
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 2,
+    "top_books": [
+      "Joshua",
+      "Numbers"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:25:00.463824Z",
-  "updated_at": "2025-09-20T17:25:00.463836Z"
+  }
 }

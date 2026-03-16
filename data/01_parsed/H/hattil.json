@@ -1,47 +1,55 @@
 {
   "topic": "HATTIL",
   "slug": "hattil",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "A returned exile Ezr 2:57; Ne 7:59",
+      "label": "A returned exile",
       "references": [
         "Ezra 2:57",
-        "Neh 7:59"
+        "Nehemiah 7:59"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Nehemiah",
-      "book_abbrev": "neh",
-      "chapter": 7,
+      "book": "Ezra",
+      "chapter": 2,
+      "verses": [
+        57
+      ],
+      "verse_count": 1,
       "testament": "OT",
+      "raw": "Ezra 2:57"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 7,
       "verses": [
         59
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Nehemiah 7:59"
     }
   ],
-  "see_also": [],
-  "aliases": [],
+  "books_mentioned": [
+    "Ezra",
+    "Nehemiah"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 1,
+    "total_aspects": 1,
+    "total_refs": 2,
+    "ot_refs": 2,
     "nt_refs": 0,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.691215+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    }
-  },
-  "version": "3.0.0"
+    "books_count": 2,
+    "top_books": [
+      "Ezra",
+      "Nehemiah"
+    ]
+  }
 }

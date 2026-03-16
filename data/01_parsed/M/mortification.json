@@ -1,48 +1,79 @@
 {
   "topic": "MORTIFICATION",
   "slug": "mortification",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "INSTANCES OF",
-      "references": [],
-      "sub_groups": [
-        {
-          "name": "David’s ambassadors, sent to Hanun 2Sa 10:1-5",
-          "references": [
-            "2Sam 10:1-5"
-          ]
-        },
-        {
-          "name": "Judas Iscariot Mt 27:3-5",
-          "references": [
-            "Matt 27:3-5"
-          ]
-        }
-      ]
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [
-    "HUMILITY"
-  ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.712353+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
+  "see_also": [
+    "HUMILITY"
+  ],
+  "aspects": [
+    {
+      "label": "INSTANCES OF",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".David’s ambassadors, sent to Ha",
+      "references": [
+        "2 Samuel 10:1-5"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".",
+      "references": [
+        "Matthew 27:3-5"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".SeeHUMILITY",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0"
+  ],
+  "biblical_references": [
+    {
+      "book": "2 Samuel",
+      "chapter": 10,
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "verse_count": 5,
+      "testament": "OT",
+      "raw": "2 Samuel 10:1-5"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 27,
+      "verses": [
+        3,
+        4,
+        5
+      ],
+      "verse_count": 3,
+      "testament": "NT",
+      "raw": "Matthew 27:3-5"
+    }
+  ],
+  "books_mentioned": [
+    "2 Samuel",
+    "Matthew"
+  ],
+  "stats": {
+    "total_aspects": 4,
+    "total_refs": 2,
+    "ot_refs": 1,
+    "nt_refs": 1,
+    "books_count": 2,
+    "top_books": [
+      "2 Samuel",
+      "Matthew"
+    ]
+  }
 }

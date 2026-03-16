@@ -1,50 +1,84 @@
 {
   "topic": "TROPHIES",
   "slug": "trophies",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Goliath’ s head and armor 1Sa 17:54; 21:9",
-      "references": [
-        "1Sam 17:54",
-        "1Sam 21:9"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Saul’ s 1Sa 31:8-10",
-      "references": [
-        "1Sam 31:8-10"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Placed in temples",
-      "references": [],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [
-    "TEMPLES"
-  ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.731263+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
+  "see_also": [
+    "TEMPLES"
+  ],
+  "aspects": [
+    {
+      "label": "Goliath’ s head and armor",
+      "references": [
+        "1 Samuel 17:54",
+        "1 Samuel 21:9"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Saul’ s",
+      "references": [
+        "1 Samuel 31:8-10"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Placed in temples",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".SeeTEMPLES",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0"
+  ],
+  "biblical_references": [
+    {
+      "book": "1 Samuel",
+      "chapter": 17,
+      "verses": [
+        54
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Samuel 17:54"
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 21,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Samuel 21:9"
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 31,
+      "verses": [
+        8,
+        9,
+        10
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "1 Samuel 31:8-10"
+    }
+  ],
+  "books_mentioned": [
+    "1 Samuel"
+  ],
+  "stats": {
+    "total_aspects": 4,
+    "total_refs": 3,
+    "ot_refs": 3,
+    "nt_refs": 0,
+    "books_count": 1,
+    "top_books": [
+      "1 Samuel"
+    ]
+  }
 }

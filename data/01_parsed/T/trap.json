@@ -1,58 +1,68 @@
 {
   "topic": "TRAP",
   "slug": "trap",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "General scriptures concerning Jos 23:13; Job 18:10; Jer 5:26",
+      "label": "General scriptures concerning",
       "references": [
-        "Josh 23:13",
+        "Joshua 23:13",
         "Job 18:10",
-        "Jer 5:26"
+        "Jeremiah 5:26"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Job",
-      "book_abbrev": "job",
-      "chapter": 18,
+      "book": "Joshua",
+      "chapter": 23,
+      "verses": [
+        13
+      ],
+      "verse_count": 1,
       "testament": "OT",
+      "raw": "Joshua 23:13"
+    },
+    {
+      "book": "Job",
+      "chapter": 18,
       "verses": [
         10
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Job 18:10"
     },
     {
       "book": "Jeremiah",
-      "book_abbrev": "jer",
       "chapter": 5,
-      "testament": "OT",
       "verses": [
         26
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Jeremiah 5:26"
     }
   ],
-  "see_also": [],
-  "aliases": [],
+  "books_mentioned": [
+    "Jeremiah",
+    "Job",
+    "Joshua"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 2,
+    "total_aspects": 1,
+    "total_refs": 3,
+    "ot_refs": 3,
     "nt_refs": 0,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.730961+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    }
-  },
-  "version": "3.0.0"
+    "books_count": 3,
+    "top_books": [
+      "Joshua",
+      "Job",
+      "Jeremiah"
+    ]
+  }
 }

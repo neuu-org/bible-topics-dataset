@@ -1,109 +1,40 @@
 {
   "topic": "CHARITY",
-  "topic_slug": "charity",
+  "slug": "charity",
   "canonical_id": "NAV:charity",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "LIBERALITY",
     "LOVE",
     "ALMS",
     "BENEFICENCE"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "LIBERALITY",
-      "clean": "LIBERALITY",
-      "slug": "liberality",
-      "canonical_id": "NAV:liberality"
+      "label": "SeeALMS",
+      "references": []
     },
     {
-      "original": "LOVE",
-      "clean": "LOVE",
-      "slug": "love",
-      "canonical_id": "NAV:love"
+      "label": "SeeBENEFICENCE",
+      "references": []
     },
     {
-      "original": "ALMS",
-      "clean": "ALMS",
-      "slug": "alms",
-      "canonical_id": "NAV:alms"
+      "label": "SeeLIBERALITY",
+      "references": []
     },
     {
-      "original": "BENEFICENCE",
-      "clean": "BENEFICENCE",
-      "slug": "beneficence",
-      "canonical_id": "NAV:beneficence"
-    }
-  ],
-  "raw_block": "–SeeALMS\n–SeeBENEFICENCE\n–SeeLIBERALITY\n–SeeLOVE",
-  "content_preview": "–SeeALMS",
-  "reference_groups": [
-    {
-      "idx": 0,
-      "entry_label": "–SeeALMS",
-      "raw_segment": "–SeeALMS"
-    },
-    {
-      "idx": 1,
-      "entry_label": "–SeeBENEFICENCE",
-      "raw_segment": "–SeeBENEFICENCE"
-    },
-    {
-      "idx": 2,
-      "entry_label": "–SeeLIBERALITY",
-      "raw_segment": "–SeeLIBERALITY"
-    },
-    {
-      "idx": 3,
-      "entry_label": "–SeeLOVE",
-      "raw_segment": "–SeeLOVE"
+      "label": "SeeLOVE",
+      "references": []
     }
   ],
   "biblical_references": [],
   "books_mentioned": [],
-  "normalized_labels": [],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 4,
+    "total_refs": 0,
     "ot_refs": 0,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:ef1f984ca787a059aefed345e9fc0384a9743b06fbdb2c9d0cec3043b8221f76",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 4
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
-    ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:24:55.696335Z",
-  "updated_at": "2025-09-20T17:24:55.696342Z"
+    "books_count": 0,
+    "top_books": []
+  }
 }

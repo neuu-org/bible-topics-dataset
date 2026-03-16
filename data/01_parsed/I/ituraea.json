@@ -1,46 +1,28 @@
 {
   "topic": "ITURAEA",
   "slug": "ituraea",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Small province in the northwest of Palestine Lu 3:1",
-      "references": [
-        "Luke 3:1"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "See also 1Ch 1:31; 5:19",
-      "references": [
-        "1Chr 1:31",
-        "1Chr 5:19"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.695001+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "Small province in the northwest of Palestine",
+      "references": [
+        "Luke 3:1"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "See al",
+      "references": [
+        "1 Chronicles 1:31",
+        "1 Chronicles 5:19"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Luke",
       "chapter": 3,
@@ -49,20 +31,42 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Luke 3:1",
-      "source": "EAS"
+      "raw": "Luke 3:1"
     },
     {
-      "book": "Genesis",
-      "chapter": 25,
+      "book": "1 Chronicles",
+      "chapter": 1,
       "verses": [
-        15,
-        16
+        31
       ],
-      "verse_count": 2,
+      "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 25:15,16",
-      "source": "SMI"
+      "raw": "1 Chronicles 1:31"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 5,
+      "verses": [
+        19
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 5:19"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Luke"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 3,
+    "ot_refs": 2,
+    "nt_refs": 1,
+    "books_count": 2,
+    "top_books": [
+      "1 Chronicles",
+      "Luke"
+    ]
+  }
 }

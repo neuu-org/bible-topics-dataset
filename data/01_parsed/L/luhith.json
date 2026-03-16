@@ -1,50 +1,21 @@
 {
   "topic": "LUHITH",
   "slug": "luhith",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "A city of Moab Isa 15:5; Jer 48:5",
-      "references": [
-        "Isa 15:5",
-        "Jer 48:5"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Jeremiah",
-      "book_abbrev": "jer",
-      "chapter": 48,
-      "testament": "OT",
-      "verses": [
-        5
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.701956+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "A city of Moab",
+      "references": [
+        "Isaiah 15:5",
+        "Jeremiah 48:5"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Isaiah",
       "chapter": 15,
@@ -53,8 +24,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Isaiah 15:5",
-      "source": "EAS"
+      "raw": "Isaiah 15:5"
     },
     {
       "book": "Jeremiah",
@@ -64,8 +34,22 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Jeremiah 48:5",
-      "source": "EAS"
+      "raw": "Jeremiah 48:5"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Isaiah",
+    "Jeremiah"
+  ],
+  "stats": {
+    "total_aspects": 1,
+    "total_refs": 2,
+    "ot_refs": 2,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "Isaiah",
+      "Jeremiah"
+    ]
+  }
 }

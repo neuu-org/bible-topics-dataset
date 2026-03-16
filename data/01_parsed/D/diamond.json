@@ -1,62 +1,23 @@
 {
   "topic": "DIAMOND",
   "slug": "diamond",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "One of the jewels in the breastplate Ex 28:18; 39:11; Jer 17:1; Eze 28:13",
-      "references": [
-        "Exod 28:18",
-        "Exod 39:11",
-        "Jer 17:1",
-        "Ezek 28:13"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Jeremiah",
-      "book_abbrev": "jer",
-      "chapter": 17,
-      "testament": "OT",
-      "verses": [
-        1
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Ezekiel",
-      "book_abbrev": "ezk",
-      "chapter": 28,
-      "testament": "OT",
-      "verses": [
-        13
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 2,
-    "nt_refs": 0,
-    "total_verses": 2
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.681556+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "One of the jewels in the breastplate",
+      "references": [
+        "Exodus 28:18",
+        "Exodus 39:11",
+        "Jeremiah 17:1",
+        "Ezekiel 28:13"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Exodus",
       "chapter": 28,
@@ -65,8 +26,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Exodus 28:18",
-      "source": "EAS"
+      "raw": "Exodus 28:18"
     },
     {
       "book": "Exodus",
@@ -76,8 +36,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Exodus 39:11",
-      "source": "EAS"
+      "raw": "Exodus 39:11"
     },
     {
       "book": "Jeremiah",
@@ -87,30 +46,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Jeremiah 17:1",
-      "source": "EAS"
-    },
-    {
-      "book": "Ezekiel",
-      "chapter": 3,
-      "verses": [
-        9
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Ezekiel 3:9",
-      "source": "EAS"
-    },
-    {
-      "book": "Zechariah",
-      "chapter": 7,
-      "verses": [
-        12
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Zechariah 7:12",
-      "source": "EAS"
+      "raw": "Jeremiah 17:1"
     },
     {
       "book": "Ezekiel",
@@ -120,8 +56,24 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Ezekiel 28:13",
-      "source": "SMI"
+      "raw": "Ezekiel 28:13"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Exodus",
+    "Ezekiel",
+    "Jeremiah"
+  ],
+  "stats": {
+    "total_aspects": 1,
+    "total_refs": 4,
+    "ot_refs": 4,
+    "nt_refs": 0,
+    "books_count": 3,
+    "top_books": [
+      "Exodus",
+      "Jeremiah",
+      "Ezekiel"
+    ]
+  }
 }

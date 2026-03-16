@@ -1,55 +1,24 @@
 {
   "topic": "HOR",
   "slug": "hor",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "The mountain upon which Aaron died Nu 20:22-29; 21:4; 33:38,39; 34:7,8; De 32:50",
-      "references": [
-        "Num 20:22-29",
-        "Num 21:4",
-        "Num 33:38",
-        "Num 33:39",
-        "Num 34:7",
-        "Num 34:8",
-        "Deut 32:50"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Deuteronomy",
-      "book_abbrev": "deu",
-      "chapter": 32,
-      "testament": "OT",
-      "verses": [
-        50
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.692968+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "The mountain upon which Aaron died",
+      "references": [
+        "Numbers 20:22-29",
+        "Numbers 21:4",
+        "Numbers 33:38,39",
+        "Numbers 34:7,8",
+        "Deuteronomy 32:50"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Numbers",
       "chapter": 20,
@@ -65,34 +34,28 @@
       ],
       "verse_count": 8,
       "testament": "OT",
-      "raw": "Numbers 20:22-29",
-      "source": "EAS"
+      "raw": "Numbers 20:22-29"
     },
     {
       "book": "Numbers",
-      "chapter": 33,
+      "chapter": 21,
       "verses": [
-        37
+        4
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Numbers 33:37",
-      "source": "EAS"
+      "raw": "Numbers 21:4"
     },
     {
       "book": "Numbers",
       "chapter": 33,
       "verses": [
-        37,
         38,
-        39,
-        40,
-        41
+        39
       ],
-      "verse_count": 5,
+      "verse_count": 2,
       "testament": "OT",
-      "raw": "Numbers 33:37-41",
-      "source": "EAS"
+      "raw": "Numbers 33:38,39"
     },
     {
       "book": "Numbers",
@@ -103,8 +66,32 @@
       ],
       "verse_count": 2,
       "testament": "OT",
-      "raw": "Numbers 34:7, 8",
-      "source": "EAS"
+      "raw": "Numbers 34:7,8"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 32,
+      "verses": [
+        50
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 32:50"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Deuteronomy",
+    "Numbers"
+  ],
+  "stats": {
+    "total_aspects": 1,
+    "total_refs": 5,
+    "ot_refs": 5,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "Numbers",
+      "Deuteronomy"
+    ]
+  }
 }

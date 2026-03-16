@@ -1,45 +1,30 @@
 {
   "topic": "MAAZIAH",
   "slug": "maaziah",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. A priest 1Ch 24:18",
-      "references": [
-        "1Chr 24:18"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "2. A priest who sealed the covenant with Nehemiah Ne 10:8",
-      "references": [
-        "Neh 10:8"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.702340+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "1. A priest",
+      "references": [
+        "1 Chronicles 24:18"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2. A priest who sealed the covenant with NehemiahNe",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "10:8",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "1 Chronicles",
       "chapter": 24,
@@ -48,19 +33,30 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 24:18",
-      "source": "EAS"
+      "raw": "1 Chronicles 24:18"
     },
     {
-      "book": "Nehemiah",
+      "book": "1 Chronicles",
       "chapter": 10,
       "verses": [
         8
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Nehemiah 10:8",
-      "source": "EAS"
+      "raw": "1 Chronicles 10:8"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 2,
+    "ot_refs": 2,
+    "nt_refs": 0,
+    "books_count": 1,
+    "top_books": [
+      "1 Chronicles"
+    ]
+  }
 }

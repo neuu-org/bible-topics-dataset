@@ -1,21 +1,27 @@
 {
-  "topic": "Dagon",
+  "topic": "DAGON",
   "slug": "dagon",
-  "type": "topic",
-  "reference_groups": [],
-  "biblical_references": [],
-  "stats": {},
-  "sources": [],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.680213+00:00",
-    "merged_from": {
-      "v2": false,
-      "dictionary": true
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "An idol of the Philistines",
+      "references": [
+        "Judges 16:23"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Temple of",
+      "references": [
+        "1 Chronicles 10:10"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Judges",
       "chapter": 16,
@@ -24,87 +30,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Judges 16:23",
-      "source": "EAS"
-    },
-    {
-      "book": "Judges",
-      "chapter": 16,
-      "verses": [
-        23,
-        24,
-        25,
-        26,
-        27,
-        28,
-        29,
-        30
-      ],
-      "verse_count": 8,
-      "testament": "OT",
-      "raw": "Judges 16:23-30",
-      "source": "EAS"
-    },
-    {
-      "book": "1 Samuel",
-      "chapter": 5,
-      "verses": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7
-      ],
-      "verse_count": 7,
-      "testament": "OT",
-      "raw": "1 Samuel 5:1-7",
-      "source": "EAS"
-    },
-    {
-      "book": "1 Samuel",
-      "chapter": 5,
-      "verses": [
-        3,
-        4
-      ],
-      "verse_count": 2,
-      "testament": "OT",
-      "raw": "1 Samuel 5:3,4",
-      "source": "SMI"
-    },
-    {
-      "book": "Judges",
-      "chapter": 16,
-      "verses": [
-        21,
-        22,
-        23,
-        24,
-        25,
-        26,
-        27,
-        28,
-        29,
-        30
-      ],
-      "verse_count": 10,
-      "testament": "OT",
-      "raw": "Judges 16:21-30",
-      "source": "SMI"
-    },
-    {
-      "book": "1 Samuel",
-      "chapter": 5,
-      "verses": [
-        5,
-        6
-      ],
-      "verse_count": 2,
-      "testament": "OT",
-      "raw": "1 Samuel 5:5,6",
-      "source": "SMI"
+      "raw": "Judges 16:23"
     },
     {
       "book": "1 Chronicles",
@@ -114,41 +40,22 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 10:10",
-      "source": "SMI"
-    },
-    {
-      "book": "Joshua",
-      "chapter": 15,
-      "verses": [
-        41
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Joshua 15:41",
-      "source": "SMI"
-    },
-    {
-      "book": "Joshua",
-      "chapter": 19,
-      "verses": [
-        27
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Joshua 19:27",
-      "source": "SMI"
-    },
-    {
-      "book": "1 Samuel",
-      "chapter": 5,
-      "verses": [
-        5
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "1 Samuel 5:5",
-      "source": "SMI"
+      "raw": "1 Chronicles 10:10"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Judges"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 2,
+    "ot_refs": 2,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "Judges",
+      "1 Chronicles"
+    ]
+  }
 }

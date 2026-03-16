@@ -1,78 +1,46 @@
 {
   "topic": "PASTOR",
-  "topic_slug": "pastor",
+  "slug": "pastor",
   "canonical_id": "NAV:pastor",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "SHEPHERD"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "SHEPHERD",
-      "clean": "SHEPHERD",
-      "slug": "shepherd",
-      "canonical_id": "NAV:shepherd"
-    }
-  ],
-  "raw_block": "–General scriptures concerningJer 22:22\n–SeeSHEPHERD",
-  "content_preview": "–General scriptures concerningJer 22:22",
-  "reference_groups": [
-    {
-      "idx": 0,
-      "entry_label": "–General scriptures concerningJer 22:22",
-      "raw_segment": "–General scriptures concerningJer 22:22"
+      "label": "General scriptures concerning",
+      "references": [
+        "Jeremiah 22:22"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–SeeSHEPHERD",
-      "raw_segment": "–SeeSHEPHERD"
+      "label": "SeeSHEPHERD",
+      "references": []
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Jeremiah",
+      "chapter": 22,
+      "verses": [
+        22
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Jeremiah 22:22"
+    }
+  ],
+  "books_mentioned": [
+    "Jeremiah"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 2,
+    "total_refs": 1,
+    "ot_refs": 1,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:6c238e888544822d631a7d70b402129e75e845e73b71e7ea2b7a6ab1e8139586",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 1,
+    "top_books": [
+      "Jeremiah"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:29:53.577657Z",
-  "updated_at": "2025-09-20T17:29:53.577664Z"
+  }
 }

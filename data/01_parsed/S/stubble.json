@@ -1,122 +1,171 @@
 {
   "topic": "STUBBLE",
   "slug": "stubble",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "FIGURATIVE",
+      "label": "FIGURATIVE",
       "references": [],
-      "sub_groups": [
-        {
-          "name": "Of wicked people Ex 15:7; Job 21:18; Ps 83:13; Isa 5:24; 40:24; 41:2; 47:14; Jer 13:24; Joe 2:5; Na 1:10; Mal 4:1",
-          "references": [
-            "Exod 15:7",
-            "Job 21:18",
-            "Ps 83:13",
-            "Isa 5:24",
-            "Isa 40:24",
-            "Isa 41:2",
-            "Isa 47:14",
-            "Jer 13:24",
-            "Joel 2:5",
-            "Nah 1:10",
-            "Mal 4:1"
-          ]
-        }
-      ]
+      "source": "NAV"
+    },
+    {
+      "label": ".Of wicked people",
+      "references": [
+        "Exodus 15:7",
+        "Job 21:18",
+        "Psalms 83:13"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "5:24;40:24;41:2;47:14;",
+      "references": [
+        "Jeremiah 13:24",
+        "Joel 2:5",
+        "Nahum 1:10",
+        "Malachi 4:1"
+      ],
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Job",
-      "book_abbrev": "job",
-      "chapter": 21,
+      "book": "Exodus",
+      "chapter": 15,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
       "testament": "OT",
+      "raw": "Exodus 15:7"
+    },
+    {
+      "book": "Job",
+      "chapter": 21,
       "verses": [
         18
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Job 21:18"
     },
     {
       "book": "Psalms",
-      "book_abbrev": "psa",
       "chapter": 83,
-      "testament": "OT",
       "verses": [
         13
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 83:13"
     },
     {
-      "book": "Isaiah",
-      "book_abbrev": "isa",
+      "book": "Psalms",
       "chapter": 5,
-      "testament": "OT",
-      "verses": [
-        24,
-        40
-      ],
-      "verse_count": 2
-    },
-    {
-      "book": "Jeremiah",
-      "book_abbrev": "jer",
-      "chapter": 13,
-      "testament": "OT",
       "verses": [
         24
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 5:24"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 40,
+      "verses": [
+        24
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 40:24"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 41,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 41:2"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 47,
+      "verses": [
+        14
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 47:14"
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 13,
+      "verses": [
+        24
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Jeremiah 13:24"
     },
     {
       "book": "Joel",
-      "book_abbrev": "jol",
       "chapter": 2,
-      "testament": "OT",
       "verses": [
         5
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joel 2:5"
     },
     {
       "book": "Nahum",
-      "book_abbrev": "nah",
       "chapter": 1,
-      "testament": "OT",
       "verses": [
         10
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Nahum 1:10"
     },
     {
       "book": "Malachi",
-      "book_abbrev": "mal",
       "chapter": 4,
-      "testament": "OT",
       "verses": [
         1
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Malachi 4:1"
     }
   ],
-  "see_also": [],
-  "aliases": [],
+  "books_mentioned": [
+    "Exodus",
+    "Jeremiah",
+    "Job",
+    "Joel",
+    "Malachi",
+    "Nahum",
+    "Psalms"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 7,
+    "total_aspects": 3,
+    "total_refs": 11,
+    "ot_refs": 11,
     "nt_refs": 0,
-    "total_verses": 7
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.727812+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    }
-  },
-  "version": "3.0.0"
+    "books_count": 7,
+    "top_books": [
+      "Psalms",
+      "Exodus",
+      "Job",
+      "Jeremiah",
+      "Joel",
+      "Nahum",
+      "Malachi"
+    ]
+  }
 }

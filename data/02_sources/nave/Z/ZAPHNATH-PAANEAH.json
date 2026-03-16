@@ -1,64 +1,40 @@
 {
   "topic": "ZAPHNATH-PAANEAH",
-  "topic_slug": "zaphnath_paaneah",
+  "slug": "zaphnath_paaneah",
   "canonical_id": "NAV:zaphnath_paaneah",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–A name given to Joseph by PharaohGe 41:45",
-  "content_preview": "–A name given to Joseph by PharaohGe 41:45",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–A name given to Joseph by PharaohGe 41:45",
-      "raw_segment": "–A name given to Joseph by PharaohGe 41:45"
+      "label": "A name given to Joseph by Pharaoh",
+      "references": [
+        "Genesis 41:45"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Genesis",
+      "chapter": 41,
+      "verses": [
+        45
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 41:45"
+    }
+  ],
+  "books_mentioned": [
+    "Genesis"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 1,
+    "total_refs": 1,
+    "ot_refs": 1,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:4dde07d11c136279ba0922d27c2d401b153ffa57b666788248d91ab374ccc368",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 1
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 1,
+    "top_books": [
+      "Genesis"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:32:45.890009Z",
-  "updated_at": "2025-09-20T17:32:45.890017Z"
+  }
 }

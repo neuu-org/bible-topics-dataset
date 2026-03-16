@@ -1,77 +1,36 @@
 {
   "topic": "SIBMAH",
   "slug": "sibmah",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "A city of the tribe of Reuben Jos 13:19; Isa 16:8,9; Jer 48:32",
-      "references": [
-        "Josh 13:19",
-        "Isa 16:8",
-        "Isa 16:9",
-        "Jer 48:32"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Apparently also called SHEBAM Nu 32:3",
-      "references": [
-        "Num 32:3"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Called SHIBMAH Nu 32:38",
-      "references": [
-        "Num 32:38"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Isaiah",
-      "book_abbrev": "isa",
-      "chapter": 16,
-      "testament": "OT",
-      "verses": [
-        8,
-        9
-      ],
-      "verse_count": 2
-    },
-    {
-      "book": "Jeremiah",
-      "book_abbrev": "jer",
-      "chapter": 48,
-      "testament": "OT",
-      "verses": [
-        32
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 2,
-    "nt_refs": 0,
-    "total_verses": 2
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.726212+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "A city of the tribe of Reuben",
+      "references": [
+        "Joshua 13:19",
+        "Isaiah 16:8,9",
+        "Jeremiah 48:32"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Apparently al",
+      "references": [
+        "Numbers 32:3"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "General references",
+      "references": [
+        "Numbers 32:38"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Joshua",
       "chapter": 13,
@@ -80,31 +39,18 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Joshua 13:19",
-      "source": "EAS"
-    },
-    {
-      "book": "Numbers",
-      "chapter": 32,
-      "verses": [
-        3,
-        38
-      ],
-      "verse_count": 2,
-      "testament": "OT",
-      "raw": "Numbers 32:3, 38",
-      "source": "EAS"
+      "raw": "Joshua 13:19"
     },
     {
       "book": "Isaiah",
       "chapter": 16,
       "verses": [
+        8,
         9
       ],
-      "verse_count": 1,
+      "verse_count": 2,
       "testament": "OT",
-      "raw": "Isaiah 16:9",
-      "source": "EAS"
+      "raw": "Isaiah 16:8,9"
     },
     {
       "book": "Jeremiah",
@@ -114,8 +60,46 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Jeremiah 48:32",
-      "source": "EAS"
+      "raw": "Jeremiah 48:32"
+    },
+    {
+      "book": "Numbers",
+      "chapter": 32,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Numbers 32:3"
+    },
+    {
+      "book": "Numbers",
+      "chapter": 32,
+      "verses": [
+        38
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Numbers 32:38"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Isaiah",
+    "Jeremiah",
+    "Joshua",
+    "Numbers"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 5,
+    "ot_refs": 5,
+    "nt_refs": 0,
+    "books_count": 4,
+    "top_books": [
+      "Numbers",
+      "Joshua",
+      "Isaiah",
+      "Jeremiah"
+    ]
+  }
 }

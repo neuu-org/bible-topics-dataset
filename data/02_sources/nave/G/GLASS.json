@@ -1,88 +1,81 @@
 {
   "topic": "GLASS",
-  "topic_slug": "glass",
+  "slug": "glass",
   "canonical_id": "NAV:glass",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "MIRROR"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "MIRROR",
-      "clean": "MIRROR",
-      "slug": "mirror",
-      "canonical_id": "NAV:mirror"
+      "label": "General scriptures concerning",
+      "references": [
+        "Job 28:17"
+      ]
+    },
+    {
+      "label": "Symboli",
+      "references": [
+        "Revelation 21:18,21"
+      ]
+    },
+    {
+      "label": "Sea of",
+      "references": [
+        "Revelation 15:2"
+      ]
+    },
+    {
+      "label": "SeeMIRROR",
+      "references": []
     }
   ],
-  "raw_block": "–General scriptures concerningJob 28:17\n–SymbolicalRe 21:18,21\n–Sea ofRe 15:2\n–SeeMIRROR",
-  "content_preview": "–General scriptures concerningJob 28:17",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–General scriptures concerningJob 28:17",
-      "raw_segment": "–General scriptures concerningJob 28:17"
+      "book": "Job",
+      "chapter": 28,
+      "verses": [
+        17
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Job 28:17"
     },
     {
-      "idx": 1,
-      "entry_label": "–SymbolicalRe 21:18,21",
-      "raw_segment": "–SymbolicalRe 21:18,21"
+      "book": "Revelation",
+      "chapter": 21,
+      "verses": [
+        18,
+        21
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Revelation 21:18,21"
     },
     {
-      "idx": 2,
-      "entry_label": "–Sea ofRe 15:2",
-      "raw_segment": "–Sea ofRe 15:2"
-    },
-    {
-      "idx": 3,
-      "entry_label": "–SeeMIRROR",
-      "raw_segment": "–SeeMIRROR"
+      "book": "Revelation",
+      "chapter": 15,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Revelation 15:2"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "Job",
+    "Revelation"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:bf125b7a2e06a9e072894bc0e3c49e56db20e58d86a2fafa1b9438b91d120ae9",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 4
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 4,
+    "total_refs": 3,
+    "ot_refs": 1,
+    "nt_refs": 2,
+    "books_count": 2,
+    "top_books": [
+      "Revelation",
+      "Job"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:26:42.159706Z",
-  "updated_at": "2025-09-20T17:26:42.159713Z"
+  }
 }

@@ -1,78 +1,111 @@
 {
   "topic": "CONVERSATION",
-  "topic_slug": "conversation",
+  "slug": "conversation",
   "canonical_id": "NAV:conversation",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "TONGUE"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "TONGUE",
-      "clean": "TONGUE",
-      "slug": "tongue",
-      "canonical_id": "NAV:tongue"
-    }
-  ],
-  "raw_block": "–General scriptures concerningMt 5:37;12:35-37;Eph \n4:29;Col 3:8;4:6;Jas 5:12\n–SeeTONGUE",
-  "content_preview": "–General scriptures concerningMt 5:37;12:35-37;Eph ",
-  "reference_groups": [
-    {
-      "idx": 0,
-      "entry_label": "–General scriptures concerningMt 5:37;12:35-37;Eph \n4:29;Col 3:8;4:6;Jas 5:12",
-      "raw_segment": "–General scriptures concerningMt 5:37;12:35-37;Eph \n4:29;Col 3:8;4:6;Jas 5:12"
+      "label": "General scriptures concerning",
+      "references": [
+        "Matthew 5:37",
+        "Matthew 12:35-37"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–SeeTONGUE",
-      "raw_segment": "–SeeTONGUE"
+      "label": "4:29;",
+      "references": [
+        "Colossians 3:8",
+        "Colossians 4:6",
+        "James 5:12"
+      ]
+    },
+    {
+      "label": "SeeTONGUE",
+      "references": []
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Matthew",
+      "chapter": 5,
+      "verses": [
+        37
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 5:37"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 12,
+      "verses": [
+        35,
+        36,
+        37
+      ],
+      "verse_count": 3,
+      "testament": "NT",
+      "raw": "Matthew 12:35-37"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 4,
+      "verses": [
+        29
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 4:29"
+    },
+    {
+      "book": "Colossians",
+      "chapter": 3,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Colossians 3:8"
+    },
+    {
+      "book": "Colossians",
+      "chapter": 4,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Colossians 4:6"
+    },
+    {
+      "book": "James",
+      "chapter": 5,
+      "verses": [
+        12
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "James 5:12"
+    }
+  ],
+  "books_mentioned": [
+    "Colossians",
+    "James",
+    "Matthew"
+  ],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 3,
+    "total_refs": 6,
     "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:acfd4cca07d55b78d01850a6de351b7182607ff2f926a2f9ce312436b50cccd0",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 3
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "nt_refs": 6,
+    "books_count": 3,
+    "top_books": [
+      "Matthew",
+      "Colossians",
+      "James"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:25:14.797550Z",
-  "updated_at": "2025-09-20T17:25:14.797557Z"
+  }
 }

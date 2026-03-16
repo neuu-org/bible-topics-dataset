@@ -1,64 +1,66 @@
 {
   "topic": "BUSHEL",
-  "topic_slug": "bushel",
+  "slug": "bushel",
   "canonical_id": "NAV:bushel",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–About one peckMt 5:15;Mr 4:21;Lu 11:33",
-  "content_preview": "–About one peckMt 5:15;Mr 4:21;Lu 11:33",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–About one peckMt 5:15;Mr 4:21;Lu 11:33",
-      "raw_segment": "–About one peckMt 5:15;Mr 4:21;Lu 11:33"
+      "label": "About one peck",
+      "references": [
+        "Matthew 5:15",
+        "Mark 4:21",
+        "Luke 11:33"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Matthew",
+      "chapter": 5,
+      "verses": [
+        15
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 5:15"
+    },
+    {
+      "book": "Mark",
+      "chapter": 4,
+      "verses": [
+        21
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Mark 4:21"
+    },
+    {
+      "book": "Luke",
+      "chapter": 11,
+      "verses": [
+        33
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 11:33"
+    }
+  ],
+  "books_mentioned": [
+    "Luke",
+    "Mark",
+    "Matthew"
+  ],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 1,
+    "total_refs": 3,
     "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:081bbe0b6fc951ffbbbd371164dfc7ef45b881ee1388659a8c9941bce2b05b74",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 1
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "nt_refs": 3,
+    "books_count": 3,
+    "top_books": [
+      "Matthew",
+      "Mark",
+      "Luke"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:24:43.266627Z",
-  "updated_at": "2025-09-20T17:24:43.266634Z"
+  }
 }

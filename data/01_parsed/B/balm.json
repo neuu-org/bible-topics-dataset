@@ -1,65 +1,25 @@
 {
   "topic": "BALM",
   "slug": "balm",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "A medicinal balsam Ge 37:25; 43:11; Jer 8:22; 46:11; 51:8; Eze 27:17",
-      "references": [
-        "Gen 37:25",
-        "Gen 43:11",
-        "Jer 8:22",
-        "Jer 46:11",
-        "Jer 51:8",
-        "Ezek 27:17"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Jeremiah",
-      "book_abbrev": "jer",
-      "chapter": 8,
-      "testament": "OT",
-      "verses": [
-        22,
-        46
-      ],
-      "verse_count": 2
-    },
-    {
-      "book": "Ezekiel",
-      "book_abbrev": "ezk",
-      "chapter": 27,
-      "testament": "OT",
-      "verses": [
-        17
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 2,
-    "nt_refs": 0,
-    "total_verses": 2
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.671744+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "A medicinal balsam",
+      "references": [
+        "Genesis 37:25",
+        "Genesis 43:11",
+        "Jeremiah 8:22",
+        "Jeremiah 46:11",
+        "Jeremiah 51:8",
+        "Ezekiel 27:17"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Genesis",
       "chapter": 37,
@@ -68,8 +28,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 37:25",
-      "source": "EAS"
+      "raw": "Genesis 37:25"
     },
     {
       "book": "Genesis",
@@ -79,8 +38,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 43:11",
-      "source": "EAS"
+      "raw": "Genesis 43:11"
     },
     {
       "book": "Jeremiah",
@@ -90,8 +48,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Jeremiah 8:22",
-      "source": "EAS"
+      "raw": "Jeremiah 8:22"
     },
     {
       "book": "Jeremiah",
@@ -101,8 +58,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Jeremiah 46:11",
-      "source": "EAS"
+      "raw": "Jeremiah 46:11"
     },
     {
       "book": "Jeremiah",
@@ -112,8 +68,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Jeremiah 51:8",
-      "source": "EAS"
+      "raw": "Jeremiah 51:8"
     },
     {
       "book": "Ezekiel",
@@ -123,53 +78,24 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Ezekiel 27:17",
-      "source": "EAS"
-    },
-    {
-      "book": "Song of Solomon",
-      "chapter": 5,
-      "verses": [
-        1,
-        13
-      ],
-      "verse_count": 2,
-      "testament": "OT",
-      "raw": "Song of Solomon 5:1, 13",
-      "source": "EAS"
-    },
-    {
-      "book": "Song of Solomon",
-      "chapter": 6,
-      "verses": [
-        2
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Song of Solomon 6:2",
-      "source": "EAS"
-    },
-    {
-      "book": "Exodus",
-      "chapter": 35,
-      "verses": [
-        28
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Exodus 35:28",
-      "source": "EAS"
-    },
-    {
-      "book": "1 Kings",
-      "chapter": 10,
-      "verses": [
-        10
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "1 Kings 10:10",
-      "source": "EAS"
+      "raw": "Ezekiel 27:17"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Ezekiel",
+    "Genesis",
+    "Jeremiah"
+  ],
+  "stats": {
+    "total_aspects": 1,
+    "total_refs": 6,
+    "ot_refs": 6,
+    "nt_refs": 0,
+    "books_count": 3,
+    "top_books": [
+      "Jeremiah",
+      "Genesis",
+      "Ezekiel"
+    ]
+  }
 }

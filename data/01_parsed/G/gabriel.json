@@ -1,102 +1,45 @@
 {
   "topic": "GABRIEL",
   "slug": "gabriel",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "(A messenger of God)",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "Appeared to",
-      "references": [],
-      "sub_groups": [
-        {
-          "name": "Daniel Da 8:16; 9:21",
-          "references": [
-            "Dan 8:16",
-            "Dan 9:21"
-          ]
-        },
-        {
-          "name": "Zacharias Lu 1:11-19",
-          "references": [
-            "Luke 1:11-19"
-          ]
-        },
-        {
-          "name": "Mary Lu 1:26-29",
-          "references": [
-            "Luke 1:26-29"
-          ]
-        }
-      ]
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.687623+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    },
-    "enriched_at": "2025-12-02T22:02:10.303817+00:00",
-    "enrichment_source": "pipeline_merge"
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "see_also": [],
+  "aspects": [
     {
-      "book": "Daniel",
-      "chapter": 9,
-      "verses": [
-        21,
-        22,
-        23,
-        24,
-        25,
-        26,
-        27
-      ],
-      "verse_count": 7,
-      "testament": "OT",
-      "raw": "Daniel 9:21-27",
-      "source": "EAS"
+      "label": "(A messenger of God)",
+      "references": [],
+      "source": "NAV"
     },
     {
-      "book": "Luke",
-      "chapter": 1,
-      "verses": [
-        11
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Luke 1:11",
-      "source": "EAS"
+      "label": "Appeared to",
+      "references": [],
+      "source": "NAV"
     },
     {
-      "book": "Luke",
-      "chapter": 1,
-      "verses": [
-        19
+      "label": ".Daniel",
+      "references": [
+        "Daniel 8:16",
+        "Daniel 9:21"
       ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Luke 1:19",
-      "source": "EAS"
+      "source": "NAV"
     },
+    {
+      "label": ".Zacharias",
+      "references": [
+        "Luke 1:11-19"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".Mary",
+      "references": [
+        "Luke 1:26-29"
+      ],
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
     {
       "book": "Daniel",
       "chapter": 8,
@@ -105,8 +48,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Daniel 8:16",
-      "source": "SMI"
+      "raw": "Daniel 8:16"
     },
     {
       "book": "Daniel",
@@ -116,8 +58,53 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Daniel 9:21",
-      "source": "SMI"
+      "raw": "Daniel 9:21"
+    },
+    {
+      "book": "Luke",
+      "chapter": 1,
+      "verses": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "verse_count": 9,
+      "testament": "NT",
+      "raw": "Luke 1:11-19"
+    },
+    {
+      "book": "Luke",
+      "chapter": 1,
+      "verses": [
+        26,
+        27,
+        28,
+        29
+      ],
+      "verse_count": 4,
+      "testament": "NT",
+      "raw": "Luke 1:26-29"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Daniel",
+    "Luke"
+  ],
+  "stats": {
+    "total_aspects": 5,
+    "total_refs": 4,
+    "ot_refs": 2,
+    "nt_refs": 2,
+    "books_count": 2,
+    "top_books": [
+      "Daniel",
+      "Luke"
+    ]
+  }
 }

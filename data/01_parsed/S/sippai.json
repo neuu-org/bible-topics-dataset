@@ -1,45 +1,27 @@
 {
   "topic": "SIPPAI",
   "slug": "sippai",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "A Philistine giant 1Ch 20:4",
-      "references": [
-        "1Chr 20:4"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Called SAPH 2Sa 21:18",
-      "references": [
-        "2Sam 21:18"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.726669+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "A Philistine giant",
+      "references": [
+        "1 Chronicles 20:4"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "General references",
+      "references": [
+        "2 Samuel 21:18"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "1 Chronicles",
       "chapter": 20,
@@ -48,8 +30,32 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 20:4",
-      "source": "SMI"
+      "raw": "1 Chronicles 20:4"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 21,
+      "verses": [
+        18
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Samuel 21:18"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "2 Samuel"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 2,
+    "ot_refs": 2,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "1 Chronicles",
+      "2 Samuel"
+    ]
+  }
 }

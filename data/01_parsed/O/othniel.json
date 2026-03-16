@@ -1,89 +1,71 @@
 {
   "topic": "OTHNIEL",
   "slug": "othniel",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Son of Kenaz and nephew of Caleb",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "Conquers Kirjath-sepher, and as reward obtains Caleb’s daughter as a wife Jos 15:16-20; Jud 1:12,13",
-      "references": [
-        "Josh 15:16-20",
-        "Judg 1:12",
-        "Judg 1:13"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Becomes the deliverer and leader of Israel Jud 3:8-11",
-      "references": [
-        "Judg 3:8-11"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Death of Jud 3:11",
-      "references": [
-        "Judg 3:11"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Descendants of 1Ch 4:13,14",
-      "references": [
-        "1Chr 4:13",
-        "1Chr 4:14"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 5,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.716564+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "Conquers Kirjath-sepher, and as reward obtains",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "as a wife",
+      "references": [
+        "Joshua 15:16-20",
+        "Judges 1:12,13"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Becomes the",
+      "references": [
+        "Judges 3:8-11"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "General references",
+      "references": [
+        "Judges 3:11"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "General references",
+      "references": [
+        "1 Chronicles 4:13,14"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Joshua",
       "chapter": 15,
       "verses": [
         16,
-        17
+        17,
+        18,
+        19,
+        20
       ],
-      "verse_count": 2,
+      "verse_count": 5,
       "testament": "OT",
-      "raw": "Joshua 15:16, 17",
-      "source": "EAS"
+      "raw": "Joshua 15:16-20"
     },
     {
       "book": "Judges",
       "chapter": 1,
       "verses": [
+        12,
         13
       ],
-      "verse_count": 1,
+      "verse_count": 2,
       "testament": "OT",
-      "raw": "Judges 1:13",
-      "source": "EAS"
+      "raw": "Judges 1:12,13"
     },
     {
       "book": "Judges",
@@ -96,53 +78,45 @@
       ],
       "verse_count": 4,
       "testament": "OT",
-      "raw": "Judges 3:8, 9-11",
-      "source": "EAS"
-    },
-    {
-      "book": "Joshua",
-      "chapter": 15,
-      "verses": [
-        17
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Joshua 15:17",
-      "source": "SMI"
+      "raw": "Judges 3:8-11"
     },
     {
       "book": "Judges",
       "chapter": 3,
       "verses": [
-        9
+        11
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Judges 3:9",
-      "source": "SMI"
+      "raw": "Judges 3:11"
     },
     {
       "book": "1 Chronicles",
       "chapter": 4,
       "verses": [
-        13
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "1 Chronicles 4:13",
-      "source": "SMI"
-    },
-    {
-      "book": "Judges",
-      "chapter": 3,
-      "verses": [
-        8,
-        9
+        13,
+        14
       ],
       "verse_count": 2,
       "testament": "OT",
-      "raw": "Judges 3:8-9",
-      "source": "SMI"
+      "raw": "1 Chronicles 4:13,14"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Joshua",
+    "Judges"
+  ],
+  "stats": {
+    "total_aspects": 5,
+    "total_refs": 5,
+    "ot_refs": 5,
+    "nt_refs": 0,
+    "books_count": 3,
+    "top_books": [
+      "Judges",
+      "Joshua",
+      "1 Chronicles"
+    ]
+  }
 }

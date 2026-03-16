@@ -1,104 +1,66 @@
 {
   "topic": "RECHAB",
   "slug": "rechab",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "1. Son of Rimmon",
+      "label": "1.",
       "references": [],
-      "sub_groups": [
-        {
-          "name": "Murders Ish-bosheth, son of Saul; put to death by David 2Sa 4:5-12",
-          "references": [
-            "2Sam 4:5-12"
-          ]
-        }
-      ]
+      "source": "NAV"
     },
     {
-      "name": "2. Father of Jehonadab 2Ki 10:15,23; 1Ch 2:55; Jer 35:6,8,16,19",
+      "label": ".Mur",
       "references": [
-        "2Kgs 10:15",
-        "2Kgs 10:23",
-        "1Chr 2:55",
-        "Jer 35:6",
-        "Jer 35:8",
-        "Jer 35:16",
-        "Jer 35:19"
+        "2 Samuel 4:5-12"
       ],
-      "sub_groups": [
-        {
-          "name": "Ancestor of the Rechabites Jer 35",
-          "references": [
-            "Jer 35"
-          ]
-        }
-      ]
+      "source": "NAV"
     },
     {
-      "name": "3. Father of Malchiah Ne 3:14",
+      "label": "2. Father of Jehonadab",
       "references": [
-        "Neh 3:14"
+        "2 Kings 10:15,23",
+        "1 Chronicles 2:55"
       ],
-      "sub_groups": []
+      "source": "NAV"
+    },
+    {
+      "label": "35:6,8,16,19",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".Ancestor of the Rechabites",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "3. Father of Malchiah",
+      "references": [
+        "Nehemiah 3:14"
+      ],
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "1 Chronicles",
-      "book_abbrev": "1ch",
-      "chapter": 2,
-      "testament": "OT",
-      "verses": [
-        55
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Jeremiah",
-      "book_abbrev": "jer",
-      "chapter": 35,
-      "testament": "OT",
-      "verses": [
-        6,
-        8,
-        16,
-        19
-      ],
-      "verse_count": 4
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 2,
-    "nt_refs": 0,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.720913+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
       "book": "2 Samuel",
       "chapter": 4,
       "verses": [
-        2
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
       ],
-      "verse_count": 1,
+      "verse_count": 8,
       "testament": "OT",
-      "raw": "2 Samuel 4:2",
-      "source": "EAS"
+      "raw": "2 Samuel 4:5-12"
     },
     {
       "book": "2 Kings",
@@ -109,32 +71,59 @@
       ],
       "verse_count": 2,
       "testament": "OT",
-      "raw": "2 Kings 10:15, 23",
-      "source": "EAS"
+      "raw": "2 Kings 10:15,23"
     },
     {
-      "book": "Jeremiah",
+      "book": "1 Chronicles",
+      "chapter": 2,
+      "verses": [
+        55
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 2:55"
+    },
+    {
+      "book": "1 Chronicles",
       "chapter": 35,
       "verses": [
         6,
-        7,
         8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14,
-        15,
         16,
-        17,
-        18,
         19
       ],
-      "verse_count": 14,
+      "verse_count": 4,
       "testament": "OT",
-      "raw": "Jeremiah 35:6-19",
-      "source": "EAS"
+      "raw": "1 Chronicles 35:6,8,16,19"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 3,
+      "verses": [
+        14
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Nehemiah 3:14"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "2 Kings",
+    "2 Samuel",
+    "Nehemiah"
+  ],
+  "stats": {
+    "total_aspects": 6,
+    "total_refs": 5,
+    "ot_refs": 5,
+    "nt_refs": 0,
+    "books_count": 4,
+    "top_books": [
+      "1 Chronicles",
+      "2 Samuel",
+      "2 Kings",
+      "Nehemiah"
+    ]
+  }
 }

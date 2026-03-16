@@ -1,74 +1,73 @@
 {
   "topic": "ARPAD",
-  "topic_slug": "arpad",
+  "slug": "arpad",
   "canonical_id": "NAV:arpad",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–Also called ARPHAD\n–A fortified city of Syria, perhaps identical with Arvad2Ki 18:34;19:13\n–Idols ofIsa 36:19",
-  "content_preview": "–Also called ARPHAD",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–Also called ARPHAD",
-      "raw_segment": "–Also called ARPHAD"
+      "label": "Al",
+      "references": []
     },
     {
-      "idx": 1,
-      "entry_label": "–A fortified city of Syria, perhaps identical with Arvad2Ki 18:34;19:13",
-      "raw_segment": "–A fortified city of Syria, perhaps identical with Arvad2Ki 18:34;19:13"
+      "label": "A fortified city of Syria, perhaps i",
+      "references": [
+        "2 Kings 18:34",
+        "2 Kings 19:13"
+      ]
     },
     {
-      "idx": 2,
-      "entry_label": "–Idols ofIsa 36:19",
-      "raw_segment": "–Idols ofIsa 36:19"
+      "label": "Idols of",
+      "references": [
+        "Isaiah 36:19"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "2 Kings",
+      "chapter": 18,
+      "verses": [
+        34
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Kings 18:34"
+    },
+    {
+      "book": "2 Kings",
+      "chapter": 19,
+      "verses": [
+        13
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Kings 19:13"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 36,
+      "verses": [
+        19
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 36:19"
+    }
+  ],
+  "books_mentioned": [
+    "2 Kings",
+    "Isaiah"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 3,
+    "total_refs": 3,
+    "ot_refs": 3,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:f140f21fd5e9b76cc466f1c0c8309b38604d45afd32db19a04a7e45d572c70cd",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 3
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 2,
+    "top_books": [
+      "2 Kings",
+      "Isaiah"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:23:48.519590Z",
-  "updated_at": "2025-09-20T17:23:48.519598Z"
+  }
 }

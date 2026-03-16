@@ -1,44 +1,56 @@
 {
   "topic": "TRAITOR",
   "slug": "traitor",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [
+    "TREASON"
+  ],
+  "aspects": [
     {
-      "name": "(Betrayer)",
+      "label": "(Betrayer)",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Judas Mt 26:14-16,46-50; Mr 14:10,11,43-45; Lu 22:3-6,21-23,47,48; Joh 13:2,27-30; 18:2-8,13",
+      "label": "General references",
       "references": [
-        "Matt 26:14-16",
-        "Matt 26:46-50",
-        "Mark 14:10",
-        "Mark 14:11",
-        "Mark 14:43-45",
-        "Luke 22:3-6",
-        "Luke 22:21-23",
-        "Luke 22:47",
-        "Luke 22:48",
-        "John 13:2",
-        "John 13:27-30",
-        "John 18:2-8",
-        "John 18:13"
+        "Matthew 26:14-16,46-50",
+        "Mark 14:10,11,43-45",
+        "Luke 22:3-6,21-23,47,48",
+        "John 13:2,27-30",
+        "John 18:2-8,13"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See TREASON",
+      "label": "SeeTREA",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Mark",
-      "book_abbrev": "mrk",
-      "chapter": 14,
+      "book": "Matthew",
+      "chapter": 26,
+      "verses": [
+        14,
+        15,
+        16,
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "verse_count": 8,
       "testament": "NT",
+      "raw": "Matthew 26:14-16,46-50"
+    },
+    {
+      "book": "Mark",
+      "chapter": 14,
       "verses": [
         10,
         11,
@@ -46,13 +58,13 @@
         44,
         45
       ],
-      "verse_count": 5
+      "verse_count": 5,
+      "testament": "NT",
+      "raw": "Mark 14:10,11,43-45"
     },
     {
       "book": "Luke",
-      "book_abbrev": "luk",
       "chapter": 22,
-      "testament": "NT",
       "verses": [
         3,
         4,
@@ -64,44 +76,59 @@
         47,
         48
       ],
-      "verse_count": 9
+      "verse_count": 9,
+      "testament": "NT",
+      "raw": "Luke 22:3-6,21-23,47,48"
     },
     {
       "book": "John",
-      "book_abbrev": "jhn",
       "chapter": 13,
-      "testament": "NT",
       "verses": [
         2,
-        18,
         27,
         28,
         29,
         30
       ],
-      "verse_count": 6
+      "verse_count": 5,
+      "testament": "NT",
+      "raw": "John 13:2,27-30"
+    },
+    {
+      "book": "John",
+      "chapter": 18,
+      "verses": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        13
+      ],
+      "verse_count": 8,
+      "testament": "NT",
+      "raw": "John 18:2-8,13"
     }
   ],
-  "see_also": [
-    "TREASON"
+  "books_mentioned": [
+    "John",
+    "Luke",
+    "Mark",
+    "Matthew"
   ],
-  "aliases": [],
   "stats": {
-    "entries_count": 3,
+    "total_aspects": 3,
+    "total_refs": 5,
     "ot_refs": 0,
-    "nt_refs": 3,
-    "total_verses": 3
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.730920+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    }
-  },
-  "version": "3.0.0"
+    "nt_refs": 5,
+    "books_count": 4,
+    "top_books": [
+      "John",
+      "Matthew",
+      "Mark",
+      "Luke"
+    ]
+  }
 }

@@ -1,85 +1,30 @@
 {
   "topic": "OMNIPOTENCE",
-  "topic_slug": "omnipotence",
+  "slug": "omnipotence",
   "canonical_id": "NAV:omnipotence",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "GOD, OMNIPOTENT",
     "JESUS, OMNIPOTENCE OF"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "GOD, OMNIPOTENT",
-      "clean": "GOD, OMNIPOTENT",
-      "slug": "god__omnipotent",
-      "canonical_id": "NAV:god__omnipotent"
+      "label": "SeeGOD, OMNIPOTENT",
+      "references": []
     },
     {
-      "original": "JESUS, OMNIPOTENCE OF",
-      "clean": "JESUS, OMNIPOTENCE OF",
-      "slug": "jesus__omnipotence_of",
-      "canonical_id": "NAV:jesus__omnipotence_of"
-    }
-  ],
-  "raw_block": "–SeeGOD, OMNIPOTENT\n–SeeJESUS, OMNIPOTENCE OF",
-  "content_preview": "–SeeGOD, OMNIPOTENT",
-  "reference_groups": [
-    {
-      "idx": 0,
-      "entry_label": "–SeeGOD, OMNIPOTENT",
-      "raw_segment": "–SeeGOD, OMNIPOTENT"
-    },
-    {
-      "idx": 1,
-      "entry_label": "–SeeJESUS, OMNIPOTENCE OF",
-      "raw_segment": "–SeeJESUS, OMNIPOTENCE OF"
+      "label": "SeeJESUS, OMNIPOTENCE OF",
+      "references": []
     }
   ],
   "biblical_references": [],
   "books_mentioned": [],
-  "normalized_labels": [],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 2,
+    "total_refs": 0,
     "ot_refs": 0,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:536af1f75487e0699907247a14a0cdfa69d04f226a39bf5945bf90a9ba94e07d",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
-    ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:29:41.354908Z",
-  "updated_at": "2025-09-20T17:29:41.354915Z"
+    "books_count": 0,
+    "top_books": []
+  }
 }

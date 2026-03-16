@@ -1,95 +1,196 @@
 {
   "topic": "ECLIPSE",
-  "topic_slug": "eclipse",
+  "slug": "eclipse",
   "canonical_id": "NAV:eclipse",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "SUN",
     "MOON"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "SUN",
-      "clean": "SUN",
-      "slug": "sun",
-      "canonical_id": "NAV:sun"
+      "label": "Of the sun and moon",
+      "references": [
+        "Isaiah 13:10",
+        "Ezekiel 32:7,8",
+        "Joel 2:10,31",
+        "Joel 3:15",
+        "Amos 8:9",
+        "Micah 3:6",
+        "Matthew 24:29",
+        "Mark 13:24",
+        "Acts 2:20",
+        "Revelation 6:12,13",
+        "Revelation 8:12"
+      ]
     },
     {
-      "original": "MOON",
-      "clean": "MOON",
-      "slug": "moon",
-      "canonical_id": "NAV:moon"
+      "label": "SeeSUN",
+      "references": []
+    },
+    {
+      "label": "SeeMOON",
+      "references": []
+    },
+    {
+      "label": "FIGURATIVE",
+      "references": [
+        "Isaiah 60:19"
+      ]
     }
   ],
-  "raw_block": "–Of the sun and moonIsa 13:10;Eze 32:7,8;Joe 2:10,31;3:15;Am 8:9;Mic 3:6;Mt 24:29;Mr 13:24;Ac 2:20;Re 6:12,13;8:12\n–SeeSUN\n–SeeMOON\n–FIGURATIVEIsa 60:19",
-  "content_preview": "–Of the sun and moonIsa 13:10;Eze 32:7,8;Joe 2:10,31;3:15;Am 8:9;Mic 3:6;Mt 24:29;Mr 13:24;Ac 2:20;R...",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–Of the sun and moonIsa 13:10;Eze 32:7,8;Joe 2:10,31;3:15;Am 8:9;Mic 3:6;Mt 24:29;Mr 13:24;Ac 2:20;Re 6:12,13;8:12",
-      "raw_segment": "–Of the sun and moonIsa 13:10;Eze 32:7,8;Joe 2:10,31;3:15;Am 8:9;Mic 3:6;Mt 24:29;Mr 13:24;Ac 2:20;Re 6:12,13;8:12"
+      "book": "Isaiah",
+      "chapter": 13,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 13:10"
     },
     {
-      "idx": 1,
-      "entry_label": "–SeeSUN",
-      "raw_segment": "–SeeSUN"
+      "book": "Ezekiel",
+      "chapter": 32,
+      "verses": [
+        7,
+        8
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Ezekiel 32:7,8"
     },
     {
-      "idx": 2,
-      "entry_label": "–SeeMOON",
-      "raw_segment": "–SeeMOON"
+      "book": "Joel",
+      "chapter": 2,
+      "verses": [
+        10,
+        31
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Joel 2:10,31"
     },
     {
-      "idx": 3,
-      "entry_label": "–FIGURATIVEIsa 60:19",
-      "raw_segment": "–FIGURATIVEIsa 60:19"
+      "book": "Joel",
+      "chapter": 3,
+      "verses": [
+        15
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joel 3:15"
+    },
+    {
+      "book": "Amos",
+      "chapter": 8,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Amos 8:9"
+    },
+    {
+      "book": "Micah",
+      "chapter": 3,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Micah 3:6"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 24,
+      "verses": [
+        29
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 24:29"
+    },
+    {
+      "book": "Mark",
+      "chapter": 13,
+      "verses": [
+        24
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Mark 13:24"
+    },
+    {
+      "book": "Acts",
+      "chapter": 2,
+      "verses": [
+        20
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 2:20"
+    },
+    {
+      "book": "Revelation",
+      "chapter": 6,
+      "verses": [
+        12,
+        13
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Revelation 6:12,13"
+    },
+    {
+      "book": "Revelation",
+      "chapter": 8,
+      "verses": [
+        12
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Revelation 8:12"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 60,
+      "verses": [
+        19
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 60:19"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "Acts",
+    "Amos",
+    "Ezekiel",
+    "Isaiah",
+    "Joel",
+    "Mark",
+    "Matthew",
+    "Micah",
+    "Revelation"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:64fd2236a785a4aa4dd114265711c8842583aa452fd80a43ed17ad3552269f81",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 4
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 4,
+    "total_refs": 12,
+    "ot_refs": 7,
+    "nt_refs": 5,
+    "books_count": 9,
+    "top_books": [
+      "Isaiah",
+      "Joel",
+      "Revelation",
+      "Ezekiel",
+      "Amos",
+      "Micah",
+      "Matthew",
+      "Mark",
+      "Acts"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:25:46.837619Z",
-  "updated_at": "2025-09-20T17:25:46.837626Z"
+  }
 }

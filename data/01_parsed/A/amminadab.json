@@ -1,146 +1,52 @@
 {
   "topic": "AMMINADAB",
   "slug": "amminadab",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. Father-in-law of Aaron Ex 6:23",
-      "references": [
-        "Exod 6:23"
-      ],
-      "sub_groups": [
-        {
-          "name": "Father of Nashon Nu 1:7; 2:9",
-          "references": [
-            "Num 1:7",
-            "Num 2:9"
-          ]
-        },
-        {
-          "name": "Lineage of Ru 4:18-20; 1Ch 2:10; Mt 1:4; Lu 3:33",
-          "references": [
-            "Ruth 4:18-20",
-            "1Chr 2:10",
-            "Matt 1:4",
-            "Luke 3:33"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "2. A son of Kohath 1Ch 6:22",
-      "references": [
-        "1Chr 6:22"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "3. A son of Uzziel 1Ch 15:10,11",
-      "references": [
-        "1Chr 15:10",
-        "1Chr 15:11"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "1 Chronicles",
-      "book_abbrev": "1ch",
-      "chapter": 2,
-      "testament": "OT",
-      "verses": [
-        10
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Matthew",
-      "book_abbrev": "mat",
-      "chapter": 1,
-      "testament": "NT",
-      "verses": [
-        4
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Luke",
-      "book_abbrev": "luk",
-      "chapter": 3,
-      "testament": "NT",
-      "verses": [
-        33
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 1,
-    "nt_refs": 2,
-    "total_verses": 3
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.663045+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "1. Father-in-law of Aaron",
+      "references": [
+        "Exodus 6:23"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".Father of Nashon",
+      "references": [
+        "Numbers 1:7",
+        "Numbers 2:9"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".Lineage of",
+      "references": [
+        "Ruth 4:18-20",
+        "1 Chronicles 2:10",
+        "Matthew 1:4",
+        "Luke 3:33"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2. A",
+      "references": [
+        "1 Chronicles 6:22"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "3. A",
+      "references": [
+        "1 Chronicles 15:10,11"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "Numbers",
-      "chapter": 1,
-      "verses": [
-        7
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Numbers 1:7",
-      "source": "EAS"
-    },
-    {
-      "book": "Numbers",
-      "chapter": 2,
-      "verses": [
-        3
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Numbers 2:3",
-      "source": "EAS"
-    },
-    {
-      "book": "Numbers",
-      "chapter": 7,
-      "verses": [
-        12,
-        17
-      ],
-      "verse_count": 2,
-      "testament": "OT",
-      "raw": "Numbers 7:12, 17",
-      "source": "EAS"
-    },
-    {
-      "book": "Numbers",
-      "chapter": 10,
-      "verses": [
-        14
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Numbers 10:14",
-      "source": "EAS"
-    },
+  ],
+  "biblical_references": [
     {
       "book": "Exodus",
       "chapter": 6,
@@ -149,8 +55,69 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Exodus 6:23",
-      "source": "EAS"
+      "raw": "Exodus 6:23"
+    },
+    {
+      "book": "Numbers",
+      "chapter": 1,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Numbers 1:7"
+    },
+    {
+      "book": "Numbers",
+      "chapter": 2,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Numbers 2:9"
+    },
+    {
+      "book": "Ruth",
+      "chapter": 4,
+      "verses": [
+        18,
+        19,
+        20
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Ruth 4:18-20"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 2,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 2:10"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 1,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 1:4"
+    },
+    {
+      "book": "Luke",
+      "chapter": 3,
+      "verses": [
+        33
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 3:33"
     },
     {
       "book": "1 Chronicles",
@@ -160,8 +127,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 6:22",
-      "source": "EAS"
+      "raw": "1 Chronicles 6:22"
     },
     {
       "book": "1 Chronicles",
@@ -172,8 +138,30 @@
       ],
       "verse_count": 2,
       "testament": "OT",
-      "raw": "1 Chronicles 15:10, 11",
-      "source": "EAS"
+      "raw": "1 Chronicles 15:10,11"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Exodus",
+    "Luke",
+    "Matthew",
+    "Numbers",
+    "Ruth"
+  ],
+  "stats": {
+    "total_aspects": 5,
+    "total_refs": 9,
+    "ot_refs": 7,
+    "nt_refs": 2,
+    "books_count": 6,
+    "top_books": [
+      "1 Chronicles",
+      "Numbers",
+      "Exodus",
+      "Ruth",
+      "Matthew",
+      "Luke"
+    ]
+  }
 }

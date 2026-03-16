@@ -1,55 +1,26 @@
 {
   "topic": "PETHOR",
   "slug": "pethor",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "(A city in Mesopotamia)",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "Home of the prophet Balaam Nu 22:5; De 23:4",
-      "references": [
-        "Num 22:5",
-        "Deut 23:4"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Deuteronomy",
-      "book_abbrev": "deu",
-      "chapter": 23,
-      "testament": "OT",
-      "verses": [
-        4
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.717900+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "(A city in Me",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "Home of the prophet Balaam",
+      "references": [
+        "Numbers 22:5",
+        "Deuteronomy 23:4"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Numbers",
       "chapter": 22,
@@ -58,19 +29,32 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Numbers 22:5",
-      "source": "EAS"
+      "raw": "Numbers 22:5"
     },
     {
-      "book": "Numbers",
+      "book": "Deuteronomy",
       "chapter": 23,
       "verses": [
         4
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Numbers 23:4",
-      "source": "SMI"
+      "raw": "Deuteronomy 23:4"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Deuteronomy",
+    "Numbers"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 2,
+    "ot_refs": 2,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "Numbers",
+      "Deuteronomy"
+    ]
+  }
 }

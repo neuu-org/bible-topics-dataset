@@ -1,65 +1,45 @@
 {
   "topic": "NAAMAH",
   "slug": "naamah",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "1. Sister of Tubal-cain Ge 4:22",
+      "label": "1. Sister of Tubal-",
       "references": [
-        "Gen 4:22"
+        "Genesis 4:22"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "2. A wife of Solomon and the mother of King Rehoboam 1Ki 14:21,31; 2Ch 12:13",
+      "label": "2. A wife of",
       "references": [
-        "1Kgs 14:21",
-        "1Kgs 14:31",
-        "2Chr 12:13"
+        "1 Kings 14:21,31",
+        "2 Chronicles 12:13"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "3. A city of the tribe of Judah Jos 15:41",
+      "label": "3. A city of the tribe of",
       "references": [
-        "Josh 15:41"
+        "Joshua 15:41"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "2 Chronicles",
-      "book_abbrev": "2ch",
-      "chapter": 12,
-      "testament": "OT",
+      "book": "Genesis",
+      "chapter": 4,
       "verses": [
-        13
+        22
       ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.713090+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 4:22"
+    },
     {
       "book": "1 Kings",
       "chapter": 14,
@@ -69,8 +49,17 @@
       ],
       "verse_count": 2,
       "testament": "OT",
-      "raw": "1 Kings 14:21, 31",
-      "source": "EAS"
+      "raw": "1 Kings 14:21,31"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 12,
+      "verses": [
+        13
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Chronicles 12:13"
     },
     {
       "book": "Joshua",
@@ -80,8 +69,26 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Joshua 15:41",
-      "source": "EAS"
+      "raw": "Joshua 15:41"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Kings",
+    "2 Chronicles",
+    "Genesis",
+    "Joshua"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 4,
+    "ot_refs": 4,
+    "nt_refs": 0,
+    "books_count": 4,
+    "top_books": [
+      "Genesis",
+      "1 Kings",
+      "2 Chronicles",
+      "Joshua"
+    ]
+  }
 }

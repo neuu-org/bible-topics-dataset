@@ -1,90 +1,115 @@
 {
   "topic": "SICK, THE",
-  "topic_slug": "sick__the",
+  "slug": "sick__the",
   "canonical_id": "NAV:sick__the",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "AFFLICTED",
     "AFFLICTION"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "AFFLICTED",
-      "clean": "AFFLICTED",
-      "slug": "afflicted",
-      "canonical_id": "NAV:afflicted"
+      "label": "Visiting",
+      "references": [
+        "Psalms 41:6"
+      ]
     },
     {
-      "original": "AFFLICTION",
-      "clean": "AFFLICTION",
-      "slug": "affliction",
-      "canonical_id": "NAV:affliction"
+      "label": "Visiting, a duty",
+      "references": [
+        "Matthew 25:36,43",
+        "James 1:27"
+      ]
+    },
+    {
+      "label": "FIGURATIVE",
+      "references": [
+        "Isaiah 1:5,6",
+        "Hosea 5:13"
+      ]
+    },
+    {
+      "label": ".SeeAFFLICTED",
+      "references": []
+    },
+    {
+      "label": ".SeeAFFLICTION",
+      "references": []
     }
   ],
-  "raw_block": "–VisitingPs 41:6\n–Visiting, a dutyMt 25:36,43;Jas 1:27\n–FIGURATIVEIsa 1:5,6;Ho 5:13\n  .SeeAFFLICTED\n  .SeeAFFLICTION",
-  "content_preview": "–VisitingPs 41:6",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–VisitingPs 41:6",
-      "raw_segment": "–VisitingPs 41:6"
+      "book": "Psalms",
+      "chapter": 41,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 41:6"
     },
     {
-      "idx": 1,
-      "entry_label": "–Visiting, a dutyMt 25:36,43;Jas 1:27",
-      "raw_segment": "–Visiting, a dutyMt 25:36,43;Jas 1:27"
+      "book": "Matthew",
+      "chapter": 25,
+      "verses": [
+        36,
+        43
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Matthew 25:36,43"
     },
     {
-      "idx": 2,
-      "entry_label": "–FIGURATIVEIsa 1:5,6;Ho 5:13",
-      "raw_segment": "–FIGURATIVEIsa 1:5,6;Ho 5:13"
+      "book": "James",
+      "chapter": 1,
+      "verses": [
+        27
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "James 1:27"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 1,
+      "verses": [
+        5,
+        6
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Isaiah 1:5,6"
+    },
+    {
+      "book": "Hosea",
+      "chapter": 5,
+      "verses": [
+        13
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Hosea 5:13"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "Hosea",
+    "Isaiah",
+    "James",
+    "Matthew",
+    "Psalms"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:67e7bb466e21cb35401c791d31e29e873efcc6141a371095509227b5b709da46",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 5
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 5,
+    "total_refs": 5,
+    "ot_refs": 3,
+    "nt_refs": 2,
+    "books_count": 5,
+    "top_books": [
+      "Psalms",
+      "Matthew",
+      "James",
+      "Isaiah",
+      "Hosea"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:31:32.009175Z",
-  "updated_at": "2025-09-20T17:31:32.009182Z"
+  }
 }

@@ -1,54 +1,48 @@
 {
   "topic": "TYRANNUS",
   "slug": "tyrannus",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "(An Ephesian man)",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "Paul taught in the school of, for two years Ac 19:9,10",
-      "references": [
-        "Acts 19:9",
-        "Acts 19:10"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.731741+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "(An Ephesian man)",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "Paul taught in the school of, for two years",
+      "references": [
+        "Acts 19:9,10"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Acts",
       "chapter": 19,
       "verses": [
-        9
+        9,
+        10
       ],
-      "verse_count": 1,
+      "verse_count": 2,
       "testament": "NT",
-      "raw": "Acts 19:9",
-      "source": "EAS"
+      "raw": "Acts 19:9,10"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Acts"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 1,
+    "ot_refs": 0,
+    "nt_refs": 1,
+    "books_count": 1,
+    "top_books": [
+      "Acts"
+    ]
+  }
 }

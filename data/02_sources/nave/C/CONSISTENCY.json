@@ -1,8 +1,8 @@
 {
   "topic": "CONSISTENCY",
-  "topic_slug": "consistency",
+  "slug": "consistency",
   "canonical_id": "NAV:consistency",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "PRUDENCE",
     "EXPEDIENCY",
@@ -11,128 +11,113 @@
     "DECEIT",
     "HYPOCRISY"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "PRUDENCE",
-      "clean": "PRUDENCE",
-      "slug": "prudence",
-      "canonical_id": "NAV:prudence"
+      "label": "General scriptures concerning",
+      "references": [
+        "Nehemiah 5:9",
+        "Matthew 6:24",
+        "Luke 16:13",
+        "Romans 14:22",
+        "1 Corinthians 10:21"
+      ]
     },
     {
-      "original": "EXPEDIENCY",
-      "clean": "EXPEDIENCY",
-      "slug": "expediency",
-      "canonical_id": "NAV:expediency"
+      "label": "See",
+      "references": []
     },
     {
-      "original": "INCONSISTENCY",
-      "clean": "INCONSISTENCY",
-      "slug": "inconsistency",
-      "canonical_id": "NAV:inconsistency"
+      "label": "SeeEXPEDIENCY",
+      "references": []
     },
     {
-      "original": "OBDURACY",
-      "clean": "OBDURACY",
-      "slug": "obduracy",
-      "canonical_id": "NAV:obduracy"
+      "label": "SeeHYPOCRISY",
+      "references": []
     },
     {
-      "original": "DECEIT",
-      "clean": "DECEIT",
-      "slug": "deceit",
-      "canonical_id": "NAV:deceit"
+      "label": "SeeINCONSISTENCY",
+      "references": []
     },
     {
-      "original": "HYPOCRISY",
-      "clean": "HYPOCRISY",
-      "slug": "hypocrisy",
-      "canonical_id": "NAV:hypocrisy"
+      "label": "SeeOBDURACY",
+      "references": []
+    },
+    {
+      "label": "SeePRU",
+      "references": []
     }
   ],
-  "raw_block": "–General scriptures concerningNe 5:9;Mt 6:24;Lu 16:13;Ro 14:22;1Co 10:21\n–SeeDECEIT\n–SeeEXPEDIENCY\n–SeeHYPOCRISY\n–SeeINCONSISTENCY\n–SeeOBDURACY\n–SeePRUDENCE",
-  "content_preview": "–General scriptures concerningNe 5:9;Mt 6:24;Lu 16:13;Ro 14:22;1Co 10:21",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–General scriptures concerningNe 5:9;Mt 6:24;Lu 16:13;Ro 14:22;1Co 10:21",
-      "raw_segment": "–General scriptures concerningNe 5:9;Mt 6:24;Lu 16:13;Ro 14:22;1Co 10:21"
+      "book": "Nehemiah",
+      "chapter": 5,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Nehemiah 5:9"
     },
     {
-      "idx": 1,
-      "entry_label": "–SeeDECEIT",
-      "raw_segment": "–SeeDECEIT"
+      "book": "Matthew",
+      "chapter": 6,
+      "verses": [
+        24
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 6:24"
     },
     {
-      "idx": 2,
-      "entry_label": "–SeeEXPEDIENCY",
-      "raw_segment": "–SeeEXPEDIENCY"
+      "book": "Luke",
+      "chapter": 16,
+      "verses": [
+        13
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 16:13"
     },
     {
-      "idx": 3,
-      "entry_label": "–SeeHYPOCRISY",
-      "raw_segment": "–SeeHYPOCRISY"
+      "book": "Romans",
+      "chapter": 14,
+      "verses": [
+        22
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Romans 14:22"
     },
     {
-      "idx": 4,
-      "entry_label": "–SeeINCONSISTENCY",
-      "raw_segment": "–SeeINCONSISTENCY"
-    },
-    {
-      "idx": 5,
-      "entry_label": "–SeeOBDURACY",
-      "raw_segment": "–SeeOBDURACY"
-    },
-    {
-      "idx": 6,
-      "entry_label": "–SeePRUDENCE",
-      "raw_segment": "–SeePRUDENCE"
+      "book": "1 Corinthians",
+      "chapter": 10,
+      "verses": [
+        21
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "1 Corinthians 10:21"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "1 Corinthians",
+    "Luke",
+    "Matthew",
+    "Nehemiah",
+    "Romans"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:ae09d4dcc88fea5aae839159c7a6456373964a5b4d322bb87f06b760f0ca0ced",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 7
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 7,
+    "total_refs": 5,
+    "ot_refs": 1,
+    "nt_refs": 4,
+    "books_count": 5,
+    "top_books": [
+      "Nehemiah",
+      "Matthew",
+      "Luke",
+      "Romans",
+      "1 Corinthians"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:25:13.095385Z",
-  "updated_at": "2025-09-20T17:25:13.095392Z"
+  }
 }

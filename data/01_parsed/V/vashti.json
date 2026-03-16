@@ -1,69 +1,78 @@
 {
   "topic": "VASHTI",
   "slug": "vashti",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "(The wife of King Ahasuerus)",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "Put away (divorced) for refusing to exhibit herself at a royal banquet Es 1:9-22; 2:1,4,17",
-      "references": [
-        "Esth 1:9-22",
-        "Esth 2:1",
-        "Esth 2:4",
-        "Esth 2:17"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.732468+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "(The wife of King Ahasuerus)",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "Put away (divorced) for refusing to exhibit herself at a royal",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "banquet",
+      "references": [
+        "Esther 1:9-22",
+        "Esther 2:1,4,17"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Esther",
       "chapter": 1,
       "verses": [
+        9,
         10,
         11,
-        12
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
       ],
-      "verse_count": 3,
+      "verse_count": 14,
       "testament": "OT",
-      "raw": "Esther 1:10-12",
-      "source": "EAS"
+      "raw": "Esther 1:9-22"
     },
     {
       "book": "Esther",
-      "chapter": 1,
+      "chapter": 2,
       "verses": [
-        1
+        1,
+        4,
+        17
       ],
-      "verse_count": 1,
+      "verse_count": 3,
       "testament": "OT",
-      "raw": "Esther 1:1",
-      "source": "SMI"
+      "raw": "Esther 2:1,4,17"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Esther"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 2,
+    "ot_refs": 2,
+    "nt_refs": 0,
+    "books_count": 1,
+    "top_books": [
+      "Esther"
+    ]
+  }
 }

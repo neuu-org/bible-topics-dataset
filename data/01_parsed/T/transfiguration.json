@@ -1,49 +1,93 @@
 {
   "topic": "TRANSFIGURATION",
   "slug": "transfiguration",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Of Moses Ex 34:29-35",
-      "references": [
-        "Exod 34:29-35"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Of Jesus Mt 17:2-9",
-      "references": [
-        "Matt 17:2-9"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Of Stephen Ac 6:15",
-      "references": [
-        "Acts 6:15"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.730940+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "Of Moses",
+      "references": [
+        "Exodus 34:29-35"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Of Jesus",
+      "references": [
+        "Matthew 17:2-9"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Of Stephen",
+      "references": [
+        "Acts 6:15"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0"
+  ],
+  "biblical_references": [
+    {
+      "book": "Exodus",
+      "chapter": 34,
+      "verses": [
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "verse_count": 7,
+      "testament": "OT",
+      "raw": "Exodus 34:29-35"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 17,
+      "verses": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "verse_count": 8,
+      "testament": "NT",
+      "raw": "Matthew 17:2-9"
+    },
+    {
+      "book": "Acts",
+      "chapter": 6,
+      "verses": [
+        15
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 6:15"
+    }
+  ],
+  "books_mentioned": [
+    "Acts",
+    "Exodus",
+    "Matthew"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 3,
+    "ot_refs": 1,
+    "nt_refs": 2,
+    "books_count": 3,
+    "top_books": [
+      "Exodus",
+      "Matthew",
+      "Acts"
+    ]
+  }
 }

@@ -1,69 +1,150 @@
 {
   "topic": "CHERETHITES",
-  "topic_slug": "cherethites",
+  "slug": "cherethites",
   "canonical_id": "NAV:cherethites",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–A Philistine tribe, which adhered to David, and with the Pelethites \nformed his bodyguard1Sa 30:14,16;2Sa 8:18;15:18;20:7,23;1Ki 1:38,44;1Ch 18:17;Eze 25:16;Zep 2:5\n–Solomon’s escort at his coronation1Ki 1:38",
-  "content_preview": "–A Philistine tribe, which adhered to David, and with the Pelethites ",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–A Philistine tribe, which adhered to David, and with the Pelethites \nformed his bodyguard1Sa 30:14,16;2Sa 8:18;15:18;20:7,23;1Ki 1:38,44;1Ch 18:17;Eze 25:16;Zep 2:5",
-      "raw_segment": "–A Philistine tribe, which adhered to David, and with the Pelethites \nformed his bodyguard1Sa 30:14,16;2Sa 8:18;15:18;20:7,23;1Ki 1:38,44;1Ch 18:17;Eze 25:16;Zep 2:5"
+      "label": "A Philistine tribe, which adhered to David, and with the Pelethites",
+      "references": []
     },
     {
-      "idx": 1,
-      "entry_label": "–Solomon’s escort at his coronation1Ki 1:38",
-      "raw_segment": "–Solomon’s escort at his coronation1Ki 1:38"
+      "label": "formed his bodyguard",
+      "references": [
+        "1 Samuel 30:14,16",
+        "2 Samuel 8:18",
+        "2 Samuel 15:18",
+        "2 Samuel 20:7,23",
+        "1 Kings 1:38,44",
+        "1 Chronicles 18:17",
+        "Ezekiel 25:16",
+        "Zephaniah 2:5"
+      ]
+    },
+    {
+      "label": "General references",
+      "references": [
+        "1 Kings 1:38"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "1 Samuel",
+      "chapter": 30,
+      "verses": [
+        14,
+        16
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "1 Samuel 30:14,16"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 8,
+      "verses": [
+        18
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Samuel 8:18"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 15,
+      "verses": [
+        18
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Samuel 15:18"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 20,
+      "verses": [
+        7,
+        23
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "2 Samuel 20:7,23"
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 1,
+      "verses": [
+        38,
+        44
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "1 Kings 1:38,44"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 18,
+      "verses": [
+        17
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 18:17"
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 25,
+      "verses": [
+        16
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezekiel 25:16"
+    },
+    {
+      "book": "Zephaniah",
+      "chapter": 2,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Zephaniah 2:5"
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 1,
+      "verses": [
+        38
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Kings 1:38"
+    }
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "1 Kings",
+    "1 Samuel",
+    "2 Samuel",
+    "Ezekiel",
+    "Zephaniah"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 3,
+    "total_refs": 9,
+    "ot_refs": 9,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:200ed2d19b705438f9da60df052511cb3d241f8e23f45d53fdf028f495dec189",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 3
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 6,
+    "top_books": [
+      "2 Samuel",
+      "1 Kings",
+      "1 Samuel",
+      "1 Chronicles",
+      "Ezekiel",
+      "Zephaniah"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:24:58.013367Z",
-  "updated_at": "2025-09-20T17:24:58.013374Z"
+  }
 }

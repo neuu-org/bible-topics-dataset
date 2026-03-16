@@ -1,126 +1,43 @@
 {
   "topic": "BARN",
   "slug": "barn",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "General scriptures concerning 2Ki 6:27; Job 39:12; Pr 3:10; Joe 1:17; Hag 2:19; Mt 6:26; 13:30; Lu 12:18,24",
-      "references": [
-        "2Kgs 6:27",
-        "Job 39:12",
-        "Prov 3:10",
-        "Joel 1:17",
-        "Hag 2:19",
-        "Matt 6:26",
-        "Matt 13:30",
-        "Luke 12:18",
-        "Luke 12:24"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "See GARNER",
-      "references": [],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Job",
-      "book_abbrev": "job",
-      "chapter": 39,
-      "testament": "OT",
-      "verses": [
-        12
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Proverbs",
-      "book_abbrev": "pro",
-      "chapter": 3,
-      "testament": "OT",
-      "verses": [
-        10
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Joel",
-      "book_abbrev": "jol",
-      "chapter": 1,
-      "testament": "OT",
-      "verses": [
-        17
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Haggai",
-      "book_abbrev": "hag",
-      "chapter": 2,
-      "testament": "OT",
-      "verses": [
-        19
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Matthew",
-      "book_abbrev": "mat",
-      "chapter": 6,
-      "testament": "NT",
-      "verses": [
-        13,
-        26
-      ],
-      "verse_count": 2
-    },
-    {
-      "book": "Luke",
-      "book_abbrev": "luk",
-      "chapter": 12,
-      "testament": "NT",
-      "verses": [
-        18,
-        24
-      ],
-      "verse_count": 2
-    }
+  "sources": [
+    "NAV"
   ],
   "see_also": [
     "GARNER"
   ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 4,
-    "nt_refs": 2,
-    "total_verses": 6
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.672161+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "aspects": [
     {
-      "book": "Deuteronomy",
-      "chapter": 28,
+      "label": "General scriptures concerning",
+      "references": [
+        "2 Kings 6:27",
+        "Job 39:12",
+        "Proverbs 3:10",
+        "Joel 1:17",
+        "Haggai 2:19",
+        "Matthew 6:26",
+        "Matthew 13:30",
+        "Luke 12:18,24"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeGARNER",
+      "references": [],
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
+    {
+      "book": "2 Kings",
+      "chapter": 6,
       "verses": [
-        8
+        27
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Deuteronomy 28:8",
-      "source": "EAS"
+      "raw": "2 Kings 6:27"
     },
     {
       "book": "Job",
@@ -130,8 +47,27 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Job 39:12",
-      "source": "EAS"
+      "raw": "Job 39:12"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 3,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 3:10"
+    },
+    {
+      "book": "Joel",
+      "chapter": 1,
+      "verses": [
+        17
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joel 1:17"
     },
     {
       "book": "Haggai",
@@ -141,19 +77,63 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Haggai 2:19",
-      "source": "EAS"
+      "raw": "Haggai 2:19"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 6,
+      "verses": [
+        26
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 6:26"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 13,
+      "verses": [
+        30
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 13:30"
     },
     {
       "book": "Luke",
       "chapter": 12,
       "verses": [
-        18
+        18,
+        24
       ],
-      "verse_count": 1,
+      "verse_count": 2,
       "testament": "NT",
-      "raw": "Luke 12:18",
-      "source": "EAS"
+      "raw": "Luke 12:18,24"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "2 Kings",
+    "Haggai",
+    "Job",
+    "Joel",
+    "Luke",
+    "Matthew",
+    "Proverbs"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 8,
+    "ot_refs": 5,
+    "nt_refs": 3,
+    "books_count": 7,
+    "top_books": [
+      "Matthew",
+      "2 Kings",
+      "Job",
+      "Proverbs",
+      "Joel",
+      "Haggai",
+      "Luke"
+    ]
+  }
 }

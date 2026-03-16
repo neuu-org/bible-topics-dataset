@@ -1,57 +1,28 @@
 {
   "topic": "UPHAZ",
   "slug": "uphaz",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "A country famous for gold Jer 10:9; Da 10:5",
-      "references": [
-        "Jer 10:9",
-        "Dan 10:5"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "See OPHIR",
-      "references": [],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Daniel",
-      "book_abbrev": "dan",
-      "chapter": 10,
-      "testament": "OT",
-      "verses": [
-        5
-      ],
-      "verse_count": 1
-    }
+  "sources": [
+    "NAV"
   ],
   "see_also": [
     "OPHIR"
   ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.732049+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "aspects": [
+    {
+      "label": "A country famous for gold",
+      "references": [
+        "Jeremiah 10:9",
+        "Daniel 10:5"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeOPHIR",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Jeremiah",
       "chapter": 10,
@@ -60,8 +31,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Jeremiah 10:9",
-      "source": "EAS"
+      "raw": "Jeremiah 10:9"
     },
     {
       "book": "Daniel",
@@ -71,8 +41,22 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Daniel 10:5",
-      "source": "SMI"
+      "raw": "Daniel 10:5"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Daniel",
+    "Jeremiah"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 2,
+    "ot_refs": 2,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "Jeremiah",
+      "Daniel"
+    ]
+  }
 }

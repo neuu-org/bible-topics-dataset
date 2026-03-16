@@ -1,78 +1,70 @@
 {
   "topic": "BESTIALITY",
-  "topic_slug": "bestiality",
+  "slug": "bestiality",
   "canonical_id": "NAV:bestiality",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "SODOMY"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "SODOMY",
-      "clean": "SODOMY",
-      "slug": "sodomy",
-      "canonical_id": "NAV:sodomy"
-    }
-  ],
-  "raw_block": "–General scriptures concerningEx 22:19;Le 18:23;20:16\n–SeeSODOMY",
-  "content_preview": "–General scriptures concerningEx 22:19;Le 18:23;20:16",
-  "reference_groups": [
-    {
-      "idx": 0,
-      "entry_label": "–General scriptures concerningEx 22:19;Le 18:23;20:16",
-      "raw_segment": "–General scriptures concerningEx 22:19;Le 18:23;20:16"
+      "label": "General scriptures concerning",
+      "references": [
+        "Exodus 22:19",
+        "Leviticus 18:23",
+        "Leviticus 20:16"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–SeeSODOMY",
-      "raw_segment": "–SeeSODOMY"
+      "label": "See",
+      "references": []
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Exodus",
+      "chapter": 22,
+      "verses": [
+        19
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 22:19"
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 18,
+      "verses": [
+        23
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Leviticus 18:23"
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 20,
+      "verses": [
+        16
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Leviticus 20:16"
+    }
+  ],
+  "books_mentioned": [
+    "Exodus",
+    "Leviticus"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 2,
+    "total_refs": 3,
+    "ot_refs": 3,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:4f584b388faee5a555ce51cb71c8409e6e3b885d37449e30e4062110d3bf3902",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 2,
+    "top_books": [
+      "Leviticus",
+      "Exodus"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:24:21.925950Z",
-  "updated_at": "2025-09-20T17:24:21.925957Z"
+  }
 }

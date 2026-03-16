@@ -1,78 +1,70 @@
 {
   "topic": "CHRISTIAN",
-  "topic_slug": "christian",
+  "slug": "christian",
   "canonical_id": "NAV:christian",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "RIGHTEOUS"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "RIGHTEOUS",
-      "clean": "RIGHTEOUS",
-      "slug": "righteous",
-      "canonical_id": "NAV:righteous"
-    }
-  ],
-  "raw_block": "–Believers calledAc 11:26;26:28;1Pe 4:16\n–SeeRIGHTEOUS",
-  "content_preview": "–Believers calledAc 11:26;26:28;1Pe 4:16",
-  "reference_groups": [
-    {
-      "idx": 0,
-      "entry_label": "–Believers calledAc 11:26;26:28;1Pe 4:16",
-      "raw_segment": "–Believers calledAc 11:26;26:28;1Pe 4:16"
+      "label": "Believers",
+      "references": [
+        "Acts 11:26",
+        "Acts 26:28",
+        "1 Peter 4:16"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–SeeRIGHTEOUS",
-      "raw_segment": "–SeeRIGHTEOUS"
+      "label": "SeeRIGHTEOUS",
+      "references": []
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Acts",
+      "chapter": 11,
+      "verses": [
+        26
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 11:26"
+    },
+    {
+      "book": "Acts",
+      "chapter": 26,
+      "verses": [
+        28
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 26:28"
+    },
+    {
+      "book": "1 Peter",
+      "chapter": 4,
+      "verses": [
+        16
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "1 Peter 4:16"
+    }
+  ],
+  "books_mentioned": [
+    "1 Peter",
+    "Acts"
+  ],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 2,
+    "total_refs": 3,
     "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:d66947b49b08c9368c9d95d403be815f16c91a895d3245a88e802f3461b14c08",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "nt_refs": 3,
+    "books_count": 2,
+    "top_books": [
+      "Acts",
+      "1 Peter"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:25:02.252827Z",
-  "updated_at": "2025-09-20T17:25:02.252835Z"
+  }
 }

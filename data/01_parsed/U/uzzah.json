@@ -1,151 +1,104 @@
 {
   "topic": "UZZAH",
   "slug": "uzzah",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. Also called UZZA, son of Abinadab",
-      "references": [],
-      "sub_groups": [
-        {
-          "name": "Driver of the cart when moving the ark of the covenant 2Sa 6:3; 1Ch 13:7",
-          "references": [
-            "2Sam 6:3",
-            "1Chr 13:7"
-          ]
-        },
-        {
-          "name": "Stricken dead for touching the ark of the covenant 2Sa 6:6-8; 1Ch 13:9-11",
-          "references": [
-            "2Sam 6:6-8",
-            "1Chr 13:9-11"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "2. UZZAH",
-      "references": [],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "1 Chronicles",
-      "book_abbrev": "1ch",
-      "chapter": 13,
-      "testament": "OT",
-      "verses": [
-        7
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "1 Chronicles",
-      "book_abbrev": "1ch",
-      "chapter": 13,
-      "testament": "OT",
-      "verses": [
-        9,
-        10,
-        11
-      ],
-      "verse_count": 3
-    }
+  "sources": [
+    "NAV"
   ],
   "see_also": [
     "UZZA"
   ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 2,
-    "nt_refs": 0,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.732259+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "aspects": [
     {
-      "book": "1 Samuel",
-      "chapter": 7,
-      "verses": [
-        1
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "1 Samuel 7:1",
-      "source": "EAS"
+      "label": "1. Al",
+      "references": [],
+      "source": "NAV"
     },
     {
-      "book": "Numbers",
-      "chapter": 4,
+      "label": ".Driver of the",
+      "references": [
+        "2 Samuel 6:3",
+        "1 Chronicles 13:7"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".Stricken",
+      "references": [
+        "2 Samuel 6:6-8",
+        "1 Chronicles 13:9-11"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2. UZZAH",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".SeeUZZA,",
+      "references": [],
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
+    {
+      "book": "2 Samuel",
+      "chapter": 6,
       "verses": [
-        15
+        3
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Numbers 4:15",
-      "source": "EAS"
+      "raw": "2 Samuel 6:3"
     },
     {
       "book": "1 Chronicles",
       "chapter": 13,
       "verses": [
-        11
+        7
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 13:11",
-      "source": "EAS"
+      "raw": "1 Chronicles 13:7"
     },
     {
       "book": "2 Samuel",
       "chapter": 6,
       "verses": [
-        2,
-        3,
-        4,
-        5,
         6,
         7,
-        8,
-        9,
-        10,
-        11
+        8
       ],
-      "verse_count": 10,
+      "verse_count": 3,
       "testament": "OT",
-      "raw": "2 Samuel 6:2-11",
-      "source": "EAS"
+      "raw": "2 Samuel 6:6-8"
     },
     {
       "book": "1 Chronicles",
       "chapter": 13,
       "verses": [
-        6,
-        7,
-        8,
         9,
         10,
-        11,
-        12,
-        13
+        11
       ],
-      "verse_count": 8,
+      "verse_count": 3,
       "testament": "OT",
-      "raw": "1 Chronicles 13:6-13",
-      "source": "EAS"
+      "raw": "1 Chronicles 13:9-11"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "2 Samuel"
+  ],
+  "stats": {
+    "total_aspects": 5,
+    "total_refs": 4,
+    "ot_refs": 4,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "2 Samuel",
+      "1 Chronicles"
+    ]
+  }
 }

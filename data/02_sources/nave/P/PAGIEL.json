@@ -1,64 +1,74 @@
 {
   "topic": "PAGIEL",
-  "topic_slug": "pagiel",
+  "slug": "pagiel",
   "canonical_id": "NAV:pagiel",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–Son of Ocran and leader of the tribe of Asher at time of the \nexodusNu 1:13;2:27;7:72,77;10:26",
-  "content_preview": "–Son of Ocran and leader of the tribe of Asher at time of the ",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–Son of Ocran and leader of the tribe of Asher at time of the \nexodusNu 1:13;2:27;7:72,77;10:26",
-      "raw_segment": "–Son of Ocran and leader of the tribe of Asher at time of the \nexodusNu 1:13;2:27;7:72,77;10:26"
+      "label": "exodus",
+      "references": [
+        "Numbers 1:13",
+        "Numbers 2:27",
+        "Numbers 7:72,77",
+        "Numbers 10:26"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Numbers",
+      "chapter": 1,
+      "verses": [
+        13
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Numbers 1:13"
+    },
+    {
+      "book": "Numbers",
+      "chapter": 2,
+      "verses": [
+        27
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Numbers 2:27"
+    },
+    {
+      "book": "Numbers",
+      "chapter": 7,
+      "verses": [
+        72,
+        77
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Numbers 7:72,77"
+    },
+    {
+      "book": "Numbers",
+      "chapter": 10,
+      "verses": [
+        26
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Numbers 10:26"
+    }
+  ],
+  "books_mentioned": [
+    "Numbers"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 1,
+    "total_refs": 4,
+    "ot_refs": 4,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:086358bb7b39836418699a692c8a9f97852d4c5a8be05ccb987de9996a877cf2",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 1,
+    "top_books": [
+      "Numbers"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:29:47.222923Z",
-  "updated_at": "2025-09-20T17:29:47.222930Z"
+  }
 }

@@ -1,67 +1,85 @@
 {
   "topic": "LAWSUITS",
   "slug": "lawsuits",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [
+    "ACTIONS AT LAW",
+    "ADJUDICATION",
+    "ARBITRATION",
+    "COMPROMISE",
+    "COURTS",
+    "JUSTICE"
+  ],
+  "aspects": [
     {
-      "name": "To be avoided Pr 25:8-10; Mt 5:25,26; 1Co 6:1-8",
+      "label": "To be avoi",
       "references": [
-        "Prov 25:8-10",
-        "Matt 5:25",
-        "Matt 5:26",
-        "1Cor 6:1-8"
+        "Proverbs 25:8-10",
+        "Matthew 5:25,26",
+        "1 Corinthians 6:1-8"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See ACTIONS AT LAW",
+      "label": "SeeACTIONS AT LAW",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See ADJUDICATION",
+      "label": "SeeAD",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See ARBITRATION",
+      "label": "SeeARBITRATION",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See COMPROMISE",
+      "label": "SeeCOMPROMISE",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See COURTS",
+      "label": "SeeCOURTS",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See JUSTICE",
+      "label": "SeeJUSTICE",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Matthew",
-      "book_abbrev": "mat",
-      "chapter": 5,
-      "testament": "NT",
+      "book": "Proverbs",
+      "chapter": 25,
       "verses": [
-        1,
+        8,
+        9,
+        10
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Proverbs 25:8-10"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 5,
+      "verses": [
         25,
         26
       ],
-      "verse_count": 3
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Matthew 5:25,26"
     },
     {
       "book": "1 Corinthians",
-      "book_abbrev": "1co",
       "chapter": 6,
-      "testament": "NT",
       "verses": [
         1,
         2,
@@ -72,34 +90,26 @@
         7,
         8
       ],
-      "verse_count": 8
+      "verse_count": 8,
+      "testament": "NT",
+      "raw": "1 Corinthians 6:1-8"
     }
   ],
-  "see_also": [
-    "ADJUDICATION",
-    "ARBITRATION",
-    "COURTS",
-    "JUSTICE",
-    "COMPROMISE",
-    "ACTIONS AT LAW"
+  "books_mentioned": [
+    "1 Corinthians",
+    "Matthew",
+    "Proverbs"
   ],
-  "aliases": [],
   "stats": {
-    "entries_count": 7,
-    "ot_refs": 0,
+    "total_aspects": 7,
+    "total_refs": 3,
+    "ot_refs": 1,
     "nt_refs": 2,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.700258+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    }
-  },
-  "version": "3.0.0"
+    "books_count": 3,
+    "top_books": [
+      "Proverbs",
+      "Matthew",
+      "1 Corinthians"
+    ]
+  }
 }

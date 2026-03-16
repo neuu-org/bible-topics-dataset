@@ -1,90 +1,28 @@
 {
   "topic": "SPARROW",
   "slug": "sparrow",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Nests of Ps 84:3",
-      "references": [
-        "Ps 84:3"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Two, sold for a farthing Mt 10:29; Lu 12:6",
-      "references": [
-        "Matt 10:29",
-        "Luke 12:6"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Luke",
-      "book_abbrev": "luk",
-      "chapter": 12,
-      "testament": "NT",
-      "verses": [
-        6
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 1,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.727266+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "Nests of",
+      "references": [
+        "Psalms 84:3"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Two,",
+      "references": [
+        "Matthew 10:29",
+        "Luke 12:6"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "Matthew",
-      "chapter": 10,
-      "verses": [
-        29
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Matthew 10:29",
-      "source": "EAS"
-    },
-    {
-      "book": "Luke",
-      "chapter": 12,
-      "verses": [
-        6
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Luke 12:6",
-      "source": "EAS"
-    },
-    {
-      "book": "Leviticus",
-      "chapter": 14,
-      "verses": [
-        4
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Leviticus 14:4",
-      "source": "EAS"
-    },
+  ],
+  "biblical_references": [
     {
       "book": "Psalms",
       "chapter": 84,
@@ -93,66 +31,44 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Psalms 84:3",
-      "source": "EAS"
-    },
-    {
-      "book": "Psalms",
-      "chapter": 102,
-      "verses": [
-        7
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Psalms 102:7",
-      "source": "EAS"
+      "raw": "Psalms 84:3"
     },
     {
       "book": "Matthew",
       "chapter": 10,
       "verses": [
-        29,
-        30,
-        31
+        29
       ],
-      "verse_count": 3,
+      "verse_count": 1,
       "testament": "NT",
-      "raw": "Matthew 10:29-31",
-      "source": "EAS"
+      "raw": "Matthew 10:29"
     },
     {
       "book": "Luke",
       "chapter": 12,
       "verses": [
-        6,
-        7
-      ],
-      "verse_count": 2,
-      "testament": "NT",
-      "raw": "Luke 12:6,7",
-      "source": "SMI"
-    },
-    {
-      "book": "Matthew",
-      "chapter": 10,
-      "verses": [
-        20
+        6
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Matthew 10:20",
-      "source": "SMI"
-    },
-    {
-      "book": "Proverbs",
-      "chapter": 102,
-      "verses": [
-        7
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Proverbs 102:7",
-      "source": "SMI"
+      "raw": "Luke 12:6"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Luke",
+    "Matthew",
+    "Psalms"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 3,
+    "ot_refs": 1,
+    "nt_refs": 2,
+    "books_count": 3,
+    "top_books": [
+      "Psalms",
+      "Matthew",
+      "Luke"
+    ]
+  }
 }

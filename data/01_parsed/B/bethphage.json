@@ -1,61 +1,22 @@
 {
   "topic": "BETHPHAGE",
   "slug": "bethphage",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "A village on the Mount of Olives Mt 21:1; Mr 11:1; Lu 19:29",
-      "references": [
-        "Matt 21:1",
-        "Mark 11:1",
-        "Luke 19:29"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Mark",
-      "book_abbrev": "mrk",
-      "chapter": 11,
-      "testament": "NT",
-      "verses": [
-        1
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Luke",
-      "book_abbrev": "luk",
-      "chapter": 19,
-      "testament": "NT",
-      "verses": [
-        29
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 2,
-    "total_verses": 2
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.674169+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "A village on the Mount of Olives",
+      "references": [
+        "Matthew 21:1",
+        "Mark 11:1",
+        "Luke 19:29"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Matthew",
       "chapter": 21,
@@ -64,8 +25,7 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Matthew 21:1",
-      "source": "SMI"
+      "raw": "Matthew 21:1"
     },
     {
       "book": "Mark",
@@ -75,8 +35,7 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Mark 11:1",
-      "source": "SMI"
+      "raw": "Mark 11:1"
     },
     {
       "book": "Luke",
@@ -86,8 +45,24 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Luke 19:29",
-      "source": "SMI"
+      "raw": "Luke 19:29"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Luke",
+    "Mark",
+    "Matthew"
+  ],
+  "stats": {
+    "total_aspects": 1,
+    "total_refs": 3,
+    "ot_refs": 0,
+    "nt_refs": 3,
+    "books_count": 3,
+    "top_books": [
+      "Matthew",
+      "Mark",
+      "Luke"
+    ]
+  }
 }

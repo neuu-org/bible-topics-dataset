@@ -1,47 +1,108 @@
 {
   "topic": "LEVIATHAN",
   "slug": "leviathan",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV",
+    "TOR"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "Possibly a crocodile Job 41; Ps 104:26",
+      "label": "Possibly a crocodileJob 41;",
       "references": [
-        "Job 41",
-        "Ps 104:26"
+        "Psalms 104:26"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "“The crooked (R. V.) serpent.” Isa 27:1",
+      "label": "“The crooked (R. V.) serpent.”",
       "references": [
-        "Isa 27:1"
+        "Isaiah 27:1"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "FIGURATIVE Ps 74:14",
+      "label": "FIGURATIVE",
       "references": [
-        "Ps 74:14"
+        "Psalms 74:14"
       ],
-      "sub_groups": []
+      "source": "NAV"
+    },
+    {
+      "label": "Created by God —",
+      "references": [
+        "Psalms 104:26"
+      ],
+      "source": "TOR"
+    },
+    {
+      "label": "Nature and habits of —",
+      "references": [
+        "Job 41:1-34"
+      ],
+      "source": "TOR"
+    },
+    {
+      "label": "God’s power, exhibited in",
+      "references": [
+        "Psalms 74:14"
+      ],
+      "source": "TOR"
+    },
+    {
+      "label": "Il",
+      "references": [],
+      "source": "TOR"
+    },
+    {
+      "label": "Powerful and cruel kings. —",
+      "references": [
+        "Isaiah 27:1"
+      ],
+      "source": "TOR"
+    },
+    {
+      "label": "Power and severity of God. —",
+      "references": [
+        "Job 41:10"
+      ],
+      "source": "TOR"
     }
   ],
   "biblical_references": [
     {
-      "book": "Ps",
-      "book_abbrev": "ps",
+      "book": "Psalms",
       "chapter": 104,
-      "testament": "OT",
       "verses": [
         26
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 104:26"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 27,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 27:1"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 74,
+      "verses": [
+        14
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 74:14"
     },
     {
       "book": "Job",
-      "book_abbrev": "job",
       "chapter": 41,
-      "testament": "OT",
       "verses": [
         1,
         2,
@@ -78,137 +139,36 @@
         33,
         34
       ],
-      "verse_count": 34
-    },
-    {
-      "book": "Ps",
-      "book_abbrev": "ps",
-      "chapter": 74,
+      "verse_count": 34,
       "testament": "OT",
-      "verses": [
-        14
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Isa",
-      "book_abbrev": "isa",
-      "chapter": 27,
-      "testament": "OT",
-      "verses": [
-        1
-      ],
-      "verse_count": 1
+      "raw": "Job 41:1-34"
     },
     {
       "book": "Job",
-      "book_abbrev": "job",
       "chapter": 41,
-      "testament": "OT",
       "verses": [
         10
       ],
-      "verse_count": 1
-    },
-    {
-      "book": "Psalms",
-      "book_abbrev": "psa",
-      "chapter": 104,
+      "verse_count": 1,
       "testament": "OT",
-      "verses": [
-        26
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Isaiah",
-      "book_abbrev": "isa",
-      "chapter": 27,
-      "testament": "OT",
-      "verses": [
-        1
-      ],
-      "verse_count": 1
+      "raw": "Job 41:10"
     }
   ],
-  "see_also": [],
-  "aliases": [],
+  "books_mentioned": [
+    "Isaiah",
+    "Job",
+    "Psalms"
+  ],
   "stats": {
-    "total_aspects": 6,
-    "level1_aspects": 4,
-    "level2_aspects": 2,
+    "total_aspects": 9,
     "total_refs": 5,
     "ot_refs": 5,
-    "nt_refs": 0
-  },
-  "sources": [
-    "NAV",
-    "TOR"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.700748+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "Psalms",
-      "chapter": 74,
-      "verses": [
-        14
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Psalms 74:14",
-      "source": "EAS"
-    },
-    {
-      "book": "Job",
-      "chapter": 3,
-      "verses": [
-        8
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Job 3:8",
-      "source": "EAS"
-    },
-    {
-      "book": "Job",
-      "chapter": 41,
-      "verses": [
-        1
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Job 41:1",
-      "source": "EAS"
-    },
-    {
-      "book": "Psalms",
-      "chapter": 104,
-      "verses": [
-        26
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Psalms 104:26",
-      "source": "EAS"
-    },
-    {
-      "book": "Isaiah",
-      "chapter": 27,
-      "verses": [
-        1
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Isaiah 27:1",
-      "source": "EAS"
-    }
-  ]
+    "nt_refs": 0,
+    "books_count": 3,
+    "top_books": [
+      "Psalms",
+      "Job",
+      "Isaiah"
+    ]
+  }
 }

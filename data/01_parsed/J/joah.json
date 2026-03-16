@@ -1,97 +1,65 @@
 {
   "topic": "JOAH",
   "slug": "joah",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "1. Son of Asaph 2Ki 18:18,26; Isa 36:3,11,22",
+      "label": "1.",
       "references": [
-        "2Kgs 18:18",
-        "2Kgs 18:26",
-        "Isa 36:3",
-        "Isa 36:11",
-        "Isa 36:22"
+        "2 Kings 18:18,26",
+        "Isaiah 36:3,11,22"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "2. A descendant of Gershom 1Ch 6:21; 2Ch 29:12",
+      "label": "2. A",
       "references": [
-        "1Chr 6:21",
-        "2Chr 29:12"
+        "1 Chronicles 6:21",
+        "2 Chronicles 29:12"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "3. A son of Obed-edom 1Ch 26:4",
+      "label": "3. A",
       "references": [
-        "1Chr 26:4"
+        "1 Chronicles 26:4"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "4. A Levite, who repaired the temple 2Ch 34:8",
+      "label": "4. A Levite, who repaired the temple",
       "references": [
-        "2Chr 34:8"
+        "2 Chronicles 34:8"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "2 Chronicles",
-      "book_abbrev": "2ch",
-      "chapter": 29,
-      "testament": "OT",
+      "book": "2 Kings",
+      "chapter": 18,
       "verses": [
-        12
+        18,
+        26
       ],
-      "verse_count": 1
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "2 Kings 18:18,26"
     },
     {
       "book": "Isaiah",
-      "book_abbrev": "isa",
       "chapter": 36,
-      "testament": "OT",
       "verses": [
         3,
         11,
         22
       ],
-      "verse_count": 3
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 4,
-    "ot_refs": 2,
-    "nt_refs": 0,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.697233+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "1 Chronicles",
-      "chapter": 26,
-      "verses": [
-        4
-      ],
-      "verse_count": 1,
+      "verse_count": 3,
       "testament": "OT",
-      "raw": "1 Chronicles 26:4",
-      "source": "EAS"
+      "raw": "Isaiah 36:3,11,22"
     },
     {
       "book": "1 Chronicles",
@@ -101,21 +69,27 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 6:21",
-      "source": "EAS"
+      "raw": "1 Chronicles 6:21"
     },
     {
-      "book": "2 Kings",
-      "chapter": 18,
+      "book": "2 Chronicles",
+      "chapter": 29,
       "verses": [
-        18,
-        26,
-        37
+        12
       ],
-      "verse_count": 3,
+      "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Kings 18:18, 26, 37",
-      "source": "EAS"
+      "raw": "2 Chronicles 29:12"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 26,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 26:4"
     },
     {
       "book": "2 Chronicles",
@@ -125,8 +99,26 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Chronicles 34:8",
-      "source": "EAS"
+      "raw": "2 Chronicles 34:8"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "2 Chronicles",
+    "2 Kings",
+    "Isaiah"
+  ],
+  "stats": {
+    "total_aspects": 4,
+    "total_refs": 6,
+    "ot_refs": 6,
+    "nt_refs": 0,
+    "books_count": 4,
+    "top_books": [
+      "1 Chronicles",
+      "2 Chronicles",
+      "2 Kings",
+      "Isaiah"
+    ]
+  }
 }

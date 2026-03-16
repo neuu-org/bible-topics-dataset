@@ -1,78 +1,64 @@
 {
   "topic": "BAAL-HERMON",
-  "topic_slug": "baal_hermon",
+  "slug": "baal_hermon",
   "canonical_id": "NAV:baal_hermon",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "BAAL-GAD"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "BAAL-GAD",
-      "clean": "BAAL-GAD",
-      "slug": "baal_gad",
-      "canonical_id": "NAV:baal_gad"
-    }
-  ],
-  "raw_block": "–1. A city near Mount Hermon1Ch 5:23\n  .Identical withBAAL-GAD, which see\n–2. A mountain of LebanonJud 3:3",
-  "content_preview": "–1. A city near Mount Hermon1Ch 5:23",
-  "reference_groups": [
-    {
-      "idx": 0,
-      "entry_label": "–1. A city near Mount Hermon1Ch 5:23",
-      "raw_segment": "–1. A city near Mount Hermon1Ch 5:23"
+      "label": "1. A city near Mount Hermon",
+      "references": [
+        "1 Chronicles 5:23"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–2. A mountain of LebanonJud 3:3",
-      "raw_segment": "–2. A mountain of LebanonJud 3:3"
+      "label": ".I",
+      "references": []
+    },
+    {
+      "label": "2. A mountain of Lebanon",
+      "references": [
+        "Judges 3:3"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "1 Chronicles",
+      "chapter": 5,
+      "verses": [
+        23
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 5:23"
+    },
+    {
+      "book": "Judges",
+      "chapter": 3,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Judges 3:3"
+    }
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Judges"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 3,
+    "total_refs": 2,
+    "ot_refs": 2,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:2a6f55e87ff0c4c409b529e977188f87383463f4176b28e5b4172b46499ca263",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 3
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 2,
+    "top_books": [
+      "1 Chronicles",
+      "Judges"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:24:02.682817Z",
-  "updated_at": "2025-09-20T17:24:02.682825Z"
+  }
 }

@@ -1,79 +1,37 @@
 {
   "topic": "LIBNI",
   "slug": "libni",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. Son of Gershon Ex 6:17; Nu 3:18; 1Ch 6:17,20",
-      "references": [
-        "Exod 6:17",
-        "Num 3:18",
-        "1Chr 6:17",
-        "1Chr 6:20"
-      ],
-      "sub_groups": [
-        {
-          "name": "Descendants called LIBNITES Nu 3:21; 26:58",
-          "references": [
-            "Num 3:21",
-            "Num 26:58"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "2. Grandson of Merari 1Ch 6:29",
-      "references": [
-        "1Chr 6:29"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Numbers",
-      "book_abbrev": "num",
-      "chapter": 3,
-      "testament": "OT",
-      "verses": [
-        1,
-        18
-      ],
-      "verse_count": 2
-    },
-    {
-      "book": "1 Chronicles",
-      "book_abbrev": "1ch",
-      "chapter": 6,
-      "testament": "OT",
-      "verses": [
-        17,
-        20
-      ],
-      "verse_count": 2
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 2,
-    "nt_refs": 0,
-    "total_verses": 2
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.700909+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "1.",
+      "references": [
+        "Exodus 6:17",
+        "Numbers 3:18",
+        "1 Chronicles 6:17,20"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".",
+      "references": [
+        "Numbers 3:21",
+        "Numbers 26:58"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2. Grand",
+      "references": [
+        "1 Chronicles 6:29"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Exodus",
       "chapter": 6,
@@ -82,20 +40,75 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Exodus 6:17",
-      "source": "EAS"
+      "raw": "Exodus 6:17"
     },
     {
       "book": "Numbers",
       "chapter": 3,
       "verses": [
-        18,
-        21
+        18
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Numbers 3:18"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 6,
+      "verses": [
+        17,
+        20
       ],
       "verse_count": 2,
       "testament": "OT",
-      "raw": "Numbers 3:18, 21",
-      "source": "EAS"
+      "raw": "1 Chronicles 6:17,20"
+    },
+    {
+      "book": "Numbers",
+      "chapter": 3,
+      "verses": [
+        21
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Numbers 3:21"
+    },
+    {
+      "book": "Numbers",
+      "chapter": 26,
+      "verses": [
+        58
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Numbers 26:58"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 6,
+      "verses": [
+        29
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 6:29"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Exodus",
+    "Numbers"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 6,
+    "ot_refs": 6,
+    "nt_refs": 0,
+    "books_count": 3,
+    "top_books": [
+      "Numbers",
+      "1 Chronicles",
+      "Exodus"
+    ]
+  }
 }

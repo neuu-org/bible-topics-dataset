@@ -1,118 +1,182 @@
 {
   "topic": "ARREST",
   "slug": "arrest",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [
+    "EXTRADITION",
+    "PRISON",
+    "PRISONERS"
+  ],
+  "aspects": [
     {
-      "name": "Of Jesus Mt 26:57; Mr 14:46; Lu 22:54; Joh 18:12",
+      "label": "Of Jesus",
       "references": [
-        "Matt 26:57",
+        "Matthew 26:57",
         "Mark 14:46",
         "Luke 22:54",
         "John 18:12"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Of apostles Ac 5:17,18; 6:12",
+      "label": "Of apostles",
       "references": [
-        "Acts 5:17",
-        "Acts 5:18",
+        "Acts 5:17,18",
         "Acts 6:12"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Of Paul and Silas Ac 16:19",
+      "label": "Of Paul and Silas",
       "references": [
         "Acts 16:19"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Of Paul Ac 21:30",
+      "label": "Of Paul",
       "references": [
         "Acts 21:30"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Paul authorized to arrest Christians Ac 9:2",
+      "label": "Paul authorized to arrest Christians",
       "references": [
         "Acts 9:2"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See EXTRADITION",
+      "label": "SeeEXTRADITION",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See PRISON",
+      "label": "SeePRI",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See PRISONERS",
+      "label": "SeePRI",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Mark",
-      "book_abbrev": "mrk",
-      "chapter": 14,
+      "book": "Matthew",
+      "chapter": 26,
+      "verses": [
+        57
+      ],
+      "verse_count": 1,
       "testament": "NT",
+      "raw": "Matthew 26:57"
+    },
+    {
+      "book": "Mark",
+      "chapter": 14,
       "verses": [
         46
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Mark 14:46"
     },
     {
       "book": "Luke",
-      "book_abbrev": "luk",
       "chapter": 22,
-      "testament": "NT",
       "verses": [
         54
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 22:54"
     },
     {
       "book": "John",
-      "book_abbrev": "jhn",
       "chapter": 18,
-      "testament": "NT",
       "verses": [
         12
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "John 18:12"
+    },
+    {
+      "book": "Acts",
+      "chapter": 5,
+      "verses": [
+        17,
+        18
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Acts 5:17,18"
+    },
+    {
+      "book": "Acts",
+      "chapter": 6,
+      "verses": [
+        12
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 6:12"
+    },
+    {
+      "book": "Acts",
+      "chapter": 16,
+      "verses": [
+        19
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 16:19"
+    },
+    {
+      "book": "Acts",
+      "chapter": 21,
+      "verses": [
+        30
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 21:30"
+    },
+    {
+      "book": "Acts",
+      "chapter": 9,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 9:2"
     }
   ],
-  "see_also": [
-    "PRISONERS",
-    "PRISON",
-    "EXTRADITION"
+  "books_mentioned": [
+    "Acts",
+    "John",
+    "Luke",
+    "Mark",
+    "Matthew"
   ],
-  "aliases": [],
   "stats": {
-    "entries_count": 8,
+    "total_aspects": 8,
+    "total_refs": 9,
     "ot_refs": 0,
-    "nt_refs": 3,
-    "total_verses": 3
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.669978+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    }
-  },
-  "version": "3.0.0"
+    "nt_refs": 9,
+    "books_count": 5,
+    "top_books": [
+      "Acts",
+      "Matthew",
+      "Mark",
+      "Luke",
+      "John"
+    ]
+  }
 }

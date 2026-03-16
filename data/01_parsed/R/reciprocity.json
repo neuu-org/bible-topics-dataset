@@ -1,58 +1,68 @@
 {
   "topic": "RECIPROCITY",
   "slug": "reciprocity",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "General scriptures concerning Ro 15:27; 1Co 9:11; Ga 6:6",
+      "label": "General scriptures concerning",
       "references": [
-        "Rom 15:27",
-        "1Cor 9:11",
-        "Gal 6:6"
+        "Romans 15:27",
+        "1 Corinthians 9:11",
+        "Galatians 6:6"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "1 Corinthians",
-      "book_abbrev": "1co",
-      "chapter": 9,
+      "book": "Romans",
+      "chapter": 15,
+      "verses": [
+        27
+      ],
+      "verse_count": 1,
       "testament": "NT",
+      "raw": "Romans 15:27"
+    },
+    {
+      "book": "1 Corinthians",
+      "chapter": 9,
       "verses": [
         11
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "1 Corinthians 9:11"
     },
     {
       "book": "Galatians",
-      "book_abbrev": "gal",
       "chapter": 6,
-      "testament": "NT",
       "verses": [
         6
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Galatians 6:6"
     }
   ],
-  "see_also": [],
-  "aliases": [],
+  "books_mentioned": [
+    "1 Corinthians",
+    "Galatians",
+    "Romans"
+  ],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 1,
+    "total_refs": 3,
     "ot_refs": 0,
-    "nt_refs": 2,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.720936+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    }
-  },
-  "version": "3.0.0"
+    "nt_refs": 3,
+    "books_count": 3,
+    "top_books": [
+      "Romans",
+      "1 Corinthians",
+      "Galatians"
+    ]
+  }
 }

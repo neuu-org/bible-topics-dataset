@@ -1,89 +1,114 @@
 {
   "topic": "GALATIA",
-  "topic_slug": "galatia",
+  "slug": "galatia",
   "canonical_id": "NAV:galatia",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–(A province of Asia Minor)\n–Its churches visited by PaulAc 16:6;18:23\n–Collection taken in, for Christians at Jerusalem1Co \n16:1\n–Peter’s address to1Pe 1:1\n–Churches inGa 1:1,2\n–See Paul’s epistle to GalatiansGa 1",
-  "content_preview": "–(A province of Asia Minor)",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–(A province of Asia Minor)",
-      "raw_segment": "–(A province of Asia Minor)"
+      "label": "(A province of Asia Minor)",
+      "references": []
     },
     {
-      "idx": 1,
-      "entry_label": "–Its churches visited by PaulAc 16:6;18:23",
-      "raw_segment": "–Its churches visited by PaulAc 16:6;18:23"
+      "label": "Its churches visited by Paul",
+      "references": [
+        "Acts 16:6",
+        "Acts 18:23"
+      ]
     },
     {
-      "idx": 2,
-      "entry_label": "–Collection taken in, for Christians at Jerusalem1Co \n16:1",
-      "raw_segment": "–Collection taken in, for Christians at Jerusalem1Co \n16:1"
+      "label": "Collection taken in, for Christians at",
+      "references": []
     },
     {
-      "idx": 3,
-      "entry_label": "–Peter’s address to1Pe 1:1",
-      "raw_segment": "–Peter’s address to1Pe 1:1"
+      "label": "16:1",
+      "references": []
     },
     {
-      "idx": 4,
-      "entry_label": "–Churches inGa 1:1,2",
-      "raw_segment": "–Churches inGa 1:1,2"
+      "label": "Peter’s address to",
+      "references": [
+        "1 Peter 1:1"
+      ]
     },
     {
-      "idx": 5,
-      "entry_label": "–See Paul’s epistle to GalatiansGa 1",
-      "raw_segment": "–See Paul’s epistle to GalatiansGa 1"
+      "label": "Churches in",
+      "references": [
+        "Galatians 1:1,2"
+      ]
+    },
+    {
+      "label": "See Paul’s epistle to GalatiansGa 1",
+      "references": []
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Acts",
+      "chapter": 16,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 16:6"
+    },
+    {
+      "book": "Acts",
+      "chapter": 18,
+      "verses": [
+        23
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 18:23"
+    },
+    {
+      "book": "Acts",
+      "chapter": 16,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 16:1"
+    },
+    {
+      "book": "1 Peter",
+      "chapter": 1,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "1 Peter 1:1"
+    },
+    {
+      "book": "Galatians",
+      "chapter": 1,
+      "verses": [
+        1,
+        2
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Galatians 1:1,2"
+    }
+  ],
+  "books_mentioned": [
+    "1 Peter",
+    "Acts",
+    "Galatians"
+  ],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 7,
+    "total_refs": 5,
     "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:81218a08e1fed78667a9fc6383388d05b989be829155142a24ad81ed8aea88ee",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 7
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "nt_refs": 5,
+    "books_count": 3,
+    "top_books": [
+      "Acts",
+      "1 Peter",
+      "Galatians"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:26:30.955560Z",
-  "updated_at": "2025-09-20T17:26:30.955568Z"
+  }
 }

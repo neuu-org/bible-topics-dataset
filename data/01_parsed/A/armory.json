@@ -1,82 +1,138 @@
 {
   "topic": "ARMORY",
   "slug": "armory",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "A place for the storage of armor Ne 3:19; So 4:4; Isa 22:8; 39:2",
-      "references": [
-        "Neh 3:19",
-        "Song 4:4",
-        "Isa 22:8",
-        "Isa 39:2"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "In different parts of the kingdom 1Ki 10:17; 2Ch 11:12",
-      "references": [
-        "1Kgs 10:17",
-        "2Chr 11:12"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "See JERUSALEM",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "FIGURATIVE Jer 50:25",
-      "references": [
-        "Jer 50:25"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "2 Chronicles",
-      "book_abbrev": "2ch",
-      "chapter": 11,
-      "testament": "OT",
-      "verses": [
-        12
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Isaiah",
-      "book_abbrev": "isa",
-      "chapter": 22,
-      "testament": "OT",
-      "verses": [
-        8,
-        39
-      ],
-      "verse_count": 2
-    }
+  "sources": [
+    "NAV"
   ],
   "see_also": [
     "JERUSALEM"
   ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 4,
-    "ot_refs": 2,
-    "nt_refs": 0,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.669838+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
+  "aspects": [
+    {
+      "label": "A place for the storage of armor",
+      "references": [
+        "Nehemiah 3:19",
+        "Song of Solomon 4:4"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "22:8;39:2",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "In different parts of the kingdom",
+      "references": [
+        "1 Kings 10:17",
+        "2 Chronicles 11:12"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "See",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "FIGURATIVE",
+      "references": [
+        "Jeremiah 50:25"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0"
+  ],
+  "biblical_references": [
+    {
+      "book": "Nehemiah",
+      "chapter": 3,
+      "verses": [
+        19
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Nehemiah 3:19"
+    },
+    {
+      "book": "Song of Solomon",
+      "chapter": 4,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Song of Solomon 4:4"
+    },
+    {
+      "book": "Song of Solomon",
+      "chapter": 22,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Song of Solomon 22:8"
+    },
+    {
+      "book": "Song of Solomon",
+      "chapter": 39,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Song of Solomon 39:2"
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 10,
+      "verses": [
+        17
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Kings 10:17"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 11,
+      "verses": [
+        12
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Chronicles 11:12"
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 50,
+      "verses": [
+        25
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Jeremiah 50:25"
+    }
+  ],
+  "books_mentioned": [
+    "1 Kings",
+    "2 Chronicles",
+    "Jeremiah",
+    "Nehemiah",
+    "Song of Solomon"
+  ],
+  "stats": {
+    "total_aspects": 5,
+    "total_refs": 7,
+    "ot_refs": 7,
+    "nt_refs": 0,
+    "books_count": 5,
+    "top_books": [
+      "Song of Solomon",
+      "Nehemiah",
+      "1 Kings",
+      "2 Chronicles",
+      "Jeremiah"
+    ]
+  }
 }

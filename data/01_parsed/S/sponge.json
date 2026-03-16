@@ -1,61 +1,22 @@
 {
   "topic": "SPONGE",
   "slug": "sponge",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "General scriptures concerning Mt 27:48; Mr 15:36; Joh 19:29",
-      "references": [
-        "Matt 27:48",
-        "Mark 15:36",
-        "John 19:29"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Mark",
-      "book_abbrev": "mrk",
-      "chapter": 15,
-      "testament": "NT",
-      "verses": [
-        36
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "John",
-      "book_abbrev": "jhn",
-      "chapter": 19,
-      "testament": "NT",
-      "verses": [
-        29
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 2,
-    "total_verses": 2
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.727417+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "General scriptures concerning",
+      "references": [
+        "Matthew 27:48",
+        "Mark 15:36",
+        "John 19:29"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Matthew",
       "chapter": 27,
@@ -64,8 +25,7 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Matthew 27:48",
-      "source": "EAS"
+      "raw": "Matthew 27:48"
     },
     {
       "book": "Mark",
@@ -75,8 +35,7 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Mark 15:36",
-      "source": "EAS"
+      "raw": "Mark 15:36"
     },
     {
       "book": "John",
@@ -86,8 +45,24 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "John 19:29",
-      "source": "EAS"
+      "raw": "John 19:29"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "John",
+    "Mark",
+    "Matthew"
+  ],
+  "stats": {
+    "total_aspects": 1,
+    "total_refs": 3,
+    "ot_refs": 0,
+    "nt_refs": 3,
+    "books_count": 3,
+    "top_books": [
+      "Matthew",
+      "Mark",
+      "John"
+    ]
+  }
 }

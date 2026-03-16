@@ -1,69 +1,85 @@
 {
   "topic": "BROTH",
-  "topic_slug": "broth",
+  "slug": "broth",
   "canonical_id": "NAV:broth",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–General scriptures concerningJud 6:19,20;2Ki 4:38;Isa 65:4\n–SymbolicalEze 24:5",
-  "content_preview": "–General scriptures concerningJud 6:19,20;2Ki 4:38;Isa 65:4",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–General scriptures concerningJud 6:19,20;2Ki 4:38;Isa 65:4",
-      "raw_segment": "–General scriptures concerningJud 6:19,20;2Ki 4:38;Isa 65:4"
+      "label": "General scriptures concerning",
+      "references": [
+        "Judges 6:19,20",
+        "2 Kings 4:38",
+        "Isaiah 65:4"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–SymbolicalEze 24:5",
-      "raw_segment": "–SymbolicalEze 24:5"
+      "label": "Symboli",
+      "references": [
+        "Ezekiel 24:5"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Judges",
+      "chapter": 6,
+      "verses": [
+        19,
+        20
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Judges 6:19,20"
+    },
+    {
+      "book": "2 Kings",
+      "chapter": 4,
+      "verses": [
+        38
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Kings 4:38"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 65,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 65:4"
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 24,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezekiel 24:5"
+    }
+  ],
+  "books_mentioned": [
+    "2 Kings",
+    "Ezekiel",
+    "Isaiah",
+    "Judges"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 2,
+    "total_refs": 4,
+    "ot_refs": 4,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:b2aa5cc68e3720904bbd668352a2d31d31af3cb4895e1712e1c1863de75aa7e0",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 4,
+    "top_books": [
+      "Judges",
+      "2 Kings",
+      "Isaiah",
+      "Ezekiel"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:24:40.714046Z",
-  "updated_at": "2025-09-20T17:24:40.714054Z"
+  }
 }

@@ -1,68 +1,37 @@
 {
   "topic": "YARN",
   "slug": "yarn",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "General scriptures concerning 1Ki 10:28; 2Ch 1:16",
-      "references": [
-        "1Kgs 10:28",
-        "2Chr 1:16"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "See WEAVING",
-      "references": [],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "2 Chronicles",
-      "book_abbrev": "2ch",
-      "chapter": 1,
-      "testament": "OT",
-      "verses": [
-        16
-      ],
-      "verse_count": 1
-    }
+  "sources": [
+    "NAV"
   ],
   "see_also": [
     "WEAVING"
   ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.733973+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "aspects": [
+    {
+      "label": "General scriptures concerning",
+      "references": [
+        "1 Kings 10:28",
+        "2 Chronicles 1:16"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeWEAVING",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "1 Kings",
       "chapter": 10,
       "verses": [
-        2,
         28
       ],
-      "verse_count": 2,
+      "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Kings 10:28, 2",
-      "source": "EAS"
+      "raw": "1 Kings 10:28"
     },
     {
       "book": "2 Chronicles",
@@ -72,19 +41,22 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Chronicles 1:16",
-      "source": "EAS"
-    },
-    {
-      "book": "1 Kings",
-      "chapter": 10,
-      "verses": [
-        28
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "1 Kings 10:28",
-      "source": "SMI"
+      "raw": "2 Chronicles 1:16"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Kings",
+    "2 Chronicles"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 2,
+    "ot_refs": 2,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "1 Kings",
+      "2 Chronicles"
+    ]
+  }
 }

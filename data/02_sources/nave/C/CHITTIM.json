@@ -1,79 +1,122 @@
 {
   "topic": "CHITTIM",
-  "topic_slug": "chittim",
+  "slug": "chittim",
   "canonical_id": "NAV:chittim",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–Descendants of JavanGe 10:4\n–Probably inhabited islands of the MediterraneanIsa \n23:1,12;Jer 2:10\n–Their commerceEze 27:6\n–Prophecies concerningNu 24:24;Da 11:30",
-  "content_preview": "–Descendants of JavanGe 10:4",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–Descendants of JavanGe 10:4",
-      "raw_segment": "–Descendants of JavanGe 10:4"
+      "label": "General references",
+      "references": [
+        "Genesis 10:4"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–Probably inhabited islands of the MediterraneanIsa \n23:1,12;Jer 2:10",
-      "raw_segment": "–Probably inhabited islands of the MediterraneanIsa \n23:1,12;Jer 2:10"
+      "label": "Probably inhabited islands of the Mediterranean",
+      "references": []
     },
     {
-      "idx": 2,
-      "entry_label": "–Their commerceEze 27:6",
-      "raw_segment": "–Their commerceEze 27:6"
+      "label": "23:1,12;",
+      "references": [
+        "Jeremiah 2:10"
+      ]
     },
     {
-      "idx": 3,
-      "entry_label": "–Prophecies concerningNu 24:24;Da 11:30",
-      "raw_segment": "–Prophecies concerningNu 24:24;Da 11:30"
+      "label": "Their commerce",
+      "references": [
+        "Ezekiel 27:6"
+      ]
+    },
+    {
+      "label": "Prophecies concerning",
+      "references": [
+        "Numbers 24:24",
+        "Daniel 11:30"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Genesis",
+      "chapter": 10,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 10:4"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 23,
+      "verses": [
+        1,
+        12
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Genesis 23:1,12"
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 2,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Jeremiah 2:10"
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 27,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezekiel 27:6"
+    },
+    {
+      "book": "Numbers",
+      "chapter": 24,
+      "verses": [
+        24
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Numbers 24:24"
+    },
+    {
+      "book": "Daniel",
+      "chapter": 11,
+      "verses": [
+        30
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Daniel 11:30"
+    }
+  ],
+  "books_mentioned": [
+    "Daniel",
+    "Ezekiel",
+    "Genesis",
+    "Jeremiah",
+    "Numbers"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 5,
+    "total_refs": 6,
+    "ot_refs": 6,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:ef72eca52cf40be5a45576c9baf69d1efeb03d03763e59f96a82d69f95c26094",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 5
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 5,
+    "top_books": [
+      "Genesis",
+      "Jeremiah",
+      "Ezekiel",
+      "Numbers",
+      "Daniel"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:25:01.093349Z",
-  "updated_at": "2025-09-20T17:25:01.093357Z"
+  }
 }

@@ -1,21 +1,29 @@
 {
-  "topic": "Seba",
+  "topic": "SEBA",
   "slug": "seba",
-  "type": "topic",
-  "reference_groups": [],
-  "biblical_references": [],
-  "stats": {},
-  "sources": [],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.723439+00:00",
-    "merged_from": {
-      "v2": false,
-      "dictionary": true
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "1.",
+      "references": [
+        "Genesis 10:7",
+        "1 Chronicles 1:9"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2. A region in Ethiopia",
+      "references": [
+        "Psalms 72:10",
+        "Isaiah 43:3"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Genesis",
       "chapter": 10,
@@ -24,41 +32,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 10:7",
-      "source": "EAS"
-    },
-    {
-      "book": "Isaiah",
-      "chapter": 43,
-      "verses": [
-        3
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Isaiah 43:3",
-      "source": "EAS"
-    },
-    {
-      "book": "Isaiah",
-      "chapter": 45,
-      "verses": [
-        14
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Isaiah 45:14",
-      "source": "EAS"
-    },
-    {
-      "book": "Psalms",
-      "chapter": 72,
-      "verses": [
-        10
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Psalms 72:10",
-      "source": "EAS"
+      "raw": "Genesis 10:7"
     },
     {
       "book": "1 Chronicles",
@@ -68,8 +42,46 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 1:9",
-      "source": "SMI"
+      "raw": "1 Chronicles 1:9"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 72,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 72:10"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 43,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 43:3"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Genesis",
+    "Isaiah",
+    "Psalms"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 4,
+    "ot_refs": 4,
+    "nt_refs": 0,
+    "books_count": 4,
+    "top_books": [
+      "Genesis",
+      "1 Chronicles",
+      "Psalms",
+      "Isaiah"
+    ]
+  }
 }

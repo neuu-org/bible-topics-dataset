@@ -1,136 +1,76 @@
 {
   "topic": "ASSHUR",
   "slug": "asshur",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Son of Shem, and ancestor of the Assyrians Ge 10:11,22; 1Ch 1:17; Eze 32:22",
-      "references": [
-        "Gen 10:11",
-        "Gen 10:22",
-        "1Chr 1:17",
-        "Ezek 32:22"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "See ASSYRIA",
-      "references": [],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "1 Chronicles",
-      "book_abbrev": "1ch",
-      "chapter": 1,
-      "testament": "OT",
-      "verses": [
-        17
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Ezekiel",
-      "book_abbrev": "ezk",
-      "chapter": 32,
-      "testament": "OT",
-      "verses": [
-        22
-      ],
-      "verse_count": 1
-    }
+  "sources": [
+    "NAV"
   ],
   "see_also": [
     "ASSYRIA"
   ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 2,
-    "nt_refs": 0,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.670596+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "aspects": [
+    {
+      "label": "General references",
+      "references": [
+        "Genesis 10:11,22",
+        "1 Chronicles 1:17",
+        "Ezekiel 32:22"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeASSYRIA",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "Genesis",
-      "chapter": 10,
-      "verses": [
-        22
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Genesis 10:22",
-      "source": "EAS"
-    },
-    {
-      "book": "1 Chronicles",
-      "chapter": 1,
-      "verses": [
-        17
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "1 Chronicles 1:17",
-      "source": "EAS"
-    },
+  ],
+  "biblical_references": [
     {
       "book": "Genesis",
       "chapter": 10,
       "verses": [
         11,
-        12
+        22
       ],
       "verse_count": 2,
       "testament": "OT",
-      "raw": "Genesis 10:11, 12",
-      "source": "EAS"
+      "raw": "Genesis 10:11,22"
     },
     {
-      "book": "Numbers",
-      "chapter": 24,
+      "book": "1 Chronicles",
+      "chapter": 1,
       "verses": [
-        22,
-        24
+        17
       ],
-      "verse_count": 2,
+      "verse_count": 1,
       "testament": "OT",
-      "raw": "Numbers 24:22, 24",
-      "source": "EAS"
+      "raw": "1 Chronicles 1:17"
     },
     {
       "book": "Ezekiel",
-      "chapter": 27,
+      "chapter": 32,
       "verses": [
-        23
+        22
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Ezekiel 27:23",
-      "source": "EAS"
-    },
-    {
-      "book": "Genesis",
-      "chapter": 2,
-      "verses": [
-        14
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Genesis 2:14",
-      "source": "EAS"
+      "raw": "Ezekiel 32:22"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Ezekiel",
+    "Genesis"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 3,
+    "ot_refs": 3,
+    "nt_refs": 0,
+    "books_count": 3,
+    "top_books": [
+      "Genesis",
+      "1 Chronicles",
+      "Ezekiel"
+    ]
+  }
 }

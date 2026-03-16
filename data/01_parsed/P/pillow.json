@@ -1,100 +1,152 @@
 {
   "topic": "PILLOW",
   "slug": "pillow",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "1. A cushion Ge 28:11,18; 1Sa 26:7,11,16",
+      "label": "1. A cushion",
       "references": [
-        "Gen 28:11",
-        "Gen 28:18",
-        "1Sam 26:7",
-        "1Sam 26:11",
-        "1Sam 26:16"
+        "Genesis 28:11,18",
+        "1 Samuel 26:7,11,16"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "2. A support for the head",
+      "label": "2. A support for the head",
       "references": [],
-      "sub_groups": [
-        {
-          "name": "Stones used for Ge 28:11,18",
-          "references": [
-            "Gen 28:11",
-            "Gen 28:18"
-          ]
-        },
-        {
-          "name": "Called bolster 1Sa 26:7,11,12,16",
-          "references": [
-            "1Sam 26:7",
-            "1Sam 26:11",
-            "1Sam 26:12",
-            "1Sam 26:16"
-          ]
-        },
-        {
-          "name": "Made of goats’ hair 1Sa 19:13,16",
-          "references": [
-            "1Sam 19:13",
-            "1Sam 19:16"
-          ]
-        },
-        {
-          "name": "Jesus sleeps upon Mr 4:38",
-          "references": [
-            "Mark 4:38"
-          ]
-        }
-      ]
+      "source": "NAV"
     },
     {
-      "name": "FIGURATIVE",
+      "label": ".Stones used for",
+      "references": [
+        "Genesis 28:11,18"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".",
+      "references": [
+        "1 Samuel 26:7,11,12,16"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".Ma",
+      "references": [
+        "1 Samuel 19:13,16"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".Jesus sleeps upon",
+      "references": [
+        "Mark 4:38"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "FIGURATIVE",
       "references": [],
-      "sub_groups": [
-        {
-          "name": "Of false teachers Eze 13:18,20",
-          "references": [
-            "Ezek 13:18",
-            "Ezek 13:20"
-          ]
-        }
-      ]
+      "source": "NAV"
+    },
+    {
+      "label": ".Of false teachers",
+      "references": [
+        "Ezekiel 13:18,20"
+      ],
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "1 Samuel",
-      "book_abbrev": "1sa",
-      "chapter": 26,
+      "book": "Genesis",
+      "chapter": 28,
+      "verses": [
+        11,
+        18
+      ],
+      "verse_count": 2,
       "testament": "OT",
+      "raw": "Genesis 28:11,18"
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 26,
       "verses": [
         7,
         11,
         16
       ],
-      "verse_count": 3
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "1 Samuel 26:7,11,16"
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 26,
+      "verses": [
+        7,
+        11,
+        12,
+        16
+      ],
+      "verse_count": 4,
+      "testament": "OT",
+      "raw": "1 Samuel 26:7,11,12,16"
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 19,
+      "verses": [
+        13,
+        16
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "1 Samuel 19:13,16"
+    },
+    {
+      "book": "Mark",
+      "chapter": 4,
+      "verses": [
+        38
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Mark 4:38"
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 13,
+      "verses": [
+        18,
+        20
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Ezekiel 13:18,20"
     }
   ],
-  "see_also": [],
-  "aliases": [],
+  "books_mentioned": [
+    "1 Samuel",
+    "Ezekiel",
+    "Genesis",
+    "Mark"
+  ],
   "stats": {
-    "entries_count": 3,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.718479+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    }
-  },
-  "version": "3.0.0"
+    "total_aspects": 8,
+    "total_refs": 6,
+    "ot_refs": 5,
+    "nt_refs": 1,
+    "books_count": 4,
+    "top_books": [
+      "1 Samuel",
+      "Genesis",
+      "Mark",
+      "Ezekiel"
+    ]
+  }
 }

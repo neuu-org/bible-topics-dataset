@@ -1,82 +1,108 @@
 {
   "topic": "ACCURSED",
   "slug": "accursed",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "What so called De 21:23; Jos 6:17; 7:1; 1Ch 2:7; Isa 65:20; Ga 1:8",
+      "label": "What",
       "references": [
-        "Deut 21:23",
-        "Josh 6:17",
-        "Josh 7:1",
-        "1Chr 2:7",
-        "Isa 65:20",
-        "Gal 1:8"
+        "Deuteronomy 21:23",
+        "Joshua 6:17",
+        "Joshua 7:1",
+        "1 Chronicles 2:7"
       ],
-      "sub_groups": []
+      "source": "NAV"
+    },
+    {
+      "label": "65:20;",
+      "references": [
+        "Galatians 1:8"
+      ],
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Joshua",
-      "book_abbrev": "jos",
-      "chapter": 6,
-      "testament": "OT",
+      "book": "Deuteronomy",
+      "chapter": 21,
       "verses": [
-        7,
+        23
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 21:23"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 6,
+      "verses": [
         17
       ],
-      "verse_count": 2
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 6:17"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 7,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 7:1"
     },
     {
       "book": "1 Chronicles",
-      "book_abbrev": "1ch",
       "chapter": 2,
-      "testament": "OT",
       "verses": [
         7
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 2:7"
     },
     {
-      "book": "Isaiah",
-      "book_abbrev": "isa",
+      "book": "1 Chronicles",
       "chapter": 65,
-      "testament": "OT",
       "verses": [
         20
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 65:20"
     },
     {
       "book": "Galatians",
-      "book_abbrev": "gal",
       "chapter": 1,
-      "testament": "NT",
       "verses": [
         8
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Galatians 1:8"
     }
   ],
-  "see_also": [],
-  "aliases": [],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Deuteronomy",
+    "Galatians",
+    "Joshua"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 3,
+    "total_aspects": 2,
+    "total_refs": 6,
+    "ot_refs": 5,
     "nt_refs": 1,
-    "total_verses": 4
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.660877+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    }
-  },
-  "version": "3.0.0"
+    "books_count": 4,
+    "top_books": [
+      "Joshua",
+      "1 Chronicles",
+      "Deuteronomy",
+      "Galatians"
+    ]
+  }
 }

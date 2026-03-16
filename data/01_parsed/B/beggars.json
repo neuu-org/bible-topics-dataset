@@ -1,104 +1,195 @@
 {
   "topic": "BEGGARS",
   "slug": "beggars",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Set among princes 1Sa 2:8",
-      "references": [
-        "1Sam 2:8"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Not the seed of the righteous Ps 37:25",
-      "references": [
-        "Ps 37:25"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "The children of the wicked Ps 109:10; Pr 20:4; Lu 16:3",
-      "references": [
-        "Ps 109:10",
-        "Prov 20:4",
-        "Luke 16:3"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "INSTANCES OF",
-      "references": [],
-      "sub_groups": [
-        {
-          "name": "Bartimaeus Mr 10:46",
-          "references": [
-            "Mark 10:46"
-          ]
-        },
-        {
-          "name": "Lazarus Lu 16:20-22",
-          "references": [
-            "Luke 16:20-22"
-          ]
-        },
-        {
-          "name": "The blind man Joh 9:8",
-          "references": [
-            "John 9:8"
-          ]
-        },
-        {
-          "name": "The lame man Ac 3:2-5",
-          "references": [
-            "Acts 3:2-5"
-          ]
-        }
-      ]
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Proverbs",
-      "book_abbrev": "pro",
-      "chapter": 20,
-      "testament": "OT",
-      "verses": [
-        4
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Luke",
-      "book_abbrev": "luk",
-      "chapter": 16,
-      "testament": "NT",
-      "verses": [
-        3
-      ],
-      "verse_count": 1
-    }
+  "sources": [
+    "NAV"
   ],
   "see_also": [
     "POOR"
   ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 4,
-    "ot_refs": 1,
-    "nt_refs": 1,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.672942+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
+  "aspects": [
+    {
+      "label": "Set among princes",
+      "references": [
+        "1 Samuel 2:8"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Not the seed of the righteous",
+      "references": [
+        "Psalms 37:25"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "The children of the wicked",
+      "references": [
+        "Psalms 109:10",
+        "Proverbs 20:4",
+        "Luke 16:3"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "INSTANCES OF",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".Bartimaeus",
+      "references": [
+        "Mark 10:46"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".Lazarus",
+      "references": [
+        "Luke 16:20-22"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".The blind man",
+      "references": [
+        "John 9:8"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".The lame man",
+      "references": [
+        "Acts 3:2-5"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".SeePOOR",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0"
+  ],
+  "biblical_references": [
+    {
+      "book": "1 Samuel",
+      "chapter": 2,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Samuel 2:8"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 37,
+      "verses": [
+        25
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 37:25"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 109,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 109:10"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 20,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 20:4"
+    },
+    {
+      "book": "Luke",
+      "chapter": 16,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 16:3"
+    },
+    {
+      "book": "Mark",
+      "chapter": 10,
+      "verses": [
+        46
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Mark 10:46"
+    },
+    {
+      "book": "Luke",
+      "chapter": 16,
+      "verses": [
+        20,
+        21,
+        22
+      ],
+      "verse_count": 3,
+      "testament": "NT",
+      "raw": "Luke 16:20-22"
+    },
+    {
+      "book": "John",
+      "chapter": 9,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "John 9:8"
+    },
+    {
+      "book": "Acts",
+      "chapter": 3,
+      "verses": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "verse_count": 4,
+      "testament": "NT",
+      "raw": "Acts 3:2-5"
+    }
+  ],
+  "books_mentioned": [
+    "1 Samuel",
+    "Acts",
+    "John",
+    "Luke",
+    "Mark",
+    "Proverbs",
+    "Psalms"
+  ],
+  "stats": {
+    "total_aspects": 9,
+    "total_refs": 9,
+    "ot_refs": 4,
+    "nt_refs": 5,
+    "books_count": 7,
+    "top_books": [
+      "Psalms",
+      "Luke",
+      "1 Samuel",
+      "Proverbs",
+      "Mark",
+      "John",
+      "Acts"
+    ]
+  }
 }

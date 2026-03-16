@@ -1,167 +1,57 @@
 {
   "topic": "ORACLE",
   "slug": "oracle",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "The holy place 1Ki 6:5; Ps 28:2",
-      "references": [
-        "1Kgs 6:5",
-        "Ps 28:2"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "The Scriptures are called “oracles,” Ac 7:38; Ro 3:2; Heb 5:12; 1Pe 4:11",
-      "references": [
-        "Acts 7:38",
-        "Rom 3:2",
-        "Heb 5:12",
-        "1Pet 4:11"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "See TABERNACLE",
-      "references": [],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Psalms",
-      "book_abbrev": "psa",
-      "chapter": 28,
-      "testament": "OT",
-      "verses": [
-        2
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Acts",
-      "book_abbrev": "act",
-      "chapter": 7,
-      "testament": "NT",
-      "verses": [
-        38
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Romans",
-      "book_abbrev": "rom",
-      "chapter": 3,
-      "testament": "NT",
-      "verses": [
-        2
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Hebrews",
-      "book_abbrev": "heb",
-      "chapter": 5,
-      "testament": "NT",
-      "verses": [
-        1,
-        12
-      ],
-      "verse_count": 2
-    },
-    {
-      "book": "1 Peter",
-      "book_abbrev": "1pe",
-      "chapter": 4,
-      "testament": "NT",
-      "verses": [
-        11
-      ],
-      "verse_count": 1
-    }
+  "sources": [
+    "NAV"
   ],
   "see_also": [
     "TABERNACLE"
   ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 1,
-    "nt_refs": 4,
-    "total_verses": 5
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.716235+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "aspects": [
+    {
+      "label": "The holy place",
+      "references": [
+        "1 Kings 6:5",
+        "Psalms 28:2"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "The Scriptures are",
+      "references": [
+        "Acts 7:38",
+        "Romans 3:2",
+        "Hebrews 5:12",
+        "1 Peter 4:11"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeTABERNACLE",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "1 Kings",
       "chapter": 6,
       "verses": [
-        5,
-        19,
-        20,
-        21,
-        22,
-        23
-      ],
-      "verse_count": 6,
-      "testament": "OT",
-      "raw": "1 Kings 6:5, 19-23",
-      "source": "EAS"
-    },
-    {
-      "book": "1 Kings",
-      "chapter": 8,
-      "verses": [
-        6
+        5
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Kings 8:6",
-      "source": "EAS"
+      "raw": "1 Kings 6:5"
     },
     {
-      "book": "Romans",
-      "chapter": 3,
+      "book": "Psalms",
+      "chapter": 28,
       "verses": [
         2
       ],
       "verse_count": 1,
-      "testament": "NT",
-      "raw": "Romans 3:2",
-      "source": "EAS"
-    },
-    {
-      "book": "Hebrews",
-      "chapter": 5,
-      "verses": [
-        12
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Hebrews 5:12",
-      "source": "EAS"
-    },
-    {
-      "book": "Hebrews",
-      "chapter": 4,
-      "verses": [
-        12
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Hebrews 4:12",
-      "source": "EAS"
+      "testament": "OT",
+      "raw": "Psalms 28:2"
     },
     {
       "book": "Acts",
@@ -171,19 +61,60 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Acts 7:38",
-      "source": "EAS"
+      "raw": "Acts 7:38"
     },
     {
-      "book": "2 Samuel",
-      "chapter": 16,
+      "book": "Romans",
+      "chapter": 3,
       "verses": [
-        23
+        2
       ],
       "verse_count": 1,
-      "testament": "OT",
-      "raw": "2 Samuel 16:23",
-      "source": "EAS"
+      "testament": "NT",
+      "raw": "Romans 3:2"
+    },
+    {
+      "book": "Hebrews",
+      "chapter": 5,
+      "verses": [
+        12
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Hebrews 5:12"
+    },
+    {
+      "book": "1 Peter",
+      "chapter": 4,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "1 Peter 4:11"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Kings",
+    "1 Peter",
+    "Acts",
+    "Hebrews",
+    "Psalms",
+    "Romans"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 6,
+    "ot_refs": 2,
+    "nt_refs": 4,
+    "books_count": 6,
+    "top_books": [
+      "1 Kings",
+      "Psalms",
+      "Acts",
+      "Romans",
+      "Hebrews",
+      "1 Peter"
+    ]
+  }
 }

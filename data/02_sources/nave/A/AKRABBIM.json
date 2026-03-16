@@ -1,64 +1,66 @@
 {
   "topic": "AKRABBIM",
-  "topic_slug": "akrabbim",
+  "slug": "akrabbim",
   "canonical_id": "NAV:akrabbim",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–A chain of hills in the south of PalestineNu 34:4;Jos 15:3;Jud 1:36",
-  "content_preview": "–A chain of hills in the south of PalestineNu 34:4;Jos 15:3;Jud 1:36",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–A chain of hills in the south of PalestineNu 34:4;Jos 15:3;Jud 1:36",
-      "raw_segment": "–A chain of hills in the south of PalestineNu 34:4;Jos 15:3;Jud 1:36"
+      "label": "A chain of hills in the",
+      "references": [
+        "Numbers 34:4",
+        "Joshua 15:3",
+        "Judges 1:36"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Numbers",
+      "chapter": 34,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Numbers 34:4"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 15,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 15:3"
+    },
+    {
+      "book": "Judges",
+      "chapter": 1,
+      "verses": [
+        36
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Judges 1:36"
+    }
+  ],
+  "books_mentioned": [
+    "Joshua",
+    "Judges",
+    "Numbers"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 1,
+    "total_refs": 3,
+    "ot_refs": 3,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:4b292618809dddea99e0e2d4f263019e526dd3651f6fbda0a27339ca67e866a8",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 1
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 3,
+    "top_books": [
+      "Numbers",
+      "Joshua",
+      "Judges"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:23:27.394655Z",
-  "updated_at": "2025-09-20T17:23:27.394662Z"
+  }
 }

@@ -1,31 +1,247 @@
 {
-  "topic": "Shoe",
+  "topic": "SHOE",
   "slug": "shoe",
-  "type": "topic",
-  "reference_groups": [],
-  "biblical_references": [],
-  "stats": {},
-  "sources": [],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.725892+00:00",
-    "merged_from": {
-      "v2": false,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "book": "Deuteronomy",
-      "chapter": 33,
+      "label": "Removed while on holy groun",
+      "references": [
+        "Exodus 3:5",
+        "Joshua 5:15",
+        "Acts 7:33"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Taken off at a time of mourning",
+      "references": [
+        "Ezekiel 24:17"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Of the people of Israel did not get old",
+      "references": [
+        "Deuteronomy 29:5"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Loosened as a sign of refusal to observe the levirate marriage",
+      "references": [
+        "Deuteronomy 25:9",
+        "Ruth 4:7,8"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Poor people",
+      "references": [
+        "Amos 2:6",
+        "Amos 8:6"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Ma",
+      "references": [
+        "Ezekiel 16:10"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Thong of",
+      "references": [
+        "Genesis 14:23",
+        "Isaiah 5:27",
+        "Mark 1:7"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Loosing of, a humble service",
+      "references": [
+        "Luke 3:16"
+      ],
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
+    {
+      "book": "Exodus",
+      "chapter": 3,
       "verses": [
-        25
+        5
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Deuteronomy 33:25",
-      "source": "EAS"
+      "raw": "Exodus 3:5"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 5,
+      "verses": [
+        15
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 5:15"
+    },
+    {
+      "book": "Acts",
+      "chapter": 7,
+      "verses": [
+        33
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 7:33"
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 24,
+      "verses": [
+        17
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezekiel 24:17"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 29,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 29:5"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 25,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 25:9"
+    },
+    {
+      "book": "Ruth",
+      "chapter": 4,
+      "verses": [
+        7,
+        8
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Ruth 4:7,8"
+    },
+    {
+      "book": "Amos",
+      "chapter": 2,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Amos 2:6"
+    },
+    {
+      "book": "Amos",
+      "chapter": 8,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Amos 8:6"
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 16,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezekiel 16:10"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 14,
+      "verses": [
+        23
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 14:23"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 5,
+      "verses": [
+        27
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 5:27"
+    },
+    {
+      "book": "Mark",
+      "chapter": 1,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Mark 1:7"
+    },
+    {
+      "book": "Luke",
+      "chapter": 3,
+      "verses": [
+        16
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 3:16"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Acts",
+    "Amos",
+    "Deuteronomy",
+    "Exodus",
+    "Ezekiel",
+    "Genesis",
+    "Isaiah",
+    "Joshua",
+    "Luke",
+    "Mark",
+    "Ruth"
+  ],
+  "stats": {
+    "total_aspects": 8,
+    "total_refs": 14,
+    "ot_refs": 11,
+    "nt_refs": 3,
+    "books_count": 11,
+    "top_books": [
+      "Ezekiel",
+      "Deuteronomy",
+      "Amos",
+      "Exodus",
+      "Joshua",
+      "Acts",
+      "Ruth",
+      "Genesis",
+      "Isaiah",
+      "Mark"
+    ]
+  }
 }

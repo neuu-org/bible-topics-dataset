@@ -1,8 +1,8 @@
 {
   "topic": "CRUELTY",
-  "topic_slug": "cruelty",
+  "slug": "cruelty",
   "canonical_id": "NAV:cruelty",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "LOVE",
     "KINDNESS",
@@ -10,92 +10,221 @@
     "ANIMALS, CRUELTY TO",
     "MALICE"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "LOVE",
-      "clean": "LOVE",
-      "slug": "love",
-      "canonical_id": "NAV:love"
+      "label": "INSTANCES OF",
+      "references": []
     },
     {
-      "original": "KINDNESS",
-      "clean": "KINDNESS",
-      "slug": "kindness",
-      "canonical_id": "NAV:kindness"
+      "label": ".Of Sarah to Hagar",
+      "references": [
+        "Genesis 16:6",
+        "Genesis 21:9-14"
+      ]
     },
     {
-      "original": "PRISONERS OF WAR",
-      "clean": "PRISONERS OF WAR",
-      "slug": "prisoners_of_war",
-      "canonical_id": "NAV:prisoners_of_war"
+      "label": ".Egyptians to the Israelites",
+      "references": [
+        "Exodus 5:6-18"
+      ]
     },
     {
-      "original": "ANIMALS, CRUELTY TO",
-      "clean": "ANIMALS, CRUELTY TO",
-      "slug": "animals__cruelty_to",
-      "canonical_id": "NAV:animals__cruelty_to"
+      "label": ".Peninnah to Hannah",
+      "references": [
+        "1 Samuel 1:4-7",
+        "1 Samuel 2:3"
+      ]
     },
     {
-      "original": "MALICE",
-      "clean": "MALICE",
-      "slug": "malice",
-      "canonical_id": "NAV:malice"
+      "label": ".Of Jews to Jesus",
+      "references": [
+        "Matthew 26:67",
+        "Matthew 27:28-31"
+      ]
+    },
+    {
+      "label": ".",
+      "references": [
+        "Luke 22:64",
+        "John 19:3"
+      ]
+    },
+    {
+      "label": ".In war",
+      "references": [
+        "Isaiah 13:16,18"
+      ]
+    },
+    {
+      "label": ".SeeANIMALS, CRUELTY TO",
+      "references": []
+    },
+    {
+      "label": ".SeeKINDNESS",
+      "references": []
+    },
+    {
+      "label": ".SeeLOVE",
+      "references": []
+    },
+    {
+      "label": ".SeeMALICE",
+      "references": []
+    },
+    {
+      "label": ".SeePRI",
+      "references": []
     }
   ],
-  "raw_block": "–INSTANCES OF\n  .Of Sarah to HagarGe 16:6;21:9-14\n  .Egyptians to the IsraelitesEx 5:6-18\n  .Peninnah to Hannah1Sa 1:4-7;2:3\n  .Of Jews to JesusMt 26:67;27:28-31\n  .Soldiers to JesusLu 22:64;Joh 19:3\n  .In warIsa 13:16,18\n  .SeeANIMALS, CRUELTY TO\n  .SeeKINDNESS\n  .SeeLOVE\n  .SeeMALICE\n  .SeePRISONERS OF WAR",
-  "content_preview": "–INSTANCES OF",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–INSTANCES OF",
-      "raw_segment": "–INSTANCES OF"
+      "book": "Genesis",
+      "chapter": 16,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 16:6"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 21,
+      "verses": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "verse_count": 6,
+      "testament": "OT",
+      "raw": "Genesis 21:9-14"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 5,
+      "verses": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "verse_count": 13,
+      "testament": "OT",
+      "raw": "Exodus 5:6-18"
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 1,
+      "verses": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "verse_count": 4,
+      "testament": "OT",
+      "raw": "1 Samuel 1:4-7"
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 2,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Samuel 2:3"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 26,
+      "verses": [
+        67
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 26:67"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 27,
+      "verses": [
+        28,
+        29,
+        30,
+        31
+      ],
+      "verse_count": 4,
+      "testament": "NT",
+      "raw": "Matthew 27:28-31"
+    },
+    {
+      "book": "Luke",
+      "chapter": 22,
+      "verses": [
+        64
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 22:64"
+    },
+    {
+      "book": "John",
+      "chapter": 19,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "John 19:3"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 13,
+      "verses": [
+        16,
+        18
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Isaiah 13:16,18"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "1 Samuel",
+    "Exodus",
+    "Genesis",
+    "Isaiah",
+    "John",
+    "Luke",
+    "Matthew"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:e5bcb2b04b49c270eb8059a91593f2b5119d2448e4d40c0d1f7b7956aacf2d6d",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 12
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 12,
+    "total_refs": 10,
+    "ot_refs": 6,
+    "nt_refs": 4,
+    "books_count": 7,
+    "top_books": [
+      "Genesis",
+      "1 Samuel",
+      "Matthew",
+      "Exodus",
+      "Luke",
+      "John",
+      "Isaiah"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:25:21.949512Z",
-  "updated_at": "2025-09-20T17:25:21.949519Z"
+  }
 }

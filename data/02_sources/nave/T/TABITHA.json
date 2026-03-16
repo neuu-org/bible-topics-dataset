@@ -1,88 +1,59 @@
 {
   "topic": "TABITHA",
-  "topic_slug": "tabitha",
+  "slug": "tabitha",
   "canonical_id": "NAV:tabitha",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "DORCAS"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "DORCAS",
-      "clean": "DORCAS",
-      "slug": "dorcas",
-      "canonical_id": "NAV:dorcas"
+      "label": "(Her Aramaic name)",
+      "references": []
+    },
+    {
+      "label": "(A Christian woman in the city of Joppa)",
+      "references": []
+    },
+    {
+      "label": "SeeDOR",
+      "references": []
+    },
+    {
+      "label": "Restored to life by Peter",
+      "references": [
+        "Acts 9:36-41"
+      ]
     }
   ],
-  "raw_block": "–(Her Aramaic name)\n–(A Christian woman in the city of Joppa)\n–SeeDORCAS(her Greek name)\n–Restored to life by PeterAc 9:36-41",
-  "content_preview": "–(Her Aramaic name)",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–(Her Aramaic name)",
-      "raw_segment": "–(Her Aramaic name)"
-    },
-    {
-      "idx": 1,
-      "entry_label": "–(A Christian woman in the city of Joppa)",
-      "raw_segment": "–(A Christian woman in the city of Joppa)"
-    },
-    {
-      "idx": 2,
-      "entry_label": "–SeeDORCAS(her Greek name)",
-      "raw_segment": "–SeeDORCAS(her Greek name)"
-    },
-    {
-      "idx": 3,
-      "entry_label": "–Restored to life by PeterAc 9:36-41",
-      "raw_segment": "–Restored to life by PeterAc 9:36-41"
+      "book": "Acts",
+      "chapter": 9,
+      "verses": [
+        36,
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "verse_count": 6,
+      "testament": "NT",
+      "raw": "Acts 9:36-41"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "Acts"
+  ],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 4,
+    "total_refs": 1,
     "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:ca2dbe137aa0c988f6f8704164ce6e421ba348af7685f9abcc76dbdb873acf25",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 4
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "nt_refs": 1,
+    "books_count": 1,
+    "top_books": [
+      "Acts"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:31:57.249363Z",
-  "updated_at": "2025-09-20T17:31:57.249370Z"
+  }
 }

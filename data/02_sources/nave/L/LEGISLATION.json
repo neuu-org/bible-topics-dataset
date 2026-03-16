@@ -1,100 +1,147 @@
 {
   "topic": "LEGISLATION",
-  "topic_slug": "legislation",
+  "slug": "legislation",
   "canonical_id": "NAV:legislation",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "LAW",
     "GOVERNMENT"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "LAW",
-      "clean": "LAW",
-      "slug": "law",
-      "canonical_id": "NAV:law"
+      "label": "Class, forbid",
+      "references": [
+        "Exodus 12:49",
+        "Leviticus 24:22",
+        "Numbers 9:14",
+        "Numbers 15:15,29",
+        "Galatians 3:28"
+      ]
     },
     {
-      "original": "GOVERNMENT",
-      "clean": "GOVERNMENT",
-      "slug": "government",
-      "canonical_id": "NAV:government"
+      "label": "Supplemental, concerning Sabbath-breaking",
+      "references": [
+        "Numbers 15:32-35"
+      ]
+    },
+    {
+      "label": "Inheritance",
+      "references": [
+        "Numbers 27:1-11"
+      ]
+    },
+    {
+      "label": "SeeGOVERNMENT",
+      "references": []
+    },
+    {
+      "label": "SeeLAW",
+      "references": []
     }
   ],
-  "raw_block": "–Class, forbiddenEx 12:49;Le 24:22;Nu 9:14;15:15,29;Ga 3:28\n–Supplemental, concerning Sabbath-breakingNu 15:32-35\n–InheritanceNu 27:1-11\n–SeeGOVERNMENT\n–SeeLAW",
-  "content_preview": "–Class, forbiddenEx 12:49;Le 24:22;Nu 9:14;15:15,29;Ga 3:28",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–Class, forbiddenEx 12:49;Le 24:22;Nu 9:14;15:15,29;Ga 3:28",
-      "raw_segment": "–Class, forbiddenEx 12:49;Le 24:22;Nu 9:14;15:15,29;Ga 3:28"
+      "book": "Exodus",
+      "chapter": 12,
+      "verses": [
+        49
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 12:49"
     },
     {
-      "idx": 1,
-      "entry_label": "–Supplemental, concerning Sabbath-breakingNu 15:32-35",
-      "raw_segment": "–Supplemental, concerning Sabbath-breakingNu 15:32-35"
+      "book": "Leviticus",
+      "chapter": 24,
+      "verses": [
+        22
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Leviticus 24:22"
     },
     {
-      "idx": 2,
-      "entry_label": "–InheritanceNu 27:1-11",
-      "raw_segment": "–InheritanceNu 27:1-11"
+      "book": "Numbers",
+      "chapter": 9,
+      "verses": [
+        14
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Numbers 9:14"
     },
     {
-      "idx": 3,
-      "entry_label": "–SeeGOVERNMENT",
-      "raw_segment": "–SeeGOVERNMENT"
+      "book": "Numbers",
+      "chapter": 15,
+      "verses": [
+        15,
+        29
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Numbers 15:15,29"
     },
     {
-      "idx": 4,
-      "entry_label": "–SeeLAW",
-      "raw_segment": "–SeeLAW"
+      "book": "Galatians",
+      "chapter": 3,
+      "verses": [
+        28
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Galatians 3:28"
+    },
+    {
+      "book": "Numbers",
+      "chapter": 15,
+      "verses": [
+        32,
+        33,
+        34,
+        35
+      ],
+      "verse_count": 4,
+      "testament": "OT",
+      "raw": "Numbers 15:32-35"
+    },
+    {
+      "book": "Numbers",
+      "chapter": 27,
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "verse_count": 11,
+      "testament": "OT",
+      "raw": "Numbers 27:1-11"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "Exodus",
+    "Galatians",
+    "Leviticus",
+    "Numbers"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:1f2e2b3d75d8d0ea596feea1181241704a9a0c7036add2c4641803dd6dd19906",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 5
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 5,
+    "total_refs": 7,
+    "ot_refs": 6,
+    "nt_refs": 1,
+    "books_count": 4,
+    "top_books": [
+      "Numbers",
+      "Exodus",
+      "Leviticus",
+      "Galatians"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:28:33.270791Z",
-  "updated_at": "2025-09-20T17:28:33.270798Z"
+  }
 }

@@ -1,118 +1,82 @@
 {
   "topic": "CUPBEARER",
   "slug": "cupbearer",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "General scriptures concerning Ge 40:1,11; 1Ki 10:5; 2Ch 9:4; Ne 1:11",
-      "references": [
-        "Gen 40:1",
-        "Gen 40:11",
-        "1Kgs 10:5",
-        "2Chr 9:4",
-        "Neh 1:11"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "1 Kings",
-      "book_abbrev": "1ki",
-      "chapter": 10,
-      "testament": "OT",
-      "verses": [
-        2,
-        5
-      ],
-      "verse_count": 2
-    },
-    {
-      "book": "2 Chronicles",
-      "book_abbrev": "2ch",
-      "chapter": 9,
-      "testament": "OT",
-      "verses": [
-        4
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Nehemiah",
-      "book_abbrev": "neh",
-      "chapter": 1,
-      "testament": "OT",
-      "verses": [
-        11
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 3,
-    "nt_refs": 0,
-    "total_verses": 3
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.679971+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "General scriptures concerning",
+      "references": [
+        "Genesis 40:1,11",
+        "1 Kings 10:5",
+        "2 Chronicles 9:4",
+        "Nehemiah 1:11"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "1 Kings",
-      "chapter": 10,
-      "verses": [
-        5
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "1 Kings 10:5",
-      "source": "SMI"
-    },
-    {
-      "book": "Nehemiah",
-      "chapter": 1,
-      "verses": [
-        11
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Nehemiah 1:11",
-      "source": "SMI"
-    },
+  ],
+  "biblical_references": [
     {
       "book": "Genesis",
       "chapter": 40,
       "verses": [
         1,
-        21
+        11
       ],
       "verse_count": 2,
       "testament": "OT",
-      "raw": "Genesis 40:1,21",
-      "source": "SMI"
+      "raw": "Genesis 40:1,11"
     },
     {
-      "book": "Genesis",
-      "chapter": 41,
+      "book": "1 Kings",
+      "chapter": 10,
       "verses": [
-        9
+        5
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 41:9",
-      "source": "SMI"
+      "raw": "1 Kings 10:5"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 9,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Chronicles 9:4"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 1,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Nehemiah 1:11"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Kings",
+    "2 Chronicles",
+    "Genesis",
+    "Nehemiah"
+  ],
+  "stats": {
+    "total_aspects": 1,
+    "total_refs": 4,
+    "ot_refs": 4,
+    "nt_refs": 0,
+    "books_count": 4,
+    "top_books": [
+      "Genesis",
+      "1 Kings",
+      "2 Chronicles",
+      "Nehemiah"
+    ]
+  }
 }

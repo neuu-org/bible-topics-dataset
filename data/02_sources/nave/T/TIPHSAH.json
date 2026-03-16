@@ -1,69 +1,58 @@
 {
   "topic": "TIPHSAH",
-  "topic_slug": "tiphsah",
+  "slug": "tiphsah",
   "canonical_id": "NAV:tiphsah",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–1. A city on the Euphrates River1Ki 4:24\n–2. A city of unknown location2Ki 15:16",
-  "content_preview": "–1. A city on the Euphrates River1Ki 4:24",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–1. A city on the Euphrates River1Ki 4:24",
-      "raw_segment": "–1. A city on the Euphrates River1Ki 4:24"
+      "label": "1. A city on the Euphrates River",
+      "references": [
+        "1 Kings 4:24"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–2. A city of unknown location2Ki 15:16",
-      "raw_segment": "–2. A city of unknown location2Ki 15:16"
+      "label": "2. A city of unknown lo",
+      "references": [
+        "2 Kings 15:16"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "1 Kings",
+      "chapter": 4,
+      "verses": [
+        24
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Kings 4:24"
+    },
+    {
+      "book": "2 Kings",
+      "chapter": 15,
+      "verses": [
+        16
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Kings 15:16"
+    }
+  ],
+  "books_mentioned": [
+    "1 Kings",
+    "2 Kings"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 2,
+    "total_refs": 2,
+    "ot_refs": 2,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:a28162e8825e066353698b0608478ce6363d67faadb3d368f069ee9aa9da3e59",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 2,
+    "top_books": [
+      "1 Kings",
+      "2 Kings"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:32:13.795845Z",
-  "updated_at": "2025-09-20T17:32:13.795852Z"
+  }
 }

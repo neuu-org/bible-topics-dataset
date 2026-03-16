@@ -1,74 +1,89 @@
 {
   "topic": "VULTURE",
-  "topic_slug": "vulture",
+  "slug": "vulture",
   "canonical_id": "NAV:vulture",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–A carnivorous birdLe 11:14;De 14:13\n–In R. V., translated “falcon,”Job 28:7\n–And “kite,”Isa 34:15",
-  "content_preview": "–A carnivorous birdLe 11:14;De 14:13",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–A carnivorous birdLe 11:14;De 14:13",
-      "raw_segment": "–A carnivorous birdLe 11:14;De 14:13"
+      "label": "A",
+      "references": [
+        "Leviticus 11:14",
+        "Deuteronomy 14:13"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–In R. V., translated “falcon,”Job 28:7",
-      "raw_segment": "–In R. V., translated “falcon,”Job 28:7"
+      "label": "In R. V., translated “falcon,”",
+      "references": [
+        "Job 28:7"
+      ]
     },
     {
-      "idx": 2,
-      "entry_label": "–And “kite,”Isa 34:15",
-      "raw_segment": "–And “kite,”Isa 34:15"
+      "label": "And “kite,”",
+      "references": [
+        "Isaiah 34:15"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Leviticus",
+      "chapter": 11,
+      "verses": [
+        14
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Leviticus 11:14"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 14,
+      "verses": [
+        13
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 14:13"
+    },
+    {
+      "book": "Job",
+      "chapter": 28,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Job 28:7"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 34,
+      "verses": [
+        15
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 34:15"
+    }
+  ],
+  "books_mentioned": [
+    "Deuteronomy",
+    "Isaiah",
+    "Job",
+    "Leviticus"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 3,
+    "total_refs": 4,
+    "ot_refs": 4,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:4033f4b19c0f9b72c5666ff801828f9af599ea220e1d0804ca51cff26b65add7",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 3
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 4,
+    "top_books": [
+      "Leviticus",
+      "Deuteronomy",
+      "Job",
+      "Isaiah"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:32:33.466017Z",
-  "updated_at": "2025-09-20T17:32:33.466025Z"
+  }
 }

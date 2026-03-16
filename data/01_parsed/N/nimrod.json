@@ -1,114 +1,68 @@
 {
   "topic": "NIMROD",
   "slug": "nimrod",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [
+    "BABYLON"
+  ],
+  "aspects": [
     {
-      "name": "Son of Cush",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "“A mighty hunter before the Lord,” Ge 10:8,9; 1Ch 1:10",
+      "label": "“A mighty hunter before the Lord,”",
       "references": [
-        "Gen 10:8",
-        "Gen 10:9",
-        "1Chr 1:10"
+        "Genesis 10:8,9",
+        "1 Chronicles 1:10"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Founder of Babylon",
+      "label": "Foun",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See BABYLON",
+      "label": "SeeBABYLON",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
       "book": "Genesis",
-      "book_abbrev": "gen",
       "chapter": 10,
-      "testament": "OT",
       "verses": [
-        1,
         8,
         9
       ],
-      "verse_count": 3
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Genesis 10:8,9"
     },
     {
       "book": "1 Chronicles",
-      "book_abbrev": "1ch",
       "chapter": 1,
-      "testament": "OT",
       "verses": [
         10
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 1:10"
     }
   ],
-  "see_also": [
-    "BABYLON"
+  "books_mentioned": [
+    "1 Chronicles",
+    "Genesis"
   ],
-  "aliases": [],
   "stats": {
-    "entries_count": 4,
+    "total_aspects": 3,
+    "total_refs": 2,
     "ot_refs": 2,
     "nt_refs": 0,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.715053+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "Genesis",
-      "chapter": 10,
-      "verses": [
-        8,
-        9,
-        10
-      ],
-      "verse_count": 3,
-      "testament": "OT",
-      "raw": "Genesis 10:8-10",
-      "source": "EAS"
-    },
-    {
-      "book": "Micah",
-      "chapter": 5,
-      "verses": [
-        6
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Micah 5:6",
-      "source": "EAS"
-    },
-    {
-      "book": "Genesis",
-      "chapter": 10,
-      "verses": [
-        8
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Genesis 10:8",
-      "source": "SMI"
-    }
-  ]
+    "books_count": 2,
+    "top_books": [
+      "Genesis",
+      "1 Chronicles"
+    ]
+  }
 }

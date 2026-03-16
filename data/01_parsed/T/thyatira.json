@@ -1,79 +1,28 @@
 {
   "topic": "THYATIRA",
   "slug": "thyatira",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "The hometown of Lydia, a convert of Paul Ac 16:14",
-      "references": [
-        "Acts 16:14"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "John given a message for Re 1:11; 2:18,24",
-      "references": [
-        "Rev 1:11",
-        "Rev 2:18",
-        "Rev 2:24"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.729969+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "The hometown of Lydia, a convert of Paul",
+      "references": [
+        "Acts 16:14"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "General references",
+      "references": [
+        "Revelation 1:11",
+        "Revelation 2:18,24"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "Revelation",
-      "chapter": 1,
-      "verses": [
-        11
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Revelation 1:11",
-      "source": "EAS"
-    },
-    {
-      "book": "Revelation",
-      "chapter": 2,
-      "verses": [
-        18,
-        19,
-        20,
-        21,
-        22,
-        23,
-        24,
-        25,
-        26,
-        27,
-        28
-      ],
-      "verse_count": 11,
-      "testament": "NT",
-      "raw": "Revelation 2:18-28",
-      "source": "EAS"
-    },
+  ],
+  "biblical_references": [
     {
       "book": "Acts",
       "chapter": 16,
@@ -82,42 +31,43 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Acts 16:14",
-      "source": "EAS"
+      "raw": "Acts 16:14"
+    },
+    {
+      "book": "Revelation",
+      "chapter": 1,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Revelation 1:11"
     },
     {
       "book": "Revelation",
       "chapter": 2,
       "verses": [
         18,
-        19,
-        20,
-        21,
-        22,
-        23,
-        24,
-        25,
-        26,
-        27,
-        28,
-        29
-      ],
-      "verse_count": 12,
-      "testament": "NT",
-      "raw": "Revelation 2:18-29",
-      "source": "SMI"
-    },
-    {
-      "book": "Revelation",
-      "chapter": 2,
-      "verses": [
-        20,
-        21
+        24
       ],
       "verse_count": 2,
       "testament": "NT",
-      "raw": "Revelation 2:20,21",
-      "source": "SMI"
+      "raw": "Revelation 2:18,24"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Acts",
+    "Revelation"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 3,
+    "ot_refs": 0,
+    "nt_refs": 3,
+    "books_count": 2,
+    "top_books": [
+      "Revelation",
+      "Acts"
+    ]
+  }
 }

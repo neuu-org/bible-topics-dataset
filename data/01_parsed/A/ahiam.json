@@ -1,45 +1,27 @@
 {
   "topic": "AHIAM",
   "slug": "ahiam",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "One of David’s heroes 2Sa 23:33",
-      "references": [
-        "2Sam 23:33"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Also called SACAR 1Ch 11:35",
-      "references": [
-        "1Chr 11:35"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.661971+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "One of David’s heroes",
+      "references": [
+        "2 Samuel 23:33"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Al",
+      "references": [
+        "1 Chronicles 11:35"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "2 Samuel",
       "chapter": 23,
@@ -48,8 +30,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Samuel 23:33",
-      "source": "EAS"
+      "raw": "2 Samuel 23:33"
     },
     {
       "book": "1 Chronicles",
@@ -59,8 +40,22 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 11:35",
-      "source": "EAS"
+      "raw": "1 Chronicles 11:35"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "2 Samuel"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 2,
+    "ot_refs": 2,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "2 Samuel",
+      "1 Chronicles"
+    ]
+  }
 }

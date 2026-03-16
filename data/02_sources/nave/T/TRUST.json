@@ -1,73 +1,25 @@
 {
   "topic": "TRUST",
-  "topic_slug": "trust",
+  "slug": "trust",
   "canonical_id": "NAV:trust",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "FAITH"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "FAITH",
-      "clean": "FAITH",
-      "slug": "faith",
-      "canonical_id": "NAV:faith"
-    }
-  ],
-  "raw_block": "–SeeFAITH",
-  "content_preview": "–SeeFAITH",
-  "reference_groups": [
-    {
-      "idx": 0,
-      "entry_label": "–SeeFAITH",
-      "raw_segment": "–SeeFAITH"
+      "label": "SeeFAITH",
+      "references": []
     }
   ],
   "biblical_references": [],
   "books_mentioned": [],
-  "normalized_labels": [],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 1,
+    "total_refs": 0,
     "ot_refs": 0,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:287eaaa580d9382cdde9a1a22b9f988a255dbac5907d7b5eba38e3d9c2fd42e8",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 1
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
-    ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:32:22.324303Z",
-  "updated_at": "2025-09-20T17:32:22.324311Z"
+    "books_count": 0,
+    "top_books": []
+  }
 }

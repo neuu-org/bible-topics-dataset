@@ -1,78 +1,46 @@
 {
   "topic": "ARTILLERY",
-  "topic_slug": "artillery",
+  "slug": "artillery",
   "canonical_id": "NAV:artillery",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "ARMS"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "ARMS",
-      "clean": "ARMS",
-      "slug": "arms",
-      "canonical_id": "NAV:arms"
-    }
-  ],
-  "raw_block": "–General scriptures concerning1Sa 20:40\n–SeeARMS",
-  "content_preview": "–General scriptures concerning1Sa 20:40",
-  "reference_groups": [
-    {
-      "idx": 0,
-      "entry_label": "–General scriptures concerning1Sa 20:40",
-      "raw_segment": "–General scriptures concerning1Sa 20:40"
+      "label": "General scriptures concerning",
+      "references": [
+        "1 Samuel 20:40"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–SeeARMS",
-      "raw_segment": "–SeeARMS"
+      "label": "SeeARMS",
+      "references": []
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "1 Samuel",
+      "chapter": 20,
+      "verses": [
+        40
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Samuel 20:40"
+    }
+  ],
+  "books_mentioned": [
+    "1 Samuel"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 2,
+    "total_refs": 1,
+    "ot_refs": 1,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:0684e19dbfc37dab595dca705366cb02ec751526fb9aca661c9ab96658147aee",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 1,
+    "top_books": [
+      "1 Samuel"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:23:49.571133Z",
-  "updated_at": "2025-09-20T17:23:49.571141Z"
+  }
 }

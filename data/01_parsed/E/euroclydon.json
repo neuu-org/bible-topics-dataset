@@ -1,40 +1,20 @@
 {
   "topic": "EUROCLYDON",
   "slug": "euroclydon",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "A tempestuous wind Ac 27:14",
-      "references": [
-        "Acts 27:14"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.685448+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    },
-    "enriched_at": "2025-12-02T22:02:09.991526+00:00",
-    "enrichment_source": "pipeline_merge"
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "A tempestuous wind",
+      "references": [
+        "Acts 27:14"
+      ],
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
     {
       "book": "Acts",
       "chapter": 27,
@@ -43,19 +23,20 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Acts 27:14",
-      "source": "EAS"
-    },
-    {
-      "book": "Jonah",
-      "chapter": 1,
-      "verses": [
-        4
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Jonah 1:4",
-      "source": "EAS"
+      "raw": "Acts 27:14"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Acts"
+  ],
+  "stats": {
+    "total_aspects": 1,
+    "total_refs": 1,
+    "ot_refs": 0,
+    "nt_refs": 1,
+    "books_count": 1,
+    "top_books": [
+      "Acts"
+    ]
+  }
 }

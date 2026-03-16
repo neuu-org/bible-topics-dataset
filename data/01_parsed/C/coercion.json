@@ -1,39 +1,56 @@
 {
   "topic": "COERCION",
   "slug": "coercion",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [
+    "INTOLERANCE"
+  ],
+  "aspects": [
     {
-      "name": "RELIGIOUS Ex 22:20; 2Ch 15:12-15; Da 3:1-30; 6:26,27",
+      "label": "RELIGIOUS",
       "references": [
-        "Exod 22:20",
-        "2Chr 15:12-15",
-        "Dan 3:1-30",
-        "Dan 6:26",
-        "Dan 6:27"
+        "Exodus 22:20",
+        "2 Chronicles 15:12-15",
+        "Daniel 3:1-30",
+        "Daniel 6:26,27"
       ],
-      "sub_groups": []
+      "source": "NAV"
+    },
+    {
+      "label": ".SeeINTOLERANCE",
+      "references": [],
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "2 Chronicles",
-      "book_abbrev": "2ch",
-      "chapter": 15,
+      "book": "Exodus",
+      "chapter": 22,
+      "verses": [
+        20
+      ],
+      "verse_count": 1,
       "testament": "OT",
+      "raw": "Exodus 22:20"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 15,
       "verses": [
         12,
         13,
         14,
         15
       ],
-      "verse_count": 4
+      "verse_count": 4,
+      "testament": "OT",
+      "raw": "2 Chronicles 15:12-15"
     },
     {
       "book": "Daniel",
-      "book_abbrev": "dan",
       "chapter": 3,
-      "testament": "OT",
       "verses": [
         1,
         2,
@@ -66,29 +83,37 @@
         29,
         30
       ],
-      "verse_count": 30
+      "verse_count": 30,
+      "testament": "OT",
+      "raw": "Daniel 3:1-30"
+    },
+    {
+      "book": "Daniel",
+      "chapter": 6,
+      "verses": [
+        26,
+        27
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Daniel 6:26,27"
     }
   ],
-  "see_also": [
-    "INTOLERANCE"
+  "books_mentioned": [
+    "2 Chronicles",
+    "Daniel",
+    "Exodus"
   ],
-  "aliases": [],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 2,
+    "total_aspects": 2,
+    "total_refs": 4,
+    "ot_refs": 4,
     "nt_refs": 0,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.678553+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    }
-  },
-  "version": "3.0.0"
+    "books_count": 3,
+    "top_books": [
+      "Daniel",
+      "Exodus",
+      "2 Chronicles"
+    ]
+  }
 }

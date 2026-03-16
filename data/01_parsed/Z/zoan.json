@@ -1,65 +1,46 @@
 {
   "topic": "ZOAN",
   "slug": "zoan",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "(A city in Egypt)",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "Built seven years after Hebron in the land of Canaan Nu 13:22",
-      "references": [
-        "Num 13:22"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Prophecies concerning Eze 30:14",
-      "references": [
-        "Ezek 30:14"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Wise men from, were counselors of Pharaoh Isa 19:11,13",
-      "references": [
-        "Isa 19:11",
-        "Isa 19:13"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Princes of Isa 30:4",
-      "references": [
-        "Isa 30:4"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 5,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.735306+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "(A city in Egypt)",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "Built seven years after Hebron in the land of",
+      "references": [
+        "Numbers 13:22"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Prophecies concerning",
+      "references": [
+        "Ezekiel 30:14"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Wise men from, were counselors of Pharaoh",
+      "references": [
+        "Isaiah 19:11,13"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Princes of",
+      "references": [
+        "Isaiah 30:4"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Numbers",
       "chapter": 13,
@@ -68,8 +49,17 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Numbers 13:22",
-      "source": "EAS"
+      "raw": "Numbers 13:22"
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 30,
+      "verses": [
+        14
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezekiel 30:14"
     },
     {
       "book": "Isaiah",
@@ -80,8 +70,7 @@
       ],
       "verse_count": 2,
       "testament": "OT",
-      "raw": "Isaiah 19:11, 13",
-      "source": "EAS"
+      "raw": "Isaiah 19:11,13"
     },
     {
       "book": "Isaiah",
@@ -91,54 +80,24 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Isaiah 30:4",
-      "source": "EAS"
-    },
-    {
-      "book": "Ezekiel",
-      "chapter": 30,
-      "verses": [
-        14
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Ezekiel 30:14",
-      "source": "EAS"
-    },
-    {
-      "book": "Psalms",
-      "chapter": 78,
-      "verses": [
-        12,
-        43
-      ],
-      "verse_count": 2,
-      "testament": "OT",
-      "raw": "Psalms 78:12, 43",
-      "source": "EAS"
-    },
-    {
-      "book": "Psalms",
-      "chapter": 78,
-      "verses": [
-        42,
-        43
-      ],
-      "verse_count": 2,
-      "testament": "OT",
-      "raw": "Psalms 78:42,43",
-      "source": "SMI"
-    },
-    {
-      "book": "Isaiah",
-      "chapter": 19,
-      "verses": [
-        13
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Isaiah 19:13",
-      "source": "SMI"
+      "raw": "Isaiah 30:4"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Ezekiel",
+    "Isaiah",
+    "Numbers"
+  ],
+  "stats": {
+    "total_aspects": 5,
+    "total_refs": 4,
+    "ot_refs": 4,
+    "nt_refs": 0,
+    "books_count": 3,
+    "top_books": [
+      "Isaiah",
+      "Numbers",
+      "Ezekiel"
+    ]
+  }
 }

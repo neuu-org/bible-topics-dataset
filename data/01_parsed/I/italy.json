@@ -1,57 +1,48 @@
 {
   "topic": "ITALY",
   "slug": "italy",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "General scriptures concerning Ac 27:2; Heb 13:24",
+      "label": "General scriptures concerning",
       "references": [
         "Acts 27:2",
-        "Heb 13:24"
+        "Hebrews 13:24"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Aquila and Priscilla expelled from Ac 18:2",
+      "label": "Aquila and Priscilla expelled from",
       "references": [
         "Acts 18:2"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Hebrews",
-      "book_abbrev": "heb",
-      "chapter": 13,
+      "book": "Acts",
+      "chapter": 27,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
       "testament": "NT",
+      "raw": "Acts 27:2"
+    },
+    {
+      "book": "Hebrews",
+      "chapter": 13,
       "verses": [
         24
       ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 1,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.694891+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Hebrews 13:24"
+    },
     {
       "book": "Acts",
       "chapter": 18,
@@ -60,42 +51,22 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Acts 18:2",
-      "source": "EAS"
-    },
-    {
-      "book": "Acts",
-      "chapter": 27,
-      "verses": [
-        1,
-        6
-      ],
-      "verse_count": 2,
-      "testament": "NT",
-      "raw": "Acts 27:1, 6",
-      "source": "EAS"
-    },
-    {
-      "book": "Hebrews",
-      "chapter": 13,
-      "verses": [
-        24
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Hebrews 13:24",
-      "source": "EAS"
-    },
-    {
-      "book": "Acts",
-      "chapter": 27,
-      "verses": [
-        1
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Acts 27:1",
-      "source": "SMI"
+      "raw": "Acts 18:2"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Acts",
+    "Hebrews"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 3,
+    "ot_refs": 0,
+    "nt_refs": 3,
+    "books_count": 2,
+    "top_books": [
+      "Acts",
+      "Hebrews"
+    ]
+  }
 }

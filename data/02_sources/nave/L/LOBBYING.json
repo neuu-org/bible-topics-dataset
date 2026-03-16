@@ -1,90 +1,52 @@
 {
   "topic": "LOBBYING",
-  "topic_slug": "lobbying",
+  "slug": "lobbying",
   "canonical_id": "NAV:lobbying",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "DIPLOMACY",
     "INFLUENCE, POLITICAL"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "DIPLOMACY",
-      "clean": "DIPLOMACY",
-      "slug": "diplomacy",
-      "canonical_id": "NAV:diplomacy"
+      "label": "General scriptures concerning",
+      "references": [
+        "Ezra 4:4,5"
+      ]
     },
     {
-      "original": "INFLUENCE, POLITICAL",
-      "clean": "INFLUENCE, POLITICAL",
-      "slug": "influence__political",
-      "canonical_id": "NAV:influence__political"
+      "label": "SeeDIPLOMACY",
+      "references": []
+    },
+    {
+      "label": "SeeINF",
+      "references": []
     }
   ],
-  "raw_block": "–General scriptures concerningEzr 4:4,5\n–SeeDIPLOMACY\n–SeeINFLUENCE, POLITICAL",
-  "content_preview": "–General scriptures concerningEzr 4:4,5",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–General scriptures concerningEzr 4:4,5",
-      "raw_segment": "–General scriptures concerningEzr 4:4,5"
-    },
-    {
-      "idx": 1,
-      "entry_label": "–SeeDIPLOMACY",
-      "raw_segment": "–SeeDIPLOMACY"
-    },
-    {
-      "idx": 2,
-      "entry_label": "–SeeINFLUENCE, POLITICAL",
-      "raw_segment": "–SeeINFLUENCE, POLITICAL"
+      "book": "Ezra",
+      "chapter": 4,
+      "verses": [
+        4,
+        5
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Ezra 4:4,5"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "Ezra"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 3,
+    "total_refs": 1,
+    "ot_refs": 1,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:582b7cf84170b243d7e666b4f2e1e6333f09ff49bf084561fe80b05d24f255ef",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 3
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 1,
+    "top_books": [
+      "Ezra"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:28:38.287286Z",
-  "updated_at": "2025-09-20T17:28:38.287294Z"
+  }
 }

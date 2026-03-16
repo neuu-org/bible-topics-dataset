@@ -1,55 +1,26 @@
 {
   "topic": "CUCKOO",
   "slug": "cuckoo",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "(A bird)",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "Forbidden as food Le 11:16; De 14:15",
-      "references": [
-        "Lev 11:16",
-        "Deut 14:15"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Deuteronomy",
-      "book_abbrev": "deu",
-      "chapter": 14,
-      "testament": "OT",
-      "verses": [
-        15
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.679920+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "(A bird)",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "Forbid",
+      "references": [
+        "Leviticus 11:16",
+        "Deuteronomy 14:15"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Leviticus",
       "chapter": 11,
@@ -58,8 +29,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Leviticus 11:16",
-      "source": "EAS"
+      "raw": "Leviticus 11:16"
     },
     {
       "book": "Deuteronomy",
@@ -69,19 +39,22 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Deuteronomy 14:15",
-      "source": "EAS"
-    },
-    {
-      "book": "Leviticus",
-      "chapter": 14,
-      "verses": [
-        15
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Leviticus 14:15",
-      "source": "SMI"
+      "raw": "Deuteronomy 14:15"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Deuteronomy",
+    "Leviticus"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 2,
+    "ot_refs": 2,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "Leviticus",
+      "Deuteronomy"
+    ]
+  }
 }

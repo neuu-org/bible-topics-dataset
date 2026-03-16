@@ -1,59 +1,44 @@
 {
   "topic": "PHAROSH",
   "slug": "pharosh",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "Also called PAROSH",
+      "label": "Al",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "The ancestor of one of the families which returned to Jerusalem from the captivity in Babylon Ezr 2:3; 8:3; 10:25; Ne 7:8; 10:14",
+      "label": "The ancestor of one of the families which returned to",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "from the",
       "references": [
         "Ezra 2:3",
         "Ezra 8:3",
         "Ezra 10:25",
-        "Neh 7:8",
-        "Neh 10:14"
+        "Nehemiah 7:8",
+        "Nehemiah 10:14"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Nehemiah",
-      "book_abbrev": "neh",
-      "chapter": 7,
-      "testament": "OT",
+      "book": "Ezra",
+      "chapter": 2,
       "verses": [
-        8,
-        10
+        3
       ],
-      "verse_count": 2
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.718041+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezra 2:3"
+    },
     {
       "book": "Ezra",
       "chapter": 8,
@@ -62,8 +47,52 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Ezra 8:3",
-      "source": "SMI"
+      "raw": "Ezra 8:3"
+    },
+    {
+      "book": "Ezra",
+      "chapter": 10,
+      "verses": [
+        25
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezra 10:25"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 7,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Nehemiah 7:8"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 10,
+      "verses": [
+        14
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Nehemiah 10:14"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Ezra",
+    "Nehemiah"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 5,
+    "ot_refs": 5,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "Ezra",
+      "Nehemiah"
+    ]
+  }
 }

@@ -1,114 +1,62 @@
 {
   "topic": "HIRE",
-  "topic_slug": "hire",
+  "slug": "hire",
   "canonical_id": "NAV:hire",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "SERVANT",
     "EMPLOYER",
     "MASTER",
     "WAGES"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "SERVANT",
-      "clean": "SERVANT",
-      "slug": "servant",
-      "canonical_id": "NAV:servant"
+      "label": "Law concerning hired property",
+      "references": [
+        "Exodus 22:14,15"
+      ]
     },
     {
-      "original": "EMPLOYER",
-      "clean": "EMPLOYER",
-      "slug": "employer",
-      "canonical_id": "NAV:employer"
+      "label": "SeeWAGES",
+      "references": []
     },
     {
-      "original": "MASTER",
-      "clean": "MASTER",
-      "slug": "master",
-      "canonical_id": "NAV:master"
+      "label": "SeeEMPLOYER",
+      "references": []
     },
     {
-      "original": "WAGES",
-      "clean": "WAGES",
-      "slug": "wages",
-      "canonical_id": "NAV:wages"
+      "label": "SeeMASTER",
+      "references": []
+    },
+    {
+      "label": "SeeSERVANT",
+      "references": []
     }
   ],
-  "raw_block": "–Law concerning hired propertyEx 22:14,15\n–SeeWAGES\n–SeeEMPLOYER\n–SeeMASTER\n–SeeSERVANT",
-  "content_preview": "–Law concerning hired propertyEx 22:14,15",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–Law concerning hired propertyEx 22:14,15",
-      "raw_segment": "–Law concerning hired propertyEx 22:14,15"
-    },
-    {
-      "idx": 1,
-      "entry_label": "–SeeWAGES",
-      "raw_segment": "–SeeWAGES"
-    },
-    {
-      "idx": 2,
-      "entry_label": "–SeeEMPLOYER",
-      "raw_segment": "–SeeEMPLOYER"
-    },
-    {
-      "idx": 3,
-      "entry_label": "–SeeMASTER",
-      "raw_segment": "–SeeMASTER"
-    },
-    {
-      "idx": 4,
-      "entry_label": "–SeeSERVANT",
-      "raw_segment": "–SeeSERVANT"
+      "book": "Exodus",
+      "chapter": 22,
+      "verses": [
+        14,
+        15
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Exodus 22:14,15"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "Exodus"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 5,
+    "total_refs": 1,
+    "ot_refs": 1,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:3d62d457a3a84c0d7160a416d2e5b73830fdaef4a19b14b7cbbc908f75cf39b1",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 5
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 1,
+    "top_books": [
+      "Exodus"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:27:16.571045Z",
-  "updated_at": "2025-09-20T17:27:16.571053Z"
+  }
 }

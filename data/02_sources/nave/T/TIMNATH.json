@@ -1,69 +1,81 @@
 {
   "topic": "TIMNATH",
-  "topic_slug": "timnath",
+  "slug": "timnath",
   "canonical_id": "NAV:timnath",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–1. A city given by some authorities as identical with TIMNAH, \nnumber twoGe 38:12-14\n–2. Home of Samson’ s wifeJud 14:1,2,5;15:6\n  .Believed by some authorities to be identical with the preceding",
-  "content_preview": "–1. A city given by some authorities as identical with TIMNAH, ",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–1. A city given by some authorities as identical with TIMNAH, \nnumber twoGe 38:12-14",
-      "raw_segment": "–1. A city given by some authorities as identical with TIMNAH, \nnumber twoGe 38:12-14"
+      "label": "1. A city given by",
+      "references": []
     },
     {
-      "idx": 1,
-      "entry_label": "–2. Home of Samson’ s wifeJud 14:1,2,5;15:6",
-      "raw_segment": "–2. Home of Samson’ s wifeJud 14:1,2,5;15:6"
+      "label": "General references",
+      "references": [
+        "Genesis 38:12-14"
+      ]
+    },
+    {
+      "label": "2. Home of Sam",
+      "references": [
+        "Judges 14:1,2,5",
+        "Judges 15:6"
+      ]
+    },
+    {
+      "label": ".Believed by",
+      "references": []
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Genesis",
+      "chapter": 38,
+      "verses": [
+        12,
+        13,
+        14
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Genesis 38:12-14"
+    },
+    {
+      "book": "Judges",
+      "chapter": 14,
+      "verses": [
+        1,
+        2,
+        5
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Judges 14:1,2,5"
+    },
+    {
+      "book": "Judges",
+      "chapter": 15,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Judges 15:6"
+    }
+  ],
+  "books_mentioned": [
+    "Genesis",
+    "Judges"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 4,
+    "total_refs": 3,
+    "ot_refs": 3,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:050c00981008e103dc3588ffdcaa69e01f4ac0041f0ca4992f60f01c1741a25b",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 4
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 2,
+    "top_books": [
+      "Judges",
+      "Genesis"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:32:13.122026Z",
-  "updated_at": "2025-09-20T17:32:13.122038Z"
+  }
 }

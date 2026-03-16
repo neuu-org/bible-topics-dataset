@@ -1,80 +1,40 @@
 {
   "topic": "APOTHECARY",
   "slug": "apothecary",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "A compounder of drugs Ex 30:25,35; 37:29; 2Ch 16:14; Ne 3:8",
+      "label": "A compoun",
       "references": [
-        "Exod 30:25",
-        "Exod 30:35",
-        "Exod 37:29",
-        "2Chr 16:14",
-        "Neh 3:8"
+        "Exodus 30:25,35",
+        "Exodus 37:29",
+        "2 Chronicles 16:14",
+        "Nehemiah 3:8"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Ointment of Ec 10:1",
+      "label": "Ointment of",
       "references": [
-        "Eccl 10:1"
+        "Ecclesiastes 10:1"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "2 Chronicles",
-      "book_abbrev": "2ch",
-      "chapter": 16,
-      "testament": "OT",
-      "verses": [
-        14
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Nehemiah",
-      "book_abbrev": "neh",
-      "chapter": 3,
-      "testament": "OT",
-      "verses": [
-        8
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 2,
-    "nt_refs": 0,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.669220+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
       "book": "Exodus",
       "chapter": 30,
       "verses": [
-        25
+        25,
+        35
       ],
-      "verse_count": 1,
+      "verse_count": 2,
       "testament": "OT",
-      "raw": "Exodus 30:25",
-      "source": "EAS"
+      "raw": "Exodus 30:25,35"
     },
     {
       "book": "Exodus",
@@ -84,8 +44,27 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Exodus 37:29",
-      "source": "EAS"
+      "raw": "Exodus 37:29"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 16,
+      "verses": [
+        14
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Chronicles 16:14"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 3,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Nehemiah 3:8"
     },
     {
       "book": "Ecclesiastes",
@@ -95,19 +74,26 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Ecclesiastes 10:1",
-      "source": "EAS"
-    },
-    {
-      "book": "1 Samuel",
-      "chapter": 8,
-      "verses": [
-        13
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "1 Samuel 8:13",
-      "source": "EAS"
+      "raw": "Ecclesiastes 10:1"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "2 Chronicles",
+    "Ecclesiastes",
+    "Exodus",
+    "Nehemiah"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 5,
+    "ot_refs": 5,
+    "nt_refs": 0,
+    "books_count": 4,
+    "top_books": [
+      "Exodus",
+      "2 Chronicles",
+      "Nehemiah",
+      "Ecclesiastes"
+    ]
+  }
 }

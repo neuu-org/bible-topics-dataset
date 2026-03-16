@@ -1,57 +1,98 @@
 {
   "topic": "HUSHIM",
   "slug": "hushim",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. Son of Dan Ge 46:23",
-      "references": [
-        "Gen 46:23"
-      ],
-      "sub_groups": [
-        {
-          "name": "Called SHUHAM Nu 26:42",
-          "references": [
-            "Num 26:42"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "2. A Benjamite 1Ch 7:12",
-      "references": [
-        "1Chr 7:12"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "3. Wife of Shaharaim 1Ch 8:8,11",
-      "references": [
-        "1Chr 8:8",
-        "1Chr 8:11"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.693533+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "1.",
+      "references": [
+        "Genesis 46:23"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".",
+      "references": [
+        "Numbers 26:42"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2. A Benjamite",
+      "references": [
+        "1 Chronicles 7:12"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "3. Wife of Shaharaim",
+      "references": [
+        "1 Chronicles 8:8,11"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0"
+  ],
+  "biblical_references": [
+    {
+      "book": "Genesis",
+      "chapter": 46,
+      "verses": [
+        23
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 46:23"
+    },
+    {
+      "book": "Numbers",
+      "chapter": 26,
+      "verses": [
+        42
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Numbers 26:42"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 7,
+      "verses": [
+        12
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 7:12"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 8,
+      "verses": [
+        8,
+        11
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "1 Chronicles 8:8,11"
+    }
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Genesis",
+    "Numbers"
+  ],
+  "stats": {
+    "total_aspects": 4,
+    "total_refs": 4,
+    "ot_refs": 4,
+    "nt_refs": 0,
+    "books_count": 3,
+    "top_books": [
+      "1 Chronicles",
+      "Genesis",
+      "Numbers"
+    ]
+  }
 }

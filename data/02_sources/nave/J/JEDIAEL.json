@@ -1,79 +1,90 @@
 {
   "topic": "JEDIAEL",
-  "topic_slug": "jediael",
+  "slug": "jediael",
   "canonical_id": "NAV:jediael",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–1. Son of Benjamin1Ch 7:6,10,11\n–2. Son of Shimri1Ch 11:45\n–3. A chief of the tribe of Manasseh, who joined David at Ziklag1Ch 12:20\n–4. Son of Meshelemiah1Ch 26:2",
-  "content_preview": "–1. Son of Benjamin1Ch 7:6,10,11",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–1. Son of Benjamin1Ch 7:6,10,11",
-      "raw_segment": "–1. Son of Benjamin1Ch 7:6,10,11"
+      "label": "1.",
+      "references": [
+        "1 Chronicles 7:6,10,11"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–2. Son of Shimri1Ch 11:45",
-      "raw_segment": "–2. Son of Shimri1Ch 11:45"
+      "label": "2.",
+      "references": [
+        "1 Chronicles 11:45"
+      ]
     },
     {
-      "idx": 2,
-      "entry_label": "–3. A chief of the tribe of Manasseh, who joined David at Ziklag1Ch 12:20",
-      "raw_segment": "–3. A chief of the tribe of Manasseh, who joined David at Ziklag1Ch 12:20"
+      "label": "3. A chief of the tribe of Manasseh, who joined David at Ziklag",
+      "references": [
+        "1 Chronicles 12:20"
+      ]
     },
     {
-      "idx": 3,
-      "entry_label": "–4. Son of Meshelemiah1Ch 26:2",
-      "raw_segment": "–4. Son of Meshelemiah1Ch 26:2"
+      "label": "4.",
+      "references": [
+        "1 Chronicles 26:2"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "1 Chronicles",
+      "chapter": 7,
+      "verses": [
+        6,
+        10,
+        11
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "1 Chronicles 7:6,10,11"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 11,
+      "verses": [
+        45
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 11:45"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 12,
+      "verses": [
+        20
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 12:20"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 26,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 26:2"
+    }
+  ],
+  "books_mentioned": [
+    "1 Chronicles"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 4,
+    "total_refs": 4,
+    "ot_refs": 4,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:14e087965f5461c447dbd68364e39bedba6b953cecfd21e36142531e46339e6b",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 4
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 1,
+    "top_books": [
+      "1 Chronicles"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:27:55.763837Z",
-  "updated_at": "2025-09-20T17:27:55.763846Z"
+  }
 }

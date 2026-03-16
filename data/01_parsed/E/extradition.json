@@ -1,67 +1,83 @@
 {
   "topic": "EXTRADITION",
   "slug": "extradition",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "General scriptures concerning 1Ki 18:7,10; Jer 26:21-23; Ac 9:2,14; 22:5",
+      "label": "General scriptures concerning",
       "references": [
-        "1Kgs 18:7",
-        "1Kgs 18:10",
-        "Jer 26:21-23",
-        "Acts 9:2",
-        "Acts 9:14",
+        "1 Kings 18:7,10",
+        "Jeremiah 26:21-23",
+        "Acts 9:2,14",
         "Acts 22:5"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Jeremiah",
-      "book_abbrev": "jer",
-      "chapter": 26,
+      "book": "1 Kings",
+      "chapter": 18,
+      "verses": [
+        7,
+        10
+      ],
+      "verse_count": 2,
       "testament": "OT",
+      "raw": "1 Kings 18:7,10"
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 26,
       "verses": [
         21,
         22,
         23
       ],
-      "verse_count": 3
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Jeremiah 26:21-23"
     },
     {
       "book": "Acts",
-      "book_abbrev": "act",
       "chapter": 9,
-      "testament": "NT",
       "verses": [
         2,
-        14,
-        22
+        14
       ],
-      "verse_count": 3
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Acts 9:2,14"
+    },
+    {
+      "book": "Acts",
+      "chapter": 22,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 22:5"
     }
   ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 1,
-    "nt_refs": 1,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
+  "books_mentioned": [
+    "1 Kings",
+    "Acts",
+    "Jeremiah"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.685759+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    },
-    "enriched_at": "2025-12-02T22:02:10.034160+00:00",
-    "enrichment_source": "pipeline_merge"
-  },
-  "version": "3.0.0"
+  "stats": {
+    "total_aspects": 1,
+    "total_refs": 4,
+    "ot_refs": 2,
+    "nt_refs": 2,
+    "books_count": 3,
+    "top_books": [
+      "Acts",
+      "1 Kings",
+      "Jeremiah"
+    ]
+  }
 }

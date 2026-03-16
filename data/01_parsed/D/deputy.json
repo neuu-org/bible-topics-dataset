@@ -1,66 +1,28 @@
 {
   "topic": "DEPUTY",
   "slug": "deputy",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "An officer who administers the functions of a superior in his absence 1Ki 22:47; Ac 13:7,8; 18:12; 19:38",
-      "references": [
-        "1Kgs 22:47",
-        "Acts 13:7",
-        "Acts 13:8",
-        "Acts 18:12",
-        "Acts 19:38"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Acts",
-      "book_abbrev": "act",
-      "chapter": 13,
-      "testament": "NT",
-      "verses": [
-        7,
-        8,
-        18
-      ],
-      "verse_count": 3
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 1,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.681212+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "see_also": [],
+  "aspects": [
     {
-      "book": "1 Kings",
-      "chapter": 4,
-      "verses": [
-        5
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "1 Kings 4:5",
-      "source": "EAS"
+      "label": "An officer who administers the functions of a superior in his",
+      "references": [],
+      "source": "NAV"
     },
+    {
+      "label": "absence",
+      "references": [
+        "1 Kings 22:47",
+        "Acts 13:7,8",
+        "Acts 18:12",
+        "Acts 19:38"
+      ],
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
     {
       "book": "1 Kings",
       "chapter": 22,
@@ -69,43 +31,18 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Kings 22:47",
-      "source": "EAS"
-    },
-    {
-      "book": "Esther",
-      "chapter": 8,
-      "verses": [
-        9
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Esther 8:9",
-      "source": "EAS"
-    },
-    {
-      "book": "Esther",
-      "chapter": 9,
-      "verses": [
-        3
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Esther 9:3",
-      "source": "EAS"
+      "raw": "1 Kings 22:47"
     },
     {
       "book": "Acts",
       "chapter": 13,
       "verses": [
         7,
-        8,
-        12
+        8
       ],
-      "verse_count": 3,
+      "verse_count": 2,
       "testament": "NT",
-      "raw": "Acts 13:7, 8, 12",
-      "source": "EAS"
+      "raw": "Acts 13:7,8"
     },
     {
       "book": "Acts",
@@ -115,8 +52,7 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Acts 18:12",
-      "source": "EAS"
+      "raw": "Acts 18:12"
     },
     {
       "book": "Acts",
@@ -126,8 +62,22 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Acts 19:38",
-      "source": "SMI"
+      "raw": "Acts 19:38"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Kings",
+    "Acts"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 4,
+    "ot_refs": 1,
+    "nt_refs": 3,
+    "books_count": 2,
+    "top_books": [
+      "Acts",
+      "1 Kings"
+    ]
+  }
 }

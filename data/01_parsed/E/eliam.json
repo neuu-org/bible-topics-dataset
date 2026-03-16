@@ -1,59 +1,41 @@
 {
   "topic": "ELIAM",
   "slug": "eliam",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. Father of Bath-sheba 2Sa 11:3",
-      "references": [
-        "2Sam 11:3"
-      ],
-      "sub_groups": [
-        {
-          "name": "Called AMMIEL 1Ch 3:5",
-          "references": [
-            "1Chr 3:5"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "2. One of David’s valiant men 2Sa 23:34",
-      "references": [
-        "2Sam 23:34"
-      ],
-      "sub_groups": [
-        {
-          "name": "Called AHIJAH 1Ch 11:36",
-          "references": [
-            "1Chr 11:36"
-          ]
-        }
-      ]
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.683538+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "1. Father of Bath-sheba",
+      "references": [
+        "2 Samuel 11:3"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".",
+      "references": [
+        "1 Chronicles 3:5"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2. One of David’s valiant men",
+      "references": [
+        "2 Samuel 23:34"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".",
+      "references": [
+        "1 Chronicles 11:36"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "2 Samuel",
       "chapter": 11,
@@ -62,19 +44,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Samuel 11:3",
-      "source": "EAS"
-    },
-    {
-      "book": "2 Samuel",
-      "chapter": 23,
-      "verses": [
-        34
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "2 Samuel 23:34",
-      "source": "EAS"
+      "raw": "2 Samuel 11:3"
     },
     {
       "book": "1 Chronicles",
@@ -84,8 +54,42 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 3:5",
-      "source": "EAS"
+      "raw": "1 Chronicles 3:5"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 23,
+      "verses": [
+        34
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Samuel 23:34"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 11,
+      "verses": [
+        36
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 11:36"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "2 Samuel"
+  ],
+  "stats": {
+    "total_aspects": 4,
+    "total_refs": 4,
+    "ot_refs": 4,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "2 Samuel",
+      "1 Chronicles"
+    ]
+  }
 }

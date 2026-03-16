@@ -1,64 +1,45 @@
 {
   "topic": "SHUA",
   "slug": "shua",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "1. A Canaanite and the father-in-law of Judah Ge 38:2,12",
+      "label": "1. A",
       "references": [
-        "Gen 38:2",
-        "Gen 38:12"
+        "Genesis 38:2,12"
       ],
-      "sub_groups": [
-        {
-          "name": "R. V., A. V. SHUAH) 1Ch 2:3",
-          "references": [
-            "1Chr 2:3"
-          ]
-        }
-      ]
+      "source": "NAV"
     },
     {
-      "name": "2. Daughter of Heber 1Ch 7:32",
+      "label": ".R. V., A. V. SHUAH)",
       "references": [
-        "1Chr 7:32"
+        "1 Chronicles 2:3"
       ],
-      "sub_groups": []
+      "source": "NAV"
+    },
+    {
+      "label": "2. Daughter of Heber",
+      "references": [
+        "1 Chronicles 7:32"
+      ],
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "1 Chronicles",
-      "book_abbrev": "1ch",
-      "chapter": 2,
-      "testament": "OT",
+      "book": "Genesis",
+      "chapter": 38,
       "verses": [
-        3
+        2,
+        12
       ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.725981+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Genesis 38:2,12"
+    },
     {
       "book": "1 Chronicles",
       "chapter": 2,
@@ -67,8 +48,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 2:3",
-      "source": "EAS"
+      "raw": "1 Chronicles 2:3"
     },
     {
       "book": "1 Chronicles",
@@ -78,8 +58,22 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 7:32",
-      "source": "EAS"
+      "raw": "1 Chronicles 7:32"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Genesis"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 3,
+    "ot_refs": 3,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "1 Chronicles",
+      "Genesis"
+    ]
+  }
 }

@@ -1,54 +1,46 @@
 {
   "topic": "AHOLIBAMAH",
   "slug": "aholibamah",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. Wife of Esau Ge 36:3,14,25",
-      "references": [
-        "Gen 36:3",
-        "Gen 36:14",
-        "Gen 36:25"
-      ],
-      "sub_groups": [
-        {
-          "name": "She is probably identical with Judith, of Ge 26:34",
-          "references": [
-            "Gen 26:34"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "2. An Edomitish prince Ge 36:41",
-      "references": [
-        "Gen 36:41"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.662219+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "1. Wife of Esau",
+      "references": [
+        "Genesis 36:3,14,25"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".She is probably i",
+      "references": [
+        "Genesis 26:34"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2. An Edomitish prince",
+      "references": [
+        "Genesis 36:41"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
+    {
+      "book": "Genesis",
+      "chapter": 36,
+      "verses": [
+        3,
+        14,
+        25
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Genesis 36:3,14,25"
+    },
     {
       "book": "Genesis",
       "chapter": 26,
@@ -57,19 +49,30 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 26:34",
-      "source": "EAS"
+      "raw": "Genesis 26:34"
     },
     {
       "book": "Genesis",
       "chapter": 36,
       "verses": [
-        2
+        41
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 36:2",
-      "source": "EAS"
+      "raw": "Genesis 36:41"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Genesis"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 3,
+    "ot_refs": 3,
+    "nt_refs": 0,
+    "books_count": 1,
+    "top_books": [
+      "Genesis"
+    ]
+  }
 }

@@ -1,97 +1,153 @@
 {
   "topic": "IMPORTS",
   "slug": "imports",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [
+    "COMMERCE",
+    "EXPORTS",
+    "TRIBUTE"
+  ],
+  "aspects": [
     {
-      "name": "Of Jerusalem",
+      "label": "Of",
       "references": [],
-      "sub_groups": [
-        {
-          "name": "Horses, chariots, and linen 1Ki 10:28,29; 2Ch 1:16",
-          "references": [
-            "1Kgs 10:28",
-            "1Kgs 10:29",
-            "2Chr 1:16"
-          ]
-        },
-        {
-          "name": "Gold, ivory, apes, peacocks 2Ch 9:21",
-          "references": [
-            "2Chr 9:21"
-          ]
-        }
-      ]
+      "source": "NAV"
     },
     {
-      "name": "Of Egypt",
-      "references": [],
-      "sub_groups": [
-        {
-          "name": "Spices Ge 37:25",
-          "references": [
-            "Gen 37:25"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Of Tyre Eze 27:12-25",
+      "label": ".Horses, chariots, and linen",
       "references": [
-        "Ezek 27:12-25"
+        "1 Kings 10:28,29",
+        "2 Chronicles 1:16"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See COMMERCE",
-      "references": [],
-      "sub_groups": []
+      "label": ".Gold, ivory, apes, peacocks",
+      "references": [
+        "2 Chronicles 9:21"
+      ],
+      "source": "NAV"
     },
     {
-      "name": "See EXPORTS",
+      "label": "Of Egypt",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See TRIBUTE",
+      "label": ".Spices",
+      "references": [
+        "Genesis 37:25"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Of Tyre",
+      "references": [
+        "Ezekiel 27:12-25"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeCOMMERCE",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
+    },
+    {
+      "label": "SeeEXPORTS",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeTRIBUTE",
+      "references": [],
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "2 Chronicles",
-      "book_abbrev": "2ch",
-      "chapter": 1,
+      "book": "1 Kings",
+      "chapter": 10,
+      "verses": [
+        28,
+        29
+      ],
+      "verse_count": 2,
       "testament": "OT",
+      "raw": "1 Kings 10:28,29"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 1,
       "verses": [
         16
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Chronicles 1:16"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 9,
+      "verses": [
+        21
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Chronicles 9:21"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 37,
+      "verses": [
+        25
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 37:25"
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 27,
+      "verses": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "verse_count": 14,
+      "testament": "OT",
+      "raw": "Ezekiel 27:12-25"
     }
   ],
-  "see_also": [
-    "EXPORTS",
-    "TRIBUTE",
-    "COMMERCE"
+  "books_mentioned": [
+    "1 Kings",
+    "2 Chronicles",
+    "Ezekiel",
+    "Genesis"
   ],
-  "aliases": [],
   "stats": {
-    "entries_count": 6,
-    "ot_refs": 1,
+    "total_aspects": 9,
+    "total_refs": 5,
+    "ot_refs": 5,
     "nt_refs": 0,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.693982+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    }
-  },
-  "version": "3.0.0"
+    "books_count": 4,
+    "top_books": [
+      "2 Chronicles",
+      "1 Kings",
+      "Genesis",
+      "Ezekiel"
+    ]
+  }
 }

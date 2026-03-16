@@ -1,95 +1,92 @@
 {
   "topic": "ISHUI",
   "slug": "ishui",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "Also called ISHUAI, ISUI, and JESUI",
+      "label": "Al",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "1. Son of Asher Ge 46:17; Nu 26:44; 1Ch 7:30",
+      "label": "1.",
       "references": [
-        "Gen 46:17",
-        "Num 26:44",
-        "1Chr 7:30"
+        "Genesis 46:17",
+        "Numbers 26:44",
+        "1 Chronicles 7:30"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "2. Son of Saul 1Sa 14:49",
+      "label": "2.",
       "references": [
-        "1Sam 14:49"
+        "1 Samuel 14:49"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Numbers",
-      "book_abbrev": "num",
-      "chapter": 26,
-      "testament": "OT",
+      "book": "Genesis",
+      "chapter": 46,
       "verses": [
-        1,
+        17
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 46:17"
+    },
+    {
+      "book": "Numbers",
+      "chapter": 26,
+      "verses": [
         44
       ],
-      "verse_count": 2
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Numbers 26:44"
     },
     {
       "book": "1 Chronicles",
-      "book_abbrev": "1ch",
       "chapter": 7,
-      "testament": "OT",
       "verses": [
         30
       ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 2,
-    "nt_refs": 0,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.694762+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "1 Samuel",
-      "chapter": 14,
-      "verses": [
-        4
-      ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Samuel 14:4",
-      "source": "SMI"
+      "raw": "1 Chronicles 7:30"
     },
     {
       "book": "1 Samuel",
       "chapter": 14,
       "verses": [
-        50
+        49
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Samuel 14:50",
-      "source": "SMI"
+      "raw": "1 Samuel 14:49"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "1 Samuel",
+    "Genesis",
+    "Numbers"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 4,
+    "ot_refs": 4,
+    "nt_refs": 0,
+    "books_count": 4,
+    "top_books": [
+      "Genesis",
+      "Numbers",
+      "1 Chronicles",
+      "1 Samuel"
+    ]
+  }
 }

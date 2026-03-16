@@ -1,69 +1,92 @@
 {
   "topic": "ELHANAN",
-  "topic_slug": "elhanan",
+  "slug": "elhanan",
   "canonical_id": "NAV:elhanan",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–1. A distinguished warrior in the time of David, who killed Lahmi, \nthe brother of Goliath, the Gittite2Sa 21:19\n  .Compare1Ch 20:5\n–2. Son of Dodo, one of David’s heroes2Sa 23:24;1Ch \n11:26",
-  "content_preview": "–1. A distinguished warrior in the time of David, who killed Lahmi, ",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–1. A distinguished warrior in the time of David, who killed Lahmi, \nthe brother of Goliath, the Gittite2Sa 21:19",
-      "raw_segment": "–1. A distinguished warrior in the time of David, who killed Lahmi, \nthe brother of Goliath, the Gittite2Sa 21:19"
+      "label": "1. A distinguished warrior in the time of David, who killed Lahmi,",
+      "references": []
     },
     {
-      "idx": 1,
-      "entry_label": "–2. Son of Dodo, one of David’s heroes2Sa 23:24;1Ch \n11:26",
-      "raw_segment": "–2. Son of Dodo, one of David’s heroes2Sa 23:24;1Ch \n11:26"
+      "label": "the brother of Goliath, the Gittite",
+      "references": [
+        "2 Samuel 21:19"
+      ]
+    },
+    {
+      "label": ".Compare",
+      "references": [
+        "1 Chronicles 20:5"
+      ]
+    },
+    {
+      "label": "2.",
+      "references": [
+        "2 Samuel 23:24"
+      ]
+    },
+    {
+      "label": "11:26",
+      "references": []
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "2 Samuel",
+      "chapter": 21,
+      "verses": [
+        19
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Samuel 21:19"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 20,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 20:5"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 23,
+      "verses": [
+        24
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Samuel 23:24"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 11,
+      "verses": [
+        26
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Samuel 11:26"
+    }
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "2 Samuel"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 5,
+    "total_refs": 4,
+    "ot_refs": 4,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:d432e33907cabb7fef95d322076cd0bff498f5080f5f84d71ab38448226b7641",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 5
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 2,
+    "top_books": [
+      "2 Samuel",
+      "1 Chronicles"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:25:51.230680Z",
-  "updated_at": "2025-09-20T17:25:51.230686Z"
+  }
 }

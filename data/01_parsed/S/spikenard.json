@@ -1,76 +1,39 @@
 {
   "topic": "SPIKENARD",
   "slug": "spikenard",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "An aromatic plant So 4:13,14",
-      "references": [
-        "Song 4:13",
-        "Song 4:14"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Perfume prepared from So 1:12",
-      "references": [
-        "Song 1:12"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "A fragrant oil from, used for anointing Mr 14:3; Joh 12:3",
-      "references": [
-        "Mark 14:3",
-        "John 12:3"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "John",
-      "book_abbrev": "jhn",
-      "chapter": 12,
-      "testament": "NT",
-      "verses": [
-        3
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 0,
-    "nt_refs": 1,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.727350+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "see_also": [],
+  "aspects": [
     {
-      "book": "Song of Solomon",
-      "chapter": 1,
-      "verses": [
-        12
+      "label": "An aromatic plant",
+      "references": [
+        "Song of Solomon 4:13,14"
       ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Song of Solomon 1:12",
-      "source": "EAS"
+      "source": "NAV"
     },
+    {
+      "label": "Perfume prepared from",
+      "references": [
+        "Song of Solomon 1:12"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "A fragrant oil from, used for anointing",
+      "references": [
+        "Mark 14:3"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "12:3",
+      "references": [],
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
     {
       "book": "Song of Solomon",
       "chapter": 4,
@@ -80,8 +43,17 @@
       ],
       "verse_count": 2,
       "testament": "OT",
-      "raw": "Song of Solomon 4:13, 14",
-      "source": "EAS"
+      "raw": "Song of Solomon 4:13,14"
+    },
+    {
+      "book": "Song of Solomon",
+      "chapter": 1,
+      "verses": [
+        12
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Song of Solomon 1:12"
     },
     {
       "book": "Mark",
@@ -91,44 +63,32 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Mark 14:3",
-      "source": "EAS"
-    },
-    {
-      "book": "John",
-      "chapter": 12,
-      "verses": [
-        3,
-        5
-      ],
-      "verse_count": 2,
-      "testament": "NT",
-      "raw": "John 12:3, 5",
-      "source": "EAS"
+      "raw": "Mark 14:3"
     },
     {
       "book": "Mark",
-      "chapter": 14,
+      "chapter": 12,
       "verses": [
-        3,
-        4,
-        5
-      ],
-      "verse_count": 3,
-      "testament": "NT",
-      "raw": "Mark 14:3-5",
-      "source": "SMI"
-    },
-    {
-      "book": "Matthew",
-      "chapter": 20,
-      "verses": [
-        2
+        3
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Matthew 20:2",
-      "source": "SMI"
+      "raw": "Mark 12:3"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Mark",
+    "Song of Solomon"
+  ],
+  "stats": {
+    "total_aspects": 4,
+    "total_refs": 4,
+    "ot_refs": 2,
+    "nt_refs": 2,
+    "books_count": 2,
+    "top_books": [
+      "Song of Solomon",
+      "Mark"
+    ]
+  }
 }

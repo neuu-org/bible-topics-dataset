@@ -1,29 +1,42 @@
 {
   "topic": "WAGON",
   "slug": "wagon",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [
+    "CART"
+  ],
+  "aspects": [
     {
-      "name": "General scriptures concerning Ge 45:19,27; Nu 7:3-9",
+      "label": "General scriptures concerning",
       "references": [
-        "Gen 45:19",
-        "Gen 45:27",
-        "Num 7:3-9"
+        "Genesis 45:19,27",
+        "Numbers 7:3-9"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See CART",
+      "label": "See",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Numbers",
-      "book_abbrev": "num",
-      "chapter": 7,
+      "book": "Genesis",
+      "chapter": 45,
+      "verses": [
+        19,
+        27
+      ],
+      "verse_count": 2,
       "testament": "OT",
+      "raw": "Genesis 45:19,27"
+    },
+    {
+      "book": "Numbers",
+      "chapter": 7,
       "verses": [
         3,
         4,
@@ -33,90 +46,24 @@
         8,
         9
       ],
-      "verse_count": 7
+      "verse_count": 7,
+      "testament": "OT",
+      "raw": "Numbers 7:3-9"
     }
   ],
-  "see_also": [
-    "CART"
+  "books_mentioned": [
+    "Genesis",
+    "Numbers"
   ],
-  "aliases": [],
   "stats": {
-    "entries_count": 2,
-    "ot_refs": 1,
+    "total_aspects": 2,
+    "total_refs": 2,
+    "ot_refs": 2,
     "nt_refs": 0,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.732988+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "1 Samuel",
-      "chapter": 6,
-      "verses": [
-        7
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "1 Samuel 6:7",
-      "source": "EAS"
-    },
-    {
-      "book": "Genesis",
-      "chapter": 45,
-      "verses": [
-        19,
-        21,
-        27
-      ],
-      "verse_count": 3,
-      "testament": "OT",
-      "raw": "Genesis 45:19, 21, 27",
-      "source": "EAS"
-    },
-    {
-      "book": "Genesis",
-      "chapter": 46,
-      "verses": [
-        5
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Genesis 46:5",
-      "source": "EAS"
-    },
-    {
-      "book": "Numbers",
-      "chapter": 7,
-      "verses": [
-        3,
-        7,
-        8
-      ],
-      "verse_count": 3,
-      "testament": "OT",
-      "raw": "Numbers 7:3, 7, 8",
-      "source": "EAS"
-    },
-    {
-      "book": "Ezekiel",
-      "chapter": 23,
-      "verses": [
-        24
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Ezekiel 23:24",
-      "source": "EAS"
-    }
-  ]
+    "books_count": 2,
+    "top_books": [
+      "Genesis",
+      "Numbers"
+    ]
+  }
 }

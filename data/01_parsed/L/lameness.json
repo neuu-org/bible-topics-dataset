@@ -1,88 +1,186 @@
 {
   "topic": "LAMENESS",
   "slug": "lameness",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "Disqualified priests from exercising the priestly office Le 21:18",
+      "label": "Disqualified priests from exercising the priestly office",
       "references": [
-        "Lev 21:18"
+        "Leviticus 21:18"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Disqualified animals for sacrificial uses De 15:21",
+      "label": "Disqualified animals for sacrificial uses",
       "references": [
-        "Deut 15:21"
+        "Deuteronomy 15:21"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Hated by David 2Sa 5:8",
+      "label": "Hated by David",
       "references": [
-        "2Sam 5:8"
+        "2 Samuel 5:8"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Healed by",
+      "label": "Healed by",
       "references": [],
-      "sub_groups": [
-        {
-          "name": "Jesus Mt 11:5; 15:31; 21:14; Lu 7:22",
-          "references": [
-            "Matt 11:5",
-            "Matt 15:31",
-            "Matt 21:14",
-            "Luke 7:22"
-          ]
-        },
-        {
-          "name": "Peter Ac 3:2-11",
-          "references": [
-            "Acts 3:2-11"
-          ]
-        }
-      ]
+      "source": "NAV"
     },
     {
-      "name": "FIGURATIVE Heb 12:13",
+      "label": ".Jesus",
       "references": [
-        "Heb 12:13"
+        "Matthew 11:5",
+        "Matthew 15:31",
+        "Matthew 21:14",
+        "Luke 7:22"
       ],
-      "sub_groups": []
+      "source": "NAV"
+    },
+    {
+      "label": ".Peter",
+      "references": [
+        "Acts 3:2-11"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "FIGURATIVE",
+      "references": [
+        "Hebrews 12:13"
+      ],
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Luke",
-      "book_abbrev": "luk",
-      "chapter": 7,
+      "book": "Leviticus",
+      "chapter": 21,
+      "verses": [
+        18
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Leviticus 21:18"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 15,
+      "verses": [
+        21
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 15:21"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 5,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Samuel 5:8"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 11,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
       "testament": "NT",
+      "raw": "Matthew 11:5"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 15,
+      "verses": [
+        31
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 15:31"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 21,
+      "verses": [
+        14
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 21:14"
+    },
+    {
+      "book": "Luke",
+      "chapter": 7,
       "verses": [
         22
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 7:22"
+    },
+    {
+      "book": "Acts",
+      "chapter": 3,
+      "verses": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "verse_count": 10,
+      "testament": "NT",
+      "raw": "Acts 3:2-11"
+    },
+    {
+      "book": "Hebrews",
+      "chapter": 12,
+      "verses": [
+        13
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Hebrews 12:13"
     }
   ],
-  "see_also": [],
-  "aliases": [],
+  "books_mentioned": [
+    "2 Samuel",
+    "Acts",
+    "Deuteronomy",
+    "Hebrews",
+    "Leviticus",
+    "Luke",
+    "Matthew"
+  ],
   "stats": {
-    "entries_count": 5,
-    "ot_refs": 0,
-    "nt_refs": 1,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.699849+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    }
-  },
-  "version": "3.0.0"
+    "total_aspects": 7,
+    "total_refs": 9,
+    "ot_refs": 3,
+    "nt_refs": 6,
+    "books_count": 7,
+    "top_books": [
+      "Matthew",
+      "Leviticus",
+      "Deuteronomy",
+      "2 Samuel",
+      "Luke",
+      "Acts",
+      "Hebrews"
+    ]
+  }
 }

@@ -1,84 +1,22 @@
 {
   "topic": "HAMUL",
   "slug": "hamul",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Son of Pharez Ge 46:12; Nu 26:21; 1Ch 2:5",
-      "references": [
-        "Gen 46:12",
-        "Num 26:21",
-        "1Chr 2:5"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Numbers",
-      "book_abbrev": "num",
-      "chapter": 26,
-      "testament": "OT",
-      "verses": [
-        1,
-        21
-      ],
-      "verse_count": 2
-    },
-    {
-      "book": "1 Chronicles",
-      "book_abbrev": "1ch",
-      "chapter": 2,
-      "testament": "OT",
-      "verses": [
-        5
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 2,
-    "nt_refs": 0,
-    "total_verses": 2
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.690520+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "General references",
+      "references": [
+        "Genesis 46:12",
+        "Numbers 26:21",
+        "1 Chronicles 2:5"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "1 Chronicles",
-      "chapter": 2,
-      "verses": [
-        5
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "1 Chronicles 2:5",
-      "source": "EAS"
-    },
-    {
-      "book": "Numbers",
-      "chapter": 26,
-      "verses": [
-        21
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Numbers 26:21",
-      "source": "EAS"
-    },
+  ],
+  "biblical_references": [
     {
       "book": "Genesis",
       "chapter": 46,
@@ -87,8 +25,44 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 46:12",
-      "source": "SMI"
+      "raw": "Genesis 46:12"
+    },
+    {
+      "book": "Numbers",
+      "chapter": 26,
+      "verses": [
+        21
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Numbers 26:21"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 2,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 2:5"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Genesis",
+    "Numbers"
+  ],
+  "stats": {
+    "total_aspects": 1,
+    "total_refs": 3,
+    "ot_refs": 3,
+    "nt_refs": 0,
+    "books_count": 3,
+    "top_books": [
+      "Genesis",
+      "Numbers",
+      "1 Chronicles"
+    ]
+  }
 }

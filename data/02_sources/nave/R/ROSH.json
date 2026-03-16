@@ -1,69 +1,75 @@
 {
   "topic": "ROSH",
-  "topic_slug": "rosh",
+  "slug": "rosh",
   "canonical_id": "NAV:rosh",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–1. Son of BenjaminGe 46:21\n–2. An ancient peopleEze 38:2,3\n  .R. V.)Eze 39:1",
-  "content_preview": "–1. Son of BenjaminGe 46:21",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–1. Son of BenjaminGe 46:21",
-      "raw_segment": "–1. Son of BenjaminGe 46:21"
+      "label": "1.",
+      "references": [
+        "Genesis 46:21"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–2. An ancient peopleEze 38:2,3",
-      "raw_segment": "–2. An ancient peopleEze 38:2,3"
+      "label": "2. An ancient people",
+      "references": [
+        "Ezekiel 38:2,3"
+      ]
+    },
+    {
+      "label": ".R. V.)",
+      "references": [
+        "Ezekiel 39:1"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Genesis",
+      "chapter": 46,
+      "verses": [
+        21
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 46:21"
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 38,
+      "verses": [
+        2,
+        3
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Ezekiel 38:2,3"
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 39,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezekiel 39:1"
+    }
+  ],
+  "books_mentioned": [
+    "Ezekiel",
+    "Genesis"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 3,
+    "total_refs": 3,
+    "ot_refs": 3,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:eeba72198720d25bd4e343d8d1811c0b3363614944cf441e0dc8d1f4b4ae9114",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 3
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 2,
+    "top_books": [
+      "Ezekiel",
+      "Genesis"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:30:46.064357Z",
-  "updated_at": "2025-09-20T17:30:46.064364Z"
+  }
 }

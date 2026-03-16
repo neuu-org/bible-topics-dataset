@@ -1,52 +1,35 @@
 {
   "topic": "EBENEZER",
   "slug": "ebenezer",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Name of a memorial stone 1Sa 7:12",
-      "references": [
-        "1Sam 7:12"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Philistines defeat the Israelites at 1Sa 4",
-      "references": [
-        "1Sam 4"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Philistines remove the ark of the covenant from 1Sa 5:1",
-      "references": [
-        "1Sam 5:1"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.682950+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "Name of a memorial stone",
+      "references": [
+        "1 Samuel 7:12"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Philistines",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "Philistines remove the ark of the covenant from1Sa",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "5:1",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "1 Samuel",
       "chapter": 7,
@@ -55,8 +38,30 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Samuel 7:12",
-      "source": "SMI"
+      "raw": "1 Samuel 7:12"
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 5,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Samuel 5:1"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Samuel"
+  ],
+  "stats": {
+    "total_aspects": 4,
+    "total_refs": 2,
+    "ot_refs": 2,
+    "nt_refs": 0,
+    "books_count": 1,
+    "top_books": [
+      "1 Samuel"
+    ]
+  }
 }

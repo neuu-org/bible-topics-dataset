@@ -1,88 +1,102 @@
 {
   "topic": "REAPING",
-  "topic_slug": "reaping",
+  "slug": "reaping",
   "canonical_id": "NAV:reaping",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "GLEANING"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "GLEANING",
-      "clean": "GLEANING",
-      "slug": "gleaning",
-      "canonical_id": "NAV:gleaning"
+      "label": "General scriptures concerning",
+      "references": [
+        "Psalms 129:7"
+      ]
+    },
+    {
+      "label": "The ark of the covenant returned by the Philistines at the time",
+      "references": []
+    },
+    {
+      "label": "of",
+      "references": [
+        "1 Samuel 6:13"
+      ]
+    },
+    {
+      "label": "Laws concerning gleaning at the time of",
+      "references": []
+    },
+    {
+      "label": ".SeeGLEANING",
+      "references": []
+    },
+    {
+      "label": "FIGURATIVE",
+      "references": [
+        "Psalms 126:6",
+        "Hosea 10:12,13"
+      ]
     }
   ],
-  "raw_block": "–General scriptures concerningPs 129:7\n–The ark of the covenant returned by the Philistines at the time \nof1Sa 6:13\n–Laws concerning gleaning at the time of\n  .SeeGLEANING\n–FIGURATIVEPs 126:6;Ho 10:12,13",
-  "content_preview": "–General scriptures concerningPs 129:7",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–General scriptures concerningPs 129:7",
-      "raw_segment": "–General scriptures concerningPs 129:7"
+      "book": "Psalms",
+      "chapter": 129,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 129:7"
     },
     {
-      "idx": 1,
-      "entry_label": "–The ark of the covenant returned by the Philistines at the time \nof1Sa 6:13",
-      "raw_segment": "–The ark of the covenant returned by the Philistines at the time \nof1Sa 6:13"
+      "book": "1 Samuel",
+      "chapter": 6,
+      "verses": [
+        13
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Samuel 6:13"
     },
     {
-      "idx": 2,
-      "entry_label": "–Laws concerning gleaning at the time of",
-      "raw_segment": "–Laws concerning gleaning at the time of"
+      "book": "Psalms",
+      "chapter": 126,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 126:6"
     },
     {
-      "idx": 3,
-      "entry_label": "–FIGURATIVEPs 126:6;Ho 10:12,13",
-      "raw_segment": "–FIGURATIVEPs 126:6;Ho 10:12,13"
+      "book": "Hosea",
+      "chapter": 10,
+      "verses": [
+        12,
+        13
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Hosea 10:12,13"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "1 Samuel",
+    "Hosea",
+    "Psalms"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 6,
+    "total_refs": 4,
+    "ot_refs": 4,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:ec863774904f77e80cf7dd74f5a9eb590c9e7ac5186be6c9d9b4f332f7256a0f",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 6
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 3,
+    "top_books": [
+      "Psalms",
+      "1 Samuel",
+      "Hosea"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:30:31.267070Z",
-  "updated_at": "2025-09-20T17:30:31.267078Z"
+  }
 }

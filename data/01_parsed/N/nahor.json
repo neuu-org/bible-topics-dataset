@@ -1,86 +1,45 @@
 {
   "topic": "NAHOR",
   "slug": "nahor",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. Grandfather of Abraham Ge 11:22-26; 1Ch 1:26",
-      "references": [
-        "Gen 11:22-26",
-        "1Chr 1:26"
-      ],
-      "sub_groups": [
-        {
-          "name": "In the lineage of Christ Lu 3:34",
-          "references": [
-            "Luke 3:34"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "2. Brother of Abraham Ge 11:26; Jos 24:2",
-      "references": [
-        "Gen 11:26",
-        "Josh 24:2"
-      ],
-      "sub_groups": [
-        {
-          "name": "Marriage and descendants of Ge 11:27,29; 22:20-24; 24:15,24",
-          "references": [
-            "Gen 11:27",
-            "Gen 11:29",
-            "Gen 22:20-24",
-            "Gen 24:15",
-            "Gen 24:24"
-          ]
-        }
-      ]
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Joshua",
-      "book_abbrev": "jos",
-      "chapter": 24,
-      "testament": "OT",
-      "verses": [
-        2
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "1 Chronicles",
-      "book_abbrev": "1ch",
-      "chapter": 1,
-      "testament": "OT",
-      "verses": [
-        26
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 2,
-    "nt_refs": 0,
-    "total_verses": 2
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.713406+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "1. Grandfather of Abraham",
+      "references": [
+        "Genesis 11:22-26",
+        "1 Chronicles 1:26"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".In the lineage of Christ",
+      "references": [
+        "Luke 3:34"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2. Brother of Abraham",
+      "references": [
+        "Genesis 11:26",
+        "Joshua 24:2"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".Marriage and",
+      "references": [
+        "Genesis 11:27,29",
+        "Genesis 22:20-24",
+        "Genesis 24:15,24"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Genesis",
       "chapter": 11,
@@ -88,12 +47,22 @@
         22,
         23,
         24,
-        25
+        25,
+        26
       ],
-      "verse_count": 4,
+      "verse_count": 5,
       "testament": "OT",
-      "raw": "Genesis 11:22-25",
-      "source": "EAS"
+      "raw": "Genesis 11:22-26"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 1,
+      "verses": [
+        26
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 1:26"
     },
     {
       "book": "Luke",
@@ -103,20 +72,17 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Luke 3:34",
-      "source": "EAS"
+      "raw": "Luke 3:34"
     },
     {
       "book": "Genesis",
       "chapter": 11,
       "verses": [
-        26,
-        27
+        26
       ],
-      "verse_count": 2,
+      "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 11:26, 27",
-      "source": "EAS"
+      "raw": "Genesis 11:26"
     },
     {
       "book": "Joshua",
@@ -126,46 +92,62 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Joshua 24:2",
-      "source": "EAS"
+      "raw": "Joshua 24:2"
     },
     {
       "book": "Genesis",
       "chapter": 11,
       "verses": [
         27,
-        28,
-        29,
-        30,
-        31,
-        32
+        29
       ],
-      "verse_count": 6,
+      "verse_count": 2,
       "testament": "OT",
-      "raw": "Genesis 11:27-32",
-      "source": "EAS"
+      "raw": "Genesis 11:27,29"
     },
     {
       "book": "Genesis",
-      "chapter": 31,
+      "chapter": 22,
       "verses": [
-        55
+        20,
+        21,
+        22,
+        23,
+        24
       ],
-      "verse_count": 1,
+      "verse_count": 5,
       "testament": "OT",
-      "raw": "Genesis 31:55",
-      "source": "EAS"
+      "raw": "Genesis 22:20-24"
     },
     {
       "book": "Genesis",
       "chapter": 24,
       "verses": [
-        67
+        15,
+        24
       ],
-      "verse_count": 1,
+      "verse_count": 2,
       "testament": "OT",
-      "raw": "Genesis 24:67",
-      "source": "EAS"
+      "raw": "Genesis 24:15,24"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Genesis",
+    "Joshua",
+    "Luke"
+  ],
+  "stats": {
+    "total_aspects": 4,
+    "total_refs": 8,
+    "ot_refs": 7,
+    "nt_refs": 1,
+    "books_count": 4,
+    "top_books": [
+      "Genesis",
+      "1 Chronicles",
+      "Luke",
+      "Joshua"
+    ]
+  }
 }

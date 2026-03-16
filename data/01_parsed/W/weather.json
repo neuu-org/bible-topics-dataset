@@ -1,52 +1,71 @@
 {
   "topic": "WEATHER",
   "slug": "weather",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Signs of Mt 16:2,3",
-      "references": [
-        "Matt 16:2",
-        "Matt 16:3"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Sayings concerning Job 37:9,17,22",
-      "references": [
-        "Job 37:9",
-        "Job 37:17",
-        "Job 37:22"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "See METEOROLOGY",
-      "references": [],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [
-    "METEOROLOGY"
-  ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.733271+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
+  "see_also": [
+    "METEOROLOGY"
+  ],
+  "aspects": [
+    {
+      "label": "Signs of",
+      "references": [
+        "Matthew 16:2,3"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Sayings concerning",
+      "references": [
+        "Job 37:9,17,22"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeMETEOROLOGY",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0"
+  ],
+  "biblical_references": [
+    {
+      "book": "Matthew",
+      "chapter": 16,
+      "verses": [
+        2,
+        3
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Matthew 16:2,3"
+    },
+    {
+      "book": "Job",
+      "chapter": 37,
+      "verses": [
+        9,
+        17,
+        22
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Job 37:9,17,22"
+    }
+  ],
+  "books_mentioned": [
+    "Job",
+    "Matthew"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 2,
+    "ot_refs": 1,
+    "nt_refs": 1,
+    "books_count": 2,
+    "top_books": [
+      "Matthew",
+      "Job"
+    ]
+  }
 }

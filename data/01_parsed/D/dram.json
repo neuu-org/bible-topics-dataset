@@ -1,70 +1,28 @@
 {
   "topic": "DRAM",
   "slug": "dram",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Also called DRACHM",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "A Persian coin of differently-estimated value 1Ch 29:7; Ezr 2:69; 8:27; Ne 7:70-72",
-      "references": [
-        "1Chr 29:7",
-        "Ezra 2:69",
-        "Ezra 8:27",
-        "Neh 7:70-72"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Ezra",
-      "book_abbrev": "ezr",
-      "chapter": 2,
-      "testament": "OT",
-      "verses": [
-        8,
-        69
-      ],
-      "verse_count": 2
-    },
-    {
-      "book": "Nehemiah",
-      "book_abbrev": "neh",
-      "chapter": 7,
-      "testament": "OT",
-      "verses": [
-        70,
-        71,
-        72
-      ],
-      "verse_count": 3
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 2,
-    "nt_refs": 0,
-    "total_verses": 2
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.682415+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "Al",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "A Persian coin of differently-estimated va",
+      "references": [
+        "1 Chronicles 29:7",
+        "Ezra 2:69",
+        "Ezra 8:27",
+        "Nehemiah 7:70-72"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "1 Chronicles",
       "chapter": 29,
@@ -73,8 +31,17 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 29:7",
-      "source": "EAS"
+      "raw": "1 Chronicles 29:7"
+    },
+    {
+      "book": "Ezra",
+      "chapter": 2,
+      "verses": [
+        69
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezra 2:69"
     },
     {
       "book": "Ezra",
@@ -84,30 +51,36 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Ezra 8:27",
-      "source": "EAS"
-    },
-    {
-      "book": "Ezra",
-      "chapter": 2,
-      "verses": [
-        69
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Ezra 2:69",
-      "source": "EAS"
+      "raw": "Ezra 8:27"
     },
     {
       "book": "Nehemiah",
       "chapter": 7,
       "verses": [
-        70
+        70,
+        71,
+        72
       ],
-      "verse_count": 1,
+      "verse_count": 3,
       "testament": "OT",
-      "raw": "Nehemiah 7:70",
-      "source": "EAS"
+      "raw": "Nehemiah 7:70-72"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Ezra",
+    "Nehemiah"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 4,
+    "ot_refs": 4,
+    "nt_refs": 0,
+    "books_count": 3,
+    "top_books": [
+      "Ezra",
+      "1 Chronicles",
+      "Nehemiah"
+    ]
+  }
 }

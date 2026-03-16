@@ -1,48 +1,61 @@
 {
   "topic": "EMBEZZLEMENT",
   "slug": "embezzlement",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "General scriptures concerning Lu 16:1-7",
-      "references": [
-        "Luke 16:1-7"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "See DISHONESTY",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "See FRAUD",
-      "references": [],
-      "sub_groups": []
-    }
+  "sources": [
+    "NAV"
   ],
-  "biblical_references": [],
   "see_also": [
     "DISHONESTY",
     "FRAUD"
   ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.684168+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
+  "aspects": [
+    {
+      "label": "General scriptures concerning",
+      "references": [
+        "Luke 16:1-7"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeDISHONESTY",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeFRAUD",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0"
+  ],
+  "biblical_references": [
+    {
+      "book": "Luke",
+      "chapter": 16,
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "verse_count": 7,
+      "testament": "NT",
+      "raw": "Luke 16:1-7"
+    }
+  ],
+  "books_mentioned": [
+    "Luke"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 1,
+    "ot_refs": 0,
+    "nt_refs": 1,
+    "books_count": 1,
+    "top_books": [
+      "Luke"
+    ]
+  }
 }

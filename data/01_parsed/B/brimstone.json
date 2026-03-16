@@ -1,125 +1,71 @@
 {
   "topic": "BRIMSTONE",
   "slug": "brimstone",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "Fire and, rained upon Sodom Ge 19:24; Lu 17:29",
+      "label": "Fire and, rained upon",
       "references": [
-        "Gen 19:24",
+        "Genesis 19:24",
         "Luke 17:29"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "In Palestine De 29:23",
+      "label": "In Palestine",
       "references": [
-        "Deut 29:23"
+        "Deuteronomy 29:23"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "FIGURATIVE Job 18:15; Ps 11:6; Isa 30:33; Eze 38:22; Re 9:17,18; 14:10; 19:20; 21:8",
+      "label": "FIGURATIVE",
       "references": [
         "Job 18:15",
-        "Ps 11:6",
-        "Isa 30:33",
-        "Ezek 38:22",
-        "Rev 9:17",
-        "Rev 9:18",
-        "Rev 14:10",
-        "Rev 19:20",
-        "Rev 21:8"
+        "Psalms 11:6",
+        "Isaiah 30:33",
+        "Ezekiel 38:22",
+        "Revelation 9:17,18",
+        "Revelation 14:10",
+        "Revelation 19:20",
+        "Revelation 21:8"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Psalms",
-      "book_abbrev": "psa",
-      "chapter": 11,
-      "testament": "OT",
-      "verses": [
-        6
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Isaiah",
-      "book_abbrev": "isa",
-      "chapter": 30,
-      "testament": "OT",
-      "verses": [
-        33
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Ezekiel",
-      "book_abbrev": "ezk",
-      "chapter": 38,
-      "testament": "OT",
-      "verses": [
-        22
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Luke",
-      "book_abbrev": "luk",
-      "chapter": 17,
-      "testament": "NT",
-      "verses": [
-        29
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Revelation",
-      "book_abbrev": "rev",
-      "chapter": 9,
-      "testament": "NT",
-      "verses": [
-        14,
-        17,
-        18
-      ],
-      "verse_count": 3
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 3,
-    "nt_refs": 2,
-    "total_verses": 5
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.675559+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
       "book": "Genesis",
       "chapter": 19,
       "verses": [
-        24,
-        25
+        24
       ],
-      "verse_count": 2,
+      "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 19:24, 25",
-      "source": "EAS"
+      "raw": "Genesis 19:24"
+    },
+    {
+      "book": "Luke",
+      "chapter": 17,
+      "verses": [
+        29
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 17:29"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 29,
+      "verses": [
+        23
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 29:23"
     },
     {
       "book": "Job",
@@ -129,30 +75,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Job 18:15",
-      "source": "EAS"
-    },
-    {
-      "book": "Isaiah",
-      "chapter": 30,
-      "verses": [
-        33
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Isaiah 30:33",
-      "source": "EAS"
-    },
-    {
-      "book": "Isaiah",
-      "chapter": 34,
-      "verses": [
-        9
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Isaiah 34:9",
-      "source": "EAS"
+      "raw": "Job 18:15"
     },
     {
       "book": "Psalms",
@@ -162,8 +85,17 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Psalms 11:6",
-      "source": "EAS"
+      "raw": "Psalms 11:6"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 30,
+      "verses": [
+        33
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 30:33"
     },
     {
       "book": "Ezekiel",
@@ -173,8 +105,18 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Ezekiel 38:22",
-      "source": "EAS"
+      "raw": "Ezekiel 38:22"
+    },
+    {
+      "book": "Revelation",
+      "chapter": 9,
+      "verses": [
+        17,
+        18
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Revelation 9:17,18"
     },
     {
       "book": "Revelation",
@@ -184,8 +126,7 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Revelation 14:10",
-      "source": "EAS"
+      "raw": "Revelation 14:10"
     },
     {
       "book": "Revelation",
@@ -195,30 +136,44 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Revelation 19:20",
-      "source": "EAS"
+      "raw": "Revelation 19:20"
     },
     {
       "book": "Revelation",
-      "chapter": 20,
+      "chapter": 21,
       "verses": [
-        10
+        8
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Revelation 20:10",
-      "source": "EAS"
-    },
-    {
-      "book": "Genesis",
-      "chapter": 19,
-      "verses": [
-        24
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Genesis 19:24",
-      "source": "SMI"
+      "raw": "Revelation 21:8"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Deuteronomy",
+    "Ezekiel",
+    "Genesis",
+    "Isaiah",
+    "Job",
+    "Luke",
+    "Psalms",
+    "Revelation"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 11,
+    "ot_refs": 6,
+    "nt_refs": 5,
+    "books_count": 8,
+    "top_books": [
+      "Revelation",
+      "Genesis",
+      "Luke",
+      "Deuteronomy",
+      "Job",
+      "Psalms",
+      "Isaiah",
+      "Ezekiel"
+    ]
+  }
 }

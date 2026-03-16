@@ -1,80 +1,28 @@
 {
   "topic": "PHALLU",
   "slug": "phallu",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Also called PALLU",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "Son of Reuben Ge 46:9; Ex 6:14; Nu 26:5,8; 1Ch 5:3",
-      "references": [
-        "Gen 46:9",
-        "Exod 6:14",
-        "Num 26:5",
-        "Num 26:8",
-        "1Chr 5:3"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Exodus",
-      "book_abbrev": "exo",
-      "chapter": 6,
-      "testament": "OT",
-      "verses": [
-        14
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Numbers",
-      "book_abbrev": "num",
-      "chapter": 26,
-      "testament": "OT",
-      "verses": [
-        1,
-        5,
-        8
-      ],
-      "verse_count": 3
-    },
-    {
-      "book": "1 Chronicles",
-      "book_abbrev": "1ch",
-      "chapter": 5,
-      "testament": "OT",
-      "verses": [
-        3
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 3,
-    "nt_refs": 0,
-    "total_verses": 3
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.717948+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "Al",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "General references",
+      "references": [
+        "Genesis 46:9",
+        "Exodus 6:14",
+        "Numbers 26:5,8",
+        "1 Chronicles 5:3"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Genesis",
       "chapter": 46,
@@ -83,8 +31,57 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 46:9",
-      "source": "EAS"
+      "raw": "Genesis 46:9"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 6,
+      "verses": [
+        14
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 6:14"
+    },
+    {
+      "book": "Numbers",
+      "chapter": 26,
+      "verses": [
+        5,
+        8
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Numbers 26:5,8"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 5,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 5:3"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Exodus",
+    "Genesis",
+    "Numbers"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 4,
+    "ot_refs": 4,
+    "nt_refs": 0,
+    "books_count": 4,
+    "top_books": [
+      "Genesis",
+      "Exodus",
+      "Numbers",
+      "1 Chronicles"
+    ]
+  }
 }

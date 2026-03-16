@@ -1,104 +1,407 @@
 {
   "topic": "CARE",
-  "topic_slug": "care",
+  "slug": "care",
   "canonical_id": "NAV:care",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "RICHES",
     "RICH, THE",
     "CARNAL MINDEDNESS",
     "WORLDLINESS"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "RICHES",
-      "clean": "RICHES",
-      "slug": "riches",
-      "canonical_id": "NAV:riches"
+      "label": "WORLDLY",
+      "references": [
+        "Psalms 39:6",
+        "Psalms 127:2",
+        "Ecclesiastes 4:8",
+        "Matthew 6:25-34",
+        "Matthew 13:22",
+        "Mark 4:19",
+        "Luke 8:14",
+        "Luke 12:27",
+        "Luke 14:18-20",
+        "Luke 21:34",
+        "1 Corinthians 7:32,33",
+        "Philippians 4:6",
+        "2 Timothy 2:4"
+      ]
     },
     {
-      "original": "RICH, THE",
-      "clean": "RICH, THE",
-      "slug": "rich__the",
-      "canonical_id": "NAV:rich__the"
+      "label": ".See",
+      "references": []
     },
     {
-      "original": "CARNAL MINDEDNESS",
-      "clean": "CARNAL MINDEDNESS",
-      "slug": "carnal_mindedness",
-      "canonical_id": "NAV:carnal_mindedness"
+      "label": ".SeeRICHES",
+      "references": []
     },
     {
-      "original": "WORLDLINESS",
-      "clean": "WORLDLINESS",
-      "slug": "worldliness",
-      "canonical_id": "NAV:worldliness"
+      "label": ".SeeWORLDLINESS",
+      "references": []
+    },
+    {
+      "label": "REMEDY FOR",
+      "references": [
+        "Psalms 37:5",
+        "Psalms 55:22",
+        "Proverbs 16:3",
+        "Jeremiah 17:7,8"
+      ]
+    },
+    {
+      "label": "6:26-34;",
+      "references": [
+        "Luke 12:22-32",
+        "Philippians 4:6,7",
+        "Hebrews 13:5",
+        "1 Peter 5:6,7"
+      ]
+    },
+    {
+      "label": "INSTANCES OF",
+      "references": []
+    },
+    {
+      "label": ".Martha",
+      "references": [
+        "Luke 10:40,41"
+      ]
+    },
+    {
+      "label": ".Certain per",
+      "references": [
+        "Matthew 9:21",
+        "Luke 9:57-62"
+      ]
+    },
+    {
+      "label": ".SeeRICH, THE",
+      "references": []
     }
   ],
-  "raw_block": "–WORLDLYPs 39:6;127:2;Ec 4:8;Mt 6:25-34;13:22;Mr 4:19;Lu 8:14;12:27;14:18-20;21:34;1Co 7:32,33;Php 4:6;2Ti 2:4\n  .SeeCARNAL MINDEDNESS\n  .SeeRICHES\n  .SeeWORLDLINESS\n–REMEDY FORPs 37:5;55:22;Pr 16:3;Jer 17:7,8;Mt \n6:26-34;Lu 12:22-32;Php 4:6,7;Heb 13:5;1Pe 5:6,7\n–INSTANCES OF\n  .MarthaLu 10:40,41\n  .Certain persons who desired to follow JesusMt 9:21;Lu 9:57-62\n  .SeeRICH, THE",
-  "content_preview": "–WORLDLYPs 39:6;127:2;Ec 4:8;Mt 6:25-34;13:22;Mr 4:19;Lu 8:14;12:27;14:18-20;21:34;1Co 7:32,33;Php 4...",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–WORLDLYPs 39:6;127:2;Ec 4:8;Mt 6:25-34;13:22;Mr 4:19;Lu 8:14;12:27;14:18-20;21:34;1Co 7:32,33;Php 4:6;2Ti 2:4",
-      "raw_segment": "–WORLDLYPs 39:6;127:2;Ec 4:8;Mt 6:25-34;13:22;Mr 4:19;Lu 8:14;12:27;14:18-20;21:34;1Co 7:32,33;Php 4:6;2Ti 2:4"
+      "book": "Psalms",
+      "chapter": 39,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 39:6"
     },
     {
-      "idx": 1,
-      "entry_label": "–REMEDY FORPs 37:5;55:22;Pr 16:3;Jer 17:7,8;Mt \n6:26-34;Lu 12:22-32;Php 4:6,7;Heb 13:5;1Pe 5:6,7",
-      "raw_segment": "–REMEDY FORPs 37:5;55:22;Pr 16:3;Jer 17:7,8;Mt \n6:26-34;Lu 12:22-32;Php 4:6,7;Heb 13:5;1Pe 5:6,7"
+      "book": "Psalms",
+      "chapter": 127,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 127:2"
     },
     {
-      "idx": 2,
-      "entry_label": "–INSTANCES OF",
-      "raw_segment": "–INSTANCES OF"
+      "book": "Ecclesiastes",
+      "chapter": 4,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ecclesiastes 4:8"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 6,
+      "verses": [
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "verse_count": 10,
+      "testament": "NT",
+      "raw": "Matthew 6:25-34"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 13,
+      "verses": [
+        22
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 13:22"
+    },
+    {
+      "book": "Mark",
+      "chapter": 4,
+      "verses": [
+        19
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Mark 4:19"
+    },
+    {
+      "book": "Luke",
+      "chapter": 8,
+      "verses": [
+        14
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 8:14"
+    },
+    {
+      "book": "Luke",
+      "chapter": 12,
+      "verses": [
+        27
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 12:27"
+    },
+    {
+      "book": "Luke",
+      "chapter": 14,
+      "verses": [
+        18,
+        19,
+        20
+      ],
+      "verse_count": 3,
+      "testament": "NT",
+      "raw": "Luke 14:18-20"
+    },
+    {
+      "book": "Luke",
+      "chapter": 21,
+      "verses": [
+        34
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 21:34"
+    },
+    {
+      "book": "1 Corinthians",
+      "chapter": 7,
+      "verses": [
+        32,
+        33
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "1 Corinthians 7:32,33"
+    },
+    {
+      "book": "Philippians",
+      "chapter": 4,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Philippians 4:6"
+    },
+    {
+      "book": "2 Timothy",
+      "chapter": 2,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "2 Timothy 2:4"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 37,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 37:5"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 55,
+      "verses": [
+        22
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 55:22"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 16,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 16:3"
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 17,
+      "verses": [
+        7,
+        8
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Jeremiah 17:7,8"
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 6,
+      "verses": [
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "verse_count": 9,
+      "testament": "OT",
+      "raw": "Jeremiah 6:26-34"
+    },
+    {
+      "book": "Luke",
+      "chapter": 12,
+      "verses": [
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "verse_count": 11,
+      "testament": "NT",
+      "raw": "Luke 12:22-32"
+    },
+    {
+      "book": "Philippians",
+      "chapter": 4,
+      "verses": [
+        6,
+        7
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Philippians 4:6,7"
+    },
+    {
+      "book": "Hebrews",
+      "chapter": 13,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Hebrews 13:5"
+    },
+    {
+      "book": "1 Peter",
+      "chapter": 5,
+      "verses": [
+        6,
+        7
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "1 Peter 5:6,7"
+    },
+    {
+      "book": "Luke",
+      "chapter": 10,
+      "verses": [
+        40,
+        41
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Luke 10:40,41"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 9,
+      "verses": [
+        21
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 9:21"
+    },
+    {
+      "book": "Luke",
+      "chapter": 9,
+      "verses": [
+        57,
+        58,
+        59,
+        60,
+        61,
+        62
+      ],
+      "verse_count": 6,
+      "testament": "NT",
+      "raw": "Luke 9:57-62"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "1 Corinthians",
+    "1 Peter",
+    "2 Timothy",
+    "Ecclesiastes",
+    "Hebrews",
+    "Jeremiah",
+    "Luke",
+    "Mark",
+    "Matthew",
+    "Philippians",
+    "Proverbs",
+    "Psalms"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:f35aefb1548c1a3a447b16842390fab799af4bdc38ff82f67230e3e63d868217",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 10
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 10,
+    "total_refs": 25,
+    "ot_refs": 8,
+    "nt_refs": 17,
+    "books_count": 12,
+    "top_books": [
+      "Luke",
+      "Psalms",
+      "Matthew",
+      "Philippians",
+      "Jeremiah",
+      "Ecclesiastes",
+      "Mark",
+      "1 Corinthians",
+      "2 Timothy",
+      "Proverbs"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:24:49.212403Z",
-  "updated_at": "2025-09-20T17:24:49.212410Z"
+  }
 }

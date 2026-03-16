@@ -1,47 +1,43 @@
 {
   "topic": "MAKKEDAH",
   "slug": "makkedah",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "A city in the territory of the tribe of Judah, conquered by Joshua Jos 10:28; 12:16",
-      "references": [
-        "Josh 10:28",
-        "Josh 12:16"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Five kings of the Amorites hide in a cave of, and are killed by Joshua Jos 10:5,16-27",
-      "references": [
-        "Josh 10:5",
-        "Josh 10:16-27"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.703328+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "A city in the territory of the tribe of",
+      "references": [
+        "Joshua 10:28",
+        "Joshua 12:16"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Five kings of the Amorites hi",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "by Joshua",
+      "references": [
+        "Joshua 10:5,16-27"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
+    {
+      "book": "Joshua",
+      "chapter": 10,
+      "verses": [
+        28
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 10:28"
+    },
     {
       "book": "Joshua",
       "chapter": 12,
@@ -50,19 +46,13 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Joshua 12:16",
-      "source": "EAS"
+      "raw": "Joshua 12:16"
     },
     {
       "book": "Joshua",
       "chapter": 10,
       "verses": [
-        10,
-        11,
-        12,
-        13,
-        14,
-        15,
+        5,
         16,
         17,
         18,
@@ -74,65 +64,24 @@
         24,
         25,
         26,
-        27,
-        28,
-        29
+        27
       ],
-      "verse_count": 20,
+      "verse_count": 13,
       "testament": "OT",
-      "raw": "Joshua 10:10-29",
-      "source": "EAS"
-    },
-    {
-      "book": "Joshua",
-      "chapter": 10,
-      "verses": [
-        10,
-        11,
-        12,
-        13,
-        14,
-        15,
-        16,
-        17,
-        18,
-        19,
-        20,
-        21,
-        22,
-        23,
-        24,
-        25,
-        26,
-        27,
-        28,
-        29,
-        30,
-        31,
-        32,
-        33,
-        34,
-        35,
-        36,
-        37,
-        38,
-        39,
-        40,
-        41,
-        42,
-        43,
-        44,
-        45,
-        46,
-        47,
-        48,
-        49,
-        50
-      ],
-      "verse_count": 41,
-      "testament": "OT",
-      "raw": "Joshua 10:10-50",
-      "source": "SMI"
+      "raw": "Joshua 10:5,16-27"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Joshua"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 3,
+    "ot_refs": 3,
+    "nt_refs": 0,
+    "books_count": 1,
+    "top_books": [
+      "Joshua"
+    ]
+  }
 }

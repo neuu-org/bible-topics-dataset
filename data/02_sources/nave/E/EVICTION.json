@@ -1,64 +1,53 @@
 {
   "topic": "EVICTION",
-  "topic_slug": "eviction",
+  "slug": "eviction",
   "canonical_id": "NAV:eviction",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–Of tenantsMt 21:41;Mr 12:9",
-  "content_preview": "–Of tenantsMt 21:41;Mr 12:9",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–Of tenantsMt 21:41;Mr 12:9",
-      "raw_segment": "–Of tenantsMt 21:41;Mr 12:9"
+      "label": "Of tenants",
+      "references": [
+        "Matthew 21:41",
+        "Mark 12:9"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Matthew",
+      "chapter": 21,
+      "verses": [
+        41
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 21:41"
+    },
+    {
+      "book": "Mark",
+      "chapter": 12,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Mark 12:9"
+    }
+  ],
+  "books_mentioned": [
+    "Mark",
+    "Matthew"
+  ],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 1,
+    "total_refs": 2,
     "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:860f9be60f5879012b80471a66962279c8bcfc8f317d79776d75c693f9d674bb",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 1
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "nt_refs": 2,
+    "books_count": 2,
+    "top_books": [
+      "Matthew",
+      "Mark"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:26:10.723311Z",
-  "updated_at": "2025-09-20T17:26:10.723322Z"
+  }
 }

@@ -1,65 +1,119 @@
 {
-  "topic": "Hair",
+  "topic": "HAIR",
   "slug": "hair",
-  "type": "topic",
-  "reference_groups": [],
-  "biblical_references": [],
-  "stats": {},
-  "sources": [],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.690246+00:00",
-    "merged_from": {
-      "v2": false,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [
+    "BALDNESS",
+    "CAUL",
+    "LEPROSY",
+    "MOURNING",
+    "NAZARITE"
+  ],
+  "aspects": [
     {
-      "book": "Genesis",
-      "chapter": 41,
+      "label": "General references",
+      "references": [
+        "Matthew 10:30",
+        "Luke 12:7"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Worn long",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".By women",
+      "references": [
+        "Isaiah 3:24",
+        "Luke 7:38",
+        "1 Corinthians 11:5,6,15",
+        "1 Timothy 2:9",
+        "1 Peter 3:3",
+        "Revelation 9:8"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".By Absalom",
+      "references": [
+        "2 Samuel 14:26"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Worn short by men",
+      "references": [
+        "1 Corinthians 11:14"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Symboli",
+      "references": [
+        "Ezekiel 5:1,2"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeBALDNESS",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "See",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeLEPROSY",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeMOURNING",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeNAZARITE",
+      "references": [],
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
+    {
+      "book": "Matthew",
+      "chapter": 10,
       "verses": [
-        14
+        30
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 10:30"
+    },
+    {
+      "book": "Luke",
+      "chapter": 12,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 12:7"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 3,
+      "verses": [
+        24
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 41:14",
-      "source": "EAS"
-    },
-    {
-      "book": "1 Corinthians",
-      "chapter": 11,
-      "verses": [
-        14,
-        15
-      ],
-      "verse_count": 2,
-      "testament": "NT",
-      "raw": "1 Corinthians 11:14, 15",
-      "source": "EAS"
-    },
-    {
-      "book": "1 Timothy",
-      "chapter": 2,
-      "verses": [
-        9
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "1 Timothy 2:9",
-      "source": "EAS"
-    },
-    {
-      "book": "1 Peter",
-      "chapter": 3,
-      "verses": [
-        3
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "1 Peter 3:3",
-      "source": "EAS"
+      "raw": "Isaiah 3:24"
     },
     {
       "book": "Luke",
@@ -69,41 +123,49 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Luke 7:38",
-      "source": "EAS"
-    },
-    {
-      "book": "John",
-      "chapter": 11,
-      "verses": [
-        2
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "John 11:2",
-      "source": "EAS"
+      "raw": "Luke 7:38"
     },
     {
       "book": "1 Corinthians",
       "chapter": 11,
       "verses": [
-        6
+        5,
+        6,
+        15
+      ],
+      "verse_count": 3,
+      "testament": "NT",
+      "raw": "1 Corinthians 11:5,6,15"
+    },
+    {
+      "book": "1 Timothy",
+      "chapter": 2,
+      "verses": [
+        9
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "1 Corinthians 11:6",
-      "source": "EAS"
+      "raw": "1 Timothy 2:9"
     },
     {
-      "book": "2 Kings",
-      "chapter": 1,
+      "book": "1 Peter",
+      "chapter": 3,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "1 Peter 3:3"
+    },
+    {
+      "book": "Revelation",
+      "chapter": 9,
       "verses": [
         8
       ],
       "verse_count": 1,
-      "testament": "OT",
-      "raw": "2 Kings 1:8",
-      "source": "EAS"
+      "testament": "NT",
+      "raw": "Revelation 9:8"
     },
     {
       "book": "2 Samuel",
@@ -113,329 +175,57 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Samuel 14:26",
-      "source": "EAS"
+      "raw": "2 Samuel 14:26"
     },
     {
-      "book": "Numbers",
-      "chapter": 6,
-      "verses": [
-        5
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Numbers 6:5",
-      "source": "EAS"
-    },
-    {
-      "book": "Judges",
-      "chapter": 13,
-      "verses": [
-        5
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Judges 13:5",
-      "source": "EAS"
-    },
-    {
-      "book": "Acts",
-      "chapter": 18,
-      "verses": [
-        18
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Acts 18:18",
-      "source": "EAS"
-    },
-    {
-      "book": "Isaiah",
-      "chapter": 3,
-      "verses": [
-        17,
-        24
-      ],
-      "verse_count": 2,
-      "testament": "OT",
-      "raw": "Isaiah 3:17, 24",
-      "source": "EAS"
-    },
-    {
-      "book": "Isaiah",
-      "chapter": 15,
-      "verses": [
-        2
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Isaiah 15:2",
-      "source": "EAS"
-    },
-    {
-      "book": "Isaiah",
-      "chapter": 22,
-      "verses": [
-        12
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Isaiah 22:12",
-      "source": "EAS"
-    },
-    {
-      "book": "Jeremiah",
-      "chapter": 7,
-      "verses": [
-        29
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Jeremiah 7:29",
-      "source": "EAS"
-    },
-    {
-      "book": "Amos",
-      "chapter": 8,
-      "verses": [
-        10
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Amos 8:10",
-      "source": "EAS"
-    },
-    {
-      "book": "Ezra",
-      "chapter": 9,
-      "verses": [
-        3
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Ezra 9:3",
-      "source": "EAS"
-    },
-    {
-      "book": "Isaiah",
-      "chapter": 7,
-      "verses": [
-        20
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Isaiah 7:20",
-      "source": "EAS"
-    },
-    {
-      "book": "Ruth",
-      "chapter": 3,
-      "verses": [
-        3
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Ruth 3:3",
-      "source": "EAS"
-    },
-    {
-      "book": "2 Samuel",
-      "chapter": 14,
-      "verses": [
-        2
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "2 Samuel 14:2",
-      "source": "EAS"
-    },
-    {
-      "book": "Psalms",
-      "chapter": 23,
-      "verses": [
-        5
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Psalms 23:5",
-      "source": "EAS"
-    },
-    {
-      "book": "Psalms",
-      "chapter": 45,
-      "verses": [
-        7
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Psalms 45:7",
-      "source": "EAS"
-    },
-    {
-      "book": "Matthew",
-      "chapter": 6,
-      "verses": [
-        17
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Matthew 6:17",
-      "source": "EAS"
-    },
-    {
-      "book": "Luke",
-      "chapter": 7,
-      "verses": [
-        46
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Luke 7:46",
-      "source": "EAS"
-    },
-    {
-      "book": "Daniel",
-      "chapter": 7,
-      "verses": [
-        9
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Daniel 7:9",
-      "source": "SMI"
-    },
-    {
-      "book": "Revelation",
-      "chapter": 1,
+      "book": "1 Corinthians",
+      "chapter": 11,
       "verses": [
         14
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Revelation 1:14",
-      "source": "SMI"
+      "raw": "1 Corinthians 11:14"
     },
     {
-      "book": "2 Kings",
-      "chapter": 9,
+      "book": "Ezekiel",
+      "chapter": 5,
       "verses": [
-        30
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "2 Kings 9:30",
-      "source": "SMI"
-    },
-    {
-      "book": "Judges",
-      "chapter": 16,
-      "verses": [
-        13,
-        19
+        1,
+        2
       ],
       "verse_count": 2,
       "testament": "OT",
-      "raw": "Judges 16:13,19",
-      "source": "SMI"
-    },
-    {
-      "book": "Psalms",
-      "chapter": 23,
-      "verses": [
-        6
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Psalms 23:6",
-      "source": "SMI"
-    },
-    {
-      "book": "Psalms",
-      "chapter": 92,
-      "verses": [
-        10
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Psalms 92:10",
-      "source": "SMI"
-    },
-    {
-      "book": "Ecclesiastes",
-      "chapter": 9,
-      "verses": [
-        8
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Ecclesiastes 9:8",
-      "source": "SMI"
-    },
-    {
-      "book": "Matthew",
-      "chapter": 5,
-      "verses": [
-        36
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Matthew 5:36",
-      "source": "SMI"
-    },
-    {
-      "book": "Ezra",
-      "chapter": 5,
-      "verses": [
-        11
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Ezra 5:11",
-      "source": "SMI"
-    },
-    {
-      "book": "Ezra",
-      "chapter": 1,
-      "verses": [
-        5
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Ezra 1:5",
-      "source": "SMI"
-    },
-    {
-      "book": "Ezra",
-      "chapter": 4,
-      "verses": [
-        1
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Ezra 4:1",
-      "source": "SMI"
-    },
-    {
-      "book": "Ezra",
-      "chapter": 7,
-      "verses": [
-        6
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Ezra 7:6",
-      "source": "SMI"
-    },
-    {
-      "book": "2 Kings",
-      "chapter": 10,
-      "verses": [
-        3
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "2 Kings 10:3",
-      "source": "SMI"
+      "raw": "Ezekiel 5:1,2"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Corinthians",
+    "1 Peter",
+    "1 Timothy",
+    "2 Samuel",
+    "Ezekiel",
+    "Isaiah",
+    "Luke",
+    "Matthew",
+    "Revelation"
+  ],
+  "stats": {
+    "total_aspects": 11,
+    "total_refs": 11,
+    "ot_refs": 3,
+    "nt_refs": 8,
+    "books_count": 9,
+    "top_books": [
+      "Luke",
+      "1 Corinthians",
+      "Matthew",
+      "Isaiah",
+      "1 Timothy",
+      "1 Peter",
+      "Revelation",
+      "2 Samuel",
+      "Ezekiel"
+    ]
+  }
 }

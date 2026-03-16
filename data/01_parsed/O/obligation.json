@@ -1,105 +1,153 @@
 {
   "topic": "OBLIGATION",
   "slug": "obligation",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "A motive of obedience De 4:32-40; 6; 7; 8; 9; 10; 11; 26:16; 32:6; 1Sa 12:24; 1Ch 16:12; Ro 2:4; 2Co 5:15",
-      "references": [
-        "Deut 4:32-40",
-        "Deut 6",
-        "Deut 7",
-        "Deut 8",
-        "Deut 9",
-        "Deut 10",
-        "Deut 11",
-        "Deut 26:16",
-        "Deut 32:6",
-        "1Sam 12:24",
-        "1Chr 16:12",
-        "Rom 2:4",
-        "2Cor 5:15"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Acknowledgment of Ps 116:12-14,17",
-      "references": [
-        "Ps 116:12-14",
-        "Ps 116:17"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "See DUTY",
-      "references": [],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "1 Samuel",
-      "book_abbrev": "1sa",
-      "chapter": 12,
-      "testament": "OT",
-      "verses": [
-        1,
-        24
-      ],
-      "verse_count": 2
-    },
-    {
-      "book": "1 Chronicles",
-      "book_abbrev": "1ch",
-      "chapter": 16,
-      "testament": "OT",
-      "verses": [
-        12
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Romans",
-      "book_abbrev": "rom",
-      "chapter": 2,
-      "testament": "NT",
-      "verses": [
-        2,
-        4
-      ],
-      "verse_count": 2
-    },
-    {
-      "book": "2 Corinthians",
-      "book_abbrev": "2co",
-      "chapter": 5,
-      "testament": "NT",
-      "verses": [
-        15
-      ],
-      "verse_count": 1
-    }
+  "sources": [
+    "NAV"
   ],
   "see_also": [
     "DUTY"
   ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 2,
-    "nt_refs": 2,
-    "total_verses": 4
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.715675+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
+  "aspects": [
+    {
+      "label": "A motive of obedience",
+      "references": [
+        "Deuteronomy 4:32-40",
+        "Deuteronomy 26:16",
+        "Deuteronomy 32:6",
+        "1 Samuel 12:24",
+        "1 Chronicles 16:12",
+        "Romans 2:4",
+        "2 Corinthians 5:15"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Acknowledgment of",
+      "references": [
+        "Psalms 116:12-14,17"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeDUTY",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0"
+  ],
+  "biblical_references": [
+    {
+      "book": "Deuteronomy",
+      "chapter": 4,
+      "verses": [
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "verse_count": 9,
+      "testament": "OT",
+      "raw": "Deuteronomy 4:32-40"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 26,
+      "verses": [
+        16
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 26:16"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 32,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 32:6"
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 12,
+      "verses": [
+        24
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Samuel 12:24"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 16,
+      "verses": [
+        12
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 16:12"
+    },
+    {
+      "book": "Romans",
+      "chapter": 2,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Romans 2:4"
+    },
+    {
+      "book": "2 Corinthians",
+      "chapter": 5,
+      "verses": [
+        15
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "2 Corinthians 5:15"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 116,
+      "verses": [
+        12,
+        13,
+        14,
+        17
+      ],
+      "verse_count": 4,
+      "testament": "OT",
+      "raw": "Psalms 116:12-14,17"
+    }
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "1 Samuel",
+    "2 Corinthians",
+    "Deuteronomy",
+    "Psalms",
+    "Romans"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 8,
+    "ot_refs": 6,
+    "nt_refs": 2,
+    "books_count": 6,
+    "top_books": [
+      "Deuteronomy",
+      "1 Samuel",
+      "1 Chronicles",
+      "Romans",
+      "2 Corinthians",
+      "Psalms"
+    ]
+  }
 }

@@ -1,69 +1,69 @@
 {
   "topic": "ITALY",
-  "topic_slug": "italy",
+  "slug": "italy",
   "canonical_id": "NAV:italy",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–General scriptures concerningAc 27:2;Heb 13:24\n–Aquila and Priscilla expelled fromAc 18:2",
-  "content_preview": "–General scriptures concerningAc 27:2;Heb 13:24",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–General scriptures concerningAc 27:2;Heb 13:24",
-      "raw_segment": "–General scriptures concerningAc 27:2;Heb 13:24"
+      "label": "General scriptures concerning",
+      "references": [
+        "Acts 27:2",
+        "Hebrews 13:24"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–Aquila and Priscilla expelled fromAc 18:2",
-      "raw_segment": "–Aquila and Priscilla expelled fromAc 18:2"
+      "label": "Aquila and Priscilla expelled from",
+      "references": [
+        "Acts 18:2"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Acts",
+      "chapter": 27,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 27:2"
+    },
+    {
+      "book": "Hebrews",
+      "chapter": 13,
+      "verses": [
+        24
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Hebrews 13:24"
+    },
+    {
+      "book": "Acts",
+      "chapter": 18,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 18:2"
+    }
+  ],
+  "books_mentioned": [
+    "Acts",
+    "Hebrews"
+  ],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 2,
+    "total_refs": 3,
     "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:d841424e73f24d16c78a96cb69d4cbdc1b1ec39bfce7068ebd4dcb9cc139d0d7",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "nt_refs": 3,
+    "books_count": 2,
+    "top_books": [
+      "Acts",
+      "Hebrews"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:27:43.463395Z",
-  "updated_at": "2025-09-20T17:27:43.463402Z"
+  }
 }

@@ -1,78 +1,46 @@
 {
   "topic": "CROSS-QUESTIONING",
-  "topic_slug": "cross_questioning",
+  "slug": "cross_questioning",
   "canonical_id": "NAV:cross_questioning",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "WITNESS"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "WITNESS",
-      "clean": "WITNESS",
-      "slug": "witness",
-      "canonical_id": "NAV:witness"
-    }
-  ],
-  "raw_block": "–General scriptures concerningPr 20:5\n–SeeWITNESS",
-  "content_preview": "–General scriptures concerningPr 20:5",
-  "reference_groups": [
-    {
-      "idx": 0,
-      "entry_label": "–General scriptures concerningPr 20:5",
-      "raw_segment": "–General scriptures concerningPr 20:5"
+      "label": "General scriptures concerning",
+      "references": [
+        "Proverbs 20:5"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–SeeWITNESS",
-      "raw_segment": "–SeeWITNESS"
+      "label": "SeeWITNESS",
+      "references": []
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Proverbs",
+      "chapter": 20,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 20:5"
+    }
+  ],
+  "books_mentioned": [
+    "Proverbs"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 2,
+    "total_refs": 1,
+    "ot_refs": 1,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:1ce561db46fd04e9d4543352cd2cae5eccc42ca234a4487b8137f4f568d5cb1c",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 1,
+    "top_books": [
+      "Proverbs"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:25:21.636683Z",
-  "updated_at": "2025-09-20T17:25:21.636691Z"
+  }
 }

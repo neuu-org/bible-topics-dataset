@@ -1,86 +1,51 @@
 {
   "topic": "HAZAEL",
   "slug": "hazael",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "(King of Syria)",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "Anointed king by Elijah 1Ki 19:15",
-      "references": [
-        "1Kgs 19:15"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Conquests by 2Ki 8:28,29; 9:14; 10:32,33; 12:17,18; 13:3,22; 2Ch 22:5,6",
-      "references": [
-        "2Kgs 8:28",
-        "2Kgs 8:29",
-        "2Kgs 9:14",
-        "2Kgs 10:32",
-        "2Kgs 10:33",
-        "2Kgs 12:17",
-        "2Kgs 12:18",
-        "2Kgs 13:3",
-        "2Kgs 13:22",
-        "2Chr 22:5",
-        "2Chr 22:6"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Conspires against, murders, and succeeds to the throne of Ben-hadad 2Ki 8:8-15",
-      "references": [
-        "2Kgs 8:8-15"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Death of 2Ki 13:24",
-      "references": [
-        "2Kgs 13:24"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "2 Chronicles",
-      "book_abbrev": "2ch",
-      "chapter": 22,
-      "testament": "OT",
-      "verses": [
-        5,
-        6
-      ],
-      "verse_count": 2
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 5,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.691292+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "(King of Syria)",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "Anointed king by Elijah",
+      "references": [
+        "1 Kings 19:15"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Conquests by",
+      "references": [
+        "2 Kings 8:28,29",
+        "2 Kings 9:14",
+        "2 Kings 10:32,33",
+        "2 Kings 12:17,18",
+        "2 Kings 13:3,22",
+        "2 Chronicles 22:5,6"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Conspires against, mur",
+      "references": [
+        "2 Kings 8:8-15"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "General references",
+      "references": [
+        "2 Kings 13:24"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "1 Kings",
       "chapter": 19,
@@ -89,88 +54,77 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Kings 19:15",
-      "source": "EAS"
+      "raw": "1 Kings 19:15"
     },
     {
       "book": "2 Kings",
       "chapter": 8,
       "verses": [
-        15
+        28,
+        29
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "2 Kings 8:28,29"
+    },
+    {
+      "book": "2 Kings",
+      "chapter": 9,
+      "verses": [
+        14
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Kings 8:15",
-      "source": "EAS"
+      "raw": "2 Kings 9:14"
     },
     {
       "book": "2 Kings",
       "chapter": 10,
       "verses": [
+        32,
         33
       ],
-      "verse_count": 1,
+      "verse_count": 2,
       "testament": "OT",
-      "raw": "2 Kings 10:33",
-      "source": "EAS"
+      "raw": "2 Kings 10:32,33"
     },
     {
       "book": "2 Kings",
       "chapter": 12,
       "verses": [
+        17,
         18
       ],
-      "verse_count": 1,
+      "verse_count": 2,
       "testament": "OT",
-      "raw": "2 Kings 12:18",
-      "source": "EAS"
-    },
-    {
-      "book": "2 Chronicles",
-      "chapter": 24,
-      "verses": [
-        24
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "2 Chronicles 24:24",
-      "source": "EAS"
-    },
-    {
-      "book": "2 Kings",
-      "chapter": 13,
-      "verses": [
-        22,
-        23,
-        24,
-        25
-      ],
-      "verse_count": 4,
-      "testament": "OT",
-      "raw": "2 Kings 13:22-25",
-      "source": "EAS"
+      "raw": "2 Kings 12:17,18"
     },
     {
       "book": "2 Kings",
       "chapter": 13,
       "verses": [
         3,
-        4,
-        5,
-        6,
-        7,
         22
       ],
-      "verse_count": 6,
+      "verse_count": 2,
       "testament": "OT",
-      "raw": "2 Kings 13:3-7, 22",
-      "source": "EAS"
+      "raw": "2 Kings 13:3,22"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 22,
+      "verses": [
+        5,
+        6
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "2 Chronicles 22:5,6"
     },
     {
       "book": "2 Kings",
       "chapter": 8,
       "verses": [
-        7,
         8,
         9,
         10,
@@ -180,54 +134,9 @@
         14,
         15
       ],
-      "verse_count": 9,
+      "verse_count": 8,
       "testament": "OT",
-      "raw": "2 Kings 8:7-15",
-      "source": "SMI"
-    },
-    {
-      "book": "2 Kings",
-      "chapter": 8,
-      "verses": [
-        28
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "2 Kings 8:28",
-      "source": "SMI"
-    },
-    {
-      "book": "2 Kings",
-      "chapter": 10,
-      "verses": [
-        32
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "2 Kings 10:32",
-      "source": "SMI"
-    },
-    {
-      "book": "2 Kings",
-      "chapter": 8,
-      "verses": [
-        12
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "2 Kings 8:12",
-      "source": "SMI"
-    },
-    {
-      "book": "2 Kings",
-      "chapter": 12,
-      "verses": [
-        17
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "2 Kings 12:17",
-      "source": "SMI"
+      "raw": "2 Kings 8:8-15"
     },
     {
       "book": "2 Kings",
@@ -237,19 +146,24 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Kings 13:24",
-      "source": "SMI"
-    },
-    {
-      "book": "Amos",
-      "chapter": 6,
-      "verses": [
-        2
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Amos 6:2",
-      "source": "SMI"
+      "raw": "2 Kings 13:24"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Kings",
+    "2 Chronicles",
+    "2 Kings"
+  ],
+  "stats": {
+    "total_aspects": 5,
+    "total_refs": 9,
+    "ot_refs": 9,
+    "nt_refs": 0,
+    "books_count": 3,
+    "top_books": [
+      "2 Kings",
+      "1 Kings",
+      "2 Chronicles"
+    ]
+  }
 }

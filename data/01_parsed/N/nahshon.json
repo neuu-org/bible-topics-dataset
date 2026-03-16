@@ -1,79 +1,38 @@
 {
   "topic": "NAHSHON",
   "slug": "nahshon",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Son of Amminadab Ex 6:23; Nu 1:7; 1Ch 2:10",
-      "references": [
-        "Exod 6:23",
-        "Num 1:7",
-        "1Chr 2:10"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Captain of the army of Judah Nu 2:3; 10:14; 1Ch 2:10",
-      "references": [
-        "Num 2:3",
-        "Num 10:14",
-        "1Chr 2:10"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Liberality of Nu 7:12,17",
-      "references": [
-        "Num 7:12",
-        "Num 7:17"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Numbers",
-      "book_abbrev": "num",
-      "chapter": 1,
-      "testament": "OT",
-      "verses": [
-        1,
-        7
-      ],
-      "verse_count": 2
-    },
-    {
-      "book": "1 Chronicles",
-      "book_abbrev": "1ch",
-      "chapter": 2,
-      "testament": "OT",
-      "verses": [
-        10
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 2,
-    "nt_refs": 0,
-    "total_verses": 2
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.713416+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "General references",
+      "references": [
+        "Exodus 6:23",
+        "Numbers 1:7",
+        "1 Chronicles 2:10"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "General references",
+      "references": [
+        "Numbers 2:3",
+        "Numbers 10:14",
+        "1 Chronicles 2:10"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Liberality of",
+      "references": [
+        "Numbers 7:12,17"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Exodus",
       "chapter": 6,
@@ -82,42 +41,75 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Exodus 6:23",
-      "source": "EAS"
-    },
-    {
-      "book": "Numbers",
-      "chapter": 26,
-      "verses": [
-        64,
-        65
-      ],
-      "verse_count": 2,
-      "testament": "OT",
-      "raw": "Numbers 26:64, 65",
-      "source": "EAS"
-    },
-    {
-      "book": "Luke",
-      "chapter": 3,
-      "verses": [
-        32
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Luke 3:32",
-      "source": "EAS"
+      "raw": "Exodus 6:23"
     },
     {
       "book": "Numbers",
       "chapter": 1,
       "verses": [
-        4
+        7
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Numbers 1:4",
-      "source": "EAS"
+      "raw": "Numbers 1:7"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 2,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 2:10"
+    },
+    {
+      "book": "Numbers",
+      "chapter": 2,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Numbers 2:3"
+    },
+    {
+      "book": "Numbers",
+      "chapter": 10,
+      "verses": [
+        14
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Numbers 10:14"
+    },
+    {
+      "book": "Numbers",
+      "chapter": 7,
+      "verses": [
+        12,
+        17
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Numbers 7:12,17"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Exodus",
+    "Numbers"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 6,
+    "ot_refs": 6,
+    "nt_refs": 0,
+    "books_count": 3,
+    "top_books": [
+      "Numbers",
+      "Exodus",
+      "1 Chronicles"
+    ]
+  }
 }

@@ -1,72 +1,29 @@
 {
   "topic": "DUKE",
   "slug": "duke",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Title of the princes of Edom Ge 36:15-43; Ex 15:15; 1Ch 1:51-54",
-      "references": [
-        "Gen 36:15-43",
-        "Exod 15:15",
-        "1Chr 1:51-54"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Of the Midianites Jos 13:21",
-      "references": [
-        "Josh 13:21"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Exodus",
-      "book_abbrev": "exo",
-      "chapter": 15,
-      "testament": "OT",
-      "verses": [
-        1,
-        15
-      ],
-      "verse_count": 2
-    },
-    {
-      "book": "1 Chronicles",
-      "book_abbrev": "1ch",
-      "chapter": 1,
-      "testament": "OT",
-      "verses": [
-        51,
-        52,
-        53,
-        54
-      ],
-      "verse_count": 4
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 2,
-    "nt_refs": 0,
-    "total_verses": 2
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.682588+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "Title of the princes of Edom",
+      "references": [
+        "Genesis 36:15-43",
+        "Exodus 15:15",
+        "1 Chronicles 1:51-54"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Of the Midianites",
+      "references": [
+        "Joshua 13:21"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Genesis",
       "chapter": 36,
@@ -103,8 +60,7 @@
       ],
       "verse_count": 29,
       "testament": "OT",
-      "raw": "Genesis 36:15-43",
-      "source": "EAS"
+      "raw": "Genesis 36:15-43"
     },
     {
       "book": "Exodus",
@@ -114,8 +70,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Exodus 15:15",
-      "source": "EAS"
+      "raw": "Exodus 15:15"
     },
     {
       "book": "1 Chronicles",
@@ -128,8 +83,36 @@
       ],
       "verse_count": 4,
       "testament": "OT",
-      "raw": "1 Chronicles 1:51-54",
-      "source": "EAS"
+      "raw": "1 Chronicles 1:51-54"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 13,
+      "verses": [
+        21
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 13:21"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Exodus",
+    "Genesis",
+    "Joshua"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 4,
+    "ot_refs": 4,
+    "nt_refs": 0,
+    "books_count": 4,
+    "top_books": [
+      "Genesis",
+      "Exodus",
+      "1 Chronicles",
+      "Joshua"
+    ]
+  }
 }

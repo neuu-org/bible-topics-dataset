@@ -1,83 +1,74 @@
 {
   "topic": "KINE (BOVINE)",
-  "topic_slug": "kine__bovine_",
+  "slug": "kine__bovine_",
   "canonical_id": "NAV:kine__bovine_",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "CATTLE"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "CATTLE",
-      "clean": "CATTLE",
-      "slug": "cattle",
-      "canonical_id": "NAV:cattle"
-    }
-  ],
-  "raw_block": "–Pharaoh’s dream ofGe 41:2-7,26-30\n–SeeCATTLE\n–FIGURATIVEAm 4:1",
-  "content_preview": "–Pharaoh’s dream ofGe 41:2-7,26-30",
-  "reference_groups": [
-    {
-      "idx": 0,
-      "entry_label": "–Pharaoh’s dream ofGe 41:2-7,26-30",
-      "raw_segment": "–Pharaoh’s dream ofGe 41:2-7,26-30"
+      "label": "Pharaoh’s dream of",
+      "references": [
+        "Genesis 41:2-7,26-30"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–SeeCATTLE",
-      "raw_segment": "–SeeCATTLE"
+      "label": "See",
+      "references": []
     },
     {
-      "idx": 2,
-      "entry_label": "–FIGURATIVEAm 4:1",
-      "raw_segment": "–FIGURATIVEAm 4:1"
+      "label": "FIGURATIVE",
+      "references": [
+        "Amos 4:1"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Genesis",
+      "chapter": 41,
+      "verses": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "verse_count": 11,
+      "testament": "OT",
+      "raw": "Genesis 41:2-7,26-30"
+    },
+    {
+      "book": "Amos",
+      "chapter": 4,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Amos 4:1"
+    }
+  ],
+  "books_mentioned": [
+    "Amos",
+    "Genesis"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 3,
+    "total_refs": 2,
+    "ot_refs": 2,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:63acac97c4fc409a8acf15b0c1359f2853809bf155f7cd877881184ab9a27e9c",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 3
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 2,
+    "top_books": [
+      "Genesis",
+      "Amos"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:28:22.419451Z",
-  "updated_at": "2025-09-20T17:28:22.419459Z"
+  }
 }

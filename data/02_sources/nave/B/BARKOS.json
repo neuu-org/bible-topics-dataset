@@ -1,64 +1,53 @@
 {
   "topic": "BARKOS",
-  "topic_slug": "barkos",
+  "slug": "barkos",
   "canonical_id": "NAV:barkos",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–A Jew whose descendants returned from exileEzr 2:53;Ne 7:55",
-  "content_preview": "–A Jew whose descendants returned from exileEzr 2:53;Ne 7:55",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–A Jew whose descendants returned from exileEzr 2:53;Ne 7:55",
-      "raw_segment": "–A Jew whose descendants returned from exileEzr 2:53;Ne 7:55"
+      "label": "A Jew whose",
+      "references": [
+        "Ezra 2:53",
+        "Nehemiah 7:55"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Ezra",
+      "chapter": 2,
+      "verses": [
+        53
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezra 2:53"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 7,
+      "verses": [
+        55
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Nehemiah 7:55"
+    }
+  ],
+  "books_mentioned": [
+    "Ezra",
+    "Nehemiah"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 1,
+    "total_refs": 2,
+    "ot_refs": 2,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:3d60bb1be011fa1a3ba220b12c15af092e1392f3551d20db851910cc7310e457",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 1
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 2,
+    "top_books": [
+      "Ezra",
+      "Nehemiah"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:24:09.202853Z",
-  "updated_at": "2025-09-20T17:24:09.202861Z"
+  }
 }

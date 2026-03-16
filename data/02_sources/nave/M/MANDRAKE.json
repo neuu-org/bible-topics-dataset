@@ -1,64 +1,55 @@
 {
   "topic": "MANDRAKE",
-  "topic_slug": "mandrake",
+  "slug": "mandrake",
   "canonical_id": "NAV:mandrake",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–General scriptures concerningGe 30:14-16;So 7:13",
-  "content_preview": "–General scriptures concerningGe 30:14-16;So 7:13",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–General scriptures concerningGe 30:14-16;So 7:13",
-      "raw_segment": "–General scriptures concerningGe 30:14-16;So 7:13"
+      "label": "General scriptures concerning",
+      "references": [
+        "Genesis 30:14-16",
+        "Song of Solomon 7:13"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Genesis",
+      "chapter": 30,
+      "verses": [
+        14,
+        15,
+        16
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Genesis 30:14-16"
+    },
+    {
+      "book": "Song of Solomon",
+      "chapter": 7,
+      "verses": [
+        13
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Song of Solomon 7:13"
+    }
+  ],
+  "books_mentioned": [
+    "Genesis",
+    "Song of Solomon"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 1,
+    "total_refs": 2,
+    "ot_refs": 2,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:3186cbff31ab07329822fa78e6af6345b4d8dc6fc8dfdbbc2bf4d62fbf63fbc0",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 1
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 2,
+    "top_books": [
+      "Genesis",
+      "Song of Solomon"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:28:50.718618Z",
-  "updated_at": "2025-09-20T17:28:50.718625Z"
+  }
 }

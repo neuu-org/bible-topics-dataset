@@ -1,69 +1,141 @@
 {
   "topic": "ABEL",
-  "topic_slug": "abel",
+  "slug": "abel",
   "canonical_id": "NAV:abel",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–1. Son of Adam. History ofGe 4:1-15,25\n  .References to the death ofMt 23:35;Lu 11:51;Heb 11:4;12:24;1Jo  3:12\n–2. A stone1Sa 6:18",
-  "content_preview": "–1. Son of Adam. History ofGe 4:1-15,25",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–1. Son of Adam. History ofGe 4:1-15,25",
-      "raw_segment": "–1. Son of Adam. History ofGe 4:1-15,25"
+      "label": "1.",
+      "references": [
+        "Genesis 4:1-15,25"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–2. A stone1Sa 6:18",
-      "raw_segment": "–2. A stone1Sa 6:18"
+      "label": ".References to the",
+      "references": [
+        "Matthew 23:35",
+        "Luke 11:51",
+        "Hebrews 11:4",
+        "Hebrews 12:24",
+        "Job 3:12"
+      ]
+    },
+    {
+      "label": "2. A stone",
+      "references": [
+        "1 Samuel 6:18"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Genesis",
+      "chapter": 4,
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        25
+      ],
+      "verse_count": 16,
+      "testament": "OT",
+      "raw": "Genesis 4:1-15,25"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 23,
+      "verses": [
+        35
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 23:35"
+    },
+    {
+      "book": "Luke",
+      "chapter": 11,
+      "verses": [
+        51
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 11:51"
+    },
+    {
+      "book": "Hebrews",
+      "chapter": 11,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Hebrews 11:4"
+    },
+    {
+      "book": "Hebrews",
+      "chapter": 12,
+      "verses": [
+        24
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Hebrews 12:24"
+    },
+    {
+      "book": "Job",
+      "chapter": 3,
+      "verses": [
+        12
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Job 3:12"
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 6,
+      "verses": [
+        18
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Samuel 6:18"
+    }
+  ],
+  "books_mentioned": [
+    "1 Samuel",
+    "Genesis",
+    "Hebrews",
+    "Job",
+    "Luke",
+    "Matthew"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:dedc1039fcfcbeb1e78234f7744c1083da5d0fa6939574a4d8cf7984c3c52044",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 3
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 3,
+    "total_refs": 7,
+    "ot_refs": 3,
+    "nt_refs": 4,
+    "books_count": 6,
+    "top_books": [
+      "Hebrews",
+      "Genesis",
+      "Matthew",
+      "Luke",
+      "Job",
+      "1 Samuel"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:23:07.652486Z",
-  "updated_at": "2025-09-20T17:23:07.652494Z"
+  }
 }

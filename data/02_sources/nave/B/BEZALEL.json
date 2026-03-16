@@ -1,69 +1,118 @@
 {
   "topic": "BEZALEL",
-  "topic_slug": "bezalel",
+  "slug": "bezalel",
   "canonical_id": "NAV:bezalel",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–1. A divinely-inspired mechanic and master workman who built \nthe tabernacleEx 31:2;35:30-35;36:1;37:1;38:1-7,22\n–2. Son of Pahath-moabEzr 10:30",
-  "content_preview": "–1. A divinely-inspired mechanic and master workman who built ",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–1. A divinely-inspired mechanic and master workman who built \nthe tabernacleEx 31:2;35:30-35;36:1;37:1;38:1-7,22",
-      "raw_segment": "–1. A divinely-inspired mechanic and master workman who built \nthe tabernacleEx 31:2;35:30-35;36:1;37:1;38:1-7,22"
+      "label": "1. A divinely-inspired mechanic and master workman who built",
+      "references": []
     },
     {
-      "idx": 1,
-      "entry_label": "–2. Son of Pahath-moabEzr 10:30",
-      "raw_segment": "–2. Son of Pahath-moabEzr 10:30"
+      "label": "the tabernacle",
+      "references": [
+        "Exodus 31:2",
+        "Exodus 35:30-35",
+        "Exodus 36:1",
+        "Exodus 37:1",
+        "Exodus 38:1-7,22"
+      ]
+    },
+    {
+      "label": "2.",
+      "references": [
+        "Ezra 10:30"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Exodus",
+      "chapter": 31,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 31:2"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 35,
+      "verses": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "verse_count": 6,
+      "testament": "OT",
+      "raw": "Exodus 35:30-35"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 36,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 36:1"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 37,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 37:1"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 38,
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        22
+      ],
+      "verse_count": 8,
+      "testament": "OT",
+      "raw": "Exodus 38:1-7,22"
+    },
+    {
+      "book": "Ezra",
+      "chapter": 10,
+      "verses": [
+        30
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezra 10:30"
+    }
+  ],
+  "books_mentioned": [
+    "Exodus",
+    "Ezra"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 3,
+    "total_refs": 6,
+    "ot_refs": 6,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:d41837c6fdd44619681abd05a8d5ae611ddd931ff37b5eb12ae30076593f0c6f",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 3
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 2,
+    "top_books": [
+      "Exodus",
+      "Ezra"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:24:28.422315Z",
-  "updated_at": "2025-09-20T17:24:28.422322Z"
+  }
 }

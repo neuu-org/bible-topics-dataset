@@ -1,45 +1,27 @@
 {
   "topic": "MATTHAT",
   "slug": "matthat",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. Father of Heli, and ancestor of Joseph Lu 3:24",
-      "references": [
-        "Luke 3:24"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "2. Father of Jorim, and ancestor of Joseph Lu 3:29",
-      "references": [
-        "Luke 3:29"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.704450+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "1. Father of Heli, and ancestor of Joseph",
+      "references": [
+        "Luke 3:24"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2. Father of Jorim, and ancestor of Joseph",
+      "references": [
+        "Luke 3:29"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Luke",
       "chapter": 3,
@@ -48,8 +30,7 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Luke 3:24",
-      "source": "EAS"
+      "raw": "Luke 3:24"
     },
     {
       "book": "Luke",
@@ -59,8 +40,20 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Luke 3:29",
-      "source": "EAS"
+      "raw": "Luke 3:29"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Luke"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 2,
+    "ot_refs": 0,
+    "nt_refs": 2,
+    "books_count": 1,
+    "top_books": [
+      "Luke"
+    ]
+  }
 }

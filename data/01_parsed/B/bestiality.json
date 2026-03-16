@@ -1,56 +1,73 @@
 {
   "topic": "BESTIALITY",
   "slug": "bestiality",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "General scriptures concerning Ex 22:19; Le 18:23; 20:16",
-      "references": [
-        "Exod 22:19",
-        "Lev 18:23",
-        "Lev 20:16"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "See SODOMY",
-      "references": [],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Leviticus",
-      "book_abbrev": "lev",
-      "chapter": 18,
-      "testament": "OT",
-      "verses": [
-        20,
-        23
-      ],
-      "verse_count": 2
-    }
+  "sources": [
+    "NAV"
   ],
   "see_also": [
     "SODOMY"
   ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.673557+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
+  "aspects": [
+    {
+      "label": "General scriptures concerning",
+      "references": [
+        "Exodus 22:19",
+        "Leviticus 18:23",
+        "Leviticus 20:16"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "See",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0"
+  ],
+  "biblical_references": [
+    {
+      "book": "Exodus",
+      "chapter": 22,
+      "verses": [
+        19
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 22:19"
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 18,
+      "verses": [
+        23
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Leviticus 18:23"
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 20,
+      "verses": [
+        16
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Leviticus 20:16"
+    }
+  ],
+  "books_mentioned": [
+    "Exodus",
+    "Leviticus"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 3,
+    "ot_refs": 3,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "Leviticus",
+      "Exodus"
+    ]
+  }
 }

@@ -1,66 +1,75 @@
 {
   "topic": "DEMETRIUS",
   "slug": "demetrius",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. A silversmith, noted for raising a riot Ac 19:24-38",
-      "references": [
-        "Acts 19:24-38"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "2. A Christian mentioned in 3Jo 1:12",
-      "references": [
-        "3John 1"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.681112+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "see_also": [],
+  "aspects": [
     {
-      "book": "3 John",
+      "label": "1. A silversmith, noted for raising a riot",
+      "references": [
+        "Acts 19:24-38"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2. A Christian mentioned in",
+      "references": [
+        "Job 1:12"
+      ],
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
+    {
+      "book": "Acts",
+      "chapter": 19,
+      "verses": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38
+      ],
+      "verse_count": 15,
+      "testament": "NT",
+      "raw": "Acts 19:24-38"
+    },
+    {
+      "book": "Job",
       "chapter": 1,
       "verses": [
         12
       ],
       "verse_count": 1,
-      "testament": "NT",
-      "raw": "3 John 1:12",
-      "source": "EAS"
-    },
-    {
-      "book": "Acts",
-      "chapter": 19,
-      "verses": [
-        24
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Acts 19:24",
-      "source": "EAS"
+      "testament": "OT",
+      "raw": "Job 1:12"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Acts",
+    "Job"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 2,
+    "ot_refs": 1,
+    "nt_refs": 1,
+    "books_count": 2,
+    "top_books": [
+      "Acts",
+      "Job"
+    ]
+  }
 }

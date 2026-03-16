@@ -1,79 +1,131 @@
 {
   "topic": "NETHANIAH",
-  "topic_slug": "nethaniah",
+  "slug": "nethaniah",
   "canonical_id": "NAV:nethaniah",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–1. Father of Ishmael2Ki 25:23,25;Jer 40:8,14,15;41:1,2,6,7,9-12\n–2. A singer, and chief of the temple musicians1Ch \n25:2,12\n–3. A Levite appointed by Jehoshaphat to accompany the princes \nwho were to teach the law in Judah2Ch 17:8\n–4. Father of JehudiJer 36:14",
-  "content_preview": "–1. Father of Ishmael2Ki 25:23,25;Jer 40:8,14,15;41:1,2,6,7,9-12",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–1. Father of Ishmael2Ki 25:23,25;Jer 40:8,14,15;41:1,2,6,7,9-12",
-      "raw_segment": "–1. Father of Ishmael2Ki 25:23,25;Jer 40:8,14,15;41:1,2,6,7,9-12"
+      "label": "1. Father of Ishmael",
+      "references": [
+        "2 Kings 25:23,25",
+        "Jeremiah 40:8,14,15",
+        "Jeremiah 41:1,2,6,7,9-12"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–2. A singer, and chief of the temple musicians1Ch \n25:2,12",
-      "raw_segment": "–2. A singer, and chief of the temple musicians1Ch \n25:2,12"
+      "label": "2. A singer, and chief of the temple musicians1Ch",
+      "references": []
     },
     {
-      "idx": 2,
-      "entry_label": "–3. A Levite appointed by Jehoshaphat to accompany the princes \nwho were to teach the law in Judah2Ch 17:8",
-      "raw_segment": "–3. A Levite appointed by Jehoshaphat to accompany the princes \nwho were to teach the law in Judah2Ch 17:8"
+      "label": "25:2,12",
+      "references": []
     },
     {
-      "idx": 3,
-      "entry_label": "–4. Father of JehudiJer 36:14",
-      "raw_segment": "–4. Father of JehudiJer 36:14"
+      "label": "3. A Levite appointed by Jehoshaphat to accompany the princes",
+      "references": []
+    },
+    {
+      "label": "who were to teach the law in",
+      "references": [
+        "2 Chronicles 17:8"
+      ]
+    },
+    {
+      "label": "4. Father of Jehudi",
+      "references": [
+        "Jeremiah 36:14"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "2 Kings",
+      "chapter": 25,
+      "verses": [
+        23,
+        25
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "2 Kings 25:23,25"
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 40,
+      "verses": [
+        8,
+        14,
+        15
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Jeremiah 40:8,14,15"
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 41,
+      "verses": [
+        1,
+        2,
+        6,
+        7,
+        9,
+        10,
+        11,
+        12
+      ],
+      "verse_count": 8,
+      "testament": "OT",
+      "raw": "Jeremiah 41:1,2,6,7,9-12"
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 25,
+      "verses": [
+        2,
+        12
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Jeremiah 25:2,12"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 17,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Chronicles 17:8"
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 36,
+      "verses": [
+        14
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Jeremiah 36:14"
+    }
+  ],
+  "books_mentioned": [
+    "2 Chronicles",
+    "2 Kings",
+    "Jeremiah"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 6,
+    "total_refs": 6,
+    "ot_refs": 6,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:65a28082d1060e40fc453035f4752b286692a80d5a5f9aa43790c262a20e9dac",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 6
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 3,
+    "top_books": [
+      "Jeremiah",
+      "2 Kings",
+      "2 Chronicles"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:29:32.206252Z",
-  "updated_at": "2025-09-20T17:29:32.206260Z"
+  }
 }

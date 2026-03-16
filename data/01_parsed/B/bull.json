@@ -1,56 +1,85 @@
 {
   "topic": "BULL",
   "slug": "bull",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Wild, caught in nets Isa 51:20",
-      "references": [
-        "Isa 51:20"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Blood of, in sacrifice Heb 9:13; 10:4",
-      "references": [
-        "Heb 9:13",
-        "Heb 10:4"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "See BULLOCK",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "See OFFERINGS",
-      "references": [],
-      "sub_groups": []
-    }
+  "sources": [
+    "NAV"
   ],
-  "biblical_references": [],
   "see_also": [
     "BULLOCK",
     "OFFERINGS"
   ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 4,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.675664+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
+  "aspects": [
+    {
+      "label": "Wild,",
+      "references": [
+        "Isaiah 51:20"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Blood of, in sacrifice",
+      "references": [
+        "Hebrews 9:13",
+        "Hebrews 10:4"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeBULLOCK",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeOFFERINGS",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0"
+  ],
+  "biblical_references": [
+    {
+      "book": "Isaiah",
+      "chapter": 51,
+      "verses": [
+        20
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 51:20"
+    },
+    {
+      "book": "Hebrews",
+      "chapter": 9,
+      "verses": [
+        13
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Hebrews 9:13"
+    },
+    {
+      "book": "Hebrews",
+      "chapter": 10,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Hebrews 10:4"
+    }
+  ],
+  "books_mentioned": [
+    "Hebrews",
+    "Isaiah"
+  ],
+  "stats": {
+    "total_aspects": 4,
+    "total_refs": 3,
+    "ot_refs": 1,
+    "nt_refs": 2,
+    "books_count": 2,
+    "top_books": [
+      "Hebrews",
+      "Isaiah"
+    ]
+  }
 }

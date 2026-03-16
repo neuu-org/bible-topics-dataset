@@ -1,67 +1,35 @@
 {
   "topic": "NAHASH",
   "slug": "nahash",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. An Ammonite king .Defeated by Saul at Jabesh-gilead 1Sa 11:1-11",
-      "references": [
-        "1Sam 11:1-11"
-      ],
-      "sub_groups": [
-        {
-          "name": "Kindness of, to David, and death 2Sa 10:1,2; 1Ch 19:1,2",
-          "references": [
-            "2Sam 10:1",
-            "2Sam 10:2",
-            "1Chr 19:1",
-            "1Chr 19:2"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "2. Probably identical with JESSE 2Sa 17:25",
-      "references": [
-        "2Sam 17:25"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "1 Chronicles",
-      "book_abbrev": "1ch",
-      "chapter": 19,
-      "testament": "OT",
-      "verses": [
-        1,
-        2
-      ],
-      "verse_count": 2
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.713374+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "1. An Ammonite king .",
+      "references": [
+        "1 Samuel 11:1-11"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".Kindness of, to David, and",
+      "references": [
+        "2 Samuel 10:1,2",
+        "1 Chronicles 19:1,2"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2. Probably i",
+      "references": [
+        "2 Samuel 17:25"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "1 Samuel",
       "chapter": 11,
@@ -80,71 +48,29 @@
       ],
       "verse_count": 11,
       "testament": "OT",
-      "raw": "1 Samuel 11:1-11",
-      "source": "EAS"
+      "raw": "1 Samuel 11:1-11"
     },
     {
       "book": "2 Samuel",
       "chapter": 10,
       "verses": [
+        1,
         2
       ],
-      "verse_count": 1,
+      "verse_count": 2,
       "testament": "OT",
-      "raw": "2 Samuel 10:2",
-      "source": "EAS"
-    },
-    {
-      "book": "2 Samuel",
-      "chapter": 10,
-      "verses": [
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14
-      ],
-      "verse_count": 9,
-      "testament": "OT",
-      "raw": "2 Samuel 10:6-14",
-      "source": "EAS"
-    },
-    {
-      "book": "2 Samuel",
-      "chapter": 10,
-      "verses": [
-        17
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "2 Samuel 10:17",
-      "source": "EAS"
+      "raw": "2 Samuel 10:1,2"
     },
     {
       "book": "1 Chronicles",
-      "chapter": 18,
+      "chapter": 19,
       "verses": [
-        3
+        1,
+        2
       ],
-      "verse_count": 1,
+      "verse_count": 2,
       "testament": "OT",
-      "raw": "1 Chronicles 18:3",
-      "source": "EAS"
-    },
-    {
-      "book": "2 Samuel",
-      "chapter": 10,
-      "verses": [
-        19
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "2 Samuel 10:19",
-      "source": "EAS"
+      "raw": "1 Chronicles 19:1,2"
     },
     {
       "book": "2 Samuel",
@@ -154,19 +80,24 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Samuel 17:25",
-      "source": "EAS"
-    },
-    {
-      "book": "1 Chronicles",
-      "chapter": 2,
-      "verses": [
-        16
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "1 Chronicles 2:16",
-      "source": "EAS"
+      "raw": "2 Samuel 17:25"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "1 Samuel",
+    "2 Samuel"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 4,
+    "ot_refs": 4,
+    "nt_refs": 0,
+    "books_count": 3,
+    "top_books": [
+      "2 Samuel",
+      "1 Samuel",
+      "1 Chronicles"
+    ]
+  }
 }

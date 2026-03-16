@@ -1,95 +1,199 @@
 {
   "topic": "WASHING",
-  "topic_slug": "washing",
+  "slug": "washing",
   "canonical_id": "NAV:washing",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "PURIFICATION",
     "ABLUTION"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "PURIFICATION",
-      "clean": "PURIFICATION",
-      "slug": "purification",
-      "canonical_id": "NAV:purification"
+      "label": "Of hands, a token of innocence",
+      "references": [
+        "Deuteronomy 21:6",
+        "Psalms 26:6",
+        "Psalms 73:13",
+        "Matthew 27:24"
+      ]
     },
     {
-      "original": "ABLUTION",
-      "clean": "ABLUTION",
-      "slug": "ablution",
-      "canonical_id": "NAV:ablution"
+      "label": "SeeAB",
+      "references": []
+    },
+    {
+      "label": "SeePURIFI",
+      "references": []
+    },
+    {
+      "label": "FIGURATIVE",
+      "references": []
+    },
+    {
+      "label": ".Of regeneration",
+      "references": [
+        "Psalms 51:7",
+        "Proverbs 30:12",
+        "Isaiah 1:16",
+        "Isaiah 4:4"
+      ]
+    },
+    {
+      "label": "13:1;",
+      "references": [
+        "1 Corinthians 6:11",
+        "Ephesians 5:26",
+        "Titus 3:5"
+      ]
     }
   ],
-  "raw_block": "–Of hands, a token of innocenceDe 21:6;Ps 26:6;73:13;Mt 27:24\n–SeeABLUTION\n–SeePURIFICATION\n–FIGURATIVE\n  .Of regenerationPs 51:7;Pr 30:12;Isa 1:16;4:4;Zec \n13:1;1Co 6:11;Eph 5:26;Tit 3:5",
-  "content_preview": "–Of hands, a token of innocenceDe 21:6;Ps 26:6;73:13;Mt 27:24",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–Of hands, a token of innocenceDe 21:6;Ps 26:6;73:13;Mt 27:24",
-      "raw_segment": "–Of hands, a token of innocenceDe 21:6;Ps 26:6;73:13;Mt 27:24"
+      "book": "Deuteronomy",
+      "chapter": 21,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 21:6"
     },
     {
-      "idx": 1,
-      "entry_label": "–SeeABLUTION",
-      "raw_segment": "–SeeABLUTION"
+      "book": "Psalms",
+      "chapter": 26,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 26:6"
     },
     {
-      "idx": 2,
-      "entry_label": "–SeePURIFICATION",
-      "raw_segment": "–SeePURIFICATION"
+      "book": "Psalms",
+      "chapter": 73,
+      "verses": [
+        13
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 73:13"
     },
     {
-      "idx": 3,
-      "entry_label": "–FIGURATIVE",
-      "raw_segment": "–FIGURATIVE"
+      "book": "Matthew",
+      "chapter": 27,
+      "verses": [
+        24
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 27:24"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 51,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 51:7"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 30,
+      "verses": [
+        12
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 30:12"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 1,
+      "verses": [
+        16
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 1:16"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 4,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 4:4"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 13,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 13:1"
+    },
+    {
+      "book": "1 Corinthians",
+      "chapter": 6,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "1 Corinthians 6:11"
+    },
+    {
+      "book": "Ephesians",
+      "chapter": 5,
+      "verses": [
+        26
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Ephesians 5:26"
+    },
+    {
+      "book": "Titus",
+      "chapter": 3,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Titus 3:5"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "1 Corinthians",
+    "Deuteronomy",
+    "Ephesians",
+    "Isaiah",
+    "Matthew",
+    "Proverbs",
+    "Psalms",
+    "Titus"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:808ac0d119094b4bcc906b81e9bb5b92508bbc114a0c4e4abe8a28878c9e6e44",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 6
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 6,
+    "total_refs": 12,
+    "ot_refs": 8,
+    "nt_refs": 4,
+    "books_count": 8,
+    "top_books": [
+      "Psalms",
+      "Isaiah",
+      "Deuteronomy",
+      "Matthew",
+      "Proverbs",
+      "1 Corinthians",
+      "Ephesians",
+      "Titus"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:32:34.738281Z",
-  "updated_at": "2025-09-20T17:32:34.738289Z"
+  }
 }

@@ -1,95 +1,59 @@
 {
   "topic": "UZZA",
   "slug": "uzza",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. UZZA",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "2. Proprietor of the burial place of kings (Manasseh and Amon) 2Ki 21:18,26",
-      "references": [
-        "2Kgs 21:18",
-        "2Kgs 21:26"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "3. Son of Shimei 1Ch 6:29",
-      "references": [
-        "1Chr 6:29"
-      ],
-      "sub_groups": [
-        {
-          "name": "In R. V., called UZZAH",
-          "references": []
-        }
-      ]
-    },
-    {
-      "name": "4. Son of Ehud 1Ch 8:7",
-      "references": [
-        "1Chr 8:7"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "5. One of the Nethinim Ezr 2:49; Ne 7:51",
-      "references": [
-        "Ezra 2:49",
-        "Neh 7:51"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "2 Kings",
-      "book_abbrev": "2ki",
-      "chapter": 21,
-      "testament": "OT",
-      "verses": [
-        18,
-        26
-      ],
-      "verse_count": 2
-    },
-    {
-      "book": "Nehemiah",
-      "book_abbrev": "neh",
-      "chapter": 7,
-      "testament": "OT",
-      "verses": [
-        51
-      ],
-      "verse_count": 1
-    }
+  "sources": [
+    "NAV"
   ],
   "see_also": [
     "UZZAH"
   ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 5,
-    "ot_refs": 2,
-    "nt_refs": 0,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.732235+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "aspects": [
+    {
+      "label": "1. UZZA",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".SeeUZZAH,",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "2. Proprietor of the burial place of kings (Manasseh and Amon)",
+      "references": [
+        "2 Kings 21:18,26"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "3.",
+      "references": [
+        "1 Chronicles 6:29"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".In R. V.,",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "4.",
+      "references": [
+        "1 Chronicles 8:7"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "5. One of the Nethinim",
+      "references": [
+        "Ezra 2:49",
+        "Nehemiah 7:51"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "2 Kings",
       "chapter": 21,
@@ -99,8 +63,66 @@
       ],
       "verse_count": 2,
       "testament": "OT",
-      "raw": "2 Kings 21:18, 26",
-      "source": "EAS"
+      "raw": "2 Kings 21:18,26"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 6,
+      "verses": [
+        29
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 6:29"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 8,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 8:7"
+    },
+    {
+      "book": "Ezra",
+      "chapter": 2,
+      "verses": [
+        49
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezra 2:49"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 7,
+      "verses": [
+        51
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Nehemiah 7:51"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "2 Kings",
+    "Ezra",
+    "Nehemiah"
+  ],
+  "stats": {
+    "total_aspects": 7,
+    "total_refs": 5,
+    "ot_refs": 5,
+    "nt_refs": 0,
+    "books_count": 4,
+    "top_books": [
+      "1 Chronicles",
+      "2 Kings",
+      "Ezra",
+      "Nehemiah"
+    ]
+  }
 }

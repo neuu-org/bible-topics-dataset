@@ -1,69 +1,58 @@
 {
   "topic": "MITE (A LEPTA)",
-  "topic_slug": "mite__a_lepta_",
+  "slug": "mite__a_lepta_",
   "canonical_id": "NAV:mite__a_lepta_",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–About one-fifth of a centMr 12:42\n–Widow’sLu 21:2",
-  "content_preview": "–About one-fifth of a centMr 12:42",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–About one-fifth of a centMr 12:42",
-      "raw_segment": "–About one-fifth of a centMr 12:42"
+      "label": "About one-fifth of a cent",
+      "references": [
+        "Mark 12:42"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–Widow’sLu 21:2",
-      "raw_segment": "–Widow’sLu 21:2"
+      "label": "Widow’s",
+      "references": [
+        "Luke 21:2"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Mark",
+      "chapter": 12,
+      "verses": [
+        42
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Mark 12:42"
+    },
+    {
+      "book": "Luke",
+      "chapter": 21,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 21:2"
+    }
+  ],
+  "books_mentioned": [
+    "Luke",
+    "Mark"
+  ],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 2,
+    "total_refs": 2,
     "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:3cc867b133726e81fd0124420ddf35de6f8a85abf717351ea49e5cf1b7b1f9cc",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "nt_refs": 2,
+    "books_count": 2,
+    "top_books": [
+      "Mark",
+      "Luke"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:29:14.446024Z",
-  "updated_at": "2025-09-20T17:29:14.446031Z"
+  }
 }

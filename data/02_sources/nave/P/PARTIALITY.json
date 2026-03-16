@@ -1,83 +1,68 @@
 {
   "topic": "PARTIALITY",
-  "topic_slug": "partiality",
+  "slug": "partiality",
   "canonical_id": "NAV:partiality",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "PARENTS"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "PARENTS",
-      "clean": "PARENTS",
-      "slug": "parents",
-      "canonical_id": "NAV:parents"
-    }
-  ],
-  "raw_block": "–Forbidden among brethren1Ti 5:21\n–Of parents for particular children\n  .SeePARENTS\n–Its effect on other childrenGe 37:4",
-  "content_preview": "–Forbidden among brethren1Ti 5:21",
-  "reference_groups": [
-    {
-      "idx": 0,
-      "entry_label": "–Forbidden among brethren1Ti 5:21",
-      "raw_segment": "–Forbidden among brethren1Ti 5:21"
+      "label": "Forbid",
+      "references": [
+        "1 Timothy 5:21"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–Of parents for particular children",
-      "raw_segment": "–Of parents for particular children"
+      "label": "Of parents for particular children",
+      "references": []
     },
     {
-      "idx": 2,
-      "entry_label": "–Its effect on other childrenGe 37:4",
-      "raw_segment": "–Its effect on other childrenGe 37:4"
+      "label": ".SeePARENTS",
+      "references": []
+    },
+    {
+      "label": "Its effect on other children",
+      "references": [
+        "Genesis 37:4"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "1 Timothy",
+      "chapter": 5,
+      "verses": [
+        21
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "1 Timothy 5:21"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 37,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 37:4"
+    }
+  ],
+  "books_mentioned": [
+    "1 Timothy",
+    "Genesis"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:ee17658547583dc64db45fbc7120641175b01e098d07ca661d4e0a814d1ce043",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 4
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 4,
+    "total_refs": 2,
+    "ot_refs": 1,
+    "nt_refs": 1,
+    "books_count": 2,
+    "top_books": [
+      "1 Timothy",
+      "Genesis"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:29:51.815676Z",
-  "updated_at": "2025-09-20T17:29:51.815683Z"
+  }
 }

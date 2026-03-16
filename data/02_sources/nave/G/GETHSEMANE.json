@@ -1,69 +1,122 @@
 {
   "topic": "GETHSEMANE",
-  "topic_slug": "gethsemane",
+  "slug": "gethsemane",
   "canonical_id": "NAV:gethsemane",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–(A garden near Jerusalem)\n–Jesus betrayed inMt 26:36-50;Mr 14:32-46;Lu 22:39-49;Joh 18:1,2",
-  "content_preview": "–(A garden near Jerusalem)",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–(A garden near Jerusalem)",
-      "raw_segment": "–(A garden near Jerusalem)"
+      "label": "(A gar",
+      "references": []
     },
     {
-      "idx": 1,
-      "entry_label": "–Jesus betrayed inMt 26:36-50;Mr 14:32-46;Lu 22:39-49;Joh 18:1,2",
-      "raw_segment": "–Jesus betrayed inMt 26:36-50;Mr 14:32-46;Lu 22:39-49;Joh 18:1,2"
+      "label": "Jesus betrayed in",
+      "references": [
+        "Matthew 26:36-50",
+        "Mark 14:32-46",
+        "Luke 22:39-49",
+        "John 18:1,2"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Matthew",
+      "chapter": 26,
+      "verses": [
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "verse_count": 15,
+      "testament": "NT",
+      "raw": "Matthew 26:36-50"
+    },
+    {
+      "book": "Mark",
+      "chapter": 14,
+      "verses": [
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "verse_count": 15,
+      "testament": "NT",
+      "raw": "Mark 14:32-46"
+    },
+    {
+      "book": "Luke",
+      "chapter": 22,
+      "verses": [
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "verse_count": 11,
+      "testament": "NT",
+      "raw": "Luke 22:39-49"
+    },
+    {
+      "book": "John",
+      "chapter": 18,
+      "verses": [
+        1,
+        2
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "John 18:1,2"
+    }
+  ],
+  "books_mentioned": [
+    "John",
+    "Luke",
+    "Mark",
+    "Matthew"
+  ],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 2,
+    "total_refs": 4,
     "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:bfee749441b061558e6d55dae6931500565fd2d12d7f69ee9c7b039dcb4461e5",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "nt_refs": 4,
+    "books_count": 4,
+    "top_books": [
+      "Matthew",
+      "Mark",
+      "Luke",
+      "John"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:26:38.132934Z",
-  "updated_at": "2025-09-20T17:26:38.132941Z"
+  }
 }

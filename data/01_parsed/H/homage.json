@@ -1,75 +1,145 @@
 {
   "topic": "HOMAGE",
   "slug": "homage",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Refused by Peter Ac 10:26",
-      "references": [
-        "Acts 10:26"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Paul and Barnabas Ac 14:11-18",
-      "references": [
-        "Acts 14:11-18"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "By the angel seen by John in his vision Re 19:10; 22:8,9",
-      "references": [
-        "Rev 19:10",
-        "Rev 22:8",
-        "Rev 22:9"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "See WORSHIP",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "Rendered to kings 1Ki 1:16,23,31",
-      "references": [
-        "1Kgs 1:16",
-        "1Kgs 1:23",
-        "1Kgs 1:31"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Princes Es 3:2,5",
-      "references": [
-        "Esth 3:2",
-        "Esth 3:5"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [
-    "WORSHIP"
-  ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 6,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.692852+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
+  "see_also": [
+    "WORSHIP"
+  ],
+  "aspects": [
+    {
+      "label": "Refused by Peter",
+      "references": [
+        "Acts 10:26"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Paul and Barnabas",
+      "references": [
+        "Acts 14:11-18"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "By the angel seen by",
+      "references": [
+        "Revelation 19:10",
+        "Revelation 22:8,9"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeWORSHIP",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "Ren",
+      "references": [
+        "1 Kings 1:16,23,31"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Princes",
+      "references": [
+        "Esther 3:2,5"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0"
+  ],
+  "biblical_references": [
+    {
+      "book": "Acts",
+      "chapter": 10,
+      "verses": [
+        26
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 10:26"
+    },
+    {
+      "book": "Acts",
+      "chapter": 14,
+      "verses": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "verse_count": 8,
+      "testament": "NT",
+      "raw": "Acts 14:11-18"
+    },
+    {
+      "book": "Revelation",
+      "chapter": 19,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Revelation 19:10"
+    },
+    {
+      "book": "Revelation",
+      "chapter": 22,
+      "verses": [
+        8,
+        9
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Revelation 22:8,9"
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 1,
+      "verses": [
+        16,
+        23,
+        31
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "1 Kings 1:16,23,31"
+    },
+    {
+      "book": "Esther",
+      "chapter": 3,
+      "verses": [
+        2,
+        5
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Esther 3:2,5"
+    }
+  ],
+  "books_mentioned": [
+    "1 Kings",
+    "Acts",
+    "Esther",
+    "Revelation"
+  ],
+  "stats": {
+    "total_aspects": 6,
+    "total_refs": 6,
+    "ot_refs": 2,
+    "nt_refs": 4,
+    "books_count": 4,
+    "top_books": [
+      "Acts",
+      "Revelation",
+      "1 Kings",
+      "Esther"
+    ]
+  }
 }

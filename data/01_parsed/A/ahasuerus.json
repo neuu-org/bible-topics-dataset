@@ -1,57 +1,42 @@
 {
   "topic": "AHASUERUS",
   "slug": "ahasuerus",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. King of Persia, history of",
-      "references": [],
-      "sub_groups": [
-        {
-          "name": "See BOOK OF ESTHER Es 1",
-          "references": [
-            "Esth 1"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "2. AHASUERUS",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "3. Father of Darius Da 9:1",
-      "references": [
-        "Dan 9:1"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [
-    "ARTAXERXES"
-  ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.661892+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [
+    "ARTAXERXES"
+  ],
+  "aspects": [
+    {
+      "label": "1. King of Persia, history of",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".See BOOK OF ESTHEREs 1",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "2. AHASUERUS",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".SeeARTAXERXES",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "3. Father of Darius",
+      "references": [
+        "Daniel 9:1"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Daniel",
       "chapter": 9,
@@ -60,19 +45,20 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Daniel 9:1",
-      "source": "EAS"
-    },
-    {
-      "book": "Ezra",
-      "chapter": 4,
-      "verses": [
-        6
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Ezra 4:6",
-      "source": "EAS"
+      "raw": "Daniel 9:1"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Daniel"
+  ],
+  "stats": {
+    "total_aspects": 5,
+    "total_refs": 1,
+    "ot_refs": 1,
+    "nt_refs": 0,
+    "books_count": 1,
+    "top_books": [
+      "Daniel"
+    ]
+  }
 }

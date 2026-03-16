@@ -1,8 +1,8 @@
 {
   "topic": "CAPITAL AND LABOR",
-  "topic_slug": "capital_and_labor",
+  "slug": "capital_and_labor",
   "canonical_id": "NAV:capital_and_labor",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "EMPLOYEE",
     "SERVANT",
@@ -10,117 +10,106 @@
     "MASTER",
     "RICH, THE"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "EMPLOYEE",
-      "clean": "EMPLOYEE",
-      "slug": "employee",
-      "canonical_id": "NAV:employee"
+      "label": "Strife between",
+      "references": [
+        "Matthew 21:33-41",
+        "Mark 12:1-9",
+        "Luke 20:9-16"
+      ]
     },
     {
-      "original": "SERVANT",
-      "clean": "SERVANT",
-      "slug": "servant",
-      "canonical_id": "NAV:servant"
+      "label": "SeeEMPLOYEE",
+      "references": []
     },
     {
-      "original": "EMPLOYER",
-      "clean": "EMPLOYER",
-      "slug": "employer",
-      "canonical_id": "NAV:employer"
+      "label": "SeeEMPLOYER",
+      "references": []
     },
     {
-      "original": "MASTER",
-      "clean": "MASTER",
-      "slug": "master",
-      "canonical_id": "NAV:master"
+      "label": "SeeMASTER",
+      "references": []
     },
     {
-      "original": "RICH, THE",
-      "clean": "RICH, THE",
-      "slug": "rich__the",
-      "canonical_id": "NAV:rich__the"
+      "label": "SeeRICH, THE",
+      "references": []
+    },
+    {
+      "label": "SeeSERVANT",
+      "references": []
     }
   ],
-  "raw_block": "–Strife betweenMt 21:33-41;Mr 12:1-9;Lu 20:9-16\n–SeeEMPLOYEE\n–SeeEMPLOYER\n–SeeMASTER\n–SeeRICH, THE\n–SeeSERVANT",
-  "content_preview": "–Strife betweenMt 21:33-41;Mr 12:1-9;Lu 20:9-16",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–Strife betweenMt 21:33-41;Mr 12:1-9;Lu 20:9-16",
-      "raw_segment": "–Strife betweenMt 21:33-41;Mr 12:1-9;Lu 20:9-16"
+      "book": "Matthew",
+      "chapter": 21,
+      "verses": [
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "verse_count": 9,
+      "testament": "NT",
+      "raw": "Matthew 21:33-41"
     },
     {
-      "idx": 1,
-      "entry_label": "–SeeEMPLOYEE",
-      "raw_segment": "–SeeEMPLOYEE"
+      "book": "Mark",
+      "chapter": 12,
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "verse_count": 9,
+      "testament": "NT",
+      "raw": "Mark 12:1-9"
     },
     {
-      "idx": 2,
-      "entry_label": "–SeeEMPLOYER",
-      "raw_segment": "–SeeEMPLOYER"
-    },
-    {
-      "idx": 3,
-      "entry_label": "–SeeMASTER",
-      "raw_segment": "–SeeMASTER"
-    },
-    {
-      "idx": 4,
-      "entry_label": "–SeeRICH, THE",
-      "raw_segment": "–SeeRICH, THE"
-    },
-    {
-      "idx": 5,
-      "entry_label": "–SeeSERVANT",
-      "raw_segment": "–SeeSERVANT"
+      "book": "Luke",
+      "chapter": 20,
+      "verses": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "verse_count": 8,
+      "testament": "NT",
+      "raw": "Luke 20:9-16"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "Luke",
+    "Mark",
+    "Matthew"
+  ],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 6,
+    "total_refs": 3,
     "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:75c05fcac193aa24e320bdbaf265a588a740625c0d033412653fd505d1aa791b",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 6
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "nt_refs": 3,
+    "books_count": 3,
+    "top_books": [
+      "Matthew",
+      "Mark",
+      "Luke"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:24:48.246323Z",
-  "updated_at": "2025-09-20T17:24:48.246332Z"
+  }
 }

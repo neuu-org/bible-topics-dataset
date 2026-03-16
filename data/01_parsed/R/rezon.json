@@ -1,43 +1,25 @@
 {
   "topic": "REZON",
   "slug": "rezon",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "(A king of Damascus)",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "An adversary of Solomon 1Ki 11:23-25",
-      "references": [
-        "1Kgs 11:23-25"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.721716+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "(A king of Damascus)",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "An adversary of",
+      "references": [
+        "1 Kings 11:23-25"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "1 Kings",
       "chapter": 11,
@@ -48,35 +30,20 @@
       ],
       "verse_count": 3,
       "testament": "OT",
-      "raw": "1 Kings 11:23-25",
-      "source": "EAS"
-    },
-    {
-      "book": "2 Samuel",
-      "chapter": 8,
-      "verses": [
-        3,
-        4,
-        5,
-        6,
-        7,
-        8
-      ],
-      "verse_count": 6,
-      "testament": "OT",
-      "raw": "2 Samuel 8:3-8",
-      "source": "EAS"
-    },
-    {
-      "book": "1 Kings",
-      "chapter": 11,
-      "verses": [
-        23
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "1 Kings 11:23",
-      "source": "SMI"
+      "raw": "1 Kings 11:23-25"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Kings"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 1,
+    "ot_refs": 1,
+    "nt_refs": 0,
+    "books_count": 1,
+    "top_books": [
+      "1 Kings"
+    ]
+  }
 }

@@ -1,71 +1,42 @@
 {
   "topic": "HAMOR",
   "slug": "hamor",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "(The father of Shechem)",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "Jacob buys a piece of property from Ge 33:19; Jos 24:32; Jud 9:28",
-      "references": [
-        "Gen 33:19",
-        "Josh 24:32",
-        "Judg 9:28"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Murdered by the sons of Jacob Ge 34:26; 49:6",
-      "references": [
-        "Gen 34:26",
-        "Gen 49:6"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Called EMMOR Ac 7:16",
-      "references": [
-        "Acts 7:16"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Joshua",
-      "book_abbrev": "jos",
-      "chapter": 24,
-      "testament": "OT",
-      "verses": [
-        32
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 4,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.690505+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "(The father of Shechem)",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "Jacob buys a piece of property from",
+      "references": [
+        "Genesis 33:19",
+        "Joshua 24:32",
+        "Judges 9:28"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Mur",
+      "references": [
+        "Genesis 34:26",
+        "Genesis 49:6"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "General references",
+      "references": [
+        "Acts 7:16"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Genesis",
       "chapter": 33,
@@ -74,19 +45,47 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 33:19",
-      "source": "EAS"
+      "raw": "Genesis 33:19"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 24,
+      "verses": [
+        32
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 24:32"
+    },
+    {
+      "book": "Judges",
+      "chapter": 9,
+      "verses": [
+        28
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Judges 9:28"
     },
     {
       "book": "Genesis",
       "chapter": 34,
       "verses": [
-        20
+        26
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 34:20",
-      "source": "EAS"
+      "raw": "Genesis 34:26"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 49,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 49:6"
     },
     {
       "book": "Acts",
@@ -96,27 +95,26 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Acts 7:16",
-      "source": "EAS"
-    },
-    {
-      "book": "Genesis",
-      "chapter": 34,
-      "verses": [
-        2,
-        4,
-        6,
-        8,
-        13,
-        18,
-        20,
-        24,
-        26
-      ],
-      "verse_count": 9,
-      "testament": "OT",
-      "raw": "Genesis 34:2,4,6,8,13,18,20,24,26",
-      "source": "SMI"
+      "raw": "Acts 7:16"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Acts",
+    "Genesis",
+    "Joshua",
+    "Judges"
+  ],
+  "stats": {
+    "total_aspects": 4,
+    "total_refs": 6,
+    "ot_refs": 5,
+    "nt_refs": 1,
+    "books_count": 4,
+    "top_books": [
+      "Genesis",
+      "Joshua",
+      "Judges",
+      "Acts"
+    ]
+  }
 }

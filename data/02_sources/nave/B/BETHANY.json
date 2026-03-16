@@ -1,89 +1,170 @@
 {
   "topic": "BETHANY",
-  "topic_slug": "bethany",
+  "slug": "bethany",
   "canonical_id": "NAV:bethany",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–A village on the eastem slope of the Mount of OlivesJoh 11:18\n–Mary, Martha, and Lazarus dwell atLu 10:38-41\n–Lazarus dies and is raised to life atJoh 11\n–Jesus attends a feast inMt 26:6-13;Joh 12:1-9\n–The colt of a donkey upon which Jesus made his triumphal entry \ninto Jerusalem, obtained atMr 11:1-11\n–Jesus sojourns atMt 21:17;Mr 11:11,12,19",
-  "content_preview": "–A village on the eastem slope of the Mount of OlivesJoh 11:18",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–A village on the eastem slope of the Mount of OlivesJoh 11:18",
-      "raw_segment": "–A village on the eastem slope of the Mount of OlivesJoh 11:18"
+      "label": "A village on the eastem slope of the Mount of Olives",
+      "references": [
+        "John 11:18"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–Mary, Martha, and Lazarus dwell atLu 10:38-41",
-      "raw_segment": "–Mary, Martha, and Lazarus dwell atLu 10:38-41"
+      "label": "Mary, Martha, and Lazarus dwell at",
+      "references": [
+        "Luke 10:38-41"
+      ]
     },
     {
-      "idx": 2,
-      "entry_label": "–Lazarus dies and is raised to life atJoh 11",
-      "raw_segment": "–Lazarus dies and is raised to life atJoh 11"
+      "label": "Lazarus dies and is raised to life at",
+      "references": []
     },
     {
-      "idx": 3,
-      "entry_label": "–Jesus attends a feast inMt 26:6-13;Joh 12:1-9",
-      "raw_segment": "–Jesus attends a feast inMt 26:6-13;Joh 12:1-9"
+      "label": "Jesus attends a feast in",
+      "references": [
+        "Matthew 26:6-13",
+        "John 12:1-9"
+      ]
     },
     {
-      "idx": 4,
-      "entry_label": "–The colt of a donkey upon which Jesus made his triumphal entry \ninto Jerusalem, obtained atMr 11:1-11",
-      "raw_segment": "–The colt of a donkey upon which Jesus made his triumphal entry \ninto Jerusalem, obtained atMr 11:1-11"
+      "label": "The colt of a donkey upon which Jesus ma",
+      "references": []
     },
     {
-      "idx": 5,
-      "entry_label": "–Jesus sojourns atMt 21:17;Mr 11:11,12,19",
-      "raw_segment": "–Jesus sojourns atMt 21:17;Mr 11:11,12,19"
+      "label": "into",
+      "references": [
+        "Mark 11:1-11"
+      ]
+    },
+    {
+      "label": "Jesus",
+      "references": [
+        "Matthew 21:17",
+        "Mark 11:11,12,19"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "John",
+      "chapter": 11,
+      "verses": [
+        18
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "John 11:18"
+    },
+    {
+      "book": "Luke",
+      "chapter": 10,
+      "verses": [
+        38,
+        39,
+        40,
+        41
+      ],
+      "verse_count": 4,
+      "testament": "NT",
+      "raw": "Luke 10:38-41"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 26,
+      "verses": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "verse_count": 8,
+      "testament": "NT",
+      "raw": "Matthew 26:6-13"
+    },
+    {
+      "book": "John",
+      "chapter": 12,
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "verse_count": 9,
+      "testament": "NT",
+      "raw": "John 12:1-9"
+    },
+    {
+      "book": "Mark",
+      "chapter": 11,
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "verse_count": 11,
+      "testament": "NT",
+      "raw": "Mark 11:1-11"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 21,
+      "verses": [
+        17
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 21:17"
+    },
+    {
+      "book": "Mark",
+      "chapter": 11,
+      "verses": [
+        11,
+        12,
+        19
+      ],
+      "verse_count": 3,
+      "testament": "NT",
+      "raw": "Mark 11:11,12,19"
+    }
+  ],
+  "books_mentioned": [
+    "John",
+    "Luke",
+    "Mark",
+    "Matthew"
+  ],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 7,
+    "total_refs": 7,
     "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:386b44adfbe0a9cb0a86258e6656cf802e516cbe3ee00871f83b050c5b5db4a0",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 7
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "nt_refs": 7,
+    "books_count": 4,
+    "top_books": [
+      "John",
+      "Matthew",
+      "Mark",
+      "Luke"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:24:26.942615Z",
-  "updated_at": "2025-09-20T17:24:26.942622Z"
+  }
 }

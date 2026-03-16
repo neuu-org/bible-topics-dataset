@@ -1,84 +1,182 @@
 {
   "topic": "CENSER",
-  "topic_slug": "censer",
+  "slug": "censer",
   "canonical_id": "NAV:censer",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–Used for offering incenseLe 16:12;Nu 4:14;16:6,7,16-18,46;Re 8:3\n–For the temple, made of gold1Ki 7:50;2Ch 4:22;Heb \n9:4\n–Those which Korah used were converted into platesNu \n16:37-39\n–Used in idolatrous ritesEze 8:11\n–SYMBOLICALRe 8:3,5",
-  "content_preview": "–Used for offering incenseLe 16:12;Nu 4:14;16:6,7,16-18,46;Re 8:3",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–Used for offering incenseLe 16:12;Nu 4:14;16:6,7,16-18,46;Re 8:3",
-      "raw_segment": "–Used for offering incenseLe 16:12;Nu 4:14;16:6,7,16-18,46;Re 8:3"
+      "label": "Used for offering incense",
+      "references": [
+        "Leviticus 16:12",
+        "Numbers 4:14",
+        "Numbers 16:6,7,16-18,46",
+        "Revelation 8:3"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–For the temple, made of gold1Ki 7:50;2Ch 4:22;Heb \n9:4",
-      "raw_segment": "–For the temple, made of gold1Ki 7:50;2Ch 4:22;Heb \n9:4"
+      "label": "For the temple, ma",
+      "references": [
+        "1 Kings 7:50",
+        "2 Chronicles 4:22"
+      ]
     },
     {
-      "idx": 2,
-      "entry_label": "–Those which Korah used were converted into platesNu \n16:37-39",
-      "raw_segment": "–Those which Korah used were converted into platesNu \n16:37-39"
+      "label": "9:4",
+      "references": []
     },
     {
-      "idx": 3,
-      "entry_label": "–Used in idolatrous ritesEze 8:11",
-      "raw_segment": "–Used in idolatrous ritesEze 8:11"
+      "label": "Those which Korah used were converted into plates",
+      "references": []
     },
     {
-      "idx": 4,
-      "entry_label": "–SYMBOLICALRe 8:3,5",
-      "raw_segment": "–SYMBOLICALRe 8:3,5"
+      "label": "16:37-39",
+      "references": []
+    },
+    {
+      "label": "Used in idolatrous rites",
+      "references": [
+        "Ezekiel 8:11"
+      ]
+    },
+    {
+      "label": "SYMBOLI",
+      "references": [
+        "Revelation 8:3,5"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Leviticus",
+      "chapter": 16,
+      "verses": [
+        12
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Leviticus 16:12"
+    },
+    {
+      "book": "Numbers",
+      "chapter": 4,
+      "verses": [
+        14
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Numbers 4:14"
+    },
+    {
+      "book": "Numbers",
+      "chapter": 16,
+      "verses": [
+        6,
+        7,
+        16,
+        17,
+        18,
+        46
+      ],
+      "verse_count": 6,
+      "testament": "OT",
+      "raw": "Numbers 16:6,7,16-18,46"
+    },
+    {
+      "book": "Revelation",
+      "chapter": 8,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Revelation 8:3"
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 7,
+      "verses": [
+        50
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Kings 7:50"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 4,
+      "verses": [
+        22
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Chronicles 4:22"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 9,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Chronicles 9:4"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 16,
+      "verses": [
+        37,
+        38,
+        39
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "2 Chronicles 16:37-39"
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 8,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezekiel 8:11"
+    },
+    {
+      "book": "Revelation",
+      "chapter": 8,
+      "verses": [
+        3,
+        5
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Revelation 8:3,5"
+    }
+  ],
+  "books_mentioned": [
+    "1 Kings",
+    "2 Chronicles",
+    "Ezekiel",
+    "Leviticus",
+    "Numbers",
+    "Revelation"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:37308f4f5add0b1a7f9a6581c72a0f3ac5ebff47c3161df281e1676413b43cb0",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 7
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 7,
+    "total_refs": 10,
+    "ot_refs": 8,
+    "nt_refs": 2,
+    "books_count": 6,
+    "top_books": [
+      "2 Chronicles",
+      "Numbers",
+      "Revelation",
+      "Leviticus",
+      "1 Kings",
+      "Ezekiel"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:24:52.385331Z",
-  "updated_at": "2025-09-20T17:24:52.385338Z"
+  }
 }

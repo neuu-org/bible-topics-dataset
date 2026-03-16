@@ -1,54 +1,35 @@
 {
   "topic": "AHIEZER",
   "slug": "ahiezer",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. Captain of the tribe of Dan Nu 1:12; 2:25,26",
-      "references": [
-        "Num 1:12",
-        "Num 2:25",
-        "Num 2:26"
-      ],
-      "sub_groups": [
-        {
-          "name": "Contributes to the tabernacle Nu 7:66-71",
-          "references": [
-            "Num 7:66-71"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "2. One of David’s valiant men 1Ch 12:3",
-      "references": [
-        "1Chr 12:3"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.661987+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "1.",
+      "references": [
+        "Numbers 1:12",
+        "Numbers 2:25,26"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".Contributes to the tabernacle",
+      "references": [
+        "Numbers 7:66-71"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2. One of David’s valiant men",
+      "references": [
+        "1 Chronicles 12:3"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Numbers",
       "chapter": 1,
@@ -57,30 +38,33 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Numbers 1:12",
-      "source": "EAS"
+      "raw": "Numbers 1:12"
     },
     {
       "book": "Numbers",
       "chapter": 2,
       "verses": [
-        25
+        25,
+        26
       ],
-      "verse_count": 1,
+      "verse_count": 2,
       "testament": "OT",
-      "raw": "Numbers 2:25",
-      "source": "EAS"
+      "raw": "Numbers 2:25,26"
     },
     {
       "book": "Numbers",
-      "chapter": 10,
+      "chapter": 7,
       "verses": [
-        25
+        66,
+        67,
+        68,
+        69,
+        70,
+        71
       ],
-      "verse_count": 1,
+      "verse_count": 6,
       "testament": "OT",
-      "raw": "Numbers 10:25",
-      "source": "EAS"
+      "raw": "Numbers 7:66-71"
     },
     {
       "book": "1 Chronicles",
@@ -90,8 +74,22 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 12:3",
-      "source": "EAS"
+      "raw": "1 Chronicles 12:3"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Numbers"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 4,
+    "ot_refs": 4,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "Numbers",
+      "1 Chronicles"
+    ]
+  }
 }

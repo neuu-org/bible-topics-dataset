@@ -1,65 +1,53 @@
 {
   "topic": "KEILAH",
   "slug": "keilah",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. One of a group of nine cities in the southern part of Palestine allotted to Judah Jos 15:44",
-      "references": [
-        "Josh 15:44"
-      ],
-      "sub_groups": [
-        {
-          "name": "Philistines make a predatory excursion against, after harvest 1Sa 23:1",
-          "references": [
-            "1Sam 23:1"
-          ]
-        },
-        {
-          "name": "David rescues 1Sa 23:2-13",
-          "references": [
-            "1Sam 23:2-13"
-          ]
-        },
-        {
-          "name": "Rulers of, aid in restoring the wall of Jerusalem after the captivity Ne 3:17,18",
-          "references": [
-            "Neh 3:17",
-            "Neh 3:18"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "2. A descendant of Caleb 1Ch 4:19",
-      "references": [
-        "1Chr 4:19"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.698538+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "1. One of a group of nine cities in the",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "allotted to",
+      "references": [
+        "Joshua 15:44"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".Philistines make a predatory excursion against, after harvest",
+      "references": [
+        "1 Samuel 23:1"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".David rescues",
+      "references": [
+        "1 Samuel 23:2-13"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".Rulers of, aid in restoring the wall of",
+      "references": [
+        "Nehemiah 3:17,18"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2. A",
+      "references": [
+        "1 Chronicles 4:19"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Joshua",
       "chapter": 15,
@@ -68,55 +56,27 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Joshua 15:44",
-      "source": "EAS"
+      "raw": "Joshua 15:44"
     },
     {
       "book": "1 Samuel",
       "chapter": 23,
       "verses": [
-        1,
+        1
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Samuel 23:1"
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 23,
+      "verses": [
         2,
         3,
         4,
         5,
         6,
-        7,
-        8
-      ],
-      "verse_count": 8,
-      "testament": "OT",
-      "raw": "1 Samuel 23:1-8",
-      "source": "EAS"
-    },
-    {
-      "book": "1 Samuel",
-      "chapter": 23,
-      "verses": [
-        15
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "1 Samuel 23:15",
-      "source": "EAS"
-    },
-    {
-      "book": "1 Samuel",
-      "chapter": 23,
-      "verses": [
-        16,
-        17,
-        18
-      ],
-      "verse_count": 3,
-      "testament": "OT",
-      "raw": "1 Samuel 23:16-18",
-      "source": "EAS"
-    },
-    {
-      "book": "1 Samuel",
-      "chapter": 23,
-      "verses": [
         7,
         8,
         9,
@@ -125,10 +85,49 @@
         12,
         13
       ],
-      "verse_count": 7,
+      "verse_count": 12,
       "testament": "OT",
-      "raw": "1 Samuel 23:7-13",
-      "source": "SMI"
+      "raw": "1 Samuel 23:2-13"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 3,
+      "verses": [
+        17,
+        18
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Nehemiah 3:17,18"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 4,
+      "verses": [
+        19
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 4:19"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "1 Samuel",
+    "Joshua",
+    "Nehemiah"
+  ],
+  "stats": {
+    "total_aspects": 6,
+    "total_refs": 5,
+    "ot_refs": 5,
+    "nt_refs": 0,
+    "books_count": 4,
+    "top_books": [
+      "1 Samuel",
+      "Joshua",
+      "Nehemiah",
+      "1 Chronicles"
+    ]
+  }
 }

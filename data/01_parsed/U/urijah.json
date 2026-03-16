@@ -1,90 +1,80 @@
 {
   "topic": "URIJAH",
   "slug": "urijah",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. A priest in Ahaz",
-      "references": [],
-      "sub_groups": [
-        {
-          "name": "Builds a new altar for Ahaz 2Ki 16:10-16",
-          "references": [
-            "2Kgs 16:10-16"
-          ]
-        },
-        {
-          "name": "Probably identical with Uriah, witness to a prophecy of Isaiah Isa 8:2",
-          "references": [
-            "Isa 8:2"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "2. URIJAH",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "3. A priest",
-      "references": [],
-      "sub_groups": [
-        {
-          "name": "Assistant to Ezra Ne 8:4",
-          "references": [
-            "Neh 8:4"
-          ]
-        },
-        {
-          "name": "Called URIAH in the R. V",
-          "references": []
-        }
-      ]
-    },
-    {
-      "name": "4. A prophet in the time of Jehoiakim",
-      "references": [],
-      "sub_groups": [
-        {
-          "name": "Prophesies against Judah Jer 26:20",
-          "references": [
-            "Jer 26:20"
-          ]
-        },
-        {
-          "name": "Fled to Egypt; taken; killed by Jehoiakim Jer 26:21-23",
-          "references": [
-            "Jer 26:21-23"
-          ]
-        }
-      ]
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [
-    "URIAH"
-  ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 4,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.732122+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [
+    "URIAH"
+  ],
+  "aspects": [
+    {
+      "label": "1. A priest in Ahaz",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".Builds a new altar for Ahaz",
+      "references": [
+        "2 Kings 16:10-16"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".Probably i",
+      "references": [
+        "Isaiah 8:2"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2. URIJAH",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".SeeURIAH,",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "3. A priest",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".Assistant to Ezra",
+      "references": [
+        "Nehemiah 8:4"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "4. A prophet in the time of Jehoiakim",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".Prophesies against",
+      "references": [
+        "Jeremiah 26:20"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".Fled to Egypt; taken; killed by Jehoiakim",
+      "references": [
+        "Jeremiah 26:21-23"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "2 Kings",
       "chapter": 16,
@@ -99,8 +89,17 @@
       ],
       "verse_count": 7,
       "testament": "OT",
-      "raw": "2 Kings 16:10-16",
-      "source": "EAS"
+      "raw": "2 Kings 16:10-16"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 8,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 8:2"
     },
     {
       "book": "Nehemiah",
@@ -110,22 +109,48 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Nehemiah 8:4",
-      "source": "EAS"
+      "raw": "Nehemiah 8:4"
     },
     {
       "book": "Jeremiah",
       "chapter": 26,
       "verses": [
-        20,
+        20
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Jeremiah 26:20"
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 26,
+      "verses": [
         21,
         22,
         23
       ],
-      "verse_count": 4,
+      "verse_count": 3,
       "testament": "OT",
-      "raw": "Jeremiah 26:20-23",
-      "source": "EAS"
+      "raw": "Jeremiah 26:21-23"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "2 Kings",
+    "Isaiah",
+    "Jeremiah",
+    "Nehemiah"
+  ],
+  "stats": {
+    "total_aspects": 11,
+    "total_refs": 5,
+    "ot_refs": 5,
+    "nt_refs": 0,
+    "books_count": 4,
+    "top_books": [
+      "Jeremiah",
+      "2 Kings",
+      "Isaiah",
+      "Nehemiah"
+    ]
+  }
 }

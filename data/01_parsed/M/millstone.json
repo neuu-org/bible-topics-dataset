@@ -1,79 +1,129 @@
 {
   "topic": "MILLSTONE",
   "slug": "millstone",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "Not to be taken as a pledge De 24:6",
+      "label": "Not to be taken as a pledge",
       "references": [
-        "Deut 24:6"
+        "Deuteronomy 24:6"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Probably used in executions by drowning Mt 18:6; Mr 9:42; Lu 17:2",
+      "label": "Probably used in executions by drowning",
       "references": [
-        "Matt 18:6",
-        "Mark 9:42",
+        "Matthew 18:6"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "9:42;",
+      "references": [
         "Luke 17:2"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Abimelech killed by one being of hurled upon him Jud 9:53",
-      "references": [
-        "Judg 9:53"
-      ],
-      "sub_groups": []
+      "label": "Abimelech killed by one being of hurled upon him",
+      "references": [],
+      "source": "NAV"
     },
     {
-      "name": "Figurative of a hard heart Job 41:24",
+      "label": "9:53",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "Figurative of a hard heart",
       "references": [
         "Job 41:24"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Mark",
-      "book_abbrev": "mrk",
-      "chapter": 9,
+      "book": "Deuteronomy",
+      "chapter": 24,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 24:6"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 18,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
       "testament": "NT",
+      "raw": "Matthew 18:6"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 9,
       "verses": [
         42
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 9:42"
     },
     {
       "book": "Luke",
-      "book_abbrev": "luk",
       "chapter": 17,
-      "testament": "NT",
       "verses": [
         2
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 17:2"
+    },
+    {
+      "book": "Luke",
+      "chapter": 9,
+      "verses": [
+        53
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 9:53"
+    },
+    {
+      "book": "Job",
+      "chapter": 41,
+      "verses": [
+        24
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Job 41:24"
     }
   ],
-  "see_also": [],
-  "aliases": [],
+  "books_mentioned": [
+    "Deuteronomy",
+    "Job",
+    "Luke",
+    "Matthew"
+  ],
   "stats": {
-    "entries_count": 4,
-    "ot_refs": 0,
-    "nt_refs": 2,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.706610+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    }
-  },
-  "version": "3.0.0"
+    "total_aspects": 6,
+    "total_refs": 6,
+    "ot_refs": 2,
+    "nt_refs": 4,
+    "books_count": 4,
+    "top_books": [
+      "Matthew",
+      "Luke",
+      "Deuteronomy",
+      "Job"
+    ]
+  }
 }

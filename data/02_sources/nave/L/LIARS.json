@@ -1,124 +1,98 @@
 {
   "topic": "LIARS",
-  "topic_slug": "liars",
+  "slug": "liars",
   "canonical_id": "NAV:liars",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "DECEPTION",
     "DECEIT",
     "FALSEHOOD",
     "HYPOCRISY"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "DECEPTION",
-      "clean": "DECEPTION",
-      "slug": "deception",
-      "canonical_id": "NAV:deception"
+      "label": "All men are liars",
+      "references": [
+        "Psalms 116:11"
+      ]
     },
     {
-      "original": "DECEIT",
-      "clean": "DECEIT",
-      "slug": "deceit",
-      "canonical_id": "NAV:deceit"
+      "label": "Satan, a",
+      "references": [
+        "John 8:44,55"
+      ]
     },
     {
-      "original": "FALSEHOOD",
-      "clean": "FALSEHOOD",
-      "slug": "falsehood",
-      "canonical_id": "NAV:falsehood"
+      "label": "Prohibited from the Kingdom of Heaven",
+      "references": [
+        "Revelation 21:8"
+      ]
     },
     {
-      "original": "HYPOCRISY",
-      "clean": "HYPOCRISY",
-      "slug": "hypocrisy",
-      "canonical_id": "NAV:hypocrisy"
+      "label": "See",
+      "references": []
+    },
+    {
+      "label": "See",
+      "references": []
+    },
+    {
+      "label": "SeeFALSEHOOD",
+      "references": []
+    },
+    {
+      "label": "SeeHYPOCRISY",
+      "references": []
     }
   ],
-  "raw_block": "–All men are liarsPs 116:11\n–Satan, a deceiverJoh 8:44,55\n–Prohibited from the Kingdom of HeavenRe 21:8\n–SeeDECEIT\n–SeeDECEPTION\n–SeeFALSEHOOD\n–SeeHYPOCRISY",
-  "content_preview": "–All men are liarsPs 116:11",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–All men are liarsPs 116:11",
-      "raw_segment": "–All men are liarsPs 116:11"
+      "book": "Psalms",
+      "chapter": 116,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 116:11"
     },
     {
-      "idx": 1,
-      "entry_label": "–Satan, a deceiverJoh 8:44,55",
-      "raw_segment": "–Satan, a deceiverJoh 8:44,55"
+      "book": "John",
+      "chapter": 8,
+      "verses": [
+        44,
+        55
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "John 8:44,55"
     },
     {
-      "idx": 2,
-      "entry_label": "–Prohibited from the Kingdom of HeavenRe 21:8",
-      "raw_segment": "–Prohibited from the Kingdom of HeavenRe 21:8"
-    },
-    {
-      "idx": 3,
-      "entry_label": "–SeeDECEIT",
-      "raw_segment": "–SeeDECEIT"
-    },
-    {
-      "idx": 4,
-      "entry_label": "–SeeDECEPTION",
-      "raw_segment": "–SeeDECEPTION"
-    },
-    {
-      "idx": 5,
-      "entry_label": "–SeeFALSEHOOD",
-      "raw_segment": "–SeeFALSEHOOD"
-    },
-    {
-      "idx": 6,
-      "entry_label": "–SeeHYPOCRISY",
-      "raw_segment": "–SeeHYPOCRISY"
+      "book": "Revelation",
+      "chapter": 21,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Revelation 21:8"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "John",
+    "Psalms",
+    "Revelation"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:5c489a4b2c23aabf3da1c552e790bc64c37ce301dbe298ffbbc6059f4429aa59",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 7
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 7,
+    "total_refs": 3,
+    "ot_refs": 1,
+    "nt_refs": 2,
+    "books_count": 3,
+    "top_books": [
+      "Psalms",
+      "John",
+      "Revelation"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:28:35.114147Z",
-  "updated_at": "2025-09-20T17:28:35.114154Z"
+  }
 }

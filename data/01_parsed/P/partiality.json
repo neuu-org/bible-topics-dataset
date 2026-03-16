@@ -1,49 +1,73 @@
 {
   "topic": "PARTIALITY",
   "slug": "partiality",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Forbidden among brethren 1Ti 5:21",
-      "references": [
-        "1Tim 5:21"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Of parents for particular children",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "Its effect on other children Ge 37:4",
-      "references": [
-        "Gen 37:4"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [
-    "PARENTS"
-  ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.717095+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
+  "see_also": [
+    "PARENTS"
+  ],
+  "aspects": [
+    {
+      "label": "Forbid",
+      "references": [
+        "1 Timothy 5:21"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Of parents for particular children",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".SeePARENTS",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "Its effect on other children",
+      "references": [
+        "Genesis 37:4"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0"
+  ],
+  "biblical_references": [
+    {
+      "book": "1 Timothy",
+      "chapter": 5,
+      "verses": [
+        21
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "1 Timothy 5:21"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 37,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 37:4"
+    }
+  ],
+  "books_mentioned": [
+    "1 Timothy",
+    "Genesis"
+  ],
+  "stats": {
+    "total_aspects": 4,
+    "total_refs": 2,
+    "ot_refs": 1,
+    "nt_refs": 1,
+    "books_count": 2,
+    "top_books": [
+      "1 Timothy",
+      "Genesis"
+    ]
+  }
 }

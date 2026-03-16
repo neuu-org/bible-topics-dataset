@@ -1,111 +1,57 @@
 {
   "topic": "MIDIAN",
   "slug": "midian",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "Son of Abraham by Keturah Ge 25:2,4; 1Ch 1:32,33",
+      "label": "General references",
       "references": [
-        "Gen 25:2",
-        "Gen 25:4",
-        "1Chr 1:32",
-        "1Chr 1:33"
+        "Genesis 25:2,4",
+        "1 Chronicles 1:32,33"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "1 Chronicles",
-      "book_abbrev": "1ch",
-      "chapter": 1,
+      "book": "Genesis",
+      "chapter": 25,
+      "verses": [
+        2,
+        4
+      ],
+      "verse_count": 2,
       "testament": "OT",
+      "raw": "Genesis 25:2,4"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 1,
       "verses": [
         32,
         33
       ],
-      "verse_count": 2
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.706254+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "Genesis",
-      "chapter": 25,
-      "verses": [
-        2
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Genesis 25:2",
-      "source": "EAS"
-    },
-    {
-      "book": "1 Chronicles",
-      "chapter": 1,
-      "verses": [
-        32
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "1 Chronicles 1:32",
-      "source": "EAS"
-    },
-    {
-      "book": "Exodus",
-      "chapter": 2,
-      "verses": [
-        15,
-        21
-      ],
       "verse_count": 2,
       "testament": "OT",
-      "raw": "Exodus 2:15,21",
-      "source": "SMI"
-    },
-    {
-      "book": "Numbers",
-      "chapter": 31,
-      "verses": [
-        22
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Numbers 31:22",
-      "source": "SMI"
-    },
-    {
-      "book": "Judges",
-      "chapter": 8,
-      "verses": [
-        21,
-        24,
-        25,
-        26
-      ],
-      "verse_count": 4,
-      "testament": "OT",
-      "raw": "Judges 8:21,24-26",
-      "source": "SMI"
+      "raw": "1 Chronicles 1:32,33"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Genesis"
+  ],
+  "stats": {
+    "total_aspects": 1,
+    "total_refs": 2,
+    "ot_refs": 2,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "Genesis",
+      "1 Chronicles"
+    ]
+  }
 }

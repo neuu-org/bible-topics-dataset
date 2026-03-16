@@ -1,79 +1,132 @@
 {
   "topic": "MESHECH",
-  "topic_slug": "meshech",
+  "slug": "meshech",
   "canonical_id": "NAV:meshech",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–1. Also called MESECH\n  .Son of JaphethGe 10:2;1Ch 1:5\n–2. Son of Shem1Ch 1:17\n–3. A tribePs 120:5\n–4. The MoschiEze 27:13;32:26;38:2,3",
-  "content_preview": "–1. Also called MESECH",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–1. Also called MESECH",
-      "raw_segment": "–1. Also called MESECH"
+      "label": "1. Al",
+      "references": []
     },
     {
-      "idx": 1,
-      "entry_label": "–2. Son of Shem1Ch 1:17",
-      "raw_segment": "–2. Son of Shem1Ch 1:17"
+      "label": ".",
+      "references": [
+        "Genesis 10:2",
+        "1 Chronicles 1:5"
+      ]
     },
     {
-      "idx": 2,
-      "entry_label": "–3. A tribePs 120:5",
-      "raw_segment": "–3. A tribePs 120:5"
+      "label": "2.",
+      "references": [
+        "1 Chronicles 1:17"
+      ]
     },
     {
-      "idx": 3,
-      "entry_label": "–4. The MoschiEze 27:13;32:26;38:2,3",
-      "raw_segment": "–4. The MoschiEze 27:13;32:26;38:2,3"
+      "label": "3. A tribe",
+      "references": [
+        "Psalms 120:5"
+      ]
+    },
+    {
+      "label": "4. The Moschi",
+      "references": [
+        "Ezekiel 27:13",
+        "Ezekiel 32:26",
+        "Ezekiel 38:2,3"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Genesis",
+      "chapter": 10,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 10:2"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 1,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 1:5"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 1,
+      "verses": [
+        17
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 1:17"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 120,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 120:5"
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 27,
+      "verses": [
+        13
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezekiel 27:13"
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 32,
+      "verses": [
+        26
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezekiel 32:26"
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 38,
+      "verses": [
+        2,
+        3
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Ezekiel 38:2,3"
+    }
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Ezekiel",
+    "Genesis",
+    "Psalms"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 5,
+    "total_refs": 7,
+    "ot_refs": 7,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:79389024cdb2105c22f282b9061efa7df6f1fff425984119ad9e944e29ff9113",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 5
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 4,
+    "top_books": [
+      "Ezekiel",
+      "1 Chronicles",
+      "Genesis",
+      "Psalms"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:29:04.773716Z",
-  "updated_at": "2025-09-20T17:29:04.773723Z"
+  }
 }

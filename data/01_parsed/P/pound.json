@@ -1,85 +1,97 @@
 {
   "topic": "POUND",
   "slug": "pound",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [
+    "MEASURE",
+    "WEIGHTS"
+  ],
+  "aspects": [
     {
-      "name": "The Hebrew word “maneh” is translated “pound,” 1Ki 10:17; Ezr 2:69; Ne 7:71,72",
-      "references": [
-        "1Kgs 10:17",
-        "Ezra 2:69",
-        "Neh 7:71",
-        "Neh 7:72"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "And is equivalent to almost one pound (fourteen ounces)",
+      "label": "The Hebrew word “maneh” is translated “pound,”",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "In John the weight was equivalent to about twelve ounces Joh 12:3",
+      "label": "10:17;",
+      "references": [
+        "Ezra 2:69",
+        "Nehemiah 7:71,72"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "And is equivalent to almost one pound (fourteen ounces)",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "In",
       "references": [
         "John 12:3"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "In Luke the Greek word “mina” is translated “pound,” and worth approximately one-hundred denarii (more than three months’ wages) Lu 19:13-25",
+      "label": "In",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "approximately one-hundred",
       "references": [
         "Luke 19:13-25"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See MEASURE",
+      "label": "SeeMEASURE",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See WEIGHTS",
+      "label": "SeeWEIGHTS",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "1 Kings",
-      "book_abbrev": "1ki",
-      "chapter": 10,
-      "testament": "OT",
-      "verses": [
-        17
-      ],
-      "verse_count": 1
-    },
-    {
       "book": "Ezra",
-      "book_abbrev": "ezr",
       "chapter": 2,
-      "testament": "OT",
       "verses": [
         69
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezra 2:69"
     },
     {
       "book": "Nehemiah",
-      "book_abbrev": "neh",
       "chapter": 7,
-      "testament": "OT",
       "verses": [
         71,
         72
       ],
-      "verse_count": 2
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Nehemiah 7:71,72"
+    },
+    {
+      "book": "John",
+      "chapter": 12,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "John 12:3"
     },
     {
       "book": "Luke",
-      "book_abbrev": "luk",
       "chapter": 19,
-      "testament": "NT",
       "verses": [
         13,
         14,
@@ -95,104 +107,28 @@
         24,
         25
       ],
-      "verse_count": 13
+      "verse_count": 13,
+      "testament": "NT",
+      "raw": "Luke 19:13-25"
     }
   ],
-  "see_also": [
-    "MEASURE",
-    "WEIGHTS"
+  "books_mentioned": [
+    "Ezra",
+    "John",
+    "Luke",
+    "Nehemiah"
   ],
-  "aliases": [],
   "stats": {
-    "entries_count": 6,
-    "ot_refs": 3,
-    "nt_refs": 1,
-    "total_verses": 4
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.719108+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "1 Kings",
-      "chapter": 10,
-      "verses": [
-        17
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "1 Kings 10:17",
-      "source": "EAS"
-    },
-    {
-      "book": "Ezra",
-      "chapter": 2,
-      "verses": [
-        69
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Ezra 2:69",
-      "source": "EAS"
-    },
-    {
-      "book": "Nehemiah",
-      "chapter": 7,
-      "verses": [
-        71,
-        72
-      ],
-      "verse_count": 2,
-      "testament": "OT",
-      "raw": "Nehemiah 7:71, 72",
-      "source": "EAS"
-    },
-    {
-      "book": "John",
-      "chapter": 12,
-      "verses": [
-        3
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "John 12:3",
-      "source": "EAS"
-    },
-    {
-      "book": "John",
-      "chapter": 19,
-      "verses": [
-        39
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "John 19:39",
-      "source": "EAS"
-    },
-    {
-      "book": "Luke",
-      "chapter": 19,
-      "verses": [
-        13,
-        16,
-        18,
-        20,
-        24,
-        25
-      ],
-      "verse_count": 6,
-      "testament": "NT",
-      "raw": "Luke 19:13, 16, 18, 20, 24, 25",
-      "source": "EAS"
-    }
-  ]
+    "total_aspects": 8,
+    "total_refs": 4,
+    "ot_refs": 2,
+    "nt_refs": 2,
+    "books_count": 4,
+    "top_books": [
+      "Ezra",
+      "Nehemiah",
+      "John",
+      "Luke"
+    ]
+  }
 }

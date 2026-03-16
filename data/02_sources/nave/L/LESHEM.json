@@ -1,78 +1,29 @@
 {
   "topic": "LESHEM",
-  "topic_slug": "leshem",
+  "slug": "leshem",
   "canonical_id": "NAV:leshem",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "DAN"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "DAN",
-      "clean": "DAN",
-      "slug": "dan",
-      "canonical_id": "NAV:dan"
-    }
-  ],
-  "raw_block": "–Also called LAISH\n–SeeDAN",
-  "content_preview": "–Also called LAISH",
-  "reference_groups": [
-    {
-      "idx": 0,
-      "entry_label": "–Also called LAISH",
-      "raw_segment": "–Also called LAISH"
+      "label": "Al",
+      "references": []
     },
     {
-      "idx": 1,
-      "entry_label": "–SeeDAN",
-      "raw_segment": "–SeeDAN"
+      "label": "SeeDAN",
+      "references": []
     }
   ],
   "biblical_references": [],
   "books_mentioned": [],
-  "normalized_labels": [],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 2,
+    "total_refs": 0,
     "ot_refs": 0,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:fef21743f62460f8030f05b9b590da00134c0c191df06ab785d03304460ba782",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
-    ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:28:34.245869Z",
-  "updated_at": "2025-09-20T17:28:34.245877Z"
+    "books_count": 0,
+    "top_books": []
+  }
 }

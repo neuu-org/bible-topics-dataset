@@ -1,139 +1,85 @@
 {
   "topic": "COUNSELLOR",
   "slug": "counsellor",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "A wise man, versed in law and diplomacy 1Ch 27:32,33",
+      "label": "A wise man, versed in law and diplomacy",
       "references": [
-        "1Chr 27:32",
-        "1Chr 27:33"
+        "1 Chronicles 27:32,33"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Ahithophel was",
+      "label": "Ahithophel was",
       "references": [],
-      "sub_groups": [
-        {
-          "name": "To David 1Ch 27:33; 2Sa 16:23",
-          "references": [
-            "1Chr 27:33",
-            "2Sam 16:23"
-          ]
-        },
-        {
-          "name": "To Absalom 2Sa 16:23",
-          "references": [
-            "2Sam 16:23"
-          ]
-        }
-      ]
+      "source": "NAV"
     },
     {
-      "name": "Was member of the Sanhedrin at Jerusalem Mr 15:43; Lu 23:50,51",
+      "label": ".To David",
+      "references": [
+        "1 Chronicles 27:33",
+        "2 Samuel 16:23"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".To Absalom",
+      "references": [
+        "2 Samuel 16:23"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Was member of the Sanhedrin at",
       "references": [
         "Mark 15:43",
-        "Luke 23:50",
-        "Luke 23:51"
+        "Luke 23:50,51"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "A title of Christ Isa 9:6",
+      "label": "A title of Christ",
       "references": [
-        "Isa 9:6"
+        "Isaiah 9:6"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "2 Samuel",
-      "book_abbrev": "2sa",
-      "chapter": 16,
+      "book": "1 Chronicles",
+      "chapter": 27,
+      "verses": [
+        32,
+        33
+      ],
+      "verse_count": 2,
       "testament": "OT",
+      "raw": "1 Chronicles 27:32,33"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 27,
+      "verses": [
+        33
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 27:33"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 16,
       "verses": [
         23
       ],
-      "verse_count": 1
-    },
-    {
-      "book": "Luke",
-      "book_abbrev": "luk",
-      "chapter": 23,
-      "testament": "NT",
-      "verses": [
-        50,
-        51
-      ],
-      "verse_count": 2
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 4,
-    "ot_refs": 1,
-    "nt_refs": 1,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.679534+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "Proverbs",
-      "chapter": 11,
-      "verses": [
-        14
-      ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Proverbs 11:14",
-      "source": "EAS"
-    },
-    {
-      "book": "Proverbs",
-      "chapter": 15,
-      "verses": [
-        22
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Proverbs 15:22",
-      "source": "EAS"
-    },
-    {
-      "book": "2 Samuel",
-      "chapter": 15,
-      "verses": [
-        12
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "2 Samuel 15:12",
-      "source": "EAS"
-    },
-    {
-      "book": "Isaiah",
-      "chapter": 9,
-      "verses": [
-        6
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Isaiah 9:6",
-      "source": "EAS"
+      "raw": "2 Samuel 16:23"
     },
     {
       "book": "Mark",
@@ -143,19 +89,49 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Mark 15:43",
-      "source": "EAS"
+      "raw": "Mark 15:43"
     },
     {
       "book": "Luke",
       "chapter": 23,
       "verses": [
-        50
+        50,
+        51
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Luke 23:50,51"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 9,
+      "verses": [
+        6
       ],
       "verse_count": 1,
-      "testament": "NT",
-      "raw": "Luke 23:50",
-      "source": "EAS"
+      "testament": "OT",
+      "raw": "Isaiah 9:6"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "2 Samuel",
+    "Isaiah",
+    "Luke",
+    "Mark"
+  ],
+  "stats": {
+    "total_aspects": 6,
+    "total_refs": 6,
+    "ot_refs": 4,
+    "nt_refs": 2,
+    "books_count": 5,
+    "top_books": [
+      "1 Chronicles",
+      "2 Samuel",
+      "Mark",
+      "Luke",
+      "Isaiah"
+    ]
+  }
 }

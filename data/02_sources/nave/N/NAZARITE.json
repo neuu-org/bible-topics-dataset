@@ -1,74 +1,197 @@
 {
   "topic": "NAZARITE",
-  "topic_slug": "nazarite",
+  "slug": "nazarite",
   "canonical_id": "NAV:nazarite",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–Law concerningNu 6:1-21;Jud 13:5\n–Character ofLa 4:7;Am 2:11,12\n–INSTANCES OF .SamsonJud 13:5,7;16:17\n  .Samuel1Sa 1:11\n  .RechabitesJer 35\n  .John the BaptistMt 11:18;Lu 1:15;7:33",
-  "content_preview": "–Law concerningNu 6:1-21;Jud 13:5",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–Law concerningNu 6:1-21;Jud 13:5",
-      "raw_segment": "–Law concerningNu 6:1-21;Jud 13:5"
+      "label": "Law concerning",
+      "references": [
+        "Numbers 6:1-21",
+        "Judges 13:5"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–Character ofLa 4:7;Am 2:11,12",
-      "raw_segment": "–Character ofLa 4:7;Am 2:11,12"
+      "label": "Character of",
+      "references": [
+        "Lamentations 4:7",
+        "Amos 2:11,12"
+      ]
     },
     {
-      "idx": 2,
-      "entry_label": "–INSTANCES OF .SamsonJud 13:5,7;16:17",
-      "raw_segment": "–INSTANCES OF .SamsonJud 13:5,7;16:17"
+      "label": "INSTANCES OF .Sam",
+      "references": [
+        "Judges 13:5,7",
+        "Judges 16:17"
+      ]
+    },
+    {
+      "label": ".Samuel",
+      "references": [
+        "1 Samuel 1:11"
+      ]
+    },
+    {
+      "label": ".Rechabites",
+      "references": []
+    },
+    {
+      "label": ".",
+      "references": [
+        "Matthew 11:18",
+        "Luke 1:15",
+        "Luke 7:33"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Numbers",
+      "chapter": 6,
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "verse_count": 21,
+      "testament": "OT",
+      "raw": "Numbers 6:1-21"
+    },
+    {
+      "book": "Judges",
+      "chapter": 13,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Judges 13:5"
+    },
+    {
+      "book": "Lamentations",
+      "chapter": 4,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Lamentations 4:7"
+    },
+    {
+      "book": "Amos",
+      "chapter": 2,
+      "verses": [
+        11,
+        12
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Amos 2:11,12"
+    },
+    {
+      "book": "Judges",
+      "chapter": 13,
+      "verses": [
+        5,
+        7
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Judges 13:5,7"
+    },
+    {
+      "book": "Judges",
+      "chapter": 16,
+      "verses": [
+        17
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Judges 16:17"
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 1,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Samuel 1:11"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 11,
+      "verses": [
+        18
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 11:18"
+    },
+    {
+      "book": "Luke",
+      "chapter": 1,
+      "verses": [
+        15
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 1:15"
+    },
+    {
+      "book": "Luke",
+      "chapter": 7,
+      "verses": [
+        33
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 7:33"
+    }
+  ],
+  "books_mentioned": [
+    "1 Samuel",
+    "Amos",
+    "Judges",
+    "Lamentations",
+    "Luke",
+    "Matthew",
+    "Numbers"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:6503237009e9f271290c9e6be50c804facbe2fe105ee0b2b7e58556787a6bf67",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 6
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 6,
+    "total_refs": 10,
+    "ot_refs": 7,
+    "nt_refs": 3,
+    "books_count": 7,
+    "top_books": [
+      "Judges",
+      "Luke",
+      "Numbers",
+      "Lamentations",
+      "Amos",
+      "1 Samuel",
+      "Matthew"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:29:27.664038Z",
-  "updated_at": "2025-09-20T17:29:27.664046Z"
+  }
 }

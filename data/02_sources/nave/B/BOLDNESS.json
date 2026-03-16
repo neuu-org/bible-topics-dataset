@@ -1,78 +1,184 @@
 {
   "topic": "BOLDNESS",
-  "topic_slug": "boldness",
+  "slug": "boldness",
   "canonical_id": "NAV:boldness",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "COURAGE"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "COURAGE",
-      "clean": "COURAGE",
-      "slug": "courage",
-      "canonical_id": "NAV:courage"
-    }
-  ],
-  "raw_block": "–Of THE RIGHTEOUSPr 14:26;28:1;Eph 3:12;Heb 4:16;10:19;13:6;1Jo  2:28;4:17\n–INSTANCES OF, IN PRAYER\n  .AbrahamGe 18:23-32\n  .MosesEx 33:12-18\n  .SeeCOURAGE",
-  "content_preview": "–Of THE RIGHTEOUSPr 14:26;28:1;Eph 3:12;Heb 4:16;10:19;13:6;1Jo  2:28;4:17",
-  "reference_groups": [
-    {
-      "idx": 0,
-      "entry_label": "–Of THE RIGHTEOUSPr 14:26;28:1;Eph 3:12;Heb 4:16;10:19;13:6;1Jo  2:28;4:17",
-      "raw_segment": "–Of THE RIGHTEOUSPr 14:26;28:1;Eph 3:12;Heb 4:16;10:19;13:6;1Jo  2:28;4:17"
+      "label": "Of THE RIGHTEOUS",
+      "references": [
+        "Proverbs 14:26",
+        "Proverbs 28:1",
+        "Ephesians 3:12",
+        "Hebrews 4:16",
+        "Hebrews 10:19",
+        "Hebrews 13:6",
+        "Job 2:28",
+        "Job 4:17"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–INSTANCES OF, IN PRAYER",
-      "raw_segment": "–INSTANCES OF, IN PRAYER"
+      "label": "INSTANCES OF, IN PRAYER",
+      "references": []
+    },
+    {
+      "label": ".Abraham",
+      "references": [
+        "Genesis 18:23-32"
+      ]
+    },
+    {
+      "label": ".Moses",
+      "references": [
+        "Exodus 33:12-18"
+      ]
+    },
+    {
+      "label": ".SeeCOURAGE",
+      "references": []
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Proverbs",
+      "chapter": 14,
+      "verses": [
+        26
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 14:26"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 28,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 28:1"
+    },
+    {
+      "book": "Ephesians",
+      "chapter": 3,
+      "verses": [
+        12
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Ephesians 3:12"
+    },
+    {
+      "book": "Hebrews",
+      "chapter": 4,
+      "verses": [
+        16
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Hebrews 4:16"
+    },
+    {
+      "book": "Hebrews",
+      "chapter": 10,
+      "verses": [
+        19
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Hebrews 10:19"
+    },
+    {
+      "book": "Hebrews",
+      "chapter": 13,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Hebrews 13:6"
+    },
+    {
+      "book": "Job",
+      "chapter": 2,
+      "verses": [
+        28
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Job 2:28"
+    },
+    {
+      "book": "Job",
+      "chapter": 4,
+      "verses": [
+        17
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Job 4:17"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 18,
+      "verses": [
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "verse_count": 10,
+      "testament": "OT",
+      "raw": "Genesis 18:23-32"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 33,
+      "verses": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "verse_count": 7,
+      "testament": "OT",
+      "raw": "Exodus 33:12-18"
+    }
+  ],
+  "books_mentioned": [
+    "Ephesians",
+    "Exodus",
+    "Genesis",
+    "Hebrews",
+    "Job",
+    "Proverbs"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:a103914d887b61a2439e2949080c8d347771d127c552d9f8fe2065b07a498365",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 5
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 5,
+    "total_refs": 10,
+    "ot_refs": 6,
+    "nt_refs": 4,
+    "books_count": 6,
+    "top_books": [
+      "Hebrews",
+      "Proverbs",
+      "Job",
+      "Ephesians",
+      "Genesis",
+      "Exodus"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:24:35.218874Z",
-  "updated_at": "2025-09-20T17:24:35.218881Z"
+  }
 }

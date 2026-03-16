@@ -1,69 +1,64 @@
 {
   "topic": "DOTHAN",
-  "topic_slug": "dothan",
+  "slug": "dothan",
   "canonical_id": "NAV:dothan",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–A district and town in PalestineGe 37:17\n–Syrian army made blind at2Ki 6:13-19",
-  "content_preview": "–A district and town in PalestineGe 37:17",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–A district and town in PalestineGe 37:17",
-      "raw_segment": "–A district and town in PalestineGe 37:17"
+      "label": "A district and town in Palestine",
+      "references": [
+        "Genesis 37:17"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–Syrian army made blind at2Ki 6:13-19",
-      "raw_segment": "–Syrian army made blind at2Ki 6:13-19"
+      "label": "Syrian army ma",
+      "references": [
+        "2 Kings 6:13-19"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Genesis",
+      "chapter": 37,
+      "verses": [
+        17
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 37:17"
+    },
+    {
+      "book": "2 Kings",
+      "chapter": 6,
+      "verses": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "verse_count": 7,
+      "testament": "OT",
+      "raw": "2 Kings 6:13-19"
+    }
+  ],
+  "books_mentioned": [
+    "2 Kings",
+    "Genesis"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 2,
+    "total_refs": 2,
+    "ot_refs": 2,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:14753b035c83a695228d8e8477b788ca33427e3557e86f9bbd89779b0f650187",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 2,
+    "top_books": [
+      "Genesis",
+      "2 Kings"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:25:40.725214Z",
-  "updated_at": "2025-09-20T17:25:40.725222Z"
+  }
 }

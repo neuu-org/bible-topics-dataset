@@ -1,50 +1,21 @@
 {
   "topic": "ACCHO",
   "slug": "accho",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Also called PTOLEMAIS, a town of Phoenicia Jud 1:31; Ac 21:7",
-      "references": [
-        "Judg 1:31",
-        "Acts 21:7"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Acts",
-      "book_abbrev": "act",
-      "chapter": 21,
-      "testament": "NT",
-      "verses": [
-        7
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 1,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.660855+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "Al",
+      "references": [
+        "Judges 1:31",
+        "Acts 21:7"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Judges",
       "chapter": 1,
@@ -53,8 +24,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Judges 1:31",
-      "source": "EAS"
+      "raw": "Judges 1:31"
     },
     {
       "book": "Acts",
@@ -64,8 +34,22 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Acts 21:7",
-      "source": "EAS"
+      "raw": "Acts 21:7"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Acts",
+    "Judges"
+  ],
+  "stats": {
+    "total_aspects": 1,
+    "total_refs": 2,
+    "ot_refs": 1,
+    "nt_refs": 1,
+    "books_count": 2,
+    "top_books": [
+      "Judges",
+      "Acts"
+    ]
+  }
 }

@@ -1,70 +1,28 @@
 {
   "topic": "BIRTHDAY",
   "slug": "birthday",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Celebrated by feasts Ge 40:20; Mt 14:6",
-      "references": [
-        "Gen 40:20",
-        "Matt 14:6"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Cursed Job 3; Jer 20:14,18",
-      "references": [
-        "Job 3",
-        "Jer 20:14",
-        "Jer 20:18"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Jeremiah",
-      "book_abbrev": "jer",
-      "chapter": 20,
-      "testament": "OT",
-      "verses": [
-        14,
-        18
-      ],
-      "verse_count": 2
-    },
-    {
-      "book": "Matthew",
-      "book_abbrev": "mat",
-      "chapter": 14,
-      "testament": "NT",
-      "verses": [
-        6
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 1,
-    "nt_refs": 1,
-    "total_verses": 2
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.674548+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "Celebrated by feasts",
+      "references": [
+        "Genesis 40:20",
+        "Matthew 14:6"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "CursedJob 3;",
+      "references": [
+        "Jeremiah 20:14,18"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Genesis",
       "chapter": 40,
@@ -73,30 +31,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 40:20",
-      "source": "SMI"
-    },
-    {
-      "book": "Jeremiah",
-      "chapter": 20,
-      "verses": [
-        15
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Jeremiah 20:15",
-      "source": "SMI"
-    },
-    {
-      "book": "Job",
-      "chapter": 1,
-      "verses": [
-        4
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Job 1:4",
-      "source": "SMI"
+      "raw": "Genesis 40:20"
     },
     {
       "book": "Matthew",
@@ -106,19 +41,35 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Matthew 14:6",
-      "source": "SMI"
+      "raw": "Matthew 14:6"
     },
     {
-      "book": "Hosea",
-      "chapter": 7,
+      "book": "Jeremiah",
+      "chapter": 20,
       "verses": [
-        5
+        14,
+        18
       ],
-      "verse_count": 1,
+      "verse_count": 2,
       "testament": "OT",
-      "raw": "Hosea 7:5",
-      "source": "SMI"
+      "raw": "Jeremiah 20:14,18"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Genesis",
+    "Jeremiah",
+    "Matthew"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 3,
+    "ot_refs": 2,
+    "nt_refs": 1,
+    "books_count": 3,
+    "top_books": [
+      "Genesis",
+      "Matthew",
+      "Jeremiah"
+    ]
+  }
 }

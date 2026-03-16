@@ -1,85 +1,135 @@
 {
   "topic": "BATTLE",
   "slug": "battle",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [
+    "ARMIES",
+    "WAR"
+  ],
+  "aspects": [
     {
-      "name": "Shouting in Jud 7:20; 1Sa 17:20",
+      "label": "Shouting in",
       "references": [
-        "Judg 7:20",
-        "1Sam 17:20"
+        "Judges 7:20",
+        "1 Samuel 17:20"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Priests in 2Ch 13:12",
+      "label": "Priests in",
       "references": [
-        "2Chr 13:12"
+        "2 Chronicles 13:12"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Prayer before",
+      "label": "Prayer before",
       "references": [],
-      "sub_groups": [
-        {
-          "name": "By Asa 2Ch 14:11",
-          "references": [
-            "2Chr 14:11"
-          ]
-        },
-        {
-          "name": "By Jehoshaphat 2Ch 20:3-12",
-          "references": [
-            "2Chr 20:3-12"
-          ]
-        }
-      ]
+      "source": "NAV"
     },
     {
-      "name": "See ARMIES",
-      "references": [],
-      "sub_groups": []
+      "label": ".By Asa",
+      "references": [
+        "2 Chronicles 14:11"
+      ],
+      "source": "NAV"
     },
     {
-      "name": "See WAR",
+      "label": ".By Jehoshaphat",
+      "references": [
+        "2 Chronicles 20:3-12"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeARMIES",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
+    },
+    {
+      "label": "SeeWAR",
+      "references": [],
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "1 Samuel",
-      "book_abbrev": "1sa",
-      "chapter": 17,
-      "testament": "OT",
+      "book": "Judges",
+      "chapter": 7,
       "verses": [
         20
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Judges 7:20"
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 17,
+      "verses": [
+        20
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Samuel 17:20"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 13,
+      "verses": [
+        12
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Chronicles 13:12"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 14,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Chronicles 14:11"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 20,
+      "verses": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "verse_count": 10,
+      "testament": "OT",
+      "raw": "2 Chronicles 20:3-12"
     }
   ],
-  "see_also": [
-    "WAR",
-    "ARMIES"
+  "books_mentioned": [
+    "1 Samuel",
+    "2 Chronicles",
+    "Judges"
   ],
-  "aliases": [],
   "stats": {
-    "entries_count": 5,
-    "ot_refs": 1,
+    "total_aspects": 7,
+    "total_refs": 5,
+    "ot_refs": 5,
     "nt_refs": 0,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.672454+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    }
-  },
-  "version": "3.0.0"
+    "books_count": 3,
+    "top_books": [
+      "2 Chronicles",
+      "Judges",
+      "1 Samuel"
+    ]
+  }
 }

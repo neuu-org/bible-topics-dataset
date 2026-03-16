@@ -1,73 +1,25 @@
 {
   "topic": "HANGINGS",
-  "topic_slug": "hangings",
+  "slug": "hangings",
   "canonical_id": "NAV:hangings",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "CURTAINS"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "CURTAINS",
-      "clean": "CURTAINS",
-      "slug": "curtains",
-      "canonical_id": "NAV:curtains"
-    }
-  ],
-  "raw_block": "–SeeCURTAINS",
-  "content_preview": "–SeeCURTAINS",
-  "reference_groups": [
-    {
-      "idx": 0,
-      "entry_label": "–SeeCURTAINS",
-      "raw_segment": "–SeeCURTAINS"
+      "label": "SeeCURTAINS",
+      "references": []
     }
   ],
   "biblical_references": [],
   "books_mentioned": [],
-  "normalized_labels": [],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 1,
+    "total_refs": 0,
     "ot_refs": 0,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:27cda269c9db9d25bb71205090156c27abd4a321578e7d030d09be4fd5802ab5",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 1
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
-    ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:26:57.587795Z",
-  "updated_at": "2025-09-20T17:26:57.587802Z"
+    "books_count": 0,
+    "top_books": []
+  }
 }

@@ -1,58 +1,22 @@
 {
   "topic": "IZHAR",
   "slug": "izhar",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Son of Kohath Ex 6:18,21; 1Ch 6:2,18,38; 23:12,18",
-      "references": [
-        "Exod 6:18",
-        "Exod 6:21",
-        "1Chr 6:2",
-        "1Chr 6:18",
-        "1Chr 6:38",
-        "1Chr 23:12",
-        "1Chr 23:18"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "1 Chronicles",
-      "book_abbrev": "1ch",
-      "chapter": 6,
-      "testament": "OT",
-      "verses": [
-        2,
-        18,
-        23,
-        38
-      ],
-      "verse_count": 4
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.695035+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "General references",
+      "references": [
+        "Exodus 6:18,21",
+        "1 Chronicles 6:2,18,38",
+        "1 Chronicles 23:12,18"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Exodus",
       "chapter": 6,
@@ -62,87 +26,45 @@
       ],
       "verse_count": 2,
       "testament": "OT",
-      "raw": "Exodus 6:18, 21",
-      "source": "EAS"
-    },
-    {
-      "book": "Numbers",
-      "chapter": 16,
-      "verses": [
-        1
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Numbers 16:1",
-      "source": "EAS"
-    },
-    {
-      "book": "Numbers",
-      "chapter": 3,
-      "verses": [
-        19
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Numbers 3:19",
-      "source": "SMI"
+      "raw": "Exodus 6:18,21"
     },
     {
       "book": "1 Chronicles",
       "chapter": 6,
       "verses": [
         2,
+        18,
+        38
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "1 Chronicles 6:2,18,38"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 23,
+      "verses": [
+        12,
         18
       ],
       "verse_count": 2,
       "testament": "OT",
-      "raw": "1 Chronicles 6:2,18",
-      "source": "SMI"
-    },
-    {
-      "book": "1 Chronicles",
-      "chapter": 24,
-      "verses": [
-        22
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "1 Chronicles 24:22",
-      "source": "SMI"
-    },
-    {
-      "book": "1 Chronicles",
-      "chapter": 26,
-      "verses": [
-        23
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "1 Chronicles 26:23",
-      "source": "SMI"
-    },
-    {
-      "book": "Numbers",
-      "chapter": 3,
-      "verses": [
-        27
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Numbers 3:27",
-      "source": "SMI"
-    },
-    {
-      "book": "1 Chronicles",
-      "chapter": 26,
-      "verses": [
-        23,
-        29
-      ],
-      "verse_count": 2,
-      "testament": "OT",
-      "raw": "1 Chronicles 26:23,29",
-      "source": "SMI"
+      "raw": "1 Chronicles 23:12,18"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Exodus"
+  ],
+  "stats": {
+    "total_aspects": 1,
+    "total_refs": 3,
+    "ot_refs": 3,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "1 Chronicles",
+      "Exodus"
+    ]
+  }
 }

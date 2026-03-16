@@ -1,62 +1,27 @@
 {
   "topic": "CHEMARIM",
   "slug": "chemarim",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "A term descriptive of idolatrous priests Zep 1:4; Ho 10:5; 2Ki 23:15",
-      "references": [
-        "Zeph 1:4",
-        "Hos 10:5",
-        "2Kgs 23:15"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "2 Kings",
-      "book_abbrev": "2ki",
-      "chapter": 23,
-      "testament": "OT",
-      "verses": [
-        15
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Hosea",
-      "book_abbrev": "hos",
-      "chapter": 10,
-      "testament": "OT",
-      "verses": [
-        2,
-        5
-      ],
-      "verse_count": 2
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 2,
-    "nt_refs": 0,
-    "total_verses": 2
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.677314+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "A term",
+      "references": [
+        "Zephaniah 1:4"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "10:5;",
+      "references": [
+        "2 Kings 23:15"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Zephaniah",
       "chapter": 1,
@@ -65,30 +30,42 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Zephaniah 1:4",
-      "source": "EAS"
+      "raw": "Zephaniah 1:4"
     },
     {
-      "book": "2 Kings",
-      "chapter": 23,
-      "verses": [
-        5
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "2 Kings 23:5",
-      "source": "EAS"
-    },
-    {
-      "book": "Hosea",
+      "book": "Zephaniah",
       "chapter": 10,
       "verses": [
         5
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Hosea 10:5",
-      "source": "EAS"
+      "raw": "Zephaniah 10:5"
+    },
+    {
+      "book": "2 Kings",
+      "chapter": 23,
+      "verses": [
+        15
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Kings 23:15"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "2 Kings",
+    "Zephaniah"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 3,
+    "ot_refs": 3,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "Zephaniah",
+      "2 Kings"
+    ]
+  }
 }

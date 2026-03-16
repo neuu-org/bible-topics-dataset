@@ -1,98 +1,157 @@
 {
   "topic": "TRANSLATION",
   "slug": "translation",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "(Transporting)",
+      "label": "(Transporting)",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Of Enoch Ge 5:2,4; Heb 11:5",
+      "label": "Of Enoch",
       "references": [
-        "Gen 5:2",
-        "Gen 5:4",
-        "Heb 11:5"
+        "Genesis 5:2,4",
+        "Hebrews 11:5"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Of Elijah 2Ki 2:1-12",
+      "label": "Of Elijah",
       "references": [
-        "2Kgs 2:1-12"
+        "2 Kings 2:1-12"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Of Jesus Mr 16:19; Lu 24:51; Ac 1:9-11",
+      "label": "Of Jesus",
       "references": [
         "Mark 16:19",
         "Luke 24:51",
         "Acts 1:9-11"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Desired by Paul 2Co 5:4",
+      "label": "General references",
       "references": [
-        "2Cor 5:4"
+        "2 Corinthians 5:4"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Luke",
-      "book_abbrev": "luk",
-      "chapter": 24,
+      "book": "Genesis",
+      "chapter": 5,
+      "verses": [
+        2,
+        4
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Genesis 5:2,4"
+    },
+    {
+      "book": "Hebrews",
+      "chapter": 11,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
       "testament": "NT",
+      "raw": "Hebrews 11:5"
+    },
+    {
+      "book": "2 Kings",
+      "chapter": 2,
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "verse_count": 12,
+      "testament": "OT",
+      "raw": "2 Kings 2:1-12"
+    },
+    {
+      "book": "Mark",
+      "chapter": 16,
+      "verses": [
+        19
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Mark 16:19"
+    },
+    {
+      "book": "Luke",
+      "chapter": 24,
       "verses": [
         51
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 24:51"
     },
     {
       "book": "Acts",
-      "book_abbrev": "act",
       "chapter": 1,
-      "testament": "NT",
       "verses": [
         9,
         10,
         11
       ],
-      "verse_count": 3
+      "verse_count": 3,
+      "testament": "NT",
+      "raw": "Acts 1:9-11"
     },
     {
-      "book": "Hebrews",
-      "book_abbrev": "heb",
-      "chapter": 11,
-      "testament": "NT",
+      "book": "2 Corinthians",
+      "chapter": 5,
       "verses": [
-        5
+        4
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "2 Corinthians 5:4"
     }
   ],
-  "see_also": [],
-  "aliases": [],
+  "books_mentioned": [
+    "2 Corinthians",
+    "2 Kings",
+    "Acts",
+    "Genesis",
+    "Hebrews",
+    "Luke",
+    "Mark"
+  ],
   "stats": {
-    "entries_count": 5,
-    "ot_refs": 0,
-    "nt_refs": 3,
-    "total_verses": 3
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.730953+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    }
-  },
-  "version": "3.0.0"
+    "total_aspects": 5,
+    "total_refs": 7,
+    "ot_refs": 2,
+    "nt_refs": 5,
+    "books_count": 7,
+    "top_books": [
+      "Genesis",
+      "Hebrews",
+      "2 Kings",
+      "Mark",
+      "Luke",
+      "Acts",
+      "2 Corinthians"
+    ]
+  }
 }

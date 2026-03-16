@@ -1,50 +1,79 @@
 {
   "topic": "INSPIRATION",
   "slug": "inspiration",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [
+    "PROPHECY",
+    "PROPHET",
+    "REVELATION",
+    "WORD OF GOD, INSPIRATION OF"
+  ],
+  "aspects": [
     {
-      "name": "General scriptures concerning Ex 19:6; 25:21,22; Nu 11:16-29; Lu 12:11,12; 2Ti 3:16; Re 1:10,11",
+      "label": "General scriptures concerning",
       "references": [
-        "Exod 19:6",
-        "Exod 25:21",
-        "Exod 25:22",
-        "Num 11:16-29",
-        "Luke 12:11",
-        "Luke 12:12",
-        "2Tim 3:16",
-        "Rev 1:10",
-        "Rev 1:11"
+        "Exodus 19:6",
+        "Exodus 25:21,22"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See PROPHECY",
-      "references": [],
-      "sub_groups": []
+      "label": "11:16-29;",
+      "references": [
+        "Luke 12:11,12",
+        "2 Timothy 3:16",
+        "Revelation 1:10,11"
+      ],
+      "source": "NAV"
     },
     {
-      "name": "See PROPHET",
+      "label": "SeePROPHECY",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See REVELATION",
+      "label": "SeePROPHET",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See WORD OF GOD, INSPIRATION OF",
+      "label": "SeeREVELATION",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
+    },
+    {
+      "label": "SeeWORD OF GOD, INSPIRATION OF",
+      "references": [],
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Numbers",
-      "book_abbrev": "num",
-      "chapter": 11,
+      "book": "Exodus",
+      "chapter": 19,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
       "testament": "OT",
+      "raw": "Exodus 19:6"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 25,
+      "verses": [
+        21,
+        22
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Exodus 25:21,22"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 11,
       "verses": [
         16,
         17,
@@ -61,68 +90,21 @@
         28,
         29
       ],
-      "verse_count": 14
+      "verse_count": 14,
+      "testament": "OT",
+      "raw": "Exodus 11:16-29"
     },
     {
       "book": "Luke",
-      "book_abbrev": "luk",
       "chapter": 12,
-      "testament": "NT",
       "verses": [
-        2,
         11,
         12
       ],
-      "verse_count": 3
-    },
-    {
-      "book": "2 Timothy",
-      "book_abbrev": "2ti",
-      "chapter": 3,
+      "verse_count": 2,
       "testament": "NT",
-      "verses": [
-        16
-      ],
-      "verse_count": 1
+      "raw": "Luke 12:11,12"
     },
-    {
-      "book": "Revelation",
-      "book_abbrev": "rev",
-      "chapter": 1,
-      "testament": "NT",
-      "verses": [
-        10,
-        11
-      ],
-      "verse_count": 2
-    }
-  ],
-  "see_also": [
-    "PROPHET",
-    "REVELATION",
-    "WORD OF GOD, INSPIRATION OF",
-    "PROPHECY"
-  ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 5,
-    "ot_refs": 1,
-    "nt_refs": 3,
-    "total_verses": 4
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.694275+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
     {
       "book": "2 Timothy",
       "chapter": 3,
@@ -131,8 +113,37 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "2 Timothy 3:16",
-      "source": "EAS"
+      "raw": "2 Timothy 3:16"
+    },
+    {
+      "book": "Revelation",
+      "chapter": 1,
+      "verses": [
+        10,
+        11
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Revelation 1:10,11"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "2 Timothy",
+    "Exodus",
+    "Luke",
+    "Revelation"
+  ],
+  "stats": {
+    "total_aspects": 6,
+    "total_refs": 6,
+    "ot_refs": 3,
+    "nt_refs": 3,
+    "books_count": 4,
+    "top_books": [
+      "Exodus",
+      "Luke",
+      "2 Timothy",
+      "Revelation"
+    ]
+  }
 }

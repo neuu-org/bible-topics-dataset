@@ -1,145 +1,50 @@
 {
   "topic": "DARIUS",
   "slug": "darius",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "1. The Mede, king of Persia Da 5:31; 6; 9:1",
+      "label": "1. The Me",
       "references": [
-        "Dan 5:31",
-        "Dan 6",
-        "Dan 9:1"
+        "Daniel 5:31",
+        "Daniel 9:1"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "2. King of Persia",
+      "label": "2. King of Persia",
       "references": [],
-      "sub_groups": [
-        {
-          "name": "Emancipates the Jews Ezr 5; 6; Hag 1:1,15; Zec 1:1",
-          "references": [
-            "Ezra 5",
-            "Ezra 6",
-            "Hag 1:1",
-            "Hag 1:15",
-            "Zech 1:1"
-          ]
-        }
-      ]
+      "source": "NAV"
     },
     {
-      "name": "3. The Persian Ne 12:22",
+      "label": ".Emancipates the JewsEzr 5;6;",
       "references": [
-        "Neh 12:22"
+        "Haggai 1:1,15",
+        "Ecclesiastes 1:1"
       ],
-      "sub_groups": []
+      "source": "NAV"
+    },
+    {
+      "label": "3. The Persian",
+      "references": [
+        "Nehemiah 12:22"
+      ],
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Haggai",
-      "book_abbrev": "hag",
-      "chapter": 1,
-      "testament": "OT",
-      "verses": [
-        1,
-        15
-      ],
-      "verse_count": 2
-    },
-    {
-      "book": "Zechariah",
-      "book_abbrev": "zec",
-      "chapter": 1,
-      "testament": "OT",
-      "verses": [
-        1
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 2,
-    "nt_refs": 0,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.680438+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
       "book": "Daniel",
-      "chapter": 11,
+      "chapter": 5,
       "verses": [
-        1
+        31
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Daniel 11:1",
-      "source": "EAS"
-    },
-    {
-      "book": "Daniel",
-      "chapter": 6,
-      "verses": [
-        1,
-        2
-      ],
-      "verse_count": 2,
-      "testament": "OT",
-      "raw": "Daniel 6:1, 2",
-      "source": "EAS"
-    },
-    {
-      "book": "Ezra",
-      "chapter": 4,
-      "verses": [
-        17,
-        18,
-        19,
-        20,
-        21,
-        22
-      ],
-      "verse_count": 6,
-      "testament": "OT",
-      "raw": "Ezra 4:17-22",
-      "source": "EAS"
-    },
-    {
-      "book": "Ezra",
-      "chapter": 6,
-      "verses": [
-        2
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Ezra 6:2",
-      "source": "EAS"
-    },
-    {
-      "book": "Nehemiah",
-      "chapter": 12,
-      "verses": [
-        22
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Nehemiah 12:22",
-      "source": "EAS"
+      "raw": "Daniel 5:31"
     },
     {
       "book": "Daniel",
@@ -149,19 +54,57 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Daniel 9:1",
-      "source": "EAS"
+      "raw": "Daniel 9:1"
     },
     {
-      "book": "Daniel",
-      "chapter": 6,
+      "book": "Haggai",
+      "chapter": 1,
       "verses": [
-        26
+        1,
+        15
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Haggai 1:1,15"
+    },
+    {
+      "book": "Ecclesiastes",
+      "chapter": 1,
+      "verses": [
+        1
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Daniel 6:26",
-      "source": "EAS"
+      "raw": "Ecclesiastes 1:1"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 12,
+      "verses": [
+        22
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Nehemiah 12:22"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Daniel",
+    "Ecclesiastes",
+    "Haggai",
+    "Nehemiah"
+  ],
+  "stats": {
+    "total_aspects": 4,
+    "total_refs": 5,
+    "ot_refs": 5,
+    "nt_refs": 0,
+    "books_count": 4,
+    "top_books": [
+      "Daniel",
+      "Haggai",
+      "Ecclesiastes",
+      "Nehemiah"
+    ]
+  }
 }

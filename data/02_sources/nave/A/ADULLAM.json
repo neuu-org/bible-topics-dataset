@@ -1,69 +1,155 @@
 {
   "topic": "ADULLAM",
-  "topic_slug": "adullam",
+  "slug": "adullam",
   "canonical_id": "NAV:adullam",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–1. A cave near the Dead Sea\n  .David takes refuge in1Sa 22:1;2Sa 23:13;1Ch 11:15\n  .See titles ofPs 57;142\n–2. An ancient city of CanaanGe 38:1;Jos 12:15;15:35;2Ch 11:7;Ne 11:30;Mic 1:15",
-  "content_preview": "–1. A cave near the Dead Sea",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–1. A cave near the Dead Sea",
-      "raw_segment": "–1. A cave near the Dead Sea"
+      "label": "1. A",
+      "references": []
     },
     {
-      "idx": 1,
-      "entry_label": "–2. An ancient city of CanaanGe 38:1;Jos 12:15;15:35;2Ch 11:7;Ne 11:30;Mic 1:15",
-      "raw_segment": "–2. An ancient city of CanaanGe 38:1;Jos 12:15;15:35;2Ch 11:7;Ne 11:30;Mic 1:15"
+      "label": ".David takes refuge in",
+      "references": [
+        "1 Samuel 22:1",
+        "2 Samuel 23:13",
+        "1 Chronicles 11:15"
+      ]
+    },
+    {
+      "label": ".See titles ofPs 57;142",
+      "references": []
+    },
+    {
+      "label": "2. An ancient city of",
+      "references": [
+        "Genesis 38:1",
+        "Joshua 12:15",
+        "Joshua 15:35",
+        "2 Chronicles 11:7",
+        "Nehemiah 11:30",
+        "Micah 1:15"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "1 Samuel",
+      "chapter": 22,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Samuel 22:1"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 23,
+      "verses": [
+        13
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Samuel 23:13"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 11,
+      "verses": [
+        15
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 11:15"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 38,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 38:1"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 12,
+      "verses": [
+        15
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 12:15"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 15,
+      "verses": [
+        35
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 15:35"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 11,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Chronicles 11:7"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 11,
+      "verses": [
+        30
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Nehemiah 11:30"
+    },
+    {
+      "book": "Micah",
+      "chapter": 1,
+      "verses": [
+        15
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Micah 1:15"
+    }
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "1 Samuel",
+    "2 Chronicles",
+    "2 Samuel",
+    "Genesis",
+    "Joshua",
+    "Micah",
+    "Nehemiah"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 4,
+    "total_refs": 9,
+    "ot_refs": 9,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:1bc19df91858717181d3ff79313151153c2ea60ec2d75d9b70699e6f32cdc069",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 4
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 8,
+    "top_books": [
+      "Joshua",
+      "1 Samuel",
+      "2 Samuel",
+      "1 Chronicles",
+      "Genesis",
+      "2 Chronicles",
+      "Nehemiah",
+      "Micah"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:23:19.025777Z",
-  "updated_at": "2025-09-20T17:23:19.025785Z"
+  }
 }

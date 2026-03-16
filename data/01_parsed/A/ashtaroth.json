@@ -1,87 +1,50 @@
 {
   "topic": "ASHTAROTH",
   "slug": "ashtaroth",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. Plural form of ASHTORETH, which see",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "2. The capital city of Bashan De 1:4; Jos 9:10",
-      "references": [
-        "Deut 1:4",
-        "Josh 9:10"
-      ],
-      "sub_groups": [
-        {
-          "name": "Giants lived at Jos 12:4",
-          "references": [
-            "Josh 12:4"
-          ]
-        },
-        {
-          "name": "Allotted to Manasseh Jos 13:31; 1Ch 6:71",
-          "references": [
-            "Josh 13:31",
-            "1Chr 6:71"
-          ]
-        },
-        {
-          "name": "Possibly identical with ASHTEROTH KARNAIM, mentioned in Ge 14:5",
-          "references": [
-            "Gen 14:5"
-          ]
-        }
-      ]
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Joshua",
-      "book_abbrev": "jos",
-      "chapter": 9,
-      "testament": "OT",
-      "verses": [
-        10
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "1 Chronicles",
-      "book_abbrev": "1ch",
-      "chapter": 6,
-      "testament": "OT",
-      "verses": [
-        71
-      ],
-      "verse_count": 1
-    }
+  "sources": [
+    "NAV"
   ],
   "see_also": [
     "ASHTORETH"
   ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 2,
-    "nt_refs": 0,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.670369+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "aspects": [
+    {
+      "label": "1. P",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "2. The",
+      "references": [
+        "Deuteronomy 1:4",
+        "Joshua 9:10"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".Giants lived at",
+      "references": [
+        "Joshua 12:4"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".Allotted to Manasseh",
+      "references": [
+        "Joshua 13:31",
+        "1 Chronicles 6:71"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".Possibly i",
+      "references": [
+        "Genesis 14:5"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Deuteronomy",
       "chapter": 1,
@@ -90,8 +53,17 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Deuteronomy 1:4",
-      "source": "EAS"
+      "raw": "Deuteronomy 1:4"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 9,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 9:10"
     },
     {
       "book": "Joshua",
@@ -101,30 +73,17 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Joshua 12:4",
-      "source": "EAS"
+      "raw": "Joshua 12:4"
     },
     {
       "book": "Joshua",
       "chapter": 13,
       "verses": [
-        12
+        31
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Joshua 13:12",
-      "source": "EAS"
-    },
-    {
-      "book": "Joshua",
-      "chapter": 9,
-      "verses": [
-        10
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Joshua 9:10",
-      "source": "EAS"
+      "raw": "Joshua 13:31"
     },
     {
       "book": "1 Chronicles",
@@ -134,30 +93,36 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 6:71",
-      "source": "EAS"
+      "raw": "1 Chronicles 6:71"
     },
     {
-      "book": "1 Chronicles",
-      "chapter": 11,
+      "book": "Genesis",
+      "chapter": 14,
       "verses": [
-        44
+        5
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 11:44",
-      "source": "EAS"
-    },
-    {
-      "book": "Joshua",
-      "chapter": 21,
-      "verses": [
-        27
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Joshua 21:27",
-      "source": "EAS"
+      "raw": "Genesis 14:5"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Deuteronomy",
+    "Genesis",
+    "Joshua"
+  ],
+  "stats": {
+    "total_aspects": 5,
+    "total_refs": 6,
+    "ot_refs": 6,
+    "nt_refs": 0,
+    "books_count": 4,
+    "top_books": [
+      "Joshua",
+      "Deuteronomy",
+      "1 Chronicles",
+      "Genesis"
+    ]
+  }
 }

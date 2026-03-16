@@ -1,114 +1,41 @@
 {
   "topic": "KIRJATHAIM",
   "slug": "kirjathaim",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. Also called KIRIATHAIM",
-      "references": [],
-      "sub_groups": [
-        {
-          "name": "A city of the tribe of Reuben Nu 32:37; Jos 13:19",
-          "references": [
-            "Num 32:37",
-            "Josh 13:19"
-          ]
-        },
-        {
-          "name": "Prophecies concerning Jer 48:1,23; Eze 25:9",
-          "references": [
-            "Jer 48:1",
-            "Jer 48:23",
-            "Ezek 25:9"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "2. A Levitical city in territory of the tribe of Naphtali 1Ch 6:76",
-      "references": [
-        "1Chr 6:76"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Joshua",
-      "book_abbrev": "jos",
-      "chapter": 13,
-      "testament": "OT",
-      "verses": [
-        19
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Ezekiel",
-      "book_abbrev": "ezk",
-      "chapter": 25,
-      "testament": "OT",
-      "verses": [
-        9
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 2,
-    "nt_refs": 0,
-    "total_verses": 2
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.699170+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "1. Al",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".A city of the tribe of Reuben",
+      "references": [
+        "Numbers 32:37",
+        "Joshua 13:19"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".Prophecies concerning",
+      "references": [
+        "Jeremiah 48:1,23",
+        "Ezekiel 25:9"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2. A Leviti",
+      "references": [
+        "1 Chronicles 6:76"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "1 Chronicles",
-      "chapter": 6,
-      "verses": [
-        76
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "1 Chronicles 6:76",
-      "source": "EAS"
-    },
-    {
-      "book": "Genesis",
-      "chapter": 14,
-      "verses": [
-        5
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Genesis 14:5",
-      "source": "EAS"
-    },
-    {
-      "book": "Deuteronomy",
-      "chapter": 2,
-      "verses": [
-        9,
-        10
-      ],
-      "verse_count": 2,
-      "testament": "OT",
-      "raw": "Deuteronomy 2:9, 10",
-      "source": "EAS"
-    },
+  ],
+  "biblical_references": [
     {
       "book": "Numbers",
       "chapter": 32,
@@ -117,8 +44,17 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Numbers 32:37",
-      "source": "EAS"
+      "raw": "Numbers 32:37"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 13,
+      "verses": [
+        19
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 13:19"
     },
     {
       "book": "Jeremiah",
@@ -129,19 +65,48 @@
       ],
       "verse_count": 2,
       "testament": "OT",
-      "raw": "Jeremiah 48:1, 23",
-      "source": "EAS"
+      "raw": "Jeremiah 48:1,23"
     },
     {
-      "book": "Numbers",
+      "book": "Ezekiel",
       "chapter": 25,
       "verses": [
         9
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Numbers 25:9",
-      "source": "EAS"
+      "raw": "Ezekiel 25:9"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 6,
+      "verses": [
+        76
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 6:76"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Ezekiel",
+    "Jeremiah",
+    "Joshua",
+    "Numbers"
+  ],
+  "stats": {
+    "total_aspects": 4,
+    "total_refs": 5,
+    "ot_refs": 5,
+    "nt_refs": 0,
+    "books_count": 5,
+    "top_books": [
+      "Numbers",
+      "Joshua",
+      "Jeremiah",
+      "Ezekiel",
+      "1 Chronicles"
+    ]
+  }
 }

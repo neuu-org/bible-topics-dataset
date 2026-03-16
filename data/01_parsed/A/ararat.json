@@ -1,73 +1,56 @@
 {
   "topic": "ARARAT",
   "slug": "ararat",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "A district of Armenia Jer 51:27",
-      "references": [
-        "Jer 51:27"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "The ark of Noah came to rest in the mountains of Ge 8:4",
-      "references": [
-        "Gen 8:4"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Assassins of Sennacherib take refuge in Isa 37:38",
-      "references": [
-        "Isa 37:38"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.669428+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "see_also": [],
+  "aspects": [
     {
-      "book": "Genesis",
+      "label": "A district of Armenia",
+      "references": [
+        "Jeremiah 51:27"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "The ark of Noah",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "8:4",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "Assassins of Sennacherib take refuge in",
+      "references": [
+        "Isaiah 37:38"
+      ],
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
+    {
+      "book": "Jeremiah",
+      "chapter": 51,
+      "verses": [
+        27
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Jeremiah 51:27"
+    },
+    {
+      "book": "Jeremiah",
       "chapter": 8,
       "verses": [
         4
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 8:4",
-      "source": "EAS"
-    },
-    {
-      "book": "2 Kings",
-      "chapter": 19,
-      "verses": [
-        37
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "2 Kings 19:37",
-      "source": "EAS"
+      "raw": "Jeremiah 8:4"
     },
     {
       "book": "Isaiah",
@@ -77,19 +60,22 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Isaiah 37:38",
-      "source": "EAS"
-    },
-    {
-      "book": "Jeremiah",
-      "chapter": 51,
-      "verses": [
-        27
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Jeremiah 51:27",
-      "source": "EAS"
+      "raw": "Isaiah 37:38"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Isaiah",
+    "Jeremiah"
+  ],
+  "stats": {
+    "total_aspects": 4,
+    "total_refs": 3,
+    "ot_refs": 3,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "Jeremiah",
+      "Isaiah"
+    ]
+  }
 }

@@ -1,69 +1,58 @@
 {
   "topic": "TAMAH",
-  "topic_slug": "tamah",
+  "slug": "tamah",
   "canonical_id": "NAV:tamah",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–One of the NethinimNe 7:55\n–Called THAMAHEzr 2:53",
-  "content_preview": "–One of the NethinimNe 7:55",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–One of the NethinimNe 7:55",
-      "raw_segment": "–One of the NethinimNe 7:55"
+      "label": "One of the Nethinim",
+      "references": [
+        "Nehemiah 7:55"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–Called THAMAHEzr 2:53",
-      "raw_segment": "–Called THAMAHEzr 2:53"
+      "label": "General references",
+      "references": [
+        "Ezra 2:53"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Nehemiah",
+      "chapter": 7,
+      "verses": [
+        55
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Nehemiah 7:55"
+    },
+    {
+      "book": "Ezra",
+      "chapter": 2,
+      "verses": [
+        53
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezra 2:53"
+    }
+  ],
+  "books_mentioned": [
+    "Ezra",
+    "Nehemiah"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 2,
+    "total_refs": 2,
+    "ot_refs": 2,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:19f50d8f425f40d488893e4a3a5265019e0ee8dba644e5399b06a7072314552d",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 2,
+    "top_books": [
+      "Nehemiah",
+      "Ezra"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:31:59.640980Z",
-  "updated_at": "2025-09-20T17:31:59.640987Z"
+  }
 }

@@ -1,79 +1,167 @@
 {
   "topic": "BASTARD",
-  "topic_slug": "bastard",
+  "slug": "bastard",
   "canonical_id": "NAV:bastard",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–(An illegitimate child)\n–Excluded from the congregationDe 23:2\n–INSTANCES OF\n  .IshmaelGe 16:3,15;Ga 4:22\n  .Moab and AmmonGe 19:36,37\n  .JephthahJud 11:1\n  .David’s child by Bath-sheba2Sa 11:2-5\n–FIGURATIVEZec 9:6;Heb 12:8",
-  "content_preview": "–(An illegitimate child)",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–(An illegitimate child)",
-      "raw_segment": "–(An illegitimate child)"
+      "label": "(An illegitimate child)",
+      "references": []
     },
     {
-      "idx": 1,
-      "entry_label": "–Excluded from the congregationDe 23:2",
-      "raw_segment": "–Excluded from the congregationDe 23:2"
+      "label": "Exc",
+      "references": [
+        "Deuteronomy 23:2"
+      ]
     },
     {
-      "idx": 2,
-      "entry_label": "–INSTANCES OF",
-      "raw_segment": "–INSTANCES OF"
+      "label": "INSTANCES OF",
+      "references": []
     },
     {
-      "idx": 3,
-      "entry_label": "–FIGURATIVEZec 9:6;Heb 12:8",
-      "raw_segment": "–FIGURATIVEZec 9:6;Heb 12:8"
+      "label": ".Ishmael",
+      "references": [
+        "Genesis 16:3,15",
+        "Galatians 4:22"
+      ]
+    },
+    {
+      "label": ".Moab and Ammon",
+      "references": [
+        "Genesis 19:36,37"
+      ]
+    },
+    {
+      "label": ".Jephthah",
+      "references": [
+        "Judges 11:1"
+      ]
+    },
+    {
+      "label": ".David’s child by Bath-sheba",
+      "references": [
+        "2 Samuel 11:2-5"
+      ]
+    },
+    {
+      "label": "FIGURATIVE",
+      "references": [
+        "Ecclesiastes 9:6",
+        "Hebrews 12:8"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Deuteronomy",
+      "chapter": 23,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 23:2"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 16,
+      "verses": [
+        3,
+        15
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Genesis 16:3,15"
+    },
+    {
+      "book": "Galatians",
+      "chapter": 4,
+      "verses": [
+        22
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Galatians 4:22"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 19,
+      "verses": [
+        36,
+        37
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Genesis 19:36,37"
+    },
+    {
+      "book": "Judges",
+      "chapter": 11,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Judges 11:1"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 11,
+      "verses": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "verse_count": 4,
+      "testament": "OT",
+      "raw": "2 Samuel 11:2-5"
+    },
+    {
+      "book": "Ecclesiastes",
+      "chapter": 9,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ecclesiastes 9:6"
+    },
+    {
+      "book": "Hebrews",
+      "chapter": 12,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Hebrews 12:8"
+    }
+  ],
+  "books_mentioned": [
+    "2 Samuel",
+    "Deuteronomy",
+    "Ecclesiastes",
+    "Galatians",
+    "Genesis",
+    "Hebrews",
+    "Judges"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:fe93b51f56d3d05f46d5b5014caa47e9a4bd613fa3e2028d60342725282b7628",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 8
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 8,
+    "total_refs": 8,
+    "ot_refs": 6,
+    "nt_refs": 2,
+    "books_count": 7,
+    "top_books": [
+      "Genesis",
+      "Deuteronomy",
+      "Galatians",
+      "Judges",
+      "2 Samuel",
+      "Ecclesiastes",
+      "Hebrews"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:24:11.220621Z",
-  "updated_at": "2025-09-20T17:24:11.220630Z"
+  }
 }

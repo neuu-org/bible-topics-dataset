@@ -1,61 +1,22 @@
 {
   "topic": "CHEESE",
   "slug": "cheese",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "General scriptures concerning 1Sa 17:18; 2Sa 17:29; Job 10:10",
-      "references": [
-        "1Sam 17:18",
-        "2Sam 17:29",
-        "Job 10:10"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "2 Samuel",
-      "book_abbrev": "2sa",
-      "chapter": 17,
-      "testament": "OT",
-      "verses": [
-        29
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Job",
-      "book_abbrev": "job",
-      "chapter": 10,
-      "testament": "OT",
-      "verses": [
-        10
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 2,
-    "nt_refs": 0,
-    "total_verses": 2
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.677274+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "General scriptures concerning",
+      "references": [
+        "1 Samuel 17:18",
+        "2 Samuel 17:29",
+        "Job 10:10"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "1 Samuel",
       "chapter": 17,
@@ -64,8 +25,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Samuel 17:18",
-      "source": "EAS"
+      "raw": "1 Samuel 17:18"
     },
     {
       "book": "2 Samuel",
@@ -75,8 +35,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Samuel 17:29",
-      "source": "EAS"
+      "raw": "2 Samuel 17:29"
     },
     {
       "book": "Job",
@@ -86,8 +45,24 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Job 10:10",
-      "source": "EAS"
+      "raw": "Job 10:10"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Samuel",
+    "2 Samuel",
+    "Job"
+  ],
+  "stats": {
+    "total_aspects": 1,
+    "total_refs": 3,
+    "ot_refs": 3,
+    "nt_refs": 0,
+    "books_count": 3,
+    "top_books": [
+      "1 Samuel",
+      "2 Samuel",
+      "Job"
+    ]
+  }
 }

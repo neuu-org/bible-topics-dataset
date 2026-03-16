@@ -1,101 +1,70 @@
 {
   "topic": "ABIB",
   "slug": "abib",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "Also called NISAN",
+      "label": "Al",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "First month in the Jewish calendar Ex 12:2",
+      "label": "First month in the Jewish",
       "references": [
-        "Exod 12:2"
+        "Exodus 12:2"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Passover instituted, and Israelites depart from Egypt in Ex 23:15; De 16:1",
+      "label": "Pas",
       "references": [
-        "Exod 23:15",
-        "Deut 16:1"
+        "Exodus 23:15",
+        "Deuteronomy 16:1"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Tabernacle set up in Ex 40:2,17",
+      "label": "Tabernacle set up in",
       "references": [
-        "Exod 40:2",
-        "Exod 40:17"
+        "Exodus 40:2,17"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Israelites arrive at the wilderness of Zin in Nu 20:1",
+      "label": "Israelites arrive at the wil",
       "references": [
-        "Num 20:1"
+        "Numbers 20:1"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Enter Canaan in Jos 4:19",
+      "label": "Enter",
       "references": [
-        "Josh 4:19"
+        "Joshua 4:19"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Jordan’s overflow in 1Ch 12:15",
+      "label": "Jordan’s overflow in",
       "references": [
-        "1Chr 12:15"
+        "1 Chronicles 12:15"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Deuteronomy",
-      "book_abbrev": "deu",
-      "chapter": 16,
-      "testament": "OT",
-      "verses": [
-        1
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 7,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.659716+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
       "book": "Exodus",
-      "chapter": 13,
+      "chapter": 12,
       "verses": [
-        4
+        2
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Exodus 13:4",
-      "source": "EAS"
+      "raw": "Exodus 12:2"
     },
     {
       "book": "Exodus",
@@ -105,37 +74,79 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Exodus 23:15",
-      "source": "EAS"
+      "raw": "Exodus 23:15"
     },
     {
-      "book": "Nehemiah",
-      "chapter": 2,
+      "book": "Deuteronomy",
+      "chapter": 16,
       "verses": [
         1
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Nehemiah 2:1",
-      "source": "EAS"
+      "raw": "Deuteronomy 16:1"
     },
     {
-      "book": "Leviticus",
-      "chapter": 23,
+      "book": "Exodus",
+      "chapter": 40,
       "verses": [
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11
+        2,
+        17
       ],
-      "verse_count": 8,
+      "verse_count": 2,
       "testament": "OT",
-      "raw": "Leviticus 23:4-11",
-      "source": "EAS"
+      "raw": "Exodus 40:2,17"
+    },
+    {
+      "book": "Numbers",
+      "chapter": 20,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Numbers 20:1"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 4,
+      "verses": [
+        19
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 4:19"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 12,
+      "verses": [
+        15
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 12:15"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Deuteronomy",
+    "Exodus",
+    "Joshua",
+    "Numbers"
+  ],
+  "stats": {
+    "total_aspects": 7,
+    "total_refs": 7,
+    "ot_refs": 7,
+    "nt_refs": 0,
+    "books_count": 5,
+    "top_books": [
+      "Exodus",
+      "Deuteronomy",
+      "Numbers",
+      "Joshua",
+      "1 Chronicles"
+    ]
+  }
 }

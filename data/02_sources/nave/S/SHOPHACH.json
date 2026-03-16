@@ -1,73 +1,25 @@
 {
   "topic": "SHOPHACH",
-  "topic_slug": "shophach",
+  "slug": "shophach",
   "canonical_id": "NAV:shophach",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "SHOBACH"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "SHOBACH",
-      "clean": "SHOBACH",
-      "slug": "shobach",
-      "canonical_id": "NAV:shobach"
-    }
-  ],
-  "raw_block": "–SeeSHOBACH",
-  "content_preview": "–SeeSHOBACH",
-  "reference_groups": [
-    {
-      "idx": 0,
-      "entry_label": "–SeeSHOBACH",
-      "raw_segment": "–SeeSHOBACH"
+      "label": "SeeSHOBACH",
+      "references": []
     }
   ],
   "biblical_references": [],
   "books_mentioned": [],
-  "normalized_labels": [],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 1,
+    "total_refs": 0,
     "ot_refs": 0,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:5c17a4637693b4a0f753a93b2ba7b98d9d0073dde47b4b572ab11e96e4a2b287",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 1
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
-    ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:31:28.757805Z",
-  "updated_at": "2025-09-20T17:31:28.757812Z"
+    "books_count": 0,
+    "top_books": []
+  }
 }

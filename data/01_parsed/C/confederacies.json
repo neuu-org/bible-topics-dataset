@@ -1,72 +1,100 @@
 {
   "topic": "CONFEDERACIES",
   "slug": "confederacies",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [
+    "ALLIANCES"
+  ],
+  "aspects": [
     {
-      "name": "INSTANCES OF",
+      "label": "INSTANCES OF",
       "references": [],
-      "sub_groups": [
-        {
-          "name": "Of kings Ge 14:1,2; Jos 10:1-5; 11:1-5; 1Ki 20:1",
-          "references": [
-            "Gen 14:1",
-            "Gen 14:2",
-            "Josh 10:1-5",
-            "Josh 11:1-5",
-            "1Kgs 20:1"
-          ]
-        }
-      ]
+      "source": "NAV"
+    },
+    {
+      "label": ".Of kings",
+      "references": [
+        "Genesis 14:1,2",
+        "Joshua 10:1-5",
+        "Joshua 11:1-5",
+        "1 Kings 20:1"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".SeeALLIANCES",
+      "references": [],
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Joshua",
-      "book_abbrev": "jos",
-      "chapter": 10,
+      "book": "Genesis",
+      "chapter": 14,
+      "verses": [
+        1,
+        2
+      ],
+      "verse_count": 2,
       "testament": "OT",
+      "raw": "Genesis 14:1,2"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 10,
       "verses": [
         1,
         2,
         3,
         4,
-        5,
-        11
+        5
       ],
-      "verse_count": 6
+      "verse_count": 5,
+      "testament": "OT",
+      "raw": "Joshua 10:1-5"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 11,
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "verse_count": 5,
+      "testament": "OT",
+      "raw": "Joshua 11:1-5"
     },
     {
       "book": "1 Kings",
-      "book_abbrev": "1ki",
       "chapter": 20,
-      "testament": "OT",
       "verses": [
         1
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Kings 20:1"
     }
   ],
-  "see_also": [
-    "ALLIANCES"
+  "books_mentioned": [
+    "1 Kings",
+    "Genesis",
+    "Joshua"
   ],
-  "aliases": [],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 2,
+    "total_aspects": 3,
+    "total_refs": 4,
+    "ot_refs": 4,
     "nt_refs": 0,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.678969+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    }
-  },
-  "version": "3.0.0"
+    "books_count": 3,
+    "top_books": [
+      "Joshua",
+      "Genesis",
+      "1 Kings"
+    ]
+  }
 }

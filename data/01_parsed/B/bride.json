@@ -1,120 +1,49 @@
 {
   "topic": "BRIDE",
   "slug": "bride",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Ornaments of Isa 49:18; 61:10; Jer 2:32; Re 21:2",
-      "references": [
-        "Isa 49:18",
-        "Isa 61:10",
-        "Jer 2:32",
-        "Rev 21:2"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Presents to Ge 24:53",
-      "references": [
-        "Gen 24:53"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Maids of Ge 24:59,61; 29:24,29",
-      "references": [
-        "Gen 24:59",
-        "Gen 24:61",
-        "Gen 29:24",
-        "Gen 29:29"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "FIGURATIVE Ps 45:10-17; Eze 16:8-14; Re 19:7,8; 21:2,9; 22:17",
-      "references": [
-        "Ps 45:10-17",
-        "Ezek 16:8-14",
-        "Rev 19:7",
-        "Rev 19:8",
-        "Rev 21:2",
-        "Rev 21:9",
-        "Rev 22:17"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Jeremiah",
-      "book_abbrev": "jer",
-      "chapter": 2,
-      "testament": "OT",
-      "verses": [
-        32
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Ezekiel",
-      "book_abbrev": "ezk",
-      "chapter": 16,
-      "testament": "OT",
-      "verses": [
-        8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14
-      ],
-      "verse_count": 7
-    },
-    {
-      "book": "Revelation",
-      "book_abbrev": "rev",
-      "chapter": 21,
-      "testament": "NT",
-      "verses": [
-        2
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Revelation",
-      "book_abbrev": "rev",
-      "chapter": 19,
-      "testament": "NT",
-      "verses": [
-        7,
-        8,
-        21
-      ],
-      "verse_count": 3
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 4,
-    "ot_refs": 2,
-    "nt_refs": 2,
-    "total_verses": 4
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.675511+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "Ornaments of",
+      "references": [
+        "Isaiah 49:18",
+        "Isaiah 61:10",
+        "Jeremiah 2:32",
+        "Revelation 21:2"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Presents to",
+      "references": [
+        "Genesis 24:53"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Maids of",
+      "references": [
+        "Genesis 24:59,61",
+        "Genesis 29:24,29"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "FIGURATIVE",
+      "references": [
+        "Psalms 45:10-17",
+        "Ezekiel 16:8-14",
+        "Revelation 19:7,8",
+        "Revelation 21:2,9",
+        "Revelation 22:17"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Isaiah",
       "chapter": 49,
@@ -123,8 +52,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Isaiah 49:18",
-      "source": "EAS"
+      "raw": "Isaiah 49:18"
     },
     {
       "book": "Isaiah",
@@ -134,30 +62,114 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Isaiah 61:10",
-      "source": "EAS"
+      "raw": "Isaiah 61:10"
     },
     {
-      "book": "John",
-      "chapter": 3,
+      "book": "Jeremiah",
+      "chapter": 2,
       "verses": [
-        29
+        32
       ],
       "verse_count": 1,
-      "testament": "NT",
-      "raw": "John 3:29",
-      "source": "EAS"
+      "testament": "OT",
+      "raw": "Jeremiah 2:32"
     },
     {
       "book": "Revelation",
       "chapter": 21,
       "verses": [
-        9
+        2
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Revelation 21:9",
-      "source": "EAS"
+      "raw": "Revelation 21:2"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 24,
+      "verses": [
+        53
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 24:53"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 24,
+      "verses": [
+        59,
+        61
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Genesis 24:59,61"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 29,
+      "verses": [
+        24,
+        29
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Genesis 29:24,29"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 45,
+      "verses": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "verse_count": 8,
+      "testament": "OT",
+      "raw": "Psalms 45:10-17"
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 16,
+      "verses": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "verse_count": 7,
+      "testament": "OT",
+      "raw": "Ezekiel 16:8-14"
+    },
+    {
+      "book": "Revelation",
+      "chapter": 19,
+      "verses": [
+        7,
+        8
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Revelation 19:7,8"
+    },
+    {
+      "book": "Revelation",
+      "chapter": 21,
+      "verses": [
+        2,
+        9
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Revelation 21:2,9"
     },
     {
       "book": "Revelation",
@@ -167,31 +179,30 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Revelation 22:17",
-      "source": "EAS"
-    },
-    {
-      "book": "Matthew",
-      "chapter": 25,
-      "verses": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13
-      ],
-      "verse_count": 13,
-      "testament": "NT",
-      "raw": "Matthew 25:1-13",
-      "source": "EAS"
+      "raw": "Revelation 22:17"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Ezekiel",
+    "Genesis",
+    "Isaiah",
+    "Jeremiah",
+    "Psalms",
+    "Revelation"
+  ],
+  "stats": {
+    "total_aspects": 4,
+    "total_refs": 12,
+    "ot_refs": 8,
+    "nt_refs": 4,
+    "books_count": 6,
+    "top_books": [
+      "Revelation",
+      "Genesis",
+      "Isaiah",
+      "Jeremiah",
+      "Psalms",
+      "Ezekiel"
+    ]
+  }
 }

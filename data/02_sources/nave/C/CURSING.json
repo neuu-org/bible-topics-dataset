@@ -1,129 +1,117 @@
 {
   "topic": "CURSING",
-  "topic_slug": "cursing",
+  "slug": "cursing",
   "canonical_id": "NAV:cursing",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "GOD, NAME OF, NOT TO BE PROFANED",
     "ANATHEMA MARAN-ATHA",
     "BLASPHEMY",
     "OATH"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "GOD, NAME OF, NOT TO BE PROFANED",
-      "clean": "GOD, NAME OF, NOT TO BE PROFANED",
-      "slug": "god__name_of__not_to_be_profaned",
-      "canonical_id": "NAV:god__name_of__not_to_be_profaned"
+      "label": "Of parents",
+      "references": []
     },
     {
-      "original": "ANATHEMA MARAN-ATHA",
-      "clean": "ANATHEMA MARAN-ATHA",
-      "slug": "anathema_maran_atha",
-      "canonical_id": "NAV:anathema_maran_atha"
+      "label": "Shimei curses David",
+      "references": [
+        "2 Samuel 16:5-8"
+      ]
     },
     {
-      "original": "BLASPHEMY",
-      "clean": "BLASPHEMY",
-      "slug": "blasphemy",
-      "canonical_id": "NAV:blasphemy"
+      "label": "The precepts of Jesus concerning",
+      "references": [
+        "Matthew 5:44",
+        "Luke 6:28"
+      ]
     },
     {
-      "original": "OATH",
-      "clean": "OATH",
-      "slug": "oath",
-      "canonical_id": "NAV:oath"
+      "label": "Apostolic",
+      "references": [
+        "Romans 12:4"
+      ]
+    },
+    {
+      "label": "SeeANATHEMA MARAN-ATHA",
+      "references": []
+    },
+    {
+      "label": "SeeBLASPHEMY",
+      "references": []
+    },
+    {
+      "label": "SeeGOD, NAME OF, NOT TO BE PROFANED",
+      "references": []
+    },
+    {
+      "label": "SeeOATH",
+      "references": []
     }
   ],
-  "raw_block": "–Of parents\n–Shimei curses David2Sa 16:5-8\n–The precepts of Jesus concerningMt 5:44;Lu 6:28\n–ApostolicRo 12:4\n–SeeANATHEMA MARAN-ATHA\n–SeeBLASPHEMY\n–SeeGOD, NAME OF, NOT TO BE PROFANED\n–SeeOATH",
-  "content_preview": "–Of parents",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–Of parents",
-      "raw_segment": "–Of parents"
+      "book": "2 Samuel",
+      "chapter": 16,
+      "verses": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "verse_count": 4,
+      "testament": "OT",
+      "raw": "2 Samuel 16:5-8"
     },
     {
-      "idx": 1,
-      "entry_label": "–Shimei curses David2Sa 16:5-8",
-      "raw_segment": "–Shimei curses David2Sa 16:5-8"
+      "book": "Matthew",
+      "chapter": 5,
+      "verses": [
+        44
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 5:44"
     },
     {
-      "idx": 2,
-      "entry_label": "–The precepts of Jesus concerningMt 5:44;Lu 6:28",
-      "raw_segment": "–The precepts of Jesus concerningMt 5:44;Lu 6:28"
+      "book": "Luke",
+      "chapter": 6,
+      "verses": [
+        28
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 6:28"
     },
     {
-      "idx": 3,
-      "entry_label": "–ApostolicRo 12:4",
-      "raw_segment": "–ApostolicRo 12:4"
-    },
-    {
-      "idx": 4,
-      "entry_label": "–SeeANATHEMA MARAN-ATHA",
-      "raw_segment": "–SeeANATHEMA MARAN-ATHA"
-    },
-    {
-      "idx": 5,
-      "entry_label": "–SeeBLASPHEMY",
-      "raw_segment": "–SeeBLASPHEMY"
-    },
-    {
-      "idx": 6,
-      "entry_label": "–SeeGOD, NAME OF, NOT TO BE PROFANED",
-      "raw_segment": "–SeeGOD, NAME OF, NOT TO BE PROFANED"
-    },
-    {
-      "idx": 7,
-      "entry_label": "–SeeOATH",
-      "raw_segment": "–SeeOATH"
+      "book": "Romans",
+      "chapter": 12,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Romans 12:4"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "2 Samuel",
+    "Luke",
+    "Matthew",
+    "Romans"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:522348bf4d58587cd73239d6fe6a9c45e585cff35fbb967f524485df5ce0c464",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 8
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 8,
+    "total_refs": 4,
+    "ot_refs": 1,
+    "nt_refs": 3,
+    "books_count": 4,
+    "top_books": [
+      "2 Samuel",
+      "Matthew",
+      "Luke",
+      "Romans"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:25:23.443508Z",
-  "updated_at": "2025-09-20T17:25:23.443515Z"
+  }
 }

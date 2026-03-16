@@ -1,69 +1,58 @@
 {
   "topic": "AHARAH",
   "slug": "aharah",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "Also called EHI, and AHIRAM, and AHER",
+      "label": "Al",
       "references": [],
-      "sub_groups": [
-        {
-          "name": "Son of Benjamin Ge 46:21; Nu 26:38; 1Ch 7:12; 8:1",
-          "references": [
-            "Gen 46:21",
-            "Num 26:38",
-            "1Chr 7:12",
-            "1Chr 8:1"
-          ]
-        }
-      ]
+      "source": "NAV"
+    },
+    {
+      "label": ".",
+      "references": [
+        "Genesis 46:21",
+        "Numbers 26:38",
+        "1 Chronicles 7:12",
+        "1 Chronicles 8:1"
+      ],
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Numbers",
-      "book_abbrev": "num",
-      "chapter": 26,
-      "testament": "OT",
+      "book": "Genesis",
+      "chapter": 46,
       "verses": [
-        1,
+        21
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 46:21"
+    },
+    {
+      "book": "Numbers",
+      "chapter": 26,
+      "verses": [
         38
       ],
-      "verse_count": 2
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Numbers 26:38"
     },
     {
       "book": "1 Chronicles",
-      "book_abbrev": "1ch",
       "chapter": 7,
-      "testament": "OT",
       "verses": [
-        8,
         12
       ],
-      "verse_count": 2
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 2,
-    "nt_refs": 0,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.661850+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 7:12"
+    },
     {
       "book": "1 Chronicles",
       "chapter": 8,
@@ -72,8 +61,24 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 8:1",
-      "source": "SMI"
+      "raw": "1 Chronicles 8:1"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Genesis",
+    "Numbers"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 4,
+    "ot_refs": 4,
+    "nt_refs": 0,
+    "books_count": 3,
+    "top_books": [
+      "1 Chronicles",
+      "Genesis",
+      "Numbers"
+    ]
+  }
 }

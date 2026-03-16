@@ -1,99 +1,187 @@
 {
   "topic": "SPEAR",
-  "topic_slug": "spear",
+  "slug": "spear",
   "canonical_id": "NAV:spear",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–(An implement of war)\n–(Spears and javelins differed in weight and size, but had similar uses)\n–Goliath’ s1Sa 17:7\n–Saul’ s1Sa 18:10,11\n–Stored in the tabernacle2Ch 23:9\n–Changed into pruning-hooksIsa 2:4;Mic 4:3\n–Pruning-hooks beat intoJoe 3:10\n–Plunged into Jesus’ sideJoh 19:34;20:27;Zec 12:10;Re 1:7",
-  "content_preview": "–(An implement of war)",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–(An implement of war)",
-      "raw_segment": "–(An implement of war)"
+      "label": "(An implement of war)",
+      "references": []
     },
     {
-      "idx": 1,
-      "entry_label": "–(Spears and javelins differed in weight and size, but had similar uses)",
-      "raw_segment": "–(Spears and javelins differed in weight and size, but had similar uses)"
+      "label": "(Spears and javelins differed in weight and size, but had similar uses)",
+      "references": []
     },
     {
-      "idx": 2,
-      "entry_label": "–Goliath’ s1Sa 17:7",
-      "raw_segment": "–Goliath’ s1Sa 17:7"
+      "label": "Goliath’ s",
+      "references": [
+        "1 Samuel 17:7"
+      ]
     },
     {
-      "idx": 3,
-      "entry_label": "–Saul’ s1Sa 18:10,11",
-      "raw_segment": "–Saul’ s1Sa 18:10,11"
+      "label": "Saul’ s",
+      "references": [
+        "1 Samuel 18:10,11"
+      ]
     },
     {
-      "idx": 4,
-      "entry_label": "–Stored in the tabernacle2Ch 23:9",
-      "raw_segment": "–Stored in the tabernacle2Ch 23:9"
+      "label": "Stored in the tabernacle",
+      "references": [
+        "2 Chronicles 23:9"
+      ]
     },
     {
-      "idx": 5,
-      "entry_label": "–Changed into pruning-hooksIsa 2:4;Mic 4:3",
-      "raw_segment": "–Changed into pruning-hooksIsa 2:4;Mic 4:3"
+      "label": "Changed into pruning-hooks",
+      "references": [
+        "Isaiah 2:4",
+        "Micah 4:3"
+      ]
     },
     {
-      "idx": 6,
-      "entry_label": "–Pruning-hooks beat intoJoe 3:10",
-      "raw_segment": "–Pruning-hooks beat intoJoe 3:10"
+      "label": "Pruning-hooks beat into",
+      "references": [
+        "Joel 3:10"
+      ]
     },
     {
-      "idx": 7,
-      "entry_label": "–Plunged into Jesus’ sideJoh 19:34;20:27;Zec 12:10;Re 1:7",
-      "raw_segment": "–Plunged into Jesus’ sideJoh 19:34;20:27;Zec 12:10;Re 1:7"
+      "label": "P",
+      "references": [
+        "John 19:34",
+        "John 20:27",
+        "Ecclesiastes 12:10",
+        "Revelation 1:7"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "1 Samuel",
+      "chapter": 17,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Samuel 17:7"
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 18,
+      "verses": [
+        10,
+        11
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "1 Samuel 18:10,11"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 23,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Chronicles 23:9"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 2,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 2:4"
+    },
+    {
+      "book": "Micah",
+      "chapter": 4,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Micah 4:3"
+    },
+    {
+      "book": "Joel",
+      "chapter": 3,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joel 3:10"
+    },
+    {
+      "book": "John",
+      "chapter": 19,
+      "verses": [
+        34
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "John 19:34"
+    },
+    {
+      "book": "John",
+      "chapter": 20,
+      "verses": [
+        27
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "John 20:27"
+    },
+    {
+      "book": "Ecclesiastes",
+      "chapter": 12,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ecclesiastes 12:10"
+    },
+    {
+      "book": "Revelation",
+      "chapter": 1,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Revelation 1:7"
+    }
+  ],
+  "books_mentioned": [
+    "1 Samuel",
+    "2 Chronicles",
+    "Ecclesiastes",
+    "Isaiah",
+    "Joel",
+    "John",
+    "Micah",
+    "Revelation"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:2b9e239b25bc209a778728d03f6057f8afacd9a800e147c2bc92f2dfafff8d30",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 8
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 8,
+    "total_refs": 10,
+    "ot_refs": 7,
+    "nt_refs": 3,
+    "books_count": 8,
+    "top_books": [
+      "1 Samuel",
+      "John",
+      "2 Chronicles",
+      "Isaiah",
+      "Micah",
+      "Joel",
+      "Ecclesiastes",
+      "Revelation"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:31:43.447686Z",
-  "updated_at": "2025-09-20T17:31:43.447693Z"
+  }
 }

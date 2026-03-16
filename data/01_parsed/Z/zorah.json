@@ -1,97 +1,58 @@
 {
   "topic": "ZORAH",
   "slug": "zorah",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Also called ZAREAH and ZOREAH",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "A city of the tribe of Dan or possibly the tribe of Judah Jos 15:33; 19:41",
-      "references": [
-        "Josh 15:33",
-        "Josh 19:41"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "The city of Samson Jud 13:2,24,25; 16:31",
-      "references": [
-        "Judg 13:2",
-        "Judg 13:24",
-        "Judg 13:25",
-        "Judg 16:31"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Representatives of the tribe of Dan sent from, to spy out the land with a view to its conquest Jud 18",
-      "references": [
-        "Judg 18"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Fortified by Rehoboam 2Ch 11:10",
-      "references": [
-        "2Chr 11:10"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Re-populated after the captivity Ne 11:29",
-      "references": [
-        "Neh 11:29"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 6,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.735422+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "Al",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "A city of the tribe of Dan or possibly the tribe of",
+      "references": [
+        "Joshua 15:33",
+        "Joshua 19:41"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "The city of Sam",
+      "references": [
+        "Judges 13:2,24,25",
+        "Judges 16:31"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Representatives of the tribe of Dan sent from, to spy out the",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "land with a view to its conquest",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "Fortified by Rehoboam",
+      "references": [
+        "2 Chronicles 11:10"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Re-populated after the",
+      "references": [
+        "Nehemiah 11:29"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "Joshua",
-      "chapter": 19,
-      "verses": [
-        41
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Joshua 19:41",
-      "source": "EAS"
-    },
-    {
-      "book": "Judges",
-      "chapter": 18,
-      "verses": [
-        2
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Judges 18:2",
-      "source": "EAS"
-    },
+  ],
+  "biblical_references": [
     {
       "book": "Joshua",
       "chapter": 15,
@@ -100,31 +61,29 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Joshua 15:33",
-      "source": "EAS"
+      "raw": "Joshua 15:33"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 19,
+      "verses": [
+        41
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 19:41"
     },
     {
       "book": "Judges",
       "chapter": 13,
       "verses": [
         2,
+        24,
         25
       ],
-      "verse_count": 2,
+      "verse_count": 3,
       "testament": "OT",
-      "raw": "Judges 13:2, 25",
-      "source": "EAS"
-    },
-    {
-      "book": "2 Chronicles",
-      "chapter": 11,
-      "verses": [
-        10
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "2 Chronicles 11:10",
-      "source": "EAS"
+      "raw": "Judges 13:2,24,25"
     },
     {
       "book": "Judges",
@@ -134,8 +93,46 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Judges 16:31",
-      "source": "EAS"
+      "raw": "Judges 16:31"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 11,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Chronicles 11:10"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 11,
+      "verses": [
+        29
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Nehemiah 11:29"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "2 Chronicles",
+    "Joshua",
+    "Judges",
+    "Nehemiah"
+  ],
+  "stats": {
+    "total_aspects": 7,
+    "total_refs": 6,
+    "ot_refs": 6,
+    "nt_refs": 0,
+    "books_count": 4,
+    "top_books": [
+      "Joshua",
+      "Judges",
+      "2 Chronicles",
+      "Nehemiah"
+    ]
+  }
 }

@@ -1,45 +1,55 @@
 {
   "topic": "HOURS",
   "slug": "hours",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "(A division of time)",
+      "label": "(A division of time)",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Twelve, in the day Joh 11:9; Mt 20:3-12; 27:45,46",
+      "label": "Twelve, in the day",
       "references": [
         "John 11:9",
-        "Matt 20:3-12",
-        "Matt 27:45",
-        "Matt 27:46"
+        "Matthew 20:3-12",
+        "Matthew 27:45,46"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "In the night Ac 23:23",
+      "label": "In the night",
       "references": [
         "Acts 23:23"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "SYMBOLICAL Re 8:1; 9:15",
+      "label": "SYMBOLI",
       "references": [
-        "Rev 8:1",
-        "Rev 9:15"
+        "Revelation 8:1",
+        "Revelation 9:15"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Matthew",
-      "book_abbrev": "mat",
-      "chapter": 20,
+      "book": "John",
+      "chapter": 11,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
       "testament": "NT",
+      "raw": "John 11:9"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 20,
       "verses": [
         3,
         4,
@@ -50,30 +60,71 @@
         9,
         10,
         11,
-        12,
-        27
+        12
       ],
-      "verse_count": 11
+      "verse_count": 10,
+      "testament": "NT",
+      "raw": "Matthew 20:3-12"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 27,
+      "verses": [
+        45,
+        46
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Matthew 27:45,46"
+    },
+    {
+      "book": "Acts",
+      "chapter": 23,
+      "verses": [
+        23
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 23:23"
+    },
+    {
+      "book": "Revelation",
+      "chapter": 8,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Revelation 8:1"
+    },
+    {
+      "book": "Revelation",
+      "chapter": 9,
+      "verses": [
+        15
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Revelation 9:15"
     }
   ],
-  "see_also": [],
-  "aliases": [],
+  "books_mentioned": [
+    "Acts",
+    "John",
+    "Matthew",
+    "Revelation"
+  ],
   "stats": {
-    "entries_count": 4,
+    "total_aspects": 4,
+    "total_refs": 6,
     "ot_refs": 0,
-    "nt_refs": 1,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.693260+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    }
-  },
-  "version": "3.0.0"
+    "nt_refs": 6,
+    "books_count": 4,
+    "top_books": [
+      "Matthew",
+      "Revelation",
+      "John",
+      "Acts"
+    ]
+  }
 }

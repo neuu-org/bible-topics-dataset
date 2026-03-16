@@ -1,115 +1,39 @@
 {
   "topic": "HOREB",
   "slug": "horeb",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "A range of mountains of which Mount Sinai is the most prominent Ex 3:1; 17:6; 33:6; De 1:2,6,19; 4:10,15; 5:2; 9:8; 29:1; 1Ki 8:9; 19:8; 2Ch 5:10; Ps 106:19; Mal 4:4",
-      "references": [
-        "Exod 3:1",
-        "Exod 17:6",
-        "Exod 33:6",
-        "Deut 1:2",
-        "Deut 1:6",
-        "Deut 1:19",
-        "Deut 4:10",
-        "Deut 4:15",
-        "Deut 5:2",
-        "Deut 9:8",
-        "Deut 29:1",
-        "1Kgs 8:9",
-        "1Kgs 19:8",
-        "2Chr 5:10",
-        "Ps 106:19",
-        "Mal 4:4"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "See SINAI",
-      "references": [],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Deuteronomy",
-      "book_abbrev": "deu",
-      "chapter": 1,
-      "testament": "OT",
-      "verses": [
-        2,
-        4,
-        6,
-        19
-      ],
-      "verse_count": 4
-    },
-    {
-      "book": "1 Kings",
-      "book_abbrev": "1ki",
-      "chapter": 8,
-      "testament": "OT",
-      "verses": [
-        9,
-        19
-      ],
-      "verse_count": 2
-    },
-    {
-      "book": "2 Chronicles",
-      "book_abbrev": "2ch",
-      "chapter": 5,
-      "testament": "OT",
-      "verses": [
-        10
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Psalms",
-      "book_abbrev": "psa",
-      "chapter": 106,
-      "testament": "OT",
-      "verses": [
-        19
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Malachi",
-      "book_abbrev": "mal",
-      "chapter": 4,
-      "testament": "OT",
-      "verses": [
-        4
-      ],
-      "verse_count": 1
-    }
+  "sources": [
+    "NAV"
   ],
   "see_also": [
     "SINAI"
   ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 5,
-    "nt_refs": 0,
-    "total_verses": 5
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.692989+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "aspects": [
+    {
+      "label": "A range of mountains of which Mount Sinai is the most prominent",
+      "references": [
+        "Exodus 3:1",
+        "Exodus 17:6",
+        "Exodus 33:6",
+        "Deuteronomy 1:2,6,19",
+        "Deuteronomy 4:10,15",
+        "Deuteronomy 5:2",
+        "Deuteronomy 9:8",
+        "Deuteronomy 29:1",
+        "1 Kings 8:9",
+        "1 Kings 19:8",
+        "2 Chronicles 5:10",
+        "Psalms 106:19",
+        "Malachi 4:4"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeSINAI",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Exodus",
       "chapter": 3,
@@ -118,8 +42,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Exodus 3:1",
-      "source": "EAS"
+      "raw": "Exodus 3:1"
     },
     {
       "book": "Exodus",
@@ -129,8 +52,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Exodus 17:6",
-      "source": "EAS"
+      "raw": "Exodus 17:6"
     },
     {
       "book": "Exodus",
@@ -140,8 +62,90 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Exodus 33:6",
-      "source": "EAS"
+      "raw": "Exodus 33:6"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 1,
+      "verses": [
+        2,
+        6,
+        19
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Deuteronomy 1:2,6,19"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 4,
+      "verses": [
+        10,
+        15
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Deuteronomy 4:10,15"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 5,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 5:2"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 9,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 9:8"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 29,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 29:1"
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 8,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Kings 8:9"
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 19,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Kings 19:8"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 5,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Chronicles 5:10"
     },
     {
       "book": "Psalms",
@@ -151,8 +155,40 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Psalms 106:19",
-      "source": "EAS"
+      "raw": "Psalms 106:19"
+    },
+    {
+      "book": "Malachi",
+      "chapter": 4,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Malachi 4:4"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Kings",
+    "2 Chronicles",
+    "Deuteronomy",
+    "Exodus",
+    "Malachi",
+    "Psalms"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 13,
+    "ot_refs": 13,
+    "nt_refs": 0,
+    "books_count": 6,
+    "top_books": [
+      "Deuteronomy",
+      "Exodus",
+      "1 Kings",
+      "2 Chronicles",
+      "Psalms",
+      "Malachi"
+    ]
+  }
 }

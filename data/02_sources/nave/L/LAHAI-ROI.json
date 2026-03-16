@@ -1,74 +1,78 @@
 {
   "topic": "LAHAI-ROI",
-  "topic_slug": "lahai_roi",
+  "slug": "lahai_roi",
   "canonical_id": "NAV:lahai_roi",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–Also called BEER-LAHAIROI\n–(A well near Kadesh) -Hagar fled toGe 16:7-14\n–Isaac lives atGe 24:62;25:11",
-  "content_preview": "–Also called BEER-LAHAIROI",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–Also called BEER-LAHAIROI",
-      "raw_segment": "–Also called BEER-LAHAIROI"
+      "label": "Al",
+      "references": []
     },
     {
-      "idx": 1,
-      "entry_label": "–(A well near Kadesh) -Hagar fled toGe 16:7-14",
-      "raw_segment": "–(A well near Kadesh) -Hagar fled toGe 16:7-14"
+      "label": "(A well near Ka",
+      "references": [
+        "Genesis 16:7-14"
+      ]
     },
     {
-      "idx": 2,
-      "entry_label": "–Isaac lives atGe 24:62;25:11",
-      "raw_segment": "–Isaac lives atGe 24:62;25:11"
+      "label": "General references",
+      "references": [
+        "Genesis 24:62",
+        "Genesis 25:11"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Genesis",
+      "chapter": 16,
+      "verses": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "verse_count": 8,
+      "testament": "OT",
+      "raw": "Genesis 16:7-14"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 24,
+      "verses": [
+        62
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 24:62"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 25,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 25:11"
+    }
+  ],
+  "books_mentioned": [
+    "Genesis"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 3,
+    "total_refs": 3,
+    "ot_refs": 3,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:f1ad6ef5eda61b2498eacdb60279fb997ba2baad365b8e7c2542987a8ca6ad92",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 3
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 1,
+    "top_books": [
+      "Genesis"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:28:27.097662Z",
-  "updated_at": "2025-09-20T17:28:27.097669Z"
+  }
 }

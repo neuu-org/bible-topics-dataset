@@ -1,78 +1,211 @@
 {
   "topic": "MASTER WORKMAN",
-  "topic_slug": "master_workman",
+  "slug": "master_workman",
   "canonical_id": "NAV:master_workman",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "ART"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "ART",
-      "clean": "ART",
-      "slug": "art",
-      "canonical_id": "NAV:art"
-    }
-  ],
-  "raw_block": "–General scriptures concerningPr 8:30;1Co 3:10\n–INSTANCES OF\n  .Tubal-cainGe 4:22\n  .BezaleelEx 31:2-11;35:30-35\n  .Hiram1Ki 7:13-50;2Ch 2:13,14;4:11-18\n  .SeeART",
-  "content_preview": "–General scriptures concerningPr 8:30;1Co 3:10",
-  "reference_groups": [
-    {
-      "idx": 0,
-      "entry_label": "–General scriptures concerningPr 8:30;1Co 3:10",
-      "raw_segment": "–General scriptures concerningPr 8:30;1Co 3:10"
+      "label": "General scriptures concerning",
+      "references": [
+        "Proverbs 8:30",
+        "1 Corinthians 3:10"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–INSTANCES OF",
-      "raw_segment": "–INSTANCES OF"
+      "label": "INSTANCES OF",
+      "references": []
+    },
+    {
+      "label": ".Tubal-",
+      "references": [
+        "Genesis 4:22"
+      ]
+    },
+    {
+      "label": ".Bezaleel",
+      "references": [
+        "Exodus 31:2-11",
+        "Exodus 35:30-35"
+      ]
+    },
+    {
+      "label": ".Hiram",
+      "references": [
+        "1 Kings 7:13-50",
+        "2 Chronicles 2:13,14",
+        "2 Chronicles 4:11-18"
+      ]
+    },
+    {
+      "label": ".SeeART",
+      "references": []
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Proverbs",
+      "chapter": 8,
+      "verses": [
+        30
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 8:30"
+    },
+    {
+      "book": "1 Corinthians",
+      "chapter": 3,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "1 Corinthians 3:10"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 4,
+      "verses": [
+        22
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 4:22"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 31,
+      "verses": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "verse_count": 10,
+      "testament": "OT",
+      "raw": "Exodus 31:2-11"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 35,
+      "verses": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "verse_count": 6,
+      "testament": "OT",
+      "raw": "Exodus 35:30-35"
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 7,
+      "verses": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "verse_count": 38,
+      "testament": "OT",
+      "raw": "1 Kings 7:13-50"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 2,
+      "verses": [
+        13,
+        14
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "2 Chronicles 2:13,14"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 4,
+      "verses": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "verse_count": 8,
+      "testament": "OT",
+      "raw": "2 Chronicles 4:11-18"
+    }
+  ],
+  "books_mentioned": [
+    "1 Corinthians",
+    "1 Kings",
+    "2 Chronicles",
+    "Exodus",
+    "Genesis",
+    "Proverbs"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:4047b8c2f2a289be6687589638a8c291039c0213477adbf7c2c188fe33c0a38e",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 6
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 6,
+    "total_refs": 8,
+    "ot_refs": 7,
+    "nt_refs": 1,
+    "books_count": 6,
+    "top_books": [
+      "Exodus",
+      "2 Chronicles",
+      "Proverbs",
+      "1 Corinthians",
+      "Genesis",
+      "1 Kings"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:28:54.684756Z",
-  "updated_at": "2025-09-20T17:28:54.684764Z"
+  }
 }

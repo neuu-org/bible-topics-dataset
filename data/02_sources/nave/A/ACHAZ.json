@@ -1,73 +1,25 @@
 {
   "topic": "ACHAZ",
-  "topic_slug": "achaz",
+  "slug": "achaz",
   "canonical_id": "NAV:achaz",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "AHAZ"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "AHAZ",
-      "clean": "AHAZ",
-      "slug": "ahaz",
-      "canonical_id": "NAV:ahaz"
-    }
-  ],
-  "raw_block": "–SeeAHAZ",
-  "content_preview": "–SeeAHAZ",
-  "reference_groups": [
-    {
-      "idx": 0,
-      "entry_label": "–SeeAHAZ",
-      "raw_segment": "–SeeAHAZ"
+      "label": "SeeAHAZ",
+      "references": []
     }
   ],
   "biblical_references": [],
   "books_mentioned": [],
-  "normalized_labels": [],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 1,
+    "total_refs": 0,
     "ot_refs": 0,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:a26ed43726f22d17e9235e39dcab4cd2fee446188c53bc76b8de3eb33129d487",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 1
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
-    ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:23:13.783163Z",
-  "updated_at": "2025-09-20T17:23:13.783171Z"
+    "books_count": 0,
+    "top_books": []
+  }
 }

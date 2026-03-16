@@ -1,76 +1,37 @@
 {
   "topic": "ILLYRICUM",
   "slug": "illyricum",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Also called DALMATIA",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "Visited",
-      "references": [],
-      "sub_groups": [
-        {
-          "name": "By Paul Ro 15:19",
-          "references": [
-            "Rom 15:19"
-          ]
-        },
-        {
-          "name": "By Titus 2Ti 4:10",
-          "references": [
-            "Titus 2"
-          ]
-        }
-      ]
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "2 Timothy",
-      "book_abbrev": "2ti",
-      "chapter": 4,
-      "testament": "NT",
-      "verses": [
-        10
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 1,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.693903+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "see_also": [],
+  "aspects": [
     {
-      "book": "2 Timothy",
-      "chapter": 4,
-      "verses": [
-        10
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "2 Timothy 4:10",
-      "source": "EAS"
+      "label": "Al",
+      "references": [],
+      "source": "NAV"
     },
+    {
+      "label": "Visited",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".By Paul",
+      "references": [
+        "Romans 15:19"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".ByTitus",
+      "references": [
+        "2 Timothy 4:10"
+      ],
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
     {
       "book": "Romans",
       "chapter": 15,
@@ -79,30 +40,32 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Romans 15:19",
-      "source": "EAS"
+      "raw": "Romans 15:19"
     },
     {
-      "book": "Acts",
-      "chapter": 20,
+      "book": "2 Timothy",
+      "chapter": 4,
       "verses": [
-        2
+        10
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Acts 20:2",
-      "source": "EAS"
-    },
-    {
-      "book": "Romans",
-      "chapter": 6,
-      "verses": [
-        19
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Romans 6:19",
-      "source": "SMI"
+      "raw": "2 Timothy 4:10"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "2 Timothy",
+    "Romans"
+  ],
+  "stats": {
+    "total_aspects": 4,
+    "total_refs": 2,
+    "ot_refs": 0,
+    "nt_refs": 2,
+    "books_count": 2,
+    "top_books": [
+      "Romans",
+      "2 Timothy"
+    ]
+  }
 }

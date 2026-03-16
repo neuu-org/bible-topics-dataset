@@ -1,85 +1,250 @@
 {
   "topic": "CONFESSION",
-  "topic_slug": "confession",
+  "slug": "confession",
   "canonical_id": "NAV:confession",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "TESTIMONY, RELIGIOUS",
     "SIN, CONFESSION OF"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "TESTIMONY, RELIGIOUS",
-      "clean": "TESTIMONY, RELIGIOUS",
-      "slug": "testimony__religious",
-      "canonical_id": "NAV:testimony__religious"
+      "label": "OF CHRIST",
+      "references": [
+        "Matthew 3:11",
+        "Matthew 7:21-23",
+        "Matthew 10:32,33",
+        "Luke 12:8"
+      ]
     },
     {
-      "original": "SIN, CONFESSION OF",
-      "clean": "SIN, CONFESSION OF",
-      "slug": "sin__confession_of",
-      "canonical_id": "NAV:sin__confession_of"
-    }
-  ],
-  "raw_block": "–OF CHRISTMt 3:11;7:21-23;10:32,33;Lu 12:8;Joh \n1:15-18;9:22-38;12:42,43;Ac 8:35-37;18:5;19:4,5;Ro 10:9-11;1Co 12:3;1Jo  \n1:6;2:4;4:2,3,15\n  .SeeTESTIMONY, RELIGIOUS\n–OF SIN\n  .SeeSIN, CONFESSION OF",
-  "content_preview": "–OF CHRISTMt 3:11;7:21-23;10:32,33;Lu 12:8;Joh ",
-  "reference_groups": [
-    {
-      "idx": 0,
-      "entry_label": "–OF CHRISTMt 3:11;7:21-23;10:32,33;Lu 12:8;Joh \n1:15-18;9:22-38;12:42,43;Ac 8:35-37;18:5;19:4,5;Ro 10:9-11;1Co 12:3;1Jo  \n1:6;2:4;4:2,3,15",
-      "raw_segment": "–OF CHRISTMt 3:11;7:21-23;10:32,33;Lu 12:8;Joh \n1:15-18;9:22-38;12:42,43;Ac 8:35-37;18:5;19:4,5;Ro 10:9-11;1Co 12:3;1Jo  \n1:6;2:4;4:2,3,15"
+      "label": "1:15-18;9:22-38;12:42,43;",
+      "references": [
+        "Acts 8:35-37",
+        "Acts 18:5",
+        "Acts 19:4,5",
+        "Romans 10:9-11",
+        "1 Corinthians 12:3"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–OF SIN",
-      "raw_segment": "–OF SIN"
+      "label": "1:6;2:4;4:2,3,15",
+      "references": []
+    },
+    {
+      "label": ".SeeTESTIMONY, RELIGIOUS",
+      "references": []
+    },
+    {
+      "label": "OF SIN",
+      "references": []
+    },
+    {
+      "label": ".SeeSIN, CONFESSION OF",
+      "references": []
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Matthew",
+      "chapter": 3,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 3:11"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 7,
+      "verses": [
+        21,
+        22,
+        23
+      ],
+      "verse_count": 3,
+      "testament": "NT",
+      "raw": "Matthew 7:21-23"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 10,
+      "verses": [
+        32,
+        33
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Matthew 10:32,33"
+    },
+    {
+      "book": "Luke",
+      "chapter": 12,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 12:8"
+    },
+    {
+      "book": "Luke",
+      "chapter": 1,
+      "verses": [
+        15,
+        16,
+        17,
+        18
+      ],
+      "verse_count": 4,
+      "testament": "NT",
+      "raw": "Luke 1:15-18"
+    },
+    {
+      "book": "Luke",
+      "chapter": 9,
+      "verses": [
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38
+      ],
+      "verse_count": 17,
+      "testament": "NT",
+      "raw": "Luke 9:22-38"
+    },
+    {
+      "book": "Luke",
+      "chapter": 12,
+      "verses": [
+        42,
+        43
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Luke 12:42,43"
+    },
+    {
+      "book": "Acts",
+      "chapter": 8,
+      "verses": [
+        35,
+        36,
+        37
+      ],
+      "verse_count": 3,
+      "testament": "NT",
+      "raw": "Acts 8:35-37"
+    },
+    {
+      "book": "Acts",
+      "chapter": 18,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 18:5"
+    },
+    {
+      "book": "Acts",
+      "chapter": 19,
+      "verses": [
+        4,
+        5
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Acts 19:4,5"
+    },
+    {
+      "book": "Romans",
+      "chapter": 10,
+      "verses": [
+        9,
+        10,
+        11
+      ],
+      "verse_count": 3,
+      "testament": "NT",
+      "raw": "Romans 10:9-11"
+    },
+    {
+      "book": "1 Corinthians",
+      "chapter": 12,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "1 Corinthians 12:3"
+    },
+    {
+      "book": "1 Corinthians",
+      "chapter": 1,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "1 Corinthians 1:6"
+    },
+    {
+      "book": "1 Corinthians",
+      "chapter": 2,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "1 Corinthians 2:4"
+    },
+    {
+      "book": "1 Corinthians",
+      "chapter": 4,
+      "verses": [
+        2,
+        3,
+        15
+      ],
+      "verse_count": 3,
+      "testament": "NT",
+      "raw": "1 Corinthians 4:2,3,15"
+    }
+  ],
+  "books_mentioned": [
+    "1 Corinthians",
+    "Acts",
+    "Luke",
+    "Matthew",
+    "Romans"
+  ],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 6,
+    "total_refs": 15,
     "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:a47afdcc3f21159f7d3ff7b9ddb752dca790200175f4dd7353f25543bd781475",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 6
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "nt_refs": 15,
+    "books_count": 5,
+    "top_books": [
+      "Luke",
+      "1 Corinthians",
+      "Matthew",
+      "Acts",
+      "Romans"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:25:11.481272Z",
-  "updated_at": "2025-09-20T17:25:11.481279Z"
+  }
 }

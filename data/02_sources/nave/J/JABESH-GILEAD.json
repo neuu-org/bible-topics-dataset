@@ -1,79 +1,142 @@
 {
   "topic": "JABESH-GILEAD",
-  "topic_slug": "jabesh_gilead",
+  "slug": "jabesh_gilead",
   "canonical_id": "NAV:jabesh_gilead",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–A city east of the Jordan RiverJud 21:8-15\n–Beseiged by the Ammonites1Sa 11:1-11\n–Saul and his sons buried at1Sa 31:11-13;1Ch 10:11,12;2Sa 2:4\n–Bones of Saul and his sons removed from, by David, and buried \nat Zelah2Sa 21:12-14",
-  "content_preview": "–A city east of the Jordan RiverJud 21:8-15",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–A city east of the Jordan RiverJud 21:8-15",
-      "raw_segment": "–A city east of the Jordan RiverJud 21:8-15"
+      "label": "A city east of the Jordan River",
+      "references": [
+        "Judges 21:8-15"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–Beseiged by the Ammonites1Sa 11:1-11",
-      "raw_segment": "–Beseiged by the Ammonites1Sa 11:1-11"
+      "label": "Beseiged by the Ammonites",
+      "references": [
+        "1 Samuel 11:1-11"
+      ]
     },
     {
-      "idx": 2,
-      "entry_label": "–Saul and his sons buried at1Sa 31:11-13;1Ch 10:11,12;2Sa 2:4",
-      "raw_segment": "–Saul and his sons buried at1Sa 31:11-13;1Ch 10:11,12;2Sa 2:4"
+      "label": "Saul and his",
+      "references": [
+        "1 Samuel 31:11-13",
+        "1 Chronicles 10:11,12",
+        "2 Samuel 2:4"
+      ]
     },
     {
-      "idx": 3,
-      "entry_label": "–Bones of Saul and his sons removed from, by David, and buried \nat Zelah2Sa 21:12-14",
-      "raw_segment": "–Bones of Saul and his sons removed from, by David, and buried \nat Zelah2Sa 21:12-14"
+      "label": "Bones of Saul and his",
+      "references": []
+    },
+    {
+      "label": "at Zelah",
+      "references": [
+        "2 Samuel 21:12-14"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Judges",
+      "chapter": 21,
+      "verses": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "verse_count": 8,
+      "testament": "OT",
+      "raw": "Judges 21:8-15"
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 11,
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "verse_count": 11,
+      "testament": "OT",
+      "raw": "1 Samuel 11:1-11"
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 31,
+      "verses": [
+        11,
+        12,
+        13
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "1 Samuel 31:11-13"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 10,
+      "verses": [
+        11,
+        12
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "1 Chronicles 10:11,12"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 2,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Samuel 2:4"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 21,
+      "verses": [
+        12,
+        13,
+        14
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "2 Samuel 21:12-14"
+    }
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "1 Samuel",
+    "2 Samuel",
+    "Judges"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 5,
+    "total_refs": 6,
+    "ot_refs": 6,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:f4c8982a9eed1942768378bf12cb4d95d55be16e8921a1cb335ed605557aaaf4",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 5
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 4,
+    "top_books": [
+      "1 Samuel",
+      "2 Samuel",
+      "Judges",
+      "1 Chronicles"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:27:47.242704Z",
-  "updated_at": "2025-09-20T17:27:47.242712Z"
+  }
 }

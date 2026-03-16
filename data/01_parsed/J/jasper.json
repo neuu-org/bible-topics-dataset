@@ -1,39 +1,21 @@
 {
   "topic": "JASPER",
   "slug": "jasper",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "A precious stone, set in the high priest’s breastplate Ex 28:20; 39:13",
-      "references": [
-        "Exod 28:20",
-        "Exod 39:13"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.695931+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "A precious stone, set in the high priest’s breastplate",
+      "references": [
+        "Exodus 28:20",
+        "Exodus 39:13"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Exodus",
       "chapter": 28,
@@ -42,42 +24,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Exodus 28:20",
-      "source": "EAS"
-    },
-    {
-      "book": "Revelation",
-      "chapter": 21,
-      "verses": [
-        18,
-        19
-      ],
-      "verse_count": 2,
-      "testament": "NT",
-      "raw": "Revelation 21:18, 19",
-      "source": "EAS"
-    },
-    {
-      "book": "Revelation",
-      "chapter": 21,
-      "verses": [
-        11
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Revelation 21:11",
-      "source": "EAS"
-    },
-    {
-      "book": "Revelation",
-      "chapter": 4,
-      "verses": [
-        3
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Revelation 4:3",
-      "source": "EAS"
+      "raw": "Exodus 28:20"
     },
     {
       "book": "Exodus",
@@ -87,19 +34,20 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Exodus 39:13",
-      "source": "SMI"
-    },
-    {
-      "book": "Revelation",
-      "chapter": 21,
-      "verses": [
-        19
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Revelation 21:19",
-      "source": "SMI"
+      "raw": "Exodus 39:13"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Exodus"
+  ],
+  "stats": {
+    "total_aspects": 1,
+    "total_refs": 2,
+    "ot_refs": 2,
+    "nt_refs": 0,
+    "books_count": 1,
+    "top_books": [
+      "Exodus"
+    ]
+  }
 }

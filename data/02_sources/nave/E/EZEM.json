@@ -1,64 +1,44 @@
 {
   "topic": "EZEM",
-  "topic_slug": "ezem",
+  "slug": "ezem",
   "canonical_id": "NAV:ezem",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–Also called AZEM, a city of the tribe of SimeonJos \n15:29;19:3;1Ch 4:29",
-  "content_preview": "–Also called AZEM, a city of the tribe of SimeonJos ",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–Also called AZEM, a city of the tribe of SimeonJos \n15:29;19:3;1Ch 4:29",
-      "raw_segment": "–Also called AZEM, a city of the tribe of SimeonJos \n15:29;19:3;1Ch 4:29"
+      "label": "Al",
+      "references": []
+    },
+    {
+      "label": "15:29;19:3;",
+      "references": [
+        "1 Chronicles 4:29"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "1 Chronicles",
+      "chapter": 4,
+      "verses": [
+        29
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 4:29"
+    }
+  ],
+  "books_mentioned": [
+    "1 Chronicles"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 2,
+    "total_refs": 1,
+    "ot_refs": 1,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:9b72d729c72ddb4355465aa7b434be7c08980075e80fd9487d4d7e9bfd845c40",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 1,
+    "top_books": [
+      "1 Chronicles"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:26:14.411679Z",
-  "updated_at": "2025-09-20T17:26:14.411688Z"
+  }
 }

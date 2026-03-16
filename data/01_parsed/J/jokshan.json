@@ -1,63 +1,32 @@
 {
   "topic": "JOKSHAN",
   "slug": "jokshan",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Son of Abraham, by Keturah Ge 25:2,3,6; 1Ch 1:32",
-      "references": [
-        "Gen 25:2",
-        "Gen 25:3",
-        "Gen 25:6",
-        "1Chr 1:32"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "1 Chronicles",
-      "book_abbrev": "1ch",
-      "chapter": 1,
-      "testament": "OT",
-      "verses": [
-        32
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.697512+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "General references",
+      "references": [
+        "Genesis 25:2,3,6",
+        "1 Chronicles 1:32"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Genesis",
       "chapter": 25,
       "verses": [
         2,
-        3
+        3,
+        6
       ],
-      "verse_count": 2,
+      "verse_count": 3,
       "testament": "OT",
-      "raw": "Genesis 25:2, 3",
-      "source": "EAS"
+      "raw": "Genesis 25:2,3,6"
     },
     {
       "book": "1 Chronicles",
@@ -67,8 +36,22 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 1:32",
-      "source": "EAS"
+      "raw": "1 Chronicles 1:32"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Genesis"
+  ],
+  "stats": {
+    "total_aspects": 1,
+    "total_refs": 2,
+    "ot_refs": 2,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "Genesis",
+      "1 Chronicles"
+    ]
+  }
 }

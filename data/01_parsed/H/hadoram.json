@@ -1,85 +1,80 @@
 {
   "topic": "HADORAM",
   "slug": "hadoram",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "1. Descendant of Shem Ge 10:27; 1Ch 1:21",
+      "label": "1.",
       "references": [
-        "Gen 10:27",
-        "1Chr 1:21"
+        "Genesis 10:27",
+        "1 Chronicles 1:21"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "2. Son of Ton, or Toi 1Ch 18:10",
+      "label": "2.",
       "references": [
-        "1Chr 18:10"
+        "1 Chronicles 18:10"
       ],
-      "sub_groups": [
-        {
-          "name": "Called JORAM 2Sa 8:10",
-          "references": [
-            "2Sam 8:10"
-          ]
-        }
-      ]
+      "source": "NAV"
     },
     {
-      "name": "3. Chief officer of the tribute under Rehoboam 2Ch 10:18",
+      "label": ".",
       "references": [
-        "2Chr 10:18"
+        "2 Samuel 8:10"
       ],
-      "sub_groups": [
-        {
-          "name": "Probably identical with ADONIRAM of 1Ki 4:6; 5:14",
-          "references": [
-            "1Kgs 4:6",
-            "1Kgs 5:14"
-          ]
-        },
-        {
-          "name": "And ADORAM of 2Sa 20:24",
-          "references": [
-            "2Sam 20:24"
-          ]
-        }
-      ]
+      "source": "NAV"
+    },
+    {
+      "label": "3. Chief officer of the tribute un",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "10:18",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".Probably i",
+      "references": [
+        "1 Kings 4:6",
+        "1 Kings 5:14"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".And ADORAM of",
+      "references": [
+        "2 Samuel 20:24"
+      ],
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "1 Chronicles",
-      "book_abbrev": "1ch",
-      "chapter": 1,
+      "book": "Genesis",
+      "chapter": 10,
+      "verses": [
+        27
+      ],
+      "verse_count": 1,
       "testament": "OT",
+      "raw": "Genesis 10:27"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 1,
       "verses": [
         21
       ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.690092+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 1:21"
+    },
     {
       "book": "1 Chronicles",
       "chapter": 18,
@@ -88,8 +83,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 18:10",
-      "source": "EAS"
+      "raw": "1 Chronicles 18:10"
     },
     {
       "book": "2 Samuel",
@@ -99,52 +93,17 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Samuel 8:10",
-      "source": "EAS"
+      "raw": "2 Samuel 8:10"
     },
     {
-      "book": "Genesis",
-      "chapter": 10,
-      "verses": [
-        27
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Genesis 10:27",
-      "source": "EAS"
-    },
-    {
-      "book": "1 Chronicles",
-      "chapter": 1,
-      "verses": [
-        21
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "1 Chronicles 1:21",
-      "source": "EAS"
-    },
-    {
-      "book": "2 Chronicles",
+      "book": "2 Samuel",
       "chapter": 10,
       "verses": [
         18
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Chronicles 10:18",
-      "source": "EAS"
-    },
-    {
-      "book": "2 Samuel",
-      "chapter": 20,
-      "verses": [
-        24
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "2 Samuel 20:24",
-      "source": "EAS"
+      "raw": "2 Samuel 10:18"
     },
     {
       "book": "1 Kings",
@@ -154,8 +113,46 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Kings 4:6",
-      "source": "EAS"
+      "raw": "1 Kings 4:6"
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 5,
+      "verses": [
+        14
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Kings 5:14"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 20,
+      "verses": [
+        24
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Samuel 20:24"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "1 Kings",
+    "2 Samuel",
+    "Genesis"
+  ],
+  "stats": {
+    "total_aspects": 7,
+    "total_refs": 8,
+    "ot_refs": 8,
+    "nt_refs": 0,
+    "books_count": 4,
+    "top_books": [
+      "2 Samuel",
+      "1 Chronicles",
+      "1 Kings",
+      "Genesis"
+    ]
+  }
 }

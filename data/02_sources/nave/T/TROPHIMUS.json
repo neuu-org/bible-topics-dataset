@@ -1,79 +1,81 @@
 {
   "topic": "TROPHIMUS",
-  "topic_slug": "trophimus",
+  "slug": "trophimus",
   "canonical_id": "NAV:trophimus",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–(From Ephesus, a companion of Paul)\n–Accompanies Paul from Greece to AsiaAc 20:4\n–With Paul in Jerusalem; made the occasion of an attack on PaulAc 21:27-30\n–Left ill at Miletus2Ti 4:20",
-  "content_preview": "–(From Ephesus, a companion of Paul)",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–(From Ephesus, a companion of Paul)",
-      "raw_segment": "–(From Ephesus, a companion of Paul)"
+      "label": "(From Ephesus, a companion of Paul)",
+      "references": []
     },
     {
-      "idx": 1,
-      "entry_label": "–Accompanies Paul from Greece to AsiaAc 20:4",
-      "raw_segment": "–Accompanies Paul from Greece to AsiaAc 20:4"
+      "label": "Accompanies Paul from Greece to Asia",
+      "references": [
+        "Acts 20:4"
+      ]
     },
     {
-      "idx": 2,
-      "entry_label": "–With Paul in Jerusalem; made the occasion of an attack on PaulAc 21:27-30",
-      "raw_segment": "–With Paul in Jerusalem; made the occasion of an attack on PaulAc 21:27-30"
+      "label": "With Paul in",
+      "references": [
+        "Acts 21:27-30"
+      ]
     },
     {
-      "idx": 3,
-      "entry_label": "–Left ill at Miletus2Ti 4:20",
-      "raw_segment": "–Left ill at Miletus2Ti 4:20"
+      "label": "Left ill at Miletus",
+      "references": [
+        "2 Timothy 4:20"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Acts",
+      "chapter": 20,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 20:4"
+    },
+    {
+      "book": "Acts",
+      "chapter": 21,
+      "verses": [
+        27,
+        28,
+        29,
+        30
+      ],
+      "verse_count": 4,
+      "testament": "NT",
+      "raw": "Acts 21:27-30"
+    },
+    {
+      "book": "2 Timothy",
+      "chapter": 4,
+      "verses": [
+        20
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "2 Timothy 4:20"
+    }
+  ],
+  "books_mentioned": [
+    "2 Timothy",
+    "Acts"
+  ],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 4,
+    "total_refs": 3,
     "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:097e46828cea99d8cf15a7393dfd8b354ea453fdf6f4a55a87758118b9f54f63",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 4
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "nt_refs": 3,
+    "books_count": 2,
+    "top_books": [
+      "Acts",
+      "2 Timothy"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:32:21.735310Z",
-  "updated_at": "2025-09-20T17:32:21.735317Z"
+  }
 }

@@ -1,74 +1,105 @@
 {
   "topic": "DARIUS",
-  "topic_slug": "darius",
+  "slug": "darius",
   "canonical_id": "NAV:darius",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–1. The Mede, king of PersiaDa 5:31;6;9:1\n–2. King of Persia\n  .Emancipates the JewsEzr 5;6;Hag 1:1,15;Zec 1:1\n–3. The PersianNe 12:22",
-  "content_preview": "–1. The Mede, king of PersiaDa 5:31;6;9:1",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–1. The Mede, king of PersiaDa 5:31;6;9:1",
-      "raw_segment": "–1. The Mede, king of PersiaDa 5:31;6;9:1"
+      "label": "1. The Me",
+      "references": [
+        "Daniel 5:31",
+        "Daniel 9:1"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–2. King of Persia",
-      "raw_segment": "–2. King of Persia"
+      "label": "2. King of Persia",
+      "references": []
     },
     {
-      "idx": 2,
-      "entry_label": "–3. The PersianNe 12:22",
-      "raw_segment": "–3. The PersianNe 12:22"
+      "label": ".Emancipates the JewsEzr 5;6;",
+      "references": [
+        "Haggai 1:1,15",
+        "Ecclesiastes 1:1"
+      ]
+    },
+    {
+      "label": "3. The Persian",
+      "references": [
+        "Nehemiah 12:22"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Daniel",
+      "chapter": 5,
+      "verses": [
+        31
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Daniel 5:31"
+    },
+    {
+      "book": "Daniel",
+      "chapter": 9,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Daniel 9:1"
+    },
+    {
+      "book": "Haggai",
+      "chapter": 1,
+      "verses": [
+        1,
+        15
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Haggai 1:1,15"
+    },
+    {
+      "book": "Ecclesiastes",
+      "chapter": 1,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ecclesiastes 1:1"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 12,
+      "verses": [
+        22
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Nehemiah 12:22"
+    }
+  ],
+  "books_mentioned": [
+    "Daniel",
+    "Ecclesiastes",
+    "Haggai",
+    "Nehemiah"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 4,
+    "total_refs": 5,
+    "ot_refs": 5,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:d7869a31cb052ec9f44c2075ccc34ea04c1943fa93c385ec92ffd293e9f3d4e2",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 4
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 4,
+    "top_books": [
+      "Daniel",
+      "Haggai",
+      "Ecclesiastes",
+      "Nehemiah"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:25:27.031650Z",
-  "updated_at": "2025-09-20T17:25:27.031657Z"
+  }
 }

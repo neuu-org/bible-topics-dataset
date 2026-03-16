@@ -1,100 +1,100 @@
 {
   "topic": "MARTHA",
-  "topic_slug": "martha",
+  "slug": "martha",
   "canonical_id": "NAV:martha",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "MARY",
     "LAZARUS"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "MARY",
-      "clean": "MARY",
-      "slug": "mary",
-      "canonical_id": "NAV:mary"
+      "label": "Sister of Mary and Lazarus",
+      "references": [
+        "John 11:1"
+      ]
     },
     {
-      "original": "LAZARUS",
-      "clean": "LAZARUS",
-      "slug": "lazarus",
-      "canonical_id": "NAV:lazarus"
+      "label": "Ministers to Jesus",
+      "references": [
+        "Luke 10:38-42",
+        "John 12:2"
+      ]
+    },
+    {
+      "label": "Beloved by Jesus",
+      "references": [
+        "John 11:5"
+      ]
+    },
+    {
+      "label": "SeeLAZARUS",
+      "references": []
+    },
+    {
+      "label": "SeeMARY",
+      "references": []
     }
   ],
-  "raw_block": "–Sister of Mary and LazarusJoh 11:1\n–Ministers to JesusLu 10:38-42;Joh 12:2\n–Beloved by JesusJoh 11:5\n–SeeLAZARUS\n–SeeMARY",
-  "content_preview": "–Sister of Mary and LazarusJoh 11:1",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–Sister of Mary and LazarusJoh 11:1",
-      "raw_segment": "–Sister of Mary and LazarusJoh 11:1"
+      "book": "John",
+      "chapter": 11,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "John 11:1"
     },
     {
-      "idx": 1,
-      "entry_label": "–Ministers to JesusLu 10:38-42;Joh 12:2",
-      "raw_segment": "–Ministers to JesusLu 10:38-42;Joh 12:2"
+      "book": "Luke",
+      "chapter": 10,
+      "verses": [
+        38,
+        39,
+        40,
+        41,
+        42
+      ],
+      "verse_count": 5,
+      "testament": "NT",
+      "raw": "Luke 10:38-42"
     },
     {
-      "idx": 2,
-      "entry_label": "–Beloved by JesusJoh 11:5",
-      "raw_segment": "–Beloved by JesusJoh 11:5"
+      "book": "John",
+      "chapter": 12,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "John 12:2"
     },
     {
-      "idx": 3,
-      "entry_label": "–SeeLAZARUS",
-      "raw_segment": "–SeeLAZARUS"
-    },
-    {
-      "idx": 4,
-      "entry_label": "–SeeMARY",
-      "raw_segment": "–SeeMARY"
+      "book": "John",
+      "chapter": 11,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "John 11:5"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "John",
+    "Luke"
+  ],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 5,
+    "total_refs": 4,
     "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:b745b943a801d90254db77edc45cfe55b67ca1e3a7fba28d6c317e358d63dbde",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 5
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "nt_refs": 4,
+    "books_count": 2,
+    "top_books": [
+      "John",
+      "Luke"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:28:53.256768Z",
-  "updated_at": "2025-09-20T17:28:53.256777Z"
+  }
 }

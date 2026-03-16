@@ -1,64 +1,55 @@
 {
   "topic": "APHARSACHITES",
-  "topic_slug": "apharsachites",
+  "slug": "apharsachites",
   "canonical_id": "NAV:apharsachites",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–General scriptures concerningEzr 5:6;6:6; with2Ki \n17",
-  "content_preview": "–General scriptures concerningEzr 5:6;6:6; with2Ki ",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–General scriptures concerningEzr 5:6;6:6; with2Ki \n17",
-      "raw_segment": "–General scriptures concerningEzr 5:6;6:6; with2Ki \n17"
+      "label": "General scriptures concerning",
+      "references": [
+        "Ezra 5:6",
+        "Ezra 6:6"
+      ]
+    },
+    {
+      "label": "17",
+      "references": []
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Ezra",
+      "chapter": 5,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezra 5:6"
+    },
+    {
+      "book": "Ezra",
+      "chapter": 6,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezra 6:6"
+    }
+  ],
+  "books_mentioned": [
+    "Ezra"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 2,
+    "total_refs": 2,
+    "ot_refs": 2,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:9cdaf3bffb917f53fb9b6777bd16fa36e7c0ab45e518cdb8a769f00668afa61b",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 1,
+    "top_books": [
+      "Ezra"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:23:40.482106Z",
-  "updated_at": "2025-09-20T17:23:40.482113Z"
+  }
 }

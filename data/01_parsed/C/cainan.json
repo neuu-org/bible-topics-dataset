@@ -1,73 +1,34 @@
 {
   "topic": "CAINAN",
   "slug": "cainan",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. Also called KENAN",
-      "references": [],
-      "sub_groups": [
-        {
-          "name": "Son of Enos Ge 5:9-15; 1Ch 1:2; Lu 3:37",
-          "references": [
-            "Gen 5:9-15",
-            "1Chr 1:2",
-            "Luke 3:37"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "2. Son of Arphaxad Lu 3:36",
-      "references": [
-        "Luke 3:36"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "1 Chronicles",
-      "book_abbrev": "1ch",
-      "chapter": 1,
-      "testament": "OT",
-      "verses": [
-        2
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Luke",
-      "book_abbrev": "luk",
-      "chapter": 3,
-      "testament": "NT",
-      "verses": [
-        37
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 1,
-    "nt_refs": 1,
-    "total_verses": 2
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.675985+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "1. Al",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".",
+      "references": [
+        "Genesis 5:9-15",
+        "1 Chronicles 1:2",
+        "Luke 3:37"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2.",
+      "references": [
+        "Luke 3:36"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Genesis",
       "chapter": 5,
@@ -77,12 +38,12 @@
         11,
         12,
         13,
-        14
+        14,
+        15
       ],
-      "verse_count": 6,
+      "verse_count": 7,
       "testament": "OT",
-      "raw": "Genesis 5:9-14",
-      "source": "EAS"
+      "raw": "Genesis 5:9-15"
     },
     {
       "book": "1 Chronicles",
@@ -92,8 +53,17 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 1:2",
-      "source": "EAS"
+      "raw": "1 Chronicles 1:2"
+    },
+    {
+      "book": "Luke",
+      "chapter": 3,
+      "verses": [
+        37
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 3:37"
     },
     {
       "book": "Luke",
@@ -103,8 +73,24 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Luke 3:36",
-      "source": "EAS"
+      "raw": "Luke 3:36"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Genesis",
+    "Luke"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 4,
+    "ot_refs": 2,
+    "nt_refs": 2,
+    "books_count": 3,
+    "top_books": [
+      "Luke",
+      "Genesis",
+      "1 Chronicles"
+    ]
+  }
 }

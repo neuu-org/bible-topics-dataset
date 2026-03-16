@@ -1,79 +1,28 @@
 {
   "topic": "NER",
   "slug": "ner",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Father of Abner 1Sa 14:50",
-      "references": [
-        "1Sam 14:50"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Father of Kish 1Ch 8:33; 9:39",
-      "references": [
-        "1Chr 8:33",
-        "1Chr 9:39"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.714469+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "Father of Abner",
+      "references": [
+        "1 Samuel 14:50"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Father of Kish",
+      "references": [
+        "1 Chronicles 8:33",
+        "1 Chronicles 9:39"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "1 Chronicles",
-      "chapter": 8,
-      "verses": [
-        33
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "1 Chronicles 8:33",
-      "source": "EAS"
-    },
-    {
-      "book": "1 Chronicles",
-      "chapter": 9,
-      "verses": [
-        36
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "1 Chronicles 9:36",
-      "source": "EAS"
-    },
-    {
-      "book": "1 Samuel",
-      "chapter": 14,
-      "verses": [
-        51
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "1 Samuel 14:51",
-      "source": "EAS"
-    },
+  ],
+  "biblical_references": [
     {
       "book": "1 Samuel",
       "chapter": 14,
@@ -82,8 +31,42 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Samuel 14:50",
-      "source": "SMI"
+      "raw": "1 Samuel 14:50"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 8,
+      "verses": [
+        33
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 8:33"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 9,
+      "verses": [
+        39
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 9:39"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "1 Samuel"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 3,
+    "ot_refs": 3,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "1 Chronicles",
+      "1 Samuel"
+    ]
+  }
 }

@@ -1,45 +1,27 @@
 {
   "topic": "SHECANIAH",
   "slug": "shecaniah",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. A priest in the time of David 1Ch 24:11",
-      "references": [
-        "1Chr 24:11"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "2. A priest in the time of Hezekiah 2Ch 31:15",
-      "references": [
-        "2Chr 31:15"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.724682+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "1. A priest in the time of David",
+      "references": [
+        "1 Chronicles 24:11"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2. A priest in the time of Hezekiah",
+      "references": [
+        "2 Chronicles 31:15"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "1 Chronicles",
       "chapter": 24,
@@ -48,8 +30,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 24:11",
-      "source": "EAS"
+      "raw": "1 Chronicles 24:11"
     },
     {
       "book": "2 Chronicles",
@@ -59,77 +40,22 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Chronicles 31:15",
-      "source": "EAS"
-    },
-    {
-      "book": "Nehemiah",
-      "chapter": 3,
-      "verses": [
-        29
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Nehemiah 3:29",
-      "source": "EAS"
-    },
-    {
-      "book": "Nehemiah",
-      "chapter": 6,
-      "verses": [
-        18
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Nehemiah 6:18",
-      "source": "EAS"
-    },
-    {
-      "book": "Nehemiah",
-      "chapter": 12,
-      "verses": [
-        3
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Nehemiah 12:3",
-      "source": "EAS"
-    },
-    {
-      "book": "1 Chronicles",
-      "chapter": 3,
-      "verses": [
-        21,
-        22
-      ],
-      "verse_count": 2,
-      "testament": "OT",
-      "raw": "1 Chronicles 3:21, 22",
-      "source": "EAS"
-    },
-    {
-      "book": "Ezra",
-      "chapter": 8,
-      "verses": [
-        5
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Ezra 8:5",
-      "source": "EAS"
-    },
-    {
-      "book": "Ezra",
-      "chapter": 10,
-      "verses": [
-        2,
-        3,
-        4
-      ],
-      "verse_count": 3,
-      "testament": "OT",
-      "raw": "Ezra 10:2-4",
-      "source": "EAS"
+      "raw": "2 Chronicles 31:15"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "2 Chronicles"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 2,
+    "ot_refs": 2,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "1 Chronicles",
+      "2 Chronicles"
+    ]
+  }
 }

@@ -1,88 +1,184 @@
 {
   "topic": "HEDGE",
-  "topic_slug": "hedge",
+  "slug": "hedge",
   "canonical_id": "NAV:hedge",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "FENCE"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "FENCE",
-      "clean": "FENCE",
-      "slug": "fence",
-      "canonical_id": "NAV:fence"
+      "label": "A fence",
+      "references": [
+        "Job 1:10",
+        "Isaiah 5:5",
+        "Jeremiah 49:3",
+        "Lamentations 3:7",
+        "Ezekiel 13:5",
+        "Ezekiel 22:30",
+        "Hosea 2:6",
+        "Micah 7:4",
+        "Mark 12:1"
+      ]
+    },
+    {
+      "label": "Of thorns",
+      "references": [
+        "Proverbs 15:19"
+      ]
+    },
+    {
+      "label": "People lived in",
+      "references": [
+        "Luke 14:23"
+      ]
+    },
+    {
+      "label": "SeeFENCE",
+      "references": []
     }
   ],
-  "raw_block": "–A fenceJob 1:10;Isa 5:5;Jer 49:3;La 3:7;Eze 13:5;22:30;Ho 2:6;Mic 7:4;Mr 12:1\n–Of thornsPr 15:19\n–People lived inLu 14:23\n–SeeFENCE",
-  "content_preview": "–A fenceJob 1:10;Isa 5:5;Jer 49:3;La 3:7;Eze 13:5;22:30;Ho 2:6;Mic 7:4;Mr 12:1",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–A fenceJob 1:10;Isa 5:5;Jer 49:3;La 3:7;Eze 13:5;22:30;Ho 2:6;Mic 7:4;Mr 12:1",
-      "raw_segment": "–A fenceJob 1:10;Isa 5:5;Jer 49:3;La 3:7;Eze 13:5;22:30;Ho 2:6;Mic 7:4;Mr 12:1"
+      "book": "Job",
+      "chapter": 1,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Job 1:10"
     },
     {
-      "idx": 1,
-      "entry_label": "–Of thornsPr 15:19",
-      "raw_segment": "–Of thornsPr 15:19"
+      "book": "Isaiah",
+      "chapter": 5,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 5:5"
     },
     {
-      "idx": 2,
-      "entry_label": "–People lived inLu 14:23",
-      "raw_segment": "–People lived inLu 14:23"
+      "book": "Jeremiah",
+      "chapter": 49,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Jeremiah 49:3"
     },
     {
-      "idx": 3,
-      "entry_label": "–SeeFENCE",
-      "raw_segment": "–SeeFENCE"
+      "book": "Lamentations",
+      "chapter": 3,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Lamentations 3:7"
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 13,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezekiel 13:5"
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 22,
+      "verses": [
+        30
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezekiel 22:30"
+    },
+    {
+      "book": "Hosea",
+      "chapter": 2,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Hosea 2:6"
+    },
+    {
+      "book": "Micah",
+      "chapter": 7,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Micah 7:4"
+    },
+    {
+      "book": "Mark",
+      "chapter": 12,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Mark 12:1"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 15,
+      "verses": [
+        19
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 15:19"
+    },
+    {
+      "book": "Luke",
+      "chapter": 14,
+      "verses": [
+        23
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 14:23"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "Ezekiel",
+    "Hosea",
+    "Isaiah",
+    "Jeremiah",
+    "Job",
+    "Lamentations",
+    "Luke",
+    "Mark",
+    "Micah",
+    "Proverbs"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:e96952c6cb28bf55e4221a9d10b2e40e90c87c0e789e8371b6600582bb66eafe",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 4
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 4,
+    "total_refs": 11,
+    "ot_refs": 9,
+    "nt_refs": 2,
+    "books_count": 10,
+    "top_books": [
+      "Ezekiel",
+      "Job",
+      "Isaiah",
+      "Jeremiah",
+      "Lamentations",
+      "Hosea",
+      "Micah",
+      "Mark",
+      "Proverbs",
+      "Luke"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:27:07.854538Z",
-  "updated_at": "2025-09-20T17:27:07.854545Z"
+  }
 }

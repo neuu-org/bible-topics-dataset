@@ -1,56 +1,44 @@
 {
   "topic": "SHUNAMMITE",
   "slug": "shunammite",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. A person from the city of Shunem",
-      "references": [],
-      "sub_groups": [
-        {
-          "name": "Abishag, the girl who took care of David 1Ki 1:3",
-          "references": [
-            "1Kgs 1:3"
-          ]
-        },
-        {
-          "name": "Desired by Adonijah as wife 1Ki 2:13-25",
-          "references": [
-            "1Kgs 2:13-25"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "2. A woman who gave hospitality to Elisha, and whose son he raised to life 2Ki 4:8-37",
-      "references": [
-        "2Kgs 4:8-37"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.726060+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "1. A per",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".Abishag, the girl who took",
+      "references": [
+        "1 Kings 1:3"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".",
+      "references": [
+        "1 Kings 2:13-25"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2. A woman who gave hospitality to Elisha, and whose",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "to life",
+      "references": [
+        "2 Kings 4:8-37"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "1 Kings",
       "chapter": 1,
@@ -59,19 +47,83 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Kings 1:3",
-      "source": "EAS"
+      "raw": "1 Kings 1:3"
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 2,
+      "verses": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "verse_count": 13,
+      "testament": "OT",
+      "raw": "1 Kings 2:13-25"
     },
     {
       "book": "2 Kings",
       "chapter": 4,
       "verses": [
-        12
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37
       ],
-      "verse_count": 1,
+      "verse_count": 30,
       "testament": "OT",
-      "raw": "2 Kings 4:12",
-      "source": "EAS"
+      "raw": "2 Kings 4:8-37"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Kings",
+    "2 Kings"
+  ],
+  "stats": {
+    "total_aspects": 5,
+    "total_refs": 3,
+    "ot_refs": 3,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "1 Kings",
+      "2 Kings"
+    ]
+  }
 }

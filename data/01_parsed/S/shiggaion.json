@@ -1,78 +1,49 @@
 {
   "topic": "SHIGGAION",
   "slug": "shiggaion",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [
+    "MUSIC"
+  ],
+  "aspects": [
     {
-      "name": "General scriptures concerning Ps 7; Hab 3:1",
+      "label": "General scriptures concerningPs 7;",
       "references": [
-        "Ps 7",
-        "Hab 3:1"
+        "Habakkuk 3:1"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See MUSIC",
+      "label": "SeeMUSIC",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
       "book": "Habakkuk",
-      "book_abbrev": "hab",
       "chapter": 3,
-      "testament": "OT",
       "verses": [
         1
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Habakkuk 3:1"
     }
   ],
-  "see_also": [
-    "MUSIC"
+  "books_mentioned": [
+    "Habakkuk"
   ],
-  "aliases": [],
   "stats": {
-    "entries_count": 2,
+    "total_aspects": 2,
+    "total_refs": 1,
     "ot_refs": 1,
     "nt_refs": 0,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.725375+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "Habakkuk",
-      "chapter": 3,
-      "verses": [
-        1
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Habakkuk 3:1",
-      "source": "EAS"
-    },
-    {
-      "book": "Psalms",
-      "chapter": 7,
-      "verses": [
-        1
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Psalms 7:1",
-      "source": "SMI"
-    }
-  ]
+    "books_count": 1,
+    "top_books": [
+      "Habakkuk"
+    ]
+  }
 }

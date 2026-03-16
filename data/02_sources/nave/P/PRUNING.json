@@ -1,69 +1,125 @@
 {
   "topic": "PRUNING",
-  "topic_slug": "pruning",
+  "slug": "pruning",
   "canonical_id": "NAV:pruning",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–General scriptures concerningLe 25:3,4;Isa 5:6;18:5;Joh 15:2-6\n–PruninghookIsa 2:4;18:5;Joe 3:10;Mic 4:3",
-  "content_preview": "–General scriptures concerningLe 25:3,4;Isa 5:6;18:5;Joh 15:2-6",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–General scriptures concerningLe 25:3,4;Isa 5:6;18:5;Joh 15:2-6",
-      "raw_segment": "–General scriptures concerningLe 25:3,4;Isa 5:6;18:5;Joh 15:2-6"
+      "label": "General scriptures concerning",
+      "references": [
+        "Leviticus 25:3,4",
+        "Isaiah 5:6",
+        "Isaiah 18:5",
+        "John 15:2-6"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–PruninghookIsa 2:4;18:5;Joe 3:10;Mic 4:3",
-      "raw_segment": "–PruninghookIsa 2:4;18:5;Joe 3:10;Mic 4:3"
+      "label": "Pruninghook",
+      "references": [
+        "Isaiah 2:4",
+        "Isaiah 18:5",
+        "Joel 3:10",
+        "Micah 4:3"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Leviticus",
+      "chapter": 25,
+      "verses": [
+        3,
+        4
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Leviticus 25:3,4"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 5,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 5:6"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 18,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 18:5"
+    },
+    {
+      "book": "John",
+      "chapter": 15,
+      "verses": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "verse_count": 5,
+      "testament": "NT",
+      "raw": "John 15:2-6"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 2,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 2:4"
+    },
+    {
+      "book": "Joel",
+      "chapter": 3,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joel 3:10"
+    },
+    {
+      "book": "Micah",
+      "chapter": 4,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Micah 4:3"
+    }
+  ],
+  "books_mentioned": [
+    "Isaiah",
+    "Joel",
+    "John",
+    "Leviticus",
+    "Micah"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:e91d4b9b10ff0a67844b8312c6e5bb78f0b1498315ca898bc498aa645031675b",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 2,
+    "total_refs": 7,
+    "ot_refs": 6,
+    "nt_refs": 1,
+    "books_count": 5,
+    "top_books": [
+      "Isaiah",
+      "Leviticus",
+      "John",
+      "Joel",
+      "Micah"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:30:21.305490Z",
-  "updated_at": "2025-09-20T17:30:21.305497Z"
+  }
 }

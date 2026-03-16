@@ -1,83 +1,50 @@
 {
   "topic": "SHEBAM",
-  "topic_slug": "shebam",
+  "slug": "shebam",
   "canonical_id": "NAV:shebam",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "SIBMAH"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "SIBMAH",
-      "clean": "SIBMAH",
-      "slug": "sibmah",
-      "canonical_id": "NAV:sibmah"
-    }
-  ],
-  "raw_block": "–A city of the tribe of ReubenNu 32:3\n–Apparently also called SHIBMAH and SIBMAH\n–SeeSIBMAH",
-  "content_preview": "–A city of the tribe of ReubenNu 32:3",
-  "reference_groups": [
-    {
-      "idx": 0,
-      "entry_label": "–A city of the tribe of ReubenNu 32:3",
-      "raw_segment": "–A city of the tribe of ReubenNu 32:3"
+      "label": "A city of the tribe of Reuben",
+      "references": [
+        "Numbers 32:3"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–Apparently also called SHIBMAH and SIBMAH",
-      "raw_segment": "–Apparently also called SHIBMAH and SIBMAH"
+      "label": "Apparently al",
+      "references": []
     },
     {
-      "idx": 2,
-      "entry_label": "–SeeSIBMAH",
-      "raw_segment": "–SeeSIBMAH"
+      "label": "SeeSIBMAH",
+      "references": []
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Numbers",
+      "chapter": 32,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Numbers 32:3"
+    }
+  ],
+  "books_mentioned": [
+    "Numbers"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 3,
+    "total_refs": 1,
+    "ot_refs": 1,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:417a62257eb514cdee2e18bedfd9ff360c7d730333e944cdc3d5baa586244ff5",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 3
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 1,
+    "top_books": [
+      "Numbers"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:31:14.223380Z",
-  "updated_at": "2025-09-20T17:31:14.223389Z"
+  }
 }

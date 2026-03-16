@@ -1,69 +1,58 @@
 {
   "topic": "ELAMITES",
-  "topic_slug": "elamites",
+  "slug": "elamites",
   "canonical_id": "NAV:elamites",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–Descendants of Elam, whose name was given to the district of \nElamGe 10:22\n–Present at PentecostAc 2:9",
-  "content_preview": "–Descendants of Elam, whose name was given to the district of ",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–Descendants of Elam, whose name was given to the district of \nElamGe 10:22",
-      "raw_segment": "–Descendants of Elam, whose name was given to the district of \nElamGe 10:22"
+      "label": "Elam",
+      "references": [
+        "Genesis 10:22"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–Present at PentecostAc 2:9",
-      "raw_segment": "–Present at PentecostAc 2:9"
+      "label": "Present at Pentecost",
+      "references": [
+        "Acts 2:9"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Genesis",
+      "chapter": 10,
+      "verses": [
+        22
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 10:22"
+    },
+    {
+      "book": "Acts",
+      "chapter": 2,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 2:9"
+    }
+  ],
+  "books_mentioned": [
+    "Acts",
+    "Genesis"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:b5ce75ef89a518d20d17917f49ca604f64832a7a17ef0fe79d316d7bfc7916df",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 3
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 2,
+    "total_refs": 2,
+    "ot_refs": 1,
+    "nt_refs": 1,
+    "books_count": 2,
+    "top_books": [
+      "Genesis",
+      "Acts"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:25:49.632997Z",
-  "updated_at": "2025-09-20T17:25:49.633006Z"
+  }
 }

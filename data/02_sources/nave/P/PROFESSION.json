@@ -1,90 +1,68 @@
 {
   "topic": "PROFESSION",
-  "topic_slug": "profession",
+  "slug": "profession",
   "canonical_id": "NAV:profession",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "TESTIMONY, RELIGIOUS",
     "CONFESSION"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "TESTIMONY, RELIGIOUS",
-      "clean": "TESTIMONY, RELIGIOUS",
-      "slug": "testimony__religious",
-      "canonical_id": "NAV:testimony__religious"
+      "label": "False",
+      "references": [
+        "Proverbs 20:6",
+        "Hosea 8:2"
+      ]
     },
     {
-      "original": "CONFESSION",
-      "clean": "CONFESSION",
-      "slug": "confession",
-      "canonical_id": "NAV:confession"
+      "label": "Of faith in Jesus",
+      "references": []
+    },
+    {
+      "label": ".SeeCONFESSION",
+      "references": []
+    },
+    {
+      "label": "SeeTESTIMONY, RELIGIOUS",
+      "references": []
     }
   ],
-  "raw_block": "–FalsePr 20:6;Ho 8:2\n–Of faith in Jesus\n  .SeeCONFESSION\n–SeeTESTIMONY, RELIGIOUS",
-  "content_preview": "–FalsePr 20:6;Ho 8:2",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–FalsePr 20:6;Ho 8:2",
-      "raw_segment": "–FalsePr 20:6;Ho 8:2"
+      "book": "Proverbs",
+      "chapter": 20,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 20:6"
     },
     {
-      "idx": 1,
-      "entry_label": "–Of faith in Jesus",
-      "raw_segment": "–Of faith in Jesus"
-    },
-    {
-      "idx": 2,
-      "entry_label": "–SeeTESTIMONY, RELIGIOUS",
-      "raw_segment": "–SeeTESTIMONY, RELIGIOUS"
+      "book": "Hosea",
+      "chapter": 8,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Hosea 8:2"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "Hosea",
+    "Proverbs"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 4,
+    "total_refs": 2,
+    "ot_refs": 2,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:fc7e23008cdd115bdeeac421bccd3fd5ace9e76afbf9b66615b9a22c844356cd",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 4
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 2,
+    "top_books": [
+      "Proverbs",
+      "Hosea"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:30:19.036594Z",
-  "updated_at": "2025-09-20T17:30:19.036601Z"
+  }
 }

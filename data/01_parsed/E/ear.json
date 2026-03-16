@@ -1,64 +1,200 @@
 {
-  "topic": "Ear",
+  "topic": "EAR",
   "slug": "ear",
-  "type": "topic",
-  "reference_groups": [],
-  "biblical_references": [],
-  "stats": {},
-  "sources": [],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.682757+00:00",
-    "merged_from": {
-      "v2": false,
-      "dictionary": true
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [
+    "DEAFNESS"
+  ],
+  "aspects": [
+    {
+      "label": "Blood put upon, in consecration of priest",
+      "references": [
+        "Exodus 29:20",
+        "Leviticus 8:23"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "In cleansing lepers",
+      "references": [
+        "Leviticus 14:14,25"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Anointed with oil in purifi",
+      "references": [
+        "Leviticus 14:17,28"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Bored as a sign of servitu",
+      "references": [
+        "Exodus 21:5,6",
+        "Psalms 40:6"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "See",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "FIGURATIVE",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".Anthropomorphic uses of",
+      "references": [
+        "Psalms 17:6",
+        "Psalms 39:12",
+        "Psalms 77:1",
+        "Psalms 80:1",
+        "Psalms 84:8"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".For more exten",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
-      "book": "Psalms",
-      "chapter": 34,
+      "book": "Exodus",
+      "chapter": 29,
       "verses": [
-        15
+        20
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Psalms 34:15",
-      "source": "EAS"
+      "raw": "Exodus 29:20"
     },
     {
-      "book": "1 Samuel",
-      "chapter": 20,
+      "book": "Leviticus",
+      "chapter": 8,
       "verses": [
-        2
+        23
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Samuel 20:2",
-      "source": "EAS"
+      "raw": "Leviticus 8:23"
     },
     {
-      "book": "Isaiah",
-      "chapter": 6,
+      "book": "Leviticus",
+      "chapter": 14,
       "verses": [
-        10
+        14,
+        25
       ],
-      "verse_count": 1,
+      "verse_count": 2,
       "testament": "OT",
-      "raw": "Isaiah 6:10",
-      "source": "EAS"
+      "raw": "Leviticus 14:14,25"
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 14,
+      "verses": [
+        17,
+        28
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Leviticus 14:17,28"
     },
     {
       "book": "Exodus",
       "chapter": 21,
       "verses": [
+        5,
+        6
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Exodus 21:5,6"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 40,
+      "verses": [
         6
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Exodus 21:6",
-      "source": "EAS"
+      "raw": "Psalms 40:6"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 17,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 17:6"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 39,
+      "verses": [
+        12
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 39:12"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 77,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 77:1"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 80,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 80:1"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 84,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 84:8"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Exodus",
+    "Leviticus",
+    "Psalms"
+  ],
+  "stats": {
+    "total_aspects": 8,
+    "total_refs": 11,
+    "ot_refs": 11,
+    "nt_refs": 0,
+    "books_count": 3,
+    "top_books": [
+      "Psalms",
+      "Leviticus",
+      "Exodus"
+    ]
+  }
 }

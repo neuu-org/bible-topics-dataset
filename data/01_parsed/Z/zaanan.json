@@ -1,55 +1,26 @@
 {
   "topic": "ZAANAN",
   "slug": "zaanan",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Also called ZENAN",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "A place of uncertain location Jos 15:37; Mic 1:11",
-      "references": [
-        "Josh 15:37",
-        "Mic 1:11"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Micah",
-      "book_abbrev": "mic",
-      "chapter": 1,
-      "testament": "OT",
-      "verses": [
-        11
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.734047+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "Al",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "A place of uncertain lo",
+      "references": [
+        "Joshua 15:37",
+        "Micah 1:11"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Joshua",
       "chapter": 15,
@@ -58,8 +29,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Joshua 15:37",
-      "source": "EAS"
+      "raw": "Joshua 15:37"
     },
     {
       "book": "Micah",
@@ -69,8 +39,22 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Micah 1:11",
-      "source": "EAS"
+      "raw": "Micah 1:11"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Joshua",
+    "Micah"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 2,
+    "ot_refs": 2,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "Joshua",
+      "Micah"
+    ]
+  }
 }

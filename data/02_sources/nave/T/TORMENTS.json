@@ -1,78 +1,65 @@
 {
   "topic": "TORMENTS",
-  "topic_slug": "torments",
+  "slug": "torments",
   "canonical_id": "NAV:torments",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "WICKED, PUNISMENT OF"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "WICKED, PUNISMENT OF",
-      "clean": "WICKED, PUNISMENT OF",
-      "slug": "wicked__punisment_of",
-      "canonical_id": "NAV:wicked__punisment_of"
-    }
-  ],
-  "raw_block": "–Of the wickedLu 16:23-28;Re 14:10,11\n–SeeWICKED, PUNISMENT OF",
-  "content_preview": "–Of the wickedLu 16:23-28;Re 14:10,11",
-  "reference_groups": [
-    {
-      "idx": 0,
-      "entry_label": "–Of the wickedLu 16:23-28;Re 14:10,11",
-      "raw_segment": "–Of the wickedLu 16:23-28;Re 14:10,11"
+      "label": "Of the wicked",
+      "references": [
+        "Luke 16:23-28",
+        "Revelation 14:10,11"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–SeeWICKED, PUNISMENT OF",
-      "raw_segment": "–SeeWICKED, PUNISMENT OF"
+      "label": "SeeWICKED, PUNISMENT OF",
+      "references": []
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Luke",
+      "chapter": 16,
+      "verses": [
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ],
+      "verse_count": 6,
+      "testament": "NT",
+      "raw": "Luke 16:23-28"
+    },
+    {
+      "book": "Revelation",
+      "chapter": 14,
+      "verses": [
+        10,
+        11
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Revelation 14:10,11"
+    }
+  ],
+  "books_mentioned": [
+    "Luke",
+    "Revelation"
+  ],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 2,
+    "total_refs": 2,
     "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:bfb4bc47bb198e7fffb221d96ca3f28803ecd1aea1176ec3ba409ff81a0941ef",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "nt_refs": 2,
+    "books_count": 2,
+    "top_books": [
+      "Luke",
+      "Revelation"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:32:17.865103Z",
-  "updated_at": "2025-09-20T17:32:17.865110Z"
+  }
 }

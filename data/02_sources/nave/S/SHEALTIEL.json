@@ -1,69 +1,135 @@
 {
   "topic": "SHEALTIEL",
-  "topic_slug": "shealtiel",
+  "slug": "shealtiel",
   "canonical_id": "NAV:shealtiel",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–Also called SALATHIEL\n–Father of Zerubbabel and an ancestor of Jesus1Ch 3:17;Ezr 3:2,8;5:2;Ne 12:1;Hag 1:1,12,14;2:2,23;Mt 1:12;Lu 3:27",
-  "content_preview": "–Also called SALATHIEL",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–Also called SALATHIEL",
-      "raw_segment": "–Also called SALATHIEL"
+      "label": "Al",
+      "references": []
     },
     {
-      "idx": 1,
-      "entry_label": "–Father of Zerubbabel and an ancestor of Jesus1Ch 3:17;Ezr 3:2,8;5:2;Ne 12:1;Hag 1:1,12,14;2:2,23;Mt 1:12;Lu 3:27",
-      "raw_segment": "–Father of Zerubbabel and an ancestor of Jesus1Ch 3:17;Ezr 3:2,8;5:2;Ne 12:1;Hag 1:1,12,14;2:2,23;Mt 1:12;Lu 3:27"
+      "label": "Father of Zerubbabel and an ancestor of Jesus",
+      "references": [
+        "1 Chronicles 3:17",
+        "Ezra 3:2,8",
+        "Ezra 5:2",
+        "Nehemiah 12:1",
+        "Haggai 1:1,12,14",
+        "Haggai 2:2,23",
+        "Matthew 1:12",
+        "Luke 3:27"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "1 Chronicles",
+      "chapter": 3,
+      "verses": [
+        17
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 3:17"
+    },
+    {
+      "book": "Ezra",
+      "chapter": 3,
+      "verses": [
+        2,
+        8
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Ezra 3:2,8"
+    },
+    {
+      "book": "Ezra",
+      "chapter": 5,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezra 5:2"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 12,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Nehemiah 12:1"
+    },
+    {
+      "book": "Haggai",
+      "chapter": 1,
+      "verses": [
+        1,
+        12,
+        14
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Haggai 1:1,12,14"
+    },
+    {
+      "book": "Haggai",
+      "chapter": 2,
+      "verses": [
+        2,
+        23
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Haggai 2:2,23"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 1,
+      "verses": [
+        12
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 1:12"
+    },
+    {
+      "book": "Luke",
+      "chapter": 3,
+      "verses": [
+        27
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 3:27"
+    }
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Ezra",
+    "Haggai",
+    "Luke",
+    "Matthew",
+    "Nehemiah"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:4670ad011caef1c6e600e909e56f9b25fa20f5a94d66ab41de5c17e5e595ad46",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 2,
+    "total_refs": 8,
+    "ot_refs": 6,
+    "nt_refs": 2,
+    "books_count": 6,
+    "top_books": [
+      "Ezra",
+      "Haggai",
+      "1 Chronicles",
+      "Nehemiah",
+      "Matthew",
+      "Luke"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:31:13.537787Z",
-  "updated_at": "2025-09-20T17:31:13.537795Z"
+  }
 }

@@ -1,38 +1,78 @@
 {
   "topic": "DEBT",
   "slug": "debt",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [
+    "CREDITOR",
+    "DEBTOR",
+    "SURETY"
+  ],
+  "aspects": [
     {
-      "name": "General scriptures concerning Ro 13:8",
+      "label": "General scriptures concerning",
       "references": [
-        "Rom 13:8"
+        "Romans 13:8"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "SECURITY FOR Ex 22:25-27; De 24:6,10-13; Ne 5:3,4; Job 22:6; 24:9; Pr 11:15; 22:26; Am 2:8",
+      "label": "SECURITY FOR",
       "references": [
-        "Exod 22:25-27",
-        "Deut 24:6",
-        "Deut 24:10-13",
-        "Neh 5:3",
-        "Neh 5:4",
+        "Exodus 22:25-27",
+        "Deuteronomy 24:6,10-13",
+        "Nehemiah 5:3,4",
         "Job 22:6",
         "Job 24:9",
-        "Prov 11:15",
-        "Prov 22:26",
+        "Proverbs 11:15",
+        "Proverbs 22:26",
         "Amos 2:8"
       ],
-      "sub_groups": []
+      "source": "NAV"
+    },
+    {
+      "label": ".See",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".SeeCREDITOR",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".SeeSURETY",
+      "references": [],
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Deuteronomy",
-      "book_abbrev": "deu",
-      "chapter": 24,
+      "book": "Romans",
+      "chapter": 13,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Romans 13:8"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 22,
+      "verses": [
+        25,
+        26,
+        27
+      ],
+      "verse_count": 3,
       "testament": "OT",
+      "raw": "Exodus 22:25-27"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 24,
       "verses": [
         6,
         10,
@@ -40,176 +80,95 @@
         12,
         13
       ],
-      "verse_count": 5
+      "verse_count": 5,
+      "testament": "OT",
+      "raw": "Deuteronomy 24:6,10-13"
     },
     {
       "book": "Nehemiah",
-      "book_abbrev": "neh",
       "chapter": 5,
-      "testament": "OT",
       "verses": [
         3,
         4
       ],
-      "verse_count": 2
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Nehemiah 5:3,4"
     },
     {
       "book": "Job",
-      "book_abbrev": "job",
       "chapter": 22,
-      "testament": "OT",
       "verses": [
-        6,
-        24
-      ],
-      "verse_count": 2
-    },
-    {
-      "book": "Proverbs",
-      "book_abbrev": "pro",
-      "chapter": 11,
-      "testament": "OT",
-      "verses": [
-        15,
-        22
-      ],
-      "verse_count": 2
-    },
-    {
-      "book": "Amos",
-      "book_abbrev": "amo",
-      "chapter": 2,
-      "testament": "OT",
-      "verses": [
-        8
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [
-    "CREDITOR",
-    "DEBTOR",
-    "SURETY"
-  ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 5,
-    "nt_refs": 0,
-    "total_verses": 5
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.680831+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "Deuteronomy",
-      "chapter": 15,
-      "verses": [
-        7
+        6
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Deuteronomy 15:7",
-      "source": "EAS"
+      "raw": "Job 22:6"
     },
     {
-      "book": "Psalms",
-      "chapter": 37,
+      "book": "Job",
+      "chapter": 24,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Job 24:9"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 11,
+      "verses": [
+        15
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 11:15"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 22,
       "verses": [
         26
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Psalms 37:26",
-      "source": "EAS"
+      "raw": "Proverbs 22:26"
     },
     {
-      "book": "Matthew",
-      "chapter": 5,
-      "verses": [
-        42
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Matthew 5:42",
-      "source": "EAS"
-    },
-    {
-      "book": "Proverbs",
-      "chapter": 28,
+      "book": "Amos",
+      "chapter": 2,
       "verses": [
         8
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Proverbs 28:8",
-      "source": "EAS"
-    },
-    {
-      "book": "Ezekiel",
-      "chapter": 18,
-      "verses": [
-        8,
-        13,
-        17
-      ],
-      "verse_count": 3,
-      "testament": "OT",
-      "raw": "Ezekiel 18:8, 13, 17",
-      "source": "EAS"
-    },
-    {
-      "book": "Ezekiel",
-      "chapter": 22,
-      "verses": [
-        12
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Ezekiel 22:12",
-      "source": "EAS"
-    },
-    {
-      "book": "Psalms",
-      "chapter": 15,
-      "verses": [
-        5
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Psalms 15:5",
-      "source": "EAS"
-    },
-    {
-      "book": "Deuteronomy",
-      "chapter": 15,
-      "verses": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11
-      ],
-      "verse_count": 11,
-      "testament": "OT",
-      "raw": "Deuteronomy 15:1-11",
-      "source": "EAS"
+      "raw": "Amos 2:8"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Amos",
+    "Deuteronomy",
+    "Exodus",
+    "Job",
+    "Nehemiah",
+    "Proverbs",
+    "Romans"
+  ],
+  "stats": {
+    "total_aspects": 5,
+    "total_refs": 9,
+    "ot_refs": 8,
+    "nt_refs": 1,
+    "books_count": 7,
+    "top_books": [
+      "Job",
+      "Proverbs",
+      "Romans",
+      "Exodus",
+      "Deuteronomy",
+      "Nehemiah",
+      "Amos"
+    ]
+  }
 }

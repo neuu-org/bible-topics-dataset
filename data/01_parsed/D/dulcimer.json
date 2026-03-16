@@ -1,71 +1,51 @@
 {
   "topic": "DULCIMER",
   "slug": "dulcimer",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [
+    "MUSIC, INSTRUMENTS OF"
+  ],
+  "aspects": [
     {
-      "name": "(R. V., margin, bagpipe) Da 3:5,10,15",
+      "label": "(R. V., margin, bagpipe)",
       "references": [
-        "Dan 3:5",
-        "Dan 3:10",
-        "Dan 3:15"
+        "Daniel 3:5,10,15"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See MUSIC, INSTRUMENTS OF",
+      "label": "SeeMUSIC, INSTRUMENTS OF",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
       "book": "Daniel",
-      "book_abbrev": "dan",
       "chapter": 3,
-      "testament": "OT",
       "verses": [
         5,
         10,
         15
       ],
-      "verse_count": 3
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Daniel 3:5,10,15"
     }
   ],
-  "see_also": [
-    "MUSIC, INSTRUMENTS OF"
+  "books_mentioned": [
+    "Daniel"
   ],
-  "aliases": [],
   "stats": {
-    "entries_count": 2,
+    "total_aspects": 2,
+    "total_refs": 1,
     "ot_refs": 1,
     "nt_refs": 0,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.682595+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "Daniel",
-      "chapter": 3,
-      "verses": [
-        5,
-        15
-      ],
-      "verse_count": 2,
-      "testament": "OT",
-      "raw": "Daniel 3:5, 15",
-      "source": "EAS"
-    }
-  ]
+    "books_count": 1,
+    "top_books": [
+      "Daniel"
+    ]
+  }
 }

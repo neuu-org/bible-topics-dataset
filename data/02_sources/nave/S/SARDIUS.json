@@ -1,84 +1,111 @@
 {
   "topic": "SARDIUS",
-  "topic_slug": "sardius",
+  "slug": "sardius",
   "canonical_id": "NAV:sardius",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–(A precious stone)\n–In the breastplateEx 28:17;39:10\n–In the garden of EdenEze 28:13\n–Seen in John’ s apocalyptic vision of the foundation of the New \nJerusalemRe 21:20\n–FIGURATIVERe 4:3",
-  "content_preview": "–(A precious stone)",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–(A precious stone)",
-      "raw_segment": "–(A precious stone)"
+      "label": "(A precious stone)",
+      "references": []
     },
     {
-      "idx": 1,
-      "entry_label": "–In the breastplateEx 28:17;39:10",
-      "raw_segment": "–In the breastplateEx 28:17;39:10"
+      "label": "In the breastplate",
+      "references": [
+        "Exodus 28:17",
+        "Exodus 39:10"
+      ]
     },
     {
-      "idx": 2,
-      "entry_label": "–In the garden of EdenEze 28:13",
-      "raw_segment": "–In the garden of EdenEze 28:13"
+      "label": "In the gar",
+      "references": [
+        "Ezekiel 28:13"
+      ]
     },
     {
-      "idx": 3,
-      "entry_label": "–Seen in John’ s apocalyptic vision of the foundation of the New \nJerusalemRe 21:20",
-      "raw_segment": "–Seen in John’ s apocalyptic vision of the foundation of the New \nJerusalemRe 21:20"
+      "label": "Seen in",
+      "references": []
     },
     {
-      "idx": 4,
-      "entry_label": "–FIGURATIVERe 4:3",
-      "raw_segment": "–FIGURATIVERe 4:3"
+      "label": "General references",
+      "references": [
+        "Revelation 21:20"
+      ]
+    },
+    {
+      "label": "FIGURATIVE",
+      "references": [
+        "Revelation 4:3"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Exodus",
+      "chapter": 28,
+      "verses": [
+        17
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 28:17"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 39,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 39:10"
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 28,
+      "verses": [
+        13
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezekiel 28:13"
+    },
+    {
+      "book": "Revelation",
+      "chapter": 21,
+      "verses": [
+        20
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Revelation 21:20"
+    },
+    {
+      "book": "Revelation",
+      "chapter": 4,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Revelation 4:3"
+    }
+  ],
+  "books_mentioned": [
+    "Exodus",
+    "Ezekiel",
+    "Revelation"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:372e3c14c3e247666ef9581a2e0befb7eb1f48daf65130c1e50f59e0b67c607b",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 6
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 6,
+    "total_refs": 5,
+    "ot_refs": 3,
+    "nt_refs": 2,
+    "books_count": 3,
+    "top_books": [
+      "Exodus",
+      "Revelation",
+      "Ezekiel"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:30:53.606678Z",
-  "updated_at": "2025-09-20T17:30:53.606685Z"
+  }
 }

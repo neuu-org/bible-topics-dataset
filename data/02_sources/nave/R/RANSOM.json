@@ -1,92 +1,197 @@
 {
   "topic": "RANSOM",
-  "topic_slug": "ransom",
+  "slug": "ransom",
   "canonical_id": "NAV:ransom",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "REDEMPTION",
     "SAVIOUR",
     "JESUS"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "REDEMPTION",
-      "clean": "REDEMPTION",
-      "slug": "redemption",
-      "canonical_id": "NAV:redemption"
+      "label": "Of a man’ s life",
+      "references": [
+        "Exodus 21:30",
+        "Exodus 30:12",
+        "Job 36:18",
+        "Psalms 49:7,8",
+        "Proverbs 6:35",
+        "Proverbs 13:8",
+        "Hosea 13:14"
+      ]
     },
     {
-      "original": "SAVIOUR",
-      "clean": "SAVIOUR",
-      "slug": "saviour",
-      "canonical_id": "NAV:saviour"
+      "label": "FIGURATIVE",
+      "references": [
+        "Job 33:24",
+        "Isaiah 35:10",
+        "Isaiah 51:10",
+        "Matthew 20:28",
+        "1 Timothy 2:6"
+      ]
     },
     {
-      "original": "JESUS",
-      "clean": "JESUS",
-      "slug": "jesus",
-      "canonical_id": "NAV:jesus"
+      "label": ".SeeJESUS",
+      "references": []
+    },
+    {
+      "label": ".SeeSAVIOUR",
+      "references": []
+    },
+    {
+      "label": ".SeeRE",
+      "references": []
     }
   ],
-  "raw_block": "–Of a man’ s lifeEx 21:30;30:12;Job 36:18;Ps 49:7,8;Pr 6:35;13:8;Ho 13:14\n–FIGURATIVEJob 33:24;Isa 35:10;51:10;Mt 20:28;1Ti 2:6\n  .SeeJESUS\n  .SeeSAVIOUR\n  .SeeREDEMPTION",
-  "content_preview": "–Of a man’ s lifeEx 21:30;30:12;Job 36:18;Ps 49:7,8;Pr 6:35;13:8;Ho 13:14",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–Of a man’ s lifeEx 21:30;30:12;Job 36:18;Ps 49:7,8;Pr 6:35;13:8;Ho 13:14",
-      "raw_segment": "–Of a man’ s lifeEx 21:30;30:12;Job 36:18;Ps 49:7,8;Pr 6:35;13:8;Ho 13:14"
+      "book": "Exodus",
+      "chapter": 21,
+      "verses": [
+        30
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 21:30"
     },
     {
-      "idx": 1,
-      "entry_label": "–FIGURATIVEJob 33:24;Isa 35:10;51:10;Mt 20:28;1Ti 2:6",
-      "raw_segment": "–FIGURATIVEJob 33:24;Isa 35:10;51:10;Mt 20:28;1Ti 2:6"
+      "book": "Exodus",
+      "chapter": 30,
+      "verses": [
+        12
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 30:12"
+    },
+    {
+      "book": "Job",
+      "chapter": 36,
+      "verses": [
+        18
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Job 36:18"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 49,
+      "verses": [
+        7,
+        8
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Psalms 49:7,8"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 6,
+      "verses": [
+        35
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 6:35"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 13,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 13:8"
+    },
+    {
+      "book": "Hosea",
+      "chapter": 13,
+      "verses": [
+        14
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Hosea 13:14"
+    },
+    {
+      "book": "Job",
+      "chapter": 33,
+      "verses": [
+        24
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Job 33:24"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 35,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 35:10"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 51,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 51:10"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 20,
+      "verses": [
+        28
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 20:28"
+    },
+    {
+      "book": "1 Timothy",
+      "chapter": 2,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "1 Timothy 2:6"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "1 Timothy",
+    "Exodus",
+    "Hosea",
+    "Isaiah",
+    "Job",
+    "Matthew",
+    "Proverbs",
+    "Psalms"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:a7536532af07f4c8c652b37aaea8401aa22ef914063c4e16b312a0d2a67d98a5",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 5
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 5,
+    "total_refs": 12,
+    "ot_refs": 10,
+    "nt_refs": 2,
+    "books_count": 8,
+    "top_books": [
+      "Exodus",
+      "Job",
+      "Proverbs",
+      "Isaiah",
+      "Psalms",
+      "Hosea",
+      "Matthew",
+      "1 Timothy"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:30:29.920583Z",
-  "updated_at": "2025-09-20T17:30:29.920592Z"
+  }
 }

@@ -1,46 +1,36 @@
 {
   "topic": "KANAH",
   "slug": "kanah",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. A brook dividing the territory of Ephraim from the territory of Manasseh Jos 16:8; 17:9",
-      "references": [
-        "Josh 16:8",
-        "Josh 17:9"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "2. A town in the territory of the tribe of Asher Jos 19:28",
-      "references": [
-        "Josh 19:28"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.698422+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "1. A brook dividing the territory of Ephraim from the territory",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "of Manasseh",
+      "references": [
+        "Joshua 16:8",
+        "Joshua 17:9"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2. A town in the territory of the tribe of AsherJos",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "19:28",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Joshua",
       "chapter": 16,
@@ -49,8 +39,17 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Joshua 16:8",
-      "source": "EAS"
+      "raw": "Joshua 16:8"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 17,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 17:9"
     },
     {
       "book": "Joshua",
@@ -60,8 +59,20 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Joshua 19:28",
-      "source": "EAS"
+      "raw": "Joshua 19:28"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Joshua"
+  ],
+  "stats": {
+    "total_aspects": 4,
+    "total_refs": 3,
+    "ot_refs": 3,
+    "nt_refs": 0,
+    "books_count": 1,
+    "top_books": [
+      "Joshua"
+    ]
+  }
 }

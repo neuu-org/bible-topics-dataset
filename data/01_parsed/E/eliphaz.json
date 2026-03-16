@@ -1,62 +1,29 @@
 {
   "topic": "ELIPHAZ",
   "slug": "eliphaz",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. Son of Esau Ge 36:4,10-16; 1Ch 1:35",
-      "references": [
-        "Gen 36:4",
-        "Gen 36:10-16",
-        "1Chr 1:35"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "2. Friend of Job Job 2:11; 4; 5; 22; 42:7-9",
-      "references": [
-        "Job 2:11",
-        "Job 4",
-        "Job 5",
-        "Job 22",
-        "Job 42:7-9"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "1 Chronicles",
-      "book_abbrev": "1ch",
-      "chapter": 1,
-      "testament": "OT",
-      "verses": [
-        35
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.683694+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "1.",
+      "references": [
+        "Genesis 36:4,10-16",
+        "1 Chronicles 1:35"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2. Friend of Job",
+      "references": [
+        "Job 2:11",
+        "Job 42:7-9"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Genesis",
       "chapter": 36,
@@ -64,12 +31,64 @@
         4,
         10,
         11,
+        12,
+        13,
+        14,
+        15,
         16
       ],
-      "verse_count": 4,
+      "verse_count": 8,
       "testament": "OT",
-      "raw": "Genesis 36:4, 10, 11, 16",
-      "source": "EAS"
+      "raw": "Genesis 36:4,10-16"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 1,
+      "verses": [
+        35
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 1:35"
+    },
+    {
+      "book": "Job",
+      "chapter": 2,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Job 2:11"
+    },
+    {
+      "book": "Job",
+      "chapter": 42,
+      "verses": [
+        7,
+        8,
+        9
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Job 42:7-9"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Genesis",
+    "Job"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 4,
+    "ot_refs": 4,
+    "nt_refs": 0,
+    "books_count": 3,
+    "top_books": [
+      "Job",
+      "Genesis",
+      "1 Chronicles"
+    ]
+  }
 }

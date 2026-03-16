@@ -1,54 +1,76 @@
 {
   "topic": "AVITES",
   "slug": "avites",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "1. A nation in southern part of Canaan De 2:23; Jos 13:3",
+      "label": "1. A nation in",
       "references": [
-        "Deut 2:23",
-        "Josh 13:3"
+        "Deuteronomy 2:23"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "2. Colonists of Samaria 2Ki 17:31",
+      "label": "13:3",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "2. Colonists of Samaria",
       "references": [
-        "2Kgs 17:31"
+        "2 Kings 17:31"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Joshua",
-      "book_abbrev": "jos",
-      "chapter": 13,
+      "book": "Deuteronomy",
+      "chapter": 2,
+      "verses": [
+        23
+      ],
+      "verse_count": 1,
       "testament": "OT",
+      "raw": "Deuteronomy 2:23"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 13,
       "verses": [
         3
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 13:3"
+    },
+    {
+      "book": "2 Kings",
+      "chapter": 17,
+      "verses": [
+        31
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Kings 17:31"
     }
   ],
-  "see_also": [],
-  "aliases": [],
+  "books_mentioned": [
+    "2 Kings",
+    "Deuteronomy"
+  ],
   "stats": {
-    "entries_count": 2,
-    "ot_refs": 1,
+    "total_aspects": 3,
+    "total_refs": 3,
+    "ot_refs": 3,
     "nt_refs": 0,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.670947+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    }
-  },
-  "version": "3.0.0"
+    "books_count": 2,
+    "top_books": [
+      "Deuteronomy",
+      "2 Kings"
+    ]
+  }
 }

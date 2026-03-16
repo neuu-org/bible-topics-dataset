@@ -1,55 +1,73 @@
 {
   "topic": "CLOTHING",
   "slug": "clothing",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Of the Israelites, did not become old De 8:4; 29:5; Ne 9:21",
-      "references": [
-        "Deut 8:4",
-        "Deut 29:5",
-        "Neh 9:21"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "See DRESS",
-      "references": [],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Nehemiah",
-      "book_abbrev": "neh",
-      "chapter": 9,
-      "testament": "OT",
-      "verses": [
-        21
-      ],
-      "verse_count": 1
-    }
+  "sources": [
+    "NAV"
   ],
   "see_also": [
     "DRESS"
   ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.678411+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "aspects": [
+    {
+      "label": "Of the Israelites, did not become old",
+      "references": [
+        "Deuteronomy 8:4",
+        "Deuteronomy 29:5",
+        "Nehemiah 9:21"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeDRESS",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0"
+  ],
+  "biblical_references": [
+    {
+      "book": "Deuteronomy",
+      "chapter": 8,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 8:4"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 29,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 29:5"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 9,
+      "verses": [
+        21
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Nehemiah 9:21"
+    }
+  ],
+  "books_mentioned": [
+    "Deuteronomy",
+    "Nehemiah"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 3,
+    "ot_refs": 3,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "Deuteronomy",
+      "Nehemiah"
+    ]
+  }
 }

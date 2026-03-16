@@ -1,69 +1,93 @@
 {
   "topic": "BAAL-GAD",
-  "topic_slug": "baal_gad",
+  "slug": "baal_gad",
   "canonical_id": "NAV:baal_gad",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–A city of the CanaanitesJos 11:17;12:7;13:5\n–Probably identical with BAAL-HERMONJud 3:3;1Ch 5:23",
-  "content_preview": "–A city of the CanaanitesJos 11:17;12:7;13:5",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–A city of the CanaanitesJos 11:17;12:7;13:5",
-      "raw_segment": "–A city of the CanaanitesJos 11:17;12:7;13:5"
+      "label": "A city of the",
+      "references": [
+        "Joshua 11:17",
+        "Joshua 12:7",
+        "Joshua 13:5"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–Probably identical with BAAL-HERMONJud 3:3;1Ch 5:23",
-      "raw_segment": "–Probably identical with BAAL-HERMONJud 3:3;1Ch 5:23"
+      "label": "Probably i",
+      "references": [
+        "Judges 3:3",
+        "1 Chronicles 5:23"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Joshua",
+      "chapter": 11,
+      "verses": [
+        17
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 11:17"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 12,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 12:7"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 13,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 13:5"
+    },
+    {
+      "book": "Judges",
+      "chapter": 3,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Judges 3:3"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 5,
+      "verses": [
+        23
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 5:23"
+    }
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Joshua",
+    "Judges"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 2,
+    "total_refs": 5,
+    "ot_refs": 5,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:f7dff0a0757b2547e507d6c2eee2bb1b1616950e4c9736ca692af361428948de",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 3,
+    "top_books": [
+      "Joshua",
+      "Judges",
+      "1 Chronicles"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:24:02.131635Z",
-  "updated_at": "2025-09-20T17:24:02.131642Z"
+  }
 }

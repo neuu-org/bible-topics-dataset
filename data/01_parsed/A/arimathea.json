@@ -1,134 +1,28 @@
 {
   "topic": "ARIMATHEA",
   "slug": "arimathea",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "Also called RAMAH",
+      "label": "Al",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "A town five miles north of Jerusalem Mt 27:57; Mr 15:43; Lu 23:51; Joh 19:38",
+      "label": "A town five miles north of",
       "references": [
-        "Matt 27:57",
+        "Matthew 27:57",
         "Mark 15:43",
         "Luke 23:51",
         "John 19:38"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
-    {
-      "book": "Mark",
-      "book_abbrev": "mrk",
-      "chapter": 15,
-      "testament": "NT",
-      "verses": [
-        43
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Luke",
-      "book_abbrev": "luk",
-      "chapter": 23,
-      "testament": "NT",
-      "verses": [
-        51
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "John",
-      "book_abbrev": "jhn",
-      "chapter": 19,
-      "testament": "NT",
-      "verses": [
-        38
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 3,
-    "total_verses": 3
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.669673+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "Luke",
-      "chapter": 23,
-      "verses": [
-        51
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Luke 23:51",
-      "source": "EAS"
-    },
-    {
-      "book": "Matthew",
-      "chapter": 27,
-      "verses": [
-        57,
-        60
-      ],
-      "verse_count": 2,
-      "testament": "NT",
-      "raw": "Matthew 27:57, 60",
-      "source": "EAS"
-    },
-    {
-      "book": "John",
-      "chapter": 19,
-      "verses": [
-        38
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "John 19:38",
-      "source": "EAS"
-    },
-    {
-      "book": "1 Samuel",
-      "chapter": 1,
-      "verses": [
-        1,
-        19
-      ],
-      "verse_count": 2,
-      "testament": "OT",
-      "raw": "1 Samuel 1:1, 19",
-      "source": "EAS"
-    },
-    {
-      "book": "Matthew",
-      "chapter": 2,
-      "verses": [
-        18
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Matthew 2:18",
-      "source": "EAS"
-    },
     {
       "book": "Matthew",
       "chapter": 27,
@@ -137,8 +31,56 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Matthew 27:57",
-      "source": "SMI"
+      "raw": "Matthew 27:57"
+    },
+    {
+      "book": "Mark",
+      "chapter": 15,
+      "verses": [
+        43
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Mark 15:43"
+    },
+    {
+      "book": "Luke",
+      "chapter": 23,
+      "verses": [
+        51
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 23:51"
+    },
+    {
+      "book": "John",
+      "chapter": 19,
+      "verses": [
+        38
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "John 19:38"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "John",
+    "Luke",
+    "Mark",
+    "Matthew"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 4,
+    "ot_refs": 0,
+    "nt_refs": 4,
+    "books_count": 4,
+    "top_books": [
+      "Matthew",
+      "Mark",
+      "Luke",
+      "John"
+    ]
+  }
 }

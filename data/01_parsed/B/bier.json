@@ -1,60 +1,31 @@
 {
   "topic": "BIER",
   "slug": "bier",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "(A coffin) 2Sa 3:31; Lu 7:14",
+      "label": "(A coffin)",
       "references": [
-        "2Sam 3:31",
+        "2 Samuel 3:31",
         "Luke 7:14"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
       "book": "2 Samuel",
-      "book_abbrev": "2sa",
       "chapter": 3,
-      "testament": "OT",
       "verses": [
         31
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Samuel 3:31"
     },
-    {
-      "book": "Luke",
-      "book_abbrev": "luk",
-      "chapter": 7,
-      "testament": "NT",
-      "verses": [
-        14
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 1,
-    "nt_refs": 1,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.674374+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
     {
       "book": "Luke",
       "chapter": 7,
@@ -63,8 +34,22 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Luke 7:14",
-      "source": "EAS"
+      "raw": "Luke 7:14"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "2 Samuel",
+    "Luke"
+  ],
+  "stats": {
+    "total_aspects": 1,
+    "total_refs": 2,
+    "ot_refs": 1,
+    "nt_refs": 1,
+    "books_count": 2,
+    "top_books": [
+      "2 Samuel",
+      "Luke"
+    ]
+  }
 }

@@ -1,39 +1,31 @@
 {
   "topic": "CLAUDIUS",
   "slug": "claudius",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "Emperor of Rome Ac 11:28; 18:2",
+      "label": "Emperor of Rome",
       "references": [
         "Acts 11:28",
         "Acts 18:2"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.678296+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "biblical_references": [
+    {
+      "book": "Acts",
+      "chapter": 11,
+      "verses": [
+        28
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 11:28"
+    },
     {
       "book": "Acts",
       "chapter": 18,
@@ -42,74 +34,20 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Acts 18:2",
-      "source": "EAS"
-    },
-    {
-      "book": "Acts",
-      "chapter": 21,
-      "verses": [
-        31,
-        32,
-        33,
-        34,
-        35,
-        36,
-        37,
-        38,
-        39,
-        40
-      ],
-      "verse_count": 10,
-      "testament": "NT",
-      "raw": "Acts 21:31-40",
-      "source": "EAS"
-    },
-    {
-      "book": "Acts",
-      "chapter": 22,
-      "verses": [
-        28
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Acts 22:28",
-      "source": "EAS"
-    },
-    {
-      "book": "Acts",
-      "chapter": 23,
-      "verses": [
-        26
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Acts 23:26",
-      "source": "EAS"
-    },
-    {
-      "book": "Acts",
-      "chapter": 12,
-      "verses": [
-        2
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Acts 12:2",
-      "source": "EAS"
-    },
-    {
-      "book": "Acts",
-      "chapter": 11,
-      "verses": [
-        28,
-        29,
-        30
-      ],
-      "verse_count": 3,
-      "testament": "NT",
-      "raw": "Acts 11:28-30",
-      "source": "SMI"
+      "raw": "Acts 18:2"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Acts"
+  ],
+  "stats": {
+    "total_aspects": 1,
+    "total_refs": 2,
+    "ot_refs": 0,
+    "nt_refs": 2,
+    "books_count": 1,
+    "top_books": [
+      "Acts"
+    ]
+  }
 }

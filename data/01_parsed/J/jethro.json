@@ -1,95 +1,64 @@
 {
   "topic": "JETHRO",
   "slug": "jethro",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "Called RAGUEL and REUEL",
+      "label": "(A priest of Midian)",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "(A priest of Midian)",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "Moses spent forty years of exile with, and married his daughter Ex 2:15-22; 3:1; 4:18; Nu 10:29",
+      "label": "Moses spent forty years of exile with, and married his daughter",
       "references": [
-        "Exod 2:15-22",
-        "Exod 3:1",
-        "Exod 4:18",
-        "Num 10:29"
+        "Exodus 2:15-22",
+        "Exodus 3:1",
+        "Exodus 4:18",
+        "Numbers 10:29"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Numbers",
-      "book_abbrev": "num",
-      "chapter": 10,
-      "testament": "OT",
+      "book": "Exodus",
+      "chapter": 2,
       "verses": [
-        29
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
       ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.696894+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+      "verse_count": 8,
+      "testament": "OT",
+      "raw": "Exodus 2:15-22"
+    },
     {
       "book": "Exodus",
-      "chapter": 18,
+      "chapter": 3,
       "verses": [
-        8
+        1
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Exodus 18:8",
-      "source": "EAS"
-    },
-    {
-      "book": "Numbers",
-      "chapter": 10,
-      "verses": [
-        31,
-        33
-      ],
-      "verse_count": 2,
-      "testament": "OT",
-      "raw": "Numbers 10:31,33",
-      "source": "SMI"
+      "raw": "Exodus 3:1"
     },
     {
       "book": "Exodus",
-      "chapter": 2,
+      "chapter": 4,
       "verses": [
         18
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Exodus 2:18",
-      "source": "SMI"
+      "raw": "Exodus 4:18"
     },
     {
       "book": "Numbers",
@@ -99,8 +68,22 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Numbers 10:29",
-      "source": "SMI"
+      "raw": "Numbers 10:29"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Exodus",
+    "Numbers"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 4,
+    "ot_refs": 4,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "Exodus",
+      "Numbers"
+    ]
+  }
 }

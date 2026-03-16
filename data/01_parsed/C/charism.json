@@ -1,103 +1,123 @@
 {
   "topic": "CHARISM",
   "slug": "charism",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [
+    "MIRACLES",
+    "TONGUES"
+  ],
+  "aspects": [
     {
-      "name": "An inspired gift, bestowed on the apostles and early Christians Mt 10:1,8; Mr 16:17,18; Lu 10:1,9,17,19; Ac 2:4; 10:44-46; 19:6; 1Co 12",
+      "label": "An inspired gift, bestowed on the apostles and early Christians",
       "references": [
-        "Matt 10:1",
-        "Matt 10:8",
-        "Mark 16:17",
-        "Mark 16:18",
-        "Luke 10:1",
-        "Luke 10:9",
-        "Luke 10:17",
-        "Luke 10:19",
+        "Matthew 10:1,8",
+        "Mark 16:17,18",
+        "Luke 10:1,9,17,19",
         "Acts 2:4",
         "Acts 10:44-46",
-        "Acts 19:6",
-        "1Cor 12"
+        "Acts 19:6"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See MIRACLES",
+      "label": "SeeMIRACLES",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See TONGUES",
+      "label": "SeeTONGUES",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Mark",
-      "book_abbrev": "mrk",
-      "chapter": 16,
+      "book": "Matthew",
+      "chapter": 10,
+      "verses": [
+        1,
+        8
+      ],
+      "verse_count": 2,
       "testament": "NT",
+      "raw": "Matthew 10:1,8"
+    },
+    {
+      "book": "Mark",
+      "chapter": 16,
       "verses": [
         17,
         18
       ],
-      "verse_count": 2
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Mark 16:17,18"
     },
     {
       "book": "Luke",
-      "book_abbrev": "luk",
       "chapter": 10,
-      "testament": "NT",
       "verses": [
         1,
         9,
         17,
         19
       ],
-      "verse_count": 4
+      "verse_count": 4,
+      "testament": "NT",
+      "raw": "Luke 10:1,9,17,19"
     },
     {
       "book": "Acts",
-      "book_abbrev": "act",
       "chapter": 2,
-      "testament": "NT",
       "verses": [
-        4,
-        10
+        4
       ],
-      "verse_count": 2
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 2:4"
     },
     {
-      "book": "1 Corinthians",
-      "book_abbrev": "1co",
-      "chapter": 12,
+      "book": "Acts",
+      "chapter": 10,
+      "verses": [
+        44,
+        45,
+        46
+      ],
+      "verse_count": 3,
       "testament": "NT",
-      "verses": [],
-      "verse_count": 1
+      "raw": "Acts 10:44-46"
+    },
+    {
+      "book": "Acts",
+      "chapter": 19,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 19:6"
     }
   ],
-  "see_also": [
-    "TONGUES",
-    "MIRACLES"
+  "books_mentioned": [
+    "Acts",
+    "Luke",
+    "Mark",
+    "Matthew"
   ],
-  "aliases": [],
   "stats": {
-    "entries_count": 3,
+    "total_aspects": 3,
+    "total_refs": 6,
     "ot_refs": 0,
-    "nt_refs": 4,
-    "total_verses": 4
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.677162+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    }
-  },
-  "version": "3.0.0"
+    "nt_refs": 6,
+    "books_count": 4,
+    "top_books": [
+      "Acts",
+      "Matthew",
+      "Mark",
+      "Luke"
+    ]
+  }
 }

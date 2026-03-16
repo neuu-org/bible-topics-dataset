@@ -1,67 +1,8 @@
 {
   "topic": "CURSING",
   "slug": "cursing",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Of parents",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "Shimei curses David 2Sa 16:5-8",
-      "references": [
-        "2Sam 16:5-8"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "The precepts of Jesus concerning Mt 5:44; Lu 6:28",
-      "references": [
-        "Matt 5:44",
-        "Luke 6:28"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Apostolic Ro 12:4",
-      "references": [
-        "Rom 12:4"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "See ANATHEMA MARAN-ATHA",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "See BLASPHEMY",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "See GOD, NAME OF, NOT TO BE PROFANED",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "See OATH",
-      "references": [],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Luke",
-      "book_abbrev": "luk",
-      "chapter": 6,
-      "testament": "NT",
-      "verses": [
-        28
-      ],
-      "verse_count": 1
-    }
+  "sources": [
+    "NAV"
   ],
   "see_also": [
     "ANATHEMA MARAN-ATHA",
@@ -69,23 +10,117 @@
     "GOD, NAME OF, NOT TO BE PROFANED",
     "OATH"
   ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 8,
-    "ot_refs": 0,
-    "nt_refs": 1,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.680012+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
+  "aspects": [
+    {
+      "label": "Of parents",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "Shimei curses David",
+      "references": [
+        "2 Samuel 16:5-8"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "The precepts of Jesus concerning",
+      "references": [
+        "Matthew 5:44",
+        "Luke 6:28"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Apostolic",
+      "references": [
+        "Romans 12:4"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeANATHEMA MARAN-ATHA",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeBLASPHEMY",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeGOD, NAME OF, NOT TO BE PROFANED",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeOATH",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0"
+  ],
+  "biblical_references": [
+    {
+      "book": "2 Samuel",
+      "chapter": 16,
+      "verses": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "verse_count": 4,
+      "testament": "OT",
+      "raw": "2 Samuel 16:5-8"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 5,
+      "verses": [
+        44
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 5:44"
+    },
+    {
+      "book": "Luke",
+      "chapter": 6,
+      "verses": [
+        28
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 6:28"
+    },
+    {
+      "book": "Romans",
+      "chapter": 12,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Romans 12:4"
+    }
+  ],
+  "books_mentioned": [
+    "2 Samuel",
+    "Luke",
+    "Matthew",
+    "Romans"
+  ],
+  "stats": {
+    "total_aspects": 8,
+    "total_refs": 4,
+    "ot_refs": 1,
+    "nt_refs": 3,
+    "books_count": 4,
+    "top_books": [
+      "2 Samuel",
+      "Matthew",
+      "Luke",
+      "Romans"
+    ]
+  }
 }

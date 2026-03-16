@@ -1,45 +1,25 @@
 {
   "topic": "EZEL",
   "slug": "ezel",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "(A stone near Saul’s residence)",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "David and Jonathan meet at 1Sa 20:19",
-      "references": [
-        "1Sam 20:19"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.685839+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "(A stone near Saul’s resi",
+      "references": [],
+      "source": "NAV"
     },
-    "enriched_at": "2025-12-02T22:02:10.046459+00:00",
-    "enrichment_source": "pipeline_merge"
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+    {
+      "label": "David and Jonathan meet at",
+      "references": [
+        "1 Samuel 20:19"
+      ],
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
     {
       "book": "1 Samuel",
       "chapter": 20,
@@ -48,8 +28,20 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Samuel 20:19",
-      "source": "EAS"
+      "raw": "1 Samuel 20:19"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Samuel"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 1,
+    "ot_refs": 1,
+    "nt_refs": 0,
+    "books_count": 1,
+    "top_books": [
+      "1 Samuel"
+    ]
+  }
 }

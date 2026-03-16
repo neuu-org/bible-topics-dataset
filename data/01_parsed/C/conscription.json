@@ -1,42 +1,49 @@
 {
   "topic": "CONSCRIPTION",
   "slug": "conscription",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Of soldiers 1Sa 14:52",
-      "references": [
-        "1Sam 14:52"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "See ARMIES",
-      "references": [],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [
-    "ARMIES"
-  ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.679091+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
+  "see_also": [
+    "ARMIES"
+  ],
+  "aspects": [
+    {
+      "label": "Of",
+      "references": [
+        "1 Samuel 14:52"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeARMIES",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0"
+  ],
+  "biblical_references": [
+    {
+      "book": "1 Samuel",
+      "chapter": 14,
+      "verses": [
+        52
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Samuel 14:52"
+    }
+  ],
+  "books_mentioned": [
+    "1 Samuel"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 1,
+    "ot_refs": 1,
+    "nt_refs": 0,
+    "books_count": 1,
+    "top_books": [
+      "1 Samuel"
+    ]
+  }
 }

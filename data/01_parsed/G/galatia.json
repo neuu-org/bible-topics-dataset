@@ -1,75 +1,55 @@
 {
   "topic": "GALATIA",
   "slug": "galatia",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "(A province of Asia Minor)",
+      "label": "(A province of Asia Minor)",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Its churches visited by Paul Ac 16:6; 18:23",
+      "label": "Its churches visited by Paul",
       "references": [
         "Acts 16:6",
         "Acts 18:23"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Collection taken in, for Christians at Jerusalem 1Co 16:1",
-      "references": [
-        "1Cor 16:1"
-      ],
-      "sub_groups": []
+      "label": "Collection taken in, for Christians at",
+      "references": [],
+      "source": "NAV"
     },
     {
-      "name": "Peter’s address to 1Pe 1:1",
-      "references": [
-        "1Pet 1:1"
-      ],
-      "sub_groups": []
+      "label": "16:1",
+      "references": [],
+      "source": "NAV"
     },
     {
-      "name": "Churches in Ga 1:1,2",
+      "label": "Peter’s address to",
       "references": [
-        "Gal 1:1",
-        "Gal 1:2"
+        "1 Peter 1:1"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See Paul’s epistle to Galatians Ga 1",
+      "label": "Churches in",
       "references": [
-        "Gal 1"
+        "Galatians 1:1,2"
       ],
-      "sub_groups": []
+      "source": "NAV"
+    },
+    {
+      "label": "See Paul’s epistle to GalatiansGa 1",
+      "references": [],
+      "source": "NAV"
     }
   ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 6,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.687730+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    },
-    "enriched_at": "2025-12-02T22:02:10.317669+00:00",
-    "enrichment_source": "pipeline_merge"
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "biblical_references": [
     {
       "book": "Acts",
       "chapter": 16,
@@ -78,19 +58,7 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Acts 16:6",
-      "source": "EAS"
-    },
-    {
-      "book": "Galatians",
-      "chapter": 4,
-      "verses": [
-        13
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Galatians 4:13",
-      "source": "EAS"
+      "raw": "Acts 16:6"
     },
     {
       "book": "Acts",
@@ -100,19 +68,55 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Acts 18:23",
-      "source": "EAS"
+      "raw": "Acts 18:23"
     },
     {
-      "book": "2 Timothy",
-      "chapter": 4,
+      "book": "Acts",
+      "chapter": 16,
       "verses": [
-        10
+        1
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "2 Timothy 4:10",
-      "source": "EAS"
+      "raw": "Acts 16:1"
+    },
+    {
+      "book": "1 Peter",
+      "chapter": 1,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "1 Peter 1:1"
+    },
+    {
+      "book": "Galatians",
+      "chapter": 1,
+      "verses": [
+        1,
+        2
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Galatians 1:1,2"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Peter",
+    "Acts",
+    "Galatians"
+  ],
+  "stats": {
+    "total_aspects": 7,
+    "total_refs": 5,
+    "ot_refs": 0,
+    "nt_refs": 5,
+    "books_count": 3,
+    "top_books": [
+      "Acts",
+      "1 Peter",
+      "Galatians"
+    ]
+  }
 }

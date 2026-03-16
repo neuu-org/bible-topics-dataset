@@ -1,52 +1,22 @@
 {
   "topic": "ADONIKAM",
   "slug": "adonikam",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Also called ADONIJAH, a Jew who returned with Ezra from Babylon Ezr 2:13; Ne 7:18; 10:16",
-      "references": [
-        "Ezra 2:13",
-        "Neh 7:18",
-        "Neh 10:16"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Nehemiah",
-      "book_abbrev": "neh",
-      "chapter": 7,
-      "testament": "OT",
-      "verses": [
-        10,
-        18
-      ],
-      "verse_count": 2
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.661378+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "Al",
+      "references": [
+        "Ezra 2:13",
+        "Nehemiah 7:18",
+        "Nehemiah 10:16"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Ezra",
       "chapter": 2,
@@ -55,19 +25,42 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Ezra 2:13",
-      "source": "EAS"
+      "raw": "Ezra 2:13"
     },
     {
-      "book": "Ezra",
-      "chapter": 8,
+      "book": "Nehemiah",
+      "chapter": 7,
       "verses": [
-        13
+        18
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Ezra 8:13",
-      "source": "EAS"
+      "raw": "Nehemiah 7:18"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 10,
+      "verses": [
+        16
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Nehemiah 10:16"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Ezra",
+    "Nehemiah"
+  ],
+  "stats": {
+    "total_aspects": 1,
+    "total_refs": 3,
+    "ot_refs": 3,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "Nehemiah",
+      "Ezra"
+    ]
+  }
 }

@@ -1,43 +1,60 @@
 {
   "topic": "HYGIENE",
   "slug": "hygiene",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "General scriptures concerning 1Co 6:18; 9:25",
-      "references": [
-        "1Cor 6:18",
-        "1Cor 9:25"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "See SANITATION",
-      "references": [],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [
-    "SANITATION"
-  ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.693589+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
+  "see_also": [
+    "SANITATION"
+  ],
+  "aspects": [
+    {
+      "label": "General scriptures concerning",
+      "references": [
+        "1 Corinthians 6:18",
+        "1 Corinthians 9:25"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeSANITATION",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0"
+  ],
+  "biblical_references": [
+    {
+      "book": "1 Corinthians",
+      "chapter": 6,
+      "verses": [
+        18
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "1 Corinthians 6:18"
+    },
+    {
+      "book": "1 Corinthians",
+      "chapter": 9,
+      "verses": [
+        25
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "1 Corinthians 9:25"
+    }
+  ],
+  "books_mentioned": [
+    "1 Corinthians"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 2,
+    "ot_refs": 0,
+    "nt_refs": 2,
+    "books_count": 1,
+    "top_books": [
+      "1 Corinthians"
+    ]
+  }
 }

@@ -1,93 +1,162 @@
 {
   "topic": "VINE",
-  "topic_slug": "vine",
+  "slug": "vine",
   "canonical_id": "NAV:vine",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "VINEYARD"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "VINEYARD",
-      "clean": "VINEYARD",
-      "slug": "vineyard",
-      "canonical_id": "NAV:vineyard"
+      "label": "General references",
+      "references": [
+        "Jeremiah 2:21"
+      ]
+    },
+    {
+      "label": "Fable of",
+      "references": [
+        "Judges 9:12,13"
+      ]
+    },
+    {
+      "label": "Pruned",
+      "references": [
+        "Isaiah 5:6",
+        "John 15:1-5"
+      ]
+    },
+    {
+      "label": "Parables of",
+      "references": [
+        "Psalms 80:8-14",
+        "Ezekiel 17:6-10",
+        "Ezekiel 19:10-14"
+      ]
+    },
+    {
+      "label": "SYMBOLI",
+      "references": [
+        "John 15:1-5"
+      ]
+    },
+    {
+      "label": ".SeeVINEYARD",
+      "references": []
     }
   ],
-  "raw_block": "–Degeneracy ofJer 2:21\n–Fable ofJud 9:12,13\n–PrunedIsa 5:6;Joh 15:1-5\n–Parables ofPs 80:8-14;Eze 17:6-10;19:10-14\n–SYMBOLICALJoh 15:1-5\n  .SeeVINEYARD",
-  "content_preview": "–Degeneracy ofJer 2:21",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–Degeneracy ofJer 2:21",
-      "raw_segment": "–Degeneracy ofJer 2:21"
+      "book": "Jeremiah",
+      "chapter": 2,
+      "verses": [
+        21
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Jeremiah 2:21"
     },
     {
-      "idx": 1,
-      "entry_label": "–Fable ofJud 9:12,13",
-      "raw_segment": "–Fable ofJud 9:12,13"
+      "book": "Judges",
+      "chapter": 9,
+      "verses": [
+        12,
+        13
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Judges 9:12,13"
     },
     {
-      "idx": 2,
-      "entry_label": "–PrunedIsa 5:6;Joh 15:1-5",
-      "raw_segment": "–PrunedIsa 5:6;Joh 15:1-5"
+      "book": "Isaiah",
+      "chapter": 5,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 5:6"
     },
     {
-      "idx": 3,
-      "entry_label": "–Parables ofPs 80:8-14;Eze 17:6-10;19:10-14",
-      "raw_segment": "–Parables ofPs 80:8-14;Eze 17:6-10;19:10-14"
+      "book": "John",
+      "chapter": 15,
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "verse_count": 5,
+      "testament": "NT",
+      "raw": "John 15:1-5"
     },
     {
-      "idx": 4,
-      "entry_label": "–SYMBOLICALJoh 15:1-5",
-      "raw_segment": "–SYMBOLICALJoh 15:1-5"
+      "book": "Psalms",
+      "chapter": 80,
+      "verses": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "verse_count": 7,
+      "testament": "OT",
+      "raw": "Psalms 80:8-14"
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 17,
+      "verses": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "verse_count": 5,
+      "testament": "OT",
+      "raw": "Ezekiel 17:6-10"
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 19,
+      "verses": [
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "verse_count": 5,
+      "testament": "OT",
+      "raw": "Ezekiel 19:10-14"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "Ezekiel",
+    "Isaiah",
+    "Jeremiah",
+    "John",
+    "Judges",
+    "Psalms"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:5b7e57e29e238363ebea1eeafa854f7e1bb24a99becd2b3c323124709db7946f",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 6
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 6,
+    "total_refs": 7,
+    "ot_refs": 6,
+    "nt_refs": 1,
+    "books_count": 6,
+    "top_books": [
+      "Ezekiel",
+      "Jeremiah",
+      "Judges",
+      "Isaiah",
+      "John",
+      "Psalms"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:32:31.728146Z",
-  "updated_at": "2025-09-20T17:32:31.728153Z"
+  }
 }

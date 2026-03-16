@@ -1,103 +1,49 @@
 {
   "topic": "GERSHOM",
   "slug": "gershom",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. Son of Moses Ex 2:22; 18:3; 1Ch 23:15,16; 26:24",
-      "references": [
-        "Exod 2:22",
-        "Exod 18:3",
-        "1Chr 23:15",
-        "1Chr 23:16",
-        "1Chr 26:24"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "2. GERSHOM",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "3. A descendant of Phinehas Ezr 8:2",
-      "references": [
-        "Ezra 8:2"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "4. A Levite Jud 18:30",
-      "references": [
-        "Judg 18:30"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "1 Chronicles",
-      "book_abbrev": "1ch",
-      "chapter": 23,
-      "testament": "OT",
-      "verses": [
-        15,
-        16,
-        26
-      ],
-      "verse_count": 3
-    }
+  "sources": [
+    "NAV"
   ],
   "see_also": [
     "GERSHON"
   ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 4,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.688487+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "aspects": [
+    {
+      "label": "1.",
+      "references": [
+        "Exodus 2:22",
+        "Exodus 18:3",
+        "1 Chronicles 23:15,16",
+        "1 Chronicles 26:24"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2. GERSHOM",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".SeeGERSHON",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "3. A",
+      "references": [
+        "Ezra 8:2"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "4. A Levite",
+      "references": [
+        "Judges 18:30"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "1 Chronicles",
-      "chapter": 6,
-      "verses": [
-        16,
-        17,
-        20,
-        43,
-        62,
-        71
-      ],
-      "verse_count": 6,
-      "testament": "OT",
-      "raw": "1 Chronicles 6:16, 17, 20, 43, 62, 71",
-      "source": "EAS"
-    },
-    {
-      "book": "1 Chronicles",
-      "chapter": 15,
-      "verses": [
-        7
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "1 Chronicles 15:7",
-      "source": "EAS"
-    },
+  ],
+  "biblical_references": [
     {
       "book": "Exodus",
       "chapter": 2,
@@ -106,8 +52,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Exodus 2:22",
-      "source": "EAS"
+      "raw": "Exodus 2:22"
     },
     {
       "book": "Exodus",
@@ -117,8 +62,28 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Exodus 18:3",
-      "source": "EAS"
+      "raw": "Exodus 18:3"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 23,
+      "verses": [
+        15,
+        16
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "1 Chronicles 23:15,16"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 26,
+      "verses": [
+        24
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 26:24"
     },
     {
       "book": "Ezra",
@@ -128,8 +93,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Ezra 8:2",
-      "source": "EAS"
+      "raw": "Ezra 8:2"
     },
     {
       "book": "Judges",
@@ -139,21 +103,26 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Judges 18:30",
-      "source": "EAS"
-    },
-    {
-      "book": "Exodus",
-      "chapter": 4,
-      "verses": [
-        24,
-        25,
-        26
-      ],
-      "verse_count": 3,
-      "testament": "OT",
-      "raw": "Exodus 4:24-26",
-      "source": "EAS"
+      "raw": "Judges 18:30"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Exodus",
+    "Ezra",
+    "Judges"
+  ],
+  "stats": {
+    "total_aspects": 5,
+    "total_refs": 6,
+    "ot_refs": 6,
+    "nt_refs": 0,
+    "books_count": 4,
+    "top_books": [
+      "Exodus",
+      "1 Chronicles",
+      "Ezra",
+      "Judges"
+    ]
+  }
 }

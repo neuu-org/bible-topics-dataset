@@ -1,79 +1,92 @@
 {
   "topic": "CRETE",
-  "topic_slug": "crete",
+  "slug": "crete",
   "canonical_id": "NAV:crete",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–(An island in the Mediterranean Sea)\n–Visited by PaulAc 27:7,12,13,21\n–Visited by TitusTit 1:5\n–Character of the inhabitants ofAc 2:11;Tit 1:12",
-  "content_preview": "–(An island in the Mediterranean Sea)",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–(An island in the Mediterranean Sea)",
-      "raw_segment": "–(An island in the Mediterranean Sea)"
+      "label": "(An island in the Mediterranean Sea)",
+      "references": []
     },
     {
-      "idx": 1,
-      "entry_label": "–Visited by PaulAc 27:7,12,13,21",
-      "raw_segment": "–Visited by PaulAc 27:7,12,13,21"
+      "label": "Visited by Paul",
+      "references": [
+        "Acts 27:7,12,13,21"
+      ]
     },
     {
-      "idx": 2,
-      "entry_label": "–Visited by TitusTit 1:5",
-      "raw_segment": "–Visited by TitusTit 1:5"
+      "label": "Visited by Titus",
+      "references": [
+        "Titus 1:5"
+      ]
     },
     {
-      "idx": 3,
-      "entry_label": "–Character of the inhabitants ofAc 2:11;Tit 1:12",
-      "raw_segment": "–Character of the inhabitants ofAc 2:11;Tit 1:12"
+      "label": "Character of the inhabitants of",
+      "references": [
+        "Acts 2:11",
+        "Titus 1:12"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Acts",
+      "chapter": 27,
+      "verses": [
+        7,
+        12,
+        13,
+        21
+      ],
+      "verse_count": 4,
+      "testament": "NT",
+      "raw": "Acts 27:7,12,13,21"
+    },
+    {
+      "book": "Titus",
+      "chapter": 1,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Titus 1:5"
+    },
+    {
+      "book": "Acts",
+      "chapter": 2,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 2:11"
+    },
+    {
+      "book": "Titus",
+      "chapter": 1,
+      "verses": [
+        12
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Titus 1:12"
+    }
+  ],
+  "books_mentioned": [
+    "Acts",
+    "Titus"
+  ],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 4,
+    "total_refs": 4,
     "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:1029d4d0825c65e41a37d91938f8f7ca803da70262440459cca02007bdaa208e",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 4
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "nt_refs": 4,
+    "books_count": 2,
+    "top_books": [
+      "Acts",
+      "Titus"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:25:20.468644Z",
-  "updated_at": "2025-09-20T17:25:20.468651Z"
+  }
 }

@@ -1,50 +1,21 @@
 {
   "topic": "GITTAIM",
   "slug": "gittaim",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "A place of which little is known 2Sa 4:3; Ne 11:33",
-      "references": [
-        "2Sam 4:3",
-        "Neh 11:33"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Nehemiah",
-      "book_abbrev": "neh",
-      "chapter": 11,
-      "testament": "OT",
-      "verses": [
-        33
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.688948+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "A place of which little is known",
+      "references": [
+        "2 Samuel 4:3",
+        "Nehemiah 11:33"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "2 Samuel",
       "chapter": 4,
@@ -53,8 +24,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Samuel 4:3",
-      "source": "EAS"
+      "raw": "2 Samuel 4:3"
     },
     {
       "book": "Nehemiah",
@@ -64,8 +34,22 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Nehemiah 11:33",
-      "source": "EAS"
+      "raw": "Nehemiah 11:33"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "2 Samuel",
+    "Nehemiah"
+  ],
+  "stats": {
+    "total_aspects": 1,
+    "total_refs": 2,
+    "ot_refs": 2,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "2 Samuel",
+      "Nehemiah"
+    ]
+  }
 }

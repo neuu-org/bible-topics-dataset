@@ -1,49 +1,55 @@
 {
   "topic": "FAINTING",
   "slug": "fainting",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "General scriptures concerning La 2:12; Da 8:27",
+      "label": "General scriptures concerning",
       "references": [
-        "Lam 2:12",
-        "Dan 8:27"
+        "Lamentations 2:12",
+        "Daniel 8:27"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Daniel",
-      "book_abbrev": "dan",
-      "chapter": 8,
+      "book": "Lamentations",
+      "chapter": 2,
+      "verses": [
+        12
+      ],
+      "verse_count": 1,
       "testament": "OT",
+      "raw": "Lamentations 2:12"
+    },
+    {
+      "book": "Daniel",
+      "chapter": 8,
       "verses": [
         27
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Daniel 8:27"
     }
   ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
+  "books_mentioned": [
+    "Daniel",
+    "Lamentations"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.685937+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    },
-    "enriched_at": "2025-12-02T22:02:10.056947+00:00",
-    "enrichment_source": "pipeline_merge"
-  },
-  "version": "3.0.0"
+  "stats": {
+    "total_aspects": 1,
+    "total_refs": 2,
+    "ot_refs": 2,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "Lamentations",
+      "Daniel"
+    ]
+  }
 }

@@ -1,78 +1,387 @@
 {
   "topic": "AGENCY",
-  "topic_slug": "agency",
+  "slug": "agency",
   "canonical_id": "NAV:agency",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "PREACHING"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "PREACHING",
-      "clean": "PREACHING",
-      "slug": "preaching",
-      "canonical_id": "NAV:preaching"
-    }
-  ],
-  "raw_block": "–IN SALVATION OF MENJob 33:14-30;Ps 8:2;Mt 4:19;5:13-16;Lu 1:17;5:10;10:17,21;Joh 15:16;1Co 1:26-29;1Th 2:4;1Ti 1:11;6:20;Jas 5:20\n  .SeePREACHING\n–IN EXECUTING JUDGMENTSGe 3:15;1Sa 15:1-19;2Sa 7:14;2Ki 9:6,7;19:25,26;2Ch 22:7;Ps 17:13,14;Isa 10:5,6;13:5;41:15;Jer 27:8;51:20-23",
-  "content_preview": "–IN SALVATION OF MENJob 33:14-30;Ps 8:2;Mt 4:19;5:13-16;Lu 1:17;5:10;10:17,21;Joh 15:16;1Co 1:26-29;...",
-  "reference_groups": [
-    {
-      "idx": 0,
-      "entry_label": "–IN SALVATION OF MENJob 33:14-30;Ps 8:2;Mt 4:19;5:13-16;Lu 1:17;5:10;10:17,21;Joh 15:16;1Co 1:26-29;1Th 2:4;1Ti 1:11;6:20;Jas 5:20",
-      "raw_segment": "–IN SALVATION OF MENJob 33:14-30;Ps 8:2;Mt 4:19;5:13-16;Lu 1:17;5:10;10:17,21;Joh 15:16;1Co 1:26-29;1Th 2:4;1Ti 1:11;6:20;Jas 5:20"
+      "label": "IN SALVATION OF MEN",
+      "references": [
+        "Job 33:14-30",
+        "Psalms 8:2",
+        "Matthew 4:19",
+        "Matthew 5:13-16",
+        "Luke 1:17",
+        "Luke 5:10",
+        "Luke 10:17,21",
+        "John 15:16",
+        "1 Corinthians 1:26-29",
+        "1 Thessalonians 2:4",
+        "1 Timothy 1:11",
+        "1 Timothy 6:20",
+        "James 5:20"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–IN EXECUTING JUDGMENTSGe 3:15;1Sa 15:1-19;2Sa 7:14;2Ki 9:6,7;19:25,26;2Ch 22:7;Ps 17:13,14;Isa 10:5,6;13:5;41:15;Jer 27:8;51:20-23",
-      "raw_segment": "–IN EXECUTING JUDGMENTSGe 3:15;1Sa 15:1-19;2Sa 7:14;2Ki 9:6,7;19:25,26;2Ch 22:7;Ps 17:13,14;Isa 10:5,6;13:5;41:15;Jer 27:8;51:20-23"
+      "label": ".SeePREACHING",
+      "references": []
+    },
+    {
+      "label": "IN EXECUTING",
+      "references": [
+        "Genesis 3:15",
+        "1 Samuel 15:1-19",
+        "2 Samuel 7:14",
+        "2 Kings 9:6,7",
+        "2 Kings 19:25,26",
+        "2 Chronicles 22:7",
+        "Psalms 17:13,14",
+        "Isaiah 10:5,6",
+        "Isaiah 13:5",
+        "Isaiah 41:15",
+        "Jeremiah 27:8",
+        "Jeremiah 51:20-23"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Job",
+      "chapter": 33,
+      "verses": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "verse_count": 17,
+      "testament": "OT",
+      "raw": "Job 33:14-30"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 8,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 8:2"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 4,
+      "verses": [
+        19
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 4:19"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 5,
+      "verses": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "verse_count": 4,
+      "testament": "NT",
+      "raw": "Matthew 5:13-16"
+    },
+    {
+      "book": "Luke",
+      "chapter": 1,
+      "verses": [
+        17
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 1:17"
+    },
+    {
+      "book": "Luke",
+      "chapter": 5,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 5:10"
+    },
+    {
+      "book": "Luke",
+      "chapter": 10,
+      "verses": [
+        17,
+        21
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Luke 10:17,21"
+    },
+    {
+      "book": "John",
+      "chapter": 15,
+      "verses": [
+        16
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "John 15:16"
+    },
+    {
+      "book": "1 Corinthians",
+      "chapter": 1,
+      "verses": [
+        26,
+        27,
+        28,
+        29
+      ],
+      "verse_count": 4,
+      "testament": "NT",
+      "raw": "1 Corinthians 1:26-29"
+    },
+    {
+      "book": "1 Thessalonians",
+      "chapter": 2,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "1 Thessalonians 2:4"
+    },
+    {
+      "book": "1 Timothy",
+      "chapter": 1,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "1 Timothy 1:11"
+    },
+    {
+      "book": "1 Timothy",
+      "chapter": 6,
+      "verses": [
+        20
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "1 Timothy 6:20"
+    },
+    {
+      "book": "James",
+      "chapter": 5,
+      "verses": [
+        20
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "James 5:20"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 3,
+      "verses": [
+        15
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 3:15"
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 15,
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "verse_count": 19,
+      "testament": "OT",
+      "raw": "1 Samuel 15:1-19"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 7,
+      "verses": [
+        14
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Samuel 7:14"
+    },
+    {
+      "book": "2 Kings",
+      "chapter": 9,
+      "verses": [
+        6,
+        7
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "2 Kings 9:6,7"
+    },
+    {
+      "book": "2 Kings",
+      "chapter": 19,
+      "verses": [
+        25,
+        26
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "2 Kings 19:25,26"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 22,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Chronicles 22:7"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 17,
+      "verses": [
+        13,
+        14
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Psalms 17:13,14"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 10,
+      "verses": [
+        5,
+        6
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Isaiah 10:5,6"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 13,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 13:5"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 41,
+      "verses": [
+        15
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 41:15"
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 27,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Jeremiah 27:8"
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 51,
+      "verses": [
+        20,
+        21,
+        22,
+        23
+      ],
+      "verse_count": 4,
+      "testament": "OT",
+      "raw": "Jeremiah 51:20-23"
+    }
+  ],
+  "books_mentioned": [
+    "1 Corinthians",
+    "1 Samuel",
+    "1 Thessalonians",
+    "1 Timothy",
+    "2 Chronicles",
+    "2 Kings",
+    "2 Samuel",
+    "Genesis",
+    "Isaiah",
+    "James",
+    "Jeremiah",
+    "Job",
+    "John",
+    "Luke",
+    "Matthew",
+    "Psalms"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:77db24d5b630a886e6347ca0d55612925486531a930ec746b1b5f0a74ff8eff0",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 3
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 3,
+    "total_refs": 25,
+    "ot_refs": 14,
+    "nt_refs": 11,
+    "books_count": 16,
+    "top_books": [
+      "Luke",
+      "Isaiah",
+      "Psalms",
+      "Matthew",
+      "1 Timothy",
+      "2 Kings",
+      "Jeremiah",
+      "Job",
+      "John",
+      "1 Corinthians"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:23:20.911901Z",
-  "updated_at": "2025-09-20T17:23:20.911909Z"
+  }
 }

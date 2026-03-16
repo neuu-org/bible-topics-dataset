@@ -1,82 +1,71 @@
 {
   "topic": "CHISLEU",
   "slug": "chisleu",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "Ninth month in the Israelitish calendar Ezr 10:9; Ne 1:1; Jer 36:22",
+      "label": "Ninth month in the Israelitish",
       "references": [
-        "Ezra 10:9",
-        "Neh 1:1",
-        "Jer 36:22"
+        "Ezra 10:9"
       ],
-      "sub_groups": []
+      "source": "NAV"
+    },
+    {
+      "label": "1:1;",
+      "references": [
+        "Jeremiah 36:22"
+      ],
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Nehemiah",
-      "book_abbrev": "neh",
-      "chapter": 1,
+      "book": "Ezra",
+      "chapter": 10,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
       "testament": "OT",
+      "raw": "Ezra 10:9"
+    },
+    {
+      "book": "Ezra",
+      "chapter": 1,
       "verses": [
         1
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezra 1:1"
     },
     {
       "book": "Jeremiah",
-      "book_abbrev": "jer",
       "chapter": 36,
-      "testament": "OT",
       "verses": [
         22
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Jeremiah 36:22"
     }
   ],
-  "see_also": [],
-  "aliases": [],
+  "books_mentioned": [
+    "Ezra",
+    "Jeremiah"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 2,
+    "total_aspects": 2,
+    "total_refs": 3,
+    "ot_refs": 3,
     "nt_refs": 0,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.677810+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "Nehemiah",
-      "chapter": 1,
-      "verses": [
-        1
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Nehemiah 1:1",
-      "source": "EAS"
-    },
-    {
-      "book": "Zechariah",
-      "chapter": 7,
-      "verses": [
-        1
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Zechariah 7:1",
-      "source": "EAS"
-    }
-  ]
+    "books_count": 2,
+    "top_books": [
+      "Ezra",
+      "Jeremiah"
+    ]
+  }
 }

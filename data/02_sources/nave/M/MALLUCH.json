@@ -1,84 +1,124 @@
 {
   "topic": "MALLUCH",
-  "topic_slug": "malluch",
+  "slug": "malluch",
   "canonical_id": "NAV:malluch",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–1. A Merarite Levite1Ch 6:44\n–2. Son of Bani, who divorced his Gentile wife after the captivityEzr 10:29\n–3. One of the family of Harim, who divorced his Gentile wife \nafter the captivityEzr 10:32\n–4. A priest who sealed the covenant with NehemiahNe \n10:4;12:2\n–5. A chief of the people who sealed the covenant with NehemiahNe 10:27",
-  "content_preview": "–1. A Merarite Levite1Ch 6:44",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–1. A Merarite Levite1Ch 6:44",
-      "raw_segment": "–1. A Merarite Levite1Ch 6:44"
+      "label": "1. A Merarite Levite",
+      "references": [
+        "1 Chronicles 6:44"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–2. Son of Bani, who divorced his Gentile wife after the captivityEzr 10:29",
-      "raw_segment": "–2. Son of Bani, who divorced his Gentile wife after the captivityEzr 10:29"
+      "label": "2.",
+      "references": [
+        "Ezra 10:29"
+      ]
     },
     {
-      "idx": 2,
-      "entry_label": "–3. One of the family of Harim, who divorced his Gentile wife \nafter the captivityEzr 10:32",
-      "raw_segment": "–3. One of the family of Harim, who divorced his Gentile wife \nafter the captivityEzr 10:32"
+      "label": "3. One of the family of Harim, who divorced his Gentile wife",
+      "references": []
     },
     {
-      "idx": 3,
-      "entry_label": "–4. A priest who sealed the covenant with NehemiahNe \n10:4;12:2",
-      "raw_segment": "–4. A priest who sealed the covenant with NehemiahNe \n10:4;12:2"
+      "label": "after the",
+      "references": [
+        "Ezra 10:32"
+      ]
     },
     {
-      "idx": 4,
-      "entry_label": "–5. A chief of the people who sealed the covenant with NehemiahNe 10:27",
-      "raw_segment": "–5. A chief of the people who sealed the covenant with NehemiahNe 10:27"
+      "label": "4. A priest who sealed the covenant with NehemiahNe",
+      "references": []
+    },
+    {
+      "label": "10:4;12:2",
+      "references": []
+    },
+    {
+      "label": "5. A chief of the people who sealed the covenant with Nehemiah",
+      "references": [
+        "Nehemiah 10:27"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "1 Chronicles",
+      "chapter": 6,
+      "verses": [
+        44
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 6:44"
+    },
+    {
+      "book": "Ezra",
+      "chapter": 10,
+      "verses": [
+        29
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezra 10:29"
+    },
+    {
+      "book": "Ezra",
+      "chapter": 10,
+      "verses": [
+        32
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezra 10:32"
+    },
+    {
+      "book": "Ezra",
+      "chapter": 10,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezra 10:4"
+    },
+    {
+      "book": "Ezra",
+      "chapter": 12,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezra 12:2"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 10,
+      "verses": [
+        27
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Nehemiah 10:27"
+    }
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Ezra",
+    "Nehemiah"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 7,
+    "total_refs": 6,
+    "ot_refs": 6,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:8eb5a5197a952ec2dc2499aba5dec8b69934abb9aef5798ecd539d728eb429f2",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 7
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 3,
+    "top_books": [
+      "Ezra",
+      "1 Chronicles",
+      "Nehemiah"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:28:49.938428Z",
-  "updated_at": "2025-09-20T17:28:49.938436Z"
+  }
 }

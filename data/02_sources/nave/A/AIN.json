@@ -1,69 +1,127 @@
 {
   "topic": "AIN",
-  "topic_slug": "ain",
+  "slug": "ain",
   "canonical_id": "NAV:ain",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–1. A city of SimeonJos 19:7;15:32;21:16;1Ch 4:32\n  .Also called ASHAN1Ch 6:59\n  .Possibly identical with En-RimmonNe 11:29\n–2. A landmark on the northern boundary of PalestineNu 34:11",
-  "content_preview": "–1. A city of SimeonJos 19:7;15:32;21:16;1Ch 4:32",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–1. A city of SimeonJos 19:7;15:32;21:16;1Ch 4:32",
-      "raw_segment": "–1. A city of SimeonJos 19:7;15:32;21:16;1Ch 4:32"
+      "label": "1. A city of Simeon",
+      "references": [
+        "Joshua 19:7",
+        "Joshua 15:32",
+        "Joshua 21:16",
+        "1 Chronicles 4:32"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–2. A landmark on the northern boundary of PalestineNu 34:11",
-      "raw_segment": "–2. A landmark on the northern boundary of PalestineNu 34:11"
+      "label": ".Al",
+      "references": [
+        "1 Chronicles 6:59"
+      ]
+    },
+    {
+      "label": ".Possibly i",
+      "references": [
+        "Nehemiah 11:29"
+      ]
+    },
+    {
+      "label": "2. A landmark on the northern boundary of Palestine",
+      "references": [
+        "Numbers 34:11"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Joshua",
+      "chapter": 19,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 19:7"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 15,
+      "verses": [
+        32
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 15:32"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 21,
+      "verses": [
+        16
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 21:16"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 4,
+      "verses": [
+        32
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 4:32"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 6,
+      "verses": [
+        59
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 6:59"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 11,
+      "verses": [
+        29
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Nehemiah 11:29"
+    },
+    {
+      "book": "Numbers",
+      "chapter": 34,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Numbers 34:11"
+    }
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Joshua",
+    "Nehemiah",
+    "Numbers"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 4,
+    "total_refs": 7,
+    "ot_refs": 7,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:7726998bd40ce56ed1747ce9f65a61f492f99f5b00353df79bbbee0e67ace5e5",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 4
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 4,
+    "top_books": [
+      "Joshua",
+      "1 Chronicles",
+      "Nehemiah",
+      "Numbers"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:23:26.869526Z",
-  "updated_at": "2025-09-20T17:23:26.869533Z"
+  }
 }

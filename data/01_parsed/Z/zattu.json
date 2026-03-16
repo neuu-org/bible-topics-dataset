@@ -1,84 +1,69 @@
 {
   "topic": "ZATTU",
   "slug": "zattu",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "1. One whose descendants returned with Zerubbabel Ezr 2:8; 10:27; Ne 7:13",
-      "references": [
-        "Ezra 2:8",
-        "Ezra 10:27",
-        "Neh 7:13"
-      ],
-      "sub_groups": []
+      "label": "1. One whose",
+      "references": [],
+      "source": "NAV"
     },
     {
-      "name": "2. Probably identical with ZATTHU",
+      "label": "2:8;10:27;",
+      "references": [
+        "Nehemiah 7:13"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2. Probably i",
       "references": [],
-      "sub_groups": [
-        {
-          "name": "One who sealed the covenant with Nehemiah Ne 10:14",
-          "references": [
-            "Neh 10:14"
-          ]
-        }
-      ]
+      "source": "NAV"
+    },
+    {
+      "label": ".One who sealed the covenant with Nehemiah",
+      "references": [
+        "Nehemiah 10:14"
+      ],
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
       "book": "Nehemiah",
-      "book_abbrev": "neh",
       "chapter": 7,
-      "testament": "OT",
       "verses": [
         13
       ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.734439+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "Ezra",
-      "chapter": 2,
-      "verses": [
-        8
-      ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Ezra 2:8",
-      "source": "EAS"
+      "raw": "Nehemiah 7:13"
     },
     {
       "book": "Nehemiah",
-      "chapter": 7,
+      "chapter": 10,
       "verses": [
-        13
+        14
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Nehemiah 7:13",
-      "source": "EAS"
+      "raw": "Nehemiah 10:14"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Nehemiah"
+  ],
+  "stats": {
+    "total_aspects": 4,
+    "total_refs": 2,
+    "ot_refs": 2,
+    "nt_refs": 0,
+    "books_count": 1,
+    "top_books": [
+      "Nehemiah"
+    ]
+  }
 }

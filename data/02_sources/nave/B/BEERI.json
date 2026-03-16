@@ -1,78 +1,64 @@
 {
   "topic": "BEERI",
-  "topic_slug": "beeri",
+  "slug": "beeri",
   "canonical_id": "NAV:beeri",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "ANAH"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "ANAH",
-      "clean": "ANAH",
-      "slug": "anah",
-      "canonical_id": "NAV:anah"
-    }
-  ],
-  "raw_block": "–1. A HittiteGe 26:34\n  .SeeANAH\n–2. Father of HoseaHo 1:1",
-  "content_preview": "–1. A HittiteGe 26:34",
-  "reference_groups": [
-    {
-      "idx": 0,
-      "entry_label": "–1. A HittiteGe 26:34",
-      "raw_segment": "–1. A HittiteGe 26:34"
+      "label": "1. A Hittite",
+      "references": [
+        "Genesis 26:34"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–2. Father of HoseaHo 1:1",
-      "raw_segment": "–2. Father of HoseaHo 1:1"
+      "label": ".SeeANAH",
+      "references": []
+    },
+    {
+      "label": "2. Father of Hosea",
+      "references": [
+        "Hosea 1:1"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Genesis",
+      "chapter": 26,
+      "verses": [
+        34
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 26:34"
+    },
+    {
+      "book": "Hosea",
+      "chapter": 1,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Hosea 1:1"
+    }
+  ],
+  "books_mentioned": [
+    "Genesis",
+    "Hosea"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 3,
+    "total_refs": 2,
+    "ot_refs": 2,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:c9060002d8937df82df78e92222863d065153c2d5e9b6a6822bc912bd072d6d9",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 3
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 2,
+    "top_books": [
+      "Genesis",
+      "Hosea"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:24:15.414867Z",
-  "updated_at": "2025-09-20T17:24:15.414874Z"
+  }
 }

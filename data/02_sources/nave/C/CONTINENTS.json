@@ -1,78 +1,163 @@
 {
   "topic": "CONTINENTS",
-  "topic_slug": "continents",
+  "slug": "continents",
   "canonical_id": "NAV:continents",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "GEOLOGY"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "GEOLOGY",
-      "clean": "GEOLOGY",
-      "slug": "geology",
-      "canonical_id": "NAV:geology"
-    }
-  ],
-  "raw_block": "–General scriptures concerningGe 1:9,10;Job 26:7,10;28:8-11;38:4-18;Ps 95:5;104:5-9;136:6;Pr 8:29;30:4\n–SeeGEOLOGY",
-  "content_preview": "–General scriptures concerningGe 1:9,10;Job 26:7,10;28:8-11;38:4-18;Ps 95:5;104:5-9;136:6;Pr 8:29;30...",
-  "reference_groups": [
-    {
-      "idx": 0,
-      "entry_label": "–General scriptures concerningGe 1:9,10;Job 26:7,10;28:8-11;38:4-18;Ps 95:5;104:5-9;136:6;Pr 8:29;30:4",
-      "raw_segment": "–General scriptures concerningGe 1:9,10;Job 26:7,10;28:8-11;38:4-18;Ps 95:5;104:5-9;136:6;Pr 8:29;30:4"
+      "label": "General scriptures concerning",
+      "references": [
+        "Genesis 1:9,10",
+        "Job 26:7,10",
+        "Job 28:8-11",
+        "Job 38:4-18",
+        "Psalms 95:5",
+        "Psalms 104:5-9",
+        "Psalms 136:6",
+        "Proverbs 8:29",
+        "Proverbs 30:4"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–SeeGEOLOGY",
-      "raw_segment": "–SeeGEOLOGY"
+      "label": "SeeGEOLOGY",
+      "references": []
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Genesis",
+      "chapter": 1,
+      "verses": [
+        9,
+        10
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Genesis 1:9,10"
+    },
+    {
+      "book": "Job",
+      "chapter": 26,
+      "verses": [
+        7,
+        10
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Job 26:7,10"
+    },
+    {
+      "book": "Job",
+      "chapter": 28,
+      "verses": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "verse_count": 4,
+      "testament": "OT",
+      "raw": "Job 28:8-11"
+    },
+    {
+      "book": "Job",
+      "chapter": 38,
+      "verses": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "verse_count": 15,
+      "testament": "OT",
+      "raw": "Job 38:4-18"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 95,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 95:5"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 104,
+      "verses": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "verse_count": 5,
+      "testament": "OT",
+      "raw": "Psalms 104:5-9"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 136,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 136:6"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 8,
+      "verses": [
+        29
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 8:29"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 30,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 30:4"
+    }
+  ],
+  "books_mentioned": [
+    "Genesis",
+    "Job",
+    "Proverbs",
+    "Psalms"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 2,
+    "total_refs": 9,
+    "ot_refs": 9,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:20b0ad58e22682b30ee2d212311229ebb3abd1508aa66bff5844671a7cdde9ff",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 4,
+    "top_books": [
+      "Job",
+      "Psalms",
+      "Proverbs",
+      "Genesis"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:25:14.267729Z",
-  "updated_at": "2025-09-20T17:25:14.267737Z"
+  }
 }

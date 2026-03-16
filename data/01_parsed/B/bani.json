@@ -1,79 +1,60 @@
 {
   "topic": "BANI",
   "slug": "bani",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "1. A Gadite 2Sa 23:36",
+      "label": "1. A Gadite",
       "references": [
-        "2Sam 23:36"
+        "2 Samuel 23:36"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "2. A Levite 1Ch 6:46",
+      "label": "2. A Levite",
       "references": [
-        "1Chr 6:46"
+        "1 Chronicles 6:46"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "3. A descendant of Pharez 1Ch 9:4",
+      "label": "3. A",
       "references": [
-        "1Chr 9:4"
+        "1 Chronicles 9:4"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "4. Father of returned exiles Ezr 2:10; 10:29",
+      "label": "4. Father of returned exiles",
       "references": [
         "Ezra 2:10",
         "Ezra 10:29"
       ],
-      "sub_groups": [
-        {
-          "name": "Called BINNUI Ne 7:15",
-          "references": [
-            "Neh 7:15"
-          ]
-        }
-      ]
+      "source": "NAV"
     },
     {
-      "name": "5. A Levite of the returned exiles Ne 3:17; 8:7; 9:4,5; 10:13; 11:22",
+      "label": ".",
       "references": [
-        "Neh 3:17",
-        "Neh 8:7",
-        "Neh 9:4",
-        "Neh 9:5",
-        "Neh 10:13",
-        "Neh 11:22"
+        "Nehemiah 7:15"
       ],
-      "sub_groups": []
+      "source": "NAV"
+    },
+    {
+      "label": "5. A Levite of the returned exiles",
+      "references": [
+        "Nehemiah 3:17",
+        "Nehemiah 8:7",
+        "Nehemiah 9:4,5",
+        "Nehemiah 10:13",
+        "Nehemiah 11:22"
+      ],
+      "source": "NAV"
     }
   ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 5,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.671790+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "biblical_references": [
     {
       "book": "2 Samuel",
       "chapter": 23,
@@ -82,8 +63,67 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Samuel 23:36",
-      "source": "EAS"
+      "raw": "2 Samuel 23:36"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 6,
+      "verses": [
+        46
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 6:46"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 9,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 9:4"
+    },
+    {
+      "book": "Ezra",
+      "chapter": 2,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezra 2:10"
+    },
+    {
+      "book": "Ezra",
+      "chapter": 10,
+      "verses": [
+        29
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezra 10:29"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 7,
+      "verses": [
+        15
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Nehemiah 7:15"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 3,
+      "verses": [
+        17
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Nehemiah 3:17"
     },
     {
       "book": "Nehemiah",
@@ -93,8 +133,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Nehemiah 8:7",
-      "source": "EAS"
+      "raw": "Nehemiah 8:7"
     },
     {
       "book": "Nehemiah",
@@ -105,54 +144,46 @@
       ],
       "verse_count": 2,
       "testament": "OT",
-      "raw": "Nehemiah 9:4, 5",
-      "source": "EAS"
+      "raw": "Nehemiah 9:4,5"
     },
     {
       "book": "Nehemiah",
-      "chapter": 3,
-      "verses": [
-        17
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Nehemiah 3:17",
-      "source": "EAS"
-    },
-    {
-      "book": "1 Chronicles",
-      "chapter": 6,
-      "verses": [
-        46
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "1 Chronicles 6:46",
-      "source": "EAS"
-    },
-    {
-      "book": "Ezra",
-      "chapter": 2,
-      "verses": [
-        10
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Ezra 2:10",
-      "source": "EAS"
-    },
-    {
-      "book": "Ezra",
       "chapter": 10,
       "verses": [
-        29,
-        34,
-        38
+        13
       ],
-      "verse_count": 3,
+      "verse_count": 1,
       "testament": "OT",
-      "raw": "Ezra 10:29, 34, 38",
-      "source": "EAS"
+      "raw": "Nehemiah 10:13"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 11,
+      "verses": [
+        22
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Nehemiah 11:22"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "2 Samuel",
+    "Ezra",
+    "Nehemiah"
+  ],
+  "stats": {
+    "total_aspects": 6,
+    "total_refs": 11,
+    "ot_refs": 11,
+    "nt_refs": 0,
+    "books_count": 4,
+    "top_books": [
+      "Nehemiah",
+      "1 Chronicles",
+      "Ezra",
+      "2 Samuel"
+    ]
+  }
 }

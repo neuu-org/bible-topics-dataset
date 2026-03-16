@@ -1,167 +1,74 @@
 {
   "topic": "STRAW",
   "slug": "straw",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "Used for fodder Ge 24:32; Isa 65:25",
+      "label": "Used for fod",
       "references": [
-        "Gen 24:32",
-        "Isa 65:25"
+        "Genesis 24:32",
+        "Isaiah 65:25"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Used for brick Ex 5:7",
+      "label": "Used for brick",
       "references": [
-        "Exod 5:7"
+        "Exodus 5:7"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Isaiah",
-      "book_abbrev": "isa",
-      "chapter": 65,
-      "testament": "OT",
+      "book": "Genesis",
+      "chapter": 24,
       "verses": [
-        25
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.727763+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "Exodus",
-      "chapter": 5,
-      "verses": [
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14,
-        15,
-        16,
-        17,
-        18
-      ],
-      "verse_count": 12,
-      "testament": "OT",
-      "raw": "Exodus 5:7-18",
-      "source": "EAS"
-    },
-    {
-      "book": "Job",
-      "chapter": 41,
-      "verses": [
-        27
+        32
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Job 41:27",
-      "source": "EAS"
+      "raw": "Genesis 24:32"
     },
     {
       "book": "Isaiah",
-      "chapter": 11,
+      "chapter": 65,
+      "verses": [
+        25
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 65:25"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 5,
       "verses": [
         7
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Isaiah 11:7",
-      "source": "EAS"
-    },
-    {
-      "book": "Isaiah",
-      "chapter": 25,
-      "verses": [
-        10
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Isaiah 25:10",
-      "source": "EAS"
-    },
-    {
-      "book": "Isaiah",
-      "chapter": 65,
-      "verses": [
-        25
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Isaiah 65:25",
-      "source": "EAS"
-    },
-    {
-      "book": "Genesis",
-      "chapter": 24,
-      "verses": [
-        25
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Genesis 24:25",
-      "source": "SMI"
-    },
-    {
-      "book": "1 Kings",
-      "chapter": 4,
-      "verses": [
-        28
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "1 Kings 4:28",
-      "source": "SMI"
-    },
-    {
-      "book": "Isaiah",
-      "chapter": 66,
-      "verses": [
-        25
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Isaiah 66:25",
-      "source": "SMI"
-    },
-    {
-      "book": "Exodus",
-      "chapter": 5,
-      "verses": [
-        7,
-        16
-      ],
-      "verse_count": 2,
-      "testament": "OT",
-      "raw": "Exodus 5:7,16",
-      "source": "SMI"
+      "raw": "Exodus 5:7"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Exodus",
+    "Genesis",
+    "Isaiah"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 3,
+    "ot_refs": 3,
+    "nt_refs": 0,
+    "books_count": 3,
+    "top_books": [
+      "Genesis",
+      "Isaiah",
+      "Exodus"
+    ]
+  }
 }

@@ -1,88 +1,168 @@
 {
   "topic": "JACHIN",
-  "topic_slug": "jachin",
+  "slug": "jachin",
   "canonical_id": "NAV:jachin",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "BOAZ"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "BOAZ",
-      "clean": "BOAZ",
-      "slug": "boaz",
-      "canonical_id": "NAV:boaz"
+      "label": "1.",
+      "references": [
+        "Genesis 46:10",
+        "Exodus 6:15",
+        "Numbers 26:12"
+      ]
+    },
+    {
+      "label": ".",
+      "references": [
+        "1 Chronicles 4:24"
+      ]
+    },
+    {
+      "label": "2. Name of a pillar",
+      "references": [
+        "1 Kings 7:21",
+        "2 Chronicles 3:17"
+      ]
+    },
+    {
+      "label": ".SeeBOAZ",
+      "references": []
+    },
+    {
+      "label": "3. A priest, who returned from the exile to",
+      "references": [
+        "1 Chronicles 9:10",
+        "Nehemiah 11:10"
+      ]
+    },
+    {
+      "label": "4. A priest, head of one of the shifts of priests1Ch",
+      "references": []
+    },
+    {
+      "label": "24:17",
+      "references": []
     }
   ],
-  "raw_block": "–1. Son of SimeonGe 46:10;Ex 6:15;Nu 26:12\n  .Called JARIB1Ch 4:24\n–2. Name of a pillar1Ki 7:21;2Ch 3:17\n  .SeeBOAZ\n–3. A priest, who returned from the exile to Jerusalem1Ch 9:10;Ne 11:10\n–4. A priest, head of one of the shifts of priests1Ch \n24:17",
-  "content_preview": "–1. Son of SimeonGe 46:10;Ex 6:15;Nu 26:12",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–1. Son of SimeonGe 46:10;Ex 6:15;Nu 26:12",
-      "raw_segment": "–1. Son of SimeonGe 46:10;Ex 6:15;Nu 26:12"
+      "book": "Genesis",
+      "chapter": 46,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 46:10"
     },
     {
-      "idx": 1,
-      "entry_label": "–2. Name of a pillar1Ki 7:21;2Ch 3:17",
-      "raw_segment": "–2. Name of a pillar1Ki 7:21;2Ch 3:17"
+      "book": "Exodus",
+      "chapter": 6,
+      "verses": [
+        15
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 6:15"
     },
     {
-      "idx": 2,
-      "entry_label": "–3. A priest, who returned from the exile to Jerusalem1Ch 9:10;Ne 11:10",
-      "raw_segment": "–3. A priest, who returned from the exile to Jerusalem1Ch 9:10;Ne 11:10"
+      "book": "Numbers",
+      "chapter": 26,
+      "verses": [
+        12
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Numbers 26:12"
     },
     {
-      "idx": 3,
-      "entry_label": "–4. A priest, head of one of the shifts of priests1Ch \n24:17",
-      "raw_segment": "–4. A priest, head of one of the shifts of priests1Ch \n24:17"
+      "book": "1 Chronicles",
+      "chapter": 4,
+      "verses": [
+        24
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 4:24"
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 7,
+      "verses": [
+        21
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Kings 7:21"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 3,
+      "verses": [
+        17
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Chronicles 3:17"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 9,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 9:10"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 11,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Nehemiah 11:10"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 24,
+      "verses": [
+        17
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Nehemiah 24:17"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "1 Chronicles",
+    "1 Kings",
+    "2 Chronicles",
+    "Exodus",
+    "Genesis",
+    "Nehemiah",
+    "Numbers"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 7,
+    "total_refs": 9,
+    "ot_refs": 9,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:c8200d3dd8a7a76433e694be4efda07530b83aa4eda60e88f2fad18cea821fac",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 7
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 7,
+    "top_books": [
+      "1 Chronicles",
+      "Nehemiah",
+      "Genesis",
+      "Exodus",
+      "Numbers",
+      "1 Kings",
+      "2 Chronicles"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:27:47.927411Z",
-  "updated_at": "2025-09-20T17:27:47.927418Z"
+  }
 }

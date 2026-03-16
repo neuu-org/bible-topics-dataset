@@ -1,107 +1,135 @@
 {
   "topic": "AVARICE",
-  "topic_slug": "avarice",
+  "slug": "avarice",
   "canonical_id": "NAV:avarice",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "RICHES",
     "RICH",
     "COVETOUSNESS"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "RICHES",
-      "clean": "RICHES",
-      "slug": "riches",
-      "canonical_id": "NAV:riches"
+      "label": "General scriptures concerning",
+      "references": [
+        "Ecclesiastes 4:7,8",
+        "Ecclesiastes 5:10,11"
+      ]
     },
     {
-      "original": "RICH",
-      "clean": "RICH",
-      "slug": "rich",
-      "canonical_id": "NAV:rich"
+      "label": "3:2,3;6:5,10;",
+      "references": [
+        "Titus 1:7"
+      ]
     },
     {
-      "original": "COVETOUSNESS",
-      "clean": "COVETOUSNESS",
-      "slug": "covetousness",
-      "canonical_id": "NAV:covetousness"
+      "label": "SeeCOVETOUSNESS",
+      "references": []
+    },
+    {
+      "label": "SeeRICH",
+      "references": []
+    },
+    {
+      "label": "SeeRICHES",
+      "references": []
+    },
+    {
+      "label": "INSTANCES OF",
+      "references": []
+    },
+    {
+      "label": ".The",
+      "references": [
+        "Joshua 17:14-18"
+      ]
     }
   ],
-  "raw_block": "–General scriptures concerningEc 4:7,8;5:10,11;1Ti \n3:2,3;6:5,10;Tit 1:7\n–SeeCOVETOUSNESS\n–SeeRICH\n–SeeRICHES\n–INSTANCES OF\n  .The descendants of JosephJos 17:14-18",
-  "content_preview": "–General scriptures concerningEc 4:7,8;5:10,11;1Ti ",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–General scriptures concerningEc 4:7,8;5:10,11;1Ti \n3:2,3;6:5,10;Tit 1:7",
-      "raw_segment": "–General scriptures concerningEc 4:7,8;5:10,11;1Ti \n3:2,3;6:5,10;Tit 1:7"
+      "book": "Ecclesiastes",
+      "chapter": 4,
+      "verses": [
+        7,
+        8
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Ecclesiastes 4:7,8"
     },
     {
-      "idx": 1,
-      "entry_label": "–SeeCOVETOUSNESS",
-      "raw_segment": "–SeeCOVETOUSNESS"
+      "book": "Ecclesiastes",
+      "chapter": 5,
+      "verses": [
+        10,
+        11
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Ecclesiastes 5:10,11"
     },
     {
-      "idx": 2,
-      "entry_label": "–SeeRICH",
-      "raw_segment": "–SeeRICH"
+      "book": "Ecclesiastes",
+      "chapter": 3,
+      "verses": [
+        2,
+        3
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Ecclesiastes 3:2,3"
     },
     {
-      "idx": 3,
-      "entry_label": "–SeeRICHES",
-      "raw_segment": "–SeeRICHES"
+      "book": "Ecclesiastes",
+      "chapter": 6,
+      "verses": [
+        5,
+        10
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Ecclesiastes 6:5,10"
     },
     {
-      "idx": 4,
-      "entry_label": "–INSTANCES OF",
-      "raw_segment": "–INSTANCES OF"
+      "book": "Titus",
+      "chapter": 1,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Titus 1:7"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 17,
+      "verses": [
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "verse_count": 5,
+      "testament": "OT",
+      "raw": "Joshua 17:14-18"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "Ecclesiastes",
+    "Joshua",
+    "Titus"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:8b3bf25a0bc1f7b782734efb20178497d1443c28507a93c2dfac8e628e3d9744",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 7
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 7,
+    "total_refs": 6,
+    "ot_refs": 5,
+    "nt_refs": 1,
+    "books_count": 3,
+    "top_books": [
+      "Ecclesiastes",
+      "Titus",
+      "Joshua"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:23:58.065922Z",
-  "updated_at": "2025-09-20T17:23:58.065930Z"
+  }
 }

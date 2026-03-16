@@ -1,78 +1,106 @@
 {
   "topic": "HUSBANDMAN",
-  "topic_slug": "husbandman",
+  "slug": "husbandman",
   "canonical_id": "NAV:husbandman",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "AGRICULTURE"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "AGRICULTURE",
-      "clean": "AGRICULTURE",
-      "slug": "agriculture",
-      "canonical_id": "NAV:agriculture"
-    }
-  ],
-  "raw_block": "–An agriculturistMt 21:33-46;Mr 12:1-9;Joh 15:1;1Co 3:9\n–SeeAGRICULTURE",
-  "content_preview": "–An agriculturistMt 21:33-46;Mr 12:1-9;Joh 15:1;1Co 3:9",
-  "reference_groups": [
-    {
-      "idx": 0,
-      "entry_label": "–An agriculturistMt 21:33-46;Mr 12:1-9;Joh 15:1;1Co 3:9",
-      "raw_segment": "–An agriculturistMt 21:33-46;Mr 12:1-9;Joh 15:1;1Co 3:9"
+      "label": "An agriculturist",
+      "references": [
+        "Matthew 21:33-46",
+        "Mark 12:1-9",
+        "John 15:1",
+        "1 Corinthians 3:9"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–SeeAGRICULTURE",
-      "raw_segment": "–SeeAGRICULTURE"
+      "label": "SeeAGRICULTURE",
+      "references": []
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Matthew",
+      "chapter": 21,
+      "verses": [
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "verse_count": 14,
+      "testament": "NT",
+      "raw": "Matthew 21:33-46"
+    },
+    {
+      "book": "Mark",
+      "chapter": 12,
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "verse_count": 9,
+      "testament": "NT",
+      "raw": "Mark 12:1-9"
+    },
+    {
+      "book": "John",
+      "chapter": 15,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "John 15:1"
+    },
+    {
+      "book": "1 Corinthians",
+      "chapter": 3,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "1 Corinthians 3:9"
+    }
+  ],
+  "books_mentioned": [
+    "1 Corinthians",
+    "John",
+    "Mark",
+    "Matthew"
+  ],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 2,
+    "total_refs": 4,
     "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:ab20d3d99e4ab541668f6ff741798c480726d01b28a7f06b40cde9a919bbf149",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "nt_refs": 4,
+    "books_count": 4,
+    "top_books": [
+      "Matthew",
+      "Mark",
+      "John",
+      "1 Corinthians"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:27:25.879827Z",
-  "updated_at": "2025-09-20T17:27:25.879834Z"
+  }
 }

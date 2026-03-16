@@ -1,64 +1,119 @@
 {
   "topic": "CHAPITER",
-  "topic_slug": "chapiter",
+  "slug": "chapiter",
   "canonical_id": "NAV:chapiter",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–Head of a pillarEx 36:38;1Ki 7:16-42;2Ki 25:17;2Ch 4:12,13;Jer 52:22",
-  "content_preview": "–Head of a pillarEx 36:38;1Ki 7:16-42;2Ki 25:17;2Ch 4:12,13;Jer 52:22",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–Head of a pillarEx 36:38;1Ki 7:16-42;2Ki 25:17;2Ch 4:12,13;Jer 52:22",
-      "raw_segment": "–Head of a pillarEx 36:38;1Ki 7:16-42;2Ki 25:17;2Ch 4:12,13;Jer 52:22"
+      "label": "Head of a pillar",
+      "references": [
+        "Exodus 36:38",
+        "1 Kings 7:16-42",
+        "2 Kings 25:17",
+        "2 Chronicles 4:12,13",
+        "Jeremiah 52:22"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Exodus",
+      "chapter": 36,
+      "verses": [
+        38
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 36:38"
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 7,
+      "verses": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42
+      ],
+      "verse_count": 27,
+      "testament": "OT",
+      "raw": "1 Kings 7:16-42"
+    },
+    {
+      "book": "2 Kings",
+      "chapter": 25,
+      "verses": [
+        17
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Kings 25:17"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 4,
+      "verses": [
+        12,
+        13
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "2 Chronicles 4:12,13"
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 52,
+      "verses": [
+        22
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Jeremiah 52:22"
+    }
+  ],
+  "books_mentioned": [
+    "1 Kings",
+    "2 Chronicles",
+    "2 Kings",
+    "Exodus",
+    "Jeremiah"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 1,
+    "total_refs": 5,
+    "ot_refs": 5,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:6b5437299b81d273a28a95aca331301ceda1e1534ac2df808312cc945abcd3b2",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 1
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 5,
+    "top_books": [
+      "Exodus",
+      "1 Kings",
+      "2 Kings",
+      "2 Chronicles",
+      "Jeremiah"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:24:54.845348Z",
-  "updated_at": "2025-09-20T17:24:54.845355Z"
+  }
 }

@@ -1,79 +1,176 @@
 {
   "topic": "SPOILS",
-  "topic_slug": "spoils",
+  "slug": "spoils",
   "canonical_id": "NAV:spoils",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–(Plunder, booty)\n–Of warGe 14:11,12;Nu 31:9,10;De 2:35\n–Divided between the combatants and non-combatants of the Israelites, \nincluding priests and LevitesNu 31:25-54;1Sa 30:24\n–Dedicated to the Lord1Sa 15:15;1Ch 26:27;2Ch 15:11",
-  "content_preview": "–(Plunder, booty)",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–(Plunder, booty)",
-      "raw_segment": "–(Plunder, booty)"
+      "label": "(P",
+      "references": []
     },
     {
-      "idx": 1,
-      "entry_label": "–Of warGe 14:11,12;Nu 31:9,10;De 2:35",
-      "raw_segment": "–Of warGe 14:11,12;Nu 31:9,10;De 2:35"
+      "label": "Of war",
+      "references": [
+        "Genesis 14:11,12",
+        "Numbers 31:9,10",
+        "Deuteronomy 2:35"
+      ]
     },
     {
-      "idx": 2,
-      "entry_label": "–Divided between the combatants and non-combatants of the Israelites, \nincluding priests and LevitesNu 31:25-54;1Sa 30:24",
-      "raw_segment": "–Divided between the combatants and non-combatants of the Israelites, \nincluding priests and LevitesNu 31:25-54;1Sa 30:24"
+      "label": "Divi",
+      "references": []
     },
     {
-      "idx": 3,
-      "entry_label": "–Dedicated to the Lord1Sa 15:15;1Ch 26:27;2Ch 15:11",
-      "raw_segment": "–Dedicated to the Lord1Sa 15:15;1Ch 26:27;2Ch 15:11"
+      "label": "inc",
+      "references": [
+        "Numbers 31:25-54",
+        "1 Samuel 30:24"
+      ]
+    },
+    {
+      "label": "General references",
+      "references": [
+        "1 Samuel 15:15",
+        "1 Chronicles 26:27",
+        "2 Chronicles 15:11"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Genesis",
+      "chapter": 14,
+      "verses": [
+        11,
+        12
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Genesis 14:11,12"
+    },
+    {
+      "book": "Numbers",
+      "chapter": 31,
+      "verses": [
+        9,
+        10
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Numbers 31:9,10"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 2,
+      "verses": [
+        35
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 2:35"
+    },
+    {
+      "book": "Numbers",
+      "chapter": 31,
+      "verses": [
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54
+      ],
+      "verse_count": 30,
+      "testament": "OT",
+      "raw": "Numbers 31:25-54"
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 30,
+      "verses": [
+        24
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Samuel 30:24"
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 15,
+      "verses": [
+        15
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Samuel 15:15"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 26,
+      "verses": [
+        27
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 26:27"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 15,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Chronicles 15:11"
+    }
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "1 Samuel",
+    "2 Chronicles",
+    "Deuteronomy",
+    "Genesis",
+    "Numbers"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 5,
+    "total_refs": 8,
+    "ot_refs": 8,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:71adde9d61b836ebcf60dad033471999963db865049e93c5dde5e858b12c0f35",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 5
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 6,
+    "top_books": [
+      "Numbers",
+      "1 Samuel",
+      "Genesis",
+      "Deuteronomy",
+      "1 Chronicles",
+      "2 Chronicles"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:31:45.386111Z",
-  "updated_at": "2025-09-20T17:31:45.386118Z"
+  }
 }

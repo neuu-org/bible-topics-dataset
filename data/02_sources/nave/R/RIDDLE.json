@@ -1,95 +1,90 @@
 {
   "topic": "RIDDLE",
-  "topic_slug": "riddle",
+  "slug": "riddle",
   "canonical_id": "NAV:riddle",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "PARABLE",
     "PROVERBS"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "PARABLE",
-      "clean": "PARABLE",
-      "slug": "parable",
-      "canonical_id": "NAV:parable"
+      "label": "Used as a test of wit: at Sam",
+      "references": [
+        "Judges 14:12-18"
+      ]
     },
     {
-      "original": "PROVERBS",
-      "clean": "PROVERBS",
-      "slug": "proverbs",
-      "canonical_id": "NAV:proverbs"
+      "label": "By Agur",
+      "references": [
+        "Proverbs 30:15,16,18-31"
+      ]
+    },
+    {
+      "label": "SeePARABLE",
+      "references": []
+    },
+    {
+      "label": "SeePROVERBS",
+      "references": []
     }
   ],
-  "raw_block": "–Used as a test of wit: at Samson’ s feastJud 14:12-18\n–By AgurPr 30:15,16,18-31\n–SeePARABLE\n–SeePROVERBS",
-  "content_preview": "–Used as a test of wit: at Samson’ s feastJud 14:12-18",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–Used as a test of wit: at Samson’ s feastJud 14:12-18",
-      "raw_segment": "–Used as a test of wit: at Samson’ s feastJud 14:12-18"
+      "book": "Judges",
+      "chapter": 14,
+      "verses": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "verse_count": 7,
+      "testament": "OT",
+      "raw": "Judges 14:12-18"
     },
     {
-      "idx": 1,
-      "entry_label": "–By AgurPr 30:15,16,18-31",
-      "raw_segment": "–By AgurPr 30:15,16,18-31"
-    },
-    {
-      "idx": 2,
-      "entry_label": "–SeePARABLE",
-      "raw_segment": "–SeePARABLE"
-    },
-    {
-      "idx": 3,
-      "entry_label": "–SeePROVERBS",
-      "raw_segment": "–SeePROVERBS"
+      "book": "Proverbs",
+      "chapter": 30,
+      "verses": [
+        15,
+        16,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "verse_count": 16,
+      "testament": "OT",
+      "raw": "Proverbs 30:15,16,18-31"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "Judges",
+    "Proverbs"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 4,
+    "total_refs": 2,
+    "ot_refs": 2,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:67ddbfd03fe081c16c9eb72e773e96d5eff3402439d75b499772a5e93ad23396",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 4
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 2,
+    "top_books": [
+      "Judges",
+      "Proverbs"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:30:42.754440Z",
-  "updated_at": "2025-09-20T17:30:42.754448Z"
+  }
 }

@@ -1,97 +1,35 @@
 {
   "topic": "HUSBANDRY",
-  "topic_slug": "husbandry",
+  "slug": "husbandry",
   "canonical_id": "NAV:husbandry",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "AGRICULTURE",
     "HUSBANDMAN",
     "ANIMALS"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "AGRICULTURE",
-      "clean": "AGRICULTURE",
-      "slug": "agriculture",
-      "canonical_id": "NAV:agriculture"
+      "label": "SeeHUSBANDMAN",
+      "references": []
     },
     {
-      "original": "HUSBANDMAN",
-      "clean": "HUSBANDMAN",
-      "slug": "husbandman",
-      "canonical_id": "NAV:husbandman"
+      "label": "SeeAGRICULTURE",
+      "references": []
     },
     {
-      "original": "ANIMALS",
-      "clean": "ANIMALS",
-      "slug": "animals",
-      "canonical_id": "NAV:animals"
-    }
-  ],
-  "raw_block": "–SeeHUSBANDMAN\n–SeeAGRICULTURE\n–SeeANIMALS",
-  "content_preview": "–SeeHUSBANDMAN",
-  "reference_groups": [
-    {
-      "idx": 0,
-      "entry_label": "–SeeHUSBANDMAN",
-      "raw_segment": "–SeeHUSBANDMAN"
-    },
-    {
-      "idx": 1,
-      "entry_label": "–SeeAGRICULTURE",
-      "raw_segment": "–SeeAGRICULTURE"
-    },
-    {
-      "idx": 2,
-      "entry_label": "–SeeANIMALS",
-      "raw_segment": "–SeeANIMALS"
+      "label": "SeeANIMALS",
+      "references": []
     }
   ],
   "biblical_references": [],
   "books_mentioned": [],
-  "normalized_labels": [],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 3,
+    "total_refs": 0,
     "ot_refs": 0,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:8fcdf9c77687c6b0c9719e4dda48143158fdc23f0f63bfb9631d7d5f589618ca",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 3
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
-    ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:27:25.995957Z",
-  "updated_at": "2025-09-20T17:27:25.995966Z"
+    "books_count": 0,
+    "top_books": []
+  }
 }

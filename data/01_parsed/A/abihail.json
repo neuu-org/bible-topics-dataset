@@ -1,71 +1,41 @@
 {
   "topic": "ABIHAIL",
   "slug": "abihail",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. Father of Esther Es 2:15",
-      "references": [
-        "Esth 2:15"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "2. The second wife of Rehoboam 2Ch 11:18,19",
-      "references": [
-        "2Chr 11:18",
-        "2Chr 11:19"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "3. Father of Zuriel Nu 3:35",
-      "references": [
-        "Num 3:35"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "4. Wife of Abishur 1Ch 2:29",
-      "references": [
-        "1Chr 2:29"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 4,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.659793+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "see_also": [],
+  "aspects": [
     {
-      "book": "2 Chronicles",
-      "chapter": 11,
-      "verses": [
-        18
+      "label": "1. Father of Esther",
+      "references": [
+        "Esther 2:15"
       ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "2 Chronicles 11:18",
-      "source": "EAS"
+      "source": "NAV"
     },
+    {
+      "label": "2. The second wife of Rehoboam",
+      "references": [
+        "2 Chronicles 11:18,19"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "3. Father of Zuriel",
+      "references": [
+        "Numbers 3:35"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "4. Wife of Abishur",
+      "references": [
+        "1 Chronicles 2:29"
+      ],
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
     {
       "book": "Esther",
       "chapter": 2,
@@ -74,8 +44,18 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Esther 2:15",
-      "source": "EAS"
+      "raw": "Esther 2:15"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 11,
+      "verses": [
+        18,
+        19
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "2 Chronicles 11:18,19"
     },
     {
       "book": "Numbers",
@@ -85,8 +65,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Numbers 3:35",
-      "source": "EAS"
+      "raw": "Numbers 3:35"
     },
     {
       "book": "1 Chronicles",
@@ -96,19 +75,26 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 2:29",
-      "source": "EAS"
-    },
-    {
-      "book": "1 Chronicles",
-      "chapter": 5,
-      "verses": [
-        14
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "1 Chronicles 5:14",
-      "source": "EAS"
+      "raw": "1 Chronicles 2:29"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "2 Chronicles",
+    "Esther",
+    "Numbers"
+  ],
+  "stats": {
+    "total_aspects": 4,
+    "total_refs": 4,
+    "ot_refs": 4,
+    "nt_refs": 0,
+    "books_count": 4,
+    "top_books": [
+      "Esther",
+      "2 Chronicles",
+      "Numbers",
+      "1 Chronicles"
+    ]
+  }
 }

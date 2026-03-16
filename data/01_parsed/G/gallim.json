@@ -1,52 +1,25 @@
 {
   "topic": "GALLIM",
   "slug": "gallim",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "A town, probably in tribe of Benjamin 1Sa 25:44; Isa 10:30",
-      "references": [
-        "1Sam 25:44",
-        "Isa 10:30"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Isaiah",
-      "book_abbrev": "isa",
-      "chapter": 10,
-      "testament": "OT",
-      "verses": [
-        30
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.687824+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "A town, probably in tribe of Benjamin",
+      "references": [
+        "1 Samuel 25:44"
+      ],
+      "source": "NAV"
     },
-    "enriched_at": "2025-12-02T22:02:10.327672+00:00",
-    "enrichment_source": "pipeline_merge"
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+    {
+      "label": "10:30",
+      "references": [],
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
     {
       "book": "1 Samuel",
       "chapter": 25,
@@ -55,19 +28,30 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Samuel 25:44",
-      "source": "EAS"
+      "raw": "1 Samuel 25:44"
     },
     {
-      "book": "Isaiah",
+      "book": "1 Samuel",
       "chapter": 10,
       "verses": [
         30
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Isaiah 10:30",
-      "source": "EAS"
+      "raw": "1 Samuel 10:30"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Samuel"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 2,
+    "ot_refs": 2,
+    "nt_refs": 0,
+    "books_count": 1,
+    "top_books": [
+      "1 Samuel"
+    ]
+  }
 }

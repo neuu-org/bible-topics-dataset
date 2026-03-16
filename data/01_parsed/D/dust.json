@@ -1,198 +1,82 @@
 {
   "topic": "DUST",
   "slug": "dust",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "Man made from Ge 2:7; 3:19; 23; Ec 3:20",
+      "label": "Man ma",
       "references": [
-        "Gen 2:7",
-        "Gen 3:19",
-        "Gen 23",
-        "Eccl 3:20"
+        "Genesis 2:7",
+        "Genesis 3:19",
+        "Ecclesiastes 3:20"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Casting of, in anger 2Sa 16:13",
+      "label": "General references",
       "references": [
-        "2Sam 16:13"
+        "2 Samuel 16:13"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Shaking from feet Mt 10:14; Ac 13:51",
+      "label": "Shaking from feet",
       "references": [
-        "Matt 10:14",
+        "Matthew 10:14",
         "Acts 13:51"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Put on the head in mourning Jos 7:6; 1Sa 4:12; 2Sa 1:2; 15:30; Job 2:12; 42:6",
+      "label": "Put on the head in mourning",
       "references": [
-        "Josh 7:6",
-        "1Sam 4:12",
-        "2Sam 1:2",
-        "2Sam 15:30",
+        "Joshua 7:6",
+        "1 Samuel 4:12"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "1:2;15:30;",
+      "references": [
         "Job 2:12",
         "Job 42:6"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "1 Samuel",
-      "book_abbrev": "1sa",
-      "chapter": 4,
-      "testament": "OT",
-      "verses": [
-        2,
-        12
-      ],
-      "verse_count": 2
-    },
-    {
-      "book": "2 Samuel",
-      "book_abbrev": "2sa",
-      "chapter": 1,
-      "testament": "OT",
-      "verses": [
-        2,
-        15
-      ],
-      "verse_count": 2
-    },
-    {
-      "book": "Job",
-      "book_abbrev": "job",
+      "book": "Genesis",
       "chapter": 2,
-      "testament": "OT",
       "verses": [
-        12,
-        42
+        7
       ],
-      "verse_count": 2
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 2:7"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 3,
+      "verses": [
+        19
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 3:19"
     },
     {
       "book": "Ecclesiastes",
-      "book_abbrev": "ecc",
       "chapter": 3,
-      "testament": "OT",
       "verses": [
         20
       ],
-      "verse_count": 1
-    },
-    {
-      "book": "Acts",
-      "book_abbrev": "act",
-      "chapter": 13,
-      "testament": "NT",
-      "verses": [
-        51
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 4,
-    "ot_refs": 4,
-    "nt_refs": 1,
-    "total_verses": 5
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.682659+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "Deuteronomy",
-      "chapter": 28,
-      "verses": [
-        24
-      ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Deuteronomy 28:24",
-      "source": "EAS"
-    },
-    {
-      "book": "Joshua",
-      "chapter": 7,
-      "verses": [
-        6
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Joshua 7:6",
-      "source": "EAS"
-    },
-    {
-      "book": "Isaiah",
-      "chapter": 47,
-      "verses": [
-        1
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Isaiah 47:1",
-      "source": "EAS"
-    },
-    {
-      "book": "Job",
-      "chapter": 7,
-      "verses": [
-        21
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Job 7:21",
-      "source": "EAS"
-    },
-    {
-      "book": "Matthew",
-      "chapter": 10,
-      "verses": [
-        14
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Matthew 10:14",
-      "source": "EAS"
-    },
-    {
-      "book": "Acts",
-      "chapter": 13,
-      "verses": [
-        51
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Acts 13:51",
-      "source": "EAS"
-    },
-    {
-      "book": "Psalms",
-      "chapter": 72,
-      "verses": [
-        9
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Psalms 72:9",
-      "source": "EAS"
+      "raw": "Ecclesiastes 3:20"
     },
     {
       "book": "2 Samuel",
@@ -202,19 +86,114 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Samuel 16:13",
-      "source": "EAS"
+      "raw": "2 Samuel 16:13"
     },
     {
-      "book": "Acts",
-      "chapter": 22,
+      "book": "Matthew",
+      "chapter": 10,
       "verses": [
-        23
+        14
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Acts 22:23",
-      "source": "EAS"
+      "raw": "Matthew 10:14"
+    },
+    {
+      "book": "Acts",
+      "chapter": 13,
+      "verses": [
+        51
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 13:51"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 7,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 7:6"
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 4,
+      "verses": [
+        12
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Samuel 4:12"
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 1,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Samuel 1:2"
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 15,
+      "verses": [
+        30
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Samuel 15:30"
+    },
+    {
+      "book": "Job",
+      "chapter": 2,
+      "verses": [
+        12
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Job 2:12"
+    },
+    {
+      "book": "Job",
+      "chapter": 42,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Job 42:6"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Samuel",
+    "2 Samuel",
+    "Acts",
+    "Ecclesiastes",
+    "Genesis",
+    "Job",
+    "Joshua",
+    "Matthew"
+  ],
+  "stats": {
+    "total_aspects": 5,
+    "total_refs": 12,
+    "ot_refs": 10,
+    "nt_refs": 2,
+    "books_count": 8,
+    "top_books": [
+      "1 Samuel",
+      "Genesis",
+      "Job",
+      "Ecclesiastes",
+      "2 Samuel",
+      "Matthew",
+      "Acts",
+      "Joshua"
+    ]
+  }
 }

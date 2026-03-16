@@ -1,69 +1,72 @@
 {
   "topic": "KELAIAH",
-  "topic_slug": "kelaiah",
+  "slug": "kelaiah",
   "canonical_id": "NAV:kelaiah",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–Also called KELITA\n–A Levite who divorced his Gentile wife after the captivity, and \nassisted Ezra in expounding the lawEzr 10:23;Ne 8:7;10:10",
-  "content_preview": "–Also called KELITA",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–Also called KELITA",
-      "raw_segment": "–Also called KELITA"
+      "label": "Al",
+      "references": []
     },
     {
-      "idx": 1,
-      "entry_label": "–A Levite who divorced his Gentile wife after the captivity, and \nassisted Ezra in expounding the lawEzr 10:23;Ne 8:7;10:10",
-      "raw_segment": "–A Levite who divorced his Gentile wife after the captivity, and \nassisted Ezra in expounding the lawEzr 10:23;Ne 8:7;10:10"
+      "label": "A Levite who divorced his Gentile wife after the",
+      "references": []
+    },
+    {
+      "label": "assisted Ezra in expounding the law",
+      "references": [
+        "Ezra 10:23",
+        "Nehemiah 8:7",
+        "Nehemiah 10:10"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Ezra",
+      "chapter": 10,
+      "verses": [
+        23
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezra 10:23"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 8,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Nehemiah 8:7"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 10,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Nehemiah 10:10"
+    }
+  ],
+  "books_mentioned": [
+    "Ezra",
+    "Nehemiah"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 3,
+    "total_refs": 3,
+    "ot_refs": 3,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:557f237d1340b54a56e3a60b1c3ba98172164af42d85008a59d70a8d018303a7",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 3
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 2,
+    "top_books": [
+      "Nehemiah",
+      "Ezra"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:28:20.006068Z",
-  "updated_at": "2025-09-20T17:28:20.006076Z"
+  }
 }

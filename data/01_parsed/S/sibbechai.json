@@ -1,58 +1,28 @@
 {
   "topic": "SIBBECHAI",
   "slug": "sibbechai",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Also called SIBBECAI",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "A captain in David’ s army 2Sa 21:18; 1Ch 11:29; 20:4; 27:11",
-      "references": [
-        "2Sam 21:18",
-        "1Chr 11:29",
-        "1Chr 20:4",
-        "1Chr 27:11"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "1 Chronicles",
-      "book_abbrev": "1ch",
-      "chapter": 11,
-      "testament": "OT",
-      "verses": [
-        20,
-        29
-      ],
-      "verse_count": 2
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.726198+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "Al",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "A",
+      "references": [
+        "2 Samuel 21:18",
+        "1 Chronicles 11:29",
+        "1 Chronicles 20:4",
+        "1 Chronicles 27:11"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "2 Samuel",
       "chapter": 21,
@@ -61,8 +31,17 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Samuel 21:18",
-      "source": "SMI"
+      "raw": "2 Samuel 21:18"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 11,
+      "verses": [
+        29
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 11:29"
     },
     {
       "book": "1 Chronicles",
@@ -72,8 +51,32 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 20:4",
-      "source": "SMI"
+      "raw": "1 Chronicles 20:4"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 27,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 27:11"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "2 Samuel"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 4,
+    "ot_refs": 4,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "1 Chronicles",
+      "2 Samuel"
+    ]
+  }
 }

@@ -1,73 +1,25 @@
 {
   "topic": "TANACH",
-  "topic_slug": "tanach",
+  "slug": "tanach",
   "canonical_id": "NAV:tanach",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "TAANACH"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "TAANACH",
-      "clean": "TAANACH",
-      "slug": "taanach",
-      "canonical_id": "NAV:taanach"
-    }
-  ],
-  "raw_block": "–SeeTAANACH",
-  "content_preview": "–SeeTAANACH",
-  "reference_groups": [
-    {
-      "idx": 0,
-      "entry_label": "–SeeTAANACH",
-      "raw_segment": "–SeeTAANACH"
+      "label": "SeeTAANACH",
+      "references": []
     }
   ],
   "biblical_references": [],
   "books_mentioned": [],
-  "normalized_labels": [],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 1,
+    "total_refs": 0,
     "ot_refs": 0,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:a01fc53fc56c60a96df9d59d35b2f88a999fc721251584dac06da48cb59d6973",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 1
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
-    ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:32:00.091119Z",
-  "updated_at": "2025-09-20T17:32:00.091126Z"
+    "books_count": 0,
+    "top_books": []
+  }
 }

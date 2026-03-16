@@ -1,59 +1,28 @@
 {
   "topic": "COFFER",
   "slug": "coffer",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "A chest 1Sa 6:8,11,15; Eze 27:24",
-      "references": [
-        "1Sam 6:8",
-        "1Sam 6:11",
-        "1Sam 6:15",
-        "Ezek 27:24"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "See TREASURY",
-      "references": [],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Ezekiel",
-      "book_abbrev": "ezk",
-      "chapter": 27,
-      "testament": "OT",
-      "verses": [
-        24
-      ],
-      "verse_count": 1
-    }
+  "sources": [
+    "NAV"
   ],
   "see_also": [
     "TREASURY"
   ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.678561+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "aspects": [
+    {
+      "label": "A chest",
+      "references": [
+        "1 Samuel 6:8,11,15",
+        "Ezekiel 27:24"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeTREASURY",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "1 Samuel",
       "chapter": 6,
@@ -64,8 +33,32 @@
       ],
       "verse_count": 3,
       "testament": "OT",
-      "raw": "1 Samuel 6:8, 11, 15",
-      "source": "EAS"
+      "raw": "1 Samuel 6:8,11,15"
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 27,
+      "verses": [
+        24
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezekiel 27:24"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Samuel",
+    "Ezekiel"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 2,
+    "ot_refs": 2,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "1 Samuel",
+      "Ezekiel"
+    ]
+  }
 }

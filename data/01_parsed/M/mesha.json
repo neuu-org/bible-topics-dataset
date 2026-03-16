@@ -1,75 +1,56 @@
 {
   "topic": "MESHA",
   "slug": "mesha",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. King of Moab",
-      "references": [],
-      "sub_groups": [
-        {
-          "name": "Tributary to Ahab 2Ki 3:4,5",
-          "references": [
-            "2Kgs 3:4",
-            "2Kgs 3:5"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "2. Son of Caleb 1Ch 2:42",
-      "references": [
-        "1Chr 2:42"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "3. A place in possession of the Joktanites Ge 10:30",
-      "references": [
-        "Gen 10:30"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "4. A Benjamite 1Ch 8:9",
-      "references": [
-        "1Chr 8:9"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 4,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.705725+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "see_also": [],
+  "aspects": [
     {
-      "book": "Genesis",
-      "chapter": 10,
-      "verses": [
-        30
+      "label": "1. King of Moab",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".Tributary to Ahab",
+      "references": [
+        "2 Kings 3:4,5"
       ],
-      "verse_count": 1,
+      "source": "NAV"
+    },
+    {
+      "label": "2.",
+      "references": [
+        "1 Chronicles 2:42"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "3. A place in possession of the Joktanites",
+      "references": [
+        "Genesis 10:30"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "4. A Benjamite",
+      "references": [
+        "1 Chronicles 8:9"
+      ],
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
+    {
+      "book": "2 Kings",
+      "chapter": 3,
+      "verses": [
+        4,
+        5
+      ],
+      "verse_count": 2,
       "testament": "OT",
-      "raw": "Genesis 10:30",
-      "source": "EAS"
+      "raw": "2 Kings 3:4,5"
     },
     {
       "book": "1 Chronicles",
@@ -79,32 +60,44 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 2:42",
-      "source": "EAS"
+      "raw": "1 Chronicles 2:42"
     },
     {
-      "book": "2 Kings",
-      "chapter": 3,
+      "book": "Genesis",
+      "chapter": 10,
       "verses": [
-        4
+        30
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Kings 3:4",
-      "source": "EAS"
+      "raw": "Genesis 10:30"
     },
     {
-      "book": "2 Kings",
-      "chapter": 3,
+      "book": "1 Chronicles",
+      "chapter": 8,
       "verses": [
-        25,
-        26,
-        27
+        9
       ],
-      "verse_count": 3,
+      "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Kings 3:25-27",
-      "source": "EAS"
+      "raw": "1 Chronicles 8:9"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "2 Kings",
+    "Genesis"
+  ],
+  "stats": {
+    "total_aspects": 5,
+    "total_refs": 4,
+    "ot_refs": 4,
+    "nt_refs": 0,
+    "books_count": 3,
+    "top_books": [
+      "1 Chronicles",
+      "2 Kings",
+      "Genesis"
+    ]
+  }
 }

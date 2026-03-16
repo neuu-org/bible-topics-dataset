@@ -1,140 +1,453 @@
 {
   "topic": "OIL",
-  "topic_slug": "oil",
+  "slug": "oil",
   "canonical_id": "NAV:oil",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "OINTMENT",
     "ANOINTING"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "OINTMENT",
-      "clean": "OINTMENT",
-      "slug": "ointment",
-      "canonical_id": "NAV:ointment"
+      "label": "Sacre",
+      "references": [
+        "Exodus 30:23-25",
+        "Exodus 31:11",
+        "Exodus 35:8,15,28",
+        "Exodus 37:29",
+        "Exodus 39:38",
+        "Numbers 4:16",
+        "1 Chronicles 9:30"
+      ]
     },
     {
-      "original": "ANOINTING",
-      "clean": "ANOINTING",
-      "slug": "anointing",
-      "canonical_id": "NAV:anointing"
+      "label": "Punishment for profaning",
+      "references": [
+        "Exodus 30:31-33"
+      ]
+    },
+    {
+      "label": "Used for idols",
+      "references": [
+        "Ezekiel 23:41"
+      ]
+    },
+    {
+      "label": "Il",
+      "references": [
+        "Exodus 25:6",
+        "Exodus 27:20",
+        "Leviticus 24:2-4"
+      ]
+    },
+    {
+      "label": "For domestic use",
+      "references": [
+        "Matthew 25:3"
+      ]
+    },
+    {
+      "label": "Used for food",
+      "references": [
+        "Leviticus 2:4,5",
+        "Leviticus 14:10,21",
+        "Deuteronomy 12:17",
+        "1 Kings 17:12-16",
+        "Proverbs 21:17",
+        "Ezekiel 16:13",
+        "Hosea 2:5"
+      ]
+    },
+    {
+      "label": "Used for the head",
+      "references": [
+        "Psalms 23:5",
+        "Psalms 105:15",
+        "Luke 7:46"
+      ]
+    },
+    {
+      "label": "Used for anointing kings",
+      "references": [
+        "1 Samuel 10:1",
+        "1 Samuel 16:1,13",
+        "1 Kings 1:39"
+      ]
+    },
+    {
+      "label": "Tribute paid in",
+      "references": [
+        "Hosea 12:1"
+      ]
+    },
+    {
+      "label": "Commerce in",
+      "references": [
+        "2 Kings 4:1-7"
+      ]
+    },
+    {
+      "label": "Petroleum (?)",
+      "references": [
+        "Job 29:6"
+      ]
+    },
+    {
+      "label": "SeeANOINTING",
+      "references": []
+    },
+    {
+      "label": "SeeOINTMENT",
+      "references": []
     }
   ],
-  "raw_block": "–SacredEx 30:23-25;31:11;35:8,15,28;37:29;39:38;Nu 4:16;1Ch 9:30\n–Punishment for profaningEx 30:31-33\n–Used for idolsEze 23:41\n–Illuminating, for tabernacleEx 25:6;27:20;Le 24:2-4\n–For domestic useMt 25:3\n–Used for foodLe 2:4,5;14:10,21;De 12:17;1Ki 17:12-16;Pr 21:17;Eze 16:13;Ho 2:5\n–Used for the headPs 23:5;105:15;Lu 7:46\n–Used for anointing kings1Sa 10:1;16:1,13;1Ki 1:39\n–Tribute paid inHo 12:1\n–Commerce in2Ki 4:1-7\n–Petroleum (?)Job 29:6\n–SeeANOINTING\n–SeeOINTMENT",
-  "content_preview": "–SacredEx 30:23-25;31:11;35:8,15,28;37:29;39:38;Nu 4:16;1Ch 9:30",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–SacredEx 30:23-25;31:11;35:8,15,28;37:29;39:38;Nu 4:16;1Ch 9:30",
-      "raw_segment": "–SacredEx 30:23-25;31:11;35:8,15,28;37:29;39:38;Nu 4:16;1Ch 9:30"
+      "book": "Exodus",
+      "chapter": 30,
+      "verses": [
+        23,
+        24,
+        25
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Exodus 30:23-25"
     },
     {
-      "idx": 1,
-      "entry_label": "–Punishment for profaningEx 30:31-33",
-      "raw_segment": "–Punishment for profaningEx 30:31-33"
+      "book": "Exodus",
+      "chapter": 31,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 31:11"
     },
     {
-      "idx": 2,
-      "entry_label": "–Used for idolsEze 23:41",
-      "raw_segment": "–Used for idolsEze 23:41"
+      "book": "Exodus",
+      "chapter": 35,
+      "verses": [
+        8,
+        15,
+        28
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Exodus 35:8,15,28"
     },
     {
-      "idx": 3,
-      "entry_label": "–Illuminating, for tabernacleEx 25:6;27:20;Le 24:2-4",
-      "raw_segment": "–Illuminating, for tabernacleEx 25:6;27:20;Le 24:2-4"
+      "book": "Exodus",
+      "chapter": 37,
+      "verses": [
+        29
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 37:29"
     },
     {
-      "idx": 4,
-      "entry_label": "–For domestic useMt 25:3",
-      "raw_segment": "–For domestic useMt 25:3"
+      "book": "Exodus",
+      "chapter": 39,
+      "verses": [
+        38
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 39:38"
     },
     {
-      "idx": 5,
-      "entry_label": "–Used for foodLe 2:4,5;14:10,21;De 12:17;1Ki 17:12-16;Pr 21:17;Eze 16:13;Ho 2:5",
-      "raw_segment": "–Used for foodLe 2:4,5;14:10,21;De 12:17;1Ki 17:12-16;Pr 21:17;Eze 16:13;Ho 2:5"
+      "book": "Numbers",
+      "chapter": 4,
+      "verses": [
+        16
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Numbers 4:16"
     },
     {
-      "idx": 6,
-      "entry_label": "–Used for the headPs 23:5;105:15;Lu 7:46",
-      "raw_segment": "–Used for the headPs 23:5;105:15;Lu 7:46"
+      "book": "1 Chronicles",
+      "chapter": 9,
+      "verses": [
+        30
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 9:30"
     },
     {
-      "idx": 7,
-      "entry_label": "–Used for anointing kings1Sa 10:1;16:1,13;1Ki 1:39",
-      "raw_segment": "–Used for anointing kings1Sa 10:1;16:1,13;1Ki 1:39"
+      "book": "Exodus",
+      "chapter": 30,
+      "verses": [
+        31,
+        32,
+        33
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Exodus 30:31-33"
     },
     {
-      "idx": 8,
-      "entry_label": "–Tribute paid inHo 12:1",
-      "raw_segment": "–Tribute paid inHo 12:1"
+      "book": "Ezekiel",
+      "chapter": 23,
+      "verses": [
+        41
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezekiel 23:41"
     },
     {
-      "idx": 9,
-      "entry_label": "–Commerce in2Ki 4:1-7",
-      "raw_segment": "–Commerce in2Ki 4:1-7"
+      "book": "Exodus",
+      "chapter": 25,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 25:6"
     },
     {
-      "idx": 10,
-      "entry_label": "–Petroleum (?)Job 29:6",
-      "raw_segment": "–Petroleum (?)Job 29:6"
+      "book": "Exodus",
+      "chapter": 27,
+      "verses": [
+        20
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 27:20"
     },
     {
-      "idx": 11,
-      "entry_label": "–SeeANOINTING",
-      "raw_segment": "–SeeANOINTING"
+      "book": "Leviticus",
+      "chapter": 24,
+      "verses": [
+        2,
+        3,
+        4
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Leviticus 24:2-4"
     },
     {
-      "idx": 12,
-      "entry_label": "–SeeOINTMENT",
-      "raw_segment": "–SeeOINTMENT"
+      "book": "Matthew",
+      "chapter": 25,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 25:3"
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 2,
+      "verses": [
+        4,
+        5
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Leviticus 2:4,5"
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 14,
+      "verses": [
+        10,
+        21
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Leviticus 14:10,21"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 12,
+      "verses": [
+        17
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 12:17"
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 17,
+      "verses": [
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "verse_count": 5,
+      "testament": "OT",
+      "raw": "1 Kings 17:12-16"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 21,
+      "verses": [
+        17
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 21:17"
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 16,
+      "verses": [
+        13
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezekiel 16:13"
+    },
+    {
+      "book": "Hosea",
+      "chapter": 2,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Hosea 2:5"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 23,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 23:5"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 105,
+      "verses": [
+        15
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 105:15"
+    },
+    {
+      "book": "Luke",
+      "chapter": 7,
+      "verses": [
+        46
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 7:46"
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 10,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Samuel 10:1"
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 16,
+      "verses": [
+        1,
+        13
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "1 Samuel 16:1,13"
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 1,
+      "verses": [
+        39
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Kings 1:39"
+    },
+    {
+      "book": "Hosea",
+      "chapter": 12,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Hosea 12:1"
+    },
+    {
+      "book": "2 Kings",
+      "chapter": 4,
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "verse_count": 7,
+      "testament": "OT",
+      "raw": "2 Kings 4:1-7"
+    },
+    {
+      "book": "Job",
+      "chapter": 29,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Job 29:6"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "1 Chronicles",
+    "1 Kings",
+    "1 Samuel",
+    "2 Kings",
+    "Deuteronomy",
+    "Exodus",
+    "Ezekiel",
+    "Hosea",
+    "Job",
+    "Leviticus",
+    "Luke",
+    "Matthew",
+    "Numbers",
+    "Proverbs",
+    "Psalms"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:03b1e7a81e336a99d0f3d34cdb01d278d656c15f183c1ab00eb7730693232702",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 13
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 13,
+    "total_refs": 29,
+    "ot_refs": 27,
+    "nt_refs": 2,
+    "books_count": 15,
+    "top_books": [
+      "Exodus",
+      "Leviticus",
+      "Ezekiel",
+      "1 Kings",
+      "Hosea",
+      "Psalms",
+      "1 Samuel",
+      "Numbers",
+      "1 Chronicles",
+      "Matthew"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:29:40.200092Z",
-  "updated_at": "2025-09-20T17:29:40.200100Z"
+  }
 }

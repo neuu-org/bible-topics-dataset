@@ -1,42 +1,61 @@
 {
   "topic": "PAI",
   "slug": "pai",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "A city in Edom 1Ch 1:50",
-      "references": [
-        "1Chr 1:50"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Called PAU in Ge 36:39",
-      "references": [
-        "Gen 36:39"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.716718+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "A city in Edom",
+      "references": [
+        "1 Chronicles 1:50"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "General references",
+      "references": [
+        "Genesis 36:39"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0"
+  ],
+  "biblical_references": [
+    {
+      "book": "1 Chronicles",
+      "chapter": 1,
+      "verses": [
+        50
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 1:50"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 36,
+      "verses": [
+        39
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 36:39"
+    }
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Genesis"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 2,
+    "ot_refs": 2,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "1 Chronicles",
+      "Genesis"
+    ]
+  }
 }

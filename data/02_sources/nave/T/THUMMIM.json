@@ -1,73 +1,25 @@
 {
   "topic": "THUMMIM",
-  "topic_slug": "thummim",
+  "slug": "thummim",
   "canonical_id": "NAV:thummim",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "URIM"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "URIM",
-      "clean": "URIM",
-      "slug": "urim",
-      "canonical_id": "NAV:urim"
-    }
-  ],
-  "raw_block": "–SeeURIM",
-  "content_preview": "–SeeURIM",
-  "reference_groups": [
-    {
-      "idx": 0,
-      "entry_label": "–SeeURIM",
-      "raw_segment": "–SeeURIM"
+      "label": "SeeURIM",
+      "references": []
     }
   ],
   "biblical_references": [],
   "books_mentioned": [],
-  "normalized_labels": [],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 1,
+    "total_refs": 0,
     "ot_refs": 0,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:6d5bb6dd0b2706a2b6f9f17a1903bada989ed3a186ec104893642fa0c08857fa",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 1
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
-    ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:32:10.967196Z",
-  "updated_at": "2025-09-20T17:32:10.967204Z"
+    "books_count": 0,
+    "top_books": []
+  }
 }

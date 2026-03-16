@@ -1,74 +1,95 @@
 {
   "topic": "PASEAH",
-  "topic_slug": "paseah",
+  "slug": "paseah",
   "canonical_id": "NAV:paseah",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–1. Also called PHASEAH\n  .A son of Eshton1Ch 4:12\n–2. Ancestor of a family which returned to Jerusalem from captivity \nin BabylonEzr 2:49;Ne 7:51\n–3. Father of Jehoiada, probably identical with number twoNe 3:6",
-  "content_preview": "–1. Also called PHASEAH",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–1. Also called PHASEAH",
-      "raw_segment": "–1. Also called PHASEAH"
+      "label": "1. Al",
+      "references": []
     },
     {
-      "idx": 1,
-      "entry_label": "–2. Ancestor of a family which returned to Jerusalem from captivity \nin BabylonEzr 2:49;Ne 7:51",
-      "raw_segment": "–2. Ancestor of a family which returned to Jerusalem from captivity \nin BabylonEzr 2:49;Ne 7:51"
+      "label": ".A",
+      "references": [
+        "1 Chronicles 4:12"
+      ]
     },
     {
-      "idx": 2,
-      "entry_label": "–3. Father of Jehoiada, probably identical with number twoNe 3:6",
-      "raw_segment": "–3. Father of Jehoiada, probably identical with number twoNe 3:6"
+      "label": "2. Ancestor of a family which returned to",
+      "references": []
+    },
+    {
+      "label": "in Babylon",
+      "references": [
+        "Ezra 2:49",
+        "Nehemiah 7:51"
+      ]
+    },
+    {
+      "label": "3. Father of Jehoiada, probably i",
+      "references": [
+        "Nehemiah 3:6"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "1 Chronicles",
+      "chapter": 4,
+      "verses": [
+        12
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 4:12"
+    },
+    {
+      "book": "Ezra",
+      "chapter": 2,
+      "verses": [
+        49
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezra 2:49"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 7,
+      "verses": [
+        51
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Nehemiah 7:51"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 3,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Nehemiah 3:6"
+    }
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Ezra",
+    "Nehemiah"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 5,
+    "total_refs": 4,
+    "ot_refs": 4,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:e70029985cb89ed60e486754d28442e07b5904c23cd74573ef4000a0d889e07b",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 5
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 3,
+    "top_books": [
+      "Nehemiah",
+      "1 Chronicles",
+      "Ezra"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:29:52.875341Z",
-  "updated_at": "2025-09-20T17:29:52.875349Z"
+  }
 }

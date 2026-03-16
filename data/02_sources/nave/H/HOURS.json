@@ -1,79 +1,125 @@
 {
   "topic": "HOURS",
-  "topic_slug": "hours",
+  "slug": "hours",
   "canonical_id": "NAV:hours",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–(A division of time)\n–Twelve, in the dayJoh 11:9;Mt 20:3-12;27:45,46\n–In the nightAc 23:23\n–SYMBOLICALRe 8:1;9:15",
-  "content_preview": "–(A division of time)",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–(A division of time)",
-      "raw_segment": "–(A division of time)"
+      "label": "(A division of time)",
+      "references": []
     },
     {
-      "idx": 1,
-      "entry_label": "–Twelve, in the dayJoh 11:9;Mt 20:3-12;27:45,46",
-      "raw_segment": "–Twelve, in the dayJoh 11:9;Mt 20:3-12;27:45,46"
+      "label": "Twelve, in the day",
+      "references": [
+        "John 11:9",
+        "Matthew 20:3-12",
+        "Matthew 27:45,46"
+      ]
     },
     {
-      "idx": 2,
-      "entry_label": "–In the nightAc 23:23",
-      "raw_segment": "–In the nightAc 23:23"
+      "label": "In the night",
+      "references": [
+        "Acts 23:23"
+      ]
     },
     {
-      "idx": 3,
-      "entry_label": "–SYMBOLICALRe 8:1;9:15",
-      "raw_segment": "–SYMBOLICALRe 8:1;9:15"
+      "label": "SYMBOLI",
+      "references": [
+        "Revelation 8:1",
+        "Revelation 9:15"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "John",
+      "chapter": 11,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "John 11:9"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 20,
+      "verses": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "verse_count": 10,
+      "testament": "NT",
+      "raw": "Matthew 20:3-12"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 27,
+      "verses": [
+        45,
+        46
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Matthew 27:45,46"
+    },
+    {
+      "book": "Acts",
+      "chapter": 23,
+      "verses": [
+        23
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 23:23"
+    },
+    {
+      "book": "Revelation",
+      "chapter": 8,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Revelation 8:1"
+    },
+    {
+      "book": "Revelation",
+      "chapter": 9,
+      "verses": [
+        15
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Revelation 9:15"
+    }
+  ],
+  "books_mentioned": [
+    "Acts",
+    "John",
+    "Matthew",
+    "Revelation"
+  ],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 4,
+    "total_refs": 6,
     "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:3e034fc08c3f361df0a23482362e96d3f69fe005aeacc32a3e5bb289b38ee4d7",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 4
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "nt_refs": 6,
+    "books_count": 4,
+    "top_books": [
+      "Matthew",
+      "Revelation",
+      "John",
+      "Acts"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:27:23.548335Z",
-  "updated_at": "2025-09-20T17:27:23.548345Z"
+  }
 }

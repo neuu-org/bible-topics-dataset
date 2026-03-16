@@ -1,109 +1,58 @@
 {
   "topic": "TIMBREL",
   "slug": "timbrel",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "(Also called TABRET, an instrument of music (in the tambourine category))",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "Used by Miriam Ex 15:20",
-      "references": [
-        "Exod 15:20"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "By Jephthah’ s daughter Jud 11:34",
-      "references": [
-        "Judg 11:34"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Used in religious services 2Sa 6:5; 1Ch 13:8; Ps 68:25; 81:2; 149:3; 150:4",
-      "references": [
-        "2Sam 6:5",
-        "1Chr 13:8",
-        "Ps 68:25",
-        "Ps 81:2",
-        "Ps 149:3",
-        "Ps 150:4"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Used in dances Job 21:12",
-      "references": [
-        "Job 21:12"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "See MUSIC, INSTRUMENTS OF",
-      "references": [],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "1 Chronicles",
-      "book_abbrev": "1ch",
-      "chapter": 13,
-      "testament": "OT",
-      "verses": [
-        8
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Psalms",
-      "book_abbrev": "psa",
-      "chapter": 68,
-      "testament": "OT",
-      "verses": [
-        25,
-        81
-      ],
-      "verse_count": 2
-    }
+  "sources": [
+    "NAV"
   ],
   "see_also": [
     "MUSIC, INSTRUMENTS OF"
   ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 6,
-    "ot_refs": 2,
-    "nt_refs": 0,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.730130+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "aspects": [
     {
-      "book": "Genesis",
-      "chapter": 31,
-      "verses": [
-        27
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Genesis 31:27",
-      "source": "EAS"
+      "label": "(Al",
+      "references": [],
+      "source": "NAV"
     },
+    {
+      "label": "Used by Miriam",
+      "references": [
+        "Exodus 15:20"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "By Jephthah’ s daughter",
+      "references": [
+        "Judges 11:34"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Used in religious services",
+      "references": [
+        "2 Samuel 6:5",
+        "1 Chronicles 13:8",
+        "Psalms 68:25",
+        "Psalms 81:2",
+        "Psalms 149:3",
+        "Psalms 150:4"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Used in dances",
+      "references": [
+        "Job 21:12"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeMUSIC, INSTRUMENTS OF",
+      "references": [],
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
     {
       "book": "Exodus",
       "chapter": 15,
@@ -112,8 +61,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Exodus 15:20",
-      "source": "EAS"
+      "raw": "Exodus 15:20"
     },
     {
       "book": "Judges",
@@ -123,8 +71,100 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Judges 11:34",
-      "source": "EAS"
+      "raw": "Judges 11:34"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 6,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Samuel 6:5"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 13,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 13:8"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 68,
+      "verses": [
+        25
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 68:25"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 81,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 81:2"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 149,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 149:3"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 150,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 150:4"
+    },
+    {
+      "book": "Job",
+      "chapter": 21,
+      "verses": [
+        12
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Job 21:12"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "2 Samuel",
+    "Exodus",
+    "Job",
+    "Judges",
+    "Psalms"
+  ],
+  "stats": {
+    "total_aspects": 6,
+    "total_refs": 9,
+    "ot_refs": 9,
+    "nt_refs": 0,
+    "books_count": 6,
+    "top_books": [
+      "Psalms",
+      "Exodus",
+      "Judges",
+      "2 Samuel",
+      "1 Chronicles",
+      "Job"
+    ]
+  }
 }

@@ -1,69 +1,73 @@
 {
   "topic": "KANAH",
-  "topic_slug": "kanah",
+  "slug": "kanah",
   "canonical_id": "NAV:kanah",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–1. A brook dividing the territory of Ephraim from the territory \nof ManassehJos 16:8;17:9\n–2. A town in the territory of the tribe of AsherJos \n19:28",
-  "content_preview": "–1. A brook dividing the territory of Ephraim from the territory ",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–1. A brook dividing the territory of Ephraim from the territory \nof ManassehJos 16:8;17:9",
-      "raw_segment": "–1. A brook dividing the territory of Ephraim from the territory \nof ManassehJos 16:8;17:9"
+      "label": "1. A brook dividing the territory of Ephraim from the territory",
+      "references": []
     },
     {
-      "idx": 1,
-      "entry_label": "–2. A town in the territory of the tribe of AsherJos \n19:28",
-      "raw_segment": "–2. A town in the territory of the tribe of AsherJos \n19:28"
+      "label": "of Manasseh",
+      "references": [
+        "Joshua 16:8",
+        "Joshua 17:9"
+      ]
+    },
+    {
+      "label": "2. A town in the territory of the tribe of AsherJos",
+      "references": []
+    },
+    {
+      "label": "19:28",
+      "references": []
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Joshua",
+      "chapter": 16,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 16:8"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 17,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 17:9"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 19,
+      "verses": [
+        28
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 19:28"
+    }
+  ],
+  "books_mentioned": [
+    "Joshua"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 4,
+    "total_refs": 3,
+    "ot_refs": 3,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:03533c66c60c550b5f8669cb8fae56e935ef43ed58fdadd27db05b45fb111ec9",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 4
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 1,
+    "top_books": [
+      "Joshua"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:28:18.439216Z",
-  "updated_at": "2025-09-20T17:28:18.439224Z"
+  }
 }

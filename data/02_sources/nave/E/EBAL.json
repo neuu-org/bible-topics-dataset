@@ -1,83 +1,138 @@
 {
   "topic": "EBAL",
-  "topic_slug": "ebal",
+  "slug": "ebal",
   "canonical_id": "NAV:ebal",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "GERIZIM"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "GERIZIM",
-      "clean": "GERIZIM",
-      "slug": "gerizim",
-      "canonical_id": "NAV:gerizim"
-    }
-  ],
-  "raw_block": "–1. Son of Joktan1Ch 1:22\n–2. A HoriteGe 36:23;1Ch 1:40\n–3. A mountain of Ephraim. Half of the tribes of Israel stand \non, to respond Amen to the curses of the lawDe 11:29;27:12,13;Jos 8:33\n  .Altar built onJos 8:30\n  .SeeGERIZIM",
-  "content_preview": "–1. Son of Joktan1Ch 1:22",
-  "reference_groups": [
-    {
-      "idx": 0,
-      "entry_label": "–1. Son of Joktan1Ch 1:22",
-      "raw_segment": "–1. Son of Joktan1Ch 1:22"
+      "label": "1.",
+      "references": [
+        "1 Chronicles 1:22"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–2. A HoriteGe 36:23;1Ch 1:40",
-      "raw_segment": "–2. A HoriteGe 36:23;1Ch 1:40"
+      "label": "2. A Horite",
+      "references": [
+        "Genesis 36:23",
+        "1 Chronicles 1:40"
+      ]
     },
     {
-      "idx": 2,
-      "entry_label": "–3. A mountain of Ephraim. Half of the tribes of Israel stand \non, to respond Amen to the curses of the lawDe 11:29;27:12,13;Jos 8:33",
-      "raw_segment": "–3. A mountain of Ephraim. Half of the tribes of Israel stand \non, to respond Amen to the curses of the lawDe 11:29;27:12,13;Jos 8:33"
+      "label": "3. A mountain of Ephraim. Half of the tribes of Israel stand",
+      "references": []
+    },
+    {
+      "label": "on, to respond Amen to the curses of the law",
+      "references": [
+        "Deuteronomy 11:29",
+        "Deuteronomy 27:12,13",
+        "Joshua 8:33"
+      ]
+    },
+    {
+      "label": ".Altar built on",
+      "references": [
+        "Joshua 8:30"
+      ]
+    },
+    {
+      "label": ".SeeGERIZIM",
+      "references": []
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "1 Chronicles",
+      "chapter": 1,
+      "verses": [
+        22
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 1:22"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 36,
+      "verses": [
+        23
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 36:23"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 1,
+      "verses": [
+        40
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 1:40"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 11,
+      "verses": [
+        29
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 11:29"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 27,
+      "verses": [
+        12,
+        13
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Deuteronomy 27:12,13"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 8,
+      "verses": [
+        33
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 8:33"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 8,
+      "verses": [
+        30
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 8:30"
+    }
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Deuteronomy",
+    "Genesis",
+    "Joshua"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 6,
+    "total_refs": 7,
+    "ot_refs": 7,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:5dba5d44847dad444ff75e4cd6417da26df2fdbf859a413054c11fcd895130cc",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 6
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 4,
+    "top_books": [
+      "1 Chronicles",
+      "Deuteronomy",
+      "Joshua",
+      "Genesis"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:25:45.873475Z",
-  "updated_at": "2025-09-20T17:25:45.873482Z"
+  }
 }

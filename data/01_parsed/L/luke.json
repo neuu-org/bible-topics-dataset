@@ -1,143 +1,56 @@
 {
   "topic": "LUKE",
   "slug": "luke",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "(A disciple)",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "A physician Col 4:14",
-      "references": [
-        "Col 4:14"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Wrote to Theophilus Lu 1:1-4; Ac 1:1,2",
-      "references": [
-        "Luke 1:1-4",
-        "Acts 1:1",
-        "Acts 1:2"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Accompanies Paul in his tour of Asia and Macedonia Ac 16:10-13; 20:5,6",
-      "references": [
-        "Acts 16:10-13",
-        "Acts 20:5",
-        "Acts 20:6"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "To Jerusalem Ac 21:1-18",
-      "references": [
-        "Acts 21:1-18"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "To Rome Ac 27; 28; 2Ti 4:11; Phm 1:24",
-      "references": [
-        "Acts 27",
-        "Acts 28",
-        "2Tim 4:11",
-        "Phlm 1"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Acts",
-      "book_abbrev": "act",
-      "chapter": 1,
-      "testament": "NT",
-      "verses": [
-        1,
-        2
-      ],
-      "verse_count": 2
-    },
-    {
-      "book": "2 Timothy",
-      "book_abbrev": "2ti",
-      "chapter": 4,
-      "testament": "NT",
-      "verses": [
-        11
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Philemon",
-      "book_abbrev": "phm",
-      "chapter": 1,
-      "testament": "NT",
-      "verses": [
-        24
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 6,
-    "ot_refs": 0,
-    "nt_refs": 3,
-    "total_verses": 3
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.701967+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "(A disciple)",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "A physician",
+      "references": [
+        "Colossians 4:14"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Wrote to Theophi",
+      "references": [
+        "Luke 1:1-4",
+        "Acts 1:1,2"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Accompanies Paul in his tour of Asia and Macedonia",
+      "references": [
+        "Acts 16:10-13",
+        "Acts 20:5,6"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "To",
+      "references": [
+        "Acts 21:1-18"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "To RomeAc 27;28;",
+      "references": [
+        "2 Timothy 4:11",
+        "Philemon 1:24"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "Luke",
-      "chapter": 1,
-      "verses": [
-        2
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Luke 1:2",
-      "source": "EAS"
-    },
-    {
-      "book": "Acts",
-      "chapter": 17,
-      "verses": [
-        1
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Acts 17:1",
-      "source": "EAS"
-    },
-    {
-      "book": "Philippians",
-      "chapter": 1,
-      "verses": [
-        24
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Philippians 1:24",
-      "source": "EAS"
-    },
+  ],
+  "biblical_references": [
     {
       "book": "Colossians",
       "chapter": 4,
@@ -146,8 +59,44 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Colossians 4:14",
-      "source": "EAS"
+      "raw": "Colossians 4:14"
+    },
+    {
+      "book": "Luke",
+      "chapter": 1,
+      "verses": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "verse_count": 4,
+      "testament": "NT",
+      "raw": "Luke 1:1-4"
+    },
+    {
+      "book": "Acts",
+      "chapter": 1,
+      "verses": [
+        1,
+        2
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Acts 1:1,2"
+    },
+    {
+      "book": "Acts",
+      "chapter": 16,
+      "verses": [
+        10,
+        11,
+        12,
+        13
+      ],
+      "verse_count": 4,
+      "testament": "NT",
+      "raw": "Acts 16:10-13"
     },
     {
       "book": "Acts",
@@ -158,13 +107,17 @@
       ],
       "verse_count": 2,
       "testament": "NT",
-      "raw": "Acts 20:5, 6",
-      "source": "EAS"
+      "raw": "Acts 20:5,6"
     },
     {
       "book": "Acts",
-      "chapter": 20,
+      "chapter": 21,
       "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
         6,
         7,
         8,
@@ -177,42 +130,11 @@
         15,
         16,
         17,
-        18,
-        19,
-        20,
-        21
+        18
       ],
-      "verse_count": 16,
+      "verse_count": 18,
       "testament": "NT",
-      "raw": "Acts 20:6-21",
-      "source": "EAS"
-    },
-    {
-      "book": "Acts",
-      "chapter": 27,
-      "verses": [
-        1
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Acts 27:1",
-      "source": "EAS"
-    },
-    {
-      "book": "Acts",
-      "chapter": 28,
-      "verses": [
-        2,
-        12,
-        13,
-        14,
-        15,
-        16
-      ],
-      "verse_count": 6,
-      "testament": "NT",
-      "raw": "Acts 28:2, 12-16",
-      "source": "EAS"
+      "raw": "Acts 21:1-18"
     },
     {
       "book": "2 Timothy",
@@ -222,96 +144,38 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "2 Timothy 4:11",
-      "source": "EAS"
+      "raw": "2 Timothy 4:11"
     },
     {
-      "book": "Acts",
-      "chapter": 13,
-      "verses": [
-        1
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Acts 13:1",
-      "source": "SMI"
-    },
-    {
-      "book": "Romans",
-      "chapter": 16,
-      "verses": [
-        21
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Romans 16:21",
-      "source": "SMI"
-    },
-    {
-      "book": "Colossians",
-      "chapter": 4,
-      "verses": [
-        11
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Colossians 4:11",
-      "source": "SMI"
-    },
-    {
-      "book": "Acts",
-      "chapter": 16,
-      "verses": [
-        9
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Acts 16:9",
-      "source": "SMI"
-    },
-    {
-      "book": "Acts",
-      "chapter": 20,
-      "verses": [
-        5
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Acts 20:5",
-      "source": "SMI"
-    },
-    {
-      "book": "2 Timothy",
+      "book": "Philemon",
       "chapter": 1,
       "verses": [
         24
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "2 Timothy 1:24",
-      "source": "SMI"
-    },
-    {
-      "book": "Acts",
-      "chapter": 20,
-      "verses": [
-        6
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Acts 20:6",
-      "source": "SMI"
-    },
-    {
-      "book": "Acts",
-      "chapter": 21,
-      "verses": [
-        18
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Acts 21:18",
-      "source": "SMI"
+      "raw": "Philemon 1:24"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "2 Timothy",
+    "Acts",
+    "Colossians",
+    "Luke",
+    "Philemon"
+  ],
+  "stats": {
+    "total_aspects": 6,
+    "total_refs": 8,
+    "ot_refs": 0,
+    "nt_refs": 8,
+    "books_count": 5,
+    "top_books": [
+      "Acts",
+      "Colossians",
+      "Luke",
+      "2 Timothy",
+      "Philemon"
+    ]
+  }
 }

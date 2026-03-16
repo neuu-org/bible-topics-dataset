@@ -1,87 +1,161 @@
 {
   "topic": "INNOCENCY",
   "slug": "innocency",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "Signified by washing the hands De 21:6; Ps 26:6; Mt 27:24",
+      "label": "Signified by washing the hands",
       "references": [
-        "Deut 21:6",
-        "Ps 26:6",
-        "Matt 27:24"
+        "Deuteronomy 21:6",
+        "Psalms 26:6"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Found in Daniel Da 6:22",
-      "references": [
-        "Dan 6:22"
-      ],
-      "sub_groups": []
+      "label": "27:24",
+      "references": [],
+      "source": "NAV"
     },
     {
-      "name": "Jeremiah Jer 2:35",
+      "label": "Found in Daniel",
       "references": [
-        "Jer 2:35"
+        "Daniel 6:22"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Professed by Pilate Mt 27:24",
+      "label": "General references",
       "references": [
-        "Matt 27:24"
+        "Jeremiah 2:35"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Contrasted with guilt, compare Ge 2:25; 3:7-11",
+      "label": "Professed by Pilate",
       "references": [
-        "Gen 2:25",
-        "Gen 3:7-11"
+        "Matthew 27:24"
       ],
-      "sub_groups": []
+      "source": "NAV"
+    },
+    {
+      "label": "Contrasted with guilt, compare",
+      "references": [
+        "Genesis 2:25",
+        "Genesis 3:7-11"
+      ],
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Psalms",
-      "book_abbrev": "psa",
-      "chapter": 26,
-      "testament": "OT",
+      "book": "Deuteronomy",
+      "chapter": 21,
       "verses": [
         6
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 21:6"
     },
     {
-      "book": "Matthew",
-      "book_abbrev": "mat",
+      "book": "Psalms",
+      "chapter": 26,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 26:6"
+    },
+    {
+      "book": "Psalms",
       "chapter": 27,
-      "testament": "NT",
       "verses": [
         24
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 27:24"
+    },
+    {
+      "book": "Daniel",
+      "chapter": 6,
+      "verses": [
+        22
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Daniel 6:22"
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 2,
+      "verses": [
+        35
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Jeremiah 2:35"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 27,
+      "verses": [
+        24
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 27:24"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 2,
+      "verses": [
+        25
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 2:25"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 3,
+      "verses": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "verse_count": 5,
+      "testament": "OT",
+      "raw": "Genesis 3:7-11"
     }
   ],
-  "see_also": [],
-  "aliases": [],
+  "books_mentioned": [
+    "Daniel",
+    "Deuteronomy",
+    "Genesis",
+    "Jeremiah",
+    "Matthew",
+    "Psalms"
+  ],
   "stats": {
-    "entries_count": 5,
-    "ot_refs": 1,
+    "total_aspects": 6,
+    "total_refs": 8,
+    "ot_refs": 7,
     "nt_refs": 1,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.694220+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    }
-  },
-  "version": "3.0.0"
+    "books_count": 6,
+    "top_books": [
+      "Psalms",
+      "Genesis",
+      "Deuteronomy",
+      "Daniel",
+      "Jeremiah",
+      "Matthew"
+    ]
+  }
 }

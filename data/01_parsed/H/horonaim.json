@@ -1,54 +1,21 @@
 {
   "topic": "HORONAIM",
   "slug": "horonaim",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "A town of Moab Isa 15:5; Jer 48:3,5,34",
-      "references": [
-        "Isa 15:5",
-        "Jer 48:3",
-        "Jer 48:5",
-        "Jer 48:34"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Jeremiah",
-      "book_abbrev": "jer",
-      "chapter": 48,
-      "testament": "OT",
-      "verses": [
-        3,
-        5,
-        34
-      ],
-      "verse_count": 3
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.693056+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "A town of Moab",
+      "references": [
+        "Isaiah 15:5",
+        "Jeremiah 48:3,5,34"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Isaiah",
       "chapter": 15,
@@ -57,8 +24,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Isaiah 15:5",
-      "source": "EAS"
+      "raw": "Isaiah 15:5"
     },
     {
       "book": "Jeremiah",
@@ -70,8 +36,22 @@
       ],
       "verse_count": 3,
       "testament": "OT",
-      "raw": "Jeremiah 48:3, 5, 34",
-      "source": "EAS"
+      "raw": "Jeremiah 48:3,5,34"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Isaiah",
+    "Jeremiah"
+  ],
+  "stats": {
+    "total_aspects": 1,
+    "total_refs": 2,
+    "ot_refs": 2,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "Isaiah",
+      "Jeremiah"
+    ]
+  }
 }

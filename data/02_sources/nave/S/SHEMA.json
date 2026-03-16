@@ -1,84 +1,129 @@
 {
   "topic": "SHEMA",
-  "topic_slug": "shema",
+  "slug": "shema",
   "canonical_id": "NAV:shema",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–1. A city of the tribe of JudahJos 15:26\n–2. A son of Hebron1Ch 2:43,44\n–3. Son ofJoel 1Ch 5:8\n  .Called SHEMAIAH1Ch 5:4\n–4. A Benjamite1Ch 8:13\n–5. A man who stood at the right hand of Ezra when he read the \nlaw to the peopleNe 8:4",
-  "content_preview": "–1. A city of the tribe of JudahJos 15:26",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–1. A city of the tribe of JudahJos 15:26",
-      "raw_segment": "–1. A city of the tribe of JudahJos 15:26"
+      "label": "1. A city of the tribe of",
+      "references": [
+        "Joshua 15:26"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–2. A son of Hebron1Ch 2:43,44",
-      "raw_segment": "–2. A son of Hebron1Ch 2:43,44"
+      "label": "2. A",
+      "references": [
+        "1 Chronicles 2:43,44"
+      ]
     },
     {
-      "idx": 2,
-      "entry_label": "–3. Son ofJoel 1Ch 5:8",
-      "raw_segment": "–3. Son ofJoel 1Ch 5:8"
+      "label": "3.",
+      "references": [
+        "1 Chronicles 5:8"
+      ]
     },
     {
-      "idx": 3,
-      "entry_label": "–4. A Benjamite1Ch 8:13",
-      "raw_segment": "–4. A Benjamite1Ch 8:13"
+      "label": ".",
+      "references": [
+        "1 Chronicles 5:4"
+      ]
     },
     {
-      "idx": 4,
-      "entry_label": "–5. A man who stood at the right hand of Ezra when he read the \nlaw to the peopleNe 8:4",
-      "raw_segment": "–5. A man who stood at the right hand of Ezra when he read the \nlaw to the peopleNe 8:4"
+      "label": "4. A Benjamite",
+      "references": [
+        "1 Chronicles 8:13"
+      ]
+    },
+    {
+      "label": "5. A man who stood at the right hand of Ezra when he read the",
+      "references": []
+    },
+    {
+      "label": "law to the people",
+      "references": [
+        "Nehemiah 8:4"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Joshua",
+      "chapter": 15,
+      "verses": [
+        26
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 15:26"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 2,
+      "verses": [
+        43,
+        44
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "1 Chronicles 2:43,44"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 5,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 5:8"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 5,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 5:4"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 8,
+      "verses": [
+        13
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 8:13"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 8,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Nehemiah 8:4"
+    }
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Joshua",
+    "Nehemiah"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 7,
+    "total_refs": 6,
+    "ot_refs": 6,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:b73173c902f74dde1f2c71310f9a231c79fad6a4717a9ff74d3ae4ae2a3e74a1",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 7
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 3,
+    "top_books": [
+      "1 Chronicles",
+      "Joshua",
+      "Nehemiah"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:31:17.725369Z",
-  "updated_at": "2025-09-20T17:31:17.725377Z"
+  }
 }

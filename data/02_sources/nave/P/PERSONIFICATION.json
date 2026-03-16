@@ -1,78 +1,29 @@
 {
   "topic": "PERSONIFICATION",
-  "topic_slug": "personification",
+  "slug": "personification",
   "canonical_id": "NAV:personification",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "PANTOMIME"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "PANTOMIME",
-      "clean": "PANTOMIME",
-      "slug": "pantomime",
-      "canonical_id": "NAV:pantomime"
-    }
-  ],
-  "raw_block": "–Of wisdomPr 1;2:1-9;8;9\n–SeePANTOMIME",
-  "content_preview": "–Of wisdomPr 1;2:1-9;8;9",
-  "reference_groups": [
-    {
-      "idx": 0,
-      "entry_label": "–Of wisdomPr 1;2:1-9;8;9",
-      "raw_segment": "–Of wisdomPr 1;2:1-9;8;9"
+      "label": "Of wisdomPr 1;2:1-9;8;9",
+      "references": []
     },
     {
-      "idx": 1,
-      "entry_label": "–SeePANTOMIME",
-      "raw_segment": "–SeePANTOMIME"
+      "label": "SeePANTOMIME",
+      "references": []
     }
   ],
   "biblical_references": [],
   "books_mentioned": [],
-  "normalized_labels": [],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 2,
+    "total_refs": 0,
     "ot_refs": 0,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:e0d22ce604c3e2b3eeb67a1026d92a3e372830c06883e7eb3521c2bb2957d9a4",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
-    ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:30:01.204512Z",
-  "updated_at": "2025-09-20T17:30:01.204519Z"
+    "books_count": 0,
+    "top_books": []
+  }
 }

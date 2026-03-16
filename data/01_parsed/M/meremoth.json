@@ -1,78 +1,46 @@
 {
   "topic": "MEREMOTH",
   "slug": "meremoth",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. A priest who was appointed to weigh and register gold and silver vessels brought to Jerusalem Ezr 8:33; Ne 3:4,21",
-      "references": [
-        "Ezra 8:33",
-        "Neh 3:4",
-        "Neh 3:21"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "2. A Jew who divorced his Gentile wife after the captivity Ezr 10:36",
-      "references": [
-        "Ezra 10:36"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "3. A priest who sealed the covenant with Nehemiah Ne 10:5; 12:3",
-      "references": [
-        "Neh 10:5",
-        "Neh 12:3"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Nehemiah",
-      "book_abbrev": "neh",
-      "chapter": 3,
-      "testament": "OT",
-      "verses": [
-        4,
-        21
-      ],
-      "verse_count": 2
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.705571+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "see_also": [],
+  "aspects": [
     {
-      "book": "Nehemiah",
-      "chapter": 12,
-      "verses": [
-        3
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Nehemiah 12:3",
-      "source": "EAS"
+      "label": "1. A priest who was appointed to weigh and register gold and",
+      "references": [],
+      "source": "NAV"
     },
+    {
+      "label": "silver vessels brought to",
+      "references": [
+        "Ezra 8:33",
+        "Nehemiah 3:4,21"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2. A Jew who divorced his Gentile wife after the",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "10:36",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "3. A priest who sealed the covenant with NehemiahNe",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "10:5;12:3",
+      "references": [],
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
     {
       "book": "Ezra",
       "chapter": 8,
@@ -81,19 +49,63 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Ezra 8:33",
-      "source": "EAS"
+      "raw": "Ezra 8:33"
     },
     {
       "book": "Nehemiah",
       "chapter": 3,
       "verses": [
-        4
+        4,
+        21
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Nehemiah 3:4,21"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 10,
+      "verses": [
+        36
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Nehemiah 3:4",
-      "source": "EAS"
+      "raw": "Nehemiah 10:36"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 10,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Nehemiah 10:5"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 12,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Nehemiah 12:3"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Ezra",
+    "Nehemiah"
+  ],
+  "stats": {
+    "total_aspects": 6,
+    "total_refs": 5,
+    "ot_refs": 5,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "Nehemiah",
+      "Ezra"
+    ]
+  }
 }

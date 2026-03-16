@@ -1,109 +1,61 @@
 {
   "topic": "UZ",
   "slug": "uz",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. Son of Aram Ge 10:23; 1Ch 1:17",
-      "references": [
-        "Gen 10:23",
-        "1Chr 1:17"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "2. Son of Nahor Ge 22:21",
-      "references": [
-        "Gen 22:21"
-      ],
-      "sub_groups": [
-        {
-          "name": "In the A. V., called Huz",
-          "references": []
-        }
-      ]
-    },
-    {
-      "name": "3. Son of Dishan Ge 36:28; 1Ch 1:42",
-      "references": [
-        "Gen 36:28",
-        "1Chr 1:42"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "4. A country of unknown location",
-      "references": [],
-      "sub_groups": [
-        {
-          "name": "Home of Job Job 1:1",
-          "references": [
-            "Job 1:1"
-          ]
-        },
-        {
-          "name": "Prophecies concerning Jer 25:20; La 4:21",
-          "references": [
-            "Jer 25:20",
-            "Lam 4:21"
-          ]
-        }
-      ]
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "1 Chronicles",
-      "book_abbrev": "1ch",
-      "chapter": 1,
-      "testament": "OT",
-      "verses": [
-        17
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "1 Chronicles",
-      "book_abbrev": "1ch",
-      "chapter": 1,
-      "testament": "OT",
-      "verses": [
-        42
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Lamentations",
-      "book_abbrev": "lam",
-      "chapter": 4,
-      "testament": "OT",
-      "verses": [
-        21
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 4,
-    "ot_refs": 3,
-    "nt_refs": 0,
-    "total_verses": 3
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.732206+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "1.",
+      "references": [
+        "Genesis 10:23",
+        "1 Chronicles 1:17"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2.",
+      "references": [
+        "Genesis 22:21"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".In the A. V.,",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "3.",
+      "references": [
+        "Genesis 36:28",
+        "1 Chronicles 1:42"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "4. A country of unknown lo",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".Home of Job",
+      "references": [
+        "Job 1:1"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".Prophecies concerning",
+      "references": [
+        "Jeremiah 25:20",
+        "Lamentations 4:21"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Genesis",
       "chapter": 10,
@@ -112,8 +64,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 10:23",
-      "source": "EAS"
+      "raw": "Genesis 10:23"
     },
     {
       "book": "1 Chronicles",
@@ -123,19 +74,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 1:17",
-      "source": "EAS"
-    },
-    {
-      "book": "Genesis",
-      "chapter": 36,
-      "verses": [
-        28
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Genesis 36:28",
-      "source": "EAS"
+      "raw": "1 Chronicles 1:17"
     },
     {
       "book": "Genesis",
@@ -145,8 +84,78 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 22:21",
-      "source": "EAS"
+      "raw": "Genesis 22:21"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 36,
+      "verses": [
+        28
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 36:28"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 1,
+      "verses": [
+        42
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 1:42"
+    },
+    {
+      "book": "Job",
+      "chapter": 1,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Job 1:1"
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 25,
+      "verses": [
+        20
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Jeremiah 25:20"
+    },
+    {
+      "book": "Lamentations",
+      "chapter": 4,
+      "verses": [
+        21
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Lamentations 4:21"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Genesis",
+    "Jeremiah",
+    "Job",
+    "Lamentations"
+  ],
+  "stats": {
+    "total_aspects": 7,
+    "total_refs": 8,
+    "ot_refs": 8,
+    "nt_refs": 0,
+    "books_count": 5,
+    "top_books": [
+      "Genesis",
+      "1 Chronicles",
+      "Job",
+      "Jeremiah",
+      "Lamentations"
+    ]
+  }
 }

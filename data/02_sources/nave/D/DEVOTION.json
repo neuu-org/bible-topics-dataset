@@ -1,8 +1,8 @@
 {
   "topic": "DEVOTION",
-  "topic_slug": "devotion",
+  "slug": "devotion",
   "canonical_id": "NAV:devotion",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "MARY MAGDALENE",
     "PAUL",
@@ -13,115 +13,72 @@
     "CONSECRATION",
     "PETER"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "MARY MAGDALENE",
-      "clean": "MARY MAGDALENE",
-      "slug": "mary_magdalene",
-      "canonical_id": "NAV:mary_magdalene"
+      "label": "TO GOD",
+      "references": []
     },
     {
-      "original": "PAUL",
-      "clean": "PAUL",
-      "slug": "paul",
-      "canonical_id": "NAV:paul"
+      "label": ".SeeRELIGION",
+      "references": []
     },
     {
-      "original": "RELIGION",
-      "clean": "RELIGION",
-      "slug": "religion",
-      "canonical_id": "NAV:religion"
+      "label": ".For conspicuous instances of, study: ENOCH, NOAH, ABRAHAM MOSES,",
+      "references": []
     },
     {
-      "original": "JOHN",
-      "clean": "JOHN",
-      "slug": "john",
-      "canonical_id": "NAV:john"
+      "label": "DAVID’S later history,",
+      "references": []
     },
     {
-      "original": "LOVE OF MAN FOR GOD",
-      "clean": "LOVE OF MAN FOR GOD",
-      "slug": "love_of_man_for_god",
-      "canonical_id": "NAV:love_of_man_for_god"
+      "label": "DANIEL, SHADRACH, MESHACH, and ABED-NEGO",
+      "references": []
     },
     {
-      "original": "ZEAL",
-      "clean": "ZEAL",
-      "slug": "zeal",
-      "canonical_id": "NAV:zeal"
+      "label": "TO JESUS",
+      "references": []
     },
     {
-      "original": "CONSECRATION",
-      "clean": "CONSECRATION",
-      "slug": "consecration",
-      "canonical_id": "NAV:consecration"
+      "label": ".SeePETER",
+      "references": []
     },
     {
-      "original": "PETER",
-      "clean": "PETER",
-      "slug": "peter",
-      "canonical_id": "NAV:peter"
-    }
-  ],
-  "raw_block": "–TO GOD\n  .SeeRELIGION\n  .For conspicuous instances of, study: ENOCH, NOAH, ABRAHAM MOSES, \nDAVID’S later history, SOLOMON’S earlier life, JOSIAH, ASA, ISAIAH, ELIJAH, JEREMIAH, \nDANIEL, SHADRACH, MESHACH, and ABED-NEGO\n–TO JESUS\n  .SeePETER\n  .SeeJOHN\n  .SeePAUL\n  .SeeMARY MAGDALENE\n  .For elaborated topics covering the subject\n    SeeLOVE OF MAN FOR GOD\n    SeeCONSECRATION\n    SeeZEAL",
-  "content_preview": "–TO GOD",
-  "reference_groups": [
-    {
-      "idx": 0,
-      "entry_label": "–TO GOD",
-      "raw_segment": "–TO GOD"
+      "label": ".See",
+      "references": []
     },
     {
-      "idx": 1,
-      "entry_label": "–TO JESUS",
-      "raw_segment": "–TO JESUS"
+      "label": ".SeePAUL",
+      "references": []
+    },
+    {
+      "label": ".SeeMARY MAGDALENE",
+      "references": []
+    },
+    {
+      "label": ".For elaborated topics covering the subject",
+      "references": []
+    },
+    {
+      "label": "SeeLOVE OF MAN FOR GOD",
+      "references": []
+    },
+    {
+      "label": "SeeCONSECRATION",
+      "references": []
+    },
+    {
+      "label": "SeeZEAL",
+      "references": []
     }
   ],
   "biblical_references": [],
   "books_mentioned": [],
-  "normalized_labels": [],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 14,
+    "total_refs": 0,
     "ot_refs": 0,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:bc6b4a2ebe63f42a54ab7f76629de74e0fcf2937ecaf31b3c8e5fb12533746b4",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 14
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
-    ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:25:34.113850Z",
-  "updated_at": "2025-09-20T17:25:34.113858Z"
+    "books_count": 0,
+    "top_books": []
+  }
 }

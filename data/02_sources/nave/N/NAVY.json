@@ -1,112 +1,91 @@
 {
   "topic": "NAVY",
-  "topic_slug": "navy",
+  "slug": "navy",
   "canonical_id": "NAV:navy",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "MARINER",
     "NAVIGATION",
     "COMMERCE"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "MARINER",
-      "clean": "MARINER",
-      "slug": "mariner",
-      "canonical_id": "NAV:mariner"
+      "label": "General references",
+      "references": [
+        "1 Kings 9:26"
+      ]
     },
     {
-      "original": "NAVIGATION",
-      "clean": "NAVIGATION",
-      "slug": "navigation",
-      "canonical_id": "NAV:navigation"
+      "label": "Hiram’s",
+      "references": [
+        "1 Kings 10:11"
+      ]
     },
     {
-      "original": "COMMERCE",
-      "clean": "COMMERCE",
-      "slug": "commerce",
-      "canonical_id": "NAV:commerce"
+      "label": "Of Chittim",
+      "references": [
+        "Daniel 11:30,40"
+      ]
+    },
+    {
+      "label": "SeeCOMMERCE",
+      "references": []
+    },
+    {
+      "label": "SeeMARINER",
+      "references": []
+    },
+    {
+      "label": "SeeNAVIGATION",
+      "references": []
     }
   ],
-  "raw_block": "–Solomon’s1Ki 9:26\n–Hiram’s1Ki 10:11\n–Of ChittimDa 11:30,40\n–SeeCOMMERCE\n–SeeMARINER\n–SeeNAVIGATION",
-  "content_preview": "–Solomon’s1Ki 9:26",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–Solomon’s1Ki 9:26",
-      "raw_segment": "–Solomon’s1Ki 9:26"
+      "book": "1 Kings",
+      "chapter": 9,
+      "verses": [
+        26
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Kings 9:26"
     },
     {
-      "idx": 1,
-      "entry_label": "–Hiram’s1Ki 10:11",
-      "raw_segment": "–Hiram’s1Ki 10:11"
+      "book": "1 Kings",
+      "chapter": 10,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Kings 10:11"
     },
     {
-      "idx": 2,
-      "entry_label": "–Of ChittimDa 11:30,40",
-      "raw_segment": "–Of ChittimDa 11:30,40"
-    },
-    {
-      "idx": 3,
-      "entry_label": "–SeeCOMMERCE",
-      "raw_segment": "–SeeCOMMERCE"
-    },
-    {
-      "idx": 4,
-      "entry_label": "–SeeMARINER",
-      "raw_segment": "–SeeMARINER"
-    },
-    {
-      "idx": 5,
-      "entry_label": "–SeeNAVIGATION",
-      "raw_segment": "–SeeNAVIGATION"
+      "book": "Daniel",
+      "chapter": 11,
+      "verses": [
+        30,
+        40
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Daniel 11:30,40"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "1 Kings",
+    "Daniel"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 6,
+    "total_refs": 3,
+    "ot_refs": 3,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:b923260faffc027536236e5e6aaa7276411f9e63c68839a31f8154a09b44e8af",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 6
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 2,
+    "top_books": [
+      "1 Kings",
+      "Daniel"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:29:27.297878Z",
-  "updated_at": "2025-09-20T17:29:27.297885Z"
+  }
 }

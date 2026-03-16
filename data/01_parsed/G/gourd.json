@@ -1,56 +1,37 @@
 {
   "topic": "GOURD",
   "slug": "gourd",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Jonah’s, believed to be a vine resembling the American squash, used in Assyria to cover huts Jon 4:6-10",
-      "references": [
-        "Jonah 4:6-10"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "The wild gourd in this case is supposed to be a plant like the cucumber (in appearance) 2Ki 4:39",
-      "references": [
-        "2Kgs 4:39"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "2 Kings",
-      "book_abbrev": "2ki",
-      "chapter": 4,
-      "testament": "OT",
-      "verses": [
-        39
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.689399+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "Jonah’s, believed to be a vine resembling the Ameri",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "used in Assyria to cover huts",
+      "references": [
+        "Jonah 4:6-10"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "The wild gourd in this",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "cucumber (in appearance)",
+      "references": [
+        "2 Kings 4:39"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Jonah",
       "chapter": 4,
@@ -63,21 +44,32 @@
       ],
       "verse_count": 5,
       "testament": "OT",
-      "raw": "Jonah 4:6-10",
-      "source": "EAS"
+      "raw": "Jonah 4:6-10"
     },
     {
       "book": "2 Kings",
       "chapter": 4,
       "verses": [
-        38,
-        39,
-        40
+        39
       ],
-      "verse_count": 3,
+      "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Kings 4:38-40",
-      "source": "EAS"
+      "raw": "2 Kings 4:39"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "2 Kings",
+    "Jonah"
+  ],
+  "stats": {
+    "total_aspects": 4,
+    "total_refs": 2,
+    "ot_refs": 2,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "Jonah",
+      "2 Kings"
+    ]
+  }
 }

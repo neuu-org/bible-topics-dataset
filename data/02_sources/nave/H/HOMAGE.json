@@ -1,98 +1,138 @@
 {
   "topic": "HOMAGE",
-  "topic_slug": "homage",
+  "slug": "homage",
   "canonical_id": "NAV:homage",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "WORSHIP"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "WORSHIP",
-      "clean": "WORSHIP",
-      "slug": "worship",
-      "canonical_id": "NAV:worship"
+      "label": "Refused by Peter",
+      "references": [
+        "Acts 10:26"
+      ]
+    },
+    {
+      "label": "Paul and Barnabas",
+      "references": [
+        "Acts 14:11-18"
+      ]
+    },
+    {
+      "label": "By the angel seen by",
+      "references": [
+        "Revelation 19:10",
+        "Revelation 22:8,9"
+      ]
+    },
+    {
+      "label": "SeeWORSHIP",
+      "references": []
+    },
+    {
+      "label": "Ren",
+      "references": [
+        "1 Kings 1:16,23,31"
+      ]
+    },
+    {
+      "label": "Princes",
+      "references": [
+        "Esther 3:2,5"
+      ]
     }
   ],
-  "raw_block": "–Refused by PeterAc 10:26\n–Paul and BarnabasAc 14:11-18\n–By the angel seen by John in his visionRe 19:10;22:8,9\n–SeeWORSHIP\n–Rendered to kings1Ki 1:16,23,31\n–PrincesEs 3:2,5",
-  "content_preview": "–Refused by PeterAc 10:26",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–Refused by PeterAc 10:26",
-      "raw_segment": "–Refused by PeterAc 10:26"
+      "book": "Acts",
+      "chapter": 10,
+      "verses": [
+        26
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 10:26"
     },
     {
-      "idx": 1,
-      "entry_label": "–Paul and BarnabasAc 14:11-18",
-      "raw_segment": "–Paul and BarnabasAc 14:11-18"
+      "book": "Acts",
+      "chapter": 14,
+      "verses": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "verse_count": 8,
+      "testament": "NT",
+      "raw": "Acts 14:11-18"
     },
     {
-      "idx": 2,
-      "entry_label": "–By the angel seen by John in his visionRe 19:10;22:8,9",
-      "raw_segment": "–By the angel seen by John in his visionRe 19:10;22:8,9"
+      "book": "Revelation",
+      "chapter": 19,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Revelation 19:10"
     },
     {
-      "idx": 3,
-      "entry_label": "–SeeWORSHIP",
-      "raw_segment": "–SeeWORSHIP"
+      "book": "Revelation",
+      "chapter": 22,
+      "verses": [
+        8,
+        9
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Revelation 22:8,9"
     },
     {
-      "idx": 4,
-      "entry_label": "–Rendered to kings1Ki 1:16,23,31",
-      "raw_segment": "–Rendered to kings1Ki 1:16,23,31"
+      "book": "1 Kings",
+      "chapter": 1,
+      "verses": [
+        16,
+        23,
+        31
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "1 Kings 1:16,23,31"
     },
     {
-      "idx": 5,
-      "entry_label": "–PrincesEs 3:2,5",
-      "raw_segment": "–PrincesEs 3:2,5"
+      "book": "Esther",
+      "chapter": 3,
+      "verses": [
+        2,
+        5
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Esther 3:2,5"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "1 Kings",
+    "Acts",
+    "Esther",
+    "Revelation"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:644d19ebff7cbb9e14fad51fd3e4ab893ca4fb263119b3449655110a39310824",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 6
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 6,
+    "total_refs": 6,
+    "ot_refs": 2,
+    "nt_refs": 4,
+    "books_count": 4,
+    "top_books": [
+      "Acts",
+      "Revelation",
+      "1 Kings",
+      "Esther"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:27:19.140246Z",
-  "updated_at": "2025-09-20T17:27:19.140253Z"
+  }
 }

@@ -1,57 +1,28 @@
 {
   "topic": "ZUPH",
   "slug": "zuph",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. A Kohathite 1Sa 1:1; 1Ch 6:35",
-      "references": [
-        "1Sam 1:1",
-        "1Chr 6:35"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "2. A district northwest of Jerusalem 1Sa 9:5",
-      "references": [
-        "1Sam 9:5"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "1 Chronicles",
-      "book_abbrev": "1ch",
-      "chapter": 6,
-      "testament": "OT",
-      "verses": [
-        35
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.735460+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "1. A Kohathite",
+      "references": [
+        "1 Samuel 1:1",
+        "1 Chronicles 6:35"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2. A district northwest of",
+      "references": [
+        "1 Samuel 9:5"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "1 Samuel",
       "chapter": 1,
@@ -60,19 +31,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Samuel 1:1",
-      "source": "EAS"
-    },
-    {
-      "book": "1 Chronicles",
-      "chapter": 6,
-      "verses": [
-        26
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "1 Chronicles 6:26",
-      "source": "EAS"
+      "raw": "1 Samuel 1:1"
     },
     {
       "book": "1 Chronicles",
@@ -82,8 +41,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 6:35",
-      "source": "SMI"
+      "raw": "1 Chronicles 6:35"
     },
     {
       "book": "1 Samuel",
@@ -93,8 +51,22 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Samuel 9:5",
-      "source": "SMI"
+      "raw": "1 Samuel 9:5"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "1 Samuel"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 3,
+    "ot_refs": 3,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "1 Samuel",
+      "1 Chronicles"
+    ]
+  }
 }

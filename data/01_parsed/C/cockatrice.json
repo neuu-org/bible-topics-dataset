@@ -1,57 +1,28 @@
 {
   "topic": "COCKATRICE",
   "slug": "cockatrice",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "(A fabulous serpent)",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "FIGURATIVE Isa 11:8; 14:29; 59:5; Jer 8:17",
-      "references": [
-        "Isa 11:8",
-        "Isa 14:29",
-        "Isa 59:5",
-        "Jer 8:17"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Jeremiah",
-      "book_abbrev": "jer",
-      "chapter": 8,
-      "testament": "OT",
-      "verses": [
-        17
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.678527+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "(A fabulous serpent)",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "FIGURATIVE",
+      "references": [
+        "Isaiah 11:8",
+        "Isaiah 14:29",
+        "Isaiah 59:5",
+        "Jeremiah 8:17"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Isaiah",
       "chapter": 11,
@@ -60,8 +31,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Isaiah 11:8",
-      "source": "EAS"
+      "raw": "Isaiah 11:8"
     },
     {
       "book": "Isaiah",
@@ -71,8 +41,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Isaiah 14:29",
-      "source": "EAS"
+      "raw": "Isaiah 14:29"
     },
     {
       "book": "Isaiah",
@@ -82,8 +51,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Isaiah 59:5",
-      "source": "EAS"
+      "raw": "Isaiah 59:5"
     },
     {
       "book": "Jeremiah",
@@ -93,19 +61,22 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Jeremiah 8:17",
-      "source": "EAS"
-    },
-    {
-      "book": "Proverbs",
-      "chapter": 23,
-      "verses": [
-        32
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Proverbs 23:32",
-      "source": "EAS"
+      "raw": "Jeremiah 8:17"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Isaiah",
+    "Jeremiah"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 4,
+    "ot_refs": 4,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "Isaiah",
+      "Jeremiah"
+    ]
+  }
 }

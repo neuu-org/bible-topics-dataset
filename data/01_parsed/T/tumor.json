@@ -1,61 +1,65 @@
 {
   "topic": "TUMOR",
   "slug": "tumor",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [
+    "BOIL"
+  ],
+  "aspects": [
     {
-      "name": "A morbid swelling (R. V.) 1Sa 5:6,9,12; 6:4,5,11,17",
+      "label": "A morbid swelling (R. V.)",
       "references": [
-        "1Sam 5:6",
-        "1Sam 5:9",
-        "1Sam 5:12",
-        "1Sam 6:4",
-        "1Sam 6:5",
-        "1Sam 6:11",
-        "1Sam 6:17"
+        "1 Samuel 5:6,9,12",
+        "1 Samuel 6:4,5,11,17"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See BOIL",
+      "label": "SeeBOIL",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
       "book": "1 Samuel",
-      "book_abbrev": "1sa",
       "chapter": 5,
-      "testament": "OT",
       "verses": [
         6,
         9,
         12
       ],
-      "verse_count": 3
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "1 Samuel 5:6,9,12"
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 6,
+      "verses": [
+        4,
+        5,
+        11,
+        17
+      ],
+      "verse_count": 4,
+      "testament": "OT",
+      "raw": "1 Samuel 6:4,5,11,17"
     }
   ],
-  "see_also": [
-    "BOIL"
+  "books_mentioned": [
+    "1 Samuel"
   ],
-  "aliases": [],
   "stats": {
-    "entries_count": 2,
-    "ot_refs": 1,
+    "total_aspects": 2,
+    "total_refs": 2,
+    "ot_refs": 2,
     "nt_refs": 0,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.731438+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    }
-  },
-  "version": "3.0.0"
+    "books_count": 1,
+    "top_books": [
+      "1 Samuel"
+    ]
+  }
 }

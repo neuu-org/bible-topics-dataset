@@ -1,114 +1,62 @@
 {
   "topic": "BETHSAIDA",
   "slug": "bethsaida",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. A city of Galilee",
-      "references": [],
-      "sub_groups": [
-        {
-          "name": "The city of Philip, Andrew, and Peter Joh 1:44; 12:21",
-          "references": [
-            "John 1:44",
-            "John 12:21"
-          ]
-        },
-        {
-          "name": "Jesus visits Mr 6:45",
-          "references": [
-            "Mark 6:45"
-          ]
-        },
-        {
-          "name": "Jesus cures a blind man in Mr 8:22",
-          "references": [
-            "Mark 8:22"
-          ]
-        },
-        {
-          "name": "Jesus prophesies against Mt 11:21; Lu 10:13",
-          "references": [
-            "Matt 11:21",
-            "Luke 10:13"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "2. Desert of, east of the sea of Galilee, Jesus feeds more than five thousand people in Lu 9:10; Mt 14:13; Mr 6:32",
-      "references": [
-        "Luke 9:10",
-        "Matt 14:13",
-        "Mark 6:32"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Matthew",
-      "book_abbrev": "mat",
-      "chapter": 14,
-      "testament": "NT",
-      "verses": [
-        13
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Mark",
-      "book_abbrev": "mrk",
-      "chapter": 6,
-      "testament": "NT",
-      "verses": [
-        32
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Luke",
-      "book_abbrev": "luk",
-      "chapter": 10,
-      "testament": "NT",
-      "verses": [
-        13
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 3,
-    "total_verses": 3
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.674192+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "see_also": [],
+  "aspects": [
     {
-      "book": "Mark",
-      "chapter": 6,
-      "verses": [
-        45
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Mark 6:45",
-      "source": "EAS"
+      "label": "1. A city of Galilee",
+      "references": [],
+      "source": "NAV"
     },
+    {
+      "label": ".The city of Philip, Andrew, and Peter",
+      "references": [
+        "John 1:44",
+        "John 12:21"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".Jesus visits",
+      "references": [
+        "Mark 6:45"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".Jesus cures a blind man in",
+      "references": [
+        "Mark 8:22"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".Jesus prophesies against",
+      "references": [
+        "Matthew 11:21",
+        "Luke 10:13"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2.",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "five thousand people in",
+      "references": [
+        "Luke 9:10",
+        "Matthew 14:13",
+        "Mark 6:32"
+      ],
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
     {
       "book": "John",
       "chapter": 1,
@@ -117,8 +65,7 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "John 1:44",
-      "source": "EAS"
+      "raw": "John 1:44"
     },
     {
       "book": "John",
@@ -128,47 +75,17 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "John 12:21",
-      "source": "EAS"
+      "raw": "John 12:21"
     },
     {
-      "book": "Luke",
-      "chapter": 9,
-      "verses": [
-        10
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Luke 9:10",
-      "source": "EAS"
-    },
-    {
-      "book": "John",
+      "book": "Mark",
       "chapter": 6,
       "verses": [
-        17
+        45
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "John 6:17",
-      "source": "EAS"
-    },
-    {
-      "book": "Matthew",
-      "chapter": 14,
-      "verses": [
-        15,
-        16,
-        17,
-        18,
-        19,
-        20,
-        21
-      ],
-      "verse_count": 7,
-      "testament": "NT",
-      "raw": "Matthew 14:15-21",
-      "source": "EAS"
+      "raw": "Mark 6:45"
     },
     {
       "book": "Mark",
@@ -178,81 +95,76 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Mark 8:22",
-      "source": "EAS"
+      "raw": "Mark 8:22"
     },
     {
-      "book": "Mark",
-      "chapter": 6,
+      "book": "Matthew",
+      "chapter": 11,
       "verses": [
-        46
+        21
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Mark 6:46",
-      "source": "SMI"
+      "raw": "Matthew 11:21"
     },
     {
-      "book": "Mark",
-      "chapter": 6,
+      "book": "Luke",
+      "chapter": 10,
       "verses": [
-        31,
-        32,
-        33,
-        34,
-        35,
-        36,
-        37,
-        38,
-        39,
-        40,
-        41,
-        42,
-        43,
-        44,
-        45,
-        46,
-        47,
-        48,
-        49,
-        50,
-        51,
-        52,
-        53
-      ],
-      "verse_count": 23,
-      "testament": "NT",
-      "raw": "Mark 6:31-53",
-      "source": "SMI"
-    },
-    {
-      "book": "Mark",
-      "chapter": 6,
-      "verses": [
-        53
+        13
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Mark 6:53",
-      "source": "SMI"
+      "raw": "Luke 10:13"
     },
     {
       "book": "Luke",
       "chapter": 9,
       "verses": [
-        10,
-        11,
-        12,
-        13,
-        14,
-        15,
-        16,
-        17
+        10
       ],
-      "verse_count": 8,
+      "verse_count": 1,
       "testament": "NT",
-      "raw": "Luke 9:10-17",
-      "source": "SMI"
+      "raw": "Luke 9:10"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 14,
+      "verses": [
+        13
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 14:13"
+    },
+    {
+      "book": "Mark",
+      "chapter": 6,
+      "verses": [
+        32
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Mark 6:32"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "John",
+    "Luke",
+    "Mark",
+    "Matthew"
+  ],
+  "stats": {
+    "total_aspects": 7,
+    "total_refs": 9,
+    "ot_refs": 0,
+    "nt_refs": 9,
+    "books_count": 4,
+    "top_books": [
+      "Mark",
+      "John",
+      "Matthew",
+      "Luke"
+    ]
+  }
 }

@@ -1,71 +1,41 @@
 {
   "topic": "JARMUTH",
   "slug": "jarmuth",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "1. A city in the territory of the tribe of Judah Jos 10:3,5,23; 12:11; 15:35; Ne 11:29",
-      "references": [
-        "Josh 10:3",
-        "Josh 10:5",
-        "Josh 10:23",
-        "Josh 12:11",
-        "Josh 15:35",
-        "Neh 11:29"
-      ],
-      "sub_groups": []
+      "label": "1. A city in the territory of the tribe of",
+      "references": [],
+      "source": "NAV"
     },
     {
-      "name": "2. A Levitical city in Issachar Jos 21:29",
+      "label": "10:3,5,23;12:11;15:35;",
       "references": [
-        "Josh 21:29"
+        "Nehemiah 11:29"
       ],
-      "sub_groups": []
+      "source": "NAV"
+    },
+    {
+      "label": "2. A Leviti",
+      "references": [
+        "Joshua 21:29"
+      ],
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
       "book": "Nehemiah",
-      "book_abbrev": "neh",
       "chapter": 11,
-      "testament": "OT",
       "verses": [
         29
       ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.695860+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "Joshua",
-      "chapter": 15,
-      "verses": [
-        35
-      ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Joshua 15:35",
-      "source": "EAS"
+      "raw": "Nehemiah 11:29"
     },
     {
       "book": "Joshua",
@@ -75,32 +45,22 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Joshua 21:29",
-      "source": "EAS"
-    },
-    {
-      "book": "1 Samuel",
-      "chapter": 19,
-      "verses": [
-        22
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "1 Samuel 19:22",
-      "source": "EAS"
-    },
-    {
-      "book": "Joshua",
-      "chapter": 10,
-      "verses": [
-        3,
-        5,
-        23
-      ],
-      "verse_count": 3,
-      "testament": "OT",
-      "raw": "Joshua 10:3, 5, 23",
-      "source": "EAS"
+      "raw": "Joshua 21:29"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Joshua",
+    "Nehemiah"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 2,
+    "ot_refs": 2,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "Nehemiah",
+      "Joshua"
+    ]
+  }
 }

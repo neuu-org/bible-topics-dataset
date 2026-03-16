@@ -1,80 +1,335 @@
 {
   "topic": "IRONY",
-  "topic_slug": "irony",
+  "slug": "irony",
   "canonical_id": "NAV:irony",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "SARCASM",
     "SATIRE"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "SARCASM",
-      "clean": "SARCASM",
-      "slug": "sarcasm",
-      "canonical_id": "NAV:sarcasm"
+      "label": "INSTANCES OF",
+      "references": []
     },
     {
-      "original": "SATIRE",
-      "clean": "SATIRE",
-      "slug": "satire",
-      "canonical_id": "NAV:satire"
-    }
-  ],
-  "raw_block": "–INSTANCES OF\n  .Michal to David2Sa 6:20\n  .Elijah to the priests of Baal1Ki 18:27\n  .Job to his accusersJob 12:2\n  .Ezekiel to the prince of TyreEze 28:3-5\n  .Micaiah1Ki 22:15\n  .Amos to the SamaritansAm 4:4\n  .Jesus to the PhariseesMr 2:17\n  .The Pharisees and the Herodians to JesusMt 22:16\n  .The Roman soldiers to JesusMt 27:29;Mr 15:17-19;Lu 23:11;Joh 19:2,3\n  .Pilate, calling Jesus “king,”Mr 15:19;Joh 19:15\n  .The inscription of Pilate above JesusMt 27:37;Mr \n15:26;Lu 23:38;Joh 19:19\n  .Herod Agrippa II to PaulAc 26:28\n  .SeeSARCASM\n  .SeeSATIRE",
-  "content_preview": "–INSTANCES OF",
-  "reference_groups": [
+      "label": ".Michal to David",
+      "references": [
+        "2 Samuel 6:20"
+      ]
+    },
     {
-      "idx": 0,
-      "entry_label": "–INSTANCES OF",
-      "raw_segment": "–INSTANCES OF"
+      "label": ".Elijah to the priests of Baal",
+      "references": [
+        "1 Kings 18:27"
+      ]
+    },
+    {
+      "label": ".Job to his accusers",
+      "references": [
+        "Job 12:2"
+      ]
+    },
+    {
+      "label": ".Ezekiel to the prince of Tyre",
+      "references": [
+        "Ezekiel 28:3-5"
+      ]
+    },
+    {
+      "label": ".Mi",
+      "references": [
+        "1 Kings 22:15"
+      ]
+    },
+    {
+      "label": ".Amos to the Samaritans",
+      "references": [
+        "Amos 4:4"
+      ]
+    },
+    {
+      "label": ".Jesus to the Pharisees",
+      "references": [
+        "Mark 2:17"
+      ]
+    },
+    {
+      "label": ".The Pharisees and the Herodians to Jesus",
+      "references": [
+        "Matthew 22:16"
+      ]
+    },
+    {
+      "label": ".The Roman",
+      "references": [
+        "Matthew 27:29",
+        "Mark 15:17-19",
+        "Luke 23:11",
+        "John 19:2,3"
+      ]
+    },
+    {
+      "label": ".Pilate,",
+      "references": [
+        "Mark 15:19",
+        "John 19:15"
+      ]
+    },
+    {
+      "label": ".The inscription of Pilate above Jesus",
+      "references": [
+        "Matthew 27:37"
+      ]
+    },
+    {
+      "label": "15:26;",
+      "references": [
+        "Luke 23:38",
+        "John 19:19"
+      ]
+    },
+    {
+      "label": ".Herod Agrippa II to Paul",
+      "references": [
+        "Acts 26:28"
+      ]
+    },
+    {
+      "label": ".SeeSAR",
+      "references": []
+    },
+    {
+      "label": ".SeeSATIRE",
+      "references": []
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "2 Samuel",
+      "chapter": 6,
+      "verses": [
+        20
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Samuel 6:20"
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 18,
+      "verses": [
+        27
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Kings 18:27"
+    },
+    {
+      "book": "Job",
+      "chapter": 12,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Job 12:2"
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 28,
+      "verses": [
+        3,
+        4,
+        5
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Ezekiel 28:3-5"
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 22,
+      "verses": [
+        15
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Kings 22:15"
+    },
+    {
+      "book": "Amos",
+      "chapter": 4,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Amos 4:4"
+    },
+    {
+      "book": "Mark",
+      "chapter": 2,
+      "verses": [
+        17
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Mark 2:17"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 22,
+      "verses": [
+        16
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 22:16"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 27,
+      "verses": [
+        29
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 27:29"
+    },
+    {
+      "book": "Mark",
+      "chapter": 15,
+      "verses": [
+        17,
+        18,
+        19
+      ],
+      "verse_count": 3,
+      "testament": "NT",
+      "raw": "Mark 15:17-19"
+    },
+    {
+      "book": "Luke",
+      "chapter": 23,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 23:11"
+    },
+    {
+      "book": "John",
+      "chapter": 19,
+      "verses": [
+        2,
+        3
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "John 19:2,3"
+    },
+    {
+      "book": "Mark",
+      "chapter": 15,
+      "verses": [
+        19
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Mark 15:19"
+    },
+    {
+      "book": "John",
+      "chapter": 19,
+      "verses": [
+        15
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "John 19:15"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 27,
+      "verses": [
+        37
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 27:37"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 15,
+      "verses": [
+        26
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 15:26"
+    },
+    {
+      "book": "Luke",
+      "chapter": 23,
+      "verses": [
+        38
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 23:38"
+    },
+    {
+      "book": "John",
+      "chapter": 19,
+      "verses": [
+        19
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "John 19:19"
+    },
+    {
+      "book": "Acts",
+      "chapter": 26,
+      "verses": [
+        28
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 26:28"
+    }
+  ],
+  "books_mentioned": [
+    "1 Kings",
+    "2 Samuel",
+    "Acts",
+    "Amos",
+    "Ezekiel",
+    "Job",
+    "John",
+    "Luke",
+    "Mark",
+    "Matthew"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:655699e5eab07db869661fcaf408148d4d8199767ed9059427e6c0c63c8bd3fc",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 16
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 16,
+    "total_refs": 19,
+    "ot_refs": 6,
+    "nt_refs": 13,
+    "books_count": 10,
+    "top_books": [
+      "Matthew",
+      "Mark",
+      "John",
+      "1 Kings",
+      "Luke",
+      "2 Samuel",
+      "Job",
+      "Ezekiel",
+      "Amos",
+      "Acts"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:27:39.646267Z",
-  "updated_at": "2025-09-20T17:27:39.646275Z"
+  }
 }

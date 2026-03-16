@@ -1,52 +1,50 @@
 {
   "topic": "UNCTION",
   "slug": "unction",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "FIGURATIVE 1Jo 2:20,27",
-      "references": [
-        "1John 2:20",
-        "1John 2:27"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [
-    "ANOINTING"
-  ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.731946+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "see_also": [
+    "ANOINTING"
+  ],
+  "aspects": [
     {
-      "book": "1 John",
+      "label": "FIGURATIVE",
+      "references": [
+        "Job 2:20,27"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".SeeANOINTING",
+      "references": [],
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
+    {
+      "book": "Job",
       "chapter": 2,
       "verses": [
         20,
         27
       ],
       "verse_count": 2,
-      "testament": "NT",
-      "raw": "1 John 2:20, 27",
-      "source": "EAS"
+      "testament": "OT",
+      "raw": "Job 2:20,27"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Job"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 1,
+    "ot_refs": 1,
+    "nt_refs": 0,
+    "books_count": 1,
+    "top_books": [
+      "Job"
+    ]
+  }
 }

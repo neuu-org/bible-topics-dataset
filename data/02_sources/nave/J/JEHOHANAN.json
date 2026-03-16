@@ -1,84 +1,130 @@
 {
   "topic": "JEHOHANAN",
-  "topic_slug": "jehohanan",
+  "slug": "jehohanan",
   "canonical_id": "NAV:jehohanan",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–1. A porter of the tabernacle1Ch 26:3\n–2. A military chief under Jehoshaphat, whose corps consisted \nof two-hundred and eighty thousand men2Ch 17:15\n  .Probably identical with a captain of a hundred, in2Ch 23:1\n–3. Son of BebaiEzr 10:28\n–4. A priest among the exiles who returned from BabylonNe 12:13\n–5. A chorister in the templeNe 12:42",
-  "content_preview": "–1. A porter of the tabernacle1Ch 26:3",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–1. A porter of the tabernacle1Ch 26:3",
-      "raw_segment": "–1. A porter of the tabernacle1Ch 26:3"
+      "label": "1. A porter of the tabernacle",
+      "references": [
+        "1 Chronicles 26:3"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–2. A military chief under Jehoshaphat, whose corps consisted \nof two-hundred and eighty thousand men2Ch 17:15",
-      "raw_segment": "–2. A military chief under Jehoshaphat, whose corps consisted \nof two-hundred and eighty thousand men2Ch 17:15"
+      "label": "2. A military chief un",
+      "references": []
     },
     {
-      "idx": 2,
-      "entry_label": "–3. Son of BebaiEzr 10:28",
-      "raw_segment": "–3. Son of BebaiEzr 10:28"
+      "label": "of two-hundred and eighty thousand men",
+      "references": [
+        "2 Chronicles 17:15"
+      ]
     },
     {
-      "idx": 3,
-      "entry_label": "–4. A priest among the exiles who returned from BabylonNe 12:13",
-      "raw_segment": "–4. A priest among the exiles who returned from BabylonNe 12:13"
+      "label": ".Probably i",
+      "references": [
+        "2 Chronicles 23:1"
+      ]
     },
     {
-      "idx": 4,
-      "entry_label": "–5. A chorister in the templeNe 12:42",
-      "raw_segment": "–5. A chorister in the templeNe 12:42"
+      "label": "3.",
+      "references": [
+        "Ezra 10:28"
+      ]
+    },
+    {
+      "label": "4. A priest among the exiles who returned from Babylon",
+      "references": [
+        "Nehemiah 12:13"
+      ]
+    },
+    {
+      "label": "5. A chorister in the temple",
+      "references": [
+        "Nehemiah 12:42"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "1 Chronicles",
+      "chapter": 26,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 26:3"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 17,
+      "verses": [
+        15
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Chronicles 17:15"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 23,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Chronicles 23:1"
+    },
+    {
+      "book": "Ezra",
+      "chapter": 10,
+      "verses": [
+        28
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezra 10:28"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 12,
+      "verses": [
+        13
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Nehemiah 12:13"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 12,
+      "verses": [
+        42
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Nehemiah 12:42"
+    }
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "2 Chronicles",
+    "Ezra",
+    "Nehemiah"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 7,
+    "total_refs": 6,
+    "ot_refs": 6,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:a886213638c8026fa8e102f0096317448cf8b312b9d4a31ef4efa0305850ae2a",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 7
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 4,
+    "top_books": [
+      "2 Chronicles",
+      "Nehemiah",
+      "1 Chronicles",
+      "Ezra"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:27:57.620166Z",
-  "updated_at": "2025-09-20T17:27:57.620174Z"
+  }
 }

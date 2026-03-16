@@ -1,24 +1,35 @@
 {
   "topic": "MIDWIFERY",
   "slug": "midwifery",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "General scriptures concerning Ge 35:17; Ex 1:15-21; Eze 16:4",
+      "label": "General scriptures concerning",
       "references": [
-        "Gen 35:17",
-        "Exod 1:15-21",
-        "Ezek 16:4"
+        "Genesis 35:17",
+        "Exodus 1:15-21",
+        "Ezekiel 16:4"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Exodus",
-      "book_abbrev": "exo",
-      "chapter": 1,
+      "book": "Genesis",
+      "chapter": 35,
+      "verses": [
+        17
+      ],
+      "verse_count": 1,
       "testament": "OT",
+      "raw": "Genesis 35:17"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 1,
       "verses": [
         15,
         16,
@@ -28,37 +39,36 @@
         20,
         21
       ],
-      "verse_count": 7
+      "verse_count": 7,
+      "testament": "OT",
+      "raw": "Exodus 1:15-21"
     },
     {
       "book": "Ezekiel",
-      "book_abbrev": "ezk",
       "chapter": 16,
-      "testament": "OT",
       "verses": [
         4
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezekiel 16:4"
     }
   ],
-  "see_also": [],
-  "aliases": [],
+  "books_mentioned": [
+    "Exodus",
+    "Ezekiel",
+    "Genesis"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 2,
+    "total_aspects": 1,
+    "total_refs": 3,
+    "ot_refs": 3,
     "nt_refs": 0,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.706308+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    }
-  },
-  "version": "3.0.0"
+    "books_count": 3,
+    "top_books": [
+      "Genesis",
+      "Exodus",
+      "Ezekiel"
+    ]
+  }
 }

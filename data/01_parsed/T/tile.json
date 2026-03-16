@@ -1,47 +1,55 @@
 {
   "topic": "TILE",
   "slug": "tile",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "Brick Eze 4:1; Lu 5:19",
+      "label": "Brick",
       "references": [
-        "Ezek 4:1",
+        "Ezekiel 4:1",
         "Luke 5:19"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
+      "book": "Ezekiel",
+      "chapter": 4,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezekiel 4:1"
+    },
+    {
       "book": "Luke",
-      "book_abbrev": "luk",
       "chapter": 5,
-      "testament": "NT",
       "verses": [
         19
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 5:19"
     }
   ],
-  "see_also": [],
-  "aliases": [],
+  "books_mentioned": [
+    "Ezekiel",
+    "Luke"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 1,
+    "total_refs": 2,
+    "ot_refs": 1,
     "nt_refs": 1,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.730097+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    }
-  },
-  "version": "3.0.0"
+    "books_count": 2,
+    "top_books": [
+      "Ezekiel",
+      "Luke"
+    ]
+  }
 }

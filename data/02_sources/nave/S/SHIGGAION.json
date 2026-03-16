@@ -1,78 +1,46 @@
 {
   "topic": "SHIGGAION",
-  "topic_slug": "shiggaion",
+  "slug": "shiggaion",
   "canonical_id": "NAV:shiggaion",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "MUSIC"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "MUSIC",
-      "clean": "MUSIC",
-      "slug": "music",
-      "canonical_id": "NAV:music"
-    }
-  ],
-  "raw_block": "–General scriptures concerningPs 7;Hab 3:1\n–SeeMUSIC",
-  "content_preview": "–General scriptures concerningPs 7;Hab 3:1",
-  "reference_groups": [
-    {
-      "idx": 0,
-      "entry_label": "–General scriptures concerningPs 7;Hab 3:1",
-      "raw_segment": "–General scriptures concerningPs 7;Hab 3:1"
+      "label": "General scriptures concerningPs 7;",
+      "references": [
+        "Habakkuk 3:1"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–SeeMUSIC",
-      "raw_segment": "–SeeMUSIC"
+      "label": "SeeMUSIC",
+      "references": []
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Habakkuk",
+      "chapter": 3,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Habakkuk 3:1"
+    }
+  ],
+  "books_mentioned": [
+    "Habakkuk"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 2,
+    "total_refs": 1,
+    "ot_refs": 1,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:f0915ba5e767f4be719390a6719029e587639f8feab8d947ebb35e2c8fce368e",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 1,
+    "top_books": [
+      "Habakkuk"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:31:22.429175Z",
-  "updated_at": "2025-09-20T17:31:22.429184Z"
+  }
 }

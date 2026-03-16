@@ -1,73 +1,34 @@
 {
   "topic": "GOLAN",
   "slug": "golan",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "(A town in Bashan)",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "Given to the tribe of Manasseh as a city of refuge De 4:43; Jos 20:8",
-      "references": [
-        "Deut 4:43",
-        "Josh 20:8"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "A Levitical city Jos 21:27; 1Ch 6:71",
-      "references": [
-        "Josh 21:27",
-        "1Chr 6:71"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Joshua",
-      "book_abbrev": "jos",
-      "chapter": 20,
-      "testament": "OT",
-      "verses": [
-        8
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "1 Chronicles",
-      "book_abbrev": "1ch",
-      "chapter": 6,
-      "testament": "OT",
-      "verses": [
-        71
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 2,
-    "nt_refs": 0,
-    "total_verses": 2
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.689218+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "(A town in Bashan)",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "Given to the tribe of Manasseh as a city of refuge",
+      "references": [
+        "Deuteronomy 4:43",
+        "Joshua 20:8"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "A Leviti",
+      "references": [
+        "Joshua 21:27",
+        "1 Chronicles 6:71"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Deuteronomy",
       "chapter": 4,
@@ -76,8 +37,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Deuteronomy 4:43",
-      "source": "EAS"
+      "raw": "Deuteronomy 4:43"
     },
     {
       "book": "Joshua",
@@ -87,8 +47,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Joshua 20:8",
-      "source": "EAS"
+      "raw": "Joshua 20:8"
     },
     {
       "book": "Joshua",
@@ -98,8 +57,34 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Joshua 21:27",
-      "source": "SMI"
+      "raw": "Joshua 21:27"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 6,
+      "verses": [
+        71
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 6:71"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Deuteronomy",
+    "Joshua"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 4,
+    "ot_refs": 4,
+    "nt_refs": 0,
+    "books_count": 3,
+    "top_books": [
+      "Joshua",
+      "Deuteronomy",
+      "1 Chronicles"
+    ]
+  }
 }

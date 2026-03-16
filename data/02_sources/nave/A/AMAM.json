@@ -1,69 +1,64 @@
 {
   "topic": "AMAM",
-  "topic_slug": "amam",
+  "slug": "amam",
   "canonical_id": "NAV:amam",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–A city of JudahJos 15:26\n–Within the district assigned to SimeonJos 19:1-9",
-  "content_preview": "–A city of JudahJos 15:26",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–A city of JudahJos 15:26",
-      "raw_segment": "–A city of JudahJos 15:26"
+      "label": "A city of",
+      "references": [
+        "Joshua 15:26"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–Within the district assigned to SimeonJos 19:1-9",
-      "raw_segment": "–Within the district assigned to SimeonJos 19:1-9"
+      "label": "Within the district assigned to Simeon",
+      "references": [
+        "Joshua 19:1-9"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Joshua",
+      "chapter": 15,
+      "verses": [
+        26
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 15:26"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 19,
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "verse_count": 9,
+      "testament": "OT",
+      "raw": "Joshua 19:1-9"
+    }
+  ],
+  "books_mentioned": [
+    "Joshua"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 2,
+    "total_refs": 2,
+    "ot_refs": 2,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:ab2f21c524bc657489c1b2137e67b4fd69f9c2e0ca53dc05b6ca03d530916ced",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 1,
+    "top_books": [
+      "Joshua"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:23:30.934481Z",
-  "updated_at": "2025-09-20T17:23:30.934489Z"
+  }
 }

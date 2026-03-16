@@ -1,64 +1,44 @@
 {
   "topic": "ELHANAN",
   "slug": "elhanan",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. A distinguished warrior in the time of David, who killed Lahmi, the brother of Goliath, the Gittite 2Sa 21:19",
-      "references": [
-        "2Sam 21:19"
-      ],
-      "sub_groups": [
-        {
-          "name": "Compare 1Ch 20:5",
-          "references": [
-            "1Chr 20:5"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "2. Son of Dodo, one of David’s heroes 2Sa 23:24; 1Ch 11:26",
-      "references": [
-        "2Sam 23:24",
-        "1Chr 11:26"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "1 Chronicles",
-      "book_abbrev": "1ch",
-      "chapter": 11,
-      "testament": "OT",
-      "verses": [
-        26
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.683467+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "1. A distinguished warrior in the time of David, who killed Lahmi,",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "the brother of Goliath, the Gittite",
+      "references": [
+        "2 Samuel 21:19"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".Compare",
+      "references": [
+        "1 Chronicles 20:5"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2.",
+      "references": [
+        "2 Samuel 23:24"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "11:26",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "2 Samuel",
       "chapter": 21,
@@ -67,19 +47,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Samuel 21:19",
-      "source": "EAS"
-    },
-    {
-      "book": "2 Samuel",
-      "chapter": 23,
-      "verses": [
-        24
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "2 Samuel 23:24",
-      "source": "EAS"
+      "raw": "2 Samuel 21:19"
     },
     {
       "book": "1 Chronicles",
@@ -89,8 +57,42 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 20:5",
-      "source": "EAS"
+      "raw": "1 Chronicles 20:5"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 23,
+      "verses": [
+        24
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Samuel 23:24"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 11,
+      "verses": [
+        26
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Samuel 11:26"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "2 Samuel"
+  ],
+  "stats": {
+    "total_aspects": 5,
+    "total_refs": 4,
+    "ot_refs": 4,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "2 Samuel",
+      "1 Chronicles"
+    ]
+  }
 }

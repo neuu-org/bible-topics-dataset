@@ -1,88 +1,196 @@
 {
   "topic": "PENTECOST",
-  "topic_slug": "pentecost",
+  "slug": "pentecost",
   "canonical_id": "NAV:pentecost",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "FEASTS"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "FEASTS",
-      "clean": "FEASTS",
-      "slug": "feasts",
-      "canonical_id": "NAV:feasts"
+      "label": ".FEAST OF WEEKS",
+      "references": [
+        "Exodus 34:22",
+        "Deuteronomy 16:10"
+      ]
+    },
+    {
+      "label": ".FEAST OF HARVEST",
+      "references": [
+        "Exodus 23:16"
+      ]
+    },
+    {
+      "label": ".DAY OF FIRST FRUITS",
+      "references": [
+        "Numbers 28:26"
+      ]
+    },
+    {
+      "label": ".DAY OF PENTECOST",
+      "references": [
+        "Acts 2:1",
+        "Acts 20:16",
+        "1 Corinthians 16:8"
+      ]
+    },
+    {
+      "label": "Institution of",
+      "references": [
+        "Exodus 23:16",
+        "Exodus 34:22",
+        "Leviticus 23:15-21",
+        "Numbers 28:26-31",
+        "Deuteronomy 16:9-12,16"
+      ]
+    },
+    {
+      "label": "Holy Spirit given to the apostles on the first day ofAc 2",
+      "references": []
+    },
+    {
+      "label": "SeeFEASTS",
+      "references": []
     }
   ],
-  "raw_block": "–Called\n  .FEAST OF WEEKSEx 34:22;De 16:10\n  .FEAST OF HARVESTEx 23:16\n  .DAY OF FIRST FRUITSNu 28:26\n  .DAY OF PENTECOSTAc 2:1;20:16;1Co 16:8\n–Institution ofEx 23:16;34:22;Le 23:15-21;Nu 28:26-31;De 16:9-12,16\n–Holy Spirit given to the apostles on the first day ofAc 2\n–SeeFEASTS",
-  "content_preview": "–Called",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–Called",
-      "raw_segment": "–Called"
+      "book": "Exodus",
+      "chapter": 34,
+      "verses": [
+        22
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 34:22"
     },
     {
-      "idx": 1,
-      "entry_label": "–Institution ofEx 23:16;34:22;Le 23:15-21;Nu 28:26-31;De 16:9-12,16",
-      "raw_segment": "–Institution ofEx 23:16;34:22;Le 23:15-21;Nu 28:26-31;De 16:9-12,16"
+      "book": "Deuteronomy",
+      "chapter": 16,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 16:10"
     },
     {
-      "idx": 2,
-      "entry_label": "–Holy Spirit given to the apostles on the first day ofAc 2",
-      "raw_segment": "–Holy Spirit given to the apostles on the first day ofAc 2"
+      "book": "Exodus",
+      "chapter": 23,
+      "verses": [
+        16
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 23:16"
     },
     {
-      "idx": 3,
-      "entry_label": "–SeeFEASTS",
-      "raw_segment": "–SeeFEASTS"
+      "book": "Numbers",
+      "chapter": 28,
+      "verses": [
+        26
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Numbers 28:26"
+    },
+    {
+      "book": "Acts",
+      "chapter": 2,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 2:1"
+    },
+    {
+      "book": "Acts",
+      "chapter": 20,
+      "verses": [
+        16
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 20:16"
+    },
+    {
+      "book": "1 Corinthians",
+      "chapter": 16,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "1 Corinthians 16:8"
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 23,
+      "verses": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "verse_count": 7,
+      "testament": "OT",
+      "raw": "Leviticus 23:15-21"
+    },
+    {
+      "book": "Numbers",
+      "chapter": 28,
+      "verses": [
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "verse_count": 6,
+      "testament": "OT",
+      "raw": "Numbers 28:26-31"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 16,
+      "verses": [
+        9,
+        10,
+        11,
+        12,
+        16
+      ],
+      "verse_count": 5,
+      "testament": "OT",
+      "raw": "Deuteronomy 16:9-12,16"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "1 Corinthians",
+    "Acts",
+    "Deuteronomy",
+    "Exodus",
+    "Leviticus",
+    "Numbers"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:10053748287bc347e92977194457beb32c73a941ab8092ddb125563a72e3eb1a",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 8
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 7,
+    "total_refs": 10,
+    "ot_refs": 7,
+    "nt_refs": 3,
+    "books_count": 6,
+    "top_books": [
+      "Exodus",
+      "Deuteronomy",
+      "Numbers",
+      "Acts",
+      "1 Corinthians",
+      "Leviticus"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:29:58.734631Z",
-  "updated_at": "2025-09-20T17:29:58.734637Z"
+  }
 }

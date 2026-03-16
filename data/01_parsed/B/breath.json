@@ -1,101 +1,187 @@
 {
   "topic": "BREATH",
   "slug": "breath",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "Of life Ge 2:7; 7:22; Ac 17:25",
+      "label": "Of life",
       "references": [
-        "Gen 2:7",
-        "Gen 7:22",
+        "Genesis 2:7",
+        "Genesis 7:22",
         "Acts 17:25"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Of God 2Sa 22:16; Job 4:9; 15:30; 33:4; 37:10; Ps 18:15; 33:6; Isa 30:33",
+      "label": "Of God",
       "references": [
-        "2Sam 22:16",
+        "2 Samuel 22:16",
         "Job 4:9",
         "Job 15:30",
         "Job 33:4",
         "Job 37:10",
-        "Ps 18:15",
-        "Ps 33:6",
-        "Isa 30:33"
+        "Psalms 18:15",
+        "Psalms 33:6",
+        "Isaiah 30:33"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "FIGURATIVE Eze 37:9",
+      "label": "FIGURATIVE",
       "references": [
-        "Ezek 37:9"
+        "Ezekiel 37:9"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Job",
-      "book_abbrev": "job",
-      "chapter": 4,
-      "testament": "OT",
+      "book": "Genesis",
+      "chapter": 2,
       "verses": [
-        9,
-        15
+        7
       ],
-      "verse_count": 2
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 2:7"
     },
     {
-      "book": "Psalms",
-      "book_abbrev": "psa",
-      "chapter": 18,
-      "testament": "OT",
+      "book": "Genesis",
+      "chapter": 7,
       "verses": [
-        15,
-        33
+        22
       ],
-      "verse_count": 2
-    },
-    {
-      "book": "Isaiah",
-      "book_abbrev": "isa",
-      "chapter": 30,
+      "verse_count": 1,
       "testament": "OT",
-      "verses": [
-        33
-      ],
-      "verse_count": 1
+      "raw": "Genesis 7:22"
     },
     {
       "book": "Acts",
-      "book_abbrev": "act",
       "chapter": 17,
-      "testament": "NT",
       "verses": [
         25
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 17:25"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 22,
+      "verses": [
+        16
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Samuel 22:16"
+    },
+    {
+      "book": "Job",
+      "chapter": 4,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Job 4:9"
+    },
+    {
+      "book": "Job",
+      "chapter": 15,
+      "verses": [
+        30
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Job 15:30"
+    },
+    {
+      "book": "Job",
+      "chapter": 33,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Job 33:4"
+    },
+    {
+      "book": "Job",
+      "chapter": 37,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Job 37:10"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 18,
+      "verses": [
+        15
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 18:15"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 33,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 33:6"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 30,
+      "verses": [
+        33
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 30:33"
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 37,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezekiel 37:9"
     }
   ],
-  "see_also": [],
-  "aliases": [],
+  "books_mentioned": [
+    "2 Samuel",
+    "Acts",
+    "Ezekiel",
+    "Genesis",
+    "Isaiah",
+    "Job",
+    "Psalms"
+  ],
   "stats": {
-    "entries_count": 3,
-    "ot_refs": 3,
+    "total_aspects": 3,
+    "total_refs": 12,
+    "ot_refs": 11,
     "nt_refs": 1,
-    "total_verses": 4
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.675456+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    }
-  },
-  "version": "3.0.0"
+    "books_count": 7,
+    "top_books": [
+      "Job",
+      "Genesis",
+      "Psalms",
+      "Acts",
+      "2 Samuel",
+      "Isaiah",
+      "Ezekiel"
+    ]
+  }
 }

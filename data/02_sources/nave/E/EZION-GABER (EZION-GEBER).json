@@ -1,84 +1,126 @@
 {
   "topic": "EZION-GABER (EZION-GEBER)",
-  "topic_slug": "ezion_gaber__ezion_geber_",
+  "slug": "ezion_gaber__ezion_geber_",
   "canonical_id": "NAV:ezion_gaber__ezion_geber_",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–Last encampment of Israel before coming to the “wilderness of \nZin,”Nu 33:35,36;De 2:8\n–Solomon built a navy at1Ki 9:26\n–Solomon visits2Ch 8:17\n–Jehoshaphat built a navy at2Ch 20:36\n–Ships of Jehoshaphat wrecked at1Ki 22:48",
-  "content_preview": "–Last encampment of Israel before coming to the “wilderness of ",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–Last encampment of Israel before coming to the “wilderness of \nZin,”Nu 33:35,36;De 2:8",
-      "raw_segment": "–Last encampment of Israel before coming to the “wilderness of \nZin,”Nu 33:35,36;De 2:8"
+      "label": "Last en",
+      "references": []
     },
     {
-      "idx": 1,
-      "entry_label": "–Solomon built a navy at1Ki 9:26",
-      "raw_segment": "–Solomon built a navy at1Ki 9:26"
+      "label": "Zin,”",
+      "references": [
+        "Numbers 33:35,36",
+        "Deuteronomy 2:8"
+      ]
     },
     {
-      "idx": 2,
-      "entry_label": "–Solomon visits2Ch 8:17",
-      "raw_segment": "–Solomon visits2Ch 8:17"
+      "label": "General references",
+      "references": [
+        "1 Kings 9:26"
+      ]
     },
     {
-      "idx": 3,
-      "entry_label": "–Jehoshaphat built a navy at2Ch 20:36",
-      "raw_segment": "–Jehoshaphat built a navy at2Ch 20:36"
+      "label": "General references",
+      "references": [
+        "2 Chronicles 8:17"
+      ]
     },
     {
-      "idx": 4,
-      "entry_label": "–Ships of Jehoshaphat wrecked at1Ki 22:48",
-      "raw_segment": "–Ships of Jehoshaphat wrecked at1Ki 22:48"
+      "label": "Jehoshaphat built a navy at",
+      "references": [
+        "2 Chronicles 20:36"
+      ]
+    },
+    {
+      "label": "Ships of Jehoshaphat wrecked at",
+      "references": [
+        "1 Kings 22:48"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Numbers",
+      "chapter": 33,
+      "verses": [
+        35,
+        36
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Numbers 33:35,36"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 2,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 2:8"
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 9,
+      "verses": [
+        26
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Kings 9:26"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 8,
+      "verses": [
+        17
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Chronicles 8:17"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 20,
+      "verses": [
+        36
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Chronicles 20:36"
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 22,
+      "verses": [
+        48
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Kings 22:48"
+    }
+  ],
+  "books_mentioned": [
+    "1 Kings",
+    "2 Chronicles",
+    "Deuteronomy",
+    "Numbers"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 6,
+    "total_refs": 6,
+    "ot_refs": 6,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:0f43524902d537744f36cce783c0133cf00c88471c613c8c3237264787792ebc",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 6
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 4,
+    "top_books": [
+      "1 Kings",
+      "2 Chronicles",
+      "Numbers",
+      "Deuteronomy"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:26:14.622951Z",
-  "updated_at": "2025-09-20T17:26:14.622958Z"
+  }
 }

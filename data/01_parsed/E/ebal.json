@@ -1,128 +1,56 @@
 {
   "topic": "EBAL",
   "slug": "ebal",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. Son of Joktan 1Ch 1:22",
-      "references": [
-        "1Chr 1:22"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "2. A Horite Ge 36:23; 1Ch 1:40",
-      "references": [
-        "Gen 36:23",
-        "1Chr 1:40"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "3. A mountain of Ephraim. Half of the tribes of Israel stand on, to respond Amen to the curses of the law De 11:29; 27:12,13; Jos 8:33",
-      "references": [
-        "Deut 11:29",
-        "Deut 27:12",
-        "Deut 27:13",
-        "Josh 8:33"
-      ],
-      "sub_groups": [
-        {
-          "name": "Altar built on Jos 8:30",
-          "references": [
-            "Josh 8:30"
-          ]
-        }
-      ]
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Joshua",
-      "book_abbrev": "jos",
-      "chapter": 8,
-      "testament": "OT",
-      "verses": [
-        33
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "1 Chronicles",
-      "book_abbrev": "1ch",
-      "chapter": 1,
-      "testament": "OT",
-      "verses": [
-        40
-      ],
-      "verse_count": 1
-    }
+  "sources": [
+    "NAV"
   ],
   "see_also": [
     "GERIZIM"
   ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 2,
-    "nt_refs": 0,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.682908+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "aspects": [
+    {
+      "label": "1.",
+      "references": [
+        "1 Chronicles 1:22"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2. A Horite",
+      "references": [
+        "Genesis 36:23",
+        "1 Chronicles 1:40"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "3. A mountain of Ephraim. Half of the tribes of Israel stand",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "on, to respond Amen to the curses of the law",
+      "references": [
+        "Deuteronomy 11:29",
+        "Deuteronomy 27:12,13",
+        "Joshua 8:33"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".Altar built on",
+      "references": [
+        "Joshua 8:30"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".SeeGERIZIM",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "Deuteronomy",
-      "chapter": 27,
-      "verses": [
-        12,
-        13
-      ],
-      "verse_count": 2,
-      "testament": "OT",
-      "raw": "Deuteronomy 27:12, 13",
-      "source": "EAS"
-    },
-    {
-      "book": "Deuteronomy",
-      "chapter": 27,
-      "verses": [
-        5,
-        6,
-        7,
-        8
-      ],
-      "verse_count": 4,
-      "testament": "OT",
-      "raw": "Deuteronomy 27:5-8",
-      "source": "EAS"
-    },
-    {
-      "book": "Joshua",
-      "chapter": 8,
-      "verses": [
-        30,
-        31,
-        32,
-        33,
-        34,
-        35
-      ],
-      "verse_count": 6,
-      "testament": "OT",
-      "raw": "Joshua 8:30-35",
-      "source": "EAS"
-    },
+  ],
+  "biblical_references": [
     {
       "book": "1 Chronicles",
       "chapter": 1,
@@ -131,19 +59,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 1:22",
-      "source": "EAS"
-    },
-    {
-      "book": "Genesis",
-      "chapter": 10,
-      "verses": [
-        28
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Genesis 10:28",
-      "source": "EAS"
+      "raw": "1 Chronicles 1:22"
     },
     {
       "book": "Genesis",
@@ -153,8 +69,17 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 36:23",
-      "source": "EAS"
+      "raw": "Genesis 36:23"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 1,
+      "verses": [
+        40
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 1:40"
     },
     {
       "book": "Deuteronomy",
@@ -164,20 +89,57 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Deuteronomy 11:29",
-      "source": "EAS"
+      "raw": "Deuteronomy 11:29"
     },
     {
       "book": "Deuteronomy",
-      "chapter": 29,
+      "chapter": 27,
       "verses": [
-        4,
+        12,
         13
       ],
       "verse_count": 2,
       "testament": "OT",
-      "raw": "Deuteronomy 29:4, 13",
-      "source": "EAS"
+      "raw": "Deuteronomy 27:12,13"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 8,
+      "verses": [
+        33
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 8:33"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 8,
+      "verses": [
+        30
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 8:30"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Deuteronomy",
+    "Genesis",
+    "Joshua"
+  ],
+  "stats": {
+    "total_aspects": 6,
+    "total_refs": 7,
+    "ot_refs": 7,
+    "nt_refs": 0,
+    "books_count": 4,
+    "top_books": [
+      "1 Chronicles",
+      "Deuteronomy",
+      "Joshua",
+      "Genesis"
+    ]
+  }
 }

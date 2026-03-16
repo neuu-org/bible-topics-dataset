@@ -1,64 +1,51 @@
 {
   "topic": "HACHILAH",
-  "topic_slug": "hachilah",
+  "slug": "hachilah",
   "canonical_id": "NAV:hachilah",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–A hill in Judah where David and his followers hid from Saul1Sa 23:19;26:3",
-  "content_preview": "–A hill in Judah where David and his followers hid from Saul1Sa 23:19;26:3",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–A hill in Judah where David and his followers hid from Saul1Sa 23:19;26:3",
-      "raw_segment": "–A hill in Judah where David and his followers hid from Saul1Sa 23:19;26:3"
+      "label": "A hill in",
+      "references": [
+        "1 Samuel 23:19",
+        "1 Samuel 26:3"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "1 Samuel",
+      "chapter": 23,
+      "verses": [
+        19
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Samuel 23:19"
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 26,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Samuel 26:3"
+    }
+  ],
+  "books_mentioned": [
+    "1 Samuel"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 1,
+    "total_refs": 2,
+    "ot_refs": 2,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:a62f1159d8e6b35bf29ce78d47302dfa6bce7df619a0eb3015d1ecd20f9f08e3",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 1
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 1,
+    "top_books": [
+      "1 Samuel"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:26:50.763379Z",
-  "updated_at": "2025-09-20T17:26:50.763388Z"
+  }
 }

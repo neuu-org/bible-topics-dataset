@@ -1,69 +1,73 @@
 {
   "topic": "BRAZIER",
-  "topic_slug": "brazier",
+  "slug": "brazier",
   "canonical_id": "NAV:brazier",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–1. An artificer in brass and copperGe 4:22;2Ti 4:14\n–2. A utensil used for warming housesJer 36:22-24",
-  "content_preview": "–1. An artificer in brass and copperGe 4:22;2Ti 4:14",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–1. An artificer in brass and copperGe 4:22;2Ti 4:14",
-      "raw_segment": "–1. An artificer in brass and copperGe 4:22;2Ti 4:14"
+      "label": "1. An artificer in brass and copper",
+      "references": [
+        "Genesis 4:22",
+        "2 Timothy 4:14"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–2. A utensil used for warming housesJer 36:22-24",
-      "raw_segment": "–2. A utensil used for warming housesJer 36:22-24"
+      "label": "2. A utensil used for warming houses",
+      "references": [
+        "Jeremiah 36:22-24"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Genesis",
+      "chapter": 4,
+      "verses": [
+        22
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 4:22"
+    },
+    {
+      "book": "2 Timothy",
+      "chapter": 4,
+      "verses": [
+        14
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "2 Timothy 4:14"
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 36,
+      "verses": [
+        22,
+        23,
+        24
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Jeremiah 36:22-24"
+    }
+  ],
+  "books_mentioned": [
+    "2 Timothy",
+    "Genesis",
+    "Jeremiah"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:7e0597ecbc4d8c7df9b44196144e7750fbde9e4cb46e9a203798c7b407800d62",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 2,
+    "total_refs": 3,
+    "ot_refs": 2,
+    "nt_refs": 1,
+    "books_count": 3,
+    "top_books": [
+      "Genesis",
+      "2 Timothy",
+      "Jeremiah"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:24:39.099035Z",
-  "updated_at": "2025-09-20T17:24:39.099043Z"
+  }
 }

@@ -1,60 +1,81 @@
 {
   "topic": "SNUFFERS",
   "slug": "snuffers",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "Provided for the lamps in the temple 1Ki 7:50; 2Ki 12:13; 25:14; Jer 52:18",
+      "label": "Provi",
       "references": [
-        "1Kgs 7:50",
-        "2Kgs 12:13",
-        "2Kgs 25:14",
-        "Jer 52:18"
+        "1 Kings 7:50"
       ],
-      "sub_groups": []
+      "source": "NAV"
+    },
+    {
+      "label": "12:13;25:14;",
+      "references": [
+        "Jeremiah 52:18"
+      ],
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "2 Kings",
-      "book_abbrev": "2ki",
-      "chapter": 12,
-      "testament": "OT",
+      "book": "1 Kings",
+      "chapter": 7,
       "verses": [
-        13,
-        25
+        50
       ],
-      "verse_count": 2
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Kings 7:50"
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 12,
+      "verses": [
+        13
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Kings 12:13"
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 25,
+      "verses": [
+        14
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Kings 25:14"
     },
     {
       "book": "Jeremiah",
-      "book_abbrev": "jer",
       "chapter": 52,
-      "testament": "OT",
       "verses": [
         18
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Jeremiah 52:18"
     }
   ],
-  "see_also": [],
-  "aliases": [],
+  "books_mentioned": [
+    "1 Kings",
+    "Jeremiah"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 2,
+    "total_aspects": 2,
+    "total_refs": 4,
+    "ot_refs": 4,
     "nt_refs": 0,
-    "total_verses": 2
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.726894+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    }
-  },
-  "version": "3.0.0"
+    "books_count": 2,
+    "top_books": [
+      "1 Kings",
+      "Jeremiah"
+    ]
+  }
 }

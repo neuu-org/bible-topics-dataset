@@ -1,84 +1,140 @@
 {
   "topic": "RAVEN",
-  "topic_slug": "raven",
+  "slug": "raven",
   "canonical_id": "NAV:raven",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–A black carnivorous birdPr 30:17;So 5:11\n–Forbidden as foodLe 11:15;De 14:14\n–Preserved by Noah in the arkGe 8:7\n–Fed Elijah1Ki 17:4-6\n–Cared for by divine providenceLu 12:24",
-  "content_preview": "–A black carnivorous birdPr 30:17;So 5:11",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–A black carnivorous birdPr 30:17;So 5:11",
-      "raw_segment": "–A black carnivorous birdPr 30:17;So 5:11"
+      "label": "A black",
+      "references": [
+        "Proverbs 30:17",
+        "Song of Solomon 5:11"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–Forbidden as foodLe 11:15;De 14:14",
-      "raw_segment": "–Forbidden as foodLe 11:15;De 14:14"
+      "label": "Forbid",
+      "references": [
+        "Leviticus 11:15",
+        "Deuteronomy 14:14"
+      ]
     },
     {
-      "idx": 2,
-      "entry_label": "–Preserved by Noah in the arkGe 8:7",
-      "raw_segment": "–Preserved by Noah in the arkGe 8:7"
+      "label": "Preserved by Noah in the ark",
+      "references": [
+        "Genesis 8:7"
+      ]
     },
     {
-      "idx": 3,
-      "entry_label": "–Fed Elijah1Ki 17:4-6",
-      "raw_segment": "–Fed Elijah1Ki 17:4-6"
+      "label": "Fed Elijah",
+      "references": [
+        "1 Kings 17:4-6"
+      ]
     },
     {
-      "idx": 4,
-      "entry_label": "–Cared for by divine providenceLu 12:24",
-      "raw_segment": "–Cared for by divine providenceLu 12:24"
+      "label": "General references",
+      "references": [
+        "Luke 12:24"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Proverbs",
+      "chapter": 30,
+      "verses": [
+        17
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 30:17"
+    },
+    {
+      "book": "Song of Solomon",
+      "chapter": 5,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Song of Solomon 5:11"
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 11,
+      "verses": [
+        15
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Leviticus 11:15"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 14,
+      "verses": [
+        14
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 14:14"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 8,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 8:7"
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 17,
+      "verses": [
+        4,
+        5,
+        6
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "1 Kings 17:4-6"
+    },
+    {
+      "book": "Luke",
+      "chapter": 12,
+      "verses": [
+        24
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 12:24"
+    }
+  ],
+  "books_mentioned": [
+    "1 Kings",
+    "Deuteronomy",
+    "Genesis",
+    "Leviticus",
+    "Luke",
+    "Proverbs",
+    "Song of Solomon"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:3d9d0955f97876f5b772b87bf3a8e3b79479d322c3569bb1172df6d105db1d24",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 5
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 5,
+    "total_refs": 7,
+    "ot_refs": 6,
+    "nt_refs": 1,
+    "books_count": 7,
+    "top_books": [
+      "Proverbs",
+      "Song of Solomon",
+      "Leviticus",
+      "Deuteronomy",
+      "Genesis",
+      "1 Kings",
+      "Luke"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:30:30.481214Z",
-  "updated_at": "2025-09-20T17:30:30.481224Z"
+  }
 }

@@ -1,80 +1,125 @@
 {
   "topic": "CURTAINS",
   "slug": "curtains",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [
+    "TABERNACLE",
+    "TAPESTRY"
+  ],
+  "aspects": [
     {
-      "name": "For the tabernacle Ex 26; 27:9-18; 36:8-18",
-      "references": [
-        "Exod 26",
-        "Exod 27:9-18",
-        "Exod 36:8-18"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "In the palace of Ahasuerus Es 1:6",
-      "references": [
-        "Esth 1:6"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "See TABERNACLE",
+      "label": "For the tabernacleEx 26;27:9-18;36:8-18",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See TAPESTRY",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "FIGURATIVE Isa 40:22; 54:2; Jer 4:20; 10:20; 49:29",
+      "label": "In the palace of Ahasuerus",
       "references": [
-        "Isa 40:22",
-        "Isa 54:2",
-        "Jer 4:20",
-        "Jer 10:20",
-        "Jer 49:29"
+        "Esther 1:6"
       ],
-      "sub_groups": []
+      "source": "NAV"
+    },
+    {
+      "label": "SeeTABERNACLE",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeTAPESTRY",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "FIGURATIVE",
+      "references": [
+        "Isaiah 40:22",
+        "Isaiah 54:2",
+        "Jeremiah 4:20",
+        "Jeremiah 10:20",
+        "Jeremiah 49:29"
+      ],
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Jeremiah",
-      "book_abbrev": "jer",
-      "chapter": 4,
-      "testament": "OT",
+      "book": "Esther",
+      "chapter": 1,
       "verses": [
-        10,
+        6
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Esther 1:6"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 40,
+      "verses": [
+        22
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 40:22"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 54,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 54:2"
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 4,
+      "verses": [
         20
       ],
-      "verse_count": 2
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Jeremiah 4:20"
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 10,
+      "verses": [
+        20
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Jeremiah 10:20"
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 49,
+      "verses": [
+        29
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Jeremiah 49:29"
     }
   ],
-  "see_also": [
-    "TAPESTRY",
-    "TABERNACLE"
+  "books_mentioned": [
+    "Esther",
+    "Isaiah",
+    "Jeremiah"
   ],
-  "aliases": [],
   "stats": {
-    "entries_count": 5,
-    "ot_refs": 1,
+    "total_aspects": 5,
+    "total_refs": 6,
+    "ot_refs": 6,
     "nt_refs": 0,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.680024+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    }
-  },
-  "version": "3.0.0"
+    "books_count": 3,
+    "top_books": [
+      "Jeremiah",
+      "Isaiah",
+      "Esther"
+    ]
+  }
 }

@@ -1,88 +1,123 @@
 {
   "topic": "PARSIMONY (STINGINESS)",
-  "topic_slug": "parsimony__stinginess_",
+  "slug": "parsimony__stinginess_",
   "canonical_id": "NAV:parsimony__stinginess_",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "LIBERALITY"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "LIBERALITY",
-      "clean": "LIBERALITY",
-      "slug": "liberality",
-      "canonical_id": "NAV:liberality"
+      "label": "Of the Jews",
+      "references": []
+    },
+    {
+      "label": ".Toward the temple",
+      "references": [
+        "Haggai 1:2,4,6,9"
+      ]
+    },
+    {
+      "label": ".Toward God",
+      "references": [
+        "Malachi 3:8,9"
+      ]
+    },
+    {
+      "label": "Of the disciples, when the ointment was poured upon Jesus",
+      "references": [
+        "Matthew 26:8,9",
+        "John 12:4,5"
+      ]
+    },
+    {
+      "label": "Punishment of",
+      "references": [
+        "Haggai 1:9-11"
+      ]
+    },
+    {
+      "label": "SeeLIBERALITY",
+      "references": []
     }
   ],
-  "raw_block": "–Of the Jews\n  .Toward the templeHag 1:2,4,6,9\n  .Toward GodMal 3:8,9\n–Of the disciples, when the ointment was poured upon JesusMt 26:8,9;Joh 12:4,5\n–Punishment ofHag 1:9-11\n–SeeLIBERALITY",
-  "content_preview": "–Of the Jews",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–Of the Jews",
-      "raw_segment": "–Of the Jews"
+      "book": "Haggai",
+      "chapter": 1,
+      "verses": [
+        2,
+        4,
+        6,
+        9
+      ],
+      "verse_count": 4,
+      "testament": "OT",
+      "raw": "Haggai 1:2,4,6,9"
     },
     {
-      "idx": 1,
-      "entry_label": "–Of the disciples, when the ointment was poured upon JesusMt 26:8,9;Joh 12:4,5",
-      "raw_segment": "–Of the disciples, when the ointment was poured upon JesusMt 26:8,9;Joh 12:4,5"
+      "book": "Malachi",
+      "chapter": 3,
+      "verses": [
+        8,
+        9
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Malachi 3:8,9"
     },
     {
-      "idx": 2,
-      "entry_label": "–Punishment ofHag 1:9-11",
-      "raw_segment": "–Punishment ofHag 1:9-11"
+      "book": "Matthew",
+      "chapter": 26,
+      "verses": [
+        8,
+        9
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Matthew 26:8,9"
     },
     {
-      "idx": 3,
-      "entry_label": "–SeeLIBERALITY",
-      "raw_segment": "–SeeLIBERALITY"
+      "book": "John",
+      "chapter": 12,
+      "verses": [
+        4,
+        5
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "John 12:4,5"
+    },
+    {
+      "book": "Haggai",
+      "chapter": 1,
+      "verses": [
+        9,
+        10,
+        11
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Haggai 1:9-11"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "Haggai",
+    "John",
+    "Malachi",
+    "Matthew"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:df49e532019fcb5812e3aa5463a30ee79a1c41a9e435f95697e191c70464c0bc",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 6
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 6,
+    "total_refs": 5,
+    "ot_refs": 3,
+    "nt_refs": 2,
+    "books_count": 4,
+    "top_books": [
+      "Haggai",
+      "Malachi",
+      "Matthew",
+      "John"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:29:51.587266Z",
-  "updated_at": "2025-09-20T17:29:51.587274Z"
+  }
 }

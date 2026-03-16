@@ -1,44 +1,54 @@
 {
   "topic": "EXPERIENCE",
   "slug": "experience",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Solomon’s Ec 1:2",
-      "references": [
-        "Eccl 1:2"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "RELIGIOUS, RELATING OF",
-      "references": [],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [
-    "TESTIMONY, RELIGIOUS"
-  ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.685714+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
+  "see_also": [
+    "TESTIMONY, RELIGIOUS"
+  ],
+  "aspects": [
+    {
+      "label": "General references",
+      "references": [
+        "Ecclesiastes 1:2"
+      ],
+      "source": "NAV"
     },
-    "enriched_at": "2025-12-02T22:02:10.027399+00:00",
-    "enrichment_source": "pipeline_merge"
-  },
-  "version": "3.0.0"
+    {
+      "label": "RELIGIOUS, RELATING OF",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".SeeTESTIMONY, RELIGIOUS",
+      "references": [],
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
+    {
+      "book": "Ecclesiastes",
+      "chapter": 1,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ecclesiastes 1:2"
+    }
+  ],
+  "books_mentioned": [
+    "Ecclesiastes"
+  ],
+  "stats": {
+    "total_aspects": 3,
+    "total_refs": 1,
+    "ot_refs": 1,
+    "nt_refs": 0,
+    "books_count": 1,
+    "top_books": [
+      "Ecclesiastes"
+    ]
+  }
 }

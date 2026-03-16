@@ -1,8 +1,8 @@
 {
   "topic": "HAIR",
-  "topic_slug": "hair",
+  "slug": "hair",
   "canonical_id": "NAV:hair",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "BALDNESS",
     "MOURNING",
@@ -10,132 +10,210 @@
     "LEPROSY",
     "NAZARITE"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "BALDNESS",
-      "clean": "BALDNESS",
-      "slug": "baldness",
-      "canonical_id": "NAV:baldness"
+      "label": "General references",
+      "references": [
+        "Matthew 10:30",
+        "Luke 12:7"
+      ]
     },
     {
-      "original": "MOURNING",
-      "clean": "MOURNING",
-      "slug": "mourning",
-      "canonical_id": "NAV:mourning"
+      "label": "Worn long",
+      "references": []
     },
     {
-      "original": "CAUL",
-      "clean": "CAUL",
-      "slug": "caul",
-      "canonical_id": "NAV:caul"
+      "label": ".By women",
+      "references": [
+        "Isaiah 3:24",
+        "Luke 7:38",
+        "1 Corinthians 11:5,6,15",
+        "1 Timothy 2:9",
+        "1 Peter 3:3",
+        "Revelation 9:8"
+      ]
     },
     {
-      "original": "LEPROSY",
-      "clean": "LEPROSY",
-      "slug": "leprosy",
-      "canonical_id": "NAV:leprosy"
+      "label": ".By Absalom",
+      "references": [
+        "2 Samuel 14:26"
+      ]
     },
     {
-      "original": "NAZARITE",
-      "clean": "NAZARITE",
-      "slug": "nazarite",
-      "canonical_id": "NAV:nazarite"
+      "label": "Worn short by men",
+      "references": [
+        "1 Corinthians 11:14"
+      ]
+    },
+    {
+      "label": "Symboli",
+      "references": [
+        "Ezekiel 5:1,2"
+      ]
+    },
+    {
+      "label": "SeeBALDNESS",
+      "references": []
+    },
+    {
+      "label": "See",
+      "references": []
+    },
+    {
+      "label": "SeeLEPROSY",
+      "references": []
+    },
+    {
+      "label": "SeeMOURNING",
+      "references": []
+    },
+    {
+      "label": "SeeNAZARITE",
+      "references": []
     }
   ],
-  "raw_block": "–NumberedMt 10:30;Lu 12:7\n–Worn long\n  .By womenIsa 3:24;Lu 7:38;1Co 11:5,6,15;1Ti 2:9;1Pe 3:3;Re 9:8\n  .By Absalom2Sa 14:26\n–Worn short by men1Co 11:14\n–Symbolical dividing ofEze 5:1,2\n–SeeBALDNESS\n–SeeCAUL\n–SeeLEPROSY\n–SeeMOURNING\n–SeeNAZARITE",
-  "content_preview": "–NumberedMt 10:30;Lu 12:7",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–NumberedMt 10:30;Lu 12:7",
-      "raw_segment": "–NumberedMt 10:30;Lu 12:7"
+      "book": "Matthew",
+      "chapter": 10,
+      "verses": [
+        30
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 10:30"
     },
     {
-      "idx": 1,
-      "entry_label": "–Worn long",
-      "raw_segment": "–Worn long"
+      "book": "Luke",
+      "chapter": 12,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 12:7"
     },
     {
-      "idx": 2,
-      "entry_label": "–Worn short by men1Co 11:14",
-      "raw_segment": "–Worn short by men1Co 11:14"
+      "book": "Isaiah",
+      "chapter": 3,
+      "verses": [
+        24
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 3:24"
     },
     {
-      "idx": 3,
-      "entry_label": "–Symbolical dividing ofEze 5:1,2",
-      "raw_segment": "–Symbolical dividing ofEze 5:1,2"
+      "book": "Luke",
+      "chapter": 7,
+      "verses": [
+        38
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 7:38"
     },
     {
-      "idx": 4,
-      "entry_label": "–SeeBALDNESS",
-      "raw_segment": "–SeeBALDNESS"
+      "book": "1 Corinthians",
+      "chapter": 11,
+      "verses": [
+        5,
+        6,
+        15
+      ],
+      "verse_count": 3,
+      "testament": "NT",
+      "raw": "1 Corinthians 11:5,6,15"
     },
     {
-      "idx": 5,
-      "entry_label": "–SeeCAUL",
-      "raw_segment": "–SeeCAUL"
+      "book": "1 Timothy",
+      "chapter": 2,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "1 Timothy 2:9"
     },
     {
-      "idx": 6,
-      "entry_label": "–SeeLEPROSY",
-      "raw_segment": "–SeeLEPROSY"
+      "book": "1 Peter",
+      "chapter": 3,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "1 Peter 3:3"
     },
     {
-      "idx": 7,
-      "entry_label": "–SeeMOURNING",
-      "raw_segment": "–SeeMOURNING"
+      "book": "Revelation",
+      "chapter": 9,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Revelation 9:8"
     },
     {
-      "idx": 8,
-      "entry_label": "–SeeNAZARITE",
-      "raw_segment": "–SeeNAZARITE"
+      "book": "2 Samuel",
+      "chapter": 14,
+      "verses": [
+        26
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Samuel 14:26"
+    },
+    {
+      "book": "1 Corinthians",
+      "chapter": 11,
+      "verses": [
+        14
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "1 Corinthians 11:14"
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 5,
+      "verses": [
+        1,
+        2
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Ezekiel 5:1,2"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "1 Corinthians",
+    "1 Peter",
+    "1 Timothy",
+    "2 Samuel",
+    "Ezekiel",
+    "Isaiah",
+    "Luke",
+    "Matthew",
+    "Revelation"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:15242dba557d99053084730a858539f840469f82153a001a2b0d7fcb62fdb875",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 11
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 11,
+    "total_refs": 11,
+    "ot_refs": 3,
+    "nt_refs": 8,
+    "books_count": 9,
+    "top_books": [
+      "Luke",
+      "1 Corinthians",
+      "Matthew",
+      "Isaiah",
+      "1 Timothy",
+      "1 Peter",
+      "Revelation",
+      "2 Samuel",
+      "Ezekiel"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:26:53.476063Z",
-  "updated_at": "2025-09-20T17:26:53.476070Z"
+  }
 }

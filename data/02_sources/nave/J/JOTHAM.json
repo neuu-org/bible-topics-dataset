@@ -1,74 +1,163 @@
 {
   "topic": "JOTHAM",
-  "topic_slug": "jotham",
+  "slug": "jotham",
   "canonical_id": "NAV:jotham",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–1. Son of GideonJud 9:5,57\n  .Rebukes the Shechemites with the parable about the treesJud 9:7-21\n–2. Son of Azariah, king of Judah2Ki 15:5-7,32,38;1Ch 3:12;2Ch 26:21-23;27\n  .Piety of2Ch 27\n  .The moral condition of Israel during his reignHo 4\n  .Ancestor of JesusMt 1:9\n–3. Son of Jahdai1Ch 2:47",
-  "content_preview": "–1. Son of GideonJud 9:5,57",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–1. Son of GideonJud 9:5,57",
-      "raw_segment": "–1. Son of GideonJud 9:5,57"
+      "label": "1.",
+      "references": [
+        "Judges 9:5,57"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–2. Son of Azariah, king of Judah2Ki 15:5-7,32,38;1Ch 3:12;2Ch 26:21-23;27",
-      "raw_segment": "–2. Son of Azariah, king of Judah2Ki 15:5-7,32,38;1Ch 3:12;2Ch 26:21-23;27"
+      "label": ".Rebukes the Shechemites with the parable about the trees",
+      "references": [
+        "Judges 9:7-21"
+      ]
     },
     {
-      "idx": 2,
-      "entry_label": "–3. Son of Jahdai1Ch 2:47",
-      "raw_segment": "–3. Son of Jahdai1Ch 2:47"
+      "label": "2.",
+      "references": [
+        "2 Kings 15:5-7,32,38",
+        "1 Chronicles 3:12",
+        "2 Chronicles 26:21-23"
+      ]
+    },
+    {
+      "label": ".Piety of2Ch 27",
+      "references": []
+    },
+    {
+      "label": ".The moral condition of Israel during his reignHo 4",
+      "references": []
+    },
+    {
+      "label": ".Ancestor of Jesus",
+      "references": [
+        "Matthew 1:9"
+      ]
+    },
+    {
+      "label": "3.",
+      "references": [
+        "1 Chronicles 2:47"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Judges",
+      "chapter": 9,
+      "verses": [
+        5,
+        57
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Judges 9:5,57"
+    },
+    {
+      "book": "Judges",
+      "chapter": 9,
+      "verses": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "verse_count": 15,
+      "testament": "OT",
+      "raw": "Judges 9:7-21"
+    },
+    {
+      "book": "2 Kings",
+      "chapter": 15,
+      "verses": [
+        5,
+        6,
+        7,
+        32,
+        38
+      ],
+      "verse_count": 5,
+      "testament": "OT",
+      "raw": "2 Kings 15:5-7,32,38"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 3,
+      "verses": [
+        12
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 3:12"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 26,
+      "verses": [
+        21,
+        22,
+        23
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "2 Chronicles 26:21-23"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 1,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 1:9"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 2,
+      "verses": [
+        47
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 2:47"
+    }
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "2 Chronicles",
+    "2 Kings",
+    "Judges",
+    "Matthew"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:26379ad6f7400d0a962e9695325beb16f342bd07806ef29dbd56b01733075a22",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 7
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 7,
+    "total_refs": 7,
+    "ot_refs": 6,
+    "nt_refs": 1,
+    "books_count": 5,
+    "top_books": [
+      "Judges",
+      "1 Chronicles",
+      "2 Kings",
+      "2 Chronicles",
+      "Matthew"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:28:14.562918Z",
-  "updated_at": "2025-09-20T17:28:14.562926Z"
+  }
 }

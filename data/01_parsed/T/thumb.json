@@ -1,78 +1,118 @@
 {
   "topic": "THUMB",
   "slug": "thumb",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Blood put on, in consecration Ex 29:20; Le 8:23",
-      "references": [
-        "Exod 29:20",
-        "Lev 8:23"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "In purification Le 14:14,25",
-      "references": [
-        "Lev 14:14",
-        "Lev 14:25"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Oil put on Le 14:17,28",
-      "references": [
-        "Lev 14:17",
-        "Lev 14:28"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Of prisoners cut off Jud 1:6,7",
-      "references": [
-        "Judg 1:6",
-        "Judg 1:7"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "See HAND",
-      "references": [],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Leviticus",
-      "book_abbrev": "lev",
-      "chapter": 8,
-      "testament": "OT",
-      "verses": [
-        23
-      ],
-      "verse_count": 1
-    }
+  "sources": [
+    "NAV"
   ],
   "see_also": [
     "HAND"
   ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 5,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.729945+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
+  "aspects": [
+    {
+      "label": "Blood put on, in consecration",
+      "references": [
+        "Exodus 29:20",
+        "Leviticus 8:23"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "In purifi",
+      "references": [
+        "Leviticus 14:14,25"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Oil put on",
+      "references": [
+        "Leviticus 14:17,28"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Of pri",
+      "references": [
+        "Judges 1:6,7"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeHAND",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0"
+  ],
+  "biblical_references": [
+    {
+      "book": "Exodus",
+      "chapter": 29,
+      "verses": [
+        20
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 29:20"
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 8,
+      "verses": [
+        23
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Leviticus 8:23"
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 14,
+      "verses": [
+        14,
+        25
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Leviticus 14:14,25"
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 14,
+      "verses": [
+        17,
+        28
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Leviticus 14:17,28"
+    },
+    {
+      "book": "Judges",
+      "chapter": 1,
+      "verses": [
+        6,
+        7
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Judges 1:6,7"
+    }
+  ],
+  "books_mentioned": [
+    "Exodus",
+    "Judges",
+    "Leviticus"
+  ],
+  "stats": {
+    "total_aspects": 5,
+    "total_refs": 5,
+    "ot_refs": 5,
+    "nt_refs": 0,
+    "books_count": 3,
+    "top_books": [
+      "Leviticus",
+      "Exodus",
+      "Judges"
+    ]
+  }
 }

@@ -1,64 +1,46 @@
 {
   "topic": "RAISINS",
   "slug": "raisins",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "(Dried grapes)",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "Given by Abigail to David 1Sa 25:18",
-      "references": [
-        "1Sam 25:18"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Given to the starving Egyptian to revive him 1Sa 30:12",
-      "references": [
-        "1Sam 30:12"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Given by Ziba to David 2Sa 16:1",
-      "references": [
-        "2Sam 16:1"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Given to David at Ziklag 1Ch 12:40",
-      "references": [
-        "1Chr 12:40"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 5,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.720545+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "(Dried grapes)",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "Given by Abigail to David",
+      "references": [
+        "1 Samuel 25:18"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Given to the starving Egyptian to revive him",
+      "references": [
+        "1 Samuel 30:12"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Given by Ziba to David",
+      "references": [
+        "2 Samuel 16:1"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Given to David at Ziklag",
+      "references": [
+        "1 Chronicles 12:40"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "1 Samuel",
       "chapter": 25,
@@ -67,8 +49,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Samuel 25:18",
-      "source": "EAS"
+      "raw": "1 Samuel 25:18"
     },
     {
       "book": "1 Samuel",
@@ -78,8 +59,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Samuel 30:12",
-      "source": "EAS"
+      "raw": "1 Samuel 30:12"
     },
     {
       "book": "2 Samuel",
@@ -89,8 +69,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Samuel 16:1",
-      "source": "EAS"
+      "raw": "2 Samuel 16:1"
     },
     {
       "book": "1 Chronicles",
@@ -100,8 +79,24 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 12:40",
-      "source": "EAS"
+      "raw": "1 Chronicles 12:40"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "1 Samuel",
+    "2 Samuel"
+  ],
+  "stats": {
+    "total_aspects": 5,
+    "total_refs": 4,
+    "ot_refs": 4,
+    "nt_refs": 0,
+    "books_count": 3,
+    "top_books": [
+      "1 Samuel",
+      "2 Samuel",
+      "1 Chronicles"
+    ]
+  }
 }

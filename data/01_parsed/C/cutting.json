@@ -1,89 +1,28 @@
 {
   "topic": "CUTTING",
   "slug": "cutting",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "(The flesh for the dead)",
-      "references": [],
-      "sub_groups": [
-        {
-          "name": "Forbidden Le 19:28; 21:5; De 14:1; Jer 16:6",
-          "references": [
-            "Lev 19:28",
-            "Lev 21:5",
-            "Deut 14:1",
-            "Jer 16:6"
-          ]
-        }
-      ]
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Deuteronomy",
-      "book_abbrev": "deu",
-      "chapter": 14,
-      "testament": "OT",
-      "verses": [
-        1
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Jeremiah",
-      "book_abbrev": "jer",
-      "chapter": 16,
-      "testament": "OT",
-      "verses": [
-        6
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 2,
-    "nt_refs": 0,
-    "total_verses": 2
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.680091+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "(The flesh for the",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".Forbid",
+      "references": [
+        "Leviticus 19:28",
+        "Leviticus 21:5",
+        "Deuteronomy 14:1",
+        "Jeremiah 16:6"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "Deuteronomy",
-      "chapter": 14,
-      "verses": [
-        1
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Deuteronomy 14:1",
-      "source": "EAS"
-    },
-    {
-      "book": "1 Kings",
-      "chapter": 18,
-      "verses": [
-        28
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "1 Kings 18:28",
-      "source": "EAS"
-    },
+  ],
+  "biblical_references": [
     {
       "book": "Leviticus",
       "chapter": 19,
@@ -92,8 +31,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Leviticus 19:28",
-      "source": "EAS"
+      "raw": "Leviticus 19:28"
     },
     {
       "book": "Leviticus",
@@ -103,8 +41,17 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Leviticus 21:5",
-      "source": "EAS"
+      "raw": "Leviticus 21:5"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 14,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 14:1"
     },
     {
       "book": "Jeremiah",
@@ -114,74 +61,24 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Jeremiah 16:6",
-      "source": "EAS"
-    },
-    {
-      "book": "Jeremiah",
-      "chapter": 41,
-      "verses": [
-        5
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Jeremiah 41:5",
-      "source": "EAS"
-    },
-    {
-      "book": "Jeremiah",
-      "chapter": 48,
-      "verses": [
-        37
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Jeremiah 48:37",
-      "source": "EAS"
-    },
-    {
-      "book": "Jeremiah",
-      "chapter": 13,
-      "verses": [
-        16
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Jeremiah 13:16",
-      "source": "EAS"
-    },
-    {
-      "book": "Jeremiah",
-      "chapter": 17,
-      "verses": [
-        5
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Jeremiah 17:5",
-      "source": "EAS"
-    },
-    {
-      "book": "Jeremiah",
-      "chapter": 19,
-      "verses": [
-        20
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Jeremiah 19:20",
-      "source": "EAS"
-    },
-    {
-      "book": "Jeremiah",
-      "chapter": 9,
-      "verses": [
-        4
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Jeremiah 9:4",
-      "source": "EAS"
+      "raw": "Jeremiah 16:6"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Deuteronomy",
+    "Jeremiah",
+    "Leviticus"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 4,
+    "ot_refs": 4,
+    "nt_refs": 0,
+    "books_count": 3,
+    "top_books": [
+      "Leviticus",
+      "Deuteronomy",
+      "Jeremiah"
+    ]
+  }
 }

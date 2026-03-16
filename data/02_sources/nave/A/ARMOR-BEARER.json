@@ -1,89 +1,126 @@
 {
   "topic": "ARMOR-BEARER",
-  "topic_slug": "armor_bearer",
+  "slug": "armor_bearer",
   "canonical_id": "NAV:armor_bearer",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–(An attendant who carried a soldier’s equipment)\n–Of AbimelechJud 9:54\n–Of Jonathan1Sa 14:6,7,12,17\n–Saul1Sa 16:21;31:6\n–Of Goliath1Sa 17:7\n–Of Joab2Sa 18:15",
-  "content_preview": "–(An attendant who carried a soldier’s equipment)",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–(An attendant who carried a soldier’s equipment)",
-      "raw_segment": "–(An attendant who carried a soldier’s equipment)"
+      "label": "(An attendant who",
+      "references": []
     },
     {
-      "idx": 1,
-      "entry_label": "–Of AbimelechJud 9:54",
-      "raw_segment": "–Of AbimelechJud 9:54"
+      "label": "Of Abimelech",
+      "references": [
+        "Judges 9:54"
+      ]
     },
     {
-      "idx": 2,
-      "entry_label": "–Of Jonathan1Sa 14:6,7,12,17",
-      "raw_segment": "–Of Jonathan1Sa 14:6,7,12,17"
+      "label": "Of Jonathan",
+      "references": [
+        "1 Samuel 14:6,7,12,17"
+      ]
     },
     {
-      "idx": 3,
-      "entry_label": "–Saul1Sa 16:21;31:6",
-      "raw_segment": "–Saul1Sa 16:21;31:6"
+      "label": "Saul",
+      "references": [
+        "1 Samuel 16:21",
+        "1 Samuel 31:6"
+      ]
     },
     {
-      "idx": 4,
-      "entry_label": "–Of Goliath1Sa 17:7",
-      "raw_segment": "–Of Goliath1Sa 17:7"
+      "label": "Of Goliath",
+      "references": [
+        "1 Samuel 17:7"
+      ]
     },
     {
-      "idx": 5,
-      "entry_label": "–Of Joab2Sa 18:15",
-      "raw_segment": "–Of Joab2Sa 18:15"
+      "label": "Of Joab",
+      "references": [
+        "2 Samuel 18:15"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Judges",
+      "chapter": 9,
+      "verses": [
+        54
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Judges 9:54"
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 14,
+      "verses": [
+        6,
+        7,
+        12,
+        17
+      ],
+      "verse_count": 4,
+      "testament": "OT",
+      "raw": "1 Samuel 14:6,7,12,17"
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 16,
+      "verses": [
+        21
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Samuel 16:21"
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 31,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Samuel 31:6"
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 17,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Samuel 17:7"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 18,
+      "verses": [
+        15
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Samuel 18:15"
+    }
+  ],
+  "books_mentioned": [
+    "1 Samuel",
+    "2 Samuel",
+    "Judges"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 6,
+    "total_refs": 6,
+    "ot_refs": 6,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:307046e9eced0eef6047aa9c27f7cfc8f8d8425fb625322b4f8ff5b7040aa726",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 6
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 3,
+    "top_books": [
+      "1 Samuel",
+      "Judges",
+      "2 Samuel"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:23:47.673821Z",
-  "updated_at": "2025-09-20T17:23:47.673830Z"
+  }
 }

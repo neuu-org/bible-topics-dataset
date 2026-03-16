@@ -1,49 +1,46 @@
 {
   "topic": "PITCHER",
   "slug": "pitcher",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Earthen La 4:2",
-      "references": [
-        "Lam 4:2"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Used by Gideon in his battle with the Midianites Jud 7:10-20",
-      "references": [
-        "Judg 7:10-20"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.718618+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "see_also": [],
+  "aspects": [
     {
-      "book": "Genesis",
-      "chapter": 24,
+      "label": "Earthen",
+      "references": [
+        "Lamentations 4:2"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Used by Gi",
+      "references": [
+        "Judges 7:10-20"
+      ],
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
+    {
+      "book": "Lamentations",
+      "chapter": 4,
       "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Lamentations 4:2"
+    },
+    {
+      "book": "Judges",
+      "chapter": 7,
+      "verses": [
+        10,
+        11,
+        12,
+        13,
+        14,
         15,
         16,
         17,
@@ -51,66 +48,24 @@
         19,
         20
       ],
-      "verse_count": 6,
+      "verse_count": 11,
       "testament": "OT",
-      "raw": "Genesis 24:15-20",
-      "source": "EAS"
-    },
-    {
-      "book": "Judges",
-      "chapter": 7,
-      "verses": [
-        16,
-        19
-      ],
-      "verse_count": 2,
-      "testament": "OT",
-      "raw": "Judges 7:16, 19",
-      "source": "EAS"
-    },
-    {
-      "book": "Mark",
-      "chapter": 14,
-      "verses": [
-        13
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Mark 14:13",
-      "source": "EAS"
-    },
-    {
-      "book": "Genesis",
-      "chapter": 21,
-      "verses": [
-        14
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Genesis 21:14",
-      "source": "SMI"
-    },
-    {
-      "book": "Judges",
-      "chapter": 7,
-      "verses": [
-        16
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Judges 7:16",
-      "source": "SMI"
-    },
-    {
-      "book": "Luke",
-      "chapter": 22,
-      "verses": [
-        10
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Luke 22:10",
-      "source": "SMI"
+      "raw": "Judges 7:10-20"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Judges",
+    "Lamentations"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 2,
+    "ot_refs": 2,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "Lamentations",
+      "Judges"
+    ]
+  }
 }

@@ -1,64 +1,76 @@
 {
   "topic": "BEATEN WORK",
-  "topic_slug": "beaten_work",
+  "slug": "beaten_work",
   "canonical_id": "NAV:beaten_work",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–Of metalsEx 25:18;30:36;37:17,22;Nu 8:4",
-  "content_preview": "–Of metalsEx 25:18;30:36;37:17,22;Nu 8:4",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–Of metalsEx 25:18;30:36;37:17,22;Nu 8:4",
-      "raw_segment": "–Of metalsEx 25:18;30:36;37:17,22;Nu 8:4"
+      "label": "Of metals",
+      "references": [
+        "Exodus 25:18",
+        "Exodus 30:36",
+        "Exodus 37:17,22",
+        "Numbers 8:4"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Exodus",
+      "chapter": 25,
+      "verses": [
+        18
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 25:18"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 30,
+      "verses": [
+        36
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 30:36"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 37,
+      "verses": [
+        17,
+        22
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Exodus 37:17,22"
+    },
+    {
+      "book": "Numbers",
+      "chapter": 8,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Numbers 8:4"
+    }
+  ],
+  "books_mentioned": [
+    "Exodus",
+    "Numbers"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 1,
+    "total_refs": 4,
+    "ot_refs": 4,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:52652e032e506e440b5dcebaf2bd59a0921b3655207331e5fff6d06ab1e5a165",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 1
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 2,
+    "top_books": [
+      "Exodus",
+      "Numbers"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:24:13.544750Z",
-  "updated_at": "2025-09-20T17:24:13.544757Z"
+  }
 }

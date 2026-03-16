@@ -1,42 +1,59 @@
 {
   "topic": "JOHA",
   "slug": "joha",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. A Benjamite 1Ch 8:16",
-      "references": [
-        "1Chr 8:16"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "2. One of David’s valiant men 1Ch 11:45",
-      "references": [
-        "1Chr 11:45"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.697369+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "1. A Benjamite",
+      "references": [
+        "1 Chronicles 8:16"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2. One of David’s valiant men",
+      "references": [
+        "1 Chronicles 11:45"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0"
+  ],
+  "biblical_references": [
+    {
+      "book": "1 Chronicles",
+      "chapter": 8,
+      "verses": [
+        16
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 8:16"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 11,
+      "verses": [
+        45
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 11:45"
+    }
+  ],
+  "books_mentioned": [
+    "1 Chronicles"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 2,
+    "ot_refs": 2,
+    "nt_refs": 0,
+    "books_count": 1,
+    "top_books": [
+      "1 Chronicles"
+    ]
+  }
 }

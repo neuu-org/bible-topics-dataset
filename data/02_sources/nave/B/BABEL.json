@@ -1,78 +1,58 @@
 {
   "topic": "BABEL",
-  "topic_slug": "babel",
+  "slug": "babel",
   "canonical_id": "NAV:babel",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "BABYLON"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "BABYLON",
-      "clean": "BABYLON",
-      "slug": "babylon",
-      "canonical_id": "NAV:babylon"
-    }
-  ],
-  "raw_block": "–A city in the plain of Shinar. Tower built, and tongues confused \natGe 11:1-9\n–SeeBABYLON",
-  "content_preview": "–A city in the plain of Shinar. Tower built, and tongues confused ",
-  "reference_groups": [
-    {
-      "idx": 0,
-      "entry_label": "–A city in the plain of Shinar. Tower built, and tongues confused \natGe 11:1-9",
-      "raw_segment": "–A city in the plain of Shinar. Tower built, and tongues confused \natGe 11:1-9"
+      "label": "A city in the plain of Shinar. Tower built, and tongues confused",
+      "references": []
     },
     {
-      "idx": 1,
-      "entry_label": "–SeeBABYLON",
-      "raw_segment": "–SeeBABYLON"
+      "label": "at",
+      "references": [
+        "Genesis 11:1-9"
+      ]
+    },
+    {
+      "label": "SeeBABYLON",
+      "references": []
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Genesis",
+      "chapter": 11,
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "verse_count": 9,
+      "testament": "OT",
+      "raw": "Genesis 11:1-9"
+    }
+  ],
+  "books_mentioned": [
+    "Genesis"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 3,
+    "total_refs": 1,
+    "ot_refs": 1,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:6891021aef2aecf29473f30c3c36b2ce3fa94bf54cbb598818623f231386dc6a",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 3
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 1,
+    "top_books": [
+      "Genesis"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:24:04.884461Z",
-  "updated_at": "2025-09-20T17:24:04.884468Z"
+  }
 }

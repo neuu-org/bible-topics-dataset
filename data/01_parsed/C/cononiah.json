@@ -1,40 +1,21 @@
 {
   "topic": "CONONIAH",
   "slug": "cononiah",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Name of two Israelites 2Ch 31:12,13; 35:9",
-      "references": [
-        "2Chr 31:12",
-        "2Chr 31:13",
-        "2Chr 35:9"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.679061+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "Name of two Israelites",
+      "references": [
+        "2 Chronicles 31:12,13",
+        "2 Chronicles 35:9"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "2 Chronicles",
       "chapter": 31,
@@ -44,8 +25,30 @@
       ],
       "verse_count": 2,
       "testament": "OT",
-      "raw": "2 Chronicles 31:12,13",
-      "source": "SMI"
+      "raw": "2 Chronicles 31:12,13"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 35,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Chronicles 35:9"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "2 Chronicles"
+  ],
+  "stats": {
+    "total_aspects": 1,
+    "total_refs": 2,
+    "ot_refs": 2,
+    "nt_refs": 0,
+    "books_count": 1,
+    "top_books": [
+      "2 Chronicles"
+    ]
+  }
 }

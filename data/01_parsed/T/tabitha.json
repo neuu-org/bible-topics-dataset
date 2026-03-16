@@ -1,55 +1,37 @@
 {
   "topic": "TABITHA",
   "slug": "tabitha",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "(Her Aramaic name)",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "(A Christian woman in the city of Joppa)",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "See DORCAS (her Greek name)",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "Restored to life by Peter Ac 9:36-41",
-      "references": [
-        "Acts 9:36-41"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [
-    "DORCAS"
-  ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 4,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.728585+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [
+    "DORCAS"
+  ],
+  "aspects": [
+    {
+      "label": "(Her Aramaic name)",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "(A Christian woman in the city of Joppa)",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeDOR",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "Restored to life by Peter",
+      "references": [
+        "Acts 9:36-41"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Acts",
       "chapter": 9,
@@ -59,73 +41,24 @@
         38,
         39,
         40,
-        41,
-        42,
-        43
-      ],
-      "verse_count": 8,
-      "testament": "NT",
-      "raw": "Acts 9:36-43",
-      "source": "EAS"
-    },
-    {
-      "book": "Matthew",
-      "chapter": 9,
-      "verses": [
-        25
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Matthew 9:25",
-      "source": "SMI"
-    },
-    {
-      "book": "Mark",
-      "chapter": 5,
-      "verses": [
-        40
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Mark 5:40",
-      "source": "SMI"
-    },
-    {
-      "book": "Mark",
-      "chapter": 5,
-      "verses": [
         41
       ],
-      "verse_count": 1,
+      "verse_count": 6,
       "testament": "NT",
-      "raw": "Mark 5:41",
-      "source": "SMI"
-    },
-    {
-      "book": "Luke",
-      "chapter": 8,
-      "verses": [
-        51
-      ],
-      "verse_count": 1,
-      "testament": "NT",
-      "raw": "Luke 8:51",
-      "source": "SMI"
-    },
-    {
-      "book": "Acts",
-      "chapter": 9,
-      "verses": [
-        38,
-        39,
-        40,
-        41,
-        42
-      ],
-      "verse_count": 5,
-      "testament": "NT",
-      "raw": "Acts 9:38-42",
-      "source": "SMI"
+      "raw": "Acts 9:36-41"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Acts"
+  ],
+  "stats": {
+    "total_aspects": 4,
+    "total_refs": 1,
+    "ot_refs": 0,
+    "nt_refs": 1,
+    "books_count": 1,
+    "top_books": [
+      "Acts"
+    ]
+  }
 }

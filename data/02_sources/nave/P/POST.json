@@ -1,74 +1,103 @@
 {
   "topic": "POST",
-  "topic_slug": "post",
+  "slug": "post",
   "canonical_id": "NAV:post",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–A bearer of a messageJob 9:25;Jer 51:31\n–Of Hezekiah2Ch 30:6,10\n–Of AhasuerusEs 3:13,15;8:10,14",
-  "content_preview": "–A bearer of a messageJob 9:25;Jer 51:31",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–A bearer of a messageJob 9:25;Jer 51:31",
-      "raw_segment": "–A bearer of a messageJob 9:25;Jer 51:31"
+      "label": "A bearer of a message",
+      "references": [
+        "Job 9:25",
+        "Jeremiah 51:31"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–Of Hezekiah2Ch 30:6,10",
-      "raw_segment": "–Of Hezekiah2Ch 30:6,10"
+      "label": "Of Hezekiah",
+      "references": [
+        "2 Chronicles 30:6,10"
+      ]
     },
     {
-      "idx": 2,
-      "entry_label": "–Of AhasuerusEs 3:13,15;8:10,14",
-      "raw_segment": "–Of AhasuerusEs 3:13,15;8:10,14"
+      "label": "Of Ahasuerus",
+      "references": [
+        "Esther 3:13,15",
+        "Esther 8:10,14"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Job",
+      "chapter": 9,
+      "verses": [
+        25
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Job 9:25"
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 51,
+      "verses": [
+        31
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Jeremiah 51:31"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 30,
+      "verses": [
+        6,
+        10
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "2 Chronicles 30:6,10"
+    },
+    {
+      "book": "Esther",
+      "chapter": 3,
+      "verses": [
+        13,
+        15
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Esther 3:13,15"
+    },
+    {
+      "book": "Esther",
+      "chapter": 8,
+      "verses": [
+        10,
+        14
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Esther 8:10,14"
+    }
+  ],
+  "books_mentioned": [
+    "2 Chronicles",
+    "Esther",
+    "Jeremiah",
+    "Job"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 3,
+    "total_refs": 5,
+    "ot_refs": 5,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:62a35d2b5ace99bc5f915e23da8dffda17e2ce79d33fa96ba1bcd0dac8a2f41b",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 3
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 4,
+    "top_books": [
+      "Esther",
+      "Job",
+      "Jeremiah",
+      "2 Chronicles"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:30:14.134619Z",
-  "updated_at": "2025-09-20T17:30:14.134626Z"
+  }
 }

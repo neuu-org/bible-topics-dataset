@@ -1,51 +1,32 @@
 {
   "topic": "BILDAD",
   "slug": "bildad",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "One of Job’s friends Job 2:11; 8:1; 18:1; 25:1",
+      "label": "One of Job’s friends",
       "references": [
         "Job 2:11",
         "Job 8:1",
         "Job 18:1",
         "Job 25:1"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.674422+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "biblical_references": [
     {
-      "book": "Genesis",
-      "chapter": 25,
+      "book": "Job",
+      "chapter": 2,
       "verses": [
-        2
+        11
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 25:2",
-      "source": "EAS"
+      "raw": "Job 2:11"
     },
     {
       "book": "Job",
@@ -55,8 +36,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Job 8:1",
-      "source": "EAS"
+      "raw": "Job 8:1"
     },
     {
       "book": "Job",
@@ -66,8 +46,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Job 18:1",
-      "source": "EAS"
+      "raw": "Job 18:1"
     },
     {
       "book": "Job",
@@ -77,19 +56,20 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Job 25:1",
-      "source": "EAS"
-    },
-    {
-      "book": "Job",
-      "chapter": 2,
-      "verses": [
-        11
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Job 2:11",
-      "source": "SMI"
+      "raw": "Job 25:1"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Job"
+  ],
+  "stats": {
+    "total_aspects": 1,
+    "total_refs": 4,
+    "ot_refs": 4,
+    "nt_refs": 0,
+    "books_count": 1,
+    "top_books": [
+      "Job"
+    ]
+  }
 }

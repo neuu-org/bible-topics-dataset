@@ -1,83 +1,50 @@
 {
   "topic": "RAGUEL",
-  "topic_slug": "raguel",
+  "slug": "raguel",
   "canonical_id": "NAV:raguel",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "JETHRO"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "JETHRO",
-      "clean": "JETHRO",
-      "slug": "jethro",
-      "canonical_id": "NAV:jethro"
-    }
-  ],
-  "raw_block": "–Also called REUEL and JETHRO\n–Moses’ father-in-lawNu 10:29\n–SeeJETHRO",
-  "content_preview": "–Also called REUEL and JETHRO",
-  "reference_groups": [
-    {
-      "idx": 0,
-      "entry_label": "–Also called REUEL and JETHRO",
-      "raw_segment": "–Also called REUEL and JETHRO"
+      "label": "Al",
+      "references": []
     },
     {
-      "idx": 1,
-      "entry_label": "–Moses’ father-in-lawNu 10:29",
-      "raw_segment": "–Moses’ father-in-lawNu 10:29"
+      "label": "Moses’ father-in-law",
+      "references": [
+        "Numbers 10:29"
+      ]
     },
     {
-      "idx": 2,
-      "entry_label": "–SeeJETHRO",
-      "raw_segment": "–SeeJETHRO"
+      "label": "SeeJETHRO",
+      "references": []
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Numbers",
+      "chapter": 10,
+      "verses": [
+        29
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Numbers 10:29"
+    }
+  ],
+  "books_mentioned": [
+    "Numbers"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 3,
+    "total_refs": 1,
+    "ot_refs": 1,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:05daa1c53323483ab998c8a0d91e9149a1af27f730b74089f0bc0a6acc48dfef",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 3
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 1,
+    "top_books": [
+      "Numbers"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:30:27.231552Z",
-  "updated_at": "2025-09-20T17:30:27.231559Z"
+  }
 }

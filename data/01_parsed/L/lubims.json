@@ -1,72 +1,43 @@
 {
   "topic": "LUBIMS",
   "slug": "lubims",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Inhabitants of northern Africa 2Ch 12:3; 16:8",
-      "references": [
-        "2Chr 12:3",
-        "2Chr 16:8"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "The region they inhabited was called PHUT in Eze 27:10; Na 3:9",
-      "references": [
-        "Ezek 27:10",
-        "Nah 3:9"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "See PHUT",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "Called LIBYA Ac 2:10",
-      "references": [
-        "Acts 2:10"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Nahum",
-      "book_abbrev": "nah",
-      "chapter": 3,
-      "testament": "OT",
-      "verses": [
-        9
-      ],
-      "verse_count": 1
-    }
+  "sources": [
+    "NAV"
   ],
   "see_also": [
     "PHUT"
   ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 4,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.701868+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "aspects": [
+    {
+      "label": "Inhabitants of northern Afri",
+      "references": [
+        "2 Chronicles 12:3",
+        "2 Chronicles 16:8"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "The region they inhabited was",
+      "references": [
+        "Ezekiel 27:10",
+        "Nahum 3:9"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "SeePHUT",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "General references",
+      "references": [
+        "Acts 2:10"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "2 Chronicles",
       "chapter": 12,
@@ -75,8 +46,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Chronicles 12:3",
-      "source": "EAS"
+      "raw": "2 Chronicles 12:3"
     },
     {
       "book": "2 Chronicles",
@@ -86,8 +56,56 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Chronicles 16:8",
-      "source": "EAS"
+      "raw": "2 Chronicles 16:8"
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 27,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezekiel 27:10"
+    },
+    {
+      "book": "Nahum",
+      "chapter": 3,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Nahum 3:9"
+    },
+    {
+      "book": "Acts",
+      "chapter": 2,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 2:10"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "2 Chronicles",
+    "Acts",
+    "Ezekiel",
+    "Nahum"
+  ],
+  "stats": {
+    "total_aspects": 4,
+    "total_refs": 5,
+    "ot_refs": 4,
+    "nt_refs": 1,
+    "books_count": 4,
+    "top_books": [
+      "2 Chronicles",
+      "Ezekiel",
+      "Nahum",
+      "Acts"
+    ]
+  }
 }

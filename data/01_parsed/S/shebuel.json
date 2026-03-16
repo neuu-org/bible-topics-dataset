@@ -1,60 +1,42 @@
 {
   "topic": "SHEBUEL",
   "slug": "shebuel",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. Son of Gershom 1Ch 23:16; 26:24",
-      "references": [
-        "1Chr 23:16",
-        "1Chr 26:24"
-      ],
-      "sub_groups": [
-        {
-          "name": "Called SHUBAEL 1Ch 24:20",
-          "references": [
-            "1Chr 24:20"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "2. A singer, son of Heman 1Ch 25:4",
-      "references": [
-        "1Chr 25:4"
-      ],
-      "sub_groups": [
-        {
-          "name": "Called SHUBAEL 1Ch 25:20",
-          "references": [
-            "1Chr 25:20"
-          ]
-        }
-      ]
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.724668+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "1.",
+      "references": [
+        "1 Chronicles 23:16",
+        "1 Chronicles 26:24"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".",
+      "references": [
+        "1 Chronicles 24:20"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2. A singer,",
+      "references": [
+        "1 Chronicles 25:4"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".",
+      "references": [
+        "1 Chronicles 25:20"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "1 Chronicles",
       "chapter": 23,
@@ -63,8 +45,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 23:16",
-      "source": "EAS"
+      "raw": "1 Chronicles 23:16"
     },
     {
       "book": "1 Chronicles",
@@ -74,20 +55,50 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 26:24",
-      "source": "EAS"
+      "raw": "1 Chronicles 26:24"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 24,
+      "verses": [
+        20
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 24:20"
     },
     {
       "book": "1 Chronicles",
       "chapter": 25,
       "verses": [
-        4,
-        5
+        4
       ],
-      "verse_count": 2,
+      "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 25:4, 5",
-      "source": "EAS"
+      "raw": "1 Chronicles 25:4"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 25,
+      "verses": [
+        20
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 25:20"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles"
+  ],
+  "stats": {
+    "total_aspects": 4,
+    "total_refs": 5,
+    "ot_refs": 5,
+    "nt_refs": 0,
+    "books_count": 1,
+    "top_books": [
+      "1 Chronicles"
+    ]
+  }
 }

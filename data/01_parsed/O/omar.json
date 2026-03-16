@@ -1,66 +1,21 @@
 {
   "topic": "OMAR",
   "slug": "omar",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Son of Eliphaz, grandson of Esau Ge 36:11,15; 1Ch 1:36",
-      "references": [
-        "Gen 36:11",
-        "Gen 36:15",
-        "1Chr 1:36"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "1 Chronicles",
-      "book_abbrev": "1ch",
-      "chapter": 1,
-      "testament": "OT",
-      "verses": [
-        36
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.716053+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "see_also": [],
+  "aspects": [
     {
-      "book": "Genesis",
-      "chapter": 36,
-      "verses": [
-        11,
-        12,
-        13,
-        14,
-        15
+      "label": "General references",
+      "references": [
+        "Genesis 36:11,15",
+        "1 Chronicles 1:36"
       ],
-      "verse_count": 5,
-      "testament": "OT",
-      "raw": "Genesis 36:11-15",
-      "source": "EAS"
-    },
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
     {
       "book": "Genesis",
       "chapter": 36,
@@ -70,19 +25,32 @@
       ],
       "verse_count": 2,
       "testament": "OT",
-      "raw": "Genesis 36:11,15",
-      "source": "SMI"
+      "raw": "Genesis 36:11,15"
     },
     {
       "book": "1 Chronicles",
       "chapter": 1,
       "verses": [
-        38
+        36
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 1:38",
-      "source": "SMI"
+      "raw": "1 Chronicles 1:36"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Genesis"
+  ],
+  "stats": {
+    "total_aspects": 1,
+    "total_refs": 2,
+    "ot_refs": 2,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "Genesis",
+      "1 Chronicles"
+    ]
+  }
 }

@@ -1,56 +1,69 @@
 {
   "topic": "REFUGE",
   "slug": "refuge",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "CITIES OF",
+      "label": "CITIES OF",
       "references": [],
-      "sub_groups": [
-        {
-          "name": "From the avenger of blood Ex 21:13,14; Nu 35:11-32; De 4:41-43; 19:2-13; Jos 20:1-6",
-          "references": [
-            "Exod 21:13",
-            "Exod 21:14",
-            "Num 35:11-32",
-            "Deut 4:41-43",
-            "Deut 19:2-13",
-            "Josh 20:1-6"
-          ]
-        },
-        {
-          "name": "List of Jos 20:7-9",
-          "references": [
-            "Josh 20:7-9"
-          ]
-        },
-        {
-          "name": "Roads made to De 19:3",
-          "references": [
-            "Deut 19:3"
-          ]
-        }
-      ]
+      "source": "NAV"
     },
     {
-      "name": "FIGURATIVE",
+      "label": ".From the avenger of bloo",
+      "references": [
+        "Exodus 21:13,14",
+        "Numbers 35:11-32",
+        "Deuteronomy 4:41-43",
+        "Deuteronomy 19:2-13",
+        "Joshua 20:1-6"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".List of",
+      "references": [
+        "Joshua 20:7-9"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".Roads ma",
+      "references": [
+        "Deuteronomy 19:3"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "FIGURATIVE",
       "references": [],
-      "sub_groups": [
-        {
-          "name": "Of Christ Heb 6:18",
-          "references": [
-            "Heb 6:18"
-          ]
-        }
-      ]
+      "source": "NAV"
+    },
+    {
+      "label": ".Of Christ",
+      "references": [
+        "Hebrews 6:18"
+      ],
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Numbers",
-      "book_abbrev": "num",
-      "chapter": 35,
+      "book": "Exodus",
+      "chapter": 21,
+      "verses": [
+        13,
+        14
+      ],
+      "verse_count": 2,
       "testament": "OT",
+      "raw": "Exodus 21:13,14"
+    },
+    {
+      "book": "Numbers",
+      "chapter": 35,
       "verses": [
         11,
         12,
@@ -75,26 +88,46 @@
         31,
         32
       ],
-      "verse_count": 22
+      "verse_count": 22,
+      "testament": "OT",
+      "raw": "Numbers 35:11-32"
     },
     {
       "book": "Deuteronomy",
-      "book_abbrev": "deu",
       "chapter": 4,
-      "testament": "OT",
       "verses": [
-        19,
         41,
         42,
         43
       ],
-      "verse_count": 4
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Deuteronomy 4:41-43"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 19,
+      "verses": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "verse_count": 12,
+      "testament": "OT",
+      "raw": "Deuteronomy 19:2-13"
     },
     {
       "book": "Joshua",
-      "book_abbrev": "jos",
       "chapter": 20,
-      "testament": "OT",
       "verses": [
         1,
         2,
@@ -103,27 +136,62 @@
         5,
         6
       ],
-      "verse_count": 6
+      "verse_count": 6,
+      "testament": "OT",
+      "raw": "Joshua 20:1-6"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 20,
+      "verses": [
+        7,
+        8,
+        9
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Joshua 20:7-9"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 19,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 19:3"
+    },
+    {
+      "book": "Hebrews",
+      "chapter": 6,
+      "verses": [
+        18
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Hebrews 6:18"
     }
   ],
-  "see_also": [],
-  "aliases": [],
+  "books_mentioned": [
+    "Deuteronomy",
+    "Exodus",
+    "Hebrews",
+    "Joshua",
+    "Numbers"
+  ],
   "stats": {
-    "entries_count": 2,
-    "ot_refs": 3,
-    "nt_refs": 0,
-    "total_verses": 3
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.721059+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    }
-  },
-  "version": "3.0.0"
+    "total_aspects": 6,
+    "total_refs": 8,
+    "ot_refs": 7,
+    "nt_refs": 1,
+    "books_count": 5,
+    "top_books": [
+      "Deuteronomy",
+      "Joshua",
+      "Exodus",
+      "Numbers",
+      "Hebrews"
+    ]
+  }
 }

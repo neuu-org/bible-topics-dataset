@@ -1,160 +1,78 @@
 {
   "topic": "CORNERSTONE",
   "slug": "cornerstone",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "General scriptures concerning Job 38:6",
-      "references": [
-        "Job 38:6"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "See STONE",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "FIGURATIVE Ps 144:12",
-      "references": [
-        "Ps 144:12"
-      ],
-      "sub_groups": [
-        {
-          "name": "Of Christ Ps 118:22; Isa 28:16; Mt 21:42; Mr 12:10; Lu 20:17; Ac 4:11; 1Co 3:11; Eph 2:20; 1Pe 2:6",
-          "references": [
-            "Ps 118:22",
-            "Isa 28:16",
-            "Matt 21:42",
-            "Mark 12:10",
-            "Luke 20:17",
-            "Acts 4:11",
-            "1Cor 3:11",
-            "Eph 2:20",
-            "1Pet 2:6"
-          ]
-        }
-      ]
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Isaiah",
-      "book_abbrev": "isa",
-      "chapter": 28,
-      "testament": "OT",
-      "verses": [
-        16
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Matthew",
-      "book_abbrev": "mat",
-      "chapter": 21,
-      "testament": "NT",
-      "verses": [
-        42
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Mark",
-      "book_abbrev": "mrk",
-      "chapter": 12,
-      "testament": "NT",
-      "verses": [
-        10
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Luke",
-      "book_abbrev": "luk",
-      "chapter": 20,
-      "testament": "NT",
-      "verses": [
-        17
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Acts",
-      "book_abbrev": "act",
-      "chapter": 4,
-      "testament": "NT",
-      "verses": [
-        1,
-        11
-      ],
-      "verse_count": 2
-    },
-    {
-      "book": "1 Corinthians",
-      "book_abbrev": "1co",
-      "chapter": 3,
-      "testament": "NT",
-      "verses": [
-        11
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Ephesians",
-      "book_abbrev": "eph",
-      "chapter": 2,
-      "testament": "NT",
-      "verses": [
-        1,
-        20
-      ],
-      "verse_count": 2
-    },
-    {
-      "book": "1 Peter",
-      "book_abbrev": "1pe",
-      "chapter": 2,
-      "testament": "NT",
-      "verses": [
-        6
-      ],
-      "verse_count": 1
-    }
+  "sources": [
+    "NAV"
   ],
   "see_also": [
     "STONE"
   ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 1,
-    "nt_refs": 7,
-    "total_verses": 8
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.679421+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "aspects": [
     {
-      "book": "Isaiah",
-      "chapter": 19,
+      "label": "General scriptures concerning",
+      "references": [
+        "Job 38:6"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeSTONE",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "FIGURATIVE",
+      "references": [
+        "Psalms 144:12"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".Of Christ",
+      "references": [
+        "Psalms 118:22",
+        "Isaiah 28:16",
+        "Matthew 21:42",
+        "Mark 12:10",
+        "Luke 20:17",
+        "Acts 4:11",
+        "1 Corinthians 3:11",
+        "Ephesians 2:20",
+        "1 Peter 2:6"
+      ],
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
+    {
+      "book": "Job",
+      "chapter": 38,
       "verses": [
-        13
+        6
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Isaiah 19:13",
-      "source": "SMI"
+      "raw": "Job 38:6"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 144,
+      "verses": [
+        12
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 144:12"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 118,
+      "verses": [
+        22
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 118:22"
     },
     {
       "book": "Isaiah",
@@ -164,8 +82,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Isaiah 28:16",
-      "source": "SMI"
+      "raw": "Isaiah 28:16"
     },
     {
       "book": "Matthew",
@@ -175,20 +92,98 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Matthew 21:42",
-      "source": "SMI"
+      "raw": "Matthew 21:42"
+    },
+    {
+      "book": "Mark",
+      "chapter": 12,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Mark 12:10"
+    },
+    {
+      "book": "Luke",
+      "chapter": 20,
+      "verses": [
+        17
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 20:17"
+    },
+    {
+      "book": "Acts",
+      "chapter": 4,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 4:11"
+    },
+    {
+      "book": "1 Corinthians",
+      "chapter": 3,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "1 Corinthians 3:11"
+    },
+    {
+      "book": "Ephesians",
+      "chapter": 2,
+      "verses": [
+        20
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Ephesians 2:20"
     },
     {
       "book": "1 Peter",
       "chapter": 2,
       "verses": [
-        6,
-        7
+        6
       ],
-      "verse_count": 2,
+      "verse_count": 1,
       "testament": "NT",
-      "raw": "1 Peter 2:6,7",
-      "source": "SMI"
+      "raw": "1 Peter 2:6"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Corinthians",
+    "1 Peter",
+    "Acts",
+    "Ephesians",
+    "Isaiah",
+    "Job",
+    "Luke",
+    "Mark",
+    "Matthew",
+    "Psalms"
+  ],
+  "stats": {
+    "total_aspects": 4,
+    "total_refs": 11,
+    "ot_refs": 4,
+    "nt_refs": 7,
+    "books_count": 10,
+    "top_books": [
+      "Psalms",
+      "Job",
+      "Isaiah",
+      "Matthew",
+      "Mark",
+      "Luke",
+      "Acts",
+      "1 Corinthians",
+      "Ephesians",
+      "1 Peter"
+    ]
+  }
 }

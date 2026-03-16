@@ -1,67 +1,58 @@
 {
   "topic": "PAMPHYLIA",
   "slug": "pamphylia",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "(A province in Asia Minor)",
+      "label": "(A province in Asia Minor)",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Men of, in Jerusalem Ac 2:10",
+      "label": "Men of, in",
       "references": [
         "Acts 2:10"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Paul goes to Ac 13:13,14; 14:24",
+      "label": "Paul goes to",
       "references": [
-        "Acts 13:13",
-        "Acts 13:14",
+        "Acts 13:13,14",
         "Acts 14:24"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "John, surnamed “Mark,” in Ac 13:13; 15:38",
+      "label": "General references",
       "references": [
         "Acts 13:13",
         "Acts 15:38"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Sea of Ac 27:5",
+      "label": "Sea of",
       "references": [
         "Acts 27:5"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 5,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.716871+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "biblical_references": [
+    {
+      "book": "Acts",
+      "chapter": 2,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 2:10"
+    },
     {
       "book": "Acts",
       "chapter": 13,
@@ -71,19 +62,17 @@
       ],
       "verse_count": 2,
       "testament": "NT",
-      "raw": "Acts 13:13, 14",
-      "source": "EAS"
+      "raw": "Acts 13:13,14"
     },
     {
       "book": "Acts",
-      "chapter": 2,
+      "chapter": 14,
       "verses": [
-        10
+        24
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Acts 2:10",
-      "source": "EAS"
+      "raw": "Acts 14:24"
     },
     {
       "book": "Acts",
@@ -93,8 +82,17 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Acts 13:13",
-      "source": "SMI"
+      "raw": "Acts 13:13"
+    },
+    {
+      "book": "Acts",
+      "chapter": 15,
+      "verses": [
+        38
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 15:38"
     },
     {
       "book": "Acts",
@@ -104,8 +102,20 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Acts 27:5",
-      "source": "SMI"
+      "raw": "Acts 27:5"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Acts"
+  ],
+  "stats": {
+    "total_aspects": 5,
+    "total_refs": 6,
+    "ot_refs": 0,
+    "nt_refs": 6,
+    "books_count": 1,
+    "top_books": [
+      "Acts"
+    ]
+  }
 }

@@ -1,54 +1,87 @@
 {
   "topic": "BONES",
   "slug": "bones",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "Vision of the dry Eze 37:1-14",
+      "label": "Vision of the dry",
       "references": [
-        "Ezek 37:1-14"
+        "Ezekiel 37:1-14"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "None of Christ’s broken Ps 34:20; Joh 19:36",
+      "label": "None of Christ’s broken",
       "references": [
-        "Ps 34:20",
+        "Psalms 34:20",
         "John 19:36"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
+      "book": "Ezekiel",
+      "chapter": 37,
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "verse_count": 14,
+      "testament": "OT",
+      "raw": "Ezekiel 37:1-14"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 34,
+      "verses": [
+        20
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 34:20"
+    },
+    {
       "book": "John",
-      "book_abbrev": "jhn",
       "chapter": 19,
-      "testament": "NT",
       "verses": [
         36
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "John 19:36"
     }
   ],
-  "see_also": [],
-  "aliases": [],
+  "books_mentioned": [
+    "Ezekiel",
+    "John",
+    "Psalms"
+  ],
   "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
+    "total_aspects": 2,
+    "total_refs": 3,
+    "ot_refs": 2,
     "nt_refs": 1,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.675120+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    }
-  },
-  "version": "3.0.0"
+    "books_count": 3,
+    "top_books": [
+      "Ezekiel",
+      "Psalms",
+      "John"
+    ]
+  }
 }

@@ -1,92 +1,125 @@
 {
   "topic": "NECROMANCY",
-  "topic_slug": "necromancy",
+  "slug": "necromancy",
   "canonical_id": "NAV:necromancy",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "SORCERY",
     "WITCHCRAFT",
     "FAMILIAR SPIRITS"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "SORCERY",
-      "clean": "SORCERY",
-      "slug": "sorcery",
-      "canonical_id": "NAV:sorcery"
+      "label": "General scriptures concerning",
+      "references": [
+        "Deuteronomy 18:11",
+        "Deuteronomy 26:14"
+      ]
     },
     {
-      "original": "WITCHCRAFT",
-      "clean": "WITCHCRAFT",
-      "slug": "witchcraft",
-      "canonical_id": "NAV:witchcraft"
+      "label": "8:19;29:4",
+      "references": []
     },
     {
-      "original": "FAMILIAR SPIRITS",
-      "clean": "FAMILIAR SPIRITS",
-      "slug": "familiar_spirits",
-      "canonical_id": "NAV:familiar_spirits"
+      "label": "INSTANCE OF",
+      "references": []
+    },
+    {
+      "label": ".The witch of En-dor",
+      "references": [
+        "1 Samuel 28:7-19"
+      ]
+    },
+    {
+      "label": ".SeeFAMILIAR SPIRITS",
+      "references": []
+    },
+    {
+      "label": ".See",
+      "references": []
+    },
+    {
+      "label": ".SeeWITCHCRAFT",
+      "references": []
     }
   ],
-  "raw_block": "–General scriptures concerningDe 18:11;26:14;Isa \n8:19;29:4\n–INSTANCE OF\n  .The witch of En-dor1Sa 28:7-19\n  .SeeFAMILIAR SPIRITS\n  .SeeSORCERY\n  .SeeWITCHCRAFT",
-  "content_preview": "–General scriptures concerningDe 18:11;26:14;Isa ",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–General scriptures concerningDe 18:11;26:14;Isa \n8:19;29:4",
-      "raw_segment": "–General scriptures concerningDe 18:11;26:14;Isa \n8:19;29:4"
+      "book": "Deuteronomy",
+      "chapter": 18,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 18:11"
     },
     {
-      "idx": 1,
-      "entry_label": "–INSTANCE OF",
-      "raw_segment": "–INSTANCE OF"
+      "book": "Deuteronomy",
+      "chapter": 26,
+      "verses": [
+        14
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 26:14"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 8,
+      "verses": [
+        19
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 8:19"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 29,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 29:4"
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 28,
+      "verses": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "verse_count": 13,
+      "testament": "OT",
+      "raw": "1 Samuel 28:7-19"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "1 Samuel",
+    "Deuteronomy"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 7,
+    "total_refs": 5,
+    "ot_refs": 5,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:5ec80f95d4163c91c7465023c5844824edd63571a2fd9ba0c6836885ac83578d",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 7
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 2,
+    "top_books": [
+      "Deuteronomy",
+      "1 Samuel"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:29:29.066518Z",
-  "updated_at": "2025-09-20T17:29:29.066525Z"
+  }
 }

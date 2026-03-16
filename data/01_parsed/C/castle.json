@@ -1,145 +1,53 @@
 {
   "topic": "CASTLE",
   "slug": "castle",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "A tower Ge 25:16; Nu 31:10; 1Ch 11:5,7; 2Ch 17:12; 27:4; Ac 21:34,37; 23:10,16,32",
-      "references": [
-        "Gen 25:16",
-        "Num 31:10",
-        "1Chr 11:5",
-        "1Chr 11:7",
-        "2Chr 17:12",
-        "2Chr 27:4",
-        "Acts 21:34",
-        "Acts 21:37",
-        "Acts 23:10",
-        "Acts 23:16",
-        "Acts 23:32"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Bars of Pr 18:19",
-      "references": [
-        "Prov 18:19"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "For the doctrine, “The house is my castle,” see De 24:10,11",
-      "references": [
-        "Deut 24:10",
-        "Deut 24:11"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "See FORT",
-      "references": [],
-      "sub_groups": []
-    },
-    {
-      "name": "See TOWER",
-      "references": [],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Numbers",
-      "book_abbrev": "num",
-      "chapter": 31,
-      "testament": "OT",
-      "verses": [
-        1,
-        10
-      ],
-      "verse_count": 2
-    },
-    {
-      "book": "1 Chronicles",
-      "book_abbrev": "1ch",
-      "chapter": 11,
-      "testament": "OT",
-      "verses": [
-        2,
-        5,
-        7
-      ],
-      "verse_count": 3
-    },
-    {
-      "book": "2 Chronicles",
-      "book_abbrev": "2ch",
-      "chapter": 17,
-      "testament": "OT",
-      "verses": [
-        12,
-        27
-      ],
-      "verse_count": 2
-    },
-    {
-      "book": "Acts",
-      "book_abbrev": "act",
-      "chapter": 21,
-      "testament": "NT",
-      "verses": [
-        23,
-        34,
-        37
-      ],
-      "verse_count": 3
-    }
-  ],
-  "see_also": [
-    "TOWER",
-    "FORT"
-  ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 5,
-    "ot_refs": 3,
-    "nt_refs": 1,
-    "total_verses": 4
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.676630+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [
+    "FORT",
+    "TOWER"
+  ],
+  "aspects": [
+    {
+      "label": "A tower",
+      "references": [
+        "Genesis 25:16",
+        "Numbers 31:10",
+        "1 Chronicles 11:5,7",
+        "2 Chronicles 17:12",
+        "2 Chronicles 27:4",
+        "Acts 21:34,37",
+        "Acts 23:10,16,32"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Bars of",
+      "references": [
+        "Proverbs 18:19"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "For the doctrine, “The house is my",
+      "references": [
+        "Deuteronomy 24:10,11"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeFORT",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeTOWER",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
-    {
-      "book": "1 Chronicles",
-      "chapter": 11,
-      "verses": [
-        7
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "1 Chronicles 11:7",
-      "source": "EAS"
-    },
-    {
-      "book": "1 Chronicles",
-      "chapter": 6,
-      "verses": [
-        54
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "1 Chronicles 6:54",
-      "source": "EAS"
-    },
+  ],
+  "biblical_references": [
     {
       "book": "Genesis",
       "chapter": 25,
@@ -148,19 +56,117 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 25:16",
-      "source": "EAS"
+      "raw": "Genesis 25:16"
+    },
+    {
+      "book": "Numbers",
+      "chapter": 31,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Numbers 31:10"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 11,
+      "verses": [
+        5,
+        7
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "1 Chronicles 11:5,7"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 17,
+      "verses": [
+        12
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Chronicles 17:12"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 27,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Chronicles 27:4"
     },
     {
       "book": "Acts",
       "chapter": 21,
       "verses": [
-        34
+        34,
+        37
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Acts 21:34,37"
+    },
+    {
+      "book": "Acts",
+      "chapter": 23,
+      "verses": [
+        10,
+        16,
+        32
+      ],
+      "verse_count": 3,
+      "testament": "NT",
+      "raw": "Acts 23:10,16,32"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 18,
+      "verses": [
+        19
       ],
       "verse_count": 1,
-      "testament": "NT",
-      "raw": "Acts 21:34",
-      "source": "EAS"
+      "testament": "OT",
+      "raw": "Proverbs 18:19"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 24,
+      "verses": [
+        10,
+        11
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Deuteronomy 24:10,11"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "2 Chronicles",
+    "Acts",
+    "Deuteronomy",
+    "Genesis",
+    "Numbers",
+    "Proverbs"
+  ],
+  "stats": {
+    "total_aspects": 5,
+    "total_refs": 9,
+    "ot_refs": 7,
+    "nt_refs": 2,
+    "books_count": 7,
+    "top_books": [
+      "2 Chronicles",
+      "Acts",
+      "Genesis",
+      "Numbers",
+      "1 Chronicles",
+      "Proverbs",
+      "Deuteronomy"
+    ]
+  }
 }

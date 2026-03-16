@@ -1,71 +1,84 @@
 {
   "topic": "INK",
   "slug": "ink",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "General scriptures concerning Jer 36:18; 2Co 3:3; 2Jo 1:12; 3Jo 1:13",
+      "label": "General scriptures concerning",
       "references": [
-        "Jer 36:18",
-        "2Cor 3:3",
-        "2John 1",
-        "3John 1"
+        "Jeremiah 36:18",
+        "2 Corinthians 3:3"
       ],
-      "sub_groups": []
+      "source": "NAV"
+    },
+    {
+      "label": "1:12;",
+      "references": [
+        "Job 1:13"
+      ],
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "2 Corinthians",
-      "book_abbrev": "2co",
-      "chapter": 3,
-      "testament": "NT",
+      "book": "Jeremiah",
+      "chapter": 36,
       "verses": [
-        2,
+        18
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Jeremiah 36:18"
+    },
+    {
+      "book": "2 Corinthians",
+      "chapter": 3,
+      "verses": [
         3
       ],
-      "verse_count": 2
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "2 Corinthians 3:3"
     },
     {
-      "book": "2 John",
-      "book_abbrev": "2jn",
+      "book": "2 Corinthians",
       "chapter": 1,
-      "testament": "NT",
       "verses": [
-        3,
         12
       ],
-      "verse_count": 2
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "2 Corinthians 1:12"
     },
     {
-      "book": "3 John",
-      "book_abbrev": "3jn",
+      "book": "Job",
       "chapter": 1,
-      "testament": "NT",
       "verses": [
         13
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Job 1:13"
     }
   ],
-  "see_also": [],
-  "aliases": [],
+  "books_mentioned": [
+    "2 Corinthians",
+    "Jeremiah",
+    "Job"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 3,
-    "total_verses": 3
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.694192+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    }
-  },
-  "version": "3.0.0"
+    "total_aspects": 2,
+    "total_refs": 4,
+    "ot_refs": 2,
+    "nt_refs": 2,
+    "books_count": 3,
+    "top_books": [
+      "2 Corinthians",
+      "Jeremiah",
+      "Job"
+    ]
+  }
 }

@@ -1,92 +1,168 @@
 {
   "topic": "DEBT",
-  "topic_slug": "debt",
+  "slug": "debt",
   "canonical_id": "NAV:debt",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "DEBTOR",
     "CREDITOR",
     "SURETY"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "DEBTOR",
-      "clean": "DEBTOR",
-      "slug": "debtor",
-      "canonical_id": "NAV:debtor"
+      "label": "General scriptures concerning",
+      "references": [
+        "Romans 13:8"
+      ]
     },
     {
-      "original": "CREDITOR",
-      "clean": "CREDITOR",
-      "slug": "creditor",
-      "canonical_id": "NAV:creditor"
+      "label": "SECURITY FOR",
+      "references": [
+        "Exodus 22:25-27",
+        "Deuteronomy 24:6,10-13",
+        "Nehemiah 5:3,4",
+        "Job 22:6",
+        "Job 24:9",
+        "Proverbs 11:15",
+        "Proverbs 22:26",
+        "Amos 2:8"
+      ]
     },
     {
-      "original": "SURETY",
-      "clean": "SURETY",
-      "slug": "surety",
-      "canonical_id": "NAV:surety"
+      "label": ".See",
+      "references": []
+    },
+    {
+      "label": ".SeeCREDITOR",
+      "references": []
+    },
+    {
+      "label": ".SeeSURETY",
+      "references": []
     }
   ],
-  "raw_block": "–General scriptures concerningRo 13:8\n–SECURITY FOREx 22:25-27;De 24:6,10-13;Ne 5:3,4;Job 22:6;24:9;Pr 11:15;22:26;Am 2:8\n  .SeeDEBTOR\n  .SeeCREDITOR\n  .SeeSURETY",
-  "content_preview": "–General scriptures concerningRo 13:8",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–General scriptures concerningRo 13:8",
-      "raw_segment": "–General scriptures concerningRo 13:8"
+      "book": "Romans",
+      "chapter": 13,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Romans 13:8"
     },
     {
-      "idx": 1,
-      "entry_label": "–SECURITY FOREx 22:25-27;De 24:6,10-13;Ne 5:3,4;Job 22:6;24:9;Pr 11:15;22:26;Am 2:8",
-      "raw_segment": "–SECURITY FOREx 22:25-27;De 24:6,10-13;Ne 5:3,4;Job 22:6;24:9;Pr 11:15;22:26;Am 2:8"
+      "book": "Exodus",
+      "chapter": 22,
+      "verses": [
+        25,
+        26,
+        27
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Exodus 22:25-27"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 24,
+      "verses": [
+        6,
+        10,
+        11,
+        12,
+        13
+      ],
+      "verse_count": 5,
+      "testament": "OT",
+      "raw": "Deuteronomy 24:6,10-13"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 5,
+      "verses": [
+        3,
+        4
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Nehemiah 5:3,4"
+    },
+    {
+      "book": "Job",
+      "chapter": 22,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Job 22:6"
+    },
+    {
+      "book": "Job",
+      "chapter": 24,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Job 24:9"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 11,
+      "verses": [
+        15
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 11:15"
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 22,
+      "verses": [
+        26
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 22:26"
+    },
+    {
+      "book": "Amos",
+      "chapter": 2,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Amos 2:8"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "Amos",
+    "Deuteronomy",
+    "Exodus",
+    "Job",
+    "Nehemiah",
+    "Proverbs",
+    "Romans"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:11c554b3da08335dc2e0cf55ab843313c7b969e4bf4e4da96046941dd297efee",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 5
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 5,
+    "total_refs": 9,
+    "ot_refs": 8,
+    "nt_refs": 1,
+    "books_count": 7,
+    "top_books": [
+      "Job",
+      "Proverbs",
+      "Romans",
+      "Exodus",
+      "Deuteronomy",
+      "Nehemiah",
+      "Amos"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:25:29.149347Z",
-  "updated_at": "2025-09-20T17:25:29.149354Z"
+  }
 }

@@ -1,93 +1,126 @@
 {
   "topic": "TERAPHIM",
-  "topic_slug": "teraphim",
+  "slug": "teraphim",
   "canonical_id": "NAV:teraphim",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "IDOLS"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "IDOLS",
-      "clean": "IDOLS",
-      "slug": "idols",
-      "canonical_id": "NAV:idols"
+      "label": "(Household idols)",
+      "references": []
+    },
+    {
+      "label": "Used by Laban, stolen by Rachael (equivalent to a",
+      "references": []
+    },
+    {
+      "label": "of Laban’ s property, according to the",
+      "references": [
+        "Genesis 31:19,30-35"
+      ]
+    },
+    {
+      "label": "Used by Mi",
+      "references": [
+        "Judges 17:5",
+        "Judges 18:14,17-20"
+      ]
+    },
+    {
+      "label": "Con",
+      "references": [
+        "Genesis 35:2-4",
+        "Genesis 31:35-39"
+      ]
+    },
+    {
+      "label": ".SeeIDOLS",
+      "references": []
     }
   ],
-  "raw_block": "–(Household idols)\n–Used by Laban, stolen by Rachael (equivalent to a deed to all \nof Laban’ s property, according to the Nuzi tablets)Ge 31:19,30-35\n–Used by Micah, stolen by the DanitesJud 17:5;18:14,17-20\n–Condemned and disposed of by JacobGe 35:2-4; with 31:35-39\n–Destroyed by Josiah\n  .SeeIDOLS",
-  "content_preview": "–(Household idols)",
-  "reference_groups": [
+  "biblical_references": [
     {
-      "idx": 0,
-      "entry_label": "–(Household idols)",
-      "raw_segment": "–(Household idols)"
+      "book": "Genesis",
+      "chapter": 31,
+      "verses": [
+        19,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "verse_count": 7,
+      "testament": "OT",
+      "raw": "Genesis 31:19,30-35"
     },
     {
-      "idx": 1,
-      "entry_label": "–Used by Laban, stolen by Rachael (equivalent to a deed to all \nof Laban’ s property, according to the Nuzi tablets)Ge 31:19,30-35",
-      "raw_segment": "–Used by Laban, stolen by Rachael (equivalent to a deed to all \nof Laban’ s property, according to the Nuzi tablets)Ge 31:19,30-35"
+      "book": "Judges",
+      "chapter": 17,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Judges 17:5"
     },
     {
-      "idx": 2,
-      "entry_label": "–Used by Micah, stolen by the DanitesJud 17:5;18:14,17-20",
-      "raw_segment": "–Used by Micah, stolen by the DanitesJud 17:5;18:14,17-20"
+      "book": "Judges",
+      "chapter": 18,
+      "verses": [
+        14,
+        17,
+        18,
+        19,
+        20
+      ],
+      "verse_count": 5,
+      "testament": "OT",
+      "raw": "Judges 18:14,17-20"
     },
     {
-      "idx": 3,
-      "entry_label": "–Condemned and disposed of by JacobGe 35:2-4; with 31:35-39",
-      "raw_segment": "–Condemned and disposed of by JacobGe 35:2-4; with 31:35-39"
+      "book": "Genesis",
+      "chapter": 35,
+      "verses": [
+        2,
+        3,
+        4
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Genesis 35:2-4"
     },
     {
-      "idx": 4,
-      "entry_label": "–Destroyed by Josiah",
-      "raw_segment": "–Destroyed by Josiah"
+      "book": "Genesis",
+      "chapter": 31,
+      "verses": [
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "verse_count": 5,
+      "testament": "OT",
+      "raw": "Genesis 31:35-39"
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "books_mentioned": [
+    "Genesis",
+    "Judges"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 6,
+    "total_refs": 5,
+    "ot_refs": 5,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:cfd1c9a302a69812b1be380096fba62f8667d9264fe7aa7c6f679894cebd603a",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 7
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 2,
+    "top_books": [
+      "Genesis",
+      "Judges"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:32:06.961088Z",
-  "updated_at": "2025-09-20T17:32:06.961096Z"
+  }
 }

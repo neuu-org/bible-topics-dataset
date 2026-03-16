@@ -1,126 +1,84 @@
 {
   "topic": "ADULLAM",
   "slug": "adullam",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "1. A cave near the Dead Sea",
+      "label": "1. A",
       "references": [],
-      "sub_groups": [
-        {
-          "name": "David takes refuge in 1Sa 22:1; 2Sa 23:13; 1Ch 11:15",
-          "references": [
-            "1Sam 22:1",
-            "2Sam 23:13",
-            "1Chr 11:15"
-          ]
-        },
-        {
-          "name": "See titles of Ps 57; 142",
-          "references": [
-            "Ps 57",
-            "Ps 142"
-          ]
-        }
-      ]
+      "source": "NAV"
     },
     {
-      "name": "2. An ancient city of Canaan Ge 38:1; Jos 12:15; 15:35; 2Ch 11:7; Ne 11:30; Mic 1:15",
+      "label": ".David takes refuge in",
       "references": [
-        "Gen 38:1",
-        "Josh 12:15",
-        "Josh 15:35",
-        "2Chr 11:7",
-        "Neh 11:30",
-        "Mic 1:15"
+        "1 Samuel 22:1",
+        "2 Samuel 23:13",
+        "1 Chronicles 11:15"
       ],
-      "sub_groups": []
+      "source": "NAV"
+    },
+    {
+      "label": ".See titles ofPs 57;142",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": "2. An ancient city of",
+      "references": [
+        "Genesis 38:1",
+        "Joshua 12:15",
+        "Joshua 15:35",
+        "2 Chronicles 11:7",
+        "Nehemiah 11:30",
+        "Micah 1:15"
+      ],
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Joshua",
-      "book_abbrev": "jos",
-      "chapter": 12,
-      "testament": "OT",
+      "book": "1 Samuel",
+      "chapter": 22,
       "verses": [
-        15
+        1
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Samuel 22:1"
     },
     {
       "book": "2 Samuel",
-      "book_abbrev": "2sa",
       "chapter": 23,
-      "testament": "OT",
       "verses": [
-        1,
         13
       ],
-      "verse_count": 2
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Samuel 23:13"
     },
     {
       "book": "1 Chronicles",
-      "book_abbrev": "1ch",
       "chapter": 11,
-      "testament": "OT",
       "verses": [
         15
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 11:15"
     },
     {
-      "book": "2 Chronicles",
-      "book_abbrev": "2ch",
-      "chapter": 11,
-      "testament": "OT",
+      "book": "Genesis",
+      "chapter": 38,
       "verses": [
-        7
+        1
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 38:1"
     },
-    {
-      "book": "Nehemiah",
-      "book_abbrev": "neh",
-      "chapter": 11,
-      "testament": "OT",
-      "verses": [
-        30
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "Micah",
-      "book_abbrev": "mic",
-      "chapter": 1,
-      "testament": "OT",
-      "verses": [
-        15
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 6,
-    "nt_refs": 0,
-    "total_verses": 6
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.661483+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
     {
       "book": "Joshua",
       "chapter": 12,
@@ -129,8 +87,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Joshua 12:15",
-      "source": "EAS"
+      "raw": "Joshua 12:15"
     },
     {
       "book": "Joshua",
@@ -140,19 +97,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Joshua 15:35",
-      "source": "EAS"
-    },
-    {
-      "book": "1 Samuel",
-      "chapter": 17,
-      "verses": [
-        2
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "1 Samuel 17:2",
-      "source": "EAS"
+      "raw": "Joshua 15:35"
     },
     {
       "book": "2 Chronicles",
@@ -162,43 +107,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Chronicles 11:7",
-      "source": "EAS"
-    },
-    {
-      "book": "Micah",
-      "chapter": 1,
-      "verses": [
-        15
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Micah 1:15",
-      "source": "EAS"
-    },
-    {
-      "book": "1 Samuel",
-      "chapter": 22,
-      "verses": [
-        2
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "1 Samuel 22:2",
-      "source": "EAS"
-    },
-    {
-      "book": "Genesis",
-      "chapter": 38,
-      "verses": [
-        1,
-        12,
-        20
-      ],
-      "verse_count": 3,
-      "testament": "OT",
-      "raw": "Genesis 38:1,12,20",
-      "source": "SMI"
+      "raw": "2 Chronicles 11:7"
     },
     {
       "book": "Nehemiah",
@@ -208,52 +117,44 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Nehemiah 11:30",
-      "source": "SMI"
+      "raw": "Nehemiah 11:30"
     },
     {
-      "book": "1 Samuel",
-      "chapter": 22,
-      "verses": [
-        1
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "1 Samuel 22:1",
-      "source": "SMI"
-    },
-    {
-      "book": "2 Samuel",
-      "chapter": 23,
-      "verses": [
-        13
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "2 Samuel 23:13",
-      "source": "SMI"
-    },
-    {
-      "book": "1 Chronicles",
-      "chapter": 11,
+      "book": "Micah",
+      "chapter": 1,
       "verses": [
         15
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 11:15",
-      "source": "SMI"
-    },
-    {
-      "book": "Nehemiah",
-      "chapter": 12,
-      "verses": [
-        38
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Nehemiah 12:38",
-      "source": "SMI"
+      "raw": "Micah 1:15"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "1 Samuel",
+    "2 Chronicles",
+    "2 Samuel",
+    "Genesis",
+    "Joshua",
+    "Micah",
+    "Nehemiah"
+  ],
+  "stats": {
+    "total_aspects": 4,
+    "total_refs": 9,
+    "ot_refs": 9,
+    "nt_refs": 0,
+    "books_count": 8,
+    "top_books": [
+      "Joshua",
+      "1 Samuel",
+      "2 Samuel",
+      "1 Chronicles",
+      "Genesis",
+      "2 Chronicles",
+      "Nehemiah",
+      "Micah"
+    ]
+  }
 }

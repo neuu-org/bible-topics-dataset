@@ -1,84 +1,142 @@
 {
   "topic": "PISGAH",
-  "topic_slug": "pisgah",
+  "slug": "pisgah",
   "canonical_id": "NAV:pisgah",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–(A ridge or mountain east of the Jordan River, opposite to Jericho)\n–The Israelites come toNu 21:20\n–A boundary of the country assigned to the Reubenites and GaditesDe 3:17;4:49;Jos 12:3\n–Balaam prophesies onNu 23:14-24\n–Moses views Palestine fromDe 3:27;34:1-4",
-  "content_preview": "–(A ridge or mountain east of the Jordan River, opposite to Jericho)",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–(A ridge or mountain east of the Jordan River, opposite to Jericho)",
-      "raw_segment": "–(A ridge or mountain east of the Jordan River, opposite to Jericho)"
+      "label": "(A ridge or mountain east of the Jordan River, opposite to",
+      "references": []
     },
     {
-      "idx": 1,
-      "entry_label": "–The Israelites come toNu 21:20",
-      "raw_segment": "–The Israelites come toNu 21:20"
+      "label": "The Israelites come to",
+      "references": [
+        "Numbers 21:20"
+      ]
     },
     {
-      "idx": 2,
-      "entry_label": "–A boundary of the country assigned to the Reubenites and GaditesDe 3:17;4:49;Jos 12:3",
-      "raw_segment": "–A boundary of the country assigned to the Reubenites and GaditesDe 3:17;4:49;Jos 12:3"
+      "label": "A boundary of the country assigned to the Reubenites and Gadites",
+      "references": [
+        "Deuteronomy 3:17",
+        "Deuteronomy 4:49",
+        "Joshua 12:3"
+      ]
     },
     {
-      "idx": 3,
-      "entry_label": "–Balaam prophesies onNu 23:14-24",
-      "raw_segment": "–Balaam prophesies onNu 23:14-24"
+      "label": "Balaam prophesies on",
+      "references": [
+        "Numbers 23:14-24"
+      ]
     },
     {
-      "idx": 4,
-      "entry_label": "–Moses views Palestine fromDe 3:27;34:1-4",
-      "raw_segment": "–Moses views Palestine fromDe 3:27;34:1-4"
+      "label": "Moses views Palestine from",
+      "references": [
+        "Deuteronomy 3:27",
+        "Deuteronomy 34:1-4"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Numbers",
+      "chapter": 21,
+      "verses": [
+        20
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Numbers 21:20"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 3,
+      "verses": [
+        17
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 3:17"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 4,
+      "verses": [
+        49
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 4:49"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 12,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 12:3"
+    },
+    {
+      "book": "Numbers",
+      "chapter": 23,
+      "verses": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "verse_count": 11,
+      "testament": "OT",
+      "raw": "Numbers 23:14-24"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 3,
+      "verses": [
+        27
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 3:27"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 34,
+      "verses": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "verse_count": 4,
+      "testament": "OT",
+      "raw": "Deuteronomy 34:1-4"
+    }
+  ],
+  "books_mentioned": [
+    "Deuteronomy",
+    "Joshua",
+    "Numbers"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 5,
+    "total_refs": 7,
+    "ot_refs": 7,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:217a9e23b29bb67fcb4d16d482af6914800c58621c12a948ab7bec5c22bb63a4",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 5
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 3,
+    "top_books": [
+      "Deuteronomy",
+      "Numbers",
+      "Joshua"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:30:08.928464Z",
-  "updated_at": "2025-09-20T17:30:08.928472Z"
+  }
 }

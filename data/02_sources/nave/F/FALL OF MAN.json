@@ -1,78 +1,187 @@
 {
   "topic": "FALL OF MAN",
-  "topic_slug": "fall_of_man",
+  "slug": "fall_of_man",
   "canonical_id": "NAV:fall_of_man",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [
     "DEPRAVITY"
   ],
-  "see_also_resolved": [
+  "aspects": [
     {
-      "original": "DEPRAVITY",
-      "clean": "DEPRAVITY",
-      "slug": "depravity",
-      "canonical_id": "NAV:depravity"
-    }
-  ],
-  "raw_block": "–General scriptures concerningGe 3:1-19;2:16,17;Job \n31:33;Ec 7:29;Isa 43:27;Ho 6:7;Ro 5:12,14,18,19,21;1Co 15:21,22;2Co 11:3;1Ti 2:14\n–SeeDEPRAVITY",
-  "content_preview": "–General scriptures concerningGe 3:1-19;2:16,17;Job ",
-  "reference_groups": [
-    {
-      "idx": 0,
-      "entry_label": "–General scriptures concerningGe 3:1-19;2:16,17;Job \n31:33;Ec 7:29;Isa 43:27;Ho 6:7;Ro 5:12,14,18,19,21;1Co 15:21,22;2Co 11:3;1Ti 2:14",
-      "raw_segment": "–General scriptures concerningGe 3:1-19;2:16,17;Job \n31:33;Ec 7:29;Isa 43:27;Ho 6:7;Ro 5:12,14,18,19,21;1Co 15:21,22;2Co 11:3;1Ti 2:14"
+      "label": "General scriptures concerning",
+      "references": [
+        "Genesis 3:1-19",
+        "Genesis 2:16,17"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–SeeDEPRAVITY",
-      "raw_segment": "–SeeDEPRAVITY"
+      "label": "31:33;",
+      "references": [
+        "Ecclesiastes 7:29",
+        "Isaiah 43:27",
+        "Hosea 6:7",
+        "Romans 5:12,14,18,19,21",
+        "1 Corinthians 15:21,22",
+        "2 Corinthians 11:3",
+        "1 Timothy 2:14"
+      ]
+    },
+    {
+      "label": "See",
+      "references": []
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Genesis",
+      "chapter": 3,
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "verse_count": 19,
+      "testament": "OT",
+      "raw": "Genesis 3:1-19"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 2,
+      "verses": [
+        16,
+        17
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Genesis 2:16,17"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 31,
+      "verses": [
+        33
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 31:33"
+    },
+    {
+      "book": "Ecclesiastes",
+      "chapter": 7,
+      "verses": [
+        29
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ecclesiastes 7:29"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 43,
+      "verses": [
+        27
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 43:27"
+    },
+    {
+      "book": "Hosea",
+      "chapter": 6,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Hosea 6:7"
+    },
+    {
+      "book": "Romans",
+      "chapter": 5,
+      "verses": [
+        12,
+        14,
+        18,
+        19,
+        21
+      ],
+      "verse_count": 5,
+      "testament": "NT",
+      "raw": "Romans 5:12,14,18,19,21"
+    },
+    {
+      "book": "1 Corinthians",
+      "chapter": 15,
+      "verses": [
+        21,
+        22
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "1 Corinthians 15:21,22"
+    },
+    {
+      "book": "2 Corinthians",
+      "chapter": 11,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "2 Corinthians 11:3"
+    },
+    {
+      "book": "1 Timothy",
+      "chapter": 2,
+      "verses": [
+        14
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "1 Timothy 2:14"
+    }
+  ],
+  "books_mentioned": [
+    "1 Corinthians",
+    "1 Timothy",
+    "2 Corinthians",
+    "Ecclesiastes",
+    "Genesis",
+    "Hosea",
+    "Isaiah",
+    "Romans"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:ba37268bbb1acfdc36cc4b7f5ccd950f20b061275c851c403bfad2c533049239",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 3
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "total_aspects": 3,
+    "total_refs": 10,
+    "ot_refs": 6,
+    "nt_refs": 4,
+    "books_count": 8,
+    "top_books": [
+      "Genesis",
+      "Ecclesiastes",
+      "Isaiah",
+      "Hosea",
+      "Romans",
+      "1 Corinthians",
+      "2 Corinthians",
+      "1 Timothy"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:26:15.709145Z",
-  "updated_at": "2025-09-20T17:26:15.709152Z"
+  }
 }

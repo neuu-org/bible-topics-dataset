@@ -1,70 +1,50 @@
 {
   "topic": "KOZ",
   "slug": "koz",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "Also called HAKKOZ",
+      "label": "Al",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Head of the seventh division priests 1Ch 24:10",
+      "label": "Head of the seventh division priests",
       "references": [
-        "1Chr 24:10"
+        "1 Chronicles 24:10"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Descendants of, excluded from because of defective genealogies Ezr 2:61; Ne 7:63",
+      "label": "General references",
       "references": [
         "Ezra 2:61",
-        "Neh 7:63"
+        "Nehemiah 7:63"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "Repaired walls of Jerusalem Ne 3:4,21",
+      "label": "Repaired walls of",
       "references": [
-        "Neh 3:4",
-        "Neh 3:21"
+        "Nehemiah 3:4,21"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Nehemiah",
-      "book_abbrev": "neh",
-      "chapter": 7,
-      "testament": "OT",
+      "book": "1 Chronicles",
+      "chapter": 24,
       "verses": [
-        63
+        10
       ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 4,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.699546+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 24:10"
+    },
     {
       "book": "Ezra",
       "chapter": 2,
@@ -73,8 +53,17 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Ezra 2:61",
-      "source": "EAS"
+      "raw": "Ezra 2:61"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 7,
+      "verses": [
+        63
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Nehemiah 7:63"
     },
     {
       "book": "Nehemiah",
@@ -85,41 +74,24 @@
       ],
       "verse_count": 2,
       "testament": "OT",
-      "raw": "Nehemiah 3:4, 21",
-      "source": "EAS"
-    },
-    {
-      "book": "Nehemiah",
-      "chapter": 7,
-      "verses": [
-        63
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Nehemiah 7:63",
-      "source": "EAS"
-    },
-    {
-      "book": "1 Chronicles",
-      "chapter": 4,
-      "verses": [
-        8
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "1 Chronicles 4:8",
-      "source": "EAS"
-    },
-    {
-      "book": "1 Chronicles",
-      "chapter": 24,
-      "verses": [
-        10
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "1 Chronicles 24:10",
-      "source": "EAS"
+      "raw": "Nehemiah 3:4,21"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Ezra",
+    "Nehemiah"
+  ],
+  "stats": {
+    "total_aspects": 4,
+    "total_refs": 4,
+    "ot_refs": 4,
+    "nt_refs": 0,
+    "books_count": 3,
+    "top_books": [
+      "Nehemiah",
+      "1 Chronicles",
+      "Ezra"
+    ]
+  }
 }

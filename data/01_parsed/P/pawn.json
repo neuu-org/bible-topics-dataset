@@ -1,36 +1,46 @@
 {
   "topic": "PAWN",
   "slug": "pawn",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [
+    "SURETY"
+  ],
+  "aspects": [
     {
-      "name": "General scriptures concerning Ex 22:26; De 24:10-13,17; Job 24:3; Pr 22:27; Eze 18:5,7,12; 33:15; Am 2:8",
+      "label": "General scriptures concerning",
       "references": [
-        "Exod 22:26",
-        "Deut 24:10-13",
-        "Deut 24:17",
+        "Exodus 22:26",
+        "Deuteronomy 24:10-13,17",
         "Job 24:3",
-        "Prov 22:27",
-        "Ezek 18:5",
-        "Ezek 18:7",
-        "Ezek 18:12",
-        "Ezek 33:15",
+        "Proverbs 22:27",
+        "Ezekiel 18:5,7,12",
+        "Ezekiel 33:15",
         "Amos 2:8"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "See SURETY",
+      "label": "SeeSURETY",
       "references": [],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Deuteronomy",
-      "book_abbrev": "deu",
-      "chapter": 24,
+      "book": "Exodus",
+      "chapter": 22,
+      "verses": [
+        26
+      ],
+      "verse_count": 1,
       "testament": "OT",
+      "raw": "Exodus 22:26"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 24,
       "verses": [
         10,
         11,
@@ -38,72 +48,84 @@
         13,
         17
       ],
-      "verse_count": 5
+      "verse_count": 5,
+      "testament": "OT",
+      "raw": "Deuteronomy 24:10-13,17"
     },
     {
       "book": "Job",
-      "book_abbrev": "job",
       "chapter": 24,
-      "testament": "OT",
       "verses": [
         3
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Job 24:3"
     },
     {
       "book": "Proverbs",
-      "book_abbrev": "pro",
       "chapter": 22,
-      "testament": "OT",
       "verses": [
         27
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Proverbs 22:27"
     },
     {
       "book": "Ezekiel",
-      "book_abbrev": "ezk",
       "chapter": 18,
-      "testament": "OT",
       "verses": [
         5,
         7,
-        12,
-        33
+        12
       ],
-      "verse_count": 4
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Ezekiel 18:5,7,12"
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 33,
+      "verses": [
+        15
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezekiel 33:15"
     },
     {
       "book": "Amos",
-      "book_abbrev": "amo",
       "chapter": 2,
-      "testament": "OT",
       "verses": [
         8
       ],
-      "verse_count": 1
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Amos 2:8"
     }
   ],
-  "see_also": [
-    "SURETY"
+  "books_mentioned": [
+    "Amos",
+    "Deuteronomy",
+    "Exodus",
+    "Ezekiel",
+    "Job",
+    "Proverbs"
   ],
-  "aliases": [],
   "stats": {
-    "entries_count": 2,
-    "ot_refs": 5,
+    "total_aspects": 2,
+    "total_refs": 7,
+    "ot_refs": 7,
     "nt_refs": 0,
-    "total_verses": 5
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.717335+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    }
-  },
-  "version": "3.0.0"
+    "books_count": 6,
+    "top_books": [
+      "Ezekiel",
+      "Exodus",
+      "Deuteronomy",
+      "Job",
+      "Proverbs",
+      "Amos"
+    ]
+  }
 }

@@ -1,74 +1,107 @@
 {
   "topic": "BERYL",
-  "topic_slug": "beryl",
+  "slug": "beryl",
   "canonical_id": "NAV:beryl",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–A precious stoneSo 5:14;Eze 1:16;10:9\n–Set in the breastplateEx 28:20;39:13\n–John saw, in the foundation of the new JerusalemRe \n21:20",
-  "content_preview": "–A precious stoneSo 5:14;Eze 1:16;10:9",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–A precious stoneSo 5:14;Eze 1:16;10:9",
-      "raw_segment": "–A precious stoneSo 5:14;Eze 1:16;10:9"
+      "label": "A precious stone",
+      "references": [
+        "Song of Solomon 5:14",
+        "Ezekiel 1:16",
+        "Ezekiel 10:9"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–Set in the breastplateEx 28:20;39:13",
-      "raw_segment": "–Set in the breastplateEx 28:20;39:13"
+      "label": "Set in the breastplate",
+      "references": [
+        "Exodus 28:20",
+        "Exodus 39:13"
+      ]
     },
     {
-      "idx": 2,
-      "entry_label": "–John saw, in the foundation of the new JerusalemRe \n21:20",
-      "raw_segment": "–John saw, in the foundation of the new JerusalemRe \n21:20"
+      "label": "21:20",
+      "references": []
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Song of Solomon",
+      "chapter": 5,
+      "verses": [
+        14
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Song of Solomon 5:14"
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 1,
+      "verses": [
+        16
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezekiel 1:16"
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 10,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezekiel 10:9"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 28,
+      "verses": [
+        20
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 28:20"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 39,
+      "verses": [
+        13
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 39:13"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 21,
+      "verses": [
+        20
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 21:20"
+    }
+  ],
+  "books_mentioned": [
+    "Exodus",
+    "Ezekiel",
+    "Song of Solomon"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
+    "total_aspects": 3,
+    "total_refs": 6,
+    "ot_refs": 6,
     "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:af98b1b7098aaa3332ec69ae6a5b78d13fcba4acdeef569e228f83ff013e3b30",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 4
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "books_count": 3,
+    "top_books": [
+      "Exodus",
+      "Ezekiel",
+      "Song of Solomon"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:24:21.512775Z",
-  "updated_at": "2025-09-20T17:24:21.512782Z"
+  }
 }

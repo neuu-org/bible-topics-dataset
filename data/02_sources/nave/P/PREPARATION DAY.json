@@ -1,64 +1,83 @@
 {
   "topic": "PREPARATION DAY",
-  "topic_slug": "preparation_day",
+  "slug": "preparation_day",
   "canonical_id": "NAV:preparation_day",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–General scriptures concerningMt 27:62;Mr 15:42;Lu \n23:54;Joh 19:14,31,42",
-  "content_preview": "–General scriptures concerningMt 27:62;Mr 15:42;Lu ",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–General scriptures concerningMt 27:62;Mr 15:42;Lu \n23:54;Joh 19:14,31,42",
-      "raw_segment": "–General scriptures concerningMt 27:62;Mr 15:42;Lu \n23:54;Joh 19:14,31,42"
+      "label": "General scriptures concerning",
+      "references": [
+        "Matthew 27:62",
+        "Mark 15:42"
+      ]
+    },
+    {
+      "label": "23:54;",
+      "references": [
+        "John 19:14,31,42"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Matthew",
+      "chapter": 27,
+      "verses": [
+        62
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 27:62"
+    },
+    {
+      "book": "Mark",
+      "chapter": 15,
+      "verses": [
+        42
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Mark 15:42"
+    },
+    {
+      "book": "Mark",
+      "chapter": 23,
+      "verses": [
+        54
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Mark 23:54"
+    },
+    {
+      "book": "John",
+      "chapter": 19,
+      "verses": [
+        14,
+        31,
+        42
+      ],
+      "verse_count": 3,
+      "testament": "NT",
+      "raw": "John 19:14,31,42"
+    }
+  ],
+  "books_mentioned": [
+    "John",
+    "Mark",
+    "Matthew"
+  ],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 2,
+    "total_refs": 4,
     "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:566e7f8ed371da0c07f54fbf03d08862ac952bf6b9394dec784ffc144f1d39fa",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 2
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "nt_refs": 4,
+    "books_count": 3,
+    "top_books": [
+      "Mark",
+      "Matthew",
+      "John"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:30:16.063924Z",
-  "updated_at": "2025-09-20T17:30:16.063932Z"
+  }
 }

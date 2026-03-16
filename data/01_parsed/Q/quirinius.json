@@ -1,42 +1,49 @@
 {
   "topic": "QUIRINIUS",
   "slug": "quirinius",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Governor of Syria when Jesus was born Lu 2:2",
-      "references": [
-        "Luke 2:2"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "See CYRENIUS",
-      "references": [],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [
-    "CYRENIUS"
-  ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.720275+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
+  "see_also": [
+    "CYRENIUS"
+  ],
+  "aspects": [
+    {
+      "label": "Governor of Syria when Jesus was born",
+      "references": [
+        "Luke 2:2"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeCYRENIUS",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0"
+  ],
+  "biblical_references": [
+    {
+      "book": "Luke",
+      "chapter": 2,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 2:2"
+    }
+  ],
+  "books_mentioned": [
+    "Luke"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 1,
+    "ot_refs": 0,
+    "nt_refs": 1,
+    "books_count": 1,
+    "top_books": [
+      "Luke"
+    ]
+  }
 }

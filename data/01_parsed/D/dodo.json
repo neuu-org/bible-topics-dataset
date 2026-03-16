@@ -1,82 +1,43 @@
 {
   "topic": "DODO",
   "slug": "dodo",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. A descendant of Issachar Jud 10:1",
-      "references": [
-        "Judg 10:1"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "2. One of David’s heroes 2Sa 23:9; 1Ch 11:12",
-      "references": [
-        "2Sam 23:9",
-        "1Chr 11:12"
-      ],
-      "sub_groups": [
-        {
-          "name": "Called DODAI 1Ch 27:4",
-          "references": [
-            "1Chr 27:4"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "3. A Bethlehemite 2Sa 23:24; 1Ch 11:26",
-      "references": [
-        "2Sam 23:24",
-        "1Chr 11:26"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "1 Chronicles",
-      "book_abbrev": "1ch",
-      "chapter": 11,
-      "testament": "OT",
-      "verses": [
-        12
-      ],
-      "verse_count": 1
-    },
-    {
-      "book": "1 Chronicles",
-      "book_abbrev": "1ch",
-      "chapter": 11,
-      "testament": "OT",
-      "verses": [
-        26
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 3,
-    "ot_refs": 2,
-    "nt_refs": 0,
-    "total_verses": 2
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.682162+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "1. A",
+      "references": [
+        "Judges 10:1"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "2. One of David’s heroes",
+      "references": [
+        "2 Samuel 23:9",
+        "1 Chronicles 11:12"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": ".",
+      "references": [
+        "1 Chronicles 27:4"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "3. A Bethlehemite",
+      "references": [
+        "2 Samuel 23:24",
+        "1 Chronicles 11:26"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Judges",
       "chapter": 10,
@@ -85,8 +46,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Judges 10:1",
-      "source": "EAS"
+      "raw": "Judges 10:1"
     },
     {
       "book": "2 Samuel",
@@ -96,8 +56,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Samuel 23:9",
-      "source": "EAS"
+      "raw": "2 Samuel 23:9"
     },
     {
       "book": "1 Chronicles",
@@ -107,19 +66,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 11:12",
-      "source": "EAS"
-    },
-    {
-      "book": "2 Samuel",
-      "chapter": 23,
-      "verses": [
-        24
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "2 Samuel 23:24",
-      "source": "EAS"
+      "raw": "1 Chronicles 11:12"
     },
     {
       "book": "1 Chronicles",
@@ -129,8 +76,44 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 27:4",
-      "source": "EAS"
+      "raw": "1 Chronicles 27:4"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 23,
+      "verses": [
+        24
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Samuel 23:24"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 11,
+      "verses": [
+        26
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 11:26"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "2 Samuel",
+    "Judges"
+  ],
+  "stats": {
+    "total_aspects": 4,
+    "total_refs": 6,
+    "ot_refs": 6,
+    "nt_refs": 0,
+    "books_count": 3,
+    "top_books": [
+      "1 Chronicles",
+      "2 Samuel",
+      "Judges"
+    ]
+  }
 }

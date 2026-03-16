@@ -1,63 +1,21 @@
 {
   "topic": "FIREPAN",
   "slug": "firepan",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "General scriptures concerning Ex 38:3; 2Ki 25:15",
-      "references": [
-        "Exod 38:3",
-        "2Kgs 25:15"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "2 Kings",
-      "book_abbrev": "2ki",
-      "chapter": 25,
-      "testament": "OT",
-      "verses": [
-        15
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.686564+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    },
-    "enriched_at": "2025-12-02T22:02:10.164632+00:00",
-    "enrichment_source": "pipeline_merge"
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "see_also": [],
+  "aspects": [
     {
-      "book": "Exodus",
-      "chapter": 27,
-      "verses": [
-        3
+      "label": "General scriptures concerning",
+      "references": [
+        "Exodus 38:3",
+        "2 Kings 25:15"
       ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Exodus 27:3",
-      "source": "EAS"
-    },
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
     {
       "book": "Exodus",
       "chapter": 38,
@@ -66,52 +24,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Exodus 38:3",
-      "source": "EAS"
-    },
-    {
-      "book": "Exodus",
-      "chapter": 25,
-      "verses": [
-        38
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Exodus 25:38",
-      "source": "EAS"
-    },
-    {
-      "book": "Exodus",
-      "chapter": 37,
-      "verses": [
-        23
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Exodus 37:23",
-      "source": "EAS"
-    },
-    {
-      "book": "Leviticus",
-      "chapter": 10,
-      "verses": [
-        1
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Leviticus 10:1",
-      "source": "EAS"
-    },
-    {
-      "book": "Leviticus",
-      "chapter": 16,
-      "verses": [
-        12
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Leviticus 16:12",
-      "source": "EAS"
+      "raw": "Exodus 38:3"
     },
     {
       "book": "2 Kings",
@@ -121,41 +34,22 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "2 Kings 25:15",
-      "source": "SMI"
-    },
-    {
-      "book": "Jeremiah",
-      "chapter": 52,
-      "verses": [
-        19
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Jeremiah 52:19",
-      "source": "SMI"
-    },
-    {
-      "book": "Numbers",
-      "chapter": 4,
-      "verses": [
-        9
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Numbers 4:9",
-      "source": "SMI"
-    },
-    {
-      "book": "Numbers",
-      "chapter": 16,
-      "verses": [
-        6
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Numbers 16:6",
-      "source": "SMI"
+      "raw": "2 Kings 25:15"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "2 Kings",
+    "Exodus"
+  ],
+  "stats": {
+    "total_aspects": 1,
+    "total_refs": 2,
+    "ot_refs": 2,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "Exodus",
+      "2 Kings"
+    ]
+  }
 }

@@ -1,98 +1,40 @@
 {
   "topic": "HETH",
   "slug": "heth",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Son of Canaan, and ancestor of the Hittites Ge 10:15; 23:3,5,7,10,16,18; 27:46; 49:32; 1Ch 1:13",
-      "references": [
-        "Gen 10:15",
-        "Gen 23:3",
-        "Gen 23:5",
-        "Gen 23:7",
-        "Gen 23:10",
-        "Gen 23:16",
-        "Gen 23:18",
-        "Gen 27:46",
-        "Gen 49:32",
-        "1Chr 1:13"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "See HITTITES",
-      "references": [],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "1 Chronicles",
-      "book_abbrev": "1ch",
-      "chapter": 1,
-      "testament": "OT",
-      "verses": [
-        13
-      ],
-      "verse_count": 1
-    }
+  "sources": [
+    "NAV"
   ],
   "see_also": [
     "HITTITES"
   ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 2,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.692203+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "aspects": [
+    {
+      "label": "General references",
+      "references": [
+        "Genesis 10:15",
+        "Genesis 23:3,5,7,10,16,18",
+        "Genesis 27:46",
+        "Genesis 49:32",
+        "1 Chronicles 1:13"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeHITTITES",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Genesis",
       "chapter": 10,
       "verses": [
-        18
+        15
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 10:18",
-      "source": "EAS"
-    },
-    {
-      "book": "Deuteronomy",
-      "chapter": 7,
-      "verses": [
-        1
-      ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Deuteronomy 7:1",
-      "source": "EAS"
-    },
-    {
-      "book": "Genesis",
-      "chapter": 23,
-      "verses": [
-        3,
-        7
-      ],
-      "verse_count": 2,
-      "testament": "OT",
-      "raw": "Genesis 23:3, 7",
-      "source": "EAS"
+      "raw": "Genesis 10:15"
     },
     {
       "book": "Genesis",
@@ -103,48 +45,31 @@
         7,
         10,
         16,
-        18,
-        20
+        18
       ],
-      "verse_count": 7,
+      "verse_count": 6,
       "testament": "OT",
-      "raw": "Genesis 23:3, 5, 7, 10, 16, 18, 20",
-      "source": "EAS"
+      "raw": "Genesis 23:3,5,7,10,16,18"
     },
     {
       "book": "Genesis",
-      "chapter": 10,
+      "chapter": 27,
       "verses": [
-        15
+        46
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 10:15",
-      "source": "SMI"
+      "raw": "Genesis 27:46"
     },
     {
       "book": "Genesis",
-      "chapter": 24,
+      "chapter": 49,
       "verses": [
-        3,
-        4
+        32
       ],
-      "verse_count": 2,
+      "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 24:3,4",
-      "source": "SMI"
-    },
-    {
-      "book": "Genesis",
-      "chapter": 28,
-      "verses": [
-        1,
-        2
-      ],
-      "verse_count": 2,
-      "testament": "OT",
-      "raw": "Genesis 28:1,2",
-      "source": "SMI"
+      "raw": "Genesis 49:32"
     },
     {
       "book": "1 Chronicles",
@@ -154,8 +79,22 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "1 Chronicles 1:13",
-      "source": "SMI"
+      "raw": "1 Chronicles 1:13"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "1 Chronicles",
+    "Genesis"
+  ],
+  "stats": {
+    "total_aspects": 2,
+    "total_refs": 5,
+    "ot_refs": 5,
+    "nt_refs": 0,
+    "books_count": 2,
+    "top_books": [
+      "Genesis",
+      "1 Chronicles"
+    ]
+  }
 }

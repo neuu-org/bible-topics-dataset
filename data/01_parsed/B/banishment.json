@@ -1,81 +1,125 @@
 {
   "topic": "BANISHMENT",
   "slug": "banishment",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "General scriptures concerning Ezr 7:26",
-      "references": [
-        "Ezra 7:26"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Of Adam and Eve, from Eden Ge 3:22-24",
-      "references": [
-        "Gen 3:22-24"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Of Cain, to be “a fugitive and vagabond,” Ge 4:14",
-      "references": [
-        "Gen 4:14"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Of Jews, from Rome Ac 18:2",
-      "references": [
-        "Acts 18:2"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "Of John, to Patmos Re 1:9",
-      "references": [
-        "Rev 1:9"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "See EXILE",
-      "references": [],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Genesis",
-      "book_abbrev": "gen",
-      "chapter": 4,
-      "testament": "OT",
-      "verses": [
-        14
-      ],
-      "verse_count": 1
-    }
+  "sources": [
+    "NAV"
   ],
   "see_also": [
     "EXILE"
   ],
-  "aliases": [],
-  "stats": {
-    "entries_count": 6,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.671797+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
+  "aspects": [
+    {
+      "label": "General scriptures concerning",
+      "references": [
+        "Ezra 7:26"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Of Adam and Eve, from E",
+      "references": [
+        "Genesis 3:22-24"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Of",
+      "references": [
+        "Genesis 4:14"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Of Jews, from Rome",
+      "references": [
+        "Acts 18:2"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "Of",
+      "references": [
+        "Revelation 1:9"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "SeeEXILE",
+      "references": [],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0"
+  ],
+  "biblical_references": [
+    {
+      "book": "Ezra",
+      "chapter": 7,
+      "verses": [
+        26
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezra 7:26"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 3,
+      "verses": [
+        22,
+        23,
+        24
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Genesis 3:22-24"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 4,
+      "verses": [
+        14
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 4:14"
+    },
+    {
+      "book": "Acts",
+      "chapter": 18,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 18:2"
+    },
+    {
+      "book": "Revelation",
+      "chapter": 1,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Revelation 1:9"
+    }
+  ],
+  "books_mentioned": [
+    "Acts",
+    "Ezra",
+    "Genesis",
+    "Revelation"
+  ],
+  "stats": {
+    "total_aspects": 6,
+    "total_refs": 5,
+    "ot_refs": 3,
+    "nt_refs": 2,
+    "books_count": 4,
+    "top_books": [
+      "Genesis",
+      "Ezra",
+      "Acts",
+      "Revelation"
+    ]
+  }
 }

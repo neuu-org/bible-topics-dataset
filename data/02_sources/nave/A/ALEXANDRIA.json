@@ -1,74 +1,83 @@
 {
   "topic": "ALEXANDRIA",
-  "topic_slug": "alexandria",
+  "slug": "alexandria",
   "canonical_id": "NAV:alexandria",
-  "aliases": [],
+  "source": "NAV",
   "see_also": [],
-  "see_also_resolved": [],
-  "raw_block": "–A city of EgyptAc 6:9\n–Ships ofAc 27:6;28:11\n–Apollos born inAc 18:24",
-  "content_preview": "–A city of EgyptAc 6:9",
-  "reference_groups": [
+  "aspects": [
     {
-      "idx": 0,
-      "entry_label": "–A city of EgyptAc 6:9",
-      "raw_segment": "–A city of EgyptAc 6:9"
+      "label": "A city of Egypt",
+      "references": [
+        "Acts 6:9"
+      ]
     },
     {
-      "idx": 1,
-      "entry_label": "–Ships ofAc 27:6;28:11",
-      "raw_segment": "–Ships ofAc 27:6;28:11"
+      "label": "Ships of",
+      "references": [
+        "Acts 27:6",
+        "Acts 28:11"
+      ]
     },
     {
-      "idx": 2,
-      "entry_label": "–Apollos born inAc 18:24",
-      "raw_segment": "–Apollos born inAc 18:24"
+      "label": "Apollos born in",
+      "references": [
+        "Acts 18:24"
+      ]
     }
   ],
-  "biblical_references": [],
-  "books_mentioned": [],
-  "normalized_labels": [],
+  "biblical_references": [
+    {
+      "book": "Acts",
+      "chapter": 6,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 6:9"
+    },
+    {
+      "book": "Acts",
+      "chapter": 27,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 27:6"
+    },
+    {
+      "book": "Acts",
+      "chapter": 28,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 28:11"
+    },
+    {
+      "book": "Acts",
+      "chapter": 18,
+      "verses": [
+        24
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 18:24"
+    }
+  ],
+  "books_mentioned": [
+    "Acts"
+  ],
   "stats": {
-    "entries_count": 1,
+    "total_aspects": 3,
+    "total_refs": 4,
     "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0,
-    "top_books": [],
-    "ref_counts_by_book": {}
-  },
-  "source": {
-    "provider": "ccel",
-    "work": "Nave's Topical Bible",
-    "format": "xml",
-    "fetched_at": "2025-09-20",
-    "source_url": null,
-    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
-  },
-  "metadata": {
-    "parser": "ccel-nave-xml-parser",
-    "parser_version": "2025.09.19",
-    "schema_version": "scrape.v1",
-    "language": {
-      "code": "en",
-      "name": "English",
-      "direction": "ltr"
-    },
-    "integrity": {
-      "checksum_raw_block": "sha256:7783c217da69aca9a51df6d1bbffcb9d56ccb606427811acc9cb9c76e7d0fa23",
-      "position": {
-        "start_line": null,
-        "end_line": null,
-        "total_lines": 3
-      }
-    },
-    "notes": [
-      "XML-based parsing from official CCEL ThML source",
-      "Perfect biblical reference extraction with osisRef",
-      "Structured hierarchy preservation",
-      "Complete topic linking and see_also resolution"
+    "nt_refs": 4,
+    "books_count": 1,
+    "top_books": [
+      "Acts"
     ]
-  },
-  "total_references": 0,
-  "version": "1.0.0",
-  "created_at": "2025-09-20T17:23:28.221733Z",
-  "updated_at": "2025-09-20T17:23:28.221741Z"
+  }
 }

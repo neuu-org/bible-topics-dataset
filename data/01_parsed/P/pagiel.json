@@ -1,42 +1,23 @@
 {
   "topic": "PAGIEL",
   "slug": "pagiel",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "Son of Ocran and leader of the tribe of Asher at time of the exodus Nu 1:13; 2:27; 7:72,77; 10:26",
-      "references": [
-        "Num 1:13",
-        "Num 2:27",
-        "Num 7:72",
-        "Num 7:77",
-        "Num 10:26"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.716697+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "exodus",
+      "references": [
+        "Numbers 1:13",
+        "Numbers 2:27",
+        "Numbers 7:72,77",
+        "Numbers 10:26"
+      ],
+      "source": "NAV"
     }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  ],
+  "biblical_references": [
     {
       "book": "Numbers",
       "chapter": 1,
@@ -45,8 +26,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Numbers 1:13",
-      "source": "EAS"
+      "raw": "Numbers 1:13"
     },
     {
       "book": "Numbers",
@@ -56,8 +36,7 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Numbers 2:27",
-      "source": "SMI"
+      "raw": "Numbers 2:27"
     },
     {
       "book": "Numbers",
@@ -68,8 +47,7 @@
       ],
       "verse_count": 2,
       "testament": "OT",
-      "raw": "Numbers 7:72,77",
-      "source": "SMI"
+      "raw": "Numbers 7:72,77"
     },
     {
       "book": "Numbers",
@@ -79,8 +57,20 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Numbers 10:26",
-      "source": "SMI"
+      "raw": "Numbers 10:26"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Numbers"
+  ],
+  "stats": {
+    "total_aspects": 1,
+    "total_refs": 4,
+    "ot_refs": 4,
+    "nt_refs": 0,
+    "books_count": 1,
+    "top_books": [
+      "Numbers"
+    ]
+  }
 }

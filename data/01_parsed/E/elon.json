@@ -1,84 +1,43 @@
 {
   "topic": "ELON",
   "slug": "elon",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "1. Father-in-law of Esau Ge 26:34; 36:2",
-      "references": [
-        "Gen 26:34",
-        "Gen 36:2"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "2. A son of Zebulun Ge 46:14; Nu 26:26",
-      "references": [
-        "Gen 46:14",
-        "Num 26:26"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "3. A town of Dan Jos 19:43",
-      "references": [
-        "Josh 19:43"
-      ],
-      "sub_groups": []
-    },
-    {
-      "name": "4. A Hebrew judge Jud 12:11,12",
-      "references": [
-        "Judg 12:11",
-        "Judg 12:12"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [
-    {
-      "book": "Numbers",
-      "book_abbrev": "num",
-      "chapter": 26,
-      "testament": "OT",
-      "verses": [
-        26
-      ],
-      "verse_count": 1
-    }
-  ],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 4,
-    "ot_refs": 1,
-    "nt_refs": 0,
-    "total_verses": 1
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.683886+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    }
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "see_also": [],
+  "aspects": [
     {
-      "book": "Joshua",
-      "chapter": 19,
-      "verses": [
-        43
+      "label": "1. Father-in-law of Esau",
+      "references": [
+        "Genesis 26:34",
+        "Genesis 36:2"
       ],
-      "verse_count": 1,
-      "testament": "OT",
-      "raw": "Joshua 19:43",
-      "source": "EAS"
+      "source": "NAV"
     },
+    {
+      "label": "2. A",
+      "references": [
+        "Genesis 46:14",
+        "Numbers 26:26"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "3. A town of Dan",
+      "references": [
+        "Joshua 19:43"
+      ],
+      "source": "NAV"
+    },
+    {
+      "label": "4. A Hebrew",
+      "references": [
+        "Judges 12:11,12"
+      ],
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
     {
       "book": "Genesis",
       "chapter": 26,
@@ -87,8 +46,17 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 26:34",
-      "source": "EAS"
+      "raw": "Genesis 26:34"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 36,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 36:2"
     },
     {
       "book": "Genesis",
@@ -98,8 +66,27 @@
       ],
       "verse_count": 1,
       "testament": "OT",
-      "raw": "Genesis 46:14",
-      "source": "EAS"
+      "raw": "Genesis 46:14"
+    },
+    {
+      "book": "Numbers",
+      "chapter": 26,
+      "verses": [
+        26
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Numbers 26:26"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 19,
+      "verses": [
+        43
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 19:43"
     },
     {
       "book": "Judges",
@@ -110,8 +97,26 @@
       ],
       "verse_count": 2,
       "testament": "OT",
-      "raw": "Judges 12:11, 12",
-      "source": "EAS"
+      "raw": "Judges 12:11,12"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Genesis",
+    "Joshua",
+    "Judges",
+    "Numbers"
+  ],
+  "stats": {
+    "total_aspects": 4,
+    "total_refs": 6,
+    "ot_refs": 6,
+    "nt_refs": 0,
+    "books_count": 4,
+    "top_books": [
+      "Genesis",
+      "Numbers",
+      "Joshua",
+      "Judges"
+    ]
+  }
 }

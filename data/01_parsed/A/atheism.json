@@ -1,61 +1,123 @@
 {
   "topic": "ATHEISM",
   "slug": "atheism",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [
+    "FAITH",
+    "GOD",
+    "UNBELIEF"
+  ],
+  "aspects": [
     {
-      "name": "General scriptures concerning Ps 14:1; 53:1",
+      "label": "General scriptures concerning",
       "references": [
-        "Ps 14:1",
-        "Ps 53:1"
+        "Psalms 14:1",
+        "Psalms 53:1"
       ],
-      "sub_groups": []
+      "source": "NAV"
     },
     {
-      "name": "ARGUMENTS AGAINST Job 12:7-25; Ro 1:19,20",
+      "label": "ARGUMENTS AGAINST",
       "references": [
         "Job 12:7-25",
-        "Rom 1:19",
-        "Rom 1:20"
+        "Romans 1:19,20"
       ],
-      "sub_groups": []
+      "source": "NAV"
+    },
+    {
+      "label": ".SeeGOD",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".SeeFAITH",
+      "references": [],
+      "source": "NAV"
+    },
+    {
+      "label": ".SeeUNBELIEF",
+      "references": [],
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
+      "book": "Psalms",
+      "chapter": 14,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 14:1"
+    },
+    {
+      "book": "Psalms",
+      "chapter": 53,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Psalms 53:1"
+    },
+    {
+      "book": "Job",
+      "chapter": 12,
+      "verses": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "verse_count": 19,
+      "testament": "OT",
+      "raw": "Job 12:7-25"
+    },
+    {
       "book": "Romans",
-      "book_abbrev": "rom",
       "chapter": 1,
-      "testament": "NT",
       "verses": [
         19,
         20
       ],
-      "verse_count": 2
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Romans 1:19,20"
     }
   ],
-  "see_also": [
-    "FAITH",
-    "UNBELIEF",
-    "GOD"
+  "books_mentioned": [
+    "Job",
+    "Psalms",
+    "Romans"
   ],
-  "aliases": [],
   "stats": {
-    "entries_count": 2,
-    "ot_refs": 0,
+    "total_aspects": 5,
+    "total_refs": 4,
+    "ot_refs": 3,
     "nt_refs": 1,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.670774+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    }
-  },
-  "version": "3.0.0"
+    "books_count": 3,
+    "top_books": [
+      "Psalms",
+      "Job",
+      "Romans"
+    ]
+  }
 }

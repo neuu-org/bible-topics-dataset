@@ -1,50 +1,67 @@
 {
   "topic": "MANURE",
   "slug": "manure",
-  "type": "topic",
-  "reference_groups": [
+  "sources": [
+    "NAV"
+  ],
+  "see_also": [],
+  "aspects": [
     {
-      "name": "Used as fertilizer Isa 25:10; Lu 13:8; 14:34,35",
+      "label": "Used as fertilizer",
       "references": [
-        "Isa 25:10",
+        "Isaiah 25:10",
         "Luke 13:8",
-        "Luke 14:34",
-        "Luke 14:35"
+        "Luke 14:34,35"
       ],
-      "sub_groups": []
+      "source": "NAV"
     }
   ],
   "biblical_references": [
     {
-      "book": "Luke",
-      "book_abbrev": "luk",
-      "chapter": 13,
-      "testament": "NT",
+      "book": "Isaiah",
+      "chapter": 25,
       "verses": [
-        8,
-        14
+        10
       ],
-      "verse_count": 2
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 25:10"
+    },
+    {
+      "book": "Luke",
+      "chapter": 13,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 13:8"
+    },
+    {
+      "book": "Luke",
+      "chapter": 14,
+      "verses": [
+        34,
+        35
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Luke 14:34,35"
     }
   ],
-  "see_also": [],
-  "aliases": [],
+  "books_mentioned": [
+    "Isaiah",
+    "Luke"
+  ],
   "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 1,
-    "total_verses": 1
-  },
-  "sources": [
-    "NAV"
-  ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.703801+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": false
-    }
-  },
-  "version": "3.0.0"
+    "total_aspects": 1,
+    "total_refs": 3,
+    "ot_refs": 1,
+    "nt_refs": 2,
+    "books_count": 2,
+    "top_books": [
+      "Luke",
+      "Isaiah"
+    ]
+  }
 }

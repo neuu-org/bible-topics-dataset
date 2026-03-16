@@ -1,40 +1,20 @@
 {
   "topic": "ESLI",
   "slug": "esli",
-  "type": "topic",
-  "reference_groups": [
-    {
-      "name": "An ancestor of Jesus Lu 3:25",
-      "references": [
-        "Luke 3:25"
-      ],
-      "sub_groups": []
-    }
-  ],
-  "biblical_references": [],
-  "see_also": [],
-  "aliases": [],
-  "stats": {
-    "entries_count": 1,
-    "ot_refs": 0,
-    "nt_refs": 0,
-    "total_verses": 0
-  },
   "sources": [
     "NAV"
   ],
-  "metadata": {
-    "schema_version": "v3.0",
-    "created_at": "2025-12-02T21:53:08.685188+00:00",
-    "merged_from": {
-      "v2": true,
-      "dictionary": true
-    },
-    "enriched_at": "2025-12-02T22:02:09.959541+00:00",
-    "enrichment_source": "pipeline_merge"
-  },
-  "version": "3.0.0",
-  "definition_refs": [
+  "see_also": [],
+  "aspects": [
+    {
+      "label": "An ancestor of Jesus",
+      "references": [
+        "Luke 3:25"
+      ],
+      "source": "NAV"
+    }
+  ],
+  "biblical_references": [
     {
       "book": "Luke",
       "chapter": 3,
@@ -43,8 +23,20 @@
       ],
       "verse_count": 1,
       "testament": "NT",
-      "raw": "Luke 3:25",
-      "source": "SMI"
+      "raw": "Luke 3:25"
     }
-  ]
+  ],
+  "books_mentioned": [
+    "Luke"
+  ],
+  "stats": {
+    "total_aspects": 1,
+    "total_refs": 1,
+    "ot_refs": 0,
+    "nt_refs": 1,
+    "books_count": 1,
+    "top_books": [
+      "Luke"
+    ]
+  }
 }

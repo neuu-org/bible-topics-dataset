@@ -1,7 +1,7 @@
 {
   "topic": "GELILOTH",
   "slug": "geliloth",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A place mentioned, as marking the boundary of the tribe of Benjamin Jos 18:17",
@@ -19,17 +19,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_175253",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T17:52:53.086971",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -38,63 +27,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Circles; regions, a place in the border of Benjamin (Josh. 18:17); called Gilgal in 15:7.",
-      "extracted_refs": [
-        {
-          "book": "Joshua",
-          "chapter": 18,
-          "verses": [
-            17
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 18:17",
-          "source": "EAS"
-        },
-        {
-          "book": "Joshua",
-          "chapter": 15,
-          "verses": [
-            7
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 15:7",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(circuit), a place named among the marks of the south boundary line of the tribe of Benjamin. (Joshua 18:17) The name Geliloth never occurs again in this locality, and it therefore seems probable that Gilgal is the right reading.",
-      "extracted_refs": [
-        {
-          "book": "Joshua",
-          "chapter": 18,
-          "verses": [
-            17
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 18:17",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Joshua 18:17",
-      "original": "Josh. 18:17"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -128,13 +62,5 @@
       "raw": "Joshua 15:7",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 2,
-    "ot": 2,
-    "nt": 0,
-    "books": [
-      "Joshua"
-    ]
-  }
+  ]
 }

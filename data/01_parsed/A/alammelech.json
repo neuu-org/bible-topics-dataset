@@ -1,7 +1,7 @@
 {
   "topic": "ALAMMELECH",
   "slug": "alammelech",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A town of Asher Jos 19:26",
@@ -12,208 +12,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "Alammelech é uma cidade mencionada na divisão das terras de Israel, especificamente na tribo de Aser, conforme registrado em Josué 19:26. Sua localização e importância geográfica refletem a herança e a identidade do povo de Israel, destacando a providência divina na distribuição das terras prometidas. Embora pouco se saiba sobre a cidade em si, sua menção nas Escrituras sublinha a relevância das cidades e tribos na narrativa bíblica, simbolizando a presença de Deus entre seu povo e a realização de Suas promessas.",
-    "outline": [
-      "Localização geográfica e tribal de Alammelech",
-      "Significado do nome Alammelech",
-      "Relação de Alammelech com a herança de Aser",
-      "Implicações teológicas da divisão das terras"
-    ],
-    "key_concepts": [
-      "Herança de Israel",
-      "Divisão das terras",
-      "Identidade tribal"
-    ],
-    "theological_significance": "A menção de Alammelech na Bíblia serve como um lembrete da fidelidade de Deus em cumprir Suas promessas ao povo de Israel. A distribuição das terras entre as tribos não é apenas uma questão geográfica, mas também uma afirmação da presença de Deus na vida de Seu povo. Para os cristãos, isso pode ser visto como um paralelo à herança espiritual que temos em Cristo, onde somos chamados a viver em comunidade e a reconhecer a providência divina em nossas vidas.",
-    "model": "gpt-4o-mini",
-    "run_id": "enr_20250923_124210_44eaf03f",
-    "confidence": 1.0,
-    "generated_at": "2025-09-23T12:42:10.899664"
-  },
-  "ai_themes_normalized": [
-    {
-      "theme_id": null,
-      "proposal_id": "prop:promessa_de_deus_ee42a5",
-      "label_original": "Promessa de Deus",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:identidade_e_pertenca_7bbbc0",
-      "label_original": "Identidade e pertença",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:providencia_divina_f4e282",
-      "label_original": "Providência divina",
-      "source": "ai_enrichment"
-    }
-  ],
-  "phase1_discovery": {
-    "processed_at": "2025-09-23T22:39:09.427198Z",
-    "total_themes_processed": 3,
-    "summary": {
-      "total_processed": 3,
-      "decisions": {
-        "alias_existing": 0,
-        "proposed": 3,
-        "error": 0
-      },
-      "success_rate": 1.0
-    },
-    "results": [
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.8341999999999999,
-          "novelty": 1.0,
-          "similarity_to_best_existing": 0.0,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_66e4408d",
-          "decision_hash": "1b3574eb66bdc97a",
-          "created_at": "2025-09-23T22:39:09.427198Z"
-        },
-        "proposal_id": "prop:d2283758",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:promessa_de_deus_ee42a5",
-          "label_original": "Promessa de Deus",
-          "confidence": 0.9500000000000001,
-          "source": "ai_enrichment"
-        }
-      },
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.84158,
-          "novelty": 1.0,
-          "similarity_to_best_existing": 0.0,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_7d2f50a5",
-          "decision_hash": "165005032a92470a",
-          "created_at": "2025-09-23T22:39:10.475807Z"
-        },
-        "proposal_id": "prop:2fd7ac9f",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:identidade_e_pertenca_7bbbc0",
-          "label_original": "Identidade e pertença",
-          "confidence": 0.9500000000000001,
-          "source": "ai_enrichment"
-        }
-      },
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.83636,
-          "novelty": 1.0,
-          "similarity_to_best_existing": 0.0,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_0abe31f9",
-          "decision_hash": "bd568b14b7191bf8",
-          "created_at": "2025-09-23T22:39:11.442745Z"
-        },
-        "proposal_id": "prop:8fe6c03a",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:providencia_divina_f4e282",
-          "label_original": "Providência divina",
-          "confidence": 0.9500000000000001,
-          "source": "ai_enrichment"
-        }
-      }
-    ]
-  },
-  "entity_links": [
-    {
-      "canonical_id": "CON:alammelech",
-      "namespace": "CONCEPT",
-      "role": "primary",
-      "confidence": 0.9,
-      "source": "topic_resolver",
-      "status": "proposed",
-      "provenance": {
-        "topic": "ALAMMELECH",
-        "extracted_from": "ALAMMELECH",
-        "processing_result": {
-          "status": "proposed",
-          "proposal_id": "stub:CON:alammelech_13c417d2",
-          "canonical_id": "CON:alammelech",
-          "needs_review": true,
-          "reasons": [
-            "low_confidence",
-            "insufficient_sources"
-          ],
-          "message": "Entity proposal stub:CON:alammelech_13c417d2 created"
-        }
-      }
-    }
-  ],
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -222,34 +20,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "SMI",
-      "text": "(king’s oak), a place within the limits of Asher, named between Achshaph and Amad. (Joshua 19:26) only.",
-      "extracted_refs": [
-        {
-          "book": "Joshua",
-          "chapter": 19,
-          "verses": [
-            26
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 19:26",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Joshua 19:26",
-      "original": "Joshua 19:26"
-    }
-  ],
   "sources": [
-    "NAV",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -272,13 +44,5 @@
       "raw": "Joshua 19:26",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 1,
-    "ot": 1,
-    "nt": 0,
-    "books": [
-      "Joshua"
-    ]
-  }
+  ]
 }

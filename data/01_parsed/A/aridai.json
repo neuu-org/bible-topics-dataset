@@ -1,7 +1,7 @@
 {
   "topic": "ARIDAI",
   "slug": "aridai",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Son of Haman Es 9:9",
@@ -12,210 +12,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "Aridai, mencionado em Ester 9:9 como um dos filhos de Hamã, representa a continuidade da oposição ao povo de Israel. A menção de seus filhos no contexto da derrota de Hamã e a salvação dos judeus em Susã destaca a justiça divina e a retribuição contra aqueles que se levantam contra o povo de Deus. Este relato serve como um lembrete da soberania de Deus na história e da proteção que Ele oferece aos Seus escolhidos.",
-    "outline": [
-      "Identificação de Aridai como filho de Hamã",
-      "Contexto histórico da narrativa em Ester",
-      "A importância da menção dos filhos de Hamã na narrativa",
-      "A retribuição divina e a proteção do povo de Deus"
-    ],
-    "key_concepts": [
-      "Soberania de Deus",
-      "Justiça divina",
-      "Oposição ao povo de Deus"
-    ],
-    "theological_significance": "A menção de Aridai e seus irmãos ilustra a realidade da luta entre o bem e o mal, enfatizando que Deus é fiel em proteger Seu povo. Para a fé cristã, isso reforça a confiança na providência divina e na certeza de que, mesmo em tempos de adversidade, Deus está no controle e age em favor dos que lhe pertencem.",
-    "model": "gpt-4o-mini",
-    "run_id": "enr_20250923_131746_e54938f9",
-    "confidence": 1.0,
-    "generated_at": "2025-09-23T13:17:46.600731"
-  },
-  "ai_themes_normalized": [
-    {
-      "theme_id": null,
-      "proposal_id": "prop:salvacao_do_povo_de_deus_7f7874",
-      "label_original": "Salvação do povo de Deus",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:justica_e_retribuicao_eb88a0",
-      "label_original": "Justiça e retribuição",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:conflito_entre_israel_e_seus_inimigos_bc6163",
-      "label_original": "Conflito entre Israel e seus inimigos",
-      "source": "ai_enrichment"
-    }
-  ],
-  "phase1_discovery": {
-    "processed_at": "2025-09-23T22:49:43.954486Z",
-    "total_themes_processed": 3,
-    "summary": {
-      "total_processed": 3,
-      "decisions": {
-        "alias_existing": 0,
-        "proposed": 3,
-        "error": 0
-      },
-      "success_rate": 1.0
-    },
-    "results": [
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "low_novelty",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.7767199999999999,
-          "novelty": 0.6666666666666667,
-          "similarity_to_best_existing": 0.3333333333333333,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_19e2f1dc",
-          "decision_hash": "e981b43cb60310a3",
-          "created_at": "2025-09-23T22:49:43.954486Z"
-        },
-        "proposal_id": "prop:b3e1ed8b",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:salvacao_do_povo_de_deus_7f7874",
-          "label_original": "Salvação do povo de Deus",
-          "confidence": 0.9500000000000001,
-          "source": "ai_enrichment"
-        }
-      },
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "low_novelty",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.7658599999999999,
-          "novelty": 0.6666666666666667,
-          "similarity_to_best_existing": 0.3333333333333333,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_2913a3dc",
-          "decision_hash": "72a8c1e218708f01",
-          "created_at": "2025-09-23T22:49:45.057575Z"
-        },
-        "proposal_id": "prop:a3375cbf",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:justica_e_retribuicao_eb88a0",
-          "label_original": "Justiça e retribuição",
-          "confidence": 0.9500000000000001,
-          "source": "ai_enrichment"
-        }
-      },
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.83734,
-          "novelty": 1.0,
-          "similarity_to_best_existing": 0.0,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_7130c775",
-          "decision_hash": "8fa5f7cb9a44e789",
-          "created_at": "2025-09-23T22:49:46.046612Z"
-        },
-        "proposal_id": "prop:13a88484",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:conflito_entre_israel_e_seus_inimigos_bc6163",
-          "label_original": "Conflito entre Israel e seus inimigos",
-          "confidence": 0.9500000000000001,
-          "source": "ai_enrichment"
-        }
-      }
-    ]
-  },
-  "entity_links": [
-    {
-      "canonical_id": "CON:aridai",
-      "namespace": "CONCEPT",
-      "role": "primary",
-      "confidence": 0.9,
-      "source": "topic_resolver",
-      "status": "proposed",
-      "provenance": {
-        "topic": "ARIDAI",
-        "extracted_from": "ARIDAI",
-        "processing_result": {
-          "status": "proposed",
-          "proposal_id": "stub:CON:aridai_7825f012",
-          "canonical_id": "CON:aridai",
-          "needs_review": true,
-          "reasons": [
-            "low_confidence",
-            "insufficient_sources"
-          ],
-          "message": "Entity proposal stub:CON:aridai_7825f012 created"
-        }
-      }
-    }
-  ],
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -224,34 +20,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "SMI",
-      "text": "(the strong), ninth son of Haman. (Esther 9:9)",
-      "extracted_refs": [
-        {
-          "book": "Esther",
-          "chapter": 9,
-          "verses": [
-            9
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Esther 9:9",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Esther 9:9",
-      "original": "Esther 9:9"
-    }
-  ],
   "sources": [
-    "NAV",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -274,13 +44,5 @@
       "raw": "Esther 9:9",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 1,
-    "ot": 1,
-    "nt": 0,
-    "books": [
-      "Esther"
-    ]
-  }
+  ]
 }

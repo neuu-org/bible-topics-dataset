@@ -1,7 +1,7 @@
 {
   "topic": "LEHI",
   "slug": "lehi",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A district of Judah, where Samson killed a thousand Philistines with the jawbone of a donkey Jud 15:9-19",
@@ -12,17 +12,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_000146",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T00:01:46.414413",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -31,79 +20,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "A jawbone, a place in the tribe of Judah where Samson achieved a victory over the Philistines (Judg. 15:9, 14, 16), slaying a thousand of them with the jawbone of an ass. The words in 15:19, “a hollow place that was in the jaw” (A.V.), should be, as in Revised Version, “the hollow place that is in Lehi.”",
-      "extracted_refs": [
-        {
-          "book": "Judges",
-          "chapter": 15,
-          "verses": [
-            9,
-            14,
-            16
-          ],
-          "verse_count": 3,
-          "testament": "OT",
-          "raw": "Judges 15:9, 14, 16",
-          "source": "EAS"
-        },
-        {
-          "book": "Judges",
-          "chapter": 15,
-          "verses": [
-            19
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Judges 15:19",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(jaw bone), a place in Judah, probably on the confines of the Philistines’ country, between it and the cliff Etam; the scene of Samson’s well-known exploit with the jaw bone. (Judges 15:9,14,19) It may perhaps be identified with Beit-Likiyeh, a village about two miles below the upper Beth-horon.",
-      "extracted_refs": [
-        {
-          "book": "Judges",
-          "chapter": 15,
-          "verses": [
-            9,
-            14,
-            19
-          ],
-          "verse_count": 3,
-          "testament": "OT",
-          "raw": "Judges 15:9,14,19",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Judges 15:9",
-      "original": "Judg. 15:9"
-    },
-    {
-      "reference": "Judges 15:14",
-      "original": "Judg. 15:14"
-    },
-    {
-      "reference": "Judges 15:16",
-      "original": "Judg. 15:16"
-    },
-    {
-      "reference": "Judges 15:19",
-      "original": "Judges 15:19"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -152,13 +70,5 @@
       "raw": "Judges 15:9,14,19",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 4,
-    "ot": 4,
-    "nt": 0,
-    "books": [
-      "Judges"
-    ]
-  }
+  ]
 }

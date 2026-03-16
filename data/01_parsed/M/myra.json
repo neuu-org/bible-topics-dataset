@@ -1,7 +1,7 @@
 {
   "topic": "MYRA",
   "slug": "myra",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A city of Lycia; Paul visits Ac 27:5,6",
@@ -13,17 +13,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_012813",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T01:28:13.859321",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -32,68 +21,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "One of the chief towns of Lycia, in Asia Minor, about 2 1/2 miles from the coast (Acts 27:5). Here Paul removed from the Adramyttian ship in which he had sailed from Caesarea, and entered into the Alexandrian ship, which was afterwards wrecked at Melita (27:39-44).",
-      "extracted_refs": [
-        {
-          "book": "Acts",
-          "chapter": 27,
-          "verses": [
-            5
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Acts 27:5",
-          "source": "EAS"
-        },
-        {
-          "book": "Acts",
-          "chapter": 27,
-          "verses": [
-            39,
-            40,
-            41,
-            42,
-            43,
-            44
-          ],
-          "verse_count": 6,
-          "testament": "NT",
-          "raw": "Acts 27:39-44",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "an important town in Lycia, on the southwest coast of Asia Minor, on the river Andriacus, 21 miles from its mouth referred to in (Acts 27:5) Myra (named Dembra by the Greeks) Is remarkable still for its remains of various periods of history.",
-      "extracted_refs": [
-        {
-          "book": "Acts",
-          "chapter": 27,
-          "verses": [
-            5
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Acts 27:5",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Acts 27:5",
-      "original": "Acts 27:5"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -132,13 +61,5 @@
       "raw": "Acts 27:39-44",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 7,
-    "ot": 0,
-    "nt": 7,
-    "books": [
-      "Acts"
-    ]
-  }
+  ]
 }

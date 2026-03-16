@@ -1,7 +1,7 @@
 {
   "topic": "ITALY",
   "slug": "italy",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "General scriptures concerning Ac 27:2; Heb 13:24",
@@ -31,17 +31,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_224050",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T22:40:50.285971",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -50,91 +39,8 @@
     "nt_refs": 1,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Acts 18:2; 27:1, 6; Heb. 13:24), like most geographical names, was differently used at different periods of history. As the power of Rome advanced, nations were successively conquered and added to it till it came to designate the whole country to the south of the Alps. There was constant intercourse between Palestine and Italy in the time of the Romans.",
-      "extracted_refs": [
-        {
-          "book": "Acts",
-          "chapter": 18,
-          "verses": [
-            2
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Acts 18:2",
-          "source": "EAS"
-        },
-        {
-          "book": "Acts",
-          "chapter": 27,
-          "verses": [
-            1,
-            6
-          ],
-          "verse_count": 2,
-          "testament": "NT",
-          "raw": "Acts 27:1, 6",
-          "source": "EAS"
-        },
-        {
-          "book": "Hebrews",
-          "chapter": 13,
-          "verses": [
-            24
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Hebrews 13:24",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "This word is used in the New Testament, (Acts 18:2; 27:1; Hebrews 13:24) in the usual sense of the period, i.e. in its true geographical sense, as denoting the whole natural peninsula between the Alps and the Straits of Messina.",
-      "extracted_refs": [
-        {
-          "book": "Acts",
-          "chapter": 18,
-          "verses": [
-            2
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Acts 18:2",
-          "source": "SMI"
-        },
-        {
-          "book": "Acts",
-          "chapter": 27,
-          "verses": [
-            1
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Acts 27:1",
-          "source": "SMI"
-        },
-        {
-          "book": "Hebrews",
-          "chapter": 13,
-          "verses": [
-            24
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Hebrews 13:24",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -191,14 +97,5 @@
       "raw": "Acts 27:1",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 4,
-    "ot": 0,
-    "nt": 4,
-    "books": [
-      "Acts",
-      "Hebrews"
-    ]
-  }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "topic": "MURMURING",
   "slug": "murmuring",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "(Complaining, grumbling) -Of Israelites against Moses Ex 5:21; 15:24; 16:2,3; Nu 16:2,3,13,14,41; 20:2-4",
@@ -1036,17 +1036,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_012701",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T01:27:01.879940",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [
     "CONTENTMENT",
     "DOUBT",
@@ -1063,89 +1052,9 @@
     "ot_refs": 41,
     "nt_refs": 22
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Of the Hebrews in the wilderness, called forth the displeasure of God, which was only averted by the earnest prayer of Moses (Num. 11:33, 34; 12; 14:27, 30, 31; 16:3; 21:4-6; Ps. 106:25). Forbidden by Paul (1 Cor. 10:10).",
-      "extracted_refs": [
-        {
-          "book": "Numbers",
-          "chapter": 11,
-          "verses": [
-            33,
-            34
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Numbers 11:33, 34",
-          "source": "EAS"
-        },
-        {
-          "book": "Numbers",
-          "chapter": 14,
-          "verses": [
-            27,
-            30,
-            31
-          ],
-          "verse_count": 3,
-          "testament": "OT",
-          "raw": "Numbers 14:27, 30, 31",
-          "source": "EAS"
-        },
-        {
-          "book": "Numbers",
-          "chapter": 16,
-          "verses": [
-            3
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Numbers 16:3",
-          "source": "EAS"
-        },
-        {
-          "book": "Numbers",
-          "chapter": 21,
-          "verses": [
-            4,
-            5,
-            6
-          ],
-          "verse_count": 3,
-          "testament": "OT",
-          "raw": "Numbers 21:4-6",
-          "source": "EAS"
-        },
-        {
-          "book": "Psalms",
-          "chapter": 106,
-          "verses": [
-            25
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Psalms 106:25",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Corinthians",
-          "chapter": 10,
-          "verses": [
-            10
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "1 Corinthians 10:10",
-          "source": "EAS"
-        }
-      ]
-    }
-  ],
   "sources": [
     "NAV",
-    "TOR",
-    "EAS"
+    "TOR"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -1228,15 +1137,5 @@
       "raw": "1 Corinthians 10:10",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 11,
-    "ot": 10,
-    "nt": 1,
-    "books": [
-      "1 Corinthians",
-      "Numbers",
-      "Psalms"
-    ]
-  }
+  ]
 }

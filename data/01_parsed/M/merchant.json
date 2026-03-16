@@ -1,7 +1,7 @@
 {
   "topic": "MERCHANT",
   "slug": "merchant",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "General scriptures concerning Ge 23:16; 37:28; 1Ki 10:15,28; 2Ch 9:14; Ne 3:32; 13:20; Job 41:6; So 3:6; Isa 23:2; 47:15; Eze 17:4; 27:13,17,21-36; 38:13; Ho 12:7; Na 3:16; Mt 13:45; Re 18:3,11,23",
@@ -146,17 +146,6 @@
       "verse_count": 3
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_005404",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T00:54:04.064506",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [
     "COMMERCE"
   ],
@@ -167,152 +156,8 @@
     "nt_refs": 2,
     "total_verses": 10
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "The Hebrew word so rendered is from a root meaning “to travel about,” “to migrate,” and hence “a traveller.” In the East, in ancient times, merchants travelled about with their merchandise from place to place (Gen. 37:25; Job 6:18), and carried on their trade mainly by bartering (Gen. 37:28; 39:1). After the Hebrews became settled in Palestine they began to engage in commercial pursuits, which gradually expanded (49:13; Deut. 33:18; Judg. 5:17), till in the time of Solomon they are found in the chief marts of the world (1 Kings 9:26; 10:11, 26, 28; 22:48; 2 Chr. 1:16; 9:10, 21). After Solomon’s time their trade with foreign nations began to decline. After the Exile it again expanded into wider foreign relations, because now the Jews were scattered in many lands.",
-      "extracted_refs": [
-        {
-          "book": "Genesis",
-          "chapter": 37,
-          "verses": [
-            25
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 37:25",
-          "source": "EAS"
-        },
-        {
-          "book": "Job",
-          "chapter": 6,
-          "verses": [
-            18
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Job 6:18",
-          "source": "EAS"
-        },
-        {
-          "book": "Genesis",
-          "chapter": 37,
-          "verses": [
-            28
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 37:28",
-          "source": "EAS"
-        },
-        {
-          "book": "Genesis",
-          "chapter": 39,
-          "verses": [
-            1
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 39:1",
-          "source": "EAS"
-        },
-        {
-          "book": "Deuteronomy",
-          "chapter": 33,
-          "verses": [
-            18
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Deuteronomy 33:18",
-          "source": "EAS"
-        },
-        {
-          "book": "Judges",
-          "chapter": 5,
-          "verses": [
-            17
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Judges 5:17",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Kings",
-          "chapter": 9,
-          "verses": [
-            26
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Kings 9:26",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Kings",
-          "chapter": 10,
-          "verses": [
-            11,
-            26,
-            28
-          ],
-          "verse_count": 3,
-          "testament": "OT",
-          "raw": "1 Kings 10:11, 26, 28",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Kings",
-          "chapter": 22,
-          "verses": [
-            48
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Kings 22:48",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Chronicles",
-          "chapter": 1,
-          "verses": [
-            16
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Chronicles 1:16",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Chronicles",
-          "chapter": 9,
-          "verses": [
-            10,
-            21
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "2 Chronicles 9:10, 21",
-          "source": "EAS"
-        },
-        {
-          "book": "Genesis",
-          "chapter": 49,
-          "verses": [
-            13
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 49:13",
-          "source": "EAS"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -459,18 +304,5 @@
       "raw": "Genesis 49:13",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 15,
-    "ot": 15,
-    "nt": 0,
-    "books": [
-      "1 Kings",
-      "2 Chronicles",
-      "Deuteronomy",
-      "Genesis",
-      "Job",
-      "Judges"
-    ]
-  }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "topic": "NAARATH",
   "slug": "naarath",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A city on the southern boundary of the tribe of Ephraim Jos 16:7",
@@ -12,17 +12,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_012952",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T01:29:52.525169",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -31,67 +20,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Girl, a town on the boundary between Ephraim and Benjamin (Josh. 16:7), not far probably from Jericho, to the north (1 Chr. 7:28).",
-      "extracted_refs": [
-        {
-          "book": "Joshua",
-          "chapter": 16,
-          "verses": [
-            7
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 16:7",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Chronicles",
-          "chapter": 7,
-          "verses": [
-            28
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 7:28",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(juvenile) (the Hebrew is equivalent to Naarah, which is therefore the real form of the name), a place named (Joshua 16:7) only as one of the landmarks on the southern boundary of Ephraim. It appears to have lain between Ataroth and Jericho, in the Jordan valley: Eusebius and Jerome speak of it as if well known to them—“Naorath, a small village of the Jews, five miles from Jericho.”",
-      "extracted_refs": [
-        {
-          "book": "Joshua",
-          "chapter": 16,
-          "verses": [
-            7
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 16:7",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Joshua 16:7",
-      "original": "Josh. 16:7"
-    },
-    {
-      "reference": "1 Chronicles 7:28",
-      "original": "1 Chr. 7:28"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -125,14 +55,5 @@
       "raw": "1 Chronicles 7:28",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 2,
-    "ot": 2,
-    "nt": 0,
-    "books": [
-      "1 Chronicles",
-      "Joshua"
-    ]
-  }
+  ]
 }

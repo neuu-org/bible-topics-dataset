@@ -1,7 +1,7 @@
 {
   "topic": "GRAVE",
   "slug": "grave",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "General scriptures concerning Ho 13:14; 1Co 15:55",
@@ -29,17 +29,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_204727",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T20:47:27.561833",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [
     "BURIAL"
   ],
@@ -50,165 +39,8 @@
     "nt_refs": 1,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Among the ancient Hebrews graves were outside of cities in the open field (Luke 7:12; John 11:30). Kings (1 Kings 2:10) and prophets (1 Sam. 25:1) were generally buried within cities. Graves were generally grottoes or caves, natural or hewn out in rocks (Isa. 22:16; Matt. 27:60). There were family cemeteries (Gen. 47:29; 50:5; 2 Sam. 19:37). Public burial-places were assigned to the poor (Jer. 26:23; 2 Kings 23:6). Graves were usually closed with stones, which were whitewashed, to warn strangers against contact with them (Matt. 23:27), which caused ceremonial pollution (Num. 19:16). There were no graves in Jerusalem except those of the kings, and according to tradition that of the prophetess Huldah.",
-      "extracted_refs": [
-        {
-          "book": "Luke",
-          "chapter": 7,
-          "verses": [
-            12
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Luke 7:12",
-          "source": "EAS"
-        },
-        {
-          "book": "John",
-          "chapter": 11,
-          "verses": [
-            30
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "John 11:30",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Kings",
-          "chapter": 2,
-          "verses": [
-            10
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Kings 2:10",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Samuel",
-          "chapter": 25,
-          "verses": [
-            1
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Samuel 25:1",
-          "source": "EAS"
-        },
-        {
-          "book": "Isaiah",
-          "chapter": 22,
-          "verses": [
-            16
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Isaiah 22:16",
-          "source": "EAS"
-        },
-        {
-          "book": "Matthew",
-          "chapter": 27,
-          "verses": [
-            60
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Matthew 27:60",
-          "source": "EAS"
-        },
-        {
-          "book": "Genesis",
-          "chapter": 47,
-          "verses": [
-            29
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 47:29",
-          "source": "EAS"
-        },
-        {
-          "book": "Genesis",
-          "chapter": 50,
-          "verses": [
-            5
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 50:5",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Samuel",
-          "chapter": 19,
-          "verses": [
-            37
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Samuel 19:37",
-          "source": "EAS"
-        },
-        {
-          "book": "Jeremiah",
-          "chapter": 26,
-          "verses": [
-            23
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Jeremiah 26:23",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Kings",
-          "chapter": 23,
-          "verses": [
-            6
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Kings 23:6",
-          "source": "EAS"
-        },
-        {
-          "book": "Matthew",
-          "chapter": 23,
-          "verses": [
-            27
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Matthew 23:27",
-          "source": "EAS"
-        },
-        {
-          "book": "Numbers",
-          "chapter": 19,
-          "verses": [
-            16
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Numbers 19:16",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "[Burial, Sepulchres]"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -363,23 +195,5 @@
       "raw": "Numbers 19:16",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 13,
-    "ot": 9,
-    "nt": 4,
-    "books": [
-      "1 Kings",
-      "1 Samuel",
-      "2 Kings",
-      "2 Samuel",
-      "Genesis",
-      "Isaiah",
-      "Jeremiah",
-      "John",
-      "Luke",
-      "Matthew",
-      "Numbers"
-    ]
-  }
+  ]
 }

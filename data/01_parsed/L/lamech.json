@@ -1,7 +1,7 @@
 {
   "topic": "LAMECH",
   "slug": "lamech",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "1. Father of Jabal, Jubal, and Tubal-Cain Ge 4:18-24",
@@ -38,17 +38,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_235209",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T23:52:09.663388",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -57,79 +46,8 @@
     "nt_refs": 0,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "The strikerdown; the wild man. (1.) The fifth in descent from Cain. He was the first to violate the primeval ordinance of marriage (Gen. 4:18-24). His address to his two wives, Adah and Zillah (4:23, 24), is the only extant example of antediluvian poetry. It has been called “Lamech’s sword-song.” He was “rude and ruffianly,” fearing neither God nor man. With him the curtain falls on the race of Cain. We know nothing of his descendants. (2.) The seventh in descent from Seth, being the only son of Methuselah. Noah was the oldest of his several sons (Gen. 5:25-31; Luke 3:36).",
-      "extracted_refs": [
-        {
-          "book": "Genesis",
-          "chapter": 4,
-          "verses": [
-            18,
-            19,
-            20,
-            21,
-            22,
-            23,
-            24
-          ],
-          "verse_count": 7,
-          "testament": "OT",
-          "raw": "Genesis 4:18-24",
-          "source": "EAS"
-        },
-        {
-          "book": "Genesis",
-          "chapter": 5,
-          "verses": [
-            25,
-            26,
-            27,
-            28,
-            29,
-            30,
-            31
-          ],
-          "verse_count": 7,
-          "testament": "OT",
-          "raw": "Genesis 5:25-31",
-          "source": "EAS"
-        },
-        {
-          "book": "Luke",
-          "chapter": 3,
-          "verses": [
-            36
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Luke 3:36",
-          "source": "EAS"
-        },
-        {
-          "book": "Genesis",
-          "chapter": 4,
-          "verses": [
-            23,
-            24
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Genesis 4:23, 24",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(powerful), properly Lemech."
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -198,14 +116,5 @@
       "raw": "Genesis 4:23, 24",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 15,
-    "ot": 14,
-    "nt": 1,
-    "books": [
-      "Genesis",
-      "Luke"
-    ]
-  }
+  ]
 }

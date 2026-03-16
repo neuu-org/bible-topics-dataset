@@ -1,7 +1,7 @@
 {
   "topic": "MEDAN",
   "slug": "medan",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Son of Abraham and Keturah Ge 25:2; 1Ch 1:32",
@@ -24,17 +24,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_004500",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T00:45:00.280371",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -43,57 +32,8 @@
     "nt_refs": 0,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Contention, the third son of Abraham by Keturah (Gen. 25:2).",
-      "extracted_refs": [
-        {
-          "book": "Genesis",
-          "chapter": 25,
-          "verses": [
-            2
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 25:2",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(contention), a son of Abraham and Keturah. (Genesis 23:5; 1 Chronicles 1:42)",
-      "extracted_refs": [
-        {
-          "book": "Genesis",
-          "chapter": 23,
-          "verses": [
-            5
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 23:5",
-          "source": "SMI"
-        },
-        {
-          "book": "1 Chronicles",
-          "chapter": 1,
-          "verses": [
-            42
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 1:42",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -138,14 +78,5 @@
       "raw": "1 Chronicles 1:42",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 3,
-    "ot": 3,
-    "nt": 0,
-    "books": [
-      "1 Chronicles",
-      "Genesis"
-    ]
-  }
+  ]
 }

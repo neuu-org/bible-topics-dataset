@@ -1,7 +1,7 @@
 {
   "topic": "BETHPHAGE",
   "slug": "bethphage",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A village on the Mount of Olives Mt 21:1; Mr 11:1; Lu 19:29",
@@ -35,51 +35,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "Betfagé é uma aldeia situada no Monte das Oliveiras, mencionada nos Evangelhos de Mateus, Marcos e Lucas. Este local é significativo no contexto da entrada triunfal de Jesus em Jerusalém, onde Ele enviou dois discípulos para buscar um jumentinho, cumprindo assim a profecia messiânica. A localização de Betfagé, próxima a Jerusalém, destaca sua importância na narrativa da Paixão e na preparação para a crucificação de Cristo.",
-    "outline": [
-      "Localização geográfica de Betfagé no Monte das Oliveiras",
-      "Menciona a entrada triunfal de Jesus em Jerusalém",
-      "Cumprimento de profecias messiânicas",
-      "Importância de Betfagé na narrativa da Paixão"
-    ],
-    "key_concepts": [
-      "Messianismo e cumprimento de profecias",
-      "A importância da geografia na narrativa bíblica",
-      "A entrada triunfal como um ato simbólico"
-    ],
-    "theological_significance": "Betfagé representa um ponto crucial na narrativa da Paixão de Cristo, simbolizando a transição de Jesus de um ministério de ensino e cura para a sua missão redentora. A entrada triunfal, iniciada em Betfagé, é um momento de reconhecimento público da realeza de Jesus, que se alinha com as expectativas messiânicas do Antigo Testamento.",
-    "model": "gpt-4o-mini",
-    "run_id": "enr_20251201_232136_f5552235",
-    "confidence": 1.0,
-    "generated_at": "2025-12-01T23:21:36.800435"
-  },
-  "ai_themes_normalized": [
-    {
-      "theme_id": null,
-      "proposal_id": "prop:cumprimento_das_prof_09edea",
-      "label_original": "Cumprimento das profecias messiânicas",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:a_geografia_como_con_0ef88e",
-      "label_original": "A geografia como contexto teológico",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:realeza_de_jesus_0356ac",
-      "label_original": "Realeza de Jesus",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:transição_para_a_pai_064081",
-      "label_original": "Transição para a Paixão",
-      "source": "ai_enrichment"
-    }
-  ],
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -88,50 +43,8 @@
     "nt_refs": 2,
     "total_verses": 2
   },
-  "definitions": [
-    {
-      "source": "SMI",
-      "text": "(g hard) (house of figs) the name of a place on the Mount of Olives on the road between Jericho and Jerusalem. It was apparently close to Bethany. (Matthew 21:1; Mark 11:1; Luke 19:29)",
-      "extracted_refs": [
-        {
-          "book": "Matthew",
-          "chapter": 21,
-          "verses": [
-            1
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Matthew 21:1",
-          "source": "SMI"
-        },
-        {
-          "book": "Mark",
-          "chapter": 11,
-          "verses": [
-            1
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Mark 11:1",
-          "source": "SMI"
-        },
-        {
-          "book": "Luke",
-          "chapter": 19,
-          "verses": [
-            29
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Luke 19:29",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -176,15 +89,5 @@
       "raw": "Luke 19:29",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 3,
-    "ot": 0,
-    "nt": 3,
-    "books": [
-      "Luke",
-      "Mark",
-      "Matthew"
-    ]
-  }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "topic": "TITHE",
   "slug": "tithe",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "idx": 0,
@@ -1090,17 +1090,6 @@
       "verse_count": 5
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_021223",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T02:12:23.771991",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [
     "TAX"
   ],
@@ -1113,144 +1102,9 @@
     "ot_refs": 36,
     "nt_refs": 3
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "A tenth of the produce of the earth consecrated and set apart for special purposes. The dedication of a tenth to God was recognized as a duty before the time of Moses. Abraham paid tithes to Melchizedek (Gen. 14:20; Heb. 7:6); and Jacob vowed unto the Lord and said, “Of all that thou shalt give me I will surely give the tenth unto thee.” The first Mosaic law on this subject is recorded in Lev. 27:30-32. Subsequent legislation regulated the destination of the tithes (Num. 18:21-24, 26-28; Deut. 12:5, 6, 11, 17; 14:22, 23). The paying of the tithes was an important part of the Jewish religious worship. In the days of Hezekiah one of the first results of the reformation of religion was the eagerness with which the people brought in their tithes (2 Chr. 31:5, 6). The neglect of this duty was sternly rebuked by the prophets (Amos 4:4; Mal. 3:8-10). It cannot be affirmed that the Old Testament law of tithes is binding on the Christian Church, nevertheless the principle of this law remains, and is incorporated in the gospel (1 Cor. 9:13, 14); and if, as is the case, the motive that ought to prompt to liberality in the cause of religion and of the service of God be greater now than in Old Testament times, then Christians outght to go beyond the ancient Hebrew in consecrating both themselves and their substance to God. Every Jew was required by the Levitical law to pay three tithes of his property (1) one tithe for the Levites; (2) one for the use of the temple and the great feasts; and (3) one for the poor of the land.",
-      "extracted_refs": [
-        {
-          "book": "Genesis",
-          "chapter": 14,
-          "verses": [
-            20
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 14:20",
-          "source": "EAS"
-        },
-        {
-          "book": "Hebrews",
-          "chapter": 7,
-          "verses": [
-            6
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Hebrews 7:6",
-          "source": "EAS"
-        },
-        {
-          "book": "Numbers",
-          "chapter": 18,
-          "verses": [
-            21,
-            22,
-            23,
-            24,
-            26,
-            27,
-            28
-          ],
-          "verse_count": 7,
-          "testament": "OT",
-          "raw": "Numbers 18:21-24, 26-28",
-          "source": "EAS"
-        },
-        {
-          "book": "Deuteronomy",
-          "chapter": 12,
-          "verses": [
-            5,
-            6,
-            11,
-            17
-          ],
-          "verse_count": 4,
-          "testament": "OT",
-          "raw": "Deuteronomy 12:5, 6, 11, 17",
-          "source": "EAS"
-        },
-        {
-          "book": "Deuteronomy",
-          "chapter": 14,
-          "verses": [
-            22,
-            23
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Deuteronomy 14:22, 23",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Chronicles",
-          "chapter": 31,
-          "verses": [
-            5,
-            6
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "2 Chronicles 31:5, 6",
-          "source": "EAS"
-        },
-        {
-          "book": "Amos",
-          "chapter": 4,
-          "verses": [
-            4
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Amos 4:4",
-          "source": "EAS"
-        },
-        {
-          "book": "Malachi",
-          "chapter": 3,
-          "verses": [
-            8,
-            9,
-            10
-          ],
-          "verse_count": 3,
-          "testament": "OT",
-          "raw": "Malachi 3:8-10",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Corinthians",
-          "chapter": 9,
-          "verses": [
-            13,
-            14
-          ],
-          "verse_count": 2,
-          "testament": "NT",
-          "raw": "1 Corinthians 9:13, 14",
-          "source": "EAS"
-        },
-        {
-          "book": "Leviticus",
-          "chapter": 27,
-          "verses": [
-            30,
-            31,
-            32
-          ],
-          "verse_count": 3,
-          "testament": "OT",
-          "raw": "Leviticus 27:30-32",
-          "source": "EAS"
-        }
-      ]
-    }
-  ],
   "sources": [
     "NAV",
-    "TOR",
-    "EAS"
+    "TOR"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -1388,21 +1242,5 @@
       "raw": "Leviticus 27:30-32",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 26,
-    "ot": 23,
-    "nt": 3,
-    "books": [
-      "1 Corinthians",
-      "2 Chronicles",
-      "Amos",
-      "Deuteronomy",
-      "Genesis",
-      "Hebrews",
-      "Leviticus",
-      "Malachi",
-      "Numbers"
-    ]
-  }
+  ]
 }

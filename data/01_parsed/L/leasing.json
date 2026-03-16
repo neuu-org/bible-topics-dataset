@@ -1,7 +1,7 @@
 {
   "topic": "LEASING",
   "slug": "leasing",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Falsifying Ps 4:2",
@@ -12,17 +12,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_235822",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T23:58:22.077916",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -31,108 +20,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "(Ps. 4:2; 5:6) an Old English word meaning lies, or lying, as the Hebrew word kazabh is generally rendered.",
-      "extracted_refs": [
-        {
-          "book": "Psalms",
-          "chapter": 4,
-          "verses": [
-            2
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Psalms 4:2",
-          "source": "EAS"
-        },
-        {
-          "book": "Psalms",
-          "chapter": 5,
-          "verses": [
-            6
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Psalms 5:6",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(falsehood). This word is retained in the Authorized Version of (Psalms 4:2; 5:6) from the older English versions; but the Hebrew word of which it is the rendering is elsewhere almost uniformly translated “lies.” (Psalms 40:4; 58:3) etc.",
-      "extracted_refs": [
-        {
-          "book": "Psalms",
-          "chapter": 4,
-          "verses": [
-            2
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Psalms 4:2",
-          "source": "SMI"
-        },
-        {
-          "book": "Psalms",
-          "chapter": 5,
-          "verses": [
-            6
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Psalms 5:6",
-          "source": "SMI"
-        },
-        {
-          "book": "Psalms",
-          "chapter": 40,
-          "verses": [
-            4
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Psalms 40:4",
-          "source": "SMI"
-        },
-        {
-          "book": "Psalms",
-          "chapter": 58,
-          "verses": [
-            3
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Psalms 58:3",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Psalms 4:2",
-      "original": "Ps. 4:2"
-    },
-    {
-      "reference": "Psalms 5:6",
-      "original": "Ps 5:6"
-    },
-    {
-      "reference": "Psalms 40:4",
-      "original": "Psalms 40:4"
-    },
-    {
-      "reference": "Psalms 58:3",
-      "original": "Psalms 58:3"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -188,13 +77,5 @@
       "raw": "Psalms 58:3",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 4,
-    "ot": 4,
-    "nt": 0,
-    "books": [
-      "Psalms"
-    ]
-  }
+  ]
 }

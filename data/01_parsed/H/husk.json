@@ -1,7 +1,7 @@
 {
   "topic": "HUSK",
   "slug": "husk",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A pod Nu 6:4; 2Ki 4:42",
@@ -31,17 +31,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_221316",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T22:13:16.504492",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -50,50 +39,8 @@
     "nt_refs": 0,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "In Num. 6:4 (Heb. zag) it means the “skin” of a grape. In 2 Kings 4:42 (Heb. tsiqlon) it means a “sack” for grain, as rendered in the Revised Version. In Luke 15:16, in the parable of the Prodigal Son, it designates the beans of the carob tree, or Ceratonia siliqua. From the supposition, mistaken, however, that it was on the husks of this tree that John the Baptist fed, it is called “St. John’s bread” and “locust tree.” This tree is in “February covered with innumerable purple-red pendent blossoms, which ripen in April and May into large crops of pods from 6 to 10 inches long, flat, brown, narrow, and bent like a horn (whence the Greek name keratia, meaning ‘little horns’), with a sweetish taste when still unripe. Enormous quantities of these are gathered for sale in various towns and for exportation.” “They were eaten as food, though only by the poorest of the poor, in the time of our Lord.” The bean is called a “gerah,” which is used as the name of the smallest Hebrew weight, twenty of these making a shekel.",
-      "extracted_refs": [
-        {
-          "book": "Numbers",
-          "chapter": 6,
-          "verses": [
-            4
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Numbers 6:4",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Kings",
-          "chapter": 4,
-          "verses": [
-            42
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Kings 4:42",
-          "source": "EAS"
-        },
-        {
-          "book": "Luke",
-          "chapter": 15,
-          "verses": [
-            16
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Luke 15:16",
-          "source": "EAS"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -138,15 +85,5 @@
       "raw": "Luke 15:16",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 3,
-    "ot": 2,
-    "nt": 1,
-    "books": [
-      "2 Kings",
-      "Luke",
-      "Numbers"
-    ]
-  }
+  ]
 }

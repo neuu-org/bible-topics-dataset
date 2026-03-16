@@ -1,7 +1,7 @@
 {
   "topic": "ASAREEL",
   "slug": "asareel",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Son of Jehaleleel 1Ch 4:16",
@@ -12,209 +12,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "Asareel, mencionado em 1 Crônicas 4:16 como filho de Jehaleleel, é uma figura que representa a continuidade das linhagens israelitas e a importância da genealogia nas Escrituras. Embora não haja muitos detalhes sobre sua vida ou ações, sua inclusão nas listas genealógicas destaca a relevância da herança e da identidade tribal em Israel, refletindo a fidelidade de Deus às promessas feitas a Abraão, Isaque e Jacó. A genealogia serve como um testemunho da soberania divina na história do povo escolhido.",
-    "outline": [
-      "Genealogia e Identidade: A importância das linhagens em Israel.",
-      "A Soberania de Deus: Como Deus preserva Seu povo através das gerações.",
-      "O Papel de Jehaleleel: A conexão familiar e seu significado.",
-      "A Relevância das Listas Genealógicas: O que elas nos ensinam sobre a história da salvação."
-    ],
-    "key_concepts": [
-      "Genealogia",
-      "Identidade Tribal",
-      "Promessas de Deus"
-    ],
-    "theological_significance": "A menção de Asareel e sua linhagem nos lembra da importância da história e da identidade do povo de Deus. Para a fé cristã, isso reforça a ideia de que Deus opera através da história e das famílias, e que cada indivíduo tem um papel na narrativa maior da redenção. A genealogia de Jesus, que inclui muitos nomes obscuros, também reflete essa continuidade e a inclusão de todos na obra divina.",
-    "model": "gpt-4o-mini",
-    "run_id": "enr_20250923_144001_bfdb7d35",
-    "confidence": 1.0,
-    "generated_at": "2025-09-23T14:40:01.497735"
-  },
-  "ai_themes_normalized": [
-    {
-      "theme_id": null,
-      "proposal_id": "prop:promessas_de_deus_7a6116",
-      "label_original": "Promessas de Deus",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:identidade_e_heranca_01265d",
-      "label_original": "Identidade e Herança",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:a_historia_da_salvacao_b4b1e4",
-      "label_original": "A História da Salvação",
-      "source": "ai_enrichment"
-    }
-  ],
-  "phase1_discovery": {
-    "processed_at": "2025-09-23T22:52:47.483355Z",
-    "total_themes_processed": 3,
-    "summary": {
-      "total_processed": 3,
-      "decisions": {
-        "alias_existing": 0,
-        "proposed": 3,
-        "error": 0
-      },
-      "success_rate": 1.0
-    },
-    "results": [
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.84448,
-          "novelty": 1.0,
-          "similarity_to_best_existing": 0.0,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_4c091a16",
-          "decision_hash": "29b2109209960ae3",
-          "created_at": "2025-09-23T22:52:47.483355Z"
-        },
-        "proposal_id": "prop:e6f4c692",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:promessas_de_deus_7a6116",
-          "label_original": "Promessas de Deus",
-          "confidence": 0.5357600000000001,
-          "source": "ai_enrichment"
-        }
-      },
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.84854,
-          "novelty": 1.0,
-          "similarity_to_best_existing": 0.0,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_97411f4a",
-          "decision_hash": "e31c09948bddfdcd",
-          "created_at": "2025-09-23T22:52:48.583809Z"
-        },
-        "proposal_id": "prop:ba62148b",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:identidade_e_heranca_01265d",
-          "label_original": "Identidade e Herança",
-          "confidence": 0.5342800000000001,
-          "source": "ai_enrichment"
-        }
-      },
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "low_novelty",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.7353999999999999,
-          "novelty": 0.5,
-          "similarity_to_best_existing": 0.5,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_c7f63534",
-          "decision_hash": "a9b8bcd30ef179e2",
-          "created_at": "2025-09-23T22:52:49.647072Z"
-        },
-        "proposal_id": "prop:88ef3cb4",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:a_historia_da_salvacao_b4b1e4",
-          "label_original": "A História da Salvação",
-          "confidence": 0.8508200000000001,
-          "source": "ai_enrichment"
-        }
-      }
-    ]
-  },
-  "entity_links": [
-    {
-      "canonical_id": "CON:asareel",
-      "namespace": "CONCEPT",
-      "role": "primary",
-      "confidence": 0.9,
-      "source": "topic_resolver",
-      "status": "proposed",
-      "provenance": {
-        "topic": "ASAREEL",
-        "extracted_from": "ASAREEL",
-        "processing_result": {
-          "status": "proposed",
-          "proposal_id": "stub:CON:asareel_583a0d34",
-          "canonical_id": "CON:asareel",
-          "needs_review": true,
-          "reasons": [
-            "low_confidence",
-            "insufficient_sources"
-          ],
-          "message": "Entity proposal stub:CON:asareel_583a0d34 created"
-        }
-      }
-    }
-  ],
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -223,34 +20,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "SMI",
-      "text": "(whom God hath bound (by an oath)), a son of Jehaleleel, in the genealogies of Judah. (1 Chronicles 4:16)",
-      "extracted_refs": [
-        {
-          "book": "1 Chronicles",
-          "chapter": 4,
-          "verses": [
-            16
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 4:16",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "1 Chronicles 4:16",
-      "original": "1 Chronicles 4:16"
-    }
-  ],
   "sources": [
-    "NAV",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -273,13 +44,5 @@
       "raw": "1 Chronicles 4:16",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 1,
-    "ot": 1,
-    "nt": 0,
-    "books": [
-      "1 Chronicles"
-    ]
-  }
+  ]
 }

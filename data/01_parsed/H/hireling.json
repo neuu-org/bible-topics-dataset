@@ -1,7 +1,7 @@
 {
   "topic": "HIRELING",
   "slug": "hireling",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Not to be oppressed Mal 3:5",
@@ -17,17 +17,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_215655",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T21:56:55.814531",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [
     "SERVANT"
   ],
@@ -38,107 +27,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "A labourer employed on hire for a limited time (Job 7:1; 14:6; Mark 1:20). His wages were paid as soon as his work was over (Lev. 19:13). In the time of our Lord a day’s wage was a “penny” (q.v.) i.e., a Roman denarius (Matt. 20:1-14).",
-      "extracted_refs": [
-        {
-          "book": "Job",
-          "chapter": 7,
-          "verses": [
-            1
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Job 7:1",
-          "source": "EAS"
-        },
-        {
-          "book": "Job",
-          "chapter": 14,
-          "verses": [
-            6
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Job 14:6",
-          "source": "EAS"
-        },
-        {
-          "book": "Mark",
-          "chapter": 1,
-          "verses": [
-            20
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Mark 1:20",
-          "source": "EAS"
-        },
-        {
-          "book": "Leviticus",
-          "chapter": 19,
-          "verses": [
-            13
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Leviticus 19:13",
-          "source": "EAS"
-        },
-        {
-          "book": "Matthew",
-          "chapter": 20,
-          "verses": [
-            1,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7,
-            8,
-            9,
-            10,
-            11,
-            12,
-            13,
-            14
-          ],
-          "verse_count": 14,
-          "testament": "NT",
-          "raw": "Matthew 20:1-14",
-          "source": "EAS"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Job 7:1",
-      "original": "Job 7:1"
-    },
-    {
-      "reference": "Job 14:6",
-      "original": "Job 14:6"
-    },
-    {
-      "reference": "Mark 1:20",
-      "original": "Mark 1:20"
-    },
-    {
-      "reference": "Leviticus 19:13",
-      "original": "Lev. 19:13"
-    },
-    {
-      "reference": "Matthew 20:1-14",
-      "original": "Matt. 20:1-14"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -218,16 +108,5 @@
       "raw": "Matthew 20:1-14",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 18,
-    "ot": 3,
-    "nt": 15,
-    "books": [
-      "Job",
-      "Leviticus",
-      "Mark",
-      "Matthew"
-    ]
-  }
+  ]
 }

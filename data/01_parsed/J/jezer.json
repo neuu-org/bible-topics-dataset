@@ -1,7 +1,7 @@
 {
   "topic": "JEZER",
   "slug": "jezer",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Son of Naphtali Ge 46:24; Nu 26:49; 1Ch 7:13",
@@ -36,17 +36,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_231540",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T23:15:40.847562",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -55,50 +44,8 @@
     "nt_refs": 0,
     "total_verses": 2
   },
-  "definitions": [
-    {
-      "source": "SMI",
-      "text": "(power), the third son of Naphtali, (Genesis 46:24; Numbers 26:49; 1 Chronicles 7:13) and father of the family of Jezerites.",
-      "extracted_refs": [
-        {
-          "book": "Genesis",
-          "chapter": 46,
-          "verses": [
-            24
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 46:24",
-          "source": "SMI"
-        },
-        {
-          "book": "Numbers",
-          "chapter": 26,
-          "verses": [
-            49
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Numbers 26:49",
-          "source": "SMI"
-        },
-        {
-          "book": "1 Chronicles",
-          "chapter": 7,
-          "verses": [
-            13
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 7:13",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -143,15 +90,5 @@
       "raw": "1 Chronicles 7:13",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 3,
-    "ot": 3,
-    "nt": 0,
-    "books": [
-      "1 Chronicles",
-      "Genesis",
-      "Numbers"
-    ]
-  }
+  ]
 }

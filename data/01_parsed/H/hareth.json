@@ -1,7 +1,7 @@
 {
   "topic": "HARETH",
   "slug": "hareth",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A forest in which David found refuge from Saul 1Sa 22:5",
@@ -12,17 +12,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_210730",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T21:07:30.476861",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -31,93 +20,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Thicket, a wood in the mountains of Judah where David hid when pursued by Saul (1 Sam. 22:5). It was possibly while he was here that the memorable incident narrated in 2 Sam. 23:14-17, 1 Chr. 11:16-19 occurred. This place has not been identified, but perhaps it may be the modern Kharas, on the borders of the chain of mountains some 3 miles east of Keilah.",
-      "extracted_refs": [
-        {
-          "book": "1 Samuel",
-          "chapter": 22,
-          "verses": [
-            5
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Samuel 22:5",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Samuel",
-          "chapter": 23,
-          "verses": [
-            1,
-            14,
-            15,
-            16,
-            17
-          ],
-          "verse_count": 5,
-          "testament": "OT",
-          "raw": "2 Samuel 23:14-17, 1",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Chronicles",
-          "chapter": 11,
-          "verses": [
-            16,
-            17,
-            18,
-            19
-          ],
-          "verse_count": 4,
-          "testament": "OT",
-          "raw": "1 Chronicles 11:16-19",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(thicket), The forest of, in which David took refuge, after at the instigation of the prophet Gad, he had quitted the “hold” or fastness of the cave of Adullam. (1 Samuel 22:6)",
-      "extracted_refs": [
-        {
-          "book": "1 Samuel",
-          "chapter": 22,
-          "verses": [
-            6
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Samuel 22:6",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "1 Samuel 22:5",
-      "original": "1 Sam. 22:5"
-    },
-    {
-      "reference": "2 Samuel 23:14-17",
-      "original": "2 Sam. 23:14-17"
-    },
-    {
-      "reference": "1 Chronicles 11:16-19",
-      "original": "1 Chr. 11:16-19"
-    },
-    {
-      "reference": "1 Samuel 22:6",
-      "original": "1 Samuel 22:6"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -180,15 +84,5 @@
       "raw": "1 Samuel 22:6",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 11,
-    "ot": 11,
-    "nt": 0,
-    "books": [
-      "1 Chronicles",
-      "1 Samuel",
-      "2 Samuel"
-    ]
-  }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "topic": "JORAM",
   "slug": "joram",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "1. A son of Toi 2Sa 8:9,10",
@@ -75,17 +75,6 @@
       "verse_count": 2
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_232311",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T23:23:11.094958",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -94,46 +83,8 @@
     "nt_refs": 0,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "=Jeho’ram. (1.) One of the kings of Israel (2 Kings 8:16, 25, 28). He was the son of Ahab. (2.) Jehoram, the son and successor of Jehoshaphat on the throne of Judah (2 Kings 8:24).",
-      "extracted_refs": [
-        {
-          "book": "2 Kings",
-          "chapter": 8,
-          "verses": [
-            16,
-            25,
-            28
-          ],
-          "verse_count": 3,
-          "testament": "OT",
-          "raw": "2 Kings 8:16, 25, 28",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Kings",
-          "chapter": 8,
-          "verses": [
-            24
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Kings 8:24",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(whom Jehovah has exalted)."
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -169,13 +120,5 @@
       "raw": "2 Kings 8:24",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 4,
-    "ot": 4,
-    "nt": 0,
-    "books": [
-      "2 Kings"
-    ]
-  }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "topic": "AIJELETH SHAHAR",
   "slug": "aijeleth-shahar",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "idx": 0,
@@ -24,210 +24,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "AIJELETH SHAHAR é uma expressão encontrada no título do Salmo 22, que é interpretada como um termo musical que sugere um movimento alegre e vivaz na música. Este salmo, que expressa um profundo clamor e angústia, também é um hino de esperança e confiança em Deus. A inclusão de um termo musical como AIJELETH SHAHAR destaca a importância da música na adoração e na expressão emocional da fé, refletindo a conexão entre a arte e a espiritualidade na tradição israelita.",
-    "outline": [
-      "Definição e interpretação de AIJELETH SHAHAR como um termo musical.",
-      "Contexto do Salmo 22 e sua estrutura lírica.",
-      "A relação entre música e adoração na tradição hebraica.",
-      "A importância do Salmo 22 na liturgia e na vida espiritual dos crentes."
-    ],
-    "key_concepts": [
-      "Música na adoração",
-      "Expressão emocional na oração",
-      "Lamento e esperança"
-    ],
-    "theological_significance": "AIJELETH SHAHAR, ao ser um termo musical, enfatiza a importância da música como meio de adoração e expressão da fé. O Salmo 22, que começa com um clamor de desespero e termina em louvor, serve como um modelo para os crentes que enfrentam dificuldades, mostrando que a música pode ser um veículo para a comunicação com Deus e para a transformação emocional.",
-    "model": "gpt-4o-mini",
-    "run_id": "enr_20250923_124029_97e303f3",
-    "confidence": 1.0,
-    "generated_at": "2025-09-23T12:40:29.153913"
-  },
-  "ai_themes_normalized": [
-    {
-      "theme_id": null,
-      "proposal_id": "prop:lamento_e_confianca_em_deus_65b015",
-      "label_original": "Lamento e confiança em Deus",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:a_presenca_de_deus_em_tempos_de_sofrimento_8bb740",
-      "label_original": "A presença de Deus em tempos de sofrimento",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:a_funcao_da_musica_na_adoracao_7b7f34",
-      "label_original": "A função da música na adoração",
-      "source": "ai_enrichment"
-    }
-  ],
-  "phase1_discovery": {
-    "processed_at": "2025-09-23T22:38:35.246093Z",
-    "total_themes_processed": 3,
-    "summary": {
-      "total_processed": 3,
-      "decisions": {
-        "alias_existing": 0,
-        "proposed": 3,
-        "error": 0
-      },
-      "success_rate": 1.0
-    },
-    "results": [
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "low_novelty",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.7790999999999999,
-          "novelty": 0.6666666666666667,
-          "similarity_to_best_existing": 0.3333333333333333,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_27fbe43e",
-          "decision_hash": "c0328ac8e4451139",
-          "created_at": "2025-09-23T22:38:35.246093Z"
-        },
-        "proposal_id": "prop:2afd880c",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:lamento_e_confianca_em_deus_65b015",
-          "label_original": "Lamento e confiança em Deus",
-          "confidence": 0.9500000000000001,
-          "source": "ai_enrichment"
-        }
-      },
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.83224,
-          "novelty": 1.0,
-          "similarity_to_best_existing": 0.0,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_90897805",
-          "decision_hash": "dc25b5129e55c0d7",
-          "created_at": "2025-09-23T22:38:36.429534Z"
-        },
-        "proposal_id": "prop:554af769",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:a_presenca_de_deus_em_tempos_de_sofrimento_8bb740",
-          "label_original": "A presença de Deus em tempos de sofrimento",
-          "confidence": 0.9500000000000001,
-          "source": "ai_enrichment"
-        }
-      },
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "low_novelty",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.7739799999999999,
-          "novelty": 0.6666666666666667,
-          "similarity_to_best_existing": 0.3333333333333333,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_e08e6c65",
-          "decision_hash": "ccad236d332fe44b",
-          "created_at": "2025-09-23T22:38:37.431766Z"
-        },
-        "proposal_id": "prop:8d8b5ae3",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:a_funcao_da_musica_na_adoracao_7b7f34",
-          "label_original": "A função da música na adoração",
-          "confidence": 0.9500000000000001,
-          "source": "ai_enrichment"
-        }
-      }
-    ]
-  },
-  "entity_links": [
-    {
-      "canonical_id": "CON:aijeleth_shahar",
-      "namespace": "CONCEPT",
-      "role": "primary",
-      "confidence": 0.9,
-      "source": "topic_resolver",
-      "status": "proposed",
-      "provenance": {
-        "topic": "AIJELETH SHAHAR",
-        "extracted_from": "AIJELETH SHAHAR",
-        "processing_result": {
-          "status": "proposed",
-          "proposal_id": "stub:CON:aijeleth_shahar_4058822e",
-          "canonical_id": "CON:aijeleth_shahar",
-          "needs_review": true,
-          "reasons": [
-            "low_confidence",
-            "insufficient_sources"
-          ],
-          "message": "Entity proposal stub:CON:aijeleth_shahar_4058822e created"
-        }
-      }
-    }
-  ],
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -236,33 +32,8 @@
     "nt_refs": 0,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Hind of the dawn, a name found in the title of Ps. 22. It is probably the name of some song or tune to the measure of which the psalm was to be chanted. Some, however, understand by the name some instrument of music, or an allegorical allusion to the subject of the psalm."
-    },
-    {
-      "source": "SMI",
-      "text": "(the hind of the morning dawn), found once only in the Bible, in the title of (Psalms 22:1) It probably describes to the musician the melody to which the psalm was to be played.",
-      "extracted_refs": [
-        {
-          "book": "Psalms",
-          "chapter": 22,
-          "verses": [
-            1
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Psalms 22:1",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -285,13 +56,5 @@
       "raw": "Psalms 22:1",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 1,
-    "ot": 1,
-    "nt": 0,
-    "books": [
-      "Psalms"
-    ]
-  }
+  ]
 }

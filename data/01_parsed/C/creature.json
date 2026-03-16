@@ -1,7 +1,7 @@
 {
   "topic": "CREATURE",
   "slug": "creature",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "See CREATION",
@@ -39,45 +39,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "O conceito de 'criatura' na Bíblia, especialmente no Novo Testamento, refere-se à nova criação que ocorre através da regeneração em Cristo. Em 2 Coríntios 5:17 e Gálatas 6:15, a ideia de se tornar uma nova criatura é central para a compreensão da transformação espiritual que acompanha a fé em Jesus. Este conceito está intimamente ligado à criação original de Deus e à relação entre o Criador e a criação, destacando a importância da regeneração e da nova vida em Cristo.",
-    "outline": [
-      "Definição de criatura no contexto bíblico",
-      "A nova criatura como resultado da regeneração",
-      "Relação entre a criação original e a nova criação",
-      "Importância da transformação espiritual na vida do crente"
-    ],
-    "key_concepts": [
-      "Regeneração em Cristo",
-      "Nova criação",
-      "Relação entre Criador e criatura"
-    ],
-    "theological_significance": "O conceito de criatura é fundamental para a teologia cristã, pois enfatiza a transformação que ocorre na vida do crente através da fé em Cristo. A nova criação simboliza a restauração da relação entre Deus e a humanidade, destacando a obra redentora de Jesus e a importância da regeneração espiritual.",
-    "model": "gpt-4o-mini",
-    "run_id": "enr_20251202_023335_d16bd44a",
-    "confidence": 1.0,
-    "generated_at": "2025-12-02T02:33:35.237565"
-  },
-  "ai_themes_normalized": [
-    {
-      "theme_id": null,
-      "proposal_id": "prop:regeneração_como_tra_07d904",
-      "label_original": "Regeneração como transformação espiritual",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:a_criação_como_ato_d_0d9d48",
-      "label_original": "A criação como ato divino",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:a_nova_criatura_e_a__01ba40",
-      "label_original": "A nova criatura e a identidade em Cristo",
-      "source": "ai_enrichment"
-    }
-  ],
   "see_also": [
     "MAN, CREATED",
     "GOD, CREATOR",
@@ -91,87 +52,8 @@
     "nt_refs": 1,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Denotes the whole creation in Rom. 8:39; Col. 1:15; Rev. 5:13; the whole human race in Mark 16:15; Rom. 8:19-22. The living creatures in Ezek. 10:15, 17, are imaginary beings, symbols of the Divine attributes and operations.",
-      "extracted_refs": [
-        {
-          "book": "Romans",
-          "chapter": 8,
-          "verses": [
-            39
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Romans 8:39",
-          "source": "EAS"
-        },
-        {
-          "book": "Colossians",
-          "chapter": 1,
-          "verses": [
-            15
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Colossians 1:15",
-          "source": "EAS"
-        },
-        {
-          "book": "Revelation",
-          "chapter": 5,
-          "verses": [
-            13
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Revelation 5:13",
-          "source": "EAS"
-        },
-        {
-          "book": "Mark",
-          "chapter": 16,
-          "verses": [
-            15
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Mark 16:15",
-          "source": "EAS"
-        },
-        {
-          "book": "Romans",
-          "chapter": 8,
-          "verses": [
-            19,
-            20,
-            21,
-            22
-          ],
-          "verse_count": 4,
-          "testament": "NT",
-          "raw": "Romans 8:19-22",
-          "source": "EAS"
-        },
-        {
-          "book": "Ezekiel",
-          "chapter": 10,
-          "verses": [
-            15,
-            17
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Ezekiel 10:15, 17",
-          "source": "EAS"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -253,17 +135,5 @@
       "raw": "Ezekiel 10:15, 17",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 10,
-    "ot": 2,
-    "nt": 8,
-    "books": [
-      "Colossians",
-      "Ezekiel",
-      "Mark",
-      "Revelation",
-      "Romans"
-    ]
-  }
+  ]
 }

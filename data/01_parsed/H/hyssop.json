@@ -1,7 +1,7 @@
 {
   "topic": "HYSSOP",
   "slug": "hyssop",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "An indigenous plant to western Asia and northern Africa 1Ki 4:33",
@@ -67,17 +67,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_221454",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T22:14:54.837256",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -86,148 +75,8 @@
     "nt_refs": 1,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "(Heb. ‘ezob; LXX. hyssopos), first mentioned in Ex. 12:22 in connection with the institution of the Passover. We find it afterwards mentioned in Lev. 14:4, 6, 52; Num. 19:6, 18; Heb. 9:19. It is spoken of as a plant “springing out of the wall” (1 Kings 4:33). Many conjectures have been formed as to what this plant really was. Some contend that it was a species of marjoram (origanum), six species of which are found in Palestine. Others with more probability think that it was the caper plant, the Capparis spinosa of Linnaeus. This plant grew in Egypt, in the desert of Sinai, and in Palestine. It was capable of producing a stem three or four feet in length (Matt. 27:48; Mark 15:36. Comp. John 19:29).",
-      "extracted_refs": [
-        {
-          "book": "1 Kings",
-          "chapter": 4,
-          "verses": [
-            33
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Kings 4:33",
-          "source": "EAS"
-        },
-        {
-          "book": "Matthew",
-          "chapter": 27,
-          "verses": [
-            48
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Matthew 27:48",
-          "source": "EAS"
-        },
-        {
-          "book": "Mark",
-          "chapter": 15,
-          "verses": [
-            36
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Mark 15:36",
-          "source": "EAS"
-        },
-        {
-          "book": "John",
-          "chapter": 19,
-          "verses": [
-            29
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "John 19:29",
-          "source": "EAS"
-        },
-        {
-          "book": "Exodus",
-          "chapter": 12,
-          "verses": [
-            22
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Exodus 12:22",
-          "source": "EAS"
-        },
-        {
-          "book": "Leviticus",
-          "chapter": 14,
-          "verses": [
-            4,
-            6,
-            52
-          ],
-          "verse_count": 3,
-          "testament": "OT",
-          "raw": "Leviticus 14:4, 6, 52",
-          "source": "EAS"
-        },
-        {
-          "book": "Numbers",
-          "chapter": 19,
-          "verses": [
-            6,
-            18
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Numbers 19:6, 18",
-          "source": "EAS"
-        },
-        {
-          "book": "Hebrews",
-          "chapter": 9,
-          "verses": [
-            19
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Hebrews 9:19",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(Heb. ezob.) The ezob was used for sprinkling in some of the sacrifices and purifications of the Jews. In consequence of its detergent qualities, or from its being associated with the purificatory Services, the psalmist makes use of the expression, “Purge me with ezob .” (Psalms 51:7) It is described in (1 Kings 4:33) as growing on or near walls. (Besides being thus fit for sprinkling, having cleansing properties and growing on walls, the true hyssop should be a plant common to Egypt, Sinai and Palestine, and capable of producing a stick three or four feet long since on a stalk of hyssop the sponge of vinegar was held up to Christ on the cross. (John 19:29) it is impossible to precisely identify the plant because the name was given not to a particular plant but to a family of plants associated together by Hyssop, qualities easily noticed rather than by close botanical affinities. Different species of the family may have been used at different times. The hyssop of the Bible is probably one (or all) of three plants:—",
-      "extracted_refs": [
-        {
-          "book": "Psalms",
-          "chapter": 51,
-          "verses": [
-            7
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Psalms 51:7",
-          "source": "SMI"
-        },
-        {
-          "book": "1 Kings",
-          "chapter": 4,
-          "verses": [
-            33
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Kings 4:33",
-          "source": "SMI"
-        },
-        {
-          "book": "John",
-          "chapter": 19,
-          "verses": [
-            29
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "John 19:29",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -341,21 +190,5 @@
       "raw": "Psalms 51:7",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 12,
-    "ot": 8,
-    "nt": 4,
-    "books": [
-      "1 Kings",
-      "Exodus",
-      "Hebrews",
-      "John",
-      "Leviticus",
-      "Mark",
-      "Matthew",
-      "Numbers",
-      "Psalms"
-    ]
-  }
+  ]
 }

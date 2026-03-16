@@ -1,7 +1,7 @@
 {
   "topic": "MATTHAN",
   "slug": "matthan",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "An ancestor of Jesus Mt 1:15",
@@ -12,17 +12,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_004209",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T00:42:09.956166",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -31,52 +20,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Gift, one of our Lord’s ancestry (Matt. 1:15).",
-      "extracted_refs": [
-        {
-          "book": "Matthew",
-          "chapter": 1,
-          "verses": [
-            15
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Matthew 1:15",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(gift), grandfather of Joseph the husband of the Virgin Mary. (Matthew 1:15)",
-      "extracted_refs": [
-        {
-          "book": "Matthew",
-          "chapter": 1,
-          "verses": [
-            15
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Matthew 1:15",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Matthew 1:15",
-      "original": "Matt. 1:15"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -99,13 +44,5 @@
       "raw": "Matthew 1:15",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 1,
-    "ot": 0,
-    "nt": 1,
-    "books": [
-      "Matthew"
-    ]
-  }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "topic": "CUCKOO",
   "slug": "cuckoo",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "(A bird)",
@@ -29,44 +29,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "O cuco é uma ave mencionada nas Escrituras Hebraicas, especificamente em Levítico e Deuteronômio, onde é classificado como um alimento proibido para os israelitas. Sua inclusão nas listas de animais impuros reflete as diretrizes alimentares que Deus estabeleceu para o povo de Israel, enfatizando a importância da santidade e da obediência às leis divinas. A proibição do cuco, assim como de outras aves, serve como um lembrete da separação entre o sagrado e o profano, um tema central na legislação mosaica.",
-    "outline": [
-      "Classificação do cuco como ave proibida",
-      "Referências em Levítico e Deuteronômio",
-      "Importância das leis alimentares na tradição israelita"
-    ],
-    "key_concepts": [
-      "Pureza ritual e santidade",
-      "Obediência às leis divinas",
-      "Identidade do povo de Deus"
-    ],
-    "theological_significance": "A proibição do cuco, como parte das leis alimentares, destaca a importância da pureza e da obediência na vida do povo de Deus. Essas diretrizes não apenas regulavam a dieta, mas também simbolizavam a separação do povo em relação às práticas das nações vizinhas, reforçando sua identidade como povo escolhido por Deus.",
-    "model": "gpt-4o-mini",
-    "run_id": "enr_20251202_023847_c4864675",
-    "confidence": 0.9500000000000002,
-    "generated_at": "2025-12-02T02:38:47.084432"
-  },
-  "ai_themes_normalized": [
-    {
-      "theme_id": null,
-      "proposal_id": "prop:pureza_alimentar_e_s_0c97b2",
-      "label_original": "Pureza alimentar e santidade",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:obediência_às_instru_00fc56",
-      "label_original": "Obediência às instruções divinas",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:identidade_e_separaç_01b1ac",
-      "label_original": "Identidade e separação do povo de Deus",
-      "source": "ai_enrichment"
-    }
-  ],
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -75,68 +37,8 @@
     "nt_refs": 0,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "(Heb. shahaph), from a root meaning “to be lean; slender.” This bird is mentioned only in Lev. 11:16 and Deut. 14:15 (R.V., “seamew”). Some have interpreted the Hebrew word by “petrel” or “shearwater” (Puffinus cinereus), which is found on the coast of Syria; others think it denotes the “sea-gull” or “seamew.” The common cuckoo (Cuculus canorus) feeds on reptiles and large insects. It is found in Asia and Africa as well as in Europe. It only passes the winter in Palestine. The Arabs suppose it to utter the cry Yakub_, and hence they call it _tir el-Yakub; i.e., “Jacob’s bird.”",
-      "extracted_refs": [
-        {
-          "book": "Leviticus",
-          "chapter": 11,
-          "verses": [
-            16
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Leviticus 11:16",
-          "source": "EAS"
-        },
-        {
-          "book": "Deuteronomy",
-          "chapter": 14,
-          "verses": [
-            15
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Deuteronomy 14:15",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(Leviticus 11:16; 14:15) the name of some of the larger petrels which abound in the east of the Mediterranean.",
-      "extracted_refs": [
-        {
-          "book": "Leviticus",
-          "chapter": 11,
-          "verses": [
-            16
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Leviticus 11:16",
-          "source": "SMI"
-        },
-        {
-          "book": "Leviticus",
-          "chapter": 14,
-          "verses": [
-            15
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Leviticus 14:15",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -181,14 +83,5 @@
       "raw": "Leviticus 14:15",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 3,
-    "ot": 3,
-    "nt": 0,
-    "books": [
-      "Deuteronomy",
-      "Leviticus"
-    ]
-  }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "topic": "IKKESH",
   "slug": "ikkesh",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Father of Ira 2Sa 23:26; 1Ch 11:28; 27:9",
@@ -26,17 +26,6 @@
       "verse_count": 2
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_221936",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T22:19:36.972777",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -45,50 +34,8 @@
     "nt_refs": 0,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "SMI",
-      "text": "(perverse), the father of Ira the Tekoite. (2 Samuel 23:26; 1 Chronicles 11:28; 27:9) (B.C. before 1046.)",
-      "extracted_refs": [
-        {
-          "book": "2 Samuel",
-          "chapter": 23,
-          "verses": [
-            26
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Samuel 23:26",
-          "source": "SMI"
-        },
-        {
-          "book": "1 Chronicles",
-          "chapter": 11,
-          "verses": [
-            28
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 11:28",
-          "source": "SMI"
-        },
-        {
-          "book": "1 Chronicles",
-          "chapter": 27,
-          "verses": [
-            9
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 27:9",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -133,14 +80,5 @@
       "raw": "1 Chronicles 27:9",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 3,
-    "ot": 3,
-    "nt": 0,
-    "books": [
-      "1 Chronicles",
-      "2 Samuel"
-    ]
-  }
+  ]
 }

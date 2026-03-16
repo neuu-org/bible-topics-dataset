@@ -1,7 +1,7 @@
 {
   "topic": "ADINO",
   "slug": "adino",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "One of David’s valiant men 2Sa 23:8",
@@ -12,208 +12,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "Adino, mencionado em 2 Samuel 23:8, é um dos valentes de Davi, conhecido por sua coragem e habilidade em batalha. Ele é descrito como um líder que se destacou entre os guerreiros de Davi, simbolizando a lealdade e a bravura que caracterizavam os homens que serviam ao rei. A menção de Adino não apenas destaca suas conquistas individuais, mas também reflete a importância da camaradagem e do apoio mútuo entre os guerreiros de Davi, que lutaram juntos em tempos de grande adversidade. Sua história é um lembrete da importância da fidelidade e da coragem na vida cristã.",
-    "outline": [
-      "Adino como um dos valentes de Davi",
-      "A bravura e as conquistas de Adino",
-      "O papel dos valentes de Davi na história de Israel",
-      "A importância da lealdade e camaradagem entre os guerreiros"
-    ],
-    "key_concepts": [
-      "Valentia",
-      "Lealdade",
-      "Liderança"
-    ],
-    "theological_significance": "A figura de Adino representa a coragem e a lealdade que são essenciais na vida cristã. Ele exemplifica como a fidelidade a Deus e ao próximo pode levar a grandes conquistas. A história dos valentes de Davi nos ensina sobre a importância de se unir em torno de um propósito comum e de apoiar uns aos outros em tempos de dificuldade, refletindo a comunidade da fé que deve existir entre os cristãos.",
-    "model": "gpt-4o-mini",
-    "run_id": "enr_20250923_082446_b96905a2",
-    "confidence": 1.0,
-    "generated_at": "2025-09-23T08:24:46.026435"
-  },
-  "ai_themes_normalized": [
-    {
-      "theme_id": null,
-      "proposal_id": "prop:coragem_em_batalha_94885a",
-      "label_original": "Coragem em batalha",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:lealdade_e_amizade_5e20ad",
-      "label_original": "Lealdade e amizade",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:lideranca_e_servico_847914",
-      "label_original": "Liderança e serviço",
-      "source": "ai_enrichment"
-    }
-  ],
-  "phase1_discovery": {
-    "processed_at": "2025-09-23T22:32:31.660779Z",
-    "total_themes_processed": 3,
-    "summary": {
-      "total_processed": 3,
-      "decisions": {
-        "alias_existing": 0,
-        "proposed": 3,
-        "error": 0
-      },
-      "success_rate": 1.0
-    },
-    "results": [
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.83626,
-          "novelty": 1.0,
-          "similarity_to_best_existing": 0.0,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_808de76b",
-          "decision_hash": "24bef6bdfd2c1caa",
-          "created_at": "2025-09-23T22:32:31.660779Z"
-        },
-        "proposal_id": "prop:709a477b",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:coragem_em_batalha_94885a",
-          "label_original": "Coragem em batalha",
-          "confidence": 0.9500000000000001,
-          "source": "ai_enrichment"
-        }
-      },
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.83554,
-          "novelty": 1.0,
-          "similarity_to_best_existing": 0.0,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_7b067dc8",
-          "decision_hash": "c9c45ef9826734e6",
-          "created_at": "2025-09-23T22:32:32.706601Z"
-        },
-        "proposal_id": "prop:3237b409",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:lealdade_e_amizade_5e20ad",
-          "label_original": "Lealdade e amizade",
-          "confidence": 0.9500000000000001,
-          "source": "ai_enrichment"
-        }
-      },
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.84746,
-          "novelty": 1.0,
-          "similarity_to_best_existing": 0.0,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_7b0d0e5d",
-          "decision_hash": "261a53bf576fdd40",
-          "created_at": "2025-09-23T22:32:33.995257Z"
-        },
-        "proposal_id": "prop:97e9102a",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:lideranca_e_servico_847914",
-          "label_original": "Liderança e serviço",
-          "confidence": 0.9500000000000001,
-          "source": "ai_enrichment"
-        }
-      }
-    ]
-  },
-  "entity_links": [
-    {
-      "canonical_id": "CON:adino",
-      "namespace": "CONCEPT",
-      "role": "primary",
-      "confidence": 0.9,
-      "source": "topic_resolver",
-      "status": "proposed",
-      "provenance": {
-        "topic": "ADINO",
-        "extracted_from": "ADINO",
-        "processing_result": {
-          "status": "proposed",
-          "proposal_id": "stub:CON:adino_30568486",
-          "canonical_id": "CON:adino",
-          "needs_review": true,
-          "reasons": [
-            "low_confidence",
-            "insufficient_sources"
-          ],
-          "message": "Entity proposal stub:CON:adino_30568486 created"
-        }
-      }
-    }
-  ],
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -222,34 +20,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "The Eznite, one of David’s mighty men (2 Sam. 23:8). (See JASHOBEAM.)",
-      "extracted_refs": [
-        {
-          "book": "2 Samuel",
-          "chapter": 23,
-          "verses": [
-            8
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Samuel 23:8",
-          "source": "EAS"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "2 Samuel 23:8",
-      "original": "2 Sam. 23:8"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -272,13 +44,5 @@
       "raw": "2 Samuel 23:8",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 1,
-    "ot": 1,
-    "nt": 0,
-    "books": [
-      "2 Samuel"
-    ]
-  }
+  ]
 }

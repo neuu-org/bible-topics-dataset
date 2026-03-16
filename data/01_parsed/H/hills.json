@@ -1,7 +1,7 @@
 {
   "topic": "HILLS",
   "slug": "hills",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Perpetual Ge 49:26; Hab 3:6",
@@ -24,17 +24,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_215530",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T21:55:30.633808",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -43,96 +32,8 @@
     "nt_refs": 0,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "SMI",
-      "text": "From the Hebrew Gibeah, meaning a curved round hill. But our translators have also employed the same English word for the very different term har, which has a much more extended sense than gibeah, meaning a whole district. For instance, in (Exodus 24:4) the “hill” is the same which is elsewhere in the same chapter, vs. (Exodus 24:12,13,18) etc., and book consistently and accurately rendered “mount” and “mountain.” The “country of the hills,” in (1:7; Joshua 9:1; 10:40; 11:16) is the elevated district of Judah, Benjamin and Ephraim, which is correctly called “the mountain” in the earliest descriptions of Palestine, (Numbers 13:29) and in many subsequent passages.",
-      "extracted_refs": [
-        {
-          "book": "Exodus",
-          "chapter": 24,
-          "verses": [
-            4
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Exodus 24:4",
-          "source": "SMI"
-        },
-        {
-          "book": "Exodus",
-          "chapter": 24,
-          "verses": [
-            12,
-            13,
-            18
-          ],
-          "verse_count": 3,
-          "testament": "OT",
-          "raw": "Exodus 24:12,13,18",
-          "source": "SMI"
-        },
-        {
-          "book": "Joshua",
-          "chapter": 9,
-          "verses": [
-            1
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 9:1",
-          "source": "SMI"
-        },
-        {
-          "book": "Joshua",
-          "chapter": 10,
-          "verses": [
-            40
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 10:40",
-          "source": "SMI"
-        },
-        {
-          "book": "Joshua",
-          "chapter": 11,
-          "verses": [
-            16
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 11:16",
-          "source": "SMI"
-        },
-        {
-          "book": "Numbers",
-          "chapter": 13,
-          "verses": [
-            29
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Numbers 13:29",
-          "source": "SMI"
-        },
-        {
-          "book": "Exodus",
-          "chapter": 1,
-          "verses": [
-            7
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Exodus 1:7",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -223,15 +124,5 @@
       "raw": "Exodus 1:7",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 9,
-    "ot": 9,
-    "nt": 0,
-    "books": [
-      "Exodus",
-      "Joshua",
-      "Numbers"
-    ]
-  }
+  ]
 }

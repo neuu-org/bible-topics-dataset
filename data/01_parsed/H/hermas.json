@@ -1,7 +1,7 @@
 {
   "topic": "HERMAS",
   "slug": "hermas",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A Christian at Rome Ro 16:14",
@@ -12,17 +12,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_215023",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T21:50:23.649592",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -31,43 +20,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Mercury, a Roman Christian to whom Paul sends greetings (Rom. 16: 14). Some suppose him to have been the author of the celebrated religious romance called The Shepherd, but it is very probable that that work is the production of a later generation."
-    },
-    {
-      "source": "SMI",
-      "text": "(Mercury), the name of a Christian resident at Rome to whom St. Paul sends greetings in his Epistle to the Romans. (Romans 16:14) (A.D. 55.) Irenaeus, Tertullian and Origen agree in attributing to him the work called The shepherd . It was never received into the canon, but yet was generally cited with respect only second to that which was paid to the authoritative books of the New Testament.",
-      "extracted_refs": [
-        {
-          "book": "Romans",
-          "chapter": 16,
-          "verses": [
-            14
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Romans 16:14",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Romans 16",
-      "original": "Rom. 16"
-    },
-    {
-      "reference": "Romans 16:14",
-      "original": "Romans 16:14"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -90,13 +44,5 @@
       "raw": "Romans 16:14",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 1,
-    "ot": 0,
-    "nt": 1,
-    "books": [
-      "Romans"
-    ]
-  }
+  ]
 }

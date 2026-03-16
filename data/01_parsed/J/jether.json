@@ -1,7 +1,7 @@
 {
   "topic": "JETHER",
   "slug": "jether",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "1. Son of Gideon, “was afraid” to kill the Midianite kings Jud 8:20",
@@ -70,17 +70,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_231339",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T23:13:39.571113",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -89,100 +78,8 @@
     "nt_refs": 0,
     "total_verses": 2
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Surplus; excellence. (1.) Father-in-law of Moses (Ex. 4:18 marg.), called elsewhere Jethro (q.v.). (2.) The oldest of Gideon’s seventy sons (Judg. 8:20). (3.) The father of Amasa, David’s general (1 Kings 2:5, 32); called Ithra (2 Sam. 17:25). (4.) 1 Chr. 7:38. (5.) 1 Chr. 2:32; one of Judah’s posterity. (6.) 1 Chr. 4:17.",
-      "extracted_refs": [
-        {
-          "book": "Exodus",
-          "chapter": 4,
-          "verses": [
-            18
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Exodus 4:18",
-          "source": "EAS"
-        },
-        {
-          "book": "Judges",
-          "chapter": 8,
-          "verses": [
-            20
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Judges 8:20",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Kings",
-          "chapter": 2,
-          "verses": [
-            5,
-            32
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "1 Kings 2:5, 32",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Samuel",
-          "chapter": 17,
-          "verses": [
-            25
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Samuel 17:25",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Chronicles",
-          "chapter": 7,
-          "verses": [
-            38
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 7:38",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Chronicles",
-          "chapter": 2,
-          "verses": [
-            32
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 2:32",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Chronicles",
-          "chapter": 4,
-          "verses": [
-            17
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 4:17",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(his excellence)."
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -272,17 +169,5 @@
       "raw": "1 Chronicles 4:17",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 8,
-    "ot": 8,
-    "nt": 0,
-    "books": [
-      "1 Chronicles",
-      "1 Kings",
-      "2 Samuel",
-      "Exodus",
-      "Judges"
-    ]
-  }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "topic": "HELBAH",
   "slug": "helbah",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A town of the territory of the tribe of Asher Jud 1:31",
@@ -12,17 +12,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_212955",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T21:29:55.581133",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -31,52 +20,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Fatness, a town of the tribe of Asher (Judg. 1:31), in the plain of Phoenicia.",
-      "extracted_refs": [
-        {
-          "book": "Judges",
-          "chapter": 1,
-          "verses": [
-            31
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Judges 1:31",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(fertile), a town of Asher, probably on the plain of Phoenicia not far from Sidon. (Judges 1:31)",
-      "extracted_refs": [
-        {
-          "book": "Judges",
-          "chapter": 1,
-          "verses": [
-            31
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Judges 1:31",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Judges 1:31",
-      "original": "Judg. 1:31"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -99,13 +44,5 @@
       "raw": "Judges 1:31",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 1,
-    "ot": 1,
-    "nt": 0,
-    "books": [
-      "Judges"
-    ]
-  }
+  ]
 }

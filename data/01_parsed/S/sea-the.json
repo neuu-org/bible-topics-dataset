@@ -1,7 +1,7 @@
 {
   "topic": "SEA, THE",
   "slug": "sea-the",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "idx": 0,
@@ -1083,17 +1083,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_020231",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T02:02:31.384565",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -1102,186 +1091,9 @@
     "nt_refs": 19,
     "total_verses": 94
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "(Heb. yam), signifies (1) “the gathering together of the waters,” the ocean (Gen. 1:10); (2) a river, as the Nile (Isa. 19:5), the Euphrates (Isa. 21:1; Jer. 51:36); (3) the Red Sea (Ex. 14:16, 27; 15:4, etc.); (4) the Mediterranean (Ex. 23:31; Num. 34:6, 7; Josh. 15:47; Ps. 80:11, etc.); (5) the “sea of Galilee,” an inland fresh-water lake, and (6) the Dead Sea or “salt sea” (Gen. 14:3; Num. 34:3, 12, etc.). The word “sea” is used symbolically in Isa. 60:5, where it probably means the nations around the Mediterranean. In Dan. 7:3, Rev. 13:1 it may mean the tumultuous changes among the nations of the earth.",
-      "extracted_refs": [
-        {
-          "book": "Genesis",
-          "chapter": 1,
-          "verses": [
-            10
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 1:10",
-          "source": "EAS"
-        },
-        {
-          "book": "Isaiah",
-          "chapter": 19,
-          "verses": [
-            5
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Isaiah 19:5",
-          "source": "EAS"
-        },
-        {
-          "book": "Isaiah",
-          "chapter": 21,
-          "verses": [
-            1
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Isaiah 21:1",
-          "source": "EAS"
-        },
-        {
-          "book": "Jeremiah",
-          "chapter": 51,
-          "verses": [
-            36
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Jeremiah 51:36",
-          "source": "EAS"
-        },
-        {
-          "book": "Exodus",
-          "chapter": 14,
-          "verses": [
-            16,
-            27
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Exodus 14:16, 27",
-          "source": "EAS"
-        },
-        {
-          "book": "Exodus",
-          "chapter": 15,
-          "verses": [
-            4
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Exodus 15:4",
-          "source": "EAS"
-        },
-        {
-          "book": "Exodus",
-          "chapter": 23,
-          "verses": [
-            31
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Exodus 23:31",
-          "source": "EAS"
-        },
-        {
-          "book": "Numbers",
-          "chapter": 34,
-          "verses": [
-            6,
-            7
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Numbers 34:6, 7",
-          "source": "EAS"
-        },
-        {
-          "book": "Joshua",
-          "chapter": 15,
-          "verses": [
-            47
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 15:47",
-          "source": "EAS"
-        },
-        {
-          "book": "Psalms",
-          "chapter": 80,
-          "verses": [
-            11
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Psalms 80:11",
-          "source": "EAS"
-        },
-        {
-          "book": "Genesis",
-          "chapter": 14,
-          "verses": [
-            3
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 14:3",
-          "source": "EAS"
-        },
-        {
-          "book": "Numbers",
-          "chapter": 34,
-          "verses": [
-            3,
-            12
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Numbers 34:3, 12",
-          "source": "EAS"
-        },
-        {
-          "book": "Isaiah",
-          "chapter": 60,
-          "verses": [
-            5
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Isaiah 60:5",
-          "source": "EAS"
-        },
-        {
-          "book": "Daniel",
-          "chapter": 7,
-          "verses": [
-            3
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Daniel 7:3",
-          "source": "EAS"
-        },
-        {
-          "book": "Revelation",
-          "chapter": 13,
-          "verses": [
-            1
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Revelation 13:1",
-          "source": "EAS"
-        }
-      ]
-    }
-  ],
   "sources": [
     "NAV",
-    "TOR",
-    "EAS"
+    "TOR"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -1461,21 +1273,5 @@
       "raw": "Revelation 13:1",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 18,
-    "ot": 17,
-    "nt": 1,
-    "books": [
-      "Daniel",
-      "Exodus",
-      "Genesis",
-      "Isaiah",
-      "Jeremiah",
-      "Joshua",
-      "Numbers",
-      "Psalms",
-      "Revelation"
-    ]
-  }
+  ]
 }

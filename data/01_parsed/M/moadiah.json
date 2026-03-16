@@ -1,7 +1,7 @@
 {
   "topic": "MOADIAH",
   "slug": "moadiah",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A priest Ne 12:17",
@@ -12,17 +12,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_011916",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T01:19:16.162695",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -31,45 +20,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "SMI",
-      "text": "(Nehemiah 12:17) Elsewhere Nehe 12:5 Called Maadiah.",
-      "extracted_refs": [
-        {
-          "book": "Nehemiah",
-          "chapter": 12,
-          "verses": [
-            17
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Nehemiah 12:17",
-          "source": "SMI"
-        },
-        {
-          "book": "Nehemiah",
-          "chapter": 12,
-          "verses": [
-            5
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Nehemiah 12:5",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Nehemiah 12:17",
-      "original": "Nehemiah 12:17"
-    }
-  ],
   "sources": [
-    "NAV",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -103,13 +55,5 @@
       "raw": "Nehemiah 12:5",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 2,
-    "ot": 2,
-    "nt": 0,
-    "books": [
-      "Nehemiah"
-    ]
-  }
+  ]
 }

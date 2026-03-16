@@ -1,7 +1,7 @@
 {
   "topic": "MAHER-SHALAL-HASH-BAZ",
   "slug": "maher-shalal-hash-baz",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A symbolical name Isa 8:1-4",
@@ -12,17 +12,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_002652",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T00:26:52.336994",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -31,71 +20,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Plunder speedeth; spoil hasteth, (Isa. 8:1-3; comp. Zeph. 1:14), a name Isaiah was commanded first to write in large characters on a tablet, and afterwards to give as a symbolical name to a son that was to be born to him (Isa. 8:1, 3), as denoting the sudden attack on Damascus and Syria by the Assyrian army.",
-      "extracted_refs": [
-        {
-          "book": "Isaiah",
-          "chapter": 8,
-          "verses": [
-            1,
-            2,
-            3
-          ],
-          "verse_count": 3,
-          "testament": "OT",
-          "raw": "Isaiah 8:1-3",
-          "source": "EAS"
-        },
-        {
-          "book": "Zephaniah",
-          "chapter": 1,
-          "verses": [
-            14
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Zephaniah 1:14",
-          "source": "EAS"
-        },
-        {
-          "book": "Isaiah",
-          "chapter": 8,
-          "verses": [
-            1,
-            3
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Isaiah 8:1, 3",
-          "source": "EAS"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Isaiah 8:1-3",
-      "original": "Isa. 8:1-3"
-    },
-    {
-      "reference": "Zephaniah 1:14",
-      "original": "Zeph. 1:14"
-    },
-    {
-      "reference": "Isaiah 8:1",
-      "original": "Isa. 8:1"
-    },
-    {
-      "reference": "Isaiah 8:3",
-      "original": "Isa. 8:3"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -143,14 +69,5 @@
       "raw": "Isaiah 8:1, 3",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 4,
-    "ot": 4,
-    "nt": 0,
-    "books": [
-      "Isaiah",
-      "Zephaniah"
-    ]
-  }
+  ]
 }

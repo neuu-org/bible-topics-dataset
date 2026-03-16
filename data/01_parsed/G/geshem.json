@@ -1,7 +1,7 @@
 {
   "topic": "GESHEM",
   "slug": "geshem",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Also called GASHMU, an Arabian",
@@ -18,17 +18,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_203043",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T20:30:43.402440",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -37,85 +26,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Or Gashmu, firmness, probably chief of the Arabs south of Palestine, one of the enemies of the Jews after the return from Babylon (Neh. 2:19; 6:1, 2). He united with Sanballat and Tobiah in opposing the rebuilding of the wall of Jerusalem.",
-      "extracted_refs": [
-        {
-          "book": "Nehemiah",
-          "chapter": 2,
-          "verses": [
-            19
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Nehemiah 2:19",
-          "source": "EAS"
-        },
-        {
-          "book": "Nehemiah",
-          "chapter": 6,
-          "verses": [
-            1,
-            2
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Nehemiah 6:1, 2",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "and Gash’mu (rain), an Arabian, mentioned in (Nehemiah 2:19) and Nehe 6:1,2,6 (B.C. 446.) We may conclude that he was an inhabitant of Arabia Petraea or of the Arabian desert, and probably the chief of a tribe.” Gashum said it” made him a type of those who create a common report.",
-      "extracted_refs": [
-        {
-          "book": "Nehemiah",
-          "chapter": 2,
-          "verses": [
-            19
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Nehemiah 2:19",
-          "source": "SMI"
-        },
-        {
-          "book": "Nehemiah",
-          "chapter": 6,
-          "verses": [
-            1,
-            2,
-            6
-          ],
-          "verse_count": 3,
-          "testament": "OT",
-          "raw": "Nehemiah 6:1,2,6",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Nehemiah 2:19",
-      "original": "Neh. 2:19"
-    },
-    {
-      "reference": "Nehemiah 6:1",
-      "original": "Neh 6:1"
-    },
-    {
-      "reference": "Nehemiah 6:2",
-      "original": "Neh 6:2"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -163,13 +75,5 @@
       "raw": "Nehemiah 6:1,2,6",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 4,
-    "ot": 4,
-    "nt": 0,
-    "books": [
-      "Nehemiah"
-    ]
-  }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "topic": "MANEH",
   "slug": "maneh",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "(A weight)",
@@ -51,17 +51,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_003253",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T00:32:53.734109",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [
     "WEIGHTS"
   ],
@@ -72,78 +61,8 @@
     "nt_refs": 0,
     "total_verses": 2
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Portion (Ezek. 45:12), rendered “pound” (1 Kings 10:17; Ezra 2:69; Neh. 7:71, 72), a weight variously estimated, probably about 2 1/2 or 3 lbs. A maneh of gold consisted of a hundred common shekels (q.v.). (Comp. 1 Kings 10:17, and 2 Chr. 9:16).",
-      "extracted_refs": [
-        {
-          "book": "Ezekiel",
-          "chapter": 45,
-          "verses": [
-            12
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Ezekiel 45:12",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Kings",
-          "chapter": 10,
-          "verses": [
-            17
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Kings 10:17",
-          "source": "EAS"
-        },
-        {
-          "book": "Ezra",
-          "chapter": 2,
-          "verses": [
-            69
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Ezra 2:69",
-          "source": "EAS"
-        },
-        {
-          "book": "Nehemiah",
-          "chapter": 7,
-          "verses": [
-            71,
-            72
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Nehemiah 7:71, 72",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Chronicles",
-          "chapter": 9,
-          "verses": [
-            16
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Chronicles 9:16",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(a portion (by weight)). [Weights And Measures AND Measures]"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -211,17 +130,5 @@
       "raw": "2 Chronicles 9:16",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 6,
-    "ot": 6,
-    "nt": 0,
-    "books": [
-      "1 Kings",
-      "2 Chronicles",
-      "Ezekiel",
-      "Ezra",
-      "Nehemiah"
-    ]
-  }
+  ]
 }

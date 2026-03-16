@@ -1,7 +1,7 @@
 {
   "topic": "LEAH",
   "slug": "leah",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "The older daughter of Laban Ge 29:16",
@@ -56,17 +56,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_235753",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T23:57:53.000272",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -75,90 +64,8 @@
     "nt_refs": 0,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Weary, the eldest daughter of Laban, and sister of Rachel (Gen. 29:16). Jacob took her to wife through a deceit of her father (Gen. 29:23). She was “tender-eyed” (17). She bore to Jacob six sons (32-35), also one daughter, Dinah (30:21). She accompanied Jacob into Canaan, and died there before the time of the going down into Egypt (Gen. 31), and was buried in the cave of Machpelah (49:31).",
-      "extracted_refs": [
-        {
-          "book": "Genesis",
-          "chapter": 29,
-          "verses": [
-            16
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 29:16",
-          "source": "EAS"
-        },
-        {
-          "book": "Genesis",
-          "chapter": 29,
-          "verses": [
-            23
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 29:23",
-          "source": "EAS"
-        },
-        {
-          "book": "Genesis",
-          "chapter": 30,
-          "verses": [
-            21
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 30:21",
-          "source": "EAS"
-        },
-        {
-          "book": "Genesis",
-          "chapter": 49,
-          "verses": [
-            31
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 49:31",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(wearied), the daughter of Laban. (Genesis 29:16) The dullness or weakness of her eyes was so notable that it is mentioned as a contrast to the beautiful form and appearance of her younger sister Rachel. Her father took advantage of the opportunity which the local marriage rite afforded to pass her off in her sister’s stead on the unconscious bridegroom, and excused himself to Jacob by alleging that the custom of the country forbade the younger sister to be given first in marriage. Jacob’s preference of Rachel grew into hatred of Leah after he had married both sisters. Leah, however, bore to him in quick succession Reuben, Simeon, Levi, Judah, then Issachar, Zebulun and Dinah, before Rachel had a child. She died some time after Jacob reached the south country in which his father Isaac lived. She was buried in the family grave in Machpelah, near Hebron. (Genesis 49:31) (B.C. about 1720.)",
-      "extracted_refs": [
-        {
-          "book": "Genesis",
-          "chapter": 29,
-          "verses": [
-            16
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 29:16",
-          "source": "SMI"
-        },
-        {
-          "book": "Genesis",
-          "chapter": 49,
-          "verses": [
-            31
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 49:31",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -214,13 +121,5 @@
       "raw": "Genesis 49:31",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 4,
-    "ot": 4,
-    "nt": 0,
-    "books": [
-      "Genesis"
-    ]
-  }
+  ]
 }

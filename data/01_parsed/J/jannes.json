@@ -1,7 +1,7 @@
 {
   "topic": "JANNES",
   "slug": "jannes",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "An Egyptian magician Ex 7:11; 2Ti 3:8",
@@ -24,17 +24,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_225242",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T22:52:42.562713",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -43,62 +32,8 @@
     "nt_refs": 1,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "One of the Egyptians who “withstood Moses” (2 Tim. 3:8).",
-      "extracted_refs": [
-        {
-          "book": "2 Timothy",
-          "chapter": 3,
-          "verses": [
-            8
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "2 Timothy 3:8",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "and Jam’bres, the names of two Egyptian magicians who opposed Moses. Exod 7:9-13; 2Tim 3:8,9. (B.C. 1492.)",
-      "extracted_refs": [
-        {
-          "book": "Exodus",
-          "chapter": 7,
-          "verses": [
-            9,
-            10,
-            11,
-            12,
-            13
-          ],
-          "verse_count": 5,
-          "testament": "OT",
-          "raw": "Exodus 7:9-13",
-          "source": "SMI"
-        },
-        {
-          "book": "2 Timothy",
-          "chapter": 3,
-          "verses": [
-            8,
-            9
-          ],
-          "verse_count": 2,
-          "testament": "NT",
-          "raw": "2 Timothy 3:8,9",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -148,14 +83,5 @@
       "raw": "2 Timothy 3:8,9",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 7,
-    "ot": 5,
-    "nt": 2,
-    "books": [
-      "2 Timothy",
-      "Exodus"
-    ]
-  }
+  ]
 }

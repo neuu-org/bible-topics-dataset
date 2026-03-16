@@ -1,7 +1,7 @@
 {
   "topic": "JABNEH",
   "slug": "jabneh",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A Philistine city 2Ch 26:6",
@@ -12,17 +12,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_224736",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T22:47:36.672516",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -31,67 +20,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Building, (2 Chr. 26:6), identical with Jabneel (Josh. 15:11).",
-      "extracted_refs": [
-        {
-          "book": "2 Chronicles",
-          "chapter": 26,
-          "verses": [
-            6
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Chronicles 26:6",
-          "source": "EAS"
-        },
-        {
-          "book": "Joshua",
-          "chapter": 15,
-          "verses": [
-            11
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 15:11",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(building of God), (2 Chronicles 26:6) [Jabneel]",
-      "extracted_refs": [
-        {
-          "book": "2 Chronicles",
-          "chapter": 26,
-          "verses": [
-            6
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Chronicles 26:6",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "2 Chronicles 26:6",
-      "original": "2 Chr. 26:6"
-    },
-    {
-      "reference": "Joshua 15:11",
-      "original": "Josh. 15:11"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -125,14 +55,5 @@
       "raw": "Joshua 15:11",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 2,
-    "ot": 2,
-    "nt": 0,
-    "books": [
-      "2 Chronicles",
-      "Joshua"
-    ]
-  }
+  ]
 }

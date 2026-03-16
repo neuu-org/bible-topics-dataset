@@ -1,7 +1,7 @@
 {
   "topic": "JASHOBEAM",
   "slug": "jashobeam",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "1. One of David’s warriors 2Sa 23:8; 1Ch 11:11; 27:2",
@@ -33,17 +33,6 @@
       "verse_count": 2
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_225535",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T22:55:35.198385",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -52,83 +41,8 @@
     "nt_refs": 0,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Dweller among the people; or to whom the people turn, the Hachmonite (1 Chr. 11:11), one of David’s chief heroes who joined him at Ziklag (12:6). He was the first of the three who broke through the host of the Philistines to fetch water to David from the well of Bethlehem (2 Sam. 23:13-17). He is also called Adino the Eznite (8).",
-      "extracted_refs": [
-        {
-          "book": "1 Chronicles",
-          "chapter": 11,
-          "verses": [
-            11
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 11:11",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Samuel",
-          "chapter": 23,
-          "verses": [
-            13,
-            14,
-            15,
-            16,
-            17
-          ],
-          "verse_count": 5,
-          "testament": "OT",
-          "raw": "2 Samuel 23:13-17",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Chronicles",
-          "chapter": 12,
-          "verses": [
-            6
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 12:6",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(to whom the people turn), named first among the chief of the mighty men of David. (1 Chronicles 11:11) (B.C. 1046.) He came to David at Ziklag. His distinguishing exploit was that he slew 300 (or 800,) (2 Samuel 23:8) men at one time.",
-      "extracted_refs": [
-        {
-          "book": "1 Chronicles",
-          "chapter": 11,
-          "verses": [
-            11
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 11:11",
-          "source": "SMI"
-        },
-        {
-          "book": "2 Samuel",
-          "chapter": 23,
-          "verses": [
-            8
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Samuel 23:8",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -188,14 +102,5 @@
       "raw": "2 Samuel 23:8",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 8,
-    "ot": 8,
-    "nt": 0,
-    "books": [
-      "1 Chronicles",
-      "2 Samuel"
-    ]
-  }
+  ]
 }

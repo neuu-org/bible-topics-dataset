@@ -1,7 +1,7 @@
 {
   "topic": "MIDIAN",
   "slug": "midian",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Son of Abraham by Keturah Ge 25:2,4; 1Ch 1:32,33",
@@ -27,17 +27,6 @@
       "verse_count": 2
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_010519",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T01:05:19.968963",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -46,105 +35,8 @@
     "nt_refs": 0,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Strife, the fourth son of Abraham by Keturah, the father of the Midianites (Gen. 25:2; 1 Chr. 1:32).",
-      "extracted_refs": [
-        {
-          "book": "Genesis",
-          "chapter": 25,
-          "verses": [
-            2
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 25:2",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Chronicles",
-          "chapter": 1,
-          "verses": [
-            32
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 1:32",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(strife), a son of Abraham and Keturah, (Genesis 25:2; 1 Chronicles 1:32) progenitor of the Midianites, or Arabians dwelling principally in the desert north of the peninsula of Arabia. Southward they extended along the eastern shore of the Gulf of Eyleh (Sinus AElaniticus); and northward they stretched along the eastern frontier of Palestine. The “land of Midian,” the place to which Moses fled after having killed the Egyptian, (Exodus 2:15,21) or the portion of it specially referred to, was probably the peninsula of Sinai. The influence of the Midianties on the Israelites was clearly most evil, and directly tended to lead them from the injunctions of Moses. The events at Shittim occasioned the injunction to vex Midian and smite them. After a lapse of some years, the Midianites appear again as the enemies of the Israelites, oppressing them for seven years, but are finally defeated with great slaughter by Gideon. [Gideon] The Midianites are described as true Arabs, and possessed cattle and flocks and camels as the sand of the seashore for multitude. The spoil taken in the war of both Moses and of Gideon is remarkable. (Numbers 31:22; Judges 8:21,24-26) We have here a wealthy Arab nation, living by plunder, delighting in finery; and, where forays were impossible, carrying ont he traffic southward into Arabia, the land of gold—if not naturally, by trade— and across to Chaldea, or into the rich plains of Egypt.",
-      "extracted_refs": [
-        {
-          "book": "Genesis",
-          "chapter": 25,
-          "verses": [
-            2
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 25:2",
-          "source": "SMI"
-        },
-        {
-          "book": "1 Chronicles",
-          "chapter": 1,
-          "verses": [
-            32
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 1:32",
-          "source": "SMI"
-        },
-        {
-          "book": "Exodus",
-          "chapter": 2,
-          "verses": [
-            15,
-            21
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Exodus 2:15,21",
-          "source": "SMI"
-        },
-        {
-          "book": "Numbers",
-          "chapter": 31,
-          "verses": [
-            22
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Numbers 31:22",
-          "source": "SMI"
-        },
-        {
-          "book": "Judges",
-          "chapter": 8,
-          "verses": [
-            21,
-            24,
-            25,
-            26
-          ],
-          "verse_count": 4,
-          "testament": "OT",
-          "raw": "Judges 8:21,24-26",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -215,17 +107,5 @@
       "raw": "Judges 8:21,24-26",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 9,
-    "ot": 9,
-    "nt": 0,
-    "books": [
-      "1 Chronicles",
-      "Exodus",
-      "Genesis",
-      "Judges",
-      "Numbers"
-    ]
-  }
+  ]
 }

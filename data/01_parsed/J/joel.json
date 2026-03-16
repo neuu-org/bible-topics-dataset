@@ -1,7 +1,7 @@
 {
   "topic": "JOEL",
   "slug": "joel",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "1. Son of Samuel 1Sa 8:2; 1Ch 6:33; 15:17",
@@ -169,17 +169,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_231858",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T23:18:58.453268",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -188,90 +177,8 @@
     "nt_refs": 1,
     "total_verses": 3
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Jehovah is his God. (1.) The oldest of Samuel’s two sons appointed by him as judges in Beersheba (1 Sam. 8:2). (See VASHNI.) (2.) A descendant of Reuben (1 Chr. 5:4, 8). (3.) One of David’s famous warriors (1 Chr. 11:38). (4.) A Levite of the family of Gershom (1 Chr. 15:7, 11). (5.) 1 Chr. 7:3. (6.) 1 Chr. 27:20. (7.) The second of the twelve minor prophets. He was the son of Pethuel. His personal history is only known from his book.",
-      "extracted_refs": [
-        {
-          "book": "1 Samuel",
-          "chapter": 8,
-          "verses": [
-            2
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Samuel 8:2",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Chronicles",
-          "chapter": 5,
-          "verses": [
-            4,
-            8
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "1 Chronicles 5:4, 8",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Chronicles",
-          "chapter": 11,
-          "verses": [
-            38
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 11:38",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Chronicles",
-          "chapter": 15,
-          "verses": [
-            7,
-            11
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "1 Chronicles 15:7, 11",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Chronicles",
-          "chapter": 7,
-          "verses": [
-            3
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 7:3",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Chronicles",
-          "chapter": 27,
-          "verses": [
-            20
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 27:20",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(to whom Jehovah is God)."
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -351,14 +258,5 @@
       "raw": "1 Chronicles 27:20",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 8,
-    "ot": 8,
-    "nt": 0,
-    "books": [
-      "1 Chronicles",
-      "1 Samuel"
-    ]
-  }
+  ]
 }

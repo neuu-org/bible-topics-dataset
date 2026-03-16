@@ -1,7 +1,7 @@
 {
   "topic": "EMIMS",
   "slug": "emims",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A race of giants Ge 14:5; De 2:10,11",
@@ -26,46 +26,6 @@
       "verse_count": 2
     }
   ],
-  "ai_enrichment": {
-    "summary": "Os Emims são uma raça de gigantes mencionada no Antigo Testamento, especificamente em Gênesis e Deuteronômio. Eles são descritos como um povo temido e poderoso que habitava a região de Moabe antes da chegada dos israelitas. A referência a essa raça de gigantes destaca a presença de seres extraordinários na narrativa bíblica, refletindo a diversidade das nações e povos que existiam na época. A menção dos Emims serve para ilustrar a grandeza e a força que os israelitas enfrentaram em sua jornada, além de enfatizar a soberania de Deus sobre todas as nações.",
-    "outline": [
-      "Descrição dos Emims como uma raça de gigantes",
-      "Referências bíblicas em Gênesis e Deuteronômio",
-      "Contexto histórico e geográfico dos Emims",
-      "Significado da presença dos Emims na narrativa israelita",
-      "Implicações teológicas da existência de gigantes"
-    ],
-    "key_concepts": [
-      "Soberania de Deus sobre as nações",
-      "A luta entre o povo de Deus e forças opostas",
-      "A diversidade das nações na narrativa bíblica"
-    ],
-    "theological_significance": "A menção dos Emims ilustra a soberania de Deus em relação a todas as nações e povos, mostrando que, apesar da grandeza e do poder aparente de adversários, Deus é capaz de guiar e proteger Seu povo. Essa narrativa também enfatiza a luta contínua entre o bem e o mal, refletindo a realidade espiritual enfrentada pelos israelitas em sua jornada.",
-    "model": "gpt-4o-mini",
-    "run_id": "enr_20251202_141037_474894f0",
-    "confidence": 1.0,
-    "generated_at": "2025-12-02T14:10:37.387578"
-  },
-  "ai_themes_normalized": [
-    {
-      "theme_id": null,
-      "proposal_id": "prop:soberania_divina_sob_033ac9",
-      "label_original": "Soberania divina sobre as nações",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:conflito_entre_o_pov_0378cb",
-      "label_original": "Conflito entre o povo de Deus e adversários poderosos",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:a_diversidade_étnica_06eb8a",
-      "label_original": "A diversidade étnica e cultural na narrativa bíblica",
-      "source": "ai_enrichment"
-    }
-  ],
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -74,66 +34,8 @@
     "nt_refs": 0,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Terrors, a warlike tribe of giants who were defeated by Chedorlaomer and his allies in the plain of Kiriathaim. In the time of Abraham they occupied the country east of Jordan, afterwards the land of the Moabites (Gen. 14:5; Deut. 2:10). They were, like the Anakim, reckoned among the Rephaim, and were conquered by the Moabites, who gave them the name of Emims, i.e., “terrible men” (Deut. 2:11). The Ammonites called them Zamzummims (2:20).",
-      "extracted_refs": [
-        {
-          "book": "Genesis",
-          "chapter": 14,
-          "verses": [
-            5
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 14:5",
-          "source": "EAS"
-        },
-        {
-          "book": "Deuteronomy",
-          "chapter": 2,
-          "verses": [
-            10
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Deuteronomy 2:10",
-          "source": "EAS"
-        },
-        {
-          "book": "Deuteronomy",
-          "chapter": 2,
-          "verses": [
-            11
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Deuteronomy 2:11",
-          "source": "EAS"
-        },
-        {
-          "book": "Deuteronomy",
-          "chapter": 2,
-          "verses": [
-            20
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Deuteronomy 2:20",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(terrors), a tribe or family of gigantic stature which originally inhabited the region along the eastern side of the Dead Sea. They were related to the Anakim."
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -189,14 +91,5 @@
       "raw": "Deuteronomy 2:20",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 4,
-    "ot": 4,
-    "nt": 0,
-    "books": [
-      "Deuteronomy",
-      "Genesis"
-    ]
-  }
+  ]
 }

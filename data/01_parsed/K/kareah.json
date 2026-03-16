@@ -1,7 +1,7 @@
 {
   "topic": "KAREAH",
   "slug": "kareah",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Also called CAREAH",
@@ -36,17 +36,6 @@
       "verse_count": 3
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_233448",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T23:34:48.712051",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -55,91 +44,8 @@
     "nt_refs": 0,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Bald, the father of Johanan and Jonathan, who for a time were loyal to Gedaliah, the Babylonian governor of Jerusalem (Jer. 40:8, 13, 15, 16).",
-      "extracted_refs": [
-        {
-          "book": "Jeremiah",
-          "chapter": 40,
-          "verses": [
-            8,
-            13,
-            15,
-            16
-          ],
-          "verse_count": 4,
-          "testament": "OT",
-          "raw": "Jeremiah 40:8, 13, 15, 16",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(bald), the father of Johanan and Jonathan, who supported Gedaliah’s authority and avenged his murder. (Jeremiah 40:8,13,15,16; 41:11,13,14,16; 42:1,8; 43:2,4,5) (B.C. before 588.)",
-      "extracted_refs": [
-        {
-          "book": "Jeremiah",
-          "chapter": 40,
-          "verses": [
-            8,
-            13,
-            15,
-            16
-          ],
-          "verse_count": 4,
-          "testament": "OT",
-          "raw": "Jeremiah 40:8,13,15,16",
-          "source": "SMI"
-        },
-        {
-          "book": "Jeremiah",
-          "chapter": 41,
-          "verses": [
-            11,
-            13,
-            14,
-            16
-          ],
-          "verse_count": 4,
-          "testament": "OT",
-          "raw": "Jeremiah 41:11,13,14,16",
-          "source": "SMI"
-        },
-        {
-          "book": "Jeremiah",
-          "chapter": 42,
-          "verses": [
-            1,
-            8
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Jeremiah 42:1,8",
-          "source": "SMI"
-        },
-        {
-          "book": "Jeremiah",
-          "chapter": 43,
-          "verses": [
-            2,
-            4,
-            5
-          ],
-          "verse_count": 3,
-          "testament": "OT",
-          "raw": "Jeremiah 43:2,4,5",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -204,13 +110,5 @@
       "raw": "Jeremiah 43:2,4,5",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 13,
-    "ot": 13,
-    "nt": 0,
-    "books": [
-      "Jeremiah"
-    ]
-  }
+  ]
 }

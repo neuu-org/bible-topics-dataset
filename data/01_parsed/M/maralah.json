@@ -1,7 +1,7 @@
 {
   "topic": "MARALAH",
   "slug": "maralah",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A landmark on the boundary of the tribe of Zebulun Jos 19:11",
@@ -12,17 +12,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_003536",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T00:35:36.952326",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -31,52 +20,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Trembling, a place on the southern boundary of Zebulun (Josh. 19:11). It has been identified with the modern M’alul, about 4 miles south-west of Nazareth.",
-      "extracted_refs": [
-        {
-          "book": "Joshua",
-          "chapter": 19,
-          "verses": [
-            11
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 19:11",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(trembling) one of the land marks on the boundary of the tribe of Zebulun. (Joshua 19:11)",
-      "extracted_refs": [
-        {
-          "book": "Joshua",
-          "chapter": 19,
-          "verses": [
-            11
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 19:11",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Joshua 19:11",
-      "original": "Josh. 19:11"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -99,13 +44,5 @@
       "raw": "Joshua 19:11",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 1,
-    "ot": 1,
-    "nt": 0,
-    "books": [
-      "Joshua"
-    ]
-  }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "topic": "NAHSHON",
   "slug": "nahshon",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Son of Amminadab Ex 6:23; Nu 1:7; 1Ch 2:10",
@@ -53,17 +53,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_013226",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T01:32:26.871535",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -72,62 +61,8 @@
     "nt_refs": 0,
     "total_verses": 2
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Sorcerer, the son of Aminadab, and prince of the children of Judah at the time of the first numbering of the tribes in the wilderness (Ex. 6:23). His sister Elisheba was the wife of Aaron. He died in the wilderness (Num. 26:64, 65). His name occurs in the Greek form Naasson in the genealogy of Christ (Matt, 1:4; Luke 3:32).",
-      "extracted_refs": [
-        {
-          "book": "Exodus",
-          "chapter": 6,
-          "verses": [
-            23
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Exodus 6:23",
-          "source": "EAS"
-        },
-        {
-          "book": "Numbers",
-          "chapter": 26,
-          "verses": [
-            64,
-            65
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Numbers 26:64, 65",
-          "source": "EAS"
-        },
-        {
-          "book": "Luke",
-          "chapter": 3,
-          "verses": [
-            32
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Luke 3:32",
-          "source": "EAS"
-        },
-        {
-          "book": "Numbers",
-          "chapter": 1,
-          "verses": [
-            4
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Numbers 1:4",
-          "source": "EAS"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -184,15 +119,5 @@
       "raw": "Numbers 1:4",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 5,
-    "ot": 4,
-    "nt": 1,
-    "books": [
-      "Exodus",
-      "Luke",
-      "Numbers"
-    ]
-  }
+  ]
 }

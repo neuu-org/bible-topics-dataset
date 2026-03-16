@@ -1,7 +1,7 @@
 {
   "topic": "ARCHI",
   "slug": "archi",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A city of Ephraim Jos 16:2",
@@ -12,208 +12,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "A cidade de Arqui, mencionada em Josué 16:2, é uma localidade dentro da herança da tribo de Efraim. Sua inclusão nas Escrituras destaca a importância das cidades na divisão da terra prometida e o cumprimento das promessas de Deus ao povo de Israel. A cidade serve como um lembrete da fidelidade de Deus em estabelecer um lar para Seu povo, refletindo a providência divina na história de Israel.",
-    "outline": [
-      "Localização e importância geográfica de Arqui",
-      "Relação de Arqui com a tribo de Efraim",
-      "Cumprimento das promessas de Deus na divisão da terra",
-      "Significado simbólico das cidades na narrativa bíblica"
-    ],
-    "key_concepts": [
-      "Promessa de Deus",
-      "Herança de Israel",
-      "Identidade tribal"
-    ],
-    "theological_significance": "A cidade de Arqui representa a fidelidade de Deus em cumprir Suas promessas, mostrando que Ele é um Deus que estabelece e mantém a herança de Seu povo. Para a fé cristã, isso reforça a ideia de que Deus continua a guiar e prover para aqueles que O seguem, estabelecendo um lar espiritual em Cristo.",
-    "model": "gpt-4o-mini",
-    "run_id": "enr_20250923_131609_6abeaea1",
-    "confidence": 1.0,
-    "generated_at": "2025-09-23T13:16:09.862905"
-  },
-  "ai_themes_normalized": [
-    {
-      "theme_id": null,
-      "proposal_id": "prop:promessa_e_cumprimento_0d3512",
-      "label_original": "Promessa e cumprimento",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:identidade_e_pertencimento_dc83f9",
-      "label_original": "Identidade e pertencimento",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:a_terra_prometida_5083d6",
-      "label_original": "A terra prometida",
-      "source": "ai_enrichment"
-    }
-  ],
-  "phase1_discovery": {
-    "processed_at": "2025-09-23T22:49:11.849243Z",
-    "total_themes_processed": 3,
-    "summary": {
-      "total_processed": 3,
-      "decisions": {
-        "alias_existing": 0,
-        "proposed": 3,
-        "error": 0
-      },
-      "success_rate": 1.0
-    },
-    "results": [
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.8401,
-          "novelty": 1.0,
-          "similarity_to_best_existing": 0.0,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_27256b1a",
-          "decision_hash": "4779c03f37ca4e8e",
-          "created_at": "2025-09-23T22:49:11.849243Z"
-        },
-        "proposal_id": "prop:1442648d",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:promessa_e_cumprimento_0d3512",
-          "label_original": "Promessa e cumprimento",
-          "confidence": 0.9500000000000001,
-          "source": "ai_enrichment"
-        }
-      },
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.84104,
-          "novelty": 1.0,
-          "similarity_to_best_existing": 0.0,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_069a1a36",
-          "decision_hash": "954b8e8a6986b20b",
-          "created_at": "2025-09-23T22:49:12.861261Z"
-        },
-        "proposal_id": "prop:f5686637",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:identidade_e_pertencimento_dc83f9",
-          "label_original": "Identidade e pertencimento",
-          "confidence": 0.9500000000000001,
-          "source": "ai_enrichment"
-        }
-      },
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.83488,
-          "novelty": 1.0,
-          "similarity_to_best_existing": 0.0,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_f6cd11e0",
-          "decision_hash": "e107ad11cb17f01a",
-          "created_at": "2025-09-23T22:49:13.919161Z"
-        },
-        "proposal_id": "prop:8360b546",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:a_terra_prometida_5083d6",
-          "label_original": "A terra prometida",
-          "confidence": 0.9500000000000001,
-          "source": "ai_enrichment"
-        }
-      }
-    ]
-  },
-  "entity_links": [
-    {
-      "canonical_id": "CON:archi",
-      "namespace": "CONCEPT",
-      "role": "primary",
-      "confidence": 0.9,
-      "source": "topic_resolver",
-      "status": "proposed",
-      "provenance": {
-        "topic": "ARCHI",
-        "extracted_from": "ARCHI",
-        "processing_result": {
-          "status": "proposed",
-          "proposal_id": "stub:CON:archi_1af32700",
-          "canonical_id": "CON:archi",
-          "needs_review": true,
-          "reasons": [
-            "low_confidence",
-            "insufficient_sources"
-          ],
-          "message": "Entity proposal stub:CON:archi_1af32700 created"
-        }
-      }
-    }
-  ],
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -222,52 +20,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "A city on the boundary of Ephraim and Benjamin (Josh. 16:2), between Bethel and Beth-horon the nether.",
-      "extracted_refs": [
-        {
-          "book": "Joshua",
-          "chapter": 16,
-          "verses": [
-            2
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 16:2",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(Joshua 16:2) A place in the neighborhood of Bethel, on the boundary between Ephraim and Benjamin. It designates a clan perhaps originally from Erech in Babylonia, of which Hushai was one. [Archite, The]",
-      "extracted_refs": [
-        {
-          "book": "Joshua",
-          "chapter": 16,
-          "verses": [
-            2
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 16:2",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Joshua 16:2",
-      "original": "Josh. 16:2"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -290,13 +44,5 @@
       "raw": "Joshua 16:2",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 1,
-    "ot": 1,
-    "nt": 0,
-    "books": [
-      "Joshua"
-    ]
-  }
+  ]
 }

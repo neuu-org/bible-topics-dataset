@@ -1,7 +1,7 @@
 {
   "topic": "JOBAB",
   "slug": "jobab",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "1. Son of Joktan Ge 10:29; 1Ch 1:23",
@@ -60,17 +60,6 @@
       "verse_count": 2
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_231832",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T23:18:32.464118",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -79,56 +68,8 @@
     "nt_refs": 0,
     "total_verses": 2
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Dweller in the desert. (1.) One of the sons of Joktan, and founder of an Arabian tribe (Gen. 10:29). (2.) King of Edom, succeeded Bela (Gen. 36:33, 34). (3.) A Canaanitish king (Josh. 11:1) who joined the confederacy against Joshua.",
-      "extracted_refs": [
-        {
-          "book": "Genesis",
-          "chapter": 10,
-          "verses": [
-            29
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 10:29",
-          "source": "EAS"
-        },
-        {
-          "book": "Genesis",
-          "chapter": 36,
-          "verses": [
-            33,
-            34
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Genesis 36:33, 34",
-          "source": "EAS"
-        },
-        {
-          "book": "Joshua",
-          "chapter": 11,
-          "verses": [
-            1
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 11:1",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(a desert)."
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -174,14 +115,5 @@
       "raw": "Joshua 11:1",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 4,
-    "ot": 4,
-    "nt": 0,
-    "books": [
-      "Genesis",
-      "Joshua"
-    ]
-  }
+  ]
 }

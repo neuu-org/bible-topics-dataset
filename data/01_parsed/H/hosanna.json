@@ -1,7 +1,7 @@
 {
   "topic": "HOSANNA",
   "slug": "hosanna",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A form of Jewish acclamation Mt 21:9,15; Mr 11:9,10; Joh 12:13",
@@ -38,17 +38,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_220700",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T22:07:00.702093",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -57,81 +46,8 @@
     "nt_refs": 2,
     "total_verses": 2
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Save now! or Save, we beseech, (Matt. 21:9). This was a customary form of acclamation at the feast of Tabernacles. (Comp. Ps. 118:25.)",
-      "extracted_refs": [
-        {
-          "book": "Matthew",
-          "chapter": 21,
-          "verses": [
-            9
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Matthew 21:9",
-          "source": "EAS"
-        },
-        {
-          "book": "Psalms",
-          "chapter": 118,
-          "verses": [
-            25
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Psalms 118:25",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(save now). “Save, we pray!” the cry of the multitudes as they thronged in our Lord’s triumphal procession into Jerusalem. (Matthew 21:9,15; Mark 11:9,10; John 12:13) The Psalm from which it was taken, the 118th, was one with which they were familiar from being accustomed to recite the 25th and 26th verses at the feast of tabernacles, forming a part of the great hallel. Ps. 113-118.",
-      "extracted_refs": [
-        {
-          "book": "Matthew",
-          "chapter": 21,
-          "verses": [
-            9,
-            15
-          ],
-          "verse_count": 2,
-          "testament": "NT",
-          "raw": "Matthew 21:9,15",
-          "source": "SMI"
-        },
-        {
-          "book": "Mark",
-          "chapter": 11,
-          "verses": [
-            9,
-            10
-          ],
-          "verse_count": 2,
-          "testament": "NT",
-          "raw": "Mark 11:9,10",
-          "source": "SMI"
-        },
-        {
-          "book": "John",
-          "chapter": 12,
-          "verses": [
-            13
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "John 12:13",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -200,16 +116,5 @@
       "raw": "John 12:13",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 6,
-    "ot": 1,
-    "nt": 5,
-    "books": [
-      "John",
-      "Mark",
-      "Matthew",
-      "Psalms"
-    ]
-  }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "topic": "ARUMAH",
   "slug": "arumah",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A place near Shechem Jud 9:41",
@@ -12,208 +12,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "Arumah é mencionada em Juízes 9:41 como um local próximo a Siquém, que se torna significativo no contexto da narrativa sobre Abimeleque e a sua ascensão ao poder. Este lugar é um símbolo de divisão e conflito, refletindo a instabilidade política e social de Israel durante o período dos juízes. A menção de Arumah destaca a geografia como um elemento que influencia eventos históricos e espirituais, mostrando como locais específicos podem ser cenários de decisões críticas e consequências duradouras.",
-    "outline": [
-      "Localização geográfica de Arumah e sua proximidade com Siquém.",
-      "Contexto histórico e político em Juízes 9, especialmente em relação a Abimeleque.",
-      "Simbolismo de Arumah como um lugar de divisão e conflito.",
-      "Implicações teológicas da instabilidade em Israel durante o período dos juízes."
-    ],
-    "key_concepts": [
-      "Geografia bíblica",
-      "Conflito e divisão",
-      "Liderança e poder"
-    ],
-    "theological_significance": "A análise de Arumah nos leva a refletir sobre a importância da liderança e das consequências das escolhas feitas em contextos de divisão. A instabilidade política de Israel serve como um alerta para a necessidade de unidade e fidelidade a Deus, enfatizando que a desobediência pode levar a consequências desastrosas. Para a fé cristã, isso ressalta a importância de buscar a orientação divina em tempos de crise.",
-    "model": "gpt-4o-mini",
-    "run_id": "enr_20250923_132601_f38a248b",
-    "confidence": 1.0,
-    "generated_at": "2025-09-23T13:26:01.884142"
-  },
-  "ai_themes_normalized": [
-    {
-      "theme_id": null,
-      "proposal_id": "prop:a_lideranca_em_israel_912393",
-      "label_original": "A liderança em Israel",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:conflitos_internos_1f95d8",
-      "label_original": "Conflitos internos",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:a_soberania_de_deus_na_historia_d7ed91",
-      "label_original": "A soberania de Deus na história",
-      "source": "ai_enrichment"
-    }
-  ],
-  "phase1_discovery": {
-    "processed_at": "2025-09-23T22:52:18.645843Z",
-    "total_themes_processed": 3,
-    "summary": {
-      "total_processed": 3,
-      "decisions": {
-        "alias_existing": 0,
-        "proposed": 3,
-        "error": 0
-      },
-      "success_rate": 1.0
-    },
-    "results": [
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.84292,
-          "novelty": 1.0,
-          "similarity_to_best_existing": 0.0,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_78c025d6",
-          "decision_hash": "3c28a640dee2c643",
-          "created_at": "2025-09-23T22:52:18.645843Z"
-        },
-        "proposal_id": "prop:54d2909b",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:a_lideranca_em_israel_912393",
-          "label_original": "A liderança em Israel",
-          "confidence": 0.9500000000000001,
-          "source": "ai_enrichment"
-        }
-      },
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.8437,
-          "novelty": 1.0,
-          "similarity_to_best_existing": 0.0,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_bfe90e46",
-          "decision_hash": "9a45979b282a0c5e",
-          "created_at": "2025-09-23T22:52:19.596564Z"
-        },
-        "proposal_id": "prop:90b1f441",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:conflitos_internos_1f95d8",
-          "label_original": "Conflitos internos",
-          "confidence": 0.9500000000000001,
-          "source": "ai_enrichment"
-        }
-      },
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.8402999999999999,
-          "novelty": 1.0,
-          "similarity_to_best_existing": 0.0,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_3ff9a059",
-          "decision_hash": "4c1b288f857d8021",
-          "created_at": "2025-09-23T22:52:20.431598Z"
-        },
-        "proposal_id": "prop:d9199159",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:a_soberania_de_deus_na_historia_d7ed91",
-          "label_original": "A soberania de Deus na história",
-          "confidence": 0.9500000000000001,
-          "source": "ai_enrichment"
-        }
-      }
-    ]
-  },
-  "entity_links": [
-    {
-      "canonical_id": "CON:arumah",
-      "namespace": "CONCEPT",
-      "role": "primary",
-      "confidence": 0.9,
-      "source": "topic_resolver",
-      "status": "proposed",
-      "provenance": {
-        "topic": "ARUMAH",
-        "extracted_from": "ARUMAH",
-        "processing_result": {
-          "status": "proposed",
-          "proposal_id": "stub:CON:arumah_5831e21d",
-          "canonical_id": "CON:arumah",
-          "needs_review": true,
-          "reasons": [
-            "low_confidence",
-            "insufficient_sources"
-          ],
-          "message": "Entity proposal stub:CON:arumah_5831e21d created"
-        }
-      }
-    }
-  ],
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -222,34 +20,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "SMI",
-      "text": "(height), a place apparently in the neighborhood of Shechem, at which Abimelech resided. (Judges 9:41)",
-      "extracted_refs": [
-        {
-          "book": "Judges",
-          "chapter": 9,
-          "verses": [
-            41
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Judges 9:41",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Judges 9:41",
-      "original": "Judges 9:41"
-    }
-  ],
   "sources": [
-    "NAV",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -272,13 +44,5 @@
       "raw": "Judges 9:41",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 1,
-    "ot": 1,
-    "nt": 0,
-    "books": [
-      "Judges"
-    ]
-  }
+  ]
 }

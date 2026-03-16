@@ -1,7 +1,7 @@
 {
   "topic": "MAAI",
   "slug": "maai",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A priest Ne 12:36",
@@ -12,17 +12,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_001952",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T00:19:52.123890",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -31,34 +20,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "SMI",
-      "text": "(compassionate), one of the Bene-Asaph who took part in the solemn musical service by which the wall of Jerusalem was dedicated. (Nehemiah 12:36)",
-      "extracted_refs": [
-        {
-          "book": "Nehemiah",
-          "chapter": 12,
-          "verses": [
-            36
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Nehemiah 12:36",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Nehemiah 12:36",
-      "original": "Nehemiah 12:36"
-    }
-  ],
   "sources": [
-    "NAV",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -81,13 +44,5 @@
       "raw": "Nehemiah 12:36",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 1,
-    "ot": 1,
-    "nt": 0,
-    "books": [
-      "Nehemiah"
-    ]
-  }
+  ]
 }

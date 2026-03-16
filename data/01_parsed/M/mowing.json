@@ -1,7 +1,7 @@
 {
   "topic": "MOWING",
   "slug": "mowing",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "General scriptures concerning Ps 72:6; 90:6; 129:7; Am 7:1",
@@ -26,17 +26,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_012536",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T01:25:36.585282",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -45,68 +34,8 @@
     "nt_refs": 0,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "(Heb. gez), rendered in Ps. 72:6 “mown grass.” The expression “king’s mowings” (Amos 7:1) refers to some royal right of early pasturage, the first crop of grass for the cavalry (comp. 1 Kings 18:5).",
-      "extracted_refs": [
-        {
-          "book": "Amos",
-          "chapter": 7,
-          "verses": [
-            1
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Amos 7:1",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Kings",
-          "chapter": 18,
-          "verses": [
-            5
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Kings 18:5",
-          "source": "EAS"
-        },
-        {
-          "book": "Psalms",
-          "chapter": 72,
-          "verses": [
-            6
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Psalms 72:6",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "As the great heat of the climate in Palestine and other similarly situated countries soon dries up the herbage itself, hay-making in our sense of the term is not in use. The “king’s mowings,” (Amos 7:1) may perhaps refer to some royal right of early pasturage for the use of the cavalry.",
-      "extracted_refs": [
-        {
-          "book": "Amos",
-          "chapter": 7,
-          "verses": [
-            1
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Amos 7:1",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -151,15 +80,5 @@
       "raw": "Psalms 72:6",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 3,
-    "ot": 3,
-    "nt": 0,
-    "books": [
-      "1 Kings",
-      "Amos",
-      "Psalms"
-    ]
-  }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "topic": "ANAHARATH",
   "slug": "anaharath",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "City on the border of Issachar Jos 19:19",
@@ -12,208 +12,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "Anaharath é uma cidade mencionada em Josué 19:19, localizada na fronteira da tribo de Issacar. Sua menção no contexto da divisão da terra prometida destaca a importância das cidades na vida social e religiosa de Israel. Anaharath, como parte do território de Issacar, simboliza a herança e a identidade do povo de Deus, refletindo a fidelidade divina em cumprir Suas promessas. A cidade também representa a conexão entre a geografia e a história do povo de Israel, sendo um marco na narrativa da conquista da terra.",
-    "outline": [
-      "Localização geográfica de Anaharath e sua importância na divisão das terras de Israel.",
-      "Relação de Anaharath com a tribo de Issacar e seu papel na herança israelita.",
-      "Significado simbólico de Anaharath na narrativa bíblica e na identidade do povo de Deus.",
-      "Implicações teológicas da presença de cidades como Anaharath na história da salvação."
-    ],
-    "key_concepts": [
-      "Herança divina",
-      "Identidade tribal",
-      "Promessa de Deus"
-    ],
-    "theological_significance": "A menção de Anaharath na Bíblia serve como um lembrete da fidelidade de Deus em cumprir Suas promessas ao Seu povo. Para os cristãos, isso reforça a ideia de que Deus é um Deus que cumpre Suas promessas e que a herança espiritual é uma realidade que se estende a todos os crentes. A geografia bíblica, incluindo cidades como Anaharath, nos ajuda a entender melhor o contexto histórico e cultural das Escrituras, enriquecendo nossa fé e compreensão da obra de Deus na história.",
-    "model": "gpt-4o-mini",
-    "run_id": "enr_20250923_125707_098b8391",
-    "confidence": 1.0,
-    "generated_at": "2025-09-23T12:57:07.890960"
-  },
-  "ai_themes_normalized": [
-    {
-      "theme_id": null,
-      "proposal_id": "prop:promessa_e_cumprimento_cf9645",
-      "label_original": "Promessa e cumprimento",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:identidade_e_heranca_506d0e",
-      "label_original": "Identidade e herança",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:geografia_biblica_2657ac",
-      "label_original": "Geografia bíblica",
-      "source": "ai_enrichment"
-    }
-  ],
-  "phase1_discovery": {
-    "processed_at": "2025-09-23T22:43:43.474145Z",
-    "total_themes_processed": 3,
-    "summary": {
-      "total_processed": 3,
-      "decisions": {
-        "alias_existing": 0,
-        "proposed": 3,
-        "error": 0
-      },
-      "success_rate": 1.0
-    },
-    "results": [
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.8401,
-          "novelty": 1.0,
-          "similarity_to_best_existing": 0.0,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_4d6162d0",
-          "decision_hash": "4779c03f37ca4e8e",
-          "created_at": "2025-09-23T22:43:43.474145Z"
-        },
-        "proposal_id": "prop:a44ac256",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:promessa_e_cumprimento_cf9645",
-          "label_original": "Promessa e cumprimento",
-          "confidence": 0.9500000000000001,
-          "source": "ai_enrichment"
-        }
-      },
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.84368,
-          "novelty": 1.0,
-          "similarity_to_best_existing": 0.0,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_2efe3d20",
-          "decision_hash": "1dbc77b1fb1c51bc",
-          "created_at": "2025-09-23T22:43:44.607884Z"
-        },
-        "proposal_id": "prop:7602b134",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:identidade_e_heranca_506d0e",
-          "label_original": "Identidade e herança",
-          "confidence": 0.9500000000000001,
-          "source": "ai_enrichment"
-        }
-      },
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.84922,
-          "novelty": 1.0,
-          "similarity_to_best_existing": 0.0,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_a223e31b",
-          "decision_hash": "6efc9dcd9c20faae",
-          "created_at": "2025-09-23T22:43:45.647232Z"
-        },
-        "proposal_id": "prop:fc771422",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:geografia_biblica_2657ac",
-          "label_original": "Geografia bíblica",
-          "confidence": 0.9500000000000001,
-          "source": "ai_enrichment"
-        }
-      }
-    ]
-  },
-  "entity_links": [
-    {
-      "canonical_id": "CON:anaharath",
-      "namespace": "CONCEPT",
-      "role": "primary",
-      "confidence": 0.9,
-      "source": "topic_resolver",
-      "status": "proposed",
-      "provenance": {
-        "topic": "ANAHARATH",
-        "extracted_from": "ANAHARATH",
-        "processing_result": {
-          "status": "proposed",
-          "proposal_id": "stub:CON:anaharath_dcc5d2eb",
-          "canonical_id": "CON:anaharath",
-          "needs_review": true,
-          "reasons": [
-            "low_confidence",
-            "insufficient_sources"
-          ],
-          "message": "Entity proposal stub:CON:anaharath_dcc5d2eb created"
-        }
-      }
-    }
-  ],
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -222,34 +20,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "SMI",
-      "text": "(gorge or pass), a place within the border of Issachar, named with Shihon and Rabbith. (Joshua 19:19)",
-      "extracted_refs": [
-        {
-          "book": "Joshua",
-          "chapter": 19,
-          "verses": [
-            19
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 19:19",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Joshua 19:19",
-      "original": "Joshua 19:19"
-    }
-  ],
   "sources": [
-    "NAV",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -272,13 +44,5 @@
       "raw": "Joshua 19:19",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 1,
-    "ot": 1,
-    "nt": 0,
-    "books": [
-      "Joshua"
-    ]
-  }
+  ]
 }

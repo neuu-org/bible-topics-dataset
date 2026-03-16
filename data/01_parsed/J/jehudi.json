@@ -1,7 +1,7 @@
 {
   "topic": "JEHUDI",
   "slug": "jehudi",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A Jew, an official at Jehoiakim’s court who read Jeremiah’s scroll to the king Jer 36:14,21,23",
@@ -14,17 +14,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_230627",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T23:06:27.612417",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -33,73 +22,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "A Jew, son of Nethaniah. He was sent by the princes to invite Baruch to read Jeremiah’s roll to them (Jer. 36:14, 21).",
-      "extracted_refs": [
-        {
-          "book": "Jeremiah",
-          "chapter": 36,
-          "verses": [
-            14,
-            21
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Jeremiah 36:14, 21",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(a Jew), son of Nethaniah, a man employed by the princes of Jehoiakim’s court to fetch Baruch to read Jeremiah’s denunciation, (Jeremiah 36:14) and then by the king to fetch the volume itself and read it to him. vs. (Jeremiah 36:21,23) (B.C. 605.)",
-      "extracted_refs": [
-        {
-          "book": "Jeremiah",
-          "chapter": 36,
-          "verses": [
-            14
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Jeremiah 36:14",
-          "source": "SMI"
-        },
-        {
-          "book": "Jeremiah",
-          "chapter": 36,
-          "verses": [
-            21,
-            23
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Jeremiah 36:21,23",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Jeremiah 36:14",
-      "original": "Jer. 36:14"
-    },
-    {
-      "reference": "Jeremiah 36:21",
-      "original": "Jer. 36:21"
-    },
-    {
-      "reference": "Jeremiah 36:23",
-      "original": "Jeremiah 36:23"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -146,13 +70,5 @@
       "raw": "Jeremiah 36:21,23",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 3,
-    "ot": 3,
-    "nt": 0,
-    "books": [
-      "Jeremiah"
-    ]
-  }
+  ]
 }

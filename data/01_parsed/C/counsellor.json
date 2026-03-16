@@ -1,7 +1,7 @@
 {
   "topic": "COUNSELLOR",
   "slug": "counsellor",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A wise man, versed in law and diplomacy 1Ch 27:32,33",
@@ -70,45 +70,6 @@
       "verse_count": 2
     }
   ],
-  "ai_enrichment": {
-    "summary": "O termo 'Conselheiro' na Bíblia refere-se a figuras de sabedoria e autoridade, como Ahithophel, que serviu como conselheiro a Davi e Absalão, e também é um título atribuído a Cristo em Isaías. Ahithophel, descrito como um homem sábio e versado em leis e diplomacia, teve um papel significativo no contexto político de Jerusalém, sendo membro do Sinédrio. A dualidade do uso do termo entre o Antigo e o Novo Testamento destaca a importância do aconselhamento divino e humano na vida dos líderes e na revelação de Cristo como o Conselheiro perfeito.",
-    "outline": [
-      "Definição de Conselheiro como figura de sabedoria e autoridade",
-      "Ahithophel como conselheiro de Davi e Absalão",
-      "Membro do Sinédrio em Jerusalém",
-      "Título de Cristo em Isaías"
-    ],
-    "key_concepts": [
-      "Sabedoria como virtude divina",
-      "Aconselhamento e liderança",
-      "Cristo como Conselheiro eterno"
-    ],
-    "theological_significance": "O conceito de Conselheiro é teologicamente significativo, pois reflete a necessidade de sabedoria e orientação na liderança, tanto em contextos humanos quanto divinos. A designação de Cristo como Conselheiro enfatiza Sua autoridade e capacidade de guiar a humanidade em direção à verdade e à salvação.",
-    "model": "gpt-4o-mini",
-    "run_id": "enr_20251202_014049_2e46b6dc",
-    "confidence": 1.0,
-    "generated_at": "2025-12-02T01:40:49.586261"
-  },
-  "ai_themes_normalized": [
-    {
-      "theme_id": null,
-      "proposal_id": "prop:sabedoria_e_lideranç_0ef200",
-      "label_original": "Sabedoria e liderança divina",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:aconselhamento_em_te_0419fa",
-      "label_original": "Aconselhamento em tempos de crise",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:cristo_como_conselhe_0ac580",
-      "label_original": "Cristo como Conselheiro",
-      "source": "ai_enrichment"
-    }
-  ],
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -117,83 +78,8 @@
     "nt_refs": 1,
     "total_verses": 2
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "An adviser (Prov. 11:14; 15:22), a king’s state counsellor (2 Sam. 15:12). Used once of the Messiah (Isa. 9:6). In Mark 15:43, Luke 23:50, the word probably means a member of the Jewish Sanhedrim.",
-      "extracted_refs": [
-        {
-          "book": "Proverbs",
-          "chapter": 11,
-          "verses": [
-            14
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Proverbs 11:14",
-          "source": "EAS"
-        },
-        {
-          "book": "Proverbs",
-          "chapter": 15,
-          "verses": [
-            22
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Proverbs 15:22",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Samuel",
-          "chapter": 15,
-          "verses": [
-            12
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Samuel 15:12",
-          "source": "EAS"
-        },
-        {
-          "book": "Isaiah",
-          "chapter": 9,
-          "verses": [
-            6
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Isaiah 9:6",
-          "source": "EAS"
-        },
-        {
-          "book": "Mark",
-          "chapter": 15,
-          "verses": [
-            43
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Mark 15:43",
-          "source": "EAS"
-        },
-        {
-          "book": "Luke",
-          "chapter": 23,
-          "verses": [
-            50
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Luke 23:50",
-          "source": "EAS"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -271,17 +157,5 @@
       "raw": "Luke 23:50",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 6,
-    "ot": 4,
-    "nt": 2,
-    "books": [
-      "2 Samuel",
-      "Isaiah",
-      "Luke",
-      "Mark",
-      "Proverbs"
-    ]
-  }
+  ]
 }

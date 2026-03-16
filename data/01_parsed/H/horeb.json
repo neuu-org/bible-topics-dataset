@@ -1,7 +1,7 @@
 {
   "topic": "HOREB",
   "slug": "horeb",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A range of mountains of which Mount Sinai is the most prominent Ex 3:1; 17:6; 33:6; De 1:2,6,19; 4:10,15; 5:2; 9:8; 29:1; 1Ki 8:9; 19:8; 2Ch 5:10; Ps 106:19; Mal 4:4",
@@ -87,17 +87,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_220447",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T22:04:47.983010",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [
     "SINAI"
   ],
@@ -108,66 +97,8 @@
     "nt_refs": 0,
     "total_verses": 5
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Desert or mountain of the dried-up ground, a general name for the whole mountain range of which Sinai was one of the summits (Ex. 3:1; 17:6; 33:6; Ps. 106:19, etc.). The modern name of the whole range is Jebel Musa. It is a huge mountain block, about 2 miles long by about 1 in breadth, with a very spacious plain at its north-east end, called the Er Rahah, in which the Israelites encamped for nearly a whole year. (See SINAI.)",
-      "extracted_refs": [
-        {
-          "book": "Exodus",
-          "chapter": 3,
-          "verses": [
-            1
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Exodus 3:1",
-          "source": "EAS"
-        },
-        {
-          "book": "Exodus",
-          "chapter": 17,
-          "verses": [
-            6
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Exodus 17:6",
-          "source": "EAS"
-        },
-        {
-          "book": "Exodus",
-          "chapter": 33,
-          "verses": [
-            6
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Exodus 33:6",
-          "source": "EAS"
-        },
-        {
-          "book": "Psalms",
-          "chapter": 106,
-          "verses": [
-            19
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Psalms 106:19",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(desert). [Sinai, Or Sinai]"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -223,14 +154,5 @@
       "raw": "Psalms 106:19",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 4,
-    "ot": 4,
-    "nt": 0,
-    "books": [
-      "Exodus",
-      "Psalms"
-    ]
-  }
+  ]
 }

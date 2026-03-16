@@ -1,7 +1,7 @@
 {
   "topic": "MIGRON",
   "slug": "migron",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "(A city in territory of the tribe of Benjamin)",
@@ -24,17 +24,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_010628",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T01:06:28.306080",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -43,82 +32,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Precipice or landslip, a place between Aiath and Michmash (Isa. 10:28). The town of the same name mentioned in 1 Sam. 14:2 was to the south of this.",
-      "extracted_refs": [
-        {
-          "book": "Isaiah",
-          "chapter": 10,
-          "verses": [
-            28
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Isaiah 10:28",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Samuel",
-          "chapter": 14,
-          "verses": [
-            2
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Samuel 14:2",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(precipice), a town or a spot in the neighborhood of Gibeah. (1 Samuel 14:23) Migron is also mentioned in Sennacherib’s approach to Jerusalem. (Isaiah 10:28)",
-      "extracted_refs": [
-        {
-          "book": "1 Samuel",
-          "chapter": 14,
-          "verses": [
-            23
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Samuel 14:23",
-          "source": "SMI"
-        },
-        {
-          "book": "Isaiah",
-          "chapter": 10,
-          "verses": [
-            28
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Isaiah 10:28",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Isaiah 10:28",
-      "original": "Isa. 10:28"
-    },
-    {
-      "reference": "1 Samuel 14:2",
-      "original": "1 Sam. 14:2"
-    },
-    {
-      "reference": "1 Samuel 14:23",
-      "original": "1 Samuel 14:23"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -163,14 +78,5 @@
       "raw": "1 Samuel 14:23",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 3,
-    "ot": 3,
-    "nt": 0,
-    "books": [
-      "1 Samuel",
-      "Isaiah"
-    ]
-  }
+  ]
 }

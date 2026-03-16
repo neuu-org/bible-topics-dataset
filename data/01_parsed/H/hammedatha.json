@@ -1,7 +1,7 @@
 {
   "topic": "HAMMEDATHA",
   "slug": "hammedatha",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Father of Haman Es 3:1,10; 8:5; 9:10,24",
@@ -16,17 +16,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_205940",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T20:59:40.781123",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -35,99 +24,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Father of Haman, designated usually “the Agagite” (Esther 3:1, 10; 8:5).",
-      "extracted_refs": [
-        {
-          "book": "Esther",
-          "chapter": 3,
-          "verses": [
-            1,
-            10
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Esther 3:1, 10",
-          "source": "EAS"
-        },
-        {
-          "book": "Esther",
-          "chapter": 8,
-          "verses": [
-            5
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Esther 8:5",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(double), father of the infamous Haman. (Esther 3:1,10; 8:5; 9:24)",
-      "extracted_refs": [
-        {
-          "book": "Esther",
-          "chapter": 3,
-          "verses": [
-            1,
-            10
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Esther 3:1,10",
-          "source": "SMI"
-        },
-        {
-          "book": "Esther",
-          "chapter": 8,
-          "verses": [
-            5
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Esther 8:5",
-          "source": "SMI"
-        },
-        {
-          "book": "Esther",
-          "chapter": 9,
-          "verses": [
-            24
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Esther 9:24",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Esther 3:1",
-      "original": "Esther 3:1"
-    },
-    {
-      "reference": "Esther 3:10",
-      "original": "Esther 3:10"
-    },
-    {
-      "reference": "Esther 8:5",
-      "original": "Esther 8:5"
-    },
-    {
-      "reference": "Esther 9:24",
-      "original": "Esther 9:24"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -173,13 +71,5 @@
       "raw": "Esther 9:24",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 4,
-    "ot": 4,
-    "nt": 0,
-    "books": [
-      "Esther"
-    ]
-  }
+  ]
 }

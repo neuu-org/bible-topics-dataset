@@ -1,7 +1,7 @@
 {
   "topic": "JUSTUS",
   "slug": "justus",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "1. A disciple nominated with Matthias to succeed Judas Iscariot Ac 1:23",
@@ -31,17 +31,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_233348",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T23:33:48.258374",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -50,69 +39,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "(1.) Another name for Joseph, surnamed Barsabas. He and Matthias are mentioned only in Acts 1:23. “They must have been among the earliest disciples of Jesus, and must have been faithful to the end; they must have been well known and esteemed among the brethren. What became of them afterwards, and what work they did, are entirely unknown” (Lindsay’s Acts of the Apostles). (2.) A Jewish proselyte at Corinth, in whose house, next door to the synagogue, Paul held meetings and preached after he left the synagogue (Acts 18:7). (3.) A Jewish Christian, called Jesus, Paul’s only fellow-labourer at Rome, where he wrote his Epistle to the Colossians (Col. 4:11).",
-      "extracted_refs": [
-        {
-          "book": "Acts",
-          "chapter": 18,
-          "verses": [
-            7
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Acts 18:7",
-          "source": "EAS"
-        },
-        {
-          "book": "Colossians",
-          "chapter": 4,
-          "verses": [
-            11
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Colossians 4:11",
-          "source": "EAS"
-        },
-        {
-          "book": "Acts",
-          "chapter": 1,
-          "verses": [
-            23
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Acts 1:23",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(just)."
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Acts 1:23",
-      "original": "Acts 1:23"
-    },
-    {
-      "reference": "Acts 18:7",
-      "original": "Acts 18:7"
-    },
-    {
-      "reference": "Colossians 4:11",
-      "original": "Col. 4:11"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -157,14 +85,5 @@
       "raw": "Acts 1:23",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 3,
-    "ot": 0,
-    "nt": 3,
-    "books": [
-      "Acts",
-      "Colossians"
-    ]
-  }
+  ]
 }

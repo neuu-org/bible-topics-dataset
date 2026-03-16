@@ -1,7 +1,7 @@
 {
   "topic": "KETURAH",
   "slug": "keturah",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Wife (concubine) of Abraham Ge 25:1-4; 1Ch 1:32",
@@ -24,17 +24,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_233851",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T23:38:51.237619",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -43,73 +32,8 @@
     "nt_refs": 0,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Incense, the wife of Abraham, whom he married probably after Sarah’s death (Gen. 25:1-6), by whom he had six sons, whom he sent away into the east country. Her nationality is unknown. She is styled “Abraham’s concubine” (1 Chr. 1:32). Through the offshoots of the Keturah line Abraham became the “father of many nations.”",
-      "extracted_refs": [
-        {
-          "book": "Genesis",
-          "chapter": 25,
-          "verses": [
-            1,
-            2,
-            3,
-            4,
-            5,
-            6
-          ],
-          "verse_count": 6,
-          "testament": "OT",
-          "raw": "Genesis 25:1-6",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Chronicles",
-          "chapter": 1,
-          "verses": [
-            32
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 1:32",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(incense), the wife of Abraham after the death of Sarah. (Genesis 25:1; 1 Chronicles 1:32) (B.C. 1860.)",
-      "extracted_refs": [
-        {
-          "book": "Genesis",
-          "chapter": 25,
-          "verses": [
-            1
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 25:1",
-          "source": "SMI"
-        },
-        {
-          "book": "1 Chronicles",
-          "chapter": 1,
-          "verses": [
-            32
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 1:32",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -159,14 +83,5 @@
       "raw": "Genesis 25:1",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 7,
-    "ot": 7,
-    "nt": 0,
-    "books": [
-      "1 Chronicles",
-      "Genesis"
-    ]
-  }
+  ]
 }

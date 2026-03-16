@@ -1,7 +1,7 @@
 {
   "topic": "HEBER",
   "slug": "heber",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "1. Head of a family in the tribe of Gad 1Ch 5:13",
@@ -97,17 +97,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_212804",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T21:28:04.268189",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -116,101 +105,8 @@
     "nt_refs": 1,
     "total_verses": 4
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Passing over. (1.) Son of Beriah and grandson of Asher (Gen. 46:17; 1 Chr. 7:31, 32). (2.) The Kenite (Judg. 4:11, 17; 5:24), a descendant of Hobab. His wife Jael received Sisera (q.v.) into her tent and then killed him. (3.) 1 Chr. 4:18. (4.) A Benjamite (1 Chr. 8:17). (5.) A Gadite (5:13). (See EBER.)",
-      "extracted_refs": [
-        {
-          "book": "Genesis",
-          "chapter": 46,
-          "verses": [
-            17
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 46:17",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Chronicles",
-          "chapter": 7,
-          "verses": [
-            31,
-            32
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "1 Chronicles 7:31, 32",
-          "source": "EAS"
-        },
-        {
-          "book": "Judges",
-          "chapter": 4,
-          "verses": [
-            11,
-            17
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Judges 4:11, 17",
-          "source": "EAS"
-        },
-        {
-          "book": "Judges",
-          "chapter": 5,
-          "verses": [
-            24
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Judges 5:24",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Chronicles",
-          "chapter": 8,
-          "verses": [
-            17
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 8:17",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Chronicles",
-          "chapter": 4,
-          "verses": [
-            18
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 4:18",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Chronicles",
-          "chapter": 5,
-          "verses": [
-            13
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 5:13",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(alliance)."
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -301,15 +197,5 @@
       "raw": "1 Chronicles 5:13",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 9,
-    "ot": 9,
-    "nt": 0,
-    "books": [
-      "1 Chronicles",
-      "Genesis",
-      "Judges"
-    ]
-  }
+  ]
 }

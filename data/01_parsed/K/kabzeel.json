@@ -1,7 +1,7 @@
 {
   "topic": "KABZEEL",
   "slug": "kabzeel",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A city of the tribe of Judah Jos 15:21; 2Sa 23:20; 1Ch 11:22",
@@ -36,17 +36,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_233403",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T23:34:03.603103",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -55,101 +44,8 @@
     "nt_refs": 0,
     "total_verses": 2
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Gathering of God, a city in the extreme south of Judah, near to Idumaea (Josh. 15:21), the birthplace of Benaiah, one of David’s chief warriors (2 Sam. 23:20; 1 Chr. 11:22). It was called also Jekabzeel (Neh. 11:25), after the Captivity.",
-      "extracted_refs": [
-        {
-          "book": "Joshua",
-          "chapter": 15,
-          "verses": [
-            21
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 15:21",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Samuel",
-          "chapter": 23,
-          "verses": [
-            20
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Samuel 23:20",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Chronicles",
-          "chapter": 11,
-          "verses": [
-            22
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 11:22",
-          "source": "EAS"
-        },
-        {
-          "book": "Nehemiah",
-          "chapter": 11,
-          "verses": [
-            25
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Nehemiah 11:25",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(gathered by God), one of the “cities” of the tribe of Judah, (Joshua 15:21) the native place of the great hero Benaiah ben-Jehoiada. (2 Samuel 23:20; 1 Chronicles 11:22) After the captivity it was reinhabited by the Jews, and appears as Jekabzeel.",
-      "extracted_refs": [
-        {
-          "book": "Joshua",
-          "chapter": 15,
-          "verses": [
-            21
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 15:21",
-          "source": "SMI"
-        },
-        {
-          "book": "2 Samuel",
-          "chapter": 23,
-          "verses": [
-            20
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Samuel 23:20",
-          "source": "SMI"
-        },
-        {
-          "book": "1 Chronicles",
-          "chapter": 11,
-          "verses": [
-            22
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 11:22",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -205,16 +101,5 @@
       "raw": "Nehemiah 11:25",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 4,
-    "ot": 4,
-    "nt": 0,
-    "books": [
-      "1 Chronicles",
-      "2 Samuel",
-      "Joshua",
-      "Nehemiah"
-    ]
-  }
+  ]
 }

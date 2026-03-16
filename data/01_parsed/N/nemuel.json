@@ -1,7 +1,7 @@
 {
   "topic": "NEMUEL",
   "slug": "nemuel",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "1. A Reubenite Nu 26:9",
@@ -31,17 +31,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_014110",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T01:41:10.699172",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -50,55 +39,8 @@
     "nt_refs": 0,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Day of God. (1.) One of Simeon’s five sons (1 Chr. 4:24), called also Jemuel (Gen. 46:10). (2.) A Reubenite, a son of Eliab, and brother of Dathan and Abiram (Num. 26:9).",
-      "extracted_refs": [
-        {
-          "book": "1 Chronicles",
-          "chapter": 4,
-          "verses": [
-            24
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 4:24",
-          "source": "EAS"
-        },
-        {
-          "book": "Genesis",
-          "chapter": 46,
-          "verses": [
-            10
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 46:10",
-          "source": "EAS"
-        },
-        {
-          "book": "Numbers",
-          "chapter": 26,
-          "verses": [
-            9
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Numbers 26:9",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(day of God)."
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -143,15 +85,5 @@
       "raw": "Numbers 26:9",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 3,
-    "ot": 3,
-    "nt": 0,
-    "books": [
-      "1 Chronicles",
-      "Genesis",
-      "Numbers"
-    ]
-  }
+  ]
 }

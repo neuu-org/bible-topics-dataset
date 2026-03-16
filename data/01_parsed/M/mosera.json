@@ -1,7 +1,7 @@
 {
   "topic": "MOSERA",
   "slug": "mosera",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "An encampment of the Israelites, where Aaron died De 10:6",
@@ -17,17 +17,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_012349",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T01:23:49.673466",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [
     "MOSEROTH"
   ],
@@ -38,54 +27,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "A bond, one of the stations of the Israelites in the wilderness (Deut. 10:6), at the foot of Mount Hor. (Comp. Num. 33:37, 38). It has been identified with el-Tayibeh, a small fountain at the bottom of the pass leading to the ascent of Mount Hor.",
-      "extracted_refs": [
-        {
-          "book": "Deuteronomy",
-          "chapter": 10,
-          "verses": [
-            6
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Deuteronomy 10:6",
-          "source": "EAS"
-        },
-        {
-          "book": "Numbers",
-          "chapter": 33,
-          "verses": [
-            37,
-            38
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Numbers 33:37, 38",
-          "source": "EAS"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Deuteronomy 10:6",
-      "original": "Deut. 10:6"
-    },
-    {
-      "reference": "Numbers 33:37",
-      "original": "Num. 33:37"
-    },
-    {
-      "reference": "Numbers 33:38",
-      "original": "Num. 33:38"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -120,14 +63,5 @@
       "raw": "Numbers 33:37, 38",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 3,
-    "ot": 3,
-    "nt": 0,
-    "books": [
-      "Deuteronomy",
-      "Numbers"
-    ]
-  }
+  ]
 }

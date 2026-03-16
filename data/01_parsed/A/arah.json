@@ -1,7 +1,7 @@
 {
   "topic": "ARAH",
   "slug": "arah",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "1. Son of Ulla 1Ch 7:39",
@@ -38,209 +38,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "O nome Arah aparece nas Escrituras como um filho de Ulla e como um israelita cujos descendentes retornaram do exílio babilônico. Arah, como filho de Ulla, representa uma linha genealógica importante dentro da tribo de Efraim, destacando a continuidade da herança israelita. Além disso, a menção de Arah em Esdras e Neemias sublinha a importância do retorno dos exilados e a restauração da identidade nacional e religiosa de Israel após o cativeiro. Arah, portanto, simboliza tanto a preservação da linhagem quanto a esperança de renovação espiritual e comunitária.",
-    "outline": [
-      "Arah como filho de Ulla e sua importância genealógica (1 Crônicas 7:39)",
-      "Arah como um israelita que retornou do exílio babilônico (Esdras 2:5; Neemias 7:10)",
-      "Possível identificação de Arah em Neemias 6:18",
-      "A relevância do retorno do exílio para a identidade israelita"
-    ],
-    "key_concepts": [
-      "Genealogia e herança em Israel",
-      "Restauração pós-exílio",
-      "Identidade nacional e espiritual"
-    ],
-    "theological_significance": "Arah representa a continuidade da história de Israel e a fidelidade de Deus em restaurar Seu povo após o exílio. Através do retorno dos exilados, a narrativa bíblica enfatiza a importância da comunidade e da identidade coletiva na adoração a Deus. Para a fé cristã, isso ressalta a ideia de que Deus sempre busca restaurar Seu povo, oferecendo esperança e renovação, mesmo após períodos de desvio ou cativeiro espiritual.",
-    "model": "gpt-4o-mini",
-    "run_id": "enr_20250923_131406_92012acd",
-    "confidence": 1.0,
-    "generated_at": "2025-09-23T13:14:06.888793"
-  },
-  "ai_themes_normalized": [
-    {
-      "theme_id": null,
-      "proposal_id": "prop:restauracao_e_renovacao_d4c5e3",
-      "label_original": "Restauração e renovação",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:identidade_e_pertencimento_7899ae",
-      "label_original": "Identidade e pertencimento",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:fidelidade_de_deus_d7ff62",
-      "label_original": "Fidelidade de Deus",
-      "source": "ai_enrichment"
-    }
-  ],
-  "phase1_discovery": {
-    "processed_at": "2025-09-23T22:48:34.524824Z",
-    "total_themes_processed": 3,
-    "summary": {
-      "total_processed": 3,
-      "decisions": {
-        "alias_existing": 0,
-        "proposed": 3,
-        "error": 0
-      },
-      "success_rate": 1.0
-    },
-    "results": [
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.8472799999999999,
-          "novelty": 1.0,
-          "similarity_to_best_existing": 0.0,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_e8920c3a",
-          "decision_hash": "df8920b28fa11f01",
-          "created_at": "2025-09-23T22:48:34.524824Z"
-        },
-        "proposal_id": "prop:90b9594f",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:restauracao_e_renovacao_d4c5e3",
-          "label_original": "Restauração e renovação",
-          "confidence": 0.9500000000000001,
-          "source": "ai_enrichment"
-        }
-      },
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.84104,
-          "novelty": 1.0,
-          "similarity_to_best_existing": 0.0,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_40905dc7",
-          "decision_hash": "954b8e8a6986b20b",
-          "created_at": "2025-09-23T22:48:35.420639Z"
-        },
-        "proposal_id": "prop:400cd868",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:identidade_e_pertencimento_7899ae",
-          "label_original": "Identidade e pertencimento",
-          "confidence": 0.9500000000000001,
-          "source": "ai_enrichment"
-        }
-      },
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "low_novelty",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.7789799999999999,
-          "novelty": 0.6666666666666667,
-          "similarity_to_best_existing": 0.3333333333333333,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_993e8499",
-          "decision_hash": "8605519c6703145e",
-          "created_at": "2025-09-23T22:48:36.657586Z"
-        },
-        "proposal_id": "prop:0d8e83b6",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:fidelidade_de_deus_d7ff62",
-          "label_original": "Fidelidade de Deus",
-          "confidence": 0.9500000000000001,
-          "source": "ai_enrichment"
-        }
-      }
-    ]
-  },
-  "entity_links": [
-    {
-      "canonical_id": "CON:arah",
-      "namespace": "CONCEPT",
-      "role": "primary",
-      "confidence": 0.9,
-      "source": "topic_resolver",
-      "status": "proposed",
-      "provenance": {
-        "topic": "ARAH",
-        "extracted_from": "ARAH",
-        "processing_result": {
-          "status": "proposed",
-          "proposal_id": "stub:CON:arah_35e95253",
-          "canonical_id": "CON:arah",
-          "needs_review": true,
-          "reasons": [
-            "low_confidence",
-            "insufficient_sources"
-          ],
-          "message": "Entity proposal stub:CON:arah_35e95253 created"
-        }
-      }
-    }
-  ],
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -249,15 +46,8 @@
     "nt_refs": 0,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "SMI",
-      "text": "(wayfaring)."
-    }
-  ],
   "sources": [
-    "NAV",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",

@@ -1,7 +1,7 @@
 {
   "topic": "ALGUM",
   "slug": "algum",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Also called ALMUG, trees of Ophir and Lebanon 1Ki 10:11,12; 2Ch 2:8; 9:10,11",
@@ -28,208 +28,6 @@
       "verse_count": 2
     }
   ],
-  "ai_enrichment": {
-    "summary": "Os 'árvores de Almug', mencionadas em 1 Reis 10:11-12 e 2 Crônicas 2:8,9:10-11, são uma referência a um tipo de madeira preciosa que era altamente valorizada na antiguidade. Provenientes de Ofir e do Líbano, essas árvores simbolizam riqueza, beleza e a habilidade de Salomão em estabelecer comércio e alianças. A madeira de Almug era utilizada na construção do templo e em outros projetos significativos, refletindo a glória do reino de Salomão e a prosperidade de Israel sob sua liderança. Este tópico destaca a importância dos recursos naturais e do comércio na narrativa bíblica, além de ilustrar a sabedoria e a grandeza de Deus ao prover para Seu povo.",
-    "outline": [
-      "Descrição das árvores de Almug e sua origem",
-      "Uso da madeira de Almug na construção do templo",
-      "Simbolismo da riqueza e prosperidade no reino de Salomão",
-      "Relação entre comércio e alianças na narrativa bíblica"
-    ],
-    "key_concepts": [
-      "Riqueza e prosperidade",
-      "Sabedoria de Salomão",
-      "Comércio e alianças"
-    ],
-    "theological_significance": "A menção das árvores de Almug na Bíblia não é apenas uma referência a um recurso material, mas também um testemunho da providência divina e da sabedoria que Deus concedeu a Salomão. A forma como Salomão utilizou esses recursos para glorificar a Deus através da construção do templo é um exemplo de como os cristãos devem usar suas próprias habilidades e recursos para o serviço do Reino de Deus. Além disso, a prosperidade de Israel sob Salomão serve como um lembrete da bênção que vem da obediência a Deus.",
-    "model": "gpt-4o-mini",
-    "run_id": "enr_20250923_124313_5b614584",
-    "confidence": 1.0,
-    "generated_at": "2025-09-23T12:43:13.368618"
-  },
-  "ai_themes_normalized": [
-    {
-      "theme_id": null,
-      "proposal_id": "prop:sabedoria_e_lideranca_d6b232",
-      "label_original": "Sabedoria e liderança",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:riqueza_e_bencao_divina_71ac5b",
-      "label_original": "Riqueza e bênção divina",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:construcao_do_templo_b14dd7",
-      "label_original": "Construção do templo",
-      "source": "ai_enrichment"
-    }
-  ],
-  "phase1_discovery": {
-    "processed_at": "2025-09-23T22:39:25.806484Z",
-    "total_themes_processed": 3,
-    "summary": {
-      "total_processed": 3,
-      "decisions": {
-        "alias_existing": 0,
-        "proposed": 3,
-        "error": 0
-      },
-      "success_rate": 1.0
-    },
-    "results": [
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.8409599999999999,
-          "novelty": 1.0,
-          "similarity_to_best_existing": 0.0,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_4f38edc3",
-          "decision_hash": "7f113069daf06b4a",
-          "created_at": "2025-09-23T22:39:25.806484Z"
-        },
-        "proposal_id": "prop:8fdbe6b4",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:sabedoria_e_lideranca_d6b232",
-          "label_original": "Sabedoria e liderança",
-          "confidence": 0.9500000000000001,
-          "source": "ai_enrichment"
-        }
-      },
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.8475199999999999,
-          "novelty": 1.0,
-          "similarity_to_best_existing": 0.0,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_39169e8d",
-          "decision_hash": "f4e9a5953d376f6d",
-          "created_at": "2025-09-23T22:39:26.961473Z"
-        },
-        "proposal_id": "prop:ba1af0df",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:riqueza_e_bencao_divina_71ac5b",
-          "label_original": "Riqueza e bênção divina",
-          "confidence": 0.9500000000000001,
-          "source": "ai_enrichment"
-        }
-      },
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.8480599999999999,
-          "novelty": 1.0,
-          "similarity_to_best_existing": 0.0,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_24f8fdcd",
-          "decision_hash": "a1564d7ecbf9182e",
-          "created_at": "2025-09-23T22:39:28.095501Z"
-        },
-        "proposal_id": "prop:0fffa3b1",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:construcao_do_templo_b14dd7",
-          "label_original": "Construção do templo",
-          "confidence": 0.9500000000000001,
-          "source": "ai_enrichment"
-        }
-      }
-    ]
-  },
-  "entity_links": [
-    {
-      "canonical_id": "CON:algum",
-      "namespace": "CONCEPT",
-      "role": "primary",
-      "confidence": 0.9,
-      "source": "topic_resolver",
-      "status": "proposed",
-      "provenance": {
-        "topic": "ALGUM",
-        "extracted_from": "ALGUM",
-        "processing_result": {
-          "status": "proposed",
-          "proposal_id": "stub:CON:algum_9110835a",
-          "canonical_id": "CON:algum",
-          "needs_review": true,
-          "reasons": [
-            "low_confidence",
-            "insufficient_sources"
-          ],
-          "message": "Entity proposal stub:CON:algum_9110835a created"
-        }
-      }
-    }
-  ],
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -238,51 +36,8 @@
     "nt_refs": 0,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "(2 Chr. 2:8; 9:10, 11), the same as almug (1 Kings 10:11).",
-      "extracted_refs": [
-        {
-          "book": "2 Chronicles",
-          "chapter": 2,
-          "verses": [
-            8
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Chronicles 2:8",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Chronicles",
-          "chapter": 9,
-          "verses": [
-            10,
-            11
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "2 Chronicles 9:10, 11",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Kings",
-          "chapter": 10,
-          "verses": [
-            11
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Kings 10:11",
-          "source": "EAS"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -328,14 +83,5 @@
       "raw": "1 Kings 10:11",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 4,
-    "ot": 4,
-    "nt": 0,
-    "books": [
-      "1 Kings",
-      "2 Chronicles"
-    ]
-  }
+  ]
 }

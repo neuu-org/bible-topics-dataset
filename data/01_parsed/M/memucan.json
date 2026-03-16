@@ -1,7 +1,7 @@
 {
   "topic": "MEMUCAN",
   "slug": "memucan",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "One of the seven princes of Ahasuerus who counsels the king to divorce Queen Vashti Es 1:14-21",
@@ -12,17 +12,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_005102",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T00:51:02.337428",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -31,64 +20,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Dignified, one of the royal counsellors at the court of Ahasuerus, by whose suggestion Vashti was divorced (Esther 1:14, 16, 21).",
-      "extracted_refs": [
-        {
-          "book": "Esther",
-          "chapter": 1,
-          "verses": [
-            14,
-            16,
-            21
-          ],
-          "verse_count": 3,
-          "testament": "OT",
-          "raw": "Esther 1:14, 16, 21",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(dignified), one of the seven princes of Persia in the reign of Ahasuerus, who “saw the king’s face,” and sat first in the kingdom. (Esther 1:14,16,21)",
-      "extracted_refs": [
-        {
-          "book": "Esther",
-          "chapter": 1,
-          "verses": [
-            14,
-            16,
-            21
-          ],
-          "verse_count": 3,
-          "testament": "OT",
-          "raw": "Esther 1:14,16,21",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Esther 1:14",
-      "original": "Esther 1:14"
-    },
-    {
-      "reference": "Esther 1:16",
-      "original": "Esther 1:16"
-    },
-    {
-      "reference": "Esther 1:21",
-      "original": "Esther 1:21"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -113,13 +46,5 @@
       "raw": "Esther 1:14, 16, 21",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 3,
-    "ot": 3,
-    "nt": 0,
-    "books": [
-      "Esther"
-    ]
-  }
+  ]
 }

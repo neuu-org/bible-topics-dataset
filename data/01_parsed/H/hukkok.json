@@ -1,7 +1,7 @@
 {
   "topic": "HUKKOK",
   "slug": "hukkok",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A place on the boundary line of the tribe of Naphtali Jos 19:34",
@@ -12,17 +12,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_220930",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T22:09:30.522301",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -31,52 +20,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Decreed, a town near Zebulun, not far from Jordan, on the border of Naphtali (Josh. 19:34). (See HELKATH.)",
-      "extracted_refs": [
-        {
-          "book": "Joshua",
-          "chapter": 19,
-          "verses": [
-            34
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 19:34",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(incised), a place on the boundary of Naphtali. (Joshua 19:34) It has been recovered in Yakuk, a village in the mountains of Naphtali west of the upper end of the Sea of Galilee.",
-      "extracted_refs": [
-        {
-          "book": "Joshua",
-          "chapter": 19,
-          "verses": [
-            34
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 19:34",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Joshua 19:34",
-      "original": "Josh. 19:34"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -99,13 +44,5 @@
       "raw": "Joshua 19:34",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 1,
-    "ot": 1,
-    "nt": 0,
-    "books": [
-      "Joshua"
-    ]
-  }
+  ]
 }

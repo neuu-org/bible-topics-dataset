@@ -1,7 +1,7 @@
 {
   "topic": "NAPHTUHIM",
   "slug": "naphtuhim",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "The inhabitants of central Egypt Ge 10:13; 1Ch 1:11",
@@ -24,17 +24,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_013424",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T01:34:24.054255",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -43,68 +32,8 @@
     "nt_refs": 0,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "A Hamitic tribe descended from Mizraim (Gen. 10:13). Others identify this word with Napata, the name of the city and territory on the southern frontier of Mizraim, the modern Meroe, at the great bend of the Nile at Soudan. This city was the royal residence, it is said, of Queen Candace (Acts 8:27). Here there are extensive and splendid ruins.",
-      "extracted_refs": [
-        {
-          "book": "Genesis",
-          "chapter": 10,
-          "verses": [
-            13
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 10:13",
-          "source": "EAS"
-        },
-        {
-          "book": "Acts",
-          "chapter": 8,
-          "verses": [
-            27
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Acts 8:27",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(border-people), a Mizraite (Egyptian) nation or tribe mentioned only in the account of the descendants of Noah. (Genesis 10:13; 1 Chronicles 1:11) If we may judge from their position in the list Of the Mizraites, the Naphtuhim were possibly settled, at first, either in Egypt or immediately to the west of it.",
-      "extracted_refs": [
-        {
-          "book": "Genesis",
-          "chapter": 10,
-          "verses": [
-            13
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 10:13",
-          "source": "SMI"
-        },
-        {
-          "book": "1 Chronicles",
-          "chapter": 1,
-          "verses": [
-            11
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 1:11",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -149,15 +78,5 @@
       "raw": "1 Chronicles 1:11",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 3,
-    "ot": 2,
-    "nt": 1,
-    "books": [
-      "1 Chronicles",
-      "Acts",
-      "Genesis"
-    ]
-  }
+  ]
 }

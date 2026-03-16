@@ -1,7 +1,7 @@
 {
   "topic": "IRA",
   "slug": "ira",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "1. A priest 2Sa 20:26",
@@ -51,17 +51,6 @@
       "verse_count": 2
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_223332",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T22:33:32.952719",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -70,77 +59,8 @@
     "nt_refs": 0,
     "total_verses": 2
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Citizen; wakeful. (1.) A Tekoite, one of David’s thirty warriors (2 Sam. 23:26). (2.) An Ithrite, also one of David’s heroes (2 Sam. 23:38). (3.) A Jairite and priest, a royal chaplain (2 Sam. 20:26) or confidential adviser (comp. 2 Sam. 8:18; 1 Chr. 18:17).",
-      "extracted_refs": [
-        {
-          "book": "2 Samuel",
-          "chapter": 23,
-          "verses": [
-            26
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Samuel 23:26",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Samuel",
-          "chapter": 23,
-          "verses": [
-            38
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Samuel 23:38",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Samuel",
-          "chapter": 20,
-          "verses": [
-            26
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Samuel 20:26",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Samuel",
-          "chapter": 8,
-          "verses": [
-            18
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Samuel 8:18",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Chronicles",
-          "chapter": 18,
-          "verses": [
-            17
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 18:17",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(watchful of a city)."
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -207,14 +127,5 @@
       "raw": "1 Chronicles 18:17",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 5,
-    "ot": 5,
-    "nt": 0,
-    "books": [
-      "1 Chronicles",
-      "2 Samuel"
-    ]
-  }
+  ]
 }

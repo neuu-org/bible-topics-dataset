@@ -1,7 +1,7 @@
 {
   "topic": "JEZIEL",
   "slug": "jeziel",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A disaffected Israelite who joined David at Ziklag 1Ch 12:3",
@@ -12,17 +12,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_231554",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T23:15:54.690519",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -31,52 +20,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Assembled by God, a son of Azmaveth. He was one of the Benjamite archers who joined David at Ziklag (1 Chr. 12:3).",
-      "extracted_refs": [
-        {
-          "book": "1 Chronicles",
-          "chapter": 12,
-          "verses": [
-            3
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 12:3",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(the assembly of God), a Benjamite who joined David at Ziklag. (1 Chronicles 12:3) (B.C. 1055.)",
-      "extracted_refs": [
-        {
-          "book": "1 Chronicles",
-          "chapter": 12,
-          "verses": [
-            3
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 12:3",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "1 Chronicles 12:3",
-      "original": "1 Chr. 12:3"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -99,13 +44,5 @@
       "raw": "1 Chronicles 12:3",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 1,
-    "ot": 1,
-    "nt": 0,
-    "books": [
-      "1 Chronicles"
-    ]
-  }
+  ]
 }

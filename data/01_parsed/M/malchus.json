@@ -1,7 +1,7 @@
 {
   "topic": "MALCHUS",
   "slug": "malchus",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Servant of the high priest",
@@ -53,17 +53,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_002955",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T00:29:55.599520",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -72,113 +61,8 @@
     "nt_refs": 3,
     "total_verses": 3
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Reigning, the personal servant or slave of the high priest Caiaphas. He is mentioned only by John. Peter cut off his right ear in the garden of Gethsemane (John 18:10). But our Lord cured it with a touch (Matt. 26:51; Mark 14:47; Luke 22:51). This was the last miracle of bodily cure wrought by our Lord. It is not mentioned by John.",
-      "extracted_refs": [
-        {
-          "book": "John",
-          "chapter": 18,
-          "verses": [
-            10
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "John 18:10",
-          "source": "EAS"
-        },
-        {
-          "book": "Matthew",
-          "chapter": 26,
-          "verses": [
-            51
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Matthew 26:51",
-          "source": "EAS"
-        },
-        {
-          "book": "Mark",
-          "chapter": 14,
-          "verses": [
-            47
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Mark 14:47",
-          "source": "EAS"
-        },
-        {
-          "book": "Luke",
-          "chapter": 22,
-          "verses": [
-            51
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Luke 22:51",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(king or kingdom), the name of the servant of the high priest whose right ear Peter cut off at the time of the Saviour’s apprehension in the garden. (Matthew 26:51; Mark 14:17; Luke 22:49,51; John 18:10)",
-      "extracted_refs": [
-        {
-          "book": "Matthew",
-          "chapter": 26,
-          "verses": [
-            51
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Matthew 26:51",
-          "source": "SMI"
-        },
-        {
-          "book": "Mark",
-          "chapter": 14,
-          "verses": [
-            17
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Mark 14:17",
-          "source": "SMI"
-        },
-        {
-          "book": "Luke",
-          "chapter": 22,
-          "verses": [
-            49,
-            51
-          ],
-          "verse_count": 2,
-          "testament": "NT",
-          "raw": "Luke 22:49,51",
-          "source": "SMI"
-        },
-        {
-          "book": "John",
-          "chapter": 18,
-          "verses": [
-            10
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "John 18:10",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -257,16 +141,5 @@
       "raw": "Luke 22:49,51",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 6,
-    "ot": 0,
-    "nt": 6,
-    "books": [
-      "John",
-      "Luke",
-      "Mark",
-      "Matthew"
-    ]
-  }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "topic": "NAHARAI",
   "slug": "naharai",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Also called NAHARI",
@@ -29,17 +29,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_013147",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T01:31:47.909527",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -48,57 +37,8 @@
     "nt_refs": 0,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Snorer, a Berothite, one of David’s heroes, and armour-bearer of Joab (1 Chr. 11:39).",
-      "extracted_refs": [
-        {
-          "book": "1 Chronicles",
-          "chapter": 11,
-          "verses": [
-            39
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 11:39",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(snorter) the armor-bearer of Joab, called Nahari in the Authorized Version of (2 Samuel 23:37) He was a native of Beeroth. (1 Chronicles 11:39) (B.C. 1013.)",
-      "extracted_refs": [
-        {
-          "book": "2 Samuel",
-          "chapter": 23,
-          "verses": [
-            37
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Samuel 23:37",
-          "source": "SMI"
-        },
-        {
-          "book": "1 Chronicles",
-          "chapter": 11,
-          "verses": [
-            39
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 11:39",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -132,14 +72,5 @@
       "raw": "2 Samuel 23:37",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 2,
-    "ot": 2,
-    "nt": 0,
-    "books": [
-      "1 Chronicles",
-      "2 Samuel"
-    ]
-  }
+  ]
 }

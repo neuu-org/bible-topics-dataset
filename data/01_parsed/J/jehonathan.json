@@ -1,7 +1,7 @@
 {
   "topic": "JEHONATHAN",
   "slug": "jehonathan",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "1. An overseer of David’s storehouses 1Ch 27:25",
@@ -26,17 +26,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_230321",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T23:03:21.602129",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -45,69 +34,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Whom Jehovah gave. (1.) One of the stewards of David’s store-houses (1 Chr. 27:25). (2.) A Levite who taught the law to the people of Judah (2 Chr. 17:8). (3.) Neh. 12:18.",
-      "extracted_refs": [
-        {
-          "book": "1 Chronicles",
-          "chapter": 27,
-          "verses": [
-            25
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 27:25",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Chronicles",
-          "chapter": 17,
-          "verses": [
-            8
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Chronicles 17:8",
-          "source": "EAS"
-        },
-        {
-          "book": "Nehemiah",
-          "chapter": 12,
-          "verses": [
-            18
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Nehemiah 12:18",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(whom Jehovah gave)."
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "1 Chronicles 27:25",
-      "original": "1 Chr. 27:25"
-    },
-    {
-      "reference": "2 Chronicles 17:8",
-      "original": "2 Chr. 17:8"
-    },
-    {
-      "reference": "Nehemiah 12:18",
-      "original": "Neh. 12:18"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -152,15 +80,5 @@
       "raw": "Nehemiah 12:18",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 3,
-    "ot": 3,
-    "nt": 0,
-    "books": [
-      "1 Chronicles",
-      "2 Chronicles",
-      "Nehemiah"
-    ]
-  }
+  ]
 }

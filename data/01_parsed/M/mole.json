@@ -1,7 +1,7 @@
 {
   "topic": "MOLE",
   "slug": "mole",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "General scriptures concerning Le 11:30; Isa 2:20",
@@ -24,17 +24,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_012018",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T01:20:18.878336",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -43,73 +32,8 @@
     "nt_refs": 0,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Heb. tinshameth (Lev. 11:30), probably signifies some species of lizard (rendered in R.V., “chameleon”). In Lev. 11:18, Deut. 14:16, it is rendered, in Authorized Version, “swan” (R.V., “horned owl”). The Heb. holed (Lev. 11:29), rendered “weasel,” was probably the mole-rat. The true mole (Talpa Europoea) is not found in Palestine. The mole-rat (Spalax typhlus) “is twice the size of our mole, with no external eyes, and with only faint traces within of the rudimentary organ; no apparent ears, but, like the mole, with great internal organs of hearing; a strong, bare snout, and with large gnawing teeth; its colour a pale slate; its feet short, and provided with strong nails; its tail only rudimentary.” In Isa. 2:20, this word is the rendering of two words _haphar peroth_, which are rendered by Gesenius “into the digging of rats”, i.e., rats’ holes. But these two Hebrew words ought probably to be combined into one (lahporperoth) and translated “to the moles”, i.e., the rat-moles. This animal “lives in underground communities, making large subterranean chambers for its young and for storehouses, with many runs connected with them, and is decidedly partial to the loose debris among ruins and stone-heaps, where it can form its chambers with least trouble.”",
-      "extracted_refs": [
-        {
-          "book": "Leviticus",
-          "chapter": 11,
-          "verses": [
-            30
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Leviticus 11:30",
-          "source": "EAS"
-        },
-        {
-          "book": "Leviticus",
-          "chapter": 11,
-          "verses": [
-            29
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Leviticus 11:29",
-          "source": "EAS"
-        },
-        {
-          "book": "Leviticus",
-          "chapter": 11,
-          "verses": [
-            18
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Leviticus 11:18",
-          "source": "EAS"
-        },
-        {
-          "book": "Deuteronomy",
-          "chapter": 14,
-          "verses": [
-            16
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Deuteronomy 14:16",
-          "source": "EAS"
-        },
-        {
-          "book": "Isaiah",
-          "chapter": 2,
-          "verses": [
-            20
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Isaiah 2:20",
-          "source": "EAS"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -176,15 +100,5 @@
       "raw": "Isaiah 2:20",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 5,
-    "ot": 5,
-    "nt": 0,
-    "books": [
-      "Deuteronomy",
-      "Isaiah",
-      "Leviticus"
-    ]
-  }
+  ]
 }

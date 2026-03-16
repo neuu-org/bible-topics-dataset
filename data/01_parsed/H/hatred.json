@@ -1,7 +1,7 @@
 {
   "topic": "HATRED",
   "slug": "hatred",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Against iniquity, justified Ps 97:10; 101:3; 119:104,128,163; 139:21,22",
@@ -823,17 +823,6 @@
       "verse_count": 3
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_212010",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T21:20:10.860405",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [
     "REVENGE",
     "JEALOUSY",
@@ -849,73 +838,9 @@
     "ot_refs": 44,
     "nt_refs": 21
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Among the works of the flesh (Gal. 5:20). Altogether different is the meaning of the word in Deut. 21:15; Matt. 6:24; Luke 14:26; Rom. 9:13, where it denotes only a less degree of love.",
-      "extracted_refs": [
-        {
-          "book": "Galatians",
-          "chapter": 5,
-          "verses": [
-            20
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Galatians 5:20",
-          "source": "EAS"
-        },
-        {
-          "book": "Deuteronomy",
-          "chapter": 21,
-          "verses": [
-            15
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Deuteronomy 21:15",
-          "source": "EAS"
-        },
-        {
-          "book": "Matthew",
-          "chapter": 6,
-          "verses": [
-            24
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Matthew 6:24",
-          "source": "EAS"
-        },
-        {
-          "book": "Luke",
-          "chapter": 14,
-          "verses": [
-            26
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Luke 14:26",
-          "source": "EAS"
-        },
-        {
-          "book": "Romans",
-          "chapter": 9,
-          "verses": [
-            13
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Romans 9:13",
-          "source": "EAS"
-        }
-      ]
-    }
-  ],
   "sources": [
     "NAV",
-    "TOR",
-    "EAS"
+    "TOR"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -982,17 +907,5 @@
       "raw": "Romans 9:13",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 5,
-    "ot": 1,
-    "nt": 4,
-    "books": [
-      "Deuteronomy",
-      "Galatians",
-      "Luke",
-      "Matthew",
-      "Romans"
-    ]
-  }
+  ]
 }

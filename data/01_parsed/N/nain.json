@@ -1,7 +1,7 @@
 {
   "topic": "NAIN",
   "slug": "nain",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "(A city in Galilee)",
@@ -17,17 +17,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_013301",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T01:33:01.130372",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -36,62 +25,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "(from Heb. nain, “green pastures,” “lovely”), the name of a town near the gate of which Jesus raised to life a widow’s son (Luke 7:11-17). It is identified with the village called Nein, standing on the north-western slope of Jebel ed-Duhy (=the “hill Moreh” = “Little hermon”), about 4 miles from Tabor and 25 southwest of Capernaum. At the foot of the slope on which it stands is the great plain of Esdraelon. This was the first miracle of raising the dead our Lord had wrought, and it excited great awe and astonishment among the people.",
-      "extracted_refs": [
-        {
-          "book": "Luke",
-          "chapter": 7,
-          "verses": [
-            11,
-            12,
-            13,
-            14,
-            15,
-            16,
-            17
-          ],
-          "verse_count": 7,
-          "testament": "NT",
-          "raw": "Luke 7:11-17",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(beauty), a village of Galilee, the gate of which is made illustrious by the raising of the widow’s son. (Luke 7:12) The modern Nein is situated on the northwestern edge of the “Little Hermon,” or Jebel-ed-Duhy, where the ground falls into the plain of Esdraelon. The entrance to the place, where our Saviour met the funeral, must probably always have seen up the steep ascent from the plain; and here on the west side of the village, the rock is full of sepulchral caves.",
-      "extracted_refs": [
-        {
-          "book": "Luke",
-          "chapter": 7,
-          "verses": [
-            12
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Luke 7:12",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Luke 7:11-17",
-      "original": "Luke 7:11-17"
-    },
-    {
-      "reference": "Luke 7:12",
-      "original": "Luke 7:12"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -131,13 +66,5 @@
       "raw": "Luke 7:12",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 7,
-    "ot": 0,
-    "nt": 7,
-    "books": [
-      "Luke"
-    ]
-  }
+  ]
 }

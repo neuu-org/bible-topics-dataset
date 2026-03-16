@@ -1,7 +1,7 @@
 {
   "topic": "IVORY",
   "slug": "ivory",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "General scriptures concerning So 5:14; 7:4; Eze 27:15",
@@ -122,17 +122,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_224354",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T22:43:54.044115",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -141,156 +130,8 @@
     "nt_refs": 0,
     "total_verses": 4
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "(Heb. pl. shenhabbim, the “tusks of elephants”) was early used in decorations by the Egyptians, and a great trade in it was carried on by the Assyrians (Ezek. 27:6; Rev. 18:12). It was used by the Phoenicians to ornament the box-wood rowing-benches of their galleys, and Hiram’s skilled workmen made Solomon’s throne of ivory (1 Kings 10:18). It was brought by the caravans of Dedan (Isa. 21:13), and from the East Indies by the navy of Tarshish (1 Kings 10:22). Many specimens of ancient Egyptian and Assyrian ivory-work have been preserved. The word habbim is derived from the Sanscrit ibhas, meaning “elephant,” preceded by the Hebrew article (ha); and hence it is argued that Ophir, from which it and the other articles mentioned in 1 Kings 10:22 were brought, was in India.",
-      "extracted_refs": [
-        {
-          "book": "Ezekiel",
-          "chapter": 27,
-          "verses": [
-            6
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Ezekiel 27:6",
-          "source": "EAS"
-        },
-        {
-          "book": "Revelation",
-          "chapter": 18,
-          "verses": [
-            12
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Revelation 18:12",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Kings",
-          "chapter": 10,
-          "verses": [
-            18
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Kings 10:18",
-          "source": "EAS"
-        },
-        {
-          "book": "Isaiah",
-          "chapter": 21,
-          "verses": [
-            13
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Isaiah 21:13",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Kings",
-          "chapter": 10,
-          "verses": [
-            22
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Kings 10:22",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "The word translated “ivory” literally signifies the “tooth” of any animal, and hence more especially denotes the substance of the projecting tusks of elephants. The skilled work-men of Hiram, king of Tyre, fashioned the great ivory throne of Solomon, and overlaid it with pure gold. (1 Kings 10:18; 2 Chronicles 9:17) The ivory thus employed was supplied by the caravans of Dedan, (Isaiah 21:13; Ezekiel 27:15) or was brought, with apes and peacocks, by the navy of Tarshish. (1 Kings 10:22) The “ivory house” of Ahab, (1 Kings 22:39) was probably a palace, the walls of which were panelled with ivory, like the palace of Menelaus described by Homer. Odys. iv. 73. Beds inlaid or veneered with ivory were in use among the Hebrews. (Amos 6:4)",
-      "extracted_refs": [
-        {
-          "book": "1 Kings",
-          "chapter": 10,
-          "verses": [
-            18
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Kings 10:18",
-          "source": "SMI"
-        },
-        {
-          "book": "2 Chronicles",
-          "chapter": 9,
-          "verses": [
-            17
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Chronicles 9:17",
-          "source": "SMI"
-        },
-        {
-          "book": "Isaiah",
-          "chapter": 21,
-          "verses": [
-            13
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Isaiah 21:13",
-          "source": "SMI"
-        },
-        {
-          "book": "Ezekiel",
-          "chapter": 27,
-          "verses": [
-            15
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Ezekiel 27:15",
-          "source": "SMI"
-        },
-        {
-          "book": "1 Kings",
-          "chapter": 10,
-          "verses": [
-            22
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Kings 10:22",
-          "source": "SMI"
-        },
-        {
-          "book": "1 Kings",
-          "chapter": 22,
-          "verses": [
-            39
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Kings 22:39",
-          "source": "SMI"
-        },
-        {
-          "book": "Amos",
-          "chapter": 6,
-          "verses": [
-            4
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Amos 6:4",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -401,18 +242,5 @@
       "raw": "Amos 6:4",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 9,
-    "ot": 8,
-    "nt": 1,
-    "books": [
-      "1 Kings",
-      "2 Chronicles",
-      "Amos",
-      "Ezekiel",
-      "Isaiah",
-      "Revelation"
-    ]
-  }
+  ]
 }

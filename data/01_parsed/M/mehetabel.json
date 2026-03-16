@@ -1,7 +1,7 @@
 {
   "topic": "MEHETABEL",
   "slug": "mehetabel",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Wife of Hadar Ge 36:39; 1Ch 1:50",
@@ -24,17 +24,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_004724",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T00:47:24.978455",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -43,46 +32,8 @@
     "nt_refs": 0,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Wife of Hadad, one of the kings of Edom (Gen. 36:39).",
-      "extracted_refs": [
-        {
-          "book": "Genesis",
-          "chapter": 36,
-          "verses": [
-            39
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 36:39",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(favored of God), the daughter of Matred, and wife of Hadad king of Edom. (Genesis 36:39)",
-      "extracted_refs": [
-        {
-          "book": "Genesis",
-          "chapter": 36,
-          "verses": [
-            39
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 36:39",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -105,13 +56,5 @@
       "raw": "Genesis 36:39",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 1,
-    "ot": 1,
-    "nt": 0,
-    "books": [
-      "Genesis"
-    ]
-  }
+  ]
 }

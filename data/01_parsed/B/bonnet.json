@@ -1,7 +1,7 @@
 {
   "topic": "BONNET",
   "slug": "bonnet",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "(A turban)",
@@ -54,45 +54,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "O boné, ou turbante, é uma vestimenta mencionada principalmente no Antigo Testamento, usada por sacerdotes e mulheres. Nos textos de Êxodo, Ezequiel e Levítico, o turbante é associado ao sacerdócio, simbolizando santidade e separação para o serviço divino. Em Isaías, é mencionado como parte da vestimenta feminina, refletindo aspectos culturais e sociais da época. A vestimenta, portanto, carrega significados tanto litúrgicos quanto sociais, destacando a importância da aparência na adoração e na identidade.",
-    "outline": [
-      "Uso do turbante por sacerdotes em contextos litúrgicos",
-      "Referências ao turbante em Isaías como vestimenta feminina",
-      "Significado cultural e social do turbante na antiga Israel",
-      "Relação do turbante com a santidade e separação para Deus"
-    ],
-    "key_concepts": [
-      "Santidade no serviço sacerdotal",
-      "Identidade cultural e social",
-      "Relação entre vestimenta e adoração"
-    ],
-    "theological_significance": "O turbante simboliza a separação e a santidade exigidas dos sacerdotes, refletindo a importância da pureza e da devoção no serviço a Deus. Além disso, a menção do turbante em contextos femininos destaca a relevância da vestimenta na expressão da identidade e do papel social, sugerindo que a aparência externa pode refletir a condição interna do coração diante de Deus.",
-    "model": "gpt-4o-mini",
-    "run_id": "enr_20251201_234239_3dcfbf00",
-    "confidence": 1.0,
-    "generated_at": "2025-12-01T23:42:39.846158"
-  },
-  "ai_themes_normalized": [
-    {
-      "theme_id": null,
-      "proposal_id": "prop:santidade_e_serviço__0a0ea6",
-      "label_original": "Santidade e serviço sacerdotal",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:identidade_cultural__094a9e",
-      "label_original": "Identidade cultural e social das mulheres",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:aparência_e_adoração_0b14e8",
-      "label_original": "Aparência e adoração",
-      "source": "ai_enrichment"
-    }
-  ],
   "see_also": [
     "DRESS"
   ],
@@ -103,95 +64,8 @@
     "nt_refs": 0,
     "total_verses": 2
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "(Heb. peer), Ex. 39:28 (R.V., “head-tires”); Ezek. 44:18 (R.V., “tires”), denotes properly a turban worn by priests, and in Isa. 3:20 (R.V., “head-tires”) a head-dress or tiara worn by females. The Hebrew word so rendered literally means an ornament, as in Isa. 61:10 (R.V., “garland”), and in Ezek. 24:17, 23 “tire” (R.V., “head-tire”). It consisted of a piece of cloth twisted about the head. In Ex. 28:40; 29:9 it is the translation of a different Hebrew word (migba’ah), which denotes the turban (R.V., “head-tire”) of the common priest as distinguished from the mitre of the high priest. (See MITRE.)",
-      "extracted_refs": [
-        {
-          "book": "Exodus",
-          "chapter": 39,
-          "verses": [
-            28
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Exodus 39:28",
-          "source": "EAS"
-        },
-        {
-          "book": "Ezekiel",
-          "chapter": 44,
-          "verses": [
-            18
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Ezekiel 44:18",
-          "source": "EAS"
-        },
-        {
-          "book": "Isaiah",
-          "chapter": 3,
-          "verses": [
-            20
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Isaiah 3:20",
-          "source": "EAS"
-        },
-        {
-          "book": "Isaiah",
-          "chapter": 61,
-          "verses": [
-            10
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Isaiah 61:10",
-          "source": "EAS"
-        },
-        {
-          "book": "Ezekiel",
-          "chapter": 24,
-          "verses": [
-            17,
-            23
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Ezekiel 24:17, 23",
-          "source": "EAS"
-        },
-        {
-          "book": "Exodus",
-          "chapter": 28,
-          "verses": [
-            40
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Exodus 28:40",
-          "source": "EAS"
-        },
-        {
-          "book": "Exodus",
-          "chapter": 29,
-          "verses": [
-            9
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Exodus 29:9",
-          "source": "EAS"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -281,15 +155,5 @@
       "raw": "Exodus 29:9",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 8,
-    "ot": 8,
-    "nt": 0,
-    "books": [
-      "Exodus",
-      "Ezekiel",
-      "Isaiah"
-    ]
-  }
+  ]
 }

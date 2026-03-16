@@ -1,7 +1,7 @@
 {
   "topic": "MERCY",
   "slug": "mercy",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "General scriptures concerning 2Sa 22:26; Ps 18:25; 37:25,26; 85:10; Pr 3:3,4; 11:17; 12:10; 14:21,22,31; 20:28; 21:21; Ho 4:1; 12:6; Mic 6:8; Mt 5:7; 23:23; Lu 6:36; Ro 12:8; Col 3:12,13; Jas 2:13",
@@ -431,116 +431,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "A misericórdia é um atributo central de Deus, que deve ser imitado pelos crentes. Em Lucas 6:36, somos chamados a ser misericordiosos como o Pai é misericordioso. A Bíblia enfatiza a importância de mostrar misericórdia em diversas situações, incluindo a ajuda aos necessitados e a restauração dos que se desviaram. A misericórdia não é apenas uma ação, mas deve ser uma característica gravada em nossos corações (Provérbios 3:3), refletindo a natureza dos santos (Salmo 37:26). A prática da misericórdia é benéfica tanto para quem a recebe quanto para quem a exerce, sendo um reflexo do amor de Deus em nossas vidas.",
-    "outline": [
-      "A misericórdia como exemplo de Deus (Lucas 6:36)",
-      "A obrigação de mostrar misericórdia (2 Reis 6:21-23; Romanos 12:20-21)",
-      "A misericórdia como característica dos santos (Salmo 37:26; Isaías 57:1)",
-      "As consequências de ser desprovido de misericórdia (Mateus 23:23; Tiago 2:13)"
-    ],
-    "key_concepts": [
-      "Misericórdia como reflexo do caráter divino",
-      "A prática da misericórdia como mandamento bíblico",
-      "A relação entre misericórdia e justiça"
-    ],
-    "theological_significance": "A misericórdia é fundamental na teologia cristã, pois reflete a natureza de Deus e a relação que Ele deseja ter com a humanidade. A prática da misericórdia é um chamado à ação que demonstra a fé em Cristo e a transformação do coração. Além disso, a misericórdia é um meio de edificação da comunidade cristã, promovendo a reconciliação e a compaixão entre os irmãos.",
-    "model": "gpt-4o-mini",
-    "run_id": "enr_20250923_043956_d6984bb5",
-    "confidence": 1.0,
-    "generated_at": "2025-09-23T04:39:56.970503"
-  },
-  "ai_themes_normalized": [
-    {
-      "theme_id": null,
-      "proposal_id": "prop:a_natureza_de_deus_como_misericordioso_7a6c22",
-      "label_original": "A natureza de Deus como misericordioso",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:a_importancia_da_compaixao_nas_relacoes_humanas_3a1b2b",
-      "label_original": "A importância da compaixão nas relações humanas",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:a_restauracao_e_perdao_como_atos_de_misericordia_58b68c",
-      "label_original": "A restauração e perdão como atos de misericórdia",
-      "source": "ai_enrichment"
-    }
-  ],
-  "entity_links": [
-    {
-      "canonical_id": "CON:mercy",
-      "namespace": "CONCEPT",
-      "role": "primary",
-      "confidence": 0.9,
-      "source": "topic_resolver",
-      "status": "proposed",
-      "provenance": {
-        "topic": "MERCY",
-        "extracted_from": "MERCY",
-        "processing_result": {
-          "status": "proposed",
-          "proposal_id": "stub:CON:mercy_2d8e6974",
-          "canonical_id": "CON:mercy",
-          "needs_review": true,
-          "reasons": [
-            "low_confidence",
-            "insufficient_sources"
-          ],
-          "message": "Entity proposal stub:CON:mercy_2d8e6974 created"
-        }
-      }
-    },
-    {
-      "canonical_id": "DEI:god_mercy_of",
-      "namespace": "DEITY",
-      "role": "secondary",
-      "confidence": 0.7,
-      "source": "topic_resolver",
-      "status": "proposed",
-      "provenance": {
-        "topic": "MERCY",
-        "extracted_from": "GOD, MERCY OF",
-        "processing_result": {
-          "status": "proposed",
-          "proposal_id": "stub:DEI:god_mercy_of_8c54452c",
-          "canonical_id": "DEI:god_mercy_of",
-          "needs_review": true,
-          "reasons": [
-            "low_confidence",
-            "insufficient_sources"
-          ],
-          "message": "Entity proposal stub:DEI:god_mercy_of_8c54452c created"
-        }
-      }
-    },
-    {
-      "canonical_id": "CON:kindness",
-      "namespace": "CONCEPT",
-      "role": "secondary",
-      "confidence": 0.7,
-      "source": "topic_resolver",
-      "status": "proposed",
-      "provenance": {
-        "topic": "MERCY",
-        "extracted_from": "KINDNESS",
-        "processing_result": {
-          "status": "proposed",
-          "proposal_id": "stub:CON:kindness_880a881a",
-          "canonical_id": "CON:kindness",
-          "needs_review": true,
-          "reasons": [
-            "low_confidence",
-            "insufficient_sources"
-          ],
-          "message": "Entity proposal stub:CON:kindness_880a881a created"
-        }
-      }
-    }
-  ],
   "see_also": [
     "KINDNESS",
     "GOD, MERCY OF"
@@ -554,99 +444,9 @@
     "ot_refs": 14,
     "nt_refs": 12
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Compassion for the miserable. Its object is misery. By the atoning sacrifice of Christ a way is open for the exercise of mercy towards the sons of men, in harmony with the demands of truth and righteousness (Gen. 19:19; Ex. 20:6; 34:6, 7; Ps. 85:10; 86:15, 16). In Christ mercy and truth meet together. Mercy is also a Christian grace (Matt. 5:7; 18:33-35).",
-      "extracted_refs": [
-        {
-          "book": "Genesis",
-          "chapter": 19,
-          "verses": [
-            19
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 19:19",
-          "source": "EAS"
-        },
-        {
-          "book": "Exodus",
-          "chapter": 20,
-          "verses": [
-            6
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Exodus 20:6",
-          "source": "EAS"
-        },
-        {
-          "book": "Exodus",
-          "chapter": 34,
-          "verses": [
-            6,
-            7
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Exodus 34:6, 7",
-          "source": "EAS"
-        },
-        {
-          "book": "Psalms",
-          "chapter": 85,
-          "verses": [
-            10
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Psalms 85:10",
-          "source": "EAS"
-        },
-        {
-          "book": "Psalms",
-          "chapter": 86,
-          "verses": [
-            15,
-            16
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Psalms 86:15, 16",
-          "source": "EAS"
-        },
-        {
-          "book": "Matthew",
-          "chapter": 5,
-          "verses": [
-            7
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Matthew 5:7",
-          "source": "EAS"
-        },
-        {
-          "book": "Matthew",
-          "chapter": 18,
-          "verses": [
-            33,
-            34,
-            35
-          ],
-          "verse_count": 3,
-          "testament": "NT",
-          "raw": "Matthew 18:33-35",
-          "source": "EAS"
-        }
-      ]
-    }
-  ],
   "sources": [
     "NAV",
-    "TOR",
-    "EAS"
+    "TOR"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -739,16 +539,5 @@
       "raw": "Matthew 18:33-35",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 11,
-    "ot": 7,
-    "nt": 4,
-    "books": [
-      "Exodus",
-      "Genesis",
-      "Matthew",
-      "Psalms"
-    ]
-  }
+  ]
 }

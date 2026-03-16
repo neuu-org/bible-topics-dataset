@@ -1,7 +1,7 @@
 {
   "topic": "LYSTRA",
   "slug": "lystra",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "One of two cities of Lycaonia, to which Paul and Barnabas fled from persecutions in Iconium Ac 14:6-23; 2Ti 3:11",
@@ -38,17 +38,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_001913",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T00:19:13.971843",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -57,96 +46,8 @@
     "nt_refs": 1,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "A town of Lycaonia, in Asia Minor, in a wild district and among a rude population. Here Paul preached the gospel after he had been driven by persecution from Iconium (Acts 14:2-7). Here also he healed a lame man (8), and thus so impressed the ignorant and superstitious people that they took him for Mercury, because he was the “chief speaker,” and his companion Barnabas for Jupiter, probably in consequence of his stately, venerable appearance; and were proceeding to offer sacrifices to them (13), when Paul earnestly addressed them and turned their attention to the true source of all blessings. But soon after, through the influence of the Jews from Antioch in Pisidia and Iconium, they stoned Paul and left him for dead (14:19). On recovering, Paul left for Derbe; but soon returned again, through Lystra, encouraging the disciples there to steadfastness. He in all likelihood visited this city again on his third missionary tour (Acts 18:23). Timothy, who was probably born here (2 Tim. 3:10, 11), was no doubt one of those who were on this occasion witnesses of Paul’s persecution and his courage in Lystra.",
-      "extracted_refs": [
-        {
-          "book": "Acts",
-          "chapter": 14,
-          "verses": [
-            2,
-            3,
-            4,
-            5,
-            6,
-            7
-          ],
-          "verse_count": 6,
-          "testament": "NT",
-          "raw": "Acts 14:2-7",
-          "source": "EAS"
-        },
-        {
-          "book": "Acts",
-          "chapter": 18,
-          "verses": [
-            23
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Acts 18:23",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Timothy",
-          "chapter": 3,
-          "verses": [
-            10,
-            11
-          ],
-          "verse_count": 2,
-          "testament": "NT",
-          "raw": "2 Timothy 3:10, 11",
-          "source": "EAS"
-        },
-        {
-          "book": "Acts",
-          "chapter": 14,
-          "verses": [
-            19
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Acts 14:19",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "This place has two points of interest in connection respectively with St. Paul’s first and second missionary Journeys: (1) as the place where divine honors were offered to him, and where he was presently stoned, (Acts 14:1) ... (2) as the home of his chosen companion and fellow missionary Timotheus. (Acts 16:1) Lystra was in the eastern part of the great plain of Lycaonia, and its site may be identified with the ruins called Bin-bir-Kilisseh, at the base of a conical mountain of volcanic structure, named the Karadagh .",
-      "extracted_refs": [
-        {
-          "book": "Acts",
-          "chapter": 14,
-          "verses": [
-            1
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Acts 14:1",
-          "source": "SMI"
-        },
-        {
-          "book": "Acts",
-          "chapter": 16,
-          "verses": [
-            1
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Acts 16:1",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -230,14 +131,5 @@
       "raw": "Acts 16:1",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 12,
-    "ot": 0,
-    "nt": 12,
-    "books": [
-      "2 Timothy",
-      "Acts"
-    ]
-  }
+  ]
 }

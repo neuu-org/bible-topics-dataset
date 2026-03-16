@@ -1,7 +1,7 @@
 {
   "topic": "FUNERALS",
   "slug": "funerals",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "See BURIAL",
@@ -15,26 +15,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "Os funerais na Bíblia são eventos significativos que refletem a cultura e a espiritualidade do povo de Deus. Eles estão frequentemente associados ao sepultamento e à elegia, que expressam luto e honra aos falecidos. O sepultamento é um ato ritual que demonstra respeito pelo corpo e a crença na ressurreição, enquanto as elegias são expressões poéticas de dor e memória. Esses aspectos revelam a importância da morte e do luto na vida comunitária e na relação com Deus, enfatizando a esperança de vida eterna.",
-    "outline": [
-      "Importância cultural e espiritual dos funerais na Bíblia",
-      "Ritual do sepultamento e suas implicações teológicas",
-      "Funções das elegias na expressão do luto",
-      "A relação entre morte, sepultamento e ressurreição",
-      "O papel da comunidade no processo de luto"
-    ],
-    "key_concepts": [
-      "Ritual de sepultamento",
-      "Expressão de luto",
-      "Esperança na ressurreição"
-    ],
-    "theological_significance": "Os funerais, através do sepultamento e das elegias, revelam a compreensão bíblica da morte como parte da experiência humana, ao mesmo tempo que afirmam a esperança na ressurreição e na vida eterna. Eles servem como um lembrete da fragilidade da vida e da necessidade de um relacionamento contínuo com Deus, mesmo na morte.",
-    "model": "gpt-4o-mini",
-    "run_id": "enr_20251202_215149_b2f30669",
-    "confidence": 1.0,
-    "generated_at": "2025-12-02T21:51:49.730884"
-  },
   "see_also": [
     "ELEGY",
     "BURIAL"
@@ -46,16 +26,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "SMI",
-      "text": "[Burial, Sepulchres]"
-    }
-  ],
-  "dictionary_refs": [],
   "sources": [
-    "NAV",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -67,25 +39,5 @@
     "enriched_at": "2025-12-02T22:02:10.292793+00:00",
     "enrichment_source": "pipeline_merge"
   },
-  "version": "3.0.0",
-  "ai_themes_normalized": [
-    {
-      "theme_id": null,
-      "proposal_id": "prop:ritual_de_sepultamen_046a5e",
-      "label_original": "Ritual de sepultamento como expressão de respeito",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:luto_e_comunidade_na_0d473d",
-      "label_original": "Luto e comunidade na experiência da morte",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:esperança_na_ressurr_00036f",
-      "label_original": "Esperança na ressurreição e vida eterna",
-      "source": "ai_enrichment"
-    }
-  ]
+  "version": "3.0.0"
 }

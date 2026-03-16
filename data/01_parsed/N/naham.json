@@ -1,7 +1,7 @@
 {
   "topic": "NAHAM",
   "slug": "naham",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Brother of Hodiah 1Ch 4:19",
@@ -12,17 +12,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_013138",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T01:31:38.011667",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -31,34 +20,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "SMI",
-      "text": "(consolation), the brother of Modiah or Jehudiah, wife of Ezra. (1 Chronicles 4:19)",
-      "extracted_refs": [
-        {
-          "book": "1 Chronicles",
-          "chapter": 4,
-          "verses": [
-            19
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 4:19",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "1 Chronicles 4:19",
-      "original": "1 Chronicles 4:19"
-    }
-  ],
   "sources": [
-    "NAV",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -81,13 +44,5 @@
       "raw": "1 Chronicles 4:19",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 1,
-    "ot": 1,
-    "nt": 0,
-    "books": [
-      "1 Chronicles"
-    ]
-  }
+  ]
 }

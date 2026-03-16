@@ -1,7 +1,7 @@
 {
   "topic": "HOSHEA",
   "slug": "hoshea",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "1. Also called OSHEA",
@@ -95,17 +95,6 @@
       "verse_count": 2
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_220733",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T22:07:33.769576",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -114,127 +103,8 @@
     "nt_refs": 0,
     "total_verses": 2
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Salvation. (1.) The original name of the son of Nun, afterwards called Joshua (Num. 13:8, 16; Deut. 32:44). (2.) 1 Chr. 27:20. The ruler of Ephraim in David’s time. (3.) The last king of Israel. He conspired against and slew his predecessor, Pekah (Isa. 7:16), but did not ascend the throne till after an interregnum of warfare of eight years (2 Kings 17:1, 2). Soon after this he submitted to Shalmaneser, the Assyrian king, who a second time invaded the land to punish Hoshea, because of his withholding tribute which he had promised to pay. A second revolt brought back the Assyrian king Sargon, who besieged Samaria, and carried the ten tribes away beyond the Euphrates, B.C. 720 (2 Kings 17:5, 6; 18:9-12). No more is heard of Hoshea. He disappeared like “foam upon the water” (Hos. 10:7; 13:11).",
-      "extracted_refs": [
-        {
-          "book": "Numbers",
-          "chapter": 13,
-          "verses": [
-            8,
-            16
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Numbers 13:8, 16",
-          "source": "EAS"
-        },
-        {
-          "book": "Deuteronomy",
-          "chapter": 32,
-          "verses": [
-            44
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Deuteronomy 32:44",
-          "source": "EAS"
-        },
-        {
-          "book": "Isaiah",
-          "chapter": 7,
-          "verses": [
-            16
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Isaiah 7:16",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Kings",
-          "chapter": 17,
-          "verses": [
-            1,
-            2
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "2 Kings 17:1, 2",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Kings",
-          "chapter": 17,
-          "verses": [
-            5,
-            6
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "2 Kings 17:5, 6",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Kings",
-          "chapter": 18,
-          "verses": [
-            9,
-            10,
-            11,
-            12
-          ],
-          "verse_count": 4,
-          "testament": "OT",
-          "raw": "2 Kings 18:9-12",
-          "source": "EAS"
-        },
-        {
-          "book": "Hosea",
-          "chapter": 10,
-          "verses": [
-            7
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Hosea 10:7",
-          "source": "EAS"
-        },
-        {
-          "book": "Hosea",
-          "chapter": 13,
-          "verses": [
-            11
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Hosea 13:11",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Chronicles",
-          "chapter": 27,
-          "verses": [
-            20
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 27:20",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(salvation)."
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -351,18 +221,5 @@
       "raw": "1 Chronicles 27:20",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 15,
-    "ot": 15,
-    "nt": 0,
-    "books": [
-      "1 Chronicles",
-      "2 Kings",
-      "Deuteronomy",
-      "Hosea",
-      "Isaiah",
-      "Numbers"
-    ]
-  }
+  ]
 }

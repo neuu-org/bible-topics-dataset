@@ -1,7 +1,7 @@
 {
   "topic": "GOBLET",
   "slug": "goblet",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "See CUP",
@@ -10,17 +10,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_204035",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T20:40:35.565022",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [
     "CUP"
   ],
@@ -31,54 +20,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "A laver or trough for washing garments. In Cant. 7:2, a bowl or drinking vessel, a bowl for mixing wine; in Ex. 24:6, a sacrificial basin. (See CUP.)",
-      "extracted_refs": [
-        {
-          "book": "Song of Solomon",
-          "chapter": 7,
-          "verses": [
-            2
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Song of Solomon 7:2",
-          "source": "EAS"
-        },
-        {
-          "book": "Exodus",
-          "chapter": 24,
-          "verses": [
-            6
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Exodus 24:6",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "a circular vessel for wine or other liquid."
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Song of Solomon 7:2",
-      "original": "Cant. 7:2"
-    },
-    {
-      "reference": "Exodus 24:6",
-      "original": "Ex. 24:6"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -112,14 +55,5 @@
       "raw": "Exodus 24:6",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 2,
-    "ot": 2,
-    "nt": 0,
-    "books": [
-      "Exodus",
-      "Song of Solomon"
-    ]
-  }
+  ]
 }

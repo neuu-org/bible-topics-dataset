@@ -1,7 +1,7 @@
 {
   "topic": "ANDRONICUS",
   "slug": "andronicus",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Kinsman of Paul Ro 16:7",
@@ -12,208 +12,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "Andrônico, mencionado em Romanos 16:7, é descrito como um 'parente' de Paulo e um 'notável entre os apóstolos'. Sua inclusão na saudação de Paulo destaca a importância das relações familiares e da comunidade na propagação do evangelho. A referência a Andrônico sugere que ele e Júnias, sua companheira, desempenharam um papel significativo na missão apostólica, refletindo a diversidade e a inclusão no corpo de Cristo. A menção de Andrônico também enfatiza a continuidade da fé e a conexão entre os primeiros cristãos.",
-    "outline": [
-      "Identidade e relação de Andrônico com Paulo",
-      "O papel de Andrônico e Júnias na missão apostólica",
-      "A importância das relações familiares na comunidade cristã",
-      "A inclusão e diversidade no ministério da Igreja primitiva"
-    ],
-    "key_concepts": [
-      "Comunhão cristã",
-      "Missão apostólica",
-      "Relações familiares na fé"
-    ],
-    "theological_significance": "A menção de Andrônico em Romanos 16:7 sublinha a importância das relações interpessoais na vida da Igreja. Ele representa a interconexão entre os crentes e a colaboração no ministério, mostrando que a fé é vivida em comunidade. Além disso, a inclusão de Andrônico e Júnias como 'notáveis entre os apóstolos' desafia as normas sociais da época, promovendo uma visão de igualdade e valor no serviço a Deus.",
-    "model": "gpt-4o-mini",
-    "run_id": "enr_20250923_130033_4fd37423",
-    "confidence": 1.0,
-    "generated_at": "2025-09-23T13:00:33.791264"
-  },
-  "ai_themes_normalized": [
-    {
-      "theme_id": null,
-      "proposal_id": "prop:comunidade_crista_91e0dd",
-      "label_original": "Comunidade cristã",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:missao_e_evangelizacao_f40a0a",
-      "label_original": "Missão e evangelização",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:inclusao_e_igualdade_no_corpo_de_cristo_e4f890",
-      "label_original": "Inclusão e igualdade no corpo de Cristo",
-      "source": "ai_enrichment"
-    }
-  ],
-  "phase1_discovery": {
-    "processed_at": "2025-09-23T22:44:48.380697Z",
-    "total_themes_processed": 3,
-    "summary": {
-      "total_processed": 3,
-      "decisions": {
-        "alias_existing": 0,
-        "proposed": 3,
-        "error": 0
-      },
-      "success_rate": 1.0
-    },
-    "results": [
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.83954,
-          "novelty": 1.0,
-          "similarity_to_best_existing": 0.0,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_f6bbefe8",
-          "decision_hash": "c56f67b4ca730735",
-          "created_at": "2025-09-23T22:44:48.380697Z"
-        },
-        "proposal_id": "prop:902ab718",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:comunidade_crista_91e0dd",
-          "label_original": "Comunidade cristã",
-          "confidence": 0.9500000000000001,
-          "source": "ai_enrichment"
-        }
-      },
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.8431799999999999,
-          "novelty": 1.0,
-          "similarity_to_best_existing": 0.0,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_f703469b",
-          "decision_hash": "c36f8e33f04eaf2c",
-          "created_at": "2025-09-23T22:44:49.358873Z"
-        },
-        "proposal_id": "prop:d4719309",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:missao_e_evangelizacao_f40a0a",
-          "label_original": "Missão e evangelização",
-          "confidence": 0.9500000000000001,
-          "source": "ai_enrichment"
-        }
-      },
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.8376199999999999,
-          "novelty": 1.0,
-          "similarity_to_best_existing": 0.0,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_56522051",
-          "decision_hash": "c3b059651f06720d",
-          "created_at": "2025-09-23T22:44:50.647909Z"
-        },
-        "proposal_id": "prop:9d07fab3",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:inclusao_e_igualdade_no_corpo_de_cristo_e4f890",
-          "label_original": "Inclusão e igualdade no corpo de Cristo",
-          "confidence": 0.9500000000000001,
-          "source": "ai_enrichment"
-        }
-      }
-    ]
-  },
-  "entity_links": [
-    {
-      "canonical_id": "CON:andronicus",
-      "namespace": "CONCEPT",
-      "role": "primary",
-      "confidence": 0.9,
-      "source": "topic_resolver",
-      "status": "proposed",
-      "provenance": {
-        "topic": "ANDRONICUS",
-        "extracted_from": "ANDRONICUS",
-        "processing_result": {
-          "status": "proposed",
-          "proposal_id": "stub:CON:andronicus_bacf52f5",
-          "canonical_id": "CON:andronicus",
-          "needs_review": true,
-          "reasons": [
-            "low_confidence",
-            "insufficient_sources"
-          ],
-          "message": "Entity proposal stub:CON:andronicus_bacf52f5 created"
-        }
-      }
-    }
-  ],
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -222,51 +20,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Man-conquering, a Jewish Christian, the kinsman and fellowprisoner of Paul (Rom. 16:7); “of note among the apostles.”",
-      "extracted_refs": [
-        {
-          "book": "Romans",
-          "chapter": 16,
-          "verses": [
-            7
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Romans 16:7",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(man-conqueror)."
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Romans 16:7",
-      "original": "Rom. 16:7"
-    },
-    {
-      "reference": "2Macc 4:31",
-      "original": "2 Macc. 4:31"
-    },
-    {
-      "reference": "2Macc 4:31-38",
-      "original": "2 Macc. 4:31-38"
-    },
-    {
-      "reference": "2Macc 5:23",
-      "original": "2 Macc. 5:23"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -289,13 +44,5 @@
       "raw": "Romans 16:7",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 1,
-    "ot": 0,
-    "nt": 1,
-    "books": [
-      "Romans"
-    ]
-  }
+  ]
 }

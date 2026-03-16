@@ -1,7 +1,7 @@
 {
   "topic": "CAESAREA PHILIPPI",
   "slug": "caesarea-philippi",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "idx": 0,
@@ -31,46 +31,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "Cesareia de Filipe é uma cidade localizada ao norte da Palestina, mencionada nos Evangelhos de Mateus, Marcos e Lucas como um local visitado por Jesus. Este local é significativo no ministério de Jesus, pois é onde Ele fez perguntas cruciais sobre a identidade de quem as pessoas diziam que Ele era, levando a uma revelação importante sobre Sua natureza messiânica. A cidade, com sua rica história e contexto cultural, serve como um pano de fundo para discussões teológicas sobre a fé e a revelação divina.",
-    "outline": [
-      "Localização geográfica da Cesareia de Filipe",
-      "Visitas de Jesus à cidade conforme os Evangelhos",
-      "Importância da identidade de Jesus discutida no local",
-      "Contexto cultural e histórico da cidade",
-      "Relevância teológica das interações de Jesus em Cesareia de Filipe"
-    ],
-    "key_concepts": [
-      "Identidade de Cristo",
-      "Revelação divina",
-      "Fé e testemunho"
-    ],
-    "theological_significance": "A Cesareia de Filipe é teologicamente significativa porque representa um ponto de revelação onde Jesus questiona Seus discípulos sobre Sua identidade, levando a uma compreensão mais profunda do Messias. Este evento destaca a importância da fé e do reconhecimento de Jesus como o Filho de Deus, essencial para a teologia cristã.",
-    "model": "gpt-4o-mini",
-    "run_id": "enr_20251202_000145_933951c8",
-    "confidence": 1.0,
-    "generated_at": "2025-12-02T00:01:45.818204"
-  },
-  "ai_themes_normalized": [
-    {
-      "theme_id": null,
-      "proposal_id": "prop:identidade_messiânic_02ec95",
-      "label_original": "Identidade messiânica de Jesus",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:fé_como_resposta_à_r_0d86ce",
-      "label_original": "Fé como resposta à revelação",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:contexto_cultural_e__0ad884",
-      "label_original": "Contexto cultural e religioso",
-      "source": "ai_enrichment"
-    }
-  ],
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -79,65 +39,8 @@
     "nt_refs": 2,
     "total_verses": 2
   },
-  "definitions": [
-    {
-      "source": "SMI",
-      "text": "is mentioned only in the first two Gospels, (Matthew 16:13; Mark 8:27) and in accounts of the same transactions. It was at the easternmost and most important of the two recognized sources of the Jordan, the other being at Tel-el-Kadi . The spring rises from and the city was built on a limestone terrace in a valley at the base of Mount Hermon 20 miles north of the Sea of Galilee. It was enlarged by Herod Philip, and named after Caesar, with his own name added to distinguish it from Caesarea. Its present name is Banias, a village of some 50 houses, with many interesting ruins. Caesarea Philippi has no Old Testament history, though it has been not unreasonably identified with Baal-gad . It was visited by Christ shortly before his transfiguration, (Matthew 16:13-28) and was the northern limit of his journeys. (Mark 8:27)",
-      "extracted_refs": [
-        {
-          "book": "Matthew",
-          "chapter": 16,
-          "verses": [
-            13
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Matthew 16:13",
-          "source": "SMI"
-        },
-        {
-          "book": "Mark",
-          "chapter": 8,
-          "verses": [
-            27
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Mark 8:27",
-          "source": "SMI"
-        },
-        {
-          "book": "Matthew",
-          "chapter": 16,
-          "verses": [
-            13,
-            14,
-            15,
-            16,
-            17,
-            18,
-            19,
-            20,
-            21,
-            22,
-            23,
-            24,
-            25,
-            26,
-            27,
-            28
-          ],
-          "verse_count": 16,
-          "testament": "NT",
-          "raw": "Matthew 16:13-28",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -197,14 +100,5 @@
       "raw": "Matthew 16:13-28",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 17,
-    "ot": 0,
-    "nt": 17,
-    "books": [
-      "Mark",
-      "Matthew"
-    ]
-  }
+  ]
 }

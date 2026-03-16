@@ -1,7 +1,7 @@
 {
   "topic": "PUNISHMENTS",
   "slug": "punishments",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "idx": 0,
@@ -2756,27 +2756,6 @@
       "verse_count": 3
     }
   ],
-  "ai_enrichment": {
-    "summary": "O tópico das punições na Bíblia abrange a prática de penalidades impostas a indivíduos por magistrados e autoridades, com o objetivo de servir como advertência à sociedade. As punições, que incluem banimento e outras formas de sanção, são apresentadas em diversos contextos, desde a antiguidade até a era do Novo Testamento. A aplicação dessas punições é frequentemente descrita como imediata e sem parcialidade, refletindo a seriedade da justiça divina e humana. Além disso, as punições são vistas como um meio de manter a ordem social e moral, com implicações teológicas significativas sobre a natureza do pecado e a necessidade de arrependimento.",
-    "outline": [
-      "Antiguidade e origem das punições na Bíblia",
-      "Poder dos magistrados e autoridades na imposição de punições",
-      "Objetivo das punições como advertência à sociedade",
-      "Imposição de punições sem parcialidade e com rigor",
-      "Diferentes formas de punições e suas aplicações",
-      "Relação entre punições e a justiça divina"
-    ],
-    "key_concepts": [
-      "Justiça divina e humana",
-      "Consequências do pecado",
-      "Arrependimento e restauração"
-    ],
-    "theological_significance": "As punições na Bíblia refletem a seriedade do pecado e a necessidade de justiça, tanto em um contexto humano quanto divino. Elas servem como um lembrete da santidade de Deus e da importância da moralidade na vida comunitária. Através das punições, a Escritura enfatiza a necessidade de arrependimento e a possibilidade de restauração, destacando a natureza redentora de Deus.",
-    "model": "gpt-4o-mini",
-    "run_id": "enr_20251201_203844_62033209",
-    "confidence": 1.0,
-    "generated_at": "2025-12-01T20:38:44.153156"
-  },
   "see_also": [
     "JUDGMENTS",
     "RETALIATION",
@@ -2797,41 +2776,9 @@
     "ot_refs": 73,
     "nt_refs": 26
   },
-  "definitions": [
-    {
-      "source": "SMI",
-      "text": "The earliest theory of punishment current among mankind is doubtless the one of simple retaliation, “blood for blood.” Viewed historically, the first case of punishment for crime mentioned in Scripture, next to the Fall itself, is that of Cain, the first murderer. That death was regarded as the fitting punishment for murder appears plain from the remark of Lamech. (Genesis 4:24) In the post-diluvian code, if we may so call it, retribution by the hand of man, even in the case of an offending animal, for blood shed, is clearly laid dawn. (Genesis 9:5,6) Passing onward to Mosaic times, we find the sentence of capital punishment, in the case of murder, plainly laid down in the law. The murderer was to be put to death, even if he should have taken refuge at God’s altar or in a refuge city, and the same principle was to be carried out even in the case of an animal. Offences punished with death.— I. The following offences also are mentioned in the law as liable to the punishment of death:",
-      "extracted_refs": [
-        {
-          "book": "Genesis",
-          "chapter": 4,
-          "verses": [
-            24
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 4:24",
-          "source": "SMI"
-        },
-        {
-          "book": "Genesis",
-          "chapter": 9,
-          "verses": [
-            5,
-            6
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Genesis 9:5,6",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
     "NAV",
-    "TOR",
-    "SMI"
+    "TOR"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -2844,32 +2791,6 @@
     "enrichment_source": "pipeline_merge"
   },
   "version": "3.0.0",
-  "ai_themes_normalized": [
-    {
-      "theme_id": null,
-      "proposal_id": "prop:justiça_e_misericórd_0b9eb2",
-      "label_original": "Justiça e misericórdia divina",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:consequências_sociai_06562b",
-      "label_original": "Consequências sociais do pecado",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:autoridade_e_respons_0ee5ca",
-      "label_original": "Autoridade e responsabilidade dos magistrados",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:arrependimento_e_res_0e6ab5",
-      "label_original": "Arrependimento e restauração",
-      "source": "ai_enrichment"
-    }
-  ],
   "definition_refs": [
     {
       "book": "Genesis",
@@ -2894,13 +2815,5 @@
       "raw": "Genesis 9:5,6",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 3,
-    "ot": 3,
-    "nt": 0,
-    "books": [
-      "Genesis"
-    ]
-  }
+  ]
 }

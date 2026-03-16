@@ -1,7 +1,7 @@
 {
   "topic": "CALDRON",
   "slug": "caldron",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "In the tabernacle 1Sa 2:14",
@@ -40,45 +40,6 @@
       "verse_count": 2
     }
   ],
-  "ai_enrichment": {
-    "summary": "O caldeirão é um objeto significativo no Antigo Testamento, mencionado em contextos de adoração e sacrifício, especialmente no tabernáculo e no templo. Em Ezequiel, o caldeirão é utilizado de forma figurativa para descrever a situação de Israel, simbolizando a opressão e o julgamento. A sua presença em Levítico e Jeremias destaca a importância dos rituais e da purificação no culto israelita, refletindo a relação entre Deus e seu povo.",
-    "outline": [
-      "Uso do caldeirão no tabernáculo e no templo",
-      "Significado figurativo do caldeirão em Ezequiel",
-      "Rituais de purificação associados ao caldeirão em Levítico",
-      "Implicações teológicas do caldeirão na adoração israelita"
-    ],
-    "key_concepts": [
-      "Ritual de purificação",
-      "Julgamento e opressão",
-      "Adoração e sacrifício"
-    ],
-    "theological_significance": "O caldeirão simboliza a necessidade de purificação e a seriedade dos rituais de adoração, refletindo a relação entre a santidade de Deus e a condição do povo. A sua utilização figurativa em Ezequiel enfatiza a urgência do arrependimento e a necessidade de transformação espiritual.",
-    "model": "gpt-4o-mini",
-    "run_id": "enr_20251202_000340_dd10713c",
-    "confidence": 1.0,
-    "generated_at": "2025-12-02T00:03:40.784432"
-  },
-  "ai_themes_normalized": [
-    {
-      "theme_id": null,
-      "proposal_id": "prop:ritual_de_purificaçã_04f3d3",
-      "label_original": "Ritual de purificação no culto israelita",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:julgamento_divino_e__03e0ae",
-      "label_original": "Julgamento divino e opressão",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:adoração_no_tabernác_005b9c",
-      "label_original": "Adoração no tabernáculo e templo",
-      "source": "ai_enrichment"
-    }
-  ],
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -87,61 +48,8 @@
     "nt_refs": 0,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "SMI",
-      "text": "a vessel for boiling flesh, for either ceremonial or domestic use. (1 Samuel 2:14; 2 Chronicles 35:13; Job 41:20; Micah 3:3)",
-      "extracted_refs": [
-        {
-          "book": "1 Samuel",
-          "chapter": 2,
-          "verses": [
-            14
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Samuel 2:14",
-          "source": "SMI"
-        },
-        {
-          "book": "2 Chronicles",
-          "chapter": 35,
-          "verses": [
-            13
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Chronicles 35:13",
-          "source": "SMI"
-        },
-        {
-          "book": "Job",
-          "chapter": 41,
-          "verses": [
-            20
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Job 41:20",
-          "source": "SMI"
-        },
-        {
-          "book": "Micah",
-          "chapter": 3,
-          "verses": [
-            3
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Micah 3:3",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -197,16 +105,5 @@
       "raw": "Micah 3:3",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 4,
-    "ot": 4,
-    "nt": 0,
-    "books": [
-      "1 Samuel",
-      "2 Chronicles",
-      "Job",
-      "Micah"
-    ]
-  }
+  ]
 }

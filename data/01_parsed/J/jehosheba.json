@@ -1,7 +1,7 @@
 {
   "topic": "JEHOSHEBA",
   "slug": "jehosheba",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Also called JEHOSHABEATH",
@@ -17,17 +17,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_230406",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T23:04:06.624296",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -36,56 +25,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Jehovah-swearing, the daughter of Jehoram, the king of Israel. She is called Jehoshabeath in 2 Chr. 22:11. She was the only princess of the royal house who was married to a high priest, Jehoiada (2 Chr. 22:11).",
-      "extracted_refs": [
-        {
-          "book": "2 Chronicles",
-          "chapter": 22,
-          "verses": [
-            11
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Chronicles 22:11",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(Jehovah’s oath), daughter of Joram king of Israel, and wife of jehoiada the high priest. (2 Kings 11:2) Her name in the Chronicles is given Jehoshabeath. (B.C. 882.) As she is called, (2 Kings 11:2) “the daughter of Joram, sister of Ahaziah,” it has been conjectured that she was the daughter, not of Athaliah, but of Joram by another wife. She is the only recorded instance of the marriage of a princess of the royal house with a high priest.",
-      "extracted_refs": [
-        {
-          "book": "2 Kings",
-          "chapter": 11,
-          "verses": [
-            2
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Kings 11:2",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "2 Chronicles 22:11",
-      "original": "2 Chr. 22:11"
-    },
-    {
-      "reference": "2 Kings 11:2",
-      "original": "2 Kings 11:2"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -119,14 +60,5 @@
       "raw": "2 Kings 11:2",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 2,
-    "ot": 2,
-    "nt": 0,
-    "books": [
-      "2 Chronicles",
-      "2 Kings"
-    ]
-  }
+  ]
 }

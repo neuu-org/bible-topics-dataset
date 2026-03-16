@@ -1,7 +1,7 @@
 {
   "topic": "JAHDAI",
   "slug": "jahdai",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A descendant of Caleb 1Ch 2:47",
@@ -12,17 +12,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_224922",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T22:49:22.005574",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -31,52 +20,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Grasper, a descendant of Caleb, of the family of Hezron (1 Chr. 2:47).",
-      "extracted_refs": [
-        {
-          "book": "1 Chronicles",
-          "chapter": 2,
-          "verses": [
-            47
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 2:47",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(whom Jehovah directs), a man who appears to be thrust abruptly into the genealogy of Caleb, as the father of six sons. (1 Chronicles 2:47)",
-      "extracted_refs": [
-        {
-          "book": "1 Chronicles",
-          "chapter": 2,
-          "verses": [
-            47
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 2:47",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "1 Chronicles 2:47",
-      "original": "1 Chr. 2:47"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -99,13 +44,5 @@
       "raw": "1 Chronicles 2:47",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 1,
-    "ot": 1,
-    "nt": 0,
-    "books": [
-      "1 Chronicles"
-    ]
-  }
+  ]
 }

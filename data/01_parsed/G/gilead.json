@@ -1,7 +1,7 @@
 {
   "topic": "GILEAD",
   "slug": "gilead",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "1. A region east of the Jordan River allotted to the tribes of Reuben and Gad and the half tribe of Manasseh Nu 32:1-30; De 3:13; 34:1; 2Ki 10:33",
@@ -229,17 +229,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_203458",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T20:34:58.801896",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -248,115 +237,8 @@
     "nt_refs": 0,
     "total_verses": 7
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Hill of testimony, (Gen. 31:21), a mountainous region east of Jordan. From its mountainous character it is called “the mount of Gilead” (Gen. 31:25). It is called also “the land of Gilead” (Num. 32:1), and sometimes simply “Gilead” (Ps. 60:7; Gen. 37:25). It comprised the possessions of the tribes of Gad and Reuben and the south part of Manasseh (Deut. 3:13; Num. 32:40). It was bounded on the north by Bashan, and on the south by Moab and Ammon (Gen. 31:21; Deut. 3:12-17). “Half Gilead” was possessed by Sihon, and the other half, separated from it by the river Jabbok, by Og, king of Bashan. The deep ravine of the river Hieromax (the modern Sheriat el-Mandhur) separated Bashan from Gilead, which was about 60 miles in length and 20 in breadth, extending from near the south end of the Lake of Gennesaret to the north end of the Dead Sea. Abarim, Pisgah, Nebo, and Peor are its mountains mentioned in Scripture.",
-      "extracted_refs": [
-        {
-          "book": "Genesis",
-          "chapter": 31,
-          "verses": [
-            21
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 31:21",
-          "source": "EAS"
-        },
-        {
-          "book": "Genesis",
-          "chapter": 31,
-          "verses": [
-            25
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 31:25",
-          "source": "EAS"
-        },
-        {
-          "book": "Numbers",
-          "chapter": 32,
-          "verses": [
-            1
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Numbers 32:1",
-          "source": "EAS"
-        },
-        {
-          "book": "Psalms",
-          "chapter": 60,
-          "verses": [
-            7
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Psalms 60:7",
-          "source": "EAS"
-        },
-        {
-          "book": "Genesis",
-          "chapter": 37,
-          "verses": [
-            25
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 37:25",
-          "source": "EAS"
-        },
-        {
-          "book": "Deuteronomy",
-          "chapter": 3,
-          "verses": [
-            13
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Deuteronomy 3:13",
-          "source": "EAS"
-        },
-        {
-          "book": "Numbers",
-          "chapter": 32,
-          "verses": [
-            40
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Numbers 32:40",
-          "source": "EAS"
-        },
-        {
-          "book": "Deuteronomy",
-          "chapter": 3,
-          "verses": [
-            12,
-            13,
-            14,
-            15,
-            16,
-            17
-          ],
-          "verse_count": 6,
-          "testament": "OT",
-          "raw": "Deuteronomy 3:12-17",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(rocky region)."
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -461,16 +343,5 @@
       "raw": "Deuteronomy 3:12-17",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 12,
-    "ot": 12,
-    "nt": 0,
-    "books": [
-      "Deuteronomy",
-      "Genesis",
-      "Numbers",
-      "Psalms"
-    ]
-  }
+  ]
 }

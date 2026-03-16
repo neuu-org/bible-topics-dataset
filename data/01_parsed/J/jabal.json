@@ -1,7 +1,7 @@
 {
   "topic": "JABAL",
   "slug": "jabal",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Son of Lamech",
@@ -17,17 +17,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_224629",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T22:46:29.799970",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -36,52 +25,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "A stream, a descendant of Cain, and brother of Jubal; “the father of such as dwell in tents and have cattle” (Gen. 4:20). This description indicates that he led a wandering life.",
-      "extracted_refs": [
-        {
-          "book": "Genesis",
-          "chapter": 4,
-          "verses": [
-            20
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 4:20",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(stream), the son of Lamech and Adah, (Genesis 4:20) and brother of Jubal. He is described as the father of such as dwell in tents and have cattle.",
-      "extracted_refs": [
-        {
-          "book": "Genesis",
-          "chapter": 4,
-          "verses": [
-            20
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 4:20",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Genesis 4:20",
-      "original": "Gen. 4:20"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -104,13 +49,5 @@
       "raw": "Genesis 4:20",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 1,
-    "ot": 1,
-    "nt": 0,
-    "books": [
-      "Genesis"
-    ]
-  }
+  ]
 }

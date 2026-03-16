@@ -1,7 +1,7 @@
 {
   "topic": "GREEK",
   "slug": "greek",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Philosophy of 1Co 1:22,23",
@@ -18,17 +18,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_204834",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T20:48:34.927201",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [
     "GREECE"
   ],
@@ -39,101 +28,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Found only in the New Testament, where a distinction is observed between “Greek” and “Grecian” (q.v.). The former is (1) a Greek by race (Acts 16:1-3; 18:17; Rom. 1:14), or (2) a Gentile as opposed to a Jew (Rom. 2:9, 10). The latter, meaning properly “one who speaks Greek,” is a foreign Jew opposed to a home Jew who dwelt in Palestine. The word “Grecians” in Acts 11:20 should be “Greeks,” denoting the heathen Greeks of that city, as rendered in the Revised Version according to the reading of the best manuscripts (“Hellenes”).",
-      "extracted_refs": [
-        {
-          "book": "Acts",
-          "chapter": 16,
-          "verses": [
-            1,
-            2,
-            3
-          ],
-          "verse_count": 3,
-          "testament": "NT",
-          "raw": "Acts 16:1-3",
-          "source": "EAS"
-        },
-        {
-          "book": "Acts",
-          "chapter": 18,
-          "verses": [
-            17
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Acts 18:17",
-          "source": "EAS"
-        },
-        {
-          "book": "Romans",
-          "chapter": 1,
-          "verses": [
-            14
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Romans 1:14",
-          "source": "EAS"
-        },
-        {
-          "book": "Romans",
-          "chapter": 2,
-          "verses": [
-            9,
-            10
-          ],
-          "verse_count": 2,
-          "testament": "NT",
-          "raw": "Romans 2:9, 10",
-          "source": "EAS"
-        },
-        {
-          "book": "Acts",
-          "chapter": 11,
-          "verses": [
-            20
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Acts 11:20",
-          "source": "EAS"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Acts 16:1-3",
-      "original": "Acts 16:1-3"
-    },
-    {
-      "reference": "Acts 18:17",
-      "original": "Acts 18:17"
-    },
-    {
-      "reference": "Romans 1:14",
-      "original": "Rom. 1:14"
-    },
-    {
-      "reference": "Romans 2:9",
-      "original": "Rom. 2:9"
-    },
-    {
-      "reference": "Romans 2:10",
-      "original": "Rom. 2:10"
-    },
-    {
-      "reference": "Acts 11:20",
-      "original": "Acts 11:20"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -203,14 +99,5 @@
       "raw": "Acts 11:20",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 8,
-    "ot": 0,
-    "nt": 8,
-    "books": [
-      "Acts",
-      "Romans"
-    ]
-  }
+  ]
 }

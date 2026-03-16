@@ -1,7 +1,7 @@
 {
   "topic": "NEEDLE",
   "slug": "needle",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "General scriptures concerning Mt 19:24; Mr 10:25; Lu 18:25",
@@ -35,17 +35,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_013903",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T01:39:03.295420",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -54,83 +43,8 @@
     "nt_refs": 2,
     "total_verses": 2
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Used only in the proverb, “to pass through a needle’s eye” (Matt. 19:24; Mark 10:25; Luke 18:25). Some interpret the expression as referring to the side gate, close to the principal gate, usually called the “eye of a needle” in the East; but it is rather to be taken literally. The Hebrew females were skilled in the use of the needle (Ex. 28:39; 26:36; Judg. 5:30).",
-      "extracted_refs": [
-        {
-          "book": "Matthew",
-          "chapter": 19,
-          "verses": [
-            24
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Matthew 19:24",
-          "source": "EAS"
-        },
-        {
-          "book": "Mark",
-          "chapter": 10,
-          "verses": [
-            25
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Mark 10:25",
-          "source": "EAS"
-        },
-        {
-          "book": "Luke",
-          "chapter": 18,
-          "verses": [
-            25
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Luke 18:25",
-          "source": "EAS"
-        },
-        {
-          "book": "Exodus",
-          "chapter": 28,
-          "verses": [
-            39
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Exodus 28:39",
-          "source": "EAS"
-        },
-        {
-          "book": "Exodus",
-          "chapter": 26,
-          "verses": [
-            36
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Exodus 26:36",
-          "source": "EAS"
-        },
-        {
-          "book": "Judges",
-          "chapter": 5,
-          "verses": [
-            30
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Judges 5:30",
-          "source": "EAS"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -208,17 +122,5 @@
       "raw": "Judges 5:30",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 6,
-    "ot": 3,
-    "nt": 3,
-    "books": [
-      "Exodus",
-      "Judges",
-      "Luke",
-      "Mark",
-      "Matthew"
-    ]
-  }
+  ]
 }

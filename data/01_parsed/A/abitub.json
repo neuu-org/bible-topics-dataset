@@ -1,7 +1,7 @@
 {
   "topic": "ABITUB",
   "slug": "abitub",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A Benjamite 1Ch 8:11",
@@ -12,208 +12,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "Abitub é mencionado em 1 Crônicas 8:11 como um dos descendentes de Benjamim, destacando a importância das genealogias na narrativa bíblica. A genealogia de Benjamim é significativa, pois conecta a tribo a eventos e personagens importantes da história de Israel, incluindo a linhagem de Saul, o primeiro rei de Israel. A menção de Abitub também reflete a preservação da identidade tribal e a continuidade da herança entre os israelitas, enfatizando a importância da família e da tribo na cultura hebraica.",
-    "outline": [
-      "Genealogia de Benjamim e sua importância histórica",
-      "O papel de Abitub na linhagem de Israel",
-      "A preservação da identidade tribal",
-      "A conexão com a narrativa de Saul"
-    ],
-    "key_concepts": [
-      "Genealogia",
-      "Identidade tribal",
-      "Herança"
-    ],
-    "theological_significance": "A menção de Abitub e sua genealogia sublinha a importância da continuidade e da identidade na história da salvação. Para a fé cristã, isso ressalta como Deus trabalha através de famílias e tribos, preparando o caminho para a vinda do Messias, que é parte da linhagem de Davi, descendente de Benjamim. A preservação das genealogias também nos lembra da fidelidade de Deus em cumprir Suas promessas ao longo das gerações.",
-    "model": "gpt-4o-mini",
-    "run_id": "enr_20250923_081632_5d6adccf",
-    "confidence": 1.0,
-    "generated_at": "2025-09-23T08:16:32.372828"
-  },
-  "ai_themes_normalized": [
-    {
-      "theme_id": null,
-      "proposal_id": "prop:promessa_e_heranca_d62c55",
-      "label_original": "Promessa e herança",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:identidade_e_pertencimento_58dcb9",
-      "label_original": "Identidade e pertencimento",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:a_soberania_de_deus_na_historia_150093",
-      "label_original": "A soberania de Deus na história",
-      "source": "ai_enrichment"
-    }
-  ],
-  "phase1_discovery": {
-    "processed_at": "2025-09-23T23:16:34.867962Z",
-    "total_themes_processed": 3,
-    "summary": {
-      "total_processed": 3,
-      "decisions": {
-        "alias_existing": 0,
-        "proposed": 3,
-        "error": 0
-      },
-      "success_rate": 1.0
-    },
-    "results": [
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.84888,
-          "novelty": 1.0,
-          "similarity_to_best_existing": 0.0,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_538ff6ba",
-          "decision_hash": "766075a6be20edec",
-          "created_at": "2025-09-23T23:16:34.867962Z"
-        },
-        "proposal_id": "prop:c235cdfb",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:promessa_e_heranca_d62c55",
-          "label_original": "Promessa e herança",
-          "confidence": 0.9500000000000001,
-          "source": "ai_enrichment"
-        }
-      },
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.8462799999999999,
-          "novelty": 1.0,
-          "similarity_to_best_existing": 0.0,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_6eab69de",
-          "decision_hash": "954b8e8a6986b20b",
-          "created_at": "2025-09-23T23:16:36.058432Z"
-        },
-        "proposal_id": "prop:568d9fc0",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:identidade_e_pertencimento_58dcb9",
-          "label_original": "Identidade e pertencimento",
-          "confidence": 0.9500000000000001,
-          "source": "ai_enrichment"
-        }
-      },
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.8420599999999999,
-          "novelty": 1.0,
-          "similarity_to_best_existing": 0.0,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_613286b9",
-          "decision_hash": "4c1b288f857d8021",
-          "created_at": "2025-09-23T23:16:37.373576Z"
-        },
-        "proposal_id": "prop:8a7eb049",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:a_soberania_de_deus_na_historia_150093",
-          "label_original": "A soberania de Deus na história",
-          "confidence": 0.9500000000000001,
-          "source": "ai_enrichment"
-        }
-      }
-    ]
-  },
-  "entity_links": [
-    {
-      "canonical_id": "CON:abitub",
-      "namespace": "CONCEPT",
-      "role": "primary",
-      "confidence": 0.9,
-      "source": "topic_resolver",
-      "status": "proposed",
-      "provenance": {
-        "topic": "ABITUB",
-        "extracted_from": "ABITUB",
-        "processing_result": {
-          "status": "proposed",
-          "proposal_id": "stub:CON:abitub_8ee34e18",
-          "canonical_id": "CON:abitub",
-          "needs_review": true,
-          "reasons": [
-            "low_confidence",
-            "insufficient_sources"
-          ],
-          "message": "Entity proposal stub:CON:abitub_8ee34e18 created"
-        }
-      }
-    }
-  ],
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -222,52 +20,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Father of goodness, a Benjamite (1 Chr. 8:11).",
-      "extracted_refs": [
-        {
-          "book": "1 Chronicles",
-          "chapter": 8,
-          "verses": [
-            11
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 8:11",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(father of goodness), son of Shaharaim by Hushim. (1 Chronicles 8:11)",
-      "extracted_refs": [
-        {
-          "book": "1 Chronicles",
-          "chapter": 8,
-          "verses": [
-            11
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 8:11",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "1 Chronicles 8:11",
-      "original": "1 Chr. 8:11"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -290,13 +44,5 @@
       "raw": "1 Chronicles 8:11",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 1,
-    "ot": 1,
-    "nt": 0,
-    "books": [
-      "1 Chronicles"
-    ]
-  }
+  ]
 }

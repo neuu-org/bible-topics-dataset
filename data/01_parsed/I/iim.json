@@ -1,7 +1,7 @@
 {
   "topic": "IIM",
   "slug": "iim",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "1. An encampment of the Israelites Nu 33:45",
@@ -19,17 +19,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_221912",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T22:19:12.802895",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -38,58 +27,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Ruins. (1.) A city in the south of Judah (Josh. 15:29). (2.) One of the stations of the Israelites in the wilderness (Num. 33:45).",
-      "extracted_refs": [
-        {
-          "book": "Joshua",
-          "chapter": 15,
-          "verses": [
-            29
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 15:29",
-          "source": "EAS"
-        },
-        {
-          "book": "Numbers",
-          "chapter": 33,
-          "verses": [
-            45
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Numbers 33:45",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(ruins)."
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Joshua 15:29",
-      "original": "Josh. 15:29"
-    },
-    {
-      "reference": "Numbers 33:45",
-      "original": "Num. 33:45"
-    },
-    {
-      "reference": "Joshua 16:29",
-      "original": "Joshua 16:29"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -123,14 +62,5 @@
       "raw": "Numbers 33:45",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 2,
-    "ot": 2,
-    "nt": 0,
-    "books": [
-      "Joshua",
-      "Numbers"
-    ]
-  }
+  ]
 }

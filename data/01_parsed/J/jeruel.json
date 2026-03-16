@@ -1,7 +1,7 @@
 {
   "topic": "JERUEL",
   "slug": "jeruel",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A wilderness in the south of Judah 2Ch 20:16",
@@ -12,17 +12,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_231103",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T23:11:03.593572",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -31,57 +20,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Founded by God, a “desert” on the ascent from the valley of the Dead Sea towards Jerusalem. It lay beyond the wilderness of Tekoa, in the direction of Engedi (2 Chr. 20:16, 20). It corresponds with the tract of country now called el-Hasasah.",
-      "extracted_refs": [
-        {
-          "book": "2 Chronicles",
-          "chapter": 20,
-          "verses": [
-            16,
-            20
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "2 Chronicles 20:16, 20",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(founded by God), The wilderness of, the place in which Jehoshaphat was informed by Jahaziel the Levite that he should encounter the hordes of Ammon, Moab and the Mehunims. (2 Chronicles 20:16) The name has not been met with.",
-      "extracted_refs": [
-        {
-          "book": "2 Chronicles",
-          "chapter": 20,
-          "verses": [
-            16
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Chronicles 20:16",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "2 Chronicles 20:16",
-      "original": "2 Chr. 20:16"
-    },
-    {
-      "reference": "2 Chronicles 20:20",
-      "original": "2 Chr. 20:20"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -116,13 +56,5 @@
       "raw": "2 Chronicles 20:16",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 2,
-    "ot": 2,
-    "nt": 0,
-    "books": [
-      "2 Chronicles"
-    ]
-  }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "topic": "GIRGASHITES",
   "slug": "girgashites",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Land of, given to Abraham and his descendants Ge 15:21; De 7:1; Jos 3:10; Ne 9:8",
@@ -53,17 +53,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_203628",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T20:36:28.199270",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -72,50 +61,8 @@
     "nt_refs": 0,
     "total_verses": 3
   },
-  "definitions": [
-    {
-      "source": "SMI",
-      "text": "(dwelling on a clayey soil), The, one of the nations who were in possession of Canaan east of the Sea of Galilee before the entrance thither of the children of Israel. (Genesis 10:16; 15:21; 7:1)",
-      "extracted_refs": [
-        {
-          "book": "Genesis",
-          "chapter": 10,
-          "verses": [
-            16
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 10:16",
-          "source": "SMI"
-        },
-        {
-          "book": "Genesis",
-          "chapter": 15,
-          "verses": [
-            21
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 15:21",
-          "source": "SMI"
-        },
-        {
-          "book": "Genesis",
-          "chapter": 7,
-          "verses": [
-            1
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 7:1",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -160,13 +107,5 @@
       "raw": "Genesis 7:1",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 3,
-    "ot": 3,
-    "nt": 0,
-    "books": [
-      "Genesis"
-    ]
-  }
+  ]
 }

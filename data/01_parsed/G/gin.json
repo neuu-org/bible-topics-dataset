@@ -1,7 +1,7 @@
 {
   "topic": "GIN",
   "slug": "gin",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A snare Am 3:5",
@@ -17,17 +17,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_203539",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T20:35:39.422434",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [
     "SNARE"
   ],
@@ -38,147 +27,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "A trap. (1.) Ps. 140:5, 141:9, Amos 3:5, the Hebrew word used, mokesh, means a noose or “snare,” as it is elsewhere rendered (Ps. 18:5; Prov. 13:14, etc.). (2.) Job 18:9, Isa. 8:14, Heb. pah, a plate or thin layer; and hence a net, a snare, trap, especially of a fowler (Ps. 69: 22, “Let their table before them become a net;” Amos 3:5, “Doth a bird fall into a net [pah] upon the ground where there is no trap-stick [mokesh] for her? doth the net [pah] spring up from the ground and take nothing at all?”, Gesenius.)",
-      "extracted_refs": [
-        {
-          "book": "Psalms",
-          "chapter": 18,
-          "verses": [
-            5
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Psalms 18:5",
-          "source": "EAS"
-        },
-        {
-          "book": "Proverbs",
-          "chapter": 13,
-          "verses": [
-            14
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Proverbs 13:14",
-          "source": "EAS"
-        },
-        {
-          "book": "Amos",
-          "chapter": 3,
-          "verses": [
-            5
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Amos 3:5",
-          "source": "EAS"
-        },
-        {
-          "book": "Psalms",
-          "chapter": 140,
-          "verses": [
-            5,
-            141
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Psalms 140:5, 141",
-          "source": "EAS"
-        },
-        {
-          "book": "Job",
-          "chapter": 18,
-          "verses": [
-            9
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Job 18:9",
-          "source": "EAS"
-        },
-        {
-          "book": "Isaiah",
-          "chapter": 8,
-          "verses": [
-            14
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Isaiah 8:14",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "a trap for birds or beasts; it consisted of a net, (Isaiah 8:14) and a stick to act as a spring. (Amos 3:5)",
-      "extracted_refs": [
-        {
-          "book": "Isaiah",
-          "chapter": 8,
-          "verses": [
-            14
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Isaiah 8:14",
-          "source": "SMI"
-        },
-        {
-          "book": "Amos",
-          "chapter": 3,
-          "verses": [
-            5
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Amos 3:5",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Psalms 140:5",
-      "original": "Ps. 140:5"
-    },
-    {
-      "reference": "Psalms 140:141",
-      "original": "Ps. 140:141"
-    },
-    {
-      "reference": "Amos 3:5",
-      "original": "Amos 3:5"
-    },
-    {
-      "reference": "Psalms 18:5",
-      "original": "Ps. 18:5"
-    },
-    {
-      "reference": "Proverbs 13:14",
-      "original": "Prov. 13:14"
-    },
-    {
-      "reference": "Job 18:9",
-      "original": "Job 18:9"
-    },
-    {
-      "reference": "Isaiah 8:14",
-      "original": "Isa. 8:14"
-    },
-    {
-      "reference": "Psalms 69",
-      "original": "Ps. 69"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -257,17 +107,5 @@
       "raw": "Isaiah 8:14",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 7,
-    "ot": 7,
-    "nt": 0,
-    "books": [
-      "Amos",
-      "Isaiah",
-      "Job",
-      "Proverbs",
-      "Psalms"
-    ]
-  }
+  ]
 }

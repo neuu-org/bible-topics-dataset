@@ -1,7 +1,7 @@
 {
   "topic": "ADITHAIM",
   "slug": "adithaim",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A city of Judah Jos 15:36",
@@ -12,209 +12,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "Adithaim é mencionada como uma cidade da tribo de Judá no contexto da conquista e distribuição da terra em Josué 15:36. Embora pouco se saiba sobre sua localização exata ou importância histórica, a menção de Adithaim destaca a organização territorial de Israel e a fidelidade de Deus em cumprir Suas promessas de dar uma herança à Sua nação escolhida. A cidade representa a herança e a identidade do povo de Deus na terra prometida.",
-    "outline": [
-      "Localização e menção em Josué 15:36",
-      "Significado do nome Adithaim",
-      "Relação com a tribo de Judá",
-      "Implicações na herança da terra prometida"
-    ],
-    "key_concepts": [
-      "Herança da terra",
-      "Promessa de Deus",
-      "Identidade do povo de Israel"
-    ],
-    "theological_significance": "A menção de Adithaim, embora breve, ilustra a fidelidade de Deus em cumprir Suas promessas e a importância da terra prometida na história da salvação. Para os cristãos, isso reforça a ideia de que Deus é um Deus que cumpre Suas promessas e que a herança espiritual em Cristo é uma continuidade da herança física dada a Israel.",
-    "model": "gpt-4o-mini",
-    "run_id": "enr_20250923_122249_53efd482",
-    "confidence": 1.0,
-    "generated_at": "2025-09-23T12:22:49.191242"
-  },
-  "ai_themes_normalized": [
-    {
-      "theme_id": null,
-      "proposal_id": "prop:conquista_da_terra_prometida_7316ad",
-      "label_original": "Conquista da terra prometida",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:identidade_e_heranca_de_israel_4ebded",
-      "label_original": "Identidade e herança de Israel",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:fidelidade_de_deus_a41be5",
-      "label_original": "Fidelidade de Deus",
-      "source": "ai_enrichment"
-    }
-  ],
-  "phase1_discovery": {
-    "processed_at": "2025-09-23T22:32:35.199066Z",
-    "total_themes_processed": 3,
-    "summary": {
-      "total_processed": 3,
-      "decisions": {
-        "alias_existing": 0,
-        "proposed": 3,
-        "error": 0
-      },
-      "success_rate": 1.0
-    },
-    "results": [
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.8437,
-          "novelty": 1.0,
-          "similarity_to_best_existing": 0.0,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_523859b9",
-          "decision_hash": "3bb5abd7eded51c0",
-          "created_at": "2025-09-23T22:32:35.199066Z"
-        },
-        "proposal_id": "prop:edd78acd",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:conquista_da_terra_prometida_7316ad",
-          "label_original": "Conquista da terra prometida",
-          "confidence": 0.9500000000000001,
-          "source": "ai_enrichment"
-        }
-      },
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.83832,
-          "novelty": 1.0,
-          "similarity_to_best_existing": 0.0,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_b9d1e25f",
-          "decision_hash": "c85f1bfb92b6d8ff",
-          "created_at": "2025-09-23T22:32:36.410918Z"
-        },
-        "proposal_id": "prop:0c1ee778",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:identidade_e_heranca_de_israel_4ebded",
-          "label_original": "Identidade e herança de Israel",
-          "confidence": 0.9500000000000001,
-          "source": "ai_enrichment"
-        }
-      },
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "low_novelty",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.7789799999999999,
-          "novelty": 0.6666666666666667,
-          "similarity_to_best_existing": 0.3333333333333333,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_67af5c4c",
-          "decision_hash": "8605519c6703145e",
-          "created_at": "2025-09-23T22:32:37.864913Z"
-        },
-        "proposal_id": "prop:7d01d65a",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:fidelidade_de_deus_a41be5",
-          "label_original": "Fidelidade de Deus",
-          "confidence": 0.9500000000000001,
-          "source": "ai_enrichment"
-        }
-      }
-    ]
-  },
-  "entity_links": [
-    {
-      "canonical_id": "CON:adithaim",
-      "namespace": "CONCEPT",
-      "role": "primary",
-      "confidence": 0.9,
-      "source": "topic_resolver",
-      "status": "proposed",
-      "provenance": {
-        "topic": "ADITHAIM",
-        "extracted_from": "ADITHAIM",
-        "processing_result": {
-          "status": "proposed",
-          "proposal_id": "stub:CON:adithaim_67ebc61e",
-          "canonical_id": "CON:adithaim",
-          "needs_review": true,
-          "reasons": [
-            "low_confidence",
-            "insufficient_sources"
-          ],
-          "message": "Entity proposal stub:CON:adithaim_67ebc61e created"
-        }
-      }
-    }
-  ],
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -223,34 +20,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "SMI",
-      "text": "(double ornament), a town belonging to Judah, lying in the low country, and named, between Sharaim and hag-Gederah, in (Joshua 15:36) only.",
-      "extracted_refs": [
-        {
-          "book": "Joshua",
-          "chapter": 15,
-          "verses": [
-            36
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 15:36",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Joshua 15:36",
-      "original": "Joshua 15:36"
-    }
-  ],
   "sources": [
-    "NAV",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -273,13 +44,5 @@
       "raw": "Joshua 15:36",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 1,
-    "ot": 1,
-    "nt": 0,
-    "books": [
-      "Joshua"
-    ]
-  }
+  ]
 }

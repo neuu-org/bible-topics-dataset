@@ -1,7 +1,7 @@
 {
   "topic": "HERESY",
   "slug": "heresy",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "The propagation of, forbidden under severe penalties De 13; Tit 3:10,11; 2Jo 1:10,11",
@@ -142,17 +142,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_215016",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T21:50:16.115450",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [
     "TEACHERS, FALSE"
   ],
@@ -163,61 +152,8 @@
     "nt_refs": 7,
     "total_verses": 7
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "From a Greek word signifying (1) a choice, (2) the opinion chosen, and (3) the sect holding the opinion. In the Acts of the Apostles (5:17; 15:5; 24:5, 14; 26:5) it denotes a sect, without reference to its character. Elsewhere, however, in the New Testament it has a different meaning attached to it. Paul ranks “heresies” with crimes and seditions (Gal. 5:20). This word also denotes divisions or schisms in the church (1 Cor. 11:19). In Titus 3:10 a “heretical person” is one who follows his own self-willed “questions,” and who is to be avoided. Heresies thus came to signify self-chosen doctrines not emanating from God (2 Pet. 2:1).",
-      "extracted_refs": [
-        {
-          "book": "Galatians",
-          "chapter": 5,
-          "verses": [
-            20
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Galatians 5:20",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Corinthians",
-          "chapter": 11,
-          "verses": [
-            19
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "1 Corinthians 11:19",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Peter",
-          "chapter": 2,
-          "verses": [
-            1
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "2 Peter 2:1",
-          "source": "EAS"
-        },
-        {
-          "book": "Titus",
-          "chapter": 3,
-          "verses": [
-            10
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Titus 3:10",
-          "source": "EAS"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -273,16 +209,5 @@
       "raw": "Titus 3:10",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 4,
-    "ot": 0,
-    "nt": 4,
-    "books": [
-      "1 Corinthians",
-      "2 Peter",
-      "Galatians",
-      "Titus"
-    ]
-  }
+  ]
 }

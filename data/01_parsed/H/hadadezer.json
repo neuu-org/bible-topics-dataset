@@ -1,7 +1,7 @@
 {
   "topic": "HADADEZER",
   "slug": "hadadezer",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Also called HADAREZER",
@@ -51,17 +51,6 @@
       "verse_count": 9
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_205235",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T20:52:35.876650",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -70,118 +59,8 @@
     "nt_refs": 0,
     "total_verses": 2
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Hadad is help; called also Hadarezer, Adod is his help, the king of Zobah. Hanun, the king of the Ammonites, hired among others the army of Hadadezer to assist him in his war against David. Joab, who was sent against this confederate host, found them in double battle array, the Ammonities toward their capital of Rabbah, and the Syrian mercenaries near Medeba. In the battle which was fought the Syrians were scattered, and the Ammonites in alarm fled into their capital. After this Hadadezer went north “to recover his border” (2 Sam. 8:3, A.V.); but rather, as the Revised Version renders, “to recover his dominion”, i.e., to recruit his forces. Then followed another battle with the Syrian army thus recruited, which resulted in its being totally routed at Helam (2 Sam. 10:17). Shobach, the leader of the Syrian army, died on the field of battle. The Syrians of Damascus, who had come to help Hadadezer, were also routed, and Damascus was made tributary to David. All the spoils taken in this war, “shields of gold” and “very much brass,” from which afterwards the “brasen sea, and the pillars, and the vessels of brass” for the temple were made (1 Chr. 18:8), were brought to Jerusalem and dedicated to Jehovah. Thus the power of the Ammonites and the Syrians was finally broken, and David’s empire extended to the Euphrates (2 Sam. 10:15-19; 1 Chr. 19:15-19).",
-      "extracted_refs": [
-        {
-          "book": "2 Samuel",
-          "chapter": 8,
-          "verses": [
-            3
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Samuel 8:3",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Samuel",
-          "chapter": 10,
-          "verses": [
-            17
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Samuel 10:17",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Chronicles",
-          "chapter": 18,
-          "verses": [
-            8
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 18:8",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Samuel",
-          "chapter": 10,
-          "verses": [
-            15,
-            16,
-            17,
-            18,
-            19
-          ],
-          "verse_count": 5,
-          "testament": "OT",
-          "raw": "2 Samuel 10:15-19",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Chronicles",
-          "chapter": 19,
-          "verses": [
-            15,
-            16,
-            17,
-            18,
-            19
-          ],
-          "verse_count": 5,
-          "testament": "OT",
-          "raw": "1 Chronicles 19:15-19",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(2 Samuel 8:3-12; 1 Kings 11:23). [Hadarezer]",
-      "extracted_refs": [
-        {
-          "book": "2 Samuel",
-          "chapter": 8,
-          "verses": [
-            3,
-            4,
-            5,
-            6,
-            7,
-            8,
-            9,
-            10,
-            11,
-            12
-          ],
-          "verse_count": 10,
-          "testament": "OT",
-          "raw": "2 Samuel 8:3-12",
-          "source": "SMI"
-        },
-        {
-          "book": "1 Kings",
-          "chapter": 11,
-          "verses": [
-            23
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Kings 11:23",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -287,15 +166,5 @@
       "raw": "1 Kings 11:23",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 22,
-    "ot": 22,
-    "nt": 0,
-    "books": [
-      "1 Chronicles",
-      "1 Kings",
-      "2 Samuel"
-    ]
-  }
+  ]
 }

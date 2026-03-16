@@ -1,7 +1,7 @@
 {
   "topic": "GARLIC",
   "slug": "garlic",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "General scriptures concerning Nu 11:5",
@@ -12,17 +12,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_174815",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T17:48:15.638846",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -31,52 +20,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "(Heb. shum, from its strong odour), mentioned only once (Num. 11:5). The garlic common in Eastern countries is the Allium sativum or Allium Ascalonicum, so called from its having been brought into Europe from Ascalon by the Crusaders. It is now known by the name of “shallot” or “eschalot.”",
-      "extracted_refs": [
-        {
-          "book": "Numbers",
-          "chapter": 11,
-          "verses": [
-            5
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Numbers 11:5",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(Numbers 11:5) is the Allium sativum of Linnaeus, which abounds in Egypt.",
-      "extracted_refs": [
-        {
-          "book": "Numbers",
-          "chapter": 11,
-          "verses": [
-            5
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Numbers 11:5",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Numbers 11:5",
-      "original": "Num. 11:5"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -99,13 +44,5 @@
       "raw": "Numbers 11:5",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 1,
-    "ot": 1,
-    "nt": 0,
-    "books": [
-      "Numbers"
-    ]
-  }
+  ]
 }

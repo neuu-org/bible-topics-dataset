@@ -1,7 +1,7 @@
 {
   "topic": "GRAPE",
   "slug": "grape",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Cultivated in vineyards",
@@ -346,17 +346,6 @@
       "verse_count": 3
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_204638",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T20:46:38.291921",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [
     "VINEYARDS",
     "WINE",
@@ -370,112 +359,8 @@
     "nt_refs": 2,
     "total_verses": 14
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "The fruit of the vine, which was extensively cultivated in Palestine. Grapes are spoken of as “tender” (Cant. 2:13, 15), “unripe” (Job 15:33), “sour” (Isa. 18:5), “wild” (Isa. 5:2, 4). (See Rev. 14:18; Micah 7:1; Jer. 6:9; Ezek. 18:2, for figurative use of the word.) (See VINE.)",
-      "extracted_refs": [
-        {
-          "book": "Song of Solomon",
-          "chapter": 2,
-          "verses": [
-            13,
-            15
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Song of Solomon 2:13, 15",
-          "source": "EAS"
-        },
-        {
-          "book": "Job",
-          "chapter": 15,
-          "verses": [
-            33
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Job 15:33",
-          "source": "EAS"
-        },
-        {
-          "book": "Isaiah",
-          "chapter": 18,
-          "verses": [
-            5
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Isaiah 18:5",
-          "source": "EAS"
-        },
-        {
-          "book": "Isaiah",
-          "chapter": 5,
-          "verses": [
-            2,
-            4
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Isaiah 5:2, 4",
-          "source": "EAS"
-        },
-        {
-          "book": "Revelation",
-          "chapter": 14,
-          "verses": [
-            18
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Revelation 14:18",
-          "source": "EAS"
-        },
-        {
-          "book": "Micah",
-          "chapter": 7,
-          "verses": [
-            1
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Micah 7:1",
-          "source": "EAS"
-        },
-        {
-          "book": "Jeremiah",
-          "chapter": 6,
-          "verses": [
-            9
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Jeremiah 6:9",
-          "source": "EAS"
-        },
-        {
-          "book": "Ezekiel",
-          "chapter": 18,
-          "verses": [
-            2
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Ezekiel 18:2",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "[Vine]"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -577,19 +462,5 @@
       "raw": "Ezekiel 18:2",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 10,
-    "ot": 9,
-    "nt": 1,
-    "books": [
-      "Ezekiel",
-      "Isaiah",
-      "Jeremiah",
-      "Job",
-      "Micah",
-      "Revelation",
-      "Song of Solomon"
-    ]
-  }
+  ]
 }

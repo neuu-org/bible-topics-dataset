@@ -1,7 +1,7 @@
 {
   "topic": "TRUTH",
   "slug": "truth",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Saints should worship God in Joh 4:24; with Ps 145:18",
@@ -1417,17 +1417,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_021438",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T02:14:38.970663",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -1438,97 +1427,9 @@
     "ot_refs": 29,
     "nt_refs": 45
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Used in various senses in Scripture. In Prov. 12:17, 19, it denotes that which is opposed to falsehood. In Isa. 59:14, 15, Jer. 7:28, it means fidelity or truthfulness. The doctrine of Christ is called “the truth of the gospel” (Gal. 2:5), “the truth” (2 Tim. 3:7; 4:4). Our Lord says of himself, “I am the way, and the truth” (John 14:6).",
-      "extracted_refs": [
-        {
-          "book": "Galatians",
-          "chapter": 2,
-          "verses": [
-            5
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Galatians 2:5",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Timothy",
-          "chapter": 3,
-          "verses": [
-            7
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "2 Timothy 3:7",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Timothy",
-          "chapter": 4,
-          "verses": [
-            4
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "2 Timothy 4:4",
-          "source": "EAS"
-        },
-        {
-          "book": "John",
-          "chapter": 14,
-          "verses": [
-            6
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "John 14:6",
-          "source": "EAS"
-        },
-        {
-          "book": "Proverbs",
-          "chapter": 12,
-          "verses": [
-            17,
-            19
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Proverbs 12:17, 19",
-          "source": "EAS"
-        },
-        {
-          "book": "Isaiah",
-          "chapter": 59,
-          "verses": [
-            14,
-            15
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Isaiah 59:14, 15",
-          "source": "EAS"
-        },
-        {
-          "book": "Jeremiah",
-          "chapter": 7,
-          "verses": [
-            28
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Jeremiah 7:28",
-          "source": "EAS"
-        }
-      ]
-    }
-  ],
   "sources": [
     "NAV",
-    "TOR",
-    "EAS"
+    "TOR"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -1619,18 +1520,5 @@
       "raw": "Jeremiah 7:28",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 9,
-    "ot": 5,
-    "nt": 4,
-    "books": [
-      "2 Timothy",
-      "Galatians",
-      "Isaiah",
-      "Jeremiah",
-      "John",
-      "Proverbs"
-    ]
-  }
+  ]
 }

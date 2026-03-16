@@ -1,7 +1,7 @@
 {
   "topic": "MOTHER",
   "slug": "mother",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "General scriptures concerning Ex 20:12; 21:15,17; Le 18:7; 19:3; 20:9; De 5:16; 1Ki 19:20; Pr 1:8; 6:20; 10:1; 15:20; 19:26; 20:20; 23:22-25; 28:24; 29:15; 30:11,17; Mt 10:37; 15:4-6; 19:19; Mr 7:10-12; 10:19; Lu 18:20; Eph 6:2; 2Ti 1:5",
@@ -145,17 +145,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_012432",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T01:24:32.424097",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [
     "CHILDREN, DUTY OF",
     "PARENTS"
@@ -167,129 +156,8 @@
     "nt_refs": 5,
     "total_verses": 9
   },
-  "definitions": [
-    {
-      "source": "SMI",
-      "text": "The superiority of the Hebrew over all contemporaneous systems of legislation and of morals is strongly shown in the higher estimation of the mother in the Jewish family, as contrasted with modern Oriental as well as ancient Oriental and classical usage. The king’s mother, as appears in the case of Bath-sheba, was treated with special honor. (Exodus 20:12; Leviticus 19:3; 5:16; 21:18,21; 1 Kings 2:29; Proverbs 10:1; 15:20; 17:25; 29:15; 31:1,30)",
-      "extracted_refs": [
-        {
-          "book": "Exodus",
-          "chapter": 20,
-          "verses": [
-            12
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Exodus 20:12",
-          "source": "SMI"
-        },
-        {
-          "book": "Leviticus",
-          "chapter": 19,
-          "verses": [
-            3
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Leviticus 19:3",
-          "source": "SMI"
-        },
-        {
-          "book": "Leviticus",
-          "chapter": 5,
-          "verses": [
-            16
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Leviticus 5:16",
-          "source": "SMI"
-        },
-        {
-          "book": "Leviticus",
-          "chapter": 21,
-          "verses": [
-            18,
-            21
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Leviticus 21:18,21",
-          "source": "SMI"
-        },
-        {
-          "book": "1 Kings",
-          "chapter": 2,
-          "verses": [
-            29
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Kings 2:29",
-          "source": "SMI"
-        },
-        {
-          "book": "Proverbs",
-          "chapter": 10,
-          "verses": [
-            1
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Proverbs 10:1",
-          "source": "SMI"
-        },
-        {
-          "book": "Proverbs",
-          "chapter": 15,
-          "verses": [
-            20
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Proverbs 15:20",
-          "source": "SMI"
-        },
-        {
-          "book": "Proverbs",
-          "chapter": 17,
-          "verses": [
-            25
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Proverbs 17:25",
-          "source": "SMI"
-        },
-        {
-          "book": "Proverbs",
-          "chapter": 29,
-          "verses": [
-            15
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Proverbs 29:15",
-          "source": "SMI"
-        },
-        {
-          "book": "Proverbs",
-          "chapter": 31,
-          "verses": [
-            1,
-            30
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Proverbs 31:1,30",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -413,16 +281,5 @@
       "raw": "Proverbs 31:1,30",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 12,
-    "ot": 12,
-    "nt": 0,
-    "books": [
-      "1 Kings",
-      "Exodus",
-      "Leviticus",
-      "Proverbs"
-    ]
-  }
+  ]
 }

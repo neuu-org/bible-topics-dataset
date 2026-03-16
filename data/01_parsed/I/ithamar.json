@@ -1,7 +1,7 @@
 {
   "topic": "ITHAMAR",
   "slug": "ithamar",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Son of Aaron Ex 6:23; 28:1; 1Ch 6:3",
@@ -55,17 +55,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_224124",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T22:41:24.553740",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -74,172 +63,8 @@
     "nt_refs": 0,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Palm isle, the fourth and youngest son of Aaron (1 Chr. 6:3). He was consecrated to the priesthood along with his brothers (Ex. 6:23); and after the death of Nadab and Abihu, he and Eleazar alone discharged the functions of that office (Lev. 10:6, 12; Num. 3:4). He and his family occupied the position of common priest till the high priesthood passed into his family in the person of Eli (1 Kings 2:27), the reasons for which are not recorded. (See ZADOK.)",
-      "extracted_refs": [
-        {
-          "book": "1 Chronicles",
-          "chapter": 6,
-          "verses": [
-            3
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 6:3",
-          "source": "EAS"
-        },
-        {
-          "book": "Exodus",
-          "chapter": 6,
-          "verses": [
-            23
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Exodus 6:23",
-          "source": "EAS"
-        },
-        {
-          "book": "Leviticus",
-          "chapter": 10,
-          "verses": [
-            6,
-            12
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Leviticus 10:6, 12",
-          "source": "EAS"
-        },
-        {
-          "book": "Numbers",
-          "chapter": 3,
-          "verses": [
-            4
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Numbers 3:4",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Kings",
-          "chapter": 2,
-          "verses": [
-            27
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Kings 2:27",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(land of palms), the youngest son of Aaron. (Exodus 6:23) (B.C. 1491.) After the death of Nadab and Abihu, (Leviticus 10:1) Eleazar and Ithamar were appointed to succeed to their places in the priestly office. (Exodus 28:1,40,43; Numbers 3:3,4; 1 Chronicles 24:2) In the distribution of services belonging to the tabernacle, and its transport on the march of the Israelites, the Gershonites and the Merarites were placed under the superintendence of Ithamar. (Exodus 38:21; Numbers 4:21-33) The high priesthood passed into the family of Ithamar in the person of Eli, but for what reason we are not informed.",
-      "extracted_refs": [
-        {
-          "book": "Exodus",
-          "chapter": 6,
-          "verses": [
-            23
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Exodus 6:23",
-          "source": "SMI"
-        },
-        {
-          "book": "Leviticus",
-          "chapter": 10,
-          "verses": [
-            1
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Leviticus 10:1",
-          "source": "SMI"
-        },
-        {
-          "book": "Exodus",
-          "chapter": 28,
-          "verses": [
-            1,
-            40,
-            43
-          ],
-          "verse_count": 3,
-          "testament": "OT",
-          "raw": "Exodus 28:1,40,43",
-          "source": "SMI"
-        },
-        {
-          "book": "Numbers",
-          "chapter": 3,
-          "verses": [
-            3,
-            4
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Numbers 3:3,4",
-          "source": "SMI"
-        },
-        {
-          "book": "1 Chronicles",
-          "chapter": 24,
-          "verses": [
-            2
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 24:2",
-          "source": "SMI"
-        },
-        {
-          "book": "Exodus",
-          "chapter": 38,
-          "verses": [
-            21
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Exodus 38:21",
-          "source": "SMI"
-        },
-        {
-          "book": "Numbers",
-          "chapter": 4,
-          "verses": [
-            21,
-            22,
-            23,
-            24,
-            25,
-            26,
-            27,
-            28,
-            29,
-            30,
-            31,
-            32,
-            33
-          ],
-          "verse_count": 13,
-          "testament": "OT",
-          "raw": "Numbers 4:21-33",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -388,17 +213,5 @@
       "raw": "Numbers 4:21-33",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 26,
-    "ot": 26,
-    "nt": 0,
-    "books": [
-      "1 Chronicles",
-      "1 Kings",
-      "Exodus",
-      "Leviticus",
-      "Numbers"
-    ]
-  }
+  ]
 }

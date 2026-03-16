@@ -1,7 +1,7 @@
 {
   "topic": "ADAMAH",
   "slug": "adamah",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Also called ADAMI, a city of Naphtali Jos 19:33,36",
@@ -13,208 +13,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "Adamah, também conhecida como Adami, é uma cidade mencionada na herança da tribo de Naftali, conforme registrado em Josué 19:33,36. Sua localização e importância são frequentemente discutidas no contexto da divisão da terra prometida entre as tribos de Israel. A cidade representa não apenas um marco geográfico, mas também um símbolo da fidelidade de Deus às promessas feitas ao Seu povo, refletindo a realização das promessas de herança e a identidade nacional de Israel.",
-    "outline": [
-      "Identificação e localização de Adamah na tribo de Naftali.",
-      "Referências bíblicas e contexto histórico.",
-      "Significado do nome e suas implicações teológicas.",
-      "Relação de Adamah com a herança das tribos de Israel."
-    ],
-    "key_concepts": [
-      "Herança de Israel",
-      "Promessa divina",
-      "Identidade tribal"
-    ],
-    "theological_significance": "A cidade de Adamah serve como um lembrete da fidelidade de Deus em cumprir Suas promessas. Para os cristãos, isso reforça a ideia de que Deus é um Deus que cumpre Suas promessas, encorajando a fé e a confiança nas promessas de salvação e redenção encontradas em Cristo.",
-    "model": "gpt-4o-mini",
-    "run_id": "enr_20250923_082256_c0e22e4f",
-    "confidence": 1.0,
-    "generated_at": "2025-09-23T08:22:56.796557"
-  },
-  "ai_themes_normalized": [
-    {
-      "theme_id": null,
-      "proposal_id": "prop:promessa_e_cumprimento_14adfe",
-      "label_original": "Promessa e cumprimento",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:identidade_e_pertenca_99ae8e",
-      "label_original": "Identidade e pertença",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:geografia_biblica_7972bd",
-      "label_original": "Geografia bíblica",
-      "source": "ai_enrichment"
-    }
-  ],
-  "phase1_discovery": {
-    "processed_at": "2025-09-23T22:31:47.735684Z",
-    "total_themes_processed": 3,
-    "summary": {
-      "total_processed": 3,
-      "decisions": {
-        "alias_existing": 0,
-        "proposed": 3,
-        "error": 0
-      },
-      "success_rate": 1.0
-    },
-    "results": [
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.8401,
-          "novelty": 1.0,
-          "similarity_to_best_existing": 0.0,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_bc40a43a",
-          "decision_hash": "4779c03f37ca4e8e",
-          "created_at": "2025-09-23T22:31:47.735684Z"
-        },
-        "proposal_id": "prop:0b6f8670",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:promessa_e_cumprimento_14adfe",
-          "label_original": "Promessa e cumprimento",
-          "confidence": 0.9500000000000001,
-          "source": "ai_enrichment"
-        }
-      },
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.84158,
-          "novelty": 1.0,
-          "similarity_to_best_existing": 0.0,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_caff364a",
-          "decision_hash": "165005032a92470a",
-          "created_at": "2025-09-23T22:31:48.781128Z"
-        },
-        "proposal_id": "prop:8a4edffa",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:identidade_e_pertenca_99ae8e",
-          "label_original": "Identidade e pertença",
-          "confidence": 0.9500000000000001,
-          "source": "ai_enrichment"
-        }
-      },
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.84922,
-          "novelty": 1.0,
-          "similarity_to_best_existing": 0.0,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_e8520aa2",
-          "decision_hash": "6efc9dcd9c20faae",
-          "created_at": "2025-09-23T22:31:50.066113Z"
-        },
-        "proposal_id": "prop:87f7f173",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:geografia_biblica_7972bd",
-          "label_original": "Geografia bíblica",
-          "confidence": 0.9500000000000001,
-          "source": "ai_enrichment"
-        }
-      }
-    ]
-  },
-  "entity_links": [
-    {
-      "canonical_id": "CON:adamah",
-      "namespace": "CONCEPT",
-      "role": "primary",
-      "confidence": 0.9,
-      "source": "topic_resolver",
-      "status": "proposed",
-      "provenance": {
-        "topic": "ADAMAH",
-        "extracted_from": "ADAMAH",
-        "processing_result": {
-          "status": "proposed",
-          "proposal_id": "stub:CON:adamah_4d6260e2",
-          "canonical_id": "CON:adamah",
-          "needs_review": true,
-          "reasons": [
-            "low_confidence",
-            "insufficient_sources"
-          ],
-          "message": "Entity proposal stub:CON:adamah_4d6260e2 created"
-        }
-      }
-    }
-  ],
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -223,57 +21,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Red earth, a fortified city of Naphtali, probably the modern Damieh, on the west side of the sea of Tiberias (Josh. 19:33, 36).",
-      "extracted_refs": [
-        {
-          "book": "Joshua",
-          "chapter": 19,
-          "verses": [
-            33,
-            36
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Joshua 19:33, 36",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(red earth), one of the “fenced cities” of Naphtali, named between Chinnereth and Ramah. (Joshua 19:36)",
-      "extracted_refs": [
-        {
-          "book": "Joshua",
-          "chapter": 19,
-          "verses": [
-            36
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 19:36",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Joshua 19:33",
-      "original": "Josh. 19:33"
-    },
-    {
-      "reference": "Joshua 19:36",
-      "original": "Josh 19:36"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -308,13 +57,5 @@
       "raw": "Joshua 19:36",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 2,
-    "ot": 2,
-    "nt": 0,
-    "books": [
-      "Joshua"
-    ]
-  }
+  ]
 }

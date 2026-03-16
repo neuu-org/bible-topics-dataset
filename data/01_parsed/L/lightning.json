@@ -1,7 +1,7 @@
 {
   "topic": "LIGHTNING",
   "slug": "lightning",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "General scriptures concerning Job 28:26; 37:3; 38:25,35; Ps 18:14; 77:18; 78:48; 97:4; 135:7; 144:6; Jer 10:13; 51:16; Eze 1:13,14; Da 10:6; Na 2:4; Zec 9:14; 10:1; Mt 24:27; 28:3; Lu 10:18; Re 4:5; 8:5; 11:19; 16:18",
@@ -133,17 +133,6 @@
       "verse_count": 2
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_000838",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T00:08:38.483383",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -152,119 +141,8 @@
     "nt_refs": 3,
     "total_verses": 9
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Frequently referred to by the sacred writers (Nah. 1:3-6). Thunder and lightning are spoken of as tokens of God’s wrath (2 Sam. 22:15; Job 28:26; 37:4; Ps. 135:7; 144:6; Zech. 9:14). They represent God’s glorious and awful majesty (Rev. 4:5), or some judgment of God on the world (20:9).",
-      "extracted_refs": [
-        {
-          "book": "Nahum",
-          "chapter": 1,
-          "verses": [
-            3,
-            4,
-            5,
-            6
-          ],
-          "verse_count": 4,
-          "testament": "OT",
-          "raw": "Nahum 1:3-6",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Samuel",
-          "chapter": 22,
-          "verses": [
-            15
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Samuel 22:15",
-          "source": "EAS"
-        },
-        {
-          "book": "Job",
-          "chapter": 28,
-          "verses": [
-            26
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Job 28:26",
-          "source": "EAS"
-        },
-        {
-          "book": "Job",
-          "chapter": 37,
-          "verses": [
-            4
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Job 37:4",
-          "source": "EAS"
-        },
-        {
-          "book": "Psalms",
-          "chapter": 135,
-          "verses": [
-            7
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Psalms 135:7",
-          "source": "EAS"
-        },
-        {
-          "book": "Psalms",
-          "chapter": 144,
-          "verses": [
-            6
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Psalms 144:6",
-          "source": "EAS"
-        },
-        {
-          "book": "Zechariah",
-          "chapter": 9,
-          "verses": [
-            14
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Zechariah 9:14",
-          "source": "EAS"
-        },
-        {
-          "book": "Revelation",
-          "chapter": 4,
-          "verses": [
-            5
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Revelation 4:5",
-          "source": "EAS"
-        },
-        {
-          "book": "Revelation",
-          "chapter": 20,
-          "verses": [
-            9
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Revelation 20:9",
-          "source": "EAS"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -378,18 +256,5 @@
       "raw": "Revelation 20:9",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 12,
-    "ot": 10,
-    "nt": 2,
-    "books": [
-      "2 Samuel",
-      "Job",
-      "Nahum",
-      "Psalms",
-      "Revelation",
-      "Zechariah"
-    ]
-  }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "topic": "MAAZIAH",
   "slug": "maaziah",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "1. A priest 1Ch 24:18",
@@ -19,17 +19,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_002053",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T00:20:53.754140",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -38,54 +27,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Strength or consolation of Jehovah. (1.) The head of the twenty-fourth priestly course (1 Chr. 24:18) in David’s reign. (2.) A priest (Neh. 10:8).",
-      "extracted_refs": [
-        {
-          "book": "1 Chronicles",
-          "chapter": 24,
-          "verses": [
-            18
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 24:18",
-          "source": "EAS"
-        },
-        {
-          "book": "Nehemiah",
-          "chapter": 10,
-          "verses": [
-            8
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Nehemiah 10:8",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(consolation of Jehovah)."
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "1 Chronicles 24:18",
-      "original": "1 Chr. 24:18"
-    },
-    {
-      "reference": "Nehemiah 10:8",
-      "original": "Neh. 10:8"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -119,14 +62,5 @@
       "raw": "Nehemiah 10:8",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 2,
-    "ot": 2,
-    "nt": 0,
-    "books": [
-      "1 Chronicles",
-      "Nehemiah"
-    ]
-  }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "topic": "ARODI",
   "slug": "arodi",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Descendants of Arod Ge 46:16",
@@ -12,209 +12,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "Arod é mencionado em Gênesis 46:16 como um dos descendentes de Rubem, filho de Jacó. Este nome é significativo dentro da genealogia israelita, pois representa uma das muitas linhagens que compõem o povo de Israel. A inclusão de Arod na lista de descendentes destaca a importância da genealogia na narrativa bíblica, que serve para estabelecer a identidade e a herança do povo escolhido por Deus. Arod, embora não tenha um papel proeminente nas narrativas bíblicas, simboliza a continuidade da promessa divina a Abraão, Isaque e Jacó, refletindo a fidelidade de Deus em preservar Seu povo ao longo das gerações.",
-    "outline": [
-      "Arod como descendente de Rubem",
-      "Importância da genealogia em Gênesis",
-      "A conexão de Arod com a promessa de Deus",
-      "O papel dos descendentes na formação da nação de Israel"
-    ],
-    "key_concepts": [
-      "Genealogia",
-      "Promessa divina",
-      "Identidade israelita"
-    ],
-    "theological_significance": "A menção de Arod e seus descendentes em Gênesis 46:16 é teologicamente significativa, pois reafirma a continuidade da aliança de Deus com Israel. A genealogia não é apenas uma lista de nomes, mas um testemunho da fidelidade de Deus em cumprir Suas promessas. Para a fé cristã, isso ressalta a importância de reconhecer as raízes históricas e espirituais que culminam em Cristo, o cumprimento da promessa messiânica.",
-    "model": "gpt-4o-mini",
-    "run_id": "enr_20250923_132252_a1e9b5a9",
-    "confidence": 1.0,
-    "generated_at": "2025-09-23T13:22:52.109492"
-  },
-  "ai_themes_normalized": [
-    {
-      "theme_id": null,
-      "proposal_id": "prop:alianca_de_deus_com_israel_d95426",
-      "label_original": "Aliança de Deus com Israel",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:identidade_e_heranca_693b7a",
-      "label_original": "Identidade e herança",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:fidelidade_divina_20b0e1",
-      "label_original": "Fidelidade divina",
-      "source": "ai_enrichment"
-    }
-  ],
-  "phase1_discovery": {
-    "processed_at": "2025-09-23T22:51:22.757608Z",
-    "total_themes_processed": 3,
-    "summary": {
-      "total_processed": 3,
-      "decisions": {
-        "alias_existing": 0,
-        "proposed": 3,
-        "error": 0
-      },
-      "success_rate": 1.0
-    },
-    "results": [
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.7899400000000002,
-          "novelty": 0.75,
-          "similarity_to_best_existing": 0.25,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_43b5c2f8",
-          "decision_hash": "61e822a7e312a76e",
-          "created_at": "2025-09-23T22:51:22.757608Z"
-        },
-        "proposal_id": "prop:01a27325",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:alianca_de_deus_com_israel_d95426",
-          "label_original": "Aliança de Deus com Israel",
-          "confidence": 0.9500000000000001,
-          "source": "ai_enrichment"
-        }
-      },
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.84368,
-          "novelty": 1.0,
-          "similarity_to_best_existing": 0.0,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_743c087a",
-          "decision_hash": "1dbc77b1fb1c51bc",
-          "created_at": "2025-09-23T22:51:23.927385Z"
-        },
-        "proposal_id": "prop:4651ad22",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:identidade_e_heranca_693b7a",
-          "label_original": "Identidade e herança",
-          "confidence": 0.9500000000000001,
-          "source": "ai_enrichment"
-        }
-      },
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "low_novelty",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.7710599999999999,
-          "novelty": 0.6666666666666667,
-          "similarity_to_best_existing": 0.3333333333333333,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_d5c8c033",
-          "decision_hash": "367e3efcf654c3b6",
-          "created_at": "2025-09-23T22:51:24.987661Z"
-        },
-        "proposal_id": "prop:7c98231b",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:fidelidade_divina_20b0e1",
-          "label_original": "Fidelidade divina",
-          "confidence": 0.9500000000000001,
-          "source": "ai_enrichment"
-        }
-      }
-    ]
-  },
-  "entity_links": [
-    {
-      "canonical_id": "CON:arodi",
-      "namespace": "CONCEPT",
-      "role": "primary",
-      "confidence": 0.9,
-      "source": "topic_resolver",
-      "status": "proposed",
-      "provenance": {
-        "topic": "ARODI",
-        "extracted_from": "ARODI",
-        "processing_result": {
-          "status": "proposed",
-          "proposal_id": "stub:CON:arodi_27194e95",
-          "canonical_id": "CON:arodi",
-          "needs_review": true,
-          "reasons": [
-            "low_confidence",
-            "insufficient_sources"
-          ],
-          "message": "Entity proposal stub:CON:arodi_27194e95 created"
-        }
-      }
-    }
-  ],
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -223,16 +20,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "SMI",
-      "text": "[Arod]"
-    }
-  ],
-  "dictionary_refs": [],
   "sources": [
-    "NAV",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",

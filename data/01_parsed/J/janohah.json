@@ -1,7 +1,7 @@
 {
   "topic": "JANOHAH",
   "slug": "janohah",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A city on the border of the tribe of Ephraim Jos 16:6,7",
@@ -13,17 +13,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_225257",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T22:52:57.853997",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -32,39 +21,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "SMI",
-      "text": "(rest), a place on the boundary of Ephraim (Joshua 16:6,7) east of Neapolis. A little less than twelve miles from Nablus and about southeast in direction, two miles from Akrabeh is the village of Yanun, doubtless identical with the ancient Janohah.",
-      "extracted_refs": [
-        {
-          "book": "Joshua",
-          "chapter": 16,
-          "verses": [
-            6,
-            7
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Joshua 16:6,7",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Joshua 16:6",
-      "original": "Joshua 16:6"
-    },
-    {
-      "reference": "Joshua 16:7",
-      "original": "Joshua 16:7"
-    }
-  ],
   "sources": [
-    "NAV",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -88,13 +46,5 @@
       "raw": "Joshua 16:6,7",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 2,
-    "ot": 2,
-    "nt": 0,
-    "books": [
-      "Joshua"
-    ]
-  }
+  ]
 }

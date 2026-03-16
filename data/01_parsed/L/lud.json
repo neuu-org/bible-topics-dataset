@@ -1,7 +1,7 @@
 {
   "topic": "LUD",
   "slug": "lud",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A son of Shem Ge 10:22; 1Ch 1:17",
@@ -24,17 +24,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_001700",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T00:17:00.200610",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -43,123 +32,8 @@
     "nt_refs": 0,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "(1.) The fourth son of Shem (Gen. 10:22; 1 Chr. 1:17), ancestor of the Lydians probably. (2.) One of the Hamitic tribes descended from Mizraim (Gen. 10:13), a people of Africa (Ezek. 27:10; 30:5), on the west of Egypt. The people called Lud were noted archers (Isa. 66:19; comp. Jer. 46:9).",
-      "extracted_refs": [
-        {
-          "book": "Genesis",
-          "chapter": 10,
-          "verses": [
-            22
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 10:22",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Chronicles",
-          "chapter": 1,
-          "verses": [
-            17
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 1:17",
-          "source": "EAS"
-        },
-        {
-          "book": "Genesis",
-          "chapter": 10,
-          "verses": [
-            13
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 10:13",
-          "source": "EAS"
-        },
-        {
-          "book": "Ezekiel",
-          "chapter": 27,
-          "verses": [
-            10
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Ezekiel 27:10",
-          "source": "EAS"
-        },
-        {
-          "book": "Ezekiel",
-          "chapter": 30,
-          "verses": [
-            5
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Ezekiel 30:5",
-          "source": "EAS"
-        },
-        {
-          "book": "Isaiah",
-          "chapter": 66,
-          "verses": [
-            19
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Isaiah 66:19",
-          "source": "EAS"
-        },
-        {
-          "book": "Jeremiah",
-          "chapter": 46,
-          "verses": [
-            9
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Jeremiah 46:9",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(strife) the fourth name in the list of the children of Shem, (Genesis 10:22) comp. 1Chr 1:17 Supposed to have been the ancestor of the Lydians.",
-      "extracted_refs": [
-        {
-          "book": "Genesis",
-          "chapter": 10,
-          "verses": [
-            22
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 10:22",
-          "source": "SMI"
-        },
-        {
-          "book": "1 Chronicles",
-          "chapter": 1,
-          "verses": [
-            17
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 1:17",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -248,17 +122,5 @@
       "raw": "Jeremiah 46:9",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 7,
-    "ot": 7,
-    "nt": 0,
-    "books": [
-      "1 Chronicles",
-      "Ezekiel",
-      "Genesis",
-      "Isaiah",
-      "Jeremiah"
-    ]
-  }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "topic": "MAALEH-ACRABBIM",
   "slug": "maaleh-acrabbim",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "An acclivity on the southern border of the territory of the tribe of Judah Jos 15:3",
@@ -17,17 +17,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_001958",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T00:19:58.885626",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [
     "AKRABBIM"
   ],
@@ -38,49 +27,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Ascent of the scorpions; i.e., “scorpion-hill”, a pass on the south-eastern border of Palestine (Num. 34:4; Josh. 15:3). It is identified with the pass of Sufah, entering Palestine from the great Wady el-Fikreh, south of the Dead Sea. (See AKRABBIM.)",
-      "extracted_refs": [
-        {
-          "book": "Numbers",
-          "chapter": 34,
-          "verses": [
-            4
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Numbers 34:4",
-          "source": "EAS"
-        },
-        {
-          "book": "Joshua",
-          "chapter": 15,
-          "verses": [
-            3
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 15:3",
-          "source": "EAS"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Numbers 34:4",
-      "original": "Num. 34:4"
-    },
-    {
-      "reference": "Joshua 15:3",
-      "original": "Josh. 15:3"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -114,14 +62,5 @@
       "raw": "Joshua 15:3",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 2,
-    "ot": 2,
-    "nt": 0,
-    "books": [
-      "Joshua",
-      "Numbers"
-    ]
-  }
+  ]
 }

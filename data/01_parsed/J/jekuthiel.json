@@ -1,7 +1,7 @@
 {
   "topic": "JEKUTHIEL",
   "slug": "jekuthiel",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Son of Ezra 1Ch 4:18",
@@ -23,17 +23,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_230725",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T23:07:25.503149",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -42,28 +31,8 @@
     "nt_refs": 0,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "SMI",
-      "text": "a man recorded in the genealogies of Judah. (1 Chronicles 4:18)",
-      "extracted_refs": [
-        {
-          "book": "1 Chronicles",
-          "chapter": 4,
-          "verses": [
-            18
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 4:18",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -86,13 +55,5 @@
       "raw": "1 Chronicles 4:18",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 1,
-    "ot": 1,
-    "nt": 0,
-    "books": [
-      "1 Chronicles"
-    ]
-  }
+  ]
 }

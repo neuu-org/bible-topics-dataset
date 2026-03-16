@@ -1,7 +1,7 @@
 {
   "topic": "ITHRA",
   "slug": "ithra",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Also called JETHER",
@@ -29,17 +29,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_224159",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T22:41:59.442060",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -48,39 +37,8 @@
     "nt_refs": 0,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "SMI",
-      "text": "(excellence), an Israelite, (2 Samuel 17:25) or Ishmaelite, (1 Chronicles 2:17) the father of Amasa by Abigail, David’s sister. (B.C. before 1023.)",
-      "extracted_refs": [
-        {
-          "book": "2 Samuel",
-          "chapter": 17,
-          "verses": [
-            25
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Samuel 17:25",
-          "source": "SMI"
-        },
-        {
-          "book": "1 Chronicles",
-          "chapter": 2,
-          "verses": [
-            17
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 2:17",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -114,14 +72,5 @@
       "raw": "1 Chronicles 2:17",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 2,
-    "ot": 2,
-    "nt": 0,
-    "books": [
-      "1 Chronicles",
-      "2 Samuel"
-    ]
-  }
+  ]
 }

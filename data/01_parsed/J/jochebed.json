@@ -1,7 +1,7 @@
 {
   "topic": "JOCHEBED",
   "slug": "jochebed",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Mother of Miriam, Aaron, and Moses Ex 6:20; Nu 26:59",
@@ -31,17 +31,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_231842",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T23:18:42.001675",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -50,99 +39,8 @@
     "nt_refs": 0,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Jehovah is her glory, the wife of Amram, and the mother of Miriam, Aaron, and Moses (Num. 26:59). She is spoken of as the sister of Kohath, Amram’s father (Ex. 6:20; comp. 16, 18; 2:1-10).",
-      "extracted_refs": [
-        {
-          "book": "Numbers",
-          "chapter": 26,
-          "verses": [
-            59
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Numbers 26:59",
-          "source": "EAS"
-        },
-        {
-          "book": "Exodus",
-          "chapter": 6,
-          "verses": [
-            20
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Exodus 6:20",
-          "source": "EAS"
-        },
-        {
-          "book": "Exodus",
-          "chapter": 2,
-          "verses": [
-            1,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7,
-            8,
-            9,
-            10
-          ],
-          "verse_count": 10,
-          "testament": "OT",
-          "raw": "Exodus 2:1-10",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(whose glory is Jehovah), the wife and at the same time the aunt of Amram and the mother of Moses and Aaron. (Exodus 2:1; 6:20; Numbers 26:59)",
-      "extracted_refs": [
-        {
-          "book": "Exodus",
-          "chapter": 2,
-          "verses": [
-            1
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Exodus 2:1",
-          "source": "SMI"
-        },
-        {
-          "book": "Exodus",
-          "chapter": 6,
-          "verses": [
-            20
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Exodus 6:20",
-          "source": "SMI"
-        },
-        {
-          "book": "Numbers",
-          "chapter": 26,
-          "verses": [
-            59
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Numbers 26:59",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -207,14 +105,5 @@
       "raw": "Exodus 2:1",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 12,
-    "ot": 12,
-    "nt": 0,
-    "books": [
-      "Exodus",
-      "Numbers"
-    ]
-  }
+  ]
 }

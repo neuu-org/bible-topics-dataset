@@ -1,7 +1,7 @@
 {
   "topic": "APHRAH",
   "slug": "aphrah",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A city Mic 1:10",
@@ -19,209 +19,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "A cidade de Aphrah, mencionada em Miquéias 1:10, é um local que simboliza a desolação e o juízo divino sobre Israel. O nome pode estar relacionado a Ophrah, conforme sugerido em 1 Crônicas 4:14, o que indica uma possível conexão geográfica ou histórica entre as duas localidades. A menção de Aphrah no contexto do profeta Miquéias destaca a importância de reconhecer as consequências do pecado e a necessidade de arrependimento, refletindo a justiça de Deus em relação ao Seu povo.",
-    "outline": [
-      "A localização e identificação de Aphrah na Bíblia.",
-      "A relação entre Aphrah e Ophrah.",
-      "O contexto profético de Miquéias e seu significado.",
-      "As implicações teológicas do juízo divino sobre cidades e povos."
-    ],
-    "key_concepts": [
-      "Juízo divino",
-      "Arrependimento",
-      "Identidade geográfica"
-    ],
-    "theological_significance": "Aphrah serve como um lembrete da justiça de Deus e da necessidade de arrependimento. Através da história de cidades como Aphrah, os cristãos são chamados a refletir sobre a importância de viver em conformidade com os princípios divinos, reconhecendo que a desobediência pode levar a consequências severas. Este tópico também enfatiza a soberania de Deus sobre as nações e a sua capacidade de restaurar aqueles que se voltam para Ele.",
-    "model": "gpt-4o-mini",
-    "run_id": "enr_20250923_130843_433720f6",
-    "confidence": 1.0,
-    "generated_at": "2025-09-23T13:08:43.805185"
-  },
-  "ai_themes_normalized": [
-    {
-      "theme_id": null,
-      "proposal_id": "prop:juizo_e_misericordia_52c0fa",
-      "label_original": "Juízo e misericórdia",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:identidade_e_lugar_na_historia_da_salvacao_6be5de",
-      "label_original": "Identidade e lugar na história da salvação",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:profecia_e_cumprimento_765439",
-      "label_original": "Profecia e cumprimento",
-      "source": "ai_enrichment"
-    }
-  ],
-  "phase1_discovery": {
-    "processed_at": "2025-09-23T22:47:04.566270Z",
-    "total_themes_processed": 3,
-    "summary": {
-      "total_processed": 3,
-      "decisions": {
-        "alias_existing": 0,
-        "proposed": 3,
-        "error": 0
-      },
-      "success_rate": 1.0
-    },
-    "results": [
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "low_novelty",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.74208,
-          "novelty": 0.5,
-          "similarity_to_best_existing": 0.5,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_12f85b2d",
-          "decision_hash": "b51c7414b6bbec30",
-          "created_at": "2025-09-23T22:47:04.566270Z"
-        },
-        "proposal_id": "prop:9268d4fd",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:juizo_e_misericordia_52c0fa",
-          "label_original": "Juízo e misericórdia",
-          "confidence": 0.9500000000000001,
-          "source": "ai_enrichment"
-        }
-      },
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.7813800000000002,
-          "novelty": 0.75,
-          "similarity_to_best_existing": 0.25,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_a3e97705",
-          "decision_hash": "58481d82ac464eb0",
-          "created_at": "2025-09-23T22:47:06.273831Z"
-        },
-        "proposal_id": "prop:40cb537d",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:identidade_e_lugar_na_historia_da_salvacao_6be5de",
-          "label_original": "Identidade e lugar na história da salvação",
-          "confidence": 0.9500000000000001,
-          "source": "ai_enrichment"
-        }
-      },
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.84142,
-          "novelty": 1.0,
-          "similarity_to_best_existing": 0.0,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_e152a7cc",
-          "decision_hash": "0d67150a99f13caf",
-          "created_at": "2025-09-23T22:47:07.364184Z"
-        },
-        "proposal_id": "prop:f4e0e0eb",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:profecia_e_cumprimento_765439",
-          "label_original": "Profecia e cumprimento",
-          "confidence": 0.9500000000000001,
-          "source": "ai_enrichment"
-        }
-      }
-    ]
-  },
-  "entity_links": [
-    {
-      "canonical_id": "CON:aphrah",
-      "namespace": "CONCEPT",
-      "role": "primary",
-      "confidence": 0.9,
-      "source": "topic_resolver",
-      "status": "proposed",
-      "provenance": {
-        "topic": "APHRAH",
-        "extracted_from": "APHRAH",
-        "processing_result": {
-          "status": "proposed",
-          "proposal_id": "stub:CON:aphrah_2abde263",
-          "canonical_id": "CON:aphrah",
-          "needs_review": true,
-          "reasons": [
-            "low_confidence",
-            "insufficient_sources"
-          ],
-          "message": "Entity proposal stub:CON:aphrah_2abde263 created"
-        }
-      }
-    }
-  ],
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -230,34 +27,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "SMI",
-      "text": "(dust), The house of, a place mentioned in (Micah 1:10) Its site is uncertain.",
-      "extracted_refs": [
-        {
-          "book": "Micah",
-          "chapter": 1,
-          "verses": [
-            10
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Micah 1:10",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Micah 1:10",
-      "original": "Micah 1:10"
-    }
-  ],
   "sources": [
-    "NAV",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -280,13 +51,5 @@
       "raw": "Micah 1:10",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 1,
-    "ot": 1,
-    "nt": 0,
-    "books": [
-      "Micah"
-    ]
-  }
+  ]
 }

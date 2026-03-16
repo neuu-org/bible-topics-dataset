@@ -1,7 +1,7 @@
 {
   "topic": "HAMAN",
   "slug": "haman",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Prime minister of Ahasuerus Es 3:1",
@@ -30,17 +30,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_205849",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T20:58:49.051922",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -49,67 +38,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "(of Persian origin), magnificent, the name of the vizier (i.e., the prime minister) of the Persian king Ahasuerus (Esther 3:1, etc.). He is called an “Agagite,” which seems to denote that he was descended from the royal family of the Amalekites, the bitterest enemies of the Jews, as Agag was one of the titles of the Amalekite kings. He or his parents were brought to Persia as captives taken in war. He was hanged on the gallows which he had erected for Mordecai the Jew (Esther 7:10). (See ESTHER.)",
-      "extracted_refs": [
-        {
-          "book": "Esther",
-          "chapter": 3,
-          "verses": [
-            1
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Esther 3:1",
-          "source": "EAS"
-        },
-        {
-          "book": "Esther",
-          "chapter": 7,
-          "verses": [
-            10
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Esther 7:10",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(magnificent), the chief minister or vizier of King Ahasuerus. (Esther 3:1) (B.C. 473.) After the failure of his attempt to cut off all the Jews in the Persian empire, he was hanged on the gallows which he had erected for Mordecai. The Targum and Josephus interpret the inscription of him—the Agagite—as signifying that he was of Amalekitish descent. The Jews hiss whenever his name is mentioned on the day of Purim.",
-      "extracted_refs": [
-        {
-          "book": "Esther",
-          "chapter": 3,
-          "verses": [
-            1
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Esther 3:1",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Esther 3:1",
-      "original": "Esther 3:1"
-    },
-    {
-      "reference": "Esther 7:10",
-      "original": "Esther 7:10"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -143,13 +73,5 @@
       "raw": "Esther 7:10",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 2,
-    "ot": 2,
-    "nt": 0,
-    "books": [
-      "Esther"
-    ]
-  }
+  ]
 }

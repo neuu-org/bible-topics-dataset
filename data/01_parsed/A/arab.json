@@ -1,7 +1,7 @@
 {
   "topic": "ARAB",
   "slug": "arab",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A city of Judah Jos 15:52",
@@ -12,208 +12,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "A cidade de Arab, mencionada em Josué 15:52, é uma das cidades que compunham a herança da tribo de Judá. Sua inclusão na lista de cidades reflete a importância da territorialidade e da identidade tribal em Israel. A cidade representa não apenas um local geográfico, mas também um símbolo da promessa de Deus ao povo de Israel, que se estabeleceu na terra prometida. A menção de Arab destaca a organização das tribos e a distribuição das terras, que eram fundamentais para a vida social e religiosa de Israel.",
-    "outline": [
-      "Localização geográfica e importância na herança de Judá",
-      "Relação com a conquista da terra prometida",
-      "Significado simbólico da territorialidade em Israel",
-      "Implicações para a identidade tribal e a vida comunitária"
-    ],
-    "key_concepts": [
-      "Herança tribal",
-      "Territorialidade",
-      "Promessa de Deus"
-    ],
-    "theological_significance": "A cidade de Arab, como parte da herança de Judá, ilustra a fidelidade de Deus em cumprir Suas promessas ao povo de Israel. Para a fé cristã, isso reforça a ideia de que Deus é um Deus que cumpre Suas promessas e que a pertença a uma comunidade de fé é fundamental para a vida espiritual. A territorialidade também pode ser vista como uma metáfora para a busca do 'lar' espiritual que os cristãos encontram em Cristo.",
-    "model": "gpt-4o-mini",
-    "run_id": "enr_20250923_131251_018bfe8d",
-    "confidence": 1.0,
-    "generated_at": "2025-09-23T13:12:51.451677"
-  },
-  "ai_themes_normalized": [
-    {
-      "theme_id": null,
-      "proposal_id": "prop:conquista_e_heranca_1b1617",
-      "label_original": "Conquista e herança",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:identidade_e_comunidade_d0cba8",
-      "label_original": "Identidade e comunidade",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:promessas_de_deus_09d999",
-      "label_original": "Promessas de Deus",
-      "source": "ai_enrichment"
-    }
-  ],
-  "phase1_discovery": {
-    "processed_at": "2025-09-23T22:48:17.796858Z",
-    "total_themes_processed": 3,
-    "summary": {
-      "total_processed": 3,
-      "decisions": {
-        "alias_existing": 0,
-        "proposed": 3,
-        "error": 0
-      },
-      "success_rate": 1.0
-    },
-    "results": [
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.84066,
-          "novelty": 1.0,
-          "similarity_to_best_existing": 0.0,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_d854f464",
-          "decision_hash": "86ec7eb47a60a614",
-          "created_at": "2025-09-23T22:48:17.796858Z"
-        },
-        "proposal_id": "prop:dea40fbd",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:conquista_e_heranca_1b1617",
-          "label_original": "Conquista e herança",
-          "confidence": 0.9500000000000001,
-          "source": "ai_enrichment"
-        }
-      },
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.83636,
-          "novelty": 1.0,
-          "similarity_to_best_existing": 0.0,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_50f8ddec",
-          "decision_hash": "7249c99071a38b23",
-          "created_at": "2025-09-23T22:48:18.748610Z"
-        },
-        "proposal_id": "prop:98a2c6e0",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:identidade_e_comunidade_d0cba8",
-          "label_original": "Identidade e comunidade",
-          "confidence": 0.9500000000000001,
-          "source": "ai_enrichment"
-        }
-      },
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.84448,
-          "novelty": 1.0,
-          "similarity_to_best_existing": 0.0,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_cf937b01",
-          "decision_hash": "29b2109209960ae3",
-          "created_at": "2025-09-23T22:48:19.794505Z"
-        },
-        "proposal_id": "prop:a7d88ea0",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:promessas_de_deus_09d999",
-          "label_original": "Promessas de Deus",
-          "confidence": 0.9500000000000001,
-          "source": "ai_enrichment"
-        }
-      }
-    ]
-  },
-  "entity_links": [
-    {
-      "canonical_id": "CON:arab",
-      "namespace": "CONCEPT",
-      "role": "primary",
-      "confidence": 0.9,
-      "source": "topic_resolver",
-      "status": "proposed",
-      "provenance": {
-        "topic": "ARAB",
-        "extracted_from": "ARAB",
-        "processing_result": {
-          "status": "proposed",
-          "proposal_id": "stub:CON:arab_f19047ad",
-          "canonical_id": "CON:arab",
-          "needs_review": true,
-          "reasons": [
-            "low_confidence",
-            "insufficient_sources"
-          ],
-          "message": "Entity proposal stub:CON:arab_f19047ad created"
-        }
-      }
-    }
-  ],
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -222,56 +20,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Ambush, a city in the mountains of Judah (Josh. 15:52), now Er-Rabiyeh.",
-      "extracted_refs": [
-        {
-          "book": "Joshua",
-          "chapter": 15,
-          "verses": [
-            52
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 15:52",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(ambush) a city of Judah in the mountainous district, probably in the neighborhood of Hebron; mentioned only in (Joshua 15:62)",
-      "extracted_refs": [
-        {
-          "book": "Joshua",
-          "chapter": 15,
-          "verses": [
-            62
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 15:62",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Joshua 15:52",
-      "original": "Josh. 15:52"
-    },
-    {
-      "reference": "Joshua 15:62",
-      "original": "Joshua 15:62"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -305,13 +55,5 @@
       "raw": "Joshua 15:62",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 2,
-    "ot": 2,
-    "nt": 0,
-    "books": [
-      "Joshua"
-    ]
-  }
+  ]
 }

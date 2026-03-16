@@ -1,7 +1,7 @@
 {
   "topic": "HARE",
   "slug": "hare",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Forbidden as food Le 11:6; De 14:7",
@@ -24,17 +24,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_210703",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T21:07:03.931686",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -43,68 +32,8 @@
     "nt_refs": 0,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "(Heb. ‘arnebeth) was prohibited as food according to the Mosaic law (Lev. 11:6; Deut. 14:7), “because he cheweth the cud, but divideth not the hoof.” The habit of this animal is to grind its teeth and move its jaw as if it actually chewed the cud. But, like the cony (q.v.), it is not a ruminant with four stomachs, but a rodent like the squirrel, rat, etc. Moses speaks of it according to appearance. It is interdicted because, though apparently chewing the cud, it did not divide the hoof. There are two species in Syria, (1) the Lepus Syriacus or Syrian hare, which is like the English hare; and (2) the Lepus Sinaiticus, or hare of the desert. No rabbits are found in Syria.",
-      "extracted_refs": [
-        {
-          "book": "Leviticus",
-          "chapter": 11,
-          "verses": [
-            6
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Leviticus 11:6",
-          "source": "EAS"
-        },
-        {
-          "book": "Deuteronomy",
-          "chapter": 14,
-          "verses": [
-            7
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Deuteronomy 14:7",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(Heb. arnebeth) occurs only in (Leviticus 11:6) and Deuteronomy 14:7 Amongst the animals disallowed as food by the Mosaic law. The hare is at this day called arnel by the Arabs in Palestine and Syria. It was erroneously thought by the ancient Jews to have chewed the cud. They were no doubt misled as in the case of the shaphfan (hyrax), by the habit these animals have of moving the jaw about.",
-      "extracted_refs": [
-        {
-          "book": "Leviticus",
-          "chapter": 11,
-          "verses": [
-            6
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Leviticus 11:6",
-          "source": "SMI"
-        },
-        {
-          "book": "Deuteronomy",
-          "chapter": 14,
-          "verses": [
-            7
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Deuteronomy 14:7",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -138,14 +67,5 @@
       "raw": "Deuteronomy 14:7",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 2,
-    "ot": 2,
-    "nt": 0,
-    "books": [
-      "Deuteronomy",
-      "Leviticus"
-    ]
-  }
+  ]
 }

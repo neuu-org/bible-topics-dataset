@@ -1,7 +1,7 @@
 {
   "topic": "HANAN",
   "slug": "hanan",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "1. Son of Shashak 1Ch 8:23",
@@ -74,17 +74,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_210233",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T21:02:33.056926",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -93,99 +82,8 @@
     "nt_refs": 0,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Merciful. (1.) A Benjamite (1 Chr. 8:23). (2.) One of David’s heroes (1 Chr. 11:43). (3.) Jer. 35:4. (4.) A descendant of Saul (1 Chr. 8:38). (5.) One of the Nethinim (Ezra 2:46). (6.) One of the Levites who assisted Ezra (Neh. 8:7). (7.) One of the chiefs who subscribed the covenant (Neh. 10:22).",
-      "extracted_refs": [
-        {
-          "book": "1 Chronicles",
-          "chapter": 8,
-          "verses": [
-            23
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 8:23",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Chronicles",
-          "chapter": 11,
-          "verses": [
-            43
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 11:43",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Chronicles",
-          "chapter": 8,
-          "verses": [
-            38
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 8:38",
-          "source": "EAS"
-        },
-        {
-          "book": "Ezra",
-          "chapter": 2,
-          "verses": [
-            46
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Ezra 2:46",
-          "source": "EAS"
-        },
-        {
-          "book": "Nehemiah",
-          "chapter": 8,
-          "verses": [
-            7
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Nehemiah 8:7",
-          "source": "EAS"
-        },
-        {
-          "book": "Nehemiah",
-          "chapter": 10,
-          "verses": [
-            22
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Nehemiah 10:22",
-          "source": "EAS"
-        },
-        {
-          "book": "Jeremiah",
-          "chapter": 35,
-          "verses": [
-            4
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Jeremiah 35:4",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(merciful)."
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -274,16 +172,5 @@
       "raw": "Jeremiah 35:4",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 7,
-    "ot": 7,
-    "nt": 0,
-    "books": [
-      "1 Chronicles",
-      "Ezra",
-      "Jeremiah",
-      "Nehemiah"
-    ]
-  }
+  ]
 }

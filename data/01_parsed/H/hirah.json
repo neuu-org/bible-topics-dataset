@@ -1,7 +1,7 @@
 {
   "topic": "HIRAH",
   "slug": "hirah",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "An Adullamite Ge 38:1,12",
@@ -13,17 +13,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_215626",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T21:56:26.373292",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -32,50 +21,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "SMI",
-      "text": "(a noble race), an Adullamite, the friend of Judah. (Genesis 38:1,12) and see Genesis38:20",
-      "extracted_refs": [
-        {
-          "book": "Genesis",
-          "chapter": 38,
-          "verses": [
-            1,
-            12
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Genesis 38:1,12",
-          "source": "SMI"
-        },
-        {
-          "book": "Genesis",
-          "chapter": 38,
-          "verses": [
-            20
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 38:20",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Genesis 38:1",
-      "original": "Genesis 38:1"
-    },
-    {
-      "reference": "Genesis 38:12",
-      "original": "Genesis 38:12"
-    }
-  ],
   "sources": [
-    "NAV",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -110,13 +57,5 @@
       "raw": "Genesis 38:20",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 3,
-    "ot": 3,
-    "nt": 0,
-    "books": [
-      "Genesis"
-    ]
-  }
+  ]
 }

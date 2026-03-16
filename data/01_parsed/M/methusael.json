@@ -1,7 +1,7 @@
 {
   "topic": "METHUSAEL",
   "slug": "methusael",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Father of Lamech Ge 4:18",
@@ -12,17 +12,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_010044",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T01:00:44.313221",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -31,52 +20,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Champion of El; man of God, a descendant of Cain (Gen. 4:18), so called, perhaps, to denote that even among the descendants of Cain God had not left himself without a witness.",
-      "extracted_refs": [
-        {
-          "book": "Genesis",
-          "chapter": 4,
-          "verses": [
-            18
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 4:18",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(man of God), the son of Mehujael, fourth in descent from Cain, and father of Lamech. (Genesis 4:18)",
-      "extracted_refs": [
-        {
-          "book": "Genesis",
-          "chapter": 4,
-          "verses": [
-            18
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 4:18",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Genesis 4:18",
-      "original": "Gen. 4:18"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -99,13 +44,5 @@
       "raw": "Genesis 4:18",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 1,
-    "ot": 1,
-    "nt": 0,
-    "books": [
-      "Genesis"
-    ]
-  }
+  ]
 }

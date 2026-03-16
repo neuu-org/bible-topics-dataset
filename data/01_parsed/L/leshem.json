@@ -1,7 +1,7 @@
 {
   "topic": "LESHEM",
   "slug": "leshem",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Also called LAISH",
@@ -15,17 +15,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_000258",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T00:02:58.428611",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [
     "DAN"
   ],
@@ -36,34 +25,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "SMI",
-      "text": "(precious stone), another form of Laish, afterward Dan, occurring in (Joshua 19:47)",
-      "extracted_refs": [
-        {
-          "book": "Joshua",
-          "chapter": 19,
-          "verses": [
-            47
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 19:47",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Joshua 19:47",
-      "original": "Joshua 19:47"
-    }
-  ],
   "sources": [
-    "NAV",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -86,13 +49,5 @@
       "raw": "Joshua 19:47",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 1,
-    "ot": 1,
-    "nt": 0,
-    "books": [
-      "Joshua"
-    ]
-  }
+  ]
 }

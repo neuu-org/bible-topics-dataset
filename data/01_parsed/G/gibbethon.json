@@ -1,7 +1,7 @@
 {
   "topic": "GIBBETHON",
   "slug": "gibbethon",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A city of the tribe of Dan Jos 19:44",
@@ -28,17 +28,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_203215",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T20:32:15.922124",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -47,113 +36,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "A height, a city of the Philistines in the territory of Dan, given to the Kohathites (Josh. 19:44; 21:23). Nadab the king of Israel, while besieging it, was slain under its walls by Baasha, one of his own officers (1 Kings 15:27). It was in the possession of the Philistines after the secession of the ten tribes (2 Chr. 11:13, 14).",
-      "extracted_refs": [
-        {
-          "book": "Joshua",
-          "chapter": 19,
-          "verses": [
-            44
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 19:44",
-          "source": "EAS"
-        },
-        {
-          "book": "Joshua",
-          "chapter": 21,
-          "verses": [
-            23
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 21:23",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Kings",
-          "chapter": 15,
-          "verses": [
-            27
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Kings 15:27",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Chronicles",
-          "chapter": 11,
-          "verses": [
-            13,
-            14
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "2 Chronicles 11:13, 14",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(a hill), a town allotted to the tribe of Dan, (Joshua 19:44) and afterwards given with its “suburbs” to the Kohathite Levites. ch. (Joshua 21:23)",
-      "extracted_refs": [
-        {
-          "book": "Joshua",
-          "chapter": 19,
-          "verses": [
-            44
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 19:44",
-          "source": "SMI"
-        },
-        {
-          "book": "Joshua",
-          "chapter": 21,
-          "verses": [
-            23
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 21:23",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Joshua 19:44",
-      "original": "Josh. 19:44"
-    },
-    {
-      "reference": "Joshua 21:23",
-      "original": "Josh 21:23"
-    },
-    {
-      "reference": "1 Kings 15:27",
-      "original": "1 Kings 15:27"
-    },
-    {
-      "reference": "2 Chronicles 11:13",
-      "original": "2 Chr. 11:13"
-    },
-    {
-      "reference": "2 Chronicles 11:14",
-      "original": "2 Chr. 11:14"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -210,15 +94,5 @@
       "raw": "2 Chronicles 11:13, 14",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 5,
-    "ot": 5,
-    "nt": 0,
-    "books": [
-      "1 Kings",
-      "2 Chronicles",
-      "Joshua"
-    ]
-  }
+  ]
 }

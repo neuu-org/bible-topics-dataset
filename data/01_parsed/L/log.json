@@ -1,7 +1,7 @@
 {
   "topic": "LOG",
   "slug": "log",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A measure for liquids, holding about a pint Le 14:10,12,15,24",
@@ -15,17 +15,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_001221",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T00:12:21.304285",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -34,59 +23,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "The smallest measure for liquids used by the Hebrews (Lev. 14:10, 12, 15, 21, 24), called in the Vulgate sextarius. It is the Hebrew unit of measure of capacity, and is equal to the contents of six ordinary hen’s eggs=the twelfth part of a him, or nearly a pint.",
-      "extracted_refs": [
-        {
-          "book": "Leviticus",
-          "chapter": 14,
-          "verses": [
-            10,
-            12,
-            15,
-            21,
-            24
-          ],
-          "verse_count": 5,
-          "testament": "OT",
-          "raw": "Leviticus 14:10, 12, 15, 21, 24",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "[Weights And Measures AND Measures]"
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Leviticus 14:10",
-      "original": "Lev. 14:10"
-    },
-    {
-      "reference": "Leviticus 14:12",
-      "original": "Lev 14:12"
-    },
-    {
-      "reference": "Leviticus 14:15",
-      "original": "Lev 14:15"
-    },
-    {
-      "reference": "Leviticus 14:21",
-      "original": "Lev 14:21"
-    },
-    {
-      "reference": "Leviticus 14:24",
-      "original": "Lev 14:24"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -113,13 +51,5 @@
       "raw": "Leviticus 14:10, 12, 15, 21, 24",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 5,
-    "ot": 5,
-    "nt": 0,
-    "books": [
-      "Leviticus"
-    ]
-  }
+  ]
 }

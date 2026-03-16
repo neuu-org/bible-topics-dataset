@@ -1,7 +1,7 @@
 {
   "topic": "GOLGOTHA",
   "slug": "golgotha",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "The Aramaic name of the place where Jesus was crucified Mt 27:33; Mr 15:22; Joh 19:17",
@@ -40,17 +40,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_204236",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T20:42:36.670111",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [
     "CALVARY"
   ],
@@ -61,157 +50,8 @@
     "nt_refs": 2,
     "total_verses": 2
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "The common name of the spot where Jesus was crucified. It is interpreted by the evangelists as meaning “the place of a skull” (Matt. 27:33; Mark 15:22; John 19:17). This name represents in Greek letters the Aramaic word Gulgaltha, which is the Hebrew Gulgoleth (Num. 1:2; 1 Chr. 23:3, 24; 2 Kings 9:35), meaning “a skull.” It is identical with the word Calvary (q.v.). It was a little knoll rounded like a bare skull. It is obvious from the evangelists that it was some well-known spot outside the gate (comp. Heb. 13:12), and near the city (Luke 23:26), containing a “garden” (John 19:41), and on a thoroughfare leading into the country. Hence it is an untenable idea that it is embraced within the present “Church of the Holy Sepulchre.” The hillock above Jeremiah’s Grotto, to the north of the city, is in all probability the true site of Calvary. The skull-like appearance of the rock in the southern precipice of the hillock is very remarkable.",
-      "extracted_refs": [
-        {
-          "book": "Matthew",
-          "chapter": 27,
-          "verses": [
-            33
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Matthew 27:33",
-          "source": "EAS"
-        },
-        {
-          "book": "Mark",
-          "chapter": 15,
-          "verses": [
-            22
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Mark 15:22",
-          "source": "EAS"
-        },
-        {
-          "book": "John",
-          "chapter": 19,
-          "verses": [
-            17
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "John 19:17",
-          "source": "EAS"
-        },
-        {
-          "book": "Numbers",
-          "chapter": 1,
-          "verses": [
-            2
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Numbers 1:2",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Chronicles",
-          "chapter": 23,
-          "verses": [
-            3,
-            24
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "1 Chronicles 23:3, 24",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Kings",
-          "chapter": 9,
-          "verses": [
-            35
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Kings 9:35",
-          "source": "EAS"
-        },
-        {
-          "book": "Hebrews",
-          "chapter": 13,
-          "verses": [
-            12
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Hebrews 13:12",
-          "source": "EAS"
-        },
-        {
-          "book": "Luke",
-          "chapter": 23,
-          "verses": [
-            26
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Luke 23:26",
-          "source": "EAS"
-        },
-        {
-          "book": "John",
-          "chapter": 19,
-          "verses": [
-            41
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "John 19:41",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(skull), the Hebrew name of the spot at which our Lord was crucified. (Matthew 27:33; Mark 15:22; John 19:17) By these three evangelists it is interpreted to mean the “place of a skull.” Two explanations of the name are given: (1) that it was a spot where executions ordinarily took place, and therefore abounded in skulls; or(2) it may come from the look or form of the spot itself, bald, round and skull-like, and therefore a mound or hillock, in accordance with the common phrase—for which there is no direct authority— “Mount Calvary.” Whichever of these is the correct explanation, Golgotha seems to have been a known spot.",
-      "extracted_refs": [
-        {
-          "book": "Matthew",
-          "chapter": 27,
-          "verses": [
-            33
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Matthew 27:33",
-          "source": "SMI"
-        },
-        {
-          "book": "Mark",
-          "chapter": 15,
-          "verses": [
-            22
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Mark 15:22",
-          "source": "SMI"
-        },
-        {
-          "book": "John",
-          "chapter": 19,
-          "verses": [
-            17
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "John 19:17",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -323,20 +163,5 @@
       "raw": "John 19:41",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 10,
-    "ot": 4,
-    "nt": 6,
-    "books": [
-      "1 Chronicles",
-      "2 Kings",
-      "Hebrews",
-      "John",
-      "Luke",
-      "Mark",
-      "Matthew",
-      "Numbers"
-    ]
-  }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "topic": "IRRIGATION",
   "slug": "irrigation",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "General scriptures concerning De 11:10; Pr 21:1; Ec 2:6; Isa 58:11",
@@ -54,17 +54,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_223503",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T22:35:03.198658",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -73,28 +62,8 @@
     "nt_refs": 0,
     "total_verses": 3
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "As streams were few in Palestine, water was generally stored up in winter in reservoirs, and distributed through gardens in numerous rills, which could easily be turned or diverted by the foot (Deut. 11:10). For purposes of irrigation, water was raised from streams or pools by water-wheels, or by a shaduf, commonly used on the banks of the Nile to the present day.",
-      "extracted_refs": [
-        {
-          "book": "Deuteronomy",
-          "chapter": 11,
-          "verses": [
-            10
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Deuteronomy 11:10",
-          "source": "EAS"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -117,13 +86,5 @@
       "raw": "Deuteronomy 11:10",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 1,
-    "ot": 1,
-    "nt": 0,
-    "books": [
-      "Deuteronomy"
-    ]
-  }
+  ]
 }

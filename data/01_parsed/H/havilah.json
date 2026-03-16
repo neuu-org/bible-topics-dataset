@@ -1,7 +1,7 @@
 {
   "topic": "HAVILAH",
   "slug": "havilah",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "1. Son of Cush Ge 10:7; 1Ch 1:9",
@@ -67,17 +67,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_212102",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T21:21:02.834393",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -86,90 +75,8 @@
     "nt_refs": 0,
     "total_verses": 3
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "The sand region. (1.) A land mentioned in Gen. 2:11 rich in gold and bdellium and onyx stone. The question as to the locality of this region has given rise to a great diversity of opinion. It may perhaps be identified with the sandy tract which skirts Babylonia along the whole of its western border, stretching from the lower Euphrates to the mountains of Edom. (2.) A district in Arabia-Felix. It is uncertain whether the tribe gave its name to this region or derived its name from it, and whether it was originally a Cushite (Gen. 10:7) or a Joktanite tribe (10:29; comp. 25:18), or whether there were both a Cushite and a Joktanite Havilah. It is the opinion of Kalisch, however, that Havilah “in both instances designates the same country, extending at least from the Persian to the Arabian Gulf, and on account of its vast extent easily divided into two distinct parts.” This opinion may be well vindicated. (3.) One of the sons of Cush (Gen. 10:7). (4.) A son of Joktan (Gen. 10:29; 1 Chr. 1:23).",
-      "extracted_refs": [
-        {
-          "book": "Genesis",
-          "chapter": 10,
-          "verses": [
-            7
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 10:7",
-          "source": "EAS"
-        },
-        {
-          "book": "Genesis",
-          "chapter": 10,
-          "verses": [
-            29
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 10:29",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Chronicles",
-          "chapter": 1,
-          "verses": [
-            23
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 1:23",
-          "source": "EAS"
-        },
-        {
-          "book": "Genesis",
-          "chapter": 2,
-          "verses": [
-            11
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 2:11",
-          "source": "EAS"
-        },
-        {
-          "book": "Genesis",
-          "chapter": 25,
-          "verses": [
-            18
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 25:18",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(Genesis 2:11) (circle).",
-      "extracted_refs": [
-        {
-          "book": "Genesis",
-          "chapter": 2,
-          "verses": [
-            11
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 2:11",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -236,14 +143,5 @@
       "raw": "Genesis 25:18",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 5,
-    "ot": 5,
-    "nt": 0,
-    "books": [
-      "1 Chronicles",
-      "Genesis"
-    ]
-  }
+  ]
 }

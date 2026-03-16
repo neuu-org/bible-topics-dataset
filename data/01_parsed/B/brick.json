@@ -1,7 +1,7 @@
 {
   "topic": "BRICK",
   "slug": "brick",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Used in building: Babel Ge 11:3",
@@ -75,52 +75,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "O tijolo, mencionado em várias passagens do Antigo Testamento, é um material de construção utilizado em diversas estruturas, como a Torre de Babel, cidades no Egito, casas e altares. Os israelitas eram responsáveis pela sua fabricação, conforme evidenciado em textos de Êxodo, Jeremias e outros. A presença do tijolo em contextos de construção reflete a habilidade e a cultura material do povo, além de simbolizar a união e o esforço coletivo na edificação de comunidades e lugares sagrados.",
-    "outline": [
-      "Uso do tijolo na construção da Torre de Babel (Gênesis 11:3)",
-      "Fabricação de tijolos pelos israelitas (Êxodo 5:7-19)",
-      "Construção de cidades no Egito com tijolos (Êxodo 1:11, 14)",
-      "Construção de casas e altares em Isaías (Isaías 9:10; 65:3)",
-      "Importância cultural e material do tijolo na sociedade israelita"
-    ],
-    "key_concepts": [
-      "Trabalho e escravidão dos israelitas no Egito",
-      "Construção como símbolo de unidade e esforço coletivo",
-      "Materialidade e cultura na vida do Antigo Testamento"
-    ],
-    "theological_significance": "O tijolo, como elemento de construção, simboliza a capacidade humana de criar e edificar, refletindo a relação entre o homem e Deus na busca por um espaço sagrado. A fabricação de tijolos pelos israelitas sob opressão também destaca temas de libertação e redenção, fundamentais na narrativa bíblica.",
-    "model": "gpt-4o-mini",
-    "run_id": "enr_20251201_235126_1b2b0033",
-    "confidence": 1.0,
-    "generated_at": "2025-12-01T23:51:26.741440"
-  },
-  "ai_themes_normalized": [
-    {
-      "theme_id": null,
-      "proposal_id": "prop:trabalho_forçado_e_o_00b6e6",
-      "label_original": "Trabalho forçado e opressão no Egito",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:construção_da_torre__08a299",
-      "label_original": "Construção da Torre de Babel",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:edificação_de_altare_06b5d7",
-      "label_original": "Edificação de altares como ato de adoração",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:cidades_como_centros_065937",
-      "label_original": "Cidades como centros de cultura e vida comunitária",
-      "source": "ai_enrichment"
-    }
-  ],
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -129,83 +83,8 @@
     "nt_refs": 0,
     "total_verses": 3
   },
-  "definitions": [
-    {
-      "source": "SMI",
-      "text": "(Genesis 11:3) The brick in use among the Jews were much larger than with us, being usually from 12 to 13 inches square and 3 1/2 inches thick; they thus possess more of the character of tiles. (Ezekiel 4:1) The Israelites, in common with other captives, were employed by the Egyptian monarchs in making bricks and in building. (Exodus 1:14; 5:7) Egyptian bricks were not generally dried in kilns, but in the sun. That brick-kilns were known is evident from (2 Samuel 12:31; Jeremiah 43:9) When made of the Nile mud they required straw to prevent cracking. [See Straw]",
-      "extracted_refs": [
-        {
-          "book": "Genesis",
-          "chapter": 11,
-          "verses": [
-            3
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 11:3",
-          "source": "SMI"
-        },
-        {
-          "book": "Ezekiel",
-          "chapter": 4,
-          "verses": [
-            1
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Ezekiel 4:1",
-          "source": "SMI"
-        },
-        {
-          "book": "Exodus",
-          "chapter": 1,
-          "verses": [
-            14
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Exodus 1:14",
-          "source": "SMI"
-        },
-        {
-          "book": "Exodus",
-          "chapter": 5,
-          "verses": [
-            7
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Exodus 5:7",
-          "source": "SMI"
-        },
-        {
-          "book": "2 Samuel",
-          "chapter": 12,
-          "verses": [
-            31
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Samuel 12:31",
-          "source": "SMI"
-        },
-        {
-          "book": "Jeremiah",
-          "chapter": 43,
-          "verses": [
-            9
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Jeremiah 43:9",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -283,17 +162,5 @@
       "raw": "Jeremiah 43:9",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 6,
-    "ot": 6,
-    "nt": 0,
-    "books": [
-      "2 Samuel",
-      "Exodus",
-      "Ezekiel",
-      "Genesis",
-      "Jeremiah"
-    ]
-  }
+  ]
 }

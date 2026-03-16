@@ -1,7 +1,7 @@
 {
   "topic": "JERIAH",
   "slug": "jeriah",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Also called JERIJAH",
@@ -19,17 +19,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_230929",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T23:09:29.388500",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -38,64 +27,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "SMI",
-      "text": "a Kohathite Levite, chief of the great house of Hebron when David organized the service. (1 Chronicles 23:19; 24:23) B.C. 1014. The same man is mentioned again as Jerijah. (1 Chronicles 26:31)",
-      "extracted_refs": [
-        {
-          "book": "1 Chronicles",
-          "chapter": 23,
-          "verses": [
-            19
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 23:19",
-          "source": "SMI"
-        },
-        {
-          "book": "1 Chronicles",
-          "chapter": 24,
-          "verses": [
-            23
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 24:23",
-          "source": "SMI"
-        },
-        {
-          "book": "1 Chronicles",
-          "chapter": 26,
-          "verses": [
-            31
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 26:31",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "1 Chronicles 23:19",
-      "original": "1 Chronicles 23:19"
-    },
-    {
-      "reference": "1 Chronicles 24:23",
-      "original": "1 Chronicles 24:23"
-    },
-    {
-      "reference": "1 Chronicles 26:31",
-      "original": "1 Chronicles 26:31"
-    }
-  ],
   "sources": [
-    "NAV",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -140,13 +73,5 @@
       "raw": "1 Chronicles 26:31",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 3,
-    "ot": 3,
-    "nt": 0,
-    "books": [
-      "1 Chronicles"
-    ]
-  }
+  ]
 }

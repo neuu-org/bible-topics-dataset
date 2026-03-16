@@ -1,7 +1,7 @@
 {
   "topic": "KEHELATHAH",
   "slug": "kehelathah",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "An encampment of Israel Nu 33:22,23",
@@ -13,17 +13,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_233630",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T23:36:30.171283",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -32,57 +21,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Assembly, one of the stations of the Israelites in the desert (Num. 33:22, 23).",
-      "extracted_refs": [
-        {
-          "book": "Numbers",
-          "chapter": 33,
-          "verses": [
-            22,
-            23
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Numbers 33:22, 23",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(assembly), a desert encampment of the Israelites, (Numbers 33:22) of which nothing is known.",
-      "extracted_refs": [
-        {
-          "book": "Numbers",
-          "chapter": 33,
-          "verses": [
-            22
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Numbers 33:22",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Numbers 33:22",
-      "original": "Num. 33:22"
-    },
-    {
-      "reference": "Numbers 33:23",
-      "original": "Num. 33:23"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -117,13 +57,5 @@
       "raw": "Numbers 33:22",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 2,
-    "ot": 2,
-    "nt": 0,
-    "books": [
-      "Numbers"
-    ]
-  }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "topic": "ESHCOL",
   "slug": "eshcol",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "1. An Amorite, and ally of Abraham Ge 14:13,24",
@@ -34,26 +34,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "Eshcol é mencionado na Bíblia como um aliado de Abraão, um amorreu, e também como um vale ou ribeiro próximo a Hebrom. No contexto da exploração da Terra Prometida, Eshcol é notável por sua abundância, evidenciada pelo relato dos espias que trouxeram um cacho de uvas de grande tamanho. Este local é significativo na narrativa da conquista de Canaã e na aliança de Deus com Abraão, simbolizando a promessa de prosperidade e bênção.",
-    "outline": [
-      "Eshcol como um amorreu e aliado de Abraão",
-      "Descrição do vale ou ribeiro próximo a Hebrom",
-      "Importância de Eshcol na exploração da Terra Prometida",
-      "Significado do cacho de uvas trazido pelos espias",
-      "Conexão de Eshcol com a promessa de Deus a Abraão"
-    ],
-    "key_concepts": [
-      "Aliança de Deus com Abraão",
-      "Promessa de prosperidade",
-      "Exploração da Terra Prometida"
-    ],
-    "theological_significance": "Eshcol representa a fidelidade de Deus às Suas promessas, simbolizando a abundância e a bênção que acompanham a obediência e a fé. A menção do vale de Eshcol durante a exploração da Terra Prometida destaca a recompensa divina para o povo de Israel e a realização das promessas feitas a Abraão.",
-    "model": "gpt-4o-mini",
-    "run_id": "enr_20251202_151111_2b51d47d",
-    "confidence": 1.0,
-    "generated_at": "2025-12-02T15:11:11.946561"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -62,60 +42,8 @@
     "nt_refs": 0,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Bunch; brave. (1.) A young Amoritish chief who joined Abraham in the recovery of Lot from the hands of Chedorlaomer (Gen. 14:13, 24). (2.) A valley in which the spies obtained a fine cluster of grapes (Num. 13:23, 24; “the brook Eshcol,” A.V.; “the valley of Eshcol,” R.V.), which they took back with them to the camp of Israel as a specimen of the fruits of the Promised Land. On their way back they explored the route which led into the south (the Negeb) by the western edge of the mountains at Telilat el-‘Anab, i.e., “grape-mounds”, near Beersheba. “In one of these extensive valleys, perhaps in Wady Hanein, where miles of grape-mounds even now meet the eye, they cut the gigantic clusters of grapes, and gathered the pomegranates and figs, to show how goodly was the land which the Lord had promised for their inheritance.”, Palmer’s Desert of the Exodus.",
-      "extracted_refs": [
-        {
-          "book": "Genesis",
-          "chapter": 14,
-          "verses": [
-            13,
-            24
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Genesis 14:13, 24",
-          "source": "EAS"
-        },
-        {
-          "book": "Numbers",
-          "chapter": 13,
-          "verses": [
-            23,
-            24
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Numbers 13:23, 24",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(cluster of grapes), brother of Mamre the Amorite and of Aner, and one of Abraham’s companions in his pursuit of the four kings who had carried off Lot. (Genesis 14:13,24) (B.C. 1912.).",
-      "extracted_refs": [
-        {
-          "book": "Genesis",
-          "chapter": 14,
-          "verses": [
-            13,
-            24
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Genesis 14:13,24",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -128,32 +56,6 @@
     "enrichment_source": "pipeline_merge"
   },
   "version": "3.0.0",
-  "ai_themes_normalized": [
-    {
-      "theme_id": null,
-      "proposal_id": "prop:aliança_entre_deus_e_0065cc",
-      "label_original": "Aliança entre Deus e o homem",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:promessa_de_abundânc_0c7eb6",
-      "label_original": "Promessa de abundância",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:exploração_e_fé_0b1fbd",
-      "label_original": "Exploração e fé",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:identidade_e_herança_02d3bd",
-      "label_original": "Identidade e herança",
-      "source": "ai_enrichment"
-    }
-  ],
   "definition_refs": [
     {
       "book": "Genesis",
@@ -179,14 +81,5 @@
       "raw": "Numbers 13:23, 24",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 4,
-    "ot": 4,
-    "nt": 0,
-    "books": [
-      "Genesis",
-      "Numbers"
-    ]
-  }
+  ]
 }

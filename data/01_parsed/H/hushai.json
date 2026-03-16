@@ -1,7 +1,7 @@
 {
   "topic": "HUSHAI",
   "slug": "hushai",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "David’s friend 2Sa 15:32-37; 16:16-19; 17; 1Ch 27:33",
@@ -26,17 +26,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_221248",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T22:12:48.040044",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -45,53 +34,8 @@
     "nt_refs": 0,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Quick, “the Archite,” “the king’s friend” (1 Chr. 27:33). When David fled from Jerusalem, on account of the rebellion of Absalom, and had reached the summit of Olivet, he there met Hushai, whom he sent back to Jerusalem for the purpose of counteracting the influence of Ahithophel, who had joined the ranks of Absalom (2 Sam. 15:32, 37; 16:16-18). It was by his advice that Absalom refrained from immediately pursuing after David. By this delay the cause of Absalom was ruined, for it gave David time to muster his forces.",
-      "extracted_refs": [
-        {
-          "book": "1 Chronicles",
-          "chapter": 27,
-          "verses": [
-            33
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 27:33",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Samuel",
-          "chapter": 15,
-          "verses": [
-            32,
-            37
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "2 Samuel 15:32, 37",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Samuel",
-          "chapter": 16,
-          "verses": [
-            16,
-            17,
-            18
-          ],
-          "verse_count": 3,
-          "testament": "OT",
-          "raw": "2 Samuel 16:16-18",
-          "source": "EAS"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -139,14 +83,5 @@
       "raw": "2 Samuel 16:16-18",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 6,
-    "ot": 6,
-    "nt": 0,
-    "books": [
-      "1 Chronicles",
-      "2 Samuel"
-    ]
-  }
+  ]
 }

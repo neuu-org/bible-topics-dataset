@@ -1,7 +1,7 @@
 {
   "topic": "MEDEBA",
   "slug": "medeba",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A city of Moab Nu 21:30",
@@ -45,17 +45,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_004521",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T00:45:21.453952",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -64,128 +53,8 @@
     "nt_refs": 0,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Waters of quiet, an ancient Moabite town (Num. 21:30). It was assigned to the tribe of Reuben (Josh. 13:16). Here was fought the great battle in which Joab defeated the Ammonites and their allies (1 Chr. 19:7-15; comp. 2 Sam. 10:6-14). In the time of Isaiah (15:2) the Moabites regained possession of it from the Ammonites. (See HANUN.) The ruins of this important city, now Madeba or Madiyabah, are seen about 8 miles south-west of Heshbon, and 14 east of the Dead Sea. Among these are the ruins of what must have been a large temple, and of three cisterns of considerable extent, which are now dry. These cisterns may have originated the name Medeba, “waters of quiet.” (See OMRI.)",
-      "extracted_refs": [
-        {
-          "book": "Numbers",
-          "chapter": 21,
-          "verses": [
-            30
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Numbers 21:30",
-          "source": "EAS"
-        },
-        {
-          "book": "Joshua",
-          "chapter": 13,
-          "verses": [
-            16
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 13:16",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Chronicles",
-          "chapter": 19,
-          "verses": [
-            7,
-            8,
-            9,
-            10,
-            11,
-            12,
-            13,
-            14,
-            15
-          ],
-          "verse_count": 9,
-          "testament": "OT",
-          "raw": "1 Chronicles 19:7-15",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Samuel",
-          "chapter": 10,
-          "verses": [
-            6,
-            7,
-            8,
-            9,
-            10,
-            11,
-            12,
-            13,
-            14
-          ],
-          "verse_count": 9,
-          "testament": "OT",
-          "raw": "2 Samuel 10:6-14",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Samuel",
-          "chapter": 15,
-          "verses": [
-            2
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Samuel 15:2",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(water of rest), a town on the eastern side of Jordan, first alluded to in (Numbers 21:30) Here it seems to denote the limit of the territory of Heshbon. It next occurs in the enumeration of the country divided among the transjordanic tribes, (Joshua 13:9) as giving its name to a district of level downs called “the Mishor of Medeba” or “the Mishor on Medeba.” At the time of the conquest Medeba belonged to the Amorites, apparently one of the towns taken from Moab by them. In the time of Ahaz Medeba was a sanctuary of Moab. (Isaiah 15:2) It has retained its name down, our own times, and lies four miles southeast of Heshbon, on it rounded but rocky hill.",
-      "extracted_refs": [
-        {
-          "book": "Numbers",
-          "chapter": 21,
-          "verses": [
-            30
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Numbers 21:30",
-          "source": "SMI"
-        },
-        {
-          "book": "Joshua",
-          "chapter": 13,
-          "verses": [
-            9
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 13:9",
-          "source": "SMI"
-        },
-        {
-          "book": "Isaiah",
-          "chapter": 15,
-          "verses": [
-            2
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Isaiah 15:2",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -290,17 +159,5 @@
       "raw": "Isaiah 15:2",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 23,
-    "ot": 23,
-    "nt": 0,
-    "books": [
-      "1 Chronicles",
-      "2 Samuel",
-      "Isaiah",
-      "Joshua",
-      "Numbers"
-    ]
-  }
+  ]
 }

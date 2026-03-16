@@ -1,7 +1,7 @@
 {
   "topic": "JEHIZKIAH",
   "slug": "jehizkiah",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Son of Shallum 2Ch 28:12",
@@ -12,17 +12,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_230111",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T23:01:11.657342",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -31,77 +20,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Jehovah strengthens, one of the chiefs of Ephraim (2 Chr. 28:12).",
-      "extracted_refs": [
-        {
-          "book": "2 Chronicles",
-          "chapter": 28,
-          "verses": [
-            12
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Chronicles 28:12",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(Jehovah strengthens), son of Shallum, one of the heads of the tribe of Ephraim in the time of Ahaz. (2 Chronicles 28:12) comp. 2Chr 28:8,13,15 (B.C. 738.)",
-      "extracted_refs": [
-        {
-          "book": "2 Chronicles",
-          "chapter": 28,
-          "verses": [
-            12
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Chronicles 28:12",
-          "source": "SMI"
-        },
-        {
-          "book": "2 Chronicles",
-          "chapter": 28,
-          "verses": [
-            8,
-            13,
-            15
-          ],
-          "verse_count": 3,
-          "testament": "OT",
-          "raw": "2 Chronicles 28:8,13,15",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "2 Chronicles 28:12",
-      "original": "2 Chr. 28:12"
-    },
-    {
-      "reference": "2 Chronicles 28:8",
-      "original": "2Chr 28:8"
-    },
-    {
-      "reference": "2 Chronicles 28:13",
-      "original": "2Chr 28:13"
-    },
-    {
-      "reference": "2 Chronicles 28:15",
-      "original": "2Chr 28:15"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -137,13 +57,5 @@
       "raw": "2 Chronicles 28:8,13,15",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 4,
-    "ot": 4,
-    "nt": 0,
-    "books": [
-      "2 Chronicles"
-    ]
-  }
+  ]
 }

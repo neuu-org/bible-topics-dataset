@@ -1,7 +1,7 @@
 {
   "topic": "KITTIM",
   "slug": "kittim",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "See CHITTIM",
@@ -10,17 +10,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_234512",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T23:45:12.800207",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [
     "CHITTIM"
   ],
@@ -31,67 +20,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "(Gen. 10:4). (See CHITTIM.)",
-      "extracted_refs": [
-        {
-          "book": "Genesis",
-          "chapter": 10,
-          "verses": [
-            4
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 10:4",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "Twice written in the Authorized Version for Chittim. (Genesis 10:4; 1 Chronicles 1:7)",
-      "extracted_refs": [
-        {
-          "book": "Genesis",
-          "chapter": 10,
-          "verses": [
-            4
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 10:4",
-          "source": "SMI"
-        },
-        {
-          "book": "1 Chronicles",
-          "chapter": 1,
-          "verses": [
-            7
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 1:7",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Genesis 10:4",
-      "original": "Gen. 10:4"
-    },
-    {
-      "reference": "1 Chronicles 1:7",
-      "original": "1 Chronicles 1:7"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -125,14 +55,5 @@
       "raw": "1 Chronicles 1:7",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 2,
-    "ot": 2,
-    "nt": 0,
-    "books": [
-      "1 Chronicles",
-      "Genesis"
-    ]
-  }
+  ]
 }

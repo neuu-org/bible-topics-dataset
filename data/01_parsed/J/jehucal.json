@@ -1,7 +1,7 @@
 {
   "topic": "JEHUCAL",
   "slug": "jehucal",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Also called JUCAL",
@@ -19,17 +19,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_230600",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T23:06:00.584213",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -38,67 +27,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Able, the son of Shelemiah. He is also called Jucal (Jer. 38:1). He was one of the two persons whom Zedekiah sent to request the prophet Jeremiah to pray for the kingdom (Jer. 37:3) during the time of its final siege by Nebuchadnezzar. He was accompanied by Zephaniah (q.v.).",
-      "extracted_refs": [
-        {
-          "book": "Jeremiah",
-          "chapter": 38,
-          "verses": [
-            1
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Jeremiah 38:1",
-          "source": "EAS"
-        },
-        {
-          "book": "Jeremiah",
-          "chapter": 37,
-          "verses": [
-            3
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Jeremiah 37:3",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(able), son of Shelemiah; one of two persons sent by King Zedekiah to Jeremiah to entreat his prayers and advice. (Jeremiah 37:3) (B.C. 589.)",
-      "extracted_refs": [
-        {
-          "book": "Jeremiah",
-          "chapter": 37,
-          "verses": [
-            3
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Jeremiah 37:3",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Jeremiah 38:1",
-      "original": "Jer. 38:1"
-    },
-    {
-      "reference": "Jeremiah 37:3",
-      "original": "Jer. 37:3"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -132,13 +62,5 @@
       "raw": "Jeremiah 37:3",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 2,
-    "ot": 2,
-    "nt": 0,
-    "books": [
-      "Jeremiah"
-    ]
-  }
+  ]
 }

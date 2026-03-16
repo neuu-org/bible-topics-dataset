@@ -1,7 +1,7 @@
 {
   "topic": "FEVER",
   "slug": "fever",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "General scriptures concerning Le 26:16; De 28:22; Job 30:30; Ps 22:15; Mt 8:14; Ac 28:8",
@@ -68,26 +68,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "A febre é mencionada em várias passagens bíblicas, tanto no Antigo quanto no Novo Testamento, simbolizando não apenas uma condição física, mas também um estado de aflição e necessidade de cura. As escrituras abordam a febre em contextos de punição divina, sofrimento humano e milagres de cura, refletindo a relação entre saúde, pecado e a intervenção divina. A cura da febre de Pedro por Jesus em Mateus 8:14-15 exemplifica a compaixão de Cristo e seu poder sobre doenças, enquanto as referências em Levítico e Deuteronômio associam a febre a consequências de desobediência a Deus.",
-    "outline": [
-      "Definição e menção da febre nas escrituras",
-      "Conexão entre febre e punição divina",
-      "Exemplos de cura de febre no Novo Testamento",
-      "Simbolismo da febre como estado de aflição",
-      "A relação entre saúde e espiritualidade na Bíblia"
-    ],
-    "key_concepts": [
-      "Cura divina como manifestação do poder de Deus",
-      "A febre como símbolo de aflição e necessidade",
-      "Consequências espirituais da desobediência"
-    ],
-    "theological_significance": "A febre, como condição física, é um reflexo da fragilidade humana e da necessidade de intervenção divina. As curas realizadas por Jesus não apenas restauram a saúde física, mas também simbolizam a restauração espiritual e a compaixão de Deus por seu povo. Este tema reforça a crença na soberania de Deus sobre a saúde e a importância da fé na busca por cura.",
-    "model": "gpt-4o-mini",
-    "run_id": "enr_20251202_155414_85dd7813",
-    "confidence": 1.0,
-    "generated_at": "2025-12-02T15:54:14.183531"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -96,83 +76,8 @@
     "nt_refs": 2,
     "total_verses": 5
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "(Deut. 28:22; Matt. 8:14; Mark 1:30; John 4:52; Acts 28:8), a burning heat, as the word so rendered denotes, which attends all febrile attacks. In all Eastern countries such diseases are very common. Peter’s wife’s mother is said to have suffered from a “great fever” (Luke 4:38), an instance of Luke’s professional exactitude in describing disease. He adopts here the technical medical distinction, as in those times fevers were divided into the “great” and the “less.”",
-      "extracted_refs": [
-        {
-          "book": "Deuteronomy",
-          "chapter": 28,
-          "verses": [
-            22
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Deuteronomy 28:22",
-          "source": "EAS"
-        },
-        {
-          "book": "Matthew",
-          "chapter": 8,
-          "verses": [
-            14
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Matthew 8:14",
-          "source": "EAS"
-        },
-        {
-          "book": "Mark",
-          "chapter": 1,
-          "verses": [
-            30
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Mark 1:30",
-          "source": "EAS"
-        },
-        {
-          "book": "John",
-          "chapter": 4,
-          "verses": [
-            52
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "John 4:52",
-          "source": "EAS"
-        },
-        {
-          "book": "Acts",
-          "chapter": 28,
-          "verses": [
-            8
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Acts 28:8",
-          "source": "EAS"
-        },
-        {
-          "book": "Luke",
-          "chapter": 4,
-          "verses": [
-            38
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Luke 4:38",
-          "source": "EAS"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -185,32 +90,6 @@
     "enrichment_source": "pipeline_merge"
   },
   "version": "3.0.0",
-  "ai_themes_normalized": [
-    {
-      "theme_id": null,
-      "proposal_id": "prop:cura_como_expressão__060a72",
-      "label_original": "Cura como expressão da compaixão divina",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:consequências_da_des_084fa8",
-      "label_original": "Consequências da desobediência a Deus",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:a_fragilidade_humana_0dea80",
-      "label_original": "A fragilidade humana diante da doença",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:intervenção_divina_n_05f8e5",
-      "label_original": "Intervenção divina nas aflições humanas",
-      "source": "ai_enrichment"
-    }
-  ],
   "definition_refs": [
     {
       "book": "Deuteronomy",
@@ -278,18 +157,5 @@
       "raw": "Luke 4:38",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 6,
-    "ot": 1,
-    "nt": 5,
-    "books": [
-      "Acts",
-      "Deuteronomy",
-      "John",
-      "Luke",
-      "Mark",
-      "Matthew"
-    ]
-  }
+  ]
 }

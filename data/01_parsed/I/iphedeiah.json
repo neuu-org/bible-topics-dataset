@@ -1,7 +1,7 @@
 {
   "topic": "IPHEDEIAH",
   "slug": "iphedeiah",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A Benjamite 1Ch 8:25",
@@ -12,17 +12,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_223257",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T22:32:57.699227",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -31,52 +20,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Set free by Jehovah, a chief of the tribe of Benjamin (1 Chr. 8:25).",
-      "extracted_refs": [
-        {
-          "book": "1 Chronicles",
-          "chapter": 8,
-          "verses": [
-            25
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 8:25",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(whom Jehovah frees), a descendant of Benjamin, one of the Bene-Shashak. (1 Chronicles 8:25)",
-      "extracted_refs": [
-        {
-          "book": "1 Chronicles",
-          "chapter": 8,
-          "verses": [
-            25
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 8:25",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "1 Chronicles 8:25",
-      "original": "1 Chr. 8:25"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -99,13 +44,5 @@
       "raw": "1 Chronicles 8:25",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 1,
-    "ot": 1,
-    "nt": 0,
-    "books": [
-      "1 Chronicles"
-    ]
-  }
+  ]
 }

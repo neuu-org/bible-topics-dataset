@@ -1,7 +1,7 @@
 {
   "topic": "ALVAN",
   "slug": "alvan",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Son of Shobal Ge 36:23",
@@ -19,208 +19,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "Alvan, mencionado como filho de Shobal em Gênesis 36:23 e chamado de Alian em 1 Crônicas 1:40, é uma figura que representa a genealogia dos edomitas. Sua inclusão nas listas genealógicas destaca a importância das linhagens na narrativa bíblica, especialmente no contexto da história de Israel e Edom. A menção de Alvan também reflete a diversidade das tribos e a complexidade das relações entre os povos na Antiguidade, enfatizando a soberania de Deus sobre as nações.",
-    "outline": [
-      "Identificação de Alvan como filho de Shobal e sua genealogia.",
-      "Comparação entre as referências em Gênesis e Crônicas.",
-      "Importância das genealogias na narrativa bíblica.",
-      "Relações entre Edom e Israel no contexto histórico."
-    ],
-    "key_concepts": [
-      "Genealogia",
-      "Edom",
-      "Identidade tribal"
-    ],
-    "theological_significance": "A menção de Alvan nas Escrituras sublinha a importância das linhagens e a soberania de Deus na história da salvação. Para a fé cristã, isso nos lembra que Deus tem um plano para todas as nações e povos, e que a história de cada indivíduo e grupo é parte do grande propósito divino. A genealogia também nos ensina sobre a continuidade da fé e a importância de reconhecer nossas raízes espirituais.",
-    "model": "gpt-4o-mini",
-    "run_id": "enr_20250923_124740_20a6ed21",
-    "confidence": 1.0,
-    "generated_at": "2025-09-23T12:47:40.617120"
-  },
-  "ai_themes_normalized": [
-    {
-      "theme_id": null,
-      "proposal_id": "prop:soberania_de_deus_7d4ff6",
-      "label_original": "Soberania de Deus",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:relacoes_entre_povos_6132d4",
-      "label_original": "Relações entre povos",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:identidade_e_heranca_ba963d",
-      "label_original": "Identidade e herança",
-      "source": "ai_enrichment"
-    }
-  ],
-  "phase1_discovery": {
-    "processed_at": "2025-09-23T22:40:48.030233Z",
-    "total_themes_processed": 3,
-    "summary": {
-      "total_processed": 3,
-      "decisions": {
-        "alias_existing": 0,
-        "proposed": 3,
-        "error": 0
-      },
-      "success_rate": 1.0
-    },
-    "results": [
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.83372,
-          "novelty": 1.0,
-          "similarity_to_best_existing": 0.0,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_97d4fbda",
-          "decision_hash": "a7a1757c9e3efeb0",
-          "created_at": "2025-09-23T22:40:48.030233Z"
-        },
-        "proposal_id": "prop:8586dcb4",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:soberania_de_deus_7d4ff6",
-          "label_original": "Soberania de Deus",
-          "confidence": 0.9500000000000001,
-          "source": "ai_enrichment"
-        }
-      },
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.8351,
-          "novelty": 1.0,
-          "similarity_to_best_existing": 0.0,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_048de783",
-          "decision_hash": "83690f721f75525f",
-          "created_at": "2025-09-23T22:40:48.991352Z"
-        },
-        "proposal_id": "prop:93dd558b",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:relacoes_entre_povos_6132d4",
-          "label_original": "Relações entre povos",
-          "confidence": 0.9500000000000001,
-          "source": "ai_enrichment"
-        }
-      },
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.84368,
-          "novelty": 1.0,
-          "similarity_to_best_existing": 0.0,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_6e109e7a",
-          "decision_hash": "1dbc77b1fb1c51bc",
-          "created_at": "2025-09-23T22:40:50.142649Z"
-        },
-        "proposal_id": "prop:7ccbc521",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:identidade_e_heranca_ba963d",
-          "label_original": "Identidade e herança",
-          "confidence": 0.9500000000000001,
-          "source": "ai_enrichment"
-        }
-      }
-    ]
-  },
-  "entity_links": [
-    {
-      "canonical_id": "CON:alvan",
-      "namespace": "CONCEPT",
-      "role": "primary",
-      "confidence": 0.9,
-      "source": "topic_resolver",
-      "status": "proposed",
-      "provenance": {
-        "topic": "ALVAN",
-        "extracted_from": "ALVAN",
-        "processing_result": {
-          "status": "proposed",
-          "proposal_id": "stub:CON:alvan_745ee3e9",
-          "canonical_id": "CON:alvan",
-          "needs_review": true,
-          "reasons": [
-            "low_confidence",
-            "insufficient_sources"
-          ],
-          "message": "Entity proposal stub:CON:alvan_745ee3e9 created"
-        }
-      }
-    }
-  ],
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -229,49 +27,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "SMI",
-      "text": "(tall), a Horite, son of Shobal, (Genesis 36:23) written Alian in (1 Chronicles 1:40)",
-      "extracted_refs": [
-        {
-          "book": "Genesis",
-          "chapter": 36,
-          "verses": [
-            23
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 36:23",
-          "source": "SMI"
-        },
-        {
-          "book": "1 Chronicles",
-          "chapter": 1,
-          "verses": [
-            40
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 1:40",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Genesis 36:23",
-      "original": "Genesis 36:23"
-    },
-    {
-      "reference": "1 Chronicles 1:40",
-      "original": "1 Chronicles 1:40"
-    }
-  ],
   "sources": [
-    "NAV",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -305,14 +62,5 @@
       "raw": "1 Chronicles 1:40",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 2,
-    "ot": 2,
-    "nt": 0,
-    "books": [
-      "1 Chronicles",
-      "Genesis"
-    ]
-  }
+  ]
 }

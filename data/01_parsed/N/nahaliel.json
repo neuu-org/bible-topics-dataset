@@ -1,7 +1,7 @@
 {
   "topic": "NAHALIEL",
   "slug": "nahaliel",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A station (stopping place) of the Israelites Nu 21:19",
@@ -12,17 +12,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_013102",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T01:31:02.452484",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -31,67 +20,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Possession, or valley of God, one of the encampments of the Israelites in the wilderness (Num. 21:19), on the confines of Moab. This is identified with the ravine of the Zerka M’ain, the ancient Callirhoe, the hot springs on the east of the Jordan, not far from the Dead Sea.",
-      "extracted_refs": [
-        {
-          "book": "Numbers",
-          "chapter": 21,
-          "verses": [
-            19
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Numbers 21:19",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(torrents of God), one of the halting-places of Israel in the latter part of their progress to Canaan. (Numbers 21:19) It lay “beyond,” that is, north of, the Amen, ver. (Numbers 21:13) and between Mattanah and Bamoth, the next after Bamoth being Pisgah.",
-      "extracted_refs": [
-        {
-          "book": "Numbers",
-          "chapter": 21,
-          "verses": [
-            19
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Numbers 21:19",
-          "source": "SMI"
-        },
-        {
-          "book": "Numbers",
-          "chapter": 21,
-          "verses": [
-            13
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Numbers 21:13",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Numbers 21:19",
-      "original": "Num. 21:19"
-    },
-    {
-      "reference": "Numbers 21:13",
-      "original": "Numbers 21:13"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -125,13 +55,5 @@
       "raw": "Numbers 21:13",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 2,
-    "ot": 2,
-    "nt": 0,
-    "books": [
-      "Numbers"
-    ]
-  }
+  ]
 }

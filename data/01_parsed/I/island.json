@@ -1,7 +1,7 @@
 {
   "topic": "ISLAND",
   "slug": "island",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Prophecies concerning Ps 97:1; Isa 11:11; 41:1,5; 49:1; Zep 2:11; Re 16:20",
@@ -50,17 +50,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_223853",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T22:38:53.136960",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -69,156 +58,8 @@
     "nt_refs": 1,
     "total_verses": 3
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "(Heb. ‘i, “dry land,” as opposed to water) occurs in its usual signification (Isa. 42:4, 10, 12, 15, comp. Jer. 47:4), but more frequently simply denotes a maritime region or sea-coast (Isa. 20:6, R.V.,” coastland;” 23:2, 6; Jer. 2:10; Ezek. 27:6, 7). (See CHITTIM.) The shores of the Mediterranean are called the “islands of the sea” (Isa. 11:11), or the “isles of the Gentiles” (Gen. 10:5), and sometimes simply “isles” (Ps. 72:10); Ezek. 26:15, 18; 27:3, 35; Dan. 11:18).",
-      "extracted_refs": [
-        {
-          "book": "Isaiah",
-          "chapter": 42,
-          "verses": [
-            4,
-            10,
-            12,
-            15
-          ],
-          "verse_count": 4,
-          "testament": "OT",
-          "raw": "Isaiah 42:4, 10, 12, 15",
-          "source": "EAS"
-        },
-        {
-          "book": "Jeremiah",
-          "chapter": 47,
-          "verses": [
-            4
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Jeremiah 47:4",
-          "source": "EAS"
-        },
-        {
-          "book": "Isaiah",
-          "chapter": 20,
-          "verses": [
-            6
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Isaiah 20:6",
-          "source": "EAS"
-        },
-        {
-          "book": "Isaiah",
-          "chapter": 23,
-          "verses": [
-            2,
-            6
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Isaiah 23:2, 6",
-          "source": "EAS"
-        },
-        {
-          "book": "Jeremiah",
-          "chapter": 2,
-          "verses": [
-            10
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Jeremiah 2:10",
-          "source": "EAS"
-        },
-        {
-          "book": "Ezekiel",
-          "chapter": 27,
-          "verses": [
-            6,
-            7
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Ezekiel 27:6, 7",
-          "source": "EAS"
-        },
-        {
-          "book": "Isaiah",
-          "chapter": 11,
-          "verses": [
-            11
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Isaiah 11:11",
-          "source": "EAS"
-        },
-        {
-          "book": "Genesis",
-          "chapter": 10,
-          "verses": [
-            5
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 10:5",
-          "source": "EAS"
-        },
-        {
-          "book": "Psalms",
-          "chapter": 72,
-          "verses": [
-            10
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Psalms 72:10",
-          "source": "EAS"
-        },
-        {
-          "book": "Ezekiel",
-          "chapter": 26,
-          "verses": [
-            15,
-            18
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Ezekiel 26:15, 18",
-          "source": "EAS"
-        },
-        {
-          "book": "Ezekiel",
-          "chapter": 27,
-          "verses": [
-            3,
-            35
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Ezekiel 27:3, 35",
-          "source": "EAS"
-        },
-        {
-          "book": "Daniel",
-          "chapter": 11,
-          "verses": [
-            18
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Daniel 11:18",
-          "source": "EAS"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -369,18 +210,5 @@
       "raw": "Daniel 11:18",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 19,
-    "ot": 19,
-    "nt": 0,
-    "books": [
-      "Daniel",
-      "Ezekiel",
-      "Genesis",
-      "Isaiah",
-      "Jeremiah",
-      "Psalms"
-    ]
-  }
+  ]
 }

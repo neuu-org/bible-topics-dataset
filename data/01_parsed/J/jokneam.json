@@ -1,7 +1,7 @@
 {
   "topic": "JOKNEAM",
   "slug": "jokneam",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A Levitical city of Zebulun Jos 12:22; 19:11; 21:34",
@@ -19,17 +19,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_232106",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T23:21:06.773725",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [
     "JOKMEAM"
   ],
@@ -40,78 +29,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Gathered by the people, (Josh. 19:11; 21:34), a city “of Carmel” (12:22), i.e., on Carmel, allotted with its suburbs to the Merarite Levites. It is the modern Tell Kaimon, about 12 miles south-west of Nazareth, on the south of the river Kishon.",
-      "extracted_refs": [
-        {
-          "book": "Joshua",
-          "chapter": 19,
-          "verses": [
-            11
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 19:11",
-          "source": "EAS"
-        },
-        {
-          "book": "Joshua",
-          "chapter": 21,
-          "verses": [
-            34
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 21:34",
-          "source": "EAS"
-        },
-        {
-          "book": "Joshua",
-          "chapter": 12,
-          "verses": [
-            22
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 12:22",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(possessed by the people), a city of the tribe of Zebulun, allotted with its suburbs to the Merarite Levites. (Joshua 21:34) Its modern site is Tell Kaimon, an eminence which stands just below the eastern termination of Carmel.",
-      "extracted_refs": [
-        {
-          "book": "Joshua",
-          "chapter": 21,
-          "verses": [
-            34
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 21:34",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Joshua 19:11",
-      "original": "Josh. 19:11"
-    },
-    {
-      "reference": "Joshua 21:34",
-      "original": "Josh 21:34"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -156,13 +75,5 @@
       "raw": "Joshua 12:22",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 3,
-    "ot": 3,
-    "nt": 0,
-    "books": [
-      "Joshua"
-    ]
-  }
+  ]
 }

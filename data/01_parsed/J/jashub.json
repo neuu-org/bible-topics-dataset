@@ -1,7 +1,7 @@
 {
   "topic": "JASHUB",
   "slug": "jashub",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "1. Son of Issachar Nu 26:24; 1Ch 7:1",
@@ -38,17 +38,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_225542",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T22:55:42.996161",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -57,55 +46,8 @@
     "nt_refs": 0,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Returner. (1.) The third of Issachar’s four sons (1 Chr. 7:1); called also Job (Gen. 46:13). (2.) Ezra 10:29.",
-      "extracted_refs": [
-        {
-          "book": "1 Chronicles",
-          "chapter": 7,
-          "verses": [
-            1
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 7:1",
-          "source": "EAS"
-        },
-        {
-          "book": "Genesis",
-          "chapter": 46,
-          "verses": [
-            13
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 46:13",
-          "source": "EAS"
-        },
-        {
-          "book": "Ezra",
-          "chapter": 10,
-          "verses": [
-            29
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Ezra 10:29",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(he turns)."
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -150,15 +92,5 @@
       "raw": "Ezra 10:29",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 3,
-    "ot": 3,
-    "nt": 0,
-    "books": [
-      "1 Chronicles",
-      "Ezra",
-      "Genesis"
-    ]
-  }
+  ]
 }

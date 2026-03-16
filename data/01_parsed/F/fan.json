@@ -1,7 +1,7 @@
 {
   "topic": "FAN",
   "slug": "fan",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Used for winnowing grain Isa 30:24; Jer 15:7; 51:2; Mt 3:12",
@@ -37,25 +37,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "O ventilador, mencionado em Isaías, Jeremias e Mateus, é uma ferramenta utilizada para a separação do grão da palha, simbolizando o juízo e a purificação. No contexto bíblico, o uso do ventilador ilustra a ação de Deus em separar o justo do ímpio, refletindo a importância da pureza e da justiça divina. Este símbolo é fundamental para entender a obra de Deus na história da salvação e o chamado à santidade dos crentes.",
-    "outline": [
-      "Definição e uso do ventilador na separação de grãos",
-      "Referências bíblicas em Isaías, Jeremias e Mateus",
-      "Simbolismo do ventilador em relação ao juízo divino",
-      "A importância da purificação e separação na teologia bíblica"
-    ],
-    "key_concepts": [
-      "Purificação como ação divina",
-      "Juízo de Deus sobre a humanidade",
-      "Separação do justo e do ímpio"
-    ],
-    "theological_significance": "O ventilador simboliza a ação de Deus em purificar seu povo e julgar aqueles que não seguem seus caminhos. Este conceito é central na teologia cristã, pois reflete a necessidade de santidade e a expectativa do juízo final, onde os justos serão separados dos ímpios.",
-    "model": "gpt-4o-mini",
-    "run_id": "enr_20251202_154250_0f26a02d",
-    "confidence": 1.0,
-    "generated_at": "2025-12-02T15:42:50.980734"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -64,79 +45,8 @@
     "nt_refs": 1,
     "total_verses": 2
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "A winnowing shovel by which grain was thrown up against the wind that it might be cleansed from broken straw and chaff (Isa. 30:24; Jer. 15:7; Matt. 3:12). (See AGRICULTURE.)",
-      "extracted_refs": [
-        {
-          "book": "Isaiah",
-          "chapter": 30,
-          "verses": [
-            24
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Isaiah 30:24",
-          "source": "EAS"
-        },
-        {
-          "book": "Jeremiah",
-          "chapter": 15,
-          "verses": [
-            7
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Jeremiah 15:7",
-          "source": "EAS"
-        },
-        {
-          "book": "Matthew",
-          "chapter": 3,
-          "verses": [
-            12
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Matthew 3:12",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "a winnowing-shovel, with which grain was thrown up against the wind to be cleansed from the chaff and straw. (Isaiah 30:24; Matthew 3:12) A large wooden fork is used at the present day.",
-      "extracted_refs": [
-        {
-          "book": "Isaiah",
-          "chapter": 30,
-          "verses": [
-            24
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Isaiah 30:24",
-          "source": "SMI"
-        },
-        {
-          "book": "Matthew",
-          "chapter": 3,
-          "verses": [
-            12
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Matthew 3:12",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -149,26 +59,6 @@
     "enrichment_source": "pipeline_merge"
   },
   "version": "3.0.0",
-  "ai_themes_normalized": [
-    {
-      "theme_id": null,
-      "proposal_id": "prop:purificação_e_separa_0a4f24",
-      "label_original": "Purificação e separação divina",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:juízo_e_justiça_de_d_01a532",
-      "label_original": "Juízo e justiça de Deus",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:a_santidade_como_cha_0c9ca8",
-      "label_original": "A santidade como chamado para os crentes",
-      "source": "ai_enrichment"
-    }
-  ],
   "definition_refs": [
     {
       "book": "Isaiah",
@@ -203,15 +93,5 @@
       "raw": "Matthew 3:12",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 3,
-    "ot": 2,
-    "nt": 1,
-    "books": [
-      "Isaiah",
-      "Jeremiah",
-      "Matthew"
-    ]
-  }
+  ]
 }

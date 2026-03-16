@@ -1,7 +1,7 @@
 {
   "topic": "SMITH",
   "slug": "smith",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "(A worker in metals)",
@@ -85,44 +85,8 @@
     "nt_refs": 0,
     "total_verses": 2
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "The Hebrews were not permitted by the Philistines in the days of Samuel to have a smith amongst them, lest they should make them swords and spears (1 Sam. 13:19). Thus the Philistines sought to make their conquest permanent (comp. 2 Kings 24:16).",
-      "extracted_refs": [
-        {
-          "book": "1 Samuel",
-          "chapter": 13,
-          "verses": [
-            19
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Samuel 13:19",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Kings",
-          "chapter": 24,
-          "verses": [
-            16
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Kings 24:16",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "[Handicraft]"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -156,14 +120,5 @@
       "raw": "2 Kings 24:16",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 2,
-    "ot": 2,
-    "nt": 0,
-    "books": [
-      "1 Samuel",
-      "2 Kings"
-    ]
-  }
+  ]
 }

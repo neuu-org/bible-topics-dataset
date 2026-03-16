@@ -1,7 +1,7 @@
 {
   "topic": "ANAK",
   "slug": "anak",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Father of three giants Jos 15:13,14; 21:11",
@@ -14,208 +14,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "Anak é uma figura bíblica mencionada em Josué 15:13-14 e 21:11, reconhecido como o pai de três gigantes, os Anakitas, que habitavam a terra de Canaã. A presença dos Anakitas representa um desafio significativo para os israelitas durante a conquista da terra prometida. A menção de Anak e seus filhos destaca a luta entre o povo de Deus e as forças que se opõem ao Seu plano, simbolizando a necessidade de fé e coragem diante de adversidades aparentemente insuperáveis. A narrativa de Anak também serve como um lembrete da fidelidade de Deus em cumprir Suas promessas, mesmo diante de gigantes.",
-    "outline": [
-      "Identificação de Anak como pai dos gigantes",
-      "A relação de Anak com a terra de Canaã",
-      "O impacto dos Anakitas na conquista israelita",
-      "A simbologia dos gigantes na luta espiritual"
-    ],
-    "key_concepts": [
-      "Gigantismo como símbolo de oposição ao povo de Deus",
-      "A terra prometida e os desafios enfrentados",
-      "Fé e coragem em face da adversidade"
-    ],
-    "theological_significance": "A figura de Anak e seus filhos serve como um importante símbolo da luta espiritual que os cristãos enfrentam. A narrativa enfatiza a necessidade de confiar em Deus, mesmo quando os desafios parecem insuperáveis. A presença dos Anakitas na terra prometida ilustra a realidade de que a vida cristã envolve batalhas contra forças que se opõem ao propósito divino, mas também reafirma a certeza de que Deus é fiel em cumprir Suas promessas.",
-    "model": "gpt-4o-mini",
-    "run_id": "enr_20250923_125725_58b982c9",
-    "confidence": 1.0,
-    "generated_at": "2025-09-23T12:57:25.875443"
-  },
-  "ai_themes_normalized": [
-    {
-      "theme_id": null,
-      "proposal_id": "prop:conquista_da_terra_prometida_e7f5a1",
-      "label_original": "Conquista da terra prometida",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:fe_diante_da_adversidade_fe589d",
-      "label_original": "Fé diante da adversidade",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:o_papel_dos_gigantes_na_narrativa_biblica_ccedd5",
-      "label_original": "O papel dos gigantes na narrativa bíblica",
-      "source": "ai_enrichment"
-    }
-  ],
-  "phase1_discovery": {
-    "processed_at": "2025-09-23T22:43:49.891511Z",
-    "total_themes_processed": 3,
-    "summary": {
-      "total_processed": 3,
-      "decisions": {
-        "alias_existing": 0,
-        "proposed": 3,
-        "error": 0
-      },
-      "success_rate": 1.0
-    },
-    "results": [
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.8437,
-          "novelty": 1.0,
-          "similarity_to_best_existing": 0.0,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_c33d5ca8",
-          "decision_hash": "3bb5abd7eded51c0",
-          "created_at": "2025-09-23T22:43:49.891511Z"
-        },
-        "proposal_id": "prop:8ac9b36d",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:conquista_da_terra_prometida_e7f5a1",
-          "label_original": "Conquista da terra prometida",
-          "confidence": 0.9500000000000001,
-          "source": "ai_enrichment"
-        }
-      },
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.83898,
-          "novelty": 1.0,
-          "similarity_to_best_existing": 0.0,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_775490d4",
-          "decision_hash": "cd58034978f2d1a3",
-          "created_at": "2025-09-23T22:43:51.195057Z"
-        },
-        "proposal_id": "prop:08392e6e",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:fe_diante_da_adversidade_fe589d",
-          "label_original": "Fé diante da adversidade",
-          "confidence": 0.9500000000000001,
-          "source": "ai_enrichment"
-        }
-      },
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.84244,
-          "novelty": 1.0,
-          "similarity_to_best_existing": 0.0,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_3c0a75b0",
-          "decision_hash": "70cc425f7044ceaa",
-          "created_at": "2025-09-23T22:43:52.355982Z"
-        },
-        "proposal_id": "prop:5384c001",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:o_papel_dos_gigantes_na_narrativa_biblica_ccedd5",
-          "label_original": "O papel dos gigantes na narrativa bíblica",
-          "confidence": 0.9500000000000001,
-          "source": "ai_enrichment"
-        }
-      }
-    ]
-  },
-  "entity_links": [
-    {
-      "canonical_id": "CON:anak",
-      "namespace": "CONCEPT",
-      "role": "primary",
-      "confidence": 0.9,
-      "source": "topic_resolver",
-      "status": "proposed",
-      "provenance": {
-        "topic": "ANAK",
-        "extracted_from": "ANAK",
-        "processing_result": {
-          "status": "proposed",
-          "proposal_id": "stub:CON:anak_26c2746e",
-          "canonical_id": "CON:anak",
-          "needs_review": true,
-          "reasons": [
-            "low_confidence",
-            "insufficient_sources"
-          ],
-          "message": "Entity proposal stub:CON:anak_26c2746e created"
-        }
-      }
-    }
-  ],
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -224,49 +22,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Long-necked, the son of Arba, father of the Anakim (Josh. 15:13; 21:11, Heb. Anok).",
-      "extracted_refs": [
-        {
-          "book": "Joshua",
-          "chapter": 15,
-          "verses": [
-            13
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 15:13",
-          "source": "EAS"
-        },
-        {
-          "book": "Joshua",
-          "chapter": 21,
-          "verses": [
-            11
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 21:11",
-          "source": "EAS"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Joshua 15:13",
-      "original": "Josh. 15:13"
-    },
-    {
-      "reference": "Joshua 21:11",
-      "original": "Josh 21:11"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -300,13 +57,5 @@
       "raw": "Joshua 21:11",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 2,
-    "ot": 2,
-    "nt": 0,
-    "books": [
-      "Joshua"
-    ]
-  }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "topic": "ETHER",
   "slug": "ether",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "(A city of Caanan)",
@@ -31,25 +31,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "Ether é uma cidade mencionada no Antigo Testamento, localizada na terra de Canaã. Inicialmente designada à tribo de Judá, foi posteriormente alocada à tribo de Simeão. Em 1 Crônicas, a cidade é referida como Tochen. A sua menção nos livros de Josué e Crônicas destaca a importância da distribuição territorial entre as tribos de Israel e a continuidade da herança da terra prometida.",
-    "outline": [
-      "Designação inicial da cidade de Ether à tribo de Judá",
-      "Realoção da cidade à tribo de Simeão",
-      "Referência a Ether como Tochen em 1 Crônicas",
-      "Importância da cidade no contexto da herança de Canaã"
-    ],
-    "key_concepts": [
-      "Distribuição territorial das tribos de Israel",
-      "Herança da terra prometida",
-      "Identidade e continuidade do povo de Deus"
-    ],
-    "theological_significance": "A alocação de Ether entre as tribos de Israel reflete a fidelidade de Deus em cumprir Suas promessas de dar a terra a Seu povo. A mudança de alocação entre as tribos também ilustra a dinâmica das relações entre as tribos e a importância da unidade na herança coletiva.",
-    "model": "gpt-4o-mini",
-    "run_id": "enr_20251202_151535_938882e2",
-    "confidence": 1.0,
-    "generated_at": "2025-12-02T15:15:35.855648"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -58,49 +39,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "SMI",
-      "text": "(abundance), one of the cities of Judah in the low country, the Shefelah, (Joshua 15:42) allotted to Simeon. (Joshua 19:7)",
-      "extracted_refs": [
-        {
-          "book": "Joshua",
-          "chapter": 15,
-          "verses": [
-            42
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 15:42",
-          "source": "SMI"
-        },
-        {
-          "book": "Joshua",
-          "chapter": 19,
-          "verses": [
-            7
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 19:7",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Joshua 15:42",
-      "original": "Joshua 15:42"
-    },
-    {
-      "reference": "Joshua 19:7",
-      "original": "Joshua 19:7"
-    }
-  ],
   "sources": [
-    "NAV",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -113,26 +53,6 @@
     "enrichment_source": "pipeline_merge"
   },
   "version": "3.0.0",
-  "ai_themes_normalized": [
-    {
-      "theme_id": null,
-      "proposal_id": "prop:distribuição_da_terr_0b4590",
-      "label_original": "Distribuição da terra prometida",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:identidade_tribal_em_0e8b75",
-      "label_original": "Identidade tribal em Israel",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:fidelidade_de_deus_n_0c5496",
-      "label_original": "Fidelidade de Deus nas promessas",
-      "source": "ai_enrichment"
-    }
-  ],
   "definition_refs": [
     {
       "book": "Joshua",
@@ -156,13 +76,5 @@
       "raw": "Joshua 19:7",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 2,
-    "ot": 2,
-    "nt": 0,
-    "books": [
-      "Joshua"
-    ]
-  }
+  ]
 }

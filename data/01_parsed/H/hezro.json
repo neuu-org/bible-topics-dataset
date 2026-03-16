@@ -1,7 +1,7 @@
 {
   "topic": "HEZRO",
   "slug": "hezro",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "See HEZRAI",
@@ -10,17 +10,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_215317",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T21:53:17.621284",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [
     "HEZRAI"
   ],
@@ -31,34 +20,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "A Carmelite, one of David’s warriors (1 Chr. 11:37).",
-      "extracted_refs": [
-        {
-          "book": "1 Chronicles",
-          "chapter": 11,
-          "verses": [
-            37
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 11:37",
-          "source": "EAS"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "1 Chronicles 11:37",
-      "original": "1 Chr. 11:37"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -81,13 +44,5 @@
       "raw": "1 Chronicles 11:37",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 1,
-    "ot": 1,
-    "nt": 0,
-    "books": [
-      "1 Chronicles"
-    ]
-  }
+  ]
 }

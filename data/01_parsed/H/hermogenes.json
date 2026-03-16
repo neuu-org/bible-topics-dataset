@@ -1,7 +1,7 @@
 {
   "topic": "HERMOGENES",
   "slug": "hermogenes",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A Christian, who deserted Paul 2Ti 1:15",
@@ -12,17 +12,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_215039",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T21:50:39.133550",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -31,52 +20,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Mercury-born, at one time Paul’s fellow-labourer in Asia Minor, who, however, afterwards abandoned him, along with one Phygellus, probably on account of the perils by which they were beset (2 Tim. 1:15).",
-      "extracted_refs": [
-        {
-          "book": "2 Timothy",
-          "chapter": 1,
-          "verses": [
-            15
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "2 Timothy 1:15",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "a person mentioned by St. Paul in the latest of all his epistles, (2 Timothy 1:15) when all in Asia had turned away from him. (A.D. 64.)",
-      "extracted_refs": [
-        {
-          "book": "2 Timothy",
-          "chapter": 1,
-          "verses": [
-            15
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "2 Timothy 1:15",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "2 Timothy 1:15",
-      "original": "2 Tim. 1:15"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -99,13 +44,5 @@
       "raw": "2 Timothy 1:15",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 1,
-    "ot": 0,
-    "nt": 1,
-    "books": [
-      "2 Timothy"
-    ]
-  }
+  ]
 }

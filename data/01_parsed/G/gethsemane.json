@@ -1,7 +1,7 @@
 {
   "topic": "GETHSEMANE",
   "slug": "gethsemane",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "(A garden near Jerusalem)",
@@ -77,17 +77,6 @@
       "verse_count": 2
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_203105",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T20:31:05.966436",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -96,123 +85,8 @@
     "nt_refs": 3,
     "total_verses": 3
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Oil-press, the name of an olive-yard at the foot of the Mount of Olives, to which Jesus was wont to retire (Luke 22:39) with his disciples, and which is specially memorable as being the scene of his agony (Mark 14:32; John 18:1; Luke 22:44). The plot of ground pointed out as Gethsemane is now surrounded by a wall, and is laid out as a modern European flower-garden. It contains eight venerable olive-trees, the age of which cannot, however, be determined. The exact site of Gethsemane is still in question. Dr. Thomson (The Land and the Book) says: “When I first came to Jerusalem, and for many years afterward, this plot of ground was open to all whenever they chose to come and meditate beneath its very old olivetrees. The Latins, however, have within the last few years succeeded in gaining sole possession, and have built a high wall around it...The Greeks have invented another site a little to the north of it...My own impression is that both are wrong. The position is too near the city, and so close to what must have always been the great thoroughfare eastward, that our Lord would scarcely have selected it for retirement on that dangerous and dismal night...I am inclined to place the garden in the secluded vale several hundred yards to the north-east of the present Gethsemane.”",
-      "extracted_refs": [
-        {
-          "book": "Luke",
-          "chapter": 22,
-          "verses": [
-            39
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Luke 22:39",
-          "source": "EAS"
-        },
-        {
-          "book": "Mark",
-          "chapter": 14,
-          "verses": [
-            32
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Mark 14:32",
-          "source": "EAS"
-        },
-        {
-          "book": "John",
-          "chapter": 18,
-          "verses": [
-            1
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "John 18:1",
-          "source": "EAS"
-        },
-        {
-          "book": "Luke",
-          "chapter": 22,
-          "verses": [
-            44
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Luke 22:44",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(an oil-press), a small “farm,” (Matthew 26:36; Mark 14:32) situated across the brook Kedron (John 18:1) probably at the foot of Mount Olivet, (Luke 22:39) to the northwest and about one-half or three quarters of a mile English from the walls of Jerusalem, and 100 yards east of the bridge over the Kedron. There was a “garden,” or rather orchard, attached to it, to which the olive, fig and pomegranate doubtless invited resort by their hospitable shade. And we know from the evangelists (Luke 22:39) And (John 18:2) that our Lord ofttimes resorted thither with his disciples. But Gethsemane has not come down to us as a scene of mirth; its inexhaustible associations are the offspring of a single event—the agony of the Son of God on the evening preceding his passion. A garden, with eight venerable olive trees, and a grotto to the north detached from it, and in closer connection with the church of the sepulchre of the Virgin, are pointed out as the Gethsemane. Against the contemporary antiquity of the olive trees it has been urged that Titus cut down all the trees about Jerusalem. The probability would seem to be that they were planted by Christian hands to mark the spot unless, like the sacred olive of the Acropolis, they may have reproduced themselves.",
-      "extracted_refs": [
-        {
-          "book": "Matthew",
-          "chapter": 26,
-          "verses": [
-            36
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Matthew 26:36",
-          "source": "SMI"
-        },
-        {
-          "book": "Mark",
-          "chapter": 14,
-          "verses": [
-            32
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Mark 14:32",
-          "source": "SMI"
-        },
-        {
-          "book": "John",
-          "chapter": 18,
-          "verses": [
-            1
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "John 18:1",
-          "source": "SMI"
-        },
-        {
-          "book": "Luke",
-          "chapter": 22,
-          "verses": [
-            39
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Luke 22:39",
-          "source": "SMI"
-        },
-        {
-          "book": "John",
-          "chapter": 18,
-          "verses": [
-            2
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "John 18:2",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -290,16 +164,5 @@
       "raw": "John 18:2",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 6,
-    "ot": 0,
-    "nt": 6,
-    "books": [
-      "John",
-      "Luke",
-      "Mark",
-      "Matthew"
-    ]
-  }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "topic": "LEAGUE",
   "slug": "league",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "See ALLIANCES",
@@ -15,17 +15,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_235741",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T23:57:41.953855",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [
     "TREATY",
     "ALLIANCES"
@@ -37,111 +26,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "A treaty or confederacy. The Jews were forbidden to enter into an alliance of any kind (1) with the Canaanites (Ex. 23:32, 33; 34:12-16); (2) with the Amalekites (Ex. 17:8, 14; Deut. 25:17-19); (3) with the Moabites and Ammonites (Deut. 2:9, 19). Treaties were permitted to be entered into with all other nations. Thus David maintained friendly intercourse with the kings of Tyre and Hamath, and Solomon with the kings of Tyre and Egypt.",
-      "extracted_refs": [
-        {
-          "book": "Exodus",
-          "chapter": 23,
-          "verses": [
-            32,
-            33
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Exodus 23:32, 33",
-          "source": "EAS"
-        },
-        {
-          "book": "Exodus",
-          "chapter": 34,
-          "verses": [
-            12,
-            13,
-            14,
-            15,
-            16
-          ],
-          "verse_count": 5,
-          "testament": "OT",
-          "raw": "Exodus 34:12-16",
-          "source": "EAS"
-        },
-        {
-          "book": "Exodus",
-          "chapter": 17,
-          "verses": [
-            8,
-            14
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Exodus 17:8, 14",
-          "source": "EAS"
-        },
-        {
-          "book": "Deuteronomy",
-          "chapter": 25,
-          "verses": [
-            17,
-            18,
-            19
-          ],
-          "verse_count": 3,
-          "testament": "OT",
-          "raw": "Deuteronomy 25:17-19",
-          "source": "EAS"
-        },
-        {
-          "book": "Deuteronomy",
-          "chapter": 2,
-          "verses": [
-            9,
-            19
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Deuteronomy 2:9, 19",
-          "source": "EAS"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Exodus 23:32",
-      "original": "Ex. 23:32"
-    },
-    {
-      "reference": "Exodus 23:33",
-      "original": "Ex. 23:33"
-    },
-    {
-      "reference": "Exodus 17:8",
-      "original": "Ex. 17:8"
-    },
-    {
-      "reference": "Exodus 17:14",
-      "original": "Ex. 17:14"
-    },
-    {
-      "reference": "Deuteronomy 25:17-19",
-      "original": "Deut. 25:17-19"
-    },
-    {
-      "reference": "Deuteronomy 2:9",
-      "original": "Deut. 2:9"
-    },
-    {
-      "reference": "Deuteronomy 2:19",
-      "original": "Deut. 2:19"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -217,14 +103,5 @@
       "raw": "Deuteronomy 2:9, 19",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 14,
-    "ot": 14,
-    "nt": 0,
-    "books": [
-      "Deuteronomy",
-      "Exodus"
-    ]
-  }
+  ]
 }

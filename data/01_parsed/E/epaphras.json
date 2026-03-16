@@ -1,7 +1,7 @@
 {
   "topic": "EPAPHRAS",
   "slug": "epaphras",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A co-laborer with Paul Col 1:7; 4:12; Phm 1:23",
@@ -25,45 +25,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "Epáfras é mencionado nas cartas de Paulo aos Colossenses e a Filemom como um co-trabalhador e colaborador no ministério. Ele é descrito como alguém que trouxe notícias sobre a fé e a situação da igreja em Colossos, demonstrando seu papel vital na edificação da comunidade cristã. Sua dedicação e serviço são um exemplo de compromisso e apoio no trabalho missionário, refletindo a importância da colaboração no corpo de Cristo.",
-    "outline": [
-      "Epáfras como co-trabalhador de Paulo",
-      "Contribuições de Epáfras para a igreja em Colossos",
-      "O papel de Epáfras em Filemom",
-      "A importância da colaboração no ministério cristão"
-    ],
-    "key_concepts": [
-      "Colaboração no ministério",
-      "Fidelidade no serviço",
-      "Comunicação da fé"
-    ],
-    "theological_significance": "A figura de Epáfras destaca a importância da colaboração e do serviço mútuo no ministério cristão. Ele exemplifica como cada membro do corpo de Cristo tem um papel significativo na edificação da igreja, enfatizando a necessidade de apoio e comunhão entre os crentes.",
-    "model": "gpt-4o-mini",
-    "run_id": "enr_20251202_142113_debc5559",
-    "confidence": 1.0,
-    "generated_at": "2025-12-02T14:21:13.161872"
-  },
-  "ai_themes_normalized": [
-    {
-      "theme_id": null,
-      "proposal_id": "prop:colaboração_no_minis_0c5b43",
-      "label_original": "Colaboração no ministério cristão",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:fidelidade_e_serviço_0ac991",
-      "label_original": "Fidelidade e serviço",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:comunicação_da_fé_00a6f3",
-      "label_original": "Comunicação da fé",
-      "source": "ai_enrichment"
-    }
-  ],
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -72,91 +33,8 @@
     "nt_refs": 1,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Lovely, spoken of by Paul (Col. 1:7; 4:12) as “his dear fellow-servant,” and “a faithful minister of Christ.” He was thus evidently with him at Rome when he wrote to the Colossians. He was a distinguished disciple, and probably the founder of the Colossian church. He is also mentioned in the Epistle to Philemon (1:23), where he is called by Paul his “fellow-prisoner.”",
-      "extracted_refs": [
-        {
-          "book": "Colossians",
-          "chapter": 1,
-          "verses": [
-            7
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Colossians 1:7",
-          "source": "EAS"
-        },
-        {
-          "book": "Colossians",
-          "chapter": 4,
-          "verses": [
-            12
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Colossians 4:12",
-          "source": "EAS"
-        },
-        {
-          "book": "Colossians",
-          "chapter": 1,
-          "verses": [
-            23
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Colossians 1:23",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(lovely), a fellow laborer with the apostle Paul, mentioned (Colossians 1:7) as having taught the Colossian church the grace of God in truth, and designated a faithful minister of Christ on their behalf. He was at that time with St. Paul at Rome. (A.D. 57.) For Paul’s estimate of him see (Colossians 1:7,8; 4:12)",
-      "extracted_refs": [
-        {
-          "book": "Colossians",
-          "chapter": 1,
-          "verses": [
-            7
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Colossians 1:7",
-          "source": "SMI"
-        },
-        {
-          "book": "Colossians",
-          "chapter": 1,
-          "verses": [
-            7,
-            8
-          ],
-          "verse_count": 2,
-          "testament": "NT",
-          "raw": "Colossians 1:7,8",
-          "source": "SMI"
-        },
-        {
-          "book": "Colossians",
-          "chapter": 4,
-          "verses": [
-            12
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Colossians 4:12",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -213,13 +91,5 @@
       "raw": "Colossians 1:7,8",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 4,
-    "ot": 0,
-    "nt": 4,
-    "books": [
-      "Colossians"
-    ]
-  }
+  ]
 }

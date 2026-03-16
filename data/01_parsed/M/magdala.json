@@ -1,7 +1,7 @@
 {
   "topic": "MAGDALA",
   "slug": "magdala",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A city of Galilee",
@@ -17,17 +17,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_002316",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T00:23:16.650928",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -36,78 +25,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "A tower, a town in Galilee, mentioned only in Matt. 15:39. In the parallel passage in Mark 8:10 this place is called Dalmanutha. It was the birthplace of Mary called the Magdalen, or Mary Magdalene. It was on the west shore of the Lake of Tiberias, and is now probably the small obscure village called el-Mejdel, about 3 miles north-west of Tiberias. In the Talmud this city is called “the city of colour,” and a particular district of it was called “the tower of dyers.” The indigo plant was much cultivated here.",
-      "extracted_refs": [
-        {
-          "book": "Matthew",
-          "chapter": 15,
-          "verses": [
-            39
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Matthew 15:39",
-          "source": "EAS"
-        },
-        {
-          "book": "Mark",
-          "chapter": 8,
-          "verses": [
-            10
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Mark 8:10",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(a tower). The chief MSS. and versions exhibit the name as Magadan, as in the Revised Version. Into the limits of Magadan Christ came by boat, over the Lake of Gennesareth after his miracle of feeding the four thousand on the Mountain of the eastern side, (Matthew 15:39) and from thence he returned in the same boat to the opposite shore. In the parallel narrative of St. Mark, ch. (Mark 8:10) we find the “parts of Dalmanutha,” on the western edge of the Lake of Gennesareth. The Magdala, which conferred her name on “Mary the Magdalene one of the numerous migdols, i.e. towers, which stood in Palestine, was probably the place of that name which is mentioned in the Jerusalem Talmud as near Tiberias, and this again is as probably the modern el-Mejdel, a miserable little Muslim village, of twenty huts on the water’s edge at the southeast corner of the plain of Gennesareth. It is now the only inhabited place on this plain.",
-      "extracted_refs": [
-        {
-          "book": "Matthew",
-          "chapter": 15,
-          "verses": [
-            39
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Matthew 15:39",
-          "source": "SMI"
-        },
-        {
-          "book": "Mark",
-          "chapter": 8,
-          "verses": [
-            10
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Mark 8:10",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Matthew 15:39",
-      "original": "Matt. 15:39"
-    },
-    {
-      "reference": "Mark 8:10",
-      "original": "Mark 8:10"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -141,14 +60,5 @@
       "raw": "Mark 8:10",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 2,
-    "ot": 0,
-    "nt": 2,
-    "books": [
-      "Mark",
-      "Matthew"
-    ]
-  }
+  ]
 }

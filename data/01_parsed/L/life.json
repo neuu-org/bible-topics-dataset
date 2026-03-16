@@ -1,7 +1,7 @@
 {
   "topic": "LIFE",
   "slug": "life",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "MISCELLANY OF MINOR SUB-TOPICS",
@@ -833,17 +833,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_000814",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T00:08:14.522054",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [
     "LONGEVITY",
     "HOMICIDE",
@@ -858,143 +847,8 @@
     "nt_refs": 29,
     "total_verses": 47
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Generally of physical life (Gen. 2:7; Luke 16:25, etc.); also used figuratively (1) for immortality (Heb. 7:16); (2) conduct or manner of life (Rom. 6:4); (3) spiritual life or salvation (John 3:16, 17, 18, 36); (4) eternal life (Matt. 19:16, 17; John 3:15); of God and Christ as the absolute source and cause of all life (John 1:4; 5:26, 39; 11:25; 12:50).",
-      "extracted_refs": [
-        {
-          "book": "Genesis",
-          "chapter": 2,
-          "verses": [
-            7
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 2:7",
-          "source": "EAS"
-        },
-        {
-          "book": "Luke",
-          "chapter": 16,
-          "verses": [
-            25
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Luke 16:25",
-          "source": "EAS"
-        },
-        {
-          "book": "Hebrews",
-          "chapter": 7,
-          "verses": [
-            16
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Hebrews 7:16",
-          "source": "EAS"
-        },
-        {
-          "book": "Romans",
-          "chapter": 6,
-          "verses": [
-            4
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Romans 6:4",
-          "source": "EAS"
-        },
-        {
-          "book": "John",
-          "chapter": 3,
-          "verses": [
-            16,
-            17,
-            18,
-            36
-          ],
-          "verse_count": 4,
-          "testament": "NT",
-          "raw": "John 3:16, 17, 18, 36",
-          "source": "EAS"
-        },
-        {
-          "book": "Matthew",
-          "chapter": 19,
-          "verses": [
-            16,
-            17
-          ],
-          "verse_count": 2,
-          "testament": "NT",
-          "raw": "Matthew 19:16, 17",
-          "source": "EAS"
-        },
-        {
-          "book": "John",
-          "chapter": 3,
-          "verses": [
-            15
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "John 3:15",
-          "source": "EAS"
-        },
-        {
-          "book": "John",
-          "chapter": 1,
-          "verses": [
-            4
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "John 1:4",
-          "source": "EAS"
-        },
-        {
-          "book": "John",
-          "chapter": 5,
-          "verses": [
-            26,
-            39
-          ],
-          "verse_count": 2,
-          "testament": "NT",
-          "raw": "John 5:26, 39",
-          "source": "EAS"
-        },
-        {
-          "book": "John",
-          "chapter": 11,
-          "verses": [
-            25
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "John 11:25",
-          "source": "EAS"
-        },
-        {
-          "book": "John",
-          "chapter": 12,
-          "verses": [
-            50
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "John 12:50",
-          "source": "EAS"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -1132,18 +986,5 @@
       "raw": "John 12:50",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 16,
-    "ot": 1,
-    "nt": 15,
-    "books": [
-      "Genesis",
-      "Hebrews",
-      "John",
-      "Luke",
-      "Matthew",
-      "Romans"
-    ]
-  }
+  ]
 }

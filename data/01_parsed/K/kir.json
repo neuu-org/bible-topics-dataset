@@ -1,7 +1,7 @@
 {
   "topic": "KIR",
   "slug": "kir",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "The inhabitants of Damascus carried into captivity to, by the king of Assyria 2Ki 16:9",
@@ -33,17 +33,6 @@
       "verse_count": 2
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_234223",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T23:42:23.222791",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -52,79 +41,8 @@
     "nt_refs": 0,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "A wall or fortress, a place to which Tiglath-pileser carried the Syrians captive after he had taken the city of Damascus (2 Kings 16:9; Amos 1:5; 9:7). Isaiah (22:6), who also was contemporary with these events, mentions it along with Elam. Some have supposed that Kir is a variant of Cush (Susiana), on the south of Elam.",
-      "extracted_refs": [
-        {
-          "book": "2 Kings",
-          "chapter": 16,
-          "verses": [
-            9
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Kings 16:9",
-          "source": "EAS"
-        },
-        {
-          "book": "Amos",
-          "chapter": 1,
-          "verses": [
-            5
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Amos 1:5",
-          "source": "EAS"
-        },
-        {
-          "book": "Amos",
-          "chapter": 9,
-          "verses": [
-            7
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Amos 9:7",
-          "source": "EAS"
-        },
-        {
-          "book": "Amos",
-          "chapter": 22,
-          "verses": [
-            6
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Amos 22:6",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(fortress) is mentioned by Amos, (Amos 9:7) as the land from which the Syrians (Aramaeans) were once “brought up;” i.e. apparently as the country where they had dwelt before migrating to the region north of Palestine. (A difference of opinion exists in regard to the position of Kir, since some suppose it to be identical with Carma, a city of Media, in the south, on the river Mardus; others place it in Armenia, on the river Kar.—ED.)",
-      "extracted_refs": [
-        {
-          "book": "Amos",
-          "chapter": 9,
-          "verses": [
-            7
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Amos 9:7",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -180,14 +98,5 @@
       "raw": "Amos 22:6",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 4,
-    "ot": 4,
-    "nt": 0,
-    "books": [
-      "2 Kings",
-      "Amos"
-    ]
-  }
+  ]
 }

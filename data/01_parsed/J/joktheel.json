@@ -1,7 +1,7 @@
 {
   "topic": "JOKTHEEL",
   "slug": "joktheel",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "1. A city of the territory of the tribe of Judah Jos 15:38",
@@ -40,17 +40,6 @@
       "verse_count": 2
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_232135",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T23:21:35.357935",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -59,49 +48,8 @@
     "nt_refs": 0,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Subdued by God. (1.) A city of Judah near Lachish (Josh. 15, 38). Perhaps the ruin Kutlaneh, south of Gezer. (2.) Amaziah, king of Judah, undertook a great expedition against Edom (2 Chr. 25:5-10), which was completely successful. He routed the Edomites and slew vast numbers of them. So wonderful did this victory appear to him that he acknowledged that it could have been achieved only by the special help of God, and therefore he called Selah (q.v.), their great fortress city, by the name of Joktheel (2 Kings 14:7).",
-      "extracted_refs": [
-        {
-          "book": "2 Chronicles",
-          "chapter": 25,
-          "verses": [
-            5,
-            6,
-            7,
-            8,
-            9,
-            10
-          ],
-          "verse_count": 6,
-          "testament": "OT",
-          "raw": "2 Chronicles 25:5-10",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Kings",
-          "chapter": 14,
-          "verses": [
-            7
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Kings 14:7",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(subdued by God)."
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -140,14 +88,5 @@
       "raw": "2 Kings 14:7",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 7,
-    "ot": 7,
-    "nt": 0,
-    "books": [
-      "2 Chronicles",
-      "2 Kings"
-    ]
-  }
+  ]
 }

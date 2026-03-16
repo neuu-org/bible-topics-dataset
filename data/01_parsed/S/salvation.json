@@ -1,7 +1,7 @@
 {
   "topic": "SALVATION",
   "slug": "salvation",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "ILLUSTRATED BY",
@@ -2637,70 +2637,6 @@
       "verse_count": 5
     }
   ],
-  "ai_enrichment": {
-    "summary": "A salvação é um tema central nas Escrituras, revelando a ação soberana de Deus em redimir a humanidade. Desde a queda do homem em Gênesis, Deus estabeleceu um plano de salvação que culmina em Cristo. A salvação é um dom divino, não baseado em obras, mas na graça, amor e misericórdia de Deus. É acessível a todos, tanto judeus quanto gentios, e é recebida pela fé. Este conceito é fundamental para a compreensão da relação entre Deus e a humanidade, destacando a necessidade de um Salvador e a esperança de redenção.",
-    "outline": [
-      "A salvação é de Deus e parte de Seu propósito eterno.",
-      "A salvação é realizada por meio de Cristo, o único mediador.",
-      "A salvação é um dom de graça, não baseado em obras humanas.",
-      "A salvação é acessível a todos, conforme predito nas Escrituras."
-    ],
-    "key_concepts": [
-      "Soberania de Deus na salvação",
-      "Redenção através de Cristo",
-      "Graça e fé como meios de salvação"
-    ],
-    "theological_significance": "A salvação é fundamental para a fé cristã, pois revela a natureza amorosa e misericordiosa de Deus. Ela enfatiza a incapacidade humana de alcançar a salvação por méritos próprios, apontando para a necessidade de confiar em Cristo. Este entendimento molda a prática cristã, incentivando a evangelização e a proclamação do evangelho como um chamado a todos os povos.",
-    "model": "gpt-4o-mini",
-    "run_id": "enr_20250923_132031_a85f21fc",
-    "confidence": 1.0,
-    "generated_at": "2025-09-23T13:20:31.816135"
-  },
-  "ai_themes_normalized": [
-    {
-      "theme_id": null,
-      "proposal_id": "prop:graca_divina_1b81c5",
-      "label_original": "Graça divina",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": "THEME:salvation",
-      "proposal_id": null,
-      "label_original": "Redenção",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:esperanca_messianica_65296c",
-      "label_original": "Esperança messiânica",
-      "source": "ai_enrichment"
-    }
-  ],
-  "entity_links": [
-    {
-      "canonical_id": "CON:salvation",
-      "namespace": "CONCEPT",
-      "role": "primary",
-      "confidence": 0.9,
-      "source": "topic_resolver",
-      "status": "proposed",
-      "provenance": {
-        "topic": "SALVATION",
-        "extracted_from": "SALVATION",
-        "processing_result": {
-          "status": "proposed",
-          "proposal_id": "stub:CON:salvation_338b2752",
-          "canonical_id": "CON:salvation",
-          "needs_review": true,
-          "reasons": [
-            "low_confidence",
-            "insufficient_sources"
-          ],
-          "message": "Entity proposal stub:CON:salvation_338b2752 created"
-        }
-      }
-    }
-  ],
   "see_also": [
     "OBEDIENCE",
     "ATONEMENT",
@@ -2724,40 +2660,9 @@
     "ot_refs": 77,
     "nt_refs": 100
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "This word is used of the deliverance of the Israelites from the Egyptians (Ex. 14:13), and of deliverance generally from evil or danger. In the New Testament it is specially used with reference to the great deliverance from the guilt and the pollution of sin wrought out by Jesus Christ, “the great salvation” (Heb. 2:3). (See REDEMPTION; REGENERATION.)",
-      "extracted_refs": [
-        {
-          "book": "Exodus",
-          "chapter": 14,
-          "verses": [
-            13
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Exodus 14:13",
-          "source": "EAS"
-        },
-        {
-          "book": "Hebrews",
-          "chapter": 2,
-          "verses": [
-            3
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Hebrews 2:3",
-          "source": "EAS"
-        }
-      ]
-    }
-  ],
   "sources": [
     "NAV",
-    "TOR",
-    "EAS"
+    "TOR"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -2791,14 +2696,5 @@
       "raw": "Hebrews 2:3",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 2,
-    "ot": 1,
-    "nt": 1,
-    "books": [
-      "Exodus",
-      "Hebrews"
-    ]
-  }
+  ]
 }

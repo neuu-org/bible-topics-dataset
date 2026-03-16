@@ -1,7 +1,7 @@
 {
   "topic": "LUST",
   "slug": "lust",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Evil desire Ge 3:6; Ex 20:17; Job 31:9-12; Ps 81:12; Pr 6:24,25; Mt 5:28; Mr 4:19; Joh 8:44; 1Co 9:27; 10:6,7; Eph 4:22; 1Ti 6:9; 2Ti 2:22; 4:3,4; Tit 2:12; Jas 1:14,15; 4:1-3; 1Pe 2:11; 4:3; 2Pe 2:18; 3:3; 1Jo 2:16,17; Jude 1:16,18",
@@ -255,17 +255,6 @@
       "verse_count": 2
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_001755",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T00:17:55.264709",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [
     "SODOMY",
     "ADULTERY",
@@ -281,39 +270,8 @@
     "nt_refs": 13,
     "total_verses": 17
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Sinful longing; the inward sin which leads to the falling away from God (Rom. 1:21). “Lust, the origin of sin, has its place in the heart, not of necessity, but because it is the centre of all moral forces and impulses and of spiritual activity.” In Mark 4:19 “lusts” are objects of desire.",
-      "extracted_refs": [
-        {
-          "book": "Romans",
-          "chapter": 1,
-          "verses": [
-            21
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Romans 1:21",
-          "source": "EAS"
-        },
-        {
-          "book": "Mark",
-          "chapter": 4,
-          "verses": [
-            19
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Mark 4:19",
-          "source": "EAS"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -347,14 +305,5 @@
       "raw": "Mark 4:19",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 2,
-    "ot": 0,
-    "nt": 2,
-    "books": [
-      "Mark",
-      "Romans"
-    ]
-  }
+  ]
 }

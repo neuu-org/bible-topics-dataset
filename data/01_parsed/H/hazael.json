@@ -1,7 +1,7 @@
 {
   "topic": "HAZAEL",
   "slug": "hazael",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "(King of Syria)",
@@ -60,17 +60,6 @@
       "verse_count": 2
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_212140",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T21:21:40.755199",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -79,216 +68,8 @@
     "nt_refs": 0,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Whom God beholds, an officer of Ben-hadad II., king of Syria, who ultimately came to the throne, according to the word of the Lord to Elijah (1 Kings 19:15), after he had put the king to death (2 Kings 8:15). His interview with Elisha is mentioned in 2 Kings 8. The Assyrians soon after his accession to the throne came against him and defeated him with very great loss; and three years afterwards again invaded Syria, but on this occasion Hazael submitted to them. He then turned his arms against Israel, and ravaged “all the land of Gilead,” etc. (2 Kings 10:33), which he held in a degree of subjection to him (13:3-7, 22). He aimed at the subjugation also of the kingdom of Judah, when Joash obtained peace by giving him “all the gold that was found in the treasures of the house of the Lord, and in the king’s house” (2 Kings 12:18; 2 Chr. 24:24). He reigned about forty-six years (B.C. 886-840), and was succeeded on the throne by his son Ben-hadad (2 Kings 13:22-25), who on several occasions was defeated by Jehoash, the king of Israel, and compelled to restore all the land of Israel his father had taken.",
-      "extracted_refs": [
-        {
-          "book": "1 Kings",
-          "chapter": 19,
-          "verses": [
-            15
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Kings 19:15",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Kings",
-          "chapter": 8,
-          "verses": [
-            15
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Kings 8:15",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Kings",
-          "chapter": 10,
-          "verses": [
-            33
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Kings 10:33",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Kings",
-          "chapter": 12,
-          "verses": [
-            18
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Kings 12:18",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Chronicles",
-          "chapter": 24,
-          "verses": [
-            24
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Chronicles 24:24",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Kings",
-          "chapter": 13,
-          "verses": [
-            22,
-            23,
-            24,
-            25
-          ],
-          "verse_count": 4,
-          "testament": "OT",
-          "raw": "2 Kings 13:22-25",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Kings",
-          "chapter": 13,
-          "verses": [
-            3,
-            4,
-            5,
-            6,
-            7,
-            22
-          ],
-          "verse_count": 6,
-          "testament": "OT",
-          "raw": "2 Kings 13:3-7, 22",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(whom God sees), a king of Damascus who reigned from about B.C. 886 to B.C. 840. He appears to have been previously a person in a high position at the court of Ben-hadad, and was sent by his master to Elisha to inquire if he would recover from the malady under which he was suffering. Elisha’s answer led to the murder of Ben-hadad by his ambitious servant, who forthwith mounted the throne. (2 Kings 8:7-15) He was soon engaged in war with the kings of Judah and Israel for the possession of the city of Ramoth-gilead. Ibid. (2 Kings 8:28) Towards the close of the reign of Jehu, Hazael led the Syrians against the Israelites (about B.C. 860), whom he “smote in all their coasts,” (2 Kings 10:32) thus accomplishing the prophecy of Elisha. Ibid . (2 Kings 8:12) At the close of his life, having taken Gath, ibid. (2 Kings 12:17) comp. Amos 6:2 He proceeded to attack Jerusalem, (2 Chronicles 24:24) and was about to assault the city when Joash bribed him to retire. (2 Kings 12:18) Hazael appears to have died about the year B.C. 840, (2 Kings 13:24) having reigned forty-six years.",
-      "extracted_refs": [
-        {
-          "book": "2 Kings",
-          "chapter": 8,
-          "verses": [
-            7,
-            8,
-            9,
-            10,
-            11,
-            12,
-            13,
-            14,
-            15
-          ],
-          "verse_count": 9,
-          "testament": "OT",
-          "raw": "2 Kings 8:7-15",
-          "source": "SMI"
-        },
-        {
-          "book": "2 Kings",
-          "chapter": 8,
-          "verses": [
-            28
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Kings 8:28",
-          "source": "SMI"
-        },
-        {
-          "book": "2 Kings",
-          "chapter": 10,
-          "verses": [
-            32
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Kings 10:32",
-          "source": "SMI"
-        },
-        {
-          "book": "2 Kings",
-          "chapter": 8,
-          "verses": [
-            12
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Kings 8:12",
-          "source": "SMI"
-        },
-        {
-          "book": "2 Kings",
-          "chapter": 12,
-          "verses": [
-            17
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Kings 12:17",
-          "source": "SMI"
-        },
-        {
-          "book": "2 Chronicles",
-          "chapter": 24,
-          "verses": [
-            24
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Chronicles 24:24",
-          "source": "SMI"
-        },
-        {
-          "book": "2 Kings",
-          "chapter": 12,
-          "verses": [
-            18
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Kings 12:18",
-          "source": "SMI"
-        },
-        {
-          "book": "2 Kings",
-          "chapter": 13,
-          "verses": [
-            24
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Kings 13:24",
-          "source": "SMI"
-        },
-        {
-          "book": "Amos",
-          "chapter": 6,
-          "verses": [
-            2
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Amos 6:2",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -470,16 +251,5 @@
       "raw": "Amos 6:2",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 26,
-    "ot": 26,
-    "nt": 0,
-    "books": [
-      "1 Kings",
-      "2 Chronicles",
-      "2 Kings",
-      "Amos"
-    ]
-  }
+  ]
 }

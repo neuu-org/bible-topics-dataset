@@ -1,7 +1,7 @@
 {
   "topic": "GOURD",
   "slug": "gourd",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Jonah’s, believed to be a vine resembling the American squash, used in Assyria to cover huts Jon 4:6-10",
@@ -30,17 +30,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_204459",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T20:44:59.751186",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -49,46 +38,8 @@
     "nt_refs": 0,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "(1.) Jonah’s gourd (Jonah 4:6-10), bearing the Hebrew name kikayon (found only here), was probably the kiki of the Egyptians, the croton. This is the castor-oil plant, a species of ricinus, the palma Christi, so called from the palmate division of its leaves. Others with more probability regard it as the cucurbita the el-keroa of the Arabs, a kind of pumpkin peculiar to the East. “It is grown in great abundance on the alluvial banks of the Tigris and on the plain between the river and the ruins of Nineveh.” At the present day it is trained to run over structures of mud and brush to form boots to protect the gardeners from the heat of the noon-day sun. It grows with extraordinary rapidity, and when cut or injured withers away also with great rapidity. (2.) Wild gourds (2 Kings 4:38-40), Heb. pakkuoth, belong to the family of the cucumber-like plants, some of which are poisonous. The species here referred to is probably the colocynth (Cucumis colocynthus). The LXX. render the word by “wild pumpkin.” It abounds in the desert parts of Syria, Egypt, and Arabia. There is, however, another species, called the Cucumis prophetarum, from the idea that it afforded the gourd which “the sons of the prophets” shred by mistake into their pottage.",
-      "extracted_refs": [
-        {
-          "book": "Jonah",
-          "chapter": 4,
-          "verses": [
-            6,
-            7,
-            8,
-            9,
-            10
-          ],
-          "verse_count": 5,
-          "testament": "OT",
-          "raw": "Jonah 4:6-10",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Kings",
-          "chapter": 4,
-          "verses": [
-            38,
-            39,
-            40
-          ],
-          "verse_count": 3,
-          "testament": "OT",
-          "raw": "2 Kings 4:38-40",
-          "source": "EAS"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -128,14 +79,5 @@
       "raw": "2 Kings 4:38-40",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 8,
-    "ot": 8,
-    "nt": 0,
-    "books": [
-      "2 Kings",
-      "Jonah"
-    ]
-  }
+  ]
 }

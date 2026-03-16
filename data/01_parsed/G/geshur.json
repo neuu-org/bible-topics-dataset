@@ -1,7 +1,7 @@
 {
   "topic": "GESHUR",
   "slug": "geshur",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "District east of the sources of the Jordan River. The inhabitants of, not subdued by the Israelites De 3:14; Jos 13:2-13; 1Ch 2:23",
@@ -79,17 +79,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_203055",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T20:30:55.758276",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -98,68 +87,8 @@
     "nt_refs": 0,
     "total_verses": 3
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Bridge, the name of a district or principality of Syria near Gilead, between Mount Hermon and the Lake of Tiberias (2 Sam. 15:8; 1 Chr. 2:23). The Geshurites probably inhabited the rocky fastness of Argob, the modern Lejah, in the north-east corner of Bashan. In the time of David it was ruled by Talmai, whose daughter he married, and who was the mother of Absalom, who fled to Geshur after the murder of Amnon (2 Sam. 13:37).",
-      "extracted_refs": [
-        {
-          "book": "2 Samuel",
-          "chapter": 15,
-          "verses": [
-            8
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Samuel 15:8",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Chronicles",
-          "chapter": 2,
-          "verses": [
-            23
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 2:23",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Samuel",
-          "chapter": 13,
-          "verses": [
-            37
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Samuel 13:37",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(a bridge), a little principality of Syria, northeast of Bashan. (3:14; 2 Samuel 15:8) It ia highly probable that Geshur was a section of the wild and rugged region now called el-Lejah, still a refuge for criminals and outlaws. [Argob]",
-      "extracted_refs": [
-        {
-          "book": "2 Samuel",
-          "chapter": 15,
-          "verses": [
-            8
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Samuel 15:8",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -204,14 +133,5 @@
       "raw": "2 Samuel 13:37",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 3,
-    "ot": 3,
-    "nt": 0,
-    "books": [
-      "1 Chronicles",
-      "2 Samuel"
-    ]
-  }
+  ]
 }

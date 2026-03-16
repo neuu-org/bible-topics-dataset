@@ -1,7 +1,7 @@
 {
   "topic": "HEATH",
   "slug": "heath",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "General scriptures concerning Jer 17:6; 48:6",
@@ -13,17 +13,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_212648",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T21:26:48.033084",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -32,67 +21,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Heb. ‘arar, (Jer. 17:6; 48:6), a species of juniper called by the Arabs by the same name (‘arar), the Juniperus sabina or savin. “Its gloomy, stunted appearance, with its scale-like leaves pressed close to its gnarled stem, and cropped close by the wild goats, as it clings to the rocks about Petra, gives great force to the contrast suggested by the prophet, between him that trusteth in man, naked and destitute, and the man that trusteth in the Lord, flourishing as a tree planted by the waters” (Tristram, Natural History of the Bible).",
-      "extracted_refs": [
-        {
-          "book": "Jeremiah",
-          "chapter": 17,
-          "verses": [
-            6
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Jeremiah 17:6",
-          "source": "EAS"
-        },
-        {
-          "book": "Jeremiah",
-          "chapter": 48,
-          "verses": [
-            6
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Jeremiah 48:6",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(Jeremiah 17:6) was some species of juniper, probably the savin, a dwarf, stunted juniper which grows in the most sterile parts of the desert.",
-      "extracted_refs": [
-        {
-          "book": "Jeremiah",
-          "chapter": 17,
-          "verses": [
-            6
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Jeremiah 17:6",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Jeremiah 17:6",
-      "original": "Jer. 17:6"
-    },
-    {
-      "reference": "Jeremiah 48:6",
-      "original": "Jer 48:6"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -126,13 +56,5 @@
       "raw": "Jeremiah 48:6",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 2,
-    "ot": 2,
-    "nt": 0,
-    "books": [
-      "Jeremiah"
-    ]
-  }
+  ]
 }

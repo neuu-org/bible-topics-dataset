@@ -1,7 +1,7 @@
 {
   "topic": "GOZAN",
   "slug": "gozan",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "(A district of Mesopotamia)",
@@ -32,17 +32,6 @@
       "verse_count": 2
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_204537",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T20:45:37.671465",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -51,112 +40,8 @@
     "nt_refs": 0,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "A region in Central Asia to which the Israelites were carried away captive (2 Kings 17:6; 1 Chr. 5:26; 2 Kings 19:12; Isa. 37:12). It was situated in Mesopotamia, on the river Habor (2 Kings 17:6; 18:11), the Khabur, a tributary of the Euphrates. The “river of Gozan” (1 Chr. 5:26) is probably the upper part of the river flowing through the province of Gozan, now Kizzel-Ozan.",
-      "extracted_refs": [
-        {
-          "book": "2 Kings",
-          "chapter": 17,
-          "verses": [
-            6
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Kings 17:6",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Chronicles",
-          "chapter": 5,
-          "verses": [
-            26
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 5:26",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Kings",
-          "chapter": 19,
-          "verses": [
-            12
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Kings 19:12",
-          "source": "EAS"
-        },
-        {
-          "book": "Isaiah",
-          "chapter": 37,
-          "verses": [
-            12
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Isaiah 37:12",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Kings",
-          "chapter": 18,
-          "verses": [
-            11
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Kings 18:11",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "seems in the Authorized Version of (1 Chronicles 5:26) to be the name of a river, but in (2 Kings 17:6) and 2Kin 18:11 It is evidently applied not to a river but a country. Gozan was the tract to which the Israelites were carried away captive by Pul, Tiglathpileser and Shalmaneser, or possibly Sargon. It is probably identical with the Gauzanitis of Ptolemy, and I may be regarded as represented by the Mygdonia of other writers. It was the tract watered by the Habor, the modern Khabour, the great Mesopotamian affluent of the Euphrates.",
-      "extracted_refs": [
-        {
-          "book": "1 Chronicles",
-          "chapter": 5,
-          "verses": [
-            26
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 5:26",
-          "source": "SMI"
-        },
-        {
-          "book": "2 Kings",
-          "chapter": 17,
-          "verses": [
-            6
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Kings 17:6",
-          "source": "SMI"
-        },
-        {
-          "book": "2 Kings",
-          "chapter": 18,
-          "verses": [
-            11
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Kings 18:11",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -223,15 +108,5 @@
       "raw": "2 Kings 18:11",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 5,
-    "ot": 5,
-    "nt": 0,
-    "books": [
-      "1 Chronicles",
-      "2 Kings",
-      "Isaiah"
-    ]
-  }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "topic": "NAPHTALI",
   "slug": "naphtali",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "1. Son of Jacob and Bilhah Ge 30:7,8; 35:25",
@@ -159,17 +159,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_013419",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T01:34:19.152333",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -178,109 +167,8 @@
     "nt_refs": 1,
     "total_verses": 5
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "My wrestling, the fifth son of Jacob. His mother was Bilhah, Rachel’s handmaid (Gen. 30:8). When Jacob went down into Egypt, Naphtali had four sons (Gen. 46:24). Little is known of him as an individual.",
-      "extracted_refs": [
-        {
-          "book": "Genesis",
-          "chapter": 30,
-          "verses": [
-            8
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 30:8",
-          "source": "EAS"
-        },
-        {
-          "book": "Genesis",
-          "chapter": 46,
-          "verses": [
-            24
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 46:24",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(wrestling), the fifth son of Jacob; the second child name to him by Bilhah, Rachel’s slave. His birth and the bestowal of his name are recorded in (Genesis 30:8) When the census was taken at Mount Sinai the tribe of Naphtali numbered no less than 53,400 fighting men, (Numbers 1:43; 2:50) but when the borders of the promised land were reached, its numbers were reduced to, 45,400. (Numbers 26:48-50) During the march through the wilderness Naphtali occupied a position on the north of the sacred tent with Dan and Asher. (Numbers 2:25-31) In the apportionment of the land, the lot of Naphtali was enclosed on three sides by those of other tribes. On the west lay Asher, on the south Zebulun, and on the east the transjordanic Manasseh. (In the division of the kingdom Naphtali belonged to the kingdom of Israel, and later was a part of Galilee, bordering on the northwestern pert of the Sea of Galilee, and including Capernaum and Bethsaida.—Ed.)",
-      "extracted_refs": [
-        {
-          "book": "Genesis",
-          "chapter": 30,
-          "verses": [
-            8
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 30:8",
-          "source": "SMI"
-        },
-        {
-          "book": "Numbers",
-          "chapter": 1,
-          "verses": [
-            43
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Numbers 1:43",
-          "source": "SMI"
-        },
-        {
-          "book": "Numbers",
-          "chapter": 2,
-          "verses": [
-            50
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Numbers 2:50",
-          "source": "SMI"
-        },
-        {
-          "book": "Numbers",
-          "chapter": 26,
-          "verses": [
-            48,
-            49,
-            50
-          ],
-          "verse_count": 3,
-          "testament": "OT",
-          "raw": "Numbers 26:48-50",
-          "source": "SMI"
-        },
-        {
-          "book": "Numbers",
-          "chapter": 2,
-          "verses": [
-            25,
-            26,
-            27,
-            28,
-            29,
-            30,
-            31
-          ],
-          "verse_count": 7,
-          "testament": "OT",
-          "raw": "Numbers 2:25-31",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -366,14 +254,5 @@
       "raw": "Numbers 2:25-31",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 14,
-    "ot": 14,
-    "nt": 0,
-    "books": [
-      "Genesis",
-      "Numbers"
-    ]
-  }
+  ]
 }

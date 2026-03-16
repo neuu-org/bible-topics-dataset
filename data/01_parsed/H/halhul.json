@@ -1,7 +1,7 @@
 {
   "topic": "HALHUL",
   "slug": "halhul",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A city in the territory of the tribe of Judah Jos 15:58",
@@ -12,17 +12,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_205748",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T20:57:48.497372",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -31,71 +20,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Full of hollows, a town in the highlands of Judah (Josh. 15:58). It is now a small village of the same name, and is situated about 5 miles north-east of Hebron on the way to Jerusalem. There is an old Jewish tradition that Gad, David’s seer (2 Sam. 24:11), was buried here.",
-      "extracted_refs": [
-        {
-          "book": "Joshua",
-          "chapter": 15,
-          "verses": [
-            58
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 15:58",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Samuel",
-          "chapter": 24,
-          "verses": [
-            11
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Samuel 24:11",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(trembling), a town of Judah in the mountain district. (Joshua 16:68) The name still remains unaltered attached to a conspicuous hill a mile to the left of the road from Jerusalem to Hebron, between three and four miles from the latter.",
-      "extracted_refs": [
-        {
-          "book": "Joshua",
-          "chapter": 16,
-          "verses": [
-            68
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 16:68",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Joshua 15:58",
-      "original": "Josh. 15:58"
-    },
-    {
-      "reference": "2 Samuel 24:11",
-      "original": "2 Sam. 24:11"
-    },
-    {
-      "reference": "Joshua 16:68",
-      "original": "Joshua 16:68"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -140,14 +66,5 @@
       "raw": "Joshua 16:68",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 3,
-    "ot": 3,
-    "nt": 0,
-    "books": [
-      "2 Samuel",
-      "Joshua"
-    ]
-  }
+  ]
 }

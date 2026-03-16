@@ -1,7 +1,7 @@
 {
   "topic": "MALACHI",
   "slug": "malachi",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Last of the minor prophets Mal 1:1",
@@ -42,17 +42,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_002912",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T00:29:12.372346",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -61,160 +50,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Messenger or angel, the last of the minor prophets, and the writer of the last book of the Old Testament canon (Mal. 4:4, 5, 6). Nothing is known of him beyond what is contained in his book of prophecies. Some have supposed that the name is simply a title descriptive of his character as a messenger of Jehovah, and not a proper name. There is reason, however, to conclude that Malachi was the ordinary name of the prophet. He was contemporary with Nehemiah (comp. Mal. 2:8 with Neh. 13:15; Mal. 2:10-16 with Neh. 13:23). No allusion is made to him by Ezra, and he does not mention the restoration of the temple, and hence it is inferred that he prophesied after Haggai and Zechariah, and when the temple services were still in existence (Mal. 1:10; 3:1, 10). It is probable that he delivered his prophecies about B.C. 420, after the second return of Nehemiah from Persia (Neh. 13:6), or possibly before his return.",
-      "extracted_refs": [
-        {
-          "book": "Malachi",
-          "chapter": 4,
-          "verses": [
-            4,
-            5,
-            6
-          ],
-          "verse_count": 3,
-          "testament": "OT",
-          "raw": "Malachi 4:4, 5, 6",
-          "source": "EAS"
-        },
-        {
-          "book": "Malachi",
-          "chapter": 2,
-          "verses": [
-            8
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Malachi 2:8",
-          "source": "EAS"
-        },
-        {
-          "book": "Nehemiah",
-          "chapter": 13,
-          "verses": [
-            15
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Nehemiah 13:15",
-          "source": "EAS"
-        },
-        {
-          "book": "Malachi",
-          "chapter": 2,
-          "verses": [
-            10,
-            11,
-            12,
-            13,
-            14,
-            15,
-            16
-          ],
-          "verse_count": 7,
-          "testament": "OT",
-          "raw": "Malachi 2:10-16",
-          "source": "EAS"
-        },
-        {
-          "book": "Nehemiah",
-          "chapter": 13,
-          "verses": [
-            23
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Nehemiah 13:23",
-          "source": "EAS"
-        },
-        {
-          "book": "Malachi",
-          "chapter": 1,
-          "verses": [
-            10
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Malachi 1:10",
-          "source": "EAS"
-        },
-        {
-          "book": "Malachi",
-          "chapter": 3,
-          "verses": [
-            1,
-            10
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Malachi 3:1, 10",
-          "source": "EAS"
-        },
-        {
-          "book": "Nehemiah",
-          "chapter": 13,
-          "verses": [
-            6
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Nehemiah 13:6",
-          "source": "EAS"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Malachi 4:4",
-      "original": "Mal. 4:4"
-    },
-    {
-      "reference": "Malachi 4:5",
-      "original": "Mal 4:5"
-    },
-    {
-      "reference": "Malachi 4:6",
-      "original": "Mal 4:6"
-    },
-    {
-      "reference": "Malachi 2:8",
-      "original": "Mal. 2:8"
-    },
-    {
-      "reference": "Nehemiah 13:15",
-      "original": "Neh. 13:15"
-    },
-    {
-      "reference": "Malachi 2:10-16",
-      "original": "Mal. 2:10-16"
-    },
-    {
-      "reference": "Nehemiah 13:23",
-      "original": "Neh. 13:23"
-    },
-    {
-      "reference": "Malachi 1:10",
-      "original": "Mal. 1:10"
-    },
-    {
-      "reference": "Malachi 3:1",
-      "original": "Mal 3:1"
-    },
-    {
-      "reference": "Malachi 3:10",
-      "original": "Mal 3:10"
-    },
-    {
-      "reference": "Nehemiah 13:6",
-      "original": "Neh. 13:6"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -323,14 +160,5 @@
       "raw": "Nehemiah 13:6",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 17,
-    "ot": 17,
-    "nt": 0,
-    "books": [
-      "Malachi",
-      "Nehemiah"
-    ]
-  }
+  ]
 }

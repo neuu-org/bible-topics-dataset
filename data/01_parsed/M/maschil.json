@@ -1,7 +1,7 @@
 {
   "topic": "MASCHIL",
   "slug": "maschil",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "See MUSIC",
@@ -10,17 +10,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_003826",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T00:38:26.433698",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [
     "MUSIC"
   ],
@@ -31,56 +20,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Instructing, occurs in the title of thirteen Psalms (32, 42, 44, etc.). It denotes a song enforcing some lesson of wisdom or piety, a didactic song. In Ps. 47:7 it is rendered, Authorized Version, “with understanding;” Revised Version, marg., “in a skilful psalm.”",
-      "extracted_refs": [
-        {
-          "book": "Psalms",
-          "chapter": 47,
-          "verses": [
-            7
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Psalms 47:7",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(song of wisdom), the title of thirteen Psalms 32,45,44,45,52-55,74,78,68,69,142 Ewald regards (Psalms 47:7) (Authorized Version, “sing ye praises with understanding; ” Heb. maschil) as the key to the meaning of maschil, which in his opinion is a musical term denoting a melody requiring great skill in its execution.",
-      "extracted_refs": [
-        {
-          "book": "Psalms",
-          "chapter": 47,
-          "verses": [
-            7
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Psalms 47:7",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Psalms 47:7",
-      "original": "Ps. 47:7"
-    },
-    {
-      "reference": "Psalms 32:0-0;",
-      "original": "Psalms 32,45,44,45,52"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -103,13 +44,5 @@
       "raw": "Psalms 47:7",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 1,
-    "ot": 1,
-    "nt": 0,
-    "books": [
-      "Psalms"
-    ]
-  }
+  ]
 }

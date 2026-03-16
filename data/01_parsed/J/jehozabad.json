@@ -1,7 +1,7 @@
 {
   "topic": "JEHOZABAD",
   "slug": "jehozabad",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "1. Son of Shomer, and one of the assassins of King Jehoash 2Ki 12:21; 2Ch 24:26",
@@ -38,17 +38,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_230516",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T23:05:16.647735",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -57,55 +46,8 @@
     "nt_refs": 0,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Jehovah-given. (1.) The son of Obed-edom (1 Chr. 26:4), one of the Levite porters. (2.) The son of Shomer, one of the two conspirators who put king Jehoash to death in Millo in Jerusalem (2 Kings 12:21). (3.) 2 Chr. 17:18.",
-      "extracted_refs": [
-        {
-          "book": "1 Chronicles",
-          "chapter": 26,
-          "verses": [
-            4
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 26:4",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Kings",
-          "chapter": 12,
-          "verses": [
-            21
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Kings 12:21",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Chronicles",
-          "chapter": 17,
-          "verses": [
-            18
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Chronicles 17:18",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(whom Jehovah gave)."
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -150,15 +92,5 @@
       "raw": "2 Chronicles 17:18",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 3,
-    "ot": 3,
-    "nt": 0,
-    "books": [
-      "1 Chronicles",
-      "2 Chronicles",
-      "2 Kings"
-    ]
-  }
+  ]
 }

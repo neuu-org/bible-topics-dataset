@@ -1,7 +1,7 @@
 {
   "topic": "ICE",
   "slug": "ice",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "General scriptures concerning Job 6:16; 38:29; Ps 147:17; Pr 25:13",
@@ -36,17 +36,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_221625",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T22:16:25.817702",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -55,50 +44,8 @@
     "nt_refs": 0,
     "total_verses": 2
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Frequently mentioned (Job 6:16; 38:29; Ps. 147:17, etc.). (See CRYSTAL.)",
-      "extracted_refs": [
-        {
-          "book": "Job",
-          "chapter": 6,
-          "verses": [
-            16
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Job 6:16",
-          "source": "EAS"
-        },
-        {
-          "book": "Job",
-          "chapter": 38,
-          "verses": [
-            29
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Job 38:29",
-          "source": "EAS"
-        },
-        {
-          "book": "Psalms",
-          "chapter": 147,
-          "verses": [
-            17
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Psalms 147:17",
-          "source": "EAS"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -143,14 +90,5 @@
       "raw": "Psalms 147:17",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 3,
-    "ot": 3,
-    "nt": 0,
-    "books": [
-      "Job",
-      "Psalms"
-    ]
-  }
+  ]
 }

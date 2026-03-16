@@ -1,7 +1,7 @@
 {
   "topic": "LABAN",
   "slug": "laban",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Son of Bethuel Ge 28:5",
@@ -59,17 +59,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_234815",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T23:48:15.295705",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -78,82 +67,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "White. (1.) The son of Bethuel, who was the son of Nahor, Abraham’s brother. He lived at Haran in Mesopotamia. His sister Rebekah was Isaac’s wife (Gen. 24). Jacob, one of the sons of this marriage, fled to the house of Laban, whose daughters Leah and Rachel (ch. 29) he eventually married. (See JACOB.) (2.) A city in the Arabian desert in the route of the Israelites (Deut. 1:1), probably identical with Libnah (Num. 33:20).",
-      "extracted_refs": [
-        {
-          "book": "Deuteronomy",
-          "chapter": 1,
-          "verses": [
-            1
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Deuteronomy 1:1",
-          "source": "EAS"
-        },
-        {
-          "book": "Numbers",
-          "chapter": 33,
-          "verses": [
-            20
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Numbers 33:20",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(white)."
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Genesis 24",
-      "original": "Gen. 24"
-    },
-    {
-      "reference": "Deuteronomy 1:1",
-      "original": "Deut. 1:1"
-    },
-    {
-      "reference": "Numbers 33:20",
-      "original": "Num. 33:20"
-    },
-    {
-      "reference": "Genesis 24:10",
-      "original": "Genesis 24:10"
-    },
-    {
-      "reference": "Genesis 24:29-60",
-      "original": "Genesis 24:29-60"
-    },
-    {
-      "reference": "Genesis 27:43",
-      "original": "Genesis 27:43"
-    },
-    {
-      "reference": "Genesis 29:5",
-      "original": "Genesis 29:5"
-    },
-    {
-      "reference": "Genesis 29:13",
-      "original": "Genesis 29:13"
-    },
-    {
-      "reference": "Genesis 29:14",
-      "original": "Genesis 29:14"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -187,14 +102,5 @@
       "raw": "Numbers 33:20",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 2,
-    "ot": 2,
-    "nt": 0,
-    "books": [
-      "Deuteronomy",
-      "Numbers"
-    ]
-  }
+  ]
 }

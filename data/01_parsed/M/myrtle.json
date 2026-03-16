@@ -1,7 +1,7 @@
 {
   "topic": "MYRTLE",
   "slug": "myrtle",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "General scriptures concerning Ne 8:15; Isa 41:19; 55:13; Zec 1:8",
@@ -37,17 +37,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_012832",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T01:28:32.183211",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -56,103 +45,8 @@
     "nt_refs": 0,
     "total_verses": 2
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "(Isa. 41:19; Neh. 8:15; Zech. 1:8), Hebrew hadas, known in the East by the name as, the Myrtus communis of the botanist. “Although no myrtles are now found on the mount (of Olives), excepting in the gardens, yet they still exist in many of the glens about Jerusalem, where we have often seen its dark shining leaves and white flowers. There are many near Bethlehem and about Hebron, especially near Dewir Dan, the ancient Debir. It also sheds its fragrance on the sides of Carmel and of Tabor, and fringes the clefts of the Leontes in its course through Galilee. We meet with it all through Central Palestine” (Tristram).",
-      "extracted_refs": [
-        {
-          "book": "Isaiah",
-          "chapter": 41,
-          "verses": [
-            19
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Isaiah 41:19",
-          "source": "EAS"
-        },
-        {
-          "book": "Nehemiah",
-          "chapter": 8,
-          "verses": [
-            15
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Nehemiah 8:15",
-          "source": "EAS"
-        },
-        {
-          "book": "Zechariah",
-          "chapter": 1,
-          "verses": [
-            8
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Zechariah 1:8",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "a plant mentioned in (Nehemiah 8:15; Isaiah 41:19; 55:13; Zechariah 1:8,10,11) The modern Jews still adorn with myrtle the booths and sheds at the feast of tabernacles. Formerly, as we learn from Nehemiah, (Nehemiah 8:15) myrtles grew on the hills about Jerusalem. “On Olivet.” says Dean Stanley, “nothing is now to be seen but the olive and the fig tree:” on some of the hills near Jerusalem, however, Hasselquist observed the myrtle. Dr. Hooker says it is not uncommon in Samaria and Galilee. The Myrtus communis is the kind denoted by the Hebrew word. (It is a shrub or low tree sometimes ten feet high, with green shining leaves, and snow-white flowers bordered with purple, “which emit a perfume more exquisite than that of the rose.” The seeds of the myrtle, dried before they are ripe, form our allspice.—ED.)",
-      "extracted_refs": [
-        {
-          "book": "Nehemiah",
-          "chapter": 8,
-          "verses": [
-            15
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Nehemiah 8:15",
-          "source": "SMI"
-        },
-        {
-          "book": "Isaiah",
-          "chapter": 41,
-          "verses": [
-            19
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Isaiah 41:19",
-          "source": "SMI"
-        },
-        {
-          "book": "Isaiah",
-          "chapter": 55,
-          "verses": [
-            13
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Isaiah 55:13",
-          "source": "SMI"
-        },
-        {
-          "book": "Zechariah",
-          "chapter": 1,
-          "verses": [
-            8,
-            10,
-            11
-          ],
-          "verse_count": 3,
-          "testament": "OT",
-          "raw": "Zechariah 1:8,10,11",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -221,15 +115,5 @@
       "raw": "Zechariah 1:8,10,11",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 6,
-    "ot": 6,
-    "nt": 0,
-    "books": [
-      "Isaiah",
-      "Nehemiah",
-      "Zechariah"
-    ]
-  }
+  ]
 }

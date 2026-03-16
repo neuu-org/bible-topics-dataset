@@ -1,7 +1,7 @@
 {
   "topic": "KIRJATH-ARBA",
   "slug": "kirjath-arba",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "An early name of HEBRON Ge 23:2; Jos 14:15; Jud 1:10",
@@ -25,17 +25,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_234243",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T23:42:43.128678",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -44,50 +33,8 @@
     "nt_refs": 0,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "City of Arba, the original name of Hebron (q.v.), so called from the name of its founder, one of the Anakim (Gen. 23:2; 35:27; Josh. 15:13). It was given to Caleb by Joshua as his portion. The Jews interpret the name as meaning “the city of the four”, i.e., of Abraham, Isaac, Jacob, and Adam, who were all, as they allege, buried there.",
-      "extracted_refs": [
-        {
-          "book": "Genesis",
-          "chapter": 23,
-          "verses": [
-            2
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 23:2",
-          "source": "EAS"
-        },
-        {
-          "book": "Genesis",
-          "chapter": 35,
-          "verses": [
-            27
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 35:27",
-          "source": "EAS"
-        },
-        {
-          "book": "Joshua",
-          "chapter": 15,
-          "verses": [
-            13
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 15:13",
-          "source": "EAS"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -132,14 +79,5 @@
       "raw": "Joshua 15:13",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 3,
-    "ot": 3,
-    "nt": 0,
-    "books": [
-      "Genesis",
-      "Joshua"
-    ]
-  }
+  ]
 }

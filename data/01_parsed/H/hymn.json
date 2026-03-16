@@ -1,7 +1,7 @@
 {
   "topic": "HYMN",
   "slug": "hymn",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "See PSALMS",
@@ -15,17 +15,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_221423",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T22:14:23.994565",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [
     "PSALMS",
     "SONG"
@@ -37,142 +26,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Occurs only Eph. 5:19 and Col. 3:16. The verb to “sing an hymn” occurs Matt. 26:30 and Mark 14:26. The same Greek word is rendered to “sing praises” Acts 16:25 (R.V., “sing hymns”) and Heb. 2:12. The “hymn” which our Lord sang with his disciples at the last Supper is generally supposed to have been the latter part of the Hallel, comprehending Ps. 113-118. It was thus a name given to a number of psalms taken together and forming a devotional exercise. The noun hymn is used only with reference to the services of the Greeks, and was distinguished from the psalm. The Greek tunes required Greek hymns. Our information regarding the hymnology of the early Christians is very limited.",
-      "extracted_refs": [
-        {
-          "book": "Ephesians",
-          "chapter": 5,
-          "verses": [
-            19
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Ephesians 5:19",
-          "source": "EAS"
-        },
-        {
-          "book": "Colossians",
-          "chapter": 3,
-          "verses": [
-            16
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Colossians 3:16",
-          "source": "EAS"
-        },
-        {
-          "book": "Matthew",
-          "chapter": 26,
-          "verses": [
-            30
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Matthew 26:30",
-          "source": "EAS"
-        },
-        {
-          "book": "Mark",
-          "chapter": 14,
-          "verses": [
-            26
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Mark 14:26",
-          "source": "EAS"
-        },
-        {
-          "book": "Acts",
-          "chapter": 16,
-          "verses": [
-            25
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Acts 16:25",
-          "source": "EAS"
-        },
-        {
-          "book": "Hebrews",
-          "chapter": 2,
-          "verses": [
-            12
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Hebrews 2:12",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "a religious song or psalm. (Ephesians 5:19; Colossians 3:16) Our Lord and his apostles sung a hymn after the last supper. In the jail at Philippi, Paul and Silas “sang hymns” (Authorized Version “praises”) unto God, and so loud was their song that their fellow prisoners heard them.",
-      "extracted_refs": [
-        {
-          "book": "Ephesians",
-          "chapter": 5,
-          "verses": [
-            19
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Ephesians 5:19",
-          "source": "SMI"
-        },
-        {
-          "book": "Colossians",
-          "chapter": 3,
-          "verses": [
-            16
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Colossians 3:16",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Ephesians 5:19",
-      "original": "Eph. 5:19"
-    },
-    {
-      "reference": "Colossians 3:16",
-      "original": "Col. 3:16"
-    },
-    {
-      "reference": "Matthew 26:30",
-      "original": "Matt. 26:30"
-    },
-    {
-      "reference": "Mark 14:26",
-      "original": "Mark 14:26"
-    },
-    {
-      "reference": "Acts 16:25",
-      "original": "Acts 16:25"
-    },
-    {
-      "reference": "Hebrews 2:12",
-      "original": "Heb. 2:12"
-    },
-    {
-      "reference": "Psalms 113",
-      "original": "Ps. 113"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -250,18 +105,5 @@
       "raw": "Hebrews 2:12",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 6,
-    "ot": 0,
-    "nt": 6,
-    "books": [
-      "Acts",
-      "Colossians",
-      "Ephesians",
-      "Hebrews",
-      "Mark",
-      "Matthew"
-    ]
-  }
+  ]
 }

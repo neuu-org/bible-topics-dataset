@@ -1,7 +1,7 @@
 {
   "topic": "INDIA",
   "slug": "india",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Probably the eastern limit of the kingdom of Ahasuerus Es 1:1; 8:9",
@@ -13,17 +13,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_222341",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T22:23:41.307450",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -32,98 +21,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Occurs only in Esther 1:1 and 8:9, where the extent of the dominion of the Persian king is described. The country so designated here is not the peninsula of Hindustan, but the country surrounding the Indus, the Punjab. The people and the products of India were well known to the Jews, who seem to have carried on an active trade with that country (Ezek. 27:15, 24).",
-      "extracted_refs": [
-        {
-          "book": "Ezekiel",
-          "chapter": 27,
-          "verses": [
-            15,
-            24
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Ezekiel 27:15, 24",
-          "source": "EAS"
-        },
-        {
-          "book": "Esther",
-          "chapter": 1,
-          "verses": [
-            1
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Esther 1:1",
-          "source": "EAS"
-        },
-        {
-          "book": "Esther",
-          "chapter": 8,
-          "verses": [
-            9
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Esther 8:9",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "The name of India does not occur in the Bible before the book of Esther where it is noticed as the limit of the territories of Ahasuerus in the east, as Ethiopia was in the west. (Esther 1:1; 8:9) The India of the book of Esther is not the peninsula of Hindostan, but the country surrounding the Indus, the Punjab and perhaps Scinde . The people and productions of that country must have been tolerably well known to the Jews. An active trade was carried on between India and western Asia. The trade opened by Solomon with Ophir through the Red Sea consisted chiefly of Indian articles.",
-      "extracted_refs": [
-        {
-          "book": "Esther",
-          "chapter": 1,
-          "verses": [
-            1
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Esther 1:1",
-          "source": "SMI"
-        },
-        {
-          "book": "Esther",
-          "chapter": 8,
-          "verses": [
-            9
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Esther 8:9",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Esther 1:1",
-      "original": "Esther 1:1"
-    },
-    {
-      "reference": "Ezekiel 27:15",
-      "original": "Ezek. 27:15"
-    },
-    {
-      "reference": "Ezekiel 27:24",
-      "original": "Ezek. 27:24"
-    },
-    {
-      "reference": "Esther 8:9",
-      "original": "Esther 8:9"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -169,14 +68,5 @@
       "raw": "Esther 8:9",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 4,
-    "ot": 4,
-    "nt": 0,
-    "books": [
-      "Esther",
-      "Ezekiel"
-    ]
-  }
+  ]
 }

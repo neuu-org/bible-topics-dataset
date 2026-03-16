@@ -1,7 +1,7 @@
 {
   "topic": "ESAIAS",
   "slug": "esaias",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "See ISAIAH",
@@ -10,26 +10,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "Isaías é um dos profetas maiores do Antigo Testamento, conhecido por suas visões e mensagens sobre a justiça de Deus, a vinda do Messias e a restauração de Israel. Seu ministério se destaca pela ênfase na santidade de Deus e na necessidade de arrependimento do povo. As profecias de Isaías abrangem tanto advertências de juízo quanto promessas de esperança, refletindo a relação entre Deus e seu povo em tempos de crise e expectativa. A obra de Isaías é fundamental para a compreensão da teologia messiânica e da esperança escatológica no cristianismo.",
-    "outline": [
-      "1. Contexto histórico e social do ministério de Isaías",
-      "2. Temas centrais nas profecias de Isaías",
-      "3. A visão da santidade de Deus",
-      "4. Promessas messiânicas e a esperança de restauração",
-      "5. A importância de Isaías na tradição cristã"
-    ],
-    "key_concepts": [
-      "Santidade de Deus",
-      "Messianismo",
-      "Arrependimento e restauração"
-    ],
-    "theological_significance": "Isaías é crucial para a teologia cristã, pois suas profecias sobre o Messias são frequentemente citadas no Novo Testamento, estabelecendo uma conexão entre as promessas do Antigo Testamento e o cumprimento em Jesus Cristo. A mensagem de arrependimento e a visão da santidade de Deus são fundamentais para a compreensão da relação entre Deus e a humanidade.",
-    "model": "gpt-4o-mini",
-    "run_id": "enr_20251202_150916_5687d825",
-    "confidence": 1.0,
-    "generated_at": "2025-12-02T15:09:16.607951"
-  },
   "see_also": [
     "ISAIAH"
   ],
@@ -40,54 +20,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "The Greek form for Isaiah, constantly used in the Authorized Version of the New Testament (Matt. 3:3; 4:14), but in the Revised Version always “Isaiah.”",
-      "extracted_refs": [
-        {
-          "book": "Matthew",
-          "chapter": 3,
-          "verses": [
-            3
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Matthew 3:3",
-          "source": "EAS"
-        },
-        {
-          "book": "Matthew",
-          "chapter": 4,
-          "verses": [
-            14
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Matthew 4:14",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "the Greek form of Isaiah. [Isaiah]"
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Matthew 3:3",
-      "original": "Matt. 3:3"
-    },
-    {
-      "reference": "Matthew 4:14",
-      "original": "Matt 4:14"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -100,32 +34,6 @@
     "enrichment_source": "pipeline_merge"
   },
   "version": "3.0.0",
-  "ai_themes_normalized": [
-    {
-      "theme_id": null,
-      "proposal_id": "prop:santidade_de_deus_e__0c5037",
-      "label_original": "Santidade de Deus e sua revelação",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:a_vinda_do_messias_e_064d1f",
-      "label_original": "A vinda do Messias e a esperança de salvação",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:arrependimento_como__041c6f",
-      "label_original": "Arrependimento como caminho para a restauração",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:o_papel_do_profeta_c_09cd2d",
-      "label_original": "O papel do profeta como porta-voz de Deus",
-      "source": "ai_enrichment"
-    }
-  ],
   "definition_refs": [
     {
       "book": "Matthew",
@@ -149,13 +57,5 @@
       "raw": "Matthew 4:14",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 2,
-    "ot": 0,
-    "nt": 2,
-    "books": [
-      "Matthew"
-    ]
-  }
+  ]
 }

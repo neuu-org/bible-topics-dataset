@@ -1,7 +1,7 @@
 {
   "topic": "KISH",
   "slug": "kish",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "1. Father of Saul 1Sa 9:1-3; 10:21; 2Sa 21:14",
@@ -63,17 +63,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_234354",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T23:43:54.745346",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -82,145 +71,8 @@
     "nt_refs": 0,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "A bow. (1.) A Levite of the family of Merari (1 Chr. 23:21; 24:29). (2.) A Benjamite of Jerusalem (1 Chr. 8:30; 9:36). (3.) A Levite in the time of Hezekiah (2 Chr. 29:12). (4.) The great-grandfather of Mordecai (Esther 2:5). (5.) A Benjamite, the son of Abiel, and father of king Saul (1 Sam. 9:1, 3; 10:11, 21; 14:51; 2 Sam. 21:14). All that is recorded of him is that he sent his son Saul in search of his asses that had strayed, and that he was buried in Zelah. Called Cis, Acts 13:21 (R.V., Kish).",
-      "extracted_refs": [
-        {
-          "book": "1 Chronicles",
-          "chapter": 23,
-          "verses": [
-            21
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 23:21",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Chronicles",
-          "chapter": 24,
-          "verses": [
-            29
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 24:29",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Chronicles",
-          "chapter": 8,
-          "verses": [
-            30
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 8:30",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Chronicles",
-          "chapter": 9,
-          "verses": [
-            36
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 9:36",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Chronicles",
-          "chapter": 29,
-          "verses": [
-            12
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Chronicles 29:12",
-          "source": "EAS"
-        },
-        {
-          "book": "Esther",
-          "chapter": 2,
-          "verses": [
-            5
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Esther 2:5",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Samuel",
-          "chapter": 9,
-          "verses": [
-            1,
-            3
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "1 Samuel 9:1, 3",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Samuel",
-          "chapter": 10,
-          "verses": [
-            11,
-            21
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "1 Samuel 10:11, 21",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Samuel",
-          "chapter": 14,
-          "verses": [
-            51
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Samuel 14:51",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Samuel",
-          "chapter": 21,
-          "verses": [
-            14
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Samuel 21:14",
-          "source": "EAS"
-        },
-        {
-          "book": "Acts",
-          "chapter": 13,
-          "verses": [
-            21
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Acts 13:21",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(a bow)."
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -355,18 +207,5 @@
       "raw": "Acts 13:21",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 13,
-    "ot": 12,
-    "nt": 1,
-    "books": [
-      "1 Chronicles",
-      "1 Samuel",
-      "2 Chronicles",
-      "2 Samuel",
-      "Acts",
-      "Esther"
-    ]
-  }
+  ]
 }

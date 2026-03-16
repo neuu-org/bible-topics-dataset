@@ -1,7 +1,7 @@
 {
   "topic": "GEDERAH",
   "slug": "gederah",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A city in the plain of Judah Jos 15:3,6",
@@ -13,17 +13,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_175149",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T17:51:49.535707",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -32,74 +21,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "The fortress; a fortified place, a town in the plain (shephelah) of Judah (Josh. 15:36). This is a very common Canaanite and Phoenician name. It is the feminine form of Geder (12:13); the plural form is Gederoth (15:41). This place has by some been identified with Jedireh, a ruin 9 miles from Lydda, toward Eleutheropolis, and 4 miles north of Sur’ah (Zorah), in the valley of Elah.",
-      "extracted_refs": [
-        {
-          "book": "Joshua",
-          "chapter": 15,
-          "verses": [
-            36
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 15:36",
-          "source": "EAS"
-        },
-        {
-          "book": "Joshua",
-          "chapter": 12,
-          "verses": [
-            13
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 12:13",
-          "source": "EAS"
-        },
-        {
-          "book": "Joshua",
-          "chapter": 15,
-          "verses": [
-            41
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 15:41",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(a sheepfold), a town of Judah in the lowland country, (Joshua 15:36) apparently in its eastern part. No town bearing this name has, however, been yet discovered in this hitherto little-explored district.",
-      "extracted_refs": [
-        {
-          "book": "Joshua",
-          "chapter": 15,
-          "verses": [
-            36
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 15:36",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Joshua 15:36",
-      "original": "Josh. 15:36"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -144,13 +67,5 @@
       "raw": "Joshua 15:41",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 3,
-    "ot": 3,
-    "nt": 0,
-    "books": [
-      "Joshua"
-    ]
-  }
+  ]
 }

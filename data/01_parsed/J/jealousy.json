@@ -1,7 +1,7 @@
 {
   "topic": "JEALOUSY",
   "slug": "jealousy",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "General scriptures concerning Pr 6:34; 27:4; Ec 4:4; So 8:6",
@@ -269,17 +269,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_225741",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T22:57:41.543662",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [
     "EMULATION",
     "ANTHROPOMORPHISMS",
@@ -292,83 +281,8 @@
     "nt_refs": 1,
     "total_verses": 10
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Suspicion of a wife’s purity, one of the strongest passions (Num. 5:14; Prov. 6:34; Cant. 8:6); also an intense interest for another’s honour or prosperity (Ps. 79:5; 1 Cor. 10:22; Zech. 1:14).",
-      "extracted_refs": [
-        {
-          "book": "Numbers",
-          "chapter": 5,
-          "verses": [
-            14
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Numbers 5:14",
-          "source": "EAS"
-        },
-        {
-          "book": "Proverbs",
-          "chapter": 6,
-          "verses": [
-            34
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Proverbs 6:34",
-          "source": "EAS"
-        },
-        {
-          "book": "Song of Solomon",
-          "chapter": 8,
-          "verses": [
-            6
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Song of Solomon 8:6",
-          "source": "EAS"
-        },
-        {
-          "book": "Psalms",
-          "chapter": 79,
-          "verses": [
-            5
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Psalms 79:5",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Corinthians",
-          "chapter": 10,
-          "verses": [
-            22
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "1 Corinthians 10:22",
-          "source": "EAS"
-        },
-        {
-          "book": "Zechariah",
-          "chapter": 1,
-          "verses": [
-            14
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Zechariah 1:14",
-          "source": "EAS"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -446,18 +360,5 @@
       "raw": "Zechariah 1:14",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 6,
-    "ot": 5,
-    "nt": 1,
-    "books": [
-      "1 Corinthians",
-      "Numbers",
-      "Proverbs",
-      "Psalms",
-      "Song of Solomon",
-      "Zechariah"
-    ]
-  }
+  ]
 }

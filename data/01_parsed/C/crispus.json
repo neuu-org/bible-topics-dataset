@@ -1,7 +1,7 @@
 {
   "topic": "CRISPUS",
   "slug": "crispus",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A leader of a synagogue at Corinth Ac 18:8; 1Co 1:14",
@@ -24,46 +24,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "Crispo é mencionado no Novo Testamento como um líder da sinagoga em Corinto, que se converteu ao cristianismo através do ministério do apóstolo Paulo. Sua conversão é significativa, pois representa a inclusão de líderes judeus na nova fé cristã e a expansão do evangelho entre os gentios. Ele é citado em Atos 18:8 e em 1 Coríntios 1:14, onde Paulo menciona que ele foi batizado por ele, destacando a importância de Crispo na formação da comunidade cristã em Corinto.",
-    "outline": [
-      "Crispo como líder da sinagoga em Corinto",
-      "Conversão ao cristianismo através de Paulo",
-      "Importância de Crispo na comunidade cristã",
-      "Referências bíblicas em Atos e 1 Coríntios",
-      "Impacto da conversão de líderes judeus"
-    ],
-    "key_concepts": [
-      "Conversão de líderes religiosos",
-      "Inclusão na comunidade cristã",
-      "Expansão do evangelho"
-    ],
-    "theological_significance": "A conversão de Crispo ilustra a transição do judaísmo para o cristianismo e a aceitação do evangelho por líderes judeus, simbolizando a universalidade da mensagem cristã e a quebra de barreiras entre judeus e gentios.",
-    "model": "gpt-4o-mini",
-    "run_id": "enr_20251202_023617_951f10d8",
-    "confidence": 1.0,
-    "generated_at": "2025-12-02T02:36:17.948176"
-  },
-  "ai_themes_normalized": [
-    {
-      "theme_id": null,
-      "proposal_id": "prop:conversão_de_líderes_0484e7",
-      "label_original": "Conversão de líderes religiosos",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:inclusão_na_comunida_091980",
-      "label_original": "Inclusão na comunidade cristã",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:expansão_do_evangelh_06a965",
-      "label_original": "Expansão do evangelho entre os gentios",
-      "source": "ai_enrichment"
-    }
-  ],
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -72,68 +32,8 @@
     "nt_refs": 1,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Curled, the chief of the synagogue at Corinth (Acts 18:8). He was converted and, with his family, baptized by Paul (1 Cor. 1:14).",
-      "extracted_refs": [
-        {
-          "book": "Acts",
-          "chapter": 18,
-          "verses": [
-            8
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Acts 18:8",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Corinthians",
-          "chapter": 1,
-          "verses": [
-            14
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "1 Corinthians 1:14",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(curled), ruler of the Jewish synagogue at Corinth, (Acts 18:8) baptized with his family by St. Paul. (1 Corinthians 1:14) (A.D. 50.)",
-      "extracted_refs": [
-        {
-          "book": "Acts",
-          "chapter": 18,
-          "verses": [
-            8
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Acts 18:8",
-          "source": "SMI"
-        },
-        {
-          "book": "1 Corinthians",
-          "chapter": 1,
-          "verses": [
-            14
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "1 Corinthians 1:14",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -167,14 +67,5 @@
       "raw": "1 Corinthians 1:14",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 2,
-    "ot": 0,
-    "nt": 2,
-    "books": [
-      "1 Corinthians",
-      "Acts"
-    ]
-  }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "topic": "MICHA",
   "slug": "micha",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "See MICAH, number three",
@@ -19,17 +19,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_010248",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T01:02:48.780347",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [
     "MICAH"
   ],
@@ -40,63 +29,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "(1.) 2 Sam. 9:12 =MICAH (2). (2.) The son of Zabdi, a Levite of the family of Asaph (Neh. 11:17, 22).",
-      "extracted_refs": [
-        {
-          "book": "Nehemiah",
-          "chapter": 11,
-          "verses": [
-            17,
-            22
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Nehemiah 11:17, 22",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Samuel",
-          "chapter": 9,
-          "verses": [
-            12
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Samuel 9:12",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(who is like God?)."
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "2 Samuel 9:12",
-      "original": "2 Sam. 9:12"
-    },
-    {
-      "reference": "Nehemiah 11:17",
-      "original": "Neh. 11:17"
-    },
-    {
-      "reference": "Nehemiah 11:22",
-      "original": "Neh 11:22"
-    },
-    {
-      "reference": "Nehemiah 10:11",
-      "original": "Nehemiah 10:11"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -131,14 +65,5 @@
       "raw": "2 Samuel 9:12",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 3,
-    "ot": 3,
-    "nt": 0,
-    "books": [
-      "2 Samuel",
-      "Nehemiah"
-    ]
-  }
+  ]
 }

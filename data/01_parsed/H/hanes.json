@@ -1,7 +1,7 @@
 {
   "topic": "HANES",
   "slug": "hanes",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A place in Egypt Isa 30:4",
@@ -12,17 +12,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_210423",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T21:04:23.842948",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -31,52 +20,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "A place in Egypt mentioned only in Isa. 30:4 in connection with a reproof given to the Jews for trusting in Egypt. It was considered the same as Tahpanhes, a fortified town on the eastern frontier, but has been also identified as Ahnas-el-Medeeneh, 70 miles from Cairo.",
-      "extracted_refs": [
-        {
-          "book": "Isaiah",
-          "chapter": 30,
-          "verses": [
-            4
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Isaiah 30:4",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "a place in Egypt mentioned only in (Isaiah 30:4) We think that the Chald Paraphr. is right in identifying it with Tahpanhes, a fortified town on the eastern frontier.",
-      "extracted_refs": [
-        {
-          "book": "Isaiah",
-          "chapter": 30,
-          "verses": [
-            4
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Isaiah 30:4",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Isaiah 30:4",
-      "original": "Isa. 30:4"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -99,13 +44,5 @@
       "raw": "Isaiah 30:4",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 1,
-    "ot": 1,
-    "nt": 0,
-    "books": [
-      "Isaiah"
-    ]
-  }
+  ]
 }

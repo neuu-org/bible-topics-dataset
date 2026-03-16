@@ -1,7 +1,7 @@
 {
   "topic": "ASCENSION",
   "slug": "ascension",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Of Elijah 2Ki 2:1-18",
@@ -56,208 +56,6 @@
       "verse_count": 4
     }
   ],
-  "ai_enrichment": {
-    "summary": "A ascensão é um tema significativo nas Escrituras, representando a transição de figuras proféticas e messiânicas para a presença de Deus. A ascensão de Elias, registrada em 2 Reis 2:1-18, simboliza a continuidade do ministério profético. A ascensão de Jesus, conforme relatado em Marcos 16:19-20, Lucas 24:50-53 e Atos 1:9-12, marca a conclusão de Sua obra redentora e a promessa de Sua volta. A ascensão dos dois testemunhas em Apocalipse 11:12 destaca a autoridade divina e a vindicação dos profetas. Este evento é crucial para a compreensão da soberania de Deus e da esperança escatológica na fé cristã.",
-    "outline": [
-      "Ascensão de Elias como um modelo de transição profética",
-      "Ascensão de Jesus e sua implicação na obra da salvação",
-      "A promessa do retorno de Cristo após a ascensão",
-      "Ascensão dos dois testemunhas e a confirmação do testemunho profético"
-    ],
-    "key_concepts": [
-      "Transição e continuidade do ministério profético",
-      "Soberania de Deus sobre a história",
-      "Esperança escatológica e retorno de Cristo"
-    ],
-    "theological_significance": "A ascensão é teologicamente significativa pois reafirma a divindade de Cristo e Sua autoridade sobre o céu e a terra. Para os cristãos, a ascensão é um lembrete da promessa de que Jesus voltará, encorajando a vigilância e a fidelidade na missão da Igreja. Além disso, a ascensão de Elias e dos dois testemunhas reforça a ideia de que Deus continua a operar através de Seus servos, mesmo após sua partida física.",
-    "model": "gpt-4o-mini",
-    "run_id": "enr_20250923_144058_3b10b7ab",
-    "confidence": 1.0,
-    "generated_at": "2025-09-23T14:40:58.805060"
-  },
-  "ai_themes_normalized": [
-    {
-      "theme_id": null,
-      "proposal_id": "prop:profecia_e_cumprimento_d30365",
-      "label_original": "Profecia e cumprimento",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:esperanca_e_expectativa_escatologica_290e33",
-      "label_original": "Esperança e expectativa escatológica",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:a_presenca_de_deus_e_a_continuidade_do_ministerio_eed603",
-      "label_original": "A presença de Deus e a continuidade do ministério",
-      "source": "ai_enrichment"
-    }
-  ],
-  "phase1_discovery": {
-    "processed_at": "2025-09-23T22:52:57.850010Z",
-    "total_themes_processed": 3,
-    "summary": {
-      "total_processed": 3,
-      "decisions": {
-        "alias_existing": 0,
-        "proposed": 3,
-        "error": 0
-      },
-      "success_rate": 1.0
-    },
-    "results": [
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.84142,
-          "novelty": 1.0,
-          "similarity_to_best_existing": 0.0,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_3f38631e",
-          "decision_hash": "0d67150a99f13caf",
-          "created_at": "2025-09-23T22:52:57.850010Z"
-        },
-        "proposal_id": "prop:567672bb",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:profecia_e_cumprimento_d30365",
-          "label_original": "Profecia e cumprimento",
-          "confidence": 0.5287600000000001,
-          "source": "ai_enrichment"
-        }
-      },
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.84014,
-          "novelty": 1.0,
-          "similarity_to_best_existing": 0.0,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_8ae171c2",
-          "decision_hash": "0c7f3fd4f2ced7aa",
-          "created_at": "2025-09-23T22:52:58.990816Z"
-        },
-        "proposal_id": "prop:d5f2ae34",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:esperanca_e_expectativa_escatologica_290e33",
-          "label_original": "Esperança e expectativa escatológica",
-          "confidence": 0.5292800000000001,
-          "source": "ai_enrichment"
-        }
-      },
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.8476199999999999,
-          "novelty": 1.0,
-          "similarity_to_best_existing": 0.0,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_dffdd64a",
-          "decision_hash": "e133becf3bd5069a",
-          "created_at": "2025-09-23T22:53:00.055180Z"
-        },
-        "proposal_id": "prop:15a4b191",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:a_presenca_de_deus_e_a_continuidade_do_ministerio_eed603",
-          "label_original": "A presença de Deus e a continuidade do ministério",
-          "confidence": 0.5076,
-          "source": "ai_enrichment"
-        }
-      }
-    ]
-  },
-  "entity_links": [
-    {
-      "canonical_id": "EVE:ascension",
-      "namespace": "EVENT",
-      "role": "primary",
-      "confidence": 0.9,
-      "source": "topic_resolver",
-      "status": "proposed",
-      "provenance": {
-        "topic": "ASCENSION",
-        "extracted_from": "ASCENSION",
-        "processing_result": {
-          "status": "proposed",
-          "proposal_id": "stub:EVE:ascension_277d0f21",
-          "canonical_id": "EVE:ascension",
-          "needs_review": true,
-          "reasons": [
-            "low_confidence",
-            "insufficient_sources"
-          ],
-          "message": "Entity proposal stub:EVE:ascension_277d0f21 created"
-        }
-      }
-    }
-  ],
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -266,15 +64,8 @@
     "nt_refs": 2,
     "total_verses": 2
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "See CHRIST."
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",

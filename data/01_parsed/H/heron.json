@@ -1,7 +1,7 @@
 {
   "topic": "HERON",
   "slug": "heron",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "General scriptures concerning Le 11:19; De 14:18",
@@ -24,17 +24,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_215136",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T21:51:36.522771",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -43,68 +32,8 @@
     "nt_refs": 0,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "(Lev. 11:19; Deut. 14:18), ranked among the unclean birds. The Hebrew name is ’anaphah, and indicates that the bird so named is remarkable for its angry disposition. “The herons are wading-birds, peculiarly irritable, remarkable for their voracity, frequenting marshes and oozy rivers, and spread over the regions of the East.” The Ardea russeta, or little golden egret, is the commonest species in Asia.",
-      "extracted_refs": [
-        {
-          "book": "Leviticus",
-          "chapter": 11,
-          "verses": [
-            19
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Leviticus 11:19",
-          "source": "EAS"
-        },
-        {
-          "book": "Deuteronomy",
-          "chapter": 14,
-          "verses": [
-            18
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Deuteronomy 14:18",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(Leviticus 11:19; 14:18) a common large, wading, unclean bird. Nearly all of the species known in English ornithology are found in the vicinity of Palestine. Canon Cook and others think the bird intended is the plover (Charadrius aedicnemus), a greedy, thick kneed, high-flying migratory bird, very common in the East, on the banks of rivers and shores of lakes.—ED.",
-      "extracted_refs": [
-        {
-          "book": "Leviticus",
-          "chapter": 11,
-          "verses": [
-            19
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Leviticus 11:19",
-          "source": "SMI"
-        },
-        {
-          "book": "Leviticus",
-          "chapter": 14,
-          "verses": [
-            18
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Leviticus 14:18",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -149,14 +78,5 @@
       "raw": "Leviticus 14:18",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 3,
-    "ot": 3,
-    "nt": 0,
-    "books": [
-      "Deuteronomy",
-      "Leviticus"
-    ]
-  }
+  ]
 }

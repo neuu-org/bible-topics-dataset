@@ -1,7 +1,7 @@
 {
   "topic": "KANAH",
   "slug": "kanah",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "1. A brook dividing the territory of Ephraim from the territory of Manasseh Jos 16:8; 17:9",
@@ -20,17 +20,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_233440",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T23:34:40.528604",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -39,58 +28,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Reedy; brook of reeds. (1.) A stream forming the boundary between Ephraim and Manasseh, from the Mediterranean eastward to Tappuah (Josh. 16:8). It has been identified with the sedgy streams that constitute the Wady Talaik, which enters the sea between Joppa and Caesarea. Others identify it with the river’ Aujeh. (2.) A town in the north of Asher (Josh. 19:28). It has been identified with ‘Ain-Kana, a village on the brow of a valley some 7 miles south-east of Tyre. About a mile north of this place are many colossal ruins strown about. And in the side of a neighbouring ravine are figures of men, women, and children cut in the face of the rock. These are supposed to be of Phoenician origin.",
-      "extracted_refs": [
-        {
-          "book": "Joshua",
-          "chapter": 16,
-          "verses": [
-            8
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 16:8",
-          "source": "EAS"
-        },
-        {
-          "book": "Joshua",
-          "chapter": 19,
-          "verses": [
-            28
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 19:28",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(a place of reeds)."
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Joshua 16:8",
-      "original": "Josh. 16:8"
-    },
-    {
-      "reference": "Joshua 19:28",
-      "original": "Josh. 19:28"
-    },
-    {
-      "reference": "Joshua 17:9",
-      "original": "Joshua 17:9"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -124,13 +63,5 @@
       "raw": "Joshua 19:28",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 2,
-    "ot": 2,
-    "nt": 0,
-    "books": [
-      "Joshua"
-    ]
-  }
+  ]
 }

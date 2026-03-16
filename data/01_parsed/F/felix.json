@@ -1,7 +1,7 @@
 {
   "topic": "FELIX",
   "slug": "felix",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "(The Roman governor of Judaea)",
@@ -34,25 +34,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "Félix foi o governador romano da Judeia durante o período em que o apóstolo Paulo foi preso. Ele é mencionado no livro de Atos, onde Paulo é levado a julgamento diante dele. Durante o julgamento, Félix se mostra inquieto sob a pregação de Paulo, mas acaba deixando-o em prisão, adiando a decisão sobre seu destino. A figura de Félix ilustra a tensão entre o poder político e a mensagem do evangelho, além de destacar a resistência de alguns líderes em se comprometer com a verdade espiritual.",
-    "outline": [
-      "Félix como governador romano da Judeia",
-      "O julgamento de Paulo diante de Félix",
-      "A inquietação de Félix sob a pregação de Paulo",
-      "A decisão de Félix de deixar Paulo em prisão"
-    ],
-    "key_concepts": [
-      "A relação entre poder político e fé cristã",
-      "A resistência à verdade espiritual",
-      "O papel do sofrimento na missão apostólica"
-    ],
-    "theological_significance": "A história de Félix e Paulo destaca a luta entre a verdade do evangelho e as pressões políticas. A inquietação de Félix sob a pregação de Paulo reflete a convicção que a mensagem cristã pode provocar, mesmo em corações endurecidos. Além disso, a prisão de Paulo demonstra como o sofrimento pode ser parte do chamado divino e da propagação do evangelho.",
-    "model": "gpt-4o-mini",
-    "run_id": "enr_20251202_155217_bb8ea53b",
-    "confidence": 1.0,
-    "generated_at": "2025-12-02T15:52:17.337441"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -61,72 +42,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Happy, the Roman procurator of Judea before whom Paul “reasoned” (Acts 24:25). He appears to have expected a bribe from Paul, and therefore had several interviews with him. The “worthy deeds” referred to in 24:2 was his clearing the country of banditti and impostors. At the end of a two years’ term, Porcius Festus was appointed in the room of Felix (A.D. 60), who proceeded to Rome, and was there accused of cruelty and malversation of office by the Jews of Caesarea. The accusation was rendered nugatory by the influence of his brother Pallas with Nero. (See Josephus, Ant. xx. 8, 9.) Drusilla, the daughter of Herod Agrippa, having been induced by Felix to desert her husband, the king of Emesa, became his adulterous companion. She was seated beside him when Paul “reasoned” before the judge. When Felix gave place to Festus, being “willing to do the Jews a pleasure,” he left Paul bound.",
-      "extracted_refs": [
-        {
-          "book": "Acts",
-          "chapter": 24,
-          "verses": [
-            25
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Acts 24:25",
-          "source": "EAS"
-        },
-        {
-          "book": "Acts",
-          "chapter": 24,
-          "verses": [
-            2
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Acts 24:2",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(happy), a Roman procurator of Judea appointed by the emperor Claudius in A.D. 53. He ruled the province in a mean, cruel and profligate manner. His period of office was full of troubles and seditions. St. Paul was brought before Felix in Caesarea. He was remanded to prison, and kept there two years in hopes of extorting money from him. (Acts 24:26,27) At the end of that time Porcius Festus [Festus, Porcius] was appointed to supersede Felix, who, on his return to Rome, was accused by the Jews in Caesarea, and would have suffered the penalty due to his atrocities had not his brother Pallas prevailed with the emperor Nero to spare him. This was probably about A.D. 60. The wife of Felix was Drusilla, daughter of Herod Agrippa I., who was his third wife and whom he persuaded to leave her husband and marry him.",
-      "extracted_refs": [
-        {
-          "book": "Acts",
-          "chapter": 24,
-          "verses": [
-            26,
-            27
-          ],
-          "verse_count": 2,
-          "testament": "NT",
-          "raw": "Acts 24:26,27",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Acts 24:25",
-      "original": "Acts 24:25"
-    },
-    {
-      "reference": "Acts 24:26",
-      "original": "Acts 24:26"
-    },
-    {
-      "reference": "Acts 24:27",
-      "original": "Acts 24:27"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -139,26 +56,6 @@
     "enrichment_source": "pipeline_merge"
   },
   "version": "3.0.0",
-  "ai_themes_normalized": [
-    {
-      "theme_id": null,
-      "proposal_id": "prop:a_luta_entre_a_verda_0efb7c",
-      "label_original": "A luta entre a verdade e o poder",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:inquietação_diante_d_05ee5d",
-      "label_original": "Inquietação diante da mensagem do evangelho",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:sofrimento_como_part_098fa9",
-      "label_original": "Sofrimento como parte da missão cristã",
-      "source": "ai_enrichment"
-    }
-  ],
   "definition_refs": [
     {
       "book": "Acts",
@@ -194,13 +91,5 @@
       "raw": "Acts 24:26,27",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 4,
-    "ot": 0,
-    "nt": 4,
-    "books": [
-      "Acts"
-    ]
-  }
+  ]
 }

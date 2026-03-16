@@ -1,7 +1,7 @@
 {
   "topic": "LYCIA",
   "slug": "lycia",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A province of Asia Minor",
@@ -17,17 +17,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_001819",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T00:18:19.556826",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -36,90 +25,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "A wolf, a province in the south-west of Asia Minor, opposite the island of Rhodes. It forms part of the region now called Tekeh. It was a province of the Roman empire when visited by Paul (Acts 21:1; 27:5). Two of its towns are mentioned, Patara (21:1, 2) and Myra (27:5).",
-      "extracted_refs": [
-        {
-          "book": "Acts",
-          "chapter": 21,
-          "verses": [
-            1
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Acts 21:1",
-          "source": "EAS"
-        },
-        {
-          "book": "Acts",
-          "chapter": 27,
-          "verses": [
-            5
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Acts 27:5",
-          "source": "EAS"
-        },
-        {
-          "book": "Acts",
-          "chapter": 21,
-          "verses": [
-            1,
-            2
-          ],
-          "verse_count": 2,
-          "testament": "NT",
-          "raw": "Acts 21:1, 2",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(land of Lycus) is the name of that southwestern region of the peninsula of Asia Minor which is immediately opposite the island of Rhodes. The Lycians were incorporated in the Persian empire, and their ships were conspicuous in the great war against the Greeks (Herod. vii. 91, 92). After the death of Alexander the Great, Lycia was included in the Greek Seleucid kingdom, and was a part of the territory which the Romans forced Antiochus to cede. It was not till the reign of Claudius that Lycia became part of the Roman provincial system. At first it was combined with Pamiphylia. Such seems to have been the condition of the district when St. Paul visited the Lycian towns of Patara, (Acts 21:1) and Myra. (Acts 27:5) At a later period of the Roman empire Lyoia was a separate province, with Myra for it capital.",
-      "extracted_refs": [
-        {
-          "book": "Acts",
-          "chapter": 21,
-          "verses": [
-            1
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Acts 21:1",
-          "source": "SMI"
-        },
-        {
-          "book": "Acts",
-          "chapter": 27,
-          "verses": [
-            5
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Acts 27:5",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Acts 21:1",
-      "original": "Acts 21:1"
-    },
-    {
-      "reference": "Acts 27:5",
-      "original": "Acts 27:5"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -165,13 +72,5 @@
       "raw": "Acts 21:1, 2",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 3,
-    "ot": 0,
-    "nt": 3,
-    "books": [
-      "Acts"
-    ]
-  }
+  ]
 }

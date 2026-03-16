@@ -1,7 +1,7 @@
 {
   "topic": "INN",
   "slug": "inn",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "General scriptures concerning Ge 42:27; 43:21; Ex 4:24; Lu 2:7; 10:34",
@@ -38,17 +38,6 @@
       "verse_count": 2
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_222723",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T22:27:23.879466",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -57,112 +46,8 @@
     "nt_refs": 1,
     "total_verses": 2
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "In the modern sense, unknown in the East. The khans or caravanserais, which correspond to the European inn, are not alluded to in the Old Testament. The “inn” mentioned in Ex. 4:24 was just the halting-place of the caravan. In later times khans were erected for the accommodation of travellers. In Luke 2:7 the word there so rendered denotes a place for loosing the beasts of their burdens. It is rendered “guest-chamber” in Mark 14:14 and Luke 22:11. In Luke 10:34 the word so rendered is different. That inn had an “inn-keeper,” who attended to the wants of travellers.",
-      "extracted_refs": [
-        {
-          "book": "Exodus",
-          "chapter": 4,
-          "verses": [
-            24
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Exodus 4:24",
-          "source": "EAS"
-        },
-        {
-          "book": "Luke",
-          "chapter": 2,
-          "verses": [
-            7
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Luke 2:7",
-          "source": "EAS"
-        },
-        {
-          "book": "Mark",
-          "chapter": 14,
-          "verses": [
-            14
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Mark 14:14",
-          "source": "EAS"
-        },
-        {
-          "book": "Luke",
-          "chapter": 22,
-          "verses": [
-            11
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Luke 22:11",
-          "source": "EAS"
-        },
-        {
-          "book": "Luke",
-          "chapter": 10,
-          "verses": [
-            34
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Luke 10:34",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "The Hebrew word (malon) thus rendered literally signified “a lodging-place for the night.” Inns, in our sense of the term were, as they still are, unknown in the East, where hospitality is religiously practiced. The khans or caravanserais are the representatives of European inns, and these were established but gradually. The halting-place of a caravan was selected originally on account of its proximity to water or pasture, by which the travellers pitched their tents and passed the night. Such was undoubtedly the “inn” at which occurred the Incident in the life of Moses narrated in (Exodus 4:24) comp. Genesis42:27 On the more frequented routes, remote from towns, (Jeremiah 9:2) caravanserais were in course of time erected, often at the expense of the wealthy. “A caravanserai is a large and substantial square building... Passing through strong gateway, the guest enters a large court, in the centre of which is a spacious raised platform, used for sleeping upon at night or for the devotions of the faithful during the day. Around this court are arranged the rooms of the building.”",
-      "extracted_refs": [
-        {
-          "book": "Exodus",
-          "chapter": 4,
-          "verses": [
-            24
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Exodus 4:24",
-          "source": "SMI"
-        },
-        {
-          "book": "Jeremiah",
-          "chapter": 9,
-          "verses": [
-            2
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Jeremiah 9:2",
-          "source": "SMI"
-        },
-        {
-          "book": "Genesis",
-          "chapter": 42,
-          "verses": [
-            27
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 42:27",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -251,17 +136,5 @@
       "raw": "Genesis 42:27",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 7,
-    "ot": 3,
-    "nt": 4,
-    "books": [
-      "Exodus",
-      "Genesis",
-      "Jeremiah",
-      "Luke",
-      "Mark"
-    ]
-  }
+  ]
 }

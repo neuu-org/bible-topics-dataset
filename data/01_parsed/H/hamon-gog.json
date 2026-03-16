@@ -1,7 +1,7 @@
 {
   "topic": "HAMON-GOG",
   "slug": "hamon-gog",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Another name for HAMONAH Eze 39:11,15",
@@ -13,17 +13,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_210047",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T21:00:47.992446",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -32,39 +21,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Multitude of Gog, the name of the valley in which the slaughtered forces of Gog are to be buried (Ezek. 39:11, 15), “the valley of the passengers on the east of the sea.”",
-      "extracted_refs": [
-        {
-          "book": "Ezekiel",
-          "chapter": 39,
-          "verses": [
-            11,
-            15
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Ezekiel 39:11, 15",
-          "source": "EAS"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Ezekiel 39:11",
-      "original": "Ezek. 39:11"
-    },
-    {
-      "reference": "Ezekiel 39:15",
-      "original": "Ezek. 39:15"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -88,13 +46,5 @@
       "raw": "Ezekiel 39:11, 15",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 2,
-    "ot": 2,
-    "nt": 0,
-    "books": [
-      "Ezekiel"
-    ]
-  }
+  ]
 }

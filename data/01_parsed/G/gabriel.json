@@ -1,7 +1,7 @@
 {
   "topic": "GABRIEL",
   "slug": "gabriel",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "(A messenger of God)",
@@ -35,26 +35,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "Gabriel é um dos arcanjos mencionados na Bíblia, conhecido como mensageiro de Deus. Ele aparece em momentos cruciais da revelação divina, como nas visões de Daniel e nos anúncios do nascimento de João Batista e de Jesus a Maria. Sua função como mensageiro destaca a comunicação entre Deus e a humanidade, simbolizando a importância da revelação divina na história da salvação.",
-    "outline": [
-      "Gabriel como mensageiro de Deus",
-      "Aparições a Daniel",
-      "Aparições a Zacarias",
-      "Aparições a Maria",
-      "Significado da função de Gabriel"
-    ],
-    "key_concepts": [
-      "Revelação divina",
-      "Intervenção angelical",
-      "Profecia messiânica"
-    ],
-    "theological_significance": "Gabriel representa a comunicação direta de Deus com a humanidade, enfatizando a importância da revelação e do cumprimento das promessas divinas. Sua presença em momentos chave da história bíblica sublinha a soberania de Deus em guiar e preparar o caminho para a salvação através de Cristo.",
-    "model": "gpt-4o-mini",
-    "run_id": "enr_20251202_215349_26cb7f05",
-    "confidence": 1.0,
-    "generated_at": "2025-12-02T21:53:49.564213"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -63,103 +43,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Champion of God, used as a proper name to designate the angel who was sent to Daniel (8:16) to explain the vision of the ram and the he-goat, and to communicate the prediction of the seventy weeks (Dan. 9:21-27). He announced also the birth of John the Baptist (Luke 1:11), and of the Messiah (26). He describes himself in the words, “I am Gabriel, who stand in the presence of God” (1:19).",
-      "extracted_refs": [
-        {
-          "book": "Daniel",
-          "chapter": 9,
-          "verses": [
-            21,
-            22,
-            23,
-            24,
-            25,
-            26,
-            27
-          ],
-          "verse_count": 7,
-          "testament": "OT",
-          "raw": "Daniel 9:21-27",
-          "source": "EAS"
-        },
-        {
-          "book": "Luke",
-          "chapter": 1,
-          "verses": [
-            11
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Luke 1:11",
-          "source": "EAS"
-        },
-        {
-          "book": "Luke",
-          "chapter": 1,
-          "verses": [
-            19
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Luke 1:19",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(man of God), an angel sent by God to announce to Zacharias the birth of John the Baptist, and to Mary the birth of Christ. He was also sent to Daniel to explain his visions. (Daniel 8:16; 9:21)",
-      "extracted_refs": [
-        {
-          "book": "Daniel",
-          "chapter": 8,
-          "verses": [
-            16
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Daniel 8:16",
-          "source": "SMI"
-        },
-        {
-          "book": "Daniel",
-          "chapter": 9,
-          "verses": [
-            21
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Daniel 9:21",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Daniel 9:21-27",
-      "original": "Dan. 9:21-27"
-    },
-    {
-      "reference": "Luke 1:11",
-      "original": "Luke 1:11"
-    },
-    {
-      "reference": "Daniel 8:16",
-      "original": "Daniel 8:16"
-    },
-    {
-      "reference": "Daniel 9:21",
-      "original": "Daniel 9:21"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -172,26 +57,6 @@
     "enrichment_source": "pipeline_merge"
   },
   "version": "3.0.0",
-  "ai_themes_normalized": [
-    {
-      "theme_id": null,
-      "proposal_id": "prop:mensageiro_da_revela_007b23",
-      "label_original": "Mensageiro da revelação divina",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:intervenção_divina_n_02d46d",
-      "label_original": "Intervenção divina na história",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:profecia_e_cumprimen_06f633",
-      "label_original": "Profecia e cumprimento",
-      "source": "ai_enrichment"
-    }
-  ],
   "definition_refs": [
     {
       "book": "Daniel",
@@ -254,14 +119,5 @@
       "raw": "Daniel 9:21",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 10,
-    "ot": 8,
-    "nt": 2,
-    "books": [
-      "Daniel",
-      "Luke"
-    ]
-  }
+  ]
 }

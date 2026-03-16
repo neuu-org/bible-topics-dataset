@@ -1,7 +1,7 @@
 {
   "topic": "MERAIOTH",
   "slug": "meraioth",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "1. A high priest of the line of Eleazar 1Ch 6:6,7,52; Ezr 7:3",
@@ -51,17 +51,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_005310",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T00:53:10.541223",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -70,57 +59,8 @@
     "nt_refs": 0,
     "total_verses": 2
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Rebellions. (1.) Father of Amariah, a high priest of the line of Eleazar (1 Chr. 6:6, 7, 52). (2.) Neh. 12:15, a priest who went to Jerusalem with Zerubbabel. He is called Meremoth in Neh. 12:3.",
-      "extracted_refs": [
-        {
-          "book": "1 Chronicles",
-          "chapter": 6,
-          "verses": [
-            6,
-            7,
-            52
-          ],
-          "verse_count": 3,
-          "testament": "OT",
-          "raw": "1 Chronicles 6:6, 7, 52",
-          "source": "EAS"
-        },
-        {
-          "book": "Nehemiah",
-          "chapter": 12,
-          "verses": [
-            15
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Nehemiah 12:15",
-          "source": "EAS"
-        },
-        {
-          "book": "Nehemiah",
-          "chapter": 12,
-          "verses": [
-            3
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Nehemiah 12:3",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(rebellious)."
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -167,14 +107,5 @@
       "raw": "Nehemiah 12:3",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 5,
-    "ot": 5,
-    "nt": 0,
-    "books": [
-      "1 Chronicles",
-      "Nehemiah"
-    ]
-  }
+  ]
 }

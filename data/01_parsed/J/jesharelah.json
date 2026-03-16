@@ -1,7 +1,7 @@
 {
   "topic": "JESHARELAH",
   "slug": "jesharelah",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A Levite, choral leader 1Ch 25:14",
@@ -12,17 +12,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_231149",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T23:11:49.255234",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -31,52 +20,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Upright towards God, the head of the seventh division of Levitical musicians (1 Chr. 25:14).",
-      "extracted_refs": [
-        {
-          "book": "1 Chronicles",
-          "chapter": 25,
-          "verses": [
-            14
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 25:14",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(right before God), son of Asaph, and head of the seventh of the twenty-four wards into which the musicians of the Levites were divided. (1 Chronicles 25:14) [Asarelah] (B.C. 1014).",
-      "extracted_refs": [
-        {
-          "book": "1 Chronicles",
-          "chapter": 25,
-          "verses": [
-            14
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 25:14",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "1 Chronicles 25:14",
-      "original": "1 Chr. 25:14"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -99,13 +44,5 @@
       "raw": "1 Chronicles 25:14",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 1,
-    "ot": 1,
-    "nt": 0,
-    "books": [
-      "1 Chronicles"
-    ]
-  }
+  ]
 }

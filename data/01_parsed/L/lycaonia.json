@@ -1,7 +1,7 @@
 {
   "topic": "LYCAONIA",
   "slug": "lycaonia",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "(A province of Asia Minor)",
@@ -19,17 +19,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_001809",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T00:18:09.558223",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -38,102 +27,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "An inland province of Asia Minor, on the west of Cappadocia and the south of Galatia. It was a Roman province, and its chief towns were Iconium, Lystra, and Derbe. The “speech of Lycaonia” (Acts 14:11) was probably the ancient Assyrian language, or perhaps, as others think, a corrupt Greek intermingled with Syriac words. Paul preached in this region, and revisited it (Acts 16:1-6; 18:23; 19:1).",
-      "extracted_refs": [
-        {
-          "book": "Acts",
-          "chapter": 14,
-          "verses": [
-            11
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Acts 14:11",
-          "source": "EAS"
-        },
-        {
-          "book": "Acts",
-          "chapter": 16,
-          "verses": [
-            1,
-            2,
-            3,
-            4,
-            5,
-            6
-          ],
-          "verse_count": 6,
-          "testament": "NT",
-          "raw": "Acts 16:1-6",
-          "source": "EAS"
-        },
-        {
-          "book": "Acts",
-          "chapter": 18,
-          "verses": [
-            23
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Acts 18:23",
-          "source": "EAS"
-        },
-        {
-          "book": "Acts",
-          "chapter": 19,
-          "verses": [
-            1
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Acts 19:1",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(land of Lycanon, or wolf land), a district of Asia Minor. From what is said in (Acts 14:11) of “the speech of Lycaonia,” it is evident that the inhabitants of the district, in St. Paul’s day, spoke something very different from ordinary Greek. Whether the language was some Syrian dialect or a corrupt form of Greek has been much debated. The fact that the Lycaonians were similar with the Greek mythology is consistent with either supposition. Lycaonia is for the most part a dreary plain, bare of trees, destitute of fresh water, and with several salt lakes. (It was about 20 miles long from east to west, and 13 miles wide. “Cappadocia is on the east, Galatia on the north, Phrygia on the west and Cilicia on the south “Among its chief cities are Derbe, Lystra and Iconium.—ED.) After the provincial system of Rome had embraced the whole of Asia Minor, the boundaries of the provinces were variable; and Lycaonia was, politically, sometimes in Cappadocia, sometimes in Galatia. Paul visited it three times in his missionary tours.",
-      "extracted_refs": [
-        {
-          "book": "Acts",
-          "chapter": 14,
-          "verses": [
-            11
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Acts 14:11",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Acts 14:11",
-      "original": "Acts 14:11"
-    },
-    {
-      "reference": "Acts 16:1-6",
-      "original": "Acts 16:1-6"
-    },
-    {
-      "reference": "Acts 18:23",
-      "original": "Acts 18:23"
-    },
-    {
-      "reference": "Acts 19:1",
-      "original": "Acts 19:1"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -194,13 +89,5 @@
       "raw": "Acts 19:1",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 9,
-    "ot": 0,
-    "nt": 9,
-    "books": [
-      "Acts"
-    ]
-  }
+  ]
 }

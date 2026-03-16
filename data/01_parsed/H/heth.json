@@ -1,7 +1,7 @@
 {
   "topic": "HETH",
   "slug": "heth",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Son of Canaan, and ancestor of the Hittites Ge 10:15; 23:3,5,7,10,16,18; 27:46; 49:32; 1Ch 1:13",
@@ -37,17 +37,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_215216",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T21:52:16.800016",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [
     "HITTITES"
   ],
@@ -58,121 +47,8 @@
     "nt_refs": 0,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Dread, a descendant of Canaan, and the ancestor of the Hittites (Gen. 10:18; Deut. 7:1), who dwelt in the vicinity of Hebron (Gen. 23:3, 7). The Hittites were a Hamitic race. They are called “the sons of Heth” (Gen. 23:3, 5, 7, 10, 16, 18, 20).",
-      "extracted_refs": [
-        {
-          "book": "Genesis",
-          "chapter": 10,
-          "verses": [
-            18
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 10:18",
-          "source": "EAS"
-        },
-        {
-          "book": "Deuteronomy",
-          "chapter": 7,
-          "verses": [
-            1
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Deuteronomy 7:1",
-          "source": "EAS"
-        },
-        {
-          "book": "Genesis",
-          "chapter": 23,
-          "verses": [
-            3,
-            7
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Genesis 23:3, 7",
-          "source": "EAS"
-        },
-        {
-          "book": "Genesis",
-          "chapter": 23,
-          "verses": [
-            3,
-            5,
-            7,
-            10,
-            16,
-            18,
-            20
-          ],
-          "verse_count": 7,
-          "testament": "OT",
-          "raw": "Genesis 23:3, 5, 7, 10, 16, 18, 20",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(terror), the forefather of the nation of the Hittites. In the genealogical tables of (Genesis 10:15) and 1Chr 1:13 Heth is a son of Canaan. (Genesis 24:3,4; 28:1,2)",
-      "extracted_refs": [
-        {
-          "book": "Genesis",
-          "chapter": 10,
-          "verses": [
-            15
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 10:15",
-          "source": "SMI"
-        },
-        {
-          "book": "Genesis",
-          "chapter": 24,
-          "verses": [
-            3,
-            4
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Genesis 24:3,4",
-          "source": "SMI"
-        },
-        {
-          "book": "Genesis",
-          "chapter": 28,
-          "verses": [
-            1,
-            2
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Genesis 28:1,2",
-          "source": "SMI"
-        },
-        {
-          "book": "1 Chronicles",
-          "chapter": 1,
-          "verses": [
-            13
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 1:13",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -281,15 +157,5 @@
       "raw": "1 Chronicles 1:13",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 15,
-    "ot": 15,
-    "nt": 0,
-    "books": [
-      "1 Chronicles",
-      "Deuteronomy",
-      "Genesis"
-    ]
-  }
+  ]
 }

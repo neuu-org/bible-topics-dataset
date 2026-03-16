@@ -1,7 +1,7 @@
 {
   "topic": "HAZOR",
   "slug": "hazor",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "1. A fortified city of Naphtali Jos 11:1,10,11,13; 12:19; 19:36; Jud 4:2,17; 1Sa 12:9; 2Ki 15:29; Ne 11:33",
@@ -79,17 +79,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_212516",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T21:25:16.567732",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -98,122 +87,8 @@
     "nt_refs": 0,
     "total_verses": 4
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Enclosed; fortified. (1.) A stronghold of the Canaanites in the mountains north of Lake Merom (Josh. 11:1-5). Jabin the king with his allied tribes here encountered Joshua in a great battle. Joshua gained a signal victory, which virtually completed his conquest of Canaan (11:10-13). This city was, however, afterwards rebuilt by the Canaanites, and was ruled by a king with the same hereditary name of Jabin. His army, under a noted leader of the name of Sisera, swept down upon the south, aiming at the complete subjugation of the country. This powerful army was met by the Israelites under Barak, who went forth by the advice of the prophetess Deborah. The result was one of the most remarkable victories for Israel recorded in the Old Testament (Josh. 19:36; Judg. 4:2; 1 Sam. 12:9). The city of Hazor was taken and occupied by the Israelites. It was fortified by Solomon to defend the entrance into the kingdom from Syria and Assyria. When Tiglath-pileser, the Assyrian king, invaded the land, this was one of the first cities he captured, carrying its inhabitants captive into Assyria (2 Kings 15:29). It has been identified with Khurbet Harrah, 2 1/2 miles south-east of Kedesh. (2.) A city in the south of Judah (Josh. 15:23). The name here should probably be connected with the word following, Ithnan, HAZOR-ITHNAN instead of “Hazor and Ithnan.” (3.) A district in Arabia (Jer. 49:28-33), supposed by some to be Jetor, i.e., Ituraea. (4.) “Kerioth and Hezron” (Josh. 15: 25) should be “Kerioth-hezron” (as in the R.V.), the two names being joined together as the name of one place (e.g., like Kirjath-jearim), “the same is Hazor” (R.V.). This place has been identified with el-Kuryetein, and has been supposed to be the home of Judas Iscariot. (See KERIOTH.)",
-      "extracted_refs": [
-        {
-          "book": "Joshua",
-          "chapter": 11,
-          "verses": [
-            1,
-            2,
-            3,
-            4,
-            5
-          ],
-          "verse_count": 5,
-          "testament": "OT",
-          "raw": "Joshua 11:1-5",
-          "source": "EAS"
-        },
-        {
-          "book": "Joshua",
-          "chapter": 19,
-          "verses": [
-            36
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 19:36",
-          "source": "EAS"
-        },
-        {
-          "book": "Judges",
-          "chapter": 4,
-          "verses": [
-            2
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Judges 4:2",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Samuel",
-          "chapter": 12,
-          "verses": [
-            9
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Samuel 12:9",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Kings",
-          "chapter": 15,
-          "verses": [
-            29
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Kings 15:29",
-          "source": "EAS"
-        },
-        {
-          "book": "Joshua",
-          "chapter": 15,
-          "verses": [
-            23
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 15:23",
-          "source": "EAS"
-        },
-        {
-          "book": "Jeremiah",
-          "chapter": 49,
-          "verses": [
-            28,
-            29,
-            30,
-            31,
-            32,
-            33
-          ],
-          "verse_count": 6,
-          "testament": "OT",
-          "raw": "Jeremiah 49:28-33",
-          "source": "EAS"
-        },
-        {
-          "book": "Joshua",
-          "chapter": 11,
-          "verses": [
-            10,
-            11,
-            12,
-            13
-          ],
-          "verse_count": 4,
-          "testament": "OT",
-          "raw": "Joshua 11:10-13",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(castle)."
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -325,17 +200,5 @@
       "raw": "Joshua 11:10-13",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 20,
-    "ot": 20,
-    "nt": 0,
-    "books": [
-      "1 Samuel",
-      "2 Kings",
-      "Jeremiah",
-      "Joshua",
-      "Judges"
-    ]
-  }
+  ]
 }

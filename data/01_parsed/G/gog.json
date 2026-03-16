@@ -1,7 +1,7 @@
 {
   "topic": "GOG",
   "slug": "gog",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "1. A Reubenite 1Ch 5:4",
@@ -37,17 +37,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_204133",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T20:41:33.112179",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -56,44 +45,8 @@
     "nt_refs": 1,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "(1.) A Reubenite (1 Chr. 5:4), the father of Shimei. (2.) The name of the leader of the hostile party described in Ezek. 38, 39, as coming from the “north country” and assailing the people of Israel to their own destruction. This prophecy has been regarded as fulfilled in the conflicts of the Maccabees with Antiochus, the invasion and overthrow of the Chaldeans, and the temporary successes and destined overthrow of the Turks. But “all these interpretations are unsatisfactory and inadequate. The vision respecting Gog and Magog in the Apocalypse (Rev. 20:8) is in substance a reannouncement of this prophecy of Ezekiel. But while Ezekiel contemplates the great conflict in a more general light as what was certainly to be connected with the times of the Messiah, and should come then to its last decisive issues, John, on the other hand, writing from the commencement of the Messiah’s times, describes there the last struggles and victories of the cause of Christ. In both cases alike the vision describes the final workings of the world’s evil and its results in connection with the kingdom of God, only the starting-point is placed further in advance in the one case than in the other.” It has been supposed to be the name of a district in the wild north-east steppes of Central Asia, north of the Hindu-Kush, now a part of Turkestan, a region about 2,000 miles north-east of Nineveh.",
-      "extracted_refs": [
-        {
-          "book": "1 Chronicles",
-          "chapter": 5,
-          "verses": [
-            4
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 5:4",
-          "source": "EAS"
-        },
-        {
-          "book": "Revelation",
-          "chapter": 20,
-          "verses": [
-            8
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Revelation 20:8",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(mountain)."
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -127,14 +80,5 @@
       "raw": "Revelation 20:8",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 2,
-    "ot": 1,
-    "nt": 1,
-    "books": [
-      "1 Chronicles",
-      "Revelation"
-    ]
-  }
+  ]
 }

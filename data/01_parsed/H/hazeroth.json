@@ -1,7 +1,7 @@
 {
   "topic": "HAZEROTH",
   "slug": "hazeroth",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A station in the journeyings of the people of Israel Nu 11:35; 12:16; 33:17,18; De 1:1",
@@ -27,17 +27,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_212434",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T21:24:34.532368",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -46,136 +35,8 @@
     "nt_refs": 0,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Fenced enclosures consisting of “a low wall of stones in which thick bundles of thorny acacia are inserted, the tangled branches and long needle-like spikes forming a perfectly impenetrable hedge around the encampment” of tents and cattle which they sheltered. Such like enclosures abound in the wilderness of Paran, which the Israelites entered after leaving Sinai (Num. 11:35; 12:16; 33:17, 18). This third encampment of the Israelites has been identified with the modern ‘Ain el-Hudhera, some 40 miles north-east of Sinai. Here Miriam (q.v.), being displeased that Moses had married a Cushite wife (Num. 12:1), induced Aaron to join with her in rebelling against Moses. God vindicated the authority of his “servant Moses,” and Miriam was smitten with leprosy. Moses interceded for her, and she was healed (Num. 12:4-16). From this encampment the Israelites marched northward across the plateau of et-Tih, and at length reached KADESH.",
-      "extracted_refs": [
-        {
-          "book": "Numbers",
-          "chapter": 11,
-          "verses": [
-            35
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Numbers 11:35",
-          "source": "EAS"
-        },
-        {
-          "book": "Numbers",
-          "chapter": 12,
-          "verses": [
-            16
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Numbers 12:16",
-          "source": "EAS"
-        },
-        {
-          "book": "Numbers",
-          "chapter": 33,
-          "verses": [
-            17,
-            18
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Numbers 33:17, 18",
-          "source": "EAS"
-        },
-        {
-          "book": "Numbers",
-          "chapter": 12,
-          "verses": [
-            1
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Numbers 12:1",
-          "source": "EAS"
-        },
-        {
-          "book": "Numbers",
-          "chapter": 12,
-          "verses": [
-            4,
-            5,
-            6,
-            7,
-            8,
-            9,
-            10,
-            11,
-            12,
-            13,
-            14,
-            15,
-            16
-          ],
-          "verse_count": 13,
-          "testament": "OT",
-          "raw": "Numbers 12:4-16",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(villages), (Numbers 11:35; 12:16; 33:17; 1:1) a station of the Israelites in the desert, and perhaps recognizable in the Arabic Ain Hudhera, forty miles northeast of Sinai.",
-      "extracted_refs": [
-        {
-          "book": "Numbers",
-          "chapter": 11,
-          "verses": [
-            35
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Numbers 11:35",
-          "source": "SMI"
-        },
-        {
-          "book": "Numbers",
-          "chapter": 12,
-          "verses": [
-            16
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Numbers 12:16",
-          "source": "SMI"
-        },
-        {
-          "book": "Numbers",
-          "chapter": 33,
-          "verses": [
-            17
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Numbers 33:17",
-          "source": "SMI"
-        },
-        {
-          "book": "Numbers",
-          "chapter": 1,
-          "verses": [
-            1
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Numbers 1:1",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -277,13 +138,5 @@
       "raw": "Numbers 1:1",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 18,
-    "ot": 18,
-    "nt": 0,
-    "books": [
-      "Numbers"
-    ]
-  }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "topic": "NEGINOTH",
   "slug": "neginoth",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "See MUSIC",
@@ -10,17 +10,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_013927",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T01:39:27.360367",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [
     "MUSIC"
   ],
@@ -31,63 +20,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "I.e., songs with instrumental accompaniment, found in the titles of Ps. 4; 6; 54; 55; 67; 76; rendered “stringed instruments,” Hab. 3:19, A.V. It denotes all kinds of stringed instruments, as the “harp,” “psaltery,” “viol,” etc. The “chief musician on Neginoth” is the leader of that part of the temple choir which played on stringed instruments.",
-      "extracted_refs": [
-        {
-          "book": "Habakkuk",
-          "chapter": 3,
-          "verses": [
-            19
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Habakkuk 3:19",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "[Neginah]"
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Psalms 4",
-      "original": "Ps. 4"
-    },
-    {
-      "reference": "Psalms 6",
-      "original": "Ps 6"
-    },
-    {
-      "reference": "Psalms 54",
-      "original": "Ps 54"
-    },
-    {
-      "reference": "Psalms 55",
-      "original": "Ps 55"
-    },
-    {
-      "reference": "Psalms 67",
-      "original": "Ps 67"
-    },
-    {
-      "reference": "Psalms 76",
-      "original": "Ps 76"
-    },
-    {
-      "reference": "Habakkuk 3:19",
-      "original": "Hab. 3:19"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -110,13 +44,5 @@
       "raw": "Habakkuk 3:19",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 1,
-    "ot": 1,
-    "nt": 0,
-    "books": [
-      "Habakkuk"
-    ]
-  }
+  ]
 }

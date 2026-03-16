@@ -1,7 +1,7 @@
 {
   "topic": "ABI",
   "slug": "abi",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Mother of Hezekiah 2Ki 18:2",
@@ -19,208 +19,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "Abi, mãe do rei Ezequias, é mencionada nas Escrituras como uma figura importante na linhagem real de Judá. Seu nome, que também aparece como Abijah, destaca a continuidade da tradição familiar e a importância das mulheres na história bíblica. A referência a ela em 2 Reis 18:2 e 2 Crônicas 29:1 sublinha o papel das mães na formação espiritual e política dos reis de Israel, refletindo a influência que elas tinham sobre a vida e o reinado de seus filhos.",
-    "outline": [
-      "Identificação de Abi como mãe de Ezequias.",
-      "Significado do nome Abijah e sua relação com a linhagem real.",
-      "Importância das mulheres na narrativa bíblica.",
-      "Impacto da influência materna na vida de Ezequias."
-    ],
-    "key_concepts": [
-      "Linhagem real de Judá",
-      "Influência materna",
-      "Tradição familiar"
-    ],
-    "theological_significance": "A figura de Abi destaca a importância das mulheres na história da salvação e na formação do caráter dos líderes. Sua menção nas Escrituras nos lembra que a fé e a devoção a Deus podem ser transmitidas através das gerações, enfatizando o papel vital que as mães desempenham na educação espiritual de seus filhos.",
-    "model": "gpt-4o-mini",
-    "run_id": "enr_20250923_081141_b59382f6",
-    "confidence": 1.0,
-    "generated_at": "2025-09-23T08:11:41.618513"
-  },
-  "ai_themes_normalized": [
-    {
-      "theme_id": null,
-      "proposal_id": "prop:lideranca_e_autoridade_3a0e82",
-      "label_original": "Liderança e autoridade",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:familia_e_heranca_espiritual_13cb31",
-      "label_original": "Família e herança espiritual",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:o_papel_das_mulheres_na_biblia_8bb3dd",
-      "label_original": "O papel das mulheres na Bíblia",
-      "source": "ai_enrichment"
-    }
-  ],
-  "phase1_discovery": {
-    "processed_at": "2025-09-23T23:14:58.014581Z",
-    "total_themes_processed": 3,
-    "summary": {
-      "total_processed": 3,
-      "decisions": {
-        "alias_existing": 0,
-        "proposed": 3,
-        "error": 0
-      },
-      "success_rate": 1.0
-    },
-    "results": [
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.84924,
-          "novelty": 1.0,
-          "similarity_to_best_existing": 0.0,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_dd3d7c8a",
-          "decision_hash": "f7665538391c99b7",
-          "created_at": "2025-09-23T23:14:58.014581Z"
-        },
-        "proposal_id": "prop:db924361",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:lideranca_e_autoridade_3a0e82",
-          "label_original": "Liderança e autoridade",
-          "confidence": 0.9500000000000001,
-          "source": "ai_enrichment"
-        }
-      },
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.7783400000000001,
-          "novelty": 0.75,
-          "similarity_to_best_existing": 0.25,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_996000fb",
-          "decision_hash": "304f7e43a3dcc5a4",
-          "created_at": "2025-09-23T23:14:59.131919Z"
-        },
-        "proposal_id": "prop:ee0b72f8",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:familia_e_heranca_espiritual_13cb31",
-          "label_original": "Família e herança espiritual",
-          "confidence": 0.9500000000000001,
-          "source": "ai_enrichment"
-        }
-      },
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.8321799999999999,
-          "novelty": 1.0,
-          "similarity_to_best_existing": 0.0,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_256a4bcf",
-          "decision_hash": "4834c1d20b139e69",
-          "created_at": "2025-09-23T23:15:00.315823Z"
-        },
-        "proposal_id": "prop:f3b45aab",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:o_papel_das_mulheres_na_biblia_8bb3dd",
-          "label_original": "O papel das mulheres na Bíblia",
-          "confidence": 0.9500000000000001,
-          "source": "ai_enrichment"
-        }
-      }
-    ]
-  },
-  "entity_links": [
-    {
-      "canonical_id": "CON:abi",
-      "namespace": "CONCEPT",
-      "role": "primary",
-      "confidence": 0.9,
-      "source": "topic_resolver",
-      "status": "proposed",
-      "provenance": {
-        "topic": "ABI",
-        "extracted_from": "ABI",
-        "processing_result": {
-          "status": "proposed",
-          "proposal_id": "stub:CON:abi_903fc1a6",
-          "canonical_id": "CON:abi",
-          "needs_review": true,
-          "reasons": [
-            "low_confidence",
-            "insufficient_sources"
-          ],
-          "message": "Entity proposal stub:CON:abi_903fc1a6 created"
-        }
-      }
-    }
-  ],
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -229,49 +27,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "SMI",
-      "text": "mother of King Hezekiah, (2 Kings 18:2) written Abia, Abiah, Or Abijah, Abijah Or Abijam in (2 Chronicles 29:1)",
-      "extracted_refs": [
-        {
-          "book": "2 Kings",
-          "chapter": 18,
-          "verses": [
-            2
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Kings 18:2",
-          "source": "SMI"
-        },
-        {
-          "book": "2 Chronicles",
-          "chapter": 29,
-          "verses": [
-            1
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Chronicles 29:1",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "2 Kings 18:2",
-      "original": "2 Kings 18:2"
-    },
-    {
-      "reference": "2 Chronicles 29:1",
-      "original": "2 Chronicles 29:1"
-    }
-  ],
   "sources": [
-    "NAV",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -305,14 +62,5 @@
       "raw": "2 Chronicles 29:1",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 2,
-    "ot": 2,
-    "nt": 0,
-    "books": [
-      "2 Chronicles",
-      "2 Kings"
-    ]
-  }
+  ]
 }

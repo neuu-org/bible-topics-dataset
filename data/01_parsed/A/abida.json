@@ -1,7 +1,7 @@
 {
   "topic": "ABIDA",
   "slug": "abida",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Son of Midian 1Ch 1:33",
@@ -12,209 +12,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "Abida é mencionado na genealogia de Midian em 1 Crônicas 1:33, onde é listado como um dos filhos de Midian, que por sua vez é um dos filhos de Abraão com Quetura. A inclusão de Abida na genealogia é significativa, pois destaca a descendência de Abraão e a multiplicidade das nações que surgiram de suas linhagens. Isso também reflete a promessa de Deus a Abraão de que ele seria pai de muitas nações, mostrando a importância das alianças e das promessas divinas na história da salvação.",
-    "outline": [
-      "Genealogia de Midian e sua importância na narrativa bíblica",
-      "Relação de Abida com a promessa de Deus a Abraão",
-      "O papel dos midianitas na história de Israel",
-      "A relevância das genealogias na teologia bíblica"
-    ],
-    "key_concepts": [
-      "Genealogia",
-      "Promessa divina",
-      "Nações e povos"
-    ],
-    "theological_significance": "A menção de Abida na genealogia de Midian sublinha a soberania de Deus na formação das nações e a continuidade de Suas promessas. Para a fé cristã, isso reforça a ideia de que Deus está ativamente envolvido na história da humanidade e que as alianças feitas com os patriarcas têm implicações duradouras. A genealogia também nos lembra da diversidade do plano de salvação, que abrange todas as nações.",
-    "model": "gpt-4o-mini",
-    "run_id": "enr_20250923_081233_5714064d",
-    "confidence": 1.0,
-    "generated_at": "2025-09-23T08:12:33.331654"
-  },
-  "ai_themes_normalized": [
-    {
-      "theme_id": null,
-      "proposal_id": "prop:promessa_e_alianca_0414fc",
-      "label_original": "Promessa e aliança",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:genealogias_na_biblia_67b182",
-      "label_original": "Genealogias na Bíblia",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:relacoes_entre_povos_dbe250",
-      "label_original": "Relações entre povos",
-      "source": "ai_enrichment"
-    }
-  ],
-  "phase1_discovery": {
-    "processed_at": "2025-09-23T23:15:19.325080Z",
-    "total_themes_processed": 3,
-    "summary": {
-      "total_processed": 3,
-      "decisions": {
-        "alias_existing": 0,
-        "proposed": 3,
-        "error": 0
-      },
-      "success_rate": 1.0
-    },
-    "results": [
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "low_novelty",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.74032,
-          "novelty": 0.5,
-          "similarity_to_best_existing": 0.5,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_d5e8dbe2",
-          "decision_hash": "416f3bb012cee7af",
-          "created_at": "2025-09-23T23:15:19.325080Z"
-        },
-        "proposal_id": "prop:515c1d9d",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:promessa_e_alianca_0414fc",
-          "label_original": "Promessa e aliança",
-          "confidence": 0.9500000000000001,
-          "source": "ai_enrichment"
-        }
-      },
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.8466199999999999,
-          "novelty": 1.0,
-          "similarity_to_best_existing": 0.0,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_532800ee",
-          "decision_hash": "9100aa8d8188a373",
-          "created_at": "2025-09-23T23:15:19.800635Z"
-        },
-        "proposal_id": "prop:ce94200f",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:genealogias_na_biblia_67b182",
-          "label_original": "Genealogias na Bíblia",
-          "confidence": 0.9500000000000001,
-          "source": "ai_enrichment"
-        }
-      },
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.8349799999999999,
-          "novelty": 1.0,
-          "similarity_to_best_existing": 0.0,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_35e1ff26",
-          "decision_hash": "83690f721f75525f",
-          "created_at": "2025-09-23T23:15:20.773879Z"
-        },
-        "proposal_id": "prop:b2afc467",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:relacoes_entre_povos_dbe250",
-          "label_original": "Relações entre povos",
-          "confidence": 0.9500000000000001,
-          "source": "ai_enrichment"
-        }
-      }
-    ]
-  },
-  "entity_links": [
-    {
-      "canonical_id": "CON:abida",
-      "namespace": "CONCEPT",
-      "role": "primary",
-      "confidence": 0.9,
-      "source": "topic_resolver",
-      "status": "proposed",
-      "provenance": {
-        "topic": "ABIDA",
-        "extracted_from": "ABIDA",
-        "processing_result": {
-          "status": "proposed",
-          "proposal_id": "stub:CON:abida_542c9e98",
-          "canonical_id": "CON:abida",
-          "needs_review": true,
-          "reasons": [
-            "low_confidence",
-            "insufficient_sources"
-          ],
-          "message": "Entity proposal stub:CON:abida_542c9e98 created"
-        }
-      }
-    }
-  ],
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -223,34 +20,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Or Abi’dah, father of knowledge; knowing, one of the five sons of Midian, who was the son of Abraham by Keturah (1 Chr. 1:33), and apparently the chief of an Arab tribe.",
-      "extracted_refs": [
-        {
-          "book": "1 Chronicles",
-          "chapter": 1,
-          "verses": [
-            33
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 1:33",
-          "source": "EAS"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "1 Chronicles 1:33",
-      "original": "1 Chr. 1:33"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -273,13 +44,5 @@
       "raw": "1 Chronicles 1:33",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 1,
-    "ot": 1,
-    "nt": 0,
-    "books": [
-      "1 Chronicles"
-    ]
-  }
+  ]
 }

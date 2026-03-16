@@ -1,7 +1,7 @@
 {
   "topic": "MATTANIAH",
   "slug": "mattaniah",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "1. Original name of Zedekiah, king of Judah 2Ki 24:17",
@@ -63,17 +63,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_004127",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T00:41:27.206651",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [
     "ZEDEKIAH"
   ],
@@ -84,56 +73,8 @@
     "nt_refs": 0,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Gift of Jehovah. (1.) A Levite, son of Heman, the chief of the ninth class of temple singers (1 Chr. 25:4, 16). (2.) A Levite who assisted in purifying the temple at the reformation under Hezekiah (2 Chr. 29:13). (3.) The original name of Zedekiah (q.v.), the last of the kings of Judah (2 Kings 24:17). He was the third son of Josiah, who fell at Megiddo. He succeeded his nephew Jehoiakin.",
-      "extracted_refs": [
-        {
-          "book": "1 Chronicles",
-          "chapter": 25,
-          "verses": [
-            4,
-            16
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "1 Chronicles 25:4, 16",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Chronicles",
-          "chapter": 29,
-          "verses": [
-            13
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Chronicles 29:13",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Kings",
-          "chapter": 24,
-          "verses": [
-            17
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Kings 24:17",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(gift of Jehovah)."
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -179,15 +120,5 @@
       "raw": "2 Kings 24:17",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 4,
-    "ot": 4,
-    "nt": 0,
-    "books": [
-      "1 Chronicles",
-      "2 Chronicles",
-      "2 Kings"
-    ]
-  }
+  ]
 }

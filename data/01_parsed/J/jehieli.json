@@ -1,7 +1,7 @@
 {
   "topic": "JEHIELI",
   "slug": "jehieli",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Son of Laadan 1Ch 26:21,22",
@@ -13,17 +13,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_230058",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T23:00:58.511818",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -32,39 +21,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "SMI",
-      "text": "(a Jehielite), according to the Authorized Version a Gershonite Levite of the family of Laadan. (1 Chronicles 26:21,22)",
-      "extracted_refs": [
-        {
-          "book": "1 Chronicles",
-          "chapter": 26,
-          "verses": [
-            21,
-            22
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "1 Chronicles 26:21,22",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "1 Chronicles 26:21",
-      "original": "1 Chronicles 26:21"
-    },
-    {
-      "reference": "1 Chronicles 26:22",
-      "original": "1 Chronicles 26:22"
-    }
-  ],
   "sources": [
-    "NAV",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -88,13 +46,5 @@
       "raw": "1 Chronicles 26:21,22",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 2,
-    "ot": 2,
-    "nt": 0,
-    "books": [
-      "1 Chronicles"
-    ]
-  }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "topic": "MIZAR",
   "slug": "mizar",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A hill Ps 42:6",
@@ -12,17 +12,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_011745",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T01:17:45.965733",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -31,43 +20,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Smallness, a summit on the eastern ridge of Lebanon, near which David lay after escaping from Absalom (Ps. 42:6). It may, perhaps, be the present Jebel Ajlun, thus named, “the little”, in contrast with the greater elevation of Lebanon and Hermon.",
-      "extracted_refs": [
-        {
-          "book": "Psalms",
-          "chapter": 42,
-          "verses": [
-            6
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Psalms 42:6",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(small), The hill, a mountain apparently in the northern part of transjordanic Palestine, from which the author of Psalm 42 utters his pathetic appeal. ver. 6. (It is probably a summit of the eastern ridge of Lebanon, not far from Mahanaim, where David lay after escaping from the rebellion of Absalom.—McClintock and Strong.)"
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Psalms 42:6",
-      "original": "Ps. 42:6"
-    },
-    {
-      "reference": "Psalms 42",
-      "original": "Psalm 42"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -90,13 +44,5 @@
       "raw": "Psalms 42:6",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 1,
-    "ot": 1,
-    "nt": 0,
-    "books": [
-      "Psalms"
-    ]
-  }
+  ]
 }

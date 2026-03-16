@@ -1,7 +1,7 @@
 {
   "topic": "MILETUS",
   "slug": "miletus",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Also called MILETUM",
@@ -36,17 +36,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_010826",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T01:08:26.094475",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -55,118 +44,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "(Miletum, 2 Tim. 4:20), a seaport town and the ancient capital of Ionia, about 36 miles south of Ephesus. On his voyage from Greece to Syria, Paul touched at this port, and delivered that noble and pathetic address to the elders (“presbyters,” ver. 28) of Ephesus recorded in Acts 20:15-35. The site of Miletus is now some 10 miles from the coast. (See EPHESIANS, EPISTLE TO.)",
-      "extracted_refs": [
-        {
-          "book": "2 Timothy",
-          "chapter": 4,
-          "verses": [
-            20
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "2 Timothy 4:20",
-          "source": "EAS"
-        },
-        {
-          "book": "Acts",
-          "chapter": 20,
-          "verses": [
-            15,
-            16,
-            17,
-            18,
-            19,
-            20,
-            21,
-            22,
-            23,
-            24,
-            25,
-            26,
-            27,
-            28,
-            29,
-            30,
-            31,
-            32,
-            33,
-            34,
-            35
-          ],
-          "verse_count": 21,
-          "testament": "NT",
-          "raw": "Acts 20:15-35",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(Acts 20:15,17) less correctly called MILETUM in (2 Timothy 4:20) It lay on the coast, 36 miles to the south of Ephesus, a day’s sail from Trogyllium. (Acts 20:15) Moreover, to those who are sailing from the north it is in the direct line for Cos. The site of Miletus has now receded ten miles from the coast, and even in the apostles’ time it must have lost its strictly maritime position. Miletus was far more famous five hundred years before St. Paul’s day than it ever became afterward. In early times it was the most flourishing city of the Ionian Greeks. In the natural order of events it was absorbed in the Persian empire. After a brief period of spirited independence, it received a blow from which it never recovered, in the siege conducted by Alexander when on his eastern campaign. But still it held, even through the Roman period, the rank of a second-rate trading town, and Strabo mentions its four harbors. At this time it was politically in the province of Asia, though Caria was the old ethnological name of the district in which it was situated. All that is left now is a small Turkish village called Melas, near the site of the ancient city.",
-      "extracted_refs": [
-        {
-          "book": "Acts",
-          "chapter": 20,
-          "verses": [
-            15,
-            17
-          ],
-          "verse_count": 2,
-          "testament": "NT",
-          "raw": "Acts 20:15,17",
-          "source": "SMI"
-        },
-        {
-          "book": "2 Timothy",
-          "chapter": 4,
-          "verses": [
-            20
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "2 Timothy 4:20",
-          "source": "SMI"
-        },
-        {
-          "book": "Acts",
-          "chapter": 20,
-          "verses": [
-            15
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Acts 20:15",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "2 Timothy 4:20",
-      "original": "2 Tim. 4:20"
-    },
-    {
-      "reference": "Acts 20:15-35",
-      "original": "Acts 20:15-35"
-    },
-    {
-      "reference": "Acts 20:15",
-      "original": "Acts 20:15"
-    },
-    {
-      "reference": "Acts 20:17",
-      "original": "Acts 20:17"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -243,14 +122,5 @@
       "raw": "Acts 20:15",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 22,
-    "ot": 0,
-    "nt": 22,
-    "books": [
-      "2 Timothy",
-      "Acts"
-    ]
-  }
+  ]
 }

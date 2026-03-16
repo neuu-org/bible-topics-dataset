@@ -1,7 +1,7 @@
 {
   "topic": "ISCAH",
   "slug": "iscah",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Daughter of Haran and sister of Lot Ge 11:29",
@@ -12,17 +12,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_223533",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T22:35:33.999415",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -31,57 +20,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Spy, the daughter of Haran and sister of Milcah and Lot (Gen. 11:29, 31).",
-      "extracted_refs": [
-        {
-          "book": "Genesis",
-          "chapter": 11,
-          "verses": [
-            29,
-            31
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Genesis 11:29, 31",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(one who looks forth), daughter of Haran the brother of Abram, and sister of Milcah and of Lot. (Genesis 11:29) In the Jewish traditions she is identified with Sarai. (B.C. about 1920.)",
-      "extracted_refs": [
-        {
-          "book": "Genesis",
-          "chapter": 11,
-          "verses": [
-            29
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 11:29",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Genesis 11:29",
-      "original": "Gen. 11:29"
-    },
-    {
-      "reference": "Genesis 11:31",
-      "original": "Gen 11:31"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -116,13 +56,5 @@
       "raw": "Genesis 11:29",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 2,
-    "ot": 2,
-    "nt": 0,
-    "books": [
-      "Genesis"
-    ]
-  }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "topic": "HELMET",
   "slug": "helmet",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A defensive head-gear worn by soldiers 1Sa 17:5,38; 2Ch 26:14; Jer 46:4; Eze 23:24",
@@ -77,17 +77,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_213208",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T21:32:08.907870",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -96,56 +85,8 @@
     "nt_refs": 2,
     "total_verses": 5
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "(Heb. kob’a), a cap for the defence of the head (1 Sam. 17:5, 38). In the New Testament the Greek equivalent is used (Eph. 6:17; 1 Thess. 5:8). (See ARMS.)",
-      "extracted_refs": [
-        {
-          "book": "1 Samuel",
-          "chapter": 17,
-          "verses": [
-            5,
-            38
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "1 Samuel 17:5, 38",
-          "source": "EAS"
-        },
-        {
-          "book": "Ephesians",
-          "chapter": 6,
-          "verses": [
-            17
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Ephesians 6:17",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Thessalonians",
-          "chapter": 5,
-          "verses": [
-            8
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "1 Thessalonians 5:8",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "[Arms, Armor]"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -191,15 +132,5 @@
       "raw": "1 Thessalonians 5:8",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 4,
-    "ot": 2,
-    "nt": 2,
-    "books": [
-      "1 Samuel",
-      "1 Thessalonians",
-      "Ephesians"
-    ]
-  }
+  ]
 }

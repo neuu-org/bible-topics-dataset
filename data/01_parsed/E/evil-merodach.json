@@ -1,7 +1,7 @@
 {
   "topic": "EVIL-MERODACH",
   "slug": "evil-merodach",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "(Son and successor of King Nebuchadnezzar)",
@@ -32,25 +32,6 @@
       "verse_count": 4
     }
   ],
-  "ai_enrichment": {
-    "summary": "Evil-Merodach, filho e sucessor do rei Nabucodonosor, é uma figura bíblica mencionada em 2 Reis e Jeremias. Ele é notável por ter libertado Jeoiaquim da prisão, um ato que simboliza um momento de restauração e esperança para o povo de Judá após o exílio babilônico. Sua breve menção na narrativa bíblica destaca a continuidade da história de Israel e a intervenção divina na vida dos exilados.",
-    "outline": [
-      "Evil-Merodach como filho e sucessor de Nabucodonosor",
-      "Libertação de Jeoiaquim da prisão",
-      "Importância do ato de libertação no contexto do exílio",
-      "Referências bíblicas em 2 Reis e Jeremias"
-    ],
-    "key_concepts": [
-      "Restauração após o exílio",
-      "Intervenção divina na história",
-      "Esperança para o povo de Deus"
-    ],
-    "theological_significance": "A libertação de Jeoiaquim por Evil-Merodach representa um ato de misericórdia e restauração, refletindo a fidelidade de Deus para com seu povo mesmo em tempos de adversidade. Este evento é um lembrete da soberania de Deus sobre as nações e da esperança de redenção para aqueles que estão em cativeiro.",
-    "model": "gpt-4o-mini",
-    "run_id": "enr_20251202_152401_e68f3d11",
-    "confidence": 1.0,
-    "generated_at": "2025-12-02T15:24:01.718813"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -59,52 +40,8 @@
     "nt_refs": 0,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Merodach’s man, the son and successor of Nebuchadnezzar, king of Babylon (2 Kings 25:27; Jer. 52:31, 34). He seems to have reigned but two years (B.C. 562-560). Influenced probably by Daniel, he showed kindness to Jehoiachin, who had been a prisoner in Babylon for thirty-seven years. He released him, and “spoke kindly to him.” He was murdered by Nergal-sharezer=Neriglissar, his brother-in-law, who succeeded him (Jer. 39:3, 13).",
-      "extracted_refs": [
-        {
-          "book": "2 Kings",
-          "chapter": 25,
-          "verses": [
-            27
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Kings 25:27",
-          "source": "EAS"
-        },
-        {
-          "book": "Jeremiah",
-          "chapter": 52,
-          "verses": [
-            31,
-            34
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Jeremiah 52:31, 34",
-          "source": "EAS"
-        },
-        {
-          "book": "Jeremiah",
-          "chapter": 39,
-          "verses": [
-            3,
-            13
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Jeremiah 39:3, 13",
-          "source": "EAS"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -117,26 +54,6 @@
     "enrichment_source": "pipeline_merge"
   },
   "version": "3.0.0",
-  "ai_themes_normalized": [
-    {
-      "theme_id": null,
-      "proposal_id": "prop:restauração_divina_a_07ffe9",
-      "label_original": "Restauração divina após o exílio",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:soberania_de_deus_so_048e9a",
-      "label_original": "Soberania de Deus sobre os reinos",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:misericórdia_em_temp_0c9a2d",
-      "label_original": "Misericórdia em tempos de crise",
-      "source": "ai_enrichment"
-    }
-  ],
   "definition_refs": [
     {
       "book": "2 Kings",
@@ -173,14 +90,5 @@
       "raw": "Jeremiah 39:3, 13",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 5,
-    "ot": 5,
-    "nt": 0,
-    "books": [
-      "2 Kings",
-      "Jeremiah"
-    ]
-  }
+  ]
 }

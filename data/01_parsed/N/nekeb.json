@@ -1,7 +1,7 @@
 {
   "topic": "NEKEB",
   "slug": "nekeb",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A city in territory of the tribe of Naphtali Jos 19:33",
@@ -12,17 +12,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_014050",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T01:40:50.584379",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -31,56 +20,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Cavern, a town on the boundary of Naphtali (Josh. 19:33). It has with probability, been identified with Seiyadeh, nearly 2 miles east of Bessum, a ruin half way between Tiberias and Mount Tabor.",
-      "extracted_refs": [
-        {
-          "book": "Joshua",
-          "chapter": 19,
-          "verses": [
-            33
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 19:33",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(cavern), one of the towns on the boundary of Naphtali. (Joshua 19:3) It lay between Adami and Jabneel. A great number of commentators have taken this name as being connected with the preceding.",
-      "extracted_refs": [
-        {
-          "book": "Joshua",
-          "chapter": 19,
-          "verses": [
-            3
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 19:3",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Joshua 19:33",
-      "original": "Josh. 19:33"
-    },
-    {
-      "reference": "Joshua 19:3",
-      "original": "Joshua 19:3"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -114,13 +55,5 @@
       "raw": "Joshua 19:3",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 2,
-    "ot": 2,
-    "nt": 0,
-    "books": [
-      "Joshua"
-    ]
-  }
+  ]
 }

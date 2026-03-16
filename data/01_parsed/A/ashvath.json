@@ -1,7 +1,7 @@
 {
   "topic": "ASHVATH",
   "slug": "ashvath",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Son of Japhlet 1Ch 7:33",
@@ -12,208 +12,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "Ashvath, mencionado em 1 Crônicas 7:33 como filho de Japhlet, representa uma das muitas linhagens que compõem a genealogia de Israel. Embora pouco se saiba sobre sua vida ou feitos, sua inclusão nas genealogias bíblicas destaca a importância da herança e da continuidade familiar na história do povo de Deus. A genealogia não apenas traça a linhagem física, mas também espiritual, mostrando como Deus trabalha através das gerações para cumprir Suas promessas.",
-    "outline": [
-      "Genealogia de Japhlet e sua importância na narrativa bíblica",
-      "O papel de Ashvath na linhagem de Efraim",
-      "A relevância das genealogias no contexto da história de Israel",
-      "A conexão entre linhagens e a promessa messiânica"
-    ],
-    "key_concepts": [
-      "Genealogia",
-      "Herança espiritual",
-      "Promessa de Deus"
-    ],
-    "theological_significance": "A menção de Ashvath na genealogia de Japhlet enfatiza a importância da continuidade da fé e da identidade do povo de Deus. Para os cristãos, isso ressalta a ideia de que cada geração é chamada a viver e transmitir a fé, reconhecendo que Deus opera através da história e das famílias para realizar Seus propósitos. A genealogia também aponta para a vinda do Messias, que é um descendente de Abraão, Isaque e Jacó, ligando a história de Israel à salvação oferecida em Cristo.",
-    "model": "gpt-4o-mini",
-    "run_id": "enr_20250923_144741_88fcee9a",
-    "confidence": 1.0,
-    "generated_at": "2025-09-23T14:47:41.976379"
-  },
-  "ai_themes_normalized": [
-    {
-      "theme_id": null,
-      "proposal_id": "prop:promessa_e_cumprimento_32006a",
-      "label_original": "Promessa e cumprimento",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:identidade_e_heranca_6742ac",
-      "label_original": "Identidade e herança",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:acao_de_deus_na_historia_17b80a",
-      "label_original": "Ação de Deus na história",
-      "source": "ai_enrichment"
-    }
-  ],
-  "phase1_discovery": {
-    "processed_at": "2025-09-23T22:54:23.615774Z",
-    "total_themes_processed": 3,
-    "summary": {
-      "total_processed": 3,
-      "decisions": {
-        "alias_existing": 0,
-        "proposed": 3,
-        "error": 0
-      },
-      "success_rate": 1.0
-    },
-    "results": [
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.8401,
-          "novelty": 1.0,
-          "similarity_to_best_existing": 0.0,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_7a780fc1",
-          "decision_hash": "4779c03f37ca4e8e",
-          "created_at": "2025-09-23T22:54:23.615774Z"
-        },
-        "proposal_id": "prop:3e10d96d",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:promessa_e_cumprimento_32006a",
-          "label_original": "Promessa e cumprimento",
-          "confidence": 0.5336000000000001,
-          "source": "ai_enrichment"
-        }
-      },
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.84368,
-          "novelty": 1.0,
-          "similarity_to_best_existing": 0.0,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_5564c519",
-          "decision_hash": "1dbc77b1fb1c51bc",
-          "created_at": "2025-09-23T22:54:24.726713Z"
-        },
-        "proposal_id": "prop:140cab7c",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:identidade_e_heranca_6742ac",
-          "label_original": "Identidade e herança",
-          "confidence": 0.5222000000000001,
-          "source": "ai_enrichment"
-        }
-      },
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.8477,
-          "novelty": 1.0,
-          "similarity_to_best_existing": 0.0,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_7d721aba",
-          "decision_hash": "511039c7b35903f0",
-          "created_at": "2025-09-23T22:54:25.909674Z"
-        },
-        "proposal_id": "prop:880fbfed",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:acao_de_deus_na_historia_17b80a",
-          "label_original": "Ação de Deus na história",
-          "confidence": 0.57352,
-          "source": "ai_enrichment"
-        }
-      }
-    ]
-  },
-  "entity_links": [
-    {
-      "canonical_id": "CON:ashvath",
-      "namespace": "CONCEPT",
-      "role": "primary",
-      "confidence": 0.9,
-      "source": "topic_resolver",
-      "status": "proposed",
-      "provenance": {
-        "topic": "ASHVATH",
-        "extracted_from": "ASHVATH",
-        "processing_result": {
-          "status": "proposed",
-          "proposal_id": "stub:CON:ashvath_c5b40149",
-          "canonical_id": "CON:ashvath",
-          "needs_review": true,
-          "reasons": [
-            "low_confidence",
-            "insufficient_sources"
-          ],
-          "message": "Entity proposal stub:CON:ashvath_c5b40149 created"
-        }
-      }
-    }
-  ],
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -222,34 +20,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "SMI",
-      "text": "One of the sons of Japhlet, of the tribe of Asher. (1 Chronicles 7:33)",
-      "extracted_refs": [
-        {
-          "book": "1 Chronicles",
-          "chapter": 7,
-          "verses": [
-            33
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 7:33",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "1 Chronicles 7:33",
-      "original": "1 Chronicles 7:33"
-    }
-  ],
   "sources": [
-    "NAV",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -272,13 +44,5 @@
       "raw": "1 Chronicles 7:33",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 1,
-    "ot": 1,
-    "nt": 0,
-    "books": [
-      "1 Chronicles"
-    ]
-  }
+  ]
 }

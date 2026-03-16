@@ -1,7 +1,7 @@
 {
   "topic": "HUZZAB",
   "slug": "huzzab",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Probably a region east of the Tigris Na 2:7",
@@ -12,17 +12,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_221332",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T22:13:32.856471",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -31,34 +20,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "SMI",
-      "text": "(fixed), according to the general opinion of the Jews, was the queen of Nineveh at the time when Nahum delivered his prophecy. (Nahum 2:7) (B.C. about 700.) The moderns follow the rendering in the margin of our English Bible—“that which was established.” Still it is not improbable that after all Huzzab may really be a proper name. It may mean “the Zab country,” or the fertile tract east of the Tigris, watered by the upper and lower Zab rivers.",
-      "extracted_refs": [
-        {
-          "book": "Nahum",
-          "chapter": 2,
-          "verses": [
-            7
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Nahum 2:7",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Nahum 2:7",
-      "original": "Nahum 2:7"
-    }
-  ],
   "sources": [
-    "NAV",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -81,13 +44,5 @@
       "raw": "Nahum 2:7",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 1,
-    "ot": 1,
-    "nt": 0,
-    "books": [
-      "Nahum"
-    ]
-  }
+  ]
 }

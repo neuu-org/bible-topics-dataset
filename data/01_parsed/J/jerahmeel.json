@@ -1,7 +1,7 @@
 {
   "topic": "JERAHMEEL",
   "slug": "jerahmeel",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "1. Son of Hezron 1Ch 2:9",
@@ -26,17 +26,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_230832",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T23:08:32.957085",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -45,99 +34,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Loving God. (1.) The son of Hezron, the brother of Caleb (1 Chr. 2:9, 25, 26, etc.). (2.) The son of Kish, a Levite (1 Chr. 24:29). (3.) Son of Hammelech (Jer. 36:26).",
-      "extracted_refs": [
-        {
-          "book": "1 Chronicles",
-          "chapter": 2,
-          "verses": [
-            9,
-            25,
-            26
-          ],
-          "verse_count": 3,
-          "testament": "OT",
-          "raw": "1 Chronicles 2:9, 25, 26",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Chronicles",
-          "chapter": 24,
-          "verses": [
-            29
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 24:29",
-          "source": "EAS"
-        },
-        {
-          "book": "Jeremiah",
-          "chapter": 36,
-          "verses": [
-            26
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Jeremiah 36:26",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(mercy of God)."
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "1 Chronicles 2:9",
-      "original": "1 Chr. 2:9"
-    },
-    {
-      "reference": "1 Chronicles 2:25",
-      "original": "1 Chr. 2:25"
-    },
-    {
-      "reference": "1 Chronicles 2:26",
-      "original": "1 Chr. 2:26"
-    },
-    {
-      "reference": "1 Chronicles 24:29",
-      "original": "1 Chr. 24:29"
-    },
-    {
-      "reference": "Jeremiah 36:26",
-      "original": "Jer. 36:26"
-    },
-    {
-      "reference": "1 Chronicles 2:25-27",
-      "original": "1 Chronicles 2:25-27"
-    },
-    {
-      "reference": "1 Chronicles 2:33",
-      "original": "1 Chronicles 2:33"
-    },
-    {
-      "reference": "1 Chronicles 2:42",
-      "original": "1 Chronicles 2:42"
-    },
-    {
-      "reference": "1 Samuel 27:10",
-      "original": "1 Samuel 27:10"
-    },
-    {
-      "reference": "1 Chronicles 23:21",
-      "original": "1Chr 23:21"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -184,14 +82,5 @@
       "raw": "Jeremiah 36:26",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 5,
-    "ot": 5,
-    "nt": 0,
-    "books": [
-      "1 Chronicles",
-      "Jeremiah"
-    ]
-  }
+  ]
 }

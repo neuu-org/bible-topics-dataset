@@ -1,7 +1,7 @@
 {
   "topic": "AHISHAHAR",
   "slug": "ahishahar",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Son of Bilhan 1Ch 7:10",
@@ -12,208 +12,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "Ahishahar é mencionado em 1 Crônicas 7:10 como filho de Bilhan, um dos descendentes de Benjamim. Embora a Bíblia não forneça muitos detalhes sobre sua vida ou ações, sua inclusão na genealogia benjamita destaca a importância das linhagens e das promessas de Deus ao povo de Israel. A genealogia serve para reafirmar a identidade e a herança do povo escolhido, mostrando como cada indivíduo, mesmo os menos conhecidos, faz parte do plano divino.",
-    "outline": [
-      "Genealogia de Benjamim e sua importância na história de Israel",
-      "Relação de Ahishahar com Bilhan e a tribo de Benjamim",
-      "O papel das genealogias na narrativa bíblica",
-      "A relevância da linhagem na compreensão das promessas de Deus"
-    ],
-    "key_concepts": [
-      "Genealogia",
-      "Promessa divina",
-      "Identidade israelita"
-    ],
-    "theological_significance": "A menção de Ahishahar, embora breve, ilustra a continuidade da história da salvação e a importância de cada membro da comunidade de fé. Para os cristãos, isso reforça a ideia de que todos têm um papel no plano de Deus, e que a herança espiritual é fundamental para a compreensão da identidade em Cristo.",
-    "model": "gpt-4o-mini",
-    "run_id": "enr_20250923_123700_2d13c5f0",
-    "confidence": 1.0,
-    "generated_at": "2025-09-23T12:37:00.081944"
-  },
-  "ai_themes_normalized": [
-    {
-      "theme_id": null,
-      "proposal_id": "prop:identidade_e_heranca_2cc0dd",
-      "label_original": "Identidade e herança",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:promessas_de_deus_604773",
-      "label_original": "Promessas de Deus",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:a_importancia_das_linhagens_231943",
-      "label_original": "A importância das linhagens",
-      "source": "ai_enrichment"
-    }
-  ],
-  "phase1_discovery": {
-    "processed_at": "2025-09-23T22:37:27.013153Z",
-    "total_themes_processed": 3,
-    "summary": {
-      "total_processed": 3,
-      "decisions": {
-        "alias_existing": 0,
-        "proposed": 3,
-        "error": 0
-      },
-      "success_rate": 1.0
-    },
-    "results": [
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.84368,
-          "novelty": 1.0,
-          "similarity_to_best_existing": 0.0,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_2839b026",
-          "decision_hash": "1dbc77b1fb1c51bc",
-          "created_at": "2025-09-23T22:37:27.013153Z"
-        },
-        "proposal_id": "prop:f0431c2c",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:identidade_e_heranca_2cc0dd",
-          "label_original": "Identidade e herança",
-          "confidence": 0.9500000000000001,
-          "source": "ai_enrichment"
-        }
-      },
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.84448,
-          "novelty": 1.0,
-          "similarity_to_best_existing": 0.0,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_b24a48a3",
-          "decision_hash": "29b2109209960ae3",
-          "created_at": "2025-09-23T22:37:28.137363Z"
-        },
-        "proposal_id": "prop:26950f9d",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:promessas_de_deus_604773",
-          "label_original": "Promessas de Deus",
-          "confidence": 0.9500000000000001,
-          "source": "ai_enrichment"
-        }
-      },
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.84512,
-          "novelty": 1.0,
-          "similarity_to_best_existing": 0.0,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_58211dc8",
-          "decision_hash": "82d01f32b35ad909",
-          "created_at": "2025-09-23T22:37:29.247095Z"
-        },
-        "proposal_id": "prop:de893dc4",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:a_importancia_das_linhagens_231943",
-          "label_original": "A importância das linhagens",
-          "confidence": 0.9500000000000001,
-          "source": "ai_enrichment"
-        }
-      }
-    ]
-  },
-  "entity_links": [
-    {
-      "canonical_id": "CON:ahishahar",
-      "namespace": "CONCEPT",
-      "role": "primary",
-      "confidence": 0.9,
-      "source": "topic_resolver",
-      "status": "proposed",
-      "provenance": {
-        "topic": "AHISHAHAR",
-        "extracted_from": "AHISHAHAR",
-        "processing_result": {
-          "status": "proposed",
-          "proposal_id": "stub:CON:ahishahar_7d2c887c",
-          "canonical_id": "CON:ahishahar",
-          "needs_review": true,
-          "reasons": [
-            "low_confidence",
-            "insufficient_sources"
-          ],
-          "message": "Entity proposal stub:CON:ahishahar_7d2c887c created"
-        }
-      }
-    }
-  ],
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -222,34 +20,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "SMI",
-      "text": "(brother of the dawn), one of the sons of Bilhan, the grandson of Benjamin. (1 Chronicles 7:10)",
-      "extracted_refs": [
-        {
-          "book": "1 Chronicles",
-          "chapter": 7,
-          "verses": [
-            10
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 7:10",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "1 Chronicles 7:10",
-      "original": "1 Chronicles 7:10"
-    }
-  ],
   "sources": [
-    "NAV",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -272,13 +44,5 @@
       "raw": "1 Chronicles 7:10",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 1,
-    "ot": 1,
-    "nt": 0,
-    "books": [
-      "1 Chronicles"
-    ]
-  }
+  ]
 }

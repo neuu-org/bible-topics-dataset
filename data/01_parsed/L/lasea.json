@@ -1,7 +1,7 @@
 {
   "topic": "LASEA",
   "slug": "lasea",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A city of Crete Ac 27:8",
@@ -12,17 +12,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_235513",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T23:55:13.990733",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -31,34 +20,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "SMI",
-      "text": "(Acts 27:8) a city of Crete, the ruins of which were discovered in 1856, a few miles to the eastward of Fair Havens.",
-      "extracted_refs": [
-        {
-          "book": "Acts",
-          "chapter": 27,
-          "verses": [
-            8
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Acts 27:8",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Acts 27:8",
-      "original": "Acts 27:8"
-    }
-  ],
   "sources": [
-    "NAV",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -81,13 +44,5 @@
       "raw": "Acts 27:8",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 1,
-    "ot": 0,
-    "nt": 1,
-    "books": [
-      "Acts"
-    ]
-  }
+  ]
 }

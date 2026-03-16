@@ -1,7 +1,7 @@
 {
   "topic": "HATITA",
   "slug": "hatita",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A porter of the temple Ezr 2:42; Ne 7:45",
@@ -24,17 +24,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_211948",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T21:19:48.236915",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -43,57 +32,8 @@
     "nt_refs": 0,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Exploration, one of the temple porters or janitors (Ezra 2:42). He returned from Babylon with Zerubbabel.",
-      "extracted_refs": [
-        {
-          "book": "Ezra",
-          "chapter": 2,
-          "verses": [
-            42
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Ezra 2:42",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(exploring). Bene-Hatita (i.e. sons of Hatita) were among the “porters” (i.e. the gate-keepers) who returned from the captivity with Zerubbabel. (Ezra 2:42; Nehemiah 7:45) (B.C. 536.)",
-      "extracted_refs": [
-        {
-          "book": "Ezra",
-          "chapter": 2,
-          "verses": [
-            42
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Ezra 2:42",
-          "source": "SMI"
-        },
-        {
-          "book": "Nehemiah",
-          "chapter": 7,
-          "verses": [
-            45
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Nehemiah 7:45",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -127,14 +67,5 @@
       "raw": "Nehemiah 7:45",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 2,
-    "ot": 2,
-    "nt": 0,
-    "books": [
-      "Ezra",
-      "Nehemiah"
-    ]
-  }
+  ]
 }

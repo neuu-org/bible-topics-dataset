@@ -1,7 +1,7 @@
 {
   "topic": "HOSPITALITY",
   "slug": "hospitality",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "General scriptures concerning Ex 22:21; 23:9; Le 19:10,33,34; 24:22; De 10:18,19; 26:12,13; 27:19; Pr 9:1-5; 23:6-8; Isa 58:6,7; Mt 22:2-10; 25:34-46; Lu 14:12-14; Ro 12:13; 16:1,2; 1Ti 3:2; 5:10; Tit 1:7,8; Heb 13:2; 1Pe 4:9,11; 3Jo 1:5-8",
@@ -759,17 +759,6 @@
       "verse_count": 4
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_220742",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T22:07:42.769271",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [
     "FEASTS",
     "GUEST",
@@ -784,208 +773,9 @@
     "ot_refs": 16,
     "nt_refs": 17
   },
-  "definitions": [
-    {
-      "source": "SMI",
-      "text": "Hospitality was regarded by most nations of the ancient world as one of the chief virtues. The Jewish laws respecting strangers (Leviticus 19:33,34) and the poor, (Leviticus 23:14) seq. Deuteronomy 15:7 And concerning redemption (Leviticus 25:23) seq., etc. are framed in accordance with the spirit of hospitality. In the law compassion to strangers is constantly enforced by the words “for ye were strangers in the land of Egypt.” (Leviticus 19:34) And before the law, Abraham’s entertainment of the angels, (Genesis 18:1) seq., and Lot’s, (Genesis 19:1) are in exact agreement with its precepts, and with modern usage. Comp. (Exodus 2:20; Judges 13:15; 19:17,20,21) In the New Testament hospitality is yet more markedly enjoined; and in the more civilized state of society which then prevailed, its exercise became more a social virtue than a necessity of patriarchal life. The good Samaritan stands for all ages as an example of Christian hospitality. The neglect of Christ is symbolized by inhospitality to our neighbors. (Matthew 25:43) The apostles urged the Church to “follow after hospitality,” (Romans 12:13) cf. 1Tim 5:10 To remember Abraham’s example, (Hebrews 13:2) to “use hospitality one to another without grudging,” (1 Peter 4:9) while a bishop must be a “lover of hospitality (Titus 1:8) cf. 1Tim 3:2 The practice of the early Christians was in accord with these precepts. They had all things in common, and their hospitality was a characteristic of their belief. In the patriarchal ages we may take Abraham’s example as the most fitting, as we have of it the fullest account. “The account,” says Mr. Lane, “of Abraham’s entertaining the three angels related in the Bible, presents a perfect picture of the manner in which a modern Bedawee sheikh receives travellers arriving at his encampment.” The Oriental respect for the covenant of bread and salt, or salt alone, certainly sprang from the high regard in which hospitality was held.",
-      "extracted_refs": [
-        {
-          "book": "Leviticus",
-          "chapter": 19,
-          "verses": [
-            33,
-            34
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Leviticus 19:33,34",
-          "source": "SMI"
-        },
-        {
-          "book": "Leviticus",
-          "chapter": 23,
-          "verses": [
-            14
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Leviticus 23:14",
-          "source": "SMI"
-        },
-        {
-          "book": "Leviticus",
-          "chapter": 25,
-          "verses": [
-            23
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Leviticus 25:23",
-          "source": "SMI"
-        },
-        {
-          "book": "Leviticus",
-          "chapter": 19,
-          "verses": [
-            34
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Leviticus 19:34",
-          "source": "SMI"
-        },
-        {
-          "book": "Genesis",
-          "chapter": 18,
-          "verses": [
-            1
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 18:1",
-          "source": "SMI"
-        },
-        {
-          "book": "Genesis",
-          "chapter": 19,
-          "verses": [
-            1
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 19:1",
-          "source": "SMI"
-        },
-        {
-          "book": "Exodus",
-          "chapter": 2,
-          "verses": [
-            20
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Exodus 2:20",
-          "source": "SMI"
-        },
-        {
-          "book": "Judges",
-          "chapter": 13,
-          "verses": [
-            15
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Judges 13:15",
-          "source": "SMI"
-        },
-        {
-          "book": "Judges",
-          "chapter": 19,
-          "verses": [
-            17,
-            20,
-            21
-          ],
-          "verse_count": 3,
-          "testament": "OT",
-          "raw": "Judges 19:17,20,21",
-          "source": "SMI"
-        },
-        {
-          "book": "Matthew",
-          "chapter": 25,
-          "verses": [
-            43
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Matthew 25:43",
-          "source": "SMI"
-        },
-        {
-          "book": "Romans",
-          "chapter": 12,
-          "verses": [
-            13
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Romans 12:13",
-          "source": "SMI"
-        },
-        {
-          "book": "Hebrews",
-          "chapter": 13,
-          "verses": [
-            2
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Hebrews 13:2",
-          "source": "SMI"
-        },
-        {
-          "book": "1 Peter",
-          "chapter": 4,
-          "verses": [
-            9
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "1 Peter 4:9",
-          "source": "SMI"
-        },
-        {
-          "book": "Titus",
-          "chapter": 1,
-          "verses": [
-            8
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Titus 1:8",
-          "source": "SMI"
-        },
-        {
-          "book": "Deuteronomy",
-          "chapter": 15,
-          "verses": [
-            7
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Deuteronomy 15:7",
-          "source": "SMI"
-        },
-        {
-          "book": "1 Timothy",
-          "chapter": 5,
-          "verses": [
-            10
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "1 Timothy 5:10",
-          "source": "SMI"
-        },
-        {
-          "book": "1 Timothy",
-          "chapter": 3,
-          "verses": [
-            2
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "1 Timothy 3:2",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
     "NAV",
-    "TOR",
-    "SMI"
+    "TOR"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -1187,23 +977,5 @@
       "raw": "1 Timothy 3:2",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 19,
-    "ot": 12,
-    "nt": 7,
-    "books": [
-      "1 Peter",
-      "1 Timothy",
-      "Deuteronomy",
-      "Exodus",
-      "Genesis",
-      "Hebrews",
-      "Judges",
-      "Leviticus",
-      "Matthew",
-      "Romans",
-      "Titus"
-    ]
-  }
+  ]
 }

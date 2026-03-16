@@ -1,7 +1,7 @@
 {
   "topic": "FAIR HAVENS",
   "slug": "fair-havens",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "idx": 0,
@@ -15,25 +15,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "Fair Havens é um porto localizado na ilha de Creta, mencionado no Novo Testamento, especificamente no livro de Atos. Durante sua viagem a Roma, o apóstolo Paulo faz uma parada nesse local, onde permanece por um tempo. Este episódio é significativo, pois ilustra a providência divina na jornada missionária de Paulo e os desafios enfrentados durante a navegação no Mediterrâneo. A passagem destaca a importância de locais específicos na narrativa bíblica e o papel de Paulo como mensageiro do evangelho.",
-    "outline": [
-      "Localização geográfica de Fair Havens na ilha de Creta",
-      "Parada de Paulo em Fair Havens durante sua viagem a Roma",
-      "Significado do porto no contexto da missão de Paulo",
-      "Desafios enfrentados na navegação no Mediterrâneo",
-      "Providência divina na jornada de Paulo"
-    ],
-    "key_concepts": [
-      "Providência divina na missão",
-      "A importância dos locais na narrativa bíblica"
-    ],
-    "theological_significance": "Fair Havens representa um ponto de parada crucial na jornada missionária de Paulo, simbolizando a intervenção divina em momentos de dificuldade. A experiência de Paulo neste porto reflete a confiança em Deus durante as adversidades e a continuidade da missão cristã, mesmo em circunstâncias desafiadoras.",
-    "model": "gpt-4o-mini",
-    "run_id": "enr_20251202_153847_a88e1a8a",
-    "confidence": 0.9500000000000002,
-    "generated_at": "2025-12-02T15:38:47.761157"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -42,67 +23,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "A harbour in the south of Crete, some 5 miles to the east of which was the town of Lasea (Acts 27:8). Here the ship of Alexandria in which Paul and his companions sailed was detained a considerable time waiting for a favourable wind. Contrary to Paul’s advice, the master of the ship determined to prosecute the voyage, as the harbour was deemed incommodious for wintering in (9-12). The result was that, after a stormy voyage, the vessel was finally wrecked on the coast of Malta (27:40-44).",
-      "extracted_refs": [
-        {
-          "book": "Acts",
-          "chapter": 27,
-          "verses": [
-            8
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Acts 27:8",
-          "source": "EAS"
-        },
-        {
-          "book": "Acts",
-          "chapter": 27,
-          "verses": [
-            40,
-            41,
-            42,
-            43,
-            44
-          ],
-          "verse_count": 5,
-          "testament": "NT",
-          "raw": "Acts 27:40-44",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "a harbor in the island of Crete, (Acts 27:8) though not mentioned in any other ancient writing, is still known by its own Greek name, and appears to have been the harbor of Lasaea.",
-      "extracted_refs": [
-        {
-          "book": "Acts",
-          "chapter": 27,
-          "verses": [
-            8
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Acts 27:8",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Acts 27:8",
-      "original": "Acts 27:8"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -115,26 +37,6 @@
     "enrichment_source": "pipeline_merge"
   },
   "version": "3.0.0",
-  "ai_themes_normalized": [
-    {
-      "theme_id": null,
-      "proposal_id": "prop:a_providência_de_deu_07ecc6",
-      "label_original": "A providência de Deus nas viagens missionárias",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:desafios_da_evangeli_0adf4d",
-      "label_original": "Desafios da evangelização",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:importância_dos_loca_045488",
-      "label_original": "Importância dos locais na narrativa bíblica",
-      "source": "ai_enrichment"
-    }
-  ],
   "definition_refs": [
     {
       "book": "Acts",
@@ -162,13 +64,5 @@
       "raw": "Acts 27:40-44",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 6,
-    "ot": 0,
-    "nt": 6,
-    "books": [
-      "Acts"
-    ]
-  }
+  ]
 }

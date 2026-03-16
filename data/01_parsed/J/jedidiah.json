@@ -1,7 +1,7 @@
 {
   "topic": "JEDIDIAH",
   "slug": "jedidiah",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A name given to Solomon 2Sa 12:25",
@@ -12,17 +12,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_225925",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T22:59:25.604449",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -31,52 +20,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Beloved by Jehovah, the name which, by the mouth of Nathan, the Lord gave to Solomon at his birth as a token of the divine favour (2 Sam. 12:25).",
-      "extracted_refs": [
-        {
-          "book": "2 Samuel",
-          "chapter": 12,
-          "verses": [
-            25
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Samuel 12:25",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(beloved of Jehovah), Jedid-jah (darling of Jehovah), the name bestowed, through Nathan the prophet, on David’s son Solomon. (2 Samuel 12:25)",
-      "extracted_refs": [
-        {
-          "book": "2 Samuel",
-          "chapter": 12,
-          "verses": [
-            25
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Samuel 12:25",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "2 Samuel 12:25",
-      "original": "2 Sam. 12:25"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -99,13 +44,5 @@
       "raw": "2 Samuel 12:25",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 1,
-    "ot": 1,
-    "nt": 0,
-    "books": [
-      "2 Samuel"
-    ]
-  }
+  ]
 }

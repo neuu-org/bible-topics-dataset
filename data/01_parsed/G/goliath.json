@@ -1,7 +1,7 @@
 {
   "topic": "GOLIATH",
   "slug": "goliath",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "(A giant champion of Gath)",
@@ -42,17 +42,6 @@
       "verse_count": 5
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_204252",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T20:42:52.163568",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -61,147 +50,8 @@
     "nt_refs": 0,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Great. (1.) A famous giant of Gath, who for forty days openly defied the armies of Israel, but was at length slain by David with a stone from a sling (1 Sam. 17:4). He was probably descended from the Rephaim who found refuge among the Philistines after they were dispersed by the Ammonites (Deut. 2:20, 21). His height was “six cubits and a span,” which, taking the cubit at 21 inches, is equal to 10 1/2 feet. David cut off his head (1 Sam. 17:51) and brought it to Jerusalem, while he hung the armour which he took from him in his tent. His sword was preserved at Nob as a religious trophy (21:9). David’s victory over Goliath was the turning point in his life. He came into public notice now as the deliverer of Israel and the chief among Saul’s men of war (18:5), and the devoted friend of Jonathan. (2.) In 2 Sam. 21:19 there is another giant of the same name mentioned as slain by Elhanan. The staff of his apear “was like a weaver’s beam.” The Authorized Version interpolates the words “the brother of” from 1 Chr. 20:5, where this giant is called Lahmi.",
-      "extracted_refs": [
-        {
-          "book": "1 Samuel",
-          "chapter": 17,
-          "verses": [
-            4
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Samuel 17:4",
-          "source": "EAS"
-        },
-        {
-          "book": "Deuteronomy",
-          "chapter": 2,
-          "verses": [
-            20,
-            21
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Deuteronomy 2:20, 21",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Samuel",
-          "chapter": 17,
-          "verses": [
-            51
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Samuel 17:51",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Samuel",
-          "chapter": 21,
-          "verses": [
-            9
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Samuel 21:9",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Samuel",
-          "chapter": 18,
-          "verses": [
-            5
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Samuel 18:5",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Samuel",
-          "chapter": 21,
-          "verses": [
-            19
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Samuel 21:19",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Chronicles",
-          "chapter": 20,
-          "verses": [
-            5
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 20:5",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(splendor), a famous giant of Gath, who “morning and evening for forty days” defied the armies of Israel. (1 Samuel 17:1) ... (B.C. 1063.) He was possibly descended from the old Rephaim [Giants], of whom a scattered remnant took refuge with the Philistines after their dispersion by the Ammonites. (2:20,21; 2 Samuel 21:22) His height was “six cubits and a span,” which taking the cubit at 21 inches, would make him 10 1/2 feet high. The scene of his combat with David, by whom he was slain, was the “valley of the terebinth,” between Shochoh and Arekah, probably among the western passes of Benjamin. In (2 Samuel 21:19) we find that another Goliath of Gath was slain by Elhanan, also a Bethlehemite.",
-      "extracted_refs": [
-        {
-          "book": "1 Samuel",
-          "chapter": 17,
-          "verses": [
-            1
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Samuel 17:1",
-          "source": "SMI"
-        },
-        {
-          "book": "2 Samuel",
-          "chapter": 21,
-          "verses": [
-            22
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Samuel 21:22",
-          "source": "SMI"
-        },
-        {
-          "book": "2 Samuel",
-          "chapter": 21,
-          "verses": [
-            19
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Samuel 21:19",
-          "source": "SMI"
-        },
-        {
-          "book": "1 Samuel",
-          "chapter": 2,
-          "verses": [
-            20,
-            21
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "1 Samuel 2:20,21",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -325,16 +175,5 @@
       "raw": "1 Samuel 2:20,21",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 12,
-    "ot": 12,
-    "nt": 0,
-    "books": [
-      "1 Chronicles",
-      "1 Samuel",
-      "2 Samuel",
-      "Deuteronomy"
-    ]
-  }
+  ]
 }

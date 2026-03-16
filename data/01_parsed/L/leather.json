@@ -1,7 +1,7 @@
 {
   "topic": "LEATHER",
   "slug": "leather",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Belts of 2Ki 1:8; Mt 3:4",
@@ -78,17 +78,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_235832",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T23:58:32.094757",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -97,146 +86,8 @@
     "nt_refs": 2,
     "total_verses": 4
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "A girdle of, worn by Elijah (2 Kings 1:8) and John the Baptist (Matt. 3:4). Leather was employed both for clothing (Num. 31:20; Heb. 11:37) and for writing upon. The trade of a tanner is mentioned (Acts 9:43; 10:6, 32). It was probably learned in Egypt.",
-      "extracted_refs": [
-        {
-          "book": "2 Kings",
-          "chapter": 1,
-          "verses": [
-            8
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Kings 1:8",
-          "source": "EAS"
-        },
-        {
-          "book": "Matthew",
-          "chapter": 3,
-          "verses": [
-            4
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Matthew 3:4",
-          "source": "EAS"
-        },
-        {
-          "book": "Numbers",
-          "chapter": 31,
-          "verses": [
-            20
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Numbers 31:20",
-          "source": "EAS"
-        },
-        {
-          "book": "Hebrews",
-          "chapter": 11,
-          "verses": [
-            37
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Hebrews 11:37",
-          "source": "EAS"
-        },
-        {
-          "book": "Acts",
-          "chapter": 9,
-          "verses": [
-            43
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Acts 9:43",
-          "source": "EAS"
-        },
-        {
-          "book": "Acts",
-          "chapter": 10,
-          "verses": [
-            6,
-            32
-          ],
-          "verse_count": 2,
-          "testament": "NT",
-          "raw": "Acts 10:6, 32",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "The notices of leather in the Bible are singularly few; indeed the word occurs but twice in the Authorized Version, and in each instance in reference to the same object, a girdle. (2 Kings 1:8; Matthew 3:4) There are, however, other instances in which the word “leather” might with propriety be substituted for “skin.” (Leviticus 11:32; 13:48; Numbers 31:20) Though the material itself is seldom noticed, yet we cannot doubt that it was extensively used by the Jews; shoes, bottles, thongs, garments, ropes and other articles were made of it. The art of tanning, however, was held in low esteem by the Jews.",
-      "extracted_refs": [
-        {
-          "book": "2 Kings",
-          "chapter": 1,
-          "verses": [
-            8
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Kings 1:8",
-          "source": "SMI"
-        },
-        {
-          "book": "Matthew",
-          "chapter": 3,
-          "verses": [
-            4
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Matthew 3:4",
-          "source": "SMI"
-        },
-        {
-          "book": "Leviticus",
-          "chapter": 11,
-          "verses": [
-            32
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Leviticus 11:32",
-          "source": "SMI"
-        },
-        {
-          "book": "Leviticus",
-          "chapter": 13,
-          "verses": [
-            48
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Leviticus 13:48",
-          "source": "SMI"
-        },
-        {
-          "book": "Numbers",
-          "chapter": 31,
-          "verses": [
-            20
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Numbers 31:20",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -337,18 +188,5 @@
       "raw": "Leviticus 13:48",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 9,
-    "ot": 4,
-    "nt": 5,
-    "books": [
-      "2 Kings",
-      "Acts",
-      "Hebrews",
-      "Leviticus",
-      "Matthew",
-      "Numbers"
-    ]
-  }
+  ]
 }

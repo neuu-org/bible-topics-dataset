@@ -1,7 +1,7 @@
 {
   "topic": "HASHBADANA",
   "slug": "hashbadana",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A companion of Ezra Ne 8:4",
@@ -12,17 +12,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_211727",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T21:17:27.086297",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -31,52 +20,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Consideration in judging, stood at Ezra’s left hand when he read the law (Neh. 8:4).",
-      "extracted_refs": [
-        {
-          "book": "Nehemiah",
-          "chapter": 8,
-          "verses": [
-            4
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Nehemiah 8:4",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(considerate judge), one of the men (probably Levites) who stood on Ezra’s left hand while he read the law to the people in Jerusalem. (Nehemiah 8:4) (B.C.410.)",
-      "extracted_refs": [
-        {
-          "book": "Nehemiah",
-          "chapter": 8,
-          "verses": [
-            4
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Nehemiah 8:4",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Nehemiah 8:4",
-      "original": "Neh. 8:4"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -99,13 +44,5 @@
       "raw": "Nehemiah 8:4",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 1,
-    "ot": 1,
-    "nt": 0,
-    "books": [
-      "Nehemiah"
-    ]
-  }
+  ]
 }

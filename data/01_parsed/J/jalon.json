@@ -1,7 +1,7 @@
 {
   "topic": "JALON",
   "slug": "jalon",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Son of Ezra 1Ch 4:17",
@@ -23,17 +23,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_225151",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T22:51:51.858575",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -42,46 +31,8 @@
     "nt_refs": 0,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Lodger, the last of the four sons of Ezra, of the tribe of Judah (1 Chr. 4:17).",
-      "extracted_refs": [
-        {
-          "book": "1 Chronicles",
-          "chapter": 4,
-          "verses": [
-            17
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 4:17",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(abiding), one of the sons of Ezra. (1 Chronicles 4:17)",
-      "extracted_refs": [
-        {
-          "book": "1 Chronicles",
-          "chapter": 4,
-          "verses": [
-            17
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 4:17",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -104,13 +55,5 @@
       "raw": "1 Chronicles 4:17",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 1,
-    "ot": 1,
-    "nt": 0,
-    "books": [
-      "1 Chronicles"
-    ]
-  }
+  ]
 }

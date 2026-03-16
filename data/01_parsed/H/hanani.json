@@ -1,7 +1,7 @@
 {
   "topic": "HANANI",
   "slug": "hanani",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "1. Son of Heman 1Ch 25:4,25",
@@ -69,17 +69,6 @@
       "verse_count": 2
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_210259",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T21:02:59.638698",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -88,87 +77,8 @@
     "nt_refs": 0,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "God has gratified me, or is gracious. (1.) One of the sons of Heman (1 Chr. 25:4, 25). (2.) A prophet who was sent to rebuke king Asa for entering into a league with Benhadad I., king of Syria, against Judah (2 Chr. 16:1-10). He was probably the father of the prophet Jehu (1 Kings 16:7). (3.) Probably a brother of Nehemiah (Neh. 1:2; 7:2), who reported to him the melancholy condition of Jerusalem. Nehemiah afterwards appointed him to have charge of the city gates.",
-      "extracted_refs": [
-        {
-          "book": "1 Chronicles",
-          "chapter": 25,
-          "verses": [
-            4,
-            25
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "1 Chronicles 25:4, 25",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Chronicles",
-          "chapter": 16,
-          "verses": [
-            1,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7,
-            8,
-            9,
-            10
-          ],
-          "verse_count": 10,
-          "testament": "OT",
-          "raw": "2 Chronicles 16:1-10",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Kings",
-          "chapter": 16,
-          "verses": [
-            7
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Kings 16:7",
-          "source": "EAS"
-        },
-        {
-          "book": "Nehemiah",
-          "chapter": 1,
-          "verses": [
-            2
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Nehemiah 1:2",
-          "source": "EAS"
-        },
-        {
-          "book": "Nehemiah",
-          "chapter": 7,
-          "verses": [
-            2
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Nehemiah 7:2",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(gracious)."
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -245,16 +155,5 @@
       "raw": "Nehemiah 7:2",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 15,
-    "ot": 15,
-    "nt": 0,
-    "books": [
-      "1 Chronicles",
-      "1 Kings",
-      "2 Chronicles",
-      "Nehemiah"
-    ]
-  }
+  ]
 }

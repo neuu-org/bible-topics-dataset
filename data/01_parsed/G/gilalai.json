@@ -1,7 +1,7 @@
 {
   "topic": "GILALAI",
   "slug": "gilalai",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A priest and musician Ne 12:36",
@@ -12,17 +12,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_203441",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T20:34:41.473192",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -31,34 +20,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "SMI",
-      "text": "(weighty), one of the priests’ sons at the consecration of the wall of Jerusalem. (Nehemiah 12:36) (B.C. 446.)",
-      "extracted_refs": [
-        {
-          "book": "Nehemiah",
-          "chapter": 12,
-          "verses": [
-            36
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Nehemiah 12:36",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Nehemiah 12:36",
-      "original": "Nehemiah 12:36"
-    }
-  ],
   "sources": [
-    "NAV",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -81,13 +44,5 @@
       "raw": "Nehemiah 12:36",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 1,
-    "ot": 1,
-    "nt": 0,
-    "books": [
-      "Nehemiah"
-    ]
-  }
+  ]
 }

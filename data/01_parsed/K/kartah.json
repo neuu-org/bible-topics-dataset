@@ -1,7 +1,7 @@
 {
   "topic": "KARTAH",
   "slug": "kartah",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A city of the tribe of Zebulun Jos 21:34",
@@ -12,17 +12,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_233517",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T23:35:17.014678",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -31,78 +20,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "City, a town in the tribe of Zebulun assigned to the Levites of the family of Merari (Josh. 21:34). It is identical with Kattath (19:15), and perhaps also with Kitron (Judg. 1:30).",
-      "extracted_refs": [
-        {
-          "book": "Joshua",
-          "chapter": 21,
-          "verses": [
-            34
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 21:34",
-          "source": "EAS"
-        },
-        {
-          "book": "Judges",
-          "chapter": 1,
-          "verses": [
-            30
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Judges 1:30",
-          "source": "EAS"
-        },
-        {
-          "book": "Joshua",
-          "chapter": 19,
-          "verses": [
-            15
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 19:15",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(city), a town of Zebulun, allotted to the Merarite Levites. (Joshua 21:34)",
-      "extracted_refs": [
-        {
-          "book": "Joshua",
-          "chapter": 21,
-          "verses": [
-            34
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 21:34",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Joshua 21:34",
-      "original": "Josh. 21:34"
-    },
-    {
-      "reference": "Judges 1:30",
-      "original": "Judg. 1:30"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -147,14 +66,5 @@
       "raw": "Joshua 19:15",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 3,
-    "ot": 3,
-    "nt": 0,
-    "books": [
-      "Joshua",
-      "Judges"
-    ]
-  }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "topic": "MATTOCK",
   "slug": "mattock",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "General scriptures concerning 1Sa 13:20,21; Isa 7:25",
@@ -25,17 +25,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_004258",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T00:42:58.792075",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -44,68 +33,8 @@
     "nt_refs": 0,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "(1.) Heb. ma’eder, an instrument for dressing or pruning a vineyard (Isa. 7:25); a weeding-hoe. (2.) Heb. mahareshah (1 Sam. 13:1), perhaps the ploughshare or coulter. (3.) Heb. herebh, marg. of text (2 Chr. 34:6). Authorized Version, “with their mattocks,” marg. “mauls.” The Revised Version renders “in their ruins,” marg. “with their axes.” The Hebrew text is probably corrupt.",
-      "extracted_refs": [
-        {
-          "book": "Isaiah",
-          "chapter": 7,
-          "verses": [
-            25
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Isaiah 7:25",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Samuel",
-          "chapter": 13,
-          "verses": [
-            1
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Samuel 13:1",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Chronicles",
-          "chapter": 34,
-          "verses": [
-            6
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Chronicles 34:6",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(Isaiah 7:25) The tool used in Arabia for loosening the ground, described by Neibuhr, answers generally to our mattock or grubbing-axe, i.e. a single-headed pickaxe. The ancient Egyptian hoe was of wood, and answered for hoe, spade and pick.",
-      "extracted_refs": [
-        {
-          "book": "Isaiah",
-          "chapter": 7,
-          "verses": [
-            25
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Isaiah 7:25",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -150,15 +79,5 @@
       "raw": "2 Chronicles 34:6",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 3,
-    "ot": 3,
-    "nt": 0,
-    "books": [
-      "1 Samuel",
-      "2 Chronicles",
-      "Isaiah"
-    ]
-  }
+  ]
 }

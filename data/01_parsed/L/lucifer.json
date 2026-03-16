@@ -1,7 +1,7 @@
 {
   "topic": "LUCIFER",
   "slug": "lucifer",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Nebuchadnezzar called by this name Isa 14:12",
@@ -12,17 +12,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_001641",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T00:16:41.895008",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -31,52 +20,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Brilliant star, a title given to the king of Babylon (Isa. 14:12) to denote his glory.",
-      "extracted_refs": [
-        {
-          "book": "Isaiah",
-          "chapter": 14,
-          "verses": [
-            12
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Isaiah 14:12",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(light-bearer), found in (Isaiah 14:12) coupled with the epithet “son of the morning,” clearly signifies a “bright star,” and probably what we call the morning star. In this passage it is a symbolical representation of the king of Babylon in his splendor and in his fall. Its application, from St. Jerome downward, to Satan in his fall from heaven arises probably from the fact that the Babylonian empire is in Scripture represented as the type of tyrannical and self idolizing power, and especially connected with the empire of the Evil One in the Apocalypse.",
-      "extracted_refs": [
-        {
-          "book": "Isaiah",
-          "chapter": 14,
-          "verses": [
-            12
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Isaiah 14:12",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Isaiah 14:12",
-      "original": "Isa. 14:12"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -99,13 +44,5 @@
       "raw": "Isaiah 14:12",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 1,
-    "ot": 1,
-    "nt": 0,
-    "books": [
-      "Isaiah"
-    ]
-  }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "topic": "KEY",
   "slug": "key",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "General scriptures concerning Jud 3:25",
@@ -53,17 +53,6 @@
       "verse_count": 2
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_233900",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T23:39:00.281422",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -72,156 +61,8 @@
     "nt_refs": 2,
     "total_verses": 2
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Frequently mentioned in Scripture. It is called in Hebrew maphteah, i.e., the opener (Judg. 3:25); and in the Greek New Testament kleis, from its use in shutting (Matt. 16:19; Luke 11:52; Rev. 1:18, etc.). Figures of ancient Egyptian keys are frequently found on the monuments, also of Assyrian locks and keys of wood, and of a large size (comp. Isa. 22:22). The word is used figuratively of power or authority or office (Isa. 22:22; Rev. 3:7; Rev. 1:8; comp. 9:1; 20:1; comp. also Matt. 16:19; 18:18). The “key of knowledge” (Luke 11:52; comp. Matt. 23:13) is the means of attaining the knowledge regarding the kingdom of God. The “power of the keys” is a phrase in general use to denote the extent of ecclesiastical authority.",
-      "extracted_refs": [
-        {
-          "book": "Judges",
-          "chapter": 3,
-          "verses": [
-            25
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Judges 3:25",
-          "source": "EAS"
-        },
-        {
-          "book": "Matthew",
-          "chapter": 16,
-          "verses": [
-            19
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Matthew 16:19",
-          "source": "EAS"
-        },
-        {
-          "book": "Luke",
-          "chapter": 11,
-          "verses": [
-            52
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Luke 11:52",
-          "source": "EAS"
-        },
-        {
-          "book": "Revelation",
-          "chapter": 1,
-          "verses": [
-            18
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Revelation 1:18",
-          "source": "EAS"
-        },
-        {
-          "book": "Isaiah",
-          "chapter": 22,
-          "verses": [
-            22
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Isaiah 22:22",
-          "source": "EAS"
-        },
-        {
-          "book": "Revelation",
-          "chapter": 3,
-          "verses": [
-            7
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Revelation 3:7",
-          "source": "EAS"
-        },
-        {
-          "book": "Revelation",
-          "chapter": 1,
-          "verses": [
-            8
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Revelation 1:8",
-          "source": "EAS"
-        },
-        {
-          "book": "Revelation",
-          "chapter": 9,
-          "verses": [
-            1
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Revelation 9:1",
-          "source": "EAS"
-        },
-        {
-          "book": "Revelation",
-          "chapter": 20,
-          "verses": [
-            1
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Revelation 20:1",
-          "source": "EAS"
-        },
-        {
-          "book": "Matthew",
-          "chapter": 18,
-          "verses": [
-            18
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Matthew 18:18",
-          "source": "EAS"
-        },
-        {
-          "book": "Matthew",
-          "chapter": 23,
-          "verses": [
-            13
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Matthew 23:13",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "The key of a native Oriental lock is a piece of wood, from seven inches to two feet in length, fitted with the wires or short nails, which, being inserted laterally into the hollow bolt which serves as a lock, raises other pins within the staple so as to allow the bolt to be drawn back. (Keys were sometimes of bronze or iron, and so large that one was as much as a man could carry. They are used in Scripture as a symbol of authority and power. Giving keys to a person signifies the intrusting of him with an important charge. (Matthew 16:19) In England in modern times certain officers of the government receive, at their induction into office, a golden key.—ED.)",
-      "extracted_refs": [
-        {
-          "book": "Matthew",
-          "chapter": 16,
-          "verses": [
-            19
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Matthew 16:19",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -354,17 +195,5 @@
       "raw": "Matthew 23:13",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 11,
-    "ot": 2,
-    "nt": 9,
-    "books": [
-      "Isaiah",
-      "Judges",
-      "Luke",
-      "Matthew",
-      "Revelation"
-    ]
-  }
+  ]
 }

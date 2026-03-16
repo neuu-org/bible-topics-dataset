@@ -1,7 +1,7 @@
 {
   "topic": "MAASIAI",
   "slug": "maasiai",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A priest 1Ch 9:12",
@@ -12,17 +12,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_002026",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T00:20:26.539543",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -31,52 +20,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Work of Jehovah, one of the priests resident at Jerusalem at the Captivity (1 Chr. 9:12).",
-      "extracted_refs": [
-        {
-          "book": "1 Chronicles",
-          "chapter": 9,
-          "verses": [
-            12
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 9:12",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(work of the Lord), a priest who after the return from Babylon dwelt in Jerusalem. (1 Chronicles 9:12)",
-      "extracted_refs": [
-        {
-          "book": "1 Chronicles",
-          "chapter": 9,
-          "verses": [
-            12
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 9:12",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "1 Chronicles 9:12",
-      "original": "1 Chr. 9:12"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -99,13 +44,5 @@
       "raw": "1 Chronicles 9:12",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 1,
-    "ot": 1,
-    "nt": 0,
-    "books": [
-      "1 Chronicles"
-    ]
-  }
+  ]
 }

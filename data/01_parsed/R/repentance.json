@@ -1,7 +1,7 @@
 {
   "topic": "REPENTANCE",
   "slug": "repentance",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "(A complete reversal of one’ s attitude and values, i. e. a turning toward God)",
@@ -2339,17 +2339,6 @@
       "verse_count": 2
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_015540",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T01:55:40.614087",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [
     "PENITENCE",
     "PSALMS, PENITENTIAL",
@@ -2367,133 +2356,9 @@
     "ot_refs": 37,
     "nt_refs": 84
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "There are three Greek words used in the New Testament to denote repentance. (1.) The verb metamelomai is used of a change of mind, such as to produce regret or even remorse on account of sin, but not necessarily a change of heart. This word is used with reference to the repentance of Judas (Matt. 27:3). (2.) Metanoeo, meaning to change one’s mind and purpose, as the result of after knowledge. This verb, with (3) the cognate noun metanoia, is used of true repentance, a change of mind and purpose and life, to which remission of sin is promised. Evangelical repentance consists of (1) a true sense of one’s own guilt and sinfulness; (2) an apprehension of God’s mercy in Christ; (3) an actual hatred of sin (Ps. 119:128; Job 42:5, 6; 2 Cor. 7:10) and turning from it to God; and (4) a persistent endeavour after a holy life in a walking with God in the way of his commandments. The true penitent is conscious of guilt (Ps. 51:4, 9), of pollution (51:5, 7, 10), and of helplessness (51:11; 109:21, 22). Thus he apprehends himself to be just what God has always seen him to be and declares him to be. But repentance comprehends not only such a sense of sin, but also an apprehension of mercy, without which there can be no true repentance (Ps. 51:1; 130:4).",
-      "extracted_refs": [
-        {
-          "book": "Matthew",
-          "chapter": 27,
-          "verses": [
-            3
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Matthew 27:3",
-          "source": "EAS"
-        },
-        {
-          "book": "Psalms",
-          "chapter": 119,
-          "verses": [
-            128
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Psalms 119:128",
-          "source": "EAS"
-        },
-        {
-          "book": "Job",
-          "chapter": 42,
-          "verses": [
-            5,
-            6
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Job 42:5, 6",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Corinthians",
-          "chapter": 7,
-          "verses": [
-            10
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "2 Corinthians 7:10",
-          "source": "EAS"
-        },
-        {
-          "book": "Psalms",
-          "chapter": 51,
-          "verses": [
-            4,
-            9
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Psalms 51:4, 9",
-          "source": "EAS"
-        },
-        {
-          "book": "Psalms",
-          "chapter": 51,
-          "verses": [
-            1
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Psalms 51:1",
-          "source": "EAS"
-        },
-        {
-          "book": "Psalms",
-          "chapter": 130,
-          "verses": [
-            4
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Psalms 130:4",
-          "source": "EAS"
-        },
-        {
-          "book": "Psalms",
-          "chapter": 51,
-          "verses": [
-            5,
-            7,
-            10
-          ],
-          "verse_count": 3,
-          "testament": "OT",
-          "raw": "Psalms 51:5, 7, 10",
-          "source": "EAS"
-        },
-        {
-          "book": "Psalms",
-          "chapter": 51,
-          "verses": [
-            11
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Psalms 51:11",
-          "source": "EAS"
-        },
-        {
-          "book": "Psalms",
-          "chapter": 109,
-          "verses": [
-            21,
-            22
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Psalms 109:21, 22",
-          "source": "EAS"
-        }
-      ]
-    }
-  ],
   "sources": [
     "NAV",
-    "TOR",
-    "EAS"
+    "TOR"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -2620,16 +2485,5 @@
       "raw": "Psalms 109:21, 22",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 15,
-    "ot": 13,
-    "nt": 2,
-    "books": [
-      "2 Corinthians",
-      "Job",
-      "Matthew",
-      "Psalms"
-    ]
-  }
+  ]
 }

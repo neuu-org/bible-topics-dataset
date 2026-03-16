@@ -1,7 +1,7 @@
 {
   "topic": "CILICIA",
   "slug": "cilicia",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "(A maritime province of Asia Minor)",
@@ -44,45 +44,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "Cilicia é uma província marítima da Ásia Menor mencionada no Novo Testamento, especialmente em Atos e Gálatas. A região é notável por abrigar comunidades judaicas e congregações cristãs, sendo citada em eventos significativos como a viagem de Paulo. Cilicia também é referida em contextos relacionados ao mar, destacando sua geografia e importância na disseminação do cristianismo primitivo.",
-    "outline": [
-      "Cilicia como província marítima da Ásia Menor",
-      "Presença de comunidades judaicas em Cilicia",
-      "Congregações cristãs mencionadas em Atos e Gálatas",
-      "Referências ao mar em Atos"
-    ],
-    "key_concepts": [
-      "A importância geográfica de Cilicia para o cristianismo",
-      "A interação entre judeus e cristãos na região",
-      "O papel das congregações na expansão da fé cristã"
-    ],
-    "theological_significance": "Cilicia representa um ponto estratégico na propagação do cristianismo, evidenciando a diversidade cultural e religiosa da época. A presença de comunidades judaicas e cristãs destaca a continuidade e a transição entre as tradições religiosas, refletindo a universalidade da mensagem cristã.",
-    "model": "gpt-4o-mini",
-    "run_id": "enr_20251202_005221_c0c2dd2e",
-    "confidence": 1.0,
-    "generated_at": "2025-12-02T00:52:21.746961"
-  },
-  "ai_themes_normalized": [
-    {
-      "theme_id": null,
-      "proposal_id": "prop:a_presença_judaica_e_0a21e2",
-      "label_original": "A presença judaica em comunidades cristãs",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:a_geografia_como_fac_019225",
-      "label_original": "A geografia como facilitadora da missão",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:congregações_como_ce_07b2ce",
-      "label_original": "Congregações como centros de fé",
-      "source": "ai_enrichment"
-    }
-  ],
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -91,112 +52,8 @@
     "nt_refs": 1,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "A maritime province in the south-east of Asia Minor. Tarsus, the birth-place of Paul, was one of its chief towns, and the seat of a celebrated school of philosophy. Its luxurious climate attracted to it many Greek residents after its incorporation with the Macedonian empire. It was formed into a Roman province, B.C. 67. The Jews of Cilicia had a synagogue at Jerusalem (Acts 6:9). Paul visited it soon after his conversion (Gal. 1:21; Acts 9:30), and again, on his second missionary journey (15:41), “he went through Syria and Cilicia, confirming the churches.” It was famous for its goat’s-hair cloth, called cilicium. Paul learned in his youth the trade of making tents of this cloth.",
-      "extracted_refs": [
-        {
-          "book": "Acts",
-          "chapter": 6,
-          "verses": [
-            9
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Acts 6:9",
-          "source": "EAS"
-        },
-        {
-          "book": "Galatians",
-          "chapter": 1,
-          "verses": [
-            21
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Galatians 1:21",
-          "source": "EAS"
-        },
-        {
-          "book": "Acts",
-          "chapter": 9,
-          "verses": [
-            30
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Acts 9:30",
-          "source": "EAS"
-        },
-        {
-          "book": "Acts",
-          "chapter": 15,
-          "verses": [
-            41
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Acts 15:41",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(the land of Celix), a maritime province int he southeast of Asia Minor, bordering on Pamphylia in the west, Lycaonia and Cappadocia in the north, and Syria in the east. (Acts 6:9) Cilicia was from its geographical position the high road between Syria and the west; it was also the native country of St. Paul, hence it was visited by him, firstly, soon after his conversion, (Acts 9:30; Galatians 1:21) and again in his second apostolical journey. (Acts 15:41)",
-      "extracted_refs": [
-        {
-          "book": "Acts",
-          "chapter": 6,
-          "verses": [
-            9
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Acts 6:9",
-          "source": "SMI"
-        },
-        {
-          "book": "Acts",
-          "chapter": 9,
-          "verses": [
-            30
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Acts 9:30",
-          "source": "SMI"
-        },
-        {
-          "book": "Galatians",
-          "chapter": 1,
-          "verses": [
-            21
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Galatians 1:21",
-          "source": "SMI"
-        },
-        {
-          "book": "Acts",
-          "chapter": 15,
-          "verses": [
-            41
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Acts 15:41",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -252,14 +109,5 @@
       "raw": "Acts 15:41",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 4,
-    "ot": 0,
-    "nt": 4,
-    "books": [
-      "Acts",
-      "Galatians"
-    ]
-  }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "topic": "MARTHA",
   "slug": "martha",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Sister of Mary and Lazarus Joh 11:1",
@@ -48,17 +48,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_003746",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T00:37:46.481758",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [
     "MARY",
     "LAZARUS"
@@ -70,130 +59,8 @@
     "nt_refs": 1,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Bitterness, the sister of Lazarus and Mary, and probably the eldest of the family, who all resided at Bethany (Luke 10:38, 40, 41; John 11:1-39). From the residence being called “her house,” some have supposed that she was a widow, and that her brother and sister lodged with her. She seems to have been of an anxious, bustling spirit, anxious to be helpful in providing the best things for the Master’s use, in contrast to the quiet earnestness of Mary, who was more concerned to avail herself of the opportunity of sitting at his feet and learning of him. Afterwards at a supper given to Christ and his disciples in her house “Martha served.” Nothing further is known of her. “Mary and Martha are representatives of two orders of human character. One was absorbed, preoccupied, abstracted; the other was concentrated and single-hearted. Her own world was the all of Martha; Christ was the first thought with Mary. To Martha life was ‘a succession of particular businesses;’ to Mary life ’was rather the flow of one spirit.’ Martha was Petrine, Mary was Johannine. The one was a well-meaning, bustling busybody; the other was a reverent disciple, a wistful listener.” Paul had such a picture as that of Martha in his mind when he spoke of serving the Lord “without distraction” (1 Cor. 7:35).",
-      "extracted_refs": [
-        {
-          "book": "Luke",
-          "chapter": 10,
-          "verses": [
-            38,
-            40,
-            41
-          ],
-          "verse_count": 3,
-          "testament": "NT",
-          "raw": "Luke 10:38, 40, 41",
-          "source": "EAS"
-        },
-        {
-          "book": "John",
-          "chapter": 11,
-          "verses": [
-            1,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7,
-            8,
-            9,
-            10,
-            11,
-            12,
-            13,
-            14,
-            15,
-            16,
-            17,
-            18,
-            19,
-            20,
-            21,
-            22,
-            23,
-            24,
-            25,
-            26,
-            27,
-            28,
-            29,
-            30,
-            31,
-            32,
-            33,
-            34,
-            35,
-            36,
-            37,
-            38,
-            39
-          ],
-          "verse_count": 39,
-          "testament": "NT",
-          "raw": "John 11:1-39",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Corinthians",
-          "chapter": 7,
-          "verses": [
-            35
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "1 Corinthians 7:35",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(a lady), the sister of Lazarus and Mary. [Lazarus] The facts recorded in Luke 10 and John 11 indicate a character devout after the customary Jewish type of devotion, sharing in Messianic hopes and accepting Jesus as the Christ. When she first comes before us, (Luke 10:38) her spirit is “cumbered with much serving,” is “careful and troubled about many things.” Her love, though imperfect in its form, is yet recognized as true, and she has the distinction of being one whom Jesus loved. (John 11:5) Her position is obviously that of the elder sister the head and manager of the household. In the supper at Bethany (John 12:2) the old character shows itself still, but it has been freed from evil. She is no longer “cumbered,” no longer impatient. Activity has been calmed by trust.",
-      "extracted_refs": [
-        {
-          "book": "Luke",
-          "chapter": 10,
-          "verses": [
-            38
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Luke 10:38",
-          "source": "SMI"
-        },
-        {
-          "book": "John",
-          "chapter": 11,
-          "verses": [
-            5
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "John 11:5",
-          "source": "SMI"
-        },
-        {
-          "book": "John",
-          "chapter": 12,
-          "verses": [
-            2
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "John 12:2",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -311,15 +178,5 @@
       "raw": "John 12:2",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 44,
-    "ot": 0,
-    "nt": 44,
-    "books": [
-      "1 Corinthians",
-      "John",
-      "Luke"
-    ]
-  }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "topic": "ITHREAM",
   "slug": "ithream",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Son of David 2Sa 3:5; 1Ch 3:3",
@@ -24,17 +24,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_224235",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T22:42:35.319527",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -43,39 +32,8 @@
     "nt_refs": 0,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "SMI",
-      "text": "(abundance of people), son of David, born to him in Hebron, and distinctly specified as the sixth, and as the child of Eglah, David’s wife. (2 Samuel 3:5; 1 Chronicles 3:3)",
-      "extracted_refs": [
-        {
-          "book": "2 Samuel",
-          "chapter": 3,
-          "verses": [
-            5
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Samuel 3:5",
-          "source": "SMI"
-        },
-        {
-          "book": "1 Chronicles",
-          "chapter": 3,
-          "verses": [
-            3
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 3:3",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -109,14 +67,5 @@
       "raw": "1 Chronicles 3:3",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 2,
-    "ot": 2,
-    "nt": 0,
-    "books": [
-      "1 Chronicles",
-      "2 Samuel"
-    ]
-  }
+  ]
 }

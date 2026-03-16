@@ -1,7 +1,7 @@
 {
   "topic": "LIGURE",
   "slug": "ligure",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A precious stone Ex 28:19; 39:12",
@@ -13,17 +13,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_000904",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T00:09:04.643168",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -32,78 +21,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "(Heb. leshem) occurs only in Ex. 28:19 and 39:12, as the name of a stone in the third row on the high priest’s breastplate. Some have supposed that this stone was the same as the jacinth (q.v.), others that it was the opal. There is now no mineral bearing this name. The “ligurite” is so named from Liguria in Italy, where it was found.",
-      "extracted_refs": [
-        {
-          "book": "Exodus",
-          "chapter": 28,
-          "verses": [
-            19
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Exodus 28:19",
-          "source": "EAS"
-        },
-        {
-          "book": "Exodus",
-          "chapter": 39,
-          "verses": [
-            12
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Exodus 39:12",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(Heb. leshem), a precious stone mentioned in (Exodus 28:19; 39:12) as the first in the third row of the high priest’s breastplate. It is impossible to say, with any certainty, what stone is denoted by the Hebrew term; but perhaps tourmaline, or more definitely the red variety known as rubellite, has better claims than any other mineral. Rubellite is a hard stone, and used as a gem, and is sometimes sold for red sapphire.",
-      "extracted_refs": [
-        {
-          "book": "Exodus",
-          "chapter": 28,
-          "verses": [
-            19
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Exodus 28:19",
-          "source": "SMI"
-        },
-        {
-          "book": "Exodus",
-          "chapter": 39,
-          "verses": [
-            12
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Exodus 39:12",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Exodus 28:19",
-      "original": "Ex. 28:19"
-    },
-    {
-      "reference": "Exodus 39:12",
-      "original": "Exodus 39:12"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -137,13 +56,5 @@
       "raw": "Exodus 39:12",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 2,
-    "ot": 2,
-    "nt": 0,
-    "books": [
-      "Exodus"
-    ]
-  }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "topic": "BARABBAS",
   "slug": "barabbas",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A prisoner released by Pilate Mt 27:16-26; Mr 15:7-15; Lu 23:18-25; Joh 18:40; Ac 3:14",
@@ -72,46 +72,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "Barabbas é um prisioneiro mencionado nos Evangelhos, que foi libertado por Pôncio Pilatos durante a Páscoa, em vez de Jesus. Sua libertação é um evento significativo que ilustra a escolha do povo e a rejeição de Cristo, além de simbolizar a troca entre o justo e o injusto. A narrativa de Barabbas aparece em cinco livros do Novo Testamento, destacando sua relevância na Paixão de Cristo e na teologia da salvação.",
-    "outline": [
-      "Barabbas como prisioneiro e sua libertação por Pilatos",
-      "A escolha do povo entre Barabbas e Jesus",
-      "Implicações teológicas da libertação de Barabbas",
-      "A presença de Barabbas nos quatro Evangelhos e em Atos",
-      "O simbolismo da troca entre o justo e o injusto"
-    ],
-    "key_concepts": [
-      "Liberdade e redenção",
-      "Escolha e rejeição",
-      "Justiça e injustiça"
-    ],
-    "theological_significance": "A libertação de Barabbas em vez de Jesus é um ato que simboliza a rejeição do Messias e a escolha do pecado sobre a salvação. Teologicamente, representa a troca que ocorre na salvação, onde o justo (Jesus) é condenado e o injusto (Barabbas) é libertado, refletindo a graça e a misericórdia de Deus na redenção da humanidade.",
-    "model": "gpt-4o-mini",
-    "run_id": "enr_20251201_204016_2b159e4c",
-    "confidence": 1.0,
-    "generated_at": "2025-12-01T20:40:16.469248"
-  },
-  "ai_themes_normalized": [
-    {
-      "theme_id": null,
-      "proposal_id": "prop:liberdade_como_símbo_0be57a",
-      "label_original": "Liberdade como símbolo de redenção",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:escolha_do_povo_e_re_0cd5c2",
-      "label_original": "Escolha do povo e rejeição do Messias",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:troca_entre_o_justo__039dab",
-      "label_original": "Troca entre o justo e o injusto",
-      "source": "ai_enrichment"
-    }
-  ],
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -120,122 +80,8 @@
     "nt_refs": 4,
     "total_verses": 4
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "I.e., son of Abba or of a father, a notorious robber whom Pilate proposed to condemn to death instead of Jesus, whom he wished to release, in accordance with the Roman custom (John 18:40; Mark 15:7; Luke 23:19). But the Jews were so bent on the death of Jesus that they demanded that Barabbas should be pardoned (Matt. 27:16-26; Acts 3:14). This Pilate did.",
-      "extracted_refs": [
-        {
-          "book": "John",
-          "chapter": 18,
-          "verses": [
-            40
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "John 18:40",
-          "source": "EAS"
-        },
-        {
-          "book": "Mark",
-          "chapter": 15,
-          "verses": [
-            7
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Mark 15:7",
-          "source": "EAS"
-        },
-        {
-          "book": "Luke",
-          "chapter": 23,
-          "verses": [
-            19
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Luke 23:19",
-          "source": "EAS"
-        },
-        {
-          "book": "Matthew",
-          "chapter": 27,
-          "verses": [
-            16,
-            17,
-            18,
-            19,
-            20,
-            21,
-            22,
-            23,
-            24,
-            25,
-            26
-          ],
-          "verse_count": 11,
-          "testament": "NT",
-          "raw": "Matthew 27:16-26",
-          "source": "EAS"
-        },
-        {
-          "book": "Acts",
-          "chapter": 3,
-          "verses": [
-            14
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Acts 3:14",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(son of Abba), a robber, (John 18:40) who had committed murder in an insurrection, (Mark 15:7; Luke 28:18) in Jerusalem and was lying in prison the time of the trial of Jesus before Pilate.p",
-      "extracted_refs": [
-        {
-          "book": "John",
-          "chapter": 18,
-          "verses": [
-            40
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "John 18:40",
-          "source": "SMI"
-        },
-        {
-          "book": "Mark",
-          "chapter": 15,
-          "verses": [
-            7
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Mark 15:7",
-          "source": "SMI"
-        },
-        {
-          "book": "Luke",
-          "chapter": 28,
-          "verses": [
-            18
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Luke 28:18",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -323,17 +169,5 @@
       "raw": "Luke 28:18",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 16,
-    "ot": 0,
-    "nt": 16,
-    "books": [
-      "Acts",
-      "John",
-      "Luke",
-      "Mark",
-      "Matthew"
-    ]
-  }
+  ]
 }

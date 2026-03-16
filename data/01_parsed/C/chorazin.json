@@ -1,7 +1,7 @@
 {
   "topic": "CHORAZIN",
   "slug": "chorazin",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Denunciation against Mt 11:21; Lu 10:13",
@@ -24,46 +24,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "Chorazin é uma cidade mencionada no Novo Testamento, especificamente nos evangelhos de Mateus e Lucas, onde é alvo de uma denúncia por parte de Jesus. Ele critica Chorazin por sua incredulidade e falta de arrependimento, comparando-a desfavoravelmente a cidades como Tiro e Sidom, que, segundo Ele, teriam se arrependido se tivessem visto os milagres realizados. Essa denúncia destaca a responsabilidade das cidades que receberam a mensagem do evangelho e a gravidade da rejeição a Cristo.",
-    "outline": [
-      "Localização e importância de Chorazin no contexto do ministério de Jesus",
-      "Denúncia de Jesus contra Chorazin em Mateus 11:21",
-      "Denúncia de Jesus contra Chorazin em Lucas 10:13",
-      "Comparação com Tiro e Sidom",
-      "Implicações da incredulidade e rejeição do evangelho"
-    ],
-    "key_concepts": [
-      "Incredulidade como rejeição ao evangelho",
-      "Responsabilidade das cidades que ouviram a mensagem de Cristo",
-      "Consequências espirituais da rejeição a Jesus"
-    ],
-    "theological_significance": "A denúncia de Chorazin por Jesus enfatiza a seriedade da rejeição ao evangelho e a responsabilidade que as comunidades têm ao receber a mensagem de salvação. Este evento serve como um alerta para a importância da fé e do arrependimento, destacando que a incredulidade pode levar a consequências espirituais severas.",
-    "model": "gpt-4o-mini",
-    "run_id": "enr_20251202_004637_3ad8cb1d",
-    "confidence": 1.0,
-    "generated_at": "2025-12-02T00:46:37.323205"
-  },
-  "ai_themes_normalized": [
-    {
-      "theme_id": null,
-      "proposal_id": "prop:incredulidade_e_suas_0ab095",
-      "label_original": "Incredulidade e suas consequências",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:responsabilidade_dia_092433",
-      "label_original": "Responsabilidade diante da revelação divina",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:comparação_entre_cid_0b9dbf",
-      "label_original": "Comparação entre cidades e suas respostas ao evangelho",
-      "source": "ai_enrichment"
-    }
-  ],
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -72,68 +32,8 @@
     "nt_refs": 1,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Named along with Bethsaida and Capernaum as one of the cities in which our Lord’s “mighty works” were done, and which was doomed to woe because of signal privileges neglected (Matt. 11:21; Luke 10:13). It has been identified by general consent with the modern Kerazeh, about 2 1/2 miles up the Wady Kerazeh from Capernaum; i.e., Tell Hum.",
-      "extracted_refs": [
-        {
-          "book": "Matthew",
-          "chapter": 11,
-          "verses": [
-            21
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Matthew 11:21",
-          "source": "EAS"
-        },
-        {
-          "book": "Luke",
-          "chapter": 10,
-          "verses": [
-            13
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Luke 10:13",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "one of the cities in which our Lord’s mighty works were done, but named only in his denunciation. Matt. 11:21; Luke 10:13 St. Jerome describes it as on the shore of the lake, two miles from Capernaum, but its modern site is uncertain.",
-      "extracted_refs": [
-        {
-          "book": "Matthew",
-          "chapter": 11,
-          "verses": [
-            21
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Matthew 11:21",
-          "source": "SMI"
-        },
-        {
-          "book": "Luke",
-          "chapter": 10,
-          "verses": [
-            13
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Luke 10:13",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -167,14 +67,5 @@
       "raw": "Luke 10:13",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 2,
-    "ot": 0,
-    "nt": 2,
-    "books": [
-      "Luke",
-      "Matthew"
-    ]
-  }
+  ]
 }

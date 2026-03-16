@@ -1,7 +1,7 @@
 {
   "topic": "FIREBRAND",
   "slug": "firebrand",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Used by Samson Jud 15:4",
@@ -42,26 +42,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "O termo 'fogo' é utilizado em várias passagens do Antigo Testamento, incluindo a referência a Sansão em Juízes 15:4, onde ele usa fogo como uma arma contra os filisteus. Além disso, o fogo é empregado de forma figurativa em Provérbios 26:18, Amós 4:11 e Zacarias 3:2, simbolizando destruição, juízo e purificação. O conceito de fogo, tanto literal quanto figurativo, é central para entender a ação de Deus e a resposta humana ao seu chamado.",
-    "outline": [
-      "Uso literal do fogo por Sansão em Juízes 15:4",
-      "Significado figurativo do fogo em Provérbios, Amós e Zacarias",
-      "O fogo como símbolo de juízo e purificação",
-      "A totalidade do conceito no Antigo Testamento",
-      "Implicações teológicas do uso do fogo na Escritura"
-    ],
-    "key_concepts": [
-      "Fogo como instrumento de juízo divino",
-      "Fogo como símbolo de purificação",
-      "A relação entre fogo e ação humana"
-    ],
-    "theological_significance": "O uso do fogo na Bíblia destaca a santidade de Deus e sua capacidade de purificar e julgar. Ele serve como um lembrete da seriedade do pecado e da necessidade de arrependimento, além de simbolizar a presença de Deus que consome e transforma.",
-    "model": "gpt-4o-mini",
-    "run_id": "enr_20251202_155759_b2e397f5",
-    "confidence": 1.0,
-    "generated_at": "2025-12-02T15:57:59.679374"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -70,83 +50,8 @@
     "nt_refs": 0,
     "total_verses": 2
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Isa. 7:4, Amos 4:11, Zech. 3:2, denotes the burnt end of a stick (Heb. ‘ud); in Judg. 15:4, a lamp or torch, a flambeau (Heb. lappid); in Prov. 26:18 (comp. Eph. 6:16), burning darts or arrows (Heb. zikkim).",
-      "extracted_refs": [
-        {
-          "book": "Ephesians",
-          "chapter": 6,
-          "verses": [
-            16
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Ephesians 6:16",
-          "source": "EAS"
-        },
-        {
-          "book": "Isaiah",
-          "chapter": 7,
-          "verses": [
-            4
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Isaiah 7:4",
-          "source": "EAS"
-        },
-        {
-          "book": "Amos",
-          "chapter": 4,
-          "verses": [
-            11
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Amos 4:11",
-          "source": "EAS"
-        },
-        {
-          "book": "Zechariah",
-          "chapter": 3,
-          "verses": [
-            2
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Zechariah 3:2",
-          "source": "EAS"
-        },
-        {
-          "book": "Judges",
-          "chapter": 15,
-          "verses": [
-            4
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Judges 15:4",
-          "source": "EAS"
-        },
-        {
-          "book": "Proverbs",
-          "chapter": 26,
-          "verses": [
-            18
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Proverbs 26:18",
-          "source": "EAS"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -159,26 +64,6 @@
     "enrichment_source": "pipeline_merge"
   },
   "version": "3.0.0",
-  "ai_themes_normalized": [
-    {
-      "theme_id": null,
-      "proposal_id": "prop:fogo_como_instrument_02ab3f",
-      "label_original": "Fogo como instrumento de juízo divino",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:purificação_através__0e109a",
-      "label_original": "Purificação através do fogo",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:ação_humana_e_suas_c_0a00b1",
-      "label_original": "Ação humana e suas consequências",
-      "source": "ai_enrichment"
-    }
-  ],
   "definition_refs": [
     {
       "book": "Ephesians",
@@ -246,18 +131,5 @@
       "raw": "Proverbs 26:18",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 6,
-    "ot": 5,
-    "nt": 1,
-    "books": [
-      "Amos",
-      "Ephesians",
-      "Isaiah",
-      "Judges",
-      "Proverbs",
-      "Zechariah"
-    ]
-  }
+  ]
 }

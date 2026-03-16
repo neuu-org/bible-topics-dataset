@@ -1,7 +1,7 @@
 {
   "topic": "MITYLENE",
   "slug": "mitylene",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "(The capitol of Lesbos)",
@@ -18,17 +18,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_011741",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T01:17:41.456919",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -37,57 +26,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "The chief city of the island of Lesbos, on its east coast, in the AEgean Sea. Paul, during his third missionary journey, touched at this place on his way from Corinth to Judea (Acts 20:14), and here tarried for a night. It lies between Assos and Chios. It is now under the Turkish rule, and bears the name of Metelin.",
-      "extracted_refs": [
-        {
-          "book": "Acts",
-          "chapter": 20,
-          "verses": [
-            14
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Acts 20:14",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(mutilated), the chief town of Lesbos, an island of the AEgean Sea, 7 1/2 miles from the opposite point of Asia Minor. The city is situated on the east coast of the island. Mitylene is the intermediate place where St. Paul stopped for the night between Assos and Chios. (Acts 20:14,15) The town itself was celebrated in Roman times for the beauty of its buildings. In St. Paul’s day it had the privileges of a free city. (It is now a place of no importance, called Mitelin . It contains about 1100 houses, Greek and Turkish, with narrow and filthy streets.—ED.)",
-      "extracted_refs": [
-        {
-          "book": "Acts",
-          "chapter": 20,
-          "verses": [
-            14,
-            15
-          ],
-          "verse_count": 2,
-          "testament": "NT",
-          "raw": "Acts 20:14,15",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Acts 20:14",
-      "original": "Acts 20:14"
-    },
-    {
-      "reference": "Acts 20:15",
-      "original": "Acts 20:15"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -122,13 +62,5 @@
       "raw": "Acts 20:14,15",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 2,
-    "ot": 0,
-    "nt": 2,
-    "books": [
-      "Acts"
-    ]
-  }
+  ]
 }

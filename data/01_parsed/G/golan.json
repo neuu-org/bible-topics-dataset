@@ -1,7 +1,7 @@
 {
   "topic": "GOLAN",
   "slug": "golan",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "(A town in Bashan)",
@@ -47,17 +47,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_204138",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T20:41:38.427942",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -66,68 +55,8 @@
     "nt_refs": 0,
     "total_verses": 2
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Exile, a city of Bashan (Deut. 4:43), one of the three cities of refuge east of Jordan, about 12 miles north-east of the Sea of Galilee (Josh. 20:8). There are no further notices of it in Scripture. It became the head of the province of Gaulanitis, one of the four provinces into which Bashan was divided after the Babylonish captivity, and almost identical with the modern Jaulan, in Western Hauran, about 39 miles in length and 18 in breath.",
-      "extracted_refs": [
-        {
-          "book": "Deuteronomy",
-          "chapter": 4,
-          "verses": [
-            43
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Deuteronomy 4:43",
-          "source": "EAS"
-        },
-        {
-          "book": "Joshua",
-          "chapter": 20,
-          "verses": [
-            8
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 20:8",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(circle), a city of Bashan, (4:43) allotted out of the half tribe of Manasseh to the Levites, (Joshua 21:27) and one of the three cities of refuge east of the Jordan. ch (Joshua 20:8) Its very site is now unknown. It gave its name to the province of Gaulanitis. It lay east of Galilee and north of Gadaritis [Gadara], and corresponds to the modern province of Jaulan .",
-      "extracted_refs": [
-        {
-          "book": "Joshua",
-          "chapter": 21,
-          "verses": [
-            27
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 21:27",
-          "source": "SMI"
-        },
-        {
-          "book": "Joshua",
-          "chapter": 20,
-          "verses": [
-            8
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 20:8",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -172,14 +101,5 @@
       "raw": "Joshua 21:27",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 3,
-    "ot": 3,
-    "nt": 0,
-    "books": [
-      "Deuteronomy",
-      "Joshua"
-    ]
-  }
+  ]
 }

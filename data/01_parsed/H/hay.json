@@ -1,7 +1,7 @@
 {
   "topic": "HAY",
   "slug": "hay",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "General scriptures concerning Pr 27:25; Isa 15:6; 1Co 3:12",
@@ -36,17 +36,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_212129",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T21:21:29.422638",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -55,101 +44,8 @@
     "nt_refs": 1,
     "total_verses": 2
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Properly so called, was not in use among the Hebrews; straw was used instead. They cut the grass green as it was needed. The word rendered “hay” in Prov. 27:25 means the first shoots of the grass. In Isa. 15:6 the Revised Version has correctly “grass,” where the Authorized Version has “hay.”",
-      "extracted_refs": [
-        {
-          "book": "Proverbs",
-          "chapter": 27,
-          "verses": [
-            25
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Proverbs 27:25",
-          "source": "EAS"
-        },
-        {
-          "book": "Isaiah",
-          "chapter": 15,
-          "verses": [
-            6
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Isaiah 15:6",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(Heb. chatsir), the rendering of the Authorized Version in (Proverbs 27:25) and Isai 15:6 Of the Hebrew term, which occurs frequently in the Old Testament, and denotes “grass” of any kind. It is quite probable that the modern Orientals do not make hay in our sense of the term; but it is certain that the ancients did mow their grass, and probably made use of the dry material. See (Psalms 37:2) We may remark that there is an express Hebrew term for “dry grass” or “hay,” viz. chashash, which, in the only two places where the word occurs, (Isaiah 5:24; 33:11) is rendered “chaff” in the Authorized Version.",
-      "extracted_refs": [
-        {
-          "book": "Proverbs",
-          "chapter": 27,
-          "verses": [
-            25
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Proverbs 27:25",
-          "source": "SMI"
-        },
-        {
-          "book": "Psalms",
-          "chapter": 37,
-          "verses": [
-            2
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Psalms 37:2",
-          "source": "SMI"
-        },
-        {
-          "book": "Isaiah",
-          "chapter": 5,
-          "verses": [
-            24
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Isaiah 5:24",
-          "source": "SMI"
-        },
-        {
-          "book": "Isaiah",
-          "chapter": 33,
-          "verses": [
-            11
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Isaiah 33:11",
-          "source": "SMI"
-        },
-        {
-          "book": "Isaiah",
-          "chapter": 15,
-          "verses": [
-            6
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Isaiah 15:6",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -216,15 +112,5 @@
       "raw": "Isaiah 33:11",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 5,
-    "ot": 5,
-    "nt": 0,
-    "books": [
-      "Isaiah",
-      "Proverbs",
-      "Psalms"
-    ]
-  }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "topic": "HABOR",
   "slug": "habor",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A river of Mesopotamia 2Ki 17:6; 18:11; 1Ch 5:26",
@@ -25,17 +25,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_205144",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T20:51:44.866503",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -44,57 +33,8 @@
     "nt_refs": 0,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "The united stream, or, according to others, with beautiful banks, the name of a river in Assyria, and also of the district through which it flowed (1 Chr. 5:26). There is a river called Khabur which rises in the central highlands of Kurdistan, and flows south-west till it falls into the Tigris, about 70 miles above Mosul. This was not, however, the Habor of Scripture. There is another river of the same name (the Chaboras) which, after a course of about 200 miles, flows into the Euphrates at Karkesia, the ancient Circesium. This was, there can be little doubt, the ancient Habor.",
-      "extracted_refs": [
-        {
-          "book": "1 Chronicles",
-          "chapter": 5,
-          "verses": [
-            26
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 5:26",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(beautiful banks), the “river of Gozan,” (2 Kings 17:6) and 2Kin 18:11 Is identified beyond all reasonable doubt with the famous affluent of the Euphrates, which is called Aborrhas and Chaboras by ancient writers, and now Khabour.",
-      "extracted_refs": [
-        {
-          "book": "2 Kings",
-          "chapter": 17,
-          "verses": [
-            6
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Kings 17:6",
-          "source": "SMI"
-        },
-        {
-          "book": "2 Kings",
-          "chapter": 18,
-          "verses": [
-            11
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Kings 18:11",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -139,14 +79,5 @@
       "raw": "2 Kings 18:11",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 3,
-    "ot": 3,
-    "nt": 0,
-    "books": [
-      "1 Chronicles",
-      "2 Kings"
-    ]
-  }
+  ]
 }

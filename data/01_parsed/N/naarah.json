@@ -1,7 +1,7 @@
 {
   "topic": "NAARAH",
   "slug": "naarah",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A wife of Ashur 1Ch 4:5,6",
@@ -13,17 +13,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_012926",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T01:29:26.472656",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -32,58 +21,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "A girl, the second of Ashur’s two wives, of the tribe of Judah (1 Chr. 4:5, 6).",
-      "extracted_refs": [
-        {
-          "book": "1 Chronicles",
-          "chapter": 4,
-          "verses": [
-            5,
-            6
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "1 Chronicles 4:5, 6",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(a maiden), the second wife of Ashur; a descendant of Judah. (1 Chronicles 4:5,6)",
-      "extracted_refs": [
-        {
-          "book": "1 Chronicles",
-          "chapter": 4,
-          "verses": [
-            5,
-            6
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "1 Chronicles 4:5,6",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "1 Chronicles 4:5",
-      "original": "1 Chr. 4:5"
-    },
-    {
-      "reference": "1 Chronicles 4:6",
-      "original": "1 Chr. 4:6"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -107,13 +46,5 @@
       "raw": "1 Chronicles 4:5, 6",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 2,
-    "ot": 2,
-    "nt": 0,
-    "books": [
-      "1 Chronicles"
-    ]
-  }
+  ]
 }

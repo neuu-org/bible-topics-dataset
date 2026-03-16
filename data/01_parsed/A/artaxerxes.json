@@ -1,7 +1,7 @@
 {
   "topic": "ARTAXERXES",
   "slug": "artaxerxes",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "1. A Persian king probably identical with AHASUERUS",
@@ -37,208 +37,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "Artaxerxes é uma figura significativa na história do povo de Israel, representando a relação entre os judeus e o império persa. Ele é mencionado em contextos que refletem tanto a oposição ao restabelecimento de Jerusalém quanto o apoio à comunidade judaica através de decretos que permitiram a reconstrução e a restauração da lei. Sua figura é crucial para entender a dinâmica política e espiritual do período pós-exílio, onde a identidade judaica e a adoração a Deus estavam sendo reafirmadas.",
-    "outline": [
-      "Artaxerxes como rei persa e sua identificação com Ahasuerus.",
-      "Proibição da reconstrução de Jerusalém conforme registrado em Esdras 4:7-24.",
-      "Decreto de Artaxerxes em favor dos judeus em Esdras 7 e Neemias 2.",
-      "O impacto do decreto de Artaxerxes na restauração da comunidade judaica."
-    ],
-    "key_concepts": [
-      "Relação entre o povo de Deus e os poderes seculares.",
-      "A importância dos decretos reais na história da salvação.",
-      "A reconstrução de Jerusalém como um símbolo de esperança e restauração."
-    ],
-    "theological_significance": "A figura de Artaxerxes ilustra a soberania de Deus sobre as nações e como Ele utiliza líderes seculares para cumprir Seus propósitos. Através dos decretos de Artaxerxes, vemos a providência divina que permite a restauração do culto e da identidade judaica, refletindo a importância da obediência e da fé em tempos de adversidade. Para os cristãos, isso reforça a ideia de que Deus está no controle da história e que Ele pode usar qualquer circunstância para realizar Sua vontade.",
-    "model": "gpt-4o-mini",
-    "run_id": "enr_20250923_132459_89edb3a2",
-    "confidence": 1.0,
-    "generated_at": "2025-09-23T13:24:59.797065"
-  },
-  "ai_themes_normalized": [
-    {
-      "theme_id": null,
-      "proposal_id": "prop:restauracao_e_reconstrucao_075534",
-      "label_original": "Restauração e reconstrução",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:soberania_de_deus_sobre_as_nacoes_376397",
-      "label_original": "Soberania de Deus sobre as nações",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:identidade_e_adoracao_do_povo_de_deus_3850d9",
-      "label_original": "Identidade e adoração do povo de Deus",
-      "source": "ai_enrichment"
-    }
-  ],
-  "phase1_discovery": {
-    "processed_at": "2025-09-23T22:51:58.640590Z",
-    "total_themes_processed": 3,
-    "summary": {
-      "total_processed": 3,
-      "decisions": {
-        "alias_existing": 0,
-        "proposed": 3,
-        "error": 0
-      },
-      "success_rate": 1.0
-    },
-    "results": [
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.83654,
-          "novelty": 1.0,
-          "similarity_to_best_existing": 0.0,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_5f87eba8",
-          "decision_hash": "df17af037bc0360e",
-          "created_at": "2025-09-23T22:51:58.640590Z"
-        },
-        "proposal_id": "prop:68a213b9",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:restauracao_e_reconstrucao_075534",
-          "label_original": "Restauração e reconstrução",
-          "confidence": 0.9500000000000001,
-          "source": "ai_enrichment"
-        }
-      },
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.8497399999999999,
-          "novelty": 1.0,
-          "similarity_to_best_existing": 0.0,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_77013247",
-          "decision_hash": "978392a78bbe671f",
-          "created_at": "2025-09-23T22:51:59.550810Z"
-        },
-        "proposal_id": "prop:4a956a57",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:soberania_de_deus_sobre_as_nacoes_376397",
-          "label_original": "Soberania de Deus sobre as nações",
-          "confidence": 0.9500000000000001,
-          "source": "ai_enrichment"
-        }
-      },
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.7756800000000001,
-          "novelty": 0.75,
-          "similarity_to_best_existing": 0.25,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_fc849d9d",
-          "decision_hash": "ed4b357b5164a188",
-          "created_at": "2025-09-23T22:52:00.805776Z"
-        },
-        "proposal_id": "prop:85a4b7b4",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:identidade_e_adoracao_do_povo_de_deus_3850d9",
-          "label_original": "Identidade e adoração do povo de Deus",
-          "confidence": 0.9500000000000001,
-          "source": "ai_enrichment"
-        }
-      }
-    ]
-  },
-  "entity_links": [
-    {
-      "canonical_id": "CON:artaxerxes",
-      "namespace": "CONCEPT",
-      "role": "primary",
-      "confidence": 0.9,
-      "source": "topic_resolver",
-      "status": "proposed",
-      "provenance": {
-        "topic": "ARTAXERXES",
-        "extracted_from": "ARTAXERXES",
-        "processing_result": {
-          "status": "proposed",
-          "proposal_id": "stub:CON:artaxerxes_ed0b81cd",
-          "canonical_id": "CON:artaxerxes",
-          "needs_review": true,
-          "reasons": [
-            "low_confidence",
-            "insufficient_sources"
-          ],
-          "message": "Entity proposal stub:CON:artaxerxes_ed0b81cd created"
-        }
-      }
-    }
-  ],
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -247,44 +45,8 @@
     "nt_refs": 0,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "The Greek form of the name of several Persian kings. (1.) The king who obstructed the rebuilding of the temple (Ezra 4:7). He was probably the Smerdis of profane history. (2.) The king mentioned in Ezra 7:1, in the seventh year (B.C. 458) of whose reign Ezra led a second colony of Jews back to Jerusalem, was probably Longimanus, who reigned for forty years (B.C. 464-425); the grandson of Darius, who, fourteen years later, permitted Nehemiah to return and rebuild Jerusalem.",
-      "extracted_refs": [
-        {
-          "book": "Ezra",
-          "chapter": 4,
-          "verses": [
-            7
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Ezra 4:7",
-          "source": "EAS"
-        },
-        {
-          "book": "Ezra",
-          "chapter": 7,
-          "verses": [
-            1
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Ezra 7:1",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(the great warrior)."
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -318,13 +80,5 @@
       "raw": "Ezra 7:1",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 2,
-    "ot": 2,
-    "nt": 0,
-    "books": [
-      "Ezra"
-    ]
-  }
+  ]
 }

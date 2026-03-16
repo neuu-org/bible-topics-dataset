@@ -1,7 +1,7 @@
 {
   "topic": "NARCISSUS",
   "slug": "narcissus",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A believer at Rome Ro 16:11",
@@ -12,17 +12,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_013432",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T01:34:32.566503",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -31,52 +20,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Daffodil, a Roman whom Paul salutes (Rom. 16:11). He is supposed to have been the private secretary of the emperor Claudius. This is, however, quite uncertain.",
-      "extracted_refs": [
-        {
-          "book": "Romans",
-          "chapter": 16,
-          "verses": [
-            11
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Romans 16:11",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(stupidity), a dweller at Rome, (Romans 16:11) some members of whose household were known us Christians to St. Paul. Some have assumed the identity of this Narcissus with the secretary of the emperor Claudius; but this is quite uncertain.",
-      "extracted_refs": [
-        {
-          "book": "Romans",
-          "chapter": 16,
-          "verses": [
-            11
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Romans 16:11",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Romans 16:11",
-      "original": "Rom. 16:11"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -99,13 +44,5 @@
       "raw": "Romans 16:11",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 1,
-    "ot": 0,
-    "nt": 1,
-    "books": [
-      "Romans"
-    ]
-  }
+  ]
 }

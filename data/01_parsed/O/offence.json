@@ -1,7 +1,7 @@
 {
   "topic": "OFFENCE",
   "slug": "offence",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "idx": 0,
@@ -1462,26 +1462,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "O conceito de 'ofensa' na Bíblia refere-se a ocasiões que podem levar à queda espiritual ou à reprovação, sendo um tema recorrente tanto no Antigo quanto no Novo Testamento. Jesus adverte sobre as ofensas que surgem no mundo e a necessidade de os crentes evitarem causar ofensas a outros. A ofensa é frequentemente associada à rejeição de Cristo e à sua mensagem, e os crentes são exortados a viver de maneira que não cause escândalo ou tropeço aos outros. A importância de manter uma consciência limpa e evitar a ofensa é enfatizada nas cartas de Paulo e nos evangelhos.",
-    "outline": [
-      "Definição e ocorrência de ofensas na vida cristã",
-      "Advertências de Jesus sobre ofensas e sua relação com a fé",
-      "A responsabilidade dos crentes em evitar causar ofensas",
-      "A relação entre ofensa e a rejeição de Cristo",
-      "A importância de uma consciência limpa e a autoavaliação"
-    ],
-    "key_concepts": [
-      "Ofensa como tropeço espiritual",
-      "Responsabilidade cristã na edificação do próximo",
-      "A rejeição de Cristo como causa de ofensa"
-    ],
-    "theological_significance": "O conceito de ofensa é teologicamente significativo, pois reflete a fragilidade da condição humana e a necessidade de vigilância espiritual. A ofensa não apenas afeta a relação do indivíduo com Deus, mas também impacta a comunidade de fé, exigindo que os crentes ajam com amor e responsabilidade para evitar que outros sejam levados ao erro ou à queda.",
-    "model": "gpt-4o-mini",
-    "run_id": "enr_20251202_155248_f0031458",
-    "confidence": 1.0,
-    "generated_at": "2025-12-02T15:52:48.824041"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -1492,84 +1472,9 @@
     "ot_refs": 15,
     "nt_refs": 36
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "(1.) An injury or wrong done to one (1 Sam. 25:31; Rom. 5:15). (2.) A stumbling-block or cause of temptation (Isa. 8:14; Matt. 16:23; 18:7). Greek skandalon, properly that at which one stumbles or takes offence. The “offence of the cross” (Gal. 5:11) is the offence the Jews took at the teaching that salvation was by the crucified One, and by him alone. Salvation by the cross was a stumbling-block to their national pride.",
-      "extracted_refs": [
-        {
-          "book": "1 Samuel",
-          "chapter": 25,
-          "verses": [
-            31
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Samuel 25:31",
-          "source": "EAS"
-        },
-        {
-          "book": "Romans",
-          "chapter": 5,
-          "verses": [
-            15
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Romans 5:15",
-          "source": "EAS"
-        },
-        {
-          "book": "Isaiah",
-          "chapter": 8,
-          "verses": [
-            14
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Isaiah 8:14",
-          "source": "EAS"
-        },
-        {
-          "book": "Matthew",
-          "chapter": 16,
-          "verses": [
-            23
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Matthew 16:23",
-          "source": "EAS"
-        },
-        {
-          "book": "Matthew",
-          "chapter": 18,
-          "verses": [
-            7
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Matthew 18:7",
-          "source": "EAS"
-        },
-        {
-          "book": "Galatians",
-          "chapter": 5,
-          "verses": [
-            11
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Galatians 5:11",
-          "source": "EAS"
-        }
-      ]
-    }
-  ],
   "sources": [
     "NAV",
-    "TOR",
-    "EAS"
+    "TOR"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -1582,26 +1487,6 @@
     "enrichment_source": "pipeline_merge"
   },
   "version": "3.0.0",
-  "ai_themes_normalized": [
-    {
-      "theme_id": null,
-      "proposal_id": "prop:a_responsabilidade_d_0d7956",
-      "label_original": "A responsabilidade do crente em evitar ofensas",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:a_rejeição_de_cristo_0d65da",
-      "label_original": "A rejeição de Cristo como causa de ofensa",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:a_importância_da_con_02d0f8",
-      "label_original": "A importância da consciência limpa",
-      "source": "ai_enrichment"
-    }
-  ],
   "definition_refs": [
     {
       "book": "1 Samuel",
@@ -1669,17 +1554,5 @@
       "raw": "Galatians 5:11",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 6,
-    "ot": 2,
-    "nt": 4,
-    "books": [
-      "1 Samuel",
-      "Galatians",
-      "Isaiah",
-      "Matthew",
-      "Romans"
-    ]
-  }
+  ]
 }

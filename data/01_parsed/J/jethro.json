@@ -1,7 +1,7 @@
 {
   "topic": "JETHRO",
   "slug": "jethro",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Called RAGUEL and REUEL",
@@ -36,17 +36,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_231406",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T23:14:06.572907",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -55,69 +44,8 @@
     "nt_refs": 0,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "His excellence, or gain, a prince or priest of Midian, who succeeded his father Reuel. Moses spent forty years after his exile from the Egyptian court as keeper of Jethro’s flocks. While the Israelites were encamped at Sinai, and soon after their victory over Amalek, Jethro came to meet Moses, bringing with him Zipporah and her two sons. They met at the “mount of God,” and “Moses told him all that the Lord had done unto Pharaoh” (Ex. 18:8). On the following day Jethro, observing the multiplicity of the duties devolving on Moses, advised him to appoint subordinate judges, rulers of thousands, of hundreds, of fifties, and of tens, to decide smaller matters, leaving only the weightier matters to be referred to Moses, to be laid before the Lord. This advice Moses adopted (Ex. 18). He was also called Hobab (q.v.), which was probably his personal name, while Jethro was an official name. (See MOSES.)",
-      "extracted_refs": [
-        {
-          "book": "Exodus",
-          "chapter": 18,
-          "verses": [
-            8
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Exodus 18:8",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(his excellence) was priest or prince of Midian. Moses married his daughter Zipporah. (B.C. 1530.) On account if his local knowledge he was entreated to remain with the Israelites throughout their journey to Canaan. (Numbers 10:31,33) (He is called Raguel, Or Reuel, Reuel in (Exodus 2:18) And Raguel, Or Reuel in (Numbers 10:29), The same word int he original for both). Reuel is probably his proper name, and Jethro his official title.—ED.)",
-      "extracted_refs": [
-        {
-          "book": "Numbers",
-          "chapter": 10,
-          "verses": [
-            31,
-            33
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Numbers 10:31,33",
-          "source": "SMI"
-        },
-        {
-          "book": "Exodus",
-          "chapter": 2,
-          "verses": [
-            18
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Exodus 2:18",
-          "source": "SMI"
-        },
-        {
-          "book": "Numbers",
-          "chapter": 10,
-          "verses": [
-            29
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Numbers 10:29",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -174,14 +102,5 @@
       "raw": "Numbers 10:29",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 5,
-    "ot": 5,
-    "nt": 0,
-    "books": [
-      "Exodus",
-      "Numbers"
-    ]
-  }
+  ]
 }

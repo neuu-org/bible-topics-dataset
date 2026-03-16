@@ -1,7 +1,7 @@
 {
   "topic": "APHSES",
   "slug": "aphses",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A governor of the temple 1Ch 24:15",
@@ -12,211 +12,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "Aphses, mencionado em 1 Crônicas 24:15, é identificado como um governador do templo, uma posição de grande responsabilidade na administração e supervisão das atividades religiosas e litúrgicas em Israel. Este papel era crucial para a manutenção da ordem e da santidade no culto a Deus, refletindo a importância da liderança espiritual na comunidade. A função de Aphses destaca a organização do culto no templo e a necessidade de líderes dedicados que garantam a adoração adequada e a observância das leis divinas.",
-    "outline": [
-      "A função de Aphses como governador do templo",
-      "A importância da liderança no culto israelita",
-      "A organização do serviço no templo",
-      "O papel dos levitas e sacerdotes na administração do templo"
-    ],
-    "key_concepts": [
-      "Governança do templo",
-      "Liturgia e adoração",
-      "Sacerdócio e liderança espiritual"
-    ],
-    "theological_significance": "A posição de Aphses como governador do templo ilustra a importância da liderança espiritual na vida da comunidade de fé. Através de líderes dedicados, a adoração a Deus é mantida em ordem e reverência, refletindo a santidade do culto. Para os cristãos, isso se traduz na necessidade de líderes espirituais que guiem a congregação em adoração e serviço, enfatizando a continuidade da importância da liderança na igreja moderna.",
-    "model": "gpt-4o-mini",
-    "run_id": "enr_20250923_130850_b69125fe",
-    "confidence": 1.0,
-    "generated_at": "2025-09-23T13:08:50.090006"
-  },
-  "ai_themes_normalized": [
-    {
-      "theme_id": null,
-      "proposal_id": "prop:adoracao_no_templo_44d483",
-      "label_original": "Adoração no templo",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:lideranca_espiritual_f53edf",
-      "label_original": "Liderança espiritual",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:organizacao_do_culto_fc2078",
-      "label_original": "Organização do culto",
-      "source": "ai_enrichment"
-    }
-  ],
-  "phase1_discovery": {
-    "processed_at": "2025-09-23T22:47:08.415614Z",
-    "total_themes_processed": 3,
-    "summary": {
-      "total_processed": 3,
-      "decisions": {
-        "alias_existing": 0,
-        "proposed": 3,
-        "error": 0
-      },
-      "success_rate": 1.0
-    },
-    "results": [
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "low_novelty",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.75114,
-          "novelty": 0.5,
-          "similarity_to_best_existing": 0.5,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_17c0dcd9",
-          "decision_hash": "2bf08b4acb72def7",
-          "created_at": "2025-09-23T22:47:08.415614Z"
-        },
-        "proposal_id": "prop:e9ffc377",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:adoracao_no_templo_44d483",
-          "label_original": "Adoração no templo",
-          "confidence": 0.9500000000000001,
-          "source": "ai_enrichment"
-        }
-      },
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "low_novelty",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.7798399999999999,
-          "novelty": 0.6666666666666667,
-          "similarity_to_best_existing": 0.3333333333333333,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_dd8fad6b",
-          "decision_hash": "9f287419c60e6c46",
-          "created_at": "2025-09-23T22:47:09.361657Z"
-        },
-        "proposal_id": "prop:717cf840",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:lideranca_espiritual_f53edf",
-          "label_original": "Liderança espiritual",
-          "confidence": 0.9500000000000001,
-          "source": "ai_enrichment"
-        }
-      },
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "low_novelty",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.74362,
-          "novelty": 0.5,
-          "similarity_to_best_existing": 0.5,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_5d9cd838",
-          "decision_hash": "37c692e18caf68aa",
-          "created_at": "2025-09-23T22:47:10.411527Z"
-        },
-        "proposal_id": "prop:5f9076c5",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:organizacao_do_culto_fc2078",
-          "label_original": "Organização do culto",
-          "confidence": 0.9500000000000001,
-          "source": "ai_enrichment"
-        }
-      }
-    ]
-  },
-  "entity_links": [
-    {
-      "canonical_id": "CON:aphses",
-      "namespace": "CONCEPT",
-      "role": "primary",
-      "confidence": 0.9,
-      "source": "topic_resolver",
-      "status": "proposed",
-      "provenance": {
-        "topic": "APHSES",
-        "extracted_from": "APHSES",
-        "processing_result": {
-          "status": "proposed",
-          "proposal_id": "stub:CON:aphses_270385ed",
-          "canonical_id": "CON:aphses",
-          "needs_review": true,
-          "reasons": [
-            "low_confidence",
-            "insufficient_sources"
-          ],
-          "message": "Entity proposal stub:CON:aphses_270385ed created"
-        }
-      }
-    }
-  ],
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -225,34 +20,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "SMI",
-      "text": "(the dispersion), chief of the 15th of the 24 courses in the service of the temple. (1 Chronicles 24:15)",
-      "extracted_refs": [
-        {
-          "book": "1 Chronicles",
-          "chapter": 24,
-          "verses": [
-            15
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 24:15",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "1 Chronicles 24:15",
-      "original": "1 Chronicles 24:15"
-    }
-  ],
   "sources": [
-    "NAV",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -275,13 +44,5 @@
       "raw": "1 Chronicles 24:15",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 1,
-    "ot": 1,
-    "nt": 0,
-    "books": [
-      "1 Chronicles"
-    ]
-  }
+  ]
 }

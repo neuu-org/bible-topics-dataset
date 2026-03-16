@@ -1,7 +1,7 @@
 {
   "topic": "GENUBATH",
   "slug": "genubath",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Son of Hadad 1Ki 11:20",
@@ -12,17 +12,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_202906",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T20:29:06.880271",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -31,67 +20,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Theft, the son of Hadad, of the Edomitish royal family. He was brought up in Pharaoh’s household. His mother was a sister of Tahpenes, the king of Egypt’s wife, mentioned in 1 Kings 11:20.",
-      "extracted_refs": [
-        {
-          "book": "1 Kings",
-          "chapter": 11,
-          "verses": [
-            20
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Kings 11:20",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "the son of Hadad, an Edomite of the royal family, by an Egyptian princess, the sister of Tahpenes, the queen of the Pharaoh who governed Egypt in the latter part of the reign of David. (1 Kings 11:20) comp. 1Kin 11:16 (B.C. 1015.)",
-      "extracted_refs": [
-        {
-          "book": "1 Kings",
-          "chapter": 11,
-          "verses": [
-            20
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Kings 11:20",
-          "source": "SMI"
-        },
-        {
-          "book": "1 Kings",
-          "chapter": 11,
-          "verses": [
-            16
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Kings 11:16",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "1 Kings 11:20",
-      "original": "1 Kings 11:20"
-    },
-    {
-      "reference": "1 Kings 11:16",
-      "original": "1Kin 11:16"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -125,13 +55,5 @@
       "raw": "1 Kings 11:16",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 2,
-    "ot": 2,
-    "nt": 0,
-    "books": [
-      "1 Kings"
-    ]
-  }
+  ]
 }

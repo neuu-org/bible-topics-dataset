@@ -1,7 +1,7 @@
 {
   "topic": "AGRIPPA",
   "slug": "agrippa",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "King Ac 25:26",
@@ -12,209 +12,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "Agripa, mencionado em Atos 25:26, é uma figura importante na narrativa do Novo Testamento, representando a interseção entre o governo romano e as questões religiosas da época. Ele é um exemplo de como as autoridades se relacionavam com o cristianismo emergente e a complexidade das interações entre fé e política. Sua presença no julgamento de Paulo destaca a tensão entre a verdade do evangelho e as pressões sociais e políticas.",
-    "outline": [
-      "Contexto histórico de Agripa e sua linhagem",
-      "O papel de Agripa no julgamento de Paulo",
-      "A relação entre poder político e questões religiosas",
-      "A resposta de Paulo e a defesa do evangelho"
-    ],
-    "key_concepts": [
-      "Autoridade política",
-      "Perseverança na fé",
-      "Interseção entre fé e política"
-    ],
-    "theological_significance": "A figura de Agripa ilustra a resistência que os cristãos enfrentaram em sua missão de propagar o evangelho. A interação de Paulo com Agripa serve como um modelo de como os cristãos devem se posicionar diante das autoridades, defendendo sua fé com coragem e clareza, mesmo em face da oposição.",
-    "model": "gpt-4o-mini",
-    "run_id": "enr_20250923_123123_0826635f",
-    "confidence": 1.0,
-    "generated_at": "2025-09-23T12:31:23.039020"
-  },
-  "ai_themes_normalized": [
-    {
-      "theme_id": null,
-      "proposal_id": "prop:justica_e_injustica_00b961",
-      "label_original": "Justiça e injustiça",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:testemunho_cristao_d97855",
-      "label_original": "Testemunho cristão",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:conflito_entre_fe_e_poder_13b04e",
-      "label_original": "Conflito entre fé e poder",
-      "source": "ai_enrichment"
-    }
-  ],
-  "phase1_discovery": {
-    "processed_at": "2025-09-23T22:35:27.176147Z",
-    "total_themes_processed": 3,
-    "summary": {
-      "total_processed": 3,
-      "decisions": {
-        "alias_existing": 0,
-        "proposed": 3,
-        "error": 0
-      },
-      "success_rate": 1.0
-    },
-    "results": [
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "low_novelty",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.7746199999999999,
-          "novelty": 0.6666666666666667,
-          "similarity_to_best_existing": 0.3333333333333333,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_038a6642",
-          "decision_hash": "a34b6024c8b28114",
-          "created_at": "2025-09-23T22:35:27.176147Z"
-        },
-        "proposal_id": "prop:66c649f0",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:justica_e_injustica_00b961",
-          "label_original": "Justiça e injustiça",
-          "confidence": 0.9500000000000001,
-          "source": "ai_enrichment"
-        }
-      },
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.8317399999999999,
-          "novelty": 1.0,
-          "similarity_to_best_existing": 0.0,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_8c0a2000",
-          "decision_hash": "8e5cb029a104e54c",
-          "created_at": "2025-09-23T22:35:28.348769Z"
-        },
-        "proposal_id": "prop:f1b5b1ee",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:testemunho_cristao_d97855",
-          "label_original": "Testemunho cristão",
-          "confidence": 0.9500000000000001,
-          "source": "ai_enrichment"
-        }
-      },
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.83992,
-          "novelty": 1.0,
-          "similarity_to_best_existing": 0.0,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_5dc4c024",
-          "decision_hash": "d7eb289761bb0fca",
-          "created_at": "2025-09-23T22:35:29.477857Z"
-        },
-        "proposal_id": "prop:23fda20b",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:conflito_entre_fe_e_poder_13b04e",
-          "label_original": "Conflito entre fé e poder",
-          "confidence": 0.9500000000000001,
-          "source": "ai_enrichment"
-        }
-      }
-    ]
-  },
-  "entity_links": [
-    {
-      "canonical_id": "CON:agrippa",
-      "namespace": "CONCEPT",
-      "role": "primary",
-      "confidence": 0.9,
-      "source": "topic_resolver",
-      "status": "proposed",
-      "provenance": {
-        "topic": "AGRIPPA",
-        "extracted_from": "AGRIPPA",
-        "processing_result": {
-          "status": "proposed",
-          "proposal_id": "stub:CON:agrippa_f5f6d9ad",
-          "canonical_id": "CON:agrippa",
-          "needs_review": true,
-          "reasons": [
-            "low_confidence",
-            "insufficient_sources"
-          ],
-          "message": "Entity proposal stub:CON:agrippa_f5f6d9ad created"
-        }
-      }
-    }
-  ],
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -223,16 +20,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "SMI",
-      "text": "[Herod]"
-    }
-  ],
-  "dictionary_refs": [],
   "sources": [
-    "NAV",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",

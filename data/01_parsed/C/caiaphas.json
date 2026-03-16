@@ -1,7 +1,7 @@
 {
   "topic": "CAIAPHAS",
   "slug": "caiaphas",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "High priest Lu 3:2",
@@ -58,52 +58,6 @@
       "verse_count": 2
     }
   ],
-  "ai_enrichment": {
-    "summary": "Caifás foi o sumo sacerdote durante o ministério de Jesus, conhecido por seu papel na condenação de Cristo. Ele era genro de Anás e profetizou sobre a necessidade da morte de Jesus para a salvação do povo. Caifás também esteve envolvido na acusação dos apóstolos após a ressurreição de Jesus. Sua figura representa a liderança religiosa que se opôs a Jesus e suas implicações teológicas sobre a autoridade e a profecia no Novo Testamento.",
-    "outline": [
-      "Caifás como sumo sacerdote e sua linhagem",
-      "Profecias de Caifás sobre Jesus",
-      "O julgamento de Jesus sob a liderança de Caifás",
-      "Acusações contra Pedro e os apóstolos",
-      "A importância de Caifás na narrativa do Novo Testamento"
-    ],
-    "key_concepts": [
-      "Autoridade religiosa e sua oposição a Jesus",
-      "Profecia e seu cumprimento em Cristo",
-      "O papel do sumo sacerdote na condenação de Jesus"
-    ],
-    "theological_significance": "A figura de Caifás é teologicamente significativa pois ilustra a tensão entre a liderança religiosa judaica e a missão de Jesus. Sua profecia, embora involuntária, destaca a soberania de Deus em usar até mesmo aqueles que se opõem a Ele para cumprir Seus propósitos redentores. Além disso, o julgamento de Jesus sob Caifás representa a rejeição do Messias por parte de seus próprios líderes.",
-    "model": "gpt-4o-mini",
-    "run_id": "enr_20251202_000231_1b5ba8f3",
-    "confidence": 1.0,
-    "generated_at": "2025-12-02T00:02:31.972287"
-  },
-  "ai_themes_normalized": [
-    {
-      "theme_id": null,
-      "proposal_id": "prop:oposição_da_lideranç_01e5ab",
-      "label_original": "Oposição da liderança religiosa ao Messias",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:profecia_e_seu_cumpr_07bbbd",
-      "label_original": "Profecia e seu cumprimento em Jesus",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:julgamento_e_condena_018062",
-      "label_original": "Julgamento e condenação injusta",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:ação_dos_apóstolos_a_0ea190",
-      "label_original": "Ação dos apóstolos após a ressurreição",
-      "source": "ai_enrichment"
-    }
-  ],
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -112,118 +66,8 @@
     "nt_refs": 1,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "The Jewish high priest (A.D. 27-36) at the beginning of our Lord’s public ministry, in the reign of Tiberius (Luke 3:2), and also at the time of his condemnation and crucifixion (Matt. 26:3, 57; John 11:49; 18:13, 14). He held this office during the whole of Pilate’s administration. His wife was the daughter of Annas, who had formerly been high priest, and was probably the vicar or deputy (Heb. sagan) of Caiaphas. He was of the sect of the Sadducees (Acts 5:17), and was a member of the council when he gave his opinion that Jesus should be put to death “for the people, and that the whole nation perish not” (John 11:50). In these words he unconsciously uttered a prophecy. “Like Saul, he was a prophet in spite of himself.” Caiaphas had no power to inflict the punishment of death, and therefore Jesus was sent to Pilate, the Roman governor, that he might duly pronounce the sentence against him (Matt. 27:2; John 18:28). At a later period his hostility to the gospel is still manifest (Acts 4:6). (See ANNAS.)",
-      "extracted_refs": [
-        {
-          "book": "Luke",
-          "chapter": 3,
-          "verses": [
-            2
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Luke 3:2",
-          "source": "EAS"
-        },
-        {
-          "book": "Matthew",
-          "chapter": 26,
-          "verses": [
-            3,
-            57
-          ],
-          "verse_count": 2,
-          "testament": "NT",
-          "raw": "Matthew 26:3, 57",
-          "source": "EAS"
-        },
-        {
-          "book": "John",
-          "chapter": 11,
-          "verses": [
-            49
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "John 11:49",
-          "source": "EAS"
-        },
-        {
-          "book": "John",
-          "chapter": 18,
-          "verses": [
-            13,
-            14
-          ],
-          "verse_count": 2,
-          "testament": "NT",
-          "raw": "John 18:13, 14",
-          "source": "EAS"
-        },
-        {
-          "book": "Acts",
-          "chapter": 5,
-          "verses": [
-            17
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Acts 5:17",
-          "source": "EAS"
-        },
-        {
-          "book": "John",
-          "chapter": 11,
-          "verses": [
-            50
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "John 11:50",
-          "source": "EAS"
-        },
-        {
-          "book": "Matthew",
-          "chapter": 27,
-          "verses": [
-            2
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Matthew 27:2",
-          "source": "EAS"
-        },
-        {
-          "book": "John",
-          "chapter": 18,
-          "verses": [
-            28
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "John 18:28",
-          "source": "EAS"
-        },
-        {
-          "book": "Acts",
-          "chapter": 4,
-          "verses": [
-            6
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Acts 4:6",
-          "source": "EAS"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -336,16 +180,5 @@
       "raw": "Acts 4:6",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 11,
-    "ot": 0,
-    "nt": 11,
-    "books": [
-      "Acts",
-      "John",
-      "Luke",
-      "Matthew"
-    ]
-  }
+  ]
 }

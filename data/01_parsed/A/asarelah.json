@@ -1,7 +1,7 @@
 {
   "topic": "ASARELAH",
   "slug": "asarelah",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "One of the temple choir 1Ch 25:2,14",
@@ -20,210 +20,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "Asarela é mencionado como um dos membros do coro do templo, conforme registrado em 1 Crônicas 25:2 e 14. Sua identidade é possivelmente a mesma que a de Azareel, conforme 1 Crônicas 25:18. A inclusão de Asarela no coro do templo destaca a importância da música e da adoração na vida comunitária de Israel, refletindo a centralidade do culto a Deus na sociedade israelita. A música no templo não era apenas uma forma de adoração, mas também um meio de edificação espiritual e de união entre o povo.",
-    "outline": [
-      "Identificação de Asarela como membro do coro do templo.",
-      "Possível equivalência com Azareel.",
-      "Importância da música na adoração israelita.",
-      "Função do coro no culto do templo."
-    ],
-    "key_concepts": [
-      "Adoração",
-      "Coro do templo",
-      "Identidade e função na comunidade"
-    ],
-    "theological_significance": "A presença de Asarela no coro do templo ilustra a importância da adoração coletiva e da música na vida espiritual do povo de Deus. Isso nos ensina sobre a necessidade de participar ativamente da adoração e como a música pode ser um veículo poderoso para expressar louvor e gratidão a Deus. A prática da adoração em comunidade é um reflexo da unidade do corpo de Cristo, que se reúne para glorificar a Deus.",
-    "model": "gpt-4o-mini",
-    "run_id": "enr_20250923_144017_ace51b62",
-    "confidence": 1.0,
-    "generated_at": "2025-09-23T14:40:17.640611"
-  },
-  "ai_themes_normalized": [
-    {
-      "theme_id": null,
-      "proposal_id": "prop:adoracao_no_antigo_testamento_6ac9e6",
-      "label_original": "Adoração no Antigo Testamento",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:musica_e_louvor_1b9c2d",
-      "label_original": "Música e louvor",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:identidade_comunitaria_15aff0",
-      "label_original": "Identidade comunitária",
-      "source": "ai_enrichment"
-    }
-  ],
-  "phase1_discovery": {
-    "processed_at": "2025-09-23T22:52:50.662390Z",
-    "total_themes_processed": 3,
-    "summary": {
-      "total_processed": 3,
-      "decisions": {
-        "alias_existing": 0,
-        "proposed": 3,
-        "error": 0
-      },
-      "success_rate": 1.0
-    },
-    "results": [
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "low_novelty",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.7829199999999998,
-          "novelty": 0.6666666666666667,
-          "similarity_to_best_existing": 0.3333333333333333,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_0168ee1f",
-          "decision_hash": "9e36addbf0fc1eae",
-          "created_at": "2025-09-23T22:52:50.662390Z"
-        },
-        "proposal_id": "prop:497a62dc",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:adoracao_no_antigo_testamento_6ac9e6",
-          "label_original": "Adoração no Antigo Testamento",
-          "confidence": 0.85316,
-          "source": "ai_enrichment"
-        }
-      },
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "low_novelty",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.74646,
-          "novelty": 0.5,
-          "similarity_to_best_existing": 0.5,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_a2049125",
-          "decision_hash": "d9d159c34d1851bc",
-          "created_at": "2025-09-23T22:52:51.729974Z"
-        },
-        "proposal_id": "prop:9c03729c",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:musica_e_louvor_1b9c2d",
-          "label_original": "Música e louvor",
-          "confidence": 0.8420800000000002,
-          "source": "ai_enrichment"
-        }
-      },
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.8462999999999999,
-          "novelty": 1.0,
-          "similarity_to_best_existing": 0.0,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_d84bea0a",
-          "decision_hash": "c856172fc7a6821f",
-          "created_at": "2025-09-23T22:52:53.104745Z"
-        },
-        "proposal_id": "prop:82f9008a",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:identidade_comunitaria_15aff0",
-          "label_original": "Identidade comunitária",
-          "confidence": 0.4940000000000001,
-          "source": "ai_enrichment"
-        }
-      }
-    ]
-  },
-  "entity_links": [
-    {
-      "canonical_id": "CON:asarelah",
-      "namespace": "CONCEPT",
-      "role": "primary",
-      "confidence": 0.9,
-      "source": "topic_resolver",
-      "status": "proposed",
-      "provenance": {
-        "topic": "ASARELAH",
-        "extracted_from": "ASARELAH",
-        "processing_result": {
-          "status": "proposed",
-          "proposal_id": "stub:CON:asarelah_b746cb8c",
-          "canonical_id": "CON:asarelah",
-          "needs_review": true,
-          "reasons": [
-            "low_confidence",
-            "insufficient_sources"
-          ],
-          "message": "Entity proposal stub:CON:asarelah_b746cb8c created"
-        }
-      }
-    }
-  ],
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -232,34 +28,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "SMI",
-      "text": "(upright toward God), one of the sons of Asaph, a musician, (1 Chronicles 25:2) called Jesharelah in ver. 14",
-      "extracted_refs": [
-        {
-          "book": "1 Chronicles",
-          "chapter": 25,
-          "verses": [
-            2
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 25:2",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "1 Chronicles 25:2",
-      "original": "1 Chronicles 25:2"
-    }
-  ],
   "sources": [
-    "NAV",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -282,13 +52,5 @@
       "raw": "1 Chronicles 25:2",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 1,
-    "ot": 1,
-    "nt": 0,
-    "books": [
-      "1 Chronicles"
-    ]
-  }
+  ]
 }

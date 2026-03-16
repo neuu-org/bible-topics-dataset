@@ -1,7 +1,7 @@
 {
   "topic": "ISHBI-BENOB",
   "slug": "ishbi-benob",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A giant warrior, killed by Abishai 2Sa 21:16",
@@ -12,17 +12,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_223636",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T22:36:36.956090",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -31,39 +20,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "My seat at Nob, one of the Rephaim, whose spear was three hundred shekels in weight. He was slain by Abishai (2 Sam. 21:16, 17).",
-      "extracted_refs": [
-        {
-          "book": "2 Samuel",
-          "chapter": 21,
-          "verses": [
-            16,
-            17
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "2 Samuel 21:16, 17",
-          "source": "EAS"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "2 Samuel 21:16",
-      "original": "2 Sam. 21:16"
-    },
-    {
-      "reference": "2 Samuel 21:17",
-      "original": "2 Sam. 21:17"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -87,13 +45,5 @@
       "raw": "2 Samuel 21:16, 17",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 2,
-    "ot": 2,
-    "nt": 0,
-    "books": [
-      "2 Samuel"
-    ]
-  }
+  ]
 }

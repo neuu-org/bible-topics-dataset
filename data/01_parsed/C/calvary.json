@@ -1,7 +1,7 @@
 {
   "topic": "CALVARY",
   "slug": "calvary",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Also called GOLGOTHA, place where Jesus was crucified Mt 27:33; Mr 15:22; Lu 23:33; Joh 19:17",
@@ -46,52 +46,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "Calvário, também conhecido como Golgota, é o local onde Jesus foi crucificado, conforme relatado nos Evangelhos de Mateus, Marcos, Lucas e João. Este evento é central para a fé cristã, simbolizando a morte redentora de Cristo e a realização das profecias messiânicas. A crucificação no Calvário representa o ápice do sacrifício de Jesus pela humanidade, sendo um ponto crucial na narrativa da salvação.",
-    "outline": [
-      "Calvário como local da crucificação de Jesus",
-      "Referências nos Evangelhos: Mateus, Marcos, Lucas e João",
-      "Significado do nome Golgota",
-      "Importância teológica da crucificação",
-      "Relação com as profecias do Antigo Testamento"
-    ],
-    "key_concepts": [
-      "Sacrifício redentor de Cristo",
-      "Cumprimento das profecias messiânicas",
-      "A importância da crucificação na salvação"
-    ],
-    "theological_significance": "A crucificação no Calvário é fundamental para a teologia cristã, pois representa o sacrifício de Jesus como expiação pelos pecados da humanidade. Este ato é visto como a culminação do plano de salvação de Deus, onde a morte de Cristo traz reconciliação entre Deus e os homens, estabelecendo um novo pacto.",
-    "model": "gpt-4o-mini",
-    "run_id": "enr_20251202_000606_23cf5f02",
-    "confidence": 1.0,
-    "generated_at": "2025-12-02T00:06:06.706336"
-  },
-  "ai_themes_normalized": [
-    {
-      "theme_id": null,
-      "proposal_id": "prop:sacrifício_de_jesus__06da40",
-      "label_original": "Sacrifício de Jesus como ato de amor divino",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:a_crucificação_como__065403",
-      "label_original": "A crucificação como cumprimento das profecias",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:a_redenção_através_d_08a10c",
-      "label_original": "A redenção através da morte de Cristo",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:o_calvário_como_símb_062717",
-      "label_original": "O Calvário como símbolo de esperança",
-      "source": "ai_enrichment"
-    }
-  ],
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -100,46 +54,8 @@
     "nt_refs": 3,
     "total_verses": 3
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Only in Luke 23:33, the Latin name Calvaria, which was used as a translation of the Greek word Kranion, by which the Hebrew word Gulgoleth was interpreted, “the place of a skull.” It probably took this name from its shape, being a hillock or low, rounded, bare elevation somewhat in the form of a human skull. It is nowhere in Scripture called a “hill.” The crucifixion of our Lord took place outside the city walls (Heb. 13:11-13) and near the public thoroughfare. “This thing was not done in a corner.” (See GOLGOTHA.)",
-      "extracted_refs": [
-        {
-          "book": "Hebrews",
-          "chapter": 13,
-          "verses": [
-            11,
-            12,
-            13
-          ],
-          "verse_count": 3,
-          "testament": "NT",
-          "raw": "Hebrews 13:11-13",
-          "source": "EAS"
-        },
-        {
-          "book": "Luke",
-          "chapter": 23,
-          "verses": [
-            33
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Luke 23:33",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "[See Golgatha]"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -175,14 +91,5 @@
       "raw": "Luke 23:33",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 4,
-    "ot": 0,
-    "nt": 4,
-    "books": [
-      "Hebrews",
-      "Luke"
-    ]
-  }
+  ]
 }

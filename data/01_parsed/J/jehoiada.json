@@ -1,7 +1,7 @@
 {
   "topic": "JEHOIADA",
   "slug": "jehoiada",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "1. Father of Benaiah, one of David’s officers 2Sa 8:18",
@@ -114,17 +114,6 @@
       "verse_count": 11
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_230238",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T23:02:38.722761",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -133,100 +122,8 @@
     "nt_refs": 0,
     "total_verses": 3
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Jehovah-known. (1.) The father of Benaiah, who was one of David’s chief warriors (2 Sam. 8:18; 20:23). (2.) The high priest at the time of Athaliah’s usurpation of the throne of Judah. He married Jehosheba, or Jehoshabeath, the daughter of king Jehoram (2 Chr. 22:11), and took an active part along with his wife in the preservation and training of Jehoash when Athaliah slew all the royal family of Judah. The plans he adopted in replacing Jehoash on the throne of his ancestors are described in 2 Kings 11:2; 12:2; 2 Chr. 22:11; 23:24. He was among the foremost of the benefactors of the kingdom, and at his death was buried in the city of David among the kings of Judah (2 Chr. 24:15, 16). He is said to have been one hundred and thirty years old.",
-      "extracted_refs": [
-        {
-          "book": "2 Samuel",
-          "chapter": 8,
-          "verses": [
-            18
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Samuel 8:18",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Samuel",
-          "chapter": 20,
-          "verses": [
-            23
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Samuel 20:23",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Chronicles",
-          "chapter": 22,
-          "verses": [
-            11
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Chronicles 22:11",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Chronicles",
-          "chapter": 24,
-          "verses": [
-            15,
-            16
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "2 Chronicles 24:15, 16",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Kings",
-          "chapter": 11,
-          "verses": [
-            2
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Kings 11:2",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Kings",
-          "chapter": 12,
-          "verses": [
-            2
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Kings 12:2",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Chronicles",
-          "chapter": 23,
-          "verses": [
-            24
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Chronicles 23:24",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(Jehovah knows)."
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -316,15 +213,5 @@
       "raw": "2 Chronicles 23:24",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 8,
-    "ot": 8,
-    "nt": 0,
-    "books": [
-      "2 Chronicles",
-      "2 Kings",
-      "2 Samuel"
-    ]
-  }
+  ]
 }

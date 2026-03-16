@@ -1,7 +1,7 @@
 {
   "topic": "MUPPIM",
   "slug": "muppim",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Son of Benjamin Ge 46:21",
@@ -12,17 +12,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_012644",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T01:26:44.314627",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -31,49 +20,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "SMI",
-      "text": "(serpent), a Benjamite, and one of the fourteen descendants of Rachael who belonged to the original colony of the sons of Jacob in Egypt. (Genesis 46:21) (B.C. 1706.) In (Numbers 26:39) the name is given as Shupham.",
-      "extracted_refs": [
-        {
-          "book": "Genesis",
-          "chapter": 46,
-          "verses": [
-            21
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 46:21",
-          "source": "SMI"
-        },
-        {
-          "book": "Numbers",
-          "chapter": 26,
-          "verses": [
-            39
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Numbers 26:39",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Genesis 46:21",
-      "original": "Genesis 46:21"
-    },
-    {
-      "reference": "Numbers 26:39",
-      "original": "Numbers 26:39"
-    }
-  ],
   "sources": [
-    "NAV",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -107,14 +55,5 @@
       "raw": "Numbers 26:39",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 2,
-    "ot": 2,
-    "nt": 0,
-    "books": [
-      "Genesis",
-      "Numbers"
-    ]
-  }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "topic": "LANTERN",
   "slug": "lantern",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "General scriptures concerning Joh 18:3",
@@ -12,17 +12,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_235402",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T23:54:02.288861",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -31,34 +20,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "SMI",
-      "text": "(so called of its shining) occurs only in (John 18:3) (It there probably denotes any kind of covered light, in distinction from a simple taper or common house-light, as well as from a flambeau. Lanterns were much employed by the Romans in military operations. Two, of bronze, have been found among the ruins of Herculaneum and Pompeii. They are cylindrical, with translucent horn sides, the lamp within being furnished with an extinguisher.—ED.)",
-      "extracted_refs": [
-        {
-          "book": "John",
-          "chapter": 18,
-          "verses": [
-            3
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "John 18:3",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "John 18:3",
-      "original": "John 18:3"
-    }
-  ],
   "sources": [
-    "NAV",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -81,13 +44,5 @@
       "raw": "John 18:3",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 1,
-    "ot": 0,
-    "nt": 1,
-    "books": [
-      "John"
-    ]
-  }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "topic": "HARP",
   "slug": "harp",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A stringed instrument of music Isa 38:20; Eze 33:32; Hab 3:19",
@@ -269,17 +269,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_210925",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T21:09:25.991548",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [
     "MUSIC, INSTRUMENTS OF"
   ],
@@ -290,169 +279,8 @@
     "nt_refs": 1,
     "total_verses": 10
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "(Heb. kinnor), the national instrument of the Hebrews. It was invented by Jubal (Gen. 4:21). Some think the word kinnor denotes the whole class of stringed instruments. It was used as an accompaniment to songs of cheerfulness as well as of praise to God (Gen. 31:27; 1 Sam. 16:23; 2 Chr. 20:28; Ps. 33:2; 137:2). In Solomon’s time harps were made of almug-trees (1 Kings 10:11, 12). In 1 Chr. 15:21 mention is made of “harps on the Sheminith;” Revised Version, “harps set to the Sheminith;” better perhaps “harps of eight strings.” The soothing effect of the music of the harp is referred to 1 Sam. 16:16, 23; 18:10; 19:9. The church in heaven is represented as celebrating the triumphs of the Redeemer “harping with their harps” (Rev. 14:2).",
-      "extracted_refs": [
-        {
-          "book": "Genesis",
-          "chapter": 4,
-          "verses": [
-            21
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 4:21",
-          "source": "EAS"
-        },
-        {
-          "book": "Genesis",
-          "chapter": 31,
-          "verses": [
-            27
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 31:27",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Samuel",
-          "chapter": 16,
-          "verses": [
-            23
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Samuel 16:23",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Chronicles",
-          "chapter": 20,
-          "verses": [
-            28
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Chronicles 20:28",
-          "source": "EAS"
-        },
-        {
-          "book": "Psalms",
-          "chapter": 33,
-          "verses": [
-            2
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Psalms 33:2",
-          "source": "EAS"
-        },
-        {
-          "book": "Psalms",
-          "chapter": 137,
-          "verses": [
-            2
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Psalms 137:2",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Kings",
-          "chapter": 10,
-          "verses": [
-            11,
-            12
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "1 Kings 10:11, 12",
-          "source": "EAS"
-        },
-        {
-          "book": "Revelation",
-          "chapter": 14,
-          "verses": [
-            2
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Revelation 14:2",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Chronicles",
-          "chapter": 15,
-          "verses": [
-            21
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 15:21",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Samuel",
-          "chapter": 16,
-          "verses": [
-            16,
-            23
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "1 Samuel 16:16, 23",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Samuel",
-          "chapter": 18,
-          "verses": [
-            10
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Samuel 18:10",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Samuel",
-          "chapter": 19,
-          "verses": [
-            9
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Samuel 19:9",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "The harp was the national instrument of the Hebrews, and was well known throughout Asia. Moses assigns its invention to Jubal during the antediluvian period. (Genesis 4:21) Josephus records that the harp had ten strings, and that it was played on with the plectrum. Sometimes it was smaller having only eight strings, and was usually played with the fingers.",
-      "extracted_refs": [
-        {
-          "book": "Genesis",
-          "chapter": 4,
-          "verses": [
-            21
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 4:21",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -598,19 +426,5 @@
       "raw": "1 Samuel 19:9",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 13,
-    "ot": 12,
-    "nt": 1,
-    "books": [
-      "1 Chronicles",
-      "1 Kings",
-      "1 Samuel",
-      "2 Chronicles",
-      "Genesis",
-      "Psalms",
-      "Revelation"
-    ]
-  }
+  ]
 }

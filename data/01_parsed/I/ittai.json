@@ -1,7 +1,7 @@
 {
   "topic": "ITTAI",
   "slug": "ittai",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A chief of David 2Sa 18:2; 1Ch 11:31",
@@ -33,17 +33,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_224322",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T22:43:22.340963",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -52,94 +41,8 @@
     "nt_refs": 0,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Near; timely; or, with the Lord. (1.) A Benjamite, one of David’s thirty heroes (2 Sam. 23:29). (2.) A native of Gath, a Philistine, who had apparently the command of the six hundred heroes who formed David’s band during his wanderings (2 Sam. 15:19-22; comp. 1 Sam. 23:13; 27:2; 30:9, 10). He is afterwards with David at Mahanaim, holding in the army equal rank with Joab and Abishai (2 Sam. 18:2, 5, 12). He then passes from view.",
-      "extracted_refs": [
-        {
-          "book": "2 Samuel",
-          "chapter": 23,
-          "verses": [
-            29
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Samuel 23:29",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Samuel",
-          "chapter": 15,
-          "verses": [
-            19,
-            20,
-            21,
-            22
-          ],
-          "verse_count": 4,
-          "testament": "OT",
-          "raw": "2 Samuel 15:19-22",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Samuel",
-          "chapter": 23,
-          "verses": [
-            13
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Samuel 23:13",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Samuel",
-          "chapter": 27,
-          "verses": [
-            2
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Samuel 27:2",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Samuel",
-          "chapter": 30,
-          "verses": [
-            9,
-            10
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "1 Samuel 30:9, 10",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Samuel",
-          "chapter": 18,
-          "verses": [
-            2,
-            5,
-            12
-          ],
-          "verse_count": 3,
-          "testament": "OT",
-          "raw": "2 Samuel 18:2, 5, 12",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(with the Lord)."
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -223,14 +126,5 @@
       "raw": "2 Samuel 18:2, 5, 12",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 12,
-    "ot": 12,
-    "nt": 0,
-    "books": [
-      "1 Samuel",
-      "2 Samuel"
-    ]
-  }
+  ]
 }

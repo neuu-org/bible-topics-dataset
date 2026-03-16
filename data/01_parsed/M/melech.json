@@ -1,7 +1,7 @@
 {
   "topic": "MELECH",
   "slug": "melech",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Son of Micah 1Ch 8:35; 9:41",
@@ -24,17 +24,6 @@
       "verse_count": 2
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_004940",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T00:49:40.290563",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -43,57 +32,8 @@
     "nt_refs": 0,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "King, the second of Micah’s four sons (1 Chr. 8:35), and thus grandson of Mephibosheth.",
-      "extracted_refs": [
-        {
-          "book": "1 Chronicles",
-          "chapter": 8,
-          "verses": [
-            35
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 8:35",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "the second son of Micah, the son of Merib-baal or Mephibosheth. (1 Chronicles 8:35; 9:41)",
-      "extracted_refs": [
-        {
-          "book": "1 Chronicles",
-          "chapter": 8,
-          "verses": [
-            35
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 8:35",
-          "source": "SMI"
-        },
-        {
-          "book": "1 Chronicles",
-          "chapter": 9,
-          "verses": [
-            41
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 9:41",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -127,13 +67,5 @@
       "raw": "1 Chronicles 9:41",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 2,
-    "ot": 2,
-    "nt": 0,
-    "books": [
-      "1 Chronicles"
-    ]
-  }
+  ]
 }

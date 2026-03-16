@@ -1,7 +1,7 @@
 {
   "topic": "HIRAM",
   "slug": "hiram",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "1. Called HURAM, king of Tyre",
@@ -110,17 +110,6 @@
       "verse_count": 2
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_215637",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T21:56:37.614283",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -129,160 +118,8 @@
     "nt_refs": 0,
     "total_verses": 4
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "High-born. (1.) Generally “Huram,” one of the sons of Bela (1 Chr. 8:5). (2.) Also “Huram” and “Horam,” king of Tyre. He entered into an alliance with David, and assisted him in building his palace by sending him able workmen, and also cedar-trees and fir-trees from Lebanon (2 Sam. 5:11; 1 Chr. 14:1). After the death of David he entered into a similar alliance with Solomon, and assisted him greatly in building the temple (1 Kings 5:1; 9:11; 2 Chr. 2:3). He also took part in Solomon’s traffic to the Eastern Seas (1 Kings 9:27; 10:11; 2 Chr. 8:18; 9:10). (3.) The “master workman” whom Hiram sent to Solomon. He was the son of a widow of Dan, and of a Tyrian father. In 2 Chr. 2:13 “Huram my father” should be Huram Abi, the word “Abi” (rendered here “my father”) being regarded as a proper name, or it may perhaps be a title of distinction given to Huram, and equivalent to “master.” (Comp. 1 Kings 7:14; 2 Chr. 4:16.) He cast the magnificent brazen works for Solomon’s temple in clay-beds in the valley of Jordan, between Succoth and Zarthan.",
-      "extracted_refs": [
-        {
-          "book": "1 Chronicles",
-          "chapter": 8,
-          "verses": [
-            5
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 8:5",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Samuel",
-          "chapter": 5,
-          "verses": [
-            11
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Samuel 5:11",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Chronicles",
-          "chapter": 14,
-          "verses": [
-            1
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 14:1",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Kings",
-          "chapter": 5,
-          "verses": [
-            1
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Kings 5:1",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Kings",
-          "chapter": 9,
-          "verses": [
-            11
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Kings 9:11",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Chronicles",
-          "chapter": 2,
-          "verses": [
-            3
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Chronicles 2:3",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Kings",
-          "chapter": 9,
-          "verses": [
-            27
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Kings 9:27",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Kings",
-          "chapter": 10,
-          "verses": [
-            11
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Kings 10:11",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Chronicles",
-          "chapter": 8,
-          "verses": [
-            18
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Chronicles 8:18",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Chronicles",
-          "chapter": 9,
-          "verses": [
-            10
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Chronicles 9:10",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Kings",
-          "chapter": 7,
-          "verses": [
-            14
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Kings 7:14",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Chronicles",
-          "chapter": 4,
-          "verses": [
-            16
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Chronicles 4:16",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Chronicles",
-          "chapter": 2,
-          "verses": [
-            13
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Chronicles 2:13",
-          "source": "EAS"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -437,16 +274,5 @@
       "raw": "2 Chronicles 2:13",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 13,
-    "ot": 13,
-    "nt": 0,
-    "books": [
-      "1 Chronicles",
-      "1 Kings",
-      "2 Chronicles",
-      "2 Samuel"
-    ]
-  }
+  ]
 }

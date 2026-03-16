@@ -1,7 +1,7 @@
 {
   "topic": "LAHMI",
   "slug": "lahmi",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "(Brother of Goliath) -Killed by Elhanan 2Sa 21:19; 1Ch 20:5",
@@ -24,17 +24,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_235017",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T23:50:17.517010",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -43,28 +32,8 @@
     "nt_refs": 0,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "SMI",
-      "text": "(warrior), the brother of Goliath the Gittite, slain by Elhanan the son of Zair or Zaor. (1 Chronicles 20:5) (B.C. 1020.)",
-      "extracted_refs": [
-        {
-          "book": "1 Chronicles",
-          "chapter": 20,
-          "verses": [
-            5
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 20:5",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -87,13 +56,5 @@
       "raw": "1 Chronicles 20:5",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 1,
-    "ot": 1,
-    "nt": 0,
-    "books": [
-      "1 Chronicles"
-    ]
-  }
+  ]
 }

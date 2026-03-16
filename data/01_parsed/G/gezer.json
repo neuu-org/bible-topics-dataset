@@ -1,7 +1,7 @@
 {
   "topic": "GEZER",
   "slug": "gezer",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Also called GAZER, GAZARA, GAZERA, and GOB",
@@ -101,17 +101,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_203118",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T20:31:18.294399",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -120,226 +109,8 @@
     "nt_refs": 0,
     "total_verses": 3
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "A precipice, an ancient royal Canaanitish city (Josh. 10:33; 12:12). It was allotted with its suburbs to the Kohathite Levites (21:21; 1 Chr. 6:67). It stood between the lower Beth-horon and the sea (Josh. 16:3; 1 Kings 9:17). It was the last point to which David pursued the Philistines (2 Sam. 5:25; 1 Chr. 14:16) after the battle of Baal-perazim. The Canaanites retained possession of it till the time of Solomon, when the king of Egypt took it and gave it to Solomon as a part of the dowry of the Egyptian princess whom he married (1 Kings 9:15-17). It is identified with Tell el-Jezer, about 10 miles south-west of Beth-horon. It is mentioned in the Amarna tablets.",
-      "extracted_refs": [
-        {
-          "book": "Joshua",
-          "chapter": 10,
-          "verses": [
-            33
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 10:33",
-          "source": "EAS"
-        },
-        {
-          "book": "Joshua",
-          "chapter": 12,
-          "verses": [
-            12
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 12:12",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Chronicles",
-          "chapter": 6,
-          "verses": [
-            67
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 6:67",
-          "source": "EAS"
-        },
-        {
-          "book": "Joshua",
-          "chapter": 16,
-          "verses": [
-            3
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 16:3",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Kings",
-          "chapter": 9,
-          "verses": [
-            17
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Kings 9:17",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Samuel",
-          "chapter": 5,
-          "verses": [
-            25
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Samuel 5:25",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Chronicles",
-          "chapter": 14,
-          "verses": [
-            16
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 14:16",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Kings",
-          "chapter": 9,
-          "verses": [
-            15,
-            16,
-            17
-          ],
-          "verse_count": 3,
-          "testament": "OT",
-          "raw": "1 Kings 9:15-17",
-          "source": "EAS"
-        },
-        {
-          "book": "Joshua",
-          "chapter": 21,
-          "verses": [
-            21
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 21:21",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(a precipice), an ancient city of Canaan, whose king, Hiram or Elam, coming to the assistance of Lachish, was killed with all his people by Joshua. (Joshua 10:33; 12:12) It formed one of the landmarks on the north boundary of Ephraim, between the lower Beth-horon and the Mediterranean, (Joshua 16:3) the western limit of the tribe (1 Chronicles 7:28) It was allotted with its suburbs to the Kohathite Levites, (Joshua 21:21; 1 Chronicles 6:67) but the original inhabitants were not dispossessed, (Judges 1:29) and even down to the reign of Solomon the Canaanites were still dwelling there, and paying tribute to Israel (1 Kings 9:16) It was burned by Pharaoh in Solomon’s time, (1 Kings 9:15-17) and given to Solomon’s Egyptian wife, and rebuilt by him.",
-      "extracted_refs": [
-        {
-          "book": "Joshua",
-          "chapter": 10,
-          "verses": [
-            33
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 10:33",
-          "source": "SMI"
-        },
-        {
-          "book": "Joshua",
-          "chapter": 12,
-          "verses": [
-            12
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 12:12",
-          "source": "SMI"
-        },
-        {
-          "book": "Joshua",
-          "chapter": 16,
-          "verses": [
-            3
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 16:3",
-          "source": "SMI"
-        },
-        {
-          "book": "1 Chronicles",
-          "chapter": 7,
-          "verses": [
-            28
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 7:28",
-          "source": "SMI"
-        },
-        {
-          "book": "Joshua",
-          "chapter": 21,
-          "verses": [
-            21
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 21:21",
-          "source": "SMI"
-        },
-        {
-          "book": "1 Chronicles",
-          "chapter": 6,
-          "verses": [
-            67
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 6:67",
-          "source": "SMI"
-        },
-        {
-          "book": "Judges",
-          "chapter": 1,
-          "verses": [
-            29
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Judges 1:29",
-          "source": "SMI"
-        },
-        {
-          "book": "1 Kings",
-          "chapter": 9,
-          "verses": [
-            16
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Kings 9:16",
-          "source": "SMI"
-        },
-        {
-          "book": "1 Kings",
-          "chapter": 9,
-          "verses": [
-            15,
-            16,
-            17
-          ],
-          "verse_count": 3,
-          "testament": "OT",
-          "raw": "1 Kings 9:15-17",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -485,17 +256,5 @@
       "raw": "1 Kings 9:16",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 12,
-    "ot": 12,
-    "nt": 0,
-    "books": [
-      "1 Chronicles",
-      "1 Kings",
-      "2 Samuel",
-      "Joshua",
-      "Judges"
-    ]
-  }
+  ]
 }

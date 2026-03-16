@@ -1,7 +1,7 @@
 {
   "topic": "HANDBREADTH",
   "slug": "handbreadth",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A measure (about four inches) Ex 25:25; 1Ki 7:26; 2Ch 4:5; Ps 39:5; Isa 48:13; Eze 40:5,43; Jer 52:21",
@@ -98,17 +98,6 @@
       "verse_count": 2
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_210347",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T21:03:47.613544",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [
     "SPAN, FINGERBREADTH"
   ],
@@ -119,50 +108,8 @@
     "nt_refs": 0,
     "total_verses": 7
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "A measure of four fingers, equal to about four inches (Ex. 25:25; 37:12; Ps. 39:5, etc.).",
-      "extracted_refs": [
-        {
-          "book": "Exodus",
-          "chapter": 25,
-          "verses": [
-            25
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Exodus 25:25",
-          "source": "EAS"
-        },
-        {
-          "book": "Exodus",
-          "chapter": 37,
-          "verses": [
-            12
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Exodus 37:12",
-          "source": "EAS"
-        },
-        {
-          "book": "Psalms",
-          "chapter": 39,
-          "verses": [
-            5
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Psalms 39:5",
-          "source": "EAS"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -207,14 +154,5 @@
       "raw": "Psalms 39:5",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 3,
-    "ot": 3,
-    "nt": 0,
-    "books": [
-      "Exodus",
-      "Psalms"
-    ]
-  }
+  ]
 }

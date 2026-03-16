@@ -1,7 +1,7 @@
 {
   "topic": "MINNITH",
   "slug": "minnith",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A place east of the Jordan River Jud 11:33; Eze 27:17",
@@ -24,17 +24,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_011124",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T01:11:24.748190",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -43,68 +32,8 @@
     "nt_refs": 0,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Distribution, an Ammonitish town (Judg. 11:33) from which wheat was exported to Tyre (Ezek. 27:17). It was probably somewhere in the Mishor or table-land on the east of Jordan. There is a gentle valley running for about 4 miles east of Dhiban called Kurm Dhiban, “the vineyards of Dibon.” Tristram supposes that this may be the “vineyards” mentioned in Judg. (l.c.).",
-      "extracted_refs": [
-        {
-          "book": "Judges",
-          "chapter": 11,
-          "verses": [
-            33
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Judges 11:33",
-          "source": "EAS"
-        },
-        {
-          "book": "Ezekiel",
-          "chapter": 27,
-          "verses": [
-            17
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Ezekiel 27:17",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(distribution), a place on the east of the Jordan, named as the point to which Jephthah’s slaughter of the Ammonites extended. (Judges 11:33) The “wheat of Minnith” is mentioned in (Ezekiel 27:17) as being supplied by Judah and Israel to Tyre; but there is nothing to indicate that the same place is intended, and indeed the word is believed by some not to be a proper name.",
-      "extracted_refs": [
-        {
-          "book": "Judges",
-          "chapter": 11,
-          "verses": [
-            33
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Judges 11:33",
-          "source": "SMI"
-        },
-        {
-          "book": "Ezekiel",
-          "chapter": 27,
-          "verses": [
-            17
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Ezekiel 27:17",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -138,14 +67,5 @@
       "raw": "Ezekiel 27:17",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 2,
-    "ot": 2,
-    "nt": 0,
-    "books": [
-      "Ezekiel",
-      "Judges"
-    ]
-  }
+  ]
 }

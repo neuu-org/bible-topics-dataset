@@ -1,7 +1,7 @@
 {
   "topic": "LORD’S PRAYER",
   "slug": "lords-prayer",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "idx": 0,
@@ -23,17 +23,6 @@
       "verse_count": 3
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_001350",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T00:13:50.721847",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -42,56 +31,8 @@
     "nt_refs": 1,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "The name given to the only form of prayer Christ taught his disciples (Matt. 6:9-13). The closing doxology of the prayer is omitted by Luke (11:2-4), also in the R.V. of Matt. 6:13. This prayer contains no allusion to the atonement of Christ, nor to the offices of the Holy Spirit. “All Christian prayer is based on the Lord’s Prayer, but its spirit is also guided by that of His prayer in Gethsemane and of the prayer recorded John 17. The Lord’s Prayer is the comprehensive type of the simplest and most universal prayer.”",
-      "extracted_refs": [
-        {
-          "book": "Matthew",
-          "chapter": 6,
-          "verses": [
-            9,
-            10,
-            11,
-            12,
-            13
-          ],
-          "verse_count": 5,
-          "testament": "NT",
-          "raw": "Matthew 6:9-13",
-          "source": "EAS"
-        },
-        {
-          "book": "Matthew",
-          "chapter": 11,
-          "verses": [
-            2,
-            3,
-            4
-          ],
-          "verse_count": 3,
-          "testament": "NT",
-          "raw": "Matthew 11:2-4",
-          "source": "EAS"
-        },
-        {
-          "book": "Matthew",
-          "chapter": 6,
-          "verses": [
-            13
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Matthew 6:13",
-          "source": "EAS"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -142,13 +83,5 @@
       "raw": "Matthew 6:13",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 8,
-    "ot": 0,
-    "nt": 8,
-    "books": [
-      "Matthew"
-    ]
-  }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "topic": "KEILAH",
   "slug": "keilah",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "1. One of a group of nine cities in the southern part of Palestine allotted to Judah Jos 15:44",
@@ -39,17 +39,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_233640",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T23:36:40.769295",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -58,123 +47,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Citadel, a city in the lowlands of Judah (Josh. 15:44). David rescued it from the attack of the Philistines (1 Sam. 23:1-8); but the inhabitants proving unfaithful to him, in that they sought to deliver him up to Saul (13), he and his men “departed from Keilah, and went whithersoever they could go.” They fled to the hill Hareth, about 3 miles to the east, and thence through Hebron to Ziph (q.v.). “And David was in the wilderness of Ziph, in a wood” (1 Sam. 23:15). Here Jonathan sought him out, “and strengthened his hand in God.” This was the last interview between David and Jonathan (23:16-18). It is the modern Khurbet Kila. Others identify it with Khuweilfeh, between Beit Jibrin (Eleutheropolis) and Beersheba, mentioned in the Amarna tablets.",
-      "extracted_refs": [
-        {
-          "book": "Joshua",
-          "chapter": 15,
-          "verses": [
-            44
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 15:44",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Samuel",
-          "chapter": 23,
-          "verses": [
-            1,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7,
-            8
-          ],
-          "verse_count": 8,
-          "testament": "OT",
-          "raw": "1 Samuel 23:1-8",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Samuel",
-          "chapter": 23,
-          "verses": [
-            15
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Samuel 23:15",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Samuel",
-          "chapter": 23,
-          "verses": [
-            16,
-            17,
-            18
-          ],
-          "verse_count": 3,
-          "testament": "OT",
-          "raw": "1 Samuel 23:16-18",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(fortress), a city of the Shefelah, or lowland district of Judah. (Joshua 15:44) Its main interest consists in its connection with David. (1 Samuel 23:7-13) It is represented by Kila, a site with ruins, on the lower road from Beit Jibria to Hebron.",
-      "extracted_refs": [
-        {
-          "book": "Joshua",
-          "chapter": 15,
-          "verses": [
-            44
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 15:44",
-          "source": "SMI"
-        },
-        {
-          "book": "1 Samuel",
-          "chapter": 23,
-          "verses": [
-            7,
-            8,
-            9,
-            10,
-            11,
-            12,
-            13
-          ],
-          "verse_count": 7,
-          "testament": "OT",
-          "raw": "1 Samuel 23:7-13",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Joshua 15:44",
-      "original": "Josh. 15:44"
-    },
-    {
-      "reference": "1 Samuel 23:1-8",
-      "original": "1 Sam. 23:1-8"
-    },
-    {
-      "reference": "1 Samuel 23:15",
-      "original": "1 Sam. 23:15"
-    },
-    {
-      "reference": "1 Samuel 23:7-13",
-      "original": "1 Samuel 23:7-13"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -256,14 +130,5 @@
       "raw": "1 Samuel 23:7-13",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 18,
-    "ot": 18,
-    "nt": 0,
-    "books": [
-      "1 Samuel",
-      "Joshua"
-    ]
-  }
+  ]
 }

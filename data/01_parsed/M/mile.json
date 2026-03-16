@@ -1,7 +1,7 @@
 {
   "topic": "MILE",
   "slug": "mile",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "General scriptures concerning Mt 5:41",
@@ -12,17 +12,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_010814",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T01:08:14.457270",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -31,52 +20,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "(from Lat. mille, “a thousand;” Matt. 5:41), a Roman measure of 1,000 paces of 5 feet each. Thus the Roman mile has 1618 yards, being 142 yards shorter than the English mile.",
-      "extracted_refs": [
-        {
-          "book": "Matthew",
-          "chapter": 5,
-          "verses": [
-            41
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Matthew 5:41",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "a Roman measure of length, equal to 1618 English yards—4854 feet, or about nine-tenths of an English mile. It is only once noticed in the Bible, (Matthew 5:41) the usual method of reckoning both in the New Testament and in Josephus being by the stadium. The mile of the Jews is said to have been of two kinds, long or short, dependent on the length of the pace, which varied in different parts, the long pace being double the length of the short one.",
-      "extracted_refs": [
-        {
-          "book": "Matthew",
-          "chapter": 5,
-          "verses": [
-            41
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Matthew 5:41",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Matthew 5:41",
-      "original": "Matt. 5:41"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -99,13 +44,5 @@
       "raw": "Matthew 5:41",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 1,
-    "ot": 0,
-    "nt": 1,
-    "books": [
-      "Matthew"
-    ]
-  }
+  ]
 }

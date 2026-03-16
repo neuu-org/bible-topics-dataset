@@ -1,7 +1,7 @@
 {
   "topic": "MINT",
   "slug": "mint",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "General scriptures concerning Mt 23:23; Lu 11:42",
@@ -24,17 +24,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_011204",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T01:12:04.465316",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -43,79 +32,8 @@
     "nt_refs": 1,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "(Gr. heduosmon, i.e., “having a sweet smell”), one of the garden herbs of which the Pharisees paid tithes (Matt. 23:23; Luke 11:42). It belongs to the labiate family of plants. The species most common in Syria is the Mentha sylvestris, the wild mint, which grows much larger than the garden mint (M. sativa). It was much used in domestic economy as a condiment, and also as a medicine. The paying of tithes of mint was in accordance with the Mosiac law (Deut. 14:22), but the error of the Pharisees lay in their being more careful about this little matter of the mint than about weightier matters.",
-      "extracted_refs": [
-        {
-          "book": "Matthew",
-          "chapter": 23,
-          "verses": [
-            23
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Matthew 23:23",
-          "source": "EAS"
-        },
-        {
-          "book": "Luke",
-          "chapter": 11,
-          "verses": [
-            42
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Luke 11:42",
-          "source": "EAS"
-        },
-        {
-          "book": "Deuteronomy",
-          "chapter": 14,
-          "verses": [
-            22
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Deuteronomy 14:22",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "This name occurs only in (Matthew 23:23) and Luke 11:42 As one of those herbs the tithe of which the Jews were most scrupulously exact in paying. The horse mint, M. Sylvestris, and several other species of mint are common in Syria.",
-      "extracted_refs": [
-        {
-          "book": "Matthew",
-          "chapter": 23,
-          "verses": [
-            23
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Matthew 23:23",
-          "source": "SMI"
-        },
-        {
-          "book": "Luke",
-          "chapter": 11,
-          "verses": [
-            42
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Luke 11:42",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -160,15 +78,5 @@
       "raw": "Deuteronomy 14:22",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 3,
-    "ot": 1,
-    "nt": 2,
-    "books": [
-      "Deuteronomy",
-      "Luke",
-      "Matthew"
-    ]
-  }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "topic": "JAASAU",
   "slug": "jaasau",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Of the family of Bani Ezr 10:37",
@@ -12,17 +12,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_224522",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T22:45:22.043757",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -31,52 +20,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Fabricator, an Israelite who renounced his Gentile wife after the Return (Ezra 10:37).",
-      "extracted_refs": [
-        {
-          "book": "Ezra",
-          "chapter": 10,
-          "verses": [
-            37
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Ezra 10:37",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(whom Jehovah made), one of the Bene-Bani who had married a foreign wife. (Ezra 10:37) (B.C. 459.)",
-      "extracted_refs": [
-        {
-          "book": "Ezra",
-          "chapter": 10,
-          "verses": [
-            37
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Ezra 10:37",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Ezra 10:37",
-      "original": "Ezra 10:37"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -99,13 +44,5 @@
       "raw": "Ezra 10:37",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 1,
-    "ot": 1,
-    "nt": 0,
-    "books": [
-      "Ezra"
-    ]
-  }
+  ]
 }

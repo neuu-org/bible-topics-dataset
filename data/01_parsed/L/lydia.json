@@ -1,7 +1,7 @@
 {
   "topic": "LYDIA",
   "slug": "lydia",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "1. A woman of Thyatira, who with her household was converted through the preaching of Paul Ac 16:14,15",
@@ -28,17 +28,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_001842",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T00:18:42.210633",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -47,137 +36,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "(1.) Ezek. 30:5 (Heb. Lud), a province in the west of Asia Minor, which derived its name from the fourth son of Shem (Gen. 10:22). It was bounded on the east by the greater Phrygia, and on the west by Ionia and the AEgean Sea. (2.) A woman of Thyatira, a “seller of purple,” who dwelt in Philippi (Acts 16:14, 15). She was not a Jewess but a proselyte. The Lord opened her heart as she heard the gospel from the lips of Paul (16:13). She thus became the first in Europe who embraced Christianity. She was a person apparently of considerable wealth, for she could afford to give a home to Paul and his companions. (See THYATIRA.)",
-      "extracted_refs": [
-        {
-          "book": "Genesis",
-          "chapter": 10,
-          "verses": [
-            22
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 10:22",
-          "source": "EAS"
-        },
-        {
-          "book": "Acts",
-          "chapter": 16,
-          "verses": [
-            14,
-            15
-          ],
-          "verse_count": 2,
-          "testament": "NT",
-          "raw": "Acts 16:14, 15",
-          "source": "EAS"
-        },
-        {
-          "book": "Ezekiel",
-          "chapter": 30,
-          "verses": [
-            5
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Ezekiel 30:5",
-          "source": "EAS"
-        },
-        {
-          "book": "Acts",
-          "chapter": 16,
-          "verses": [
-            13
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Acts 16:13",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "the first European convert of St. Paul, and afterward his hostess during his first stay at Philippi. (Acts 18:14,15) also Acts 18:40 (A.D. 47.) She was a Jewish proselyte at the time of the apostle’s coming; and it was at the Jewish Sabbath-worship by the side of a stream ver 13, that the preaching of the gospel reached her heart. Her native place was Thyatira, in the province of Asia. ver. 14; (Revelation 2:18) Thyatira was famous for its dyeing works; and Lydia wars connected with this trade, as a seller either of dye or of dyed goods. We infer that she was a person of considerable wealth. (land of Lydus), a maritime province in the west of Asia Minor bounded by Mysia on the north, Phrygia on the east, and Caria on the south. It is enumerated among the districts which the Romans took away from Antiochos the Great after the battle of Magnesia in B.C. 190, and transferred to Eumenus II. king of Pergamus. Lydia is included in the “Asia” of the New Testament.",
-      "extracted_refs": [
-        {
-          "book": "Acts",
-          "chapter": 18,
-          "verses": [
-            14,
-            15
-          ],
-          "verse_count": 2,
-          "testament": "NT",
-          "raw": "Acts 18:14,15",
-          "source": "SMI"
-        },
-        {
-          "book": "Revelation",
-          "chapter": 2,
-          "verses": [
-            18
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Revelation 2:18",
-          "source": "SMI"
-        },
-        {
-          "book": "Acts",
-          "chapter": 18,
-          "verses": [
-            40
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Acts 18:40",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Ezekiel 30:5",
-      "original": "Ezek. 30:5"
-    },
-    {
-      "reference": "Genesis 10:22",
-      "original": "Gen. 10:22"
-    },
-    {
-      "reference": "Acts 16:14",
-      "original": "Acts 16:14"
-    },
-    {
-      "reference": "Acts 16:15",
-      "original": "Acts 16:15"
-    },
-    {
-      "reference": "Acts 18:14",
-      "original": "Acts 18:14"
-    },
-    {
-      "reference": "Acts 18:15",
-      "original": "Acts 18:15"
-    },
-    {
-      "reference": "Acts 18:40",
-      "original": "Acts 18:40"
-    },
-    {
-      "reference": "Revelation 2:18",
-      "original": "Revelation 2:18"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -268,16 +128,5 @@
       "raw": "Acts 18:40",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 9,
-    "ot": 2,
-    "nt": 7,
-    "books": [
-      "Acts",
-      "Ezekiel",
-      "Genesis",
-      "Revelation"
-    ]
-  }
+  ]
 }

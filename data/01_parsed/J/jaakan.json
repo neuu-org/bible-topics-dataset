@@ -1,7 +1,7 @@
 {
   "topic": "JAAKAN",
   "slug": "jaakan",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Also called AKAN and JAKAN",
@@ -41,17 +41,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_224426",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T22:44:26.561568",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -60,33 +49,8 @@
     "nt_refs": 0,
     "total_verses": 2
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "He twists, one of the sons of Ezer, the son of Seir the Horite (1 Chr. 1:42).",
-      "extracted_refs": [
-        {
-          "book": "1 Chronicles",
-          "chapter": 1,
-          "verses": [
-            42
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 1:42",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(he shall surround), the same as Jakan, the forefather of Bene-Jaakan. (10:6)"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -109,13 +73,5 @@
       "raw": "1 Chronicles 1:42",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 1,
-    "ot": 1,
-    "nt": 0,
-    "books": [
-      "1 Chronicles"
-    ]
-  }
+  ]
 }

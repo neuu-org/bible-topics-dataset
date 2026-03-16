@@ -1,7 +1,7 @@
 {
   "topic": "GREECE",
   "slug": "greece",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Inhabitants of",
@@ -187,17 +187,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_204812",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T20:48:12.191474",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [
     "EPICUREANS",
     "ATHENS",
@@ -210,64 +199,8 @@
     "nt_refs": 7,
     "total_verses": 8
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Orginally consisted of the four provinces of Macedonia, Epirus, Achaia, and Peleponnesus. In Acts 20:2 it designates only the Roman province of Macedonia. Greece was conquered by the Romans B.C. 146. After passing through various changes it was erected into an independent monarchy in 1831. Moses makes mention of Greece under the name of Javan (Gen. 10:2-5); and this name does not again occur in the Old Testament till the time of Joel (3:6). Then the Greeks and Hebrews first came into contact in the Tyrian slave-market. Prophetic notice is taken of Greece in Dan. 8:21. The cities of Greece were the special scenes of the labours of the apostle Paul.",
-      "extracted_refs": [
-        {
-          "book": "Genesis",
-          "chapter": 10,
-          "verses": [
-            2,
-            3,
-            4,
-            5
-          ],
-          "verse_count": 4,
-          "testament": "OT",
-          "raw": "Genesis 10:2-5",
-          "source": "EAS"
-        },
-        {
-          "book": "Acts",
-          "chapter": 20,
-          "verses": [
-            2
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Acts 20:2",
-          "source": "EAS"
-        },
-        {
-          "book": "Genesis",
-          "chapter": 3,
-          "verses": [
-            6
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 3:6",
-          "source": "EAS"
-        },
-        {
-          "book": "Daniel",
-          "chapter": 8,
-          "verses": [
-            21
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Daniel 8:21",
-          "source": "EAS"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -326,15 +259,5 @@
       "raw": "Daniel 8:21",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 7,
-    "ot": 6,
-    "nt": 1,
-    "books": [
-      "Acts",
-      "Daniel",
-      "Genesis"
-    ]
-  }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "topic": "HOLY OF HOLIES",
   "slug": "holy-of-holies",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "idx": 0,
@@ -432,17 +432,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_220028",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T22:00:28.531205",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -451,34 +440,8 @@
     "nt_refs": 8,
     "total_verses": 37
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "The second or interior portion of the tabernacle. It was left in total darkness. No one was permitted to enter it except the high priest, and that only once a year. It contained the ark of the covenant only (Ex. 25:10-16). It was in the form of a perfect cube of 20 cubits. (See TABERNACLE.)",
-      "extracted_refs": [
-        {
-          "book": "Exodus",
-          "chapter": 25,
-          "verses": [
-            10,
-            11,
-            12,
-            13,
-            14,
-            15,
-            16
-          ],
-          "verse_count": 7,
-          "testament": "OT",
-          "raw": "Exodus 25:10-16",
-          "source": "EAS"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "TOR",
-    "EAS"
+    "TOR"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -507,13 +470,5 @@
       "raw": "Exodus 25:10-16",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 7,
-    "ot": 7,
-    "nt": 0,
-    "books": [
-      "Exodus"
-    ]
-  }
+  ]
 }

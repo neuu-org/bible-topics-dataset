@@ -1,7 +1,7 @@
 {
   "topic": "MAGPIASH",
   "slug": "magpiash",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A person or family Ne 10:20",
@@ -12,17 +12,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_002530",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T00:25:30.341555",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -31,49 +20,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "SMI",
-      "text": "(moth-killer) one of the heads of the people who signed the covenant with Nehemiah. (Nehemiah 10:20) The same as Magbish in (Ezra 2:30)",
-      "extracted_refs": [
-        {
-          "book": "Nehemiah",
-          "chapter": 10,
-          "verses": [
-            20
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Nehemiah 10:20",
-          "source": "SMI"
-        },
-        {
-          "book": "Ezra",
-          "chapter": 2,
-          "verses": [
-            30
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Ezra 2:30",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Nehemiah 10:20",
-      "original": "Nehemiah 10:20"
-    },
-    {
-      "reference": "Ezra 2:30",
-      "original": "Ezra 2:30"
-    }
-  ],
   "sources": [
-    "NAV",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -107,14 +55,5 @@
       "raw": "Ezra 2:30",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 2,
-    "ot": 2,
-    "nt": 0,
-    "books": [
-      "Ezra",
-      "Nehemiah"
-    ]
-  }
+  ]
 }

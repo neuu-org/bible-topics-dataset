@@ -1,7 +1,7 @@
 {
   "topic": "MERCURIUS",
   "slug": "mercurius",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "(A pagan god; Mercury (to the Romans); Hermes (to the Greeks))",
@@ -18,17 +18,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_005419",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T00:54:19.976304",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -37,56 +26,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "The Hermes (i.e., “the speaker”) of the Greeks (Acts 14:12), a heathen God represented as the constant attendant of Jupiter, and the god of eloquence. The inhabitants of Lystra took Paul for this god because he was the “chief speaker.”",
-      "extracted_refs": [
-        {
-          "book": "Acts",
-          "chapter": 14,
-          "verses": [
-            12
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Acts 14:12",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(herald of the gods), properly Hermes, the Greek deity, whom the Romans identified with their Mercury, the god of commerce and bargains. Hermes was the son of Zeus (Jupiter) and Maia the daughter of Atals, and is constantly represented as the companion of his father in his wandering upon earth. The episode of Baucis and Philemon, Ovid, Metam . viii. 620-724, appears to have formed part of the folk-lore of Asia Minor, and strikingly illustrates the readiness with which the simple people of Lystra recognized in Barnabas and Paul the gods who, according to their wont, had come down in the likeness of men. (Acts 14:11)",
-      "extracted_refs": [
-        {
-          "book": "Acts",
-          "chapter": 14,
-          "verses": [
-            11
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Acts 14:11",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Acts 14:12",
-      "original": "Acts 14:12"
-    },
-    {
-      "reference": "Acts 14:11",
-      "original": "Acts 14:11"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -120,13 +61,5 @@
       "raw": "Acts 14:11",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 2,
-    "ot": 0,
-    "nt": 2,
-    "books": [
-      "Acts"
-    ]
-  }
+  ]
 }

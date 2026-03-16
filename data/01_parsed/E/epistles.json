@@ -1,7 +1,7 @@
 {
   "topic": "EPISTLES",
   "slug": "epistles",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "From the congregation at Jerusalem to the Gentiles Ac 15:23-29",
@@ -46,28 +46,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "As epístolas do Novo Testamento são cartas escritas por apóstolos e líderes da igreja primitiva, como Paulo, Tiago, Pedro e João, destinadas a comunidades cristãs e indivíduos. Elas abordam questões teológicas, éticas e práticas da vida cristã, promovendo a fé e a unidade entre os crentes. As epístolas de Paulo, em particular, são fundamentais para a compreensão da teologia cristã, abordando temas como a justificação pela fé e a natureza da igreja. O contexto histórico e cultural dessas cartas é crucial para a interpretação adequada de suas mensagens.",
-    "outline": [
-      "Epístolas como comunicação da igreja primitiva",
-      "Cartas de Paulo e suas contribuições teológicas",
-      "Epístolas de outros apóstolos e suas mensagens",
-      "Importância das epístolas para a formação da doutrina cristã",
-      "Contexto histórico das epístolas no Novo Testamento"
-    ],
-    "key_concepts": [
-      "Justificação pela fé",
-      "Unidade da igreja",
-      "Ética cristã",
-      "Revelação divina",
-      "Esperança escatológica"
-    ],
-    "theological_significance": "As epístolas são fundamentais para a teologia cristã, pois oferecem ensinamentos diretos sobre a vida em Cristo, a natureza da salvação e a missão da igreja. Elas servem como guias para a prática da fé e a construção de comunidades cristãs, enfatizando a importância da fé, amor e esperança na vida dos crentes.",
-    "model": "gpt-4o-mini",
-    "run_id": "enr_20251202_150723_068ae132",
-    "confidence": 1.0,
-    "generated_at": "2025-12-02T15:07:23.796259"
-  },
   "see_also": [
     "LETTERS"
   ],
@@ -78,15 +56,8 @@
     "nt_refs": 1,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "The apostolic letters. The New Testament contains twenty-one in all. They are divided into two classes. (1.) Paul’s Epistles, fourteen in number, including Hebrews. These are not arranged in the New Testament in the order of time as to their composition, but rather according to the rank of the cities or places to which they were sent. Who arranged them after this manner is unknown. Paul’s letters were, as a rule, dictated to an amanuensis, a fact which accounts for some of their peculiarities. He authenticated them, however, by adding a few words in his own hand at the close. (See GALATIANS, EPISTLE TO.) The epistles to Timothy and Titus are styled the Pastoral Epistles. (2.) The Catholic or General Epistles, so called because they are not addressed to any particular church or city or individual, but to Christians in general, or to Christians in several countries. Of these, three are written by John, two by Peter, and one each by James and Jude. It is an interesting and instructive fact that a large portion of the New Testament is taken up with epistles. The doctrines of Christianity are thus not set forth in any formal treatise, but mainly in a collection of letters. “Christianity was the first great missionary religion. It was the first to break the bonds of race and aim at embracing all mankind. But this necessarily involved a change in the mode in which it was presented. The prophet of the Old Testament, if he had anything to communicate, either appeared in person or sent messengers to speak for him by word of mouth. The narrow limits of Palestine made direct personal communication easy. But the case was different when the Christian Church came to consist of a number of scattered parts, stretching from Mesopotamia in the east to Rome or even Spain in the far west. It was only natural that the apostle by whom the greater number of these communities had been founded should seek to communicate with them by letter.”"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -98,37 +69,5 @@
     "enriched_at": "2025-12-02T22:02:09.925466+00:00",
     "enrichment_source": "pipeline_merge"
   },
-  "version": "3.0.0",
-  "ai_themes_normalized": [
-    {
-      "theme_id": null,
-      "proposal_id": "prop:justificação_pela_fé_05b3a8",
-      "label_original": "Justificação pela fé em Cristo",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:a_unidade_do_corpo_d_0ad818",
-      "label_original": "A unidade do corpo de Cristo",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:ética_e_moral_cristã_07f6e8",
-      "label_original": "Ética e moral cristã",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:revelação_e_autorida_0babcc",
-      "label_original": "Revelação e autoridade apostólica",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:esperança_na_volta_d_02c730",
-      "label_original": "Esperança na volta de Cristo",
-      "source": "ai_enrichment"
-    }
-  ]
+  "version": "3.0.0"
 }

@@ -1,7 +1,7 @@
 {
   "topic": "HERODIAS",
   "slug": "herodias",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Daughter of Aristobulus Mt 14:3,6; Mr 6:17,19,22; Lu 3:19",
@@ -40,17 +40,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_215121",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T21:51:21.553858",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -59,105 +48,8 @@
     "nt_refs": 2,
     "total_verses": 2
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "(Matt. 14:3-11; Mark 6:17-28; Luke 3:19), the daughter of Aristobulus and Bernice. While residing at Rome with her husband Herod Philip I. and her daughter, Herod Antipas fell in with her during one of his journeys to that city. She consented to leave her husband and become his wife. Some time after, Herod met John the Baptist, who boldly declared the marriage to be unlawful. For this he was “cast into prison,” in the castle probably of Machaerus (q.v.), and was there subsequently beheaded.",
-      "extracted_refs": [
-        {
-          "book": "Matthew",
-          "chapter": 14,
-          "verses": [
-            3,
-            4,
-            5,
-            6,
-            7,
-            8,
-            9,
-            10,
-            11
-          ],
-          "verse_count": 9,
-          "testament": "NT",
-          "raw": "Matthew 14:3-11",
-          "source": "EAS"
-        },
-        {
-          "book": "Mark",
-          "chapter": 6,
-          "verses": [
-            17,
-            18,
-            19,
-            20,
-            21,
-            22,
-            23,
-            24,
-            25,
-            26,
-            27,
-            28
-          ],
-          "verse_count": 12,
-          "testament": "NT",
-          "raw": "Mark 6:17-28",
-          "source": "EAS"
-        },
-        {
-          "book": "Luke",
-          "chapter": 3,
-          "verses": [
-            19
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Luke 3:19",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "daughter of Aristobulus, one of the sons of Mariamne and Herod the Great, and consequently sister of Agrippa I. She first married Herod Philip I.; then she eloped from him to marry Herod Antipas her step-uncle. The head of John the Baptist was granted at the request of Herodias. (Matthew 14:8-11; Mark 6:24-28) (A.D. 29.) She accompanied Antipas into exile to Lugdunum",
-      "extracted_refs": [
-        {
-          "book": "Matthew",
-          "chapter": 14,
-          "verses": [
-            8,
-            9,
-            10,
-            11
-          ],
-          "verse_count": 4,
-          "testament": "NT",
-          "raw": "Matthew 14:8-11",
-          "source": "SMI"
-        },
-        {
-          "book": "Mark",
-          "chapter": 6,
-          "verses": [
-            24,
-            25,
-            26,
-            27,
-            28
-          ],
-          "verse_count": 5,
-          "testament": "NT",
-          "raw": "Mark 6:24-28",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -250,15 +142,5 @@
       "raw": "Mark 6:24-28",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 22,
-    "ot": 0,
-    "nt": 22,
-    "books": [
-      "Luke",
-      "Mark",
-      "Matthew"
-    ]
-  }
+  ]
 }

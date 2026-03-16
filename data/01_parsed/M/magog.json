@@ -1,7 +1,7 @@
 {
   "topic": "MAGOG",
   "slug": "magog",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Son of Japheth Ge 10:2; 1Ch 1:5",
@@ -39,17 +39,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_002510",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T00:25:10.944531",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -58,157 +47,8 @@
     "nt_refs": 0,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Region of Gog, the second of the “sons” of Japheth (Gen. 10:2; 1 Chr. 1:5). In Ezekiel (38:2; 39:6) it is the name of a nation, probably some Scythian or Tartar tribe descended from Japheth. They are described as skilled horsemen, and expert in the use of the bow. The Latin father Jerome says that this word denotes “Scythian nations, fierce and innumerable, who live beyond the Caucasus and the Lake Maeotis, and near the Caspian Sea, and spread out even onward to India.” Perhaps the name “represents the Assyrian Mat Gugi, or ‘country of Gugu,’ the Gyges of the Greeks” (Sayce’s Races, etc.).",
-      "extracted_refs": [
-        {
-          "book": "Genesis",
-          "chapter": 10,
-          "verses": [
-            2
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 10:2",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Chronicles",
-          "chapter": 1,
-          "verses": [
-            5
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 1:5",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Chronicles",
-          "chapter": 38,
-          "verses": [
-            2
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 38:2",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Chronicles",
-          "chapter": 39,
-          "verses": [
-            6
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 39:6",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(region of Gog). In (Genesis 10:2) Magog appears as the second son of Japheth; in (Ezekiel 38:2; 39:1,6) it appears as a country or people of which Gog was the prince. The notices of Magog would lead us to fix a northern locality: it is expressly stated by Ezekiel that “he was to come up from the sides of the north,” (Ezekiel 39:2) from a country adjacent to that of Togarmah or Armenia, ch. 58:6 and not far from “the isles” or maritime regions of Europe. ch. (Ezekiel 39:6) The people of Magog further appear as having a force of cavalry, (Ezekiel 38:16) and as armed with the bow. ch. (Ezekiel 39:3) From the above data, may conclude that Magog represents the important race of the Scythians.",
-      "extracted_refs": [
-        {
-          "book": "Genesis",
-          "chapter": 10,
-          "verses": [
-            2
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 10:2",
-          "source": "SMI"
-        },
-        {
-          "book": "Ezekiel",
-          "chapter": 38,
-          "verses": [
-            2
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Ezekiel 38:2",
-          "source": "SMI"
-        },
-        {
-          "book": "Ezekiel",
-          "chapter": 39,
-          "verses": [
-            1,
-            6
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Ezekiel 39:1,6",
-          "source": "SMI"
-        },
-        {
-          "book": "Ezekiel",
-          "chapter": 39,
-          "verses": [
-            2
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Ezekiel 39:2",
-          "source": "SMI"
-        },
-        {
-          "book": "Ezekiel",
-          "chapter": 39,
-          "verses": [
-            6
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Ezekiel 39:6",
-          "source": "SMI"
-        },
-        {
-          "book": "Ezekiel",
-          "chapter": 38,
-          "verses": [
-            16
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Ezekiel 38:16",
-          "source": "SMI"
-        },
-        {
-          "book": "Ezekiel",
-          "chapter": 39,
-          "verses": [
-            3
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Ezekiel 39:3",
-          "source": "SMI"
-        },
-        {
-          "book": "Ezekiel",
-          "chapter": 58,
-          "verses": [
-            6
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Ezekiel 58:6",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -342,15 +182,5 @@
       "raw": "Ezekiel 58:6",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 11,
-    "ot": 11,
-    "nt": 0,
-    "books": [
-      "1 Chronicles",
-      "Ezekiel",
-      "Genesis"
-    ]
-  }
+  ]
 }

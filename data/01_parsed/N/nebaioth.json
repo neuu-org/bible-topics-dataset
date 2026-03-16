@@ -1,7 +1,7 @@
 {
   "topic": "NEBAIOTH",
   "slug": "nebaioth",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Also called NEBAJOTH",
@@ -38,17 +38,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_013719",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T01:37:19.861217",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -57,73 +46,8 @@
     "nt_refs": 0,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Height. (1.) Ishmael’s eldest son (Gen. 25:13), and the prince of an Israelitish tribe (16). He had a sister, Mahalath, who was one of Esau’s wives (Gen. 28:9; 36:3). (2.) The name of the Ishmaelite tribe descended from the above (Gen. 25:13, 18). The “rams of Nebaioth” (Isa. 60:7) are the gifts which these wandering tribes of the desert would consecrate to God.",
-      "extracted_refs": [
-        {
-          "book": "Genesis",
-          "chapter": 25,
-          "verses": [
-            13
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 25:13",
-          "source": "EAS"
-        },
-        {
-          "book": "Genesis",
-          "chapter": 28,
-          "verses": [
-            9
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 28:9",
-          "source": "EAS"
-        },
-        {
-          "book": "Genesis",
-          "chapter": 36,
-          "verses": [
-            3
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 36:3",
-          "source": "EAS"
-        },
-        {
-          "book": "Genesis",
-          "chapter": 25,
-          "verses": [
-            13,
-            18
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Genesis 25:13, 18",
-          "source": "EAS"
-        },
-        {
-          "book": "Isaiah",
-          "chapter": 60,
-          "verses": [
-            7
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Isaiah 60:7",
-          "source": "EAS"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -191,14 +115,5 @@
       "raw": "Isaiah 60:7",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 5,
-    "ot": 5,
-    "nt": 0,
-    "books": [
-      "Genesis",
-      "Isaiah"
-    ]
-  }
+  ]
 }

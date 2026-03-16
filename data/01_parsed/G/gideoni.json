@@ -1,7 +1,7 @@
 {
   "topic": "GIDEONI",
   "slug": "gideoni",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Father of Abidan Nu 1:11; 2:22; 7:60,65; 10:24",
@@ -16,17 +16,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_203339",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T20:33:39.543424",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -35,69 +24,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "SMI",
-      "text": "(a cutting down), a Benjamite, father of Abidan. (Numbers 1:11; 7:60,65; 10:24)",
-      "extracted_refs": [
-        {
-          "book": "Numbers",
-          "chapter": 1,
-          "verses": [
-            11
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Numbers 1:11",
-          "source": "SMI"
-        },
-        {
-          "book": "Numbers",
-          "chapter": 7,
-          "verses": [
-            60,
-            65
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Numbers 7:60,65",
-          "source": "SMI"
-        },
-        {
-          "book": "Numbers",
-          "chapter": 10,
-          "verses": [
-            24
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Numbers 10:24",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Numbers 1:11",
-      "original": "Numbers 1:11"
-    },
-    {
-      "reference": "Numbers 7:60",
-      "original": "Numbers 7:60"
-    },
-    {
-      "reference": "Numbers 7:65",
-      "original": "Numbers 7:65"
-    },
-    {
-      "reference": "Numbers 10:24",
-      "original": "Numbers 10:24"
-    }
-  ],
   "sources": [
-    "NAV",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -143,13 +71,5 @@
       "raw": "Numbers 10:24",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 4,
-    "ot": 4,
-    "nt": 0,
-    "books": [
-      "Numbers"
-    ]
-  }
+  ]
 }

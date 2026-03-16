@@ -1,7 +1,7 @@
 {
   "topic": "HELEK",
   "slug": "helek",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Son of Gilead Nu 26:30; Jos 17:2",
@@ -24,17 +24,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_213032",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T21:30:32.081581",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -43,46 +32,8 @@
     "nt_refs": 0,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "A portion, (Josh. 17:2), descended from Manasseh.",
-      "extracted_refs": [
-        {
-          "book": "Joshua",
-          "chapter": 17,
-          "verses": [
-            2
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 17:2",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(portion), one of the descendants of Manasseh, and second son of Gilead, (Numbers 26:30) and founder of the Helekites. (B.C. 1445.)",
-      "extracted_refs": [
-        {
-          "book": "Numbers",
-          "chapter": 26,
-          "verses": [
-            30
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Numbers 26:30",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -116,14 +67,5 @@
       "raw": "Numbers 26:30",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 2,
-    "ot": 2,
-    "nt": 0,
-    "books": [
-      "Joshua",
-      "Numbers"
-    ]
-  }
+  ]
 }

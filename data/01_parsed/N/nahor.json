@@ -1,7 +1,7 @@
 {
   "topic": "NAHOR",
   "slug": "nahor",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "1. Grandfather of Abraham Ge 11:22-26; 1Ch 1:26",
@@ -60,17 +60,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_013218",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T01:32:18.806315",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -79,108 +68,8 @@
     "nt_refs": 0,
     "total_verses": 2
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Snorting. (1.) The father of Terah, who was the father of Abraham (Gen. 11:22-25; Luke 3:34). (2.) A son of Terah, and elder brother of Abraham (Gen. 11:26, 27; Josh. 24:2, R.V.). He married Milcah, the daughter of his brother Haran, and remained in the land of his nativity on the east of the river Euphrates at Haran (Gen. 11:27-32). A correspondence was maintained between the family of Abraham in Canaan and the relatives in the old ancestral home at Haran till the time of Jacob. When Jacob fled from Haran all intercourse between the two branches of the family came to an end (Gen. 31:55). His grand-daughter Rebekah became Isaac’s wife (24:67).",
-      "extracted_refs": [
-        {
-          "book": "Genesis",
-          "chapter": 11,
-          "verses": [
-            22,
-            23,
-            24,
-            25
-          ],
-          "verse_count": 4,
-          "testament": "OT",
-          "raw": "Genesis 11:22-25",
-          "source": "EAS"
-        },
-        {
-          "book": "Luke",
-          "chapter": 3,
-          "verses": [
-            34
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Luke 3:34",
-          "source": "EAS"
-        },
-        {
-          "book": "Genesis",
-          "chapter": 11,
-          "verses": [
-            26,
-            27
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Genesis 11:26, 27",
-          "source": "EAS"
-        },
-        {
-          "book": "Joshua",
-          "chapter": 24,
-          "verses": [
-            2
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 24:2",
-          "source": "EAS"
-        },
-        {
-          "book": "Genesis",
-          "chapter": 11,
-          "verses": [
-            27,
-            28,
-            29,
-            30,
-            31,
-            32
-          ],
-          "verse_count": 6,
-          "testament": "OT",
-          "raw": "Genesis 11:27-32",
-          "source": "EAS"
-        },
-        {
-          "book": "Genesis",
-          "chapter": 31,
-          "verses": [
-            55
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 31:55",
-          "source": "EAS"
-        },
-        {
-          "book": "Genesis",
-          "chapter": 24,
-          "verses": [
-            67
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 24:67",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(snorting), the name of two persons in the family of Abraham."
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -278,15 +167,5 @@
       "raw": "Genesis 24:67",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 15,
-    "ot": 14,
-    "nt": 1,
-    "books": [
-      "Genesis",
-      "Joshua",
-      "Luke"
-    ]
-  }
+  ]
 }

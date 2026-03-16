@@ -1,7 +1,7 @@
 {
   "topic": "HAMOR",
   "slug": "hamor",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "(The father of Shechem)",
@@ -45,17 +45,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_210115",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T21:01:15.030708",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -64,87 +53,8 @@
     "nt_refs": 0,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "He-ass, a Hivite from whom Jacob purchased the plot of ground in which Joseph was afterwards buried (Gen. 33:19). He is called “Emmor” in Acts 7:16. His son Shechem founded the city of that name which Simeon and Levi destroyed because of his crime in the matter of Dinah, Jacob’s daughter (Gen. 34:20). Hamor and Shechem were also slain (ver. 26).",
-      "extracted_refs": [
-        {
-          "book": "Genesis",
-          "chapter": 33,
-          "verses": [
-            19
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 33:19",
-          "source": "EAS"
-        },
-        {
-          "book": "Genesis",
-          "chapter": 34,
-          "verses": [
-            20
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 34:20",
-          "source": "EAS"
-        },
-        {
-          "book": "Acts",
-          "chapter": 7,
-          "verses": [
-            16
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Acts 7:16",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(an ass), a Hivite who at the time of the entrance of Jacob on Palestine was prince of the land and city of Shechem. (Genesis 33:19; 34:2,4,6,8,13,18,20,24,26) (B.C. 1737.) [Dinah]",
-      "extracted_refs": [
-        {
-          "book": "Genesis",
-          "chapter": 33,
-          "verses": [
-            19
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 33:19",
-          "source": "SMI"
-        },
-        {
-          "book": "Genesis",
-          "chapter": 34,
-          "verses": [
-            2,
-            4,
-            6,
-            8,
-            13,
-            18,
-            20,
-            24,
-            26
-          ],
-          "verse_count": 9,
-          "testament": "OT",
-          "raw": "Genesis 34:2,4,6,8,13,18,20,24,26",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -208,14 +118,5 @@
       "raw": "Genesis 34:2,4,6,8,13,18,20,24,26",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 11,
-    "ot": 10,
-    "nt": 1,
-    "books": [
-      "Acts",
-      "Genesis"
-    ]
-  }
+  ]
 }

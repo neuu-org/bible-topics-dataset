@@ -1,7 +1,7 @@
 {
   "topic": "MORIAH",
   "slug": "moriah",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "The land of Ge 22:2; 2Ch 3:1",
@@ -24,17 +24,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_012255",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T01:22:55.336732",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -43,56 +32,8 @@
     "nt_refs": 0,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "The chosen of Jehovah. Some contend that Mount Gerizim is meant, but most probably we are to regard this as one of the hills of Jerusalem. Here Solomon’s temple was built, on the spot that had been the threshing-floor of Ornan the Jebusite (2 Sam. 24:24, 25; 2 Chr. 3:1). It is usually included in Zion, to the north-east of which it lay, and from which it was separated by the Tyropoean valley. This was “the land of Moriah” to which Abraham went to offer up his son Isaac (Gen. 22:2). It has been supposed that the highest point of the temple hill, which is now covered by the Mohammedan Kubbetes-Sakhrah, or “Dome of the Rock,” is the actual site of Araunah’s threshing-floor. Here also, one thousand years after Abraham, David built an altar and offered sacrifices to God. (See JERUSALEM; NUMBERING THE PEOPLE.)",
-      "extracted_refs": [
-        {
-          "book": "2 Samuel",
-          "chapter": 24,
-          "verses": [
-            24,
-            25
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "2 Samuel 24:24, 25",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Chronicles",
-          "chapter": 3,
-          "verses": [
-            1
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Chronicles 3:1",
-          "source": "EAS"
-        },
-        {
-          "book": "Genesis",
-          "chapter": 22,
-          "verses": [
-            2
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 22:2",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(chosen by Jehovah)."
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -138,15 +79,5 @@
       "raw": "Genesis 22:2",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 4,
-    "ot": 4,
-    "nt": 0,
-    "books": [
-      "2 Chronicles",
-      "2 Samuel",
-      "Genesis"
-    ]
-  }
+  ]
 }

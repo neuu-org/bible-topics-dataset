@@ -1,7 +1,7 @@
 {
   "topic": "ALEXANDRIA",
   "slug": "alexandria",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A city of Egypt Ac 6:9",
@@ -27,208 +27,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "Alexandria, uma cidade do Egito, é mencionada em várias passagens do Novo Testamento, destacando-se como um centro cultural e intelectual da época. Conhecida por sua famosa biblioteca e como um ponto de encontro de diversas tradições religiosas e filosóficas, Alexandria desempenhou um papel crucial na disseminação do cristianismo. A cidade é também o berço de Apolo, um pregador eloquente que contribuiu significativamente para a evangelização. As referências a navios que partiam de Alexandria indicam sua importância como um porto comercial vital, facilitando a comunicação e o intercâmbio cultural entre o Egito e outras regiões do Mediterrâneo.",
-    "outline": [
-      "Importância de Alexandria como centro cultural e intelectual no mundo antigo.",
-      "Referências a Apolo e seu papel na propagação do cristianismo.",
-      "O papel de Alexandria como um importante porto comercial.",
-      "A diversidade religiosa e filosófica que influenciou o cristianismo primitivo."
-    ],
-    "key_concepts": [
-      "Cultura helenística",
-      "Evangelização",
-      "Intercâmbio cultural"
-    ],
-    "theological_significance": "Alexandria representa a interseção entre a cultura grega e a mensagem cristã, mostrando como o evangelho se adaptou e se espalhou em um contexto multicultural. A cidade é um exemplo de como Deus pode usar diferentes culturas e tradições para cumprir Seus propósitos, desafiando os cristãos a serem agentes de transformação em suas próprias culturas.",
-    "model": "gpt-4o-mini",
-    "run_id": "enr_20250923_124259_6f48774c",
-    "confidence": 1.0,
-    "generated_at": "2025-09-23T12:42:59.037361"
-  },
-  "ai_themes_normalized": [
-    {
-      "theme_id": null,
-      "proposal_id": "prop:evangelizacao_e_missoes_62c337",
-      "label_original": "Evangelização e missões",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:cultura_e_fe_3bf33f",
-      "label_original": "Cultura e fé",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:diversidade_no_cristianismo_2bdc05",
-      "label_original": "Diversidade no cristianismo",
-      "source": "ai_enrichment"
-    }
-  ],
-  "phase1_discovery": {
-    "processed_at": "2025-09-23T22:39:22.573054Z",
-    "total_themes_processed": 3,
-    "summary": {
-      "total_processed": 3,
-      "decisions": {
-        "alias_existing": 0,
-        "proposed": 3,
-        "error": 0
-      },
-      "success_rate": 1.0
-    },
-    "results": [
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.84358,
-          "novelty": 1.0,
-          "similarity_to_best_existing": 0.0,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_a4cff292",
-          "decision_hash": "05eaa26fee8ba568",
-          "created_at": "2025-09-23T22:39:22.573054Z"
-        },
-        "proposal_id": "prop:3f2fa240",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:evangelizacao_e_missoes_62c337",
-          "label_original": "Evangelização e missões",
-          "confidence": 0.9500000000000001,
-          "source": "ai_enrichment"
-        }
-      },
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.83226,
-          "novelty": 1.0,
-          "similarity_to_best_existing": 0.0,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_72f04268",
-          "decision_hash": "96f805911fb4a099",
-          "created_at": "2025-09-23T22:39:23.624545Z"
-        },
-        "proposal_id": "prop:fd933207",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:cultura_e_fe_3bf33f",
-          "label_original": "Cultura e fé",
-          "confidence": 0.9500000000000001,
-          "source": "ai_enrichment"
-        }
-      },
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.8372999999999999,
-          "novelty": 1.0,
-          "similarity_to_best_existing": 0.0,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_5c5ea0d7",
-          "decision_hash": "73726029f351a377",
-          "created_at": "2025-09-23T22:39:24.723637Z"
-        },
-        "proposal_id": "prop:cc658863",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:diversidade_no_cristianismo_2bdc05",
-          "label_original": "Diversidade no cristianismo",
-          "confidence": 0.9500000000000001,
-          "source": "ai_enrichment"
-        }
-      }
-    ]
-  },
-  "entity_links": [
-    {
-      "canonical_id": "CON:alexandria",
-      "namespace": "CONCEPT",
-      "role": "primary",
-      "confidence": 0.9,
-      "source": "topic_resolver",
-      "status": "proposed",
-      "provenance": {
-        "topic": "ALEXANDRIA",
-        "extracted_from": "ALEXANDRIA",
-        "processing_result": {
-          "status": "proposed",
-          "proposal_id": "stub:CON:alexandria_d24acd41",
-          "canonical_id": "CON:alexandria",
-          "needs_review": true,
-          "reasons": [
-            "low_confidence",
-            "insufficient_sources"
-          ],
-          "message": "Entity proposal stub:CON:alexandria_d24acd41 created"
-        }
-      }
-    }
-  ],
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -237,49 +35,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "The ancient metropolis of Lower Egypt, so called from its founder, Alexander the Great (about B.C. 333). It was for a long period the greatest of existing cities, for both Nineveh and Babylon had been destroyed, and Rome had not yet risen to greatness. It was the residence of the kings of Egypt for 200 years. It is not mentioned in the Old Testament, and only incidentally in the New. Apollos, eloquent and mighty in the Scriptures, was a native of this city (Acts 18:24). Many Jews from Alexandria were in Jerusalem, where they had a synagogue (Acts 6:9), at the time of Stephen’s martyrdom. At one time it is said that as many as 10,000 Jews resided in this city. It possessed a famous library of 700,000 volumes, which was burned by the Saracens (A.D. 642). It was here that the Hebrew Bible was translated into Greek. This is called the Septuagint version, from the tradition that seventy learned men were engaged in executing it. It was, however, not all translated at one time. It was begun B.C. 280, and finished about B.C. 200 or 150. (See VERSION.)",
-      "extracted_refs": [
-        {
-          "book": "Acts",
-          "chapter": 18,
-          "verses": [
-            24
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Acts 18:24",
-          "source": "EAS"
-        },
-        {
-          "book": "Acts",
-          "chapter": 6,
-          "verses": [
-            9
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Acts 6:9",
-          "source": "EAS"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Acts 18:24",
-      "original": "Acts 18:24"
-    },
-    {
-      "reference": "Acts 6:9",
-      "original": "Acts 6:9"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -313,13 +70,5 @@
       "raw": "Acts 6:9",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 2,
-    "ot": 0,
-    "nt": 2,
-    "books": [
-      "Acts"
-    ]
-  }
+  ]
 }

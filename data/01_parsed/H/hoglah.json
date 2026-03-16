@@ -1,7 +1,7 @@
 {
   "topic": "HOGLAH",
   "slug": "hoglah",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A daughter of Zelophehad Nu 26:33; 27:1; 36:11; Jos 17:3",
@@ -26,17 +26,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_215907",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T21:59:07.880658",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -45,101 +34,8 @@
     "nt_refs": 0,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Partridge, one of the daughters of Zelophehad the Gileadite, to whom portions were assigned by Moses (Num. 26:33; 27:1; 36:11).",
-      "extracted_refs": [
-        {
-          "book": "Numbers",
-          "chapter": 26,
-          "verses": [
-            33
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Numbers 26:33",
-          "source": "EAS"
-        },
-        {
-          "book": "Numbers",
-          "chapter": 27,
-          "verses": [
-            1
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Numbers 27:1",
-          "source": "EAS"
-        },
-        {
-          "book": "Numbers",
-          "chapter": 36,
-          "verses": [
-            11
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Numbers 36:11",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(partridge), the third of the five daughters of Zelophehad. (Numbers 26:33; 27:1; 36:11; Joshua 17:3) (B.C. 1450.)",
-      "extracted_refs": [
-        {
-          "book": "Numbers",
-          "chapter": 26,
-          "verses": [
-            33
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Numbers 26:33",
-          "source": "SMI"
-        },
-        {
-          "book": "Numbers",
-          "chapter": 27,
-          "verses": [
-            1
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Numbers 27:1",
-          "source": "SMI"
-        },
-        {
-          "book": "Numbers",
-          "chapter": 36,
-          "verses": [
-            11
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Numbers 36:11",
-          "source": "SMI"
-        },
-        {
-          "book": "Joshua",
-          "chapter": 17,
-          "verses": [
-            3
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 17:3",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -195,14 +91,5 @@
       "raw": "Joshua 17:3",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 4,
-    "ot": 4,
-    "nt": 0,
-    "books": [
-      "Joshua",
-      "Numbers"
-    ]
-  }
+  ]
 }

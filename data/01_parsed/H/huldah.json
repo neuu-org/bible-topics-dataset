@@ -1,7 +1,7 @@
 {
   "topic": "HULDAH",
   "slug": "huldah",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "(A prophetess)",
@@ -35,17 +35,6 @@
       "verse_count": 7
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_220950",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T22:09:50.811682",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -54,113 +43,8 @@
     "nt_refs": 0,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Weasel, a prophetess; the wife of Shallum. She was consulted regarding the “book of the law” discovered by the high priest Hilkiah (2 Kings 22:14-20; 2 Chr. 34:22-28). She resided in that part of Jerusalem called the Mishneh (A.V., “the college;” R.V., “the second quarter”), supposed by some to be the suburb between the inner and the outer wall, the second or lower city, Akra. Miriam (Ex. 15:20) and Deborah (Judg. 4:4) are the only others who bear the title of “prophetess,” for the word in Isa. 8:3 means only the prophet’s wife.",
-      "extracted_refs": [
-        {
-          "book": "2 Kings",
-          "chapter": 22,
-          "verses": [
-            14,
-            15,
-            16,
-            17,
-            18,
-            19,
-            20
-          ],
-          "verse_count": 7,
-          "testament": "OT",
-          "raw": "2 Kings 22:14-20",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Chronicles",
-          "chapter": 34,
-          "verses": [
-            22,
-            23,
-            24,
-            25,
-            26,
-            27,
-            28
-          ],
-          "verse_count": 7,
-          "testament": "OT",
-          "raw": "2 Chronicles 34:22-28",
-          "source": "EAS"
-        },
-        {
-          "book": "Exodus",
-          "chapter": 15,
-          "verses": [
-            20
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Exodus 15:20",
-          "source": "EAS"
-        },
-        {
-          "book": "Judges",
-          "chapter": 4,
-          "verses": [
-            4
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Judges 4:4",
-          "source": "EAS"
-        },
-        {
-          "book": "Isaiah",
-          "chapter": 8,
-          "verses": [
-            3
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Isaiah 8:3",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(weasel), a prophetess, whose husband, Shallum, was keeper of the wardrobe in the time of King Josiah. It was to her that Josiah had recourse, when Hilkiah found a book of the law, to procure an authoritative opinion on it. (2 Kings 22:14; 2 Chronicles 34:22) (B.C. 623.)",
-      "extracted_refs": [
-        {
-          "book": "2 Kings",
-          "chapter": 22,
-          "verses": [
-            14
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Kings 22:14",
-          "source": "SMI"
-        },
-        {
-          "book": "2 Chronicles",
-          "chapter": 34,
-          "verses": [
-            22
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Chronicles 34:22",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -261,17 +145,5 @@
       "raw": "2 Chronicles 34:22",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 17,
-    "ot": 17,
-    "nt": 0,
-    "books": [
-      "2 Chronicles",
-      "2 Kings",
-      "Exodus",
-      "Isaiah",
-      "Judges"
-    ]
-  }
+  ]
 }

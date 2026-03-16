@@ -1,7 +1,7 @@
 {
   "topic": "MACHI",
   "slug": "machi",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A Gadite Nu 13:15",
@@ -12,17 +12,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_002146",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T00:21:46.927907",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -31,34 +20,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "SMI",
-      "text": "(decrease), the father of Geuel the Gadite, who went with Caleb and Joshua to spy out the land of Canaan. (Numbers 13:15)",
-      "extracted_refs": [
-        {
-          "book": "Numbers",
-          "chapter": 13,
-          "verses": [
-            15
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Numbers 13:15",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Numbers 13:15",
-      "original": "Numbers 13:15"
-    }
-  ],
   "sources": [
-    "NAV",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -81,13 +44,5 @@
       "raw": "Numbers 13:15",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 1,
-    "ot": 1,
-    "nt": 0,
-    "books": [
-      "Numbers"
-    ]
-  }
+  ]
 }

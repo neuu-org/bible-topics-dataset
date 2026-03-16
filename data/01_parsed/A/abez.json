@@ -1,7 +1,7 @@
 {
   "topic": "ABEZ",
   "slug": "abez",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A city of Issachar Jos 19:20",
@@ -12,209 +12,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "Abez é uma cidade mencionada na divisão da terra prometida aos israelitas, especificamente na tribo de Issacar, conforme registrado em Josué 19:20. Sua inclusão na lista de cidades reflete a importância da herança territorial e a realização das promessas de Deus ao povo de Israel. A cidade, embora não amplamente discutida nas Escrituras, representa a fidelidade de Deus em cumprir Suas promessas e a identidade das tribos de Israel na terra. Abez, como parte do território de Issacar, também pode simbolizar a diversidade e a riqueza das bênçãos que Deus concedeu a Seu povo.",
-    "outline": [
-      "Localização e identificação de Abez na tribo de Issacar.",
-      "Significado da herança territorial na narrativa bíblica.",
-      "A importância das cidades na vida social e religiosa de Israel.",
-      "Reflexão sobre a fidelidade de Deus nas promessas feitas a Israel."
-    ],
-    "key_concepts": [
-      "Herança",
-      "Promessa",
-      "Identidade tribal"
-    ],
-    "theological_significance": "A análise de Abez nos lembra da importância da herança e da identidade no contexto da fé cristã. A cidade representa a realização das promessas de Deus, que se estendem a todos os crentes. A fidelidade de Deus em cumprir Suas promessas é um tema central na teologia cristã, encorajando os fiéis a confiarem em Sua palavra e a reconhecerem a importância de sua própria herança espiritual.",
-    "model": "gpt-4o-mini",
-    "run_id": "enr_20250923_081122_bcfc284d",
-    "confidence": 1.0,
-    "generated_at": "2025-09-23T08:11:22.837172"
-  },
-  "ai_themes_normalized": [
-    {
-      "theme_id": null,
-      "proposal_id": "prop:promessas_de_deus_e8d74f",
-      "label_original": "Promessas de Deus",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:identidade_e_pertenca_1b0a4c",
-      "label_original": "Identidade e pertença",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:fidelidade_divina_5eebdb",
-      "label_original": "Fidelidade divina",
-      "source": "ai_enrichment"
-    }
-  ],
-  "phase1_discovery": {
-    "processed_at": "2025-09-23T23:14:51.506237Z",
-    "total_themes_processed": 3,
-    "summary": {
-      "total_processed": 3,
-      "decisions": {
-        "alias_existing": 0,
-        "proposed": 3,
-        "error": 0
-      },
-      "success_rate": 1.0
-    },
-    "results": [
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.8422,
-          "novelty": 1.0,
-          "similarity_to_best_existing": 0.0,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_9d5005e2",
-          "decision_hash": "29b2109209960ae3",
-          "created_at": "2025-09-23T23:14:51.506237Z"
-        },
-        "proposal_id": "prop:5f02c7d9",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:promessas_de_deus_e8d74f",
-          "label_original": "Promessas de Deus",
-          "confidence": 0.9500000000000001,
-          "source": "ai_enrichment"
-        }
-      },
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.83116,
-          "novelty": 1.0,
-          "similarity_to_best_existing": 0.0,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_2f2b9b5f",
-          "decision_hash": "165005032a92470a",
-          "created_at": "2025-09-23T23:14:52.622774Z"
-        },
-        "proposal_id": "prop:a6a57825",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:identidade_e_pertenca_1b0a4c",
-          "label_original": "Identidade e pertença",
-          "confidence": 0.9500000000000001,
-          "source": "ai_enrichment"
-        }
-      },
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "low_novelty",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.7833799999999999,
-          "novelty": 0.6666666666666667,
-          "similarity_to_best_existing": 0.3333333333333333,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_4fc15fda",
-          "decision_hash": "367e3efcf654c3b6",
-          "created_at": "2025-09-23T23:14:53.805260Z"
-        },
-        "proposal_id": "prop:f0d553e2",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:fidelidade_divina_5eebdb",
-          "label_original": "Fidelidade divina",
-          "confidence": 0.9500000000000001,
-          "source": "ai_enrichment"
-        }
-      }
-    ]
-  },
-  "entity_links": [
-    {
-      "canonical_id": "CON:abez",
-      "namespace": "CONCEPT",
-      "role": "primary",
-      "confidence": 0.9,
-      "source": "topic_resolver",
-      "status": "proposed",
-      "provenance": {
-        "topic": "ABEZ",
-        "extracted_from": "ABEZ",
-        "processing_result": {
-          "status": "proposed",
-          "proposal_id": "stub:CON:abez_2ade8757",
-          "canonical_id": "CON:abez",
-          "needs_review": true,
-          "reasons": [
-            "low_confidence",
-            "insufficient_sources"
-          ],
-          "message": "Entity proposal stub:CON:abez_2ade8757 created"
-        }
-      }
-    }
-  ],
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -223,52 +20,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Tin, or white, a town in the tribe of Issachar (Josh. 19:20), at the north of the plain of Esdraelon. It is probably identified with the ruins of el-Beida.",
-      "extracted_refs": [
-        {
-          "book": "Joshua",
-          "chapter": 19,
-          "verses": [
-            20
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 19:20",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(lofty), a town in the possession of Issachar, named between Kishion and Remeth in (Joshua 19:20) only.",
-      "extracted_refs": [
-        {
-          "book": "Joshua",
-          "chapter": 19,
-          "verses": [
-            20
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 19:20",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Joshua 19:20",
-      "original": "Josh. 19:20"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -291,13 +44,5 @@
       "raw": "Joshua 19:20",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 1,
-    "ot": 1,
-    "nt": 0,
-    "books": [
-      "Joshua"
-    ]
-  }
+  ]
 }

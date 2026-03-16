@@ -1,7 +1,7 @@
 {
   "topic": "PERSECUTION",
   "slug": "persecution",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "idx": 0,
@@ -2326,17 +2326,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_014619",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T01:46:19.137810",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -2347,97 +2336,8 @@
     "ot_refs": 26,
     "nt_refs": 59
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "The first great persecution for religious opinion of which we have any record was that which broke out against the worshippers of God among the Jews in the days of Ahab, when that king, at the instigation of his wife Jezebel, “a woman in whom, with the reckless and licentious habits of an Oriental queen, were united the fiercest and sternest qualities inherent in the old Semitic race”, sought in the most relentless manner to extirpate the worship of Jehovah and substitute in its place the worship of Ashtoreth and Baal. Ahab’s example in this respect was followed by Manasseh, who “shed innocent blood very much, till he had filled Jerusalem from one end to another” (2 Kings 21:16; comp. 24:4). In all ages, in one form or another, the people of God have had to suffer persecution. In its earliest history the Christian church passed through many bloody persecutions. Of subsequent centuries in our own and in other lands the same sad record may be made. Christians are forbidden to seek the propagation of the gospel by force (Matt. 7:1; Luke 9:54-56; Rom. 14:4; James 4:11, 12). The words of Ps. 7:13, “He ordaineth his arrows against the persecutors,” ought rather to be, as in the Revised Version, “He maketh his arrows fiery [shafts].”",
-      "extracted_refs": [
-        {
-          "book": "2 Kings",
-          "chapter": 21,
-          "verses": [
-            16
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Kings 21:16",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Kings",
-          "chapter": 24,
-          "verses": [
-            4
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Kings 24:4",
-          "source": "EAS"
-        },
-        {
-          "book": "Matthew",
-          "chapter": 7,
-          "verses": [
-            1
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Matthew 7:1",
-          "source": "EAS"
-        },
-        {
-          "book": "Luke",
-          "chapter": 9,
-          "verses": [
-            54,
-            55,
-            56
-          ],
-          "verse_count": 3,
-          "testament": "NT",
-          "raw": "Luke 9:54-56",
-          "source": "EAS"
-        },
-        {
-          "book": "Romans",
-          "chapter": 14,
-          "verses": [
-            4
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Romans 14:4",
-          "source": "EAS"
-        },
-        {
-          "book": "James",
-          "chapter": 4,
-          "verses": [
-            11,
-            12
-          ],
-          "verse_count": 2,
-          "testament": "NT",
-          "raw": "James 4:11, 12",
-          "source": "EAS"
-        },
-        {
-          "book": "Psalms",
-          "chapter": 7,
-          "verses": [
-            13
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Psalms 7:13",
-          "source": "EAS"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "TOR",
-    "EAS"
+    "TOR"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -2529,18 +2429,5 @@
       "raw": "Psalms 7:13",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 10,
-    "ot": 3,
-    "nt": 7,
-    "books": [
-      "2 Kings",
-      "James",
-      "Luke",
-      "Matthew",
-      "Psalms",
-      "Romans"
-    ]
-  }
+  ]
 }

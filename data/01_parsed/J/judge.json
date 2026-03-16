@@ -1,7 +1,7 @@
 {
   "topic": "JUDGE",
   "slug": "judge",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Appointed by the Persians Ezr 7:25",
@@ -577,17 +577,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_233004",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T23:30:04.140806",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [
     "JUSTICE",
     "COURTS",
@@ -601,79 +590,8 @@
     "nt_refs": 6,
     "total_verses": 23
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "(Heb. shophet, pl. shophetim), properly a magistrate or ruler, rather than one who judges in the sense of trying a cause. This is the name given to those rulers who presided over the affairs of the Israelites during the interval between the death of Joshua and the accession of Saul (Judg. 2:18), a period of general anarchy and confusion. “The office of judges or regents was held during life, but it was not hereditary, neither could they appoint their successors. Their authority was limited by the law alone, and in doubtful cases they were directed to consult the divine King through the priest by Urim and Thummim (Num. 27:21). Their authority extended only over those tribes by whom they had been elected or acknowledged. There was no income attached to their office, and they bore no external marks of dignity. The only cases of direct divine appointment are those of Gideon and Samson, and the latter stood in the peculiar position of having been from before his birth ordained ‘to begin to deliver Israel.’ Deborah was called to deliver Israel, but was already a judge. Samuel was called by the Lord to be a prophet but not a judge, which ensued from the high gifts the people recognized as dwelling in him; and as to Eli, the office of judge seems to have devolved naturally or rather ex officio upon him.” Of five of the judges, Tola (Judg. 10:1), Jair (3), Ibzan, Elon, and Abdon (12:8-15), we have no record at all beyond the bare fact that they were judges. Sacred history is not the history of individuals but of the kingdom of God in its onward progress. In Ex. 2:14 Moses is so styled. This fact may indicate that while for revenue purposes the “taskmasters” were over the people, they were yet, just as at a later time when under the Romans, governed by their own rulers.",
-      "extracted_refs": [
-        {
-          "book": "Judges",
-          "chapter": 2,
-          "verses": [
-            18
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Judges 2:18",
-          "source": "EAS"
-        },
-        {
-          "book": "Numbers",
-          "chapter": 27,
-          "verses": [
-            21
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Numbers 27:21",
-          "source": "EAS"
-        },
-        {
-          "book": "Judges",
-          "chapter": 10,
-          "verses": [
-            1
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Judges 10:1",
-          "source": "EAS"
-        },
-        {
-          "book": "Judges",
-          "chapter": 12,
-          "verses": [
-            8,
-            9,
-            10,
-            11,
-            12,
-            13,
-            14,
-            15
-          ],
-          "verse_count": 8,
-          "testament": "OT",
-          "raw": "Judges 12:8-15",
-          "source": "EAS"
-        },
-        {
-          "book": "Exodus",
-          "chapter": 2,
-          "verses": [
-            14
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Exodus 2:14",
-          "source": "EAS"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -747,15 +665,5 @@
       "raw": "Exodus 2:14",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 12,
-    "ot": 12,
-    "nt": 0,
-    "books": [
-      "Exodus",
-      "Judges",
-      "Numbers"
-    ]
-  }
+  ]
 }

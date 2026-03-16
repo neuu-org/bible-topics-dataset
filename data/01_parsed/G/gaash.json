@@ -1,7 +1,7 @@
 {
   "topic": "GAASH",
   "slug": "gaash",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "(A foothill of Mount Ephraim)",
@@ -32,25 +32,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "Gaash é uma localidade mencionada no Antigo Testamento, especificamente como uma das heranças de Josué, que foi enterrado ao norte dessa região. A área é descrita como uma encosta do Monte Efraim e é associada a eventos significativos na vida de Josué, incluindo sua sepultura e referências a córregos nas proximidades. A menção de Gaash destaca a importância da terra prometida e a continuidade da liderança de Israel sob a orientação de Deus.",
-    "outline": [
-      "Gaash como uma encosta do Monte Efraim",
-      "Herança de Josué em Gaash",
-      "Sepultura de Josué ao norte de Gaash",
-      "Referências a córregos em 2 Samuel"
-    ],
-    "key_concepts": [
-      "Herança da terra prometida",
-      "Liderança e legado de Josué",
-      "Importância da sepultura na tradição israelita"
-    ],
-    "theological_significance": "Gaash representa a realização da promessa de Deus a Israel, simbolizando a herança e a continuidade da liderança sob Josué. A sepultura de Josué em Gaash também reflete a importância do respeito pelos líderes espirituais e a conexão com a terra prometida, que é central na narrativa bíblica.",
-    "model": "gpt-4o-mini",
-    "run_id": "enr_20251202_215257_edde4beb",
-    "confidence": 1.0,
-    "generated_at": "2025-12-02T21:52:57.322978"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -59,86 +40,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "A shaking, a hill, on the north side of which Joshua was buried (Josh. 24:30; Judg. 2:9), in the territory of Ephraim. (See TIMNATH-SERAH.)",
-      "extracted_refs": [
-        {
-          "book": "Joshua",
-          "chapter": 24,
-          "verses": [
-            30
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 24:30",
-          "source": "EAS"
-        },
-        {
-          "book": "Judges",
-          "chapter": 2,
-          "verses": [
-            9
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Judges 2:9",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(earthquake), a hill of Ephraim, where Joshua was buried. The brooks or valley of Gaash, (2 Samuel 23:30; 1 Chronicles 11:32) were probably at the foot of the hill.",
-      "extracted_refs": [
-        {
-          "book": "2 Samuel",
-          "chapter": 23,
-          "verses": [
-            30
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Samuel 23:30",
-          "source": "SMI"
-        },
-        {
-          "book": "1 Chronicles",
-          "chapter": 11,
-          "verses": [
-            32
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 11:32",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Joshua 24:30",
-      "original": "Josh. 24:30"
-    },
-    {
-      "reference": "Judges 2:9",
-      "original": "Judg. 2:9"
-    },
-    {
-      "reference": "2 Samuel 23:30",
-      "original": "2 Samuel 23:30"
-    },
-    {
-      "reference": "1 Chronicles 11:32",
-      "original": "1 Chronicles 11:32"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -151,26 +54,6 @@
     "enrichment_source": "pipeline_merge"
   },
   "version": "3.0.0",
-  "ai_themes_normalized": [
-    {
-      "theme_id": null,
-      "proposal_id": "prop:herança_da_terra_pro_024c6f",
-      "label_original": "Herança da terra prometida",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:liderança_e_legado_e_0d6722",
-      "label_original": "Liderança e legado espiritual",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:sepultura_e_memória_067ff6",
-      "label_original": "Sepultura e memória",
-      "source": "ai_enrichment"
-    }
-  ],
   "definition_refs": [
     {
       "book": "Joshua",
@@ -216,16 +99,5 @@
       "raw": "1 Chronicles 11:32",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 4,
-    "ot": 4,
-    "nt": 0,
-    "books": [
-      "1 Chronicles",
-      "2 Samuel",
-      "Joshua",
-      "Judges"
-    ]
-  }
+  ]
 }

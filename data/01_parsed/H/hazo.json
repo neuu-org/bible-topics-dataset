@@ -1,7 +1,7 @@
 {
   "topic": "HAZO",
   "slug": "hazo",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A son of Nahor Ge 22:22",
@@ -12,17 +12,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_212459",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T21:24:59.657140",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -31,52 +20,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Vision, one of the sons of Nahor (Gen. 22:22).",
-      "extracted_refs": [
-        {
-          "book": "Genesis",
-          "chapter": 22,
-          "verses": [
-            22
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 22:22",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(vision), a son of Nahor, by Milcah his wife. (Genesis 22:22) (B.C. about 1900.)",
-      "extracted_refs": [
-        {
-          "book": "Genesis",
-          "chapter": 22,
-          "verses": [
-            22
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 22:22",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Genesis 22:22",
-      "original": "Gen. 22:22"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -99,13 +44,5 @@
       "raw": "Genesis 22:22",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 1,
-    "ot": 1,
-    "nt": 0,
-    "books": [
-      "Genesis"
-    ]
-  }
+  ]
 }

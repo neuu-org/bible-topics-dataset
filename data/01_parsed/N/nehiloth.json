@@ -1,7 +1,7 @@
 {
   "topic": "NEHILOTH",
   "slug": "nehiloth",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "See MUSIC",
@@ -10,17 +10,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_013948",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T01:39:48.909211",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [
     "MUSIC"
   ],
@@ -31,43 +20,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Only in the title of Ps. 5. It is probably derived from a root meaning “to bore,” “perforate,” and hence denotes perforated wind instruments of all kinds. The psalm may be thus regarded as addressed to the conductor of the temple choir which played on flutes and such-like instruments."
-    },
-    {
-      "source": "SMI",
-      "text": "The title of (Psalms 5:1) in the Authorized Version is rendered “To the chief musician upon Nehiloth .” It is most likely that nehiloth is the general term for perforated wind-instruments of all kinds, as neginoth denotes all manner of stringed instruments.",
-      "extracted_refs": [
-        {
-          "book": "Psalms",
-          "chapter": 5,
-          "verses": [
-            1
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Psalms 5:1",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Psalms 5",
-      "original": "Ps. 5"
-    },
-    {
-      "reference": "Psalms 5:1",
-      "original": "Psalms 5:1"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -90,13 +44,5 @@
       "raw": "Psalms 5:1",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 1,
-    "ot": 1,
-    "nt": 0,
-    "books": [
-      "Psalms"
-    ]
-  }
+  ]
 }

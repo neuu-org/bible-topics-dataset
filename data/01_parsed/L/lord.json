@@ -1,7 +1,7 @@
 {
   "topic": "LORD",
   "slug": "lord",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A prince Jos 13:3; Jud 3:3; 1Sa 5:8; 6:4",
@@ -37,17 +37,6 @@
       "verse_count": 2
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_001333",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T00:13:33.294001",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [
     "JESUS",
     "GOD"
@@ -59,178 +48,8 @@
     "nt_refs": 0,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "There are various Hebrew and Greek words so rendered. (1.) Heb. Jehovah, has been rendered in the English Bible LORD, printed in small capitals. This is the proper name of the God of the Hebrews. The form “Jehovah” is retained only in Ex. 6:3; Ps. 83:18; Isa. 12:2; 26:4, both in the Authorized and the Revised Version. (2.) Heb. ‘adon, means one possessed of absolute control. It denotes a master, as of slaves (Gen. 24:14, 27), or a ruler of his subjects (45:8), or a husband, as lord of his wife (18:12). The old plural form of this Hebrew word is ’adonai. From a superstitious reverence for the name “Jehovah,” the Jews, in reading their Scriptures, whenever that name occurred, always pronounced it ’Adonai. (3.) Greek kurios, a supreme master, etc. In the LXX. this is invariably used for “Jehovah” and ”‘Adonai.” (4.) Heb. ba’al, a master, as having domination. This word is applied to human relations, as that of husband, to persons skilled in some art or profession, and to heathen deities. “The men of Shechem,” literally “the baals of Shechem” (Judg. 9:2, 3). These were the Israelite inhabitants who had reduced the Canaanites to a condition of vassalage (Josh. 16:10; 17:13). (5.) Heb. seren, applied exclusively to the “lords of the Philistines” (Judg. 3:3). The LXX. render it by satrapies. At this period the Philistines were not, as at a later period (1 Sam. 21:10), under a kingly government. (See Josh. 13:3; 1 Sam. 6:18.) There were five such lordships, viz., Gath, Ashdod, Gaza, Ashkelon, and Ekron.",
-      "extracted_refs": [
-        {
-          "book": "Genesis",
-          "chapter": 24,
-          "verses": [
-            14,
-            27
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Genesis 24:14, 27",
-          "source": "EAS"
-        },
-        {
-          "book": "Judges",
-          "chapter": 9,
-          "verses": [
-            2,
-            3
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Judges 9:2, 3",
-          "source": "EAS"
-        },
-        {
-          "book": "Joshua",
-          "chapter": 16,
-          "verses": [
-            10
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 16:10",
-          "source": "EAS"
-        },
-        {
-          "book": "Joshua",
-          "chapter": 17,
-          "verses": [
-            13
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 17:13",
-          "source": "EAS"
-        },
-        {
-          "book": "Judges",
-          "chapter": 3,
-          "verses": [
-            3
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Judges 3:3",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Samuel",
-          "chapter": 21,
-          "verses": [
-            10
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Samuel 21:10",
-          "source": "EAS"
-        },
-        {
-          "book": "Joshua",
-          "chapter": 13,
-          "verses": [
-            3
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 13:3",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Samuel",
-          "chapter": 6,
-          "verses": [
-            18
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Samuel 6:18",
-          "source": "EAS"
-        },
-        {
-          "book": "Exodus",
-          "chapter": 6,
-          "verses": [
-            3
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Exodus 6:3",
-          "source": "EAS"
-        },
-        {
-          "book": "Psalms",
-          "chapter": 83,
-          "verses": [
-            18
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Psalms 83:18",
-          "source": "EAS"
-        },
-        {
-          "book": "Isaiah",
-          "chapter": 12,
-          "verses": [
-            2
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Isaiah 12:2",
-          "source": "EAS"
-        },
-        {
-          "book": "Isaiah",
-          "chapter": 26,
-          "verses": [
-            4
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Isaiah 26:4",
-          "source": "EAS"
-        },
-        {
-          "book": "Genesis",
-          "chapter": 45,
-          "verses": [
-            8
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 45:8",
-          "source": "EAS"
-        },
-        {
-          "book": "Genesis",
-          "chapter": 18,
-          "verses": [
-            12
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 18:12",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "[God]"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -398,19 +217,5 @@
       "raw": "Genesis 18:12",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 16,
-    "ot": 16,
-    "nt": 0,
-    "books": [
-      "1 Samuel",
-      "Exodus",
-      "Genesis",
-      "Isaiah",
-      "Joshua",
-      "Judges",
-      "Psalms"
-    ]
-  }
+  ]
 }

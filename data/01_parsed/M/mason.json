@@ -1,7 +1,7 @@
 {
   "topic": "MASON",
   "slug": "mason",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A trade",
@@ -47,17 +47,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_003908",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T00:39:08.969128",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -66,52 +55,8 @@
     "nt_refs": 0,
     "total_verses": 2
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "An artificer in stone. The Tyrians seem to have been specially skilled in architecture (1 Kings 5:17, 18; 2 Sam. 5:11). This art the Hebrews no doubt learned in Egypt (Ex. 1:11, 14), where ruins of temples and palaces fill the traveller with wonder at the present day.",
-      "extracted_refs": [
-        {
-          "book": "1 Kings",
-          "chapter": 5,
-          "verses": [
-            17,
-            18
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "1 Kings 5:17, 18",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Samuel",
-          "chapter": 5,
-          "verses": [
-            11
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Samuel 5:11",
-          "source": "EAS"
-        },
-        {
-          "book": "Exodus",
-          "chapter": 1,
-          "verses": [
-            11,
-            14
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Exodus 1:11, 14",
-          "source": "EAS"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -158,15 +103,5 @@
       "raw": "Exodus 1:11, 14",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 5,
-    "ot": 5,
-    "nt": 0,
-    "books": [
-      "1 Kings",
-      "2 Samuel",
-      "Exodus"
-    ]
-  }
+  ]
 }

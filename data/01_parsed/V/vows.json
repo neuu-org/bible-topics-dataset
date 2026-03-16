@@ -1,7 +1,7 @@
 {
   "topic": "VOWS",
   "slug": "vows",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Mosaic laws concerning Le 23:37,38; Nu 29:39",
@@ -832,17 +832,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_021726",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T02:17:26.209325",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [
     "COVENANT",
     "NAZARITE",
@@ -857,162 +846,9 @@
     "ot_refs": 41,
     "nt_refs": 4
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Voluntary promises which, when once made, were to be kept if the thing vowed was right. They were made under a great variety of circumstances (Gen. 28: 18-22; Lev. 7:16; Num. 30:2-13; Deut. 23:18; Judg. 11:30, 39; 1 Sam. 1:11; Jonah 1:16; Acts 18:18; 21:23).",
-      "extracted_refs": [
-        {
-          "book": "Leviticus",
-          "chapter": 7,
-          "verses": [
-            16
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Leviticus 7:16",
-          "source": "EAS"
-        },
-        {
-          "book": "Numbers",
-          "chapter": 30,
-          "verses": [
-            2,
-            3,
-            4,
-            5,
-            6,
-            7,
-            8,
-            9,
-            10,
-            11,
-            12,
-            13
-          ],
-          "verse_count": 12,
-          "testament": "OT",
-          "raw": "Numbers 30:2-13",
-          "source": "EAS"
-        },
-        {
-          "book": "Deuteronomy",
-          "chapter": 23,
-          "verses": [
-            18
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Deuteronomy 23:18",
-          "source": "EAS"
-        },
-        {
-          "book": "Judges",
-          "chapter": 11,
-          "verses": [
-            30,
-            39
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Judges 11:30, 39",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Samuel",
-          "chapter": 1,
-          "verses": [
-            11
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Samuel 1:11",
-          "source": "EAS"
-        },
-        {
-          "book": "Jonah",
-          "chapter": 1,
-          "verses": [
-            16
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Jonah 1:16",
-          "source": "EAS"
-        },
-        {
-          "book": "Acts",
-          "chapter": 18,
-          "verses": [
-            18
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Acts 18:18",
-          "source": "EAS"
-        },
-        {
-          "book": "Acts",
-          "chapter": 21,
-          "verses": [
-            23
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Acts 21:23",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "A vow is a solemn promise made to God to perform or to abstain from performing a certain thing. The earliest mention of a vow is that of Jacob. (Genesis 28:18-22; 31:13) Vows in general are also mentioned in the book of Job, (Job 22:27) The law therefore did not introduce, but regulated the practice of, vows. Three sorts are mentioned: 1, Vows of devotion; 2, Vows of abstinence; 3, Vows of destruction.",
-      "extracted_refs": [
-        {
-          "book": "Genesis",
-          "chapter": 28,
-          "verses": [
-            18,
-            19,
-            20,
-            21,
-            22
-          ],
-          "verse_count": 5,
-          "testament": "OT",
-          "raw": "Genesis 28:18-22",
-          "source": "SMI"
-        },
-        {
-          "book": "Genesis",
-          "chapter": 31,
-          "verses": [
-            13
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 31:13",
-          "source": "SMI"
-        },
-        {
-          "book": "Job",
-          "chapter": 22,
-          "verses": [
-            27
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Job 22:27",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
     "NAV",
-    "TOR",
-    "EAS",
-    "SMI"
+    "TOR"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -1161,21 +997,5 @@
       "raw": "Job 22:27",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 27,
-    "ot": 25,
-    "nt": 2,
-    "books": [
-      "1 Samuel",
-      "Acts",
-      "Deuteronomy",
-      "Genesis",
-      "Job",
-      "Jonah",
-      "Judges",
-      "Leviticus",
-      "Numbers"
-    ]
-  }
+  ]
 }

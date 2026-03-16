@@ -1,7 +1,7 @@
 {
   "topic": "HAMMELECH",
   "slug": "hammelech",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Name of a man, or possibly only an appellation, meaning “the king,” Jer 36:26; 38:6",
@@ -25,17 +25,6 @@
       "verse_count": 2
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_205955",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T20:59:55.853598",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -44,57 +33,8 @@
     "nt_refs": 0,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "The king’s, the father of Jerahmeel, mentioned in Jer. 36:26. Some take this word as a common noun, “the king”, and understand that Jerahmeel was Jehoiakim’s son. Probably, however, it is to be taken as a proper name.",
-      "extracted_refs": [
-        {
-          "book": "Jeremiah",
-          "chapter": 36,
-          "verses": [
-            26
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Jeremiah 36:26",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "lit. “the king, ” unnecessarily rendered in the Authorized Version as a proper name. (Jeremiah 36:26; 38:6)",
-      "extracted_refs": [
-        {
-          "book": "Jeremiah",
-          "chapter": 36,
-          "verses": [
-            26
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Jeremiah 36:26",
-          "source": "SMI"
-        },
-        {
-          "book": "Jeremiah",
-          "chapter": 38,
-          "verses": [
-            6
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Jeremiah 38:6",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -128,13 +68,5 @@
       "raw": "Jeremiah 38:6",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 2,
-    "ot": 2,
-    "nt": 0,
-    "books": [
-      "Jeremiah"
-    ]
-  }
+  ]
 }

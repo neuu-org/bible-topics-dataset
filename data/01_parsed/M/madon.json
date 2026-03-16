@@ -1,7 +1,7 @@
 {
   "topic": "MADON",
   "slug": "madon",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A Canaanite city Jos 11:1; 12:19",
@@ -13,17 +13,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_002304",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T00:23:04.756305",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -32,78 +21,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Strife, a Canaanitish city in the north of Palestine (Josh. 11:1; 12:19), whose king was slain by Joshua; perhaps the ruin Madin, near Hattin, some 5 miles west of Tiberias.",
-      "extracted_refs": [
-        {
-          "book": "Joshua",
-          "chapter": 11,
-          "verses": [
-            1
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 11:1",
-          "source": "EAS"
-        },
-        {
-          "book": "Joshua",
-          "chapter": 12,
-          "verses": [
-            19
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 12:19",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(strife) one of the principal cities of Canaan before the conquest, probably in the north. Its king joined Jabin and his confederates in their attempt against Joshua at the waters of Xierom, and like the rest was killed. (Joshua 11:1; 12:19)",
-      "extracted_refs": [
-        {
-          "book": "Joshua",
-          "chapter": 11,
-          "verses": [
-            1
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 11:1",
-          "source": "SMI"
-        },
-        {
-          "book": "Joshua",
-          "chapter": 12,
-          "verses": [
-            19
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 12:19",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Joshua 11:1",
-      "original": "Josh. 11:1"
-    },
-    {
-      "reference": "Joshua 12:19",
-      "original": "Josh 12:19"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -137,13 +56,5 @@
       "raw": "Joshua 12:19",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 2,
-    "ot": 2,
-    "nt": 0,
-    "books": [
-      "Joshua"
-    ]
-  }
+  ]
 }

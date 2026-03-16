@@ -1,7 +1,7 @@
 {
   "topic": "JEUEL",
   "slug": "jeuel",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A descendant of Zerah 1Ch 9:6",
@@ -12,17 +12,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_231422",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T23:14:22.166018",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -31,67 +20,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Snatched away by God, a descendant of Zerah (1 Chr. 9:6).",
-      "extracted_refs": [
-        {
-          "book": "1 Chronicles",
-          "chapter": 9,
-          "verses": [
-            6
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 9:6",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "a chief man of Judah, one of the Bene-Zerah. (1 Chronicles 9:6) comp. 1Chr 9:2 [Jeiel]",
-      "extracted_refs": [
-        {
-          "book": "1 Chronicles",
-          "chapter": 9,
-          "verses": [
-            6
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 9:6",
-          "source": "SMI"
-        },
-        {
-          "book": "1 Chronicles",
-          "chapter": 9,
-          "verses": [
-            2
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 9:2",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "1 Chronicles 9:6",
-      "original": "1 Chr. 9:6"
-    },
-    {
-      "reference": "1 Chronicles 9:2",
-      "original": "1Chr 9:2"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -125,13 +55,5 @@
       "raw": "1 Chronicles 9:2",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 2,
-    "ot": 2,
-    "nt": 0,
-    "books": [
-      "1 Chronicles"
-    ]
-  }
+  ]
 }

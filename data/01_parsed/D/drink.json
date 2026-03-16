@@ -1,7 +1,7 @@
 {
   "topic": "DRINK",
   "slug": "drink",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "INTOXICATING",
@@ -25,45 +25,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "O tópico 'Drink' aborda a questão do consumo de bebidas alcoólicas, especialmente no que diz respeito à embriaguez e suas implicações morais e espirituais. A Bíblia discute a intoxicação, a abstinência e as consequências do vício em bebidas, como a embriaguez e o comportamento dos bêbados. A relação entre o vinho e a abstinência é um tema recorrente, refletindo a tensão entre o uso moderado e os excessos que levam à degradação moral e espiritual. Este tópico é relevante para a ética cristã e a vida comunitária.",
-    "outline": [
-      "Definição de bebidas intoxicantes e suas implicações",
-      "A embriaguez e suas consequências na vida cristã",
-      "A relação entre vinho e abstinência",
-      "O papel do bêbado na moralidade bíblica"
-    ],
-    "key_concepts": [
-      "Intoxicação como questão moral",
-      "Abstinência e autocontrole",
-      "Consequências espirituais da embriaguez"
-    ],
-    "theological_significance": "O consumo de bebidas alcoólicas e a embriaguez são abordados na Bíblia como questões que afetam a vida moral e espiritual dos indivíduos. A teologia cristã enfatiza a importância do autocontrole e da abstinência como formas de viver uma vida que agrada a Deus, evitando os perigos associados ao vício e à degradação moral.",
-    "model": "gpt-4o-mini",
-    "run_id": "enr_20251202_130634_8a8ebd90",
-    "confidence": 1.0,
-    "generated_at": "2025-12-02T13:06:34.591940"
-  },
-  "ai_themes_normalized": [
-    {
-      "theme_id": null,
-      "proposal_id": "prop:intoxicação_e_morali_0df894",
-      "label_original": "Intoxicação e moralidade",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:abstinência_como_vir_06377b",
-      "label_original": "Abstinência como virtude",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:consequências_da_emb_0c9eb5",
-      "label_original": "Consequências da embriaguez",
-      "source": "ai_enrichment"
-    }
-  ],
   "see_also": [
     "DRUNKARD",
     "DRUNKENNESS",
@@ -77,94 +38,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "The drinks of the Hebrews were water, wine, “strong drink,” and vinegar. Their drinking vessels were the cup, goblet or “basin,” the “cruse” or pitcher, and the saucer. To drink water by measure (Ezek. 4:11), and to buy water to drink (Lam. 5:4), denote great scarcity. To drink blood means to be satiated with slaughter. The Jews carefully strained their drinks through a sieve, through fear of violating the law of Lev. 11:20, 23, 41, 42. (See Matt. 23:24. “Strain at” should be “strain out.”)",
-      "extracted_refs": [
-        {
-          "book": "Ezekiel",
-          "chapter": 4,
-          "verses": [
-            11
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Ezekiel 4:11",
-          "source": "EAS"
-        },
-        {
-          "book": "Lamentations",
-          "chapter": 5,
-          "verses": [
-            4
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Lamentations 5:4",
-          "source": "EAS"
-        },
-        {
-          "book": "Matthew",
-          "chapter": 23,
-          "verses": [
-            24
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Matthew 23:24",
-          "source": "EAS"
-        },
-        {
-          "book": "Leviticus",
-          "chapter": 11,
-          "verses": [
-            20,
-            23,
-            41,
-            42
-          ],
-          "verse_count": 4,
-          "testament": "OT",
-          "raw": "Leviticus 11:20, 23, 41, 42",
-          "source": "EAS"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Ezekiel 4:11",
-      "original": "Ezek. 4:11"
-    },
-    {
-      "reference": "Lamentations 5:4",
-      "original": "Lam. 5:4"
-    },
-    {
-      "reference": "Leviticus 11:20",
-      "original": "Lev. 11:20"
-    },
-    {
-      "reference": "Leviticus 11:23",
-      "original": "Lev. 11:23"
-    },
-    {
-      "reference": "Leviticus 11:41",
-      "original": "Lev. 11:41"
-    },
-    {
-      "reference": "Leviticus 11:42",
-      "original": "Lev. 11:42"
-    },
-    {
-      "reference": "Matthew 23:24",
-      "original": "Matt. 23:24"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -223,16 +98,5 @@
       "raw": "Leviticus 11:20, 23, 41, 42",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 7,
-    "ot": 6,
-    "nt": 1,
-    "books": [
-      "Ezekiel",
-      "Lamentations",
-      "Leviticus",
-      "Matthew"
-    ]
-  }
+  ]
 }

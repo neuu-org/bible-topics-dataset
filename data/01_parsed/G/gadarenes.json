@@ -1,7 +1,7 @@
 {
   "topic": "GADARENES",
   "slug": "gadarenes",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "(Also called GERGESENES and GERASENES)",
@@ -47,24 +47,6 @@
       "verse_count": 19
     }
   ],
-  "ai_enrichment": {
-    "summary": "O episódio dos Gadarenos, também referidos como Gergesenos ou Gerasenos, é narrado nos Evangelhos de Mateus e Marcos, onde Jesus realiza milagres, incluindo a cura de um homem possesso por legiões de demônios. Apesar dos milagres, a população local rejeita Jesus, pedindo que Ele deixe a região. Este relato destaca a tensão entre a manifestação do poder divino e a resistência humana à transformação espiritual.",
-    "outline": [
-      "Jesus visita a região dos Gadarenos.",
-      "Realiza milagres, incluindo a cura de um endemoninhado.",
-      "A população local rejeita Jesus e pede que Ele se retire."
-    ],
-    "key_concepts": [
-      "Rejeição do Messias",
-      "Poder de Jesus sobre o mal",
-      "Transformação espiritual"
-    ],
-    "theological_significance": "O relato dos Gadarenos ilustra a autoridade de Jesus sobre as forças demoníacas e a resistência humana à sua mensagem. A rejeição de Jesus por parte da comunidade destaca a realidade do livre-arbítrio e a escolha de não aceitar a intervenção divina, refletindo a luta entre fé e incredulidade.",
-    "model": "gpt-4o-mini",
-    "run_id": "enr_20251202_215432_0d407a42",
-    "confidence": 0.9500000000000002,
-    "generated_at": "2025-12-02T21:54:32.803421"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -73,51 +55,8 @@
     "nt_refs": 1,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "The inhabitants of Gadara, in Revised Version “Gerasenes” (Mark 5:1; Luke 8:26, 37). In Matt. 8:28 they are called Gergesenes, Revised Version “Gadarenes.”",
-      "extracted_refs": [
-        {
-          "book": "Mark",
-          "chapter": 5,
-          "verses": [
-            1
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Mark 5:1",
-          "source": "EAS"
-        },
-        {
-          "book": "Luke",
-          "chapter": 8,
-          "verses": [
-            26,
-            37
-          ],
-          "verse_count": 2,
-          "testament": "NT",
-          "raw": "Luke 8:26, 37",
-          "source": "EAS"
-        },
-        {
-          "book": "Matthew",
-          "chapter": 8,
-          "verses": [
-            28
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Matthew 8:28",
-          "source": "EAS"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -130,26 +69,6 @@
     "enrichment_source": "pipeline_merge"
   },
   "version": "3.0.0",
-  "ai_themes_normalized": [
-    {
-      "theme_id": null,
-      "proposal_id": "prop:rejeição_da_interven_05c300",
-      "label_original": "Rejeição da intervenção divina",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:autoridade_de_jesus__00f541",
-      "label_original": "Autoridade de Jesus sobre o mal",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:transformação_e_libe_0de56b",
-      "label_original": "Transformação e libertação espiritual",
-      "source": "ai_enrichment"
-    }
-  ],
   "definition_refs": [
     {
       "book": "Mark",
@@ -185,15 +104,5 @@
       "raw": "Matthew 8:28",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 4,
-    "ot": 0,
-    "nt": 4,
-    "books": [
-      "Luke",
-      "Mark",
-      "Matthew"
-    ]
-  }
+  ]
 }

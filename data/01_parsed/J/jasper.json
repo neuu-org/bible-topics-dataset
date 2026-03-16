@@ -1,7 +1,7 @@
 {
   "topic": "JASPER",
   "slug": "jasper",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A precious stone, set in the high priest’s breastplate Ex 28:20; 39:13",
@@ -13,17 +13,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_225625",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T22:56:25.134445",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -32,150 +21,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "(Heb. yashpheh, “glittering”), a gem of various colours, one of the twelve inserted in the high priest’s breast-plate (Ex. 28:20). It is named in the building of the New Jerusalem (Rev. 21:18, 19). It was “most precious,” “clear as crystal” (21:11). It was emblematic of the glory of God (4:3).",
-      "extracted_refs": [
-        {
-          "book": "Exodus",
-          "chapter": 28,
-          "verses": [
-            20
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Exodus 28:20",
-          "source": "EAS"
-        },
-        {
-          "book": "Revelation",
-          "chapter": 21,
-          "verses": [
-            18,
-            19
-          ],
-          "verse_count": 2,
-          "testament": "NT",
-          "raw": "Revelation 21:18, 19",
-          "source": "EAS"
-        },
-        {
-          "book": "Revelation",
-          "chapter": 21,
-          "verses": [
-            11
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Revelation 21:11",
-          "source": "EAS"
-        },
-        {
-          "book": "Revelation",
-          "chapter": 4,
-          "verses": [
-            3
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Revelation 4:3",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "a precious stone frequently noticed in Scripture. It was the last of the twelve inserted in the high priest’s breastplate, (Exodus 28:20; 39:13) and the first of the twelve used in the foundations of the new Jerusalem. (Revelation 21:19) The characteristics of the stone as far as they are specified in Scripture, (Revelation 21:11) are that it “was most precious,” and “like crystal;” we may also infer from (Revelation 4:3) that it was a stone of brilliant and transparent light. The stone which we name “jasper” does not accord with this description. There can be no doubt that the diamond would more adequately answer to the description in the book of Revelation.",
-      "extracted_refs": [
-        {
-          "book": "Exodus",
-          "chapter": 28,
-          "verses": [
-            20
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Exodus 28:20",
-          "source": "SMI"
-        },
-        {
-          "book": "Exodus",
-          "chapter": 39,
-          "verses": [
-            13
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Exodus 39:13",
-          "source": "SMI"
-        },
-        {
-          "book": "Revelation",
-          "chapter": 21,
-          "verses": [
-            19
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Revelation 21:19",
-          "source": "SMI"
-        },
-        {
-          "book": "Revelation",
-          "chapter": 21,
-          "verses": [
-            11
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Revelation 21:11",
-          "source": "SMI"
-        },
-        {
-          "book": "Revelation",
-          "chapter": 4,
-          "verses": [
-            3
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Revelation 4:3",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Exodus 28:20",
-      "original": "Ex. 28:20"
-    },
-    {
-      "reference": "Revelation 21:18",
-      "original": "Rev. 21:18"
-    },
-    {
-      "reference": "Revelation 21:19",
-      "original": "Rev 21:19"
-    },
-    {
-      "reference": "Exodus 39:13",
-      "original": "Exodus 39:13"
-    },
-    {
-      "reference": "Revelation 21:11",
-      "original": "Revelation 21:11"
-    },
-    {
-      "reference": "Revelation 4:3",
-      "original": "Revelation 4:3"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -254,14 +101,5 @@
       "raw": "Revelation 21:19",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 6,
-    "ot": 2,
-    "nt": 4,
-    "books": [
-      "Exodus",
-      "Revelation"
-    ]
-  }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "topic": "SHEWBREAD",
   "slug": "shewbread",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "idx": 0,
@@ -747,17 +747,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_020557",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T02:05:57.226783",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -768,165 +757,8 @@
     "ot_refs": 23,
     "nt_refs": 5
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Ex. 25:30 (R.V. marg., “presence bread”); 1 Chr. 9:32 (marg., “bread of ordering”); Num. 4:7: called “hallowed bread” (R.V., “holy bread”) in 1 Sam. 21:1-6. This bread consisted of twelve loaves made of the finest flour. They were flat and thin, and were placed in two rows of six each on a table in the holy place before the Lord. They were renewed every Sabbath (Lev. 24:5-9), and those that were removed to give place to the new ones were to be eaten by the priests only in the holy place (see 1 Sam. 21:3-6; comp. Matt. 12:3, 4). The number of the loaves represented the twelve tribes of Israel, and also the entire spiritual Israel, “the true Israel;” and the placing of them on the table symbolized the entire consecration of Israel to the Lord, and their acceptance of God as their God. The table for the bread was made of acacia wood, 3 feet long, 18 inches broad, and 2 feet 3 inches high. It was plated with pure gold. Two staves, plated with gold, passed through golden rings, were used for carrying it.",
-      "extracted_refs": [
-        {
-          "book": "Leviticus",
-          "chapter": 24,
-          "verses": [
-            5,
-            6,
-            7,
-            8,
-            9
-          ],
-          "verse_count": 5,
-          "testament": "OT",
-          "raw": "Leviticus 24:5-9",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Samuel",
-          "chapter": 21,
-          "verses": [
-            3,
-            4,
-            5,
-            6
-          ],
-          "verse_count": 4,
-          "testament": "OT",
-          "raw": "1 Samuel 21:3-6",
-          "source": "EAS"
-        },
-        {
-          "book": "Matthew",
-          "chapter": 12,
-          "verses": [
-            3,
-            4
-          ],
-          "verse_count": 2,
-          "testament": "NT",
-          "raw": "Matthew 12:3, 4",
-          "source": "EAS"
-        },
-        {
-          "book": "Exodus",
-          "chapter": 25,
-          "verses": [
-            30
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Exodus 25:30",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Chronicles",
-          "chapter": 9,
-          "verses": [
-            32
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 9:32",
-          "source": "EAS"
-        },
-        {
-          "book": "Numbers",
-          "chapter": 4,
-          "verses": [
-            7
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Numbers 4:7",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Samuel",
-          "chapter": 21,
-          "verses": [
-            1,
-            2,
-            3,
-            4,
-            5,
-            6
-          ],
-          "verse_count": 6,
-          "testament": "OT",
-          "raw": "1 Samuel 21:1-6",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(Exodus 25:30; 35:13; 39:36) etc. literally “bread of the face” or “faces.” Shew-bread was unleavened bread placed upon a table which stood in the sanctuary together with the seven-branched candlestick and the altar of incense. See (Exodus 25:23-30) for description of this table. Every Sabbath twelve newly baked loaves, representing the twelve tribes of Israel, were put on it in two rows, six in each, and sprinkled with incense, where they remained till the following Sabbath. Then they were replaced by twelve new ones, the incense was burned, and they were eaten by the priests in the holy place, out of which they might not be removed, The title “bread of the face” seems to indicate that bread through which God is seen, that is, with the participation of which the seeing of God is bound up, or through the participation of which man attains the sight of God whence it follows that we have not to think of bread merely as such as the means of nourishing the bodily life, but as spiritual food as a means of appropriating and retaining that life which consists In seeing the face of God.",
-      "extracted_refs": [
-        {
-          "book": "Exodus",
-          "chapter": 25,
-          "verses": [
-            30
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Exodus 25:30",
-          "source": "SMI"
-        },
-        {
-          "book": "Exodus",
-          "chapter": 35,
-          "verses": [
-            13
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Exodus 35:13",
-          "source": "SMI"
-        },
-        {
-          "book": "Exodus",
-          "chapter": 39,
-          "verses": [
-            36
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Exodus 39:36",
-          "source": "SMI"
-        },
-        {
-          "book": "Exodus",
-          "chapter": 25,
-          "verses": [
-            23,
-            24,
-            25,
-            26,
-            27,
-            28,
-            29,
-            30
-          ],
-          "verse_count": 8,
-          "testament": "OT",
-          "raw": "Exodus 25:23-30",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "TOR",
-    "EAS",
-    "SMI"
+    "TOR"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -1068,18 +900,5 @@
       "raw": "Exodus 25:23-30",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 25,
-    "ot": 23,
-    "nt": 2,
-    "books": [
-      "1 Chronicles",
-      "1 Samuel",
-      "Exodus",
-      "Leviticus",
-      "Matthew",
-      "Numbers"
-    ]
-  }
+  ]
 }

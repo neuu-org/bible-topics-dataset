@@ -1,7 +1,7 @@
 {
   "topic": "TOWERS",
   "slug": "towers",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "idx": 0,
@@ -1196,17 +1196,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_021342",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T02:13:42.306022",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [
     "FORTS"
   ],
@@ -1219,162 +1208,9 @@
     "ot_refs": 39,
     "nt_refs": 2
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Of Babel (Gen. 11:4), Edar (Gen. 35:21), Penuel (Judg. 8:9, 17), Shechem (9:46), David (Cant. 4:4), Lebanon (7:4), Syene (Ezek. 29:10), Hananeel (Zech. 14:10), Siloam (Luke 13:4). There were several towers in Jerusalem (2 Chr. 26:9; Ps. 48:12). They were erected for various purposes, as watch-towers in vineyard (Isa. 5:2; Matt. 21:33) and towers for defence.",
-      "extracted_refs": [
-        {
-          "book": "Genesis",
-          "chapter": 11,
-          "verses": [
-            4
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 11:4",
-          "source": "EAS"
-        },
-        {
-          "book": "Genesis",
-          "chapter": 35,
-          "verses": [
-            21
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 35:21",
-          "source": "EAS"
-        },
-        {
-          "book": "Judges",
-          "chapter": 8,
-          "verses": [
-            9,
-            17
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Judges 8:9, 17",
-          "source": "EAS"
-        },
-        {
-          "book": "Song of Solomon",
-          "chapter": 4,
-          "verses": [
-            4
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Song of Solomon 4:4",
-          "source": "EAS"
-        },
-        {
-          "book": "Ezekiel",
-          "chapter": 29,
-          "verses": [
-            10
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Ezekiel 29:10",
-          "source": "EAS"
-        },
-        {
-          "book": "Zechariah",
-          "chapter": 14,
-          "verses": [
-            10
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Zechariah 14:10",
-          "source": "EAS"
-        },
-        {
-          "book": "Luke",
-          "chapter": 13,
-          "verses": [
-            4
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Luke 13:4",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Chronicles",
-          "chapter": 26,
-          "verses": [
-            9
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Chronicles 26:9",
-          "source": "EAS"
-        },
-        {
-          "book": "Psalms",
-          "chapter": 48,
-          "verses": [
-            12
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Psalms 48:12",
-          "source": "EAS"
-        },
-        {
-          "book": "Isaiah",
-          "chapter": 5,
-          "verses": [
-            2
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Isaiah 5:2",
-          "source": "EAS"
-        },
-        {
-          "book": "Matthew",
-          "chapter": 21,
-          "verses": [
-            33
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Matthew 21:33",
-          "source": "EAS"
-        },
-        {
-          "book": "Judges",
-          "chapter": 9,
-          "verses": [
-            46
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Judges 9:46",
-          "source": "EAS"
-        },
-        {
-          "book": "Song of Solomon",
-          "chapter": 7,
-          "verses": [
-            4
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Song of Solomon 7:4",
-          "source": "EAS"
-        }
-      ]
-    }
-  ],
   "sources": [
     "NAV",
-    "TOR",
-    "EAS"
+    "TOR"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -1530,22 +1366,5 @@
       "raw": "Song of Solomon 7:4",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 14,
-    "ot": 12,
-    "nt": 2,
-    "books": [
-      "2 Chronicles",
-      "Ezekiel",
-      "Genesis",
-      "Isaiah",
-      "Judges",
-      "Luke",
-      "Matthew",
-      "Psalms",
-      "Song of Solomon",
-      "Zechariah"
-    ]
-  }
+  ]
 }

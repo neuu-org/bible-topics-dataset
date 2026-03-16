@@ -1,7 +1,7 @@
 {
   "topic": "JAIRUS",
   "slug": "jairus",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A ruler of the synagogue in Capernaum Mt 9:18",
@@ -79,17 +79,6 @@
       "verse_count": 16
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_225114",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T22:51:14.835088",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -98,55 +87,8 @@
     "nt_refs": 2,
     "total_verses": 2
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "A ruler of the synagogue at Capernaum, whose only daughter Jesus restored to life (Mark 5:22; Luke 8:41). Entering into the chamber of death, accompanied by Peter and James and John and the father and mother of the maiden, he went forward to the bed whereon the corpse lay, and said, Talitha cumi, i.e., “Maid, arise,” and immediately the spirit of the maiden came to her again, and she arose straightway; and “at once to strengthen that life which had come back to her, and to prove that she was indeed no ghost, but had returned to the realities of a mortal existence, he commanded to give her something to eat” (Mark 5:43).",
-      "extracted_refs": [
-        {
-          "book": "Mark",
-          "chapter": 5,
-          "verses": [
-            22
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Mark 5:22",
-          "source": "EAS"
-        },
-        {
-          "book": "Luke",
-          "chapter": 8,
-          "verses": [
-            41
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Luke 8:41",
-          "source": "EAS"
-        },
-        {
-          "book": "Mark",
-          "chapter": 5,
-          "verses": [
-            43
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Mark 5:43",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(whom God enlightens)."
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -191,14 +133,5 @@
       "raw": "Mark 5:43",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 3,
-    "ot": 0,
-    "nt": 3,
-    "books": [
-      "Luke",
-      "Mark"
-    ]
-  }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "topic": "KISHION",
   "slug": "kishion",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "See KEDESH",
@@ -10,17 +10,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_234412",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T23:44:12.606806",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [
     "KEDESH"
   ],
@@ -31,78 +20,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Hardness, a city of Issachar assigned to the Gershonite Levites (Josh. 19:20), the same as Kishon (21:28).",
-      "extracted_refs": [
-        {
-          "book": "Joshua",
-          "chapter": 19,
-          "verses": [
-            20
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 19:20",
-          "source": "EAS"
-        },
-        {
-          "book": "Joshua",
-          "chapter": 21,
-          "verses": [
-            28
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 21:28",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(hardness), one of the towns on the boundary of the tribe of Issachar, (Joshua 19:20) which with its suburbs was allotted to the Gershonite Levites. (Joshua 21:28) Authorized Version Kishon.",
-      "extracted_refs": [
-        {
-          "book": "Joshua",
-          "chapter": 19,
-          "verses": [
-            20
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 19:20",
-          "source": "SMI"
-        },
-        {
-          "book": "Joshua",
-          "chapter": 21,
-          "verses": [
-            28
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 21:28",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Joshua 19:20",
-      "original": "Josh. 19:20"
-    },
-    {
-      "reference": "Joshua 21:28",
-      "original": "Joshua 21:28"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -136,13 +55,5 @@
       "raw": "Joshua 21:28",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 2,
-    "ot": 2,
-    "nt": 0,
-    "books": [
-      "Joshua"
-    ]
-  }
+  ]
 }

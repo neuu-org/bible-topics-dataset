@@ -1,7 +1,7 @@
 {
   "topic": "JEHDEIAH",
   "slug": "jehdeiah",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "1. Son of Shubael 1Ch 24:20",
@@ -19,17 +19,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_230017",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T23:00:17.754839",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -38,54 +27,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Rejoicer in Jehovah. (1.) One of the Levitical attendants at the temple, a descendant of Shubael (1 Chr. 24:20). (2.) A Meronothite, herdsman of the asses under David and Solomon (1 Chr. 27:30).",
-      "extracted_refs": [
-        {
-          "book": "1 Chronicles",
-          "chapter": 24,
-          "verses": [
-            20
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 24:20",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Chronicles",
-          "chapter": 27,
-          "verses": [
-            30
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 27:30",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(whom Jehovah makes glad)."
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "1 Chronicles 24:20",
-      "original": "1 Chr. 24:20"
-    },
-    {
-      "reference": "1 Chronicles 27:30",
-      "original": "1 Chr. 27:30"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -119,13 +62,5 @@
       "raw": "1 Chronicles 27:30",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 2,
-    "ot": 2,
-    "nt": 0,
-    "books": [
-      "1 Chronicles"
-    ]
-  }
+  ]
 }

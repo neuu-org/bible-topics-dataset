@@ -1,7 +1,7 @@
 {
   "topic": "IRI",
   "slug": "iri",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A son of Bela 1Ch 7:7",
@@ -12,17 +12,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_223404",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T22:34:04.824188",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -31,39 +20,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "SMI",
-      "text": "or Ir (belonging to a city), a Benjamite, son of Bela. (1 Chronicles 7:7,12)",
-      "extracted_refs": [
-        {
-          "book": "1 Chronicles",
-          "chapter": 7,
-          "verses": [
-            7,
-            12
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "1 Chronicles 7:7,12",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "1 Chronicles 7:7",
-      "original": "1 Chronicles 7:7"
-    },
-    {
-      "reference": "1 Chronicles 7:12",
-      "original": "1 Chronicles 7:12"
-    }
-  ],
   "sources": [
-    "NAV",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -87,13 +45,5 @@
       "raw": "1 Chronicles 7:7,12",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 2,
-    "ot": 2,
-    "nt": 0,
-    "books": [
-      "1 Chronicles"
-    ]
-  }
+  ]
 }

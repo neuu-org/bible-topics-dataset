@@ -1,7 +1,7 @@
 {
   "topic": "KIRJATHAIM",
   "slug": "kirjathaim",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "1. Also called KIRIATHAIM",
@@ -54,17 +54,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_234344",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T23:43:44.781844",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -73,85 +62,8 @@
     "nt_refs": 0,
     "total_verses": 2
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Two cities; a double city. (1.) A city of refuge in Naphtali (1 Chr. 6:76). (2.) A town on the east of Jordan (Gen. 14:5; Deut. 2:9, 10). It was assigned to the tribe of Reuben (Num. 32:37). In the time of Ezekiel (25:9) it was one of the four cities which formed the “glory of Moab” (comp. Jer. 48:1, 23). It has been identified with el-Kureiyat, 11 miles south-west of Medeba, on the south slope of Jebel Attarus, the ancient Ataroth.",
-      "extracted_refs": [
-        {
-          "book": "1 Chronicles",
-          "chapter": 6,
-          "verses": [
-            76
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 6:76",
-          "source": "EAS"
-        },
-        {
-          "book": "Genesis",
-          "chapter": 14,
-          "verses": [
-            5
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 14:5",
-          "source": "EAS"
-        },
-        {
-          "book": "Deuteronomy",
-          "chapter": 2,
-          "verses": [
-            9,
-            10
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Deuteronomy 2:9, 10",
-          "source": "EAS"
-        },
-        {
-          "book": "Numbers",
-          "chapter": 32,
-          "verses": [
-            37
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Numbers 32:37",
-          "source": "EAS"
-        },
-        {
-          "book": "Jeremiah",
-          "chapter": 48,
-          "verses": [
-            1,
-            23
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Jeremiah 48:1, 23",
-          "source": "EAS"
-        },
-        {
-          "book": "Numbers",
-          "chapter": 25,
-          "verses": [
-            9
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Numbers 25:9",
-          "source": "EAS"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -231,17 +143,5 @@
       "raw": "Numbers 25:9",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 8,
-    "ot": 8,
-    "nt": 0,
-    "books": [
-      "1 Chronicles",
-      "Deuteronomy",
-      "Genesis",
-      "Jeremiah",
-      "Numbers"
-    ]
-  }
+  ]
 }

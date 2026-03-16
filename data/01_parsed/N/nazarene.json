@@ -1,7 +1,7 @@
 {
   "topic": "NAZARENE",
   "slug": "nazarene",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "See NAZARETH",
@@ -10,17 +10,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_013613",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T01:36:13.083494",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [
     "NAZARETH"
   ],
@@ -31,153 +20,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "This epithet (Gr. Nazaraios) is applied to Christ only once (Matt. 2:23). In all other cases the word is rendered “of Nazareth” (Mark 1:24; 10:47; 14:67, etc.). When this Greek designation was at first applied to our Lord, it was meant simply to denote the place of his residence. In course of time the word became a term of reproach. Thus the word “Nazarene” carries with it an allusion to those prophecies which speak of Christ as “despised of men” (Isa. 53:3). Some, however, think that in this name there is an allusion to the Hebrew netser, which signifies a branch or sprout. It is so applied to the Messiah (Isa. 11:1), i.e., he whom the prophets called the Netse, the “Branch.” The followers of Christ were called “the sect of Nazarenes” (Acts 24:5). All over Palestine and Syria this name is still given to Christians. (See NAZARETH.)",
-      "extracted_refs": [
-        {
-          "book": "Matthew",
-          "chapter": 2,
-          "verses": [
-            23
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Matthew 2:23",
-          "source": "EAS"
-        },
-        {
-          "book": "Mark",
-          "chapter": 1,
-          "verses": [
-            24
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Mark 1:24",
-          "source": "EAS"
-        },
-        {
-          "book": "Mark",
-          "chapter": 10,
-          "verses": [
-            47
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Mark 10:47",
-          "source": "EAS"
-        },
-        {
-          "book": "Mark",
-          "chapter": 14,
-          "verses": [
-            67
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Mark 14:67",
-          "source": "EAS"
-        },
-        {
-          "book": "Isaiah",
-          "chapter": 53,
-          "verses": [
-            3
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Isaiah 53:3",
-          "source": "EAS"
-        },
-        {
-          "book": "Isaiah",
-          "chapter": 11,
-          "verses": [
-            1
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Isaiah 11:1",
-          "source": "EAS"
-        },
-        {
-          "book": "Acts",
-          "chapter": 24,
-          "verses": [
-            5
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Acts 24:5",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "an inhabitant of Nazareth. This appellative is applied to,Jesus in many passages in the New Testament. This name, made striking in so many ways, and which, if first given in scorn, was adopted and gloried in by the disciples, we are told in (Matthew 2:23) possesses a prophetic significance. Its application to Jesus, in consequence of the providential arrangements by which his Parents were led to take up their abode in Nazareth, was the filling out of the predictions in which the promised Messiah is described as a netser i.e. a shoot, sprout, of Jesse, a humble and despised descendant of the decayed royal family. Once, (Acts 24:5) the term Nazarenes is applied to the followers of Jesus by way of contempt. The name still exists in Arabic as the ordinary designation of Christians.",
-      "extracted_refs": [
-        {
-          "book": "Matthew",
-          "chapter": 2,
-          "verses": [
-            23
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Matthew 2:23",
-          "source": "SMI"
-        },
-        {
-          "book": "Acts",
-          "chapter": 24,
-          "verses": [
-            5
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Acts 24:5",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Matthew 2:23",
-      "original": "Matt. 2:23"
-    },
-    {
-      "reference": "Mark 1:24",
-      "original": "Mark 1:24"
-    },
-    {
-      "reference": "Mark 10:47",
-      "original": "Mark 10:47"
-    },
-    {
-      "reference": "Mark 14:67",
-      "original": "Mark 14:67"
-    },
-    {
-      "reference": "Isaiah 53:3",
-      "original": "Isa. 53:3"
-    },
-    {
-      "reference": "Isaiah 11:1",
-      "original": "Isa. 11:1"
-    },
-    {
-      "reference": "Acts 24:5",
-      "original": "Acts 24:5"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -266,16 +110,5 @@
       "raw": "Acts 24:5",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 7,
-    "ot": 2,
-    "nt": 5,
-    "books": [
-      "Acts",
-      "Isaiah",
-      "Mark",
-      "Matthew"
-    ]
-  }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "topic": "HAMMOTH-DOR",
   "slug": "hammoth-dor",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A city of refuge of the tribe of Naphtali Jos 21:32",
@@ -26,17 +26,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_210038",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T21:00:38.430496",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -45,45 +34,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Warm springs, a Levitical city of Naphtali (Josh. 21:32); probably Hammath in 19:35.",
-      "extracted_refs": [
-        {
-          "book": "Joshua",
-          "chapter": 21,
-          "verses": [
-            32
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 21:32",
-          "source": "EAS"
-        },
-        {
-          "book": "Joshua",
-          "chapter": 19,
-          "verses": [
-            35
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 19:35",
-          "source": "EAS"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Joshua 21:32",
-      "original": "Josh. 21:32"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -117,13 +69,5 @@
       "raw": "Joshua 19:35",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 2,
-    "ot": 2,
-    "nt": 0,
-    "books": [
-      "Joshua"
-    ]
-  }
+  ]
 }

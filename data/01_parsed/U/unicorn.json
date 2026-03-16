@@ -1,7 +1,7 @@
 {
   "topic": "UNICORN",
   "slug": "unicorn",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "idx": 0,
@@ -365,17 +365,6 @@
       "verse_count": 4
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_021511",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T02:15:11.808035",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [
     "RIGHTEOUS, UNITY OF, WITH CHRIST",
     "UNITY, OF THE RIGHTEOUS"
@@ -389,124 +378,9 @@
     "ot_refs": 13,
     "nt_refs": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Described as an animal of great ferocity and strength (Num. 23:22, R.V., “wild ox,” marg., “ox-antelope;” 24:8; Isa. 34:7, R.V., “wild oxen”), and untamable (Job 39:9). It was in reality a two-horned animal; but the exact reference of the word so rendered (reem) is doubtful. Some have supposed it to be the buffalo; others, the white antelope, called by the Arabs rim. Most probably, however, the word denotes the Bos primigenius (“primitive ox”), which is now extinct all over the world. This was the auerochs of the Germans, and the urus described by Caesar (Gal. Bel., vi. 28) as inhabiting the Hercynian forest. The word thus rendered has been found in an Assyrian inscription written over the wild ox or bison, which some also suppose to be the animal intended (comp. Deut. 33:17; Ps. 22:21; 29:6; 92:10).",
-      "extracted_refs": [
-        {
-          "book": "Numbers",
-          "chapter": 23,
-          "verses": [
-            22
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Numbers 23:22",
-          "source": "EAS"
-        },
-        {
-          "book": "Numbers",
-          "chapter": 24,
-          "verses": [
-            8
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Numbers 24:8",
-          "source": "EAS"
-        },
-        {
-          "book": "Isaiah",
-          "chapter": 34,
-          "verses": [
-            7
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Isaiah 34:7",
-          "source": "EAS"
-        },
-        {
-          "book": "Job",
-          "chapter": 39,
-          "verses": [
-            9
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Job 39:9",
-          "source": "EAS"
-        },
-        {
-          "book": "Deuteronomy",
-          "chapter": 33,
-          "verses": [
-            17
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Deuteronomy 33:17",
-          "source": "EAS"
-        },
-        {
-          "book": "Psalms",
-          "chapter": 22,
-          "verses": [
-            21
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Psalms 22:21",
-          "source": "EAS"
-        },
-        {
-          "book": "Psalms",
-          "chapter": 29,
-          "verses": [
-            6
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Psalms 29:6",
-          "source": "EAS"
-        },
-        {
-          "book": "Psalms",
-          "chapter": 92,
-          "verses": [
-            10
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Psalms 92:10",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "the rendering of the Authorized Version of the Hebrew reem, a word which occurs seven times in the Old Testament as the name of some large wild animal. The reem of the Hebrew Bible, however, has nothing at all to do with the one-horned animal of the Greek and Roman writers, as is evident from (33:17) where in the blessing of Joseph it is said; “his glory is like the firstling of his bullock, and his horns are like the horns of a unicorn ;” not, as the text of the Authorized Version renders it, “the horns of unicorns .” The two horns of the ram are “the ten thousands of Ephraim and the thousands of Manasseh.” This text puts a one-horned animal entirely out of the question. Considering that the reem is spoken of as a two-horned animal of great strength and ferocity, that it was evidently well known and often seen by the Jews, that it is mentioned as an animal fit for sacrificial purposes, and that it is frequently associated with bulls and oxen we think there can be no doubt that, some species of wild ox is intended. The allusion in (Psalms 92:10) “But thou shalt lift up, as a reeym, my horn,” seems to point to the mode in which the Bovidae use their horns, lowering the head and then tossing it up. But it is impossible to determine what particular species of wild ox is signified probably some gigantic urus is intended. (It is probable that it was the gigantic Bos primigeniua, or aurochs, now extinct, but of which Caesar says, “These uri are scarcely less than elephants in size, but in their nature, color and form are bulls. Great is their strength and great their speed; they spare neither man nor beast when once; they have caught sight of them”—Bell. Gall. vi. 20.-ED.)",
-      "extracted_refs": [
-        {
-          "book": "Psalms",
-          "chapter": 92,
-          "verses": [
-            10
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Psalms 92:10",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
     "NAV",
-    "TOR",
-    "EAS",
-    "SMI"
+    "TOR"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -606,17 +480,5 @@
       "raw": "Psalms 92:10",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 8,
-    "ot": 8,
-    "nt": 0,
-    "books": [
-      "Deuteronomy",
-      "Isaiah",
-      "Job",
-      "Numbers",
-      "Psalms"
-    ]
-  }
+  ]
 }

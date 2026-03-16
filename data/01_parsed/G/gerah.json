@@ -1,7 +1,7 @@
 {
   "topic": "GERAH",
   "slug": "gerah",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A weight equal to thirteen and seven-tenths grains, Paris",
@@ -40,17 +40,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_202936",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T20:29:36.855010",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -59,55 +48,8 @@
     "nt_refs": 0,
     "total_verses": 2
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "A bean, probably of the carob tree, the smallest weight, and also the smallest piece of money, among the Hebrews, equal to the twentieth part of a shekel (Ex. 30:13; Lev. 27:25; Num. 3:47). This word came into use in the same way as our word “grain,” from a grain of wheat.",
-      "extracted_refs": [
-        {
-          "book": "Exodus",
-          "chapter": 30,
-          "verses": [
-            13
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Exodus 30:13",
-          "source": "EAS"
-        },
-        {
-          "book": "Leviticus",
-          "chapter": 27,
-          "verses": [
-            25
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Leviticus 27:25",
-          "source": "EAS"
-        },
-        {
-          "book": "Numbers",
-          "chapter": 3,
-          "verses": [
-            47
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Numbers 3:47",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "[Weights And Measures AND Measures]"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -152,15 +94,5 @@
       "raw": "Numbers 3:47",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 3,
-    "ot": 3,
-    "nt": 0,
-    "books": [
-      "Exodus",
-      "Leviticus",
-      "Numbers"
-    ]
-  }
+  ]
 }

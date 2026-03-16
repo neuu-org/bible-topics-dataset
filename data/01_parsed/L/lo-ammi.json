@@ -1,7 +1,7 @@
 {
   "topic": "LO-AMMI",
   "slug": "lo-ammi",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A symbolical name given to a son of Hosea Ho 1:9",
@@ -12,17 +12,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_001105",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T00:11:05.938449",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -31,50 +20,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Not my people, a symbolical name given by God’s command to Hosea’s second son in token of Jehovah’s rejection of his people (Hos. 1:9, 10), his treatment of them as a foreign people. This Hebrew word is rendered by “not my people” in ver. 10; 2:23.",
-      "extracted_refs": [
-        {
-          "book": "Hosea",
-          "chapter": 1,
-          "verses": [
-            9,
-            10
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Hosea 1:9, 10",
-          "source": "EAS"
-        },
-        {
-          "book": "Hosea",
-          "chapter": 2,
-          "verses": [
-            23
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Hosea 2:23",
-          "source": "EAS"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Hosea 1:9",
-      "original": "Hos. 1:9"
-    },
-    {
-      "reference": "Hosea 1:10",
-      "original": "Hos. 1:10"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -109,13 +56,5 @@
       "raw": "Hosea 2:23",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 3,
-    "ot": 3,
-    "nt": 0,
-    "books": [
-      "Hosea"
-    ]
-  }
+  ]
 }

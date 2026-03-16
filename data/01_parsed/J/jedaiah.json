@@ -1,7 +1,7 @@
 {
   "topic": "JEDAIAH",
   "slug": "jedaiah",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "1. Descendant of Simeon 1Ch 4:37",
@@ -80,17 +80,6 @@
       "verse_count": 2
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_225856",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T22:58:56.738074",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -99,66 +88,8 @@
     "nt_refs": 0,
     "total_verses": 3
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "(1.) Invoker of Jehovah. The son of Shimri, a chief Simeonite (1 Chr. 4:37). (2.) One of those who repaired the walls of Jerusalem after the return from Babylon (Neh. 3:10). (3.) Knowing Jehovah. The chief of one of the courses of the priests (1 Chr. 24:7). (4.) A priest in Jerusalem after the Exile (1 Chr. 9:10).",
-      "extracted_refs": [
-        {
-          "book": "1 Chronicles",
-          "chapter": 4,
-          "verses": [
-            37
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 4:37",
-          "source": "EAS"
-        },
-        {
-          "book": "Nehemiah",
-          "chapter": 3,
-          "verses": [
-            10
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Nehemiah 3:10",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Chronicles",
-          "chapter": 24,
-          "verses": [
-            7
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 24:7",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Chronicles",
-          "chapter": 9,
-          "verses": [
-            10
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 9:10",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(praise Jehovah)."
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -214,14 +145,5 @@
       "raw": "1 Chronicles 9:10",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 4,
-    "ot": 4,
-    "nt": 0,
-    "books": [
-      "1 Chronicles",
-      "Nehemiah"
-    ]
-  }
+  ]
 }

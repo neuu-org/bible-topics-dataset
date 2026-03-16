@@ -1,7 +1,7 @@
 {
   "topic": "MEAH",
   "slug": "meah",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A tower in Jerusalem Ne 3:1; 12:39",
@@ -13,17 +13,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_004334",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T00:43:34.614232",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -32,67 +21,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "An hundred, a tower in Jersalem on the east wall (Neh. 3:1) in the time of Nehemiah.",
-      "extracted_refs": [
-        {
-          "book": "Nehemiah",
-          "chapter": 3,
-          "verses": [
-            1
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Nehemiah 3:1",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(a hundred), The tower of, one of the towers of the wall of Jerusalem when rebuilt by Nehemiah, (Nehemiah 3:1; 12:39) appears to have been situated somewhere at the northeast part of the city, outside of the walls of Zion.",
-      "extracted_refs": [
-        {
-          "book": "Nehemiah",
-          "chapter": 3,
-          "verses": [
-            1
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Nehemiah 3:1",
-          "source": "SMI"
-        },
-        {
-          "book": "Nehemiah",
-          "chapter": 12,
-          "verses": [
-            39
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Nehemiah 12:39",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Nehemiah 3:1",
-      "original": "Neh. 3:1"
-    },
-    {
-      "reference": "Nehemiah 12:39",
-      "original": "Nehemiah 12:39"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -126,13 +56,5 @@
       "raw": "Nehemiah 12:39",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 2,
-    "ot": 2,
-    "nt": 0,
-    "books": [
-      "Nehemiah"
-    ]
-  }
+  ]
 }

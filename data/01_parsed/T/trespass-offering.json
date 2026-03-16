@@ -1,7 +1,7 @@
 {
   "topic": "TRESPASS OFFERING",
   "slug": "trespass-offering",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "idx": 0,
@@ -463,17 +463,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_021412",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T02:14:12.960302",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -482,36 +471,8 @@
     "nt_refs": 0,
     "total_verses": 36
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "(Heb. ‘asham, “debt”), the law concerning, given in Lev. 5:14-6:7; also in Num. 5:5-8. The idea of sin as a “debt” pervades this legislation. The asham, which was always a ram, was offered in cases where sins were more private. (See OFFERING.)",
-      "extracted_refs": [
-        {
-          "book": "Numbers",
-          "chapter": 5,
-          "verses": [
-            5,
-            6,
-            7,
-            8
-          ],
-          "verse_count": 4,
-          "testament": "OT",
-          "raw": "Numbers 5:5-8",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "[Sin Offering OFFERING]"
-    }
-  ],
   "sources": [
-    "TOR",
-    "EAS",
-    "SMI"
+    "TOR"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -537,13 +498,5 @@
       "raw": "Numbers 5:5-8",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 4,
-    "ot": 4,
-    "nt": 0,
-    "books": [
-      "Numbers"
-    ]
-  }
+  ]
 }

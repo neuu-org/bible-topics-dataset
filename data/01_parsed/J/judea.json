@@ -1,7 +1,7 @@
 {
   "topic": "JUDEA",
   "slug": "judea",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "1. Also called JUDAH and JUDAEA",
@@ -117,17 +117,6 @@
       "verse_count": 2
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_232953",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T23:29:53.129468",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -136,85 +125,8 @@
     "nt_refs": 5,
     "total_verses": 5
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "After the Captivity this name was applied to the whole of the country west of the Jordan (Hag. 1:1, 14; 2:2). But under the Romans, in the time of Christ, it denoted the southernmost of the three divisions of Palestine (Matt. 2:1, 5; 3:1; 4:25), although it was also sometimes used for Palestine generally (Acts 28:21). The province of Judea, as distinguished from Galilee and Samaria, included the territories of the tribes of Judah, Benjamin, Dan, Simeon, and part of Ephraim. Under the Romans it was a part of the province of Syria, and was governed by a procurator.",
-      "extracted_refs": [
-        {
-          "book": "Haggai",
-          "chapter": 1,
-          "verses": [
-            1,
-            14
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Haggai 1:1, 14",
-          "source": "EAS"
-        },
-        {
-          "book": "Haggai",
-          "chapter": 2,
-          "verses": [
-            2
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Haggai 2:2",
-          "source": "EAS"
-        },
-        {
-          "book": "Matthew",
-          "chapter": 2,
-          "verses": [
-            1,
-            5
-          ],
-          "verse_count": 2,
-          "testament": "NT",
-          "raw": "Matthew 2:1, 5",
-          "source": "EAS"
-        },
-        {
-          "book": "Matthew",
-          "chapter": 3,
-          "verses": [
-            1
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Matthew 3:1",
-          "source": "EAS"
-        },
-        {
-          "book": "Matthew",
-          "chapter": 4,
-          "verses": [
-            25
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Matthew 4:25",
-          "source": "EAS"
-        },
-        {
-          "book": "Acts",
-          "chapter": 28,
-          "verses": [
-            21
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Acts 28:21",
-          "source": "EAS"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -294,15 +206,5 @@
       "raw": "Acts 28:21",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 8,
-    "ot": 3,
-    "nt": 5,
-    "books": [
-      "Acts",
-      "Haggai",
-      "Matthew"
-    ]
-  }
+  ]
 }

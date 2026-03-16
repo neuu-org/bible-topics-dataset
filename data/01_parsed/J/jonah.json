@@ -1,7 +1,7 @@
 {
   "topic": "JONAH",
   "slug": "jonah",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Also called JONAS",
@@ -96,17 +96,6 @@
       "verse_count": 2
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_232201",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T23:22:01.340046",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -115,94 +104,8 @@
     "nt_refs": 3,
     "total_verses": 3
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "A dove, the son of Amittai of Gath-hepher. He was a prophet of Israel, and predicted the restoration of the ancient boundaries (2 Kings 14:25-27) of the kingdom. He exercised his ministry very early in the reign of Jeroboam II., and thus was contemporary with Hosea and Amos; or possibly he preceded them, and consequently may have been the very oldest of all the prophets whose writings we possess. His personal history is mainly to be gathered from the book which bears his name. It is chiefly interesting from the two-fold character in which he appears, (1) as a missionary to heathen Nineveh, and (2) as a type of the “Son of man.”",
-      "extracted_refs": [
-        {
-          "book": "2 Kings",
-          "chapter": 14,
-          "verses": [
-            25,
-            26,
-            27
-          ],
-          "verse_count": 3,
-          "testament": "OT",
-          "raw": "2 Kings 14:25-27",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(dove), the fifth of the minor prophets, was the son of Amittai, and a native of Gath-hepher. (2 Kings 14:25) He flourished in or before the reign of Jeroboam II., about B.C. 820. Having already, as it seems, prophesied to Israel, he was sent to Nineveh. The time was one of political revival in Israel; but ere long the Assyrians were to be employed by God as a scourge upon them. The prophet shrank from a commission which he felt sure would result, (Jonah 4:2) in the sparing of a hostile city. He attempted therefore to escape to Tarshish. The providence of God, however, watched over him, first in a storm, and then in his being swallowed by a large fish (a sea monster, probably the white shark) for the space of three days and three nights. [On this subject see article Whale] After his deliverance, Jonah executed his commission; and the king, “believing him to be a minister form the supreme deity of the nation,” and having heard of his miraculous deliverance, ordered a general fast, and averted the threatened judgment. But the prophet, not from personal but national feelings, grudged the mercy shown to a heathen nation. He was therefore taught by the significant lesson of the “gourd,” whose growth and decay brought the truth at once home to him, that he was sent to testify by deed, as other prophets would afterward testify by word, the capacity of Gentiles for salvation, and the design of God to make them partakers of it. This was “the sign of the prophet Jonas.” (Luke 11:29,30) But the resurrection of Christ itself was also shadowed forth in the history of the prophet. (Matthew 12:39,41; 16:4) The mission of Jonah was highly symbolical. The facts contained a concealed prophecy. The old tradition made the burial-place of Jonah to be Gath-hepher; the modern tradition places it at Nebi-Yunus, opposite Mosul.",
-      "extracted_refs": [
-        {
-          "book": "2 Kings",
-          "chapter": 14,
-          "verses": [
-            25
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Kings 14:25",
-          "source": "SMI"
-        },
-        {
-          "book": "Jonah",
-          "chapter": 4,
-          "verses": [
-            2
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Jonah 4:2",
-          "source": "SMI"
-        },
-        {
-          "book": "Luke",
-          "chapter": 11,
-          "verses": [
-            29,
-            30
-          ],
-          "verse_count": 2,
-          "testament": "NT",
-          "raw": "Luke 11:29,30",
-          "source": "SMI"
-        },
-        {
-          "book": "Matthew",
-          "chapter": 12,
-          "verses": [
-            39,
-            41
-          ],
-          "verse_count": 2,
-          "testament": "NT",
-          "raw": "Matthew 12:39,41",
-          "source": "SMI"
-        },
-        {
-          "book": "Matthew",
-          "chapter": 16,
-          "verses": [
-            4
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Matthew 16:4",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -284,16 +187,5 @@
       "raw": "Matthew 16:4",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 9,
-    "ot": 4,
-    "nt": 5,
-    "books": [
-      "2 Kings",
-      "Jonah",
-      "Luke",
-      "Matthew"
-    ]
-  }
+  ]
 }

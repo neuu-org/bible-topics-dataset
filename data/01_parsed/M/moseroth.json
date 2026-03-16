@@ -1,7 +1,7 @@
 {
   "topic": "MOSEROTH",
   "slug": "moseroth",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "An encampment of the Israelites Nu 33:30,31",
@@ -13,17 +13,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_012354",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T01:23:54.948679",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -32,39 +21,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Bonds, one of the stations in the wilderness (Num. 33:30, 31), probably the same as Mosera.",
-      "extracted_refs": [
-        {
-          "book": "Numbers",
-          "chapter": 33,
-          "verses": [
-            30,
-            31
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Numbers 33:30, 31",
-          "source": "EAS"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Numbers 33:30",
-      "original": "Num. 33:30"
-    },
-    {
-      "reference": "Numbers 33:31",
-      "original": "Num. 33:31"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -88,13 +46,5 @@
       "raw": "Numbers 33:30, 31",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 2,
-    "ot": 2,
-    "nt": 0,
-    "books": [
-      "Numbers"
-    ]
-  }
+  ]
 }

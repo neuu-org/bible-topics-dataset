@@ -1,7 +1,7 @@
 {
   "topic": "GRACE",
   "slug": "grace",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "idx": 0,
@@ -2213,17 +2213,6 @@
       "verse_count": 2
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_204606",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T20:46:06.222630",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -2234,216 +2223,9 @@
     "ot_refs": 6,
     "nt_refs": 79
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "(1.) Of form or person (Prov. 1:9; 3:22; Ps. 45:2). (2.) Favour, kindness, friendship (Gen. 6:8; 18:3; 19:19; 2 Tim. 1:9). (3.) God’s forgiving mercy (Rom. 11:6; Eph. 2:5). (4.) The gospel as distinguished from the law (John 1:17; Rom. 6:14; 1 Pet. 5:12). (5.) Gifts freely bestowed by God; as miracles, prophecy, tongues (Rom. 15:15; 1 Cor. 15:10; Eph. 3:8). (6.) Christian virtues (2 Cor. 8:7; 2 Pet. 3:18). (7.) The glory hereafter to be revealed (1 Pet. 1:13).",
-      "extracted_refs": [
-        {
-          "book": "Proverbs",
-          "chapter": 1,
-          "verses": [
-            9
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Proverbs 1:9",
-          "source": "EAS"
-        },
-        {
-          "book": "Proverbs",
-          "chapter": 3,
-          "verses": [
-            22
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Proverbs 3:22",
-          "source": "EAS"
-        },
-        {
-          "book": "Psalms",
-          "chapter": 45,
-          "verses": [
-            2
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Psalms 45:2",
-          "source": "EAS"
-        },
-        {
-          "book": "Genesis",
-          "chapter": 6,
-          "verses": [
-            8
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 6:8",
-          "source": "EAS"
-        },
-        {
-          "book": "Genesis",
-          "chapter": 18,
-          "verses": [
-            3
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 18:3",
-          "source": "EAS"
-        },
-        {
-          "book": "Genesis",
-          "chapter": 19,
-          "verses": [
-            19
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 19:19",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Timothy",
-          "chapter": 1,
-          "verses": [
-            9
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "2 Timothy 1:9",
-          "source": "EAS"
-        },
-        {
-          "book": "Romans",
-          "chapter": 11,
-          "verses": [
-            6
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Romans 11:6",
-          "source": "EAS"
-        },
-        {
-          "book": "Ephesians",
-          "chapter": 2,
-          "verses": [
-            5
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Ephesians 2:5",
-          "source": "EAS"
-        },
-        {
-          "book": "John",
-          "chapter": 1,
-          "verses": [
-            17
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "John 1:17",
-          "source": "EAS"
-        },
-        {
-          "book": "Romans",
-          "chapter": 6,
-          "verses": [
-            14
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Romans 6:14",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Peter",
-          "chapter": 5,
-          "verses": [
-            12
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "1 Peter 5:12",
-          "source": "EAS"
-        },
-        {
-          "book": "Romans",
-          "chapter": 15,
-          "verses": [
-            15
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Romans 15:15",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Corinthians",
-          "chapter": 15,
-          "verses": [
-            10
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "1 Corinthians 15:10",
-          "source": "EAS"
-        },
-        {
-          "book": "Ephesians",
-          "chapter": 3,
-          "verses": [
-            8
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Ephesians 3:8",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Corinthians",
-          "chapter": 8,
-          "verses": [
-            7
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "2 Corinthians 8:7",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Peter",
-          "chapter": 3,
-          "verses": [
-            18
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "2 Peter 3:18",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Peter",
-          "chapter": 1,
-          "verses": [
-            13
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "1 Peter 1:13",
-          "source": "EAS"
-        }
-      ]
-    }
-  ],
   "sources": [
     "NAV",
-    "TOR",
-    "EAS"
+    "TOR"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -2653,23 +2435,5 @@
       "raw": "1 Peter 1:13",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 18,
-    "ot": 6,
-    "nt": 12,
-    "books": [
-      "1 Corinthians",
-      "1 Peter",
-      "2 Corinthians",
-      "2 Peter",
-      "2 Timothy",
-      "Ephesians",
-      "Genesis",
-      "John",
-      "Proverbs",
-      "Psalms",
-      "Romans"
-    ]
-  }
+  ]
 }

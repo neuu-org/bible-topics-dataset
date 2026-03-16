@@ -1,7 +1,7 @@
 {
   "topic": "JECHOLIAH",
   "slug": "jecholiah",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Also called JECOLIAH",
@@ -39,17 +39,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_225833",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T22:58:33.472823",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -58,28 +47,8 @@
     "nt_refs": 0,
     "total_verses": 2
   },
-  "definitions": [
-    {
-      "source": "SMI",
-      "text": "(strong through Jehovah) wife of Amaziah king of Judah, and mother of Azariah or Uzziah his successor. (2 Kings 15:2) (B.C. 824-807.)",
-      "extracted_refs": [
-        {
-          "book": "2 Kings",
-          "chapter": 15,
-          "verses": [
-            2
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Kings 15:2",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -102,13 +71,5 @@
       "raw": "2 Kings 15:2",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 1,
-    "ot": 1,
-    "nt": 0,
-    "books": [
-      "2 Kings"
-    ]
-  }
+  ]
 }

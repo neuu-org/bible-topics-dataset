@@ -1,7 +1,7 @@
 {
   "topic": "LEEK",
   "slug": "leek",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "General scriptures concerning Nu 11:5",
@@ -12,17 +12,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_000005",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T00:00:05.184262",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -31,125 +20,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "(Heb. hatsir; the Allium porrum), rendered “grass” in 1 Kings 18:5, 2 Kings 19:26, Job 40:15, etc.; “herb” in Job 8:12; “hay” in Prov. 27:25, and Isa. 15:6; “leeks” only in Num. 11:5. This Hebrew word seems to denote in this last passage simply herbs, such as lettuce or savoury herbs cooked as kitchen vegetables, and not necessarily what are now called leeks. The leek was a favourite vegetable in Egypt, and is still largely cultivated there and in Palestine.",
-      "extracted_refs": [
-        {
-          "book": "1 Kings",
-          "chapter": 18,
-          "verses": [
-            2,
-            5
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "1 Kings 18:5, 2",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Kings",
-          "chapter": 19,
-          "verses": [
-            26
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Kings 19:26",
-          "source": "EAS"
-        },
-        {
-          "book": "Job",
-          "chapter": 40,
-          "verses": [
-            15
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Job 40:15",
-          "source": "EAS"
-        },
-        {
-          "book": "Job",
-          "chapter": 8,
-          "verses": [
-            12
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Job 8:12",
-          "source": "EAS"
-        },
-        {
-          "book": "Proverbs",
-          "chapter": 27,
-          "verses": [
-            25
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Proverbs 27:25",
-          "source": "EAS"
-        },
-        {
-          "book": "Isaiah",
-          "chapter": 15,
-          "verses": [
-            6
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Isaiah 15:6",
-          "source": "EAS"
-        },
-        {
-          "book": "Numbers",
-          "chapter": 11,
-          "verses": [
-            5
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Numbers 11:5",
-          "source": "EAS"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "1 Kings 18:5",
-      "original": "1 Kings 18:5"
-    },
-    {
-      "reference": "2 Kings 19:26",
-      "original": "2 Kings 19:26"
-    },
-    {
-      "reference": "Job 40:15",
-      "original": "Job 40:15"
-    },
-    {
-      "reference": "Job 8:12",
-      "original": "Job 8:12"
-    },
-    {
-      "reference": "Proverbs 27:25",
-      "original": "Prov. 27:25"
-    },
-    {
-      "reference": "Isaiah 15:6",
-      "original": "Isa. 15:6"
-    },
-    {
-      "reference": "Numbers 11:5",
-      "original": "Num. 11:5"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -239,18 +111,5 @@
       "raw": "Numbers 11:5",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 8,
-    "ot": 8,
-    "nt": 0,
-    "books": [
-      "1 Kings",
-      "2 Kings",
-      "Isaiah",
-      "Job",
-      "Numbers",
-      "Proverbs"
-    ]
-  }
+  ]
 }

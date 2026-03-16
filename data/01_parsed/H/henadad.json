@@ -1,7 +1,7 @@
 {
   "topic": "HENADAD",
   "slug": "henadad",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A Levite Ezr 3:9; Ne 3:18,24; 10:9",
@@ -28,17 +28,6 @@
       "verse_count": 3
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_214841",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T21:48:41.215549",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -47,46 +36,8 @@
     "nt_refs": 0,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Favour of Hadad, the name of a Levite after the Captivity (Ezra 3:9).",
-      "extracted_refs": [
-        {
-          "book": "Ezra",
-          "chapter": 3,
-          "verses": [
-            9
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Ezra 3:9",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(grace of Hadad), the head of a family of the Levites who took a prominent part in the rebuilding of the temple. (Ezra 3:9)",
-      "extracted_refs": [
-        {
-          "book": "Ezra",
-          "chapter": 3,
-          "verses": [
-            9
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Ezra 3:9",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -109,13 +60,5 @@
       "raw": "Ezra 3:9",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 1,
-    "ot": 1,
-    "nt": 0,
-    "books": [
-      "Ezra"
-    ]
-  }
+  ]
 }

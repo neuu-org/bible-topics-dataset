@@ -1,7 +1,7 @@
 {
   "topic": "JASON",
   "slug": "jason",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A Christian at Thessalonica Ac 17:5,6,7,9",
@@ -22,17 +22,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_225613",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T22:56:13.208826",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -41,116 +30,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "He that will cure, the host of Paul and Silas in Thessalonica. The Jews assaulted his house in order to seize Paul, but failing to find him, they dragged Jason before the ruler of the city (Acts 17:5-9). He was apparently one of the kinsmen of Paul (Rom. 16:21), and accompanied him from Thessalonica to Corinth.",
-      "extracted_refs": [
-        {
-          "book": "Acts",
-          "chapter": 17,
-          "verses": [
-            5,
-            6,
-            7,
-            8,
-            9
-          ],
-          "verse_count": 5,
-          "testament": "NT",
-          "raw": "Acts 17:5-9",
-          "source": "EAS"
-        },
-        {
-          "book": "Romans",
-          "chapter": 16,
-          "verses": [
-            21
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Romans 16:21",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(one who will heal), called the Thessalonian, entertained Paul and Silas, and was in consequence attacked by the Jewish mob. (Acts 17:5,6,7,9) (A.D. 48.) He is probably the same as the Jason mentioned in (Romans 16:21) It is conjectured that Jason and Secundus, (Acts 20:4) were the same.",
-      "extracted_refs": [
-        {
-          "book": "Acts",
-          "chapter": 17,
-          "verses": [
-            5,
-            6,
-            7,
-            9
-          ],
-          "verse_count": 4,
-          "testament": "NT",
-          "raw": "Acts 17:5,6,7,9",
-          "source": "SMI"
-        },
-        {
-          "book": "Romans",
-          "chapter": 16,
-          "verses": [
-            21
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Romans 16:21",
-          "source": "SMI"
-        },
-        {
-          "book": "Acts",
-          "chapter": 20,
-          "verses": [
-            4
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Acts 20:4",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Acts 17:5-9",
-      "original": "Acts 17:5-9"
-    },
-    {
-      "reference": "Romans 16:21",
-      "original": "Rom. 16:21"
-    },
-    {
-      "reference": "Acts 17:5",
-      "original": "Acts 17:5"
-    },
-    {
-      "reference": "Acts 17:6",
-      "original": "Acts 17:6"
-    },
-    {
-      "reference": "Acts 17:7",
-      "original": "Acts 17:7"
-    },
-    {
-      "reference": "Acts 17:9",
-      "original": "Acts 17:9"
-    },
-    {
-      "reference": "Acts 20:4",
-      "original": "Acts 20:4"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -213,14 +94,5 @@
       "raw": "Acts 20:4",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 7,
-    "ot": 0,
-    "nt": 7,
-    "books": [
-      "Acts",
-      "Romans"
-    ]
-  }
+  ]
 }

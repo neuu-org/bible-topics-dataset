@@ -1,7 +1,7 @@
 {
   "topic": "HOOF",
   "slug": "hoof",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Parting of, one of the physical marks used for distinguishing ceremonially clean and unclean animals Le 11:3-8; De 14:3-8",
@@ -29,17 +29,6 @@
       "verse_count": 6
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_220332",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T22:03:32.335568",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -48,72 +37,8 @@
     "nt_refs": 0,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "A cleft hoof as of neat cattle (Ex. 10:26; Ezek. 32:13); hence also of the horse, though not cloven (Isa. 5:28). The “parting of the hoof” is one of the distinctions between clean and unclean animals (Lev. 11:3; Deut. 14:7).",
-      "extracted_refs": [
-        {
-          "book": "Exodus",
-          "chapter": 10,
-          "verses": [
-            26
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Exodus 10:26",
-          "source": "EAS"
-        },
-        {
-          "book": "Ezekiel",
-          "chapter": 32,
-          "verses": [
-            13
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Ezekiel 32:13",
-          "source": "EAS"
-        },
-        {
-          "book": "Isaiah",
-          "chapter": 5,
-          "verses": [
-            28
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Isaiah 5:28",
-          "source": "EAS"
-        },
-        {
-          "book": "Leviticus",
-          "chapter": 11,
-          "verses": [
-            3
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Leviticus 11:3",
-          "source": "EAS"
-        },
-        {
-          "book": "Deuteronomy",
-          "chapter": 14,
-          "verses": [
-            7
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Deuteronomy 14:7",
-          "source": "EAS"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -180,17 +105,5 @@
       "raw": "Deuteronomy 14:7",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 5,
-    "ot": 5,
-    "nt": 0,
-    "books": [
-      "Deuteronomy",
-      "Exodus",
-      "Ezekiel",
-      "Isaiah",
-      "Leviticus"
-    ]
-  }
+  ]
 }

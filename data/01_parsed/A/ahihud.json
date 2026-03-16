@@ -1,7 +1,7 @@
 {
   "topic": "AHIHUD",
   "slug": "ahihud",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "1. A prince of Asher, assists in allotting the land of Canaan among the tribes Nu 34:27",
@@ -19,208 +19,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "Ahiud é mencionado na Bíblia como um príncipe da tribo de Aser, que desempenhou um papel significativo na distribuição da terra de Canaã entre as tribos de Israel, conforme registrado em Números 34:27. Além disso, ele é identificado como um filho de Bela em 1 Crônicas 8:7, o que o conecta à linhagem de Benjamim. Ahiud representa a importância da liderança tribal e a organização da herança de Israel, refletindo a soberania de Deus na alocação das terras prometidas.",
-    "outline": [
-      "Ahiud como príncipe da tribo de Aser",
-      "A participação de Ahiud na distribuição da terra de Canaã",
-      "Ahiud como filho de Bela e sua conexão com a tribo de Benjamim",
-      "A importância da liderança tribal na história de Israel"
-    ],
-    "key_concepts": [
-      "Liderança tribal",
-      "Distribuição da terra",
-      "Herança de Israel"
-    ],
-    "theological_significance": "Ahiud simboliza a ordem e a providência divina na alocação das terras entre as tribos de Israel, enfatizando a importância da liderança e da organização na comunidade de fé. Sua menção nas Escrituras nos lembra da soberania de Deus em guiar o Seu povo e a necessidade de líderes que cumpram Seus propósitos.",
-    "model": "gpt-4o-mini",
-    "run_id": "enr_20250923_123433_7827d596",
-    "confidence": 1.0,
-    "generated_at": "2025-09-23T12:34:33.202546"
-  },
-  "ai_themes_normalized": [
-    {
-      "theme_id": null,
-      "proposal_id": "prop:promessa_de_terra_19d894",
-      "label_original": "Promessa de terra",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:identidade_tribal_a8580b",
-      "label_original": "Identidade tribal",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:soberania_de_deus_f60a06",
-      "label_original": "Soberania de Deus",
-      "source": "ai_enrichment"
-    }
-  ],
-  "phase1_discovery": {
-    "processed_at": "2025-09-23T22:36:37.459621Z",
-    "total_themes_processed": 3,
-    "summary": {
-      "total_processed": 3,
-      "decisions": {
-        "alias_existing": 0,
-        "proposed": 3,
-        "error": 0
-      },
-      "success_rate": 1.0
-    },
-    "results": [
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.83494,
-          "novelty": 1.0,
-          "similarity_to_best_existing": 0.0,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_a1e7d7b1",
-          "decision_hash": "1fbaf4ff30e29b18",
-          "created_at": "2025-09-23T22:36:37.459621Z"
-        },
-        "proposal_id": "prop:1f974f81",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:promessa_de_terra_19d894",
-          "label_original": "Promessa de terra",
-          "confidence": 0.9500000000000001,
-          "source": "ai_enrichment"
-        }
-      },
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.8392,
-          "novelty": 1.0,
-          "similarity_to_best_existing": 0.0,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_1f4a87fc",
-          "decision_hash": "84b5bec051ce0e67",
-          "created_at": "2025-09-23T22:36:38.416219Z"
-        },
-        "proposal_id": "prop:fa77b2e7",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:identidade_tribal_a8580b",
-          "label_original": "Identidade tribal",
-          "confidence": 0.9500000000000001,
-          "source": "ai_enrichment"
-        }
-      },
-      {
-        "decision": "proposed",
-        "reasons": [
-          "low_confidence",
-          "small_cluster"
-        ],
-        "metrics": {
-          "confidence_0_1": 0.83372,
-          "novelty": 1.0,
-          "similarity_to_best_existing": 0.0,
-          "semantic_similarity_to_best_existing": 0.0,
-          "best_existing_match": null,
-          "intra_cluster_size": 3
-        },
-        "artifacts": {
-          "label_embedding": {
-            "model_small": "text-embedding-3-small",
-            "model_large": "text-embedding-3-large",
-            "dimensions_small": 1536,
-            "dimensions_large": 3072,
-            "normalized": true
-          },
-          "policies_version": "policy.v2.1",
-          "run_id": "run_d4ee4647",
-          "decision_hash": "a7a1757c9e3efeb0",
-          "created_at": "2025-09-23T22:36:39.572637Z"
-        },
-        "proposal_id": "prop:f9e172f2",
-        "processing": {
-          "orchestrator_version": "1.0",
-          "status": "completed",
-          "persisted": true
-        },
-        "original_theme": {
-          "theme_id": null,
-          "proposal_id": "prop:soberania_de_deus_f60a06",
-          "label_original": "Soberania de Deus",
-          "confidence": 0.9500000000000001,
-          "source": "ai_enrichment"
-        }
-      }
-    ]
-  },
-  "entity_links": [
-    {
-      "canonical_id": "CON:ahihud",
-      "namespace": "CONCEPT",
-      "role": "primary",
-      "confidence": 0.9,
-      "source": "topic_resolver",
-      "status": "proposed",
-      "provenance": {
-        "topic": "AHIHUD",
-        "extracted_from": "AHIHUD",
-        "processing_result": {
-          "status": "proposed",
-          "proposal_id": "stub:CON:ahihud_05c2ba37",
-          "canonical_id": "CON:ahihud",
-          "needs_review": true,
-          "reasons": [
-            "low_confidence",
-            "insufficient_sources"
-          ],
-          "message": "Entity proposal stub:CON:ahihud_05c2ba37 created"
-        }
-      }
-    }
-  ],
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -229,54 +27,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Brother (i.e., “friend”) of union. (1.) A son of Bela, the son of Benjamin (1 Chr. 8:7). (2.) Name different in Hebrew, meaning brother of Judah. Chief of the tribe of Asher; one of those appointed by Moses to superintend the division of Canaan among the tribe (Num. 34:27).",
-      "extracted_refs": [
-        {
-          "book": "1 Chronicles",
-          "chapter": 8,
-          "verses": [
-            7
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 8:7",
-          "source": "EAS"
-        },
-        {
-          "book": "Numbers",
-          "chapter": 34,
-          "verses": [
-            27
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Numbers 34:27",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(brother of renown)."
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "1 Chronicles 8:7",
-      "original": "1 Chr. 8:7"
-    },
-    {
-      "reference": "Numbers 34:27",
-      "original": "Num. 34:27"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -310,14 +62,5 @@
       "raw": "Numbers 34:27",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 2,
-    "ot": 2,
-    "nt": 0,
-    "books": [
-      "1 Chronicles",
-      "Numbers"
-    ]
-  }
+  ]
 }

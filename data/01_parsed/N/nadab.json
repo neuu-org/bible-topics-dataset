@@ -1,7 +1,7 @@
 {
   "topic": "NADAB",
   "slug": "nadab",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "1. Son of Aaron Ex 6:23",
@@ -94,17 +94,6 @@
       "verse_count": 2
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_013045",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T01:30:45.959949",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -113,148 +102,8 @@
     "nt_refs": 0,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Liberal, generous. (1.) The eldest of Aaron’s four sons (Ex. 6:23; Num. 3:2). He with his brothers and their father were consecrated as priests of Jehovah (Ex. 28:1). He afterwards perished with Abihu for the sin of offering strange fire on the altar of burnt-offering (Lev. 10:1, 2; Num. 3:4; 26:60). (2.) The son and successor of Jeroboam, the king of Israel (1 Kings 14:20). While engaged with all Israel in laying siege to Gibbethon, a town of southern Dan (Josh. 19:44), a conspiracy broke out in his army, and he was slain by Baasha (1 Kings 15:25-28), after a reign of two years (B.C. 955-953). The assassination of Nadab was followed by that of his whole house, and thus this great Ephraimite family became extinct (1 Kings 15:29). (3.) One of the sons of Shammai in the tribe of Judah (1 Chr. 2:28, 30).",
-      "extracted_refs": [
-        {
-          "book": "Exodus",
-          "chapter": 6,
-          "verses": [
-            23
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Exodus 6:23",
-          "source": "EAS"
-        },
-        {
-          "book": "Numbers",
-          "chapter": 3,
-          "verses": [
-            2
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Numbers 3:2",
-          "source": "EAS"
-        },
-        {
-          "book": "Exodus",
-          "chapter": 28,
-          "verses": [
-            1
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Exodus 28:1",
-          "source": "EAS"
-        },
-        {
-          "book": "Leviticus",
-          "chapter": 10,
-          "verses": [
-            1,
-            2
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Leviticus 10:1, 2",
-          "source": "EAS"
-        },
-        {
-          "book": "Numbers",
-          "chapter": 3,
-          "verses": [
-            4
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Numbers 3:4",
-          "source": "EAS"
-        },
-        {
-          "book": "Numbers",
-          "chapter": 26,
-          "verses": [
-            60
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Numbers 26:60",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Kings",
-          "chapter": 14,
-          "verses": [
-            20
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Kings 14:20",
-          "source": "EAS"
-        },
-        {
-          "book": "Joshua",
-          "chapter": 19,
-          "verses": [
-            44
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 19:44",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Kings",
-          "chapter": 15,
-          "verses": [
-            25,
-            26,
-            27,
-            28
-          ],
-          "verse_count": 4,
-          "testament": "OT",
-          "raw": "1 Kings 15:25-28",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Kings",
-          "chapter": 15,
-          "verses": [
-            29
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Kings 15:29",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Chronicles",
-          "chapter": 2,
-          "verses": [
-            28,
-            30
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "1 Chronicles 2:28, 30",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(liberal)."
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -392,18 +241,5 @@
       "raw": "1 Chronicles 2:28, 30",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 16,
-    "ot": 16,
-    "nt": 0,
-    "books": [
-      "1 Chronicles",
-      "1 Kings",
-      "Exodus",
-      "Joshua",
-      "Leviticus",
-      "Numbers"
-    ]
-  }
+  ]
 }

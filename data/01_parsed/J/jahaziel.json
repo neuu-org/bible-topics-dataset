@@ -1,7 +1,7 @@
 {
   "topic": "JAHAZIEL",
   "slug": "jahaziel",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "1. A disaffected Israelite who joined David at Ziklag 1Ch 12:4",
@@ -41,17 +41,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_224911",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T22:49:11.640116",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -60,99 +49,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Beheld by God. (1.) The third son of Hebron (1 Chr. 23:19). (2.) A Benjamite chief who joined David at Ziklag (1 Chr. 12:4). (3.) A priest who accompanied the removal of the ark to Jerusalem (1 Chr. 16:6). (4.) The son of Zechariah, a Levite of the family of Asaph (2 Chr. 20:14-17). He encouraged Jehoshaphat against the Moabites and Ammonites.",
-      "extracted_refs": [
-        {
-          "book": "1 Chronicles",
-          "chapter": 23,
-          "verses": [
-            19
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 23:19",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Chronicles",
-          "chapter": 12,
-          "verses": [
-            4
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 12:4",
-          "source": "EAS"
-        },
-        {
-          "book": "1 Chronicles",
-          "chapter": 16,
-          "verses": [
-            6
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 16:6",
-          "source": "EAS"
-        },
-        {
-          "book": "2 Chronicles",
-          "chapter": 20,
-          "verses": [
-            14,
-            15,
-            16,
-            17
-          ],
-          "verse_count": 4,
-          "testament": "OT",
-          "raw": "2 Chronicles 20:14-17",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(whom God watches over)"
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "1 Chronicles 23:19",
-      "original": "1 Chr. 23:19"
-    },
-    {
-      "reference": "1 Chronicles 12:4",
-      "original": "1 Chr. 12:4"
-    },
-    {
-      "reference": "1 Chronicles 16:6",
-      "original": "1 Chr. 16:6"
-    },
-    {
-      "reference": "2 Chronicles 20:14-17",
-      "original": "2 Chr. 20:14-17"
-    },
-    {
-      "reference": "1 Chronicles 24:23",
-      "original": "1 Chronicles 24:23"
-    },
-    {
-      "reference": "2 Chronicles 20:14",
-      "original": "2 Chronicles 20:14"
-    },
-    {
-      "reference": "Ezra 8:5",
-      "original": "Ezra 8:5"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -211,14 +109,5 @@
       "raw": "2 Chronicles 20:14-17",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 7,
-    "ot": 7,
-    "nt": 0,
-    "books": [
-      "1 Chronicles",
-      "2 Chronicles"
-    ]
-  }
+  ]
 }

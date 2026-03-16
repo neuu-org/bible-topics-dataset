@@ -1,7 +1,7 @@
 {
   "topic": "IZRI",
   "slug": "izri",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Perhaps the same as ZERI",
@@ -17,17 +17,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_224418",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T22:44:18.342819",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -36,34 +25,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "SMI",
-      "text": "(creator), a Levite leader of the fourth course or ward in the service of the house of God. (1 Chronicles 25:11) In ver. 3 he is called Zeri. (B.C. 1014.)",
-      "extracted_refs": [
-        {
-          "book": "1 Chronicles",
-          "chapter": 25,
-          "verses": [
-            11
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 25:11",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "1 Chronicles 25:11",
-      "original": "1 Chronicles 25:11"
-    }
-  ],
   "sources": [
-    "NAV",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -86,13 +49,5 @@
       "raw": "1 Chronicles 25:11",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 1,
-    "ot": 1,
-    "nt": 0,
-    "books": [
-      "1 Chronicles"
-    ]
-  }
+  ]
 }

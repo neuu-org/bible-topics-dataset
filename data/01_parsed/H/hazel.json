@@ -1,7 +1,7 @@
 {
   "topic": "HAZEL",
   "slug": "hazel",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "General scriptures concerning Ge 30:37",
@@ -12,17 +12,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_212408",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T21:24:08.670935",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -31,52 +20,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Heb. luz, (Gen. 30:37), a nutbearing tree. The Hebrew word is rendered in the Vulgate by amygdalinus, “the almond-tree,” which is probably correct. That tree flourishes in Syria.",
-      "extracted_refs": [
-        {
-          "book": "Genesis",
-          "chapter": 30,
-          "verses": [
-            37
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 30:37",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "The Hebrew term luz occurs only in (Genesis 30:37) Authorities are divided between the hazel and the almond tree as representing the luz . The latter is most probably correct.",
-      "extracted_refs": [
-        {
-          "book": "Genesis",
-          "chapter": 30,
-          "verses": [
-            37
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 30:37",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Genesis 30:37",
-      "original": "Gen. 30:37"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -99,13 +44,5 @@
       "raw": "Genesis 30:37",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 1,
-    "ot": 1,
-    "nt": 0,
-    "books": [
-      "Genesis"
-    ]
-  }
+  ]
 }

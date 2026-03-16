@@ -1,7 +1,7 @@
 {
   "topic": "GOD",
   "slug": "god",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Appearances of",
@@ -5383,17 +5383,6 @@
       "verse_count": 2
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_204122",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T20:41:22.962570",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [
     "GOLDSMITH"
   ],
@@ -5406,224 +5395,9 @@
     "ot_refs": 54,
     "nt_refs": 26
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "(A.S. and Dutch God; Dan. Gud; Ger. Gott), the name of the Divine Being. It is the rendering (1) of the Hebrew ’El, from a word meaning to be strong; (2) of ’Eloah_, plural _’Elohim. The singular form, Eloah, is used only in poetry. The plural form is more commonly used in all parts of the Bible, The Hebrew word Jehovah (q.v.), the only other word generally employed to denote the Supreme Being, is uniformly rendered in the Authorized Version by “LORD,” printed in small capitals. The existence of God is taken for granted in the Bible. There is nowhere any argument to prove it. He who disbelieves this truth is spoken of as one devoid of understanding (Ps. 14:1). The arguments generally adduced by theologians in proof of the being of God are: (1.) The a priori argument, which is the testimony afforded by reason. (2.) The a posteriori argument, by which we proceed logically from the facts of experience to causes. These arguments are, (a) The cosmological, by which it is proved that there must be a First Cause of all things, for every effect must have a cause. (b) The teleological, or the argument from design. We see everywhere the operations of an intelligent Cause in nature. (c) The moral argument, called also the anthropological argument, based on the moral consciousness and the history of mankind, which exhibits a moral order and purpose which can only be explained on the supposition of the existence of God. Conscience and human history testify that “verily there is a God that judgeth in the earth.” The attributes of God are set forth in order by Moses in Ex. 34:6, 7. (see also Deut. 6:4; 10:17; Num. 16:22; Ex. 15:11; 33:19; Isa. 44:6; Hab. 3:6; Ps. 102:26; Job 34:12.) They are also systematically classified in Rev. 5:12 and 7:12. God’s attributes are spoken of by some as absolute, i.e., such as belong to his essence as Jehovah, Jah, etc.; and relative, i.e., such as are ascribed to him with relation to his creatures. Others distinguish them into communicable, i.e., those which can be imparted in degree to his creatures: goodness, holiness, wisdom, etc.; and incommunicable, which cannot be so imparted: independence, immutability, immensity, and eternity. They are by some also divided into natural attributes, eternity, immensity, etc.; and moral, holiness, goodness, etc.",
-      "extracted_refs": [
-        {
-          "book": "Psalms",
-          "chapter": 14,
-          "verses": [
-            1
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Psalms 14:1",
-          "source": "EAS"
-        },
-        {
-          "book": "Deuteronomy",
-          "chapter": 6,
-          "verses": [
-            4
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Deuteronomy 6:4",
-          "source": "EAS"
-        },
-        {
-          "book": "Deuteronomy",
-          "chapter": 10,
-          "verses": [
-            17
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Deuteronomy 10:17",
-          "source": "EAS"
-        },
-        {
-          "book": "Numbers",
-          "chapter": 16,
-          "verses": [
-            22
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Numbers 16:22",
-          "source": "EAS"
-        },
-        {
-          "book": "Exodus",
-          "chapter": 15,
-          "verses": [
-            11
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Exodus 15:11",
-          "source": "EAS"
-        },
-        {
-          "book": "Exodus",
-          "chapter": 33,
-          "verses": [
-            19
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Exodus 33:19",
-          "source": "EAS"
-        },
-        {
-          "book": "Isaiah",
-          "chapter": 44,
-          "verses": [
-            6
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Isaiah 44:6",
-          "source": "EAS"
-        },
-        {
-          "book": "Habakkuk",
-          "chapter": 3,
-          "verses": [
-            6
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Habakkuk 3:6",
-          "source": "EAS"
-        },
-        {
-          "book": "Psalms",
-          "chapter": 102,
-          "verses": [
-            26
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Psalms 102:26",
-          "source": "EAS"
-        },
-        {
-          "book": "Job",
-          "chapter": 34,
-          "verses": [
-            12
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Job 34:12",
-          "source": "EAS"
-        },
-        {
-          "book": "Exodus",
-          "chapter": 34,
-          "verses": [
-            6,
-            7
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Exodus 34:6, 7",
-          "source": "EAS"
-        },
-        {
-          "book": "Revelation",
-          "chapter": 5,
-          "verses": [
-            12
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Revelation 5:12",
-          "source": "EAS"
-        },
-        {
-          "book": "Revelation",
-          "chapter": 7,
-          "verses": [
-            12
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Revelation 7:12",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(good). Throughout the Hebrew Scriptures two chief names are used for the one true divine Being—ELOHIM, commonly translated God in our version, and Jehovah, translated Lord . Elohim is the plural of Eloah (in Arabic Allah); it is often used in the short form EL (a word signifying strength, as in EL-SHADDAI, God Almighty, the name by which God was specially known to the patriarchs. (Genesis 17:1; 28:3; Exodus 6:3) The etymology is uncertain, but it is generally agreed that the primary idea is that of strength, power of effect, and that it properly describes God in that character in which he is exhibited to all men in his works, as the creator, sustainer and supreme governor of the world. The plural form of Elohim has given rise to much discussion. The fanciful idea that it referred to the trinity of persons in the Godhead hardly finds now a supporter among scholars. It is either what grammarians call the plural of majesty, or it denotes the fullness of divine strength, the sum of the powers displayed by God. Jehovah denotes specifically the one true God, whose people the Jews were, and who made them the guardians of his truth. The name is never applied to a false god, nor to any other being except one, the ANGEL-JEHOVAH who is thereby marked as one with God, and who appears again in the New Covenant as “God manifested in the flesh.” Thus much is clear; but all else is beset with difficulties. At a time too early to be traced, the Jews abstained from pronouncing the name, for fear of its irreverent use. The custom is said to have been founded on a strained interpretation of (Leviticus 24:16) and the phrase there used, “THE NAME” (Shema), is substituted by the rabbis for the unutterable word. In reading the Scriptures they substituted for it the word ADONAI (Lord), from the translation of which by Kurios in the LXX., followed by the Vulgate, which uses Dominus, we have the Lord of our version. The substitution of the word Lord is most unhappy, for it in no way represents the meaning of the sacred name. The key to the meaning of the name is unquestionably given in God’s revelation of himself to Moses by the phrase “I AM THAT I AM,” (Exodus 3:14; 6:3) We must connect the name Jehovah with the Hebrew substantive verb to be, with the inference that it expresses the essential, eternal, unchangeable being of Jehovah. But more, it is not the expression only, or chiefly, of an absolute truth: it is a practical revelation of God, in his essential, unchangeable relation to this chosen people, the basis of his covenant.",
-      "extracted_refs": [
-        {
-          "book": "Genesis",
-          "chapter": 17,
-          "verses": [
-            1
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 17:1",
-          "source": "SMI"
-        },
-        {
-          "book": "Genesis",
-          "chapter": 28,
-          "verses": [
-            3
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 28:3",
-          "source": "SMI"
-        },
-        {
-          "book": "Exodus",
-          "chapter": 6,
-          "verses": [
-            3
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Exodus 6:3",
-          "source": "SMI"
-        },
-        {
-          "book": "Leviticus",
-          "chapter": 24,
-          "verses": [
-            16
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Leviticus 24:16",
-          "source": "SMI"
-        },
-        {
-          "book": "Exodus",
-          "chapter": 3,
-          "verses": [
-            14
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Exodus 3:14",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
     "NAV",
-    "TOR",
-    "EAS",
-    "SMI"
+    "TOR"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -5834,22 +5608,5 @@
       "raw": "Exodus 3:14",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 19,
-    "ot": 17,
-    "nt": 2,
-    "books": [
-      "Deuteronomy",
-      "Exodus",
-      "Genesis",
-      "Habakkuk",
-      "Isaiah",
-      "Job",
-      "Leviticus",
-      "Numbers",
-      "Psalms",
-      "Revelation"
-    ]
-  }
+  ]
 }

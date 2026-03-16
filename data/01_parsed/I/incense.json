@@ -1,7 +1,7 @@
 {
   "topic": "INCENSE",
   "slug": "incense",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Formula for compounding Ex 30:34,35",
@@ -692,17 +692,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_222254",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T22:22:54.633378",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [
     "ALTAR OF INCENSE"
   ],
@@ -715,198 +704,9 @@
     "ot_refs": 41,
     "nt_refs": 7
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "A fragrant composition prepared by the “art of the apothecary.” It consisted of four ingredients “beaten small” (Ex. 30:34-36). That which was not thus prepared was called “strange incense” (30:9). It was offered along with every meat-offering; and besides was daily offered on the golden altar in the holy place, and on the great day of atonement was burnt by the high priest in the holy of holies (30:7, 8). It was the symbol of prayer (Ps. 141:1, 2; Rev. 5:8; 8:3, 4).",
-      "extracted_refs": [
-        {
-          "book": "Exodus",
-          "chapter": 30,
-          "verses": [
-            34,
-            35,
-            36
-          ],
-          "verse_count": 3,
-          "testament": "OT",
-          "raw": "Exodus 30:34-36",
-          "source": "EAS"
-        },
-        {
-          "book": "Psalms",
-          "chapter": 141,
-          "verses": [
-            1,
-            2
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Psalms 141:1, 2",
-          "source": "EAS"
-        },
-        {
-          "book": "Revelation",
-          "chapter": 5,
-          "verses": [
-            8
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Revelation 5:8",
-          "source": "EAS"
-        },
-        {
-          "book": "Revelation",
-          "chapter": 8,
-          "verses": [
-            3,
-            4
-          ],
-          "verse_count": 2,
-          "testament": "NT",
-          "raw": "Revelation 8:3, 4",
-          "source": "EAS"
-        },
-        {
-          "book": "Exodus",
-          "chapter": 30,
-          "verses": [
-            9
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Exodus 30:9",
-          "source": "EAS"
-        },
-        {
-          "book": "Exodus",
-          "chapter": 30,
-          "verses": [
-            7,
-            8
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Exodus 30:7, 8",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "from the Latin “to burn,” “a mixture of gums or spices and the like, used for the purpose of producing a perfume when burned;” or the perfume itself of the spices, etc., burned in worship. The incense employed in the service of the tabernacle walls compounded of the perfumes stacte, onycha, galbanum and pure frankincense. All incense which was not made of these ingredients was forbidden to be offered. (Exodus 30:9) Aaron, as high priest, was originally appointed to offer incense each morning and evening. The times of offering incense were specified in the instructions first given to Moses. (Exodus 30:7,8) When the priest entered the holy place with the incense, all the people were removed from the temple, and from between the porch and the altar. Cf. (Luke 1:10) Profound silence was observed among the congregation who were praying without, cf. (Revelation 8:1) and at a signal from the perfect the priest cast the incense on the fire and, bowing reverently toward the holy of holies, retired slowly backward. The offering of incense has formed part of the religious ceremonies of most ancient nations. It was an element in the idolatrous worship of the Israelites. (2 Chronicles 34:25; Jeremiah 11:12,17; 48:35) It would seem to be symbolical, not of itself, but of that which makes acceptable, the intercession of Christ. In (Revelation 8:3,4) the incense is of as something distinct from offered with the prayers of, all the saints cf. (Luke 1:10) and in Reve 6:8 It is the golden vials, and not the odors or incense, which are said to be the prayers of saints.",
-      "extracted_refs": [
-        {
-          "book": "Exodus",
-          "chapter": 30,
-          "verses": [
-            9
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Exodus 30:9",
-          "source": "SMI"
-        },
-        {
-          "book": "Exodus",
-          "chapter": 30,
-          "verses": [
-            7,
-            8
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Exodus 30:7,8",
-          "source": "SMI"
-        },
-        {
-          "book": "Luke",
-          "chapter": 1,
-          "verses": [
-            10
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Luke 1:10",
-          "source": "SMI"
-        },
-        {
-          "book": "Revelation",
-          "chapter": 8,
-          "verses": [
-            1
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Revelation 8:1",
-          "source": "SMI"
-        },
-        {
-          "book": "2 Chronicles",
-          "chapter": 34,
-          "verses": [
-            25
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "2 Chronicles 34:25",
-          "source": "SMI"
-        },
-        {
-          "book": "Jeremiah",
-          "chapter": 11,
-          "verses": [
-            12,
-            17
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Jeremiah 11:12,17",
-          "source": "SMI"
-        },
-        {
-          "book": "Jeremiah",
-          "chapter": 48,
-          "verses": [
-            35
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Jeremiah 48:35",
-          "source": "SMI"
-        },
-        {
-          "book": "Revelation",
-          "chapter": 8,
-          "verses": [
-            3,
-            4
-          ],
-          "verse_count": 2,
-          "testament": "NT",
-          "raw": "Revelation 8:3,4",
-          "source": "SMI"
-        },
-        {
-          "book": "Luke",
-          "chapter": 6,
-          "verses": [
-            8
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Luke 6:8",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
     "NAV",
-    "TOR",
-    "EAS",
-    "SMI"
+    "TOR"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -1056,18 +856,5 @@
       "raw": "Luke 6:8",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 18,
-    "ot": 12,
-    "nt": 6,
-    "books": [
-      "2 Chronicles",
-      "Exodus",
-      "Jeremiah",
-      "Luke",
-      "Psalms",
-      "Revelation"
-    ]
-  }
+  ]
 }

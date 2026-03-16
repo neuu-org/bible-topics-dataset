@@ -1,7 +1,7 @@
 {
   "topic": "COW",
   "slug": "cow",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Used for pulling 1Sa 6:7-12; Ho 10:11",
@@ -51,46 +51,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "O tópico 'Vaca' na Bíblia é abordado principalmente no Antigo Testamento, onde é mencionada em contextos de uso prático, como para puxar arados e como fonte de alimento através do leite. Além disso, a vaca é utilizada de forma figurativa em passagens como em Amós, onde simboliza a opressão e a riqueza excessiva. A vaca, como parte do gado, também se relaciona com temas de sustento e prosperidade na sociedade agrícola israelita.",
-    "outline": [
-      "Uso prático da vaca para puxar arados (1 Samuel, Hosea)",
-      "Referência ao leite como alimento",
-      "Simbolismo figurativo da vaca em Amós",
-      "Conexão com o gado e a agricultura",
-      "Importância cultural e econômica na sociedade israelita"
-    ],
-    "key_concepts": [
-      "Sustento e provisão divina",
-      "Simbolismo da opressão e riqueza",
-      "Relação entre homem e natureza"
-    ],
-    "theological_significance": "A vaca, como símbolo de sustento e trabalho, reflete a dependência do povo de Deus em relação à criação. Seu uso figurativo em textos proféticos destaca a crítica social e a necessidade de justiça, enfatizando a responsabilidade moral dos ricos em relação aos pobres.",
-    "model": "gpt-4o-mini",
-    "run_id": "enr_20251202_014350_0fa8723b",
-    "confidence": 1.0,
-    "generated_at": "2025-12-02T01:43:50.088060"
-  },
-  "ai_themes_normalized": [
-    {
-      "theme_id": null,
-      "proposal_id": "prop:sustento_como_bênção_0e0a55",
-      "label_original": "Sustento como bênção divina",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:opressão_e_riqueza_07da58",
-      "label_original": "Opressão e riqueza",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:relação_entre_homem__065d95",
-      "label_original": "Relação entre homem e criação",
-      "source": "ai_enrichment"
-    }
-  ],
   "see_also": [
     "MILK",
     "CATTLE",
@@ -103,71 +63,8 @@
     "nt_refs": 0,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "A cow and her calf were not to be killed on the same day (Lev. 22:28; Ex. 23:19; Deut. 22:6, 7). The reason for this enactment is not given. A state of great poverty is described in the words of Isa. 7:21-25, where, instead of possessing great resources, a man shall depend for the subsistence of himself and his family on what a single cow and two sheep could yield.",
-      "extracted_refs": [
-        {
-          "book": "Leviticus",
-          "chapter": 22,
-          "verses": [
-            28
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Leviticus 22:28",
-          "source": "EAS"
-        },
-        {
-          "book": "Exodus",
-          "chapter": 23,
-          "verses": [
-            19
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Exodus 23:19",
-          "source": "EAS"
-        },
-        {
-          "book": "Deuteronomy",
-          "chapter": 22,
-          "verses": [
-            6,
-            7
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Deuteronomy 22:6, 7",
-          "source": "EAS"
-        },
-        {
-          "book": "Isaiah",
-          "chapter": 7,
-          "verses": [
-            21,
-            22,
-            23,
-            24,
-            25
-          ],
-          "verse_count": 5,
-          "testament": "OT",
-          "raw": "Isaiah 7:21-25",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "[Bull, Bullock]"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -228,16 +125,5 @@
       "raw": "Isaiah 7:21-25",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 9,
-    "ot": 9,
-    "nt": 0,
-    "books": [
-      "Deuteronomy",
-      "Exodus",
-      "Isaiah",
-      "Leviticus"
-    ]
-  }
+  ]
 }

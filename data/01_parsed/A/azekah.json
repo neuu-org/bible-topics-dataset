@@ -1,7 +1,7 @@
 {
   "topic": "AZEKAH",
   "slug": "azekah",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A town of Judah Jos 10:10,11; 15:35; 1Sa 17:1; 2Ch 11:9; Ne 11:30; Jer 34:7",
@@ -60,51 +60,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "Azekah é uma cidade mencionada no Antigo Testamento, localizada na região de Judá. Referida em vários livros, incluindo Josué, 1 Samuel, 2 Crônicas, Neemias e Jeremias, Azekah desempenhou um papel significativo em eventos históricos, como a batalha contra os filisteus. Sua menção em múltiplos contextos bíblicos destaca sua importância geográfica e histórica na narrativa israelita, simbolizando a luta e a resistência do povo de Deus em face das adversidades.",
-    "outline": [
-      "Localização e importância de Azekah na tribo de Judá",
-      "Referências bíblicas em Josué, 1 Samuel, 2 Crônicas, Neemias e Jeremias",
-      "Eventos significativos associados a Azekah, como batalhas e alianças",
-      "O papel de Azekah na história de Israel e sua relevância teológica"
-    ],
-    "key_concepts": [
-      "A importância geográfica de cidades na narrativa bíblica",
-      "A relação entre o povo de Deus e suas terras prometidas",
-      "A luta contra inimigos como um tema central na história de Israel"
-    ],
-    "theological_significance": "Azekah representa a luta contínua do povo de Deus por sua terra e identidade. A cidade é um símbolo da fidelidade divina em meio a conflitos e desafios, refletindo a aliança entre Deus e Israel. A menção de Azekah em várias narrativas bíblicas ressalta a importância da geografia na história da salvação e a presença de Deus nas batalhas do Seu povo.",
-    "model": "gpt-4o-mini",
-    "run_id": "enr_20251201_201227_decdaa4d",
-    "confidence": 1.0,
-    "generated_at": "2025-12-01T20:12:27.834343"
-  },
-  "ai_themes_normalized": [
-    {
-      "theme_id": null,
-      "proposal_id": "prop:a_luta_de_israel_con_0004a8",
-      "label_original": "A luta de Israel contra os inimigos",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:a_terra_prometida_e__09e7e7",
-      "label_original": "A terra prometida e suas cidades",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:a_aliança_entre_deus_02cd84",
-      "label_original": "A aliança entre Deus e o povo de Israel",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:a_história_de_batalh_0880bc",
-      "label_original": "A história de batalhas e conquistas",
-      "source": "ai_enrichment"
-    }
-  ],
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -113,69 +68,8 @@
     "nt_refs": 0,
     "total_verses": 4
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Dug over, a town in the Shephelah or low hills of Judah (Josh. 15:35), where the five confederated Amoritish kings were defeated by Joshua and their army destroyed by a hailstrom (10:10, 11). It was one of the places re-occupied by the Jews on their return from the Captivity (Neh. 11:30).",
-      "extracted_refs": [
-        {
-          "book": "Joshua",
-          "chapter": 15,
-          "verses": [
-            35
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Joshua 15:35",
-          "source": "EAS"
-        },
-        {
-          "book": "Nehemiah",
-          "chapter": 11,
-          "verses": [
-            30
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Nehemiah 11:30",
-          "source": "EAS"
-        },
-        {
-          "book": "Joshua",
-          "chapter": 10,
-          "verses": [
-            10,
-            11
-          ],
-          "verse_count": 2,
-          "testament": "OT",
-          "raw": "Joshua 10:10, 11",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "(dugover), a town of Judah, with dependent villages, lying in the Shefelah or rich agricultural plain. It is most clearly defined as being near Shochoh, (1 Samuel 17:1) but its position has not yet been recognized.",
-      "extracted_refs": [
-        {
-          "book": "1 Samuel",
-          "chapter": 17,
-          "verses": [
-            1
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Samuel 17:1",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -232,15 +126,5 @@
       "raw": "1 Samuel 17:1",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 5,
-    "ot": 5,
-    "nt": 0,
-    "books": [
-      "1 Samuel",
-      "Joshua",
-      "Nehemiah"
-    ]
-  }
+  ]
 }

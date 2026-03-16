@@ -1,7 +1,7 @@
 {
   "topic": "BITHYNIA",
   "slug": "bithynia",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "A Roman province in Asia Minor Ac 16:7; 1Pe 1:1",
@@ -24,45 +24,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "Bítinia foi uma província romana localizada na Ásia Menor, mencionada no Novo Testamento em Atos 16:7 e na Primeira Epístola de Pedro 1:1. Esta região é significativa no contexto da expansão do cristianismo, servindo como um ponto de referência para a disseminação da mensagem cristã entre as comunidades gentias. A presença de Bítinia nas escrituras destaca a interconexão entre as comunidades cristãs e a geografia do Império Romano, refletindo a importância da evangelização em áreas estratégicas.",
-    "outline": [
-      "Localização geográfica de Bítinia na Ásia Menor",
-      "Referências bíblicas em Atos e na Primeira Epístola de Pedro",
-      "Importância da província para a expansão do cristianismo",
-      "Contexto cultural e social da Bítinia no Novo Testamento"
-    ],
-    "key_concepts": [
-      "Evangelização em regiões estratégicas",
-      "Interconexão entre comunidades cristãs",
-      "Influência do Império Romano na propagação do cristianismo"
-    ],
-    "theological_significance": "A menção de Bítinia no Novo Testamento ilustra a abrangência da missão cristã e a intenção de Deus de alcançar todas as nações. A inclusão de Bítinia nas epístolas reflete a universalidade da mensagem cristã e a importância de cada região na história da salvação.",
-    "model": "gpt-4o-mini",
-    "run_id": "enr_20251201_233315_3ebc6504",
-    "confidence": 1.0,
-    "generated_at": "2025-12-01T23:33:15.664767"
-  },
-  "ai_themes_normalized": [
-    {
-      "theme_id": null,
-      "proposal_id": "prop:evangelização_em_reg_0c3900",
-      "label_original": "Evangelização em regiões estratégicas",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:interconexão_entre_c_0b9171",
-      "label_original": "Interconexão entre comunidades cristãs",
-      "source": "ai_enrichment"
-    },
-    {
-      "theme_id": null,
-      "proposal_id": "prop:influência_do_impéri_063e28",
-      "label_original": "Influência do Império Romano na propagação do cristianismo",
-      "source": "ai_enrichment"
-    }
-  ],
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -71,68 +32,8 @@
     "nt_refs": 1,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "A province in Asia Minor, to the south of the Euxine and Propontis. Christian congregations were here formed at an early time (1 Pet. 1:1). Paul was prevented by the Spirit from entering this province (Acts 16:7). It is noted in church history as the province ruled over by Pliny as Roman proconsul, who was perplexed as to the course he should take with the numerous Christians brought before his tribunal on account of their profession of Christianity and their conduct, and wrote to Trajan, the emperor, for instructions (A.D. 107).",
-      "extracted_refs": [
-        {
-          "book": "1 Peter",
-          "chapter": 1,
-          "verses": [
-            1
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "1 Peter 1:1",
-          "source": "EAS"
-        },
-        {
-          "book": "Acts",
-          "chapter": 16,
-          "verses": [
-            7
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Acts 16:7",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "a Roman province of Asia Minor. Mentioned only in (Acts 16:7) and in 1Pet 1:1 The chief town of Bithynia was Nicaea, celebrated for the general Council of the Church held there in A.D. 325 against the Arian heresy.",
-      "extracted_refs": [
-        {
-          "book": "Acts",
-          "chapter": 16,
-          "verses": [
-            7
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Acts 16:7",
-          "source": "SMI"
-        },
-        {
-          "book": "1 Peter",
-          "chapter": 1,
-          "verses": [
-            1
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "1 Peter 1:1",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -166,14 +67,5 @@
       "raw": "Acts 16:7",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 2,
-    "ot": 0,
-    "nt": 2,
-    "books": [
-      "1 Peter",
-      "Acts"
-    ]
-  }
+  ]
 }

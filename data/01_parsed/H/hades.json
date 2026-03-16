@@ -1,7 +1,7 @@
 {
   "topic": "HADES",
   "slug": "hades",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "1. The unseen world, translated “hell” in A. V., but in the R. V. the word “Hades” is retained Mt 10:28; 11:23; 16:18; Lu 10:15; 16:23; Ac 2:27,31; Re 1:18; 6:8; 20:13,14",
@@ -178,17 +178,6 @@
       "verse_count": 2
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_205347",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T20:53:47.350939",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [
     "HELL",
     "SPIRIT",
@@ -204,139 +193,8 @@
     "nt_refs": 6,
     "total_verses": 12
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "That which is out of sight, a Greek word used to denote the state or place of the dead. All the dead alike go into this place. To be buried, to go down to the grave, to descend into hades, are equivalent expressions. In the LXX. this word is the usual rendering of the Hebrew sheol, the common receptacle of the departed (Gen. 42:38; Ps. 139:8; Hos. 13:14; Isa. 14:9). This term is of comparatively rare occurrence in the Greek New Testament. Our Lord speaks of Capernaum as being “brought down to hell” (hades), i.e., simply to the lowest debasement, (Matt. 11:23). It is contemplated as a kind of kingdom which could never overturn the foundation of Christ’s kingdom (16:18), i.e., Christ’s church can never die. In Luke 16:23 it is most distinctly associated with the doom and misery of the lost. In Acts 2:27-31 Peter quotes the LXX. version of Ps. 16:8-11, plainly for the purpose of proving our Lord’s resurrection from the dead. David was left in the place of the dead, and his body saw corruption. Not so with Christ. According to ancient prophecy (Ps. 30:3) he was recalled to life.",
-      "extracted_refs": [
-        {
-          "book": "Genesis",
-          "chapter": 42,
-          "verses": [
-            38
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Genesis 42:38",
-          "source": "EAS"
-        },
-        {
-          "book": "Psalms",
-          "chapter": 139,
-          "verses": [
-            8
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Psalms 139:8",
-          "source": "EAS"
-        },
-        {
-          "book": "Hosea",
-          "chapter": 13,
-          "verses": [
-            14
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Hosea 13:14",
-          "source": "EAS"
-        },
-        {
-          "book": "Isaiah",
-          "chapter": 14,
-          "verses": [
-            9
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Isaiah 14:9",
-          "source": "EAS"
-        },
-        {
-          "book": "Matthew",
-          "chapter": 11,
-          "verses": [
-            23
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Matthew 11:23",
-          "source": "EAS"
-        },
-        {
-          "book": "Psalms",
-          "chapter": 30,
-          "verses": [
-            3
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Psalms 30:3",
-          "source": "EAS"
-        },
-        {
-          "book": "Matthew",
-          "chapter": 16,
-          "verses": [
-            18
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Matthew 16:18",
-          "source": "EAS"
-        },
-        {
-          "book": "Luke",
-          "chapter": 16,
-          "verses": [
-            23
-          ],
-          "verse_count": 1,
-          "testament": "NT",
-          "raw": "Luke 16:23",
-          "source": "EAS"
-        },
-        {
-          "book": "Acts",
-          "chapter": 2,
-          "verses": [
-            27,
-            28,
-            29,
-            30,
-            31
-          ],
-          "verse_count": 5,
-          "testament": "NT",
-          "raw": "Acts 2:27-31",
-          "source": "EAS"
-        },
-        {
-          "book": "Psalms",
-          "chapter": 16,
-          "verses": [
-            8,
-            9,
-            10,
-            11
-          ],
-          "verse_count": 4,
-          "testament": "OT",
-          "raw": "Psalms 16:8-11",
-          "source": "EAS"
-        }
-      ]
-    },
-    {
-      "source": "SMI",
-      "text": "in Revised Version. [See Hell]"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -465,19 +323,5 @@
       "raw": "Psalms 16:8-11",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 17,
-    "ot": 9,
-    "nt": 8,
-    "books": [
-      "Acts",
-      "Genesis",
-      "Hosea",
-      "Isaiah",
-      "Luke",
-      "Matthew",
-      "Psalms"
-    ]
-  }
+  ]
 }

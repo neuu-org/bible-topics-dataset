@@ -1,7 +1,7 @@
 {
   "topic": "HAGABA",
   "slug": "hagaba",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Also called HAGABAH",
@@ -29,17 +29,6 @@
       "verse_count": 1
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250924_205451",
-    "confidence": 0.0,
-    "generated_at": "2025-09-24T20:54:51.126348",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -48,28 +37,8 @@
     "nt_refs": 0,
     "total_verses": 1
   },
-  "definitions": [
-    {
-      "source": "SMI",
-      "text": "(locust). Bene Hagaba were among the Nethinim who came back from captivity with Zerubbabel. (Nehemiah 7:48) The name is slightly different in form from",
-      "extracted_refs": [
-        {
-          "book": "Nehemiah",
-          "chapter": 7,
-          "verses": [
-            48
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Nehemiah 7:48",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -92,13 +61,5 @@
       "raw": "Nehemiah 7:48",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 1,
-    "ot": 1,
-    "nt": 0,
-    "books": [
-      "Nehemiah"
-    ]
-  }
+  ]
 }

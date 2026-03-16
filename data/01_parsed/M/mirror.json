@@ -1,7 +1,7 @@
 {
   "topic": "MIRROR",
   "slug": "mirror",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Of brass (bronze) Job 37:18",
@@ -61,17 +61,6 @@
       "verse_count": 2
     }
   ],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_011402",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T01:14:02.307588",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -80,50 +69,8 @@
     "nt_refs": 2,
     "total_verses": 3
   },
-  "definitions": [
-    {
-      "source": "SMI",
-      "text": "(Exodus 38:8; Job 37:18) The Hebrew women on coming out of Egypt probably brought with them mirrors like those which were used by the Egyptians, and were made of a mixed metal, chiefly copper, wrought with admirable skill, and susceptible of a bright lustre. (1 Chronicles 13:12)",
-      "extracted_refs": [
-        {
-          "book": "Exodus",
-          "chapter": 38,
-          "verses": [
-            8
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Exodus 38:8",
-          "source": "SMI"
-        },
-        {
-          "book": "Job",
-          "chapter": 37,
-          "verses": [
-            18
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Job 37:18",
-          "source": "SMI"
-        },
-        {
-          "book": "1 Chronicles",
-          "chapter": 13,
-          "verses": [
-            12
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "1 Chronicles 13:12",
-          "source": "SMI"
-        }
-      ]
-    }
-  ],
   "sources": [
-    "NAV",
-    "SMI"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -168,15 +115,5 @@
       "raw": "1 Chronicles 13:12",
       "source": "SMI"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 3,
-    "ot": 3,
-    "nt": 0,
-    "books": [
-      "1 Chronicles",
-      "Exodus",
-      "Job"
-    ]
-  }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "topic": "LO-RUHAMAH",
   "slug": "lo-ruhamah",
-  "type": "both",
+  "type": "topic",
   "reference_groups": [
     {
       "name": "Hosea’s daughter Ho 1:6-8",
@@ -12,17 +12,6 @@
     }
   ],
   "biblical_references": [],
-  "ai_enrichment": {
-    "summary": "",
-    "outline": [],
-    "key_concepts": [],
-    "theological_significance": "",
-    "model": "gpt-4o-mini",
-    "run_id": "failed_20250925_001120",
-    "confidence": 0.0,
-    "generated_at": "2025-09-25T00:11:20.683220",
-    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
-  },
   "see_also": [],
   "aliases": [],
   "stats": {
@@ -31,49 +20,8 @@
     "nt_refs": 0,
     "total_verses": 0
   },
-  "definitions": [
-    {
-      "source": "EAS",
-      "text": "Not pitied, the name of the prophet Hosea’s first daughter, a type of Jehovah’s temporary rejection of his people (Hos. 1:6; 2:23).",
-      "extracted_refs": [
-        {
-          "book": "Hosea",
-          "chapter": 1,
-          "verses": [
-            6
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Hosea 1:6",
-          "source": "EAS"
-        },
-        {
-          "book": "Hosea",
-          "chapter": 2,
-          "verses": [
-            23
-          ],
-          "verse_count": 1,
-          "testament": "OT",
-          "raw": "Hosea 2:23",
-          "source": "EAS"
-        }
-      ]
-    }
-  ],
-  "dictionary_refs": [
-    {
-      "reference": "Hosea 1:6",
-      "original": "Hos. 1:6"
-    },
-    {
-      "reference": "Hosea 2:23",
-      "original": "Hos 2:23"
-    }
-  ],
   "sources": [
-    "NAV",
-    "EAS"
+    "NAV"
   ],
   "metadata": {
     "schema_version": "v3.0",
@@ -107,13 +55,5 @@
       "raw": "Hosea 2:23",
       "source": "EAS"
     }
-  ],
-  "definition_refs_stats": {
-    "total": 2,
-    "ot": 2,
-    "nt": 0,
-    "books": [
-      "Hosea"
-    ]
-  }
+  ]
 }

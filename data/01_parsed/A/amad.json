@@ -1,0 +1,284 @@
+{
+  "topic": "AMAD",
+  "slug": "amad",
+  "type": "both",
+  "reference_groups": [
+    {
+      "name": "A town of Asher Jos 19:26",
+      "references": [
+        "Josh 19:26"
+      ],
+      "sub_groups": []
+    }
+  ],
+  "biblical_references": [],
+  "ai_enrichment": {
+    "summary": "Amad é uma cidade mencionada na divisão das terras de Israel, especificamente na tribo de Asher, conforme registrado em Josué 19:26. Sua inclusão na lista de cidades reflete a importância da geografia e da herança tribal na narrativa bíblica, destacando a distribuição das terras prometidas por Deus ao povo de Israel. A cidade de Amad, embora não amplamente discutida nas Escrituras, representa a fidelidade de Deus em cumprir Suas promessas e a identidade das tribos de Israel.",
+    "outline": [
+      "Localização geográfica de Amad na tribo de Asher",
+      "Significado do nome Amad e suas implicações",
+      "A importância das cidades na divisão das terras de Israel",
+      "O papel de Asher na história de Israel"
+    ],
+    "key_concepts": [
+      "Herança tribal",
+      "Promessa de Deus",
+      "Identidade israelita"
+    ],
+    "theological_significance": "A menção de Amad na Bíblia ilustra a fidelidade de Deus em cumprir Suas promessas de dar uma terra aos israelitas. Para a fé cristã, isso reforça a ideia de que Deus é um Deus que cumpre Suas promessas, e que a herança espiritual é um tema central na vida do crente, refletindo a continuidade da aliança de Deus com Seu povo.",
+    "model": "gpt-4o-mini",
+    "run_id": "enr_20250923_124750_a9e55a34",
+    "confidence": 1.0,
+    "generated_at": "2025-09-23T12:47:50.284668"
+  },
+  "ai_themes_normalized": [
+    {
+      "theme_id": null,
+      "proposal_id": "prop:promessa_e_cumprimento_bf4202",
+      "label_original": "Promessa e cumprimento",
+      "source": "ai_enrichment"
+    },
+    {
+      "theme_id": null,
+      "proposal_id": "prop:identidade_e_heranca_6b4d76",
+      "label_original": "Identidade e herança",
+      "source": "ai_enrichment"
+    },
+    {
+      "theme_id": null,
+      "proposal_id": "prop:geografia_biblica_570883",
+      "label_original": "Geografia bíblica",
+      "source": "ai_enrichment"
+    }
+  ],
+  "phase1_discovery": {
+    "processed_at": "2025-09-23T22:40:51.256628Z",
+    "total_themes_processed": 3,
+    "summary": {
+      "total_processed": 3,
+      "decisions": {
+        "alias_existing": 0,
+        "proposed": 3,
+        "error": 0
+      },
+      "success_rate": 1.0
+    },
+    "results": [
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.8401,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_9f4008cb",
+          "decision_hash": "4779c03f37ca4e8e",
+          "created_at": "2025-09-23T22:40:51.256628Z"
+        },
+        "proposal_id": "prop:3b904e99",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:promessa_e_cumprimento_bf4202",
+          "label_original": "Promessa e cumprimento",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.84368,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_caa9b4de",
+          "decision_hash": "1dbc77b1fb1c51bc",
+          "created_at": "2025-09-23T22:40:52.212419Z"
+        },
+        "proposal_id": "prop:66f1b862",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:identidade_e_heranca_6b4d76",
+          "label_original": "Identidade e herança",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.84922,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_62895f74",
+          "decision_hash": "6efc9dcd9c20faae",
+          "created_at": "2025-09-23T22:40:53.396191Z"
+        },
+        "proposal_id": "prop:2d384661",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:geografia_biblica_570883",
+          "label_original": "Geografia bíblica",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      }
+    ]
+  },
+  "entity_links": [
+    {
+      "canonical_id": "CON:amad",
+      "namespace": "CONCEPT",
+      "role": "primary",
+      "confidence": 0.9,
+      "source": "topic_resolver",
+      "status": "proposed",
+      "provenance": {
+        "topic": "AMAD",
+        "extracted_from": "AMAD",
+        "processing_result": {
+          "status": "proposed",
+          "proposal_id": "stub:CON:amad_8e801194",
+          "canonical_id": "CON:amad",
+          "needs_review": true,
+          "reasons": [
+            "low_confidence",
+            "insufficient_sources"
+          ],
+          "message": "Entity proposal stub:CON:amad_8e801194 created"
+        }
+      }
+    }
+  ],
+  "see_also": [],
+  "aliases": [],
+  "stats": {
+    "entries_count": 1,
+    "ot_refs": 0,
+    "nt_refs": 0,
+    "total_verses": 0
+  },
+  "definitions": [
+    {
+      "source": "SMI",
+      "text": "(enduring), an unknown place in Asher, between Alammelech and Misheal. (Joshua 19:26) only.",
+      "extracted_refs": [
+        {
+          "book": "Joshua",
+          "chapter": 19,
+          "verses": [
+            26
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "Joshua 19:26",
+          "source": "SMI"
+        }
+      ]
+    }
+  ],
+  "dictionary_refs": [
+    {
+      "reference": "Joshua 19:26",
+      "original": "Joshua 19:26"
+    }
+  ],
+  "sources": [
+    "NAV",
+    "SMI"
+  ],
+  "metadata": {
+    "schema_version": "v3.0",
+    "created_at": "2025-12-02T21:53:08.662773+00:00",
+    "merged_from": {
+      "v2": true,
+      "dictionary": true
+    }
+  },
+  "version": "3.0.0",
+  "definition_refs": [
+    {
+      "book": "Joshua",
+      "chapter": 19,
+      "verses": [
+        26
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 19:26",
+      "source": "SMI"
+    }
+  ],
+  "definition_refs_stats": {
+    "total": 1,
+    "ot": 1,
+    "nt": 0,
+    "books": [
+      "Joshua"
+    ]
+  }
+}

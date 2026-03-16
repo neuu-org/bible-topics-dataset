@@ -1,0 +1,85 @@
+{
+  "topic": "CAUTION",
+  "topic_slug": "caution",
+  "canonical_id": "NAV:caution",
+  "aliases": [],
+  "see_also": [
+    "EXPEDIENCY",
+    "PRUDENCE"
+  ],
+  "see_also_resolved": [
+    {
+      "original": "EXPEDIENCY",
+      "clean": "EXPEDIENCY",
+      "slug": "expediency",
+      "canonical_id": "NAV:expediency"
+    },
+    {
+      "original": "PRUDENCE",
+      "clean": "PRUDENCE",
+      "slug": "prudence",
+      "canonical_id": "NAV:prudence"
+    }
+  ],
+  "raw_block": "–SeeEXPEDIENCY\n–SeePRUDENCE",
+  "content_preview": "–SeeEXPEDIENCY",
+  "reference_groups": [
+    {
+      "idx": 0,
+      "entry_label": "–SeeEXPEDIENCY",
+      "raw_segment": "–SeeEXPEDIENCY"
+    },
+    {
+      "idx": 1,
+      "entry_label": "–SeePRUDENCE",
+      "raw_segment": "–SeePRUDENCE"
+    }
+  ],
+  "biblical_references": [],
+  "books_mentioned": [],
+  "normalized_labels": [],
+  "stats": {
+    "entries_count": 1,
+    "ot_refs": 0,
+    "nt_refs": 0,
+    "total_verses": 0,
+    "top_books": [],
+    "ref_counts_by_book": {}
+  },
+  "source": {
+    "provider": "ccel",
+    "work": "Nave's Topical Bible",
+    "format": "xml",
+    "fetched_at": "2025-09-20",
+    "source_url": null,
+    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
+  },
+  "metadata": {
+    "parser": "ccel-nave-xml-parser",
+    "parser_version": "2025.09.19",
+    "schema_version": "scrape.v1",
+    "language": {
+      "code": "en",
+      "name": "English",
+      "direction": "ltr"
+    },
+    "integrity": {
+      "checksum_raw_block": "sha256:5e9fe8405d538f9f25f7ba771b4622ac0a60dd00a49239c93af6a5e4503ffa19",
+      "position": {
+        "start_line": null,
+        "end_line": null,
+        "total_lines": 2
+      }
+    },
+    "notes": [
+      "XML-based parsing from official CCEL ThML source",
+      "Perfect biblical reference extraction with osisRef",
+      "Structured hierarchy preservation",
+      "Complete topic linking and see_also resolution"
+    ]
+  },
+  "total_references": 0,
+  "version": "1.0.0",
+  "created_at": "2025-09-20T17:24:51.528277Z",
+  "updated_at": "2025-09-20T17:24:51.528284Z"
+}

@@ -1,0 +1,368 @@
+{
+  "topic": "AHOLAH",
+  "slug": "aholah",
+  "type": "both",
+  "reference_groups": [
+    {
+      "name": "Name of an imaginary woman, typical of idolatry Eze 23:4,5,36,44",
+      "references": [
+        "Ezek 23:4",
+        "Ezek 23:5",
+        "Ezek 23:36",
+        "Ezek 23:44"
+      ],
+      "sub_groups": []
+    }
+  ],
+  "biblical_references": [],
+  "ai_enrichment": {
+    "summary": "Aholah é uma figura simbólica mencionada em Ezequiel 23, representando a cidade de Samaria e, por extensão, o reino do norte de Israel. Ela é descrita como uma mulher que se entregou à idolatria e à infidelidade, simbolizando a traição do povo de Israel a Deus. Através de Aholah, o profeta Ezequiel ilustra a corrupção espiritual e moral que resultou na queda de Israel, enfatizando a severidade do juízo divino sobre a idolatria. Aholah serve como um alerta sobre as consequências da infidelidade a Deus e a busca por deuses estranhos, refletindo a necessidade de fidelidade e pureza espiritual na vida do crente.",
+    "outline": [
+      "Aholah como símbolo da idolatria de Israel",
+      "A relação de Aholah com a cidade de Samaria",
+      "O juízo divino sobre a infidelidade representada por Aholah",
+      "A relevância de Aholah para a compreensão da adoração verdadeira"
+    ],
+    "key_concepts": [
+      "Idolatria",
+      "Infidelidade espiritual",
+      "Juízo divino"
+    ],
+    "theological_significance": "Aholah representa a gravidade da idolatria e a infidelidade do povo de Deus, servindo como um aviso para os cristãos sobre a importância de permanecerem fiéis a Deus. Através da história de Aholah, os crentes são desafiados a refletir sobre suas próprias práticas de adoração e a evitar qualquer forma de desvio espiritual que possa levar à separação de Deus.",
+    "model": "gpt-4o-mini",
+    "run_id": "enr_20250923_123829_406a7a55",
+    "confidence": 1.0,
+    "generated_at": "2025-09-23T12:38:29.335815"
+  },
+  "ai_themes_normalized": [
+    {
+      "theme_id": null,
+      "proposal_id": "prop:fidelidade_a_deus_5b1251",
+      "label_original": "Fidelidade a Deus",
+      "source": "ai_enrichment"
+    },
+    {
+      "theme_id": null,
+      "proposal_id": "prop:consequencias_da_idolatria_b79b1b",
+      "label_original": "Consequências da idolatria",
+      "source": "ai_enrichment"
+    },
+    {
+      "theme_id": null,
+      "proposal_id": "prop:a_necessidade_de_arrependimento_33871d",
+      "label_original": "A necessidade de arrependimento",
+      "source": "ai_enrichment"
+    }
+  ],
+  "phase1_discovery": {
+    "processed_at": "2025-09-23T22:37:53.723489Z",
+    "total_themes_processed": 3,
+    "summary": {
+      "total_processed": 3,
+      "decisions": {
+        "alias_existing": 0,
+        "proposed": 3,
+        "error": 0
+      },
+      "success_rate": 1.0
+    },
+    "results": [
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "low_novelty",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.7717999999999999,
+          "novelty": 0.6666666666666667,
+          "similarity_to_best_existing": 0.3333333333333333,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_bf61cd65",
+          "decision_hash": "1ee426c9a4a04c0d",
+          "created_at": "2025-09-23T22:37:53.723489Z"
+        },
+        "proposal_id": "prop:07a7058b",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:fidelidade_a_deus_5b1251",
+          "label_original": "Fidelidade a Deus",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.83946,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_8c8191df",
+          "decision_hash": "e775861f39ce4eb5",
+          "created_at": "2025-09-23T22:37:54.598251Z"
+        },
+        "proposal_id": "prop:d866b95c",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:consequencias_da_idolatria_b79b1b",
+          "label_original": "Consequências da idolatria",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.83594,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_cbb2a98c",
+          "decision_hash": "19f98fafb120714c",
+          "created_at": "2025-09-23T22:37:55.913860Z"
+        },
+        "proposal_id": "prop:609b8d08",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:a_necessidade_de_arrependimento_33871d",
+          "label_original": "A necessidade de arrependimento",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      }
+    ]
+  },
+  "entity_links": [
+    {
+      "canonical_id": "CON:aholah",
+      "namespace": "CONCEPT",
+      "role": "primary",
+      "confidence": 0.9,
+      "source": "topic_resolver",
+      "status": "proposed",
+      "provenance": {
+        "topic": "AHOLAH",
+        "extracted_from": "AHOLAH",
+        "processing_result": {
+          "status": "proposed",
+          "proposal_id": "stub:CON:aholah_e47cf7f8",
+          "canonical_id": "CON:aholah",
+          "needs_review": true,
+          "reasons": [
+            "low_confidence",
+            "insufficient_sources"
+          ],
+          "message": "Entity proposal stub:CON:aholah_e47cf7f8 created"
+        }
+      }
+    }
+  ],
+  "see_also": [],
+  "aliases": [],
+  "stats": {
+    "entries_count": 1,
+    "ot_refs": 0,
+    "nt_refs": 0,
+    "total_verses": 0
+  },
+  "definitions": [
+    {
+      "source": "EAS",
+      "text": "She has her own tent, a name used by Ezekiel (23:4, 5, 36, 44) as a symbol of the idolatry of the kingdom of Israel. This kingdom is described as a lewdwoman, an adulteress, given up to the abominations and idolatries of the Egyptians and Assyrians. Because of her crimes, she was carried away captive, and ceased to be a kingdom. (Comp. Ps. 78:67-69; 1 Kings 12:25-33; 2 Chr. 11:13-16.)",
+      "extracted_refs": [
+        {
+          "book": "Psalms",
+          "chapter": 78,
+          "verses": [
+            67,
+            68,
+            69
+          ],
+          "verse_count": 3,
+          "testament": "OT",
+          "raw": "Psalms 78:67-69",
+          "source": "EAS"
+        },
+        {
+          "book": "1 Kings",
+          "chapter": 12,
+          "verses": [
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33
+          ],
+          "verse_count": 9,
+          "testament": "OT",
+          "raw": "1 Kings 12:25-33",
+          "source": "EAS"
+        },
+        {
+          "book": "2 Chronicles",
+          "chapter": 11,
+          "verses": [
+            13,
+            14,
+            15,
+            16
+          ],
+          "verse_count": 4,
+          "testament": "OT",
+          "raw": "2 Chronicles 11:13-16",
+          "source": "EAS"
+        }
+      ]
+    }
+  ],
+  "dictionary_refs": [
+    {
+      "reference": "Psalms 78:67-69",
+      "original": "Ps. 78:67-69"
+    },
+    {
+      "reference": "1 Kings 12:25-33",
+      "original": "1 Kings 12:25-33"
+    },
+    {
+      "reference": "2 Chronicles 11:13-16",
+      "original": "2 Chr. 11:13-16"
+    }
+  ],
+  "sources": [
+    "NAV",
+    "EAS"
+  ],
+  "metadata": {
+    "schema_version": "v3.0",
+    "created_at": "2025-12-02T21:53:08.662186+00:00",
+    "merged_from": {
+      "v2": true,
+      "dictionary": true
+    }
+  },
+  "version": "3.0.0",
+  "definition_refs": [
+    {
+      "book": "Psalms",
+      "chapter": 78,
+      "verses": [
+        67,
+        68,
+        69
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Psalms 78:67-69",
+      "source": "EAS"
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 12,
+      "verses": [
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33
+      ],
+      "verse_count": 9,
+      "testament": "OT",
+      "raw": "1 Kings 12:25-33",
+      "source": "EAS"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 11,
+      "verses": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "verse_count": 4,
+      "testament": "OT",
+      "raw": "2 Chronicles 11:13-16",
+      "source": "EAS"
+    }
+  ],
+  "definition_refs_stats": {
+    "total": 16,
+    "ot": 16,
+    "nt": 0,
+    "books": [
+      "1 Kings",
+      "2 Chronicles",
+      "Psalms"
+    ]
+  }
+}

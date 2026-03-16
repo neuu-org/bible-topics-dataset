@@ -1,0 +1,262 @@
+{
+  "topic": "AMNESTY",
+  "slug": "amnesty",
+  "type": "topic",
+  "reference_groups": [
+    {
+      "name": "For political offenses",
+      "references": [],
+      "sub_groups": [
+        {
+          "name": "To Shimei 2Sa 19:16-23",
+          "references": [
+            "2Sam 19:16-23"
+          ]
+        },
+        {
+          "name": "To Amos 2Sa 19:13; with 17:25",
+          "references": [
+            "Amos 2"
+          ]
+        }
+      ]
+    }
+  ],
+  "biblical_references": [
+    {
+      "book": "2 Samuel",
+      "book_abbrev": "2sa",
+      "chapter": 19,
+      "testament": "OT",
+      "verses": [
+        13
+      ],
+      "verse_count": 1
+    }
+  ],
+  "ai_enrichment": {
+    "summary": "O conceito de 'amnistia' na Bíblia, especialmente em relação a ofensas políticas, é exemplificado nas histórias de Shimei e Amnon. A amnistia, neste contexto, refere-se ao perdão ou à isenção de punição para aqueles que cometeram crimes políticos, refletindo a complexidade das relações de poder e a busca pela reconciliação. A narrativa de 2 Samuel 19:16-23, onde Davi concede perdão a Shimei, ilustra a importância da misericórdia e da restauração nas dinâmicas de liderança e governança. Este tema é relevante para a compreensão da justiça divina e da necessidade de perdão nas relações humanas.",
+    "outline": [
+      "A amnistia como um ato de misericórdia política em 2 Samuel 19:16-23.",
+      "O perdão de Davi a Shimei e suas implicações para a liderança.",
+      "A relação entre amnistia e justiça nas Escrituras.",
+      "A amnistia como um reflexo da graça divina."
+    ],
+    "key_concepts": [
+      "Perdão",
+      "Justiça",
+      "Reconciliacão"
+    ],
+    "theological_significance": "A amnistia, especialmente em contextos políticos, revela a natureza de Deus como um ser que busca a reconciliação e o perdão. Para os cristãos, isso se traduz na prática do perdão em suas próprias vidas, refletindo a graça que receberam. A amnistia também desafia os crentes a considerar a justiça não apenas como punição, mas como um caminho para a restauração e a paz.",
+    "model": "gpt-4o-mini",
+    "run_id": "enr_20250923_125409_08acc4a6",
+    "confidence": 1.0,
+    "generated_at": "2025-09-23T12:54:09.645890"
+  },
+  "ai_themes_normalized": [
+    {
+      "theme_id": null,
+      "proposal_id": "prop:perdao_e_misericordia_56427d",
+      "label_original": "Perdão e misericórdia",
+      "source": "ai_enrichment"
+    },
+    {
+      "theme_id": null,
+      "proposal_id": "prop:justica_e_lideranca_aaae0c",
+      "label_original": "Justiça e liderança",
+      "source": "ai_enrichment"
+    },
+    {
+      "theme_id": null,
+      "proposal_id": "prop:relacoes_humanas_e_reconciliacao_aadcd3",
+      "label_original": "Relações humanas e reconciliação",
+      "source": "ai_enrichment"
+    }
+  ],
+  "phase1_discovery": {
+    "processed_at": "2025-09-23T22:42:46.804467Z",
+    "total_themes_processed": 3,
+    "summary": {
+      "total_processed": 3,
+      "decisions": {
+        "alias_existing": 0,
+        "proposed": 3,
+        "error": 0
+      },
+      "success_rate": 1.0
+    },
+    "results": [
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "low_novelty",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.73834,
+          "novelty": 0.5,
+          "similarity_to_best_existing": 0.5,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_fdf4d3a1",
+          "decision_hash": "335159b6aacebeb9",
+          "created_at": "2025-09-23T22:42:46.804467Z"
+        },
+        "proposal_id": "prop:b932c411",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:perdao_e_misericordia_56427d",
+          "label_original": "Perdão e misericórdia",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "low_novelty",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.7654999999999998,
+          "novelty": 0.6666666666666667,
+          "similarity_to_best_existing": 0.3333333333333333,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_96eb2081",
+          "decision_hash": "cbf8585a4b98943c",
+          "created_at": "2025-09-23T22:42:47.875709Z"
+        },
+        "proposal_id": "prop:9bf7d7af",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:justica_e_lideranca_aaae0c",
+          "label_original": "Justiça e liderança",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.83648,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_c6b4c0d1",
+          "decision_hash": "8775470e20f93381",
+          "created_at": "2025-09-23T22:42:48.947852Z"
+        },
+        "proposal_id": "prop:8f5f86e0",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:relacoes_humanas_e_reconciliacao_aadcd3",
+          "label_original": "Relações humanas e reconciliação",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      }
+    ]
+  },
+  "entity_links": [
+    {
+      "canonical_id": "CON:amnesty",
+      "namespace": "CONCEPT",
+      "role": "primary",
+      "confidence": 0.9,
+      "source": "topic_resolver",
+      "status": "proposed",
+      "provenance": {
+        "topic": "AMNESTY",
+        "extracted_from": "AMNESTY",
+        "processing_result": {
+          "status": "proposed",
+          "proposal_id": "stub:CON:amnesty_a64adbed",
+          "canonical_id": "CON:amnesty",
+          "needs_review": true,
+          "reasons": [
+            "low_confidence",
+            "insufficient_sources"
+          ],
+          "message": "Entity proposal stub:CON:amnesty_a64adbed created"
+        }
+      }
+    }
+  ],
+  "see_also": [],
+  "aliases": [],
+  "stats": {
+    "entries_count": 1,
+    "ot_refs": 1,
+    "nt_refs": 0,
+    "total_verses": 1
+  },
+  "definitions": [],
+  "sources": [
+    "NAV"
+  ],
+  "metadata": {
+    "schema_version": "v3.0",
+    "created_at": "2025-12-02T21:53:08.663115+00:00",
+    "merged_from": {
+      "v2": true,
+      "dictionary": false
+    }
+  },
+  "version": "3.0.0"
+}

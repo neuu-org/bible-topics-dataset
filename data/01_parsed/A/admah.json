@@ -1,0 +1,458 @@
+{
+  "topic": "ADMAH",
+  "slug": "admah",
+  "type": "both",
+  "reference_groups": [
+    {
+      "name": "A city in the vale of Siddim Ge 10:19; 14:2; De 29:23; Ho 11:8",
+      "references": [
+        "Gen 10:19",
+        "Gen 14:2",
+        "Deut 29:23",
+        "Hos 11:8"
+      ],
+      "sub_groups": []
+    }
+  ],
+  "biblical_references": [
+    {
+      "book": "Deuteronomy",
+      "book_abbrev": "deu",
+      "chapter": 29,
+      "testament": "OT",
+      "verses": [
+        23
+      ],
+      "verse_count": 1
+    },
+    {
+      "book": "Hosea",
+      "book_abbrev": "hos",
+      "chapter": 11,
+      "testament": "OT",
+      "verses": [
+        8
+      ],
+      "verse_count": 1
+    }
+  ],
+  "ai_enrichment": {
+    "summary": "Admah é uma cidade mencionada na Bíblia, localizada no vale de Siddim, que é notável por sua associação com a destruição de Sodoma e Gomorra. A cidade é citada em Gênesis 10:19 e 14:2, onde é listada entre as cidades da planície que foram destruídas por Deus devido à sua iniquidade. A menção de Admah em Deuteronômio 29:23 e Oséias 11:8 destaca a severidade do juízo divino e a misericórdia de Deus, que ainda se lembra de Seu povo, mesmo após a destruição. A cidade serve como um lembrete da justiça de Deus e da necessidade de arrependimento.",
+    "outline": [
+      "Localização e descrição de Admah no vale de Siddim",
+      "Admah como parte do juízo divino sobre cidades ímpias",
+      "Referências a Admah em Deuteronômio e Oséias",
+      "Implicações teológicas da destruição de Admah"
+    ],
+    "key_concepts": [
+      "Juízo divino",
+      "Arrependimento",
+      "Misericórdia de Deus"
+    ],
+    "theological_significance": "A história de Admah ilustra a justiça de Deus em relação ao pecado e a importância do arrependimento. A destruição de Admah, junto com outras cidades, serve como um aviso sobre as consequências do afastamento de Deus. Para os cristãos, isso enfatiza a necessidade de buscar a misericórdia de Deus e viver em conformidade com Seus mandamentos, lembrando que, apesar do juízo, Deus ainda oferece perdão e restauração.",
+    "model": "gpt-4o-mini",
+    "run_id": "enr_20250923_122317_0db20013",
+    "confidence": 1.0,
+    "generated_at": "2025-09-23T12:23:17.873916"
+  },
+  "ai_themes_normalized": [
+    {
+      "theme_id": null,
+      "proposal_id": "prop:justica_e_misericordia_de_deus_328e25",
+      "label_original": "Justiça e misericórdia de Deus",
+      "source": "ai_enrichment"
+    },
+    {
+      "theme_id": null,
+      "proposal_id": "prop:consequencias_do_pecado_742cf0",
+      "label_original": "Consequências do pecado",
+      "source": "ai_enrichment"
+    },
+    {
+      "theme_id": null,
+      "proposal_id": "prop:arrependimento_e_restauracao_e2294e",
+      "label_original": "Arrependimento e restauração",
+      "source": "ai_enrichment"
+    }
+  ],
+  "phase1_discovery": {
+    "processed_at": "2025-09-23T22:32:45.277102Z",
+    "total_themes_processed": 3,
+    "summary": {
+      "total_processed": 3,
+      "decisions": {
+        "alias_existing": 0,
+        "proposed": 3,
+        "error": 0
+      },
+      "success_rate": 1.0
+    },
+    "results": [
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "low_novelty",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.7660399999999999,
+          "novelty": 0.6666666666666667,
+          "similarity_to_best_existing": 0.3333333333333333,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_8cf8c91b",
+          "decision_hash": "c28517a7ddb1913c",
+          "created_at": "2025-09-23T22:32:45.277102Z"
+        },
+        "proposal_id": "prop:ab97cad8",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:justica_e_misericordia_de_deus_328e25",
+          "label_original": "Justiça e misericórdia de Deus",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.83258,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_a104f675",
+          "decision_hash": "baf6413f76a54fa8",
+          "created_at": "2025-09-23T22:32:46.356589Z"
+        },
+        "proposal_id": "prop:2a29276d",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:consequencias_do_pecado_742cf0",
+          "label_original": "Consequências do pecado",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.8316399999999999,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_164bf31a",
+          "decision_hash": "ca7106ba8777da07",
+          "created_at": "2025-09-23T22:32:47.436205Z"
+        },
+        "proposal_id": "prop:2c14da74",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:arrependimento_e_restauracao_e2294e",
+          "label_original": "Arrependimento e restauração",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      }
+    ]
+  },
+  "entity_links": [
+    {
+      "canonical_id": "CON:admah",
+      "namespace": "CONCEPT",
+      "role": "primary",
+      "confidence": 0.9,
+      "source": "topic_resolver",
+      "status": "proposed",
+      "provenance": {
+        "topic": "ADMAH",
+        "extracted_from": "ADMAH",
+        "processing_result": {
+          "status": "proposed",
+          "proposal_id": "stub:CON:admah_761f2e92",
+          "canonical_id": "CON:admah",
+          "needs_review": true,
+          "reasons": [
+            "low_confidence",
+            "insufficient_sources"
+          ],
+          "message": "Entity proposal stub:CON:admah_761f2e92 created"
+        }
+      }
+    }
+  ],
+  "see_also": [],
+  "aliases": [],
+  "stats": {
+    "entries_count": 1,
+    "ot_refs": 2,
+    "nt_refs": 0,
+    "total_verses": 2
+  },
+  "definitions": [
+    {
+      "source": "EAS",
+      "text": "Earth, one of the five cities of the vale of Siddim (Gen. 10:19). It was destroyed along with Sodom and Gomorrah (19:24; Deut. 29:23). It is supposed by some to be the same as the Adam of Josh. 3:16, the name of which still lingers in Damieh, the ford of Jordan. (See ZEBOIM.)",
+      "extracted_refs": [
+        {
+          "book": "Genesis",
+          "chapter": 10,
+          "verses": [
+            19
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "Genesis 10:19",
+          "source": "EAS"
+        },
+        {
+          "book": "Deuteronomy",
+          "chapter": 29,
+          "verses": [
+            23
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "Deuteronomy 29:23",
+          "source": "EAS"
+        },
+        {
+          "book": "Genesis",
+          "chapter": 19,
+          "verses": [
+            24
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "Genesis 19:24",
+          "source": "EAS"
+        },
+        {
+          "book": "Joshua",
+          "chapter": 3,
+          "verses": [
+            16
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "Joshua 3:16",
+          "source": "EAS"
+        }
+      ]
+    },
+    {
+      "source": "SMI",
+      "text": "(earthy, fortress), one of the “cities of the plain,” always coupled with Zeboim. (Genesis 10:19; 14:2,8; 29:23; Hosea 11:8)",
+      "extracted_refs": [
+        {
+          "book": "Genesis",
+          "chapter": 10,
+          "verses": [
+            19
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "Genesis 10:19",
+          "source": "SMI"
+        },
+        {
+          "book": "Genesis",
+          "chapter": 14,
+          "verses": [
+            2,
+            8
+          ],
+          "verse_count": 2,
+          "testament": "OT",
+          "raw": "Genesis 14:2,8",
+          "source": "SMI"
+        },
+        {
+          "book": "Genesis",
+          "chapter": 29,
+          "verses": [
+            23
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "Genesis 29:23",
+          "source": "SMI"
+        },
+        {
+          "book": "Hosea",
+          "chapter": 11,
+          "verses": [
+            8
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "Hosea 11:8",
+          "source": "SMI"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "NAV",
+    "EAS",
+    "SMI"
+  ],
+  "metadata": {
+    "schema_version": "v3.0",
+    "created_at": "2025-12-02T21:53:08.661306+00:00",
+    "merged_from": {
+      "v2": true,
+      "dictionary": true
+    }
+  },
+  "version": "3.0.0",
+  "definition_refs": [
+    {
+      "book": "Genesis",
+      "chapter": 10,
+      "verses": [
+        19
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 10:19",
+      "source": "EAS"
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 29,
+      "verses": [
+        23
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Deuteronomy 29:23",
+      "source": "EAS"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 19,
+      "verses": [
+        24
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 19:24",
+      "source": "EAS"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 3,
+      "verses": [
+        16
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 3:16",
+      "source": "EAS"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 14,
+      "verses": [
+        2,
+        8
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Genesis 14:2,8",
+      "source": "SMI"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 29,
+      "verses": [
+        23
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 29:23",
+      "source": "SMI"
+    },
+    {
+      "book": "Hosea",
+      "chapter": 11,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Hosea 11:8",
+      "source": "SMI"
+    }
+  ],
+  "definition_refs_stats": {
+    "total": 8,
+    "ot": 8,
+    "nt": 0,
+    "books": [
+      "Deuteronomy",
+      "Genesis",
+      "Hosea",
+      "Joshua"
+    ]
+  }
+}

@@ -1,0 +1,312 @@
+{
+  "topic": "AHOLIBAH",
+  "slug": "aholibah",
+  "type": "both",
+  "reference_groups": [
+    {
+      "name": "An imaginary character, typical of idolatry Eze 23:4,5,36,44",
+      "references": [
+        "Ezek 23:4",
+        "Ezek 23:5",
+        "Ezek 23:36",
+        "Ezek 23:44"
+      ],
+      "sub_groups": []
+    }
+  ],
+  "biblical_references": [],
+  "ai_enrichment": {
+    "summary": "Aholibah, mencionada em Ezequiel 23, é uma personificação de Jerusalém, representando a infidelidade e a idolatria do povo de Israel. O nome significa 'minha tenda está nela', simbolizando a presença de Deus que, no entanto, é traída por práticas idólatras. Através de Aholibah, o profeta Ezequiel denuncia a corrupção espiritual e a deslealdade de Israel, enfatizando a gravidade da idolatria e suas consequências. Este personagem fictício serve como um alerta sobre a necessidade de fidelidade a Deus e a rejeição de práticas que afastam o povo de Sua vontade.",
+    "outline": [
+      "Aholibah como personificação de Jerusalém e sua infidelidade.",
+      "A relação de Aholibah com a idolatria e suas práticas corruptas.",
+      "As consequências do adultério espiritual representadas por Aholibah.",
+      "A mensagem de arrependimento e retorno a Deus através da figura de Aholibah."
+    ],
+    "key_concepts": [
+      "Idolatria",
+      "Infidelidade espiritual",
+      "Juízo divino"
+    ],
+    "theological_significance": "Aholibah representa a luta contínua entre a fidelidade a Deus e a tentação da idolatria, um tema central na teologia bíblica. Através de sua história, os cristãos são lembrados da importância de permanecerem firmes na fé e de evitarem as distrações que podem levar à deslealdade a Deus. A mensagem de Aholibah é um chamado ao arrependimento e à renovação da aliança com o Senhor.",
+    "model": "gpt-4o-mini",
+    "run_id": "enr_20250923_123848_600ff4b1",
+    "confidence": 1.0,
+    "generated_at": "2025-09-23T12:38:48.564117"
+  },
+  "ai_themes_normalized": [
+    {
+      "theme_id": null,
+      "proposal_id": "prop:fidelidade_a_deus_200908",
+      "label_original": "Fidelidade a Deus",
+      "source": "ai_enrichment"
+    },
+    {
+      "theme_id": null,
+      "proposal_id": "prop:consequencias_da_idolatria_8f225c",
+      "label_original": "Consequências da idolatria",
+      "source": "ai_enrichment"
+    },
+    {
+      "theme_id": null,
+      "proposal_id": "prop:arrependimento_e_restauracao_989c08",
+      "label_original": "Arrependimento e restauração",
+      "source": "ai_enrichment"
+    }
+  ],
+  "phase1_discovery": {
+    "processed_at": "2025-09-23T22:38:00.567357Z",
+    "total_themes_processed": 3,
+    "summary": {
+      "total_processed": 3,
+      "decisions": {
+        "alias_existing": 0,
+        "proposed": 3,
+        "error": 0
+      },
+      "success_rate": 1.0
+    },
+    "results": [
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "low_novelty",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.7717999999999999,
+          "novelty": 0.6666666666666667,
+          "similarity_to_best_existing": 0.3333333333333333,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_7071a943",
+          "decision_hash": "1ee426c9a4a04c0d",
+          "created_at": "2025-09-23T22:38:00.567357Z"
+        },
+        "proposal_id": "prop:5bff05e2",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:fidelidade_a_deus_200908",
+          "label_original": "Fidelidade a Deus",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.83946,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_25b8a03f",
+          "decision_hash": "e775861f39ce4eb5",
+          "created_at": "2025-09-23T22:38:01.601916Z"
+        },
+        "proposal_id": "prop:3fea4e6c",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:consequencias_da_idolatria_8f225c",
+          "label_original": "Consequências da idolatria",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.8316399999999999,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_d01ab915",
+          "decision_hash": "ca7106ba8777da07",
+          "created_at": "2025-09-23T22:38:02.703727Z"
+        },
+        "proposal_id": "prop:f47515c4",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:arrependimento_e_restauracao_989c08",
+          "label_original": "Arrependimento e restauração",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      }
+    ]
+  },
+  "entity_links": [
+    {
+      "canonical_id": "CON:aholibah",
+      "namespace": "CONCEPT",
+      "role": "primary",
+      "confidence": 0.9,
+      "source": "topic_resolver",
+      "status": "proposed",
+      "provenance": {
+        "topic": "AHOLIBAH",
+        "extracted_from": "AHOLIBAH",
+        "processing_result": {
+          "status": "proposed",
+          "proposal_id": "stub:CON:aholibah_63558f33",
+          "canonical_id": "CON:aholibah",
+          "needs_review": true,
+          "reasons": [
+            "low_confidence",
+            "insufficient_sources"
+          ],
+          "message": "Entity proposal stub:CON:aholibah_63558f33 created"
+        }
+      }
+    }
+  ],
+  "see_also": [],
+  "aliases": [],
+  "stats": {
+    "entries_count": 1,
+    "ot_refs": 0,
+    "nt_refs": 0,
+    "total_verses": 0
+  },
+  "definitions": [
+    {
+      "source": "EAS",
+      "text": "My tent is in her, the name of an imaginary harlot, applied symbolically to Jerusalem, because she had abandoned the worship of the true God and given herself up to the idolatries of foreign nations. (Ezek. 23:4, 11, 22, 36, 44).",
+      "extracted_refs": [
+        {
+          "book": "Ezekiel",
+          "chapter": 23,
+          "verses": [
+            4,
+            11,
+            22,
+            36,
+            44
+          ],
+          "verse_count": 5,
+          "testament": "OT",
+          "raw": "Ezekiel 23:4, 11, 22, 36, 44",
+          "source": "EAS"
+        }
+      ]
+    }
+  ],
+  "dictionary_refs": [
+    {
+      "reference": "Ezekiel 23:4",
+      "original": "Ezek. 23:4"
+    },
+    {
+      "reference": "Ezekiel 23:11",
+      "original": "Ezek. 23:11"
+    },
+    {
+      "reference": "Ezekiel 23:22",
+      "original": "Ezek. 23:22"
+    },
+    {
+      "reference": "Ezekiel 23:36",
+      "original": "Ezek. 23:36"
+    },
+    {
+      "reference": "Ezekiel 23:44",
+      "original": "Ezek. 23:44"
+    }
+  ],
+  "sources": [
+    "NAV",
+    "EAS"
+  ],
+  "metadata": {
+    "schema_version": "v3.0",
+    "created_at": "2025-12-02T21:53:08.662211+00:00",
+    "merged_from": {
+      "v2": true,
+      "dictionary": true
+    }
+  },
+  "version": "3.0.0",
+  "definition_refs": [
+    {
+      "book": "Ezekiel",
+      "chapter": 23,
+      "verses": [
+        4,
+        11,
+        22,
+        36,
+        44
+      ],
+      "verse_count": 5,
+      "testament": "OT",
+      "raw": "Ezekiel 23:4, 11, 22, 36, 44",
+      "source": "EAS"
+    }
+  ],
+  "definition_refs_stats": {
+    "total": 5,
+    "ot": 5,
+    "nt": 0,
+    "books": [
+      "Ezekiel"
+    ]
+  }
+}

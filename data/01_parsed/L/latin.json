@@ -1,0 +1,140 @@
+{
+  "topic": "LATIN",
+  "slug": "latin",
+  "type": "both",
+  "reference_groups": [
+    {
+      "name": "General scriptures concerning Lu 23:38; Joh 19:20",
+      "references": [
+        "Luke 23:38",
+        "John 19:20"
+      ],
+      "sub_groups": []
+    }
+  ],
+  "biblical_references": [
+    {
+      "book": "John",
+      "book_abbrev": "jhn",
+      "chapter": 19,
+      "testament": "NT",
+      "verses": [
+        20
+      ],
+      "verse_count": 1
+    }
+  ],
+  "ai_enrichment": {
+    "summary": "",
+    "outline": [],
+    "key_concepts": [],
+    "theological_significance": "",
+    "model": "gpt-4o-mini",
+    "run_id": "failed_20250924_235539",
+    "confidence": 0.0,
+    "generated_at": "2025-09-24T23:55:39.071066",
+    "error": "error: Schema validation failed for /app/data/processed/topical_references/unified/themes/themes_catalog.json: 'canonical' is a required property"
+  },
+  "see_also": [],
+  "aliases": [],
+  "stats": {
+    "entries_count": 1,
+    "ot_refs": 0,
+    "nt_refs": 1,
+    "total_verses": 1
+  },
+  "definitions": [
+    {
+      "source": "EAS",
+      "text": "The vernacular language of the ancient Romans (John 19:20).",
+      "extracted_refs": [
+        {
+          "book": "John",
+          "chapter": 19,
+          "verses": [
+            20
+          ],
+          "verse_count": 1,
+          "testament": "NT",
+          "raw": "John 19:20",
+          "source": "EAS"
+        }
+      ]
+    },
+    {
+      "source": "SMI",
+      "text": "the language spoken by the Romans, is mentioned only in (John 19:20) and Luke 23:38",
+      "extracted_refs": [
+        {
+          "book": "John",
+          "chapter": 19,
+          "verses": [
+            20
+          ],
+          "verse_count": 1,
+          "testament": "NT",
+          "raw": "John 19:20",
+          "source": "SMI"
+        },
+        {
+          "book": "Luke",
+          "chapter": 23,
+          "verses": [
+            38
+          ],
+          "verse_count": 1,
+          "testament": "NT",
+          "raw": "Luke 23:38",
+          "source": "SMI"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "NAV",
+    "EAS",
+    "SMI"
+  ],
+  "metadata": {
+    "schema_version": "v3.0",
+    "created_at": "2025-12-02T21:53:08.700146+00:00",
+    "merged_from": {
+      "v2": true,
+      "dictionary": true
+    }
+  },
+  "version": "3.0.0",
+  "definition_refs": [
+    {
+      "book": "John",
+      "chapter": 19,
+      "verses": [
+        20
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "John 19:20",
+      "source": "EAS"
+    },
+    {
+      "book": "Luke",
+      "chapter": 23,
+      "verses": [
+        38
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 23:38",
+      "source": "SMI"
+    }
+  ],
+  "definition_refs_stats": {
+    "total": 2,
+    "ot": 0,
+    "nt": 2,
+    "books": [
+      "John",
+      "Luke"
+    ]
+  }
+}

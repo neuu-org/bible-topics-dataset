@@ -1,0 +1,414 @@
+{
+  "topic": "ACHAZ",
+  "slug": "achaz",
+  "type": "topic",
+  "reference_groups": [
+    {
+      "name": "See AHAZ",
+      "references": [],
+      "sub_groups": []
+    }
+  ],
+  "biblical_references": [],
+  "ai_enrichment": {
+    "summary": "Achaz, rei de Judá, é uma figura bíblica que governou durante um período de grande turbulência e apostasia. Ele é conhecido por sua aliança com a Assíria e por sua idolatria, que incluiu a adoração a deuses pagãos e a prática de sacrifícios humanos. Seu reinado é marcado pela desobediência a Deus e pela rejeição das advertências dos profetas, como Isaías. A história de Achaz serve como um aviso sobre as consequências da infidelidade e da falta de confiança em Deus.",
+    "outline": [
+      "O reinado de Achaz: contexto histórico e político (2 Reis 16)",
+      "A aliança de Achaz com a Assíria: consequências e implicações (2 Reis 16:7-9)",
+      "A idolatria de Achaz: práticas e influências pagãs (2 Reis 16:3-4)",
+      "As advertências de Isaías a Achaz: a chamada ao arrependimento (Isaías 7:3-9)",
+      "O impacto da desobediência de Achaz sobre Judá e Israel (2 Crônicas 28:19)",
+      "Prophetic Warning (Isaías 7:3-9)",
+      "Consequences of Political Alliances (2 Reis 16:7-9)",
+      "Spiritual Decline (2 Crônicas 28:19)"
+    ],
+    "key_concepts": [
+      "Idolatria",
+      "Desobediência",
+      "Profecia",
+      "Aliança",
+      "Reinado"
+    ],
+    "theological_significance": "A história de Achaz ilustra a gravidade da desobediência a Deus e as consequências de confiar em alianças humanas em vez de buscar a orientação divina. O seu reinado serve como um exemplo de como a infidelidade pode levar a um afastamento espiritual e a um colapso moral, enfatizando a necessidade de fidelidade a Deus e a importância das advertências proféticas.",
+    "model": "gpt-4o-mini",
+    "run_id": "enr_20251203_231547_34924ced",
+    "confidence": 1.0,
+    "generated_at": "2025-12-03T23:15:47.393646"
+  },
+  "ai_themes_normalized": [
+    {
+      "theme_id": null,
+      "proposal_id": "prop:idolatry_consequence_0f1d85",
+      "label_original": "Idolatria e suas consequências",
+      "label_en": "Idolatry Consequences",
+      "label_normalized": "idolatry_consequences",
+      "anchor_verses": [
+        "2 Reis 16:3",
+        "2 Crônicas 28:2"
+      ],
+      "relevance_score": 9,
+      "semantic_keywords": [
+        "idolatry",
+        "consequences",
+        "paganism",
+        "worship",
+        "sin"
+      ],
+      "theological_domain": "theology_proper",
+      "parent_theme": null,
+      "aspect": "impacto da idolatria no reinado de Achaz",
+      "source": "ai_enrichment",
+      "anchor_source": "ai_trusted",
+      "anchor_meta": {
+        "ai_suggested": 2,
+        "validated": 0,
+        "fallback_used": false
+      }
+    },
+    {
+      "theme_id": null,
+      "proposal_id": "prop:disobedience_to_god_0a6e1d",
+      "label_original": "Desobediência a Deus",
+      "label_en": "Disobedience to God",
+      "label_normalized": "disobedience_to_god",
+      "anchor_verses": [
+        "2 Reis 16:10",
+        "Isaías 7:9"
+      ],
+      "relevance_score": 8,
+      "semantic_keywords": [
+        "disobedience",
+        "rebellion",
+        "sin",
+        "judgment"
+      ],
+      "theological_domain": "ethics",
+      "parent_theme": null,
+      "aspect": "rejeição das advertências divinas",
+      "source": "ai_enrichment",
+      "anchor_source": "ai_trusted",
+      "anchor_meta": {
+        "ai_suggested": 2,
+        "validated": 0,
+        "fallback_used": false
+      }
+    },
+    {
+      "theme_id": null,
+      "proposal_id": "prop:alliance_with_assyri_0339ec",
+      "label_original": "Aliança com a Assíria",
+      "label_en": "Alliance with Assyria",
+      "label_normalized": "alliance_with_assyria",
+      "anchor_verses": [
+        "2 Reis 16:7",
+        "2 Crônicas 28:16"
+      ],
+      "relevance_score": 8,
+      "semantic_keywords": [
+        "alliance",
+        "Assyria",
+        "politics",
+        "betrayal"
+      ],
+      "theological_domain": "ecclesiology",
+      "parent_theme": null,
+      "aspect": "consequências da aliança política",
+      "source": "ai_enrichment",
+      "anchor_source": "ai_trusted",
+      "anchor_meta": {
+        "ai_suggested": 2,
+        "validated": 0,
+        "fallback_used": false
+      }
+    }
+  ],
+  "phase1_discovery": {
+    "processed_at": "2025-09-23T22:30:47.387238Z",
+    "total_themes_processed": 3,
+    "summary": {
+      "total_processed": 3,
+      "decisions": {
+        "alias_existing": 0,
+        "proposed": 3,
+        "error": 0
+      },
+      "success_rate": 1.0
+    },
+    "results": [
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "low_novelty",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.7735799999999999,
+          "novelty": 0.6666666666666667,
+          "similarity_to_best_existing": 0.3333333333333333,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_967c7ab1",
+          "decision_hash": "5fa03394538c9c6d",
+          "created_at": "2025-09-23T22:30:47.387238Z"
+        },
+        "proposal_id": "prop:d5817569",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:fidelidade_e_infidelidade_1e20cc",
+          "label_original": "Fidelidade e infidelidade",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.84898,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_f944a0d2",
+          "decision_hash": "937bdfa2ebaaa013",
+          "created_at": "2025-09-23T22:30:48.684779Z"
+        },
+        "proposal_id": "prop:0d09b97f",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:a_soberania_de_deus_f1976d",
+          "label_original": "A soberania de Deus",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.7926400000000001,
+          "novelty": 0.75,
+          "similarity_to_best_existing": 0.25,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_e4a781db",
+          "decision_hash": "dcd379a8b03f8833",
+          "created_at": "2025-09-23T22:30:49.649817Z"
+        },
+        "proposal_id": "prop:353d64c3",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:a_importancia_da_lideranca_espiritual_1a73c2",
+          "label_original": "A importância da liderança espiritual",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      }
+    ]
+  },
+  "entity_links": [
+    {
+      "canonical_id": "CON:achaz",
+      "namespace": "CONCEPT",
+      "role": "primary",
+      "confidence": 0.9,
+      "source": "topic_resolver",
+      "status": "proposed",
+      "provenance": {
+        "topic": "ACHAZ",
+        "extracted_from": "ACHAZ",
+        "processing_result": {
+          "status": "proposed",
+          "proposal_id": "stub:CON:achaz_bc6bb286",
+          "canonical_id": "CON:achaz",
+          "needs_review": true,
+          "reasons": [
+            "low_confidence",
+            "insufficient_sources"
+          ],
+          "message": "Entity proposal stub:CON:achaz_bc6bb286 created"
+        }
+      }
+    },
+    {
+      "canonical_id": "CON:ahaz",
+      "namespace": "CONCEPT",
+      "role": "secondary",
+      "confidence": 0.7,
+      "source": "topic_resolver",
+      "status": "proposed",
+      "provenance": {
+        "topic": "ACHAZ",
+        "extracted_from": "AHAZ",
+        "processing_result": {
+          "status": "proposed",
+          "proposal_id": "stub:CON:ahaz_b4a3ea3b",
+          "canonical_id": "CON:ahaz",
+          "needs_review": true,
+          "reasons": [
+            "low_confidence",
+            "insufficient_sources"
+          ],
+          "message": "Entity proposal stub:CON:ahaz_b4a3ea3b created"
+        }
+      }
+    }
+  ],
+  "see_also": [
+    "AHAZ"
+  ],
+  "aliases": [],
+  "stats": {
+    "entries_count": 1,
+    "ot_refs": 0,
+    "nt_refs": 0,
+    "total_verses": 0
+  },
+  "definitions": [],
+  "sources": [
+    "NAV"
+  ],
+  "metadata": {
+    "schema_version": "v3.0",
+    "created_at": "2025-12-02T21:53:08.660945+00:00",
+    "merged_from": {
+      "v2": true,
+      "dictionary": false
+    }
+  },
+  "version": "3.0.0",
+  "ai_entities": [
+    {
+      "name": "Achaz",
+      "type": "PERSON",
+      "canonical_id": null,
+      "context": "Rei de Judá, conhecido por sua idolatria e alianças políticas"
+    },
+    {
+      "name": "Isaías",
+      "type": "PERSON",
+      "canonical_id": null,
+      "context": "Profeta que advertiu Achaz sobre suas ações"
+    },
+    {
+      "name": "Judá",
+      "type": "PLACE",
+      "canonical_id": null,
+      "context": "Reino governado por Achaz durante seu reinado"
+    },
+    {
+      "name": "Assíria",
+      "type": "PLACE",
+      "canonical_id": null,
+      "context": "Poder que Achaz aliou-se para proteção"
+    }
+  ],
+  "ai_discovered_aspects": [
+    {
+      "label": "Prophetic Warning",
+      "references": [
+        "Isaías 7:3-9"
+      ],
+      "rationale": "A advertência de Isaías a Achaz destaca a importância da obediência e a necessidade de confiar em Deus em tempos de crise.",
+      "source": "ai_discovery"
+    },
+    {
+      "label": "Consequences of Political Alliances",
+      "references": [
+        "2 Reis 16:7-9"
+      ],
+      "rationale": "A aliança de Achaz com a Assíria ilustra como confiar em alianças humanas pode levar a consequências desastrosas para a nação.",
+      "source": "ai_discovery"
+    },
+    {
+      "label": "Spiritual Decline",
+      "references": [
+        "2 Crônicas 28:19"
+      ],
+      "rationale": "O reinado de Achaz representa um período de declínio espiritual em Judá, enfatizando a necessidade de fidelidade a Deus.",
+      "source": "ai_discovery"
+    }
+  ],
+  "ai_relationships": [
+    {
+      "target": "Isaías",
+      "type": "CONTEMPORARY_OF",
+      "description": "Isaías foi contemporâneo de Achaz e atuou como seu profeta.",
+      "target_type": "PERSON",
+      "target_canonical_id": null,
+      "source": "ai_enrichment"
+    },
+    {
+      "target": "Judá",
+      "type": "RULED_BY",
+      "description": "Achaz foi o rei que governou Judá durante um período de apostasia.",
+      "target_type": "PLACE",
+      "target_canonical_id": null,
+      "source": "ai_enrichment"
+    },
+    {
+      "target": "Assíria",
+      "type": "ALLY_OF",
+      "description": "Achaz formou uma aliança com a Assíria em busca de proteção contra inimigos.",
+      "target_type": "PLACE",
+      "target_canonical_id": null,
+      "source": "ai_enrichment"
+    }
+  ],
+  "updated_at": "2025-12-03T23:15:47.395331Z"
+}

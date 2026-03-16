@@ -1,0 +1,552 @@
+{
+  "topic": "ABDON",
+  "slug": "abdon",
+  "type": "both",
+  "reference_groups": [
+    {
+      "name": "1. A judge of Israel, in the time of the judges Jud 12:13-15",
+      "references": [
+        "Judg 12:13-15"
+      ],
+      "sub_groups": []
+    },
+    {
+      "name": "2. A Levitical city Jos 21:30; 1Ch 6:74",
+      "references": [
+        "Josh 21:30",
+        "1Chr 6:74"
+      ],
+      "sub_groups": []
+    },
+    {
+      "name": "3. A Benjamite chief 1Ch 8:23",
+      "references": [
+        "1Chr 8:23"
+      ],
+      "sub_groups": []
+    },
+    {
+      "name": "4. Son of Gibeon 1Ch 8:30; 9:36",
+      "references": [
+        "1Chr 8:30",
+        "1Chr 9:36"
+      ],
+      "sub_groups": []
+    },
+    {
+      "name": "5. Son of Micah 2Ch 34:20",
+      "references": [
+        "Micah 2"
+      ],
+      "sub_groups": [
+        {
+          "name": "Also called ACHBOR 2Ki 22:12",
+          "references": [
+            "2Kgs 22:12"
+          ]
+        }
+      ]
+    }
+  ],
+  "biblical_references": [
+    {
+      "book": "1 Chronicles",
+      "book_abbrev": "1ch",
+      "chapter": 6,
+      "testament": "OT",
+      "verses": [
+        74
+      ],
+      "verse_count": 1
+    },
+    {
+      "book": "2 Chronicles",
+      "book_abbrev": "2ch",
+      "chapter": 34,
+      "testament": "OT",
+      "verses": [
+        20
+      ],
+      "verse_count": 1
+    }
+  ],
+  "ai_enrichment": {
+    "summary": "Abdon é uma figura multifacetada na Bíblia, representando tanto um juiz de Israel durante o período dos juízes quanto uma cidade levítica e um chefe benjamita. Como juiz, ele simboliza a liderança e a justiça em um tempo de instabilidade, enquanto sua associação com a cidade levítica e a linhagem benjamita destaca a importância das tribos de Israel na história da salvação. A menção de Abdon em diferentes contextos revela a complexidade da identidade israelita e a interconexão entre liderança, herança e a presença de Deus entre seu povo.",
+    "outline": [
+      "Abdon como juiz de Israel (Juízes 12:13-15)",
+      "Abdon como cidade levítica (Josué 21:30; 1 Crônicas 6:74)",
+      "Abdon como chefe benjamita (1 Crônicas 8:23)",
+      "Abdon como filho de Gibeon e filho de Micah (1 Crônicas 8:30; 2 Crônicas 34:20)"
+    ],
+    "key_concepts": [
+      "Justiça e liderança em Israel",
+      "Herança levítica e seu papel na adoração",
+      "Identidade tribal e sua relevância na história bíblica"
+    ],
+    "theological_significance": "A figura de Abdon ilustra a importância da liderança justa e da fidelidade a Deus em tempos de crise. Sua menção em diferentes contextos destaca a continuidade da aliança de Deus com Israel e a necessidade de líderes que busquem a justiça e a retidão. Para a fé cristã, isso se traduz na chamada para que os crentes sejam líderes justos e fiéis em suas comunidades, refletindo o caráter de Deus.",
+    "model": "gpt-4o-mini",
+    "run_id": "enr_20250923_081008_9d248091",
+    "confidence": 1.0,
+    "generated_at": "2025-09-23T08:10:08.817354"
+  },
+  "ai_themes_normalized": [
+    {
+      "theme_id": null,
+      "proposal_id": "prop:lideranca_e_justica_a8532d",
+      "label_original": "Liderança e justiça",
+      "source": "ai_enrichment"
+    },
+    {
+      "theme_id": null,
+      "proposal_id": "prop:identidade_e_heranca_em_israel_ea955e",
+      "label_original": "Identidade e herança em Israel",
+      "source": "ai_enrichment"
+    },
+    {
+      "theme_id": null,
+      "proposal_id": "prop:a_presenca_de_deus_entre_seu_povo_50691b",
+      "label_original": "A presença de Deus entre seu povo",
+      "source": "ai_enrichment"
+    }
+  ],
+  "phase1_discovery": {
+    "processed_at": "2025-09-23T23:14:23.350948Z",
+    "total_themes_processed": 3,
+    "summary": {
+      "total_processed": 3,
+      "decisions": {
+        "alias_existing": 0,
+        "proposed": 3,
+        "error": 0
+      },
+      "success_rate": 1.0
+    },
+    "results": [
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "low_novelty",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.7757599999999999,
+          "novelty": 0.6666666666666667,
+          "similarity_to_best_existing": 0.3333333333333333,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_e0926ee8",
+          "decision_hash": "9ac90bafc4657fe1",
+          "created_at": "2025-09-23T23:14:23.350948Z"
+        },
+        "proposal_id": "prop:a5bf360e",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:lideranca_e_justica_a8532d",
+          "label_original": "Liderança e justiça",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.83746,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_910d8ec9",
+          "decision_hash": "c14452edf7be3310",
+          "created_at": "2025-09-23T23:14:24.571212Z"
+        },
+        "proposal_id": "prop:b4b1cca4",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:identidade_e_heranca_em_israel_ea955e",
+          "label_original": "Identidade e herança em Israel",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.83902,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_3d92bd43",
+          "decision_hash": "daeba9f4e0ba362a",
+          "created_at": "2025-09-23T23:14:25.703133Z"
+        },
+        "proposal_id": "prop:895704bf",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:a_presenca_de_deus_entre_seu_povo_50691b",
+          "label_original": "A presença de Deus entre seu povo",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      }
+    ]
+  },
+  "entity_links": [
+    {
+      "canonical_id": "CON:abdon",
+      "namespace": "CONCEPT",
+      "role": "primary",
+      "confidence": 0.9,
+      "source": "topic_resolver",
+      "status": "proposed",
+      "provenance": {
+        "topic": "ABDON",
+        "extracted_from": "ABDON",
+        "processing_result": {
+          "status": "proposed",
+          "proposal_id": "stub:CON:abdon_74910748",
+          "canonical_id": "CON:abdon",
+          "needs_review": true,
+          "reasons": [
+            "low_confidence",
+            "insufficient_sources"
+          ],
+          "message": "Entity proposal stub:CON:abdon_74910748 created"
+        }
+      }
+    },
+    {
+      "canonical_id": "CON:achbor",
+      "namespace": "CONCEPT",
+      "role": "secondary",
+      "confidence": 0.7,
+      "source": "topic_resolver",
+      "status": "proposed",
+      "provenance": {
+        "topic": "ABDON",
+        "extracted_from": "ACHBOR",
+        "processing_result": {
+          "status": "proposed",
+          "proposal_id": "stub:CON:achbor_b3aaee46",
+          "canonical_id": "CON:achbor",
+          "needs_review": true,
+          "reasons": [
+            "low_confidence",
+            "insufficient_sources"
+          ],
+          "message": "Entity proposal stub:CON:achbor_b3aaee46 created"
+        }
+      }
+    }
+  ],
+  "see_also": [
+    "ACHBOR"
+  ],
+  "aliases": [],
+  "stats": {
+    "entries_count": 5,
+    "ot_refs": 2,
+    "nt_refs": 0,
+    "total_verses": 2
+  },
+  "definitions": [
+    {
+      "source": "EAS",
+      "text": "Servile. (1.) The son of Hillel, a Pirathonite, the tenth judge of Israel (Judg. 12:13-15). He is probably the Bedan of 1 Sam. 12:11. (2.) The first-born of Gibeon of the tribe of Benjamin (1 Chr. 8:30; 9:36). (3.) The son of Micah, one of those whom Josiah sent to the prophetess Huldah to ascertain from her the meaning of the recently discovered book of the law (2 Chr. 34:20). He is called Achbor in 2 Kings 22:12. (4.) One of the “sons” of Shashak (1 Chr. 8:23). This is the name also of a Levitical town of the Gershonites, in the tribe of Asher (Josh. 21:30; 1 Chr. 6:74). The ruins of Abdeh, some 8 miles north-east of Accho, probably mark its site.",
+      "extracted_refs": [
+        {
+          "book": "Judges",
+          "chapter": 12,
+          "verses": [
+            13,
+            14,
+            15
+          ],
+          "verse_count": 3,
+          "testament": "OT",
+          "raw": "Judges 12:13-15",
+          "source": "EAS"
+        },
+        {
+          "book": "1 Chronicles",
+          "chapter": 8,
+          "verses": [
+            30
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "1 Chronicles 8:30",
+          "source": "EAS"
+        },
+        {
+          "book": "1 Chronicles",
+          "chapter": 9,
+          "verses": [
+            36
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "1 Chronicles 9:36",
+          "source": "EAS"
+        },
+        {
+          "book": "2 Chronicles",
+          "chapter": 34,
+          "verses": [
+            20
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "2 Chronicles 34:20",
+          "source": "EAS"
+        },
+        {
+          "book": "1 Chronicles",
+          "chapter": 8,
+          "verses": [
+            23
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "1 Chronicles 8:23",
+          "source": "EAS"
+        },
+        {
+          "book": "Joshua",
+          "chapter": 21,
+          "verses": [
+            30
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "Joshua 21:30",
+          "source": "EAS"
+        },
+        {
+          "book": "1 Chronicles",
+          "chapter": 6,
+          "verses": [
+            74
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "1 Chronicles 6:74",
+          "source": "EAS"
+        },
+        {
+          "book": "1 Samuel",
+          "chapter": 12,
+          "verses": [
+            11
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "1 Samuel 12:11",
+          "source": "EAS"
+        },
+        {
+          "book": "2 Kings",
+          "chapter": 22,
+          "verses": [
+            12
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "2 Kings 22:12",
+          "source": "EAS"
+        }
+      ]
+    },
+    {
+      "source": "SMI",
+      "text": "(servile)."
+    }
+  ],
+  "sources": [
+    "NAV",
+    "EAS",
+    "SMI"
+  ],
+  "metadata": {
+    "schema_version": "v3.0",
+    "created_at": "2025-12-02T21:53:08.659526+00:00",
+    "merged_from": {
+      "v2": true,
+      "dictionary": true
+    }
+  },
+  "version": "3.0.0",
+  "definition_refs": [
+    {
+      "book": "Judges",
+      "chapter": 12,
+      "verses": [
+        13,
+        14,
+        15
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Judges 12:13-15",
+      "source": "EAS"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 8,
+      "verses": [
+        30
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 8:30",
+      "source": "EAS"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 9,
+      "verses": [
+        36
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 9:36",
+      "source": "EAS"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 34,
+      "verses": [
+        20
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Chronicles 34:20",
+      "source": "EAS"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 8,
+      "verses": [
+        23
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 8:23",
+      "source": "EAS"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 21,
+      "verses": [
+        30
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 21:30",
+      "source": "EAS"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 6,
+      "verses": [
+        74
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 6:74",
+      "source": "EAS"
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 12,
+      "verses": [
+        11
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Samuel 12:11",
+      "source": "EAS"
+    },
+    {
+      "book": "2 Kings",
+      "chapter": 22,
+      "verses": [
+        12
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Kings 22:12",
+      "source": "EAS"
+    }
+  ],
+  "definition_refs_stats": {
+    "total": 11,
+    "ot": 11,
+    "nt": 0,
+    "books": [
+      "1 Chronicles",
+      "1 Samuel",
+      "2 Chronicles",
+      "2 Kings",
+      "Joshua",
+      "Judges"
+    ]
+  }
+}

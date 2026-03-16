@@ -1,0 +1,341 @@
+{
+  "topic": "ACROSTIC POETRY",
+  "slug": "acrostic-poetry",
+  "type": "topic",
+  "reference_groups": [
+    {
+      "idx": 0,
+      "entry_label": "–SeePOETRY",
+      "raw_segment": "–SeePOETRY"
+    }
+  ],
+  "biblical_references": [],
+  "ai_enrichment": {
+    "summary": "A poesia acróstica é uma forma literária encontrada na Bíblia, onde as letras iniciais de cada linha ou verso formam uma palavra ou mensagem. Este estilo é frequentemente utilizado nos Salmos, como uma maneira de expressar louvor e adoração a Deus, além de facilitar a memorização dos textos. A poesia acróstica não apenas enriquece a estética literária, mas também serve a propósitos teológicos, refletindo a ordem e a intenção divina na comunicação das verdades espirituais.",
+    "outline": [
+      "Definição de poesia acróstica: Estrutura literária onde as letras iniciais formam palavras ou mensagens significativas.",
+      "Exemplos de poesia acróstica na Bíblia: Análise de Salmos como Salmo 119, que utiliza essa forma para enfatizar a importância da Lei de Deus.",
+      "Função teológica da poesia acróstica: Como essa forma poética ajuda na memorização e na meditação das Escrituras, promovendo uma conexão mais profunda com a Palavra de Deus.",
+      "Comparação com outras formas de poesia: Distinções entre poesia acróstica e outras formas poéticas na Bíblia, como paralelismo e metáforas."
+    ],
+    "key_concepts": [
+      "Acrósticos bíblicos",
+      "Poesia hebraica",
+      "Memorização das Escrituras",
+      "Louvor e adoração",
+      "Estruturas literárias"
+    ],
+    "theological_significance": "A poesia acróstica na Bíblia não apenas enriquece a linguagem e a estética dos textos sagrados, mas também serve como um meio de ensino e meditação sobre as verdades divinas. Essa forma poética reflete a ordem e a intencionalidade de Deus na revelação de Sua Palavra, facilitando a memorização e a internalização das Escrituras, o que é fundamental para a vida espiritual dos crentes.",
+    "model": "gpt-4o-mini",
+    "run_id": "enr_20251203_231951_09045420",
+    "confidence": 1.0,
+    "generated_at": "2025-12-03T23:19:51.171892"
+  },
+  "ai_themes_normalized": [
+    {
+      "theme_id": null,
+      "proposal_id": "prop:poetry_as_worship_085d81",
+      "label_original": "Poesia como meio de adoração",
+      "label_en": "Poetry as Worship",
+      "label_normalized": "poetry_as_worship",
+      "anchor_verses": [
+        "Salmos 119:1",
+        "Salmos 119:105"
+      ],
+      "relevance_score": 9,
+      "semantic_keywords": [
+        "worship",
+        "poetry",
+        "praise",
+        "scripture",
+        "meditation"
+      ],
+      "theological_domain": "theology_proper",
+      "parent_theme": null,
+      "aspect": "uso da poesia na adoração a Deus",
+      "source": "ai_enrichment",
+      "anchor_source": "ai_trusted",
+      "anchor_meta": {
+        "ai_suggested": 2,
+        "validated": 0,
+        "fallback_used": false
+      }
+    },
+    {
+      "theme_id": null,
+      "proposal_id": "prop:scripture_memorizati_0ce029",
+      "label_original": "Memorização das Escrituras através da poesia",
+      "label_en": "Scripture Memorization",
+      "label_normalized": "scripture_memorization",
+      "anchor_verses": [
+        "Salmos 119:11",
+        "Deuteronômio 6:6-7"
+      ],
+      "relevance_score": 8,
+      "semantic_keywords": [
+        "memorization",
+        "scripture",
+        "teaching",
+        "learning"
+      ],
+      "theological_domain": "bibliology",
+      "parent_theme": null,
+      "aspect": "importância da poesia para a memorização",
+      "source": "ai_enrichment",
+      "anchor_source": "ai_trusted",
+      "anchor_meta": {
+        "ai_suggested": 2,
+        "validated": 0,
+        "fallback_used": false
+      }
+    },
+    {
+      "theme_id": null,
+      "proposal_id": "prop:literary_structures_0acfd7",
+      "label_original": "Estruturas literárias na Bíblia",
+      "label_en": "Literary Structures",
+      "label_normalized": "literary_structures",
+      "anchor_verses": [
+        "Eclesiastes 12:10",
+        "Salmos 37:30"
+      ],
+      "relevance_score": 8,
+      "semantic_keywords": [
+        "literary",
+        "structure",
+        "poetry",
+        "Hebrew",
+        "wisdom"
+      ],
+      "theological_domain": "theology_proper",
+      "parent_theme": null,
+      "aspect": "diversidade de formas literárias na Escritura",
+      "source": "ai_enrichment",
+      "anchor_source": "ai_trusted",
+      "anchor_meta": {
+        "ai_suggested": 2,
+        "validated": 0,
+        "fallback_used": false
+      }
+    }
+  ],
+  "phase1_discovery": {
+    "processed_at": "2025-09-23T22:31:24.483555Z",
+    "total_themes_processed": 3,
+    "summary": {
+      "total_processed": 3,
+      "decisions": {
+        "alias_existing": 0,
+        "proposed": 3,
+        "error": 0
+      },
+      "success_rate": 1.0
+    },
+    "results": [
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.84336,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_25d7f6e9",
+          "decision_hash": "377f6f2b36188e51",
+          "created_at": "2025-09-23T22:31:24.483555Z"
+        },
+        "proposal_id": "prop:667e451e",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:a_lei_de_deus_04e3d5",
+          "label_original": "A Lei de Deus",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.8378,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_1d3023d1",
+          "decision_hash": "330279f2bc4ae0fb",
+          "created_at": "2025-09-23T22:31:25.557731Z"
+        },
+        "proposal_id": "prop:f40303b4",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:sabedoria_divina_18e9c2",
+          "label_original": "Sabedoria divina",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "low_novelty",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.73838,
+          "novelty": 0.5,
+          "similarity_to_best_existing": 0.5,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_df9f1619",
+          "decision_hash": "930edf67fa531cee",
+          "created_at": "2025-09-23T22:31:27.137408Z"
+        },
+        "proposal_id": "prop:89ed117e",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:adoracao_e_louvor_e07e8b",
+          "label_original": "Adoração e louvor",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      }
+    ]
+  },
+  "entity_links": [
+    {
+      "canonical_id": "CON:acrostic_poetry",
+      "namespace": "CONCEPT",
+      "role": "primary",
+      "confidence": 0.9,
+      "source": "topic_resolver",
+      "status": "proposed",
+      "provenance": {
+        "topic": "ACROSTIC POETRY",
+        "extracted_from": "ACROSTIC POETRY",
+        "processing_result": {
+          "status": "proposed",
+          "proposal_id": "stub:CON:acrostic_poetry_35f6274d",
+          "canonical_id": "CON:acrostic_poetry",
+          "needs_review": true,
+          "reasons": [
+            "low_confidence",
+            "insufficient_sources"
+          ],
+          "message": "Entity proposal stub:CON:acrostic_poetry_35f6274d created"
+        }
+      }
+    },
+    {
+      "canonical_id": "CON:poetry",
+      "namespace": "CONCEPT",
+      "role": "secondary",
+      "confidence": 0.7,
+      "source": "topic_resolver",
+      "status": "proposed",
+      "provenance": {
+        "topic": "ACROSTIC POETRY",
+        "extracted_from": "POETRY",
+        "processing_result": {
+          "status": "proposed",
+          "proposal_id": "stub:CON:poetry_8827ba6d",
+          "canonical_id": "CON:poetry",
+          "needs_review": true,
+          "reasons": [
+            "low_confidence",
+            "insufficient_sources"
+          ],
+          "message": "Entity proposal stub:CON:poetry_8827ba6d created"
+        }
+      }
+    }
+  ],
+  "see_also": [
+    "POETRY"
+  ],
+  "aliases": [],
+  "stats": {
+    "entries_count": 1,
+    "ot_refs": 0,
+    "nt_refs": 0,
+    "total_verses": 0
+  },
+  "definitions": [],
+  "sources": [
+    "NAV"
+  ],
+  "metadata": {
+    "schema_version": "v3.0",
+    "created_at": "2025-12-02T21:53:08.661055+00:00",
+    "merged_from": {
+      "v2": true,
+      "dictionary": false
+    }
+  },
+  "version": "3.0.0",
+  "ai_entities": [
+    {
+      "name": "Salmos",
+      "type": "LITERARY_WORK",
+      "canonical_id": null,
+      "context": "Coleção de poesias e canções que incluem acrósticos."
+    }
+  ],
+  "updated_at": "2025-12-03T23:19:51.173229Z"
+}

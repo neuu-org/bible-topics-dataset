@@ -1,0 +1,809 @@
+{
+  "topic": "ACCHO",
+  "slug": "accho",
+  "type": "both",
+  "reference_groups": [
+    {
+      "name": "Also called PTOLEMAIS, a town of Phoenicia Jud 1:31; Ac 21:7",
+      "references": [
+        "Judg 1:31",
+        "Acts 21:7"
+      ],
+      "sub_groups": []
+    }
+  ],
+  "biblical_references": [
+    {
+      "book": "Acts",
+      "book_abbrev": "act",
+      "chapter": 21,
+      "testament": "NT",
+      "verses": [
+        7
+      ],
+      "verse_count": 1
+    }
+  ],
+  "ai_enrichment": {
+    "summary": "Accho, também conhecido como Ptolemais, é uma antiga cidade e porto da Fenícia, localizada na tribo de Aser, embora nunca tenha sido conquistada por eles. Reconhecida por sua importância histórica, Accho foi reconstruída por Ptolemeu, rei do Egito, por volta de 100 a.C. O apóstolo Paulo desembarcou aqui em sua última viagem a Jerusalém, conforme registrado em Atos 21:7. Durante as Cruzadas, a cidade foi chamada de Acra e, posteriormente, St. Jean d’Acre, refletindo sua relevância contínua ao longo da história.",
+    "outline": [
+      "Accho, também conhecido como Ptolemais, é uma cidade portuária da Fenícia mencionada em Juízes 1:31 e Atos 21:7, destacando sua localização geográfica e importância histórica.",
+      "A cidade foi reconstruída por Ptolemeu, rei do Egito, por volta de 100 a.C., o que a tornou um ponto estratégico no comércio e na navegação do Mediterrâneo.",
+      "Accho é notável por ser o local onde Paulo desembarcou em sua última viagem a Jerusalém, conforme registrado em Atos 21:7, evidenciando sua relevância no contexto do Novo Testamento.",
+      "Durante as Cruzadas, Accho foi chamada de Acra e, posteriormente, St. Jean d’Acre, refletindo sua importância contínua e as mudanças de controle ao longo da história.",
+      "Cultural Significance of Accho (Acts 21:7; Judges 1:31)"
+    ],
+    "key_concepts": [
+      "História de Accho",
+      "Importância de Ptolemais",
+      "Viagem de Paulo",
+      "Mudanças de nome e controle"
+    ],
+    "theological_significance": "Accho, como um ponto de passagem para Paulo, simboliza a expansão do cristianismo e a interconexão das comunidades cristãs no mundo antigo. Sua história reflete a providência de Deus na preservação de locais significativos para a fé cristã e a propagação do evangelho.",
+    "model": "gpt-4o-mini",
+    "run_id": "enr_20251203_231110_d5a2d2f5",
+    "confidence": 1.0,
+    "generated_at": "2025-12-03T23:11:10.384001"
+  },
+  "ai_themes_normalized": [
+    {
+      "theme_id": null,
+      "proposal_id": "prop:historical_significa_066914",
+      "label_original": "Importância histórica de Accho na propagação do cristianismo",
+      "label_en": "Historical Significance of Accho",
+      "label_normalized": "historical_significance_of_accho",
+      "anchor_verses": [
+        "Acts 21:7",
+        "Judges 1:31"
+      ],
+      "relevance_score": 9,
+      "semantic_keywords": [
+        "Accho",
+        "Ptolemais",
+        "Paulo",
+        "história",
+        "porto"
+      ],
+      "theological_domain": "ecclesiology",
+      "parent_theme": null,
+      "aspect": "localização estratégica na história do cristianismo",
+      "source": "ai_enrichment",
+      "anchor_source": "ai_trusted",
+      "anchor_meta": {
+        "ai_suggested": 2,
+        "validated": 0,
+        "fallback_used": false
+      }
+    },
+    {
+      "theme_id": null,
+      "proposal_id": "prop:changes_of_control_a_067dc7",
+      "label_original": "Mudanças de controle e nome de Accho",
+      "label_en": "Changes of Control and Name",
+      "label_normalized": "changes_of_control_and_name",
+      "anchor_verses": [
+        "Acts 21:7",
+        "Judges 1:31"
+      ],
+      "relevance_score": 8,
+      "semantic_keywords": [
+        "Acra",
+        "St. Jean d’Acre",
+        "Ptolemeu",
+        "Cruzadas"
+      ],
+      "theological_domain": "theology_proper",
+      "parent_theme": null,
+      "aspect": "transformações históricas e culturais",
+      "source": "ai_enrichment",
+      "anchor_source": "fallback_global",
+      "anchor_meta": {
+        "ai_suggested": 0,
+        "validated": 0,
+        "fallback_used": true,
+        "deduplicated": 1
+      }
+    }
+  ],
+  "phase1_discovery": {
+    "processed_at": "2025-09-23T22:30:13.674891Z",
+    "total_themes_processed": 3,
+    "summary": {
+      "total_processed": 3,
+      "decisions": {
+        "alias_existing": 0,
+        "proposed": 3,
+        "error": 0
+      },
+      "success_rate": 1.0
+    },
+    "results": [
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.8459399999999999,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_a6a5efb4",
+          "decision_hash": "ef6b8e82584e1cdc",
+          "created_at": "2025-09-23T22:30:13.674891Z"
+        },
+        "proposal_id": "prop:42e90017",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:evangelizacao_5c851c",
+          "label_original": "Evangelização",
+          "confidence": 0.8500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.83302,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_fd0b20f4",
+          "decision_hash": "78ee30e36ef95f95",
+          "created_at": "2025-09-23T22:30:14.816668Z"
+        },
+        "proposal_id": "prop:214c463a",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:cidades_biblicas_30287b",
+          "label_original": "Cidades bíblicas",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.83144,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_d4d6bbdf",
+          "decision_hash": "a3ed942f0e79d49f",
+          "created_at": "2025-09-23T22:30:16.397095Z"
+        },
+        "proposal_id": "prop:28af9b6f",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:interacao_entre_judeus_e_gentios_1e6e69",
+          "label_original": "Interação entre judeus e gentios",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      }
+    ]
+  },
+  "entity_links": [
+    {
+      "canonical_id": "CON:accho",
+      "namespace": "CONCEPT",
+      "role": "primary",
+      "confidence": 0.9,
+      "source": "topic_resolver",
+      "status": "proposed",
+      "provenance": {
+        "topic": "ACCHO",
+        "extracted_from": "ACCHO",
+        "processing_result": {
+          "status": "proposed",
+          "proposal_id": "stub:CON:accho_3447f02c",
+          "canonical_id": "CON:accho",
+          "needs_review": true,
+          "reasons": [
+            "low_confidence",
+            "insufficient_sources"
+          ],
+          "message": "Entity proposal stub:CON:accho_3447f02c created"
+        }
+      }
+    }
+  ],
+  "see_also": [],
+  "aliases": [],
+  "stats": {
+    "entries_count": 1,
+    "ot_refs": 0,
+    "nt_refs": 1,
+    "total_verses": 1
+  },
+  "definitions": [
+    {
+      "source": "EAS",
+      "text": "Sultry or sandy, a town and harbour of Phoenicia, in the tribe of Asher, but never acquired by them (Judg. 1:31). It was known to the ancient Greeks and Romans by the name of Ptolemais, from Ptolemy the king of Egypt, who rebuilt it about B.C. 100. Here Paul landed on his last journey to Jerusalem (Acts 21:7). During the crusades of the Middle Ages it was called Acra; and subsequently, on account of its being occupied by the Knights Hospitallers of Jerusalem, it was called St. Jean d’Acre, or simply Acre.",
+      "extracted_refs": [
+        {
+          "book": "Judges",
+          "chapter": 1,
+          "verses": [
+            31
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "Judges 1:31",
+          "source": "EAS"
+        },
+        {
+          "book": "Acts",
+          "chapter": 21,
+          "verses": [
+            7
+          ],
+          "verse_count": 1,
+          "testament": "NT",
+          "raw": "Acts 21:7",
+          "source": "EAS"
+        }
+      ]
+    },
+    {
+      "source": "SMI",
+      "text": "(the Ptolemais of the Maccabees and New Testament), Now called Acca, or more usually by Europeans St. Jean d’Acre, the most important seaport town on the Syrian coast, about 30 miles south of Tyre. It was situated on a slightly projecting headland, at the northern extremity of that spacious bay which is formed by the bold promontory of Carmel on the opposite side. Later it was named Ptolemais, after one of the Ptolemies, probably Soter. The only notice of it in the New Testament is in (Acts 21:7) where it is called Ptolemais .",
+      "extracted_refs": [
+        {
+          "book": "Acts",
+          "chapter": 21,
+          "verses": [
+            7
+          ],
+          "verse_count": 1,
+          "testament": "NT",
+          "raw": "Acts 21:7",
+          "source": "SMI"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "NAV",
+    "EAS",
+    "SMI"
+  ],
+  "metadata": {
+    "schema_version": "v3.0",
+    "created_at": "2025-12-02T21:53:08.660855+00:00",
+    "merged_from": {
+      "v2": true,
+      "dictionary": true
+    }
+  },
+  "version": "3.0.0",
+  "definition_refs": [
+    {
+      "book": "Judges",
+      "chapter": 1,
+      "verses": [
+        31
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Judges 1:31",
+      "source": "EAS"
+    },
+    {
+      "book": "Acts",
+      "chapter": 21,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 21:7",
+      "source": "EAS"
+    }
+  ],
+  "definition_refs_stats": {
+    "total": 2,
+    "ot": 1,
+    "nt": 1,
+    "books": [
+      "Acts",
+      "Judges"
+    ]
+  },
+  "cross_reference_network": {
+    "Acts 21:7": [
+      {
+        "to_verse": "1SA.10.4",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "1SA.13.10",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "ACT.12.20",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "ACT.18.22",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "ACT.21.10",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "ACT.21.17",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "ACT.21.19",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "ACT.25.13",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "ACT.28.12",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "ACT.28.14",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "HEB.13.24",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "MAT.5.47",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "SNG.1.2",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "ACT.16.10",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      }
+    ],
+    "Judges 1:31": [
+      {
+        "to_verse": "JOS.19.24",
+        "score": 6,
+        "votes": 4,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "JOS.19.28",
+        "score": 6,
+        "votes": 4,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "JOS.19.29",
+        "score": 6,
+        "votes": 4,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "JOS.19.30",
+        "score": 6,
+        "votes": 4,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "JOS.19.25",
+        "score": 5,
+        "votes": 4,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "JOS.19.26",
+        "score": 5,
+        "votes": 4,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "JOS.19.27",
+        "score": 5,
+        "votes": 4,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "1KI.20.26",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "2SA.10.8",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "JOS.21.31",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "MAT.15.21",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "1CH.4.10",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "1KI.9.21",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "2CH.8.8",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "DEU.20.11",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "JDG.1.19",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "JDG.3.5",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "NUM.33.55",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "PSA.106.34",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "PSA.106.35",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      }
+    ]
+  },
+  "cross_ref_stats": {
+    "source_verses": 2,
+    "verses_with_crossrefs": 2,
+    "total_crossrefs": 34,
+    "unique_target_verses": 34,
+    "strong_refs": 7,
+    "coverage": 100.0
+  },
+  "connected_topics": [
+    {
+      "topic": "CANAANITES, THE",
+      "shared_refs": 126,
+      "strength": "strong"
+    },
+    {
+      "topic": "Fenced cities",
+      "shared_refs": 67,
+      "strength": "strong"
+    },
+    {
+      "topic": "ASHER, THE TRIBE OF",
+      "shared_refs": 56,
+      "strength": "strong"
+    },
+    {
+      "topic": "TYRE",
+      "shared_refs": 53,
+      "strength": "strong"
+    },
+    {
+      "topic": "SIDONIANS, THE",
+      "shared_refs": 42,
+      "strength": "strong"
+    },
+    {
+      "topic": "AMORITES, THE",
+      "shared_refs": 37,
+      "strength": "strong"
+    },
+    {
+      "topic": "ZIDON",
+      "shared_refs": 31,
+      "strength": "strong"
+    },
+    {
+      "topic": "REHOB",
+      "shared_refs": 30,
+      "strength": "strong"
+    },
+    {
+      "topic": "Zidon, Or Sidon",
+      "shared_refs": 27,
+      "strength": "strong"
+    },
+    {
+      "topic": "APHIK",
+      "shared_refs": 26,
+      "strength": "strong"
+    },
+    {
+      "topic": "GALILEE",
+      "shared_refs": 25,
+      "strength": "strong"
+    },
+    {
+      "topic": "ACHZIB",
+      "shared_refs": 21,
+      "strength": "strong"
+    },
+    {
+      "topic": "MANASSEH, THE TRIBE OF",
+      "shared_refs": 21,
+      "strength": "strong"
+    },
+    {
+      "topic": "AHLAB",
+      "shared_refs": 20,
+      "strength": "strong"
+    },
+    {
+      "topic": "HELBAH",
+      "shared_refs": 20,
+      "strength": "strong"
+    },
+    {
+      "topic": "KINGS",
+      "shared_refs": 20,
+      "strength": "strong"
+    },
+    {
+      "topic": "EPHRAIM, TRIBE OF",
+      "shared_refs": 20,
+      "strength": "strong"
+    },
+    {
+      "topic": "PRAYER",
+      "shared_refs": 17,
+      "strength": "strong"
+    },
+    {
+      "topic": "ASHER",
+      "shared_refs": 16,
+      "strength": "strong"
+    },
+    {
+      "topic": "SYRIA",
+      "shared_refs": 15,
+      "strength": "strong"
+    }
+  ],
+  "ai_entities": [
+    {
+      "name": "Accho",
+      "type": "PLACE",
+      "canonical_id": null,
+      "context": "cidade portuária da Fenícia mencionada na Bíblia"
+    },
+    {
+      "name": "Ptolemeu",
+      "type": "PERSON",
+      "canonical_id": null,
+      "context": "rei do Egito que reconstruiu Accho"
+    },
+    {
+      "name": "Paulo",
+      "type": "PERSON",
+      "canonical_id": null,
+      "context": "apóstolo que desembarcou em Accho"
+    }
+  ],
+  "ai_discovered_aspects": [
+    {
+      "label": "Cultural Significance of Accho",
+      "references": [
+        "Acts 21:7",
+        "Judges 1:31"
+      ],
+      "rationale": "A cidade de Accho não apenas serviu como um ponto de passagem para os apóstolos, mas também como um local de intercâmbio cultural entre diferentes civilizações ao longo da história.",
+      "source": "ai_discovery"
+    }
+  ],
+  "ai_relationships": [
+    {
+      "target": "Paulo",
+      "type": "CONTEMPORARY_OF",
+      "description": "Accho foi um dos locais visitados por Paulo durante sua missão, refletindo a interconexão das comunidades cristãs.",
+      "target_type": "PERSON",
+      "target_canonical_id": null,
+      "source": "ai_enrichment"
+    },
+    {
+      "target": "Ptolemeu",
+      "type": "LEADER_OF",
+      "description": "Ptolemeu foi o rei que reconstruiu Accho, influenciando sua importância histórica.",
+      "target_type": "PERSON",
+      "target_canonical_id": null,
+      "source": "ai_enrichment"
+    }
+  ],
+  "updated_at": "2025-12-03T23:11:10.385974Z",
+  "ai_reference_groups": [
+    {
+      "name": "Cultural Significance of Accho",
+      "ai_group_id": "grp:accho:cultural_significance_of_accho",
+      "source": "ai_discovery",
+      "source_verses": [
+        "Acts 21:7",
+        "Judges 1:31"
+      ],
+      "references": [
+        {
+          "book": "Acts",
+          "chapter": 21,
+          "verses": [
+            7
+          ],
+          "testament": "NT",
+          "raw": "Acts 21:7"
+        },
+        {
+          "book": "Judges",
+          "chapter": 1,
+          "verses": [
+            31
+          ],
+          "testament": "OT",
+          "raw": "Judges 1:31"
+        }
+      ],
+      "ot_references": [
+        {
+          "book": "Judges",
+          "chapter": 1,
+          "verses": [
+            31
+          ],
+          "testament": "OT",
+          "raw": "Judges 1:31"
+        }
+      ],
+      "nt_references": [
+        {
+          "book": "Acts",
+          "chapter": 21,
+          "verses": [
+            7
+          ],
+          "testament": "NT",
+          "raw": "Acts 21:7"
+        }
+      ],
+      "rationale": "A cidade de Accho não apenas serviu como um ponto de passagem para os apóstolos, mas também como um local de intercâmbio cultural entre diferentes civilizações ao longo da história.",
+      "quality": {
+        "verse_count": 2,
+        "has_ot_nt_coverage": true,
+        "relevance": "direct",
+        "confidence": 0.8
+      },
+      "auto_generated": true,
+      "generated_at": "2025-12-04T01:25:53.766859",
+      "requires_review": false,
+      "review_reason": null,
+      "is_duplicate_of": null
+    }
+  ],
+  "ai_reference_groups_updated_at": "2025-12-04T01:25:53.766899+00:00"
+}

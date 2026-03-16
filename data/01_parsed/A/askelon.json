@@ -1,0 +1,261 @@
+{
+  "topic": "ASKELON",
+  "slug": "askelon",
+  "type": "topic",
+  "reference_groups": [
+    {
+      "name": "See ASHKELON",
+      "references": [],
+      "sub_groups": []
+    }
+  ],
+  "biblical_references": [],
+  "ai_enrichment": {
+    "summary": "Asquelon, uma das cinco cidades filisteias, é mencionada em várias passagens bíblicas, destacando-se como um centro de comércio e cultura na antiga Palestina. Sua localização estratégica no litoral do Mediterrâneo a tornava um ponto crucial de interação entre diferentes povos e culturas. A cidade é frequentemente associada à oposição a Israel, simbolizando a luta entre o povo de Deus e as nações vizinhas. A importância de Asquelon na narrativa bíblica reflete a tensão entre a santidade de Israel e a influência das nações pagãs, além de servir como um lembrete da soberania de Deus sobre todas as nações.",
+    "outline": [
+      "Localização e importância histórica de Asquelon",
+      "Referências bíblicas a Asquelon e seu papel nas narrativas de Israel",
+      "A relação de Asquelon com os filisteus e a oposição a Israel",
+      "Profecias e promessas relacionadas a Asquelon"
+    ],
+    "key_concepts": [
+      "Soberania de Deus sobre as nações",
+      "Conflito entre Israel e os filisteus",
+      "Cidades-estado na antiga Palestina"
+    ],
+    "theological_significance": "Asquelon representa a luta contínua entre o povo de Deus e as forças que se opõem a Ele. Através das narrativas que envolvem Asquelon, os cristãos podem refletir sobre a fidelidade de Deus em meio à adversidade e a importância de permanecer firme na fé, mesmo diante de desafios culturais e espirituais. A cidade também simboliza a esperança de redenção e restauração, conforme as promessas de Deus se cumprirão em todas as nações.",
+    "model": "gpt-4o-mini",
+    "run_id": "enr_20250923_144845_4760f68f",
+    "confidence": 1.0,
+    "generated_at": "2025-09-23T14:48:45.183525"
+  },
+  "ai_themes_normalized": [
+    {
+      "theme_id": null,
+      "proposal_id": "prop:conflito_entre_o_bem_e_o_mal_5f7432",
+      "label_original": "Conflito entre o bem e o mal",
+      "source": "ai_enrichment"
+    },
+    {
+      "theme_id": null,
+      "proposal_id": "prop:a_soberania_de_deus_nas_nacoes_4faaf2",
+      "label_original": "A soberania de Deus nas nações",
+      "source": "ai_enrichment"
+    },
+    {
+      "theme_id": null,
+      "proposal_id": "prop:a_importancia_da_fidelidade_em_tempos_de_crise_d0504b",
+      "label_original": "A importância da fidelidade em tempos de crise",
+      "source": "ai_enrichment"
+    }
+  ],
+  "phase1_discovery": {
+    "processed_at": "2025-09-23T22:54:34.340563Z",
+    "total_themes_processed": 3,
+    "summary": {
+      "total_processed": 3,
+      "decisions": {
+        "alias_existing": 0,
+        "proposed": 3,
+        "error": 0
+      },
+      "success_rate": 1.0
+    },
+    "results": [
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.8368399999999999,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_c02d48b8",
+          "decision_hash": "562cc5ad8e7360fc",
+          "created_at": "2025-09-23T22:54:34.340563Z"
+        },
+        "proposal_id": "prop:a763a369",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:conflito_entre_o_bem_e_o_mal_5f7432",
+          "label_original": "Conflito entre o bem e o mal",
+          "confidence": 0.53652,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.84046,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_4f30c90d",
+          "decision_hash": "47cd7259130f7735",
+          "created_at": "2025-09-23T22:54:35.310965Z"
+        },
+        "proposal_id": "prop:3e7c1d51",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:a_soberania_de_deus_nas_nacoes_4faaf2",
+          "label_original": "A soberania de Deus nas nações",
+          "confidence": 0.53168,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.7880400000000001,
+          "novelty": 0.8,
+          "similarity_to_best_existing": 0.2,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_162d73b6",
+          "decision_hash": "c4f4bf0cc9d3049a",
+          "created_at": "2025-09-23T22:54:36.467702Z"
+        },
+        "proposal_id": "prop:5c1d4136",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:a_importancia_da_fidelidade_em_tempos_de_crise_d0504b",
+          "label_original": "A importância da fidelidade em tempos de crise",
+          "confidence": 0.52428,
+          "source": "ai_enrichment"
+        }
+      }
+    ]
+  },
+  "entity_links": [
+    {
+      "canonical_id": "CON:askelon",
+      "namespace": "CONCEPT",
+      "role": "primary",
+      "confidence": 0.9,
+      "source": "topic_resolver",
+      "status": "proposed",
+      "provenance": {
+        "topic": "ASKELON",
+        "extracted_from": "ASKELON",
+        "processing_result": {
+          "status": "proposed",
+          "proposal_id": "stub:CON:askelon_2d991320",
+          "canonical_id": "CON:askelon",
+          "needs_review": true,
+          "reasons": [
+            "low_confidence",
+            "insufficient_sources"
+          ],
+          "message": "Entity proposal stub:CON:askelon_2d991320 created"
+        }
+      }
+    },
+    {
+      "canonical_id": "CON:ashkelon",
+      "namespace": "CONCEPT",
+      "role": "secondary",
+      "confidence": 0.7,
+      "source": "topic_resolver",
+      "status": "proposed",
+      "provenance": {
+        "topic": "ASKELON",
+        "extracted_from": "ASHKELON",
+        "processing_result": {
+          "status": "proposed",
+          "proposal_id": "stub:CON:ashkelon_69d3c12a",
+          "canonical_id": "CON:ashkelon",
+          "needs_review": true,
+          "reasons": [
+            "low_confidence",
+            "insufficient_sources"
+          ],
+          "message": "Entity proposal stub:CON:ashkelon_69d3c12a created"
+        }
+      }
+    }
+  ],
+  "see_also": [
+    "ASHKELON"
+  ],
+  "aliases": [],
+  "stats": {
+    "entries_count": 1,
+    "ot_refs": 0,
+    "nt_refs": 0,
+    "total_verses": 0
+  },
+  "definitions": [],
+  "sources": [
+    "NAV"
+  ],
+  "metadata": {
+    "schema_version": "v3.0",
+    "created_at": "2025-12-02T21:53:08.670457+00:00",
+    "merged_from": {
+      "v2": true,
+      "dictionary": false
+    }
+  },
+  "version": "3.0.0"
+}

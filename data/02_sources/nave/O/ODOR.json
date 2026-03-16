@@ -1,0 +1,85 @@
+{
+  "topic": "ODOR",
+  "topic_slug": "odor",
+  "canonical_id": "NAV:odor",
+  "aliases": [],
+  "see_also": [
+    "PERFUME",
+    "INCENSE"
+  ],
+  "see_also_resolved": [
+    {
+      "original": "PERFUME",
+      "clean": "PERFUME",
+      "slug": "perfume",
+      "canonical_id": "NAV:perfume"
+    },
+    {
+      "original": "INCENSE",
+      "clean": "INCENSE",
+      "slug": "incense",
+      "canonical_id": "NAV:incense"
+    }
+  ],
+  "raw_block": "–SeeINCENSE\n–SeePERFUME",
+  "content_preview": "–SeeINCENSE",
+  "reference_groups": [
+    {
+      "idx": 0,
+      "entry_label": "–SeeINCENSE",
+      "raw_segment": "–SeeINCENSE"
+    },
+    {
+      "idx": 1,
+      "entry_label": "–SeePERFUME",
+      "raw_segment": "–SeePERFUME"
+    }
+  ],
+  "biblical_references": [],
+  "books_mentioned": [],
+  "normalized_labels": [],
+  "stats": {
+    "entries_count": 1,
+    "ot_refs": 0,
+    "nt_refs": 0,
+    "total_verses": 0,
+    "top_books": [],
+    "ref_counts_by_book": {}
+  },
+  "source": {
+    "provider": "ccel",
+    "work": "Nave's Topical Bible",
+    "format": "xml",
+    "fetched_at": "2025-09-20",
+    "source_url": null,
+    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
+  },
+  "metadata": {
+    "parser": "ccel-nave-xml-parser",
+    "parser_version": "2025.09.19",
+    "schema_version": "scrape.v1",
+    "language": {
+      "code": "en",
+      "name": "English",
+      "direction": "ltr"
+    },
+    "integrity": {
+      "checksum_raw_block": "sha256:3ee3d0f14c86612f18623be0d15243e62181192d18fc1e3c50b5ea628ec84549",
+      "position": {
+        "start_line": null,
+        "end_line": null,
+        "total_lines": 2
+      }
+    },
+    "notes": [
+      "XML-based parsing from official CCEL ThML source",
+      "Perfect biblical reference extraction with osisRef",
+      "Structured hierarchy preservation",
+      "Complete topic linking and see_also resolution"
+    ]
+  },
+  "total_references": 0,
+  "version": "1.0.0",
+  "created_at": "2025-09-20T17:29:39.381437Z",
+  "updated_at": "2025-09-20T17:29:39.381444Z"
+}

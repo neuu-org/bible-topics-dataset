@@ -1,0 +1,285 @@
+{
+  "topic": "ANANI",
+  "slug": "anani",
+  "type": "both",
+  "reference_groups": [
+    {
+      "name": "A descendant of David 1Ch 3:24",
+      "references": [
+        "1Chr 3:24"
+      ],
+      "sub_groups": []
+    }
+  ],
+  "biblical_references": [],
+  "ai_enrichment": {
+    "summary": "Anani é mencionado como um descendente de David em 1 Crônicas 3:24, o que o conecta à linhagem real de Israel. A genealogia de David é significativa na narrativa bíblica, pois estabelece a legitimidade do Messias, que é identificado como descendente de David. A inclusão de Anani na genealogia ressalta a continuidade da promessa divina a David e a importância da linhagem na história da salvação.",
+    "outline": [
+      "Anani como descendente de David",
+      "Importância da genealogia na Bíblia",
+      "Relação de Anani com a promessa messiânica",
+      "O papel dos descendentes de David na história de Israel"
+    ],
+    "key_concepts": [
+      "Genealogia",
+      "Promessa de Deus a David",
+      "Messianismo"
+    ],
+    "theological_significance": "A menção de Anani na genealogia de David é teologicamente significativa, pois reforça a ideia de que Deus cumpre Suas promessas através das gerações. Para a fé cristã, isso se conecta diretamente à identidade de Jesus como o Messias prometido, que vem da linhagem de David, mostrando que Deus age na história para realizar Sua salvação.",
+    "model": "gpt-4o-mini",
+    "run_id": "enr_20250923_125829_3cea4ba8",
+    "confidence": 1.0,
+    "generated_at": "2025-09-23T12:58:29.832528"
+  },
+  "ai_themes_normalized": [
+    {
+      "theme_id": null,
+      "proposal_id": "prop:promessa_e_cumprimento_f01ec0",
+      "label_original": "Promessa e cumprimento",
+      "source": "ai_enrichment"
+    },
+    {
+      "theme_id": null,
+      "proposal_id": "prop:linhagem_e_identidade_9f16e0",
+      "label_original": "Linhagem e identidade",
+      "source": "ai_enrichment"
+    },
+    {
+      "theme_id": null,
+      "proposal_id": "prop:a_historia_da_salvacao_90898a",
+      "label_original": "A história da salvação",
+      "source": "ai_enrichment"
+    }
+  ],
+  "phase1_discovery": {
+    "processed_at": "2025-09-23T22:44:10.484183Z",
+    "total_themes_processed": 3,
+    "summary": {
+      "total_processed": 3,
+      "decisions": {
+        "alias_existing": 0,
+        "proposed": 3,
+        "error": 0
+      },
+      "success_rate": 1.0
+    },
+    "results": [
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.8401,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_7c62dd2f",
+          "decision_hash": "4779c03f37ca4e8e",
+          "created_at": "2025-09-23T22:44:10.484183Z"
+        },
+        "proposal_id": "prop:9c53f030",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:promessa_e_cumprimento_f01ec0",
+          "label_original": "Promessa e cumprimento",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.84116,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_bba450e1",
+          "decision_hash": "8795c82829f64a11",
+          "created_at": "2025-09-23T22:44:11.618028Z"
+        },
+        "proposal_id": "prop:96d41db0",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:linhagem_e_identidade_9f16e0",
+          "label_original": "Linhagem e identidade",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "low_novelty",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.73838,
+          "novelty": 0.5,
+          "similarity_to_best_existing": 0.5,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_d66aafb4",
+          "decision_hash": "8d4673756ad1be3c",
+          "created_at": "2025-09-23T22:44:12.407221Z"
+        },
+        "proposal_id": "prop:fb9af946",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:a_historia_da_salvacao_90898a",
+          "label_original": "A história da salvação",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      }
+    ]
+  },
+  "entity_links": [
+    {
+      "canonical_id": "CON:anani",
+      "namespace": "CONCEPT",
+      "role": "primary",
+      "confidence": 0.9,
+      "source": "topic_resolver",
+      "status": "proposed",
+      "provenance": {
+        "topic": "ANANI",
+        "extracted_from": "ANANI",
+        "processing_result": {
+          "status": "proposed",
+          "proposal_id": "stub:CON:anani_5f8cdde9",
+          "canonical_id": "CON:anani",
+          "needs_review": true,
+          "reasons": [
+            "low_confidence",
+            "insufficient_sources"
+          ],
+          "message": "Entity proposal stub:CON:anani_5f8cdde9 created"
+        }
+      }
+    }
+  ],
+  "see_also": [],
+  "aliases": [],
+  "stats": {
+    "entries_count": 1,
+    "ot_refs": 0,
+    "nt_refs": 0,
+    "total_verses": 0
+  },
+  "definitions": [
+    {
+      "source": "SMI",
+      "text": "(Protected by Jehovah), the seventh son of Elioenai, descended from the royal line of Judah. (1 Chronicles 3:24)",
+      "extracted_refs": [
+        {
+          "book": "1 Chronicles",
+          "chapter": 3,
+          "verses": [
+            24
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "1 Chronicles 3:24",
+          "source": "SMI"
+        }
+      ]
+    }
+  ],
+  "dictionary_refs": [
+    {
+      "reference": "1 Chronicles 3:24",
+      "original": "1 Chronicles 3:24"
+    }
+  ],
+  "sources": [
+    "NAV",
+    "SMI"
+  ],
+  "metadata": {
+    "schema_version": "v3.0",
+    "created_at": "2025-12-02T21:53:08.663350+00:00",
+    "merged_from": {
+      "v2": true,
+      "dictionary": true
+    }
+  },
+  "version": "3.0.0",
+  "definition_refs": [
+    {
+      "book": "1 Chronicles",
+      "chapter": 3,
+      "verses": [
+        24
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 3:24",
+      "source": "SMI"
+    }
+  ],
+  "definition_refs_stats": {
+    "total": 1,
+    "ot": 1,
+    "nt": 0,
+    "books": [
+      "1 Chronicles"
+    ]
+  }
+}

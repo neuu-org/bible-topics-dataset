@@ -1,0 +1,313 @@
+{
+  "topic": "APE",
+  "slug": "ape",
+  "type": "both",
+  "reference_groups": [
+    {
+      "name": "In Solomon’s zoological collections 1Ki 10:22; 2Ch 9:21",
+      "references": [
+        "1Kgs 10:22",
+        "2Chr 9:21"
+      ],
+      "sub_groups": []
+    }
+  ],
+  "biblical_references": [
+    {
+      "book": "2 Chronicles",
+      "book_abbrev": "2ch",
+      "chapter": 9,
+      "testament": "OT",
+      "verses": [
+        21
+      ],
+      "verse_count": 1
+    }
+  ],
+  "ai_enrichment": {
+    "summary": "O tópico 'APE' nas coleções zoológicas de Salomão, conforme mencionado em 1 Reis 10:22 e 2 Crônicas 9:21, destaca a riqueza e a diversidade da criação de Deus. Salomão, conhecido por sua sabedoria e riqueza, acumulou uma vasta coleção de animais exóticos, incluindo macacos, que simbolizavam não apenas a opulência de seu reino, mas também a curiosidade e o interesse pela natureza. Este aspecto da vida de Salomão reflete a ordem e a beleza da criação divina, além de servir como um testemunho da sabedoria que Deus concedeu a ele. A presença de tais criaturas em seu reino também pode ser vista como um reflexo da glória de Deus manifestada na criação.",
+    "outline": [
+      "A riqueza e a sabedoria de Salomão como reflexo da criação de Deus.",
+      "A importância das coleções zoológicas na cultura antiga e seu simbolismo.",
+      "A diversidade da criação e seu papel na revelação do caráter de Deus.",
+      "A conexão entre a sabedoria de Salomão e a apreciação da natureza."
+    ],
+    "key_concepts": [
+      "Sabedoria de Salomão",
+      "Criação de Deus",
+      "Riqueza e opulência"
+    ],
+    "theological_significance": "Este tópico enfatiza a importância de reconhecer a criação de Deus em sua diversidade e beleza. Para a fé cristã, isso nos lembra que a sabedoria e a riqueza não são apenas para nosso benefício, mas devem ser usadas para glorificar a Deus e cuidar de Sua criação. A apreciação da natureza e dos seres vivos é um chamado para a mordomia e a responsabilidade que temos como criaturas feitas à imagem de Deus.",
+    "model": "gpt-4o-mini",
+    "run_id": "enr_20250923_130702_f4a5cda1",
+    "confidence": 1.0,
+    "generated_at": "2025-09-23T13:07:02.527646"
+  },
+  "ai_themes_normalized": [
+    {
+      "theme_id": null,
+      "proposal_id": "prop:sabedoria_e_conhecimento_168ab0",
+      "label_original": "Sabedoria e conhecimento",
+      "source": "ai_enrichment"
+    },
+    {
+      "theme_id": null,
+      "proposal_id": "prop:riqueza_e_prosperidade_a93109",
+      "label_original": "Riqueza e prosperidade",
+      "source": "ai_enrichment"
+    },
+    {
+      "theme_id": null,
+      "proposal_id": "prop:a_criacao_e_sua_diversidade_910bf3",
+      "label_original": "A criação e sua diversidade",
+      "source": "ai_enrichment"
+    }
+  ],
+  "phase1_discovery": {
+    "processed_at": "2025-09-23T22:46:33.348672Z",
+    "total_themes_processed": 3,
+    "summary": {
+      "total_processed": 3,
+      "decisions": {
+        "alias_existing": 0,
+        "proposed": 3,
+        "error": 0
+      },
+      "success_rate": 1.0
+    },
+    "results": [
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.8418599999999999,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_09afc5c6",
+          "decision_hash": "327327c425714a21",
+          "created_at": "2025-09-23T22:46:33.348672Z"
+        },
+        "proposal_id": "prop:fc5299c5",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:sabedoria_e_conhecimento_168ab0",
+          "label_original": "Sabedoria e conhecimento",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.83888,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_ffa2ad8a",
+          "decision_hash": "f5ab2e2123b61a9f",
+          "created_at": "2025-09-23T22:46:34.503655Z"
+        },
+        "proposal_id": "prop:a4ffb389",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:riqueza_e_prosperidade_a93109",
+          "label_original": "Riqueza e prosperidade",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.83338,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_8ee77518",
+          "decision_hash": "c46f677c14786f72",
+          "created_at": "2025-09-23T22:46:35.481440Z"
+        },
+        "proposal_id": "prop:fab26e22",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:a_criacao_e_sua_diversidade_910bf3",
+          "label_original": "A criação e sua diversidade",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      }
+    ]
+  },
+  "entity_links": [
+    {
+      "canonical_id": "CON:ape",
+      "namespace": "CONCEPT",
+      "role": "primary",
+      "confidence": 0.9,
+      "source": "topic_resolver",
+      "status": "proposed",
+      "provenance": {
+        "topic": "APE",
+        "extracted_from": "APE",
+        "processing_result": {
+          "status": "proposed",
+          "proposal_id": "stub:CON:ape_608f57ed",
+          "canonical_id": "CON:ape",
+          "needs_review": true,
+          "reasons": [
+            "low_confidence",
+            "insufficient_sources"
+          ],
+          "message": "Entity proposal stub:CON:ape_608f57ed created"
+        }
+      }
+    }
+  ],
+  "see_also": [],
+  "aliases": [],
+  "stats": {
+    "entries_count": 1,
+    "ot_refs": 1,
+    "nt_refs": 0,
+    "total_verses": 1
+  },
+  "definitions": [
+    {
+      "source": "EAS",
+      "text": "An animal of the monkey tribe (1 Kings 10:22; 2 Chr. 9:21). It was brought from India by the fleets of Solomon and Hiram, and was called by the Hebrews koph_, and by the Greeks _kepos, both words being just the Indian Tamil name of the monkey, kapi, i.e., swift, nimble, active. No species of ape has ever been found in Palestine or the adjacent regions.",
+      "extracted_refs": [
+        {
+          "book": "1 Kings",
+          "chapter": 10,
+          "verses": [
+            22
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "1 Kings 10:22",
+          "source": "EAS"
+        },
+        {
+          "book": "2 Chronicles",
+          "chapter": 9,
+          "verses": [
+            21
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "2 Chronicles 9:21",
+          "source": "EAS"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "NAV",
+    "EAS"
+  ],
+  "metadata": {
+    "schema_version": "v3.0",
+    "created_at": "2025-12-02T21:53:08.669052+00:00",
+    "merged_from": {
+      "v2": true,
+      "dictionary": true
+    }
+  },
+  "version": "3.0.0",
+  "definition_refs": [
+    {
+      "book": "1 Kings",
+      "chapter": 10,
+      "verses": [
+        22
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Kings 10:22",
+      "source": "EAS"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 9,
+      "verses": [
+        21
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Chronicles 9:21",
+      "source": "EAS"
+    }
+  ],
+  "definition_refs_stats": {
+    "total": 2,
+    "ot": 2,
+    "nt": 0,
+    "books": [
+      "1 Kings",
+      "2 Chronicles"
+    ]
+  }
+}

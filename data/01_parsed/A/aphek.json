@@ -1,0 +1,320 @@
+{
+  "topic": "APHEK",
+  "slug": "aphek",
+  "type": "both",
+  "reference_groups": [
+    {
+      "name": "1. A city of the tribe of Asher Jos 19:30",
+      "references": [
+        "Josh 19:30"
+      ],
+      "sub_groups": [
+        {
+          "name": "Called APHIK Jud 1:31",
+          "references": [
+            "Judg 1:31"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "2. A city of the tribe of Issachar",
+      "references": [],
+      "sub_groups": [
+        {
+          "name": "Philistines defeat Israelites at 1Sa 4:1-11",
+          "references": [
+            "1Sam 4:1-11"
+          ]
+        },
+        {
+          "name": "Saul killed at 1Sa 29:1",
+          "references": [
+            "1Sam 29:1"
+          ]
+        },
+        {
+          "name": "Probably the same city as mentioned in Joshua as a royal city of the Canaanites Jos 12:18",
+          "references": [
+            "Josh 12:18"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "3. A city between Damascus and Palestine",
+      "references": [],
+      "sub_groups": [
+        {
+          "name": "Ben-hadad defeated at 1Ki 20:26-30",
+          "references": [
+            "1Kgs 20:26-30"
+          ]
+        }
+      ]
+    }
+  ],
+  "biblical_references": [],
+  "ai_enrichment": {
+    "summary": "Aphek é uma cidade mencionada na Bíblia em várias passagens, associada a diferentes tribos de Israel, como Asher e Issachar. Sua localização estratégica entre Damasco e a Palestina a torna um ponto importante em várias narrativas, incluindo batalhas significativas contra os filisteus. A cidade é um símbolo da luta contínua de Israel contra inimigos externos e da soberania de Deus sobre as nações. A menção de Aphek em contextos de derrota e vitória reflete a complexidade da história de Israel e sua relação com Deus.",
+    "outline": [
+      "Aphek como cidade da tribo de Asher (Jos 19:30)",
+      "Aphek como cidade da tribo de Issachar e suas batalhas (1Sa 4:1-11; 1Sa 29:1)",
+      "Aphek como cidade entre Damasco e Palestina e a derrota de Ben-Hadade (1Re 20:26-30)"
+    ],
+    "key_concepts": [
+      "Geografia bíblica",
+      "Conflitos entre Israel e os filisteus",
+      "Soberania de Deus nas batalhas"
+    ],
+    "theological_significance": "A análise de Aphek revela a importância da geografia na narrativa bíblica e como as cidades servem como cenários para a manifestação do poder de Deus. A história de Aphek nos ensina sobre a necessidade de confiar em Deus em tempos de crise e a realidade das consequências do pecado e da desobediência.",
+    "model": "gpt-4o-mini",
+    "run_id": "enr_20250923_130754_5d72bf18",
+    "confidence": 0.9500000000000002,
+    "generated_at": "2025-09-23T13:07:54.208692"
+  },
+  "ai_themes_normalized": [
+    {
+      "theme_id": null,
+      "proposal_id": "prop:conquista_e_possessao_da_terra_prometida_ae1564",
+      "label_original": "Conquista e possessão da terra prometida",
+      "source": "ai_enrichment"
+    },
+    {
+      "theme_id": null,
+      "proposal_id": "prop:batalhas_e_conflitos_de_israel_3939e1",
+      "label_original": "Batalhas e conflitos de Israel",
+      "source": "ai_enrichment"
+    },
+    {
+      "theme_id": null,
+      "proposal_id": "prop:a_soberania_de_deus_sobre_as_nacoes_495036",
+      "label_original": "A soberania de Deus sobre as nações",
+      "source": "ai_enrichment"
+    }
+  ],
+  "phase1_discovery": {
+    "processed_at": "2025-09-23T22:46:50.558371Z",
+    "total_themes_processed": 3,
+    "summary": {
+      "total_processed": 3,
+      "decisions": {
+        "alias_existing": 0,
+        "proposed": 3,
+        "error": 0
+      },
+      "success_rate": 1.0
+    },
+    "results": [
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.8431,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_274f7419",
+          "decision_hash": "c69ed4f99f2a1032",
+          "created_at": "2025-09-23T22:46:50.558371Z"
+        },
+        "proposal_id": "prop:439dc8c6",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:conquista_e_possessao_da_terra_prometida_ae1564",
+          "label_original": "Conquista e possessão da terra prometida",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.83472,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_55ea84bd",
+          "decision_hash": "fb8741327fcfded7",
+          "created_at": "2025-09-23T22:46:51.984681Z"
+        },
+        "proposal_id": "prop:b856911c",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:batalhas_e_conflitos_de_israel_3939e1",
+          "label_original": "Batalhas e conflitos de Israel",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.8335199999999999,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_050b7f9a",
+          "decision_hash": "932e8744bb0a2c4a",
+          "created_at": "2025-09-23T22:46:53.553542Z"
+        },
+        "proposal_id": "prop:39f365b3",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:a_soberania_de_deus_sobre_as_nacoes_495036",
+          "label_original": "A soberania de Deus sobre as nações",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      }
+    ]
+  },
+  "entity_links": [
+    {
+      "canonical_id": "CON:aphek",
+      "namespace": "CONCEPT",
+      "role": "primary",
+      "confidence": 0.9,
+      "source": "topic_resolver",
+      "status": "proposed",
+      "provenance": {
+        "topic": "APHEK",
+        "extracted_from": "APHEK",
+        "processing_result": {
+          "status": "proposed",
+          "proposal_id": "stub:CON:aphek_e8ac8e3a",
+          "canonical_id": "CON:aphek",
+          "needs_review": true,
+          "reasons": [
+            "low_confidence",
+            "insufficient_sources"
+          ],
+          "message": "Entity proposal stub:CON:aphek_e8ac8e3a created"
+        }
+      }
+    }
+  ],
+  "see_also": [],
+  "aliases": [],
+  "stats": {
+    "entries_count": 3,
+    "ot_refs": 0,
+    "nt_refs": 0,
+    "total_verses": 0
+  },
+  "definitions": [
+    {
+      "source": "SMI",
+      "text": "(strength), the name of several places in Palestine."
+    }
+  ],
+  "dictionary_refs": [
+    {
+      "reference": "Joshua 12:18",
+      "original": "Joshua 12:18"
+    },
+    {
+      "reference": "Joshua 15:53",
+      "original": "Joshua 15:53"
+    },
+    {
+      "reference": "Joshua 19:30",
+      "original": "Joshua 19:30"
+    },
+    {
+      "reference": "Judges 1:31",
+      "original": "Judges 1:31"
+    },
+    {
+      "reference": "Joshua 13:4",
+      "original": "Joshua 13:4"
+    },
+    {
+      "reference": "1 Samuel 4:1",
+      "original": "1 Samuel 4:1"
+    },
+    {
+      "reference": "1 Samuel 29:1",
+      "original": "1 Samuel 29:1"
+    },
+    {
+      "reference": "1 Kings 20:26",
+      "original": "1 Kings 20:26"
+    }
+  ],
+  "sources": [
+    "NAV",
+    "SMI"
+  ],
+  "metadata": {
+    "schema_version": "v3.0",
+    "created_at": "2025-12-02T21:53:08.669106+00:00",
+    "merged_from": {
+      "v2": true,
+      "dictionary": true
+    }
+  },
+  "version": "3.0.0"
+}

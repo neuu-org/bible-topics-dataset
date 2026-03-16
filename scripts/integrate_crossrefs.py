@@ -18,10 +18,10 @@ from typing import Any
 
 # Paths
 REPO_ROOT = Path(__file__).parent.parent
-V3_DIR = REPO_ROOT / "data" / "01_unified"
+V3_DIR = REPO_ROOT / "data" / "01_parsed"
 # NOTE: CROSSREF_DIR is an external dependency from bible-crossrefs-dataset.
 #       Adjust this path to point to the local clone of that repo.
-CROSSREF_DIR = REPO_ROOT / ".." / "bible-crossrefs-dataset" / "data" / "01_unified" / "verses"
+CROSSREF_DIR = REPO_ROOT / ".." / "bible-crossrefs-dataset" / "data" / "02_unified" / "verses"
 
 # Book name to cross-ref abbreviation mapping
 BOOK_TO_ABBREV = {

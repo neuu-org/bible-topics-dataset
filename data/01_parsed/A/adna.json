@@ -1,0 +1,262 @@
+{
+  "topic": "ADNA",
+  "slug": "adna",
+  "type": "both",
+  "reference_groups": [
+    {
+      "name": "1. A son of Pahath-Moab Ezr 10:30",
+      "references": [
+        "Ezra 10:30"
+      ],
+      "sub_groups": []
+    },
+    {
+      "name": "2. A priest Ne 12:15",
+      "references": [
+        "Neh 12:15"
+      ],
+      "sub_groups": []
+    }
+  ],
+  "biblical_references": [],
+  "ai_enrichment": {
+    "summary": "Adna é mencionado na Bíblia como um filho de Pahath-Moab em Esdras 10:30 e como um sacerdote em Neemias 12:15. Esses dois registros destacam a importância de Adna dentro da genealogia e do serviço sacerdotal do povo de Israel, refletindo a continuidade da linhagem e a restauração do culto após o exílio babilônico. A menção de Adna em contextos diferentes sugere um papel significativo na vida comunitária e religiosa de Israel, especialmente durante o retorno a Jerusalém.",
+    "outline": [
+      "Adna como filho de Pahath-Moab e sua genealogia",
+      "Adna como sacerdote e seu papel no culto",
+      "A importância da linhagem sacerdotal na restauração de Israel",
+      "A conexão entre a identidade familiar e a prática religiosa"
+    ],
+    "key_concepts": [
+      "Genealogia",
+      "Sacerdócio",
+      "Restauração"
+    ],
+    "theological_significance": "A figura de Adna ilustra a importância da linhagem e do sacerdócio na tradição israelita, enfatizando como a restauração do culto e da identidade nacional está ligada à fidelidade às promessas de Deus. Para a fé cristã, isso ressalta a continuidade da obra de Deus através das gerações e a importância da comunidade na adoração e na prática da fé.",
+    "model": "gpt-4o-mini",
+    "run_id": "enr_20250923_122344_14be2e6a",
+    "confidence": 1.0,
+    "generated_at": "2025-09-23T12:23:44.254771"
+  },
+  "ai_themes_normalized": [
+    {
+      "theme_id": null,
+      "proposal_id": "prop:restauracao_pos_exilio_dc5795",
+      "label_original": "Restauração pós-exílio",
+      "source": "ai_enrichment"
+    },
+    {
+      "theme_id": null,
+      "proposal_id": "prop:identidade_e_comunidade_c7b015",
+      "label_original": "Identidade e comunidade",
+      "source": "ai_enrichment"
+    },
+    {
+      "theme_id": null,
+      "proposal_id": "prop:sacerdocio_e_culto_9f389c",
+      "label_original": "Sacerdócio e culto",
+      "source": "ai_enrichment"
+    }
+  ],
+  "phase1_discovery": {
+    "processed_at": "2025-09-23T22:32:55.616250Z",
+    "total_themes_processed": 3,
+    "summary": {
+      "total_processed": 3,
+      "decisions": {
+        "alias_existing": 0,
+        "proposed": 3,
+        "error": 0
+      },
+      "success_rate": 1.0
+    },
+    "results": [
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.84042,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_bd8c5edb",
+          "decision_hash": "c0cfd40edd4685a2",
+          "created_at": "2025-09-23T22:32:55.616250Z"
+        },
+        "proposal_id": "prop:2bc66d94",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:restauracao_pos_exilio_dc5795",
+          "label_original": "Restauração pós-exílio",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.83636,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_aba74831",
+          "decision_hash": "7249c99071a38b23",
+          "created_at": "2025-09-23T22:32:57.681665Z"
+        },
+        "proposal_id": "prop:29b365f9",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:identidade_e_comunidade_c7b015",
+          "label_original": "Identidade e comunidade",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "low_novelty",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.7419,
+          "novelty": 0.5,
+          "similarity_to_best_existing": 0.5,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_d52fc79e",
+          "decision_hash": "7b62439e447de1c8",
+          "created_at": "2025-09-23T22:32:58.712105Z"
+        },
+        "proposal_id": "prop:ab4e55bb",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:sacerdocio_e_culto_9f389c",
+          "label_original": "Sacerdócio e culto",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      }
+    ]
+  },
+  "entity_links": [
+    {
+      "canonical_id": "CON:adna",
+      "namespace": "CONCEPT",
+      "role": "primary",
+      "confidence": 0.9,
+      "source": "topic_resolver",
+      "status": "proposed",
+      "provenance": {
+        "topic": "ADNA",
+        "extracted_from": "ADNA",
+        "processing_result": {
+          "status": "proposed",
+          "proposal_id": "stub:CON:adna_efbfd753",
+          "canonical_id": "CON:adna",
+          "needs_review": true,
+          "reasons": [
+            "low_confidence",
+            "insufficient_sources"
+          ],
+          "message": "Entity proposal stub:CON:adna_efbfd753 created"
+        }
+      }
+    }
+  ],
+  "see_also": [],
+  "aliases": [],
+  "stats": {
+    "entries_count": 2,
+    "ot_refs": 0,
+    "nt_refs": 0,
+    "total_verses": 0
+  },
+  "definitions": [
+    {
+      "source": "SMI",
+      "text": "(rest, pleasure)."
+    }
+  ],
+  "dictionary_refs": [
+    {
+      "reference": "Ezra 10:30",
+      "original": "Ezra 10:30"
+    },
+    {
+      "reference": "Nehemiah 12:15",
+      "original": "Nehemiah 12:15"
+    }
+  ],
+  "sources": [
+    "NAV",
+    "SMI"
+  ],
+  "metadata": {
+    "schema_version": "v3.0",
+    "created_at": "2025-12-02T21:53:08.661330+00:00",
+    "merged_from": {
+      "v2": true,
+      "dictionary": true
+    }
+  },
+  "version": "3.0.0"
+}

@@ -1,0 +1,868 @@
+{
+  "topic": "ADONIRAM",
+  "slug": "adoniram",
+  "type": "both",
+  "reference_groups": [
+    {
+      "name": "Also called ADORAM, a tax gatherer 2Sa 20:24; 1Ki 4:6; 5:14; 12:18",
+      "references": [
+        "2Sam 20:24",
+        "1Kgs 4:6",
+        "1Kgs 5:14",
+        "1Kgs 12:18"
+      ],
+      "sub_groups": []
+    }
+  ],
+  "biblical_references": [
+    {
+      "book": "1 Kings",
+      "book_abbrev": "1ki",
+      "chapter": 4,
+      "testament": "OT",
+      "verses": [
+        5,
+        6
+      ],
+      "verse_count": 2
+    }
+  ],
+  "ai_enrichment": {
+    "summary": "Adoniram, também conhecido como Adoram, foi um oficial do governo durante os reinados de Davi, Salomão e Reoboão, responsável pela coleta de tributos em Israel. Ele é mencionado em 1 Reis 4:6 e 12:18, onde sua morte é registrada, sendo apedrejado pelo povo de Israel em resposta à opressão fiscal. Sua história ilustra as tensões entre o governo e o povo, especialmente em tempos de crise política e social.",
+    "outline": [
+      "Adoniram, também chamado de Adoram, era o chefe da coleta de tributos durante os reinados de Davi e Salomão (2 Samuel 20:24; 1 Reis 4:6).",
+      "Ele foi enviado por Reoboão para coletar tributos dos israelitas, que estavam em rebelião contra a nova liderança (1 Reis 12:18).",
+      "A morte de Adoniram, apedrejado pelo povo, simboliza a resistência popular contra a opressão e a carga tributária excessiva (1 Reis 12:18).",
+      "A história de Adoniram reflete as tensões sociais e políticas em Israel, destacando a importância da liderança justa e da sensibilidade às necessidades do povo.",
+      "Social Tensions in Israel (1 Reis 12:18; 2 Samuel 20:24)"
+    ],
+    "key_concepts": [
+      "Tributo",
+      "Liderança",
+      "Rebelião",
+      "Opressão",
+      "Justiça social"
+    ],
+    "theological_significance": "A história de Adoniram destaca a importância da justiça e da responsabilidade dos líderes em relação ao povo. A opressão fiscal e a falta de sensibilidade às necessidades do povo podem levar a consequências trágicas, como a rebelião e a morte de líderes. Este relato serve como um alerta sobre a necessidade de governança justa e a importância de ouvir a voz do povo na liderança.",
+    "model": "gpt-4o-mini",
+    "run_id": "enr_20251203_233439_cf2df675",
+    "confidence": 1.0,
+    "generated_at": "2025-12-03T23:34:39.283814"
+  },
+  "ai_themes_normalized": [
+    {
+      "theme_id": null,
+      "proposal_id": "prop:oppression_and_resis_017465",
+      "label_original": "Opressão e resistência do povo",
+      "label_en": "Oppression and Resistance",
+      "label_normalized": "oppression_and_resistance",
+      "anchor_verses": [
+        "1 Reis 12:18",
+        "2 Samuel 20:24"
+      ],
+      "relevance_score": 9,
+      "semantic_keywords": [
+        "oppression",
+        "rebellion",
+        "taxation",
+        "leadership",
+        "Israel"
+      ],
+      "theological_domain": "ethics",
+      "parent_theme": null,
+      "aspect": "dinâmica entre governo e povo",
+      "source": "ai_enrichment",
+      "anchor_source": "ai_trusted",
+      "anchor_meta": {
+        "ai_suggested": 2,
+        "validated": 0,
+        "fallback_used": false
+      }
+    },
+    {
+      "theme_id": null,
+      "proposal_id": "prop:leadership_responsib_060552",
+      "label_original": "Responsabilidade dos líderes",
+      "label_en": "Leadership Responsibility",
+      "label_normalized": "leadership_responsibility",
+      "anchor_verses": [
+        "1 Reis 4:6"
+      ],
+      "relevance_score": 8,
+      "semantic_keywords": [
+        "leadership",
+        "justice",
+        "accountability",
+        "government",
+        "Israel"
+      ],
+      "theological_domain": "ethics",
+      "parent_theme": null,
+      "aspect": "papel dos líderes na sociedade",
+      "source": "ai_enrichment",
+      "anchor_source": "ai_trusted",
+      "anchor_meta": {
+        "ai_suggested": 1,
+        "validated": 0,
+        "fallback_used": false
+      }
+    }
+  ],
+  "phase1_discovery": {
+    "processed_at": "2025-09-23T22:33:16.561179Z",
+    "total_themes_processed": 3,
+    "summary": {
+      "total_processed": 3,
+      "decisions": {
+        "alias_existing": 0,
+        "proposed": 3,
+        "error": 0
+      },
+      "success_rate": 1.0
+    },
+    "results": [
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "low_novelty",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.7848599999999999,
+          "novelty": 0.6666666666666667,
+          "similarity_to_best_existing": 0.3333333333333333,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_f6131768",
+          "decision_hash": "970e183ff13b0d07",
+          "created_at": "2025-09-23T22:33:16.561179Z"
+        },
+        "proposal_id": "prop:1725772f",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:justica_social_7c9fa1",
+          "label_original": "Justiça social",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.84836,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_c542a21d",
+          "decision_hash": "e625b185fd0d44fe",
+          "created_at": "2025-09-23T22:33:17.522205Z"
+        },
+        "proposal_id": "prop:c2583fca",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:lideranca_e_responsabilidade_d06547",
+          "label_original": "Liderança e responsabilidade",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.84932,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_3f9af62e",
+          "decision_hash": "0ce43ea4140fd340",
+          "created_at": "2025-09-23T22:33:18.597659Z"
+        },
+        "proposal_id": "prop:003d2290",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:relacao_entre_governo_e_povo_209f2e",
+          "label_original": "Relação entre governo e povo",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      }
+    ]
+  },
+  "entity_links": [
+    {
+      "canonical_id": "CON:adoniram",
+      "namespace": "CONCEPT",
+      "role": "primary",
+      "confidence": 0.9,
+      "source": "topic_resolver",
+      "status": "proposed",
+      "provenance": {
+        "topic": "ADONIRAM",
+        "extracted_from": "ADONIRAM",
+        "processing_result": {
+          "status": "proposed",
+          "proposal_id": "stub:CON:adoniram_53a038db",
+          "canonical_id": "CON:adoniram",
+          "needs_review": true,
+          "reasons": [
+            "low_confidence",
+            "insufficient_sources"
+          ],
+          "message": "Entity proposal stub:CON:adoniram_53a038db created"
+        }
+      }
+    }
+  ],
+  "see_also": [],
+  "aliases": [],
+  "stats": {
+    "entries_count": 1,
+    "ot_refs": 1,
+    "nt_refs": 0,
+    "total_verses": 1
+  },
+  "definitions": [
+    {
+      "source": "EAS",
+      "text": "(Adoram, 1 Kings 12:18), the son of Abda, was “over the tribute,” i.e., the levy or forced labour. He was stoned to death by the people of Israel (1 Kings 4:6; 5:14)",
+      "extracted_refs": [
+        {
+          "book": "1 Kings",
+          "chapter": 12,
+          "verses": [
+            18
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "1 Kings 12:18",
+          "source": "EAS"
+        },
+        {
+          "book": "1 Kings",
+          "chapter": 4,
+          "verses": [
+            6
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "1 Kings 4:6",
+          "source": "EAS"
+        },
+        {
+          "book": "1 Kings",
+          "chapter": 5,
+          "verses": [
+            14
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "1 Kings 5:14",
+          "source": "EAS"
+        }
+      ]
+    },
+    {
+      "source": "SMI",
+      "text": "(lord of heights), (1 Kings 4:6) by an unusual contraction Adoram, (2 Samuel 20:24) and 1Kin 12:18 Also Hadoram, (2 Chronicles 10:18) chief receiver of the tribute during the reigns of David, (2 Samuel 20:24) Solomon, (1 Kings 4:6) and Rehoboam. (1 Kings 12:18) This last monarch sent him to collect the tribute from the rebellious Israelites, by whom he was stoned to death, (B.C. 1014-973.)",
+      "extracted_refs": [
+        {
+          "book": "1 Kings",
+          "chapter": 4,
+          "verses": [
+            6
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "1 Kings 4:6",
+          "source": "SMI"
+        },
+        {
+          "book": "2 Samuel",
+          "chapter": 20,
+          "verses": [
+            24
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "2 Samuel 20:24",
+          "source": "SMI"
+        },
+        {
+          "book": "2 Chronicles",
+          "chapter": 10,
+          "verses": [
+            18
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "2 Chronicles 10:18",
+          "source": "SMI"
+        },
+        {
+          "book": "1 Kings",
+          "chapter": 12,
+          "verses": [
+            18
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "1 Kings 12:18",
+          "source": "SMI"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "NAV",
+    "EAS",
+    "SMI"
+  ],
+  "metadata": {
+    "schema_version": "v3.0",
+    "created_at": "2025-12-02T21:53:08.661394+00:00",
+    "merged_from": {
+      "v2": true,
+      "dictionary": true
+    }
+  },
+  "version": "3.0.0",
+  "definition_refs": [
+    {
+      "book": "1 Kings",
+      "chapter": 12,
+      "verses": [
+        18
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Kings 12:18",
+      "source": "EAS"
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 4,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Kings 4:6",
+      "source": "EAS"
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 5,
+      "verses": [
+        14
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Kings 5:14",
+      "source": "EAS"
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 20,
+      "verses": [
+        24
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Samuel 20:24",
+      "source": "SMI"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 10,
+      "verses": [
+        18
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Chronicles 10:18",
+      "source": "SMI"
+    }
+  ],
+  "definition_refs_stats": {
+    "total": 5,
+    "ot": 5,
+    "nt": 0,
+    "books": [
+      "1 Kings",
+      "2 Chronicles",
+      "2 Samuel"
+    ]
+  },
+  "cross_reference_network": {
+    "1 Kings 12:18": [
+      {
+        "to_verse": "1KI.4.6",
+        "score": 7,
+        "votes": 5,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "1KI.5.14",
+        "score": 7,
+        "votes": 5,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "2SA.20.24",
+        "score": 6,
+        "votes": 4,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "1KI.20.18",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "2CH.10.18",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "2CH.24.21",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "ACT.5.26",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "ACT.7.57",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "AMO.2.16",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "EXO.17.4",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "EZE.37.16",
+        "score": 4,
+        "votes": 3,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "NUM.14.10",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "PRO.28.1",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "1KI.20.19",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "1KI.20.20",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "2CH.10.1",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "ACT.7.58",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "ECC.2.19",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "HOS.8.4",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "ISA.7.17",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      }
+    ],
+    "1 Kings 4:6": [
+      {
+        "to_verse": "2CH.10.18",
+        "score": 6,
+        "votes": 4,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "1KI.12.18",
+        "score": 5,
+        "votes": 3,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "1KI.9.15",
+        "score": 5,
+        "votes": 3,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "2SA.20.24",
+        "score": 5,
+        "votes": 3,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "1KI.5.13",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "ISA.22.15",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "1KI.5.14",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "1KI.9.22",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "2SA.20.23",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "ECC.1.12",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "GEN.49.8",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "2CH.8.8",
+        "score": 1,
+        "votes": 0,
+        "strength": "weak"
+      }
+    ],
+    "1 Kings 5:14": [],
+    "2 Chronicles 10:18": [],
+    "2 Samuel 20:24": []
+  },
+  "cross_ref_stats": {
+    "source_verses": 3,
+    "verses_with_crossrefs": 3,
+    "total_crossrefs": 52,
+    "unique_target_verses": 49,
+    "strong_refs": 10,
+    "coverage": 100.0
+  },
+  "connected_topics": [
+    {
+      "topic": "KINGS",
+      "shared_refs": 295,
+      "strength": "strong"
+    },
+    {
+      "topic": "OFFICER",
+      "shared_refs": 103,
+      "strength": "strong"
+    },
+    {
+      "topic": "HOLY LAND",
+      "shared_refs": 60,
+      "strength": "strong"
+    },
+    {
+      "topic": "SOLOMON",
+      "shared_refs": 56,
+      "strength": "strong"
+    },
+    {
+      "topic": "ARMIES OF ISRAEL, THE",
+      "shared_refs": 45,
+      "strength": "strong"
+    },
+    {
+      "topic": "Israel, Kingdom of",
+      "shared_refs": 43,
+      "strength": "strong"
+    },
+    {
+      "topic": "ARMIES",
+      "shared_refs": 42,
+      "strength": "strong"
+    },
+    {
+      "topic": "CITIES",
+      "shared_refs": 41,
+      "strength": "strong"
+    },
+    {
+      "topic": "ADONIJAH",
+      "shared_refs": 41,
+      "strength": "strong"
+    },
+    {
+      "topic": "PROPHETS",
+      "shared_refs": 39,
+      "strength": "strong"
+    },
+    {
+      "topic": "TRIBES OF ISRAEL, THE",
+      "shared_refs": 38,
+      "strength": "strong"
+    },
+    {
+      "topic": "King",
+      "shared_refs": 36,
+      "strength": "strong"
+    },
+    {
+      "topic": "PARABLES",
+      "shared_refs": 36,
+      "strength": "strong"
+    },
+    {
+      "topic": "Chronicles, Books of",
+      "shared_refs": 35,
+      "strength": "strong"
+    },
+    {
+      "topic": "NATHAN",
+      "shared_refs": 33,
+      "strength": "strong"
+    },
+    {
+      "topic": "Month",
+      "shared_refs": 33,
+      "strength": "strong"
+    },
+    {
+      "topic": "TABERNACLE",
+      "shared_refs": 32,
+      "strength": "strong"
+    },
+    {
+      "topic": "MONTHS",
+      "shared_refs": 31,
+      "strength": "strong"
+    },
+    {
+      "topic": "REHOBOAM",
+      "shared_refs": 27,
+      "strength": "strong"
+    },
+    {
+      "topic": "JEWS, THE",
+      "shared_refs": 27,
+      "strength": "strong"
+    }
+  ],
+  "ai_entities": [
+    {
+      "name": "Adoniram",
+      "type": "PERSON",
+      "canonical_id": null,
+      "context": "oficial responsável pela coleta de tributos em Israel"
+    },
+    {
+      "name": "Reoboão",
+      "type": "PERSON",
+      "canonical_id": null,
+      "context": "rei de Judá que enviou Adoniram para coletar tributos"
+    }
+  ],
+  "ai_discovered_aspects": [
+    {
+      "label": "Social Tensions in Israel",
+      "references": [
+        "1 Reis 12:18",
+        "2 Samuel 20:24"
+      ],
+      "rationale": "A história de Adoniram revela as tensões sociais que existiam em Israel, especialmente em relação à opressão fiscal e à resposta do povo, um aspecto que não foi amplamente discutido nas fontes existentes.",
+      "source": "ai_discovery"
+    }
+  ],
+  "ai_relationships": [
+    {
+      "target": "Reoboão",
+      "type": "LEADER_OF",
+      "description": "Reoboão era o rei que enviou Adoniram para coletar tributos, representando a liderança de Judá.",
+      "target_type": "PERSON",
+      "target_canonical_id": null,
+      "source": "ai_enrichment"
+    }
+  ],
+  "updated_at": "2025-12-03T23:34:39.285856Z",
+  "ai_reference_groups": [
+    {
+      "name": "Social Tensions in Israel",
+      "ai_group_id": "grp:adoniram:social_tensions_in_israel",
+      "source": "ai_discovery",
+      "source_verses": [
+        "1 Reis 12:18",
+        "2 Samuel 20:24"
+      ],
+      "references": [
+        {
+          "book": "1 Reis",
+          "chapter": 12,
+          "verses": [
+            18
+          ],
+          "testament": "NT",
+          "raw": "1 Reis 12:18"
+        },
+        {
+          "book": "2 Samuel",
+          "chapter": 20,
+          "verses": [
+            24
+          ],
+          "testament": "OT",
+          "raw": "2 Samuel 20:24"
+        }
+      ],
+      "ot_references": [
+        {
+          "book": "2 Samuel",
+          "chapter": 20,
+          "verses": [
+            24
+          ],
+          "testament": "OT",
+          "raw": "2 Samuel 20:24"
+        }
+      ],
+      "nt_references": [
+        {
+          "book": "1 Reis",
+          "chapter": 12,
+          "verses": [
+            18
+          ],
+          "testament": "NT",
+          "raw": "1 Reis 12:18"
+        }
+      ],
+      "rationale": "A história de Adoniram revela as tensões sociais que existiam em Israel, especialmente em relação à opressão fiscal e à resposta do povo, um aspecto que não foi amplamente discutido nas fontes existentes.",
+      "quality": {
+        "verse_count": 2,
+        "has_ot_nt_coverage": true,
+        "relevance": "direct",
+        "confidence": 0.8
+      },
+      "auto_generated": true,
+      "generated_at": "2025-12-04T01:25:53.970265",
+      "requires_review": false,
+      "review_reason": null,
+      "is_duplicate_of": null
+    }
+  ],
+  "ai_reference_groups_updated_at": "2025-12-04T01:25:53.970300+00:00"
+}

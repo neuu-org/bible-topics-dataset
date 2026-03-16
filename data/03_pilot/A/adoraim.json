@@ -1,0 +1,361 @@
+{
+  "topic": "ADORAIM",
+  "slug": "adoraim",
+  "type": "both",
+  "reference_groups": [
+    {
+      "name": "A city of Judah 2Ch 11:9",
+      "references": [
+        "2Chr 11:9"
+      ],
+      "sub_groups": []
+    }
+  ],
+  "biblical_references": [],
+  "ai_enrichment": {
+    "summary": "Adoraim é uma cidade fortificada mencionada na Bíblia, construída por Roboão em Judá. Localizada em uma região estratégica, Adoraim é identificada por alguns estudiosos com a cidade de Dura, situada a oeste de Hebrom. A cidade é referenciada em 2 Crônicas, onde sua importância militar e geográfica é destacada, refletindo a organização e defesa do reino de Judá durante o reinado de Roboão.",
+    "outline": [
+      "Adoraim como cidade fortificada em Judá: construção por Roboão (2 Crônicas 11:9).",
+      "Identificação de Adoraim com Dura: localização e características geográficas (2 Crônicas 13:20).",
+      "Importância estratégica de Adoraim na defesa do reino de Judá: papel militar e político.",
+      "Historical Significance of Fortified Cities (2 Crônicas 11:9; 2 Crônicas 13:20)"
+    ],
+    "key_concepts": [
+      "Fortificação",
+      "Reino de Judá",
+      "Estratégia militar"
+    ],
+    "theological_significance": "A menção de Adoraim ilustra a preocupação de Deus com a proteção e a organização do Seu povo, refletindo a importância da liderança e da fortificação espiritual e física na vida do povo de Deus. A cidade representa a fidelidade de Judá em manter sua integridade e segurança sob a liderança de Roboão, um tema que ressoa com a necessidade de proteção divina e governança justa.",
+    "model": "gpt-4o-mini",
+    "run_id": "enr_20251203_233603_2ea8da11",
+    "confidence": 0.9500000000000002,
+    "generated_at": "2025-12-03T23:36:03.754413"
+  },
+  "ai_themes_normalized": [
+    {
+      "theme_id": null,
+      "proposal_id": "prop:fortification_and_de_0beee2",
+      "label_original": "Fortificação e defesa do povo de Deus",
+      "label_en": "Fortification and Defense",
+      "label_normalized": "fortification_and_defense",
+      "anchor_verses": [
+        "2 Crônicas 11:9",
+        "2 Crônicas 13:20"
+      ],
+      "relevance_score": 9,
+      "semantic_keywords": [
+        "fortification",
+        "defense",
+        "Judah",
+        "Roboam",
+        "military"
+      ],
+      "theological_domain": "theology_proper",
+      "parent_theme": null,
+      "aspect": "importância da proteção divina",
+      "source": "ai_enrichment",
+      "anchor_source": "ai_trusted",
+      "anchor_meta": {
+        "ai_suggested": 2,
+        "validated": 0,
+        "fallback_used": false
+      }
+    }
+  ],
+  "phase1_discovery": {
+    "processed_at": "2025-09-23T22:33:23.317627Z",
+    "total_themes_processed": 3,
+    "summary": {
+      "total_processed": 3,
+      "decisions": {
+        "alias_existing": 0,
+        "proposed": 3,
+        "error": 0
+      },
+      "success_rate": 1.0
+    },
+    "results": [
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.84004,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_31f5d35a",
+          "decision_hash": "015b1e790ae93194",
+          "created_at": "2025-09-23T22:33:23.317627Z"
+        },
+        "proposal_id": "prop:d38277f5",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:protecao_divina_4e3eda",
+          "label_original": "Proteção divina",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.8427399999999999,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_6290c67f",
+          "decision_hash": "2e095b43c3abff66",
+          "created_at": "2025-09-23T22:33:24.354466Z"
+        },
+        "proposal_id": "prop:2e00788f",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:comunidade_de_fe_ff4a8a",
+          "label_original": "Comunidade de fé",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.83404,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_40acbaa4",
+          "decision_hash": "af5d8d995230ae44",
+          "created_at": "2025-09-23T22:33:25.607105Z"
+        },
+        "proposal_id": "prop:785ece2f",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:cidades_de_refugio_c86d48",
+          "label_original": "Cidades de refúgio",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      }
+    ]
+  },
+  "entity_links": [
+    {
+      "canonical_id": "CON:adoraim",
+      "namespace": "CONCEPT",
+      "role": "primary",
+      "confidence": 0.9,
+      "source": "topic_resolver",
+      "status": "proposed",
+      "provenance": {
+        "topic": "ADORAIM",
+        "extracted_from": "ADORAIM",
+        "processing_result": {
+          "status": "proposed",
+          "proposal_id": "stub:CON:adoraim_b926eca4",
+          "canonical_id": "CON:adoraim",
+          "needs_review": true,
+          "reasons": [
+            "low_confidence",
+            "insufficient_sources"
+          ],
+          "message": "Entity proposal stub:CON:adoraim_b926eca4 created"
+        }
+      }
+    }
+  ],
+  "see_also": [],
+  "aliases": [],
+  "stats": {
+    "entries_count": 1,
+    "ot_refs": 0,
+    "nt_refs": 0,
+    "total_verses": 0
+  },
+  "definitions": [
+    {
+      "source": "SMI",
+      "text": "(double mound), a fortified city built by Rehoboam, (2 Chronicles 11:9) in Judah. Adoraim is probably the same place with Adora, 1Ma 13:20 Unless that be Dor, on the seacoast below Carmel. Robinson identifies it with Dura, a “large village” on a rising ground west of Hebron.",
+      "extracted_refs": [
+        {
+          "book": "2 Chronicles",
+          "chapter": 11,
+          "verses": [
+            9
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "2 Chronicles 11:9",
+          "source": "SMI"
+        },
+        {
+          "book": "2 Chronicles",
+          "chapter": 13,
+          "verses": [
+            20
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "2 Chronicles 13:20",
+          "source": "SMI"
+        }
+      ]
+    }
+  ],
+  "dictionary_refs": [
+    {
+      "reference": "2 Chronicles 11:9",
+      "original": "2 Chronicles 11:9"
+    },
+    {
+      "reference": "1Macc 13:20",
+      "original": "1Ma 13:20"
+    }
+  ],
+  "sources": [
+    "NAV",
+    "SMI"
+  ],
+  "metadata": {
+    "schema_version": "v3.0",
+    "created_at": "2025-12-02T21:53:08.661423+00:00",
+    "merged_from": {
+      "v2": true,
+      "dictionary": true
+    }
+  },
+  "version": "3.0.0",
+  "definition_refs": [
+    {
+      "book": "2 Chronicles",
+      "chapter": 11,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Chronicles 11:9",
+      "source": "SMI"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 13,
+      "verses": [
+        20
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Chronicles 13:20",
+      "source": "SMI"
+    }
+  ],
+  "definition_refs_stats": {
+    "total": 2,
+    "ot": 2,
+    "nt": 0,
+    "books": [
+      "2 Chronicles"
+    ]
+  },
+  "cross_reference_network": {
+    "2 Chronicles 11:9": [],
+    "2 Chronicles 13:20": []
+  },
+  "ai_entities": [
+    {
+      "name": "Adoraim",
+      "type": "PLACE",
+      "canonical_id": null,
+      "context": "cidade fortificada em Judá"
+    },
+    {
+      "name": "Roboão",
+      "type": "PERSON",
+      "canonical_id": null,
+      "context": "construtor de Adoraim e rei de Judá"
+    }
+  ],
+  "ai_discovered_aspects": [
+    {
+      "label": "Historical Significance of Fortified Cities",
+      "references": [
+        "2 Crônicas 11:9",
+        "2 Crônicas 13:20"
+      ],
+      "rationale": "A fortificação de cidades como Adoraim reflete a estratégia militar e a necessidade de proteção em tempos de conflito, destacando a importância da segurança no contexto do reino de Judá.",
+      "source": "ai_discovery"
+    }
+  ],
+  "ai_relationships": [
+    {
+      "target": "Roboão",
+      "type": "LEADER_OF",
+      "description": "Roboão foi o rei que construiu Adoraim como parte de sua estratégia de defesa do reino de Judá.",
+      "target_type": "PERSON",
+      "target_canonical_id": null,
+      "source": "ai_enrichment"
+    }
+  ],
+  "updated_at": "2025-12-03T23:36:03.763664Z"
+}

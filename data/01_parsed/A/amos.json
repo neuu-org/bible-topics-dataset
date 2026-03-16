@@ -1,0 +1,823 @@
+{
+  "topic": "AMOS",
+  "slug": "amos",
+  "type": "both",
+  "reference_groups": [
+    {
+      "name": "A prophet Am 1:1",
+      "references": [
+        "Amos 1:1"
+      ],
+      "sub_groups": []
+    },
+    {
+      "name": "Forbidden to prophesy in Israel Am 7:10-17",
+      "references": [
+        "Amos 7:10-17"
+      ],
+      "sub_groups": []
+    },
+    {
+      "name": "Vision of Am 8:2",
+      "references": [
+        "Amos 8:2"
+      ],
+      "sub_groups": []
+    }
+  ],
+  "biblical_references": [],
+  "ai_enrichment": {
+    "summary": "Amós, um dos profetas menores do Antigo Testamento, é conhecido por sua mensagem de justiça social e condenação da hipocrisia religiosa em Israel. Ele profetizou durante o reinado de Jeroboão II, destacando a decadência moral e a opressão dos pobres. Sua visão de um cesto de frutas maduras simboliza o juízo iminente sobre Israel, refletindo a certeza do julgamento divino. A proibição de profetizar em Israel, conforme relatado em Amós 7:10-17, ilustra a resistência dos líderes religiosos à mensagem de Deus, revelando a tensão entre a verdade divina e a corrupção humana.",
+    "outline": [
+      "A identidade de Amós como profeta e seu contexto histórico (Am 1:1)",
+      "A oposição enfrentada por Amós ao ser proibido de profetizar em Israel (Am 7:10-17)",
+      "A visão do cesto de frutas maduras e seu significado profético (Am 8:2)"
+    ],
+    "key_concepts": [
+      "Profecia e seu papel na comunicação divina",
+      "Justiça social e responsabilidade moral",
+      "O juízo de Deus e a esperança de restauração"
+    ],
+    "theological_significance": "A mensagem de Amós é crucial para a compreensão da justiça de Deus e da responsabilidade ética dos crentes. Ele desafia a complacência religiosa e convoca o povo a viver de acordo com os padrões divinos de justiça e compaixão. A resistência à sua mensagem destaca a luta contínua entre a verdade de Deus e a corrupção humana, um tema relevante para a fé cristã contemporânea.",
+    "model": "gpt-4o-mini",
+    "run_id": "enr_20250923_125519_1fcae4fd",
+    "confidence": 0.9500000000000002,
+    "generated_at": "2025-09-23T12:55:19.402160"
+  },
+  "ai_themes_normalized": [
+    {
+      "theme_id": null,
+      "proposal_id": "prop:justica_e_opressao_1e2fb1",
+      "label_original": "Justiça e opressão",
+      "source": "ai_enrichment"
+    },
+    {
+      "theme_id": null,
+      "proposal_id": "prop:profecia_e_resistencia_cd3a71",
+      "label_original": "Profecia e resistência",
+      "source": "ai_enrichment"
+    },
+    {
+      "theme_id": null,
+      "proposal_id": "prop:visoes_e_simbolismo_profetico_cfa8ee",
+      "label_original": "Visões e simbolismo profético",
+      "source": "ai_enrichment"
+    }
+  ],
+  "phase1_discovery": {
+    "processed_at": "2025-09-23T22:43:07.787251Z",
+    "total_themes_processed": 3,
+    "summary": {
+      "total_processed": 3,
+      "decisions": {
+        "alias_existing": 0,
+        "proposed": 3,
+        "error": 0
+      },
+      "success_rate": 1.0
+    },
+    "results": [
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "low_novelty",
+          "too_similar_surface",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.35847999999999997,
+          "novelty": 0.0,
+          "similarity_to_best_existing": 1.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_75fcfc77",
+          "decision_hash": "394fc2d8cbe7bb67",
+          "created_at": "2025-09-23T22:43:07.787251Z"
+        },
+        "proposal_id": "prop:49ef6903",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:justica_e_opressao_1e2fb1",
+          "label_original": "Justiça e opressão",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.84942,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_50ced154",
+          "decision_hash": "59b16fc024ca6b43",
+          "created_at": "2025-09-23T22:43:08.749732Z"
+        },
+        "proposal_id": "prop:729e7c82",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:profecia_e_resistencia_cd3a71",
+          "label_original": "Profecia e resistência",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.84748,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_bbeec3c9",
+          "decision_hash": "cab767779fe8f1b1",
+          "created_at": "2025-09-23T22:43:09.651789Z"
+        },
+        "proposal_id": "prop:216a7d3f",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:visoes_e_simbolismo_profetico_cfa8ee",
+          "label_original": "Visões e simbolismo profético",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      }
+    ]
+  },
+  "entity_links": [
+    {
+      "canonical_id": "CON:amos",
+      "namespace": "CONCEPT",
+      "role": "primary",
+      "confidence": 0.9,
+      "source": "topic_resolver",
+      "status": "proposed",
+      "provenance": {
+        "topic": "AMOS",
+        "extracted_from": "AMOS",
+        "processing_result": {
+          "status": "proposed",
+          "proposal_id": "stub:CON:amos_4c850749",
+          "canonical_id": "CON:amos",
+          "needs_review": true,
+          "reasons": [
+            "low_confidence",
+            "insufficient_sources"
+          ],
+          "message": "Entity proposal stub:CON:amos_4c850749 created"
+        }
+      }
+    }
+  ],
+  "see_also": [],
+  "aliases": [],
+  "stats": {
+    "entries_count": 3,
+    "ot_refs": 0,
+    "nt_refs": 0,
+    "total_verses": 0
+  },
+  "definitions": [
+    {
+      "source": "EAS",
+      "text": "Borne; a burden, one of the twelve minor prophets. He was a native of Tekota, the modern Tekua, a town about 12 miles south-east of Bethlehem. He was a man of humble birth, neither a “prophet nor a prophet’s son,” but “an herdman and a dresser of sycomore trees,” R.V. He prophesied in the days of Uzziah, king of Judah, and was contemporary with Isaiah and Hosea (Amos 1:1; 7:14, 15; Zech. 14:5), who survived him a few years. Under Jeroboam II. the kingdom of Israel rose to the zenith of its prosperity; but that was followed by the prevalence of luxury and vice and idolatry. At this period Amos was called from his obscurity to remind the people of the law of God’s retributive justice, and to call them to repentance. The Book of Amos consists of three parts: (1.) The nations around are summoned to judgment because of their sins (1:1-2:3). He quotes Joel 3:16. (2.) The spiritual condition of Judah, and especially of Israel, is described (2:4-6:14). (3.) In 7:1-9:10 are recorded five prophetic visions. (a) The first two (7:1-6) refer to judgments against the guilty people. (b) The next two (7:7-9; 8:1-3) point out the ripeness of the people for the threatened judgements. 7:10-17 consists of a conversation between the prophet and the priest of Bethel. (c) The fifth describes the overthrow and ruin of Israel (9:1-10); to which is added the promise of the restoration of the kingdom and its final glory in the Messiah’s kingdom. The style is peculiar in the number of the allusions made to natural objects and to agricultural occupations. Other allusions show also that Amos was a student of the law as well as a “child of nature.” These phrases are peculiar to him: “Cleanness of teeth” [i.e., want of bread] (4:6); “The excellency of Jacob” (6:8; 8:7); “The high places of Isaac” (7:9); “The house of Isaac” (7:16); “He that createth the wind” (4:13). Quoted, Acts 7:42.",
+      "extracted_refs": [
+        {
+          "book": "Amos",
+          "chapter": 1,
+          "verses": [
+            1
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "Amos 1:1",
+          "source": "EAS"
+        },
+        {
+          "book": "Amos",
+          "chapter": 7,
+          "verses": [
+            14,
+            15
+          ],
+          "verse_count": 2,
+          "testament": "OT",
+          "raw": "Amos 7:14, 15",
+          "source": "EAS"
+        },
+        {
+          "book": "Zechariah",
+          "chapter": 14,
+          "verses": [
+            5
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "Zechariah 14:5",
+          "source": "EAS"
+        },
+        {
+          "book": "Zechariah",
+          "chapter": 1,
+          "verses": [
+            1,
+            2
+          ],
+          "verse_count": 2,
+          "testament": "OT",
+          "raw": "Zechariah 1:1-2",
+          "source": "EAS"
+        },
+        {
+          "book": "Joel",
+          "chapter": 3,
+          "verses": [
+            16
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "Joel 3:16",
+          "source": "EAS"
+        },
+        {
+          "book": "Joel",
+          "chapter": 2,
+          "verses": [
+            4,
+            5,
+            6
+          ],
+          "verse_count": 3,
+          "testament": "OT",
+          "raw": "Joel 2:4-6",
+          "source": "EAS"
+        },
+        {
+          "book": "Joel",
+          "chapter": 7,
+          "verses": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "verse_count": 9,
+          "testament": "OT",
+          "raw": "Joel 7:1-9",
+          "source": "EAS"
+        },
+        {
+          "book": "Joel",
+          "chapter": 7,
+          "verses": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "verse_count": 6,
+          "testament": "OT",
+          "raw": "Joel 7:1-6",
+          "source": "EAS"
+        },
+        {
+          "book": "Joel",
+          "chapter": 7,
+          "verses": [
+            7,
+            8,
+            9
+          ],
+          "verse_count": 3,
+          "testament": "OT",
+          "raw": "Joel 7:7-9",
+          "source": "EAS"
+        },
+        {
+          "book": "Joel",
+          "chapter": 8,
+          "verses": [
+            1,
+            2,
+            3
+          ],
+          "verse_count": 3,
+          "testament": "OT",
+          "raw": "Joel 8:1-3",
+          "source": "EAS"
+        },
+        {
+          "book": "Judges",
+          "chapter": 7,
+          "verses": [
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "verse_count": 8,
+          "testament": "OT",
+          "raw": "Judges 7:10-17",
+          "source": "EAS"
+        },
+        {
+          "book": "Judges",
+          "chapter": 9,
+          "verses": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "verse_count": 10,
+          "testament": "OT",
+          "raw": "Judges 9:1-10",
+          "source": "EAS"
+        },
+        {
+          "book": "Judges",
+          "chapter": 4,
+          "verses": [
+            6
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "Judges 4:6",
+          "source": "EAS"
+        },
+        {
+          "book": "Judges",
+          "chapter": 6,
+          "verses": [
+            8
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "Judges 6:8",
+          "source": "EAS"
+        },
+        {
+          "book": "Judges",
+          "chapter": 8,
+          "verses": [
+            7
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "Judges 8:7",
+          "source": "EAS"
+        },
+        {
+          "book": "Judges",
+          "chapter": 7,
+          "verses": [
+            9
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "Judges 7:9",
+          "source": "EAS"
+        },
+        {
+          "book": "Judges",
+          "chapter": 7,
+          "verses": [
+            16
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "Judges 7:16",
+          "source": "EAS"
+        },
+        {
+          "book": "Judges",
+          "chapter": 4,
+          "verses": [
+            13
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "Judges 4:13",
+          "source": "EAS"
+        },
+        {
+          "book": "Acts",
+          "chapter": 7,
+          "verses": [
+            42
+          ],
+          "verse_count": 1,
+          "testament": "NT",
+          "raw": "Acts 7:42",
+          "source": "EAS"
+        }
+      ]
+    },
+    {
+      "source": "SMI",
+      "text": "(burden), native of Tekoa in Judah, about six miles south of Bethlehem, originally a shepherd and dresser of sycamore trees, who was called by God s Spirit to be a prophet, although not trained in any of the regular prophetic schools. (Amos 1:1; 7:14,15) He travelled from Judah into the northern kingdom of Israel or Ephraim, and there exercised his ministry, apparently not for any long time. (His date cannot be later than B.C. 808 for he lived in the reigns of Uzziah king of Judah and Jeroboam king of Israel; but his ministry probably took place at an earlier date, perhaps about the middle of Jeroboam’s reign Nothing is known of the time or manner of his death.—ED.)",
+      "extracted_refs": [
+        {
+          "book": "Amos",
+          "chapter": 1,
+          "verses": [
+            1
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "Amos 1:1",
+          "source": "SMI"
+        },
+        {
+          "book": "Amos",
+          "chapter": 7,
+          "verses": [
+            14,
+            15
+          ],
+          "verse_count": 2,
+          "testament": "OT",
+          "raw": "Amos 7:14,15",
+          "source": "SMI"
+        }
+      ]
+    }
+  ],
+  "dictionary_refs": [
+    {
+      "reference": "Amos 1:1",
+      "original": "Amos 1:1"
+    },
+    {
+      "reference": "Amos 7:14",
+      "original": "Amos 7:14"
+    },
+    {
+      "reference": "Amos 7:15",
+      "original": "Amos 7:15"
+    },
+    {
+      "reference": "Zechariah 14:5",
+      "original": "Zech. 14:5"
+    },
+    {
+      "reference": "Joel 3:16",
+      "original": "Joel 3:16"
+    },
+    {
+      "reference": "Acts 7:42",
+      "original": "Acts 7:42"
+    }
+  ],
+  "sources": [
+    "NAV",
+    "EAS",
+    "SMI"
+  ],
+  "metadata": {
+    "schema_version": "v3.0",
+    "created_at": "2025-12-02T21:53:08.663180+00:00",
+    "merged_from": {
+      "v2": true,
+      "dictionary": true
+    }
+  },
+  "version": "3.0.0",
+  "definition_refs": [
+    {
+      "book": "Amos",
+      "chapter": 1,
+      "verses": [
+        1
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Amos 1:1",
+      "source": "EAS"
+    },
+    {
+      "book": "Amos",
+      "chapter": 7,
+      "verses": [
+        14,
+        15
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Amos 7:14, 15",
+      "source": "EAS"
+    },
+    {
+      "book": "Zechariah",
+      "chapter": 14,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Zechariah 14:5",
+      "source": "EAS"
+    },
+    {
+      "book": "Zechariah",
+      "chapter": 1,
+      "verses": [
+        1,
+        2
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Zechariah 1:1-2",
+      "source": "EAS"
+    },
+    {
+      "book": "Joel",
+      "chapter": 3,
+      "verses": [
+        16
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joel 3:16",
+      "source": "EAS"
+    },
+    {
+      "book": "Joel",
+      "chapter": 2,
+      "verses": [
+        4,
+        5,
+        6
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Joel 2:4-6",
+      "source": "EAS"
+    },
+    {
+      "book": "Joel",
+      "chapter": 7,
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "verse_count": 9,
+      "testament": "OT",
+      "raw": "Joel 7:1-9",
+      "source": "EAS"
+    },
+    {
+      "book": "Joel",
+      "chapter": 7,
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "verse_count": 6,
+      "testament": "OT",
+      "raw": "Joel 7:1-6",
+      "source": "EAS"
+    },
+    {
+      "book": "Joel",
+      "chapter": 7,
+      "verses": [
+        7,
+        8,
+        9
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Joel 7:7-9",
+      "source": "EAS"
+    },
+    {
+      "book": "Joel",
+      "chapter": 8,
+      "verses": [
+        1,
+        2,
+        3
+      ],
+      "verse_count": 3,
+      "testament": "OT",
+      "raw": "Joel 8:1-3",
+      "source": "EAS"
+    },
+    {
+      "book": "Judges",
+      "chapter": 7,
+      "verses": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "verse_count": 8,
+      "testament": "OT",
+      "raw": "Judges 7:10-17",
+      "source": "EAS"
+    },
+    {
+      "book": "Judges",
+      "chapter": 9,
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "verse_count": 10,
+      "testament": "OT",
+      "raw": "Judges 9:1-10",
+      "source": "EAS"
+    },
+    {
+      "book": "Judges",
+      "chapter": 4,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Judges 4:6",
+      "source": "EAS"
+    },
+    {
+      "book": "Judges",
+      "chapter": 6,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Judges 6:8",
+      "source": "EAS"
+    },
+    {
+      "book": "Judges",
+      "chapter": 8,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Judges 8:7",
+      "source": "EAS"
+    },
+    {
+      "book": "Judges",
+      "chapter": 7,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Judges 7:9",
+      "source": "EAS"
+    },
+    {
+      "book": "Judges",
+      "chapter": 7,
+      "verses": [
+        16
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Judges 7:16",
+      "source": "EAS"
+    },
+    {
+      "book": "Judges",
+      "chapter": 4,
+      "verses": [
+        13
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Judges 4:13",
+      "source": "EAS"
+    },
+    {
+      "book": "Acts",
+      "chapter": 7,
+      "verses": [
+        42
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 7:42",
+      "source": "EAS"
+    }
+  ],
+  "definition_refs_stats": {
+    "total": 46,
+    "ot": 45,
+    "nt": 1,
+    "books": [
+      "Acts",
+      "Amos",
+      "Joel",
+      "Judges",
+      "Zechariah"
+    ]
+  }
+}

@@ -48,8 +48,8 @@ REPO_ROOT = Path(__file__).parent.parent
 V2_DIR = REPO_ROOT / "data" / "00_raw"
 # NOTE: Dictionary data lives in a separate repo (bible-dictionary-dataset).
 #       Set DICT_DIR to an external path or skip dictionary loading when unavailable.
-DICT_DIR = REPO_ROOT / ".." / "bible-dictionary-dataset" / "data" / "01_unified"
-V3_DIR = REPO_ROOT / "data" / "01_unified"
+DICT_DIR = REPO_ROOT / ".." / "bible-dictionary-dataset" / "data" / "01_parsed"
+V3_DIR = REPO_ROOT / "data" / "01_parsed"
 
 
 def slugify(text: str) -> str:

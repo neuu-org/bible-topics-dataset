@@ -1,0 +1,332 @@
+{
+  "topic": "ALMODAD",
+  "slug": "almodad",
+  "type": "both",
+  "reference_groups": [
+    {
+      "name": "Son of Joktan Ge 10:26; 1Ch 1:20",
+      "references": [
+        "Gen 10:26",
+        "1Chr 1:20"
+      ],
+      "sub_groups": []
+    }
+  ],
+  "biblical_references": [
+    {
+      "book": "1 Chronicles",
+      "book_abbrev": "1ch",
+      "chapter": 1,
+      "testament": "OT",
+      "verses": [
+        20
+      ],
+      "verse_count": 1
+    }
+  ],
+  "ai_enrichment": {
+    "summary": "Almodad é mencionado como um dos filhos de Joktan na genealogia dos descendentes de Sem, conforme registrado em Gênesis 10:26 e 1 Crônicas 1:20. A importância de Almodad reside na sua inclusão na linhagem que representa a diversidade das nações que surgiram após o dilúvio, refletindo a soberania de Deus na formação dos povos. A genealogia de Joktan é significativa para entender a dispersão das nações e a história do povo de Israel, além de destacar a continuidade da promessa divina através das gerações.",
+    "outline": [
+      "Identificação de Almodad como filho de Joktan",
+      "Contexto da genealogia de Sem",
+      "Significado da dispersão das nações",
+      "Relação com a soberania de Deus na história"
+    ],
+    "key_concepts": [
+      "Genealogia",
+      "Dispersão das nações",
+      "Soberania de Deus"
+    ],
+    "theological_significance": "A menção de Almodad na genealogia de Joktan ilustra a soberania de Deus na formação das nações e a continuidade de Sua promessa. Para a fé cristã, isso reforça a ideia de que Deus tem um plano abrangente para a humanidade, que se estende a todas as nações, e que a diversidade cultural é parte do propósito divino.",
+    "model": "gpt-4o-mini",
+    "run_id": "enr_20250923_124500_d98c8090",
+    "confidence": 1.0,
+    "generated_at": "2025-09-23T12:45:00.869903"
+  },
+  "ai_themes_normalized": [
+    {
+      "theme_id": null,
+      "proposal_id": "prop:genealogia_e_linhagem_9bf3d8",
+      "label_original": "Genealogia e linhagem",
+      "source": "ai_enrichment"
+    },
+    {
+      "theme_id": null,
+      "proposal_id": "prop:promessa_e_alianca_d45b24",
+      "label_original": "Promessa e aliança",
+      "source": "ai_enrichment"
+    },
+    {
+      "theme_id": null,
+      "proposal_id": "prop:diversidade_das_nacoes_8a2250",
+      "label_original": "Diversidade das nações",
+      "source": "ai_enrichment"
+    }
+  ],
+  "phase1_discovery": {
+    "processed_at": "2025-09-23T22:40:00.212047Z",
+    "total_themes_processed": 3,
+    "summary": {
+      "total_processed": 3,
+      "decisions": {
+        "alias_existing": 0,
+        "proposed": 3,
+        "error": 0
+      },
+      "success_rate": 1.0
+    },
+    "results": [
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.8348399999999999,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_7af3c056",
+          "decision_hash": "31dc75d1bb0b7a57",
+          "created_at": "2025-09-23T22:40:00.212047Z"
+        },
+        "proposal_id": "prop:7189486e",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:genealogia_e_linhagem_9bf3d8",
+          "label_original": "Genealogia e linhagem",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "low_novelty",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.74358,
+          "novelty": 0.5,
+          "similarity_to_best_existing": 0.5,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_0a55f514",
+          "decision_hash": "416f3bb012cee7af",
+          "created_at": "2025-09-23T22:40:01.179193Z"
+        },
+        "proposal_id": "prop:f92f1690",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:promessa_e_alianca_d45b24",
+          "label_original": "Promessa e aliança",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.8475199999999999,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_5b98b7a5",
+          "decision_hash": "26824e93bfd1d9fd",
+          "created_at": "2025-09-23T22:40:02.731873Z"
+        },
+        "proposal_id": "prop:593edc99",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:diversidade_das_nacoes_8a2250",
+          "label_original": "Diversidade das nações",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      }
+    ]
+  },
+  "entity_links": [
+    {
+      "canonical_id": "CON:almodad",
+      "namespace": "CONCEPT",
+      "role": "primary",
+      "confidence": 0.9,
+      "source": "topic_resolver",
+      "status": "proposed",
+      "provenance": {
+        "topic": "ALMODAD",
+        "extracted_from": "ALMODAD",
+        "processing_result": {
+          "status": "proposed",
+          "proposal_id": "stub:CON:almodad_041f1524",
+          "canonical_id": "CON:almodad",
+          "needs_review": true,
+          "reasons": [
+            "low_confidence",
+            "insufficient_sources"
+          ],
+          "message": "Entity proposal stub:CON:almodad_041f1524 created"
+        }
+      }
+    }
+  ],
+  "see_also": [],
+  "aliases": [],
+  "stats": {
+    "entries_count": 1,
+    "ot_refs": 1,
+    "nt_refs": 0,
+    "total_verses": 1
+  },
+  "definitions": [
+    {
+      "source": "EAS",
+      "text": "Immeasurable, the first named of the sons of Joktan (Gen. 10:26), the founder of an Arabian tribe.",
+      "extracted_refs": [
+        {
+          "book": "Genesis",
+          "chapter": 10,
+          "verses": [
+            26
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "Genesis 10:26",
+          "source": "EAS"
+        }
+      ]
+    },
+    {
+      "source": "SMI",
+      "text": "(measure) the first in order of the descendants of Joktan. (Genesis 10:26; 1 Chronicles 1:20)",
+      "extracted_refs": [
+        {
+          "book": "Genesis",
+          "chapter": 10,
+          "verses": [
+            26
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "Genesis 10:26",
+          "source": "SMI"
+        },
+        {
+          "book": "1 Chronicles",
+          "chapter": 1,
+          "verses": [
+            20
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "1 Chronicles 1:20",
+          "source": "SMI"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "NAV",
+    "EAS",
+    "SMI"
+  ],
+  "metadata": {
+    "schema_version": "v3.0",
+    "created_at": "2025-12-02T21:53:08.662599+00:00",
+    "merged_from": {
+      "v2": true,
+      "dictionary": true
+    }
+  },
+  "version": "3.0.0",
+  "definition_refs": [
+    {
+      "book": "Genesis",
+      "chapter": 10,
+      "verses": [
+        26
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 10:26",
+      "source": "EAS"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 1,
+      "verses": [
+        20
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 1:20",
+      "source": "SMI"
+    }
+  ],
+  "definition_refs_stats": {
+    "total": 2,
+    "ot": 2,
+    "nt": 0,
+    "books": [
+      "1 Chronicles",
+      "Genesis"
+    ]
+  }
+}

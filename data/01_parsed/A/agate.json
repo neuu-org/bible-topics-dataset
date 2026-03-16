@@ -1,0 +1,420 @@
+{
+  "topic": "AGATE",
+  "slug": "agate",
+  "type": "both",
+  "reference_groups": [
+    {
+      "name": "A precious stone Ex 28:19; Isa 54:12; Eze 27:16",
+      "references": [
+        "Exod 28:19",
+        "Isa 54:12",
+        "Ezek 27:16"
+      ],
+      "sub_groups": []
+    }
+  ],
+  "biblical_references": [
+    {
+      "book": "Isaiah",
+      "book_abbrev": "isa",
+      "chapter": 54,
+      "testament": "OT",
+      "verses": [
+        12
+      ],
+      "verse_count": 1
+    },
+    {
+      "book": "Ezekiel",
+      "book_abbrev": "ezk",
+      "chapter": 27,
+      "testament": "OT",
+      "verses": [
+        16
+      ],
+      "verse_count": 1
+    }
+  ],
+  "ai_enrichment": {
+    "summary": "A ágata é uma pedra preciosa mencionada na Bíblia, simbolizando beleza e valor. Em Êxodo 28:19, a ágata é uma das pedras que adornam o peitoral do sumo sacerdote, representando as tribos de Israel. Em Isaías 54:12, a ágata é citada em um contexto de restauração e beleza, enquanto em Ezequiel 27:16, é mencionada como parte do comércio luxuoso de Tiro. Essas referências destacam a importância das pedras preciosas na cultura bíblica, simbolizando não apenas riqueza, mas também a presença e a glória de Deus entre seu povo.",
+    "outline": [
+      "A ágata como parte do vestuário sacerdotal (Êxodo 28:19)",
+      "A ágata como símbolo de beleza e restauração (Isaías 54:12)",
+      "A ágata no comércio e riqueza de Tiro (Ezequiel 27:16)"
+    ],
+    "key_concepts": [
+      "Simbolismo das pedras preciosas na adoração",
+      "Riqueza e beleza na cultura bíblica",
+      "Representação das tribos de Israel"
+    ],
+    "theological_significance": "A ágata, como parte do vestuário do sumo sacerdote, simboliza a intercessão e a representação do povo de Deus diante d'Ele. Sua menção em contextos de beleza e riqueza reflete a glória de Deus e a restauração prometida ao Seu povo. Para os cristãos, isso pode ser visto como um lembrete da beleza da criação e da riqueza espiritual que encontramos em Cristo.",
+    "model": "gpt-4o-mini",
+    "run_id": "enr_20250923_122953_e84fdcd8",
+    "confidence": 0.9500000000000002,
+    "generated_at": "2025-09-23T12:29:53.811811"
+  },
+  "ai_themes_normalized": [
+    {
+      "theme_id": null,
+      "proposal_id": "prop:adoracao_e_sacrificio_82f66e",
+      "label_original": "Adoração e sacrifício",
+      "source": "ai_enrichment"
+    },
+    {
+      "theme_id": null,
+      "proposal_id": "prop:riqueza_e_prosperidade_10035c",
+      "label_original": "Riqueza e prosperidade",
+      "source": "ai_enrichment"
+    },
+    {
+      "theme_id": null,
+      "proposal_id": "prop:restauracao_e_esperanca_cda0d1",
+      "label_original": "Restauração e esperança",
+      "source": "ai_enrichment"
+    }
+  ],
+  "phase1_discovery": {
+    "processed_at": "2025-09-23T22:35:00.817222Z",
+    "total_themes_processed": 3,
+    "summary": {
+      "total_processed": 3,
+      "decisions": {
+        "alias_existing": 0,
+        "proposed": 3,
+        "error": 0
+      },
+      "success_rate": 1.0
+    },
+    "results": [
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "low_novelty",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.74246,
+          "novelty": 0.5,
+          "similarity_to_best_existing": 0.5,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_e9aa457d",
+          "decision_hash": "71ecaff464b89cc2",
+          "created_at": "2025-09-23T22:35:00.817222Z"
+        },
+        "proposal_id": "prop:1deeed4b",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:adoracao_e_sacrificio_82f66e",
+          "label_original": "Adoração e sacrifício",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.83888,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_622a7670",
+          "decision_hash": "f5ab2e2123b61a9f",
+          "created_at": "2025-09-23T22:35:01.837654Z"
+        },
+        "proposal_id": "prop:77955a26",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:riqueza_e_prosperidade_10035c",
+          "label_original": "Riqueza e prosperidade",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.84278,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_d86faa61",
+          "decision_hash": "82b39fda128a89fb",
+          "created_at": "2025-09-23T22:35:03.051486Z"
+        },
+        "proposal_id": "prop:1c23b379",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:restauracao_e_esperanca_cda0d1",
+          "label_original": "Restauração e esperança",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      }
+    ]
+  },
+  "entity_links": [
+    {
+      "canonical_id": "OBJ:agate",
+      "namespace": "OBJECT",
+      "role": "primary",
+      "confidence": 0.9,
+      "source": "topic_resolver",
+      "status": "proposed",
+      "provenance": {
+        "topic": "AGATE",
+        "extracted_from": "AGATE",
+        "processing_result": {
+          "status": "proposed",
+          "proposal_id": "stub:OBJ:agate_75f5526f",
+          "canonical_id": "OBJ:agate",
+          "needs_review": true,
+          "reasons": [
+            "low_confidence",
+            "insufficient_sources"
+          ],
+          "message": "Entity proposal stub:OBJ:agate_75f5526f created"
+        }
+      }
+    }
+  ],
+  "see_also": [],
+  "aliases": [],
+  "stats": {
+    "entries_count": 1,
+    "ot_refs": 2,
+    "nt_refs": 0,
+    "total_verses": 2
+  },
+  "definitions": [
+    {
+      "source": "EAS",
+      "text": "(Heb. shebo), a precious stone in the breast-plate of the high priest (Ex. 28:19; 39:12), the second in the third row. This may be the agate properly so called, a semi-transparent crystallized quartz, probably brought from Sheba, whence its name. In Isa. 54:12 and Ezek. 27:16, this word is the rendering of the Hebrew cadcod, which means “ruddy,” and denotes a variety of minutely crystalline silica more or less in bands of different tints. This word is from the Greek name of a stone found in the river Achates in Sicily.",
+      "extracted_refs": [
+        {
+          "book": "Exodus",
+          "chapter": 28,
+          "verses": [
+            19
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "Exodus 28:19",
+          "source": "EAS"
+        },
+        {
+          "book": "Exodus",
+          "chapter": 39,
+          "verses": [
+            12
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "Exodus 39:12",
+          "source": "EAS"
+        },
+        {
+          "book": "Isaiah",
+          "chapter": 54,
+          "verses": [
+            12
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "Isaiah 54:12",
+          "source": "EAS"
+        },
+        {
+          "book": "Ezekiel",
+          "chapter": 27,
+          "verses": [
+            16
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "Ezekiel 27:16",
+          "source": "EAS"
+        }
+      ]
+    },
+    {
+      "source": "SMI",
+      "text": "a beautifully-veined semi-transparent precious stone, a variety of quartz. Its colors are delicately arranged in stripes or bands or blended in clouds. It is mentioned four times in the text of the Authorized Version, viz., in (Exodus 28:19; 39:12; Isaiah 54:12; Ezekiel 27:16) In the two former passages; where it is represented by the Hebrew word shebo it is spoken of as forming the second stone in the third row of the high priest’s breastplate; in each of the two latter places the original word is cadced, by which, no doubt, is intended a different stone. [RUBY] Our English agate derives its name from the Achates, on the banks of which it was first found.",
+      "extracted_refs": [
+        {
+          "book": "Exodus",
+          "chapter": 28,
+          "verses": [
+            19
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "Exodus 28:19",
+          "source": "SMI"
+        },
+        {
+          "book": "Exodus",
+          "chapter": 39,
+          "verses": [
+            12
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "Exodus 39:12",
+          "source": "SMI"
+        },
+        {
+          "book": "Isaiah",
+          "chapter": 54,
+          "verses": [
+            12
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "Isaiah 54:12",
+          "source": "SMI"
+        },
+        {
+          "book": "Ezekiel",
+          "chapter": 27,
+          "verses": [
+            16
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "Ezekiel 27:16",
+          "source": "SMI"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "NAV",
+    "EAS",
+    "SMI"
+  ],
+  "metadata": {
+    "schema_version": "v3.0",
+    "created_at": "2025-12-02T21:53:08.661703+00:00",
+    "merged_from": {
+      "v2": true,
+      "dictionary": true
+    }
+  },
+  "version": "3.0.0",
+  "definition_refs": [
+    {
+      "book": "Exodus",
+      "chapter": 28,
+      "verses": [
+        19
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 28:19",
+      "source": "EAS"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 39,
+      "verses": [
+        12
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 39:12",
+      "source": "EAS"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 54,
+      "verses": [
+        12
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 54:12",
+      "source": "EAS"
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 27,
+      "verses": [
+        16
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezekiel 27:16",
+      "source": "EAS"
+    }
+  ],
+  "definition_refs_stats": {
+    "total": 4,
+    "ot": 4,
+    "nt": 0,
+    "books": [
+      "Exodus",
+      "Ezekiel",
+      "Isaiah"
+    ]
+  }
+}

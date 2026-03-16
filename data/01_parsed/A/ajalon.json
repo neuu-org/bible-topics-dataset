@@ -1,0 +1,495 @@
+{
+  "topic": "AJALON",
+  "slug": "ajalon",
+  "type": "both",
+  "reference_groups": [
+    {
+      "name": "1. A city of Dan Jos 19:42",
+      "references": [
+        "Josh 19:42"
+      ],
+      "sub_groups": [
+        {
+          "name": "Assigned to the Levites. A city of refuge Jos 21:24; 1Sa 14:31; 1Ch 6:69",
+          "references": [
+            "Josh 21:24",
+            "1Sam 14:31",
+            "1Chr 6:69"
+          ]
+        },
+        {
+          "name": "Amorites of, not exterminated Jud 1:35",
+          "references": [
+            "Judg 1:35"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "2. A city of Zebulun Jud 12:12",
+      "references": [
+        "Judg 12:12"
+      ],
+      "sub_groups": []
+    },
+    {
+      "name": "3. A city of Judah 2Ch 28:18; 11:10",
+      "references": [
+        "2Chr 28:18",
+        "2Chr 11:10"
+      ],
+      "sub_groups": []
+    },
+    {
+      "name": "4. A valley Jos 10:12",
+      "references": [
+        "Josh 10:12"
+      ],
+      "sub_groups": []
+    }
+  ],
+  "biblical_references": [
+    {
+      "book": "1 Samuel",
+      "book_abbrev": "1sa",
+      "chapter": 14,
+      "testament": "OT",
+      "verses": [
+        1,
+        31
+      ],
+      "verse_count": 2
+    },
+    {
+      "book": "1 Chronicles",
+      "book_abbrev": "1ch",
+      "chapter": 6,
+      "testament": "OT",
+      "verses": [
+        69
+      ],
+      "verse_count": 1
+    }
+  ],
+  "ai_enrichment": {
+    "summary": "Ajalon é uma cidade mencionada na Bíblia em várias localidades, incluindo Dan, Zebulun e Judá. Como uma cidade designada para os levitas e um local de refúgio, Ajalon simboliza a proteção e a misericórdia de Deus. A sua menção em contextos de conquista e habitação reflete a complexidade da história de Israel, incluindo a resistência dos amoritas. A cidade também é associada a eventos significativos, como a batalha em que Josué pediu que o sol parasse, destacando a intervenção divina na história de Israel.",
+    "outline": [
+      "Ajalon como uma cidade de Dan, designada aos levitas e cidade de refúgio.",
+      "Ajalon como uma cidade de Zebulun, destacando sua importância regional.",
+      "Ajalon como uma cidade de Judá, mencionada em contextos de conflito.",
+      "Ajalon como um vale, associado a eventos significativos na história de Israel."
+    ],
+    "key_concepts": [
+      "Cidades de refúgio",
+      "Ação divina na história",
+      "Identidade tribal de Israel"
+    ],
+    "theological_significance": "Ajalon representa a provisão de Deus para o seu povo, oferecendo segurança e um lugar de refúgio. A sua história ilustra a fidelidade de Deus em cumprir Suas promessas e a importância da obediência e da luta contra a opressão. Para os cristãos, Ajalon pode ser visto como um símbolo da proteção divina e da necessidade de buscar abrigo em Deus em tempos de dificuldade.",
+    "model": "gpt-4o-mini",
+    "run_id": "enr_20250923_124100_60a8ba86",
+    "confidence": 1.0,
+    "generated_at": "2025-09-23T12:41:00.835471"
+  },
+  "ai_themes_normalized": [
+    {
+      "theme_id": null,
+      "proposal_id": "prop:refugio_e_protecao_8750d7",
+      "label_original": "Refúgio e proteção",
+      "source": "ai_enrichment"
+    },
+    {
+      "theme_id": null,
+      "proposal_id": "prop:conquista_e_habitacao_eef0e8",
+      "label_original": "Conquista e habitação",
+      "source": "ai_enrichment"
+    },
+    {
+      "theme_id": null,
+      "proposal_id": "prop:intervencao_divina_b16316",
+      "label_original": "Intervenção divina",
+      "source": "ai_enrichment"
+    }
+  ],
+  "phase1_discovery": {
+    "processed_at": "2025-09-23T22:38:45.499884Z",
+    "total_themes_processed": 3,
+    "summary": {
+      "total_processed": 3,
+      "decisions": {
+        "alias_existing": 0,
+        "proposed": 3,
+        "error": 0
+      },
+      "success_rate": 1.0
+    },
+    "results": [
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.84282,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_487ad8dc",
+          "decision_hash": "522790477f8ae20a",
+          "created_at": "2025-09-23T22:38:45.499884Z"
+        },
+        "proposal_id": "prop:6657ac6f",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:refugio_e_protecao_8750d7",
+          "label_original": "Refúgio e proteção",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.83744,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_3a67c87e",
+          "decision_hash": "9cfbda304c6b9d1a",
+          "created_at": "2025-09-23T22:38:46.470013Z"
+        },
+        "proposal_id": "prop:67dedbdc",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:conquista_e_habitacao_eef0e8",
+          "label_original": "Conquista e habitação",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.83006,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_f7350f98",
+          "decision_hash": "aea98aa8417b9d12",
+          "created_at": "2025-09-23T22:38:47.809413Z"
+        },
+        "proposal_id": "prop:fddd4ed3",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:intervencao_divina_b16316",
+          "label_original": "Intervenção divina",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      }
+    ]
+  },
+  "entity_links": [
+    {
+      "canonical_id": "CON:ajalon",
+      "namespace": "CONCEPT",
+      "role": "primary",
+      "confidence": 0.9,
+      "source": "topic_resolver",
+      "status": "proposed",
+      "provenance": {
+        "topic": "AJALON",
+        "extracted_from": "AJALON",
+        "processing_result": {
+          "status": "proposed",
+          "proposal_id": "stub:CON:ajalon_e6cd2f48",
+          "canonical_id": "CON:ajalon",
+          "needs_review": true,
+          "reasons": [
+            "low_confidence",
+            "insufficient_sources"
+          ],
+          "message": "Entity proposal stub:CON:ajalon_e6cd2f48 created"
+        }
+      }
+    }
+  ],
+  "see_also": [],
+  "aliases": [],
+  "stats": {
+    "entries_count": 4,
+    "ot_refs": 2,
+    "nt_refs": 0,
+    "total_verses": 2
+  },
+  "definitions": [
+    {
+      "source": "EAS",
+      "text": "And Aij’alon, place of deer. (1.) A town and valley originally assigned to the tribe of Dan, from which, however, they could not drive the Amorites (Judg. 1:35). It was one of the Levitical cities given to the Kohathites (1 Chr. 6:69). It was not far from Beth-shemesh (2 Chr. 28:18). It was the boundary between the kingdoms of Judah and Israel, and is frequently mentioned in Jewish history (2 Chr. 11:10; 1 Sam. 14:31; 1 Chr. 8:13). With reference to the valley named after the town, Joshua uttered the celebrated command, “Sun, stand thou still on Gibeon; and thou, Moon, in the valley of Ajalon” (Josh. 10:12). It has been identified as the modern Yalo, at the foot of the Beth-horon pass (q.v.). In the Tell Amarna letters Adoni-zedek (q.v.) speaks of the destruction of the “city of Ajalon” by the invaders, and describes himself as “afflicted, greatly afflicted” by the calamities that had come on the land, urging the king of Egypt to hasten to his help. (2.) A city in the tribe of Zebulun (Judg. 12:12), the modern Jalun, three miles north of Cabul.",
+      "extracted_refs": [
+        {
+          "book": "Judges",
+          "chapter": 1,
+          "verses": [
+            35
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "Judges 1:35",
+          "source": "EAS"
+        },
+        {
+          "book": "1 Chronicles",
+          "chapter": 6,
+          "verses": [
+            69
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "1 Chronicles 6:69",
+          "source": "EAS"
+        },
+        {
+          "book": "2 Chronicles",
+          "chapter": 28,
+          "verses": [
+            18
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "2 Chronicles 28:18",
+          "source": "EAS"
+        },
+        {
+          "book": "2 Chronicles",
+          "chapter": 11,
+          "verses": [
+            10
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "2 Chronicles 11:10",
+          "source": "EAS"
+        },
+        {
+          "book": "1 Samuel",
+          "chapter": 14,
+          "verses": [
+            31
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "1 Samuel 14:31",
+          "source": "EAS"
+        },
+        {
+          "book": "1 Chronicles",
+          "chapter": 8,
+          "verses": [
+            13
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "1 Chronicles 8:13",
+          "source": "EAS"
+        },
+        {
+          "book": "Joshua",
+          "chapter": 10,
+          "verses": [
+            12
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "Joshua 10:12",
+          "source": "EAS"
+        },
+        {
+          "book": "Judges",
+          "chapter": 12,
+          "verses": [
+            12
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "Judges 12:12",
+          "source": "EAS"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "NAV",
+    "EAS"
+  ],
+  "metadata": {
+    "schema_version": "v3.0",
+    "created_at": "2025-12-02T21:53:08.662347+00:00",
+    "merged_from": {
+      "v2": true,
+      "dictionary": true
+    }
+  },
+  "version": "3.0.0",
+  "definition_refs": [
+    {
+      "book": "Judges",
+      "chapter": 1,
+      "verses": [
+        35
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Judges 1:35",
+      "source": "EAS"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 6,
+      "verses": [
+        69
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 6:69",
+      "source": "EAS"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 28,
+      "verses": [
+        18
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Chronicles 28:18",
+      "source": "EAS"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 11,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Chronicles 11:10",
+      "source": "EAS"
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 14,
+      "verses": [
+        31
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Samuel 14:31",
+      "source": "EAS"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 8,
+      "verses": [
+        13
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 8:13",
+      "source": "EAS"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 10,
+      "verses": [
+        12
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 10:12",
+      "source": "EAS"
+    },
+    {
+      "book": "Judges",
+      "chapter": 12,
+      "verses": [
+        12
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Judges 12:12",
+      "source": "EAS"
+    }
+  ],
+  "definition_refs_stats": {
+    "total": 8,
+    "ot": 8,
+    "nt": 0,
+    "books": [
+      "1 Chronicles",
+      "1 Samuel",
+      "2 Chronicles",
+      "Joshua",
+      "Judges"
+    ]
+  }
+}

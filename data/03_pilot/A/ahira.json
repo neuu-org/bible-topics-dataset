@@ -1,0 +1,717 @@
+{
+  "topic": "AHIRA",
+  "slug": "ahira",
+  "type": "both",
+  "reference_groups": [
+    {
+      "name": "Captain of the tribe of Naphtali Nu 1:15; 2:29; 7:78-83; 10:27",
+      "references": [
+        "Num 1:15",
+        "Num 2:29",
+        "Num 7:78-83",
+        "Num 10:27"
+      ],
+      "sub_groups": []
+    }
+  ],
+  "biblical_references": [],
+  "ai_enrichment": {
+    "summary": "Ahira é mencionado na Bíblia como o chefe da tribo de Naftali durante o Êxodo. Seu nome, que pode ser interpretado como 'irmão do mal' ou 'meu irmão é amigo', reflete uma dualidade que pode ser vista como uma referência à sorte ou à amizade. Ele é citado em várias passagens do livro de Números, onde sua liderança é destacada em relação ao povo de Israel durante sua jornada pelo deserto. Atribui-se a Ahira um papel significativo na organização e mobilização da tribo de Naftali, que era uma das doze tribos de Israel.",
+    "outline": [
+      "Ahira como chefe da tribo de Naftali: liderança e papel no Êxodo (Números 1:15; 2:29)",
+      "Significado do nome Ahira: 'irmão do mal' ou 'meu irmão é amigo' e suas implicações (Números 1:15)",
+      "Atribuições de Ahira nas contagens e organização do povo de Israel (Números 7:78, 83; 10:27)",
+      "A importância da tribo de Naftali na história de Israel e sua localização geográfica (Números 2:29)",
+      "Cultura Tribal de Israel (Números 1:15; Números 2:29)",
+      "A Importância da Identidade na Liderança (Números 1:15)"
+    ],
+    "key_concepts": [
+      "Liderança Tribal",
+      "Identidade e Nome",
+      "Organização do Povo de Deus"
+    ],
+    "theological_significance": "Ahira representa a importância da liderança e da organização dentro do povo de Deus durante o Êxodo. Sua menção nas Escrituras destaca a relevância das tribos de Israel e como cada uma delas teve um papel específico na história da salvação. O significado de seu nome também provoca reflexões sobre a identidade e a sorte, temas que ressoam na experiência do povo de Israel em sua jornada de fé.",
+    "model": "gpt-4o-mini",
+    "run_id": "enr_20251204_000920_7128046f",
+    "confidence": 1.0,
+    "generated_at": "2025-12-04T00:09:20.491003"
+  },
+  "ai_themes_normalized": [
+    {
+      "theme_id": null,
+      "proposal_id": "prop:leadership_in_naphta_043d59",
+      "label_original": "Liderança na Tribo de Naftali",
+      "label_en": "Leadership in Naphtali",
+      "label_normalized": "leadership_in_naphtali",
+      "anchor_verses": [
+        "Números 1:15",
+        "Números 2:29"
+      ],
+      "relevance_score": 9,
+      "semantic_keywords": [
+        "leadership",
+        "tribe",
+        "Naphtali",
+        "Exodus",
+        "Israel"
+      ],
+      "theological_domain": "ecclesiology",
+      "parent_theme": null,
+      "aspect": "papel de Ahira como líder tribal",
+      "source": "ai_enrichment",
+      "anchor_source": "ai_trusted",
+      "anchor_meta": {
+        "ai_suggested": 2,
+        "validated": 0,
+        "fallback_used": false
+      }
+    },
+    {
+      "theme_id": null,
+      "proposal_id": "prop:meaning_of_ahira_09f16f",
+      "label_original": "Significado do Nome Ahira",
+      "label_en": "Meaning of Ahira",
+      "label_normalized": "meaning_of_ahira",
+      "anchor_verses": [
+        "Numbers 1:15",
+        "Numbers 2:29",
+        "Numbers 7:78",
+        "Numbers 7:83",
+        "Numbers 10:27"
+      ],
+      "relevance_score": 8,
+      "semantic_keywords": [
+        "name",
+        "meaning",
+        "identity",
+        "brother",
+        "friend"
+      ],
+      "theological_domain": "anthropology",
+      "parent_theme": null,
+      "aspect": "implicações do nome na identidade",
+      "source": "ai_enrichment",
+      "anchor_source": "fallback_global",
+      "anchor_meta": {
+        "ai_suggested": 0,
+        "validated": 0,
+        "fallback_used": true
+      }
+    }
+  ],
+  "phase1_discovery": {
+    "processed_at": "2025-09-23T22:37:16.183769Z",
+    "total_themes_processed": 3,
+    "summary": {
+      "total_processed": 3,
+      "decisions": {
+        "alias_existing": 0,
+        "proposed": 3,
+        "error": 0
+      },
+      "success_rate": 1.0
+    },
+    "results": [
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.8369599999999999,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_77b12e77",
+          "decision_hash": "f7665538391c99b7",
+          "created_at": "2025-09-23T22:37:16.183769Z"
+        },
+        "proposal_id": "prop:d989c371",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:lideranca_e_autoridade_73b414",
+          "label_original": "Liderança e autoridade",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.8303999999999999,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_3836541b",
+          "decision_hash": "3568c7663a7a26f6",
+          "created_at": "2025-09-23T22:37:17.281200Z"
+        },
+        "proposal_id": "prop:0b6aacd7",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:unidade_entre_as_tribos_de_israel_e1f6a5",
+          "label_original": "Unidade entre as tribos de Israel",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.83214,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_9eed8113",
+          "decision_hash": "754ade93dc2af036",
+          "created_at": "2025-09-23T22:37:18.764448Z"
+        },
+        "proposal_id": "prop:1bde8bc1",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:a_jornada_do_povo_de_deus_5b7875",
+          "label_original": "A jornada do povo de Deus",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      }
+    ]
+  },
+  "entity_links": [
+    {
+      "canonical_id": "CON:ahira",
+      "namespace": "CONCEPT",
+      "role": "primary",
+      "confidence": 0.9,
+      "source": "topic_resolver",
+      "status": "proposed",
+      "provenance": {
+        "topic": "AHIRA",
+        "extracted_from": "AHIRA",
+        "processing_result": {
+          "status": "proposed",
+          "proposal_id": "stub:CON:ahira_218aac69",
+          "canonical_id": "CON:ahira",
+          "needs_review": true,
+          "reasons": [
+            "low_confidence",
+            "insufficient_sources"
+          ],
+          "message": "Entity proposal stub:CON:ahira_218aac69 created"
+        }
+      }
+    }
+  ],
+  "see_also": [],
+  "aliases": [],
+  "stats": {
+    "entries_count": 1,
+    "ot_refs": 0,
+    "nt_refs": 0,
+    "total_verses": 0
+  },
+  "definitions": [
+    {
+      "source": "EAS",
+      "text": "Brother of evil = unlucky, or my brother is friend, chief of the tribe of Naphtali at the Exodus (Num. 1:15; 2:29).",
+      "extracted_refs": [
+        {
+          "book": "Numbers",
+          "chapter": 1,
+          "verses": [
+            15
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "Numbers 1:15",
+          "source": "EAS"
+        },
+        {
+          "book": "Numbers",
+          "chapter": 2,
+          "verses": [
+            29
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "Numbers 2:29",
+          "source": "EAS"
+        }
+      ]
+    },
+    {
+      "source": "SMI",
+      "text": "(brother of evil, i.e. unlucky), Chief of the tribe of Naphtali. (Numbers 1:15; 2:29; 7:78,83; 10:27)",
+      "extracted_refs": [
+        {
+          "book": "Numbers",
+          "chapter": 1,
+          "verses": [
+            15
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "Numbers 1:15",
+          "source": "SMI"
+        },
+        {
+          "book": "Numbers",
+          "chapter": 2,
+          "verses": [
+            29
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "Numbers 2:29",
+          "source": "SMI"
+        },
+        {
+          "book": "Numbers",
+          "chapter": 7,
+          "verses": [
+            78,
+            83
+          ],
+          "verse_count": 2,
+          "testament": "OT",
+          "raw": "Numbers 7:78,83",
+          "source": "SMI"
+        },
+        {
+          "book": "Numbers",
+          "chapter": 10,
+          "verses": [
+            27
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "Numbers 10:27",
+          "source": "SMI"
+        }
+      ]
+    }
+  ],
+  "dictionary_refs": [
+    {
+      "reference": "Numbers 1:15",
+      "original": "Num. 1:15"
+    },
+    {
+      "reference": "Numbers 2:29",
+      "original": "Num 2:29"
+    },
+    {
+      "reference": "Numbers 7:78",
+      "original": "Numbers 7:78"
+    },
+    {
+      "reference": "Numbers 7:83",
+      "original": "Numbers 7:83"
+    },
+    {
+      "reference": "Numbers 10:27",
+      "original": "Numbers 10:27"
+    }
+  ],
+  "sources": [
+    "NAV",
+    "EAS",
+    "SMI"
+  ],
+  "metadata": {
+    "schema_version": "v3.0",
+    "created_at": "2025-12-02T21:53:08.662083+00:00",
+    "merged_from": {
+      "v2": true,
+      "dictionary": true
+    }
+  },
+  "version": "3.0.0",
+  "definition_refs": [
+    {
+      "book": "Numbers",
+      "chapter": 1,
+      "verses": [
+        15
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Numbers 1:15",
+      "source": "EAS"
+    },
+    {
+      "book": "Numbers",
+      "chapter": 2,
+      "verses": [
+        29
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Numbers 2:29",
+      "source": "EAS"
+    },
+    {
+      "book": "Numbers",
+      "chapter": 7,
+      "verses": [
+        78,
+        83
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Numbers 7:78,83",
+      "source": "SMI"
+    },
+    {
+      "book": "Numbers",
+      "chapter": 10,
+      "verses": [
+        27
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Numbers 10:27",
+      "source": "SMI"
+    }
+  ],
+  "definition_refs_stats": {
+    "total": 5,
+    "ot": 5,
+    "nt": 0,
+    "books": [
+      "Numbers"
+    ]
+  },
+  "cross_reference_network": {
+    "Numbers 10:27": [],
+    "Numbers 1:15": [
+      {
+        "to_verse": "NUM.7.78",
+        "score": 5,
+        "votes": 3,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "GEN.46.24",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "NUM.10.27",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "NUM.2.29",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "NUM.7.2",
+        "score": 4,
+        "votes": 3,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "1CH.2.1",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "EXO.12.3",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "EZE.48.1",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "GEN.17.4",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "GEN.35.11",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "GEN.35.22",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "GEN.42.13",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "GEN.46.15",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "JOS.4.2",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "NUM.1.17",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "NUM.1.44",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "NUM.10.4",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "NUM.17.2",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "NUM.30.1",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "NUM.34.18",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      }
+    ],
+    "Numbers 2:29": [],
+    "Numbers 7:78": [],
+    "Numbers 7:83": []
+  },
+  "cross_ref_stats": {
+    "source_verses": 1,
+    "verses_with_crossrefs": 1,
+    "total_crossrefs": 20,
+    "unique_target_verses": 20,
+    "strong_refs": 1,
+    "coverage": 100.0
+  },
+  "connected_topics": [
+    {
+      "topic": "DESERT, JOURNEY OF ISRAEL THROUGH THE",
+      "shared_refs": 758,
+      "strength": "strong"
+    },
+    {
+      "topic": "TRIBES OF ISRAEL, THE",
+      "shared_refs": 576,
+      "strength": "strong"
+    },
+    {
+      "topic": "PALESTINE",
+      "shared_refs": 159,
+      "strength": "strong"
+    },
+    {
+      "topic": "Farm",
+      "shared_refs": 117,
+      "strength": "strong"
+    },
+    {
+      "topic": "NAPHTALI, THE TRIBE OF",
+      "shared_refs": 101,
+      "strength": "strong"
+    },
+    {
+      "topic": "TABERNACLE",
+      "shared_refs": 98,
+      "strength": "strong"
+    },
+    {
+      "topic": "MANASSEH, THE TRIBE OF",
+      "shared_refs": 83,
+      "strength": "strong"
+    },
+    {
+      "topic": "ASHER, THE TRIBE OF",
+      "shared_refs": 80,
+      "strength": "strong"
+    },
+    {
+      "topic": "ISSACHAR, THE TRIBE OF",
+      "shared_refs": 79,
+      "strength": "strong"
+    },
+    {
+      "topic": "OFFERINGS",
+      "shared_refs": 79,
+      "strength": "strong"
+    },
+    {
+      "topic": "GAD, THE TRIBE OF",
+      "shared_refs": 78,
+      "strength": "strong"
+    },
+    {
+      "topic": "HOLY LAND",
+      "shared_refs": 78,
+      "strength": "strong"
+    },
+    {
+      "topic": "ALTAR OF BURNT OFFERING, THE",
+      "shared_refs": 76,
+      "strength": "strong"
+    },
+    {
+      "topic": "DEDICATION",
+      "shared_refs": 76,
+      "strength": "strong"
+    },
+    {
+      "topic": "DAN, THE TRIBE OF",
+      "shared_refs": 75,
+      "strength": "strong"
+    },
+    {
+      "topic": "SIMEON, THE TRIBE OF",
+      "shared_refs": 75,
+      "strength": "strong"
+    },
+    {
+      "topic": "Goat",
+      "shared_refs": 74,
+      "strength": "strong"
+    },
+    {
+      "topic": "REUBEN, THE TRIBE OF",
+      "shared_refs": 72,
+      "strength": "strong"
+    },
+    {
+      "topic": "BENJAMIN, TRIBE OF",
+      "shared_refs": 69,
+      "strength": "strong"
+    },
+    {
+      "topic": "SHEKEL",
+      "shared_refs": 69,
+      "strength": "strong"
+    }
+  ],
+  "ai_entities": [
+    {
+      "name": "Ahira",
+      "type": "PERSON",
+      "canonical_id": null,
+      "context": "Chefe da tribo de Naftali durante o Êxodo"
+    },
+    {
+      "name": "Naftali",
+      "type": "CONCEPT",
+      "canonical_id": null,
+      "context": "Uma das doze tribos de Israel"
+    }
+  ],
+  "ai_discovered_aspects": [
+    {
+      "label": "Cultura Tribal de Israel",
+      "references": [
+        "Números 1:15",
+        "Números 2:29"
+      ],
+      "rationale": "A cultura tribal é fundamental para entender a organização social e religiosa de Israel, e Ahira exemplifica essa estrutura.",
+      "source": "ai_discovery"
+    },
+    {
+      "label": "A Importância da Identidade na Liderança",
+      "references": [
+        "Números 1:15"
+      ],
+      "rationale": "O nome e o papel de Ahira refletem a importância da identidade na liderança e na formação do povo de Deus.",
+      "source": "ai_discovery"
+    }
+  ],
+  "updated_at": "2025-12-04T00:09:20.493283Z"
+}

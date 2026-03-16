@@ -1,0 +1,749 @@
+{
+  "topic": "AHIEZER",
+  "slug": "ahiezer",
+  "type": "both",
+  "reference_groups": [
+    {
+      "name": "1. Captain of the tribe of Dan Nu 1:12; 2:25,26",
+      "references": [
+        "Num 1:12",
+        "Num 2:25",
+        "Num 2:26"
+      ],
+      "sub_groups": [
+        {
+          "name": "Contributes to the tabernacle Nu 7:66-71",
+          "references": [
+            "Num 7:66-71"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "2. One of David’s valiant men 1Ch 12:3",
+      "references": [
+        "1Chr 12:3"
+      ],
+      "sub_groups": []
+    }
+  ],
+  "biblical_references": [],
+  "ai_enrichment": {
+    "summary": "Ahiezer é uma figura bíblica mencionada como o chefe da tribo de Dan durante o Êxodo e também como um dos valentes de Davi, destacando-se por sua habilidade como atirador de pedras. Seu nome, que significa 'irmão de ajuda', reflete um papel de apoio e liderança em momentos cruciais da história de Israel. Através de suas menções em Números e Crônicas, Ahiezer exemplifica a importância da liderança tribal e a lealdade a Davi, contribuindo para a formação da identidade nacional israelita.",
+    "outline": [
+      "Ahiezer como chefe da tribo de Dan durante o Êxodo, destacando sua liderança e organização do povo (Números 1:12; 2:25; 10:25).",
+      "Ahiezer como um dos valentes de Davi, evidenciando sua coragem e habilidade militar ao se juntar a Davi em Ziklag (1 Crônicas 12:3).",
+      "A importância do papel de Ahiezer na formação da identidade tribal de Israel e sua contribuição para a unidade sob a liderança de Davi.",
+      "Role in Israel's Military History (1 Crônicas 12:3)"
+    ],
+    "key_concepts": [
+      "Liderança Tribal",
+      "Lealdade",
+      "Coragem Militar"
+    ],
+    "theological_significance": "A figura de Ahiezer ilustra a importância da liderança e da lealdade em tempos de transição e conflito. Sua menção nas Escrituras destaca como indivíduos podem desempenhar papéis cruciais na formação da identidade e na preservação da unidade do povo de Deus. Além disso, a conexão de Ahiezer com Davi simboliza a continuidade da promessa divina de um rei segundo o coração de Deus.",
+    "model": "gpt-4o-mini",
+    "run_id": "enr_20251204_000416_8c901612",
+    "confidence": 0.9500000000000002,
+    "generated_at": "2025-12-04T00:04:16.746597"
+  },
+  "ai_themes_normalized": [
+    {
+      "theme_id": null,
+      "proposal_id": "prop:tribal_leadership_037ec7",
+      "label_original": "Liderança e Organização Tribal",
+      "label_en": "Tribal Leadership",
+      "label_normalized": "tribal_leadership",
+      "anchor_verses": [
+        "Números 1:12",
+        "Números 2:25"
+      ],
+      "relevance_score": 9,
+      "semantic_keywords": [
+        "leadership",
+        "tribe",
+        "organization",
+        "Israel"
+      ],
+      "theological_domain": "ecclesiology",
+      "parent_theme": null,
+      "aspect": "papel de Ahiezer na estrutura tribal de Israel",
+      "source": "ai_enrichment",
+      "anchor_source": "ai_trusted",
+      "anchor_meta": {
+        "ai_suggested": 2,
+        "validated": 0,
+        "fallback_used": false
+      }
+    },
+    {
+      "theme_id": null,
+      "proposal_id": "prop:courage_and_loyalty_067f8a",
+      "label_original": "Coragem e Lealdade a Davi",
+      "label_en": "Courage and Loyalty",
+      "label_normalized": "courage_and_loyalty",
+      "anchor_verses": [
+        "1 Crônicas 12:3"
+      ],
+      "relevance_score": 8,
+      "semantic_keywords": [
+        "courage",
+        "loyalty",
+        "David",
+        "valiant men"
+      ],
+      "theological_domain": "ecclesiology",
+      "parent_theme": null,
+      "aspect": "contribuição de Ahiezer para a lealdade a Davi",
+      "source": "ai_enrichment",
+      "anchor_source": "ai_trusted",
+      "anchor_meta": {
+        "ai_suggested": 1,
+        "validated": 0,
+        "fallback_used": false
+      }
+    }
+  ],
+  "phase1_discovery": {
+    "processed_at": "2025-09-23T22:36:34.220483Z",
+    "total_themes_processed": 3,
+    "summary": {
+      "total_processed": 3,
+      "decisions": {
+        "alias_existing": 0,
+        "proposed": 3,
+        "error": 0
+      },
+      "success_rate": 1.0
+    },
+    "results": [
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "low_novelty",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.7810199999999999,
+          "novelty": 0.6666666666666667,
+          "similarity_to_best_existing": 0.3333333333333333,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_a982e66e",
+          "decision_hash": "11af9512665d8bff",
+          "created_at": "2025-09-23T22:36:34.220483Z"
+        },
+        "proposal_id": "prop:4e04b9c8",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:lideranca_no_antigo_testamento_d99e54",
+          "label_original": "Liderança no Antigo Testamento",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "low_novelty",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.7849199999999998,
+          "novelty": 0.6666666666666667,
+          "similarity_to_best_existing": 0.3333333333333333,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_12e8a99b",
+          "decision_hash": "1734e0649172197f",
+          "created_at": "2025-09-23T22:36:35.294446Z"
+        },
+        "proposal_id": "prop:77c7246b",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:adoracao_e_servico_a_deus_56da37",
+          "label_original": "Adoração e serviço a Deus",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "low_novelty",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.7836199999999999,
+          "novelty": 0.6666666666666667,
+          "similarity_to_best_existing": 0.3333333333333333,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_b4df440a",
+          "decision_hash": "77e069f1f6c5b4b2",
+          "created_at": "2025-09-23T22:36:36.496513Z"
+        },
+        "proposal_id": "prop:f5b24866",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:coragem_e_fidelidade_dc3d0e",
+          "label_original": "Coragem e fidelidade",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      }
+    ]
+  },
+  "entity_links": [
+    {
+      "canonical_id": "CON:ahiezer",
+      "namespace": "CONCEPT",
+      "role": "primary",
+      "confidence": 0.9,
+      "source": "topic_resolver",
+      "status": "proposed",
+      "provenance": {
+        "topic": "AHIEZER",
+        "extracted_from": "AHIEZER",
+        "processing_result": {
+          "status": "proposed",
+          "proposal_id": "stub:CON:ahiezer_8b7d472b",
+          "canonical_id": "CON:ahiezer",
+          "needs_review": true,
+          "reasons": [
+            "low_confidence",
+            "insufficient_sources"
+          ],
+          "message": "Entity proposal stub:CON:ahiezer_8b7d472b created"
+        }
+      }
+    }
+  ],
+  "see_also": [],
+  "aliases": [],
+  "stats": {
+    "entries_count": 2,
+    "ot_refs": 0,
+    "nt_refs": 0,
+    "total_verses": 0
+  },
+  "definitions": [
+    {
+      "source": "EAS",
+      "text": "Brother of help; i.e., “helpful.” (1.) The chief of the tribe of Dan at the time of the Exodus (Num. 1:12; 2:25; 10:25). (2.) The chief of the Benjamite slingers that repaired to David at Ziklag (1 Chr. 12:3).",
+      "extracted_refs": [
+        {
+          "book": "Numbers",
+          "chapter": 1,
+          "verses": [
+            12
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "Numbers 1:12",
+          "source": "EAS"
+        },
+        {
+          "book": "Numbers",
+          "chapter": 2,
+          "verses": [
+            25
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "Numbers 2:25",
+          "source": "EAS"
+        },
+        {
+          "book": "Numbers",
+          "chapter": 10,
+          "verses": [
+            25
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "Numbers 10:25",
+          "source": "EAS"
+        },
+        {
+          "book": "1 Chronicles",
+          "chapter": 12,
+          "verses": [
+            3
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "1 Chronicles 12:3",
+          "source": "EAS"
+        }
+      ]
+    },
+    {
+      "source": "SMI",
+      "text": "(brother of help)."
+    }
+  ],
+  "dictionary_refs": [
+    {
+      "reference": "Numbers 1:12",
+      "original": "Num. 1:12"
+    },
+    {
+      "reference": "Numbers 2:25",
+      "original": "Num 2:25"
+    },
+    {
+      "reference": "Numbers 10:25",
+      "original": "Num 10:25"
+    },
+    {
+      "reference": "1 Chronicles 12:3",
+      "original": "1 Chr. 12:3"
+    },
+    {
+      "reference": "Numbers 7:66",
+      "original": "Numbers 7:66"
+    }
+  ],
+  "sources": [
+    "NAV",
+    "EAS",
+    "SMI"
+  ],
+  "metadata": {
+    "schema_version": "v3.0",
+    "created_at": "2025-12-02T21:53:08.661987+00:00",
+    "merged_from": {
+      "v2": true,
+      "dictionary": true
+    }
+  },
+  "version": "3.0.0",
+  "definition_refs": [
+    {
+      "book": "Numbers",
+      "chapter": 1,
+      "verses": [
+        12
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Numbers 1:12",
+      "source": "EAS"
+    },
+    {
+      "book": "Numbers",
+      "chapter": 2,
+      "verses": [
+        25
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Numbers 2:25",
+      "source": "EAS"
+    },
+    {
+      "book": "Numbers",
+      "chapter": 10,
+      "verses": [
+        25
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Numbers 10:25",
+      "source": "EAS"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 12,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 12:3",
+      "source": "EAS"
+    }
+  ],
+  "definition_refs_stats": {
+    "total": 4,
+    "ot": 4,
+    "nt": 0,
+    "books": [
+      "1 Chronicles",
+      "Numbers"
+    ]
+  },
+  "cross_reference_network": {
+    "1 Chronicles 12:3": [
+      {
+        "to_verse": "1CH.11.28",
+        "score": 5,
+        "votes": 3,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "1CH.11.33",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "1SA.11.4",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "2SA.2.3",
+        "score": 4,
+        "votes": 3,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "2SA.21.6",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "1SA.30.26",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "GEN.49.8",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "2SA.23.31",
+        "score": 1,
+        "votes": 0,
+        "strength": "weak"
+      }
+    ],
+    "Numbers 10:25": [],
+    "Numbers 1:12": [
+      {
+        "to_verse": "NUM.7.66",
+        "score": 5,
+        "votes": 3,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "GEN.46.23",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "NUM.10.25",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "NUM.2.25",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "NUM.7.2",
+        "score": 4,
+        "votes": 3,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "1CH.2.1",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "EXO.12.3",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "EZE.48.1",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "GEN.17.4",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "GEN.35.11",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "GEN.35.22",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "GEN.42.13",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "GEN.46.15",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "JOS.4.2",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "NUM.1.17",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "NUM.1.44",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "NUM.10.4",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "NUM.17.2",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "NUM.30.1",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "NUM.34.18",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      }
+    ],
+    "Numbers 2:25": []
+  },
+  "cross_ref_stats": {
+    "source_verses": 2,
+    "verses_with_crossrefs": 2,
+    "total_crossrefs": 28,
+    "unique_target_verses": 28,
+    "strong_refs": 2,
+    "coverage": 100.0
+  },
+  "connected_topics": [
+    {
+      "topic": "DESERT, JOURNEY OF ISRAEL THROUGH THE",
+      "shared_refs": 776,
+      "strength": "strong"
+    },
+    {
+      "topic": "TRIBES OF ISRAEL, THE",
+      "shared_refs": 599,
+      "strength": "strong"
+    },
+    {
+      "topic": "PALESTINE",
+      "shared_refs": 160,
+      "strength": "strong"
+    },
+    {
+      "topic": "Farm",
+      "shared_refs": 123,
+      "strength": "strong"
+    },
+    {
+      "topic": "BENJAMIN, TRIBE OF",
+      "shared_refs": 106,
+      "strength": "strong"
+    },
+    {
+      "topic": "DAN, THE TRIBE OF",
+      "shared_refs": 103,
+      "strength": "strong"
+    },
+    {
+      "topic": "TABERNACLE",
+      "shared_refs": 100,
+      "strength": "strong"
+    },
+    {
+      "topic": "GAD, THE TRIBE OF",
+      "shared_refs": 94,
+      "strength": "strong"
+    },
+    {
+      "topic": "ASHER, THE TRIBE OF",
+      "shared_refs": 93,
+      "strength": "strong"
+    },
+    {
+      "topic": "MANASSEH, THE TRIBE OF",
+      "shared_refs": 92,
+      "strength": "strong"
+    },
+    {
+      "topic": "HOLY LAND",
+      "shared_refs": 89,
+      "strength": "strong"
+    },
+    {
+      "topic": "NAPHTALI, THE TRIBE OF",
+      "shared_refs": 86,
+      "strength": "strong"
+    },
+    {
+      "topic": "ISSACHAR, THE TRIBE OF",
+      "shared_refs": 81,
+      "strength": "strong"
+    },
+    {
+      "topic": "OFFERINGS",
+      "shared_refs": 80,
+      "strength": "strong"
+    },
+    {
+      "topic": "SIMEON, THE TRIBE OF",
+      "shared_refs": 77,
+      "strength": "strong"
+    },
+    {
+      "topic": "ALTAR OF BURNT OFFERING, THE",
+      "shared_refs": 77,
+      "strength": "strong"
+    },
+    {
+      "topic": "DEDICATION",
+      "shared_refs": 77,
+      "strength": "strong"
+    },
+    {
+      "topic": "REUBEN, THE TRIBE OF",
+      "shared_refs": 74,
+      "strength": "strong"
+    },
+    {
+      "topic": "Goat",
+      "shared_refs": 74,
+      "strength": "strong"
+    },
+    {
+      "topic": "ZEBULUN, THE TRIBE OF",
+      "shared_refs": 72,
+      "strength": "strong"
+    }
+  ],
+  "ai_entities": [
+    {
+      "name": "Ahiezer",
+      "type": "PERSON",
+      "canonical_id": null,
+      "context": "Chefe da tribo de Dan e valente de Davi"
+    },
+    {
+      "name": "Davi",
+      "type": "PERSON",
+      "canonical_id": null,
+      "context": "Rei de Israel e líder militar"
+    }
+  ],
+  "ai_discovered_aspects": [
+    {
+      "label": "Role in Israel's Military History",
+      "references": [
+        "1 Crônicas 12:3"
+      ],
+      "rationale": "Ahiezer's involvement with David's valiant men highlights the military aspect of Israel's history and the importance of skilled warriors in establishing the kingdom.",
+      "source": "ai_discovery"
+    }
+  ],
+  "ai_relationships": [
+    {
+      "target": "Davi",
+      "type": "ALLY_OF",
+      "description": "Ahiezer se uniu a Davi como um de seus valentes, demonstrando lealdade e apoio em tempos de conflito.",
+      "target_type": "PERSON",
+      "target_canonical_id": null,
+      "source": "ai_enrichment"
+    }
+  ],
+  "updated_at": "2025-12-04T00:04:16.748133Z"
+}

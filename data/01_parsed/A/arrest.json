@@ -1,0 +1,390 @@
+{
+  "topic": "ARREST",
+  "slug": "arrest",
+  "type": "topic",
+  "reference_groups": [
+    {
+      "name": "Of Jesus Mt 26:57; Mr 14:46; Lu 22:54; Joh 18:12",
+      "references": [
+        "Matt 26:57",
+        "Mark 14:46",
+        "Luke 22:54",
+        "John 18:12"
+      ],
+      "sub_groups": []
+    },
+    {
+      "name": "Of apostles Ac 5:17,18; 6:12",
+      "references": [
+        "Acts 5:17",
+        "Acts 5:18",
+        "Acts 6:12"
+      ],
+      "sub_groups": []
+    },
+    {
+      "name": "Of Paul and Silas Ac 16:19",
+      "references": [
+        "Acts 16:19"
+      ],
+      "sub_groups": []
+    },
+    {
+      "name": "Of Paul Ac 21:30",
+      "references": [
+        "Acts 21:30"
+      ],
+      "sub_groups": []
+    },
+    {
+      "name": "Paul authorized to arrest Christians Ac 9:2",
+      "references": [
+        "Acts 9:2"
+      ],
+      "sub_groups": []
+    },
+    {
+      "name": "See EXTRADITION",
+      "references": [],
+      "sub_groups": []
+    },
+    {
+      "name": "See PRISON",
+      "references": [],
+      "sub_groups": []
+    },
+    {
+      "name": "See PRISONERS",
+      "references": [],
+      "sub_groups": []
+    }
+  ],
+  "biblical_references": [
+    {
+      "book": "Mark",
+      "book_abbrev": "mrk",
+      "chapter": 14,
+      "testament": "NT",
+      "verses": [
+        46
+      ],
+      "verse_count": 1
+    },
+    {
+      "book": "Luke",
+      "book_abbrev": "luk",
+      "chapter": 22,
+      "testament": "NT",
+      "verses": [
+        54
+      ],
+      "verse_count": 1
+    },
+    {
+      "book": "John",
+      "book_abbrev": "jhn",
+      "chapter": 18,
+      "testament": "NT",
+      "verses": [
+        12
+      ],
+      "verse_count": 1
+    }
+  ],
+  "ai_enrichment": {
+    "summary": "O tema do 'arrest' (prisão) na Bíblia é central para a narrativa do Novo Testamento, especialmente em relação a Jesus e aos apóstolos. A prisão de Jesus, conforme relatado nos Evangelhos, marca o início de sua paixão e sacrifício, enquanto as prisões dos apóstolos e de Paulo refletem a oposição que a mensagem cristã enfrentou. A prisão é um símbolo de perseguição, mas também de testemunho e fé, mostrando como os crentes perseveraram em meio à adversidade.",
+    "outline": [
+      "A prisão de Jesus e seu significado na narrativa da salvação.",
+      "As prisões dos apóstolos como resposta à pregação do evangelho.",
+      "A prisão de Paulo e Silas e o impacto de sua fé em circunstâncias adversas.",
+      "A autorização de Paulo para prender cristãos e sua transformação em defensor da fé."
+    ],
+    "key_concepts": [
+      "Perseguição religiosa",
+      "Testemunho em meio à adversidade",
+      "Transformação e redenção"
+    ],
+    "theological_significance": "O conceito de prisão na Bíblia destaca a realidade da perseguição enfrentada pelos seguidores de Cristo, mas também enfatiza a soberania de Deus em usar essas situações para o avanço do evangelho. A experiência de prisão é um convite à reflexão sobre a fé e a perseverança, mostrando que, mesmo em momentos de sofrimento, Deus está presente e ativo na vida de seus servos.",
+    "model": "gpt-4o-mini",
+    "run_id": "enr_20250923_132344_de4bd8d5",
+    "confidence": 1.0,
+    "generated_at": "2025-09-23T13:23:44.885001"
+  },
+  "ai_themes_normalized": [
+    {
+      "theme_id": null,
+      "proposal_id": "prop:sofrimento_e_sacrificio_02062d",
+      "label_original": "Sofrimento e sacrifício",
+      "source": "ai_enrichment"
+    },
+    {
+      "theme_id": null,
+      "proposal_id": "prop:fidelidade_em_tempos_de_prova_3a82a3",
+      "label_original": "Fidelidade em tempos de prova",
+      "source": "ai_enrichment"
+    },
+    {
+      "theme_id": null,
+      "proposal_id": "prop:a_missao_da_igreja_em_face_da_oposicao_2a65be",
+      "label_original": "A missão da igreja em face da oposição",
+      "source": "ai_enrichment"
+    }
+  ],
+  "phase1_discovery": {
+    "processed_at": "2025-09-23T22:51:39.286831Z",
+    "total_themes_processed": 3,
+    "summary": {
+      "total_processed": 3,
+      "decisions": {
+        "alias_existing": 0,
+        "proposed": 3,
+        "error": 0
+      },
+      "success_rate": 1.0
+    },
+    "results": [
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.8438,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_73c05521",
+          "decision_hash": "c929c62a0819a3f2",
+          "created_at": "2025-09-23T22:51:39.286831Z"
+        },
+        "proposal_id": "prop:7d2c60bc",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:sofrimento_e_sacrificio_02062d",
+          "label_original": "Sofrimento e sacrifício",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.7773800000000002,
+          "novelty": 0.75,
+          "similarity_to_best_existing": 0.25,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_f8d50696",
+          "decision_hash": "154c39fdd6117778",
+          "created_at": "2025-09-23T22:51:40.553361Z"
+        },
+        "proposal_id": "prop:7aeb42c6",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:fidelidade_em_tempos_de_prova_3a82a3",
+          "label_original": "Fidelidade em tempos de prova",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.83534,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_7f2c62fc",
+          "decision_hash": "d2640395f49266df",
+          "created_at": "2025-09-23T22:51:41.428125Z"
+        },
+        "proposal_id": "prop:9cefee2d",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:a_missao_da_igreja_em_face_da_oposicao_2a65be",
+          "label_original": "A missão da igreja em face da oposição",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      }
+    ]
+  },
+  "entity_links": [
+    {
+      "canonical_id": "CON:arrest",
+      "namespace": "CONCEPT",
+      "role": "primary",
+      "confidence": 0.9,
+      "source": "topic_resolver",
+      "status": "proposed",
+      "provenance": {
+        "topic": "ARREST",
+        "extracted_from": "ARREST",
+        "processing_result": {
+          "status": "proposed",
+          "proposal_id": "stub:CON:arrest_0b83f043",
+          "canonical_id": "CON:arrest",
+          "needs_review": true,
+          "reasons": [
+            "low_confidence",
+            "insufficient_sources"
+          ],
+          "message": "Entity proposal stub:CON:arrest_0b83f043 created"
+        }
+      }
+    },
+    {
+      "canonical_id": "DEI:prison",
+      "namespace": "DEITY",
+      "role": "secondary",
+      "confidence": 0.7,
+      "source": "topic_resolver",
+      "status": "proposed",
+      "provenance": {
+        "topic": "ARREST",
+        "extracted_from": "PRISON",
+        "processing_result": {
+          "status": "proposed",
+          "proposal_id": "stub:DEI:prison_9e586429",
+          "canonical_id": "DEI:prison",
+          "needs_review": true,
+          "reasons": [
+            "low_confidence",
+            "insufficient_sources"
+          ],
+          "message": "Entity proposal stub:DEI:prison_9e586429 created"
+        }
+      }
+    },
+    {
+      "canonical_id": "EVE:extradition",
+      "namespace": "EVENT",
+      "role": "secondary",
+      "confidence": 0.7,
+      "source": "topic_resolver",
+      "status": "proposed",
+      "provenance": {
+        "topic": "ARREST",
+        "extracted_from": "EXTRADITION",
+        "processing_result": {
+          "status": "proposed",
+          "proposal_id": "stub:EVE:extradition_da0631d8",
+          "canonical_id": "EVE:extradition",
+          "needs_review": true,
+          "reasons": [
+            "low_confidence",
+            "insufficient_sources"
+          ],
+          "message": "Entity proposal stub:EVE:extradition_da0631d8 created"
+        }
+      }
+    },
+    {
+      "canonical_id": "DEI:prisoners",
+      "namespace": "DEITY",
+      "role": "secondary",
+      "confidence": 0.7,
+      "source": "topic_resolver",
+      "status": "proposed",
+      "provenance": {
+        "topic": "ARREST",
+        "extracted_from": "PRISONERS",
+        "processing_result": {
+          "status": "proposed",
+          "proposal_id": "stub:DEI:prisoners_42e16097",
+          "canonical_id": "DEI:prisoners",
+          "needs_review": true,
+          "reasons": [
+            "low_confidence",
+            "insufficient_sources"
+          ],
+          "message": "Entity proposal stub:DEI:prisoners_42e16097 created"
+        }
+      }
+    }
+  ],
+  "see_also": [
+    "PRISONERS",
+    "PRISON",
+    "EXTRADITION"
+  ],
+  "aliases": [],
+  "stats": {
+    "entries_count": 8,
+    "ot_refs": 0,
+    "nt_refs": 3,
+    "total_verses": 3
+  },
+  "definitions": [],
+  "sources": [
+    "NAV"
+  ],
+  "metadata": {
+    "schema_version": "v3.0",
+    "created_at": "2025-12-02T21:53:08.669978+00:00",
+    "merged_from": {
+      "v2": true,
+      "dictionary": false
+    }
+  },
+  "version": "3.0.0"
+}

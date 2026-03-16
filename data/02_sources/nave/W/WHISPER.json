@@ -1,0 +1,97 @@
+{
+  "topic": "WHISPER",
+  "topic_slug": "whisper",
+  "canonical_id": "NAV:whisper",
+  "aliases": [],
+  "see_also": [
+    "TALEBEARER",
+    "BUSYBODY",
+    "SLANDER"
+  ],
+  "see_also_resolved": [
+    {
+      "original": "TALEBEARER",
+      "clean": "TALEBEARER",
+      "slug": "talebearer",
+      "canonical_id": "NAV:talebearer"
+    },
+    {
+      "original": "BUSYBODY",
+      "clean": "BUSYBODY",
+      "slug": "busybody",
+      "canonical_id": "NAV:busybody"
+    },
+    {
+      "original": "SLANDER",
+      "clean": "SLANDER",
+      "slug": "slander",
+      "canonical_id": "NAV:slander"
+    }
+  ],
+  "raw_block": "–SeeBUSYBODY\n–SeeSLANDER\n–SeeTALEBEARER",
+  "content_preview": "–SeeBUSYBODY",
+  "reference_groups": [
+    {
+      "idx": 0,
+      "entry_label": "–SeeBUSYBODY",
+      "raw_segment": "–SeeBUSYBODY"
+    },
+    {
+      "idx": 1,
+      "entry_label": "–SeeSLANDER",
+      "raw_segment": "–SeeSLANDER"
+    },
+    {
+      "idx": 2,
+      "entry_label": "–SeeTALEBEARER",
+      "raw_segment": "–SeeTALEBEARER"
+    }
+  ],
+  "biblical_references": [],
+  "books_mentioned": [],
+  "normalized_labels": [],
+  "stats": {
+    "entries_count": 1,
+    "ot_refs": 0,
+    "nt_refs": 0,
+    "total_verses": 0,
+    "top_books": [],
+    "ref_counts_by_book": {}
+  },
+  "source": {
+    "provider": "ccel",
+    "work": "Nave's Topical Bible",
+    "format": "xml",
+    "fetched_at": "2025-09-20",
+    "source_url": null,
+    "local_file": "data/datasets/ccel-paragraphs/ccel/n/nave/bible.xml"
+  },
+  "metadata": {
+    "parser": "ccel-nave-xml-parser",
+    "parser_version": "2025.09.19",
+    "schema_version": "scrape.v1",
+    "language": {
+      "code": "en",
+      "name": "English",
+      "direction": "ltr"
+    },
+    "integrity": {
+      "checksum_raw_block": "sha256:41d195293ab88b64e946264f2f9ac28aed7a28fe1d7324d72390900eac724965",
+      "position": {
+        "start_line": null,
+        "end_line": null,
+        "total_lines": 3
+      }
+    },
+    "notes": [
+      "XML-based parsing from official CCEL ThML source",
+      "Perfect biblical reference extraction with osisRef",
+      "Structured hierarchy preservation",
+      "Complete topic linking and see_also resolution"
+    ]
+  },
+  "total_references": 0,
+  "version": "1.0.0",
+  "created_at": "2025-09-20T17:32:37.340813Z",
+  "updated_at": "2025-09-20T17:32:37.340820Z"
+}

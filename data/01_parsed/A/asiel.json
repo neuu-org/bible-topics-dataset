@@ -1,0 +1,254 @@
+{
+  "topic": "ASIEL",
+  "slug": "asiel",
+  "type": "both",
+  "reference_groups": [
+    {
+      "name": "Grandfather of Jehu 1Ch 4:35",
+      "references": [
+        "1Chr 4:35"
+      ],
+      "sub_groups": []
+    }
+  ],
+  "biblical_references": [],
+  "ai_enrichment": {
+    "summary": "Asiel é mencionado em 1 Crônicas 4:35 como o avô de Jeú, um personagem significativo na história de Israel. A genealogia é uma parte importante das Escrituras, pois conecta indivíduos a promessas e eventos históricos. A linhagem de Jeú, que se tornaria rei de Israel, é um testemunho da soberania de Deus na escolha de líderes e na preservação do povo de Israel. A menção de Asiel destaca a importância das famílias e das gerações na narrativa bíblica, mostrando como Deus trabalha através da história e das relações familiares.",
+    "outline": [
+      "Genealogia de Jeú e sua importância na história de Israel",
+      "O papel de Asiel como avô e sua conexão com a linhagem real",
+      "A relevância das genealogias na narrativa bíblica",
+      "A soberania de Deus na escolha de líderes através das gerações"
+    ],
+    "key_concepts": [
+      "Genealogia",
+      "Soberania de Deus",
+      "História de Israel"
+    ],
+    "theological_significance": "A menção de Asiel e sua posição na genealogia de Jeú nos lembra da importância das famílias na história da salvação. Isso nos ensina que Deus opera através de gerações e que cada indivíduo tem um papel na narrativa divina. Para a fé cristã, isso reforça a ideia de que Deus está ativamente envolvido na história humana e que cada um de nós pode ser parte do plano maior de Deus.",
+    "model": "gpt-4o-mini",
+    "run_id": "enr_20250923_144818_5af80825",
+    "confidence": 1.0,
+    "generated_at": "2025-09-23T14:48:18.029268"
+  },
+  "ai_themes_normalized": [
+    {
+      "theme_id": null,
+      "proposal_id": "prop:linhagem_e_heranca_e84841",
+      "label_original": "Linhagem e herança",
+      "source": "ai_enrichment"
+    },
+    {
+      "theme_id": null,
+      "proposal_id": "prop:soberania_divina_b6fd9e",
+      "label_original": "Soberania divina",
+      "source": "ai_enrichment"
+    },
+    {
+      "theme_id": null,
+      "proposal_id": "prop:a_importancia_da_familia_na_biblia_0e2499",
+      "label_original": "A importância da família na Bíblia",
+      "source": "ai_enrichment"
+    }
+  ],
+  "phase1_discovery": {
+    "processed_at": "2025-09-23T22:54:30.920545Z",
+    "total_themes_processed": 3,
+    "summary": {
+      "total_processed": 3,
+      "decisions": {
+        "alias_existing": 0,
+        "proposed": 3,
+        "error": 0
+      },
+      "success_rate": 1.0
+    },
+    "results": [
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.83514,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_9fba6646",
+          "decision_hash": "8d019c54b81ab59d",
+          "created_at": "2025-09-23T22:54:30.920545Z"
+        },
+        "proposal_id": "prop:ca7d42f1",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:linhagem_e_heranca_e84841",
+          "label_original": "Linhagem e herança",
+          "confidence": 0.5211600000000002,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.8489599999999999,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_4e69b0f6",
+          "decision_hash": "f9a996eae0f639db",
+          "created_at": "2025-09-23T22:54:32.175830Z"
+        },
+        "proposal_id": "prop:332c2df7",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:soberania_divina_b6fd9e",
+          "label_original": "Soberania divina",
+          "confidence": 0.4890000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.84156,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_b17f1cca",
+          "decision_hash": "bc0307d42c628244",
+          "created_at": "2025-09-23T22:54:33.103383Z"
+        },
+        "proposal_id": "prop:81cfc08c",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:a_importancia_da_familia_na_biblia_0e2499",
+          "label_original": "A importância da família na Bíblia",
+          "confidence": 0.53076,
+          "source": "ai_enrichment"
+        }
+      }
+    ]
+  },
+  "entity_links": [
+    {
+      "canonical_id": "CON:asiel",
+      "namespace": "CONCEPT",
+      "role": "primary",
+      "confidence": 0.9,
+      "source": "topic_resolver",
+      "status": "proposed",
+      "provenance": {
+        "topic": "ASIEL",
+        "extracted_from": "ASIEL",
+        "processing_result": {
+          "status": "proposed",
+          "proposal_id": "stub:CON:asiel_0fbc4a55",
+          "canonical_id": "CON:asiel",
+          "needs_review": true,
+          "reasons": [
+            "low_confidence",
+            "insufficient_sources"
+          ],
+          "message": "Entity proposal stub:CON:asiel_0fbc4a55 created"
+        }
+      }
+    }
+  ],
+  "see_also": [],
+  "aliases": [],
+  "stats": {
+    "entries_count": 1,
+    "ot_refs": 0,
+    "nt_refs": 0,
+    "total_verses": 0
+  },
+  "definitions": [
+    {
+      "source": "SMI",
+      "text": "(created by God)."
+    }
+  ],
+  "dictionary_refs": [
+    {
+      "reference": "1 Chronicles 4:35",
+      "original": "1 Chronicles 4:35"
+    },
+    {
+      "reference": "2Esd 14:24",
+      "original": "2 Esd. 14:24"
+    }
+  ],
+  "sources": [
+    "NAV",
+    "SMI"
+  ],
+  "metadata": {
+    "schema_version": "v3.0",
+    "created_at": "2025-12-02T21:53:08.670450+00:00",
+    "merged_from": {
+      "v2": true,
+      "dictionary": true
+    }
+  },
+  "version": "3.0.0"
+}

@@ -1,0 +1,331 @@
+{
+  "topic": "ARCHIPPUS",
+  "slug": "archippus",
+  "type": "both",
+  "reference_groups": [
+    {
+      "name": "A disciple at Colossae Col 4:17; Phm 1:2",
+      "references": [
+        "Col 4:17",
+        "Phlm 1"
+      ],
+      "sub_groups": []
+    }
+  ],
+  "biblical_references": [
+    {
+      "book": "Philemon",
+      "book_abbrev": "phm",
+      "chapter": 1,
+      "testament": "NT",
+      "verses": [
+        2
+      ],
+      "verse_count": 1
+    }
+  ],
+  "ai_enrichment": {
+    "summary": "Archippus é mencionado nas cartas de Paulo aos Colossenses e a Filemon como um discípulo e colaborador na obra do evangelho. Sua inclusão nas saudações de Paulo sugere que ele tinha um papel significativo na comunidade cristã de Colossos, possivelmente como líder ou pastor. A exortação de Paulo para que Archippus cumpra seu ministério (Col 4:17) destaca a importância do serviço fiel e da responsabilidade no corpo de Cristo, refletindo a necessidade de cada crente em contribuir para a edificação da igreja.",
+    "outline": [
+      "Identificação de Archippus como discípulo em Colossos",
+      "O papel de Archippus na comunidade cristã",
+      "A exortação de Paulo para o cumprimento do ministério",
+      "Implicações do ministério de Archippus para a igreja contemporânea"
+    ],
+    "key_concepts": [
+      "Discípulo",
+      "Ministério",
+      "Responsabilidade cristã"
+    ],
+    "theological_significance": "A figura de Archippus nos ensina sobre a importância do ministério individual dentro da comunidade de fé. Sua menção nas cartas de Paulo serve como um lembrete de que cada crente tem um papel a desempenhar no avanço do evangelho e na edificação da igreja. A exortação de Paulo a Archippus também nos encoraja a perseverar em nossas vocações espirituais, reconhecendo que o trabalho no Senhor não é em vão.",
+    "model": "gpt-4o-mini",
+    "run_id": "enr_20250923_131614_6cb325ae",
+    "confidence": 1.0,
+    "generated_at": "2025-09-23T13:16:14.813639"
+  },
+  "ai_themes_normalized": [
+    {
+      "theme_id": null,
+      "proposal_id": "prop:servico_cristao_099bfd",
+      "label_original": "Serviço cristão",
+      "source": "ai_enrichment"
+    },
+    {
+      "theme_id": null,
+      "proposal_id": "prop:comunidade_de_fe_a26002",
+      "label_original": "Comunidade de fé",
+      "source": "ai_enrichment"
+    },
+    {
+      "theme_id": null,
+      "proposal_id": "prop:responsabilidade_ministerial_82eb69",
+      "label_original": "Responsabilidade ministerial",
+      "source": "ai_enrichment"
+    }
+  ],
+  "phase1_discovery": {
+    "processed_at": "2025-09-23T22:49:14.951645Z",
+    "total_themes_processed": 3,
+    "summary": {
+      "total_processed": 3,
+      "decisions": {
+        "alias_existing": 0,
+        "proposed": 3,
+        "error": 0
+      },
+      "success_rate": 1.0
+    },
+    "results": [
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.84134,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_a5e6f400",
+          "decision_hash": "716161ad3dd2b5bf",
+          "created_at": "2025-09-23T22:49:14.951645Z"
+        },
+        "proposal_id": "prop:d978de10",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:servico_cristao_099bfd",
+          "label_original": "Serviço cristão",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.8427399999999999,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_ca5e9924",
+          "decision_hash": "2e095b43c3abff66",
+          "created_at": "2025-09-23T22:49:15.868259Z"
+        },
+        "proposal_id": "prop:0de1ba0a",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:comunidade_de_fe_a26002",
+          "label_original": "Comunidade de fé",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.84432,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_f5185fb2",
+          "decision_hash": "7861359ad18007f8",
+          "created_at": "2025-09-23T22:49:16.933167Z"
+        },
+        "proposal_id": "prop:95e3fe9a",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:responsabilidade_ministerial_82eb69",
+          "label_original": "Responsabilidade ministerial",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      }
+    ]
+  },
+  "entity_links": [
+    {
+      "canonical_id": "CON:archippus",
+      "namespace": "CONCEPT",
+      "role": "primary",
+      "confidence": 0.9,
+      "source": "topic_resolver",
+      "status": "proposed",
+      "provenance": {
+        "topic": "ARCHIPPUS",
+        "extracted_from": "ARCHIPPUS",
+        "processing_result": {
+          "status": "proposed",
+          "proposal_id": "stub:CON:archippus_e51d24d2",
+          "canonical_id": "CON:archippus",
+          "needs_review": true,
+          "reasons": [
+            "low_confidence",
+            "insufficient_sources"
+          ],
+          "message": "Entity proposal stub:CON:archippus_e51d24d2 created"
+        }
+      }
+    }
+  ],
+  "see_also": [],
+  "aliases": [],
+  "stats": {
+    "entries_count": 1,
+    "ot_refs": 0,
+    "nt_refs": 1,
+    "total_verses": 1
+  },
+  "definitions": [
+    {
+      "source": "EAS",
+      "text": "Master of the horse, a “fellow-soldier” of Paul’s (Philemon 1:2), whom he exhorts to renewed activity (Col. 4:17). He was a member of Philemon’s family, probably his son.",
+      "extracted_refs": [
+        {
+          "book": "Philippians",
+          "chapter": 1,
+          "verses": [
+            2
+          ],
+          "verse_count": 1,
+          "testament": "NT",
+          "raw": "Philippians 1:2",
+          "source": "EAS"
+        },
+        {
+          "book": "Colossians",
+          "chapter": 4,
+          "verses": [
+            17
+          ],
+          "verse_count": 1,
+          "testament": "NT",
+          "raw": "Colossians 4:17",
+          "source": "EAS"
+        }
+      ]
+    },
+    {
+      "source": "SMI",
+      "text": "(master of the horse), a Christian teacher in Colossae, (Colossians 4:17) called by St. Paul his “fellow soldier,” Phil 2. He was probably a member of Philemon’s family. (A.D. 62.)",
+      "extracted_refs": [
+        {
+          "book": "Colossians",
+          "chapter": 4,
+          "verses": [
+            17
+          ],
+          "verse_count": 1,
+          "testament": "NT",
+          "raw": "Colossians 4:17",
+          "source": "SMI"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "NAV",
+    "EAS",
+    "SMI"
+  ],
+  "metadata": {
+    "schema_version": "v3.0",
+    "created_at": "2025-12-02T21:53:08.669546+00:00",
+    "merged_from": {
+      "v2": true,
+      "dictionary": true
+    }
+  },
+  "version": "3.0.0",
+  "definition_refs": [
+    {
+      "book": "Philippians",
+      "chapter": 1,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Philippians 1:2",
+      "source": "EAS"
+    },
+    {
+      "book": "Colossians",
+      "chapter": 4,
+      "verses": [
+        17
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Colossians 4:17",
+      "source": "EAS"
+    }
+  ],
+  "definition_refs_stats": {
+    "total": 2,
+    "ot": 0,
+    "nt": 2,
+    "books": [
+      "Colossians",
+      "Philippians"
+    ]
+  }
+}

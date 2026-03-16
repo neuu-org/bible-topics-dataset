@@ -1,0 +1,577 @@
+{
+  "topic": "ASHTORETH",
+  "slug": "ashtoreth",
+  "type": "both",
+  "reference_groups": [
+    {
+      "name": "An idol of the Philistines, Zidonians, and Phenicians. Probably identical with queen of heaven Jer 7:18",
+      "references": [
+        "Jer 7:18"
+      ],
+      "sub_groups": []
+    },
+    {
+      "name": "Worshiped by Israelites Jud 2:13; 10:6; 1Sa 7:3,4; 12:10; 1Ki 11:5,33; 2Ki 23:13",
+      "references": [
+        "Judg 2:13",
+        "Judg 10:6",
+        "1Sam 7:3",
+        "1Sam 7:4",
+        "1Sam 12:10",
+        "1Kgs 11:5",
+        "1Kgs 11:33",
+        "2Kgs 23:13"
+      ],
+      "sub_groups": []
+    },
+    {
+      "name": "Temple of 1Sa 31:10",
+      "references": [
+        "1Sam 31:10"
+      ],
+      "sub_groups": []
+    },
+    {
+      "name": "High places of, at Jerusalem, destroyed 2Ki 23:13",
+      "references": [
+        "2Kgs 23:13"
+      ],
+      "sub_groups": []
+    }
+  ],
+  "biblical_references": [
+    {
+      "book": "1 Samuel",
+      "book_abbrev": "1sa",
+      "chapter": 7,
+      "testament": "OT",
+      "verses": [
+        3,
+        4,
+        12
+      ],
+      "verse_count": 3
+    },
+    {
+      "book": "1 Kings",
+      "book_abbrev": "1ki",
+      "chapter": 11,
+      "testament": "OT",
+      "verses": [
+        2,
+        5,
+        33
+      ],
+      "verse_count": 3
+    },
+    {
+      "book": "2 Kings",
+      "book_abbrev": "2ki",
+      "chapter": 23,
+      "testament": "OT",
+      "verses": [
+        13
+      ],
+      "verse_count": 1
+    }
+  ],
+  "ai_enrichment": {
+    "summary": "Ashtoreth é uma deidade associada à fertilidade e à guerra, venerada por várias culturas antigas, incluindo os filisteus, zidônios e fenícios. Na Bíblia, é frequentemente mencionada como um ídolo que os israelitas adoraram, desafiando a exclusividade do culto ao Deus de Israel. A adoração a Ashtoreth é vista como uma das razões para a apostasia de Israel, levando à destruição de seus altares e templos, como evidenciado em 2 Reis 23:13. A identificação de Ashtoreth com a 'rainha do céu' em Jeremias 7:18 destaca a sincretização religiosa que ocorreu entre os israelitas e as nações vizinhas.",
+    "outline": [
+      "Ashtoreth como deidade dos filisteus, zidônios e fenícios",
+      "A adoração de Ashtoreth pelos israelitas",
+      "Destruição dos templos e altos de Ashtoreth em Jerusalém",
+      "A conexão de Ashtoreth com a 'rainha do céu'"
+    ],
+    "key_concepts": [
+      "Sincretismo religioso",
+      "Apostasia de Israel",
+      "Culto a deidades pagãs"
+    ],
+    "theological_significance": "A adoração a Ashtoreth ilustra a luta contínua de Israel contra a tentação de se desviar do culto ao Deus verdadeiro. Este tema é relevante para a fé cristã, pois enfatiza a importância da fidelidade a Deus e a rejeição de influências externas que podem comprometer a pureza da adoração. A destruição dos altares de Ashtoreth também simboliza a necessidade de purificação e renovação espiritual na vida do crente.",
+    "model": "gpt-4o-mini",
+    "run_id": "enr_20250923_144655_7399ec81",
+    "confidence": 1.0,
+    "generated_at": "2025-09-23T14:46:55.290273"
+  },
+  "ai_themes_normalized": [
+    {
+      "theme_id": null,
+      "proposal_id": "prop:fidelidade_a_deus_e639f7",
+      "label_original": "Fidelidade a Deus",
+      "source": "ai_enrichment"
+    },
+    {
+      "theme_id": null,
+      "proposal_id": "prop:consequencias_da_idolatria_b22281",
+      "label_original": "Consequências da idolatria",
+      "source": "ai_enrichment"
+    },
+    {
+      "theme_id": null,
+      "proposal_id": "prop:purificacao_espiritual_dee1ed",
+      "label_original": "Purificação espiritual",
+      "source": "ai_enrichment"
+    }
+  ],
+  "phase1_discovery": {
+    "processed_at": "2025-09-23T22:54:11.778951Z",
+    "total_themes_processed": 3,
+    "summary": {
+      "total_processed": 3,
+      "decisions": {
+        "alias_existing": 0,
+        "proposed": 3,
+        "error": 0
+      },
+      "success_rate": 1.0
+    },
+    "results": [
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "low_novelty",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.7717999999999999,
+          "novelty": 0.6666666666666667,
+          "similarity_to_best_existing": 0.3333333333333333,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_e9f24ffe",
+          "decision_hash": "1ee426c9a4a04c0d",
+          "created_at": "2025-09-23T22:54:11.778951Z"
+        },
+        "proposal_id": "prop:912a0579",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:fidelidade_a_deus_e639f7",
+          "label_original": "Fidelidade a Deus",
+          "confidence": 0.5080000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.83946,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_4dd91c8e",
+          "decision_hash": "e775861f39ce4eb5",
+          "created_at": "2025-09-23T22:54:12.970324Z"
+        },
+        "proposal_id": "prop:f36f306c",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:consequencias_da_idolatria_b22281",
+          "label_original": "Consequências da idolatria",
+          "confidence": 0.5331600000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "low_novelty",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.7829199999999998,
+          "novelty": 0.6666666666666667,
+          "similarity_to_best_existing": 0.3333333333333333,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_6fd347f5",
+          "decision_hash": "0e9b474b928351b1",
+          "created_at": "2025-09-23T22:54:14.978339Z"
+        },
+        "proposal_id": "prop:286b894a",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:purificacao_espiritual_dee1ed",
+          "label_original": "Purificação espiritual",
+          "confidence": 0.7753066666666667,
+          "source": "ai_enrichment"
+        }
+      }
+    ]
+  },
+  "entity_links": [
+    {
+      "canonical_id": "CON:ashtoreth",
+      "namespace": "CONCEPT",
+      "role": "primary",
+      "confidence": 0.9,
+      "source": "topic_resolver",
+      "status": "proposed",
+      "provenance": {
+        "topic": "ASHTORETH",
+        "extracted_from": "ASHTORETH",
+        "processing_result": {
+          "status": "proposed",
+          "proposal_id": "stub:CON:ashtoreth_0f33b40f",
+          "canonical_id": "CON:ashtoreth",
+          "needs_review": true,
+          "reasons": [
+            "low_confidence",
+            "insufficient_sources"
+          ],
+          "message": "Entity proposal stub:CON:ashtoreth_0f33b40f created"
+        }
+      }
+    }
+  ],
+  "see_also": [],
+  "aliases": [],
+  "stats": {
+    "entries_count": 4,
+    "ot_refs": 3,
+    "nt_refs": 0,
+    "total_verses": 3
+  },
+  "definitions": [
+    {
+      "source": "EAS",
+      "text": "The moon goddess of the Phoenicians, representing the passive principle in nature, their principal female deity; frequently associated with the name of Baal, the sun-god, their chief male deity (Judg. 10:6; 1 Sam. 7:4; 12:10). These names often occur in the plural (Ashtaroth, Baalim), probably as indicating either different statues or different modifications of the deities. This deity is spoken of as Ashtoreth of the Zidonians. She was the Ishtar of the Accadians and the Astarte of the Greeks (Jer. 44:17; 1 Kings 11:5, 33; 2 Kings 23:13). There was a temple of this goddess among the Philistines in the time of Saul (1 Sam. 31:10). Under the name of Ishtar, she was one of the great deities of the Assyrians. The Phoenicians called her Astarte. Solomon introduced the worship of this idol (1 Kings 11:33). Jezebel’s 400 priests were probably employed in its service (1 Kings 18:19). It was called the “queen of heaven” (Jer. 44:25).",
+      "extracted_refs": [
+        {
+          "book": "Judges",
+          "chapter": 10,
+          "verses": [
+            6
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "Judges 10:6",
+          "source": "EAS"
+        },
+        {
+          "book": "1 Samuel",
+          "chapter": 7,
+          "verses": [
+            4
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "1 Samuel 7:4",
+          "source": "EAS"
+        },
+        {
+          "book": "1 Samuel",
+          "chapter": 12,
+          "verses": [
+            10
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "1 Samuel 12:10",
+          "source": "EAS"
+        },
+        {
+          "book": "Jeremiah",
+          "chapter": 44,
+          "verses": [
+            17
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "Jeremiah 44:17",
+          "source": "EAS"
+        },
+        {
+          "book": "1 Kings",
+          "chapter": 11,
+          "verses": [
+            5,
+            33
+          ],
+          "verse_count": 2,
+          "testament": "OT",
+          "raw": "1 Kings 11:5, 33",
+          "source": "EAS"
+        },
+        {
+          "book": "2 Kings",
+          "chapter": 23,
+          "verses": [
+            13
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "2 Kings 23:13",
+          "source": "EAS"
+        },
+        {
+          "book": "1 Samuel",
+          "chapter": 31,
+          "verses": [
+            10
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "1 Samuel 31:10",
+          "source": "EAS"
+        },
+        {
+          "book": "1 Kings",
+          "chapter": 11,
+          "verses": [
+            33
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "1 Kings 11:33",
+          "source": "EAS"
+        },
+        {
+          "book": "1 Kings",
+          "chapter": 18,
+          "verses": [
+            19
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "1 Kings 18:19",
+          "source": "EAS"
+        },
+        {
+          "book": "Jeremiah",
+          "chapter": 44,
+          "verses": [
+            25
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "Jeremiah 44:25",
+          "source": "EAS"
+        }
+      ]
+    },
+    {
+      "source": "SMI",
+      "text": "(a star) the principal female divinity of the Phoenicians, called Ishtar by the Assyrians and Astarte by the Greeks and Romans. She was by some ancient writers identified with the moon. But on the other hand the Assyrian Ishtar was not the moon-goddess, but the planet Venus; and Astarte was by many identified with the goddess Venus (or Aphrodite), as well as with the plant of that name. It is certain that the worship of Astarte became identified with that of Venus, and that this worship was connected with the most impure rites is apparent from the close connection of this goddess with Asherah. (1 Kings 11:5,33; 2 Kings 23:13)",
+      "extracted_refs": [
+        {
+          "book": "1 Kings",
+          "chapter": 11,
+          "verses": [
+            5,
+            33
+          ],
+          "verse_count": 2,
+          "testament": "OT",
+          "raw": "1 Kings 11:5,33",
+          "source": "SMI"
+        },
+        {
+          "book": "2 Kings",
+          "chapter": 23,
+          "verses": [
+            13
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "2 Kings 23:13",
+          "source": "SMI"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "NAV",
+    "EAS",
+    "SMI"
+  ],
+  "metadata": {
+    "schema_version": "v3.0",
+    "created_at": "2025-12-02T21:53:08.670392+00:00",
+    "merged_from": {
+      "v2": true,
+      "dictionary": true
+    }
+  },
+  "version": "3.0.0",
+  "definition_refs": [
+    {
+      "book": "Judges",
+      "chapter": 10,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Judges 10:6",
+      "source": "EAS"
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 7,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Samuel 7:4",
+      "source": "EAS"
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 12,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Samuel 12:10",
+      "source": "EAS"
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 44,
+      "verses": [
+        17
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Jeremiah 44:17",
+      "source": "EAS"
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 11,
+      "verses": [
+        5,
+        33
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "1 Kings 11:5, 33",
+      "source": "EAS"
+    },
+    {
+      "book": "2 Kings",
+      "chapter": 23,
+      "verses": [
+        13
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Kings 23:13",
+      "source": "EAS"
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 31,
+      "verses": [
+        10
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Samuel 31:10",
+      "source": "EAS"
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 11,
+      "verses": [
+        33
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Kings 11:33",
+      "source": "EAS"
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 18,
+      "verses": [
+        19
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Kings 18:19",
+      "source": "EAS"
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 44,
+      "verses": [
+        25
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Jeremiah 44:25",
+      "source": "EAS"
+    }
+  ],
+  "definition_refs_stats": {
+    "total": 10,
+    "ot": 10,
+    "nt": 0,
+    "books": [
+      "1 Kings",
+      "1 Samuel",
+      "2 Kings",
+      "Jeremiah",
+      "Judges"
+    ]
+  }
+}

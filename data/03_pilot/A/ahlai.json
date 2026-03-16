@@ -1,0 +1,307 @@
+{
+  "topic": "AHLAI",
+  "slug": "ahlai",
+  "type": "topic",
+  "reference_groups": [
+    {
+      "name": "1. Daughter of Sheshan 1Ch 2:31,34,35",
+      "references": [
+        "1Chr 2:31",
+        "1Chr 2:34",
+        "1Chr 2:35"
+      ],
+      "sub_groups": []
+    },
+    {
+      "name": "2. Father of Zabad 1Ch 11:41",
+      "references": [
+        "1Chr 11:41"
+      ],
+      "sub_groups": []
+    }
+  ],
+  "biblical_references": [],
+  "ai_enrichment": {
+    "summary": "Ahlai é uma figura mencionada nas genealogias de 1 Crônicas, especificamente como a filha de Sheshan e mãe de Zabad. Sua inclusão nas listas genealógicas destaca a importância das linhagens e heranças na narrativa bíblica, refletindo a relevância das famílias e suas histórias na formação do povo de Israel. Ahlai, embora não seja uma figura central nas narrativas bíblicas, representa a continuidade da linhagem e a preservação da identidade familiar entre os israelitas.",
+    "outline": [
+      "Ahlai como filha de Sheshan: Ahlai é mencionada em 1 Crônicas 2:31, destacando sua posição na genealogia de Judá e a importância das mulheres nas linhagens familiares.",
+      "Ahlai como mãe de Zabad: Em 1 Crônicas 2:34, Ahlai é identificada como a mãe de Zabad, o que enfatiza seu papel na continuidade da linhagem e na transmissão da herança familiar.",
+      "Ahlai e a genealogia de Judá: A inclusão de Ahlai nas listas genealógicas em 1 Crônicas 2:35 e 1 Crônicas 11:41 ilustra a importância das genealogias na história de Israel, mostrando como cada indivíduo contribui para a narrativa maior do povo de Deus."
+    ],
+    "key_concepts": [
+      "Genealogia",
+      "Identidade Familiar",
+      "Papel das Mulheres na Bíblia"
+    ],
+    "theological_significance": "Ahlai, embora não seja uma figura proeminente, representa a importância das genealogias na Bíblia, que são fundamentais para entender a história do povo de Israel e a vinda do Messias. As linhagens familiares não apenas preservam a identidade cultural, mas também são essenciais para a realização das promessas de Deus ao Seu povo.",
+    "model": "gpt-4o-mini",
+    "run_id": "enr_20251204_001234_b0df269f",
+    "confidence": 0.9500000000000002,
+    "generated_at": "2025-12-04T00:12:34.794980"
+  },
+  "ai_themes_normalized": [
+    {
+      "theme_id": null,
+      "proposal_id": "prop:genealogy_and_identi_09c299",
+      "label_original": "Genealogia e Identidade",
+      "label_en": "Genealogy and Identity",
+      "label_normalized": "genealogy_and_identity",
+      "anchor_verses": [
+        "1Crônicas 2:31",
+        "1Crônicas 2:34"
+      ],
+      "relevance_score": 9,
+      "semantic_keywords": [
+        "genealogy",
+        "identity",
+        "heritage",
+        "family"
+      ],
+      "theological_domain": "theology_proper",
+      "parent_theme": null,
+      "aspect": "importância das linhagens na narrativa bíblica",
+      "source": "ai_enrichment",
+      "anchor_source": "ai_trusted",
+      "anchor_meta": {
+        "ai_suggested": 2,
+        "validated": 0,
+        "fallback_used": false
+      }
+    },
+    {
+      "theme_id": null,
+      "proposal_id": "prop:role_of_women_in_gen_0af6dc",
+      "label_original": "Papel das Mulheres nas Genealogias",
+      "label_en": "Role of Women in Genealogies",
+      "label_normalized": "role_of_women_in_genealogies",
+      "anchor_verses": [
+        "1Chr 2:31",
+        "1Chr 2:34",
+        "1Chr 2:35",
+        "1Chr 11:41"
+      ],
+      "relevance_score": 8,
+      "semantic_keywords": [
+        "women",
+        "genealogy",
+        "heritage",
+        "family roles"
+      ],
+      "theological_domain": "theology_proper",
+      "parent_theme": null,
+      "aspect": "contribuição das mulheres na preservação da linhagem",
+      "source": "ai_enrichment",
+      "anchor_source": "fallback_global",
+      "anchor_meta": {
+        "ai_suggested": 0,
+        "validated": 0,
+        "fallback_used": true
+      }
+    }
+  ],
+  "phase1_discovery": {
+    "processed_at": "2025-09-23T22:37:47.270169Z",
+    "total_themes_processed": 3,
+    "summary": {
+      "total_processed": 3,
+      "decisions": {
+        "alias_existing": 0,
+        "proposed": 3,
+        "error": 0
+      },
+      "success_rate": 1.0
+    },
+    "results": [
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.84942,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_e3a4a749",
+          "decision_hash": "766075a6be20edec",
+          "created_at": "2025-09-23T22:37:47.270169Z"
+        },
+        "proposal_id": "prop:a3c9929c",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:promessa_e_heranca_d31ca0",
+          "label_original": "Promessa e herança",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.83644,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_9210b029",
+          "decision_hash": "ee8748c242fb7ef3",
+          "created_at": "2025-09-23T22:37:48.232467Z"
+        },
+        "proposal_id": "prop:5c51bd8c",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:identidade_do_povo_de_deus_07a786",
+          "label_original": "Identidade do povo de Deus",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.8305,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_83fd4e3b",
+          "decision_hash": "0db0b1878aa2e8ab",
+          "created_at": "2025-09-23T22:37:49.245313Z"
+        },
+        "proposal_id": "prop:4de9887a",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:o_papel_das_mulheres_na_historia_biblica_527cbe",
+          "label_original": "O papel das mulheres na história bíblica",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      }
+    ]
+  },
+  "entity_links": [
+    {
+      "canonical_id": "CON:ahlai",
+      "namespace": "CONCEPT",
+      "role": "primary",
+      "confidence": 0.9,
+      "source": "topic_resolver",
+      "status": "proposed",
+      "provenance": {
+        "topic": "AHLAI",
+        "extracted_from": "AHLAI",
+        "processing_result": {
+          "status": "proposed",
+          "proposal_id": "stub:CON:ahlai_d73c8f4d",
+          "canonical_id": "CON:ahlai",
+          "needs_review": true,
+          "reasons": [
+            "low_confidence",
+            "insufficient_sources"
+          ],
+          "message": "Entity proposal stub:CON:ahlai_d73c8f4d created"
+        }
+      }
+    }
+  ],
+  "see_also": [],
+  "aliases": [],
+  "stats": {
+    "entries_count": 2,
+    "ot_refs": 0,
+    "nt_refs": 0,
+    "total_verses": 0
+  },
+  "definitions": [],
+  "sources": [
+    "NAV"
+  ],
+  "metadata": {
+    "schema_version": "v3.0",
+    "created_at": "2025-12-02T21:53:08.662154+00:00",
+    "merged_from": {
+      "v2": true,
+      "dictionary": false
+    }
+  },
+  "version": "3.0.0",
+  "ai_entities": [
+    {
+      "name": "Ahlai",
+      "type": "PERSON",
+      "canonical_id": null,
+      "context": "Filha de Sheshan e mãe de Zabad"
+    },
+    {
+      "name": "Sheshan",
+      "type": "PERSON",
+      "canonical_id": null,
+      "context": "Pai de Ahlai"
+    },
+    {
+      "name": "Zabad",
+      "type": "PERSON",
+      "canonical_id": null,
+      "context": "Filho de Ahlai"
+    }
+  ],
+  "updated_at": "2025-12-04T00:12:34.797142Z"
+}

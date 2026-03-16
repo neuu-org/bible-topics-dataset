@@ -1,0 +1,489 @@
+{
+  "topic": "ANTIPAS",
+  "slug": "antipas",
+  "type": "both",
+  "reference_groups": [
+    {
+      "name": "A martyr Re 2:13",
+      "references": [
+        "Rev 2:13"
+      ],
+      "sub_groups": []
+    }
+  ],
+  "biblical_references": [],
+  "ai_enrichment": {
+    "summary": "Antipas é mencionado em Apocalipse 2:13 como um mártir que foi fiel ao testemunho de Cristo em Pérgamo, uma cidade conhecida por sua idolatria e perseguição aos cristãos. Sua referência destaca a coragem e a fidelidade dos crentes em face da opressão, servindo como um exemplo de perseverança na fé. A menção de Antipas também ilustra a luta entre o bem e o mal, e a importância de manter a fé em um ambiente hostil. Ele é um símbolo da resistência cristã e da esperança da vida eterna prometida aos que permanecem fiéis.",
+    "outline": [
+      "Identificação de Antipas como mártir em Pérgamo",
+      "Contexto histórico e cultural da cidade de Pérgamo",
+      "A importância do testemunho de Antipas para a comunidade cristã",
+      "A relação entre o martírio e a perseverança na fé"
+    ],
+    "key_concepts": [
+      "Martírio",
+      "Fidelidade",
+      "Testemunho cristão"
+    ],
+    "theological_significance": "A figura de Antipas é teologicamente significativa pois exemplifica a chamada à fidelidade em meio à perseguição. Sua história encoraja os cristãos a permanecerem firmes em sua fé, mesmo diante da morte, refletindo a promessa de Jesus de que aqueles que perseveram até o fim receberão a coroa da vida. O martírio de Antipas também serve como um lembrete da realidade da luta espiritual e da necessidade de coragem na vida cristã.",
+    "model": "gpt-4o-mini",
+    "run_id": "enr_20250923_130556_8e6b74c6",
+    "confidence": 1.0,
+    "generated_at": "2025-09-23T13:05:56.733335"
+  },
+  "ai_themes_normalized": [
+    {
+      "theme_id": null,
+      "proposal_id": "prop:perseveranca_na_fe_052fa3",
+      "label_original": "Perseverança na fé",
+      "source": "ai_enrichment"
+    },
+    {
+      "theme_id": null,
+      "proposal_id": "prop:martirio_cristao_7622f7",
+      "label_original": "Martírio cristão",
+      "source": "ai_enrichment"
+    },
+    {
+      "theme_id": null,
+      "proposal_id": "prop:conflito_entre_fe_e_cultura_c04824",
+      "label_original": "Conflito entre fé e cultura",
+      "source": "ai_enrichment"
+    }
+  ],
+  "phase1_discovery": {
+    "processed_at": "2025-09-23T22:46:12.532307Z",
+    "total_themes_processed": 3,
+    "summary": {
+      "total_processed": 3,
+      "decisions": {
+        "alias_existing": 0,
+        "proposed": 3,
+        "error": 0
+      },
+      "success_rate": 1.0
+    },
+    "results": [
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.83788,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_7960045c",
+          "decision_hash": "3bf5d17f8cdc80c3",
+          "created_at": "2025-09-23T22:46:12.532307Z"
+        },
+        "proposal_id": "prop:3fc90572",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:perseveranca_na_fe_052fa3",
+          "label_original": "Perseverança na fé",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.84522,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_01a96b03",
+          "decision_hash": "a2940042dcbe24ba",
+          "created_at": "2025-09-23T22:46:13.588212Z"
+        },
+        "proposal_id": "prop:175a43bb",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:martirio_cristao_7622f7",
+          "label_original": "Martírio cristão",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.8306,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_a6020992",
+          "decision_hash": "392defd1469c6c84",
+          "created_at": "2025-09-23T22:46:14.732728Z"
+        },
+        "proposal_id": "prop:8d356b53",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:conflito_entre_fe_e_cultura_c04824",
+          "label_original": "Conflito entre fé e cultura",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      }
+    ]
+  },
+  "entity_links": [
+    {
+      "canonical_id": "CON:antipas",
+      "namespace": "CONCEPT",
+      "role": "primary",
+      "confidence": 0.9,
+      "source": "topic_resolver",
+      "status": "proposed",
+      "provenance": {
+        "topic": "ANTIPAS",
+        "extracted_from": "ANTIPAS",
+        "processing_result": {
+          "status": "proposed",
+          "proposal_id": "stub:CON:antipas_c6a7458c",
+          "canonical_id": "CON:antipas",
+          "needs_review": true,
+          "reasons": [
+            "low_confidence",
+            "insufficient_sources"
+          ],
+          "message": "Entity proposal stub:CON:antipas_c6a7458c created"
+        }
+      }
+    }
+  ],
+  "see_also": [],
+  "aliases": [],
+  "stats": {
+    "entries_count": 1,
+    "ot_refs": 0,
+    "nt_refs": 0,
+    "total_verses": 0
+  },
+  "definitions": [
+    {
+      "source": "EAS",
+      "text": "(1.) Herod Antipas, a son of Herod the Great by his Samaritan wife Malthace. He was tetrarch of Galilee and Peraea during the whole period of our Lord’s life on earth (Luke 23:7). He was a frivolous and vain prince, and was chargeable with many infamous crimes (Mark 8:15; Luke 3:19; 13:31, 32). He beheaded John the Baptist (Matt. 14:1-12) at the instigation of Herodias, the wife of his half-brother Herod-Philip, whom he had married. Pilate sent Christ to him when he was at Jerusalem at the Passover (Luke 23:7). He asked some idle questions of him, and after causing him to be mocked, sent him back again to Pilate. The wife of Chuza, his house-steward, was one of our Lord’s disciples (Luke 8:3). (2.) A “faithful martyr” (Rev. 2:13), of whom nothing more is certainly known.",
+      "extracted_refs": [
+        {
+          "book": "Luke",
+          "chapter": 23,
+          "verses": [
+            7
+          ],
+          "verse_count": 1,
+          "testament": "NT",
+          "raw": "Luke 23:7",
+          "source": "EAS"
+        },
+        {
+          "book": "Mark",
+          "chapter": 8,
+          "verses": [
+            15
+          ],
+          "verse_count": 1,
+          "testament": "NT",
+          "raw": "Mark 8:15",
+          "source": "EAS"
+        },
+        {
+          "book": "Luke",
+          "chapter": 3,
+          "verses": [
+            19
+          ],
+          "verse_count": 1,
+          "testament": "NT",
+          "raw": "Luke 3:19",
+          "source": "EAS"
+        },
+        {
+          "book": "Luke",
+          "chapter": 13,
+          "verses": [
+            31,
+            32
+          ],
+          "verse_count": 2,
+          "testament": "NT",
+          "raw": "Luke 13:31, 32",
+          "source": "EAS"
+        },
+        {
+          "book": "Matthew",
+          "chapter": 14,
+          "verses": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "verse_count": 12,
+          "testament": "NT",
+          "raw": "Matthew 14:1-12",
+          "source": "EAS"
+        },
+        {
+          "book": "Luke",
+          "chapter": 8,
+          "verses": [
+            3
+          ],
+          "verse_count": 1,
+          "testament": "NT",
+          "raw": "Luke 8:3",
+          "source": "EAS"
+        },
+        {
+          "book": "Revelation",
+          "chapter": 2,
+          "verses": [
+            13
+          ],
+          "verse_count": 1,
+          "testament": "NT",
+          "raw": "Revelation 2:13",
+          "source": "EAS"
+        }
+      ]
+    },
+    {
+      "source": "SMI",
+      "text": "[Herod] (like the father), martyr at Pergamos, (Revelation 2:13) and according to tradition the bishop of that place. (A.D. before 100.)",
+      "extracted_refs": [
+        {
+          "book": "Revelation",
+          "chapter": 2,
+          "verses": [
+            13
+          ],
+          "verse_count": 1,
+          "testament": "NT",
+          "raw": "Revelation 2:13",
+          "source": "SMI"
+        }
+      ]
+    }
+  ],
+  "dictionary_refs": [
+    {
+      "reference": "Luke 23:7",
+      "original": "Luke 23:7"
+    },
+    {
+      "reference": "Mark 8:15",
+      "original": "Mark 8:15"
+    },
+    {
+      "reference": "Luke 3:19",
+      "original": "Luke 3:19"
+    },
+    {
+      "reference": "Luke 13:31",
+      "original": "Luke 13:31"
+    },
+    {
+      "reference": "Luke 13:32",
+      "original": "Luke 13:32"
+    },
+    {
+      "reference": "Matthew 14:1-12",
+      "original": "Matt. 14:1-12"
+    },
+    {
+      "reference": "Luke 8:3",
+      "original": "Luke 8:3"
+    },
+    {
+      "reference": "Revelation 2:13",
+      "original": "Rev. 2:13"
+    }
+  ],
+  "sources": [
+    "NAV",
+    "EAS",
+    "SMI"
+  ],
+  "metadata": {
+    "schema_version": "v3.0",
+    "created_at": "2025-12-02T21:53:08.668983+00:00",
+    "merged_from": {
+      "v2": true,
+      "dictionary": true
+    }
+  },
+  "version": "3.0.0",
+  "definition_refs": [
+    {
+      "book": "Luke",
+      "chapter": 23,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 23:7",
+      "source": "EAS"
+    },
+    {
+      "book": "Mark",
+      "chapter": 8,
+      "verses": [
+        15
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Mark 8:15",
+      "source": "EAS"
+    },
+    {
+      "book": "Luke",
+      "chapter": 3,
+      "verses": [
+        19
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 3:19",
+      "source": "EAS"
+    },
+    {
+      "book": "Luke",
+      "chapter": 13,
+      "verses": [
+        31,
+        32
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Luke 13:31, 32",
+      "source": "EAS"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 14,
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "verse_count": 12,
+      "testament": "NT",
+      "raw": "Matthew 14:1-12",
+      "source": "EAS"
+    },
+    {
+      "book": "Luke",
+      "chapter": 8,
+      "verses": [
+        3
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 8:3",
+      "source": "EAS"
+    },
+    {
+      "book": "Revelation",
+      "chapter": 2,
+      "verses": [
+        13
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Revelation 2:13",
+      "source": "EAS"
+    }
+  ],
+  "definition_refs_stats": {
+    "total": 19,
+    "ot": 0,
+    "nt": 19,
+    "books": [
+      "Luke",
+      "Mark",
+      "Matthew",
+      "Revelation"
+    ]
+  }
+}

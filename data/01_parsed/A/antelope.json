@@ -1,0 +1,261 @@
+{
+  "topic": "ANTELOPE",
+  "slug": "antelope",
+  "type": "topic",
+  "reference_groups": [
+    {
+      "name": "See DEER",
+      "references": [],
+      "sub_groups": []
+    }
+  ],
+  "biblical_references": [],
+  "ai_enrichment": {
+    "summary": "O termo 'antílope' na Bíblia é frequentemente associado a animais que simbolizam a agilidade e a beleza da criação divina. Embora a palavra 'antílope' não apareça diretamente nas traduções mais comuns, a referência a cervídeos, como veados, é comum e carrega significados teológicos profundos. Esses animais são frequentemente usados como metáforas para a pureza, a inocência e a dependência de Deus, refletindo a relação do ser humano com o Criador. A presença de tais criaturas na natureza serve como um lembrete da majestade de Deus e da harmonia da criação.",
+    "outline": [
+      "A representação de cervídeos na Bíblia e seu simbolismo.",
+      "A relação entre a criação e a dependência de Deus.",
+      "A metáfora do veado como símbolo de pureza e inocência.",
+      "A importância da natureza na revelação de Deus."
+    ],
+    "key_concepts": [
+      "Simbolismo da criação",
+      "Pureza e inocência",
+      "Dependência de Deus"
+    ],
+    "theological_significance": "A presença de cervídeos, como o veado, na Escritura destaca a beleza da criação e a necessidade de confiar em Deus. Esses animais representam a inocência e a pureza que os crentes são chamados a emular. Além disso, a agilidade e a graça dos cervídeos podem ser vistas como um convite para que os cristãos vivam de maneira leve e confiante, seguindo a direção divina em suas vidas.",
+    "model": "gpt-4o-mini",
+    "run_id": "enr_20250923_130510_2cbd4291",
+    "confidence": 1.0,
+    "generated_at": "2025-09-23T13:05:10.072865"
+  },
+  "ai_themes_normalized": [
+    {
+      "theme_id": null,
+      "proposal_id": "prop:a_beleza_da_criacao_4cc690",
+      "label_original": "A beleza da criação",
+      "source": "ai_enrichment"
+    },
+    {
+      "theme_id": null,
+      "proposal_id": "prop:a_inocencia_e_pureza_na_vida_crista_0d02b3",
+      "label_original": "A inocência e pureza na vida cristã",
+      "source": "ai_enrichment"
+    },
+    {
+      "theme_id": null,
+      "proposal_id": "prop:a_dependencia_de_deus_na_natureza_da547b",
+      "label_original": "A dependência de Deus na natureza",
+      "source": "ai_enrichment"
+    }
+  ],
+  "phase1_discovery": {
+    "processed_at": "2025-09-23T22:45:58.252137Z",
+    "total_themes_processed": 3,
+    "summary": {
+      "total_processed": 3,
+      "decisions": {
+        "alias_existing": 0,
+        "proposed": 3,
+        "error": 0
+      },
+      "success_rate": 1.0
+    },
+    "results": [
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.83924,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_2fe4cd15",
+          "decision_hash": "a8593f3f7b410bf3",
+          "created_at": "2025-09-23T22:45:58.252137Z"
+        },
+        "proposal_id": "prop:c96b6eee",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:a_beleza_da_criacao_4cc690",
+          "label_original": "A beleza da criação",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.84786,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_e81ed983",
+          "decision_hash": "48ec004689bd5164",
+          "created_at": "2025-09-23T22:45:59.279785Z"
+        },
+        "proposal_id": "prop:7e88d2da",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:a_inocencia_e_pureza_na_vida_crista_0d02b3",
+          "label_original": "A inocência e pureza na vida cristã",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.8459399999999999,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_5a8bf6fa",
+          "decision_hash": "188176f167ba33c6",
+          "created_at": "2025-09-23T22:46:00.444736Z"
+        },
+        "proposal_id": "prop:fac5f408",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:a_dependencia_de_deus_na_natureza_da547b",
+          "label_original": "A dependência de Deus na natureza",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      }
+    ]
+  },
+  "entity_links": [
+    {
+      "canonical_id": "CON:antelope",
+      "namespace": "CONCEPT",
+      "role": "primary",
+      "confidence": 0.9,
+      "source": "topic_resolver",
+      "status": "proposed",
+      "provenance": {
+        "topic": "ANTELOPE",
+        "extracted_from": "ANTELOPE",
+        "processing_result": {
+          "status": "proposed",
+          "proposal_id": "stub:CON:antelope_12529f93",
+          "canonical_id": "CON:antelope",
+          "needs_review": true,
+          "reasons": [
+            "low_confidence",
+            "insufficient_sources"
+          ],
+          "message": "Entity proposal stub:CON:antelope_12529f93 created"
+        }
+      }
+    },
+    {
+      "canonical_id": "CON:deer",
+      "namespace": "CONCEPT",
+      "role": "secondary",
+      "confidence": 0.7,
+      "source": "topic_resolver",
+      "status": "proposed",
+      "provenance": {
+        "topic": "ANTELOPE",
+        "extracted_from": "DEER",
+        "processing_result": {
+          "status": "proposed",
+          "proposal_id": "stub:CON:deer_ec1acd0a",
+          "canonical_id": "CON:deer",
+          "needs_review": true,
+          "reasons": [
+            "low_confidence",
+            "insufficient_sources"
+          ],
+          "message": "Entity proposal stub:CON:deer_ec1acd0a created"
+        }
+      }
+    }
+  ],
+  "see_also": [
+    "DEER"
+  ],
+  "aliases": [],
+  "stats": {
+    "entries_count": 1,
+    "ot_refs": 0,
+    "nt_refs": 0,
+    "total_verses": 0
+  },
+  "definitions": [],
+  "sources": [
+    "NAV"
+  ],
+  "metadata": {
+    "schema_version": "v3.0",
+    "created_at": "2025-12-02T21:53:08.668941+00:00",
+    "merged_from": {
+      "v2": true,
+      "dictionary": false
+    }
+  },
+  "version": "3.0.0"
+}

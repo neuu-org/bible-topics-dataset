@@ -1,0 +1,354 @@
+{
+  "topic": "ADIEL",
+  "slug": "adiel",
+  "type": "both",
+  "reference_groups": [
+    {
+      "name": "1. A man of the tribe of Simeon 1Ch 4:36",
+      "references": [
+        "1Chr 4:36"
+      ],
+      "sub_groups": []
+    },
+    {
+      "name": "2. A priest 1Ch 9:12",
+      "references": [
+        "1Chr 9:12"
+      ],
+      "sub_groups": []
+    },
+    {
+      "name": "3. Father of Azmaveth 1Ch 27:25",
+      "references": [
+        "1Chr 27:25"
+      ],
+      "sub_groups": []
+    }
+  ],
+  "biblical_references": [],
+  "ai_enrichment": {
+    "summary": "Adiel é uma figura mencionada nas Escrituras, representando diferentes aspectos da vida israelita. Ele é associado à tribo de Simeão, destacando a diversidade das tribos de Israel. Como sacerdote, Adiel também simboliza a importância do serviço religioso e da liderança espiritual no povo de Deus. Além disso, como pai de Azmaveth, ele conecta a linhagem e a herança familiar, enfatizando a continuidade das promessas divinas através das gerações. A presença de Adiel nas genealogias bíblicas reflete a importância da identidade tribal e do papel dos sacerdotes na adoração a Deus.",
+    "outline": [
+      "Adiel como homem da tribo de Simeão",
+      "Adiel como sacerdote",
+      "Adiel como pai de Azmaveth"
+    ],
+    "key_concepts": [
+      "Identidade tribal",
+      "Sacerdócio",
+      "Herança familiar"
+    ],
+    "theological_significance": "A figura de Adiel ilustra a importância da linhagem e do sacerdócio na história da salvação. Ele representa a conexão entre o povo de Israel e suas promessas divinas, mostrando como Deus trabalha através de indivíduos e famílias para cumprir Seus propósitos. Para a fé cristã, isso ressalta a continuidade da obra de Deus através das gerações e a importância do serviço a Ele.",
+    "model": "gpt-4o-mini",
+    "run_id": "enr_20250923_082419_eb85eb73",
+    "confidence": 0.9500000000000002,
+    "generated_at": "2025-09-23T08:24:19.483188"
+  },
+  "ai_themes_normalized": [
+    {
+      "theme_id": null,
+      "proposal_id": "prop:genealogia_de_israel_322dfd",
+      "label_original": "Genealogia de Israel",
+      "source": "ai_enrichment"
+    },
+    {
+      "theme_id": null,
+      "proposal_id": "prop:servico_sacerdotal_4b1d2b",
+      "label_original": "Serviço sacerdotal",
+      "source": "ai_enrichment"
+    },
+    {
+      "theme_id": null,
+      "proposal_id": "prop:promessas_de_deus_d9bc7a",
+      "label_original": "Promessas de Deus",
+      "source": "ai_enrichment"
+    }
+  ],
+  "phase1_discovery": {
+    "processed_at": "2025-09-23T22:32:20.078052Z",
+    "total_themes_processed": 3,
+    "summary": {
+      "total_processed": 3,
+      "decisions": {
+        "alias_existing": 0,
+        "proposed": 3,
+        "error": 0
+      },
+      "success_rate": 1.0
+    },
+    "results": [
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.8367399999999999,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_b0e1ec0a",
+          "decision_hash": "dfcb920b526de611",
+          "created_at": "2025-09-23T22:32:20.078052Z"
+        },
+        "proposal_id": "prop:b49decd2",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:genealogia_de_israel_322dfd",
+          "label_original": "Genealogia de Israel",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.84782,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_312b1232",
+          "decision_hash": "0ab7bf5d0c5ffd18",
+          "created_at": "2025-09-23T22:32:21.208456Z"
+        },
+        "proposal_id": "prop:22a9cbda",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:servico_sacerdotal_4b1d2b",
+          "label_original": "Serviço sacerdotal",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.84448,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_b90596ac",
+          "decision_hash": "29b2109209960ae3",
+          "created_at": "2025-09-23T22:32:22.281665Z"
+        },
+        "proposal_id": "prop:e426ade9",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:promessas_de_deus_d9bc7a",
+          "label_original": "Promessas de Deus",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      }
+    ]
+  },
+  "entity_links": [
+    {
+      "canonical_id": "CON:adiel",
+      "namespace": "CONCEPT",
+      "role": "primary",
+      "confidence": 0.9,
+      "source": "topic_resolver",
+      "status": "proposed",
+      "provenance": {
+        "topic": "ADIEL",
+        "extracted_from": "ADIEL",
+        "processing_result": {
+          "status": "proposed",
+          "proposal_id": "stub:CON:adiel_431b3a67",
+          "canonical_id": "CON:adiel",
+          "needs_review": true,
+          "reasons": [
+            "low_confidence",
+            "insufficient_sources"
+          ],
+          "message": "Entity proposal stub:CON:adiel_431b3a67 created"
+        }
+      }
+    }
+  ],
+  "see_also": [],
+  "aliases": [],
+  "stats": {
+    "entries_count": 3,
+    "ot_refs": 0,
+    "nt_refs": 0,
+    "total_verses": 0
+  },
+  "definitions": [
+    {
+      "source": "EAS",
+      "text": "Ornament of God. (1.) The father of Azmaveth, who was treasurer under David and Solomon (1 Chr. 27:25). (2.) A family head of the tribe of Simeon (1 Chr. 4:36). (3.) A priest (1 Chr. 9:12).",
+      "extracted_refs": [
+        {
+          "book": "1 Chronicles",
+          "chapter": 27,
+          "verses": [
+            25
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "1 Chronicles 27:25",
+          "source": "EAS"
+        },
+        {
+          "book": "1 Chronicles",
+          "chapter": 4,
+          "verses": [
+            36
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "1 Chronicles 4:36",
+          "source": "EAS"
+        },
+        {
+          "book": "1 Chronicles",
+          "chapter": 9,
+          "verses": [
+            12
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "1 Chronicles 9:12",
+          "source": "EAS"
+        }
+      ]
+    },
+    {
+      "source": "SMI",
+      "text": "(ornament of God)."
+    }
+  ],
+  "dictionary_refs": [
+    {
+      "reference": "1 Chronicles 27:25",
+      "original": "1 Chr. 27:25"
+    },
+    {
+      "reference": "1 Chronicles 4:36",
+      "original": "1 Chr. 4:36"
+    },
+    {
+      "reference": "1 Chronicles 9:12",
+      "original": "1 Chr. 9:12"
+    }
+  ],
+  "sources": [
+    "NAV",
+    "EAS",
+    "SMI"
+  ],
+  "metadata": {
+    "schema_version": "v3.0",
+    "created_at": "2025-12-02T21:53:08.661230+00:00",
+    "merged_from": {
+      "v2": true,
+      "dictionary": true
+    }
+  },
+  "version": "3.0.0",
+  "definition_refs": [
+    {
+      "book": "1 Chronicles",
+      "chapter": 27,
+      "verses": [
+        25
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 27:25",
+      "source": "EAS"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 4,
+      "verses": [
+        36
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 4:36",
+      "source": "EAS"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 9,
+      "verses": [
+        12
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 9:12",
+      "source": "EAS"
+    }
+  ],
+  "definition_refs_stats": {
+    "total": 3,
+    "ot": 3,
+    "nt": 0,
+    "books": [
+      "1 Chronicles"
+    ]
+  }
+}

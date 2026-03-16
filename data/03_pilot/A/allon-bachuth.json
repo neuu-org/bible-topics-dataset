@@ -1,0 +1,690 @@
+{
+  "topic": "ALLON-BACHUTH",
+  "slug": "allon-bachuth",
+  "type": "both",
+  "reference_groups": [
+    {
+      "name": "Place where Rebekah was buried Ge 35:8",
+      "references": [
+        "Gen 35:8"
+      ],
+      "sub_groups": []
+    }
+  ],
+  "biblical_references": [],
+  "ai_enrichment": {
+    "summary": "Allon-Bachuth, que significa 'carvalho do pranto', é um local mencionado na Bíblia como o lugar onde Deborah, a ama de Rebeca, foi enterrada. Este carvalho, situado perto de Betel, é significativo não apenas como um marco geográfico, mas também como um símbolo de luto e memória. A raridade de grandes árvores na Palestina antiga fazia com que tais locais se tornassem pontos de referência importantes, e Allon-Bachuth é associado à história de Rebeca e à sua família, refletindo a importância das relações familiares e do luto na cultura israelita.",
+    "outline": [
+      "Allon-Bachuth como local de sepultamento de Deborah, a ama de Rebeca (Gênesis 35:8): Este ponto destaca a importância do luto e da memória na cultura israelita, simbolizando a conexão entre gerações.",
+      "Significado do nome 'Allon-Bachuth' (carvalho do pranto): A etimologia do nome reflete a tristeza associada à morte e à perda, enfatizando a relevância emocional do local.",
+      "Relação com Betel: A proximidade de Allon-Bachuth a Betel, um local sagrado, sugere a importância espiritual e histórica da área, onde eventos significativos da história de Israel ocorreram.",
+      "Cultural Significance of Mourning Practices (Gênesis 35:8; Juízes 4:5)",
+      "Connection Between Landmarks and Identity (Gênesis 35:8; Juízes 4:5)"
+    ],
+    "key_concepts": [
+      "Luto",
+      "Memória",
+      "Relações familiares"
+    ],
+    "theological_significance": "Allon-Bachuth serve como um lembrete da fragilidade da vida e da importância das relações familiares na narrativa bíblica. O local de sepultamento de Deborah destaca a prática do luto e a honra aos que partiram, refletindo a cultura de Israel e sua reverência pelos antepassados. Além disso, a conexão com Betel, um local de adoração, sugere que a memória e o luto estão entrelaçados com a espiritualidade e a identidade do povo de Deus.",
+    "model": "gpt-4o-mini",
+    "run_id": "enr_20251204_003248_e0f584d9",
+    "confidence": 0.9500000000000002,
+    "generated_at": "2025-12-04T00:32:48.881036"
+  },
+  "ai_themes_normalized": [
+    {
+      "theme_id": null,
+      "proposal_id": "prop:grief_and_memory_022408",
+      "label_original": "Luto e Memória na Tradição Israelita",
+      "label_en": "Grief and Memory",
+      "label_normalized": "grief_and_memory",
+      "anchor_verses": [
+        "Gênesis 35:8",
+        "Juízes 4:5"
+      ],
+      "relevance_score": 9,
+      "semantic_keywords": [
+        "grief",
+        "memory",
+        "mourning",
+        "family",
+        "heritage"
+      ],
+      "theological_domain": "anthropology",
+      "parent_theme": null,
+      "aspect": "importância do luto na cultura israelita",
+      "source": "ai_enrichment",
+      "anchor_source": "ai_trusted",
+      "anchor_meta": {
+        "ai_suggested": 2,
+        "validated": 0,
+        "fallback_used": false
+      }
+    },
+    {
+      "theme_id": null,
+      "proposal_id": "prop:spiritual_significan_09c35b",
+      "label_original": "Significado Espiritual de Locais Sagrados",
+      "label_en": "Spiritual Significance of Sacred Places",
+      "label_normalized": "spiritual_significance_of_sacred_places",
+      "anchor_verses": [
+        "Genesis 35:8",
+        "Judges 4:5",
+        "Gen 35:8"
+      ],
+      "relevance_score": 8,
+      "semantic_keywords": [
+        "sacred",
+        "spirituality",
+        "Bethel",
+        "landmarks",
+        "worship"
+      ],
+      "theological_domain": "ecclesiology",
+      "parent_theme": null,
+      "aspect": "relação entre locais e espiritualidade",
+      "source": "ai_enrichment",
+      "anchor_source": "fallback_global",
+      "anchor_meta": {
+        "ai_suggested": 0,
+        "validated": 0,
+        "fallback_used": true
+      }
+    }
+  ],
+  "phase1_discovery": {
+    "processed_at": "2025-09-23T22:39:50.366263Z",
+    "total_themes_processed": 3,
+    "summary": {
+      "total_processed": 3,
+      "decisions": {
+        "alias_existing": 0,
+        "proposed": 3,
+        "error": 0
+      },
+      "success_rate": 1.0
+    },
+    "results": [
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.8483999999999999,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_a25f7b18",
+          "decision_hash": "ddd6027c56349782",
+          "created_at": "2025-09-23T22:39:50.366263Z"
+        },
+        "proposal_id": "prop:d09e65c7",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:luto_e_memoria_na_biblia_d06583",
+          "label_original": "Luto e memória na Bíblia.",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.7966400000000001,
+          "novelty": 0.8,
+          "similarity_to_best_existing": 0.2,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_de4ee912",
+          "decision_hash": "3a6a9df4c697de18",
+          "created_at": "2025-09-23T22:39:51.465797Z"
+        },
+        "proposal_id": "prop:7f646c9c",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:o_papel_das_mulheres_na_historia_da_salvacao_d9d853",
+          "label_original": "O papel das mulheres na história da salvação.",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.83756,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_2d0451e7",
+          "decision_hash": "bb51fb64413b8bf0",
+          "created_at": "2025-09-23T22:39:52.473029Z"
+        },
+        "proposal_id": "prop:2e85a545",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:a_terra_como_um_simbolo_de_heranca_e_identidade_48758c",
+          "label_original": "A terra como um símbolo de herança e identidade.",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      }
+    ]
+  },
+  "entity_links": [
+    {
+      "canonical_id": "CON:allon_bachuth",
+      "namespace": "CONCEPT",
+      "role": "primary",
+      "confidence": 0.9,
+      "source": "topic_resolver",
+      "status": "proposed",
+      "provenance": {
+        "topic": "ALLON-BACHUTH",
+        "extracted_from": "ALLON-BACHUTH",
+        "processing_result": {
+          "status": "proposed",
+          "proposal_id": "stub:CON:allon_bachuth_3d4ab95f",
+          "canonical_id": "CON:allon_bachuth",
+          "needs_review": true,
+          "reasons": [
+            "low_confidence",
+            "insufficient_sources"
+          ],
+          "message": "Entity proposal stub:CON:allon_bachuth_3d4ab95f created"
+        }
+      }
+    }
+  ],
+  "see_also": [],
+  "aliases": [],
+  "stats": {
+    "entries_count": 1,
+    "ot_refs": 0,
+    "nt_refs": 0,
+    "total_verses": 0
+  },
+  "definitions": [
+    {
+      "source": "EAS",
+      "text": "Oak of weeping, a tree near Bethel, at the spot where Deborah, Rebekah’s nurse, was buried (Gen. 35:8). Large trees, from their rarity in the plains of Palestine, were frequently designated as landmarks. This particular tree was probably the same as the “palm tree of Deborah” (Judg. 4:5).",
+      "extracted_refs": [
+        {
+          "book": "Genesis",
+          "chapter": 35,
+          "verses": [
+            8
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "Genesis 35:8",
+          "source": "EAS"
+        },
+        {
+          "book": "Judges",
+          "chapter": 4,
+          "verses": [
+            5
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "Judges 4:5",
+          "source": "EAS"
+        }
+      ]
+    }
+  ],
+  "dictionary_refs": [
+    {
+      "reference": "Genesis 35:8",
+      "original": "Gen. 35:8"
+    },
+    {
+      "reference": "Judges 4:5",
+      "original": "Judg. 4:5"
+    }
+  ],
+  "sources": [
+    "NAV",
+    "EAS"
+  ],
+  "metadata": {
+    "schema_version": "v3.0",
+    "created_at": "2025-12-02T21:53:08.662574+00:00",
+    "merged_from": {
+      "v2": true,
+      "dictionary": true
+    }
+  },
+  "version": "3.0.0",
+  "definition_refs": [
+    {
+      "book": "Genesis",
+      "chapter": 35,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 35:8",
+      "source": "EAS"
+    },
+    {
+      "book": "Judges",
+      "chapter": 4,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Judges 4:5",
+      "source": "EAS"
+    }
+  ],
+  "definition_refs_stats": {
+    "total": 2,
+    "ot": 2,
+    "nt": 0,
+    "books": [
+      "Genesis",
+      "Judges"
+    ]
+  },
+  "cross_reference_network": {
+    "Genesis 35:8": [
+      {
+        "to_verse": "GEN.24.59",
+        "score": 7,
+        "votes": 5,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "JDG.4.5",
+        "score": 6,
+        "votes": 4,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "1SA.31.13",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "GEN.28.17",
+        "score": 4,
+        "votes": 3,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "JDG.2.1",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "JDG.2.5",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "JOS.24.26",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "LUK.7.2",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "1SA.10.3",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "1CH.10.12",
+        "score": 1,
+        "votes": 0,
+        "strength": "weak"
+      }
+    ],
+    "Judges 4:5": [
+      {
+        "to_verse": "GEN.35.8",
+        "score": 6,
+        "votes": 4,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "1SA.1.1",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "1SA.1.19",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "1SA.22.6",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "1SA.25.1",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "1SA.6.16",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "2SA.15.2",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "DEU.17.8",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "EXO.18.13",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "EXO.18.16",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "EXO.18.19",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "EXO.18.26",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "JDG.2.16",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "JDG.5.14",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "JER.31.15",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "JOS.16.2",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "JOS.18.22",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "JOS.18.25",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "1SA.6.17",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "2SA.15.3",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      }
+    ]
+  },
+  "cross_ref_stats": {
+    "source_verses": 2,
+    "verses_with_crossrefs": 2,
+    "total_crossrefs": 30,
+    "unique_target_verses": 30,
+    "strong_refs": 3,
+    "coverage": 100.0
+  },
+  "connected_topics": [
+    {
+      "topic": "COURTS OF JUSTICE",
+      "shared_refs": 75,
+      "strength": "strong"
+    },
+    {
+      "topic": "DESERT, JOURNEY OF ISRAEL THROUGH THE",
+      "shared_refs": 63,
+      "strength": "strong"
+    },
+    {
+      "topic": "JUDGE",
+      "shared_refs": 48,
+      "strength": "strong"
+    },
+    {
+      "topic": "MAGISTRATES",
+      "shared_refs": 46,
+      "strength": "strong"
+    },
+    {
+      "topic": "BURIAL",
+      "shared_refs": 43,
+      "strength": "strong"
+    },
+    {
+      "topic": "PHILISTINES",
+      "shared_refs": 41,
+      "strength": "strong"
+    },
+    {
+      "topic": "JUSTICE",
+      "shared_refs": 39,
+      "strength": "strong"
+    },
+    {
+      "topic": "CHILDREN",
+      "shared_refs": 38,
+      "strength": "strong"
+    },
+    {
+      "topic": "SERVANTS",
+      "shared_refs": 38,
+      "strength": "strong"
+    },
+    {
+      "topic": "APPEAL",
+      "shared_refs": 38,
+      "strength": "strong"
+    },
+    {
+      "topic": "TREES",
+      "shared_refs": 33,
+      "strength": "strong"
+    },
+    {
+      "topic": "MURDER",
+      "shared_refs": 31,
+      "strength": "strong"
+    },
+    {
+      "topic": "WOMAN",
+      "shared_refs": 24,
+      "strength": "strong"
+    },
+    {
+      "topic": "HOMICIDE",
+      "shared_refs": 24,
+      "strength": "strong"
+    },
+    {
+      "topic": "TENTS",
+      "shared_refs": 21,
+      "strength": "strong"
+    },
+    {
+      "topic": "KINGS",
+      "shared_refs": 21,
+      "strength": "strong"
+    },
+    {
+      "topic": "BAAL-TAMAR",
+      "shared_refs": 20,
+      "strength": "strong"
+    },
+    {
+      "topic": "KENITES, THE",
+      "shared_refs": 20,
+      "strength": "strong"
+    },
+    {
+      "topic": "MEGIDDO",
+      "shared_refs": 20,
+      "strength": "strong"
+    },
+    {
+      "topic": "PALM TREE, THE",
+      "shared_refs": 20,
+      "strength": "strong"
+    }
+  ],
+  "ai_entities": [
+    {
+      "name": "Deborah",
+      "type": "PERSON",
+      "canonical_id": null,
+      "context": "ama de Rebeca, enterrada em Allon-Bachuth"
+    },
+    {
+      "name": "Rebeca",
+      "type": "PERSON",
+      "canonical_id": null,
+      "context": "mãe de Jacó e Esaú, associada a Deborah"
+    },
+    {
+      "name": "Betel",
+      "type": "PLACE",
+      "canonical_id": null,
+      "context": "local próximo a Allon-Bachuth, importante na história de Israel"
+    }
+  ],
+  "ai_discovered_aspects": [
+    {
+      "label": "Cultural Significance of Mourning Practices",
+      "references": [
+        "Gênesis 35:8",
+        "Juízes 4:5"
+      ],
+      "rationale": "A prática do luto em Allon-Bachuth reflete a importância cultural e social do luto na sociedade israelita, que valoriza a memória dos antepassados.",
+      "source": "ai_discovery"
+    },
+    {
+      "label": "Connection Between Landmarks and Identity",
+      "references": [
+        "Gênesis 35:8",
+        "Juízes 4:5"
+      ],
+      "rationale": "Allon-Bachuth como um marco geográfico destaca como os locais físicos estão entrelaçados com a identidade e a história do povo de Israel.",
+      "source": "ai_discovery"
+    }
+  ],
+  "updated_at": "2025-12-04T00:32:48.883320Z"
+}

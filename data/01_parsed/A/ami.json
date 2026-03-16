@@ -1,0 +1,336 @@
+{
+  "topic": "AMI",
+  "slug": "ami",
+  "type": "both",
+  "reference_groups": [
+    {
+      "name": "See AMON",
+      "references": [],
+      "sub_groups": []
+    }
+  ],
+  "biblical_references": [],
+  "ai_enrichment": {
+    "summary": "Amon é uma divindade egípcia associada à criação e à fertilidade, frequentemente mencionada nas Escrituras em contextos que refletem a idolatria e a influência cultural do Egito sobre Israel. A presença de Amon na narrativa bíblica serve como um alerta contra a adoração de deuses estrangeiros e a corrupção espiritual que isso traz ao povo de Deus. Amon, como símbolo de poder e fertilidade, contrasta com a adoração ao Deus de Israel, que é o verdadeiro Criador e Sustentador de todas as coisas.",
+    "outline": [
+      "Amon como divindade egípcia e suas características",
+      "A influência de Amon na cultura e religião de Israel",
+      "A condenação da idolatria em relação a Amon nas Escrituras",
+      "A relação entre Amon e a teologia da criação"
+    ],
+    "key_concepts": [
+      "Idolatria",
+      "Fertilidade",
+      "Criação"
+    ],
+    "theological_significance": "A análise de Amon na Bíblia destaca a luta contínua entre a adoração ao Deus verdadeiro e a tentação de seguir deuses falsos. Este tema é relevante para a fé cristã, pois nos lembra da necessidade de permanecer firmes na adoração a Deus e evitar as influências culturais que podem nos desviar de nossa devoção. Amon representa não apenas um desafio histórico, mas também um chamado à pureza espiritual e à fidelidade a Deus.",
+    "model": "gpt-4o-mini",
+    "run_id": "enr_20250923_125122_36086ac6",
+    "confidence": 1.0,
+    "generated_at": "2025-09-23T12:51:22.429129"
+  },
+  "ai_themes_normalized": [
+    {
+      "theme_id": null,
+      "proposal_id": "prop:adoracao_e_idolatria_c180a4",
+      "label_original": "Adoração e idolatria",
+      "source": "ai_enrichment"
+    },
+    {
+      "theme_id": null,
+      "proposal_id": "prop:fidelidade_a_deus_60393b",
+      "label_original": "Fidelidade a Deus",
+      "source": "ai_enrichment"
+    },
+    {
+      "theme_id": null,
+      "proposal_id": "prop:influencia_cultural_71235e",
+      "label_original": "Influência cultural",
+      "source": "ai_enrichment"
+    }
+  ],
+  "phase1_discovery": {
+    "processed_at": "2025-09-23T22:41:59.141925Z",
+    "total_themes_processed": 3,
+    "summary": {
+      "total_processed": 3,
+      "decisions": {
+        "alias_existing": 0,
+        "proposed": 3,
+        "error": 0
+      },
+      "success_rate": 1.0
+    },
+    "results": [
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "low_novelty",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.7452,
+          "novelty": 0.5,
+          "similarity_to_best_existing": 0.5,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_fd606708",
+          "decision_hash": "c9fc46485b0dbc24",
+          "created_at": "2025-09-23T22:41:59.141925Z"
+        },
+        "proposal_id": "prop:79909d8a",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:adoracao_e_idolatria_c180a4",
+          "label_original": "Adoração e idolatria",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "low_novelty",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.7717999999999999,
+          "novelty": 0.6666666666666667,
+          "similarity_to_best_existing": 0.3333333333333333,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_3db29f5e",
+          "decision_hash": "1ee426c9a4a04c0d",
+          "created_at": "2025-09-23T22:42:00.398928Z"
+        },
+        "proposal_id": "prop:0205f9d8",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:fidelidade_a_deus_60393b",
+          "label_original": "Fidelidade a Deus",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.84342,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_a7faeaef",
+          "decision_hash": "bfb29cc0203a21bf",
+          "created_at": "2025-09-23T22:42:01.559586Z"
+        },
+        "proposal_id": "prop:9df566ae",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:influencia_cultural_71235e",
+          "label_original": "Influência cultural",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      }
+    ]
+  },
+  "entity_links": [
+    {
+      "canonical_id": "CON:ami",
+      "namespace": "CONCEPT",
+      "role": "primary",
+      "confidence": 0.9,
+      "source": "topic_resolver",
+      "status": "proposed",
+      "provenance": {
+        "topic": "AMI",
+        "extracted_from": "AMI",
+        "processing_result": {
+          "status": "proposed",
+          "proposal_id": "stub:CON:ami_00408f5f",
+          "canonical_id": "CON:ami",
+          "needs_review": true,
+          "reasons": [
+            "low_confidence",
+            "insufficient_sources"
+          ],
+          "message": "Entity proposal stub:CON:ami_00408f5f created"
+        }
+      }
+    },
+    {
+      "canonical_id": "CON:amon",
+      "namespace": "CONCEPT",
+      "role": "secondary",
+      "confidence": 0.7,
+      "source": "topic_resolver",
+      "status": "proposed",
+      "provenance": {
+        "topic": "AMI",
+        "extracted_from": "AMON",
+        "processing_result": {
+          "status": "proposed",
+          "proposal_id": "stub:CON:amon_a0a5a925",
+          "canonical_id": "CON:amon",
+          "needs_review": true,
+          "reasons": [
+            "low_confidence",
+            "insufficient_sources"
+          ],
+          "message": "Entity proposal stub:CON:amon_a0a5a925 created"
+        }
+      }
+    }
+  ],
+  "see_also": [
+    "AMON"
+  ],
+  "aliases": [],
+  "stats": {
+    "entries_count": 1,
+    "ot_refs": 0,
+    "nt_refs": 0,
+    "total_verses": 0
+  },
+  "definitions": [
+    {
+      "source": "SMI",
+      "text": "(builder), one of Solomon’s servants, (Ezra 2:57) called Amon, Or Amen, Amon in (Nehemiah 7:59)",
+      "extracted_refs": [
+        {
+          "book": "Ezra",
+          "chapter": 2,
+          "verses": [
+            57
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "Ezra 2:57",
+          "source": "SMI"
+        },
+        {
+          "book": "Nehemiah",
+          "chapter": 7,
+          "verses": [
+            59
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "Nehemiah 7:59",
+          "source": "SMI"
+        }
+      ]
+    }
+  ],
+  "dictionary_refs": [
+    {
+      "reference": "Ezra 2:57",
+      "original": "Ezra 2:57"
+    },
+    {
+      "reference": "Nehemiah 7:59",
+      "original": "Nehemiah 7:59"
+    }
+  ],
+  "sources": [
+    "NAV",
+    "SMI"
+  ],
+  "metadata": {
+    "schema_version": "v3.0",
+    "created_at": "2025-12-02T21:53:08.662983+00:00",
+    "merged_from": {
+      "v2": true,
+      "dictionary": true
+    }
+  },
+  "version": "3.0.0",
+  "definition_refs": [
+    {
+      "book": "Ezra",
+      "chapter": 2,
+      "verses": [
+        57
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezra 2:57",
+      "source": "SMI"
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 7,
+      "verses": [
+        59
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Nehemiah 7:59",
+      "source": "SMI"
+    }
+  ],
+  "definition_refs_stats": {
+    "total": 2,
+    "ot": 2,
+    "nt": 0,
+    "books": [
+      "Ezra",
+      "Nehemiah"
+    ]
+  }
+}

@@ -1,0 +1,284 @@
+{
+  "topic": "ARCHEVITES",
+  "slug": "archevites",
+  "type": "both",
+  "reference_groups": [
+    {
+      "name": "Inhabitants of Samaria Ezr 4:9",
+      "references": [
+        "Ezra 4:9"
+      ],
+      "sub_groups": []
+    }
+  ],
+  "biblical_references": [],
+  "ai_enrichment": {
+    "summary": "Os Archevites são mencionados em Esdras 4:9 como um dos grupos de habitantes de Samaria que se opuseram à reconstrução do templo em Jerusalém. Este termo é significativo porque reflete a complexidade étnica e religiosa da região durante o período pós-exílio, onde diferentes povos e culturas interagiam, muitas vezes em conflito. A presença dos Archevites ilustra a resistência que os judeus enfrentaram ao tentar restaurar sua identidade e adoração a Deus, destacando a importância da unidade e da perseverança na fé.",
+    "outline": [
+      "Identificação dos Archevites como um grupo étnico em Samaria.",
+      "O papel dos Archevites na oposição à reconstrução do templo.",
+      "A interação entre os judeus e os povos vizinhos na época pós-exílica.",
+      "A relevância histórica e teológica da resistência à adoração a Deus."
+    ],
+    "key_concepts": [
+      "Identidade étnica",
+      "Oposição à adoração",
+      "Reconstrução do templo"
+    ],
+    "theological_significance": "A menção dos Archevites em Esdras 4:9 serve como um lembrete da luta contínua entre a fidelidade a Deus e as pressões externas. Para os cristãos, isso enfatiza a importância de permanecer firme na fé, mesmo diante da oposição, e a necessidade de buscar a unidade entre os crentes para a realização do propósito divino.",
+    "model": "gpt-4o-mini",
+    "run_id": "enr_20250923_131600_8d565236",
+    "confidence": 1.0,
+    "generated_at": "2025-09-23T13:16:00.391770"
+  },
+  "ai_themes_normalized": [
+    {
+      "theme_id": null,
+      "proposal_id": "prop:resistencia_a_fe_d89335",
+      "label_original": "Resistência à fé",
+      "source": "ai_enrichment"
+    },
+    {
+      "theme_id": null,
+      "proposal_id": "prop:reconstrucao_e_restauracao_05cd77",
+      "label_original": "Reconstrução e restauração",
+      "source": "ai_enrichment"
+    },
+    {
+      "theme_id": null,
+      "proposal_id": "prop:identidade_e_pertenca_c9ab38",
+      "label_original": "Identidade e pertença",
+      "source": "ai_enrichment"
+    }
+  ],
+  "phase1_discovery": {
+    "processed_at": "2025-09-23T22:49:08.809308Z",
+    "total_themes_processed": 3,
+    "summary": {
+      "total_processed": 3,
+      "decisions": {
+        "alias_existing": 0,
+        "proposed": 3,
+        "error": 0
+      },
+      "success_rate": 1.0
+    },
+    "results": [
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.84334,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_67c27d90",
+          "decision_hash": "81e86dbd7d84a258",
+          "created_at": "2025-09-23T22:49:08.809308Z"
+        },
+        "proposal_id": "prop:312f4a46",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:resistencia_a_fe_d89335",
+          "label_original": "Resistência à fé",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.8435199999999999,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_bb4ac7a7",
+          "decision_hash": "e4f077fcf643cfb5",
+          "created_at": "2025-09-23T22:49:09.907872Z"
+        },
+        "proposal_id": "prop:c46435e2",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:reconstrucao_e_restauracao_05cd77",
+          "label_original": "Reconstrução e restauração",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.84158,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_fe2636fd",
+          "decision_hash": "165005032a92470a",
+          "created_at": "2025-09-23T22:49:10.802735Z"
+        },
+        "proposal_id": "prop:0f9f281f",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:identidade_e_pertenca_c9ab38",
+          "label_original": "Identidade e pertença",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      }
+    ]
+  },
+  "entity_links": [
+    {
+      "canonical_id": "CON:archevites",
+      "namespace": "CONCEPT",
+      "role": "primary",
+      "confidence": 0.9,
+      "source": "topic_resolver",
+      "status": "proposed",
+      "provenance": {
+        "topic": "ARCHEVITES",
+        "extracted_from": "ARCHEVITES",
+        "processing_result": {
+          "status": "proposed",
+          "proposal_id": "stub:CON:archevites_dce704e1",
+          "canonical_id": "CON:archevites",
+          "needs_review": true,
+          "reasons": [
+            "low_confidence",
+            "insufficient_sources"
+          ],
+          "message": "Entity proposal stub:CON:archevites_dce704e1 created"
+        }
+      }
+    }
+  ],
+  "see_also": [],
+  "aliases": [],
+  "stats": {
+    "entries_count": 1,
+    "ot_refs": 0,
+    "nt_refs": 0,
+    "total_verses": 0
+  },
+  "definitions": [
+    {
+      "source": "SMI",
+      "text": "perhaps the inhabitants of Erech, some of whom had been placed as colonists in Samaria. (Ezra 4:9)",
+      "extracted_refs": [
+        {
+          "book": "Ezra",
+          "chapter": 4,
+          "verses": [
+            9
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "Ezra 4:9",
+          "source": "SMI"
+        }
+      ]
+    }
+  ],
+  "dictionary_refs": [
+    {
+      "reference": "Ezra 4:9",
+      "original": "Ezra 4:9"
+    }
+  ],
+  "sources": [
+    "NAV",
+    "SMI"
+  ],
+  "metadata": {
+    "schema_version": "v3.0",
+    "created_at": "2025-12-02T21:53:08.669531+00:00",
+    "merged_from": {
+      "v2": true,
+      "dictionary": true
+    }
+  },
+  "version": "3.0.0",
+  "definition_refs": [
+    {
+      "book": "Ezra",
+      "chapter": 4,
+      "verses": [
+        9
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezra 4:9",
+      "source": "SMI"
+    }
+  ],
+  "definition_refs_stats": {
+    "total": 1,
+    "ot": 1,
+    "nt": 0,
+    "books": [
+      "Ezra"
+    ]
+  }
+}

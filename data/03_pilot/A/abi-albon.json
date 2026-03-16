@@ -1,0 +1,620 @@
+{
+  "topic": "ABI-ALBON",
+  "slug": "abi-albon",
+  "type": "both",
+  "reference_groups": [
+    {
+      "name": "Also called ABIEL",
+      "references": [],
+      "sub_groups": []
+    },
+    {
+      "name": "One of David’s heroes 2Sa 23:31; 1Ch 11:32",
+      "references": [
+        "2Sam 23:31",
+        "1Chr 11:32"
+      ],
+      "sub_groups": []
+    }
+  ],
+  "biblical_references": [
+    {
+      "book": "1 Chronicles",
+      "book_abbrev": "1ch",
+      "chapter": 11,
+      "testament": "OT",
+      "verses": [
+        32
+      ],
+      "verse_count": 1
+    }
+  ],
+  "ai_enrichment": {
+    "summary": "Abi-Albon, também conhecido como Abiel, é mencionado como um dos valentes guerreiros de Davi, destacado entre os trinta homens poderosos que formavam sua guarda pessoal. Seu nome, que significa 'pai da força', reflete a bravura e a coragem que caracterizavam esses guerreiros. As referências a Abi-Albon em 2 Samuel 23:31 e 1 Crônicas 11:32 ressaltam sua importância no contexto militar de Israel durante o reinado de Davi, simbolizando a lealdade e a força dos homens que serviram ao rei.",
+    "outline": [
+      "Identidade de Abi-Albon: também conhecido como Abiel, um dos valentes guerreiros de Davi (2 Samuel 23:31; 1 Crônicas 11:32).",
+      "Significado do nome: 'pai da força', que reflete a bravura e a coragem dos guerreiros que serviram a Davi.",
+      "O papel de Abi-Albon na guarda pessoal de Davi: um dos trinta homens poderosos, simbolizando a lealdade e a força militar de Israel.",
+      "Conexões com outros guerreiros: comparação com outros valentes como Benaia e Jashobeam, que também foram destacados por suas proezas."
+    ],
+    "key_concepts": [
+      "Valentia",
+      "Lealdade",
+      "Força militar"
+    ],
+    "theological_significance": "A figura de Abi-Albon representa a lealdade e a bravura que são valorizadas na narrativa bíblica, especialmente no contexto do reinado de Davi. Ele exemplifica a importância de ter líderes e guerreiros fiéis que defendem a nação e o rei, refletindo a ideia de que a força e a coragem são virtudes que Deus valoriza em seus servos.",
+    "model": "gpt-4o-mini",
+    "run_id": "enr_20251203_215927_1f118063",
+    "confidence": 1.0,
+    "generated_at": "2025-12-03T21:59:27.328477"
+  },
+  "ai_themes_normalized": [
+    {
+      "theme_id": null,
+      "proposal_id": "prop:valor_and_courage_in_04df5d",
+      "label_original": "Valentia e coragem em serviço",
+      "label_en": "Valor and Courage in Service",
+      "label_normalized": "valor_and_courage_in_service",
+      "anchor_verses": [
+        "2 Samuel 23:31",
+        "1 Crônicas 11:32"
+      ],
+      "relevance_score": 9,
+      "semantic_keywords": [
+        "valor",
+        "coragem",
+        "serviço",
+        "guerreiro",
+        "Davi"
+      ],
+      "theological_domain": "ethics",
+      "parent_theme": null,
+      "aspect": "A importância da bravura no serviço a Deus e ao rei",
+      "source": "ai_enrichment",
+      "anchor_source": "ai_trusted",
+      "anchor_meta": {
+        "ai_suggested": 2,
+        "validated": 0,
+        "fallback_used": false
+      }
+    },
+    {
+      "theme_id": null,
+      "proposal_id": "prop:loyalty_of_david's_w_0d987b",
+      "label_original": "Lealdade dos guerreiros de Davi",
+      "label_en": "Loyalty of David's Warriors",
+      "label_normalized": "loyalty_of_david's_warriors",
+      "anchor_verses": [
+        "2 Samuel 23:31",
+        "1 Chronicles 11:32"
+      ],
+      "relevance_score": 8,
+      "semantic_keywords": [
+        "lealdade",
+        "guerreiros",
+        "Davi",
+        "exército",
+        "Israel"
+      ],
+      "theological_domain": "ecclesiology",
+      "parent_theme": null,
+      "aspect": "A lealdade dos homens que serviram a Davi como um reflexo da lealdade a Deus",
+      "source": "ai_enrichment",
+      "anchor_source": "fallback_global",
+      "anchor_meta": {
+        "ai_suggested": 0,
+        "validated": 0,
+        "fallback_used": true,
+        "deduplicated": 2
+      }
+    }
+  ],
+  "phase1_discovery": {
+    "processed_at": "2025-09-23T23:14:54.817792Z",
+    "total_themes_processed": 3,
+    "summary": {
+      "total_processed": 3,
+      "decisions": {
+        "alias_existing": 0,
+        "proposed": 3,
+        "error": 0
+      },
+      "success_rate": 1.0
+    },
+    "results": [
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.8395199999999999,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_40e0d334",
+          "decision_hash": "e52113a6d507b85c",
+          "created_at": "2025-09-23T23:14:54.817792Z"
+        },
+        "proposal_id": "prop:1883512b",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:heroismo_na_biblia_14c56d",
+          "label_original": "Heroísmo na Bíblia",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.841,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_17417a08",
+          "decision_hash": "cee92f00fb84db0a",
+          "created_at": "2025-09-23T23:14:55.869316Z"
+        },
+        "proposal_id": "prop:2d3db455",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:lealdade_a_deus_afcc78",
+          "label_original": "Lealdade a Deus",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.8372999999999999,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_db9836d0",
+          "decision_hash": "9b2d5d37d78698a4",
+          "created_at": "2025-09-23T23:14:57.003030Z"
+        },
+        "proposal_id": "prop:8a8be0ad",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:servico_e_sacrificio_80c87d",
+          "label_original": "Serviço e sacrifício",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      }
+    ]
+  },
+  "entity_links": [
+    {
+      "canonical_id": "CON:abi_albon",
+      "namespace": "CONCEPT",
+      "role": "primary",
+      "confidence": 0.9,
+      "source": "topic_resolver",
+      "status": "proposed",
+      "provenance": {
+        "topic": "ABI-ALBON",
+        "extracted_from": "ABI-ALBON",
+        "processing_result": {
+          "status": "proposed",
+          "proposal_id": "stub:CON:abi_albon_0d74e8bd",
+          "canonical_id": "CON:abi_albon",
+          "needs_review": true,
+          "reasons": [
+            "low_confidence",
+            "insufficient_sources"
+          ],
+          "message": "Entity proposal stub:CON:abi_albon_0d74e8bd created"
+        }
+      }
+    }
+  ],
+  "see_also": [],
+  "aliases": [],
+  "stats": {
+    "entries_count": 2,
+    "ot_refs": 1,
+    "nt_refs": 0,
+    "total_verses": 1
+  },
+  "definitions": [
+    {
+      "source": "EAS",
+      "text": "Father of strength; i.e., “valiant”, one of David’s body-guard of thirty mighty men (2 Sam. 23:31); called also Abiel (1 Chr. 11:32).",
+      "extracted_refs": [
+        {
+          "book": "2 Samuel",
+          "chapter": 23,
+          "verses": [
+            31
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "2 Samuel 23:31",
+          "source": "EAS"
+        },
+        {
+          "book": "1 Chronicles",
+          "chapter": 11,
+          "verses": [
+            32
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "1 Chronicles 11:32",
+          "source": "EAS"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "NAV",
+    "EAS"
+  ],
+  "metadata": {
+    "schema_version": "v3.0",
+    "created_at": "2025-12-02T21:53:08.659656+00:00",
+    "merged_from": {
+      "v2": true,
+      "dictionary": true
+    }
+  },
+  "version": "3.0.0",
+  "definition_refs": [
+    {
+      "book": "2 Samuel",
+      "chapter": 23,
+      "verses": [
+        31
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Samuel 23:31",
+      "source": "EAS"
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 11,
+      "verses": [
+        32
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 11:32",
+      "source": "EAS"
+    }
+  ],
+  "definition_refs_stats": {
+    "total": 2,
+    "ot": 2,
+    "nt": 0,
+    "books": [
+      "1 Chronicles",
+      "2 Samuel"
+    ]
+  },
+  "cross_reference_network": {
+    "1 Chronicles 11:32": [
+      {
+        "to_verse": "1CH.28.1",
+        "score": 5,
+        "votes": 4,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "2SA.23.30",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "2SA.23.31",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "1CH.19.8",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "1KI.1.8",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "2SA.17.8",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "2SA.23.8",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      }
+    ],
+    "2 Samuel 23:31": [
+      {
+        "to_verse": "1KI.1.8",
+        "score": 5,
+        "votes": 4,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "2SA.3.16",
+        "score": 5,
+        "votes": 3,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "1CH.11.32",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "1CH.11.10",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "1CH.11.15",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "1CH.11.20",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "1CH.11.33",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "1CH.19.8",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "2SA.10.7",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "1CH.12.3",
+        "score": 1,
+        "votes": 0,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "1CH.27.25",
+        "score": 1,
+        "votes": 0,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "2SA.16.5",
+        "score": 1,
+        "votes": 0,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "JOS.18.22",
+        "score": 1,
+        "votes": 0,
+        "strength": "weak"
+      }
+    ]
+  },
+  "cross_ref_stats": {
+    "source_verses": 2,
+    "verses_with_crossrefs": 2,
+    "total_crossrefs": 20,
+    "unique_target_verses": 18,
+    "strong_refs": 3,
+    "coverage": 100.0
+  },
+  "connected_topics": [
+    {
+      "topic": "GIANTS",
+      "shared_refs": 363,
+      "strength": "strong"
+    },
+    {
+      "topic": "KINGS",
+      "shared_refs": 130,
+      "strength": "strong"
+    },
+    {
+      "topic": "ARMIES",
+      "shared_refs": 37,
+      "strength": "strong"
+    },
+    {
+      "topic": "PHILISTINES",
+      "shared_refs": 36,
+      "strength": "strong"
+    },
+    {
+      "topic": "BENAIAH",
+      "shared_refs": 32,
+      "strength": "strong"
+    },
+    {
+      "topic": "JASHOBEAM",
+      "shared_refs": 31,
+      "strength": "strong"
+    },
+    {
+      "topic": "IRA",
+      "shared_refs": 28,
+      "strength": "strong"
+    },
+    {
+      "topic": "ARMIES OF ISRAEL, THE",
+      "shared_refs": 24,
+      "strength": "strong"
+    },
+    {
+      "topic": "BAHURIM",
+      "shared_refs": 24,
+      "strength": "strong"
+    },
+    {
+      "topic": "DAVID",
+      "shared_refs": 24,
+      "strength": "strong"
+    },
+    {
+      "topic": "BETHLEHEM",
+      "shared_refs": 23,
+      "strength": "strong"
+    },
+    {
+      "topic": "AZMAVETH",
+      "shared_refs": 22,
+      "strength": "strong"
+    },
+    {
+      "topic": "JOAB",
+      "shared_refs": 21,
+      "strength": "strong"
+    },
+    {
+      "topic": "ABIEL",
+      "shared_refs": 20,
+      "strength": "strong"
+    },
+    {
+      "topic": "Ahohite",
+      "shared_refs": 20,
+      "strength": "strong"
+    },
+    {
+      "topic": "Arbathite",
+      "shared_refs": 20,
+      "strength": "strong"
+    },
+    {
+      "topic": "PIRATHON",
+      "shared_refs": 20,
+      "strength": "strong"
+    },
+    {
+      "topic": "DODO",
+      "shared_refs": 19,
+      "strength": "strong"
+    },
+    {
+      "topic": "Month",
+      "shared_refs": 19,
+      "strength": "strong"
+    },
+    {
+      "topic": "CAPTAIN",
+      "shared_refs": 18,
+      "strength": "strong"
+    }
+  ],
+  "ai_entities": [
+    {
+      "name": "Abi-Albon",
+      "type": "PERSON",
+      "canonical_id": null,
+      "context": "Um dos valentes guerreiros de Davi"
+    },
+    {
+      "name": "Davi",
+      "type": "PERSON",
+      "canonical_id": null,
+      "context": "Rei de Israel e líder dos guerreiros"
+    }
+  ],
+  "ai_relationships": [
+    {
+      "target": "Davi",
+      "type": "MEMBER_OF",
+      "description": "Abi-Albon era um membro da guarda pessoal de Davi, servindo como um de seus valentes guerreiros.",
+      "target_type": "PERSON",
+      "target_canonical_id": null,
+      "source": "ai_enrichment"
+    }
+  ],
+  "updated_at": "2025-12-03T21:59:27.330560Z"
+}

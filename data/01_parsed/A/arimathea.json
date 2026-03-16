@@ -1,0 +1,463 @@
+{
+  "topic": "ARIMATHEA",
+  "slug": "arimathea",
+  "type": "both",
+  "reference_groups": [
+    {
+      "name": "Also called RAMAH",
+      "references": [],
+      "sub_groups": []
+    },
+    {
+      "name": "A town five miles north of Jerusalem Mt 27:57; Mr 15:43; Lu 23:51; Joh 19:38",
+      "references": [
+        "Matt 27:57",
+        "Mark 15:43",
+        "Luke 23:51",
+        "John 19:38"
+      ],
+      "sub_groups": []
+    }
+  ],
+  "biblical_references": [
+    {
+      "book": "Mark",
+      "book_abbrev": "mrk",
+      "chapter": 15,
+      "testament": "NT",
+      "verses": [
+        43
+      ],
+      "verse_count": 1
+    },
+    {
+      "book": "Luke",
+      "book_abbrev": "luk",
+      "chapter": 23,
+      "testament": "NT",
+      "verses": [
+        51
+      ],
+      "verse_count": 1
+    },
+    {
+      "book": "John",
+      "book_abbrev": "jhn",
+      "chapter": 19,
+      "testament": "NT",
+      "verses": [
+        38
+      ],
+      "verse_count": 1
+    }
+  ],
+  "ai_enrichment": {
+    "summary": "Arimathea, também conhecida como Ramá, é uma cidade mencionada nos Evangelhos como o local de origem de José de Arimatéia, que desempenhou um papel crucial na sepultura de Jesus após a crucificação. A localização de Arimathea, a cerca de cinco milhas ao norte de Jerusalém, a torna um ponto geográfico significativo na narrativa da Paixão. A cidade é um símbolo de fé e coragem, pois José, um membro do Sinédrio, arriscou sua posição ao pedir o corpo de Jesus, demonstrando um compromisso com a verdade e a justiça em um momento de grande adversidade.",
+    "outline": [
+      "Localização geográfica e importância histórica de Arimathea.",
+      "José de Arimatéia: seu papel na sepultura de Jesus.",
+      "A relação de Arimathea com a profecia e a tradição judaica.",
+      "O simbolismo de Arimathea na fé cristã."
+    ],
+    "key_concepts": [
+      "Fé e coragem em tempos de adversidade.",
+      "A sepultura de Jesus como cumprimento das Escrituras.",
+      "A transição do judaísmo para o cristianismo."
+    ],
+    "theological_significance": "Arimathea representa a coragem de se posicionar ao lado da verdade, mesmo diante da oposição. A ação de José de Arimatéia em cuidar do corpo de Jesus é um ato de amor e respeito, refletindo a importância do corpo de Cristo na teologia cristã. Este ato também simboliza a esperança da ressurreição, pois a sepultura de Jesus é um precursor da vitória sobre a morte, um tema central na fé cristã.",
+    "model": "gpt-4o-mini",
+    "run_id": "enr_20250923_131840_86b5c9b8",
+    "confidence": 1.0,
+    "generated_at": "2025-09-23T13:18:40.898892"
+  },
+  "ai_themes_normalized": [
+    {
+      "theme_id": null,
+      "proposal_id": "prop:a_sepultura_de_jesus_3a11b6",
+      "label_original": "A sepultura de Jesus.",
+      "source": "ai_enrichment"
+    },
+    {
+      "theme_id": null,
+      "proposal_id": "prop:coragem_e_fe_6a4eaa",
+      "label_original": "Coragem e fé.",
+      "source": "ai_enrichment"
+    },
+    {
+      "theme_id": null,
+      "proposal_id": "prop:cumprimento_das_profecias_messianicas_b04d9f",
+      "label_original": "Cumprimento das profecias messiânicas.",
+      "source": "ai_enrichment"
+    }
+  ],
+  "phase1_discovery": {
+    "processed_at": "2025-09-23T22:50:07.151752Z",
+    "total_themes_processed": 3,
+    "summary": {
+      "total_processed": 3,
+      "decisions": {
+        "alias_existing": 0,
+        "proposed": 3,
+        "error": 0
+      },
+      "success_rate": 1.0
+    },
+    "results": [
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.84276,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_4ccaa29b",
+          "decision_hash": "9436068aa2fa439f",
+          "created_at": "2025-09-23T22:50:07.151752Z"
+        },
+        "proposal_id": "prop:e5067714",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:a_sepultura_de_jesus_3a11b6",
+          "label_original": "A sepultura de Jesus.",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.84354,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_db9d09fa",
+          "decision_hash": "e9bb41df5d5f3bb0",
+          "created_at": "2025-09-23T22:50:08.147450Z"
+        },
+        "proposal_id": "prop:9f8718ca",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:coragem_e_fe_6a4eaa",
+          "label_original": "Coragem e fé.",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.84404,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_7e5a4607",
+          "decision_hash": "2a73c16adbd69498",
+          "created_at": "2025-09-23T22:50:09.315165Z"
+        },
+        "proposal_id": "prop:ce932bec",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:cumprimento_das_profecias_messianicas_b04d9f",
+          "label_original": "Cumprimento das profecias messiânicas.",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      }
+    ]
+  },
+  "entity_links": [
+    {
+      "canonical_id": "CON:arimathea",
+      "namespace": "CONCEPT",
+      "role": "primary",
+      "confidence": 0.9,
+      "source": "topic_resolver",
+      "status": "proposed",
+      "provenance": {
+        "topic": "ARIMATHEA",
+        "extracted_from": "ARIMATHEA",
+        "processing_result": {
+          "status": "proposed",
+          "proposal_id": "stub:CON:arimathea_e190689e",
+          "canonical_id": "CON:arimathea",
+          "needs_review": true,
+          "reasons": [
+            "low_confidence",
+            "insufficient_sources"
+          ],
+          "message": "Entity proposal stub:CON:arimathea_e190689e created"
+        }
+      }
+    }
+  ],
+  "see_also": [],
+  "aliases": [],
+  "stats": {
+    "entries_count": 2,
+    "ot_refs": 0,
+    "nt_refs": 3,
+    "total_verses": 3
+  },
+  "definitions": [
+    {
+      "source": "EAS",
+      "text": "A “city of the Jews” (Luke 23:51), the birth-place of Joseph in whose sepulchre our Lord was laid (Matt. 27:57, 60; John 19:38). It is probably the same place as Ramathaim in Ephraim, and the birth-place of Samuel (1 Sam. 1:1, 19). Others identify it with Ramleh in Dan, or Rama (q.v.) in Benjamin (Matt. 2:18).",
+      "extracted_refs": [
+        {
+          "book": "Luke",
+          "chapter": 23,
+          "verses": [
+            51
+          ],
+          "verse_count": 1,
+          "testament": "NT",
+          "raw": "Luke 23:51",
+          "source": "EAS"
+        },
+        {
+          "book": "Matthew",
+          "chapter": 27,
+          "verses": [
+            57,
+            60
+          ],
+          "verse_count": 2,
+          "testament": "NT",
+          "raw": "Matthew 27:57, 60",
+          "source": "EAS"
+        },
+        {
+          "book": "John",
+          "chapter": 19,
+          "verses": [
+            38
+          ],
+          "verse_count": 1,
+          "testament": "NT",
+          "raw": "John 19:38",
+          "source": "EAS"
+        },
+        {
+          "book": "1 Samuel",
+          "chapter": 1,
+          "verses": [
+            1,
+            19
+          ],
+          "verse_count": 2,
+          "testament": "OT",
+          "raw": "1 Samuel 1:1, 19",
+          "source": "EAS"
+        },
+        {
+          "book": "Matthew",
+          "chapter": 2,
+          "verses": [
+            18
+          ],
+          "verse_count": 1,
+          "testament": "NT",
+          "raw": "Matthew 2:18",
+          "source": "EAS"
+        }
+      ]
+    },
+    {
+      "source": "SMI",
+      "text": "(heights). (Matthew 27:57; Luke 23:51; John 19:38) St. Luke calls it “a city of Judea.” It is identified by many with the modern Ramleh .",
+      "extracted_refs": [
+        {
+          "book": "Matthew",
+          "chapter": 27,
+          "verses": [
+            57
+          ],
+          "verse_count": 1,
+          "testament": "NT",
+          "raw": "Matthew 27:57",
+          "source": "SMI"
+        },
+        {
+          "book": "Luke",
+          "chapter": 23,
+          "verses": [
+            51
+          ],
+          "verse_count": 1,
+          "testament": "NT",
+          "raw": "Luke 23:51",
+          "source": "SMI"
+        },
+        {
+          "book": "John",
+          "chapter": 19,
+          "verses": [
+            38
+          ],
+          "verse_count": 1,
+          "testament": "NT",
+          "raw": "John 19:38",
+          "source": "SMI"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "NAV",
+    "EAS",
+    "SMI"
+  ],
+  "metadata": {
+    "schema_version": "v3.0",
+    "created_at": "2025-12-02T21:53:08.669673+00:00",
+    "merged_from": {
+      "v2": true,
+      "dictionary": true
+    }
+  },
+  "version": "3.0.0",
+  "definition_refs": [
+    {
+      "book": "Luke",
+      "chapter": 23,
+      "verses": [
+        51
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Luke 23:51",
+      "source": "EAS"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 27,
+      "verses": [
+        57,
+        60
+      ],
+      "verse_count": 2,
+      "testament": "NT",
+      "raw": "Matthew 27:57, 60",
+      "source": "EAS"
+    },
+    {
+      "book": "John",
+      "chapter": 19,
+      "verses": [
+        38
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "John 19:38",
+      "source": "EAS"
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 1,
+      "verses": [
+        1,
+        19
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "1 Samuel 1:1, 19",
+      "source": "EAS"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 2,
+      "verses": [
+        18
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 2:18",
+      "source": "EAS"
+    },
+    {
+      "book": "Matthew",
+      "chapter": 27,
+      "verses": [
+        57
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Matthew 27:57",
+      "source": "SMI"
+    }
+  ],
+  "definition_refs_stats": {
+    "total": 7,
+    "ot": 2,
+    "nt": 5,
+    "books": [
+      "1 Samuel",
+      "John",
+      "Luke",
+      "Matthew"
+    ]
+  }
+}

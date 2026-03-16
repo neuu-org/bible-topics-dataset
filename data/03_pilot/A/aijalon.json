@@ -1,0 +1,369 @@
+{
+  "topic": "AIJALON",
+  "slug": "aijalon",
+  "type": "topic",
+  "reference_groups": [
+    {
+      "name": "See AJALON",
+      "references": [],
+      "sub_groups": []
+    }
+  ],
+  "biblical_references": [],
+  "ai_enrichment": {
+    "summary": "Aijalon é uma cidade mencionada na Bíblia, localizada na região de Judá. É conhecida por sua importância histórica e geográfica, sendo mencionada em contextos que envolvem batalhas e alianças. A cidade é frequentemente associada a eventos significativos, como a batalha de Josué contra os amorreus, onde o sol parou em seu curso, e também é citada em relação a tribos de Israel. Aijalon representa um local de intervenção divina e de cumprimento de promessas, refletindo a soberania de Deus sobre a história de Israel.",
+    "outline": [
+      "A localização de Aijalon: geografia e tribo de Efraim (Js 16:3)",
+      "A batalha de Josué em Aijalon: o sol parado (Js 10:12-13)",
+      "Aijalon como cidade de refúgio: proteção e justiça (Js 20:7)",
+      "Aijalon na história de Israel: alianças e conflitos (2 Cr 28:18)",
+      "A importância de Aijalon nas narrativas bíblicas: simbolismo e intervenção divina (Jz 1:35)",
+      "Historical Significance of Aijalon (Josué 10:12-13; 2 Crônicas 28:18)",
+      "Aijalon in the Context of Israel's Tribes (Josué 16:3; Josué 20:7)",
+      "Symbol of Divine Protection (Josué 20:7; Números 35:6)"
+    ],
+    "key_concepts": [
+      "Intervenção divina",
+      "Promessa de Deus",
+      "Geografia bíblica",
+      "História de Israel"
+    ],
+    "theological_significance": "Aijalon é teologicamente significativa por ser um local onde Deus demonstrou sua soberania e poder em momentos críticos da história de Israel. A cidade é um símbolo da proteção divina e do cumprimento das promessas de Deus ao seu povo, refletindo a importância da fé e da obediência nas narrativas bíblicas.",
+    "model": "gpt-4o-mini",
+    "run_id": "enr_20251204_001859_907a1f1c",
+    "confidence": 1.0,
+    "generated_at": "2025-12-04T00:18:59.619074"
+  },
+  "ai_themes_normalized": [
+    {
+      "theme_id": null,
+      "proposal_id": "prop:divine_intervention__09fa87",
+      "label_original": "Intervenção divina em batalhas",
+      "label_en": "Divine Intervention in Battles",
+      "label_normalized": "divine_intervention_in_battles",
+      "anchor_verses": [
+        "Josué 10:12",
+        "Josué 10:13"
+      ],
+      "relevance_score": 9,
+      "semantic_keywords": [
+        "divine intervention",
+        "battles",
+        "Joshua",
+        "miracle"
+      ],
+      "theological_domain": "theology_proper",
+      "parent_theme": null,
+      "aspect": "A intervenção de Deus na batalha de Aijalon",
+      "source": "ai_enrichment",
+      "anchor_source": "ai_trusted",
+      "anchor_meta": {
+        "ai_suggested": 2,
+        "validated": 0,
+        "fallback_used": false
+      }
+    },
+    {
+      "theme_id": null,
+      "proposal_id": "prop:city_of_refuge_08ff03",
+      "label_original": "A cidade de refúgio",
+      "label_en": "City of Refuge",
+      "label_normalized": "city_of_refuge",
+      "anchor_verses": [
+        "Josué 20:7",
+        "Números 35:6"
+      ],
+      "relevance_score": 8,
+      "semantic_keywords": [
+        "refuge",
+        "justice",
+        "protection",
+        "cities"
+      ],
+      "theological_domain": "ethics",
+      "parent_theme": null,
+      "aspect": "O papel de Aijalon como cidade de refúgio",
+      "source": "ai_enrichment",
+      "anchor_source": "ai_trusted",
+      "anchor_meta": {
+        "ai_suggested": 2,
+        "validated": 0,
+        "fallback_used": false
+      }
+    },
+    {
+      "theme_id": null,
+      "proposal_id": "prop:fulfillment_of_promi_0ca3ce",
+      "label_original": "Cumprimento de promessas",
+      "label_en": "Fulfillment of Promises",
+      "label_normalized": "fulfillment_of_promises",
+      "anchor_verses": [
+        "Josué 21:44",
+        "Salmos 105:44"
+      ],
+      "relevance_score": 8,
+      "semantic_keywords": [
+        "promises",
+        "fulfillment",
+        "God's faithfulness"
+      ],
+      "theological_domain": "soteriology",
+      "parent_theme": null,
+      "aspect": "O cumprimento das promessas de Deus em Aijalon",
+      "source": "ai_enrichment",
+      "anchor_source": "ai_trusted",
+      "anchor_meta": {
+        "ai_suggested": 2,
+        "validated": 0,
+        "fallback_used": false
+      }
+    }
+  ],
+  "phase1_discovery": {
+    "processed_at": "2025-09-23T22:38:32.040500Z",
+    "total_themes_processed": 3,
+    "summary": {
+      "total_processed": 3,
+      "decisions": {
+        "alias_existing": 0,
+        "proposed": 3,
+        "error": 0
+      },
+      "success_rate": 1.0
+    },
+    "results": [
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.83016,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_6f837c1d",
+          "decision_hash": "2d8b95d467dbeac5",
+          "created_at": "2025-09-23T22:38:32.040500Z"
+        },
+        "proposal_id": "prop:64e9a406",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:batalhas_e_vitorias_de_israel_c48c93",
+          "label_original": "Batalhas e vitórias de Israel",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.8464999999999999,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_27ef7a2b",
+          "decision_hash": "d3080956bde0c532",
+          "created_at": "2025-09-23T22:38:33.131341Z"
+        },
+        "proposal_id": "prop:0fc3e121",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:refugio_em_deus_038420",
+          "label_original": "Refúgio em Deus",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.84102,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_12463ba8",
+          "decision_hash": "6fbd2326a53616c6",
+          "created_at": "2025-09-23T22:38:34.164519Z"
+        },
+        "proposal_id": "prop:f61e9bb0",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:aliancas_e_promessas_divinas_4cbf04",
+          "label_original": "Alianças e promessas divinas",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      }
+    ]
+  },
+  "entity_links": [
+    {
+      "canonical_id": "CON:aijalon",
+      "namespace": "CONCEPT",
+      "role": "primary",
+      "confidence": 0.9,
+      "source": "topic_resolver",
+      "status": "proposed",
+      "provenance": {
+        "topic": "AIJALON",
+        "extracted_from": "AIJALON",
+        "processing_result": {
+          "status": "proposed",
+          "proposal_id": "stub:CON:aijalon_2d2e3d7b",
+          "canonical_id": "CON:aijalon",
+          "needs_review": true,
+          "reasons": [
+            "low_confidence",
+            "insufficient_sources"
+          ],
+          "message": "Entity proposal stub:CON:aijalon_2d2e3d7b created"
+        }
+      }
+    },
+    {
+      "canonical_id": "CON:ajalon",
+      "namespace": "CONCEPT",
+      "role": "secondary",
+      "confidence": 0.7,
+      "source": "topic_resolver",
+      "status": "proposed",
+      "provenance": {
+        "topic": "AIJALON",
+        "extracted_from": "AJALON",
+        "processing_result": {
+          "status": "proposed",
+          "proposal_id": "stub:CON:ajalon_23addd4e",
+          "canonical_id": "CON:ajalon",
+          "needs_review": true,
+          "reasons": [
+            "low_confidence",
+            "insufficient_sources"
+          ],
+          "message": "Entity proposal stub:CON:ajalon_23addd4e created"
+        }
+      }
+    }
+  ],
+  "see_also": [
+    "AJALON"
+  ],
+  "aliases": [],
+  "stats": {
+    "entries_count": 1,
+    "ot_refs": 0,
+    "nt_refs": 0,
+    "total_verses": 0
+  },
+  "definitions": [],
+  "sources": [
+    "NAV"
+  ],
+  "metadata": {
+    "schema_version": "v3.0",
+    "created_at": "2025-12-02T21:53:08.662290+00:00",
+    "merged_from": {
+      "v2": true,
+      "dictionary": false
+    }
+  },
+  "version": "3.0.0",
+  "ai_entities": [
+    {
+      "name": "Aijalon",
+      "type": "PLACE",
+      "canonical_id": null,
+      "context": "Cidade mencionada na Bíblia, local de eventos significativos"
+    }
+  ],
+  "ai_discovered_aspects": [
+    {
+      "label": "Historical Significance of Aijalon",
+      "references": [
+        "Josué 10:12-13",
+        "2 Crônicas 28:18"
+      ],
+      "rationale": "Aijalon é um local que representa a intervenção de Deus em momentos críticos da história de Israel, destacando sua importância nas narrativas bíblicas.",
+      "source": "ai_discovery"
+    },
+    {
+      "label": "Aijalon in the Context of Israel's Tribes",
+      "references": [
+        "Josué 16:3",
+        "Josué 20:7"
+      ],
+      "rationale": "A cidade é um exemplo da divisão territorial entre as tribos de Israel, refletindo a organização social e geográfica do povo escolhido.",
+      "source": "ai_discovery"
+    },
+    {
+      "label": "Symbol of Divine Protection",
+      "references": [
+        "Josué 20:7",
+        "Números 35:6"
+      ],
+      "rationale": "Aijalon serve como um símbolo da proteção divina, sendo uma cidade de refúgio onde a justiça e a misericórdia de Deus se manifestam.",
+      "source": "ai_discovery"
+    }
+  ],
+  "updated_at": "2025-12-04T00:18:59.621143Z"
+}

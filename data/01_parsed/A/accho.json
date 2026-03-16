@@ -1,0 +1,331 @@
+{
+  "topic": "ACCHO",
+  "slug": "accho",
+  "type": "both",
+  "reference_groups": [
+    {
+      "name": "Also called PTOLEMAIS, a town of Phoenicia Jud 1:31; Ac 21:7",
+      "references": [
+        "Judg 1:31",
+        "Acts 21:7"
+      ],
+      "sub_groups": []
+    }
+  ],
+  "biblical_references": [
+    {
+      "book": "Acts",
+      "book_abbrev": "act",
+      "chapter": 21,
+      "testament": "NT",
+      "verses": [
+        7
+      ],
+      "verse_count": 1
+    }
+  ],
+  "ai_enrichment": {
+    "summary": "Accho, também conhecida como Ptolemaïs, é uma cidade da Fenícia mencionada nas Escrituras, especificamente em Juízes 1:31 e Atos 21:7. Sua localização estratégica ao longo da costa do Mediterrâneo a tornava um ponto importante para o comércio e a comunicação entre diferentes culturas. A cidade é um exemplo da interação entre judeus e gentios na época do Novo Testamento, refletindo a expansão do cristianismo e a missão apostólica. A menção de Accho nas Escrituras destaca a importância das cidades portuárias na propagação do evangelho e na história do povo de Deus.",
+    "outline": [
+      "Localização geográfica e importância de Accho/Ptolemaïs",
+      "Referências bíblicas em Juízes e Atos",
+      "Interação cultural e religiosa na cidade",
+      "Significado da cidade na missão apostólica"
+    ],
+    "key_concepts": [
+      "Missão apostólica",
+      "Intercâmbio cultural",
+      "Geografia bíblica"
+    ],
+    "theological_significance": "A cidade de Accho/Ptolemaïs serve como um símbolo da expansão do cristianismo além das fronteiras judaicas, mostrando como a mensagem do evangelho alcançou diversas culturas. A presença de Accho nas Escrituras nos lembra da importância de contextos geográficos na narrativa bíblica e da necessidade de evangelização em todas as nações, refletindo o mandamento de Jesus de fazer discípulos de todas as nações.",
+    "model": "gpt-4o-mini",
+    "run_id": "enr_20250923_081843_643a61df",
+    "confidence": 1.0,
+    "generated_at": "2025-09-23T08:18:43.616611"
+  },
+  "ai_themes_normalized": [
+    {
+      "theme_id": null,
+      "proposal_id": "prop:evangelizacao_5c851c",
+      "label_original": "Evangelização",
+      "source": "ai_enrichment"
+    },
+    {
+      "theme_id": null,
+      "proposal_id": "prop:cidades_biblicas_30287b",
+      "label_original": "Cidades bíblicas",
+      "source": "ai_enrichment"
+    },
+    {
+      "theme_id": null,
+      "proposal_id": "prop:interacao_entre_judeus_e_gentios_1e6e69",
+      "label_original": "Interação entre judeus e gentios",
+      "source": "ai_enrichment"
+    }
+  ],
+  "phase1_discovery": {
+    "processed_at": "2025-09-23T22:30:13.674891Z",
+    "total_themes_processed": 3,
+    "summary": {
+      "total_processed": 3,
+      "decisions": {
+        "alias_existing": 0,
+        "proposed": 3,
+        "error": 0
+      },
+      "success_rate": 1.0
+    },
+    "results": [
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.8459399999999999,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_a6a5efb4",
+          "decision_hash": "ef6b8e82584e1cdc",
+          "created_at": "2025-09-23T22:30:13.674891Z"
+        },
+        "proposal_id": "prop:42e90017",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:evangelizacao_5c851c",
+          "label_original": "Evangelização",
+          "confidence": 0.8500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.83302,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_fd0b20f4",
+          "decision_hash": "78ee30e36ef95f95",
+          "created_at": "2025-09-23T22:30:14.816668Z"
+        },
+        "proposal_id": "prop:214c463a",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:cidades_biblicas_30287b",
+          "label_original": "Cidades bíblicas",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.83144,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_d4d6bbdf",
+          "decision_hash": "a3ed942f0e79d49f",
+          "created_at": "2025-09-23T22:30:16.397095Z"
+        },
+        "proposal_id": "prop:28af9b6f",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:interacao_entre_judeus_e_gentios_1e6e69",
+          "label_original": "Interação entre judeus e gentios",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      }
+    ]
+  },
+  "entity_links": [
+    {
+      "canonical_id": "CON:accho",
+      "namespace": "CONCEPT",
+      "role": "primary",
+      "confidence": 0.9,
+      "source": "topic_resolver",
+      "status": "proposed",
+      "provenance": {
+        "topic": "ACCHO",
+        "extracted_from": "ACCHO",
+        "processing_result": {
+          "status": "proposed",
+          "proposal_id": "stub:CON:accho_3447f02c",
+          "canonical_id": "CON:accho",
+          "needs_review": true,
+          "reasons": [
+            "low_confidence",
+            "insufficient_sources"
+          ],
+          "message": "Entity proposal stub:CON:accho_3447f02c created"
+        }
+      }
+    }
+  ],
+  "see_also": [],
+  "aliases": [],
+  "stats": {
+    "entries_count": 1,
+    "ot_refs": 0,
+    "nt_refs": 1,
+    "total_verses": 1
+  },
+  "definitions": [
+    {
+      "source": "EAS",
+      "text": "Sultry or sandy, a town and harbour of Phoenicia, in the tribe of Asher, but never acquired by them (Judg. 1:31). It was known to the ancient Greeks and Romans by the name of Ptolemais, from Ptolemy the king of Egypt, who rebuilt it about B.C. 100. Here Paul landed on his last journey to Jerusalem (Acts 21:7). During the crusades of the Middle Ages it was called Acra; and subsequently, on account of its being occupied by the Knights Hospitallers of Jerusalem, it was called St. Jean d’Acre, or simply Acre.",
+      "extracted_refs": [
+        {
+          "book": "Judges",
+          "chapter": 1,
+          "verses": [
+            31
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "Judges 1:31",
+          "source": "EAS"
+        },
+        {
+          "book": "Acts",
+          "chapter": 21,
+          "verses": [
+            7
+          ],
+          "verse_count": 1,
+          "testament": "NT",
+          "raw": "Acts 21:7",
+          "source": "EAS"
+        }
+      ]
+    },
+    {
+      "source": "SMI",
+      "text": "(the Ptolemais of the Maccabees and New Testament), Now called Acca, or more usually by Europeans St. Jean d’Acre, the most important seaport town on the Syrian coast, about 30 miles south of Tyre. It was situated on a slightly projecting headland, at the northern extremity of that spacious bay which is formed by the bold promontory of Carmel on the opposite side. Later it was named Ptolemais, after one of the Ptolemies, probably Soter. The only notice of it in the New Testament is in (Acts 21:7) where it is called Ptolemais .",
+      "extracted_refs": [
+        {
+          "book": "Acts",
+          "chapter": 21,
+          "verses": [
+            7
+          ],
+          "verse_count": 1,
+          "testament": "NT",
+          "raw": "Acts 21:7",
+          "source": "SMI"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "NAV",
+    "EAS",
+    "SMI"
+  ],
+  "metadata": {
+    "schema_version": "v3.0",
+    "created_at": "2025-12-02T21:53:08.660855+00:00",
+    "merged_from": {
+      "v2": true,
+      "dictionary": true
+    }
+  },
+  "version": "3.0.0",
+  "definition_refs": [
+    {
+      "book": "Judges",
+      "chapter": 1,
+      "verses": [
+        31
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Judges 1:31",
+      "source": "EAS"
+    },
+    {
+      "book": "Acts",
+      "chapter": 21,
+      "verses": [
+        7
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Acts 21:7",
+      "source": "EAS"
+    }
+  ],
+  "definition_refs_stats": {
+    "total": 2,
+    "ot": 1,
+    "nt": 1,
+    "books": [
+      "Acts",
+      "Judges"
+    ]
+  }
+}

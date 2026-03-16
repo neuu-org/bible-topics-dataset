@@ -1,0 +1,411 @@
+{
+  "topic": "ASA",
+  "slug": "asa",
+  "type": "both",
+  "reference_groups": [
+    {
+      "name": "1. King of Judah 1Ki 15:8-24; 1Ch 3:10; 2Ch 14; 15; 16; Mt 1:7",
+      "references": [
+        "1Kgs 15:8-24",
+        "1Chr 3:10",
+        "2Chr 14",
+        "2Chr 15",
+        "2Chr 16",
+        "Matt 1:7"
+      ],
+      "sub_groups": []
+    },
+    {
+      "name": "2. A Levite 1Ch 9:16",
+      "references": [
+        "1Chr 9:16"
+      ],
+      "sub_groups": []
+    }
+  ],
+  "biblical_references": [
+    {
+      "book": "1 Chronicles",
+      "book_abbrev": "1ch",
+      "chapter": 3,
+      "testament": "OT",
+      "verses": [
+        2,
+        10
+      ],
+      "verse_count": 2
+    },
+    {
+      "book": "2 Chronicles",
+      "book_abbrev": "2ch",
+      "chapter": 14,
+      "testament": "OT",
+      "verses": [
+        15,
+        16
+      ],
+      "verse_count": 2
+    },
+    {
+      "book": "Matthew",
+      "book_abbrev": "mat",
+      "chapter": 1,
+      "testament": "NT",
+      "verses": [
+        7
+      ],
+      "verse_count": 1
+    }
+  ],
+  "ai_enrichment": {
+    "summary": "Asa foi o terceiro rei de Judá, conhecido por sua busca de reforma religiosa e por sua luta contra a idolatria. Seu reinado é marcado por um desejo de retornar ao culto verdadeiro a Deus, conforme evidenciado em suas ações de remover altares pagãos e restaurar o templo. Asa também enfrentou desafios militares, como a invasão do rei etíope Zera, e sua resposta a esses desafios reflete sua confiança em Deus. A narrativa de Asa destaca a importância da fidelidade a Deus e as consequências de se desviar de Seus caminhos.",
+    "outline": [
+      "Reinado de Asa e suas reformas religiosas (1Rs 15:8-24; 2Cr 14)",
+      "Confiando em Deus durante a guerra (2Cr 14:9-15)",
+      "Desvio de Asa e suas consequências (2Cr 16)",
+      "Genealogia e legado de Asa (1Cr 3:10; Mt 1:7)"
+    ],
+    "key_concepts": [
+      "Reforma religiosa",
+      "Fidelidade a Deus",
+      "Consequências da desobediência"
+    ],
+    "theological_significance": "A história de Asa é um exemplo de como a liderança pode influenciar a espiritualidade de um povo. Sua busca por Deus e as reformas que implementou mostram a importância de retornar ao verdadeiro culto. A narrativa também adverte sobre as consequências de confiar em alianças humanas em vez de em Deus, enfatizando a necessidade de fé e dependência divina na vida do crente.",
+    "model": "gpt-4o-mini",
+    "run_id": "enr_20250923_132640_2769347b",
+    "confidence": 1.0,
+    "generated_at": "2025-09-23T13:26:40.746594"
+  },
+  "ai_themes_normalized": [
+    {
+      "theme_id": null,
+      "proposal_id": "prop:fidelidade_e_infidelidade_be8e36",
+      "label_original": "Fidelidade e infidelidade",
+      "source": "ai_enrichment"
+    },
+    {
+      "theme_id": null,
+      "proposal_id": "prop:reforma_e_renovacao_espiritual_68f1c1",
+      "label_original": "Reforma e renovação espiritual",
+      "source": "ai_enrichment"
+    },
+    {
+      "theme_id": null,
+      "proposal_id": "prop:confiar_em_deus_em_tempos_de_crise_c1f524",
+      "label_original": "Confiar em Deus em tempos de crise",
+      "source": "ai_enrichment"
+    }
+  ],
+  "phase1_discovery": {
+    "processed_at": "2025-09-23T22:52:31.232271Z",
+    "total_themes_processed": 3,
+    "summary": {
+      "total_processed": 3,
+      "decisions": {
+        "alias_existing": 0,
+        "proposed": 3,
+        "error": 0
+      },
+      "success_rate": 1.0
+    },
+    "results": [
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "low_novelty",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.7735799999999999,
+          "novelty": 0.6666666666666667,
+          "similarity_to_best_existing": 0.3333333333333333,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_7af17416",
+          "decision_hash": "5fa03394538c9c6d",
+          "created_at": "2025-09-23T22:52:31.232271Z"
+        },
+        "proposal_id": "prop:f387a513",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:fidelidade_e_infidelidade_be8e36",
+          "label_original": "Fidelidade e infidelidade",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.7844200000000001,
+          "novelty": 0.75,
+          "similarity_to_best_existing": 0.25,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_c5c9d4bf",
+          "decision_hash": "a175de338c2d5a76",
+          "created_at": "2025-09-23T22:52:32.464583Z"
+        },
+        "proposal_id": "prop:f961f339",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:reforma_e_renovacao_espiritual_68f1c1",
+          "label_original": "Reforma e renovação espiritual",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.84754,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_f0b192a5",
+          "decision_hash": "3c70a78e0ae96736",
+          "created_at": "2025-09-23T22:52:33.375821Z"
+        },
+        "proposal_id": "prop:0e9e8189",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:confiar_em_deus_em_tempos_de_crise_c1f524",
+          "label_original": "Confiar em Deus em tempos de crise",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      }
+    ]
+  },
+  "entity_links": [
+    {
+      "canonical_id": "CON:asa",
+      "namespace": "CONCEPT",
+      "role": "primary",
+      "confidence": 0.9,
+      "source": "topic_resolver",
+      "status": "proposed",
+      "provenance": {
+        "topic": "ASA",
+        "extracted_from": "ASA",
+        "processing_result": {
+          "status": "proposed",
+          "proposal_id": "stub:CON:asa_37edaa79",
+          "canonical_id": "CON:asa",
+          "needs_review": true,
+          "reasons": [
+            "low_confidence",
+            "insufficient_sources"
+          ],
+          "message": "Entity proposal stub:CON:asa_37edaa79 created"
+        }
+      }
+    }
+  ],
+  "see_also": [],
+  "aliases": [],
+  "stats": {
+    "entries_count": 2,
+    "ot_refs": 2,
+    "nt_refs": 1,
+    "total_verses": 3
+  },
+  "definitions": [
+    {
+      "source": "EAS",
+      "text": "Physician, son of Abijah and grandson of Rehoboam, was the third king of Judah. He was zealous in maintaining the true worship of God, and in rooting all idolatry, with its accompanying immoralities, out of the land (1 Kings 15:8-14). The Lord gave him and his land rest and prosperity. It is recorded of him, however, that in his old age, when afflicted, he “sought not to the Lord, but to the physicians” (comp. Jer. 17:5). He died in the forty-first year of his reign, greatly honoured by his people (2 Chr. 16:1-13), and was succeeded by his son Jehoshaphat.",
+      "extracted_refs": [
+        {
+          "book": "1 Kings",
+          "chapter": 15,
+          "verses": [
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "verse_count": 7,
+          "testament": "OT",
+          "raw": "1 Kings 15:8-14",
+          "source": "EAS"
+        },
+        {
+          "book": "Jeremiah",
+          "chapter": 17,
+          "verses": [
+            5
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "Jeremiah 17:5",
+          "source": "EAS"
+        },
+        {
+          "book": "2 Chronicles",
+          "chapter": 16,
+          "verses": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "verse_count": 13,
+          "testament": "OT",
+          "raw": "2 Chronicles 16:1-13",
+          "source": "EAS"
+        }
+      ]
+    },
+    {
+      "source": "SMI",
+      "text": "(physician, or cure)."
+    }
+  ],
+  "sources": [
+    "NAV",
+    "EAS",
+    "SMI"
+  ],
+  "metadata": {
+    "schema_version": "v3.0",
+    "created_at": "2025-12-02T21:53:08.670096+00:00",
+    "merged_from": {
+      "v2": true,
+      "dictionary": true
+    }
+  },
+  "version": "3.0.0",
+  "definition_refs": [
+    {
+      "book": "1 Kings",
+      "chapter": 15,
+      "verses": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "verse_count": 7,
+      "testament": "OT",
+      "raw": "1 Kings 15:8-14",
+      "source": "EAS"
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 17,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Jeremiah 17:5",
+      "source": "EAS"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 16,
+      "verses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "verse_count": 13,
+      "testament": "OT",
+      "raw": "2 Chronicles 16:1-13",
+      "source": "EAS"
+    }
+  ],
+  "definition_refs_stats": {
+    "total": 21,
+    "ot": 21,
+    "nt": 0,
+    "books": [
+      "1 Kings",
+      "2 Chronicles",
+      "Jeremiah"
+    ]
+  }
+}

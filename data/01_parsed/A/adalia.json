@@ -1,0 +1,285 @@
+{
+  "topic": "ADALIA",
+  "slug": "adalia",
+  "type": "both",
+  "reference_groups": [
+    {
+      "name": "Son of Haman Es 9:8",
+      "references": [
+        "Esth 9:8"
+      ],
+      "sub_groups": []
+    }
+  ],
+  "biblical_references": [],
+  "ai_enrichment": {
+    "summary": "Adalia, mencionado em Ester 9:8 como filho de Hamã, representa a continuidade da linhagem de um dos antagonistas mais notáveis do povo judeu na narrativa de Ester. A menção de Adalia serve para enfatizar a queda da casa de Hamã, que buscou exterminar os judeus, e a vitória do povo de Deus. Este relato é crucial para entender a providência divina e a justiça que se manifesta na história, mostrando que aqueles que se opõem ao plano de Deus enfrentam consequências. A história de Adalia, embora breve, é um lembrete da soberania de Deus sobre as nações e a proteção de Seu povo.",
+    "outline": [
+      "Contexto histórico de Hamã e sua oposição aos judeus",
+      "A importância da menção de Adalia na narrativa de Ester",
+      "A queda da casa de Hamã e suas implicações",
+      "A providência divina na história do povo de Deus"
+    ],
+    "key_concepts": [
+      "Soberania de Deus",
+      "Justiça divina",
+      "Providência"
+    ],
+    "theological_significance": "A menção de Adalia, como filho de Hamã, ilustra a realidade da justiça de Deus em ação. A narrativa de Ester, incluindo a queda de Hamã e sua linhagem, reforça a ideia de que Deus protege Seu povo e que aqueles que se levantam contra Ele e Seu povo enfrentarão consequências. Para a fé cristã, isso serve como um encorajamento de que, mesmo em tempos de adversidade, Deus está no controle e age em favor dos que são Seus.",
+    "model": "gpt-4o-mini",
+    "run_id": "enr_20250923_082251_7b09a5d7",
+    "confidence": 1.0,
+    "generated_at": "2025-09-23T08:22:51.560469"
+  },
+  "ai_themes_normalized": [
+    {
+      "theme_id": null,
+      "proposal_id": "prop:justica_e_retribuicao_2fcf77",
+      "label_original": "Justiça e retribuição",
+      "source": "ai_enrichment"
+    },
+    {
+      "theme_id": null,
+      "proposal_id": "prop:protecao_divina_628276",
+      "label_original": "Proteção divina",
+      "source": "ai_enrichment"
+    },
+    {
+      "theme_id": null,
+      "proposal_id": "prop:conflito_entre_o_bem_e_o_mal_9afe86",
+      "label_original": "Conflito entre o bem e o mal",
+      "source": "ai_enrichment"
+    }
+  ],
+  "phase1_discovery": {
+    "processed_at": "2025-09-23T22:31:41.488011Z",
+    "total_themes_processed": 3,
+    "summary": {
+      "total_processed": 3,
+      "decisions": {
+        "alias_existing": 0,
+        "proposed": 3,
+        "error": 0
+      },
+      "success_rate": 1.0
+    },
+    "results": [
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "low_novelty",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.7658599999999999,
+          "novelty": 0.6666666666666667,
+          "similarity_to_best_existing": 0.3333333333333333,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_f5c78eb7",
+          "decision_hash": "72a8c1e218708f01",
+          "created_at": "2025-09-23T22:31:41.488011Z"
+        },
+        "proposal_id": "prop:331cf554",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:justica_e_retribuicao_2fcf77",
+          "label_original": "Justiça e retribuição",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.84004,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_811e4697",
+          "decision_hash": "015b1e790ae93194",
+          "created_at": "2025-09-23T22:31:42.374760Z"
+        },
+        "proposal_id": "prop:7b444cde",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:protecao_divina_628276",
+          "label_original": "Proteção divina",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.8368399999999999,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_ea93f605",
+          "decision_hash": "562cc5ad8e7360fc",
+          "created_at": "2025-09-23T22:31:43.711760Z"
+        },
+        "proposal_id": "prop:b20d3cae",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:conflito_entre_o_bem_e_o_mal_9afe86",
+          "label_original": "Conflito entre o bem e o mal",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      }
+    ]
+  },
+  "entity_links": [
+    {
+      "canonical_id": "CON:adalia",
+      "namespace": "CONCEPT",
+      "role": "primary",
+      "confidence": 0.9,
+      "source": "topic_resolver",
+      "status": "proposed",
+      "provenance": {
+        "topic": "ADALIA",
+        "extracted_from": "ADALIA",
+        "processing_result": {
+          "status": "proposed",
+          "proposal_id": "stub:CON:adalia_6768f087",
+          "canonical_id": "CON:adalia",
+          "needs_review": true,
+          "reasons": [
+            "low_confidence",
+            "insufficient_sources"
+          ],
+          "message": "Entity proposal stub:CON:adalia_6768f087 created"
+        }
+      }
+    }
+  ],
+  "see_also": [],
+  "aliases": [],
+  "stats": {
+    "entries_count": 1,
+    "ot_refs": 0,
+    "nt_refs": 0,
+    "total_verses": 0
+  },
+  "definitions": [
+    {
+      "source": "SMI",
+      "text": "(a fire-god), the fifth son of Haman. (Esther 9:8)",
+      "extracted_refs": [
+        {
+          "book": "Esther",
+          "chapter": 9,
+          "verses": [
+            8
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "Esther 9:8",
+          "source": "SMI"
+        }
+      ]
+    }
+  ],
+  "dictionary_refs": [
+    {
+      "reference": "Esther 9:8",
+      "original": "Esther 9:8"
+    }
+  ],
+  "sources": [
+    "NAV",
+    "SMI"
+  ],
+  "metadata": {
+    "schema_version": "v3.0",
+    "created_at": "2025-12-02T21:53:08.661105+00:00",
+    "merged_from": {
+      "v2": true,
+      "dictionary": true
+    }
+  },
+  "version": "3.0.0",
+  "definition_refs": [
+    {
+      "book": "Esther",
+      "chapter": 9,
+      "verses": [
+        8
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Esther 9:8",
+      "source": "SMI"
+    }
+  ],
+  "definition_refs_stats": {
+    "total": 1,
+    "ot": 1,
+    "nt": 0,
+    "books": [
+      "Esther"
+    ]
+  }
+}

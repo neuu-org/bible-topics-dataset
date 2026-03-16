@@ -1,0 +1,394 @@
+{
+  "topic": "ABDI",
+  "slug": "abdi",
+  "type": "both",
+  "reference_groups": [
+    {
+      "name": "Father of Kish 2Ch 29:12",
+      "references": [
+        "2Chr 29:12"
+      ],
+      "sub_groups": []
+    }
+  ],
+  "biblical_references": [],
+  "ai_enrichment": {
+    "summary": "Abdi é mencionado na Bíblia como um nome que significa 'meu servo'. Ele aparece em contextos que referem-se a indivíduos que desempenharam papéis significativos na história de Israel, como em 1 Crônicas 6:44, onde é listado entre os levitas, e em 2 Crônicas 29:12 e Esdras 10:26, onde é associado a eventos de restauração e serviço ao Senhor. A presença de Abdi nas Escrituras destaca a importância do serviço a Deus e a continuidade da linhagem sacerdotal.",
+    "outline": [
+      "Abdi como pai de Quis: A referência em 2 Crônicas 29:12 destaca Abdi como um ancestral importante na linhagem dos levitas, enfatizando a continuidade do serviço sacerdotal em Israel.",
+      "O papel de Abdi na restauração do culto: Em 2 Crônicas 29:12, Abdi é mencionado em um contexto de renovação espiritual sob o reinado de Ezequias, refletindo a importância do serviço a Deus durante períodos de reforma.",
+      "Abdi em Esdras 10:26: A menção de Abdi neste versículo ilustra a relevância de sua linhagem na restauração do povo de Israel após o exílio, destacando a fidelidade de Deus em preservar sua herança."
+    ],
+    "key_concepts": [
+      "Serviço a Deus",
+      "Linhagem sacerdotal",
+      "Restauração espiritual"
+    ],
+    "theological_significance": "A menção de Abdi na Bíblia ressalta a importância do serviço a Deus e a continuidade da linhagem sacerdotal, que é fundamental para a adoração e a vida comunitária de Israel. Através de figuras como Abdi, vemos a fidelidade de Deus em preservar seu povo e sua adoração, mesmo em tempos de crise e restauração.",
+    "model": "gpt-4o-mini",
+    "run_id": "enr_20251203_215329_d40825f1",
+    "confidence": 0.9500000000000002,
+    "generated_at": "2025-12-03T21:53:29.007855"
+  },
+  "ai_themes_normalized": [
+    {
+      "theme_id": null,
+      "proposal_id": "prop:service_and_faithful_0eda04",
+      "label_original": "Serviço e fidelidade a Deus",
+      "label_en": "Service and Faithfulness",
+      "label_normalized": "service_and_faithfulness",
+      "anchor_verses": [
+        "1 Crônicas 6:44",
+        "2 Crônicas 29:12"
+      ],
+      "relevance_score": 9,
+      "semantic_keywords": [
+        "service",
+        "faithfulness",
+        "worship",
+        "priesthood"
+      ],
+      "theological_domain": "ecclesiology",
+      "parent_theme": null,
+      "aspect": "importância do serviço a Deus na linhagem sacerdotal",
+      "source": "ai_enrichment",
+      "anchor_source": "ai_trusted",
+      "anchor_meta": {
+        "ai_suggested": 2,
+        "validated": 0,
+        "fallback_used": false
+      }
+    },
+    {
+      "theme_id": null,
+      "proposal_id": "prop:restoration_of_worsh_0b24d7",
+      "label_original": "Restauração do culto",
+      "label_en": "Restoration of Worship",
+      "label_normalized": "restoration_of_worship",
+      "anchor_verses": [
+        "Esdras 10:26"
+      ],
+      "relevance_score": 8,
+      "semantic_keywords": [
+        "restoration",
+        "worship",
+        "reform",
+        "spiritual renewal"
+      ],
+      "theological_domain": "ecclesiology",
+      "parent_theme": null,
+      "aspect": "papel de Abdi na renovação espiritual de Israel",
+      "source": "ai_enrichment",
+      "anchor_source": "ai_trusted",
+      "anchor_meta": {
+        "ai_suggested": 1,
+        "validated": 0,
+        "fallback_used": false
+      }
+    }
+  ],
+  "phase1_discovery": {
+    "processed_at": "2025-09-23T23:14:16.716615Z",
+    "total_themes_processed": 3,
+    "summary": {
+      "total_processed": 3,
+      "decisions": {
+        "alias_existing": 0,
+        "proposed": 3,
+        "error": 0
+      },
+      "success_rate": 1.0
+    },
+    "results": [
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.84614,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_de3f9979",
+          "decision_hash": "7474f746d7a11c42",
+          "created_at": "2025-09-23T23:14:16.716615Z"
+        },
+        "proposal_id": "prop:f9f1b79e",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:restauracao_do_templo_a476c0",
+          "label_original": "Restauração do templo",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "low_novelty",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.7745599999999999,
+          "novelty": 0.6666666666666667,
+          "similarity_to_best_existing": 0.3333333333333333,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_41e18779",
+          "decision_hash": "9f287419c60e6c46",
+          "created_at": "2025-09-23T23:14:18.217933Z"
+        },
+        "proposal_id": "prop:e2ae6ae1",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:lideranca_espiritual_71cb8c",
+          "label_original": "Liderança espiritual",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.83178,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_478a1fa0",
+          "decision_hash": "a8c5e82c4aae47bf",
+          "created_at": "2025-09-23T23:14:19.403766Z"
+        },
+        "proposal_id": "prop:73cf1280",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:heranca_e_tradicao_2a57df",
+          "label_original": "Herança e tradição",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      }
+    ]
+  },
+  "entity_links": [
+    {
+      "canonical_id": "CON:abdi",
+      "namespace": "CONCEPT",
+      "role": "primary",
+      "confidence": 0.9,
+      "source": "topic_resolver",
+      "status": "proposed",
+      "provenance": {
+        "topic": "ABDI",
+        "extracted_from": "ABDI",
+        "processing_result": {
+          "status": "proposed",
+          "proposal_id": "stub:CON:abdi_3caf2084",
+          "canonical_id": "CON:abdi",
+          "needs_review": true,
+          "reasons": [
+            "low_confidence",
+            "insufficient_sources"
+          ],
+          "message": "Entity proposal stub:CON:abdi_3caf2084 created"
+        }
+      }
+    }
+  ],
+  "see_also": [],
+  "aliases": [],
+  "stats": {
+    "entries_count": 1,
+    "ot_refs": 0,
+    "nt_refs": 0,
+    "total_verses": 0
+  },
+  "definitions": [
+    {
+      "source": "EAS",
+      "text": "My servant. (1.) 1 Chr. 6:44. (2.) 2 Chr. 29:12. (3.) Ezra 10:26.",
+      "extracted_refs": [
+        {
+          "book": "1 Chronicles",
+          "chapter": 6,
+          "verses": [
+            44
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "1 Chronicles 6:44",
+          "source": "EAS"
+        },
+        {
+          "book": "2 Chronicles",
+          "chapter": 29,
+          "verses": [
+            12
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "2 Chronicles 29:12",
+          "source": "EAS"
+        },
+        {
+          "book": "Ezra",
+          "chapter": 10,
+          "verses": [
+            26
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "Ezra 10:26",
+          "source": "EAS"
+        }
+      ]
+    },
+    {
+      "source": "SMI",
+      "text": "(my servant)."
+    }
+  ],
+  "dictionary_refs": [
+    {
+      "reference": "1 Chronicles 6:44",
+      "original": "1 Chr. 6:44"
+    },
+    {
+      "reference": "2 Chronicles 29:12",
+      "original": "2 Chr. 29:12"
+    },
+    {
+      "reference": "Ezra 10:26",
+      "original": "Ezra 10:26"
+    }
+  ],
+  "sources": [
+    "NAV",
+    "EAS",
+    "SMI"
+  ],
+  "metadata": {
+    "schema_version": "v3.0",
+    "created_at": "2025-12-02T21:53:08.659509+00:00",
+    "merged_from": {
+      "v2": true,
+      "dictionary": true
+    }
+  },
+  "version": "3.0.0",
+  "definition_refs": [
+    {
+      "book": "1 Chronicles",
+      "chapter": 6,
+      "verses": [
+        44
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "1 Chronicles 6:44",
+      "source": "EAS"
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 29,
+      "verses": [
+        12
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Chronicles 29:12",
+      "source": "EAS"
+    },
+    {
+      "book": "Ezra",
+      "chapter": 10,
+      "verses": [
+        26
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezra 10:26",
+      "source": "EAS"
+    }
+  ],
+  "definition_refs_stats": {
+    "total": 3,
+    "ot": 3,
+    "nt": 0,
+    "books": [
+      "1 Chronicles",
+      "2 Chronicles",
+      "Ezra"
+    ]
+  },
+  "cross_reference_network": {
+    "1 Chronicles 6:44": [],
+    "2 Chronicles 29:12": [],
+    "Ezra 10:26": []
+  },
+  "ai_entities": [
+    {
+      "name": "Abdi",
+      "type": "PERSON",
+      "canonical_id": null,
+      "context": "Mencionado como um servo de Deus e ancestral na linhagem sacerdotal"
+    }
+  ],
+  "updated_at": "2025-12-03T21:53:29.009570Z"
+}

@@ -1,0 +1,560 @@
+{
+  "topic": "ACHMETHA",
+  "slug": "achmetha",
+  "type": "both",
+  "reference_groups": [
+    {
+      "name": "A Persian city Ezr 6:2",
+      "references": [
+        "Ezra 6:2"
+      ],
+      "sub_groups": []
+    }
+  ],
+  "biblical_references": [],
+  "ai_enrichment": {
+    "summary": "Achmetha, também conhecida como Ecbatana, é mencionada em Esdras 6:2 como a capital da Média setentrional e o local onde o decreto de Ciro foi encontrado. Este lugar histórico foi a residência dos antigos monarcas medos e, posteriormente, de Ciro e Cambises. Durante o período de Esdras, os reis persas geralmente residiam em Susa, mas Ciro mantinha sua corte em Achmetha, destacando a importância política e histórica deste local na narrativa bíblica.",
+    "outline": [
+      "Achmetha como capital da Média: A importância histórica e política de Achmetha, mencionada em Esdras 6:2, onde o decreto de Ciro foi encontrado.",
+      "Residência dos monarcas medos: O papel de Achmetha como palácio dos antigos reis medos e sua relevância na transição para o domínio persa.",
+      "Ciro e Cambises em Achmetha: A presença dos imperadores persas em Achmetha e sua influência na administração do império.",
+      "Conexões com o retorno do exílio: A relação de Achmetha com o retorno dos exilados e a reconstrução do templo em Jerusalém.",
+      "Historical Significance of Achmetha (Esdras 6:2)",
+      "Cultural Influence of the Median Empire (Esdras 6:2)"
+    ],
+    "key_concepts": [
+      "História da Média",
+      "Domínio Persa",
+      "Retorno do Exílio"
+    ],
+    "theological_significance": "Achmetha representa um ponto de conexão entre a história do povo de Israel e a soberania de Deus sobre as nações. A menção deste local em Esdras destaca a providência divina na restauração de Israel após o exílio, mostrando como Deus usou reis pagãos para cumprir Seus propósitos.",
+    "model": "gpt-4o-mini",
+    "run_id": "enr_20251203_231708_0d16adb2",
+    "confidence": 1.0,
+    "generated_at": "2025-12-03T23:17:08.505747"
+  },
+  "ai_themes_normalized": [
+    {
+      "theme_id": null,
+      "proposal_id": "prop:god's_sovereignty_ov_0e23cc",
+      "label_original": "A soberania de Deus sobre as nações",
+      "label_en": "God's Sovereignty over Nations",
+      "label_normalized": "god's_sovereignty_over_nations",
+      "anchor_verses": [
+        "Esdras 6:2",
+        "Isaías 45:1"
+      ],
+      "relevance_score": 9,
+      "semantic_keywords": [
+        "sovereignty",
+        "divine plan",
+        "restoration",
+        "exile"
+      ],
+      "theological_domain": "theology_proper",
+      "parent_theme": null,
+      "aspect": "Deus usando líderes pagãos para cumprir Seus propósitos",
+      "source": "ai_enrichment",
+      "anchor_source": "ai_trusted",
+      "anchor_meta": {
+        "ai_suggested": 2,
+        "validated": 0,
+        "fallback_used": false
+      }
+    },
+    {
+      "theme_id": null,
+      "proposal_id": "prop:cyrus'_decree_import_0209ee",
+      "label_original": "A importância do decreto de Ciro",
+      "label_en": "Cyrus' Decree Importance",
+      "label_normalized": "cyrus'_decree_importance",
+      "anchor_verses": [
+        "Esdras 1:1"
+      ],
+      "relevance_score": 8,
+      "semantic_keywords": [
+        "decree",
+        "Cyrus",
+        "temple",
+        "restoration"
+      ],
+      "theological_domain": "ecclesiology",
+      "parent_theme": null,
+      "aspect": "O papel do decreto de Ciro na reconstrução do templo",
+      "source": "ai_enrichment",
+      "anchor_source": "ai_trusted",
+      "anchor_meta": {
+        "ai_suggested": 1,
+        "validated": 0,
+        "fallback_used": false
+      }
+    }
+  ],
+  "phase1_discovery": {
+    "processed_at": "2025-09-23T22:31:03.740681Z",
+    "total_themes_processed": 3,
+    "summary": {
+      "total_processed": 3,
+      "decisions": {
+        "alias_existing": 0,
+        "proposed": 3,
+        "error": 0
+      },
+      "success_rate": 1.0
+    },
+    "results": [
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.84858,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_9df9fca8",
+          "decision_hash": "2168fe977c6ed458",
+          "created_at": "2025-09-23T22:31:03.740681Z"
+        },
+        "proposal_id": "prop:e31e058c",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:restauracao_7b448c",
+          "label_original": "Restauração",
+          "confidence": 0.8500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "low_novelty",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.7789799999999999,
+          "novelty": 0.6666666666666667,
+          "similarity_to_best_existing": 0.3333333333333333,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_42b6bd86",
+          "decision_hash": "8605519c6703145e",
+          "created_at": "2025-09-23T22:31:04.914492Z"
+        },
+        "proposal_id": "prop:6b01f7be",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:fidelidade_de_deus_56051e",
+          "label_original": "Fidelidade de Deus",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.8489599999999999,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_86444646",
+          "decision_hash": "f9a996eae0f639db",
+          "created_at": "2025-09-23T22:31:05.954886Z"
+        },
+        "proposal_id": "prop:758fcac6",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:soberania_divina_247ef1",
+          "label_original": "Soberania divina",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      }
+    ]
+  },
+  "entity_links": [
+    {
+      "canonical_id": "CON:achmetha",
+      "namespace": "CONCEPT",
+      "role": "primary",
+      "confidence": 0.9,
+      "source": "topic_resolver",
+      "status": "proposed",
+      "provenance": {
+        "topic": "ACHMETHA",
+        "extracted_from": "ACHMETHA",
+        "processing_result": {
+          "status": "proposed",
+          "proposal_id": "stub:CON:achmetha_04e830ab",
+          "canonical_id": "CON:achmetha",
+          "needs_review": true,
+          "reasons": [
+            "low_confidence",
+            "insufficient_sources"
+          ],
+          "message": "Entity proposal stub:CON:achmetha_04e830ab created"
+        }
+      }
+    }
+  ],
+  "see_also": [],
+  "aliases": [],
+  "stats": {
+    "entries_count": 1,
+    "ot_refs": 0,
+    "nt_refs": 0,
+    "total_verses": 0
+  },
+  "definitions": [
+    {
+      "source": "EAS",
+      "text": "(Ezra 6:2), called Ecbatana by classical writers, the capital of northern Media. Here was the palace which was the residence of the old Median monarchs, and of Cyrus and Cambyses. In the time of Ezra, the Persian kings resided usually at Susa of Babylon. But Cyrus held his court at Achmetha; and Ezra, writing a century after, correctly mentions the place where the decree of Cyrus was found.",
+      "extracted_refs": [
+        {
+          "book": "Ezra",
+          "chapter": 6,
+          "verses": [
+            2
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "Ezra 6:2",
+          "source": "EAS"
+        }
+      ]
+    },
+    {
+      "source": "SMI",
+      "text": "[Ecbatana]"
+    }
+  ],
+  "dictionary_refs": [
+    {
+      "reference": "Ezra 6:2",
+      "original": "Ezra 6:2"
+    }
+  ],
+  "sources": [
+    "NAV",
+    "EAS",
+    "SMI"
+  ],
+  "metadata": {
+    "schema_version": "v3.0",
+    "created_at": "2025-12-02T21:53:08.660982+00:00",
+    "merged_from": {
+      "v2": true,
+      "dictionary": true
+    }
+  },
+  "version": "3.0.0",
+  "definition_refs": [
+    {
+      "book": "Ezra",
+      "chapter": 6,
+      "verses": [
+        2
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Ezra 6:2",
+      "source": "EAS"
+    }
+  ],
+  "definition_refs_stats": {
+    "total": 1,
+    "ot": 1,
+    "nt": 0,
+    "books": [
+      "Ezra"
+    ]
+  },
+  "cross_reference_network": {
+    "Ezra 6:2": [
+      {
+        "to_verse": "JER.36.2",
+        "score": 5,
+        "votes": 3,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "2KI.17.6",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "ACT.2.9",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "DAN.9.25",
+        "score": 4,
+        "votes": 3,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "EZR.2.1",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "NEH.7.6",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "EZR.4.19",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "EZR.5.17",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "EZR.9.9",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "ISA.13.3",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      }
+    ]
+  },
+  "cross_ref_stats": {
+    "source_verses": 1,
+    "verses_with_crossrefs": 1,
+    "total_crossrefs": 10,
+    "unique_target_verses": 10,
+    "strong_refs": 1,
+    "coverage": 100.0
+  },
+  "connected_topics": [
+    {
+      "topic": "KINGS",
+      "shared_refs": 56,
+      "strength": "strong"
+    },
+    {
+      "topic": "TEMPLE, THE SECOND",
+      "shared_refs": 49,
+      "strength": "strong"
+    },
+    {
+      "topic": "LEVITES, THE",
+      "shared_refs": 32,
+      "strength": "strong"
+    },
+    {
+      "topic": "BABYLON",
+      "shared_refs": 31,
+      "strength": "strong"
+    },
+    {
+      "topic": "MEDO-PERSIAN KINGDOM",
+      "shared_refs": 29,
+      "strength": "strong"
+    },
+    {
+      "topic": "NETHINIM",
+      "shared_refs": 29,
+      "strength": "strong"
+    },
+    {
+      "topic": "ASSYRIA",
+      "shared_refs": 21,
+      "strength": "strong"
+    },
+    {
+      "topic": "BOOKS",
+      "shared_refs": 20,
+      "strength": "strong"
+    },
+    {
+      "topic": "PROPHETS",
+      "shared_refs": 19,
+      "strength": "strong"
+    },
+    {
+      "topic": "JEWS, THE",
+      "shared_refs": 16,
+      "strength": "strong"
+    },
+    {
+      "topic": "JERUSALEM",
+      "shared_refs": 15,
+      "strength": "strong"
+    },
+    {
+      "topic": "IDOLATRY",
+      "shared_refs": 14,
+      "strength": "strong"
+    },
+    {
+      "topic": "PALACES",
+      "shared_refs": 13,
+      "strength": "strong"
+    },
+    {
+      "topic": "CYRUS",
+      "shared_refs": 12,
+      "strength": "strong"
+    },
+    {
+      "topic": "BACKSLIDERS",
+      "shared_refs": 12,
+      "strength": "strong"
+    },
+    {
+      "topic": "DARIUS",
+      "shared_refs": 11,
+      "strength": "strong"
+    },
+    {
+      "topic": "CAPTIVITY",
+      "shared_refs": 11,
+      "strength": "strong"
+    },
+    {
+      "topic": "WAR",
+      "shared_refs": 11,
+      "strength": "strong"
+    },
+    {
+      "topic": "REPENTANCE",
+      "shared_refs": 11,
+      "strength": "strong"
+    },
+    {
+      "topic": "Ecbatana",
+      "shared_refs": 10,
+      "strength": "strong"
+    }
+  ],
+  "ai_entities": [
+    {
+      "name": "Achmetha",
+      "type": "PLACE",
+      "canonical_id": null,
+      "context": "Capital da Média e local do decreto de Ciro"
+    },
+    {
+      "name": "Ciro",
+      "type": "PERSON",
+      "canonical_id": null,
+      "context": "Rei persa que emitiu o decreto para a reconstrução do templo"
+    },
+    {
+      "name": "Cambises",
+      "type": "PERSON",
+      "canonical_id": null,
+      "context": "Sucessor de Ciro e governante persa"
+    }
+  ],
+  "ai_discovered_aspects": [
+    {
+      "label": "Historical Significance of Achmetha",
+      "references": [
+        "Esdras 6:2"
+      ],
+      "rationale": "Achmetha é um exemplo de como locais históricos desempenham um papel crucial na narrativa bíblica, especialmente em relação ao retorno do exílio e à restauração do templo.",
+      "source": "ai_discovery"
+    },
+    {
+      "label": "Cultural Influence of the Median Empire",
+      "references": [
+        "Esdras 6:2"
+      ],
+      "rationale": "A influência cultural e política da Média, representada por Achmetha, é um aspecto importante que moldou a história do povo de Israel durante o exílio e o retorno.",
+      "source": "ai_discovery"
+    }
+  ],
+  "ai_relationships": [
+    {
+      "target": "Ciro",
+      "type": "LEADER_OF",
+      "description": "Ciro era o líder persa que governava a partir de Achmetha e emitiu o decreto para a reconstrução do templo em Jerusalém.",
+      "target_type": "PERSON",
+      "target_canonical_id": null,
+      "source": "ai_enrichment"
+    },
+    {
+      "target": "Cambises",
+      "type": "SUCCESSOR_OF",
+      "description": "Cambises foi o sucessor de Ciro e também governou a partir de Achmetha.",
+      "target_type": "PERSON",
+      "target_canonical_id": null,
+      "source": "ai_enrichment"
+    }
+  ],
+  "updated_at": "2025-12-03T23:17:08.507940Z"
+}

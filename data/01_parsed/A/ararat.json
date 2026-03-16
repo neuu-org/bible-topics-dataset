@@ -1,0 +1,381 @@
+{
+  "topic": "ARARAT",
+  "slug": "ararat",
+  "type": "both",
+  "reference_groups": [
+    {
+      "name": "A district of Armenia Jer 51:27",
+      "references": [
+        "Jer 51:27"
+      ],
+      "sub_groups": []
+    },
+    {
+      "name": "The ark of Noah came to rest in the mountains of Ge 8:4",
+      "references": [
+        "Gen 8:4"
+      ],
+      "sub_groups": []
+    },
+    {
+      "name": "Assassins of Sennacherib take refuge in Isa 37:38",
+      "references": [
+        "Isa 37:38"
+      ],
+      "sub_groups": []
+    }
+  ],
+  "biblical_references": [],
+  "ai_enrichment": {
+    "summary": "Ararat é uma região mencionada na Bíblia, associada ao local onde a arca de Noé repousou após o dilúvio. Este local, identificado com as montanhas da Armênia, simboliza a nova criação e a aliança de Deus com a humanidade. Além disso, Ararat é mencionado em contextos históricos, como o refúgio dos assassinos de Sennacherib, o que destaca sua importância geográfica e cultural na narrativa bíblica.",
+    "outline": [
+      "Ararat como local geográfico e histórico na Armênia.",
+      "A arca de Noé e seu repouso nas montanhas de Ararat.",
+      "Refúgio dos assassinos de Sennacherib em Ararat.",
+      "Significado simbólico de Ararat na narrativa bíblica."
+    ],
+    "key_concepts": [
+      "Aliança de Deus com a humanidade",
+      "Novo começo após o dilúvio",
+      "Refúgio e proteção divina"
+    ],
+    "theological_significance": "Ararat representa a fidelidade de Deus em cumprir Suas promessas, simbolizando um novo começo para a humanidade após o juízo do dilúvio. A arca, como um símbolo de salvação, aponta para a esperança e a redenção que se encontram em Cristo, reforçando a importância da fé e da obediência a Deus.",
+    "model": "gpt-4o-mini",
+    "run_id": "enr_20250923_131444_3b8b68e8",
+    "confidence": 1.0,
+    "generated_at": "2025-09-23T13:14:44.217153"
+  },
+  "ai_themes_normalized": [
+    {
+      "theme_id": null,
+      "proposal_id": "prop:salvacao_e_redencao_af2ded",
+      "label_original": "Salvação e redenção",
+      "source": "ai_enrichment"
+    },
+    {
+      "theme_id": null,
+      "proposal_id": "prop:juizo_e_misericordia_cd916f",
+      "label_original": "Juízo e misericórdia",
+      "source": "ai_enrichment"
+    },
+    {
+      "theme_id": null,
+      "proposal_id": "prop:aliancas_de_deus_com_a_humanidade_787d39",
+      "label_original": "Alianças de Deus com a humanidade",
+      "source": "ai_enrichment"
+    }
+  ],
+  "phase1_discovery": {
+    "processed_at": "2025-09-23T22:48:43.901729Z",
+    "total_themes_processed": 3,
+    "summary": {
+      "total_processed": 3,
+      "decisions": {
+        "alias_existing": 0,
+        "proposed": 3,
+        "error": 0
+      },
+      "success_rate": 1.0
+    },
+    "results": [
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "low_novelty",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.74268,
+          "novelty": 0.5,
+          "similarity_to_best_existing": 0.5,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_bb099179",
+          "decision_hash": "e3386783bb33cebe",
+          "created_at": "2025-09-23T22:48:43.901729Z"
+        },
+        "proposal_id": "prop:ebde4457",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:salvacao_e_redencao_af2ded",
+          "label_original": "Salvação e redenção",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "low_novelty",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.74208,
+          "novelty": 0.5,
+          "similarity_to_best_existing": 0.5,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_da4a1c57",
+          "decision_hash": "b51c7414b6bbec30",
+          "created_at": "2025-09-23T22:48:44.966384Z"
+        },
+        "proposal_id": "prop:e92144c3",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:juizo_e_misericordia_cd916f",
+          "label_original": "Juízo e misericórdia",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.8345,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_37844559",
+          "decision_hash": "82cacb1c7a0659b7",
+          "created_at": "2025-09-23T22:48:45.978614Z"
+        },
+        "proposal_id": "prop:b2e563bf",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:aliancas_de_deus_com_a_humanidade_787d39",
+          "label_original": "Alianças de Deus com a humanidade",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      }
+    ]
+  },
+  "entity_links": [
+    {
+      "canonical_id": "CON:ararat",
+      "namespace": "CONCEPT",
+      "role": "primary",
+      "confidence": 0.9,
+      "source": "topic_resolver",
+      "status": "proposed",
+      "provenance": {
+        "topic": "ARARAT",
+        "extracted_from": "ARARAT",
+        "processing_result": {
+          "status": "proposed",
+          "proposal_id": "stub:CON:ararat_9a42121e",
+          "canonical_id": "CON:ararat",
+          "needs_review": true,
+          "reasons": [
+            "low_confidence",
+            "insufficient_sources"
+          ],
+          "message": "Entity proposal stub:CON:ararat_9a42121e created"
+        }
+      }
+    }
+  ],
+  "see_also": [],
+  "aliases": [],
+  "stats": {
+    "entries_count": 3,
+    "ot_refs": 0,
+    "nt_refs": 0,
+    "total_verses": 0
+  },
+  "definitions": [
+    {
+      "source": "EAS",
+      "text": "Sacred land or high land, the name of a country on one of the mountains of which the ark rested after the Flood subsided (Gen. 8:4). The “mountains” mentioned were probably the Kurdish range of South Armenia. In 2 Kings 19:37, Isa. 37:38, the word is rendered “Armenia” in the Authorized Version, but in the Revised Version, “Land of Ararat.” In Jer. 51:27, the name denotes the central or southern portion of Armenia. It is, however, generally applied to a high and almost inaccessible mountain which rises majestically from the plain of the Araxes. It has two conical peaks, about 7 miles apart, the one 14,300 feet and the other 10,300 feet above the level of the plain. Three thousand feet of the summit of the higher of these peaks is covered with perpetual snow. It is called Kuh-i-nuh, i.e., “Noah’s mountain”, by the Persians. This part of Armenia was inhabited by a people who spoke a language unlike any other now known, though it may have been related to the modern Georgian. About B.C. 900 they borrowed the cuneiform characters of Nineveh, and from this time we have inscriptions of a line of kings who at times contended with Assyria. At the close of the seventh century B.C. the kingdom of Ararat came to an end, and the country was occupied by a people who are ancestors of the Armenians of the present day.",
+      "extracted_refs": [
+        {
+          "book": "Genesis",
+          "chapter": 8,
+          "verses": [
+            4
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "Genesis 8:4",
+          "source": "EAS"
+        },
+        {
+          "book": "2 Kings",
+          "chapter": 19,
+          "verses": [
+            37
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "2 Kings 19:37",
+          "source": "EAS"
+        },
+        {
+          "book": "Isaiah",
+          "chapter": 37,
+          "verses": [
+            38
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "Isaiah 37:38",
+          "source": "EAS"
+        },
+        {
+          "book": "Jeremiah",
+          "chapter": 51,
+          "verses": [
+            27
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "Jeremiah 51:27",
+          "source": "EAS"
+        }
+      ]
+    }
+  ],
+  "dictionary_refs": [
+    {
+      "reference": "Genesis 8:4",
+      "original": "Gen. 8:4"
+    },
+    {
+      "reference": "2 Kings 19:37",
+      "original": "2 Kings 19:37"
+    },
+    {
+      "reference": "Isaiah 37:38",
+      "original": "Isa. 37:38"
+    },
+    {
+      "reference": "Jeremiah 51:27",
+      "original": "Jer. 51:27"
+    }
+  ],
+  "sources": [
+    "NAV",
+    "EAS"
+  ],
+  "metadata": {
+    "schema_version": "v3.0",
+    "created_at": "2025-12-02T21:53:08.669428+00:00",
+    "merged_from": {
+      "v2": true,
+      "dictionary": true
+    }
+  },
+  "version": "3.0.0",
+  "definition_refs": [
+    {
+      "book": "Genesis",
+      "chapter": 8,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 8:4",
+      "source": "EAS"
+    },
+    {
+      "book": "2 Kings",
+      "chapter": 19,
+      "verses": [
+        37
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "2 Kings 19:37",
+      "source": "EAS"
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 37,
+      "verses": [
+        38
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Isaiah 37:38",
+      "source": "EAS"
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 51,
+      "verses": [
+        27
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Jeremiah 51:27",
+      "source": "EAS"
+    }
+  ],
+  "definition_refs_stats": {
+    "total": 4,
+    "ot": 4,
+    "nt": 0,
+    "books": [
+      "2 Kings",
+      "Genesis",
+      "Isaiah",
+      "Jeremiah"
+    ]
+  }
+}

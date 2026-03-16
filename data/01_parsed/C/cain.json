@@ -1,0 +1,452 @@
+{
+  "topic": "CAIN",
+  "slug": "cain",
+  "type": "both",
+  "reference_groups": [
+    {
+      "name": "1. Son of Adam Ge 4:1",
+      "references": [
+        "Gen 4:1"
+      ],
+      "sub_groups": [
+        {
+          "name": "Jealousy and crime of Ge 4:3-15; Heb 11:4; 1Jo 3:12; Jude 1:11",
+          "references": [
+            "Gen 4:3-15",
+            "Heb 11:4",
+            "1John 3:12",
+            "Jude 1"
+          ]
+        },
+        {
+          "name": "Sojourns in the land of Nod Ge 4:16",
+          "references": [
+            "Gen 4:16"
+          ]
+        },
+        {
+          "name": "Children and descendants of Ge 4:17,18",
+          "references": [
+            "Gen 4:17",
+            "Gen 4:18"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "2. A city of Judah Jos 15:57",
+      "references": [
+        "Josh 15:57"
+      ],
+      "sub_groups": []
+    }
+  ],
+  "biblical_references": [
+    {
+      "book": "Hebrews",
+      "book_abbrev": "heb",
+      "chapter": 11,
+      "testament": "NT",
+      "verses": [
+        1,
+        4
+      ],
+      "verse_count": 2
+    },
+    {
+      "book": "1 John",
+      "book_abbrev": "1jn",
+      "chapter": 3,
+      "testament": "NT",
+      "verses": [
+        12
+      ],
+      "verse_count": 1
+    },
+    {
+      "book": "Jude",
+      "book_abbrev": "jud",
+      "chapter": 1,
+      "testament": "NT",
+      "verses": [
+        11
+      ],
+      "verse_count": 1
+    }
+  ],
+  "ai_enrichment": {
+    "summary": "Caim, filho de Adão, é uma figura central na narrativa da queda da humanidade, simbolizando a inveja e o pecado. Sua história, que culmina no assassinato de seu irmão Abel, ilustra as consequências do pecado e a separação de Deus. A passagem em Gênesis 4:1-16 não apenas narra a origem do primeiro homicídio, mas também reflete sobre a natureza humana e a necessidade de redenção. A vida de Caim, incluindo seu exílio na terra de Nod e seus descendentes, serve como um alerta sobre as consequências do pecado e a busca por um relacionamento restaurado com Deus.",
+    "outline": [
+      "Caim como filho de Adão e sua origem (Ge 4:1)",
+      "A inveja e o crime de Caim contra Abel (Ge 4:3-15; Heb 11:4; 1Jo 3:12; Jude 1:11)",
+      "O exílio de Caim na terra de Nod (Ge 4:16)",
+      "Os filhos e descendentes de Caim (Ge 4:17,18)"
+    ],
+    "key_concepts": [
+      "Pecado e suas consequências",
+      "Inveja e rivalidade",
+      "Redenção e misericórdia divina"
+    ],
+    "theological_significance": "A história de Caim é fundamental para a compreensão do pecado original e suas repercussões na humanidade. Ela destaca a necessidade de arrependimento e a busca por reconciliação com Deus. A narrativa também serve como um aviso sobre os perigos da inveja e da desobediência, enfatizando a importância da fé e da justiça.",
+    "model": "gpt-4o-mini",
+    "run_id": "enr_20250923_133202_f0c79ca0",
+    "confidence": 1.0,
+    "generated_at": "2025-09-23T13:32:02.735158"
+  },
+  "ai_themes_normalized": [
+    {
+      "theme_id": null,
+      "proposal_id": "prop:pecado_e_redencao_eea07d",
+      "label_original": "Pecado e redenção",
+      "source": "ai_enrichment"
+    },
+    {
+      "theme_id": null,
+      "proposal_id": "prop:relacoes_familiares_e_conflitos_bbdf92",
+      "label_original": "Relações familiares e conflitos",
+      "source": "ai_enrichment"
+    },
+    {
+      "theme_id": null,
+      "proposal_id": "prop:a_justica_de_deus_8d7ac5",
+      "label_original": "A justiça de Deus",
+      "source": "ai_enrichment"
+    }
+  ],
+  "phase1_discovery": {
+    "processed_at": "2025-09-23T23:08:01.688189Z",
+    "total_themes_processed": 3,
+    "summary": {
+      "total_processed": 3,
+      "decisions": {
+        "alias_existing": 0,
+        "proposed": 3,
+        "error": 0
+      },
+      "success_rate": 1.0
+    },
+    "results": [
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "low_novelty",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.74674,
+          "novelty": 0.5,
+          "similarity_to_best_existing": 0.5,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_86763ee4",
+          "decision_hash": "2d81fbf100a8aad8",
+          "created_at": "2025-09-23T23:08:01.688189Z"
+        },
+        "proposal_id": "prop:90548a04",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:pecado_e_redencao_eea07d",
+          "label_original": "Pecado e redenção",
+          "confidence": 0.8410800000000002,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.84876,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_71599d1d",
+          "decision_hash": "38e54ec77f1ac65d",
+          "created_at": "2025-09-23T23:08:03.076950Z"
+        },
+        "proposal_id": "prop:04ae5866",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:relacoes_familiares_e_conflitos_bbdf92",
+          "label_original": "Relações familiares e conflitos",
+          "confidence": 0.5379200000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "low_novelty",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.7707399999999999,
+          "novelty": 0.6666666666666667,
+          "similarity_to_best_existing": 0.3333333333333333,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_3802c6ea",
+          "decision_hash": "90aa7c61c36f759e",
+          "created_at": "2025-09-23T23:08:04.069023Z"
+        },
+        "proposal_id": "prop:7085b591",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:a_justica_de_deus_8d7ac5",
+          "label_original": "A justiça de Deus",
+          "confidence": 0.54984,
+          "source": "ai_enrichment"
+        }
+      }
+    ]
+  },
+  "entity_links": [
+    {
+      "canonical_id": "CON:cain",
+      "namespace": "CONCEPT",
+      "role": "primary",
+      "confidence": 0.9,
+      "source": "topic_resolver",
+      "status": "proposed",
+      "provenance": {
+        "topic": "CAIN",
+        "extracted_from": "CAIN",
+        "processing_result": {
+          "status": "proposed",
+          "proposal_id": "stub:CON:cain_21ec816a",
+          "canonical_id": "CON:cain",
+          "needs_review": true,
+          "reasons": [
+            "low_confidence",
+            "insufficient_sources"
+          ],
+          "message": "Entity proposal stub:CON:cain_21ec816a created"
+        }
+      }
+    }
+  ],
+  "see_also": [],
+  "aliases": [],
+  "stats": {
+    "entries_count": 2,
+    "ot_refs": 0,
+    "nt_refs": 3,
+    "total_verses": 3
+  },
+  "definitions": [
+    {
+      "source": "EAS",
+      "text": "A possession; a spear. (1.) The first-born son of Adam and Eve (Gen. 4). He became a tiller of the ground, as his brother Abel followed the pursuits of pastoral life. He was “a sullen, self-willed, haughty, vindictive man; wanting the religious element in his character, and defiant even in his attitude towards God.” It came to pass “in process of time” (marg. “at the end of days”), i.e., probably on the Sabbath, that the two brothers presented their offerings to the Lord. Abel’s offering was of the “firstlings of his flock and of the fat,” while Cain’s was “of the fruit of the ground.” Abel’s sacrifice was “more excellent” (Heb. 11:4) than Cain’s, and was accepted by God. On this account Cain was “very wroth,” and cherished feelings of murderous hatred against his brother, and was at length guilty of the desperate outrage of putting him to death (1 John 3:12). For this crime he was expelled from Eden, and henceforth led the life of an exile, bearing upon him some mark which God had set upon him in answer to his own cry for mercy, so that thereby he might be protected from the wrath of his fellow-men; or it may be that God only gave him some sign to assure him that he would not be slain (Gen. 4:15). Doomed to be a wanderer and a fugitive in the earth, he went forth into the “land of Nod”, i.e., the land of “exile”, which is said to have been in the “east of Eden,” and there he built a city, the first we read of, and called it after his son’s name, Enoch. His descendants are enumerated to the sixth generation. They gradually degenerated in their moral and spiritual condition till they became wholly corrupt before God. This corruption prevailed, and at length the Deluge was sent by God to prevent the final triumph of evil. (See ABEL.) (2.) A town of the Kenites, a branch of the Midianites (Josh. 15:57), on the east edge of the mountain above Engedi; probably the “nest in a rock” mentioned by Balaam (Num. 24:21). It is identified with the modern Yekin, 3 miles south-east of Hebron.",
+      "extracted_refs": [
+        {
+          "book": "Hebrews",
+          "chapter": 11,
+          "verses": [
+            4
+          ],
+          "verse_count": 1,
+          "testament": "NT",
+          "raw": "Hebrews 11:4",
+          "source": "EAS"
+        },
+        {
+          "book": "1 John",
+          "chapter": 3,
+          "verses": [
+            12
+          ],
+          "verse_count": 1,
+          "testament": "NT",
+          "raw": "1 John 3:12",
+          "source": "EAS"
+        },
+        {
+          "book": "Genesis",
+          "chapter": 4,
+          "verses": [
+            15
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "Genesis 4:15",
+          "source": "EAS"
+        },
+        {
+          "book": "Joshua",
+          "chapter": 15,
+          "verses": [
+            57
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "Joshua 15:57",
+          "source": "EAS"
+        },
+        {
+          "book": "Numbers",
+          "chapter": 24,
+          "verses": [
+            21
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "Numbers 24:21",
+          "source": "EAS"
+        }
+      ]
+    },
+    {
+      "source": "SMI",
+      "text": "one of the cities in the low country of Judah, named with Zanoah and Gibeah. (Joshua 15:57) (possession). Gen. 4. He was the eldest son of Adam and Eve; he followed the business of agriculture. In a fit of jealousy, roused by the rejection of his own sacrifice and the acceptance of Abel’s, he committed the crime of murder, for which he was expelled from Eden, and led the life of an exile. He settled in the land of Nod, and built a city, which he named after his son Enoch. His descendants are enumerated together with the inventions for which they were remarkable. (B.C. 4000.)",
+      "extracted_refs": [
+        {
+          "book": "Joshua",
+          "chapter": 15,
+          "verses": [
+            57
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "Joshua 15:57",
+          "source": "SMI"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "NAV",
+    "EAS",
+    "SMI"
+  ],
+  "metadata": {
+    "schema_version": "v3.0",
+    "created_at": "2025-12-02T21:53:08.675978+00:00",
+    "merged_from": {
+      "v2": true,
+      "dictionary": true
+    }
+  },
+  "version": "3.0.0",
+  "definition_refs": [
+    {
+      "book": "Hebrews",
+      "chapter": 11,
+      "verses": [
+        4
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "Hebrews 11:4",
+      "source": "EAS"
+    },
+    {
+      "book": "1 John",
+      "chapter": 3,
+      "verses": [
+        12
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "1 John 3:12",
+      "source": "EAS"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 4,
+      "verses": [
+        15
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 4:15",
+      "source": "EAS"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 15,
+      "verses": [
+        57
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 15:57",
+      "source": "EAS"
+    },
+    {
+      "book": "Numbers",
+      "chapter": 24,
+      "verses": [
+        21
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Numbers 24:21",
+      "source": "EAS"
+    }
+  ],
+  "definition_refs_stats": {
+    "total": 5,
+    "ot": 3,
+    "nt": 2,
+    "books": [
+      "1 John",
+      "Genesis",
+      "Hebrews",
+      "Joshua",
+      "Numbers"
+    ]
+  }
+}

@@ -1,0 +1,416 @@
+{
+  "topic": "AHOLIAB",
+  "slug": "aholiab",
+  "type": "both",
+  "reference_groups": [
+    {
+      "name": "An artificer of the tabernacle Ex 31:6; 35:34; 36:1,2; 38:23",
+      "references": [
+        "Exod 31:6",
+        "Exod 35:34",
+        "Exod 36:1",
+        "Exod 36:2",
+        "Exod 38:23"
+      ],
+      "sub_groups": []
+    }
+  ],
+  "biblical_references": [],
+  "ai_enrichment": {
+    "summary": "Aholiab é mencionado nas Escrituras como um dos principais artesãos responsáveis pela construção do Tabernáculo, conforme descrito em Êxodo. Ele, junto com Bezalel, foi dotado de habilidades especiais pelo Espírito de Deus para realizar obras de arte e design que eram essenciais para a adoração israelita. A importância de Aholiab reside não apenas em suas habilidades artísticas, mas também em seu papel na criação de um espaço sagrado onde Deus poderia habitar entre Seu povo, simbolizando a presença divina e a comunhão com os israelitas.",
+    "outline": [
+      "Aholiab como artesão do Tabernáculo",
+      "A habilidade divina concedida a Aholiab",
+      "A colaboração com Bezalel",
+      "O significado do Tabernáculo na adoração israelita"
+    ],
+    "key_concepts": [
+      "Habilidade artística como dom espiritual",
+      "A presença de Deus entre o Seu povo",
+      "A importância do espaço sagrado na adoração"
+    ],
+    "theological_significance": "Aholiab representa a importância do trabalho manual e da criatividade na adoração a Deus. Sua habilidade e dedicação refletem a ideia de que todas as vocações podem ser vistas como um chamado divino. A construção do Tabernáculo, com a contribuição de Aholiab, enfatiza a necessidade de um espaço sagrado para a comunhão com Deus, que é um tema central na fé cristã, onde a presença de Deus é buscada e celebrada.",
+    "model": "gpt-4o-mini",
+    "run_id": "enr_20250923_123839_d445793c",
+    "confidence": 1.0,
+    "generated_at": "2025-09-23T12:38:39.795629"
+  },
+  "ai_themes_normalized": [
+    {
+      "theme_id": null,
+      "proposal_id": "prop:a_presenca_de_deus_796bc4",
+      "label_original": "A presença de Deus",
+      "source": "ai_enrichment"
+    },
+    {
+      "theme_id": null,
+      "proposal_id": "prop:adoracao_e_sacralidade_8646ab",
+      "label_original": "Adoração e sacralidade",
+      "source": "ai_enrichment"
+    },
+    {
+      "theme_id": null,
+      "proposal_id": "prop:dons_e_habilidades_espirituais_20559c",
+      "label_original": "Dons e habilidades espirituais",
+      "source": "ai_enrichment"
+    }
+  ],
+  "phase1_discovery": {
+    "processed_at": "2025-09-23T22:37:57.126119Z",
+    "total_themes_processed": 3,
+    "summary": {
+      "total_processed": 3,
+      "decisions": {
+        "alias_existing": 0,
+        "proposed": 3,
+        "error": 0
+      },
+      "success_rate": 1.0
+    },
+    "results": [
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.83868,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_85bb97a3",
+          "decision_hash": "43ac0c860e95d9e1",
+          "created_at": "2025-09-23T22:37:57.126119Z"
+        },
+        "proposal_id": "prop:cffa0f78",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:a_presenca_de_deus_796bc4",
+          "label_original": "A presença de Deus",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "low_novelty",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.74476,
+          "novelty": 0.5,
+          "similarity_to_best_existing": 0.5,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_fce59771",
+          "decision_hash": "78ec1a8ae489f07d",
+          "created_at": "2025-09-23T22:37:58.069746Z"
+        },
+        "proposal_id": "prop:425f2d93",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:adoracao_e_sacralidade_8646ab",
+          "label_original": "Adoração e sacralidade",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.83614,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_18f7c03f",
+          "decision_hash": "db23157b401d58b5",
+          "created_at": "2025-09-23T22:37:59.079328Z"
+        },
+        "proposal_id": "prop:07c0beed",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:dons_e_habilidades_espirituais_20559c",
+          "label_original": "Dons e habilidades espirituais",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      }
+    ]
+  },
+  "entity_links": [
+    {
+      "canonical_id": "CON:aholiab",
+      "namespace": "CONCEPT",
+      "role": "primary",
+      "confidence": 0.9,
+      "source": "topic_resolver",
+      "status": "proposed",
+      "provenance": {
+        "topic": "AHOLIAB",
+        "extracted_from": "AHOLIAB",
+        "processing_result": {
+          "status": "proposed",
+          "proposal_id": "stub:CON:aholiab_7b61941f",
+          "canonical_id": "CON:aholiab",
+          "needs_review": true,
+          "reasons": [
+            "low_confidence",
+            "insufficient_sources"
+          ],
+          "message": "Entity proposal stub:CON:aholiab_7b61941f created"
+        }
+      }
+    }
+  ],
+  "see_also": [],
+  "aliases": [],
+  "stats": {
+    "entries_count": 1,
+    "ot_refs": 0,
+    "nt_refs": 0,
+    "total_verses": 0
+  },
+  "definitions": [
+    {
+      "source": "EAS",
+      "text": "Tent of the father, an artist of the tribe of Dan, appointed to the work of preparing materials for the tabernacle (Ex. 31:6; 35:34; 36:1, 2; 38:23).",
+      "extracted_refs": [
+        {
+          "book": "Exodus",
+          "chapter": 31,
+          "verses": [
+            6
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "Exodus 31:6",
+          "source": "EAS"
+        },
+        {
+          "book": "Exodus",
+          "chapter": 35,
+          "verses": [
+            34
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "Exodus 35:34",
+          "source": "EAS"
+        },
+        {
+          "book": "Exodus",
+          "chapter": 36,
+          "verses": [
+            1,
+            2
+          ],
+          "verse_count": 2,
+          "testament": "OT",
+          "raw": "Exodus 36:1, 2",
+          "source": "EAS"
+        },
+        {
+          "book": "Exodus",
+          "chapter": 38,
+          "verses": [
+            23
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "Exodus 38:23",
+          "source": "EAS"
+        }
+      ]
+    },
+    {
+      "source": "SMI",
+      "text": "a Danite of great skill as a weaver and embroiderer, whom Moses appointed with Bezaleel to erect the tabernacle. (Exodus 35:30-35) (B.C. 1490.)",
+      "extracted_refs": [
+        {
+          "book": "Exodus",
+          "chapter": 35,
+          "verses": [
+            30,
+            31,
+            32,
+            33,
+            34,
+            35
+          ],
+          "verse_count": 6,
+          "testament": "OT",
+          "raw": "Exodus 35:30-35",
+          "source": "SMI"
+        }
+      ]
+    }
+  ],
+  "dictionary_refs": [
+    {
+      "reference": "Exodus 31:6",
+      "original": "Ex. 31:6"
+    },
+    {
+      "reference": "Exodus 35:34",
+      "original": "Ex 35:34"
+    },
+    {
+      "reference": "Exodus 36:1",
+      "original": "Ex 36:1"
+    },
+    {
+      "reference": "Exodus 36:2",
+      "original": "Ex 36:2"
+    },
+    {
+      "reference": "Exodus 38:23",
+      "original": "Ex 38:23"
+    },
+    {
+      "reference": "Exodus 35:30-35",
+      "original": "Exodus 35:30-35"
+    }
+  ],
+  "sources": [
+    "NAV",
+    "EAS",
+    "SMI"
+  ],
+  "metadata": {
+    "schema_version": "v3.0",
+    "created_at": "2025-12-02T21:53:08.662200+00:00",
+    "merged_from": {
+      "v2": true,
+      "dictionary": true
+    }
+  },
+  "version": "3.0.0",
+  "definition_refs": [
+    {
+      "book": "Exodus",
+      "chapter": 31,
+      "verses": [
+        6
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 31:6",
+      "source": "EAS"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 35,
+      "verses": [
+        34
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 35:34",
+      "source": "EAS"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 36,
+      "verses": [
+        1,
+        2
+      ],
+      "verse_count": 2,
+      "testament": "OT",
+      "raw": "Exodus 36:1, 2",
+      "source": "EAS"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 38,
+      "verses": [
+        23
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Exodus 38:23",
+      "source": "EAS"
+    },
+    {
+      "book": "Exodus",
+      "chapter": 35,
+      "verses": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "verse_count": 6,
+      "testament": "OT",
+      "raw": "Exodus 35:30-35",
+      "source": "SMI"
+    }
+  ],
+  "definition_refs_stats": {
+    "total": 10,
+    "ot": 10,
+    "nt": 0,
+    "books": [
+      "Exodus"
+    ]
+  }
+}

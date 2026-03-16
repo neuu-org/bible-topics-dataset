@@ -1,0 +1,989 @@
+{
+  "topic": "ACHZIB",
+  "slug": "achzib",
+  "type": "both",
+  "reference_groups": [
+    {
+      "name": "1. A city of Asher Jos 19:29; Jud 1:31",
+      "references": [
+        "Josh 19:29",
+        "Judg 1:31"
+      ],
+      "sub_groups": []
+    },
+    {
+      "name": "2. Also called CHEZIB, a city of Judah Ge 38:5; Jos 15:44",
+      "references": [
+        "Gen 38:5",
+        "Josh 15:44"
+      ],
+      "sub_groups": []
+    }
+  ],
+  "biblical_references": [
+    {
+      "book": "Joshua",
+      "book_abbrev": "jos",
+      "chapter": 15,
+      "testament": "OT",
+      "verses": [
+        44
+      ],
+      "verse_count": 1
+    }
+  ],
+  "ai_enrichment": {
+    "summary": "Achzib é uma cidade mencionada na Bíblia, localizada na região da Shephelah, em Judá, e também é identificada como uma cidade fenícia. O nome Achzib, que significa 'falsidade', é associado a uma cidade que foi atribuída à tribo de Asher, mas que permaneceu sob controle fenício. As referências bíblicas a Achzib estão principalmente em Josué e Juízes, onde sua localização e importância são destacadas. A cidade é também identificada com Chezib, mencionada em Gênesis, o que sugere uma continuidade histórica e geográfica na região.",
+    "outline": [
+      "Achzib como uma cidade de Asher: Atribuição e controle fenício (Josué 19:29; Juízes 1:31)",
+      "Achzib e Chezib: Identidade e localização na região de Judá (Gênesis 38:5; Josué 15:44)",
+      "Significado do nome Achzib: Implicações teológicas e culturais do termo 'falsidade'",
+      "Conexões com outras cidades e tribos: Relações com os fenícios e a tribo de Asher",
+      "Cultural interactions in Achzib (Joshua 19:29; Judges 1:31)"
+    ],
+    "key_concepts": [
+      "Identidade geográfica",
+      "Relações tribais",
+      "Significado dos nomes"
+    ],
+    "theological_significance": "Achzib, como uma cidade mencionada na Bíblia, representa a complexidade das interações entre as tribos de Israel e os povos vizinhos, como os fenícios. O significado do nome 'falsidade' pode ser interpretado como uma reflexão sobre a fidelidade de Israel a Deus em contraste com as nações ao seu redor. A cidade também ilustra a realidade da ocupação e controle territorial na história de Israel, destacando a luta contínua entre as tribos israelitas e os povos cananeus.",
+    "model": "gpt-4o-mini",
+    "run_id": "enr_20251203_231905_27ea038d",
+    "confidence": 1.0,
+    "generated_at": "2025-12-03T23:19:05.885408"
+  },
+  "ai_themes_normalized": [
+    {
+      "theme_id": null,
+      "proposal_id": "prop:territorial_identity_0bc634",
+      "label_original": "Identidade e controle territorial em Achzib",
+      "label_en": "Territorial Identity",
+      "label_normalized": "territorial_identity",
+      "anchor_verses": [
+        "Joshua 19:29",
+        "Judges 1:31"
+      ],
+      "relevance_score": 9,
+      "semantic_keywords": [
+        "territory",
+        "control",
+        "Asher",
+        "Phoenicians"
+      ],
+      "theological_domain": "anthropology",
+      "parent_theme": null,
+      "aspect": "dinâmica de controle entre tribos e povos vizinhos",
+      "source": "ai_enrichment",
+      "anchor_source": "ai_trusted",
+      "anchor_meta": {
+        "ai_suggested": 2,
+        "validated": 0,
+        "fallback_used": false
+      }
+    },
+    {
+      "theme_id": null,
+      "proposal_id": "prop:theological_meaning__0e1d4a",
+      "label_original": "Significado teológico do nome Achzib",
+      "label_en": "Theological Meaning of Achzib",
+      "label_normalized": "theological_meaning_of_achzib",
+      "anchor_verses": [
+        "Genesis 38:5",
+        "Joshua 15:44"
+      ],
+      "relevance_score": 8,
+      "semantic_keywords": [
+        "falsehood",
+        "name meaning",
+        "cultural significance"
+      ],
+      "theological_domain": "theology_proper",
+      "parent_theme": null,
+      "aspect": "implicações do nome na identidade cultural",
+      "source": "ai_enrichment",
+      "anchor_source": "ai_trusted",
+      "anchor_meta": {
+        "ai_suggested": 2,
+        "validated": 0,
+        "fallback_used": false
+      }
+    }
+  ],
+  "phase1_discovery": {
+    "processed_at": "2025-09-23T22:31:16.990824Z",
+    "total_themes_processed": 3,
+    "summary": {
+      "total_processed": 3,
+      "decisions": {
+        "alias_existing": 0,
+        "proposed": 3,
+        "error": 0
+      },
+      "success_rate": 1.0
+    },
+    "results": [
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.8401,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_1bccc425",
+          "decision_hash": "4779c03f37ca4e8e",
+          "created_at": "2025-09-23T22:31:16.990824Z"
+        },
+        "proposal_id": "prop:9a4c1def",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:promessa_e_cumprimento_1eeec5",
+          "label_original": "Promessa e cumprimento",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.84104,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_654adcae",
+          "decision_hash": "954b8e8a6986b20b",
+          "created_at": "2025-09-23T22:31:18.376497Z"
+        },
+        "proposal_id": "prop:0df28a8e",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:identidade_e_pertencimento_530631",
+          "label_original": "Identidade e pertencimento",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.83472,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_a8fde4b9",
+          "decision_hash": "d58eada063cbda02",
+          "created_at": "2025-09-23T22:31:19.741254Z"
+        },
+        "proposal_id": "prop:208ecd71",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:conquista_e_fe_16b2f1",
+          "label_original": "Conquista e fé",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      }
+    ]
+  },
+  "entity_links": [
+    {
+      "canonical_id": "CON:achzib",
+      "namespace": "CONCEPT",
+      "role": "primary",
+      "confidence": 0.9,
+      "source": "topic_resolver",
+      "status": "proposed",
+      "provenance": {
+        "topic": "ACHZIB",
+        "extracted_from": "ACHZIB",
+        "processing_result": {
+          "status": "proposed",
+          "proposal_id": "stub:CON:achzib_d51ecbb4",
+          "canonical_id": "CON:achzib",
+          "needs_review": true,
+          "reasons": [
+            "low_confidence",
+            "insufficient_sources"
+          ],
+          "message": "Entity proposal stub:CON:achzib_d51ecbb4 created"
+        }
+      }
+    }
+  ],
+  "see_also": [],
+  "aliases": [],
+  "stats": {
+    "entries_count": 2,
+    "ot_refs": 1,
+    "nt_refs": 0,
+    "total_verses": 1
+  },
+  "definitions": [
+    {
+      "source": "EAS",
+      "text": "Falsehood. (1.) A town in the Shephelah, or plain country of Judah (Josh. 15:44); probably the same as Chezib of Gen. 38:5 = Ain Kezbeh. (2.) A Phoenician city (the Gr. Ecdippa), always retained in their possession though assigned to the tribe of Asher (Josh. 19:29; Judg. 1:31). It is identified with the modern es-Zib, on the Mediterranean, about 8 miles north of Accho.",
+      "extracted_refs": [
+        {
+          "book": "Joshua",
+          "chapter": 15,
+          "verses": [
+            44
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "Joshua 15:44",
+          "source": "EAS"
+        },
+        {
+          "book": "Joshua",
+          "chapter": 19,
+          "verses": [
+            29
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "Joshua 19:29",
+          "source": "EAS"
+        },
+        {
+          "book": "Judges",
+          "chapter": 1,
+          "verses": [
+            31
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "Judges 1:31",
+          "source": "EAS"
+        },
+        {
+          "book": "Genesis",
+          "chapter": 38,
+          "verses": [
+            5
+          ],
+          "verse_count": 1,
+          "testament": "OT",
+          "raw": "Genesis 38:5",
+          "source": "EAS"
+        }
+      ]
+    },
+    {
+      "source": "SMI",
+      "text": "(lying, false)."
+    }
+  ],
+  "sources": [
+    "NAV",
+    "EAS",
+    "SMI"
+  ],
+  "metadata": {
+    "schema_version": "v3.0",
+    "created_at": "2025-12-02T21:53:08.661027+00:00",
+    "merged_from": {
+      "v2": true,
+      "dictionary": true
+    }
+  },
+  "version": "3.0.0",
+  "definition_refs": [
+    {
+      "book": "Joshua",
+      "chapter": 15,
+      "verses": [
+        44
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 15:44",
+      "source": "EAS"
+    },
+    {
+      "book": "Joshua",
+      "chapter": 19,
+      "verses": [
+        29
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Joshua 19:29",
+      "source": "EAS"
+    },
+    {
+      "book": "Judges",
+      "chapter": 1,
+      "verses": [
+        31
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Judges 1:31",
+      "source": "EAS"
+    },
+    {
+      "book": "Genesis",
+      "chapter": 38,
+      "verses": [
+        5
+      ],
+      "verse_count": 1,
+      "testament": "OT",
+      "raw": "Genesis 38:5",
+      "source": "EAS"
+    }
+  ],
+  "definition_refs_stats": {
+    "total": 4,
+    "ot": 4,
+    "nt": 0,
+    "books": [
+      "Genesis",
+      "Joshua",
+      "Judges"
+    ]
+  },
+  "cross_reference_network": {
+    "Genesis 38:5": [],
+    "Joshua 15:44": [
+      {
+        "to_verse": "1CH.4.19",
+        "score": 5,
+        "votes": 3,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "2CH.14.9",
+        "score": 5,
+        "votes": 3,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "EZE.48.7",
+        "score": 5,
+        "votes": 4,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "NEH.3.17",
+        "score": 5,
+        "votes": 3,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "1SA.23.1",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "GEN.38.5",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "MIC.1.14",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "MIC.1.15",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "1SA.23.10",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "1SA.23.11",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "1SA.23.12",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "1SA.23.13",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "1SA.23.14",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "1SA.23.2",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "1SA.23.3",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "1SA.23.4",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "1SA.23.5",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "1SA.23.6",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "1SA.23.7",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "1SA.23.8",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      }
+    ],
+    "Joshua 19:29": [
+      {
+        "to_verse": "JDG.1.31",
+        "score": 6,
+        "votes": 4,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "ZEC.9.3",
+        "score": 6,
+        "votes": 4,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "2SA.5.11",
+        "score": 5,
+        "votes": 3,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "EZE.48.2",
+        "score": 5,
+        "votes": 4,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "ACT.12.20",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "EZE.26.1",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "GEN.38.5",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "ISA.23.1",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "JOS.17.9",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "MIC.1.14",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "1KI.4.16",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "EZE.26.10",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "EZE.26.11",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "EZE.26.12",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "EZE.26.13",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "EZE.26.14",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "EZE.26.15",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "EZE.26.16",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "EZE.26.17",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "EZE.26.18",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      }
+    ],
+    "Judges 1:31": [
+      {
+        "to_verse": "JOS.19.24",
+        "score": 6,
+        "votes": 4,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "JOS.19.28",
+        "score": 6,
+        "votes": 4,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "JOS.19.29",
+        "score": 6,
+        "votes": 4,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "JOS.19.30",
+        "score": 6,
+        "votes": 4,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "JOS.19.25",
+        "score": 5,
+        "votes": 4,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "JOS.19.26",
+        "score": 5,
+        "votes": 4,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "JOS.19.27",
+        "score": 5,
+        "votes": 4,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "1KI.20.26",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "2SA.10.8",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "JOS.21.31",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "MAT.15.21",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "1CH.4.10",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "1KI.9.21",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "2CH.8.8",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "DEU.20.11",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "JDG.1.19",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "JDG.3.5",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "NUM.33.55",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "PSA.106.34",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "PSA.106.35",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      }
+    ]
+  },
+  "cross_ref_stats": {
+    "source_verses": 3,
+    "verses_with_crossrefs": 3,
+    "total_crossrefs": 60,
+    "unique_target_verses": 58,
+    "strong_refs": 15,
+    "coverage": 100.0
+  },
+  "connected_topics": [
+    {
+      "topic": "CANAANITES, THE",
+      "shared_refs": 130,
+      "strength": "strong"
+    },
+    {
+      "topic": "TYRE",
+      "shared_refs": 126,
+      "strength": "strong"
+    },
+    {
+      "topic": "ASHER, THE TRIBE OF",
+      "shared_refs": 97,
+      "strength": "strong"
+    },
+    {
+      "topic": "Fenced cities",
+      "shared_refs": 70,
+      "strength": "strong"
+    },
+    {
+      "topic": "JUDAH",
+      "shared_refs": 67,
+      "strength": "strong"
+    },
+    {
+      "topic": "SIDONIANS, THE",
+      "shared_refs": 61,
+      "strength": "strong"
+    },
+    {
+      "topic": "ASHER",
+      "shared_refs": 56,
+      "strength": "strong"
+    },
+    {
+      "topic": "PHILISTINES",
+      "shared_refs": 48,
+      "strength": "strong"
+    },
+    {
+      "topic": "ZIDON",
+      "shared_refs": 44,
+      "strength": "strong"
+    },
+    {
+      "topic": "AMORITES, THE",
+      "shared_refs": 42,
+      "strength": "strong"
+    },
+    {
+      "topic": "KEILAH",
+      "shared_refs": 42,
+      "strength": "strong"
+    },
+    {
+      "topic": "REHOB",
+      "shared_refs": 37,
+      "strength": "strong"
+    },
+    {
+      "topic": "KINGS",
+      "shared_refs": 34,
+      "strength": "strong"
+    },
+    {
+      "topic": "Zidon, Or Sidon",
+      "shared_refs": 30,
+      "strength": "strong"
+    },
+    {
+      "topic": "APHIK",
+      "shared_refs": 27,
+      "strength": "strong"
+    },
+    {
+      "topic": "COMMERCE",
+      "shared_refs": 27,
+      "strength": "strong"
+    },
+    {
+      "topic": "EPHOD, THE",
+      "shared_refs": 27,
+      "strength": "strong"
+    },
+    {
+      "topic": "GALILEE",
+      "shared_refs": 25,
+      "strength": "strong"
+    },
+    {
+      "topic": "TRIBES OF ISRAEL, THE",
+      "shared_refs": 25,
+      "strength": "strong"
+    },
+    {
+      "topic": "ARMIES OF ISRAEL, THE",
+      "shared_refs": 24,
+      "strength": "strong"
+    }
+  ],
+  "ai_entities": [
+    {
+      "name": "Achzib",
+      "type": "PLACE",
+      "canonical_id": null,
+      "context": "cidade mencionada na Bíblia, associada a Judá e Asher"
+    },
+    {
+      "name": "Asher",
+      "type": "PERSON",
+      "canonical_id": null,
+      "context": "tribo de Israel à qual Achzib foi atribuída"
+    }
+  ],
+  "ai_discovered_aspects": [
+    {
+      "label": "Cultural interactions in Achzib",
+      "references": [
+        "Joshua 19:29",
+        "Judges 1:31"
+      ],
+      "rationale": "Este aspecto é importante pois destaca como Achzib exemplifica as interações culturais e políticas entre Israel e os fenícios, que não são amplamente discutidas nas fontes existentes.",
+      "source": "ai_discovery"
+    }
+  ],
+  "ai_relationships": [
+    {
+      "target": "Asher",
+      "type": "MEMBER_OF",
+      "description": "Achzib foi atribuída à tribo de Asher, refletindo a distribuição territorial das tribos de Israel.",
+      "target_type": "PERSON",
+      "target_canonical_id": null,
+      "source": "ai_enrichment"
+    }
+  ],
+  "updated_at": "2025-12-03T23:19:05.887053Z",
+  "ai_reference_groups": [
+    {
+      "name": "Cultural interactions in Achzib",
+      "ai_group_id": "grp:achzib:cultural_interactions_in_achzib",
+      "source": "ai_discovery",
+      "source_verses": [
+        "Joshua 19:29",
+        "Judges 1:31"
+      ],
+      "references": [
+        {
+          "book": "Joshua",
+          "chapter": 19,
+          "verses": [
+            29
+          ],
+          "testament": "OT",
+          "raw": "Joshua 19:29"
+        },
+        {
+          "book": "Judges",
+          "chapter": 1,
+          "verses": [
+            31
+          ],
+          "testament": "OT",
+          "raw": "Judges 1:31"
+        }
+      ],
+      "ot_references": [
+        {
+          "book": "Joshua",
+          "chapter": 19,
+          "verses": [
+            29
+          ],
+          "testament": "OT",
+          "raw": "Joshua 19:29"
+        },
+        {
+          "book": "Judges",
+          "chapter": 1,
+          "verses": [
+            31
+          ],
+          "testament": "OT",
+          "raw": "Judges 1:31"
+        }
+      ],
+      "nt_references": [],
+      "rationale": "Este aspecto é importante pois destaca como Achzib exemplifica as interações culturais e políticas entre Israel e os fenícios, que não são amplamente discutidas nas fontes existentes.",
+      "quality": {
+        "verse_count": 2,
+        "has_ot_nt_coverage": false,
+        "relevance": "direct",
+        "confidence": 0.8
+      },
+      "auto_generated": true,
+      "generated_at": "2025-12-04T01:25:53.829584",
+      "requires_review": false,
+      "review_reason": null,
+      "is_duplicate_of": null
+    }
+  ],
+  "ai_reference_groups_updated_at": "2025-12-04T01:25:53.829621+00:00"
+}

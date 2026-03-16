@@ -18,7 +18,7 @@ from typing import Any
 
 # Paths
 REPO_ROOT = Path(__file__).parent.parent
-V3_DIR = REPO_ROOT / "data" / "01_unified"
+V3_DIR = REPO_ROOT / "data" / "01_parsed"
 
 # Book abbreviation mappings (common patterns in dictionaries)
 BOOK_PATTERNS = {

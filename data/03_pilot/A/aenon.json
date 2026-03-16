@@ -1,0 +1,908 @@
+{
+  "topic": "AENON",
+  "slug": "aenon",
+  "type": "both",
+  "reference_groups": [
+    {
+      "name": "See ENON",
+      "references": [],
+      "sub_groups": []
+    }
+  ],
+  "biblical_references": [],
+  "ai_enrichment": {
+    "summary": "Aenon é um local mencionado no Novo Testamento, especificamente em João 3:23, onde João Batista realizava batismos. Acredita-se que Aenon estava situado próximo a Salim, em uma região rica em fontes de água, o que tornava o local apropriado para o batismo. A presença de água abundante é um elemento significativo, pois simboliza a purificação e a renovação espiritual associadas ao batismo. A localização exata de Aenon não é clara, mas é frequentemente identificada com a área ao norte do Wady Far’ah, próximo ao Jordão.",
+    "outline": [
+      "A localização de Aenon: análise de João 3:23 e sua proximidade com Salim, destacando a importância da água para o batismo.",
+      "O batismo de João Batista em Aenon: contexto e significado teológico do batismo como ato de arrependimento e purificação (João 3:23).",
+      "A relação entre Aenon e a missão de João Batista: como o local reflete a preparação do povo para a vinda de Cristo (João 1:28).",
+      "A importância das fontes de água em Aenon: simbolismo da água na tradição judaica e sua conexão com a vida espiritual (João 3:22).",
+      "Geographical Significance of Aenon (John 3:23; John 3:22)",
+      "Cultural Context of Baptism (John 1:28; John 3:23)"
+    ],
+    "key_concepts": [
+      "Batismo",
+      "Arrependimento",
+      "Purificação",
+      "João Batista",
+      "Água"
+    ],
+    "theological_significance": "Aenon é teologicamente significativo por ser um local onde o batismo, um símbolo de arrependimento e purificação, era praticado por João Batista. Este ato de batismo não apenas preparava o caminho para a vinda de Cristo, mas também enfatizava a necessidade de arrependimento e renovação espiritual, temas centrais na mensagem do Novo Testamento.",
+    "model": "gpt-4o-mini",
+    "run_id": "enr_20251203_234328_edb7f292",
+    "confidence": 1.0,
+    "generated_at": "2025-12-03T23:43:28.074346"
+  },
+  "ai_themes_normalized": [
+    {
+      "theme_id": null,
+      "proposal_id": "prop:baptism_as_repentanc_0578d1",
+      "label_original": "Batismo como ato de arrependimento",
+      "label_en": "Baptism as Repentance",
+      "label_normalized": "baptism_as_repentance",
+      "anchor_verses": [
+        "John 3:23",
+        "John 1:28"
+      ],
+      "relevance_score": 9,
+      "semantic_keywords": [
+        "baptism",
+        "repentance",
+        "John the Baptist",
+        "purification"
+      ],
+      "theological_domain": "soteriology",
+      "parent_theme": null,
+      "aspect": "significado do batismo na preparação espiritual",
+      "source": "ai_enrichment",
+      "anchor_source": "ai_trusted",
+      "anchor_meta": {
+        "ai_suggested": 2,
+        "validated": 0,
+        "fallback_used": false
+      }
+    },
+    {
+      "theme_id": null,
+      "proposal_id": "prop:water_as_purificatio_00a57a",
+      "label_original": "Água como símbolo de purificação",
+      "label_en": "Water as Purification Symbol",
+      "label_normalized": "water_as_purification_symbol",
+      "anchor_verses": [
+        "John 3:22"
+      ],
+      "relevance_score": 8,
+      "semantic_keywords": [
+        "water",
+        "purification",
+        "life",
+        "spiritual renewal"
+      ],
+      "theological_domain": "theology_proper",
+      "parent_theme": null,
+      "aspect": "importância da água na tradição judaica",
+      "source": "ai_enrichment",
+      "anchor_source": "ai_trusted",
+      "anchor_meta": {
+        "ai_suggested": 1,
+        "validated": 0,
+        "fallback_used": false
+      }
+    }
+  ],
+  "phase1_discovery": {
+    "processed_at": "2025-09-23T22:34:07.660928Z",
+    "total_themes_processed": 3,
+    "summary": {
+      "total_processed": 3,
+      "decisions": {
+        "alias_existing": 0,
+        "proposed": 3,
+        "error": 0
+      },
+      "success_rate": 1.0
+    },
+    "results": [
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.8452999999999999,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_8d58bf91",
+          "decision_hash": "dc8ee00f00c2fad9",
+          "created_at": "2025-09-23T22:34:07.660928Z"
+        },
+        "proposal_id": "prop:c114d378",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:arrependimento_e_batismo_ec9c6a",
+          "label_original": "Arrependimento e batismo",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.83194,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_9665a1c7",
+          "decision_hash": "4c714bd036ff547f",
+          "created_at": "2025-09-23T22:34:08.552739Z"
+        },
+        "proposal_id": "prop:b9e1f7e1",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:purificacao_e_renovacao_fa1121",
+          "label_original": "Purificação e renovação",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.7936200000000001,
+          "novelty": 0.8,
+          "similarity_to_best_existing": 0.2,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_502f30d9",
+          "decision_hash": "1655fa3160bc5a80",
+          "created_at": "2025-09-23T22:34:09.541506Z"
+        },
+        "proposal_id": "prop:a50543cd",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:a_transicao_do_antigo_para_o_novo_testamento_e7bef0",
+          "label_original": "A transição do Antigo para o Novo Testamento",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      }
+    ]
+  },
+  "entity_links": [
+    {
+      "canonical_id": "CON:aenon",
+      "namespace": "CONCEPT",
+      "role": "primary",
+      "confidence": 0.9,
+      "source": "topic_resolver",
+      "status": "proposed",
+      "provenance": {
+        "topic": "AENON",
+        "extracted_from": "AENON",
+        "processing_result": {
+          "status": "proposed",
+          "proposal_id": "stub:CON:aenon_d42401ee",
+          "canonical_id": "CON:aenon",
+          "needs_review": true,
+          "reasons": [
+            "low_confidence",
+            "insufficient_sources"
+          ],
+          "message": "Entity proposal stub:CON:aenon_d42401ee created"
+        }
+      }
+    },
+    {
+      "canonical_id": "CON:enon",
+      "namespace": "CONCEPT",
+      "role": "secondary",
+      "confidence": 0.7,
+      "source": "topic_resolver",
+      "status": "proposed",
+      "provenance": {
+        "topic": "AENON",
+        "extracted_from": "ENON",
+        "processing_result": {
+          "status": "proposed",
+          "proposal_id": "stub:CON:enon_2e0b30ce",
+          "canonical_id": "CON:enon",
+          "needs_review": true,
+          "reasons": [
+            "low_confidence",
+            "insufficient_sources"
+          ],
+          "message": "Entity proposal stub:CON:enon_2e0b30ce created"
+        }
+      }
+    }
+  ],
+  "see_also": [
+    "ENON"
+  ],
+  "aliases": [],
+  "stats": {
+    "entries_count": 1,
+    "ot_refs": 0,
+    "nt_refs": 0,
+    "total_verses": 0
+  },
+  "definitions": [
+    {
+      "source": "EAS",
+      "text": "Springs, a place near Salim where John baptized (John 3:23). It was probably near the upper source of the Wady Far’ah, an open valley extending from Mount Ebal to the Jordan. It is full of springs. A place has been found called ‘Ainun, four miles north of the springs.",
+      "extracted_refs": [
+        {
+          "book": "John",
+          "chapter": 3,
+          "verses": [
+            23
+          ],
+          "verse_count": 1,
+          "testament": "NT",
+          "raw": "John 3:23",
+          "source": "EAS"
+        }
+      ]
+    },
+    {
+      "source": "SMI",
+      "text": "(springs) a place “near to Salim,” at which John baptized. (John 3:23) It was evidently west of the Jordan, comp. (John 3:22) with John 3:26 and with John 1:28 And abounded in water. It is given in the Omomasticon as eight miles south of Scythopolis “near Salem and the Jordan.”",
+      "extracted_refs": [
+        {
+          "book": "John",
+          "chapter": 3,
+          "verses": [
+            23
+          ],
+          "verse_count": 1,
+          "testament": "NT",
+          "raw": "John 3:23",
+          "source": "SMI"
+        },
+        {
+          "book": "John",
+          "chapter": 3,
+          "verses": [
+            22
+          ],
+          "verse_count": 1,
+          "testament": "NT",
+          "raw": "John 3:22",
+          "source": "SMI"
+        },
+        {
+          "book": "John",
+          "chapter": 3,
+          "verses": [
+            26
+          ],
+          "verse_count": 1,
+          "testament": "NT",
+          "raw": "John 3:26",
+          "source": "SMI"
+        },
+        {
+          "book": "John",
+          "chapter": 1,
+          "verses": [
+            28
+          ],
+          "verse_count": 1,
+          "testament": "NT",
+          "raw": "John 1:28",
+          "source": "SMI"
+        }
+      ]
+    }
+  ],
+  "dictionary_refs": [
+    {
+      "reference": "John 3:23",
+      "original": "John 3:23"
+    },
+    {
+      "reference": "John 3:22",
+      "original": "John 3:22"
+    },
+    {
+      "reference": "John 3:26",
+      "original": "John 3:26"
+    },
+    {
+      "reference": "John 1:28",
+      "original": "John 1:28"
+    }
+  ],
+  "sources": [
+    "NAV",
+    "EAS",
+    "SMI"
+  ],
+  "metadata": {
+    "schema_version": "v3.0",
+    "created_at": "2025-12-02T21:53:08.661554+00:00",
+    "merged_from": {
+      "v2": true,
+      "dictionary": true
+    }
+  },
+  "version": "3.0.0",
+  "definition_refs": [
+    {
+      "book": "John",
+      "chapter": 3,
+      "verses": [
+        23
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "John 3:23",
+      "source": "EAS"
+    },
+    {
+      "book": "John",
+      "chapter": 3,
+      "verses": [
+        22
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "John 3:22",
+      "source": "SMI"
+    },
+    {
+      "book": "John",
+      "chapter": 3,
+      "verses": [
+        26
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "John 3:26",
+      "source": "SMI"
+    },
+    {
+      "book": "John",
+      "chapter": 1,
+      "verses": [
+        28
+      ],
+      "verse_count": 1,
+      "testament": "NT",
+      "raw": "John 1:28",
+      "source": "SMI"
+    }
+  ],
+  "definition_refs_stats": {
+    "total": 4,
+    "ot": 0,
+    "nt": 4,
+    "books": [
+      "John"
+    ]
+  },
+  "cross_reference_network": {
+    "John 1:28": [],
+    "John 3:22": [
+      {
+        "to_verse": "JHN.3.26",
+        "score": 5,
+        "votes": 3,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "ACT.8.38",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "JHN.2.13",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "JHN.4.1",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "JHN.7.3",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "MRK.1.14",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "JHN.4.2",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "JHN.4.3",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      }
+    ],
+    "John 3:23": [
+      {
+        "to_verse": "JHN.1.28",
+        "score": 6,
+        "votes": 4,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "MAT.3.11",
+        "score": 5,
+        "votes": 3,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "1SA.9.4",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "ACT.8.36",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "EZE.19.10",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "EZE.43.2",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "GEN.33.18",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "JER.51.13",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "LUK.3.7",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "MAT.14.3",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "MAT.3.5",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "MRK.1.4",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "REV.1.15",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "REV.14.2",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "REV.19.6",
+        "score": 4,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "ACT.8.38",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "MAT.3.6",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "MRK.1.14",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      },
+      {
+        "to_verse": "MRK.1.5",
+        "score": 3,
+        "votes": 2,
+        "strength": "weak"
+      }
+    ],
+    "John 3:26": []
+  },
+  "cross_ref_stats": {
+    "source_verses": 2,
+    "verses_with_crossrefs": 2,
+    "total_crossrefs": 27,
+    "unique_target_verses": 25,
+    "strong_refs": 3,
+    "coverage": 100.0
+  },
+  "connected_topics": [
+    {
+      "topic": "BAPTISM",
+      "shared_refs": 73,
+      "strength": "strong"
+    },
+    {
+      "topic": "TYPES OF CHRIST",
+      "shared_refs": 46,
+      "strength": "strong"
+    },
+    {
+      "topic": "JOHN",
+      "shared_refs": 46,
+      "strength": "strong"
+    },
+    {
+      "topic": "FAITH",
+      "shared_refs": 40,
+      "strength": "strong"
+    },
+    {
+      "topic": "John the Baptist",
+      "shared_refs": 30,
+      "strength": "strong"
+    },
+    {
+      "topic": "Enon",
+      "shared_refs": 27,
+      "strength": "strong"
+    },
+    {
+      "topic": "SALIM",
+      "shared_refs": 19,
+      "strength": "strong"
+    },
+    {
+      "topic": "REPENTANCE",
+      "shared_refs": 16,
+      "strength": "strong"
+    },
+    {
+      "topic": "GALILEE",
+      "shared_refs": 14,
+      "strength": "strong"
+    },
+    {
+      "topic": "BAPTISM WITH THE HOLY SPIRIT",
+      "shared_refs": 14,
+      "strength": "strong"
+    },
+    {
+      "topic": "MINISTER, CHRISTIAN",
+      "shared_refs": 13,
+      "strength": "strong"
+    },
+    {
+      "topic": "PETER",
+      "shared_refs": 13,
+      "strength": "strong"
+    },
+    {
+      "topic": "MUSIC",
+      "shared_refs": 12,
+      "strength": "strong"
+    },
+    {
+      "topic": "PASSOVER",
+      "shared_refs": 12,
+      "strength": "strong"
+    },
+    {
+      "topic": "MIRACLES",
+      "shared_refs": 11,
+      "strength": "strong"
+    },
+    {
+      "topic": "PRAISE",
+      "shared_refs": 11,
+      "strength": "strong"
+    },
+    {
+      "topic": "JUDEA, MODERN",
+      "shared_refs": 10,
+      "strength": "strong"
+    },
+    {
+      "topic": "PROPHECIES RESPECTING CHRIST",
+      "shared_refs": 10,
+      "strength": "strong"
+    },
+    {
+      "topic": "PREACHING",
+      "shared_refs": 9,
+      "strength": "medium"
+    },
+    {
+      "topic": "HUMILITY",
+      "shared_refs": 9,
+      "strength": "medium"
+    }
+  ],
+  "ai_entities": [
+    {
+      "name": "Aenon",
+      "type": "PLACE",
+      "canonical_id": null,
+      "context": "local onde João Batista batizava"
+    },
+    {
+      "name": "João Batista",
+      "type": "PERSON",
+      "canonical_id": null,
+      "context": "profeta que realizava batismos em Aenon"
+    }
+  ],
+  "ai_symbols": [
+    {
+      "name": "Água",
+      "type": "NATURAL",
+      "literal_meaning": "Líquido essencial para a vida",
+      "symbolic_meaning": [
+        "Purificação",
+        "Renovação espiritual",
+        "Vida"
+      ]
+    }
+  ],
+  "ai_discovered_aspects": [
+    {
+      "label": "Geographical Significance of Aenon",
+      "references": [
+        "John 3:23",
+        "John 3:22"
+      ],
+      "rationale": "A localização de Aenon em relação a Salim e o Jordão destaca a importância geográfica e simbólica do local para o ministério de João Batista.",
+      "source": "ai_discovery"
+    },
+    {
+      "label": "Cultural Context of Baptism",
+      "references": [
+        "John 1:28",
+        "John 3:23"
+      ],
+      "rationale": "O batismo em Aenon reflete práticas culturais judaicas de purificação e arrependimento, que são fundamentais para entender a mensagem de João Batista.",
+      "source": "ai_discovery"
+    }
+  ],
+  "ai_relationships": [
+    {
+      "target": "João Batista",
+      "type": "LEADER_OF",
+      "description": "João Batista liderava o movimento de arrependimento e batismo em Aenon.",
+      "target_type": "PERSON",
+      "target_canonical_id": null,
+      "source": "ai_enrichment"
+    }
+  ],
+  "updated_at": "2025-12-03T23:43:28.076961Z",
+  "ai_reference_groups": [
+    {
+      "name": "Geographical Significance of Aenon",
+      "ai_group_id": "grp:aenon:geographical_significance_of_aenon",
+      "source": "ai_discovery",
+      "source_verses": [
+        "John 3:23",
+        "John 3:22"
+      ],
+      "references": [
+        {
+          "book": "John",
+          "chapter": 3,
+          "verses": [
+            23
+          ],
+          "testament": "NT",
+          "raw": "John 3:23"
+        },
+        {
+          "book": "John",
+          "chapter": 3,
+          "verses": [
+            22
+          ],
+          "testament": "NT",
+          "raw": "John 3:22"
+        }
+      ],
+      "ot_references": [],
+      "nt_references": [
+        {
+          "book": "John",
+          "chapter": 3,
+          "verses": [
+            23
+          ],
+          "testament": "NT",
+          "raw": "John 3:23"
+        },
+        {
+          "book": "John",
+          "chapter": 3,
+          "verses": [
+            22
+          ],
+          "testament": "NT",
+          "raw": "John 3:22"
+        }
+      ],
+      "rationale": "A localização de Aenon em relação a Salim e o Jordão destaca a importância geográfica e simbólica do local para o ministério de João Batista.",
+      "quality": {
+        "verse_count": 2,
+        "has_ot_nt_coverage": false,
+        "relevance": "direct",
+        "confidence": 0.8
+      },
+      "auto_generated": true,
+      "generated_at": "2025-12-04T01:25:54.024996",
+      "requires_review": false,
+      "review_reason": null,
+      "is_duplicate_of": null
+    },
+    {
+      "name": "Cultural Context of Baptism",
+      "ai_group_id": "grp:aenon:cultural_context_of_baptism",
+      "source": "ai_discovery",
+      "source_verses": [
+        "John 1:28",
+        "John 3:23"
+      ],
+      "references": [
+        {
+          "book": "John",
+          "chapter": 1,
+          "verses": [
+            28
+          ],
+          "testament": "NT",
+          "raw": "John 1:28"
+        },
+        {
+          "book": "John",
+          "chapter": 3,
+          "verses": [
+            23
+          ],
+          "testament": "NT",
+          "raw": "John 3:23"
+        }
+      ],
+      "ot_references": [],
+      "nt_references": [
+        {
+          "book": "John",
+          "chapter": 1,
+          "verses": [
+            28
+          ],
+          "testament": "NT",
+          "raw": "John 1:28"
+        },
+        {
+          "book": "John",
+          "chapter": 3,
+          "verses": [
+            23
+          ],
+          "testament": "NT",
+          "raw": "John 3:23"
+        }
+      ],
+      "rationale": "O batismo em Aenon reflete práticas culturais judaicas de purificação e arrependimento, que são fundamentais para entender a mensagem de João Batista.",
+      "quality": {
+        "verse_count": 2,
+        "has_ot_nt_coverage": false,
+        "relevance": "direct",
+        "confidence": 0.8
+      },
+      "auto_generated": true,
+      "generated_at": "2025-12-04T01:25:54.025040",
+      "requires_review": false,
+      "review_reason": null,
+      "is_duplicate_of": null
+    }
+  ],
+  "ai_reference_groups_updated_at": "2025-12-04T01:25:54.025098+00:00"
+}

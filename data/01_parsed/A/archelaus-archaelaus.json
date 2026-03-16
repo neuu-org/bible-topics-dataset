@@ -1,0 +1,247 @@
+{
+  "topic": "ARCHELAUS (ARCHAELAUS)",
+  "slug": "archelaus-archaelaus",
+  "type": "topic",
+  "reference_groups": [
+    {
+      "idx": 0,
+      "entry_label": "–A ruler of Judaea (a son of Herod the Great)Mt 2:22",
+      "raw_segment": "–A ruler of Judaea (a son of Herod the Great)Mt 2:22"
+    }
+  ],
+  "biblical_references": [
+    {
+      "book": "Matthew",
+      "book_abbrev": "mat",
+      "chapter": 2,
+      "testament": "NT",
+      "verses": [
+        22
+      ],
+      "verse_count": 1
+    }
+  ],
+  "ai_enrichment": {
+    "summary": "Arquelaus, filho de Herodes, o Grande, é uma figura importante no contexto do Novo Testamento, especialmente em Mateus 2:22, onde sua ascensão ao poder representa um período de instabilidade política e social na Judeia. Sua governança é marcada por uma reputação de crueldade e ineficácia, o que levou José, pai de Jesus, a evitar retornar à Judeia após a morte de Herodes. A presença de Arquelaus no relato bíblico destaca a tensão entre o governo romano e a expectativa messiânica do povo judeu, refletindo a luta entre o poder humano e o plano divino de redenção.",
+    "outline": [
+      "Contexto histórico da dinastia herodiana",
+      "A cruel governança de Arquelaus",
+      "A decisão de José de não retornar à Judeia",
+      "A relação entre o governo de Arquelaus e a expectativa messiânica"
+    ],
+    "key_concepts": [
+      "Governança e poder político na Judeia",
+      "Expectativa messiânica",
+      "Intervenção divina na história"
+    ],
+    "theological_significance": "A figura de Arquelaus ilustra como Deus opera em meio a circunstâncias adversas e governantes injustos. A decisão de José de não retornar à Judeia, guiada por um sonho, enfatiza a soberania de Deus sobre a história e a proteção divina sobre Jesus, o Messias. Este relato encoraja os cristãos a confiarem na direção divina, mesmo em tempos de incerteza e opressão.",
+    "model": "gpt-4o-mini",
+    "run_id": "enr_20250923_131536_2a8e5c4d",
+    "confidence": 1.0,
+    "generated_at": "2025-09-23T13:15:36.719803"
+  },
+  "ai_themes_normalized": [
+    {
+      "theme_id": null,
+      "proposal_id": "prop:soberania_de_deus_eace0d",
+      "label_original": "Soberania de Deus",
+      "source": "ai_enrichment"
+    },
+    {
+      "theme_id": null,
+      "proposal_id": "prop:protecao_divina_a6f2b0",
+      "label_original": "Proteção divina",
+      "source": "ai_enrichment"
+    },
+    {
+      "theme_id": null,
+      "proposal_id": "prop:conflito_entre_o_reino_de_deus_e_os_reinos_da_terra_a5d55b",
+      "label_original": "Conflito entre o reino de Deus e os reinos da terra",
+      "source": "ai_enrichment"
+    }
+  ],
+  "phase1_discovery": {
+    "processed_at": "2025-09-23T22:49:01.549839Z",
+    "total_themes_processed": 3,
+    "summary": {
+      "total_processed": 3,
+      "decisions": {
+        "alias_existing": 0,
+        "proposed": 3,
+        "error": 0
+      },
+      "success_rate": 1.0
+    },
+    "results": [
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.83372,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_c4b17cb6",
+          "decision_hash": "a7a1757c9e3efeb0",
+          "created_at": "2025-09-23T22:49:01.549839Z"
+        },
+        "proposal_id": "prop:59df99ab",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:soberania_de_deus_eace0d",
+          "label_original": "Soberania de Deus",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.84004,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_faca9b6f",
+          "decision_hash": "015b1e790ae93194",
+          "created_at": "2025-09-23T22:49:02.873099Z"
+        },
+        "proposal_id": "prop:957ee12e",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:protecao_divina_a6f2b0",
+          "label_original": "Proteção divina",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      },
+      {
+        "decision": "proposed",
+        "reasons": [
+          "low_confidence",
+          "small_cluster"
+        ],
+        "metrics": {
+          "confidence_0_1": 0.83776,
+          "novelty": 1.0,
+          "similarity_to_best_existing": 0.0,
+          "semantic_similarity_to_best_existing": 0.0,
+          "best_existing_match": null,
+          "intra_cluster_size": 3
+        },
+        "artifacts": {
+          "label_embedding": {
+            "model_small": "text-embedding-3-small",
+            "model_large": "text-embedding-3-large",
+            "dimensions_small": 1536,
+            "dimensions_large": 3072,
+            "normalized": true
+          },
+          "policies_version": "policy.v2.1",
+          "run_id": "run_88b98fe4",
+          "decision_hash": "d5e9c2f5cd37b63c",
+          "created_at": "2025-09-23T22:49:04.126099Z"
+        },
+        "proposal_id": "prop:a3c2dfc5",
+        "processing": {
+          "orchestrator_version": "1.0",
+          "status": "completed",
+          "persisted": true
+        },
+        "original_theme": {
+          "theme_id": null,
+          "proposal_id": "prop:conflito_entre_o_reino_de_deus_e_os_reinos_da_terra_a5d55b",
+          "label_original": "Conflito entre o reino de Deus e os reinos da terra",
+          "confidence": 0.9500000000000001,
+          "source": "ai_enrichment"
+        }
+      }
+    ]
+  },
+  "entity_links": [
+    {
+      "canonical_id": "CON:archelaus_archaelaus",
+      "namespace": "CONCEPT",
+      "role": "primary",
+      "confidence": 0.9,
+      "source": "topic_resolver",
+      "status": "proposed",
+      "provenance": {
+        "topic": "ARCHELAUS (ARCHAELAUS)",
+        "extracted_from": "ARCHELAUS (ARCHAELAUS)",
+        "processing_result": {
+          "status": "proposed",
+          "proposal_id": "stub:CON:archelaus_archaelaus_c567c715",
+          "canonical_id": "CON:archelaus_archaelaus",
+          "needs_review": true,
+          "reasons": [
+            "low_confidence",
+            "insufficient_sources"
+          ],
+          "message": "Entity proposal stub:CON:archelaus_archaelaus_c567c715 created"
+        }
+      }
+    }
+  ],
+  "see_also": [],
+  "aliases": [],
+  "stats": {
+    "entries_count": 1,
+    "ot_refs": 0,
+    "nt_refs": 1,
+    "total_verses": 1
+  },
+  "definitions": [],
+  "sources": [
+    "NAV"
+  ],
+  "metadata": {
+    "schema_version": "v3.0",
+    "created_at": "2025-12-02T21:53:08.669504+00:00",
+    "merged_from": {
+      "v2": true,
+      "dictionary": false
+    }
+  },
+  "version": "3.0.0"
+}

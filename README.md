@@ -1,6 +1,6 @@
 # Bible Topics Dataset
 
-7,873 biblical topics unified from four classic reference works (Nave, Torrey, Easton, Smith), with structured references and AI enrichment.
+7,873 biblical topics unified from two classic topical reference works (Nave + Torrey), enriched with dictionary definitions from [bible-dictionary-dataset](https://github.com/neuu-org/bible-dictionary-dataset).
 
 Part of the [NEUU](https://github.com/neuu-org) biblical scholarship ecosystem.
 
@@ -17,12 +17,16 @@ Part of the [NEUU](https://github.com/neuu-org) biblical scholarship ecosystem.
 
 ## Sources
 
+### Topical sources (this repo)
+
 | Source | Code | Topics | Period |
 |--------|:---:|--------|--------|
 | Nave's Topical Bible | NAV | 5,320 | 1896 |
 | Torrey's New Topical Textbook | TOR | 622 | 1897 |
-| Easton's Bible Dictionary | EAS | 3,956 | 1897 |
-| Smith's Bible Dictionary | SMI | 4,546 | 1863 |
+
+### Definition sources (external dependency)
+
+Definitions from Easton (EAS) and Smith (SMI) are merged during the `create_v3_unified.py` step from [bible-dictionary-dataset](https://github.com/neuu-org/bible-dictionary-dataset). They are **not** stored in this repo.
 
 All sources are **public domain**.
 

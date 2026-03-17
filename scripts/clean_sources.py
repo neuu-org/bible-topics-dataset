@@ -205,105 +205,168 @@ def extract_refs_from_text(text: str) -> list[dict]:
     return refs
 
 
+def _parse_single_line(line: str, last_book: str | None):
+    """Parse a single line into (label, ref_strings, last_book).
+
+    Returns the label text, list of parsed ref strings, and updated last_book.
+    """
+    # Remove leading dash
+    if line.startswith(("\u2013", "-", "\u2014")):
+        line = line[1:].strip()
+    # Remove trailing period if it's just punctuation
+    # Only strip trailing period if followed by nothing (end of line)
+    if line.endswith("."):
+        line = line[:-1].rstrip()
+
+    # Try to find where refs start by matching a book pattern before chapter:verse
+    split_pos = None
+    matched_book = None
+    for pattern, book in BOOK_PATTERNS.items():
+        # Require word boundary or start-of-string before book pattern
+        # to avoid matching "Lu" inside "Illustrated" or "Ge" inside "George"
+        m = re.search(rf"(?:^|(?<=\s)|(?<=;)|(?<=[—\-\.]))({pattern})\s*\d+:", line, re.IGNORECASE)
+        if m:
+            if split_pos is None or m.start() < split_pos:
+                split_pos = m.start()
+                matched_book = book
+
+    if split_pos is not None:
+        label = re.sub(r"\s*[—\-]+\s*$", "", line[:split_pos].strip())
+        ref_text = line[split_pos:]
+        refs = extract_refs_from_text(ref_text)
+        ref_strings = [r["raw"] for r in refs]
+        return label, ref_strings, matched_book or last_book
+
+    # No book pattern — check for orphan chapter:verse (continuation refs)
+    orphan_cv = re.findall(r"\d+:\d+", line)
+    if orphan_cv and last_book:
+        first_cv = re.search(r"\d+:\d+", line)
+        if first_cv:
+            label = line[:first_cv.start()].strip().rstrip(";,").strip()
+            ref_text = f"{last_book} " + line[first_cv.start():]
+            refs = extract_refs_from_text(ref_text)
+            ref_strings = [r["raw"] for r in refs]
+            return label, ref_strings, last_book
+
+    # No refs found at all — strip trailing em-dash/dash
+    clean_label = re.sub(r"\s*[—\-]+\s*$", "", line.strip())
+    return clean_label, [], last_book
+
+
 def parse_aspects(raw_block: str) -> list[dict]:
     """Parse raw_block into structured aspects with labels and references.
 
-    Handles cases where:
-    - Book abbreviation is glued to text: "ShechemitesJud 9:4"
-    - Refs continue without book name: "Pr 2:16;5:3;6:24" (all Proverbs)
+    Handles:
+    - Book abbreviation glued to text: "ShechemitesJud 9:4"
+    - Refs without book name: "Pr 2:16;5:3;6:24" (all Proverbs)
     - Orphan numeric refs: "1:5,22;2:38" inherit book from context
+    - Indented sub-items: parent header merged with children
+    - Standalone headers: "Exemplified" followed by "Moses. —Ex 24:2"
+    - Name-dot-dash pattern: "Moses. —Ex 24:2" (common in Torrey)
     """
-    aspects = []
-    lines = raw_block.split("\n")
-    last_book_in_context = None  # Track book across lines
-
-    for line in lines:
-        line = line.strip()
-        if not line:
+    raw_lines = raw_block.split("\n")
+    # Pre-process: identify indentation structure
+    parsed_lines = []
+    for line in raw_lines:
+        if not line.strip():
             continue
+        indent = len(line) - len(line.lstrip())
+        is_indented = indent >= 2
+        parsed_lines.append((line.strip(), is_indented))
 
-        # Remove leading dash
-        if line.startswith(("\u2013", "-")):
-            line = line[1:].strip()
+    aspects = []
+    last_book = None
+    pending_header = None  # Header without refs waiting for children
 
-        # Find where refs start by trying each book pattern before a chapter:verse
-        split_pos = None
-        matched_book = None
-        for pattern, book in BOOK_PATTERNS.items():
-            m = re.search(rf"{pattern}\s*\d+:", line, re.IGNORECASE)
-            if m:
-                if split_pos is None or m.start() < split_pos:
-                    split_pos = m.start()
-                    matched_book = book
+    i = 0
+    while i < len(parsed_lines):
+        text, is_indented = parsed_lines[i]
 
-        if split_pos is not None:
-            label = line[:split_pos].strip()
-            ref_text = line[split_pos:]
-            refs = extract_refs_from_text(ref_text)
-            ref_strings = [r["raw"] for r in refs]
-            if matched_book:
-                last_book_in_context = matched_book
-        else:
-            # No book pattern found — check if line has orphan chapter:verse patterns
-            # like "1:5,22;2:38,41;8:12" that should inherit the last known book
-            orphan_cv = re.findall(r"\d+:\d+", line)
-            if orphan_cv and last_book_in_context:
-                # This line is continuation refs without book name
-                # Prepend the last known book abbreviation so the parser can handle it
-                # Find the shortest abbreviation for the book
-                book_abbrev = None
-                for pattern, book in BOOK_PATTERNS.items():
-                    if book == last_book_in_context:
-                        # Extract the simplest abbreviation from the pattern
-                        clean = re.sub(r"\(\?:.*?\)\??|\\.|\?|\\s\*|\^|\$", "", pattern)
-                        clean = clean.replace("(?:", "").replace(")?", "").replace("(", "").replace(")", "")
-                        if clean and len(clean) >= 2:
-                            book_abbrev = clean[:3]
-                            break
-                if book_abbrev:
-                    # Find where the numeric refs start in the line
-                    first_cv = re.search(r"\d+:\d+", line)
-                    if first_cv:
-                        label = line[:first_cv.start()].strip()
-                        ref_text = f"{book_abbrev} " + line[first_cv.start():]
-                        refs = extract_refs_from_text(ref_text)
-                        ref_strings = [r["raw"] for r in refs]
-                    else:
-                        label = line
-                        ref_strings = []
-                else:
-                    label = line
-                    ref_strings = []
+        label, ref_strings, last_book = _parse_single_line(text, last_book)
+
+        if ref_strings:
+            # This line has refs
+            if pending_header:
+                # Merge with pending header: "Exemplified: Moses"
+                full_label = f"{pending_header}: {label}" if label else pending_header
+                aspects.append({
+                    "label": full_label,
+                    "references": ref_strings,
+                })
+                # Check if next lines are also indented children of same header
+                j = i + 1
+                while j < len(parsed_lines) and parsed_lines[j][1]:  # still indented
+                    child_text, _ = parsed_lines[j]
+                    child_label, child_refs, last_book = _parse_single_line(child_text, last_book)
+                    if child_refs:
+                        child_full = f"{pending_header}: {child_label}" if child_label else pending_header
+                        aspects.append({
+                            "label": child_full,
+                            "references": child_refs,
+                        })
+                    j += 1
+                pending_header = None
+                i = j
+                continue
             else:
-                label = line
-                ref_strings = []
+                # Normal aspect with label + refs
+                aspects.append({
+                    "label": label if label else "General references",
+                    "references": ref_strings,
+                })
+        else:
+            # No refs — could be a header for indented children
+            if label and not label.startswith("See"):
+                # Check if next line is indented (this is a header)
+                if i + 1 < len(parsed_lines) and parsed_lines[i + 1][1]:
+                    pending_header = label
+                    i += 1
+                    continue
+                else:
+                    # Standalone label without refs and no children
+                    # Skip it — it's a header for content that follows on same indent
+                    # or a "See TOPIC" reference
+                    pending_header = label
+                    i += 1
+                    continue
 
-        if label or ref_strings:
-            aspects.append({
-                "label": label if label else "General references",
-                "references": ref_strings,
-            })
+        pending_header = None
+        i += 1
 
     return aspects
 
 
+def _has_preextracted_aspects(data: dict) -> bool:
+    """Check if data already has properly extracted aspects (from v2 parser)."""
+    aspects = data.get("aspects", [])
+    if not aspects or not isinstance(aspects, list):
+        return False
+    # v2 parser outputs aspects with "references" as list of strings
+    # v1 parser outputs raw_block text that needs parse_aspects()
+    first = aspects[0]
+    return isinstance(first, dict) and "references" in first and isinstance(first["references"], list)
+
+
 def clean_topic(data: dict) -> dict:
     """Clean a single topic JSON to structured format."""
-    raw_block = data.get("raw_block", "")
     topic = data.get("topic", "")
     slug = data.get("topic_slug", data.get("slug", ""))
     canonical_id = data.get("canonical_id", "")
     source_code = "NAV" if canonical_id.startswith("NAV:") else "TOR"
 
-    # Parse aspects and refs from raw_block
-    aspects = parse_aspects(raw_block)
-    biblical_refs = extract_refs_from_text(raw_block)
-
-    # Extract see_also
-    see_also = data.get("see_also", [])
-    if not see_also:
-        see_matches = re.findall(r"[Ss]ee\s+([A-Z][A-Z\s,'\-]+?)(?:\n|$)", raw_block)
-        see_also = [s.strip().rstrip(",") for s in see_matches if s.strip()]
+    # Use pre-extracted aspects if available (v2 parser), otherwise parse from raw_block
+    if _has_preextracted_aspects(data):
+        aspects = data["aspects"]
+        biblical_refs = data.get("biblical_references", [])
+        see_also = data.get("see_also", [])
+    else:
+        raw_block = data.get("raw_block", "")
+        aspects = parse_aspects(raw_block)
+        biblical_refs = extract_refs_from_text(raw_block)
+        see_also = data.get("see_also", [])
+        if not see_also:
+            see_matches = re.findall(r"[Ss]ee\s+([A-Z][A-Z\s,'\-]+?)(?:\n|$)", raw_block)
+            see_also = [s.strip().rstrip(",") for s in see_matches if s.strip()]
 
     # Stats
     books_mentioned = sorted(set(r["book"] for r in biblical_refs))

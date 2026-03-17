@@ -5,20 +5,24 @@ Parse Torrey's Topical Textbook from CCEL ThML XML.
 Reads:  data/00_raw/xml/torrey_ttt.xml
 Writes: data/02_sources/torrey/A-Z/*.json
 
+Extracts aspects with references directly from XML structure (scripRef tags),
+avoiding text-based parsing that loses data.
+
 Usage:
     python scripts/parse_torrey.py --all
-    python scripts/parse_torrey.py --topic AFFECTIONS
+    python scripts/parse_torrey.py --all --verbose
+    python scripts/parse_torrey.py --topic "ANGER OF GOD, THE"
 """
 
 import argparse
-import hashlib
 import json
 import re
-from datetime import datetime
+from collections import Counter
+from datetime import datetime, timezone
 from pathlib import Path
-from typing import Dict, List, Optional
+from typing import Optional
 
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, NavigableString
 
 # ---------------------------------------------------------------------------
 # Paths
@@ -28,32 +32,136 @@ XML_FILE = REPO_ROOT / "data" / "00_raw" / "xml" / "torrey_ttt.xml"
 OUTPUT_DIR = REPO_ROOT / "data" / "02_sources" / "torrey"
 
 # ---------------------------------------------------------------------------
-# Book-to-testament mapping (inlined from book_utils)
+# Book abbreviation → canonical name (shared with clean_sources.py)
 # ---------------------------------------------------------------------------
+BOOK_PATTERNS: dict[str, str] = {
+    # Old Testament
+    r"Ge(?:n(?:esis)?)?\.?": "Genesis",
+    r"Ex(?:od(?:us)?)?\.?": "Exodus",
+    r"Le(?:v(?:iticus)?)?\.?": "Leviticus",
+    r"Nu(?:m(?:bers)?)?\.?|Nb\.?": "Numbers",
+    r"De(?:ut(?:eronomy)?)?\.?|Dt\.?": "Deuteronomy",
+    r"Jos(?:h(?:ua)?)?\.?": "Joshua",
+    r"Jud(?:g(?:es)?)?\.?|Jg\.?|Jdj\.?": "Judges",
+    r"Ru(?:th)?\.?": "Ruth",
+    r"1\s*Sa(?:m(?:uel)?)?\.?": "1 Samuel",
+    r"2\s*Sa(?:m(?:uel)?)?\.?": "2 Samuel",
+    r"1\s*Ki(?:ngs)?\.?|1\s*Kgs\.?": "1 Kings",
+    r"2\s*Ki(?:ngs)?\.?|2\s*Kgs\.?": "2 Kings",
+    r"1\s*Ch(?:r(?:on(?:icles)?)?)?\.?": "1 Chronicles",
+    r"2\s*Ch(?:r(?:on(?:icles)?)?)?\.?": "2 Chronicles",
+    r"Ezr(?:a)?\.?": "Ezra",
+    r"Ne(?:h(?:emiah)?)?\.?": "Nehemiah",
+    r"Es(?:th?(?:er)?)?\.?": "Esther",
+    r"Jo(?:b)?\.?": "Job",
+    r"Ps(?:a(?:lm(?:s)?)?)?\.?": "Psalms",
+    r"Pr(?:ov?(?:erbs)?)?\.?": "Proverbs",
+    r"Ec(?:cl?(?:esiastes)?)?\.?": "Ecclesiastes",
+    r"So(?:ng)?(?:\s*of\s*Sol(?:omon)?)?|Ca(?:nt)?\.?|SS\.?": "Song of Solomon",
+    r"Isa(?:iah)?\.?|Is\.?": "Isaiah",
+    r"Jer(?:emiah)?\.?|Je\.?": "Jeremiah",
+    r"La(?:m(?:entations)?)?\.?": "Lamentations",
+    r"Eze(?:k(?:iel)?)?\.?": "Ezekiel",
+    r"Da(?:n(?:iel)?)?\.?": "Daniel",
+    r"Ho(?:s(?:ea)?)?\.?": "Hosea",
+    r"Joe(?:l)?\.?": "Joel",
+    r"Am(?:os)?\.?": "Amos",
+    r"Ob(?:ad(?:iah)?)?\.?": "Obadiah",
+    r"Jon(?:ah)?\.?": "Jonah",
+    r"Mi(?:c(?:ah)?)?\.?": "Micah",
+    r"Na(?:h(?:um)?)?\.?": "Nahum",
+    r"Hab(?:akkuk)?\.?": "Habakkuk",
+    r"Zep(?:h(?:aniah)?)?\.?": "Zephaniah",
+    r"Hag(?:gai)?\.?": "Haggai",
+    r"Zec(?:h(?:ariah)?)?\.?": "Zechariah",
+    r"Mal(?:achi)?\.?": "Malachi",
+    # New Testament
+    r"Mt\.?|Mat(?:t(?:hew)?)?\.?": "Matthew",
+    r"Mr\.?|Mk\.?|Mar(?:k)?\.?": "Mark",
+    r"Lu(?:ke)?\.?|Lk\.?": "Luke",
+    r"Joh(?:n)?\.?|Jn\.?": "John",
+    r"Ac(?:ts)?\.?": "Acts",
+    r"Ro(?:m(?:ans)?)?\.?": "Romans",
+    r"1\s*Co(?:r(?:inthians)?)?\.?": "1 Corinthians",
+    r"2\s*Co(?:r(?:inthians)?)?\.?": "2 Corinthians",
+    r"Ga(?:l(?:atians)?)?\.?": "Galatians",
+    r"Eph(?:esians)?\.?": "Ephesians",
+    r"Ph(?:il(?:ippians)?|p)\.?": "Philippians",
+    r"Col(?:ossians)?\.?": "Colossians",
+    r"1\s*Th(?:ess?(?:alonians)?)?\.?": "1 Thessalonians",
+    r"2\s*Th(?:ess?(?:alonians)?)?\.?": "2 Thessalonians",
+    r"1\s*Ti(?:m(?:othy)?)?\.?": "1 Timothy",
+    r"2\s*Ti(?:m(?:othy)?)?\.?": "2 Timothy",
+    r"Tit(?:us)?\.?": "Titus",
+    r"Ph(?:ile)?m(?:on)?\.?": "Philemon",
+    r"Heb(?:rews)?\.?": "Hebrews",
+    r"Ja(?:s|m(?:es)?)\.?": "James",
+    r"1\s*Pe(?:t(?:er)?)?\.?": "1 Peter",
+    r"2\s*Pe(?:t(?:er)?)?\.?": "2 Peter",
+    r"1\s*Jo(?:hn?)?\.?|1\s*Jn\.?": "1 John",
+    r"2\s*Jo(?:hn?)?\.?|2\s*Jn\.?": "2 John",
+    r"3\s*Jo(?:hn?)?\.?|3\s*Jn\.?": "3 John",
+    r"Jude": "Jude",
+    r"Re(?:v(?:elation)?)?\.?": "Revelation",
+}
+
 OT_BOOKS = {
-    "gen", "exod", "lev", "num", "deut", "josh", "judg", "ruth",
-    "1sam", "2sam", "1kgs", "2kgs", "1chr", "2chr", "ezra", "neh",
-    "esth", "job", "ps", "prov", "eccl", "song", "isa", "jer",
-    "lam", "ezek", "dan", "hos", "joel", "amos", "obad", "jonah",
-    "mic", "nah", "hab", "zeph", "hag", "zech", "mal",
-}
-
-NT_BOOKS = {
-    "matt", "mark", "luke", "john", "acts", "rom", "1cor", "2cor",
-    "gal", "eph", "phil", "col", "1thess", "2thess", "1tim", "2tim",
-    "titus", "phlm", "heb", "jas", "1pet", "2pet", "1john", "2john",
-    "3john", "jude", "rev",
+    "Genesis", "Exodus", "Leviticus", "Numbers", "Deuteronomy",
+    "Joshua", "Judges", "Ruth", "1 Samuel", "2 Samuel",
+    "1 Kings", "2 Kings", "1 Chronicles", "2 Chronicles",
+    "Ezra", "Nehemiah", "Esther", "Job", "Psalms", "Proverbs",
+    "Ecclesiastes", "Song of Solomon", "Isaiah", "Jeremiah",
+    "Lamentations", "Ezekiel", "Daniel", "Hosea", "Joel", "Amos",
+    "Obadiah", "Jonah", "Micah", "Nahum", "Habakkuk", "Zephaniah",
+    "Haggai", "Zechariah", "Malachi",
 }
 
 
-def get_testament_type(book: str) -> Optional[str]:
-    """Return 'old_testament', 'new_testament', or None."""
-    book_lower = book.lower()
-    if book_lower in OT_BOOKS:
-        return "old_testament"
-    if book_lower in NT_BOOKS:
-        return "new_testament"
+def normalize_book(abbrev: str) -> str | None:
+    """Convert abbreviation to full canonical book name."""
+    abbrev = abbrev.strip()
+    for pattern, book in BOOK_PATTERNS.items():
+        if re.match(f"^{pattern}$", abbrev, re.IGNORECASE):
+            return book
     return None
+
+
+def parse_verse_range(verse_str: str) -> list[int]:
+    """Parse verse string like '1-10' or '3,5,7' into sorted list of verses."""
+    verses: list[int] = []
+    for part in verse_str.split(","):
+        part = part.strip()
+        if "-" in part or "\u2013" in part:
+            parts = re.split(r"[-\u2013]", part)
+            try:
+                start, end = int(parts[0]), int(parts[1])
+                verses.extend(range(start, end + 1))
+            except (ValueError, IndexError):
+                pass
+        else:
+            try:
+                verses.append(int(part))
+            except ValueError:
+                pass
+    return sorted(set(verses))
+
+
+def normalize_passage(passage: str) -> tuple[str | None, str | None]:
+    """Normalize a passage string like 'Ro 9:18' → ('Romans', '9:18').
+
+    Returns (canonical_book, chapter_verse) or (None, None) if unparseable.
+    """
+    passage = passage.strip()
+    # Match: optional number prefix + book name + space + chapter:verse
+    m = re.match(r"^(\d?\s*[A-Za-z]+)\s+(\d+.*)$", passage)
+    if not m:
+        return None, None
+    book_abbrev = m.group(1).strip()
+    cv_part = m.group(2).strip()
+    canonical = normalize_book(book_abbrev)
+    if not canonical:
+        return None, None
+    return canonical, cv_part
 
 
 # ---------------------------------------------------------------------------
@@ -63,14 +171,9 @@ def get_testament_type(book: str) -> Optional[str]:
 def clean_topic_name(topic_name: str) -> str:
     """Clean and normalize topic name."""
     topic_name = topic_name.strip()
-
-    # Remove trailing periods and other punctuation
     topic_name = re.sub(r"[.,;:]+$", "", topic_name)
-
-    # Remove "The" prefix if present
     if topic_name.startswith("The "):
         topic_name = topic_name[4:]
-
     return topic_name.strip()
 
 
@@ -79,33 +182,13 @@ def create_topic_slug(topic_name: str) -> str:
     return re.sub(r"[^a-zA-Z0-9_]", "_", topic_name.lower().strip())
 
 
-def create_content_preview(content: str) -> str:
-    """Create preview of content."""
-    first_line = content.split("\n")[0] if content else ""
-    return first_line[:100] + "..." if len(first_line) > 100 else first_line
-
-
-def resolve_see_also_links(see_also: List[str]) -> List[Dict]:
-    """Resolve see_also links to canonical format."""
-    resolved = []
-    for term in see_also:
-        resolved.append({
-            "original": term,
-            "clean": term,
-            "slug": create_topic_slug(term),
-            "canonical_id": f"TOR:{create_topic_slug(term)}",
-        })
-    return resolved
-
-
 # ---------------------------------------------------------------------------
-# Extraction helpers
+# XML extraction
 # ---------------------------------------------------------------------------
 
-def extract_all_topics(soup: BeautifulSoup) -> List[str]:
+def extract_all_topics(soup: BeautifulSoup) -> list[str]:
     """Extract all topic names from XML glossary elements."""
-    topics = []
-
+    topics: list[str] = []
     for glossary in soup.find_all("glossary"):
         for term in glossary.find_all("term"):
             topic_name = term.get_text(strip=True)
@@ -113,50 +196,15 @@ def extract_all_topics(soup: BeautifulSoup) -> List[str]:
                 topic_name = clean_topic_name(topic_name)
                 if topic_name:
                     topics.append(topic_name.upper())
-
     return sorted(set(topics))
 
 
-def extract_content_from_def(def_element) -> str:
-    """Extract clean content from definition element preserving hierarchy."""
-    content_lines = []
-
-    # Process all paragraphs with index classes
-    for p in def_element.find_all("p"):
-        classes = p.get("class", [])
-        line = p.get_text(strip=True)
-
-        if not line:
-            continue
-
-        # Determine indentation based on index class
-        if "index2" in classes:
-            line = f"  {line}"
-        elif "index3" in classes:
-            line = f"    {line}"
-        elif "index4" in classes:
-            line = f"      {line}"
-        # index1 or no class - no indentation
-
-        content_lines.append(line)
-
-    # Also capture any direct text content not in paragraphs
-    direct_text = def_element.get_text(strip=True)
-    if direct_text and not content_lines:
-        content_lines.append(direct_text)
-
-    return "\n".join(content_lines)
-
-
-def extract_see_also_from_def(def_element) -> List[str]:
+def extract_see_also_from_def(def_element) -> list[str]:
     """Extract see_also links from definition."""
-    see_also = []
-
+    see_also: list[str] = []
     for link in def_element.find_all("a", href=True):
         href = link.get("href", "")
         link_text = link.get_text(strip=True)
-
-        # CCEL internal links typically contain term references
         if "ttt." in href and "?term=" in href:
             term = href.split("?term=")[1]
             term = term.replace("+", " ").replace("%20", " ")
@@ -164,184 +212,153 @@ def extract_see_also_from_def(def_element) -> List[str]:
             if term:
                 see_also.append(term.upper())
         elif link_text and len(link_text) > 2:
-            # Use link text if it seems like a topic reference
             cleaned_text = clean_topic_name(link_text)
             if cleaned_text and len(cleaned_text) > 2:
                 see_also.append(cleaned_text.upper())
+    return sorted(set(see_also))
 
-    return sorted(list(set(see_also)))  # Remove duplicates and sort
+
+def _extract_label_from_p(p_element) -> str:
+    """Extract the aspect label from a <p> — text before the first scripRef."""
+    parts: list[str] = []
+    for child in p_element.children:
+        if isinstance(child, NavigableString):
+            parts.append(str(child))
+        elif child.name and child.name.lower() == "scripref":
+            break  # refs start here
+        elif child.name == "a":
+            # See-also link text — include it in label
+            parts.append(child.get_text())
+        else:
+            parts.append(child.get_text())
+    label = "".join(parts).strip()
+    # Clean leading/trailing separators and dots
+    label = re.sub(r"^[.\s]+", "", label)
+    label = re.sub(r"[\s\u2014\u2013—\-;,.\s]+$", "", label)
+    return label.strip()
 
 
-def extract_biblical_references_from_def(
-    def_element, topic_name: str
-) -> List[Dict]:
-    """Extract biblical references using scripRef tags."""
-    biblical_references = []
+def _extract_refs_from_p(p_element) -> list[str]:
+    """Extract normalized reference strings from scripRef tags within a <p>.
 
-    # Find all scripRef tags
-    scripref_tags = def_element.find_all(
-        lambda tag: tag.name and tag.name.lower() == "scripref"
-    )
+    Groups consecutive same-book-same-chapter refs into a single string.
+    Example: scripRef(Ro 9:18), scripRef(Ro 9:20), scripRef(Ro 9:22)
+             → ["Romans 9:18,20,22"]
+    """
+    # Collect all parsed refs from scripRef tags in this <p>
+    raw_refs: list[tuple[str, int, str]] = []  # (book, chapter, verse_part)
+    for sr in p_element.find_all(lambda tag: tag.name and tag.name.lower() == "scripref"):
+        passage = sr.get("passage", "")
+        if not passage:
+            # Try to reconstruct from parsed attr
+            parsed_attr = sr.get("parsed", "")
+            if parsed_attr:
+                parts = parsed_attr.strip("|").split("|")
+                if len(parts) >= 3:
+                    book_osis = parts[0]
+                    chapter = parts[1]
+                    start_v = parts[2]
+                    end_v = parts[4] if len(parts) >= 5 and parts[4] != "0" else ""
+                    canonical = normalize_book(book_osis)
+                    if canonical and chapter != "0":
+                        if end_v and end_v != start_v:
+                            raw_refs.append((canonical, int(chapter), f"{start_v}-{end_v}"))
+                        elif start_v != "0":
+                            raw_refs.append((canonical, int(chapter), start_v))
+            continue
 
-    for i, scripref in enumerate(scripref_tags):
-        parsed_attr = scripref.get("parsed", "")
-        passage = scripref.get("passage", "")
-        ref_text = scripref.get_text(strip=True)
+        canonical, cv = normalize_passage(passage)
+        if not canonical or not cv:
+            continue
 
-        # Parse the structured data
-        if parsed_attr:
-            # Format: |Book|Chapter|StartVerse|EndChapter|EndVerse|
-            parts = parsed_attr.strip("|").split("|")
-            if len(parts) >= 5:
-                book, chapter, start_verse, end_chapter, end_verse = parts[:5]
-            elif len(parts) >= 4:
-                book, chapter, start_verse, end_verse = parts[:4]
-                end_chapter = chapter
-            elif len(parts) >= 3:
-                book, chapter, start_verse = parts[:3]
-                end_verse = start_verse
-                end_chapter = chapter
-            else:
+        # Parse chapter:verse from cv
+        cv_match = re.match(r"(\d+):(.+)$", cv)
+        if cv_match:
+            chapter = int(cv_match.group(1))
+            verse_part = cv_match.group(2).strip()
+            raw_refs.append((canonical, chapter, verse_part))
+
+    if not raw_refs:
+        return []
+
+    # Group consecutive refs that share book+chapter
+    grouped: list[str] = []
+    current_book, current_chapter = raw_refs[0][0], raw_refs[0][1]
+    current_verses: list[str] = [raw_refs[0][2]]
+
+    for book, chapter, verse_part in raw_refs[1:]:
+        if book == current_book and chapter == current_chapter:
+            current_verses.append(verse_part)
+        else:
+            # Flush current group
+            grouped.append(f"{current_book} {current_chapter}:{','.join(current_verses)}")
+            current_book, current_chapter = book, chapter
+            current_verses = [verse_part]
+
+    # Flush last group
+    grouped.append(f"{current_book} {current_chapter}:{','.join(current_verses)}")
+
+    return grouped
+
+
+def extract_aspects_from_def(def_element) -> list[dict]:
+    """Extract structured aspects directly from XML <p> elements.
+
+    Each <p class="index1|index2|..."> becomes an aspect with:
+    - label: text content before scripRef tags
+    - references: list of normalized reference strings
+    """
+    aspects: list[dict] = []
+
+    for p in def_element.find_all("p"):
+        label = _extract_label_from_p(p)
+        refs = _extract_refs_from_p(p)
+
+        if label or refs:
+            aspects.append({
+                "label": label if label else "General references",
+                "references": refs,
+            })
+
+    return aspects
+
+
+def build_biblical_references(aspects: list[dict]) -> list[dict]:
+    """Build the biblical_references array from aspect references.
+
+    Deduplicates by (book, chapter, verses_tuple).
+    """
+    refs: list[dict] = []
+    seen: set[tuple] = set()
+
+    for asp in aspects:
+        for ref_str in asp.get("references", []):
+            m = re.match(r"^(.+?)\s+(\d+):(.+)$", ref_str)
+            if not m:
+                continue
+            book = m.group(1)
+            chapter = int(m.group(2))
+            verse_str = m.group(3)
+            verses = parse_verse_range(verse_str)
+            if not verses:
                 continue
 
-            # Convert to our format
-            parsed_ref = create_biblical_reference(
-                book=book,
-                chapter=(
-                    int(chapter) if chapter and chapter != "0" else 1
-                ),
-                start_verse=(
-                    int(start_verse)
-                    if start_verse and start_verse != "0"
-                    else 1
-                ),
-                end_verse=(
-                    int(end_verse)
-                    if end_verse
-                    and end_verse != "0"
-                    and end_verse != start_verse
-                    else None
-                ),
-                original_abbreviation=ref_text or passage,
-                topic_name=topic_name,
-                index=i,
-            )
+            key = (book, chapter, tuple(verses))
+            if key in seen:
+                continue
+            seen.add(key)
 
-            if parsed_ref:
-                biblical_references.append(parsed_ref)
-
-    return biblical_references
-
-
-def create_biblical_reference(
-    book: str,
-    chapter: int,
-    start_verse: int,
-    end_verse: Optional[int],
-    original_abbreviation: str,
-    topic_name: str,
-    index: int,
-) -> Optional[Dict]:
-    """Create a biblical reference in our standard format."""
-    testament = get_testament_type(book)
-    if testament is None:
-        # Default to OT if unknown
-        testament = "old_testament"
-
-    # Determine range kind
-    if end_verse and end_verse != start_verse:
-        range_kind = "range"
-        final_verse = end_verse
-    else:
-        range_kind = "verse"
-        final_verse = start_verse
-
-    # Create OSIS citation
-    if range_kind == "range":
-        osis_citation = (
-            f"{book}.{chapter}.{start_verse}-{book}.{chapter}.{final_verse}"
-        )
-    else:
-        osis_citation = f"{book}.{chapter}.{start_verse}"
-
-    return {
-        "ref_id": (
-            f"TOR:{create_topic_slug(topic_name)}"
-            f"#general_references#{book}.{chapter}.{start_verse}"
-        ),
-        "entry_label": "General references",
-        "book": book,
-        "chapter": chapter,
-        "start_verse": start_verse,
-        "end_verse": final_verse,
-        "range_kind": range_kind,
-        "osis_citation": osis_citation,
-        "original_abbreviation": original_abbreviation,
-        "testament": testament,
-        "context": original_abbreviation,
-        "group_idx": 0,
-    }
-
-
-def create_reference_groups_from_def(def_element) -> List[Dict]:
-    """Create reference groups from definition structure."""
-    groups = []
-
-    # Extract index1 level entries as main groups
-    for i, p in enumerate(def_element.find_all("p")):
-        classes = p.get("class", [])
-        entry_text = p.get_text(strip=True)
-
-        if entry_text and ("index1" in classes or not classes):
-            groups.append({
-                "idx": i,
-                "entry_label": entry_text,
-                "raw_segment": entry_text,
+            testament = "OT" if book in OT_BOOKS else "NT"
+            refs.append({
+                "book": book,
+                "chapter": chapter,
+                "verses": verses,
+                "verse_count": len(verses),
+                "testament": testament,
+                "raw": ref_str,
             })
 
-    # If no groups found, create a default one
-    if not groups:
-        content = def_element.get_text(strip=True)
-        if content:
-            groups.append({
-                "idx": 0,
-                "entry_label": "General references",
-                "raw_segment": (
-                    content[:200] + "..." if len(content) > 200 else content
-                ),
-            })
-
-    return groups
-
-
-def calculate_topic_stats(biblical_references: List[Dict]) -> Dict:
-    """Calculate statistics for the topic."""
-    ot_refs = sum(
-        1 for ref in biblical_references
-        if ref.get("testament") == "old_testament"
-    )
-    nt_refs = sum(
-        1 for ref in biblical_references
-        if ref.get("testament") == "new_testament"
-    )
-
-    book_counts: Dict[str, int] = {}
-    for ref in biblical_references:
-        book = ref["book"]
-        book_counts[book] = book_counts.get(book, 0) + 1
-
-    top_books = sorted(
-        book_counts.keys(), key=lambda x: book_counts[x], reverse=True
-    )
-
-    return {
-        "entries_count": 1,
-        "ot_refs": ot_refs,
-        "nt_refs": nt_refs,
-        "total_verses": len(biblical_references),
-        "top_books": top_books,
-        "ref_counts_by_book": book_counts,
-    }
+    return refs
 
 
 # ---------------------------------------------------------------------------
@@ -350,7 +367,7 @@ def calculate_topic_stats(biblical_references: List[Dict]) -> Dict:
 
 def parse_topic_from_xml(
     soup: BeautifulSoup, topic_name: str, *, verbose: bool = False
-) -> Optional[Dict]:
+) -> Optional[dict]:
     """Parse a single topic from XML using ThML structure."""
     # Find the term element matching our topic
     term_element = None
@@ -375,10 +392,7 @@ def parse_topic_from_xml(
                 ):
                     term_element = term
                     if verbose:
-                        print(
-                            f"   Partial match found: '{term_text}'"
-                            f" for '{topic_name}'"
-                        )
+                        print(f"   Partial match: '{term_text}' for '{topic_name}'")
                     break
             if term_element:
                 break
@@ -391,7 +405,6 @@ def parse_topic_from_xml(
     # Find the corresponding definition
     def_element = term_element.find_next_sibling("def")
     if not def_element:
-        # Try finding def in same parent
         parent = term_element.parent
         def_element = parent.find("def")
 
@@ -400,81 +413,41 @@ def parse_topic_from_xml(
             print(f"   Definition not found for: {topic_name}")
         return None
 
-    # Extract content and data
-    main_content = extract_content_from_def(def_element)
-    see_also = extract_see_also_from_def(def_element)
-    biblical_references = extract_biblical_references_from_def(
-        def_element, topic_name
-    )
-    reference_groups = create_reference_groups_from_def(def_element)
-
-    # Calculate stats
-    stats = calculate_topic_stats(biblical_references)
-
-    # Use the original term text as found, not the search term
+    # Extract data directly from XML structure
     original_topic_name = clean_topic_name(term_element.get_text(strip=True))
+    slug = create_topic_slug(original_topic_name)
+    see_also = extract_see_also_from_def(def_element)
+    aspects = extract_aspects_from_def(def_element)
+    biblical_refs = build_biblical_references(aspects)
 
-    # Build topic data
+    # Stats
+    books_mentioned = sorted(set(r["book"] for r in biblical_refs))
+    ot_refs = sum(1 for r in biblical_refs if r["testament"] == "OT")
+    nt_refs = sum(1 for r in biblical_refs if r["testament"] == "NT")
+    book_counts = Counter(r["book"] for r in biblical_refs)
+    top_books = [b for b, _ in book_counts.most_common(10)]
+
     topic_data = {
         "topic": original_topic_name.upper(),
-        "topic_slug": create_topic_slug(original_topic_name),
-        "canonical_id": f"TOR:{create_topic_slug(original_topic_name)}",
-        "aliases": [],
+        "slug": slug,
+        "canonical_id": f"TOR:{slug}",
+        "source": "TOR",
         "see_also": see_also,
-        "see_also_resolved": resolve_see_also_links(see_also),
-        "raw_block": main_content[:1000],
-        "content_preview": create_content_preview(main_content),
-        "reference_groups": reference_groups,
-        "biblical_references": biblical_references,
-        "books_mentioned": list(
-            set(ref["book"] for ref in biblical_references)
-        ),
-        "normalized_labels": [],
-        "stats": stats,
-        "source": {
-            "provider": "ccel",
-            "work": "Torrey's Topical Textbook",
-            "format": "xml",
-            "fetched_at": datetime.now().strftime("%Y-%m-%d"),
-            "source_url": None,
-            "local_file": str(XML_FILE),
+        "aspects": aspects,
+        "biblical_references": biblical_refs,
+        "books_mentioned": books_mentioned,
+        "stats": {
+            "total_aspects": len(aspects),
+            "total_refs": len(biblical_refs),
+            "ot_refs": ot_refs,
+            "nt_refs": nt_refs,
+            "books_count": len(books_mentioned),
+            "top_books": top_books,
         },
-        "metadata": {
-            "parser": "ccel-torrey-xml-parser",
-            "parser_version": "2025.09.19",
-            "schema_version": "scrape.v1",
-            "language": {
-                "code": "en",
-                "name": "English",
-                "direction": "ltr",
-            },
-            "integrity": {
-                "checksum_raw_block": (
-                    f"sha256:{hashlib.sha256(main_content.encode()).hexdigest()}"
-                ),
-                "position": {
-                    "start_line": None,
-                    "end_line": None,
-                    "total_lines": main_content.count("\n") + 1,
-                },
-            },
-            "notes": [
-                "XML-based parsing from official CCEL ThML source",
-                "Perfect biblical reference extraction with scripRef",
-                "Hierarchical content structure preservation",
-                "Glossary-based topic organization",
-            ],
-        },
-        "total_references": len(biblical_references),
-        "version": "1.0.0",
-        "created_at": datetime.now().isoformat() + "Z",
-        "updated_at": datetime.now().isoformat() + "Z",
     }
 
     if verbose:
-        refs_count = len(biblical_references)
-        see_also_count = len(see_also)
-        print(f"   {refs_count} references, {see_also_count} see-also links")
+        print(f"   {len(aspects)} aspects, {len(biblical_refs)} refs")
 
     return topic_data
 
@@ -484,14 +457,14 @@ def parse_topic_from_xml(
 # ---------------------------------------------------------------------------
 
 def save_topic_data(
-    topic_name: str, topic_data: Dict, output_dir: Path, *, verbose: bool = False
+    topic_name: str, topic_data: dict, output_dir: Path, *, verbose: bool = False
 ) -> None:
-    """Save topic data to JSON file."""
+    """Save topic data to JSON file in A-Z/ directory structure."""
     first_letter = topic_name[0].upper()
-    topic_dir = output_dir / "topics" / first_letter
+    topic_dir = output_dir / first_letter
     topic_dir.mkdir(parents=True, exist_ok=True)
 
-    file_path = topic_dir / f"{topic_name}.json"
+    file_path = topic_dir / f"{topic_data['topic']}.json"
     with open(file_path, "w", encoding="utf-8") as f:
         json.dump(topic_data, f, indent=2, ensure_ascii=False)
 
@@ -505,7 +478,7 @@ def save_topic_data(
 
 def process_topics(
     soup: BeautifulSoup,
-    topics: List[str],
+    topics: list[str],
     output_dir: Path,
     *,
     verbose: bool = False,
@@ -514,6 +487,8 @@ def process_topics(
     """Process list of topics."""
     total = len(topics)
     successful = 0
+    total_aspects = 0
+    total_refs = 0
 
     for i, topic in enumerate(topics, 1):
         if verbose:
@@ -528,12 +503,20 @@ def process_topics(
             if topic_data:
                 save_topic_data(topic, topic_data, output_dir, verbose=verbose)
                 successful += 1
+                total_aspects += topic_data["stats"]["total_aspects"]
+                total_refs += topic_data["stats"]["total_refs"]
 
         except Exception as e:
+            print(f"   Error processing {topic}: {e}")
             if verbose:
-                print(f"   Error processing {topic}: {e}")
+                import traceback
+                traceback.print_exc()
 
-    print(f"Completed: {successful}/{total} topics processed successfully")
+    print(f"\nCompleted: {successful}/{total} topics")
+    print(f"Total aspects: {total_aspects}")
+    print(f"Total refs: {total_refs}")
+    print(f"Avg aspects/topic: {total_aspects / max(successful, 1):.1f}")
+    print(f"Avg refs/topic: {total_refs / max(successful, 1):.1f}")
 
 
 # ---------------------------------------------------------------------------
@@ -567,24 +550,20 @@ def main() -> None:
     output_dir = OUTPUT_DIR
 
     if verbose:
-        print("CCEL Torrey's XML Parser")
+        print("CCEL Torrey's XML Parser v2")
         print("=" * 50)
 
-    # Check XML file exists
     if not XML_FILE.exists():
         print(f"XML file not found: {XML_FILE}")
         return
 
-    # Create output directory
     output_dir.mkdir(parents=True, exist_ok=True)
     if verbose:
         print(f"Output directory: {output_dir}")
 
-    # Parse XML
     with open(XML_FILE, "r", encoding="utf-8") as f:
         soup = BeautifulSoup(f, "html.parser")
 
-    # Determine topics
     if args.all:
         topics = extract_all_topics(soup)
     elif args.topics:

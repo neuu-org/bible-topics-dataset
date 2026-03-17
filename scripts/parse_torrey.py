@@ -307,18 +307,67 @@ def extract_aspects_from_def(def_element) -> list[dict]:
     Each <p class="index1|index2|..."> becomes an aspect with:
     - label: text content before scripRef tags
     - references: list of normalized reference strings
+    - level: hierarchy depth from CSS class (1=top, 2=child, etc.)
+
+    Headers (level 1, no refs) are merged with their children (level 2+):
+      "Experienced by" (no refs) + "Believers" (refs) → "Experienced by: Believers"
     """
-    aspects: list[dict] = []
+    # First pass: extract raw aspects with level info
+    raw_aspects: list[dict] = []
 
     for p in def_element.find_all("p"):
         label = _extract_label_from_p(p)
         refs = _extract_refs_from_p(p)
 
+        # Extract level from CSS class (index1 → 1, index2 → 2, etc.)
+        level = 1
+        css_classes = p.get("class", [])
+        for cls in css_classes:
+            m = re.match(r"index(\d+)", cls)
+            if m:
+                level = int(m.group(1))
+                break
+
         if label or refs:
-            aspects.append({
+            raw_aspects.append({
                 "label": label if label else "General references",
                 "references": refs,
+                "level": level,
             })
+
+    # Second pass: merge headers with children
+    aspects: list[dict] = []
+    i = 0
+    while i < len(raw_aspects):
+        asp = raw_aspects[i]
+        label = asp["label"]
+        refs = asp["references"]
+        level = asp["level"]
+
+        if not refs and level == 1 and not label.startswith("See"):
+            # Header without refs — merge with following level 2+ children
+            header = label
+            j = i + 1
+            merged_any = False
+            while j < len(raw_aspects) and raw_aspects[j]["level"] > level:
+                child = raw_aspects[j]
+                child_label = child["label"]
+                child_refs = child["references"]
+                new_label = f"{header}: {child_label}" if child_label else header
+                aspects.append({
+                    "label": new_label,
+                    "references": child_refs,
+                    "level": level,
+                })
+                merged_any = True
+                j += 1
+            if not merged_any:
+                # Standalone header with no children — keep as-is
+                aspects.append({"label": label, "references": refs, "level": level})
+            i = j
+        else:
+            aspects.append({"label": label, "references": refs, "level": level})
+            i += 1
 
     return aspects
 

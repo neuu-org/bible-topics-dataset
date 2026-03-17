@@ -206,9 +206,16 @@ def extract_refs_from_text(text: str) -> list[dict]:
 
 
 def parse_aspects(raw_block: str) -> list[dict]:
-    """Parse raw_block into structured aspects with labels and references."""
+    """Parse raw_block into structured aspects with labels and references.
+
+    Handles cases where:
+    - Book abbreviation is glued to text: "ShechemitesJud 9:4"
+    - Refs continue without book name: "Pr 2:16;5:3;6:24" (all Proverbs)
+    - Orphan numeric refs: "1:5,22;2:38" inherit book from context
+    """
     aspects = []
     lines = raw_block.split("\n")
+    last_book_in_context = None  # Track book across lines
 
     for line in lines:
         line = line.strip()
@@ -220,22 +227,56 @@ def parse_aspects(raw_block: str) -> list[dict]:
             line = line[1:].strip()
 
         # Find where refs start by trying each book pattern before a chapter:verse
-        # This correctly handles "ShechemitesJud 9:4" → label="A god of the Shechemites"
         split_pos = None
-        for pattern in BOOK_PATTERNS:
+        matched_book = None
+        for pattern, book in BOOK_PATTERNS.items():
             m = re.search(rf"{pattern}\s*\d+:", line, re.IGNORECASE)
             if m:
                 if split_pos is None or m.start() < split_pos:
                     split_pos = m.start()
+                    matched_book = book
 
         if split_pos is not None:
             label = line[:split_pos].strip()
             ref_text = line[split_pos:]
             refs = extract_refs_from_text(ref_text)
             ref_strings = [r["raw"] for r in refs]
+            if matched_book:
+                last_book_in_context = matched_book
         else:
-            label = line
-            ref_strings = []
+            # No book pattern found — check if line has orphan chapter:verse patterns
+            # like "1:5,22;2:38,41;8:12" that should inherit the last known book
+            orphan_cv = re.findall(r"\d+:\d+", line)
+            if orphan_cv and last_book_in_context:
+                # This line is continuation refs without book name
+                # Prepend the last known book abbreviation so the parser can handle it
+                # Find the shortest abbreviation for the book
+                book_abbrev = None
+                for pattern, book in BOOK_PATTERNS.items():
+                    if book == last_book_in_context:
+                        # Extract the simplest abbreviation from the pattern
+                        clean = re.sub(r"\(\?:.*?\)\??|\\.|\?|\\s\*|\^|\$", "", pattern)
+                        clean = clean.replace("(?:", "").replace(")?", "").replace("(", "").replace(")", "")
+                        if clean and len(clean) >= 2:
+                            book_abbrev = clean[:3]
+                            break
+                if book_abbrev:
+                    # Find where the numeric refs start in the line
+                    first_cv = re.search(r"\d+:\d+", line)
+                    if first_cv:
+                        label = line[:first_cv.start()].strip()
+                        ref_text = f"{book_abbrev} " + line[first_cv.start():]
+                        refs = extract_refs_from_text(ref_text)
+                        ref_strings = [r["raw"] for r in refs]
+                    else:
+                        label = line
+                        ref_strings = []
+                else:
+                    label = line
+                    ref_strings = []
+            else:
+                label = line
+                ref_strings = []
 
         if label or ref_strings:
             aspects.append({

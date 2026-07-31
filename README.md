@@ -111,8 +111,10 @@ Per-file topics from each source independently. Useful for provenance tracking a
 
 ### Requirements
 
+Python 3.10+ is required — the scripts use PEP 604 `X | None` syntax.
+
 ```bash
-pip install beautifulsoup4  # For parse_nave.py and parse_torrey.py
+pip install -r requirements.txt
 ```
 
 ### Reproducing from scratch

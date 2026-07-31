@@ -1,0 +1,50 @@
+name: New source
+description: Propose adding a new topical reference work to the dataset.
+title: "source: "
+labels: ["new-source"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for proposing a new source. See [CONTRIBUTING.md](../../CONTRIBUTING.md#proposing-a-new-source)
+        for the bar a source needs to clear: public domain (or compatibly
+        licensed), documented provenance, and a parser. Please open this
+        issue before writing the parser so licence and scope can be
+        confirmed first.
+  - type: input
+    id: source-name
+    attributes:
+      label: Source name
+      description: The work's full title and author.
+      placeholder: "e.g. Torrey's New Topical Textbook, by R. A. Torrey"
+    validations:
+      required: true
+  - type: input
+    id: publication-year
+    attributes:
+      label: Publication year
+      placeholder: "1897"
+    validations:
+      required: true
+  - type: textarea
+    id: licence-status
+    attributes:
+      label: Licence / public domain status
+      description: Why this source can be included under CC BY 4.0 — public domain by age, explicit compatible licence, etc.
+    validations:
+      required: true
+  - type: input
+    id: machine-readable-location
+    attributes:
+      label: Where the machine-readable form lives
+      description: A link to the digitised text (e.g. a CCEL page, an archive.org scan with OCR, an existing structured export).
+    validations:
+      required: true
+  - type: input
+    id: record-count
+    attributes:
+      label: Approximate record count
+      description: Roughly how many topics/entries this source would add.
+      placeholder: "e.g. ~600 topics"
+    validations:
+      required: false

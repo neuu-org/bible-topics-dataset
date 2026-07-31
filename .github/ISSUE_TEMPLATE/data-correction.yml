@@ -1,0 +1,48 @@
+name: Data correction
+description: Report a wrong value in a published data file.
+title: "data: "
+labels: ["data-correction"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a data error. See [CONTRIBUTING.md](../../CONTRIBUTING.md#correcting-a-data-error)
+        for how corrections flow through the pipeline — files under `data/`
+        are generated, so the fix usually belongs in a script under `scripts/`,
+        not in the JSON file itself.
+  - type: input
+    id: file-path
+    attributes:
+      label: Affected file path
+      description: The exact path under data/, e.g. data/01_parsed/A/abraham.json
+      placeholder: data/01_parsed/A/abraham.json
+    validations:
+      required: true
+  - type: textarea
+    id: incorrect-value
+    attributes:
+      label: Incorrect value
+      description: What field is wrong, and what does it currently say?
+    validations:
+      required: true
+  - type: textarea
+    id: expected-value
+    attributes:
+      label: Expected value
+      description: What should the field say instead?
+    validations:
+      required: true
+  - type: textarea
+    id: supporting-source
+    attributes:
+      label: Supporting source
+      description: A citation, source XML excerpt, or reference that supports the correction.
+    validations:
+      required: true
+  - type: textarea
+    id: how-found
+    attributes:
+      label: How it was found
+      description: Manual review, cross-check against another dataset, an automated script, etc.
+    validations:
+      required: false

@@ -1,3 +1,12 @@
-data/01_parsed/**/*.json filter=lfs diff=lfs merge=lfs -text
-data/02_sources/**/*.json filter=lfs diff=lfs merge=lfs -text
-data/03_pilot/**/*.json filter=lfs diff=lfs merge=lfs -text
+# This repository does NOT use Git LFS. The JSON under data/ is committed as
+# ordinary blobs.
+#
+# Do not add `filter=lfs` rules here on their own. Routing a path to LFS while
+# its committed blobs are still plain content makes every one of those files
+# show up as modified in a clean clone: the working copy gets clean-filtered
+# into a pointer and compared against the real blob. A contributor cloning the
+# repo then sees hundreds of files they never touched.
+#
+# If LFS is wanted, it takes a deliberate migration (`git lfs migrate import`)
+# that rewrites history, plus a force-push and a heads-up to anyone holding a
+# fork — not a rule added here.

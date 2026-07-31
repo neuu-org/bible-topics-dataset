@@ -173,7 +173,10 @@ see [docs/ENRICHMENT_PLAN.md](docs/ENRICHMENT_PLAN.md) and the
 
 ## License
 
-All source works are **public domain** (1863-1897). Unified dataset and AI enrichments: **CC BY 4.0**.
+This dataset is licensed **CC BY 4.0** — see [LICENSE](LICENSE) for the full
+legal text. Attribution requirements and source provenance (Nave, Torrey,
+and CCEL digitisation credit) are in [NOTICE](NOTICE). Citation metadata
+is in [CITATION.cff](CITATION.cff).
 
 ## Related Datasets (NEUU Ecosystem)
 

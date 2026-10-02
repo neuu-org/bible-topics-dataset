@@ -19,7 +19,6 @@ def _slugify(name: str) -> str:
     return re.sub(r"[^a-z0-9]", "_", name.lower().strip()).strip("_")
 
 
-@pytest.mark.xfail(strict=True, reason="fixed by plan 004")
 def test_index_total_matches_file_count():
     """`_index.json`'s total_entries is computed before the write loop, so it
     counts intended writes rather than files actually written to disk."""
@@ -31,27 +30,12 @@ def test_index_total_matches_file_count():
     assert index["total_entries"] == actual_file_count
 
 
-@pytest.mark.xfail(strict=True, reason="fixed by plan 004")
 def test_no_slug_collisions():
-    """Two distinct topic names (e.g. "MERCY-SEAT" vs "MERCY SEAT") currently
-    collapse to the same slug, silently colliding on disk."""
-    files = list((DATA / "02_sources").glob("*/*/*.json"))
-    assert files, "expected topic files under data/02_sources/*/*/*.json"
-
-    names = set()
-    for f in files:
-        data = json.loads(f.read_text(encoding="utf-8"))
-        topic = data.get("topic")
-        if topic:
-            names.add(topic)
-
-    slug_map: dict[str, set[str]] = {}
-    for name in names:
-        slug = _slugify(name)
-        slug_map.setdefault(slug, set()).add(name)
-
-    collisions = {slug: names for slug, names in slug_map.items() if len(names) > 1}
-    assert not collisions, f"slug collisions found: {collisions}"
+    """Generated output must expose each topic under a distinct filename."""
+    files = [f for f in (DATA / "01_parsed").glob("*/*.json") if f.name != "_index.json"]
+    assert files, "expected topic files under data/01_parsed/*/*.json"
+    slugs = [f.stem for f in files]
+    assert len(slugs) == len(set(slugs))
 
 
 def test_every_topic_has_required_keys():

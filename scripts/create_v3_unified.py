@@ -185,6 +185,7 @@ def main():
     total_refs = 0
     total_aspects = 0
     by_letter = Counter()
+    used_slugs: set[str] = set()
 
     for topic_name in all_names:
         nave = nave_topics.get(topic_name)
@@ -194,12 +195,24 @@ def main():
         total_refs += merged["stats"]["total_refs"]
         total_aspects += merged["stats"]["total_aspects"]
 
+        # Keep every topic addressable when distinct names normalize to the
+        # same slug (for example, a space versus a hyphen).  Never overwrite
+        # an earlier topic silently; suffix later collisions deterministically.
+        base_slug = merged["slug"]
+        slug = base_slug
+        suffix = 2
+        while slug in used_slugs:
+            slug = f"{base_slug}_{suffix}"
+            suffix += 1
+        used_slugs.add(slug)
+        merged["slug"] = slug
+
         # Write to letter directory
-        letter = merged["slug"][0].upper() if merged["slug"] else "Z"
+        letter = slug[0].upper() if slug else "Z"
         letter_dir = OUTPUT_DIR / letter
         letter_dir.mkdir(exist_ok=True)
 
-        out_file = letter_dir / f"{merged['slug']}.json"
+        out_file = letter_dir / f"{slug}.json"
         with open(out_file, "w", encoding="utf-8") as f:
             json.dump(merged, f, indent=2, ensure_ascii=False)
 
@@ -211,7 +224,7 @@ def main():
 
     # Write _index.json
     index = {
-        "total_entries": len(all_names),
+        "total_entries": len(used_slugs),
         "sources": {
             "nave": len(nave_topics),
             "torrey": len(torrey_topics),

@@ -1,28 +1,17 @@
 """Pin the current data-integrity invariants of the pipeline output.
 
-Two tests here are expected to FAIL against the current data on disk — that
-is intentional. They are marked `xfail(strict=True)` so the suite is green
-today, and will turn red (an unexpected pass) the day the underlying bug is
-fixed, forcing whoever lands that fix to remove the marker deliberately.
+Topics must survive merging, with unique output slugs and an accurate index.
 """
 
 import json
-import re
 
 import pytest
 
-from tests.conftest import DATA
+from tests.conftest import DATA, load_script
 
 
-def _slugify(name: str) -> str:
-    """Same slug rule the pipeline uses to derive file names from topic names."""
-    return re.sub(r"[^a-z0-9]", "_", name.lower().strip()).strip("_")
-
-
-@pytest.mark.xfail(strict=True, reason="fixed by plan 004")
 def test_index_total_matches_file_count():
-    """`_index.json`'s total_entries is computed before the write loop, so it
-    counts intended writes rather than files actually written to disk."""
+    """The index count must match files actually written to disk."""
     index_path = DATA / "01_parsed" / "_index.json"
     index = json.loads(index_path.read_text(encoding="utf-8"))
 
@@ -31,10 +20,8 @@ def test_index_total_matches_file_count():
     assert index["total_entries"] == actual_file_count
 
 
-@pytest.mark.xfail(strict=True, reason="fixed by plan 004")
 def test_no_slug_collisions():
-    """Two distinct topic names (e.g. "MERCY-SEAT" vs "MERCY SEAT") currently
-    collapse to the same slug, silently colliding on disk."""
+    """Distinct topic names must survive merging even when their source slugs collide."""
     files = list((DATA / "02_sources").glob("*/*/*.json"))
     assert files, "expected topic files under data/02_sources/*/*/*.json"
 
@@ -45,13 +32,26 @@ def test_no_slug_collisions():
         if topic:
             names.add(topic)
 
-    slug_map: dict[str, set[str]] = {}
-    for name in names:
-        slug = _slugify(name)
-        slug_map.setdefault(slug, set()).add(name)
+    output = [json.loads(f.read_text(encoding="utf-8"))
+              for f in (DATA / "01_parsed").glob("*/*.json")]
+    assert {item["topic"].upper() for item in output} == {name.upper() for name in names}
+    assert len({item["slug"] for item in output}) == len(output)
 
-    collisions = {slug: names for slug, names in slug_map.items() if len(names) > 1}
-    assert not collisions, f"slug collisions found: {collisions}"
+
+def test_disambiguation_preserves_winner_and_reserves_existing_suffixes():
+    module = load_script("create_v3_unified")
+    topics = [
+        {"topic": "MERCY SEAT", "slug": "mercy_seat"},
+        {"topic": "MERCY-SEAT", "slug": "mercy_seat"},
+        {"topic": "MERCY_SEAT_2", "slug": "mercy_seat_2"},
+    ]
+    collisions = module.disambiguate_slugs(topics)
+    assert [item["slug"] for item in topics] == ["mercy_seat_3", "mercy_seat", "mercy_seat_2"]
+    assert collisions == [{"original_slug": "mercy_seat", "topics": [
+        {"topic": "MERCY SEAT", "slug": "mercy_seat_3"},
+        {"topic": "MERCY-SEAT", "slug": "mercy_seat"},
+    ]}]
+    assert module.disambiguate_slugs(topics) == []
 
 
 def test_every_topic_has_required_keys():

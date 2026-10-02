@@ -1,5 +1,10 @@
 # Changelog
 
+## [Unreleased]
+
+### Fixed
+- Disambiguate colliding merged topic slugs with numeric suffixes, preserving existing unsuffixed files and reserving natural suffixes. Regeneration restores HEAVE OFFERING and MERCY SEAT, records collision mappings in the index, and refreshes measured statistics.
+
 ## [1.1.0] - 2026-03-16
 
 ### Added

@@ -61,9 +61,8 @@ pip install -r requirements-dev.txt
 python -m pytest tests/ -v
 ```
 
-Expect **9 tests: 5 pass, 4 xfail**. The 4 `xfail(strict=True)` results are
-**deliberate tripwires for known, unfixed bugs** (slug collisions and the Nave
-reference-extraction indentation bug) — they are not a broken suite. If your
+Expect **10 tests: 8 pass, 2 xfail**. The 2 `xfail(strict=True)` results are
+**deliberate tripwires for known, unfixed bugs** (the Nave reference-extraction indentation bug) — they are not a broken suite. If your
 change happens to fix one of them, the marked test will flip from an expected
 failure to an **unexpected pass**, which turns the suite red. That is the
 signal to remove that `xfail` marker as part of your fix, not to work around

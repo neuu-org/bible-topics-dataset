@@ -143,6 +143,34 @@ def merge_topics(nave: dict | None, torrey: dict | None) -> dict:
     }
 
 
+def disambiguate_slugs(topics: list[dict]) -> list[dict]:
+    """Give colliding topics unique slugs while retaining existing unsuffixed winners.
+
+    The previous write loop kept the last topic for each slug. Reserve every
+    original slug first so generated suffixes cannot overwrite a real topic.
+    """
+    groups = {}
+    for topic in topics:
+        groups.setdefault(topic["slug"], []).append(topic)
+    used = set(groups)
+    collisions = []
+    for slug, group in sorted(groups.items()):
+        if len(group) < 2:
+            continue
+        suffix = 2
+        for topic in group[:-1]:
+            while f"{slug}_{suffix}" in used:
+                suffix += 1
+            topic["slug"] = f"{slug}_{suffix}"
+            used.add(topic["slug"])
+            suffix += 1
+        collisions.append({
+            "original_slug": slug,
+            "topics": [{"topic": item["topic"], "slug": item["slug"]} for item in group],
+        })
+    return collisions
+
+
 def main():
     parser = argparse.ArgumentParser(description="Merge Nave + Torrey into 01_parsed")
     parser.add_argument("--verbose", action="store_true")
@@ -186,11 +214,10 @@ def main():
     total_aspects = 0
     by_letter = Counter()
 
-    for topic_name in all_names:
-        nave = nave_topics.get(topic_name)
-        torrey = torrey_topics.get(topic_name)
-
-        merged = merge_topics(nave, torrey)
+    merged_topics = [merge_topics(nave_topics.get(name), torrey_topics.get(name))
+                     for name in all_names]
+    slug_collisions = disambiguate_slugs(merged_topics)
+    for merged in merged_topics:
         total_refs += merged["stats"]["total_refs"]
         total_aspects += merged["stats"]["total_aspects"]
 
@@ -211,7 +238,8 @@ def main():
 
     # Write _index.json
     index = {
-        "total_entries": len(all_names),
+        "total_entries": sum(by_letter.values()),
+        "slug_collisions": slug_collisions,
         "sources": {
             "nave": len(nave_topics),
             "torrey": len(torrey_topics),

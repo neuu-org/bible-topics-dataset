@@ -19,6 +19,6 @@ regenerated output? Files under data/ are generated — see CONTRIBUTING.md. -->
 
 <!-- Paste the command you ran and its result, e.g. `python -m pytest tests/ -v` -->
 
-- [ ] `python -m pytest tests/ -v` passes (9 tests, 4 expected `xfail`)
+- [ ] `python -m pytest tests/ -v` passes (10 tests, 2 expected `xfail`)
 - [ ] Any new/changed script was run against real data, not just imported
 - [ ] Licence of any new source is compatible with CC BY 4.0 (see CONTRIBUTING.md)

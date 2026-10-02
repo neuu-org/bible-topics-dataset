@@ -8,23 +8,24 @@ Part of the [NEUU](https://github.com/neuu-org) biblical scholarship ecosystem.
 
 | Metric | Value |
 |--------|-------|
-| Total topics (`data/01_parsed`) | 5,745 |
+| Total topics (`data/01_parsed`) | 5,747 |
 | Nave source topics (`data/02_sources/nave`, source-layer count) | 5,320 |
 | Torrey source topics (`data/02_sources/torrey`, source-layer count) | 622 |
 | `01_parsed` topics with `definitions` | 0 (0.0%) — not merged into this layer yet, see `data/03_pilot` |
 | `01_parsed` topics with `ai_enrichment` | 0 (0.0%) — not run on this layer yet, see `data/03_pilot` |
 | `03_pilot` topics with `definitions` | 288 (85.7%) |
 | `03_pilot` topics with `ai_enrichment` | 336 (100.0%) |
-| Biblical references in `01_parsed` | 65,485 |
-| `01_parsed` topics by source: NAV | 5,319 |
-| `01_parsed` topics by source: TOR | 620 |
+| Biblical references in `01_parsed` | 65,502 |
+| `01_parsed` topics by source: NAV | 5,320 |
+| `01_parsed` topics by source: TOR | 621 |
 
-The `01_parsed` by-source counts (5,319 / 620) are slightly lower than the
-source-layer counts (5,320 / 622) because two topics currently collide on
-their generated slug during the merge — a known issue tracked for a future
-fix.
+Colliding topic names are retained with numeric slug suffixes. Existing
+unsuffixed filenames remain unchanged; `_index.json` records the original
+slug and the assigned filenames for each collision. The merged Torrey count
+(621) differs from its source-layer file count (622) because source names
+are normalized before merging.
 
-_Measured 2026-07-31 at commit `bbf86f33`. Regenerate with
+_Measured 2026-10-02 at commit `eeb9b741`. Regenerate with
 `python scripts/generate_stats.py`, which writes `data/stats.json` and
 prints this table._
 

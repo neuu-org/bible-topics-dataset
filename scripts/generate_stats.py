@@ -3,9 +3,7 @@
 Measure the repository's data layers and write data/stats.json.
 
 Every number here comes from files on disk — nothing is copied from
-`_index.json` (whose `total_entries` is known to disagree with the actual
-file count on disk, see tests/test_data_integrity.py) and nothing is
-hand-typed. Run this whenever the data changes and the README's Overview
+`_index.json` and nothing is hand-typed. Run this whenever the data changes and the README's Overview
 table needs to be refreshed.
 
 Reads:  data/01_parsed/*/*.json
